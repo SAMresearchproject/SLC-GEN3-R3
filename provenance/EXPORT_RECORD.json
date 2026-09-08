@@ -1,0 +1,35 @@
+{
+  "schema": "SAM_STANDALONE_EXPORT_RECORD_V1",
+  "release": "SLC-GEN2-R4-RESEARCH-20260907-1",
+  "destination": "https://github.com/SAMresearchproject/SLC-GEN2-R4",
+  "branch": "main",
+  "destination_visibility_at_preflight": "internal",
+  "scope": "Portable computational source export with unchanged upstream arithmetic, exact fixtures, research-only licence, copyright notices and stewardship",
+  "source_manifest": "SOURCE_MANIFEST.json",
+  "validation": "EXPORT_VALIDATION.json",
+  "rights_register": "../legal/RIGHTS_REGISTER.json",
+  "local_suite": {
+    "status": "PASS",
+    "test_methods": 6,
+    "integration_subcases": 35
+  },
+  "isolated_suite": {
+    "status": "PASS",
+    "record": "EXPORT_VALIDATION.json"
+  },
+  "export_inspection": {
+    "credential_pattern_hits": 0,
+    "patterns": [
+      "private-key headers",
+      "GitHub tokens",
+      "OpenAI keys",
+      "AWS access IDs"
+    ],
+    "new_document_local_links": "PASS; preserved historical documents retain original-workspace links"
+  },
+  "preserved_failure": "An initial dependency-isolation invocation using python -S could not import NumPy; NumPy is now an explicit runtime requirement. No computational sources were changed.",
+  "runtime_boundaries": "../docs/DISTRIBUTION_SCOPE.md",
+  "registration_filed": false,
+  "ownership_assignment_executed": false,
+  "upstream_engine_selection_changed": false
+}

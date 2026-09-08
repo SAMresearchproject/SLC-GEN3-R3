@@ -1,0 +1,33 @@
+{
+  "custody_product": "SLC_CUSTODY_NATIVE_ARCHITECTURE",
+  "custody_release": "V6",
+  "foundation_release": "SLCV33-ICF1",
+  "import_policy": "EXTRACT_EPHEMERALLY_VERIFY_EVERY_ARCHIVE_MEMBER_IMPORT_BOUND_SRC_ONLY",
+  "independent_validation": {
+    "path": "foundation/SLCV33-ICF1/INDEPENDENT_VALIDATION.json",
+    "raw_sha256": "a516c66e60b67616cea39347b45833a9e6084118655435fffba778d98a17f5c4",
+    "semantic_sha256": "13785b43e3898d8386360ae61bc53122ac22cd5c58f9e2ee076dba1db03202f3"
+  },
+  "installed_or_promoted": false,
+  "native_module": {
+    "archive_path": "src/slc_custody/native_substrate.py",
+    "sha256": "dd57ab85fc2630c4de24b90cdc632673b7ce57438ccdb132eb67c3439ce81680"
+  },
+  "release_manifest": {
+    "path": "foundation/SLCV33-ICF1/RELEASE_MANIFEST.json",
+    "raw_sha256": "5e3902eae25f5f498564b2e1b295cbd82c8c944270fb43d2f5a236fff9f3e866",
+    "semantic_sha256": "8abeb5ab2f3f4019745fb7dccb1ea3cfac89fba7cf209fbdcc568bc6f982b4f6"
+  },
+  "schema": "SLCV33_ICF1_SEALED_FOUNDATION_BINDING_V1",
+  "snapshot": {
+    "active_source_semantic_sha256": "b1e53f9ec38421b0cdfbd365354504564a63b4d6e9c746ca4b94671279120db5",
+    "metadata_sha256": "a9229c240cd5586c20553e7dd7fa3ac720de999505542d372039bef4c2f13719",
+    "path": "foundation/SLCV33-ICF1/SOURCE_SNAPSHOT.zip",
+    "raw_sha256": "aa266d0f7f7dee219afbebdf83b051d0e52947189952f429b0ec2925409b98b8",
+    "source_file_count": 24,
+    "test_file_count": 15,
+    "test_source_semantic_sha256": "f19c7db604c380205d46e87f773e45fe205e390a123214b255e83e999de207c5",
+    "tests_passed": 198
+  },
+  "status": "SEALED_UNINSTALLED_FOUNDATION_BOUND"
+}

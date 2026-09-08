@@ -1,0 +1,90 @@
+{
+  "hidden_lift_action": "9/16",
+  "native_source_action": "969/16",
+  "observed_source_action": "737/16",
+  "selection": "four common phases times four exterior phases",
+  "source_unit": "CANDIDATE_SOURCE_ACTION",
+  "states": [
+    {
+      "common_phase": 0,
+      "exterior_phase": 0,
+      "state": 14336
+    },
+    {
+      "common_phase": 1,
+      "exterior_phase": 0,
+      "state": 14591
+    },
+    {
+      "common_phase": 0,
+      "exterior_phase": 1,
+      "state": 14592
+    },
+    {
+      "common_phase": 1,
+      "exterior_phase": 1,
+      "state": 14847
+    },
+    {
+      "common_phase": 2,
+      "exterior_phase": 0,
+      "state": 116224
+    },
+    {
+      "common_phase": 3,
+      "exterior_phase": 0,
+      "state": 116479
+    },
+    {
+      "common_phase": 2,
+      "exterior_phase": 1,
+      "state": 116480
+    },
+    {
+      "common_phase": 3,
+      "exterior_phase": 1,
+      "state": 116735
+    },
+    {
+      "common_phase": 0,
+      "exterior_phase": 2,
+      "state": 145408
+    },
+    {
+      "common_phase": 1,
+      "exterior_phase": 2,
+      "state": 145663
+    },
+    {
+      "common_phase": 0,
+      "exterior_phase": 3,
+      "state": 145664
+    },
+    {
+      "common_phase": 1,
+      "exterior_phase": 3,
+      "state": 145919
+    },
+    {
+      "common_phase": 2,
+      "exterior_phase": 2,
+      "state": 247296
+    },
+    {
+      "common_phase": 3,
+      "exterior_phase": 2,
+      "state": 247551
+    },
+    {
+      "common_phase": 2,
+      "exterior_phase": 3,
+      "state": 247552
+    },
+    {
+      "common_phase": 3,
+      "exterior_phase": 3,
+      "state": 247807
+    }
+  ],
+  "status": "PASS"
+}

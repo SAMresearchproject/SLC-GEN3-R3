@@ -1,0 +1,102 @@
+{
+  "attribution": {
+    "ai_research_collaborators_coauthors": [
+      "OpenAI ChatGPT",
+      "Codex"
+    ],
+    "originator_conceptual_director": "Sean Brady"
+  },
+  "build": "Q3-NATIVE-HFM5-20260906",
+  "cross_project_installation": {
+    "ATOM3D": false,
+    "MP": false,
+    "RH": false,
+    "Starbreaker": false
+  },
+  "current_revision_semantic_sha256": "61860d2ee27096603368835b5839db80a4506961567ef18b6a2f4a740ed10adc",
+  "history_entry": "H000961",
+  "interfaces": {
+    "native_exact_information": {
+      "path": "SLC/18_SAM_NATIVE_QC/SLCQ3_RZ_CURRENT_REVISION_V1/release/SLCQ3_RZ_NATIVE_EXACT_INFORMATION_INTERFACE.json",
+      "semantic_sha256": "8647c3dfe409242f6fd4aae1e4eabc1441c04ed518654035add0640bcef64d97",
+      "sha256": "a1dcbe5f93c0725027a82f1b74a2dcd048e22b3e86e244b67f35fe20a932e1b0"
+    },
+    "relative_quality": {
+      "path": "SLC/18_SAM_NATIVE_QC/SLCQ3_RZ_CURRENT_REVISION_V1/release/SLCQ3_RZ_RELATIVE_QUALITY_INTERFACE.json",
+      "semantic_sha256": "124acc1de06534486b86c1031b83bd9be57d8a233497cc9e9b7cd98257832ee2",
+      "sha256": "06e469baf68700920008736c7ee39e4c7663325aad79fc70a97e6d3a20e72f94"
+    },
+    "slcv21r_application": "SLC/18_SAM_NATIVE_QC/SLCV21R_CURRENT_REVISION_V1/release/SLCV21R_APPLICATION_INTERFACE.json",
+    "slcv21r_block": "SLC/18_SAM_NATIVE_QC/SLCV21R_CURRENT_REVISION_V1/release/SLCV21R_BLOCK_AND_RECEIPT_INTERFACE.json",
+    "slcv21r_report": "SLC/18_SAM_NATIVE_QC/SLCV21R_CURRENT_REVISION_V1/release/SLCV21R_FULL_REPORT_INTERFACE.json",
+    "specialized_adapters": {
+      "path": "SLC/18_SAM_NATIVE_QC/SLCQ3_RZ_CURRENT_REVISION_V1/release/SLCQ3_RZ_SPECIALIZED_ADAPTER_CONTRACT_INTERFACE.json",
+      "semantic_sha256": "6e6f12ce4a934788d30ef9410bd56c50c6a632e8cf2313724f01a365b0685881",
+      "sha256": "1583195e6c7e4c0490521366b360433b8c5cc3e2f4d254b405dc2d9b91ffd4d7"
+    }
+  },
+  "metrics": {
+    "CONTROL": {
+      "q2_current_fixed_error_count": 6032,
+      "q3_r0_refit_error_count": 4720,
+      "q3_r3_graph_error_count": 4368,
+      "strict_pair_total": 6190864
+    },
+    "HOLDOUT": {
+      "q2_current_fixed_error_count": 3744,
+      "q3_r0_refit_error_count": 4184,
+      "q3_r3_graph_error_count": 3552,
+      "strict_pair_total": 5260944
+    },
+    "TRAIN": {
+      "q2_current_fixed_error_count": 173696,
+      "q3_r0_refit_error_count": 155392,
+      "q3_r3_graph_error_count": 155720,
+      "strict_pair_total": 192060760
+    }
+  },
+  "native_interface": {
+    "path": "CURRENT_REVISION/engines/SLC/release/NATIVE_INTERFACE.json",
+    "sha256": "47786db49141a6bd2ea17ce9ce76e198257ef84f4d429c529175e3bc1cd425c4"
+  },
+  "native_runtime": {
+    "path": "CURRENT_REVISION/engines/SLC/q3_runtime.py",
+    "sha256": "0a2d62fe94bc8dd4f69bbdda76e582a128e407ebda2cb3a22caa1b5b4420d61e"
+  },
+  "open_fields": {
+    "atom3d_q3_adapter_installed": false,
+    "mp_q3_adapter_constructed": false,
+    "physical_calibration_installed": false,
+    "q3_control_reopened": false,
+    "q3_retraining_allowed_in_place": false,
+    "rh_q3_adapter_installed": false,
+    "starbreaker_q3_adapter_installed": false
+  },
+  "predecessor": {
+    "revision": "SLCQ2-RZ",
+    "revision_file_sha256": "cc76e3c401cc0aee227a95188ae6a1ec2ae1f04524895378b5a9a3a24c732fc7",
+    "revision_path": "SLC/18_SAM_NATIVE_QC/SLCQ2_RZ_CURRENT_REVISION_V1/release/SLCQ2-RZ_CURRENT_REVISION.json",
+    "status_after_promotion": "PRESERVED_FROZEN_NONCURRENT_FALLBACK"
+  },
+  "q3_candidate": {
+    "final_freeze_file_sha256": "035f91832d50aeb963df972fbb6ecd84db34171acc17fdd0372c7233b37e777a",
+    "independent_validation_assertions": 1370,
+    "path": "SLC/18_SAM_NATIVE_QC/SLCV33_RZ_NATIVE_EXACT_INFORMATION_ALGEBRA_CANDIDATE_Q3",
+    "release_manifest_artifacts": 69,
+    "release_manifest_file_sha256": "26f730f9d0abbd1a10c61973acd448f443576c186bac00d186df2c421a168594",
+    "status_before_promotion": "FROZEN_COMPLETE_UNINSTALLED_Q3"
+  },
+  "release_role": "CURRENT_WHEN_RESOLVED_BY_GLOBAL_POINTER",
+  "revision": "SLCQ3-RZ",
+  "schema": "SLCQ3_RZ_CURRENT_REVISION_V1",
+  "scientific_classification": "The test result suggests strong contact with the concept.",
+  "services": {
+    "feature_count": 200,
+    "frozen_q2_fallback": true,
+    "legacy_slcv21r_services_retained": true,
+    "native_exact_information_substrate": "V6_ICF1",
+    "relative_quality_engine": "SLCQ3-RZ-R3_GRAPH"
+  },
+  "short_name": "SLCQ3-RZ",
+  "status": "CURRENT_INSTALLED_NATIVE_Q3"
+}

@@ -1,0 +1,134 @@
+{
+  "active_source_at_seal_semantic_sha256": "b1e53f9ec38421b0cdfbd365354504564a63b4d6e9c746ca4b94671279120db5",
+  "baseline_manifest_raw_sha256": "a2943eb90afa90d1045db023f1dc23dd317a28f5392ef82db6ba0e6d9ab9cdbc",
+  "baseline_manifest_semantic_sha256": "5392762966c5c92ff5510c38a01202bdc1b9591aaa35a341469e4b8e08f418d5",
+  "continuation_rule": "PRESERVE_V6_AND_BIND_Q3_ONLY_TO_THIS_IMMUTABLE_RELEASE",
+  "expected_tests": 198,
+  "file_count": 22,
+  "files": [
+    {
+      "bytes": 5229,
+      "path": "HIGH_REASONING_HANDOFF.md",
+      "sha256": "8067ae84f1d1f2c7f7080f23afb914a1bc5c31c924e86fa967cb147789d97803"
+    },
+    {
+      "bytes": 15841,
+      "path": "INDEPENDENT_VALIDATION.json",
+      "sha256": "a516c66e60b67616cea39347b45833a9e6084118655435fffba778d98a17f5c4"
+    },
+    {
+      "bytes": 3236,
+      "path": "PREEXECUTION/CONTINUOUS_MAINLINE_CONTRACT.json",
+      "sha256": "7a29f20d97e558d1278e4201bcd089d16e7a4d6844186fa77966725183982849"
+    },
+    {
+      "bytes": 3952,
+      "path": "PREEXECUTION/V6_ICF1_CONTRACT.json",
+      "sha256": "2a01be33bd2b8482f2a0d3897263d25512f17f60d49ffbd6922cb815a8fea336"
+    },
+    {
+      "bytes": 6835,
+      "path": "PREEXECUTION/V6_ICF1_SOURCE_MANIFEST.json",
+      "sha256": "6f64867c036d839aa2a59b810351a06594e43bb90589e5b6b2be197ab4a56e12"
+    },
+    {
+      "bytes": 430971,
+      "path": "REPLAY_CORPUS.zip",
+      "sha256": "00c447d9c103a28a8b92e5cbfa8c7a5917b4b243fa6d737f78bb504280b11fb0"
+    },
+    {
+      "bytes": 565,
+      "path": "REPLAY_CORPUS_RECEIPT.json",
+      "sha256": "c73eb0c1446b72004470f5b7d898e7433558d19b583965c0620d6f9c59e5a993"
+    },
+    {
+      "bytes": 5855,
+      "path": "RESULT.md",
+      "sha256": "e49ac9ce56aa5048ac436e6c198b5f2343bfa1b34b6b3a8dd3b480105747cec7"
+    },
+    {
+      "bytes": 772,
+      "path": "SNAPSHOT_RECEIPT.json",
+      "sha256": "9bb4b2cfcf1170b974ea10afdff3ef62152094777aa574be9640ce9a18a0b3dd"
+    },
+    {
+      "bytes": 143710,
+      "path": "SOURCE_SNAPSHOT.zip",
+      "sha256": "aa266d0f7f7dee219afbebdf83b051d0e52947189952f429b0ec2925409b98b8"
+    },
+    {
+      "bytes": 19777,
+      "path": "WORK_RECEIPTS/APPLICATION_ADAPTER_RESULT.json",
+      "sha256": "d1b77ba830e2a47701d3f919128a698e59f3602cff74e6d3a699ab18c0d2348a"
+    },
+    {
+      "bytes": 20334,
+      "path": "WORK_RECEIPTS/COMPOSITION_RESULT.json",
+      "sha256": "e9f47578ad704d278d24a713a0e0d7dfe078ed6caccbce544ce7e6f022ce9ce8"
+    },
+    {
+      "bytes": 5064,
+      "path": "WORK_RECEIPTS/EXACT_WRITE_ALGEBRA_LAW_RECEIPT.json",
+      "sha256": "34c75075f6de1f65dc6d41408296dd9da563e6afe8b83712c34cf1563b9f7dd2"
+    },
+    {
+      "bytes": 2369,
+      "path": "WORK_RECEIPTS/EXACT_WRITE_FIBER_CENSUS.json",
+      "sha256": "af237136de5368e1069b402d3565704051049c5978c2345863ddd802d3e40e80"
+    },
+    {
+      "bytes": 11194,
+      "path": "WORK_RECEIPTS/INFORMATION_CUSTODY_REFERENCE_RESULT.json",
+      "sha256": "93af286132ed4c79d59c54a0baca1ef566e27a264fb2ba63d417d1275725b4b3"
+    },
+    {
+      "bytes": 91103,
+      "path": "WORK_RECEIPTS/NATIVE_EXACT_SUBSTRATE_REFERENCE.json",
+      "sha256": "c2688a49b6019f364e1dd80e12ec07f2996e69093b6c3e71fcadd658d1ba9348"
+    },
+    {
+      "bytes": 13539,
+      "path": "WORK_RECEIPTS/NATIVE_EXACT_SUBSTRATE_RESULT.json",
+      "sha256": "383597a1d79b13d3c9d5b320870b416b3b1e7e97df5429f93d43d0d3ebede1d5"
+    },
+    {
+      "bytes": 19568,
+      "path": "WORK_RECEIPTS/Q2_PROJECTION_CENSUS.json",
+      "sha256": "c364f6deef7940c856ac67e32b5fa9842eb2b458d64dc701d2a381030cc88b03"
+    },
+    {
+      "bytes": 8059,
+      "path": "WORK_RECEIPTS/UNCOMPUTATION_COMPILER_RESULT.json",
+      "sha256": "53c7d06f19ccad8525b5464caa34fcce83657a9a0270c7ae8b671a425e82c1d1"
+    },
+    {
+      "bytes": 18426,
+      "path": "WORK_RECEIPTS/V6_EXHAUSTIVE_COMPATIBILITY.json",
+      "sha256": "cc77d87cbe5d1dfb23a203b876ce652ff034e623c089581310230e0a0d77a1c2"
+    },
+    {
+      "bytes": 22174,
+      "path": "WORK_RECEIPTS/V6_PRIMARY_RESULT.json",
+      "sha256": "870c29f69b6cffa758fd92d5b1e5a8f64f90c0212dc08c68e7233c53b7c9467d"
+    },
+    {
+      "bytes": 19568,
+      "path": "WORK_RECEIPTS/V6_Q2_PROJECTION_CENSUS.json",
+      "sha256": "c364f6deef7940c856ac67e32b5fa9842eb2b458d64dc701d2a381030cc88b03"
+    }
+  ],
+  "foundation": "SLCV33-ICF1",
+  "immediate_baseline": "V5",
+  "independent_validation_checks": 97,
+  "installed_or_promoted": false,
+  "primary_result_sha256": "870c29f69b6cffa758fd92d5b1e5a8f64f90c0212dc08c68e7233c53b7c9467d",
+  "product": "SLC_CUSTODY_NATIVE_ARCHITECTURE",
+  "release": "V6",
+  "replay_corpus_sha256": "00c447d9c103a28a8b92e5cbfa8c7a5917b4b243fa6d737f78bb504280b11fb0",
+  "schema": "SLCV33_ICF1_V6_RELEASE_MANIFEST_V1",
+  "semantic_sha256": "8abeb5ab2f3f4019745fb7dccb1ea3cfac89fba7cf209fbdcc568bc6f982b4f6",
+  "source_file_count": 24,
+  "source_snapshot_sha256": "aa266d0f7f7dee219afbebdf83b051d0e52947189952f429b0ec2925409b98b8",
+  "status": "SEALED_RELEASE_LOCAL_INVENTORY",
+  "test_file_count": 15
+}

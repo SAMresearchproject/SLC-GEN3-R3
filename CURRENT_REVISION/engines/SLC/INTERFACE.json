@@ -1,0 +1,126 @@
+{
+  "CE_domains": {
+    "GEN2_LI6_*": "ATOM3D",
+    "GEN2_TAU_*": "ATOM3D",
+    "MP": "ACTIVE_NATIVE_RESEARCH (H001010)",
+    "generic": [
+      "ATOM3D",
+      "STARBREAKER",
+      "MATTER_SEARCH",
+      "RH",
+      "MP"
+    ]
+  },
+  "automatic_geometry": {
+    "encounters": "Explicit source_motion programs and emission_indices bind source orientation/history to actual supplied emissions. Emissions alone do not determine motion.",
+    "execution": "Shared compiler and domain dispatch resolve source profiles without feature flags. Supplied words retain exact event order.",
+    "ordinary_CE_packets": "Current ATOM3D contact packet execution attaches source-bound sphere/log histories from the verified returned T18 trajectories once per distinct history; original native receipts and hashes remain preserved.",
+    "retained_direction_fiber": "Ordinary T18_WORD/direction_fiber receives exact nine-coordinate phase/lift/winding annotations from the original retained trajectory, without compiling a full state grid.",
+    "scheduling": "Motion requests delegate ordering. Golden packets contain admitted signed native Writes and declared after-packet interactions; no new elementary phase resolution.",
+    "source_profiles": "Registered native J4 source profiles or explicit contract motion_profile; role names, source scale and observer availability are declared.",
+    "static_sources": "Li6 native unit phases, six-axis angular directions and native radial shells receive exact declared geometry. Winding requires ordered history."
+  },
+  "build": "GEN2-REUSE-INFO1-20260907",
+  "exact_scalars": "Integers and reduced rational strings p/q. Source contracts reject floating-point operands.",
+  "history_summaries": {
+    "D": "sum(max(0,-delta_l))",
+    "M": "max_t ln(E_t/E_0), including initial zero",
+    "U": "sum(max(0,delta_l))",
+    "V": "U+D",
+    "composition": "Adjacent source-identical chunks add U,D,V; offset right M by left net log. Retain full ordered history and all maximum ties.",
+    "positive_action": "delta_l=ln(E_next/E_before)"
+  },
+  "incremental_reuse": {
+    "identity": "Complete source, code, quantity/reference, original target, weights, history and admission bindings",
+    "priority": "Required implementation property",
+    "telemetry": "GEN2_REUSE_STATS; never included in mathematical output or checkpoint seals.",
+    "work": "New nodes/edges and uncached conditional partitions are evaluated; fresh restore validation is counted separately."
+  },
+  "inheritance": {
+    "cumulative_revisions": [
+      "SLC-GEN2-R1",
+      "SLC-GEN2-R2",
+      "SLC-GEN2-R3"
+    ],
+    "global_slc_count": 1,
+    "installation_scope": "Sole current SLC, CE and active domain bindings",
+    "retained_GEN2_operations": 25
+  },
+  "inverse": "All root/program/current-state/barrier associations in a linked DAG; summary projections do not replace it. max_steps bounds work and returns a source-bound checkpoint.",
+  "inverse_observation_selection": {
+    "choice": "Maximize exact target information and retain all ties. Automatic or explicitly resolved readouts then minimize exact extraneous output detail, scalar count and declared roster order. Explicit inherited exact rosters preserve their operational tie rule.",
+    "consumer_route": "CURRENT_REVISION.load_slc; open_ce and CE-run under ATOM3D, STARBREAKER, MATTER_SEARCH and RH.",
+    "custody": "Checkpoint binds source, native implementation, exact information implementation, observations, conditions, original target and retained probe histories.",
+    "known_information": "Initial conditions and supplied event knowledge are explicit. No hidden default phase conditions.",
+    "observation_types": "Absolute and delta readouts remain distinct. Declared deterministic resolution preserves quantity meaning; missing, unavailable, undefined and measured zero remain distinct.",
+    "targets": "Original STATE, ACTION_RATIO, BARRIER or complete HISTORY; probe history does not replace the original target.",
+    "weights": "Exact positive rational weights on complete candidate histories; target partitions inherit their summed weights."
+  },
+  "logarithmic_coordinates": {
+    "R": "2 ln(2)+ln(3)",
+    "Theta": "ln(2)+2 ln(3)",
+    "closure_identity": "9=8+1",
+    "closure_ratio": "-3 ln(2)+2 ln(3)",
+    "d_hat": {
+      "log": "ln(3)",
+      "primitive": 3
+    },
+    "h_hat": {
+      "log": "ln(2)",
+      "primitive": 2
+    }
+  },
+  "managed_current_entrypoints": [
+    "CURRENT_REVISION.load_slc",
+    "CURRENT_REVISION.open_ce",
+    "CURRENT_REVISION.open_domain",
+    "CE-run"
+  ],
+  "operations": {
+    "GEN2_BOUNDARY_APPEND": "checkpoint plus event: one admitted native event, or atomic joined component events at a new aligned tick. Extend every surviving history and retain original identities/targets/weights; compute only the new endpoints.",
+    "GEN2_BOUNDARY_CONDITION": "checkpoint plus explicit observed variable values. Retain all compatible complete assembly histories and their original relative weights.",
+    "GEN2_BOUNDARY_INFORMATION": "checkpoint and declared variables. Exact marginal/joint/conditional entropy and mutual information from the same retained history rows.",
+    "GEN2_BOUNDARY_OPEN": "Explicit registered components/readouts over one complete source-bound weighted assembly-history relation. Native account amounts and statistical weights remain separate.",
+    "GEN2_BOUNDARY_RESUME": "checkpoint only. Restore the source-bound complete assembly relation, observations and weights.",
+    "GEN2_COMPILE": "contract or native rho/blocks. Registered coordinates, event labels, receivers, admission and contact.",
+    "GEN2_CONSTRUCTION_CHANGE": "source, before/after values and contexts. Exact self, signed cross and changed-construction terms.",
+    "GEN2_CONSTRUCTION_COMPILE": "source typed accounts, incidence and instances; context and optional values. Pull back all instance operations into global accounts.",
+    "GEN2_CUSTODY": "contract records/source/visible/target/known_information/source_contract; action profile, encode, decode or fiber.",
+    "GEN2_DECODE": "observations; optional directions, initial_states, view, max_steps. Complete joint DAG always retained; partial calls return checkpoint.",
+    "GEN2_DENSE_N72": "Exact frozen source_instance identity; fresh1536-task native H14F dense N72, preserved artifacts and exact log count readout",
+    "GEN2_ENCOUNTER": "source transfer with clock/source/receiver identity and emissions. Causal reception.",
+    "GEN2_ENCOUNTER_INVERSE": "source transfer, observations, optional declared finite domain. Exact joint emission fiber.",
+    "GEN2_FORMAL_LOG": "terms: [prime, rational coefficient] pairs; optional compare_terms. Exact sign/comparison.",
+    "GEN2_HD": "value: exact rational; optional source_provenance. V6 HD and formal logarithm.",
+    "GEN2_HD_PRIMITIVES": "No inputs: exact h=2, d=3; ln2/ln3 coordinates, R, Theta, 9=8+1 and ln(9/8).",
+    "GEN2_HISTORY_SUMMARY": "Explicit source_binding, quantity, ordered positive-action points and directed native edges. Exact cumulative rise, fall, total variation and maximum upward excursion retain state/event links and all maximum ties. Missing/nonpositive actions retain explicit segments and gap status; they do not supply finite logarithms.",
+    "GEN2_HISTORY_SUMMARY_APPEND": "checkpoint plus new points and connecting edges. Reuse authenticated prior exact summaries and evaluate each appended edge once.",
+    "GEN2_INVERSE_OPEN": "contract or rho/blocks; explicitly typed frame or delta observations, declared event knowledge, initial conditions and reconstruction target. Complete finite state/history relation; supplied conditions are never inferred.",
+    "GEN2_INVERSE_RESUME": "checkpoint only. Authenticate source, implementation and original target/conditions/weights/probe history; restore the complete inverse session. Legacy GEN2_RESUME retains partial-DAG continuation with max_steps.",
+    "GEN2_LI6_CONSTRUCTION": "cover, assignment, rho, mask, hidden_loop, receiver and optional state/phases. Isotope-specific instance/source-account evaluation.",
+    "GEN2_LI6_SITE_CYCLE": "edges or sites/cycles. Joint exact reconstruction of all nine complex edge currents.",
+    "GEN2_MOTION_RESUME": "checkpoint plus optional max_writes; exact source/profile-bound continuation preserving original scale baseline, signed role histories and within-packet progress.",
+    "GEN2_OBSERVATION_APPLY": "checkpoint, sealed plan, choice_label and actual measured observation. Append native probe history while retaining original reconstruction target and every compatible original history. Explicit report_status MISSING preserves an actual admitted probe and every unfiltered original history; omission is invalid.",
+    "GEN2_OBSERVATION_PLAN": "sealed checkpoint; optional explicit choices and weights. Omitted choices uses registered available native/motion readouts automatically; exact information and all ties remain retained.",
+    "GEN2_OBSERVATION_POLICY_APPLY": "policy_checkpoint; optional available choice_label, or STOP; actual observation or explicit report_status MISSING. Follow measured branch preserving every compatible history and actual probe event.",
+    "GEN2_OBSERVATION_POLICY_PLAN": "checkpoint; horizon defaults to 2; optional declared choices and positive rational weights. Exact adaptive target information and transcript detail; later admission depends on prior answers. Original targets and histories persist.",
+    "GEN2_OBSERVATION_POLICY_RESUME": "policy_checkpoint only. Restore the sealed adaptive tree and current source-bound inverse session.",
+    "GEN2_READOUT": "strategy polynomial/radial/angular; exact source/amounts/options. Typed exact response.",
+    "GEN2_READOUT_INVERSE": "strategy, observations, optional domain/total. Complete finite fiber or exact linear affine family.",
+    "GEN2_RESUME": "checkpoint; optional max_steps/include_checkpoint. Continue source-bound complete DAG.",
+    "GEN2_REUSE_STATS": "Optional reset boolean. Execution telemetry only: actual new work, retained work and checkpoint verification; excluded from mathematical result/checkpoint identity.",
+    "GEN2_RUN": "contract or rho/blocks; initial phases and either prescribed program or motion request. Applicable sphere/log/signed role histories are automatic. Omitted motion.kind selects registered golden policy. max_writes supports partial packet execution.",
+    "GEN2_SIGNED_LOG": "Ordered contribution nodes VALUE/ADD/SUBTRACT/MULTIPLY/DIVIDE with exact signed rational HD values, typed quantities and explicit positive references. Retain operands through cancellation; zero and undefined division are distinct.",
+    "GEN2_SIGNED_LOG_RESUME": "checkpoint plus optional append_nodes and optional result_id. Validate source binding and compute newly appended contribution nodes after authenticated restore.",
+    "GEN2_SOURCE_BATCH": "Native source contracts supported by the J4/T18 batch fabric; measured H14F/Ryzen/780M/T500 execution and custody.",
+    "GEN2_TAU_ASSIGNMENT": "reconstructed whitelist, declared recipe and arm; provenance separate. Observation -> role assignment -> exact response.",
+    "GEN2_TAU_FEATURE_CATALOG": "No inputs; per-feature operands, relation, operation, units, quantization, aggregation and provenance boundary.",
+    "GEN2_TAU_REPLAY": "assignment plus explicit readout parameters/normalization. Preserved learned predictions."
+  },
+  "provenance": "Source hashes/identifiers and machine timing are custody; tau identifiers never enter predictive vectors.",
+  "quantity_and_reference_contract": "Quantity kind, units, normalization/reference, frame, scope and sign convention are explicit. Source/component identity is retained as provenance and binds a normalized account unless a common account is explicitly declared. Dimensional logarithms require compatible positive references.",
+  "retained_component_operations": "T18_WORD, signed/reciprocal receiver, history, connector, exact formulas, N100, signed moments, R3 graph/ranking, original domain operations remain available through the same selected runtime.",
+  "schema": "SLC_GEN2_NATIVE_INTERFACE_V1",
+  "units": "Source and readout units are declared in contracts. No physical MeV assignment is inferred.",
+  "version": "SLC-GEN2-R4"
+}

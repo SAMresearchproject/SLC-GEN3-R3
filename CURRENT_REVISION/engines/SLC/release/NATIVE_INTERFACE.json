@@ -1,0 +1,40 @@
+{
+  "build": "Q3-NATIVE-HFM5-20260906",
+  "global_slc_count": 1,
+  "history_entry": "H000961",
+  "native_T18": {
+    "coordinates": "Z4^9",
+    "factor_dimensions": [
+      512,
+      512
+    ],
+    "history_modes": [
+      80,
+      81
+    ],
+    "transition_map_sha256": "5cd4e3001b11e8c1ecb828087aaab94bbace51c1129d5bacbd4218f95e7f9ab3",
+    "unit_directions": 18
+  },
+  "operators": [
+    "T18_WORD",
+    "HISTORY_QUOTIENT",
+    "GRAPH_SPECTRUM",
+    "SIGNED_RECEIVER",
+    "RECIPROCAL_RECEIVER",
+    "CONNECTOR_HISTORY",
+    "TYPED_FORMULAS",
+    "SIGNED_MOMENT",
+    "VECTOR_CURRENT",
+    "RECEIVER_ACTION",
+    "EXTERIOR_NEGATION",
+    "ORIENTATION_APPLY",
+    "FRACTION_AUDIT",
+    "EXACT_FIBER_MEMBER",
+    "CANONICAL_BODY",
+    "DIRECTION_ROW"
+  ],
+  "quality_model": "FROZEN_R3_GRAPH_200_UNCHANGED",
+  "schema": "SLC_Q3_NATIVE_HFM5_INTERFACE_V1",
+  "semantic_sha256": "194e49fcb47e886c2d45ff97ac1771c60d684fd0dcda66121a4b7041d98b171b",
+  "version": "SLCQ3-RZ"
+}

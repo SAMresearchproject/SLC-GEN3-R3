@@ -1,0 +1,572 @@
+{
+  "active_native_reference_replay": {
+    "matches_reference_artifact": true,
+    "returncode": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "c2688a49b6019f364e1dd80e12ec07f2996e69093b6c3e71fcadd658d1ba9348"
+  },
+  "active_probe": {
+    "active_release": "V6",
+    "all_modules_inside_isolated_source": true,
+    "api_sets_pairwise_disjoint": true,
+    "immediate_baseline": "V5",
+    "release_lineage": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "returncode": 0,
+    "shim_identity": true
+  },
+  "active_test_summary": {
+    "errors": 0,
+    "failures": 0,
+    "returncode": 0,
+    "skipped": 0,
+    "successful": true,
+    "tests_run": 198
+  },
+  "checks": {
+    "active_implementation_no_sys_path_mutation": true,
+    "active_implementation_no_versioned_campaign_import": true,
+    "active_isolated_api_boundary": true,
+    "active_isolated_native_reference_exact_replay": true,
+    "active_isolated_replay_198_of_198": true,
+    "active_isolated_root_only_src_tests": true,
+    "active_source_24_files": true,
+    "active_source_inventory_matches_primary": true,
+    "active_source_semantic_recomputes": true,
+    "active_test_inventory_matches_primary": true,
+    "active_test_semantic_recomputes": true,
+    "active_tests_15_files": true,
+    "bounded_exact_write_law_audit_15_of_15": true,
+    "contract_frozen_before_v6_implementation": true,
+    "contract_snapshot_pin_matches_v5": true,
+    "contract_v6_immediate_baseline_v5": true,
+    "exhaustive_complete_exact_counts": true,
+    "exhaustive_final_raw_pin": true,
+    "exhaustive_preserved_boundaries": true,
+    "exhaustive_receipt_19_of_19": true,
+    "exhaustive_semantic_recomputes": true,
+    "exhaustive_source_custody_matches_independent_pins": true,
+    "foundation_runner_final_raw_pin": true,
+    "math_information_exact_data_processing_residual_is_ln2": true,
+    "math_information_exact_information_chain_rule": true,
+    "math_information_exact_shannon_submodularity_64_pairs": true,
+    "math_information_finite_partition_refinement": true,
+    "math_information_formal_log_exact_prime_coordinates": true,
+    "math_information_formal_log_exact_sign_without_transcendentals": true,
+    "math_information_formal_log_multiplication_is_addition": true,
+    "math_information_formal_log_power_is_integer_scaling": true,
+    "math_information_formal_log_quotient_is_subtraction": true,
+    "math_information_hd_signature_reconstructs_rational": true,
+    "math_information_hd_signed_v2_v3_coprime_cofactor": true,
+    "math_information_minimum_sufficient_receipt_hitting_set": true,
+    "math_information_reciprocal_ln2_equals_ln2_plus_zero": true,
+    "math_information_redundant_parity_recoverable_from_kept_receipt": true,
+    "math_information_uniform_four_history_entropy_is_2_ln2": true,
+    "math_reciprocal_even_modulus_four_has_four_fixed_orbits": true,
+    "math_reciprocal_modulus_127_augmented_map_injective": true,
+    "math_reciprocal_modulus_127_reciprocal_orbit_census": true,
+    "math_reciprocal_modulus_127_visible_fiber_census": true,
+    "math_reciprocal_reciprocal_augmented_map_injective_all_small_moduli": true,
+    "math_reciprocal_reciprocal_covariance_all_small_moduli": true,
+    "math_reciprocal_reciprocal_involution_all_small_moduli": true,
+    "math_translation_translation_compiler_normal_form": true,
+    "math_translation_translation_composition_closes_all_262144": true,
+    "math_translation_translation_inverse_returns_all_262144": true,
+    "math_translation_translation_reference_equals_compiled_all_262144": true,
+    "native_reference_18_records_19_surfaces": true,
+    "native_reference_19_operations_29_depths": true,
+    "native_reference_final_raw_pin": true,
+    "native_reference_logical_erasure_boundary": true,
+    "native_reference_passes_all_declared_checks": true,
+    "native_reference_script_final_raw_pin": true,
+    "preexecution_source_manifest_all_30_verify": true,
+    "primary_nine_work_artifacts_verify": true,
+    "primary_result_complete_198_of_198": true,
+    "primary_result_final_raw_pin": true,
+    "primary_result_preserves_boundaries": true,
+    "primary_result_v6_v5_lineage": true,
+    "q2_projection_complete_384_outcomes": true,
+    "q2_projection_final_raw_pin": true,
+    "q2_projection_semantic_recomputes": true,
+    "shim_slc_custody_control_contains_no_implementation_definitions": true,
+    "shim_slc_custody_native_contains_no_implementation_definitions": true,
+    "shim_slc_roster_custody_contains_no_implementation_definitions": true,
+    "snapshot_40_entries": true,
+    "snapshot_all_archived_hashes_verify": true,
+    "snapshot_fixed_regular_file_modes": true,
+    "snapshot_fixed_timestamps": true,
+    "snapshot_isolated_api_boundary": true,
+    "snapshot_isolated_native_reference_exact_replay": true,
+    "snapshot_isolated_replay_198_of_198": true,
+    "snapshot_metadata_hash_matches_receipt": true,
+    "snapshot_metadata_semantics_match_primary": true,
+    "snapshot_metadata_v6_v5_198": true,
+    "snapshot_raw_hash_matches_receipt": true,
+    "snapshot_receipt_sealed_v6_v5": true,
+    "snapshot_safe_unique_paths": true,
+    "source_authority_is_exact_slcq2_rz": true,
+    "source_pin_COMPLETE_EXACT_ALGEBRA_INTERFACE.json": true,
+    "source_pin_COMPLETE_EXACT_ALGEBRA_RESULT.json": true,
+    "source_pin_COMPLETE_EXACT_ALGEBRA_VALIDATION.json": true,
+    "source_pin_CURRENT_SLC_REVISION.json": true,
+    "source_pin_EXACT_ALGEBRA_COVERAGE.md": true,
+    "source_pin_SLCQ2-RZ_CURRENT_REVISION.json": true,
+    "source_pin_SLCV21R_BLOCK_AND_RECEIPT_INTERFACE.json": true,
+    "source_pin_complete_exact_write.py": true,
+    "source_pin_libslc_complete_exact_write.so": true,
+    "source_pin_slcv20r_d162_full_receipt_node.py": true,
+    "v5_manifest_raw_pin": true,
+    "v5_manifest_semantic_recomputes": true,
+    "v5_release_files_still_verify": true,
+    "v5_snapshot_raw_pin": true,
+    "v5_verification_raw_pin": true,
+    "validator_process_did_not_import_slc_custody": true
+  },
+  "checks_failed": 0,
+  "checks_passed": 97,
+  "failed": [],
+  "foundation": "SLCV33-ICF1",
+  "immediate_baseline": "V5",
+  "implementation_imported_by_validator_process": false,
+  "implementation_imported_only_in_isolated_subprocesses": true,
+  "independent_information_math": {
+    "formal_log_x": {
+      "2": "7/1",
+      "3": "2/1",
+      "5": "-3/1"
+    },
+    "hd_signature": {
+      "coprime_cofactor": "35/13",
+      "sign": -1,
+      "v2": 7,
+      "v3": 5
+    },
+    "minimum_sufficient_channels": [
+      "a",
+      "b"
+    ],
+    "reciprocal_information_identity": "ln(2)=ln(2)+0",
+    "schema": "SLCV33_ICF1_SOURCE_INDEPENDENT_INFORMATION_MATH_V1",
+    "submodularity_failure_count": 0,
+    "submodularity_subset_pair_count": 64
+  },
+  "independent_reciprocal_census": {
+    "modulus_127": {
+      "augmented_injective": true,
+      "covariance": true,
+      "input_count": 16129,
+      "modulus": 127,
+      "orbit_histogram": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          8064
+        ]
+      ],
+      "visible_fiber_histogram": [
+        [
+          2,
+          8001
+        ],
+        [
+          127,
+          1
+        ]
+      ],
+      "visible_output_count": 8002
+    },
+    "schema": "SLCV33_ICF1_SOURCE_INDEPENDENT_RECIPROCAL_CENSUS_V1",
+    "small_moduli": [
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 4,
+        "modulus": 2,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "visible_output_count": 3
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 9,
+        "modulus": 3,
+        "orbit_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ],
+        "visible_output_count": 4
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 16,
+        "modulus": 4,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            5
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "visible_output_count": 6
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 25,
+        "modulus": 5,
+        "orbit_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            10
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "visible_output_count": 11
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 36,
+        "modulus": 6,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "visible_output_count": 12
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 49,
+        "modulus": 7,
+        "orbit_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            24
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            21
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        "visible_output_count": 22
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 64,
+        "modulus": 8,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            30
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            4,
+            13
+          ],
+          [
+            12,
+            1
+          ]
+        ],
+        "visible_output_count": 14
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 81,
+        "modulus": 9,
+        "orbit_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            40
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            27
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        "visible_output_count": 30
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 100,
+        "modulus": 10,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            48
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            20
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "visible_output_count": 33
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 121,
+        "modulus": 11,
+        "orbit_histogram": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            60
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            2,
+            55
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "visible_output_count": 56
+      },
+      {
+        "augmented_injective": true,
+        "covariance": true,
+        "input_count": 144,
+        "modulus": 12,
+        "orbit_histogram": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            70
+          ]
+        ],
+        "visible_fiber_histogram": [
+          [
+            4,
+            15
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            18,
+            1
+          ]
+        ],
+        "visible_output_count": 24
+      }
+    ]
+  },
+  "independent_translation_group": {
+    "address_count": 262144,
+    "compiled_translation": 49986,
+    "composition_failures": 0,
+    "inverse_failures": 0,
+    "inverse_translation": 16834,
+    "program_length": 11,
+    "reference_failures": 0,
+    "schema": "SLCV33_ICF1_SOURCE_INDEPENDENT_TRANSLATION_GROUP_V1"
+  },
+  "product": "SLC_CUSTODY_NATIVE_ARCHITECTURE",
+  "release": "V6",
+  "schema": "SLC_CUSTODY_NATIVE_ARCHITECTURE_INDEPENDENT_VALIDATION_V6",
+  "snapshot_native_reference_replay": {
+    "matches_reference_artifact": true,
+    "returncode": 0,
+    "stderr_bytes": 0,
+    "stdout_sha256": "c2688a49b6019f364e1dd80e12ec07f2996e69093b6c3e71fcadd658d1ba9348"
+  },
+  "snapshot_probe": {
+    "active_release": "V6",
+    "all_modules_inside_isolated_source": true,
+    "api_sets_pairwise_disjoint": true,
+    "immediate_baseline": "V5",
+    "release_lineage": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "returncode": 0,
+    "shim_identity": true
+  },
+  "snapshot_test_summary": {
+    "errors": 0,
+    "failures": 0,
+    "returncode": 0,
+    "skipped": 0,
+    "successful": true,
+    "tests_run": 198
+  },
+  "source_hashes_observed": {
+    "SLC/18_SAM_NATIVE_QC/CURRENT_SLC_REVISION.json": "751f6e6a6dbe01cfdc335cf303824887148c9eb657ded691264e37c6f61fa318",
+    "SLC/18_SAM_NATIVE_QC/SLCQ2_RZ_CURRENT_REVISION_V1/release/SLCQ2-RZ_CURRENT_REVISION.json": "cc76e3c401cc0aee227a95188ae6a1ec2ae1f04524895378b5a9a3a24c732fc7",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/EXACT_ALGEBRA_COVERAGE.md": "c65695a4127437528a4041b679e401b7f801a9f5a453d398ebec841e6049e6aa",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/complete_exact_write.py": "8b54927924eebb617be29ba69b299ca5144cc52a4214119d7bae6ca19311aa14",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/release/COMPLETE_EXACT_ALGEBRA_INTERFACE.json": "ebc6b0619bb93fa110487e4a6359495628405e2ce5df29a6d10668b172008b8b",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/release/COMPLETE_EXACT_ALGEBRA_RESULT.json": "22c389aeff5286417def67cc107b650ae72a62cb6f6a26bac7ec33abd5c66dcb",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/release/COMPLETE_EXACT_ALGEBRA_VALIDATION.json": "e939ef58346a2f70b7aa663caff1722463b271eb0eb1ce60dfe0b03d3d4887da",
+    "SLC/18_SAM_NATIVE_QC/SLCV10_H14F_T18_EXACT_WRITE_COMPLETE_ALGEBRA_V1/release/libslc_complete_exact_write.so": "ba9843ca4ec5860ca2aeae11c1ddb0fc14e1ce15c684704bc4df01b5366e2597",
+    "SLC/18_SAM_NATIVE_QC/SLCV20R_D162_TARGETED_CURRENT_REVISION_V1/slcv20r_d162_full_receipt_node.py": "02c746c614cf7ff6b423ddcb2d83b89b907202e4886c44c634b0debdf692465b",
+    "SLC/18_SAM_NATIVE_QC/SLCV21R_CURRENT_REVISION_V1/release/SLCV21R_BLOCK_AND_RECEIPT_INTERFACE.json": "3621c73a2acb2f2ab8d80908162fbfc82a53661345ddf73e9be5917ee2bedfbd"
+  },
+  "source_independent_math_uses": [
+    "stdlib",
+    "fractions.Fraction"
+  ],
+  "status": "PASS"
+}

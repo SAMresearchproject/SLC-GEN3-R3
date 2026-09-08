@@ -1,0 +1,787 @@
+{
+  "schema": "GEN2_MEASURED_HARDWARE_PROFILE_V1",
+  "operation": "GEN2_SOURCE_BATCH",
+  "source_result": "SAM_REVIEW/campaigns/SLC_GEN2_BUILD1_EXECUTION1/hardware/production_candidate/GEN2_20260907T032306023054Z/RESULT.json",
+  "source_result_sha256": "cc93e518fbc6852e39f13aa1f307b1a9d1b90da4575c9fc842243b928e90530c",
+  "H14F": {
+    "calibration": [
+      {
+        "cpus": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "rows": 62976,
+        "seconds": 0.3145477630023379,
+        "sha256": "1b3e2a1d7b538384f4a5c3a94db2580409f9fea7768c3b6b6f3b5e338816b194",
+        "values": 8123904,
+        "worker_processes": [
+          {
+            "affinity": [
+              0
+            ],
+            "pid": 420260,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              2
+            ],
+            "pid": 420261,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              4
+            ],
+            "pid": 420262,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              6
+            ],
+            "pid": 420263,
+            "rows": 15744
+          }
+        ],
+        "workers": 4
+      },
+      {
+        "cpus": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "rows": 62976,
+        "seconds": 0.2434415390016511,
+        "sha256": "1b3e2a1d7b538384f4a5c3a94db2580409f9fea7768c3b6b6f3b5e338816b194",
+        "values": 8123904,
+        "worker_processes": [
+          {
+            "affinity": [
+              0
+            ],
+            "pid": 420284,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              2
+            ],
+            "pid": 420285,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              4
+            ],
+            "pid": 420286,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              6
+            ],
+            "pid": 420287,
+            "rows": 4499
+          },
+          {
+            "affinity": [
+              8
+            ],
+            "pid": 420288,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              10
+            ],
+            "pid": 420289,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              12
+            ],
+            "pid": 420290,
+            "rows": 4499
+          },
+          {
+            "affinity": [
+              13
+            ],
+            "pid": 420291,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              14
+            ],
+            "pid": 420292,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              15
+            ],
+            "pid": 420293,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              16
+            ],
+            "pid": 420294,
+            "rows": 4499
+          },
+          {
+            "affinity": [
+              17
+            ],
+            "pid": 420295,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              18
+            ],
+            "pid": 420296,
+            "rows": 4498
+          },
+          {
+            "affinity": [
+              19
+            ],
+            "pid": 420297,
+            "rows": 4499
+          }
+        ],
+        "workers": 14
+      }
+    ],
+    "selected_schedule": {
+      "cpus": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "executed_after_calibration": true,
+      "rows": 62976,
+      "seconds": 0.3033861630028696,
+      "sha256": "1b3e2a1d7b538384f4a5c3a94db2580409f9fea7768c3b6b6f3b5e338816b194",
+      "values": 8123904,
+      "worker_processes": [
+        {
+          "affinity": [
+            0
+          ],
+          "pid": 420302,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            2
+          ],
+          "pid": 420303,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            4
+          ],
+          "pid": 420304,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            6
+          ],
+          "pid": 420305,
+          "rows": 4499
+        },
+        {
+          "affinity": [
+            8
+          ],
+          "pid": 420306,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            10
+          ],
+          "pid": 420307,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            12
+          ],
+          "pid": 420308,
+          "rows": 4499
+        },
+        {
+          "affinity": [
+            13
+          ],
+          "pid": 420309,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            14
+          ],
+          "pid": 420310,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            15
+          ],
+          "pid": 420311,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            16
+          ],
+          "pid": 420312,
+          "rows": 4499
+        },
+        {
+          "affinity": [
+            17
+          ],
+          "pid": 420313,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            18
+          ],
+          "pid": 420314,
+          "rows": 4498
+        },
+        {
+          "affinity": [
+            19
+          ],
+          "pid": 420315,
+          "rows": 4499
+        }
+      ],
+      "workers": 14
+    }
+  },
+  "remote": {
+    "CPU_GPU_all_values_equal": true,
+    "T500_full_independent_readback": {
+      "bytes": 134005120,
+      "files": 11,
+      "manifest_sha256": "3386e544bcad86eee663a70346090b062274a1f0d6886736debdae360ef5bda9",
+      "pid": 24826,
+      "status": "PASS"
+    },
+    "complete_compute_and_write_seconds": 0.9148546670330688,
+    "cpu_calibration": [
+      {
+        "cpus": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "seconds": 0.12561203102814034,
+        "worker_processes": [
+          {
+            "affinity": [
+              0
+            ],
+            "pid": 24767,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              1
+            ],
+            "pid": 24768,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              2
+            ],
+            "pid": 24769,
+            "rows": 15744
+          },
+          {
+            "affinity": [
+              3
+            ],
+            "pid": 24770,
+            "rows": 15744
+          }
+        ],
+        "workers": 4
+      },
+      {
+        "cpus": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "seconds": 0.10531554103363305,
+        "worker_processes": [
+          {
+            "affinity": [
+              0
+            ],
+            "pid": 24775,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              1
+            ],
+            "pid": 24776,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              2
+            ],
+            "pid": 24777,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              3
+            ],
+            "pid": 24778,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              4
+            ],
+            "pid": 24779,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              5
+            ],
+            "pid": 24780,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              6
+            ],
+            "pid": 24781,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              7
+            ],
+            "pid": 24782,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              8
+            ],
+            "pid": 24783,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              9
+            ],
+            "pid": 24784,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              10
+            ],
+            "pid": 24785,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              11
+            ],
+            "pid": 24786,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              12
+            ],
+            "pid": 24787,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              13
+            ],
+            "pid": 24788,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              14
+            ],
+            "pid": 24789,
+            "rows": 3936
+          },
+          {
+            "affinity": [
+              15
+            ],
+            "pid": 24790,
+            "rows": 3936
+          }
+        ],
+        "workers": 16
+      }
+    ],
+    "gpu": {
+      "calibration": [
+        {
+          "batch_size": 512,
+          "batches": 123,
+          "device_to_host_seconds": 0.01735573,
+          "kernel_seconds": 0.059656600000000004,
+          "seconds": 0.11577335500624031
+        },
+        {
+          "batch_size": 4096,
+          "batches": 16,
+          "device_to_host_seconds": 0.01948232,
+          "kernel_seconds": 0.01158756,
+          "seconds": 0.037546878040302545
+        },
+        {
+          "batch_size": 16384,
+          "batches": 4,
+          "device_to_host_seconds": 0.01781234,
+          "kernel_seconds": 0.01012876,
+          "seconds": 0.03168551198905334
+        },
+        {
+          "batch_size": 62976,
+          "batches": 1,
+          "device_to_host_seconds": 0.02224139,
+          "kernel_seconds": 0.00886544,
+          "seconds": 0.03517026803456247
+        }
+      ],
+      "compile_seconds": 0.012393315031658858,
+      "driver": "25.2.8-0ubuntu0.24.04.2",
+      "global_memory_bytes": 3221225472,
+      "maximum_allocation_bytes": 2147483647,
+      "name": "AMD Radeon 780M Graphics (radeonsi, phoenix, LLVM 20.1.2, DRM 3.61, 6.14.0-37-generic)",
+      "platform": "rusticl",
+      "scope": "Packed T18 transition and source signed/occupancy before/after contractions only",
+      "selected_schedule": {
+        "batch_size": 16384,
+        "batches": 4,
+        "device_to_host_seconds": 0.01695518,
+        "executed_after_calibration": true,
+        "kernel_seconds": 0.01026992,
+        "seconds": 0.03425880696158856
+      }
+    },
+    "host": "lilhelper-NucBox-K11",
+    "kernel_sha256": "a7c9d5057536c5e5f0646cf0013e32c4ed7dd3c206f1d69a5a420ab74f1221f3",
+    "maximum_absolute_receiver_bound": 42430048,
+    "output_sha256": "1b3e2a1d7b538384f4a5c3a94db2580409f9fea7768c3b6b6f3b5e338816b194",
+    "rows": 62976,
+    "selected_cpu": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "executed_after_calibration": true,
+      "seconds": 0.09774543496314436,
+      "worker_processes": [
+        {
+          "affinity": [
+            0
+          ],
+          "pid": 24795,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            1
+          ],
+          "pid": 24796,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            2
+          ],
+          "pid": 24797,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            3
+          ],
+          "pid": 24798,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            4
+          ],
+          "pid": 24799,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            5
+          ],
+          "pid": 24800,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            6
+          ],
+          "pid": 24801,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            7
+          ],
+          "pid": 24802,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            8
+          ],
+          "pid": 24803,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            9
+          ],
+          "pid": 24804,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            10
+          ],
+          "pid": 24805,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            11
+          ],
+          "pid": 24806,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            12
+          ],
+          "pid": 24807,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            13
+          ],
+          "pid": 24808,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            14
+          ],
+          "pid": 24809,
+          "rows": 3936
+        },
+        {
+          "affinity": [
+            15
+          ],
+          "pid": 24810,
+          "rows": 3936
+        }
+      ],
+      "workers": 16
+    },
+    "source_sha256": "100c47046495cb93fe0a2bfeceacd3f5ccd6299ca10cbe6521b742bac42a821a",
+    "source_templates_reconstructed_independently": true,
+    "status": "PASS",
+    "storage_devices": {
+      "blockdevices": [
+        {
+          "children": [
+            {
+              "model": null,
+              "mountpoints": [
+                "/boot/efi"
+              ],
+              "name": "nvme0n1p1",
+              "size": "487M",
+              "type": "part"
+            },
+            {
+              "model": null,
+              "mountpoints": [
+                "/"
+              ],
+              "name": "nvme0n1p2",
+              "size": "238G",
+              "type": "part"
+            }
+          ],
+          "model": "FIKWOT FN501Pro 256GB",
+          "mountpoints": [
+            null
+          ],
+          "name": "nvme0n1",
+          "size": "238.5G",
+          "type": "disk"
+        },
+        {
+          "children": [
+            {
+              "model": null,
+              "mountpoints": [
+                null
+              ],
+              "name": "nvme1n1p1",
+              "size": "200M",
+              "type": "part"
+            },
+            {
+              "model": null,
+              "mountpoints": [
+                null
+              ],
+              "name": "nvme1n1p2",
+              "size": "16M",
+              "type": "part"
+            },
+            {
+              "model": null,
+              "mountpoints": [
+                null
+              ],
+              "name": "nvme1n1p3",
+              "size": "637.5G",
+              "type": "part"
+            },
+            {
+              "model": null,
+              "mountpoints": [
+                "/home/lilhelper/SAM_Research_Project"
+              ],
+              "name": "nvme1n1p4",
+              "size": "293G",
+              "type": "part"
+            },
+            {
+              "model": null,
+              "mountpoints": [
+                null
+              ],
+              "name": "nvme1n1p5",
+              "size": "847M",
+              "type": "part"
+            }
+          ],
+          "model": "CT1000T500SSD8",
+          "mountpoints": [
+            null
+          ],
+          "name": "nvme1n1",
+          "size": "931.5G",
+          "type": "disk"
+        }
+      ]
+    },
+    "storage_mount": {
+      "filesystems": [
+        {
+          "fstype": "ext4",
+          "source": "/dev/nvme1n1p4",
+          "target": "/home/lilhelper/SAM_Research_Project"
+        }
+      ]
+    },
+    "values": 8123904
+  },
+  "scope": "Exact finite native source transitions and two-lane source contractions; inverse graph and learned readouts are not GPU claims",
+  "rows": 62976,
+  "values": 8123904,
+  "complete_seconds": 6.492381357005797,
+  "schedule_policy": "Measure source-equivalent 4/14 i9,4/16 Ryzen and GPU batch profiles; execute fastest selected schedule again.",
+  "inverse_graph_execution": "CPU",
+  "custody": "T500 full inputs/output/hash/readback/checkpoint"
+}

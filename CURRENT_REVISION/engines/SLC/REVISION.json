@@ -1,0 +1,361 @@
+{
+  "authority": [
+    "H000706",
+    "H000961",
+    "H000989",
+    "H000990",
+    "H001001",
+    "H001005",
+    "H001013",
+    "H001015",
+    "H001018"
+  ],
+  "binding_sources": [
+    {
+      "path": "CURRENT_REVISION/engines/SLC/HARDWARE.json",
+      "sha256": "babdf877867d1b74f5b5c3e32b360013ea54c4d3b075587660e41ed8e3ecebf0"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/INTERFACE.json",
+      "sha256": "93f554ba26d098d984c96a233555658f626ed8e35960c45f61feee76e646f87d"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/DENSE_N72_BINDING.json",
+      "sha256": "9bc88bb56a0fd67e266443ab5af43ed061691fc47febc9398a06cb5f2c06c087"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/__init__.py",
+      "sha256": "4bf025388f3c90b4294c4cee0742f7b8149f52c6da86050819dc36875bab2106"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/applications.py",
+      "sha256": "623a22a1fbded3ad4ba1fda6bbcd68bf601b6899a715032a6d248b5634314bd3"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/boundary_information.py",
+      "sha256": "537192bb857332af85ff9c05402265993c53256036b3cd583f509355d32d1b55"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/compiler.py",
+      "sha256": "dca08021caf9abfeebab264b581f064d388ac59003905cd0b1a44ebc127b9c75"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/construction.py",
+      "sha256": "99d356c9c8600814837ce5e79abf90eaf6b2a076944f9495ab77d58ef4c470a4"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/contracts.py",
+      "sha256": "d2198fbd5d72c73b512a7be0ace4422827e2a88e300e79da76a936a69a8d11ca"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/custody.py",
+      "sha256": "df97e3bf9bdddb7faee8476c4d6c750e6062373382e348db77a215db9b2fbe35"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dense_n72.py",
+      "sha256": "c09b2189def65345d64a133252778e519e11712710fc0814dc8bd52bdec0f5c9"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/EQUAL_ROLE_CATALOG.json",
+      "sha256": "c5d4665429f8bf852c003c5f95a547f427f95809bc747da19b09a98749f0e13e"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/J4_RESPONSES.jsonl",
+      "sha256": "ba35c44d0ff5ce12ba88adf28b0ec7424e8c800511b5ae4789140bb6a02e85b6"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/LI6_GEOMETRY.json",
+      "sha256": "9d390f86a02a22b67f1a0179ba2db7db4af1c3a818532d4d9683ffa686696b05"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/LI6_SELECTION_DERIVATION.json",
+      "sha256": "fe0b9b9848d025fdc1072fb7685858b850ba18bdb1da2555e44dad5d21704158"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/LI6_TMR1.i64le",
+      "sha256": "48645791d224c957bb9c20c003a174fbb5f52362f2ac28ad90e080e211bdb01b"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/TAU_FEATURE_CATALOG.json",
+      "sha256": "fbecfe1a64c18caa4dc224b505f78d836c51718e3dd28f86bb67e3982064ec63"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/TAU_ROLE_SOURCE_BINDING.json",
+      "sha256": "66d8004a61dcfc56764b81299348edb6adc924f7fcd5c7ffd6de5b54dd4751f0"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/__init__.py",
+      "sha256": "fbefa4ab0cebc75efc74a5586a486b8cf8e44453ff116232fe48dfd0a24070c9"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/common_reception.py",
+      "sha256": "621387a92cbf37b445d8ca0d18533e5c25881c260f5aa27e909444543acc090b"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/__init__.py",
+      "sha256": "2fe6c431ed0036018885af640234b51a1cb23fde3acfbf572d4196f26e09946a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/algebra.py",
+      "sha256": "fd6e4f56d7ed40342165072e8cd8a662442d1f2b80d3526e320f35cc767f3e0f"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/exact.py",
+      "sha256": "f89d2eb531084eb79199e38dcaa753c8102433e92ac5569485185f521ebed9e1"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/formula.py",
+      "sha256": "6b0ae754f3c89268364e4c65c27837b5b8c9cfccfa19ef78d2f990afc8fc9458"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/history.py",
+      "sha256": "3905be56a023be0db1d8c6a4acf3a98a7c07cb6a2ae35fc5a3a12dcb365ba546"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/moments.py",
+      "sha256": "1017201bb5ade76d849975f44b80257872524dd10611718d297941376bb56ce7"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/quadratic.py",
+      "sha256": "ca5f9a03e1d6b9faa182ff200f16c5c23d922d0e71eff498a68cd2bc7c4b7e0f"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/runtime.py",
+      "sha256": "981adf27534a4f3ef204a1a2cd0c9dcc289f8ee66d6170a6d235b8fb3198bb46"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/structure.py",
+      "sha256": "f3417e0222845890aee4ee3b0047288a2a98f4cf3cf0c36fc209008e73c24353"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/native/t18.py",
+      "sha256": "df4e674f8a94673e2976d3000a867045b67bd29d38ac4c50368af23fe7061e8a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/__init__.py",
+      "sha256": "5651c8c5cf7a291d8b3f40bf9da47f65a6ff97b0109dffca89002712dbcf048a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/adapters.py",
+      "sha256": "0a6842c98ce6ee0ad7e04680a6ec895ca2babe8854365c2d2a3849ced2219191"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/algebra.py",
+      "sha256": "d808372dd2d4c604e83314ba0339a52dc0fb828c1110b354b0a09ed0d816e86c"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/compiler.py",
+      "sha256": "23c424f044f1a0a929bccd79cf075b6882608b6c21f383dc925f2e2adbebaafc"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/events.py",
+      "sha256": "4c23fcd427be164e3fdfe20077cbfb25fc7e8b6686d2a3334695149b332423ae"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/slc_custody_native/program.py",
+      "sha256": "fb3b1d35907cea06290a2fe89f5e4d78c2af2fc2b9c189c55dcdeb2ce0b3902b"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/dependencies/tau_role_encoder.py",
+      "sha256": "b4f2f454daa5e45c049a878e1345aaae27b8582f2862ccff59793123c244a6d6"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/encounters.py",
+      "sha256": "d513a9f4997c8c8f259a30d6e66d99f7d4cdf67a7b6ac1be61df40b807fe99cb"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/exact.py",
+      "sha256": "f910d3d51aa1c7ad2deb5a6b39f6d0873ec7b56a48ded39e9015bcf7f06b2d63"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/exact_observation_information.py",
+      "sha256": "194ba1a456e62a897fa5cc39c506d64fba696fe556668c5ecfd932f8fadd7aee"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/fabric.py",
+      "sha256": "c9925762f7ac2fe09844855da310e76d212263f8e28a65bd210ef5c41e1b8256"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/golden.py",
+      "sha256": "2dfe178c86c2b0152b485d49a6c4a94deaf31dcf1f724e08960ea7e167a1f418"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/hardware.py",
+      "sha256": "4af7758212ffeed93454262a313b071c7093c22fbf424ccdecbb424253273749"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/history_summary.py",
+      "sha256": "7322f9a21f37b27e344631f2829b40456894a5fec1c3dbb66848f4a22ac51e87"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/information.py",
+      "sha256": "e9517326409310c9ca67924d4d5c99b812721f009df340a24adf0038cd0e0e84"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/inverse.py",
+      "sha256": "18aaf033264b8860ddfa08a0e1a15974b24dee5a638aa2e22cc77937c14de824"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/linked_relation.py",
+      "sha256": "042a0af90bcc74702c5157a660a4e0a5300999d470f6f4e0fcf846ccf3d4d92a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/motion.py",
+      "sha256": "c2c6f824cdcb5cb0ea5c69033cffd9fa35519f2773ee345c2acb0dae0377556e"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/motion_adapters.py",
+      "sha256": "5b5e0d4cfbf32829a5a61608adba3d4dc479de97239a9f9ea7befddd335f89a6"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/motion_profiles.json",
+      "sha256": "30a1009111a2c2182dab6dc299eb0022d604298556b317625f723be9588b3f24"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/native.py",
+      "sha256": "dcbfdd188ba17bbce68084b456db8104dc73a9b743cdfa049604604ded18d6fe"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/native_phase.py",
+      "sha256": "96625f0f0d9ab2585cd7800e6dcbb726f8312b62c3cff67a5087dc6387e343c1"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/observation.py",
+      "sha256": "c64d0ba4d793a2ada6a1be4c229e2053767c7f49fa33b46be6781d9b267a1729"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/observation_motion.py",
+      "sha256": "196df2464c55e1819176d130a832c7dc431c801c9465555cedb7d031f9b35eea"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/observation_policy.py",
+      "sha256": "cb89710be7b1021db1fa5c47bf0f80173800c447242d7db5615e0870a13b2ff0"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/packet_motion.py",
+      "sha256": "67e639ac9ab0c3c1606baa7efdca5b02070eb71401abfa9aa120baa3cf5edf5b"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/quantities.py",
+      "sha256": "3c56500cb3a59ea340564ebdcd21ed6f042fd6d22f7a62ad6e674a2e16bd1db1"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/readouts.py",
+      "sha256": "1c1c7e9264c1dc7d4a2b9a42b1ac43c61548d6d9468d06ef5474520355693637"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/remote_hardware.py",
+      "sha256": "100c47046495cb93fe0a2bfeceacd3f5ccd6299ca10cbe6521b742bac42a821a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/reporting.py",
+      "sha256": "c51d02d9dcf9061f8a1b24d4e261630a074021789848a834d6bd955fd9f71475"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2/signed_log.py",
+      "sha256": "5e686b07d0b7d76c943c30fbbc4fe3d6f51ce4fa8476fa766b131f1ebbdbdd20"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/gen2_runtime.py",
+      "sha256": "b3ce052b5a3a16ff12e433c9ee6145fb19dda839ade219a6a53a4a5b5ba5133f"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/__init__.py",
+      "sha256": "2fe6c431ed0036018885af640234b51a1cb23fde3acfbf572d4196f26e09946a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/algebra.py",
+      "sha256": "fd6e4f56d7ed40342165072e8cd8a662442d1f2b80d3526e320f35cc767f3e0f"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/exact.py",
+      "sha256": "f89d2eb531084eb79199e38dcaa753c8102433e92ac5569485185f521ebed9e1"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/formula.py",
+      "sha256": "6b0ae754f3c89268364e4c65c27837b5b8c9cfccfa19ef78d2f990afc8fc9458"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/history.py",
+      "sha256": "3905be56a023be0db1d8c6a4acf3a98a7c07cb6a2ae35fc5a3a12dcb365ba546"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/moments.py",
+      "sha256": "1017201bb5ade76d849975f44b80257872524dd10611718d297941376bb56ce7"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/quadratic.py",
+      "sha256": "ca5f9a03e1d6b9faa182ff200f16c5c23d922d0e71eff498a68cd2bc7c4b7e0f"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/runtime.py",
+      "sha256": "981adf27534a4f3ef204a1a2cd0c9dcc289f8ee66d6170a6d235b8fb3198bb46"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/structure.py",
+      "sha256": "f3417e0222845890aee4ee3b0047288a2a98f4cf3cf0c36fc209008e73c24353"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/native/t18.py",
+      "sha256": "df4e674f8a94673e2976d3000a867045b67bd29d38ac4c50368af23fe7061e8a"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/q3_runtime.py",
+      "sha256": "88e154c49316313e2304cd0cb7e722aff28f0e73f727477858c899a8db58316c"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/release/FROZEN_SLCQ3_RZ_MODEL.json",
+      "sha256": "4c5c6ac677e0f37cec099011023600979298aab50f8b0f130f3eef8b25d98abf"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/release/NATIVE_INTERFACE.json",
+      "sha256": "47786db49141a6bd2ea17ce9ce76e198257ef84f4d429c529175e3bc1cd425c4"
+    },
+    {
+      "path": "CURRENT_REVISION/engines/SLC/slcq3_rz_current.py",
+      "sha256": "b9917484ce1c71f0e2279966da5c642fc18226d37c313a2e7b50347ea94f9872"
+    }
+  ],
+  "build": "GEN2-REUSE-INFO1-20260907",
+  "capabilities": [
+    "NATIVE_SOURCE_COMPILATION",
+    "JOINT_CONDITIONAL_INVERSE_DAG",
+    "CHECKPOINT_RESTART",
+    "TARGET_BOUND_RECONSTRUCTIVE_CUSTODY",
+    "EXACT_HD_LN2_LN3",
+    "TYPED_CONSTRUCTION_PULLBACK",
+    "RADIAL_ANGULAR_EXACT_READOUTS",
+    "LI6_SITE_CYCLE",
+    "CAUSAL_ENCOUNTER",
+    "TAU_ROLE_EXCHANGE",
+    "H14F_RYZEN_780M_T500_NATIVE_BATCH",
+    "TYPED_FRAME_AND_DELTA_INVERSE",
+    "EXACT_TARGET_OBSERVATION_SELECTION",
+    "SEQUENTIAL_PROBE_ORIGINAL_TARGET_CUSTODY",
+    "AUTOMATIC_SOURCE_MOTION_PROFILES",
+    "EXACT_FIXED_SPHERE_SCALE_TURN",
+    "SIGNED_COUPLED_GOLDEN_PACKETS",
+    "MIDPACKET_MOTION_RESTART",
+    "AUTOMATIC_GEOMETRY_OBSERVATION_SELECTION",
+    "TYPED_QUANTITY_AND_REFERENCE_CONTRACTS",
+    "SIGNED_LOG_VALUE_CONTRIBUTION_GRAPH",
+    "SOURCE_DECLARED_OBSERVATION_RESOLUTION",
+    "TARGET_DEPENDENT_READOUT_DETAIL",
+    "ADAPTIVE_TWO_STEP_INVERSE_POLICY",
+    "REGISTERED_CONSTRUCTION_BOUNDARY_INFORMATION",
+    "EXACT_INCREMENTAL_LOG_HISTORY_SUMMARIES",
+    "INCREMENTAL_SOURCE_AND_CONDITIONAL_REUSE",
+    "SOURCE_BOUND_EXACT_DENSE_N72"
+  ],
+  "generation": "GEN2-REUSE-INFO1-20260907-G2-N72-RH1",
+  "historical_source": "SLC/18_SAM_NATIVE_QC/SLCQ3_RZ_CURRENT_REVISION_V1",
+  "module": "CURRENT_REVISION.engines.SLC.gen2_runtime",
+  "name": "SLC",
+  "revision_path": "CURRENT_REVISION/engines/SLC/release/GEN2_R4_RH1_REVISION.json",
+  "revision_sha256": "c84c8fe9cd294cfc6d8ccfec76702571117a7aebb7debadcb3c4df16e1d89b64",
+  "runtime_path": "CURRENT_REVISION/engines/SLC/gen2_runtime.py",
+  "runtime_sha256": "b3ce052b5a3a16ff12e433c9ee6145fb19dda839ade219a6a53a4a5b5ba5133f",
+  "scope": "GLOBAL_SLC",
+  "status": "CURRENT_GLOBAL_DEFAULT",
+  "version": "SLC-GEN2-R4"
+}

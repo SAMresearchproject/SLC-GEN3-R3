@@ -1,0 +1,30 @@
+{
+  "active_model_roster": [
+    {
+      "default_use": true,
+      "revision_name": "SLC-GEN2-R4",
+      "status": "CURRENT_ACTIVE_EXCLUSIVE_DEFAULT"
+    }
+  ],
+  "all_other_models_status": "PRESERVED_NONCURRENT_OR_EXPLICIT_COMPONENT",
+  "current_build": "GEN2-REUSE-INFO1-20260907",
+  "current_registry_file_sha256": "06fe011bfd71ea46adc0c637541c2f523910ec9a403908ad3743991aa78fd56e",
+  "current_registry_path": "CURRENT_REVISION/REGISTRY.json",
+  "current_revision_directory": "CURRENT_REVISION",
+  "current_revision_file_sha256": "c84c8fe9cd294cfc6d8ccfec76702571117a7aebb7debadcb3c4df16e1d89b64",
+  "current_revision_installed": true,
+  "current_revision_name": "SLC-GEN2-R4",
+  "current_revision_path": "CURRENT_REVISION/engines/SLC/release/GEN2_R4_RH1_REVISION.json",
+  "current_revision_semantic_sha256": "6ae51b72f916f706602700603417f969c4b8e34d1e501296159c0321692ff250",
+  "current_revision_sha256": "c84c8fe9cd294cfc6d8ccfec76702571117a7aebb7debadcb3c4df16e1d89b64",
+  "current_revision_short_name": "SLC-GEN2-R4",
+  "exclusive_default_revision": true,
+  "final_release_promoted": true,
+  "generation": "GEN2-REUSE-INFO1-20260907-G2-N72-RH1",
+  "generation_manifest_path": "CURRENT_REVISION/GENERATION.json",
+  "generation_manifest_sha256": "213c9d258c0e465aee73479f2beb46832e730753df4d288df0b7a89f712c1cfc",
+  "history_entry": "H001040",
+  "native_runtime_path": "CURRENT_REVISION/engines/SLC/gen2_runtime.py",
+  "native_runtime_sha256": "b3ce052b5a3a16ff12e433c9ee6145fb19dda839ade219a6a53a4a5b5ba5133f",
+  "schema": "SLC_GEN2_CURRENT_SELECTOR_V1"
+}

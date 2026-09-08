@@ -1,0 +1,96 @@
+{
+  "absolute_scale_selection": "UNRESOLVED_BY_RELATIVE_MATCHING",
+  "equal_role_matches": {
+    "pair": {
+      "all_ties_retained": true,
+      "assignment_indices": [
+        0,
+        9,
+        18,
+        27,
+        36,
+        45,
+        54,
+        63
+      ],
+      "distance": 0,
+      "parameters": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          12,
+          12
+        ]
+      ],
+      "shape": [
+        12,
+        12
+      ]
+    },
+    "triad": {
+      "all_ties_retained": true,
+      "assignment_indices": [
+        0,
+        163,
+        365,
+        450
+      ],
+      "distance": 0,
+      "parameters": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          4,
+          4,
+          4
+        ],
+        [
+          8,
+          8,
+          8
+        ]
+      ],
+      "shape": [
+        12,
+        12,
+        12
+      ]
+    }
+  },
+  "source_assignments_sha256": "a1fd6c2be7f8dccbae429cb1bf58f676b472a3c815177e66cdd36ddd0a6b7abb",
+  "source_csv_sha256": "dbf6028e05cddc9c0426a9d74ec87e64d241f517a051fa752315899fa77e8a8f"
+}

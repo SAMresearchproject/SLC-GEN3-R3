@@ -1,0 +1,77 @@
+{
+  "PAIR": {
+    "native": "sign of endpoint J4_0 signed component 0",
+    "raw_to_declared": {
+      "-1": false,
+      "1": true
+    }
+  },
+  "PARITY": {
+    "native": "sign of endpoint J4_0 occupancy component 0",
+    "raw_to_declared": {
+      "-1": 1,
+      "1": 0
+    }
+  },
+  "SCALE": {
+    "native": "endpoint source action divided by original source action",
+    "raw_to_declared": {
+      "ABOVE": "ABOVE",
+      "BELOW": "BELOW",
+      "SAME": "EQUAL"
+    }
+  },
+  "choices": [
+    {
+      "components": [
+        0
+      ],
+      "event": null,
+      "label": "PARITY",
+      "mode": "ABSOLUTE",
+      "projection": "SIGN",
+      "report": {
+        "kind": "EXACT"
+      },
+      "view": "OCCUPANCY"
+    },
+    {
+      "components": [
+        0
+      ],
+      "event": null,
+      "label": "PAIR",
+      "mode": "ABSOLUTE",
+      "projection": "SIGN",
+      "report": {
+        "kind": "EXACT"
+      },
+      "view": "SIGNED"
+    },
+    {
+      "event": null,
+      "label": "SCALE",
+      "readout": {
+        "kind": "SCALE",
+        "role": "J4_0.endpoint_a",
+        "scope": "ENDPOINT"
+      },
+      "report": {
+        "kind": "ABOVE_SAME_BELOW",
+        "reference": 1
+      }
+    }
+  ],
+  "passive_channels": true,
+  "roster_order": [
+    "PARITY",
+    "PAIR",
+    "SCALE"
+  ],
+  "weights": {
+    "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d": "1/8",
+    "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6": "2/8",
+    "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2": "3/8",
+    "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead": "2/8"
+  }
+}

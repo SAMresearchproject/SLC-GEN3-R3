@@ -1,0 +1,11 @@
+test_declared_target_weighted_policy (test_release.ReleaseTests.test_declared_target_weighted_policy) ... ok
+test_deployment_scope_is_explicit (test_release.ReleaseTests.test_deployment_scope_is_explicit) ... ok
+test_fresh_process_continuation_and_cli_custody (test_release.ReleaseTests.test_fresh_process_continuation_and_cli_custody) ... ok
+test_installed_integration_fixture (test_release.ReleaseTests.test_installed_integration_fixture) ... ok
+test_owner_word_and_chunk_composition (test_release.ReleaseTests.test_owner_word_and_chunk_composition) ... ok
+test_source_identity (test_release.ReleaseTests.test_source_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 11.985s
+
+OK

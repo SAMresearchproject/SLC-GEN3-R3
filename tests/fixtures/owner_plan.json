@@ -1,0 +1,4473 @@
+{
+  "candidate_count": 4,
+  "checkpoint": {
+    "body": {
+      "complete": true,
+      "contract": {
+        "contact_coordinates": [
+          1,
+          2,
+          3
+        ],
+        "coordinates": [
+          1,
+          2,
+          3
+        ],
+        "events": [
+          {
+            "coordinate": 1,
+            "direction": 1,
+            "label": "W1+"
+          },
+          {
+            "coordinate": 1,
+            "direction": -1,
+            "label": "W1-"
+          },
+          {
+            "coordinate": 2,
+            "direction": 1,
+            "label": "W2+"
+          },
+          {
+            "coordinate": 2,
+            "direction": -1,
+            "label": "W2-"
+          },
+          {
+            "coordinate": 3,
+            "direction": 1,
+            "label": "W3+"
+          },
+          {
+            "coordinate": 3,
+            "direction": -1,
+            "label": "W3-"
+          }
+        ],
+        "name": "native-j4-construction",
+        "receivers": [
+          {
+            "coordinates": [
+              1,
+              2,
+              3
+            ],
+            "matrix": [
+              [
+                -41064,
+                5936,
+                -5936,
+                12168,
+                2144,
+                -2144
+              ],
+              [
+                -12168,
+                -2144,
+                2144,
+                -41064,
+                5936,
+                -5936
+              ],
+              [
+                -10200,
+                -12288,
+                12288,
+                -64216,
+                -34944,
+                34944
+              ],
+              [
+                64216,
+                34944,
+                -34944,
+                -10200,
+                -12288,
+                12288
+              ],
+              [
+                41064,
+                -5936,
+                5936,
+                -12168,
+                -2144,
+                2144
+              ],
+              [
+                12168,
+                2144,
+                -2144,
+                41064,
+                -5936,
+                5936
+              ],
+              [
+                10200,
+                12288,
+                -12288,
+                64216,
+                34944,
+                -34944
+              ],
+              [
+                -64216,
+                -34944,
+                34944,
+                10200,
+                12288,
+                -12288
+              ],
+              [
+                54984,
+                54984,
+                -54984,
+                -9880,
+                -9880,
+                9880
+              ],
+              [
+                9880,
+                9880,
+                -9880,
+                54984,
+                54984,
+                -54984
+              ],
+              [
+                -14344,
+                -14344,
+                14344,
+                -53080,
+                -53080,
+                53080
+              ],
+              [
+                53080,
+                53080,
+                -53080,
+                -14344,
+                -14344,
+                14344
+              ],
+              [
+                -54984,
+                -54984,
+                54984,
+                9880,
+                9880,
+                -9880
+              ],
+              [
+                -9880,
+                -9880,
+                9880,
+                -54984,
+                -54984,
+                54984
+              ],
+              [
+                14344,
+                14344,
+                -14344,
+                53080,
+                53080,
+                -53080
+              ],
+              [
+                -53080,
+                -53080,
+                53080,
+                14344,
+                14344,
+                -14344
+              ]
+            ],
+            "name": "J4_0"
+          }
+        ],
+        "schema": "SLC_GEN2_SOURCE_V1",
+        "source_binding": "H980_J4:ba35c44d0ff5ce12ba88adf28b0ec7424e8c800511b5ae4789140bb6a02e85b6:rho=1",
+        "states": null,
+        "units": "native_receiver_integer"
+      },
+      "implementation_binding": {
+        "compiler.py": "dca08021caf9abfeebab264b581f064d388ac59003905cd0b1a44ebc127b9c75",
+        "contracts.py": "d2198fbd5d72c73b512a7be0ace4422827e2a88e300e79da76a936a69a8d11ca",
+        "dependencies/J4_RESPONSES.jsonl": "ba35c44d0ff5ce12ba88adf28b0ec7424e8c800511b5ae4789140bb6a02e85b6",
+        "dependencies/common_reception.py": "621387a92cbf37b445d8ca0d18533e5c25881c260f5aa27e909444543acc090b",
+        "dependencies/native/exact.py": "f89d2eb531084eb79199e38dcaa753c8102433e92ac5569485185f521ebed9e1",
+        "dependencies/native/t18.py": "df4e674f8a94673e2976d3000a867045b67bd29d38ac4c50368af23fe7061e8a",
+        "exact.py": "f910d3d51aa1c7ad2deb5a6b39f6d0873ec7b56a48ded39e9015bcf7f06b2d63",
+        "exact_observation_information.py": "194ba1a456e62a897fa5cc39c506d64fba696fe556668c5ecfd932f8fadd7aee",
+        "formal_log_source": "e0f7b43b06fcf75f3dce522ab87de4eb189fde99098b0a025bae2d751dc4adfc",
+        "golden.py": "2dfe178c86c2b0152b485d49a6c4a94deaf31dcf1f724e08960ea7e167a1f418",
+        "inverse.py": "18aaf033264b8860ddfa08a0e1a15974b24dee5a638aa2e22cc77937c14de824",
+        "motion.py": "c2c6f824cdcb5cb0ea5c69033cffd9fa35519f2773ee345c2acb0dae0377556e",
+        "motion_profiles.json": "30a1009111a2c2182dab6dc299eb0022d604298556b317625f723be9588b3f24",
+        "native.py": "dcbfdd188ba17bbce68084b456db8104dc73a9b743cdfa049604604ded18d6fe",
+        "observation.py": "c64d0ba4d793a2ada6a1be4c229e2053767c7f49fa33b46be6781d9b267a1729",
+        "observation_motion.py": "196df2464c55e1819176d130a832c7dc431c801c9465555cedb7d031f9b35eea",
+        "observation_policy.py": "cb89710be7b1021db1fa5c47bf0f80173800c447242d7db5615e0870a13b2ff0",
+        "quantities.py": "3c56500cb3a59ea340564ebdcd21ed6f042fd6d22f7a62ad6e674a2e16bd1db1",
+        "reporting.py": "c51d02d9dcf9061f8a1b24d4e261630a074021789848a834d6bd955fd9f71475"
+      },
+      "members": [
+        {
+          "barrier": 2,
+          "contact_profile": [
+            6,
+            8
+          ],
+          "initial": [
+            0,
+            0,
+            0
+          ],
+          "original_action_ratio": "4/3",
+          "original_barrier": 2,
+          "original_contact_profile": [
+            6,
+            8
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 3
+              }
+            ],
+            "expression": "2*ln(2) - ln(3)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+          "states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "target": 2,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 2,
+          "contact_profile": [
+            8,
+            10
+          ],
+          "initial": [
+            1,
+            0,
+            0
+          ],
+          "original_action_ratio": "5/4",
+          "original_barrier": 2,
+          "original_contact_profile": [
+            8,
+            10
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 5
+              }
+            ],
+            "expression": "-2*ln(2) + ln(5)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+          "states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "target": 2,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 0,
+          "contact_profile": [
+            10,
+            8
+          ],
+          "initial": [
+            2,
+            0,
+            0
+          ],
+          "original_action_ratio": "4/5",
+          "original_barrier": 0,
+          "original_contact_profile": [
+            10,
+            8
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 5
+              }
+            ],
+            "expression": "2*ln(2) - ln(5)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+          "states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "target": 0,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 0,
+          "contact_profile": [
+            8,
+            6
+          ],
+          "initial": [
+            3,
+            0,
+            0
+          ],
+          "original_action_ratio": "3/4",
+          "original_barrier": 0,
+          "original_contact_profile": [
+            8,
+            6
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 3
+              }
+            ],
+            "expression": "-2*ln(2) + ln(3)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+          "states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "target": 0,
+          "target_status": "DEFINED"
+        }
+      ],
+      "original_members": [
+        {
+          "barrier": 2,
+          "contact_profile": [
+            6,
+            8
+          ],
+          "initial": [
+            0,
+            0,
+            0
+          ],
+          "original_action_ratio": "4/3",
+          "original_barrier": 2,
+          "original_contact_profile": [
+            6,
+            8
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 3
+              }
+            ],
+            "expression": "2*ln(2) - ln(3)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+          "states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "target": 2,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 2,
+          "contact_profile": [
+            8,
+            10
+          ],
+          "initial": [
+            1,
+            0,
+            0
+          ],
+          "original_action_ratio": "5/4",
+          "original_barrier": 2,
+          "original_contact_profile": [
+            8,
+            10
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 5
+              }
+            ],
+            "expression": "-2*ln(2) + ln(5)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+          "states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "target": 2,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 0,
+          "contact_profile": [
+            10,
+            8
+          ],
+          "initial": [
+            2,
+            0,
+            0
+          ],
+          "original_action_ratio": "4/5",
+          "original_barrier": 0,
+          "original_contact_profile": [
+            10,
+            8
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 5
+              }
+            ],
+            "expression": "2*ln(2) - ln(5)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+          "states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ],
+          "target": 0,
+          "target_status": "DEFINED"
+        },
+        {
+          "barrier": 0,
+          "contact_profile": [
+            8,
+            6
+          ],
+          "initial": [
+            3,
+            0,
+            0
+          ],
+          "original_action_ratio": "3/4",
+          "original_barrier": 0,
+          "original_contact_profile": [
+            8,
+            6
+          ],
+          "original_log_action_ratio": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 3
+              }
+            ],
+            "expression": "-2*ln(2) + ln(3)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "original_program": [
+            "W1+"
+          ],
+          "original_states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "probe_history": [],
+          "program": [
+            "W1+"
+          ],
+          "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+          "states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "target": 0,
+          "target_status": "DEFINED"
+        }
+      ],
+      "probe_history": [],
+      "question": {
+        "available_readouts": [
+          {
+            "kind": "SPHERE",
+            "role": "J4_0.endpoint_a",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "SCALE",
+            "role": "J4_0.endpoint_a",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "LOG_SCALE",
+            "role": "J4_0.endpoint_a",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "ROLE_PHASE",
+            "role": "J4_0.endpoint_a",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "SPHERE",
+            "role": "J4_0.endpoint_b",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "SCALE",
+            "role": "J4_0.endpoint_b",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "LOG_SCALE",
+            "role": "J4_0.endpoint_b",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "ROLE_PHASE",
+            "role": "J4_0.endpoint_b",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "SPHERE",
+            "role": "J4_0.partner",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "SCALE",
+            "role": "J4_0.partner",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "LOG_SCALE",
+            "role": "J4_0.partner",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "ROLE_PHASE",
+            "role": "J4_0.partner",
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "RELATIVE_PHASE",
+            "roles": [
+              "J4_0.endpoint_a",
+              "J4_0.endpoint_b"
+            ],
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "RELATIVE_PHASE",
+            "roles": [
+              "J4_0.endpoint_a",
+              "J4_0.partner"
+            ],
+            "scope": "ENDPOINT"
+          },
+          {
+            "kind": "RELATIVE_PHASE",
+            "roles": [
+              "J4_0.endpoint_b",
+              "J4_0.partner"
+            ],
+            "scope": "ENDPOINT"
+          }
+        ],
+        "available_reports": [
+          {
+            "readout": {
+              "kind": "SPHERE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 0
+            }
+          },
+          {
+            "readout": {
+              "kind": "ROLE_PHASE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SPHERE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 0
+            }
+          },
+          {
+            "readout": {
+              "kind": "ROLE_PHASE",
+              "role": "J4_0.endpoint_b",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SPHERE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "LOG_SCALE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 0
+            }
+          },
+          {
+            "readout": {
+              "kind": "ROLE_PHASE",
+              "role": "J4_0.partner",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "RELATIVE_PHASE",
+              "roles": [
+                "J4_0.endpoint_a",
+                "J4_0.endpoint_b"
+              ],
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "RELATIVE_PHASE",
+              "roles": [
+                "J4_0.endpoint_a",
+                "J4_0.partner"
+              ],
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          },
+          {
+            "readout": {
+              "kind": "RELATIVE_PHASE",
+              "roles": [
+                "J4_0.endpoint_b",
+                "J4_0.partner"
+              ],
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "EXACT"
+            }
+          }
+        ],
+        "components": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "conditions": {
+          "0": {}
+        },
+        "directions": [
+          null
+        ],
+        "event_labels": [
+          "W1+"
+        ],
+        "initial_states": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0
+          ]
+        ],
+        "mode": "ABSOLUTE",
+        "observations": [
+          null,
+          null
+        ],
+        "target": {
+          "kind": "BARRIER"
+        },
+        "view": "JOINT"
+      },
+      "schema": "SLC_GEN2_OBSERVATION_CHECKPOINT_V1",
+      "weights": {
+        "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d": 1,
+        "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6": 1,
+        "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2": 1,
+        "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead": 1
+      }
+    },
+    "sha256": "3cae106958552379811378b874235f2cfa287dd88d8f0cf9a1233cd5cd03f741"
+  },
+  "choices": [
+    {
+      "available": true,
+      "choice": {
+        "components": [
+          0
+        ],
+        "event": null,
+        "label": "PARITY",
+        "mode": "ABSOLUTE",
+        "projection": "SIGN",
+        "report": {
+          "kind": "EXACT"
+        },
+        "view": "OCCUPANCY"
+      },
+      "label": "PARITY",
+      "predictions": [
+        {
+          "after": [
+            1,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            6,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "OCCUPANCY"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+          "states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            2,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            8,
+            10
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "OCCUPANCY"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              -1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+          "states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            3,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            10,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "OCCUPANCY"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+          "states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            0,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            8,
+            6
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "OCCUPANCY"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              -1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+          "states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "quantity": {
+        "component": [
+          0
+        ],
+        "frame": {
+          "mode": "ABSOLUTE",
+          "view": "OCCUPANCY"
+        },
+        "kind": "NATIVE_RECEIVER_SIGN",
+        "normalization": null,
+        "reference_state": null,
+        "role": null,
+        "schema": "GEN2_QUANTITY_V1",
+        "scope": "ENDPOINT",
+        "sign_convention": "SIGNED_VALUE",
+        "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+        "units": {}
+      },
+      "report_detail": {
+        "report_alphabet": 2,
+        "report_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 1
+              },
+              "prime": 2
+            }
+          ],
+          "expression": "ln(2)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        }
+      },
+      "returned_scalar_components": 1,
+      "score": {
+        "candidate_count": 4,
+        "conditional_target_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 2,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            }
+          ],
+          "expression": "3/2*ln(2) - 3/8*ln(3)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "log_unit": "nats",
+        "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+        "mutual_information": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 2,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3/2*ln(2) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "observation_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2"
+            ],
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 1
+                },
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d"
+                ],
+                "target": 2
+              },
+              {
+                "conditional_probability": {
+                  "denominator": 4,
+                  "numerator": 3
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2"
+                ],
+                "target": 0
+              }
+            ]
+          },
+          {
+            "members": [
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 2,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "members": [
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "target": 2
+              },
+              {
+                "conditional_probability": {
+                  "denominator": 2,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "members": [
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 1
+            },
+            "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+            "target": 0
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "OCCUPANCY"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+            "target": 0
+          }
+        ],
+        "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+        "target_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "target_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "target": 2
+          },
+          {
+            "members": [
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 5
+            },
+            "target": 0
+          }
+        ]
+      },
+      "unavailable_record_ids": []
+    },
+    {
+      "available": true,
+      "choice": {
+        "components": [
+          0
+        ],
+        "event": null,
+        "label": "PAIR",
+        "mode": "ABSOLUTE",
+        "projection": "SIGN",
+        "report": {
+          "kind": "EXACT"
+        },
+        "view": "SIGNED"
+      },
+      "label": "PAIR",
+      "predictions": [
+        {
+          "after": [
+            1,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            6,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "SIGNED"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+          "states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            2,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            8,
+            10
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "SIGNED"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+          "states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            3,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            10,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "SIGNED"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              -1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+          "states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            0,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            8,
+            6
+          ],
+          "observation": {
+            "channel": {
+              "components": [
+                0
+              ],
+              "mode": "ABSOLUTE",
+              "projection": "SIGN",
+              "view": "SIGNED"
+            },
+            "report": {
+              "kind": "EXACT"
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": [
+              -1
+            ]
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+          "states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "quantity": {
+        "component": [
+          0
+        ],
+        "frame": {
+          "mode": "ABSOLUTE",
+          "view": "SIGNED"
+        },
+        "kind": "NATIVE_RECEIVER_SIGN",
+        "normalization": null,
+        "reference_state": null,
+        "role": null,
+        "schema": "GEN2_QUANTITY_V1",
+        "scope": "ENDPOINT",
+        "sign_convention": "SIGNED_VALUE",
+        "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+        "units": {}
+      },
+      "report_detail": {
+        "report_alphabet": 2,
+        "report_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        }
+      },
+      "returned_scalar_components": 1,
+      "score": {
+        "candidate_count": 4,
+        "conditional_target_entropy": {
+          "coefficients": [],
+          "expression": "0",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "log_unit": "nats",
+        "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+        "mutual_information": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "observation_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+            ],
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "target": 2
+              }
+            ]
+          },
+          {
+            "members": [
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 5
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 1
+            },
+            "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                1
+              ]
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+            "target": 0
+          },
+          {
+            "observation": {
+              "channel": {
+                "components": [
+                  0
+                ],
+                "mode": "ABSOLUTE",
+                "projection": "SIGN",
+                "view": "SIGNED"
+              },
+              "report": {
+                "kind": "EXACT"
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": [
+                -1
+              ]
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+            "target": 0
+          }
+        ],
+        "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+        "target_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "target_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "target": 2
+          },
+          {
+            "members": [
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 5
+            },
+            "target": 0
+          }
+        ]
+      },
+      "unavailable_record_ids": []
+    },
+    {
+      "available": true,
+      "choice": {
+        "event": null,
+        "label": "SCALE",
+        "readout": {
+          "kind": "SCALE",
+          "role": "J4_0.endpoint_a",
+          "scope": "ENDPOINT"
+        },
+        "report": {
+          "kind": "ABOVE_SAME_BELOW",
+          "reference": 1
+        }
+      },
+      "label": "SCALE",
+      "predictions": [
+        {
+          "after": [
+            1,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            6,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "readout": {
+                "kind": "SCALE",
+                "role": "J4_0.endpoint_a",
+                "scope": "ENDPOINT"
+              }
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": "ABOVE"
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+          "states": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            2,
+            0,
+            0
+          ],
+          "barrier": 2,
+          "contact_profile": [
+            8,
+            10
+          ],
+          "observation": {
+            "channel": {
+              "readout": {
+                "kind": "SCALE",
+                "role": "J4_0.endpoint_a",
+                "scope": "ENDPOINT"
+              }
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": "ABOVE"
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+          "states": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            3,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            10,
+            8
+          ],
+          "observation": {
+            "channel": {
+              "readout": {
+                "kind": "SCALE",
+                "role": "J4_0.endpoint_a",
+                "scope": "ENDPOINT"
+              }
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": "BELOW"
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+          "states": [
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "after": [
+            0,
+            0,
+            0
+          ],
+          "barrier": 0,
+          "contact_profile": [
+            8,
+            6
+          ],
+          "observation": {
+            "channel": {
+              "readout": {
+                "kind": "SCALE",
+                "role": "J4_0.endpoint_a",
+                "scope": "ENDPOINT"
+              }
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            },
+            "schema": "GEN2_REPORTED_OBSERVATION_V1",
+            "value": "BELOW"
+          },
+          "program": [
+            "W1+"
+          ],
+          "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+          "states": [
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "quantity": {
+        "component": null,
+        "frame": {
+          "source_coordinates": [
+            1,
+            2,
+            3
+          ]
+        },
+        "kind": "SCALE",
+        "normalization": {
+          "kind": "INITIAL_ACTION",
+          "reference_state": {
+            "kind": "MEMBER_ORIGINAL_INITIAL_STATE"
+          },
+          "role": "J4_0.endpoint_a",
+          "source_account": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f"
+        },
+        "reference_state": {
+          "kind": "MEMBER_ORIGINAL_INITIAL_STATE"
+        },
+        "role": "J4_0.endpoint_a",
+        "schema": "GEN2_QUANTITY_V1",
+        "scope": "ENDPOINT",
+        "sign_convention": "POSITIVE_VALUE",
+        "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+        "units": {}
+      },
+      "report_detail": {
+        "report_alphabet": 2,
+        "report_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        }
+      },
+      "returned_scalar_components": 1,
+      "score": {
+        "candidate_count": 4,
+        "conditional_target_entropy": {
+          "coefficients": [],
+          "expression": "0",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "log_unit": "nats",
+        "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+        "mutual_information": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "observation_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+            ],
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "ABOVE"
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "target": 2
+              }
+            ]
+          },
+          {
+            "members": [
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "BELOW"
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 5
+            },
+            "targets": [
+              {
+                "conditional_probability": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "joint_probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "target": 0
+              }
+            ]
+          }
+        ],
+        "records": [
+          {
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "ABOVE"
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 1
+            },
+            "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "ABOVE"
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+            "target": 2
+          },
+          {
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "BELOW"
+            },
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+            "target": 0
+          },
+          {
+            "observation": {
+              "channel": {
+                "readout": {
+                  "kind": "SCALE",
+                  "role": "J4_0.endpoint_a",
+                  "scope": "ENDPOINT"
+                }
+              },
+              "report": {
+                "kind": "ABOVE_SAME_BELOW",
+                "reference": 1
+              },
+              "schema": "GEN2_REPORTED_OBSERVATION_V1",
+              "value": "BELOW"
+            },
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+            "target": 0
+          }
+        ],
+        "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+        "target_entropy": {
+          "coefficients": [
+            {
+              "coefficient": {
+                "denominator": 1,
+                "numerator": 3
+              },
+              "prime": 2
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -3
+              },
+              "prime": 3
+            },
+            {
+              "coefficient": {
+                "denominator": 8,
+                "numerator": -5
+              },
+              "prime": 5
+            }
+          ],
+          "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+          "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+        },
+        "target_partition": [
+          {
+            "members": [
+              "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 3
+            },
+            "target": 2
+          },
+          {
+            "members": [
+              "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+            ],
+            "probability": {
+              "denominator": 8,
+              "numerator": 5
+            },
+            "target": 0
+          }
+        ]
+      },
+      "unavailable_record_ids": []
+    }
+  ],
+  "complete": true,
+  "maximizing_labels": [
+    "PAIR",
+    "SCALE"
+  ],
+  "plan": {
+    "body": {
+      "checkpoint_sha256": "3cae106958552379811378b874235f2cfa287dd88d8f0cf9a1233cd5cd03f741",
+      "choices": [
+        {
+          "components": [
+            0
+          ],
+          "event": null,
+          "label": "PARITY",
+          "mode": "ABSOLUTE",
+          "projection": "SIGN",
+          "report": {
+            "kind": "EXACT"
+          },
+          "view": "OCCUPANCY"
+        },
+        {
+          "components": [
+            0
+          ],
+          "event": null,
+          "label": "PAIR",
+          "mode": "ABSOLUTE",
+          "projection": "SIGN",
+          "report": {
+            "kind": "EXACT"
+          },
+          "view": "SIGNED"
+        },
+        {
+          "event": null,
+          "label": "SCALE",
+          "readout": {
+            "kind": "SCALE",
+            "role": "J4_0.endpoint_a",
+            "scope": "ENDPOINT"
+          },
+          "report": {
+            "kind": "ABOVE_SAME_BELOW",
+            "reference": 1
+          }
+        }
+      ],
+      "maximizing_labels": [
+        "PAIR",
+        "SCALE"
+      ],
+      "minimum_detail_labels": [
+        "PAIR",
+        "SCALE"
+      ],
+      "results": [
+        {
+          "available": true,
+          "choice": {
+            "components": [
+              0
+            ],
+            "event": null,
+            "label": "PARITY",
+            "mode": "ABSOLUTE",
+            "projection": "SIGN",
+            "report": {
+              "kind": "EXACT"
+            },
+            "view": "OCCUPANCY"
+          },
+          "label": "PARITY",
+          "predictions": [
+            {
+              "after": [
+                1,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                6,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "OCCUPANCY"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "states": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                2,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                8,
+                10
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "OCCUPANCY"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  -1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+              "states": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                3,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                10,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "OCCUPANCY"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "states": [
+                [
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                0,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                8,
+                6
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "OCCUPANCY"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  -1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+              "states": [
+                [
+                  3,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "quantity": {
+            "component": [
+              0
+            ],
+            "frame": {
+              "mode": "ABSOLUTE",
+              "view": "OCCUPANCY"
+            },
+            "kind": "NATIVE_RECEIVER_SIGN",
+            "normalization": null,
+            "reference_state": null,
+            "role": null,
+            "schema": "GEN2_QUANTITY_V1",
+            "scope": "ENDPOINT",
+            "sign_convention": "SIGNED_VALUE",
+            "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+            "units": {}
+          },
+          "report_detail": {
+            "report_alphabet": 2,
+            "report_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 2
+                }
+              ],
+              "expression": "ln(2)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            }
+          },
+          "returned_scalar_components": 1,
+          "score": {
+            "candidate_count": 4,
+            "conditional_target_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 2,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                }
+              ],
+              "expression": "3/2*ln(2) - 3/8*ln(3)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_unit": "nats",
+            "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+            "mutual_information": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 2,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3/2*ln(2) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "observation_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2"
+                ],
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 2,
+                  "numerator": 1
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 4,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 1
+                    },
+                    "members": [
+                      "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d"
+                    ],
+                    "target": 2
+                  },
+                  {
+                    "conditional_probability": {
+                      "denominator": 4,
+                      "numerator": 3
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 3
+                    },
+                    "members": [
+                      "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2"
+                    ],
+                    "target": 0
+                  }
+                ]
+              },
+              {
+                "members": [
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 2,
+                  "numerator": 1
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 2,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 4,
+                      "numerator": 1
+                    },
+                    "members": [
+                      "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                    ],
+                    "target": 2
+                  },
+                  {
+                    "conditional_probability": {
+                      "denominator": 2,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 4,
+                      "numerator": 1
+                    },
+                    "members": [
+                      "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                    ],
+                    "target": 0
+                  }
+                ]
+              }
+            ],
+            "records": [
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 1
+                },
+                "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                "target": 0
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "OCCUPANCY"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+                "target": 0
+              }
+            ],
+            "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+            "target_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "target_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "target": 2
+              },
+              {
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "target": 0
+              }
+            ]
+          },
+          "unavailable_record_ids": []
+        },
+        {
+          "available": true,
+          "choice": {
+            "components": [
+              0
+            ],
+            "event": null,
+            "label": "PAIR",
+            "mode": "ABSOLUTE",
+            "projection": "SIGN",
+            "report": {
+              "kind": "EXACT"
+            },
+            "view": "SIGNED"
+          },
+          "label": "PAIR",
+          "predictions": [
+            {
+              "after": [
+                1,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                6,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "SIGNED"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "states": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                2,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                8,
+                10
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "SIGNED"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+              "states": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                3,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                10,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "SIGNED"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  -1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "states": [
+                [
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                0,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                8,
+                6
+              ],
+              "observation": {
+                "channel": {
+                  "components": [
+                    0
+                  ],
+                  "mode": "ABSOLUTE",
+                  "projection": "SIGN",
+                  "view": "SIGNED"
+                },
+                "report": {
+                  "kind": "EXACT"
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": [
+                  -1
+                ]
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+              "states": [
+                [
+                  3,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "quantity": {
+            "component": [
+              0
+            ],
+            "frame": {
+              "mode": "ABSOLUTE",
+              "view": "SIGNED"
+            },
+            "kind": "NATIVE_RECEIVER_SIGN",
+            "normalization": null,
+            "reference_state": null,
+            "role": null,
+            "schema": "GEN2_QUANTITY_V1",
+            "scope": "ENDPOINT",
+            "sign_convention": "SIGNED_VALUE",
+            "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+            "units": {}
+          },
+          "report_detail": {
+            "report_alphabet": 2,
+            "report_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            }
+          },
+          "returned_scalar_components": 1,
+          "score": {
+            "candidate_count": 4,
+            "conditional_target_entropy": {
+              "coefficients": [],
+              "expression": "0",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_unit": "nats",
+            "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+            "mutual_information": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "observation_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 1,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 3
+                    },
+                    "members": [
+                      "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                      "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                    ],
+                    "target": 2
+                  }
+                ]
+              },
+              {
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 1,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 5
+                    },
+                    "members": [
+                      "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                      "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                    ],
+                    "target": 0
+                  }
+                ]
+              }
+            ],
+            "records": [
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 1
+                },
+                "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    1
+                  ]
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                "target": 0
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "components": [
+                      0
+                    ],
+                    "mode": "ABSOLUTE",
+                    "projection": "SIGN",
+                    "view": "SIGNED"
+                  },
+                  "report": {
+                    "kind": "EXACT"
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": [
+                    -1
+                  ]
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+                "target": 0
+              }
+            ],
+            "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+            "target_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "target_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "target": 2
+              },
+              {
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "target": 0
+              }
+            ]
+          },
+          "unavailable_record_ids": []
+        },
+        {
+          "available": true,
+          "choice": {
+            "event": null,
+            "label": "SCALE",
+            "readout": {
+              "kind": "SCALE",
+              "role": "J4_0.endpoint_a",
+              "scope": "ENDPOINT"
+            },
+            "report": {
+              "kind": "ABOVE_SAME_BELOW",
+              "reference": 1
+            }
+          },
+          "label": "SCALE",
+          "predictions": [
+            {
+              "after": [
+                1,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                6,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "readout": {
+                    "kind": "SCALE",
+                    "role": "J4_0.endpoint_a",
+                    "scope": "ENDPOINT"
+                  }
+                },
+                "report": {
+                  "kind": "ABOVE_SAME_BELOW",
+                  "reference": 1
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": "ABOVE"
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+              "states": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                2,
+                0,
+                0
+              ],
+              "barrier": 2,
+              "contact_profile": [
+                8,
+                10
+              ],
+              "observation": {
+                "channel": {
+                  "readout": {
+                    "kind": "SCALE",
+                    "role": "J4_0.endpoint_a",
+                    "scope": "ENDPOINT"
+                  }
+                },
+                "report": {
+                  "kind": "ABOVE_SAME_BELOW",
+                  "reference": 1
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": "ABOVE"
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+              "states": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                3,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                10,
+                8
+              ],
+              "observation": {
+                "channel": {
+                  "readout": {
+                    "kind": "SCALE",
+                    "role": "J4_0.endpoint_a",
+                    "scope": "ENDPOINT"
+                  }
+                },
+                "report": {
+                  "kind": "ABOVE_SAME_BELOW",
+                  "reference": 1
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": "BELOW"
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+              "states": [
+                [
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0,
+                  0
+                ]
+              ]
+            },
+            {
+              "after": [
+                0,
+                0,
+                0
+              ],
+              "barrier": 0,
+              "contact_profile": [
+                8,
+                6
+              ],
+              "observation": {
+                "channel": {
+                  "readout": {
+                    "kind": "SCALE",
+                    "role": "J4_0.endpoint_a",
+                    "scope": "ENDPOINT"
+                  }
+                },
+                "report": {
+                  "kind": "ABOVE_SAME_BELOW",
+                  "reference": 1
+                },
+                "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                "value": "BELOW"
+              },
+              "program": [
+                "W1+"
+              ],
+              "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+              "states": [
+                [
+                  3,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ],
+          "quantity": {
+            "component": null,
+            "frame": {
+              "source_coordinates": [
+                1,
+                2,
+                3
+              ]
+            },
+            "kind": "SCALE",
+            "normalization": {
+              "kind": "INITIAL_ACTION",
+              "reference_state": {
+                "kind": "MEMBER_ORIGINAL_INITIAL_STATE"
+              },
+              "role": "J4_0.endpoint_a",
+              "source_account": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f"
+            },
+            "reference_state": {
+              "kind": "MEMBER_ORIGINAL_INITIAL_STATE"
+            },
+            "role": "J4_0.endpoint_a",
+            "schema": "GEN2_QUANTITY_V1",
+            "scope": "ENDPOINT",
+            "sign_convention": "POSITIVE_VALUE",
+            "source": "1ada6d9e3481de6873df9e912d8cbe32799aee0601474649c1c1f0a474fef05f",
+            "units": {}
+          },
+          "report_detail": {
+            "report_alphabet": 2,
+            "report_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            }
+          },
+          "returned_scalar_components": 1,
+          "score": {
+            "candidate_count": 4,
+            "conditional_target_entropy": {
+              "coefficients": [],
+              "expression": "0",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_unit": "nats",
+            "measure": "DECLARED_POSITIVE_EXACT_RECORD_WEIGHTS_NORMALIZED_BY_TOTAL",
+            "mutual_information": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "observation_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "ABOVE"
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 1,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 3
+                    },
+                    "members": [
+                      "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                      "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                    ],
+                    "target": 2
+                  }
+                ]
+              },
+              {
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "BELOW"
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "targets": [
+                  {
+                    "conditional_probability": {
+                      "denominator": 1,
+                      "numerator": 1
+                    },
+                    "joint_probability": {
+                      "denominator": 8,
+                      "numerator": 5
+                    },
+                    "members": [
+                      "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                      "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                    ],
+                    "target": 0
+                  }
+                ]
+              }
+            ],
+            "records": [
+              {
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "ABOVE"
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 1
+                },
+                "record_id": "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "ABOVE"
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead",
+                "target": 2
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "BELOW"
+                },
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "record_id": "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                "target": 0
+              },
+              {
+                "observation": {
+                  "channel": {
+                    "readout": {
+                      "kind": "SCALE",
+                      "role": "J4_0.endpoint_a",
+                      "scope": "ENDPOINT"
+                    }
+                  },
+                  "report": {
+                    "kind": "ABOVE_SAME_BELOW",
+                    "reference": 1
+                  },
+                  "schema": "GEN2_REPORTED_OBSERVATION_V1",
+                  "value": "BELOW"
+                },
+                "probability": {
+                  "denominator": 4,
+                  "numerator": 1
+                },
+                "record_id": "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6",
+                "target": 0
+              }
+            ],
+            "schema": "GEN2_LINKED_TARGET_OBSERVATION_INFORMATION_V1",
+            "target_entropy": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 8,
+                    "numerator": -5
+                  },
+                  "prime": 5
+                }
+              ],
+              "expression": "3*ln(2) - 3/8*ln(3) - 5/8*ln(5)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "target_partition": [
+              {
+                "members": [
+                  "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d",
+                  "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 3
+                },
+                "target": 2
+              },
+              {
+                "members": [
+                  "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2",
+                  "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6"
+                ],
+                "probability": {
+                  "denominator": 8,
+                  "numerator": 5
+                },
+                "target": 0
+              }
+            ]
+          },
+          "unavailable_record_ids": []
+        }
+      ],
+      "schema": "SLC_GEN2_OBSERVATION_PLAN_V1",
+      "selected_label": "PAIR",
+      "selection_rule": "TARGET_INFORMATION_REPORT_ENTROPY_ALPHABET_SCALARS_ROSTER",
+      "status": "GAIN",
+      "weights": {
+        "2ae586036a3ea308d7369491165c9084c2b33dfe789402b136f4aa3fed628a2d": "1/8",
+        "336125a557941e7ec6589f70d8a79897643f4c210b2463f54470a7cd6fbe5ed6": "1/4",
+        "7e54d745a7e55c1a6dacb9ffcf40ae3fcb6e2fdaa1d9d60885cdb586a29b21d2": "3/8",
+        "a9b22e993ef5b0d93c1598734b41c06b64ba26f0d014a7033d216d7212db1ead": "1/4"
+      }
+    },
+    "sha256": "c9610918f0baf8efc0b8b1424582764a13da50b8bb4d46efeef7f08ef7885d72"
+  },
+  "schema": "SLC_GEN2_OBSERVATION_PLAN_V1",
+  "selected_label": "PAIR",
+  "status": "GAIN"
+}

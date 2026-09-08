@@ -1,0 +1,22 @@
+{
+  "schema": "GEN2_MOTION_PROFILE_REGISTRY_V1",
+  "profiles": [
+    {
+      "profile_id": "H980_J4_NATIVE_CONTACT_V1",
+      "source_binding_prefix": "H980_J4:",
+      "calibration_file": "dependencies/J4_RESPONSES.jsonl",
+      "receiver_rule": "EXACT_REGISTERED_J4_MATRIX_AND_THREE_SOURCE_COORDINATES",
+      "source_action": "6-2*dot(p0,p2)+2*dot(p1,p2)",
+      "normalization": "INITIAL_ACTION",
+      "sphere_radius": "1",
+      "roles": [
+        {"name": "endpoint_a", "azimuth_slot": 0},
+        {"name": "endpoint_b", "azimuth_slot": 1},
+        {"name": "partner", "azimuth_slot": 2}
+      ],
+      "default_motion": "GOLDEN_ENDPOINT_A_THEN_PARTNER",
+      "readout_context": "NATIVE_SOURCE_SIMULATION",
+      "physical_spin_or_orbit_assigned": false
+    }
+  ]
+}

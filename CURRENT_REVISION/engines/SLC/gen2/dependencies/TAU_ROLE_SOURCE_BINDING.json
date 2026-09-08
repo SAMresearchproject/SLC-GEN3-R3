@@ -1,0 +1,60 @@
+{
+  "adaptation": "Only three imports changed to authenticated CURRENT_REVISION PILOT3 package; arithmetic unchanged.",
+  "adapted_encoder": {
+    "path": "SLC/18_SAM_NATIVE_QC/SLC_GEN2_CANDIDATE1/gen2/dependencies/tau_role_encoder.py",
+    "sha256": "b4f2f454daa5e45c049a878e1345aaae27b8582f2862ccff59793123c244a6d6"
+  },
+  "feature_catalog": {
+    "path": "SAM_REVIEW/campaigns/TAU_GEN2_ROLE_ASSOCIATION1/ROUND1/FEATURE_CATALOG.json",
+    "sha256": "fbecfe1a64c18caa4dc224b505f78d836c51718e3dd28f86bb67e3982064ec63"
+  },
+  "installed_model_binding": {
+    "path": "CURRENT_REVISION/domains/ATOM3D/tau_pilot_v3/MODEL_BINDING.json",
+    "sha256": "4660b8627985e2811e2bc50e2b51b8ee15381359fa34473eac6095b637fc4305"
+  },
+  "installed_package": "CURRENT_REVISION.domains.ATOM3D.tau_pilot_v3",
+  "learned_model": "No new learned head or installed checkpoint selected",
+  "native_lanes": "No detector-to-signed-phase or occupancy assignment introduced",
+  "schema": "GEN2_TAU_ROLE_SOURCE_BINDING_V1",
+  "scientific_authority": "H000986",
+  "source_encoder": {
+    "path": "ATOM3D/adapters/tau_role_discovery_v1/encoder.py",
+    "sha256": "634576381d9036256654cb0452153a29a0f87dc4300ec0f3cbe66096ad12c8c9"
+  },
+  "source_files": {
+    "A3D_BANK.npy": "c054cf24df7287bba5ff06a833a3805368c9284ba0e0c71d60fac7c71d79b296",
+    "ABSOLUTE_PAIR_RETAINED.npy": "0fd2255235a351ac28f08b94e95bc23b514c6fcfc89fd37047e4d138c87567e1",
+    "ABSOLUTE_TRIAD_RETAINED.npy": "6ebffbb0f24bd6b718d57f958c0b508de58bf04db0a5c909a709730a3a6af14d",
+    "CANDIDATE_ASSIGNMENTS.npz": "a1fd6c2be7f8dccbae429cb1bf58f676b472a3c815177e66cdd36ddd0a6b7abb",
+    "CHECKPOINT.npz": "9d7bbb7c76ee1530b199a04f22a1a3be0f0f4dd54ef6bb6574dbfcb3244248cf",
+    "COMPARISON_PROTOCOL.json": "88a7876bb8746ce785ae9aa7269fb169f88927a55fe2550168624a23ffcb6b7e",
+    "CONTINUOUS_FORMS.npy": "b22b4d98be7626c31c86dbf078c195c48bdf6237205c7efda1539ab183849d8e",
+    "ENCODER_SPEC.json": "e87cdd81a17ea37a68483dbc2951776f4b084c441c7b9b8fb2a7cd5ce9cf3b8e",
+    "FEATURE_CATALOG.csv": "95e95e0ce34ebfb77e8fc4c061f8b79e6d2b05c95fb0276cd112fc49fdbbda83",
+    "FEATURE_CATALOG.json": "17a59d79d07fdccd2b3e8368f9c7b03ad7c2cc8264e0dfdd9875963539897e63",
+    "FORM_PRODUCT_INDICES.npy": "1d8abcff777bd6bfdc1173bc9e60d8ce2f8e29d6fb619ba2356279c400a40053",
+    "MODEL_BINDING.json": "4660b8627985e2811e2bc50e2b51b8ee15381359fa34473eac6095b637fc4305",
+    "NATIVE_BANK.json": "04c92c31f7048ccf97648941e2a99e347e4a782fa1b2908bf1f50f1d0a2f0387",
+    "NORMALIZATION.npz": "4cfee6cd81bae2bec196a54f6a9de9fb8ad5d67cae29f620cd39e30f836e968b",
+    "PAIR_BANK.npy": "59b5e64afdb920f273f7f30a5383c47c349a193070f7ef8ae1be4fba98f4913d",
+    "QP093A_SOURCE.csv": "dbf6028e05cddc9c0426a9d74ec87e64d241f517a051fa752315899fa77e8a8f",
+    "RELATIVE_PAIR.npy": "110d17826bf6958002d4688add1dce55fc10995657e6586f93399f068ed3088e",
+    "RELATIVE_PAIR_RETAINED.npy": "4bb394295cbe3ce9be6261298375a10d8af0dc73fd85d83e0b47791364aa37c6",
+    "RELATIVE_TRIAD.npy": "d2d07a0c762e64fa59803017eae416a8d3a36e6669c82f40fbb2d695aa2fb71d",
+    "RELATIVE_TRIAD_RETAINED.npy": "0e6d53d76350ef8abd3499edff8ba5a201d6e4bc2b03b4114c11fe4efc4d8d11",
+    "SPECIFICATION.md": "b72dbd420f8f8aee440dcb669c7f8d91dcfcae4dc6197e39189c0016a3e86163",
+    "SPEC_FREEZE.json": "abc2f0ba152e0972669a4e1f92a18bc3b2892dc1d467fb49da17584ce5393187",
+    "T18_TRAJECTORIES.npy": "b5ec96bdda86fc9e1038514eeb6a1419fdf4e0431d0ff75a2dda64a7e3d6d7fb",
+    "TRIAD_BANK.npy": "1859f90678fb21a68e19affa1c02fd50d4aed296dfb9c1c0bbc1d59fbd2776be",
+    "V3_BANK.json": "5b4a1393fddb4f67b271b4ac686ab87b459f24209098806756bae8dcb936c39b",
+    "V3_T18_TRAJECTORIES.npy": "b5ec96bdda86fc9e1038514eeb6a1419fdf4e0431d0ff75a2dda64a7e3d6d7fb",
+    "__init__.py": "6696df56b3dfb860e8b825d68ea1279087243498f3268f87532e0dd7e55edba5",
+    "common.py": "ac33d5fa5a2bc9e808fa953ee9eeb4cc00fe447ba17c5aa63d4b94fddc13d8df",
+    "encode_slc.py": "ddaf80f85c389beec6c917070339728c4feabdf11122ed8348a5b37892d338b3",
+    "legacy_features.py": "736f50857c7270657a8fdd02eedc2453b0cd3aa6754f41334bd4dd2ffecedc96",
+    "model.py": "38d061218fe5aabbce6480c9ef813a68917021f49e15d3dcc72ae0098fc180dc",
+    "native_features.py": "736f50857c7270657a8fdd02eedc2453b0cd3aa6754f41334bd4dd2ffecedc96",
+    "predict.py": "dc41d674ac0f2c833068c5d9ec263ac2ba04324e1f0ae061376cebe299041d61",
+    "retained_features.py": "e0f5bdda73a856b2403a055105413cff3ee89f5b8495a462267784acccd77447"
+  }
+}
