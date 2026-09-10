@@ -1,0 +1,12 @@
+control_id,hypothesis,observed,expected,rejected
+WC1,ternary directions,27,breaks binary-state and octahedral-face correspondence,True
+WC2,signed axes mistaken for S,6,"identifies octahedron vertices/cube faces, not S",True
+WC3,cube faces claimed as eight,6,cube has six faces and eight vertices,True
+WC4,octahedron vertices claimed as eight,6,octahedron has six vertices and eight faces,True
+WC5,2^D counts all arbitrary hyperplanes,"unbounded/continuous family, not 8",mathematically false,True
+WC6,one-quarter split,4 states; 1/4,breaks R^2/Theta=8,True
+WC7,sixteen-state split,16,breaks Theta=18 and dual geometry,True
+WC8,D=4,states=16; cross_facets=16; cross_edges=24; cube_edges=32; R=16; S_split=8,state/split and edge/radix role alignment fail,True
+WC9,unbraced cube called rigid,rank=12; required=18,rejected by edge count and rigidity rank,True
+WC10,circular definition S=8 input,runner primitives are h=2 and D=3; S is computed,circularity absent,True
+WC11,historical role overwrite,24 occurrence rows retained with original phrases,append-only role typing,True

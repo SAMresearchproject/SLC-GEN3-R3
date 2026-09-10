@@ -12,6 +12,7 @@ import multiprocessing as mp
 import os
 from pathlib import Path
 import socket
+import shutil
 import subprocess
 import sys
 import time
@@ -146,7 +147,9 @@ def cpu_chunk(bounds):
 def cpu_run(rows, matrix, coordinates, workers):
     global _ROWS, _MATRIX, _COORDINATES
     _ROWS, _MATRIX, _COORDINATES = rows, matrix, coordinates
-    cpus = sorted(os.sched_getaffinity(0))[:workers]
+    allowed = os.sched_getaffinity(0)
+    order = list(map(int,os.environ['SAM_R3_CPU_ORDER'].split(','))) if 'SAM_R3_CPU_ORDER' in os.environ else sorted(allowed)
+    cpus = [cpu for cpu in order if cpu in allowed][:workers]
     if len(cpus) != workers: raise ValueError('Ryzen profile unavailable')
     context = mp.get_context('fork'); queue = context.Queue()
     for cpu in cpus: queue.put(cpu)
@@ -163,6 +166,13 @@ def cpu_run(rows, matrix, coordinates, workers):
 def gpu_run(context, queue, program, rows, matrix, coordinates, batch):
     import pyopencl as cl
     mf = cl.mem_flags
+    allocation = int(os.environ.get('SAM_GPU_MAX_ALLOCATION_BYTES', 2**28))
+    total_budget = int(os.environ.get('SAM_GPU_BUFFER_BUDGET_BYTES', 2**30))
+    fixed = matrix.nbytes + coordinates.nbytes
+    if fixed >= total_budget or max(matrix.nbytes,coordinates.nbytes) > allocation:
+        raise ValueError('Native source calibration exceeds the qualified GPU budget')
+    batch = min(batch, allocation // (129*8), (total_budget-fixed) // ((129+5)*8))
+    if batch < 1: raise ValueError('No admitted GPU batch fits the budget')
     started = time.perf_counter()
     m = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf=matrix)
     c = cl.Buffer(context, mf.READ_ONLY | mf.COPY_HOST_PTR, hostbuf=coordinates)
@@ -176,7 +186,8 @@ def gpu_run(context, queue, program, rows, matrix, coordinates, batch):
         transfer = cl.enqueue_copy(queue, output[begin:begin + count], y)
         transfer.wait(); kernels.append((event.profile.end - event.profile.start) * 1e-9)
         transfers.append((transfer.profile.end - transfer.profile.start) * 1e-9)
-    queue.finish()
+        x.release(); y.release()
+    queue.finish(); m.release(); c.release()
     return output, {'batch_size': batch, 'batches': len(kernels), 'seconds': time.perf_counter() - started,
                     'kernel_seconds': sum(kernels), 'device_to_host_seconds': sum(transfers)}
 
@@ -204,9 +215,12 @@ def run(directory):
         raise ValueError('Transferred independent executor source differs')
     plan = json.loads((directory / 'PLAN.json').read_text())
     rows = np.load(directory / 'ROWS.npy', allow_pickle=False)
+    if shutil.disk_usage(directory).free - len(rows)*129*8*3 < 20*2**30:
+        raise ValueError('T500 output would cross the 20 GiB free-space reserve')
     matrix, coordinates, bound = rebuild(plan, directory / 'J4_RESPONSES.jsonl')
     cpu_calibration, expected = [], None
-    for workers in (4, 16):
+    limit = len(os.sched_getaffinity(0))
+    for workers in dict.fromkeys((min(4,limit),limit)):
         output, timing = cpu_run(rows, matrix, coordinates, workers)
         if expected is None: expected = output
         elif not np.array_equal(expected, output): raise ValueError('Ryzen schedules disagree')

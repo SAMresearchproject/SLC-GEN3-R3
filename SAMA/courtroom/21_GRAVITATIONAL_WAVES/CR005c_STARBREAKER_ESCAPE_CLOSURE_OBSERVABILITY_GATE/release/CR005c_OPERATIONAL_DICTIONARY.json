@@ -1,0 +1,46 @@
+{
+  "affine_coordinate": {
+    "physical_time": false,
+    "same_pair_inequality_is_tautological": true
+  },
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "ending_zero_histories": [
+    "010",
+    "100",
+    "110"
+  ],
+  "event_closure": null,
+  "history_dictionary": {
+    "001": "outside at seed, outside at collapse, inside at final",
+    "010": "outside at seed, inside at collapse, outside at final",
+    "011": "outside at seed, inside at collapse, inside at final",
+    "100": "inside at seed, outside at collapse, outside at final",
+    "101": "inside at seed, outside at collapse, inside at final",
+    "110": "inside at seed, inside at collapse, outside at final",
+    "111": "inside at seed, inside at collapse, inside at final"
+  },
+  "local_release_surface": {
+    "definition": "outward crossing of pair separation 0.076",
+    "physical_horizon": false
+  },
+  "local_return_closure": {
+    "definition": "inward recrossing of same 0.076 surface",
+    "independent_event_closure": false
+  },
+  "physical_escape_time": null,
+  "required_next_instrumentation": [
+    "an explicit physical or dimensionless solver cadence",
+    "a scenario-level closure or Home-seal state independent of the tested dyad",
+    "a release-surface signed distance independent of final contact scoring",
+    "a carrier crossing direction and crossing step",
+    "returned 101 and ending-zero 010,100,110 populations on the same clock",
+    "a predeclared comparison of escape step against event-closure step"
+  ],
+  "returned_history": "101",
+  "stage_coordinate": {
+    "collapse": 1,
+    "final": 2,
+    "physical_time": false,
+    "seed": 0
+  }
+}

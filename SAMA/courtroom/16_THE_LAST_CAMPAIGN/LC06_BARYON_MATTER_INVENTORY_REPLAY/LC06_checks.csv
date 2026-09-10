@@ -1,0 +1,59 @@
+check,status,value,detail
+LC01 primitive stack present,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC03 qA gate completed before LC06,PASS,,LC03_PASS_QA_LEDGER_COMPRESSION_GRAVITY_AS_A_REPLAY
+LC04 particle mass-chain completed before LC06,PASS,,LC04_PASS_PARTICLE_MASS_CHAIN_TABLE_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+LC05 periodic vault completed before LC06,PASS,,LC05_PASS_PERIODIC_ISOTOPE_VAULT_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+alpha_H locked at 2,PASS,2,LC01 primitive
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+split fraction locked at 1/8,PASS,1/8,LC01 primitive
+retained side locked at 7/8,PASS,7/8,LC01 primitive
+CR114 split theorem passes,PASS,,CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM
+CR116 carrier theorem passes,PASS,,CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM
+CR116 particle catalog status carrier-only,PASS,carrier_only_not_matter,CR116 carrier boundary
+CR119 vault passes,PASS,,PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY
+CR119 matter row summary is 126,PASS,"{'particle': 321, 'matter': 126, 'periodic': 126, 'vault_identity_assignments': 573}",CR119 row count
+CR119 identity count native matter is 126,PASS,126,CR119 identity count
+CR119 null conjugate boundary preserved,PASS,True,CR119 null boundary
+latest export matter rows are 126,PASS,126,latest export
+latest export stable/bound split is 63/63,PASS,"{'stable_single_write_matter': 63, 'bound_composite_matter': 63, 'antimatter_excluded': True, 'null_conjugate_override_applied': 'QP093A-0088'}",latest export breakdown
+latest export antimatter excluded,PASS,True,latest export breakdown
+latest export null override applied,PASS,QP093A-0088,latest export breakdown
+Matter invariant: matter_row_count,PASS,126,126
+Matter invariant: source_matter_row_count,PASS,126,126
+Matter invariant: bin_counts,PASS,"{'stable_matter_rows': 63, 'bound_composite_rows': 63}","{'stable_matter_rows': 63, 'bound_composite_rows': 63}"
+Matter invariant: all_rows_matter_allowed,PASS,126,matter_row_allowed=yes and latest_matter_row_allowed=yes on 126/126
+Matter invariant: matter_gate_counts,PASS,"{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}","{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}"
+Matter invariant: operator_class_counts,PASS,"{'V4_1_SINGLE_WRITE': 42, 'OUTER_BINARY_NEUTRAL': 21, 'GROUND_BARYON_3BODY': 14, 'BOUND_COLOR_PAIR': 36, 'OCTET_COMPOSITE': 13}","{'V4_1_SINGLE_WRITE': 42, 'OUTER_BINARY_NEUTRAL': 21, 'BOUND_COLOR_PAIR': 36, 'GROUND_BARYON_3BODY': 14, 'OCTET_COMPOSITE': 13}"
+Matter invariant: stability_status_counts,PASS,"{'STABLE_MATTER_CANDIDATE': 42, 'STABLE_NEUTRAL_CANDIDATE': 21, 'BOUND_COLOR_CLOSED_STABLE_CANDIDATE': 14, 'BOUND_PAIR_NEUTRAL_CANDIDATE': 7, 'BOUND_PAIR_CHARGED_CANDIDATE': 42}","{'STABLE_MATTER_CANDIDATE': 42, 'STABLE_NEUTRAL_CANDIDATE': 21, 'BOUND_PAIR_CHARGED_CANDIDATE': 42, 'BOUND_COLOR_CLOSED_STABLE_CANDIDATE': 14, 'BOUND_PAIR_NEUTRAL_CANDIDATE': 7}"
+Matter invariant: no_antimatter_rows_in_matter_table,PASS,0,0
+Matter invariant: known_labels_not_construction_inputs,PASS,{'no': 126},{'no': 126}
+Matter invariant: native_matter_identity,PASS,{'NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL': 126},{'NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL': 126}
+Matter invariant: native_identity_no_external_label,PASS,{'native_identity_no_external_label': 126},{'native_identity_no_external_label': 126}
+Matter invariant: qA_support_split_from_LC01,PASS,max_error=1E-96; tolerance=1E-90,tensor=qA/8 and retained=7qA/8 within 1e-90 exported-decimal tolerance
+Matter invariant: observed_surface_identity,PASS,max_error=0.00; tolerance=1E-90,M_observed_candidate = M_native - S_debit_or_credit
+Matter invariant: QP093A_0088_null_conjugate_excluded_from_matter,PASS,"{'particle_rows': 1, 'matter_rows': 0, 'latest_matter_row_allowed': 'no', 'vault_reveal_status': 'NULL_CONJUGATE_REVEALED_ZERO_QA_NO_MATTER_PROMOTION'}","particle row exists, matter table excludes it, latest_matter_row_allowed=no"
+Baryon layer: CR018_baryon_inventory,PASS,A0=0.026525823848649224; mu_H=2.6666666666666665; chi=0.07073553026306459; Omega_b=0.049299011266100756,Zero-free-parameter baryon inventory candidate; observed baryon density is not a construction input.
+Baryon layer: CR019_effective_matter_inventory,PASS,Omega_b=0.049299011266100756; Omega_m_eff=0.3137609155690572; PBH=0.26446190430295646; vacuum=0.6862390844309427,"Effective matter refinement is structural-argument/candidate grade, not theorem-grade full cosmology."
+Baryon layer: CR023_branch_verdict,PASS,BOUNDARY_PASS,"Not full CMB, recombination, perturbation, TT/TE/EE, Planck likelihood, or distance-triad closure."
+Baryon layer: QP092H_carrier_compression_gate,PASS,PASS_QP092H_BARYON_INVENTORY_CMB_CARRIER_COMPRESSION_RULE_GATE__BRANCHES_ADMITTED_ONLY_THROUGH_CARRIER_COMPRESSION__DIRECT_QA_AS_MASS_REJECTED__CMB_SCOPE_BOUNDARIES_PRESERVED,Direct qA-as-mass is rejected; CMB rows keep scoped boundary/contact status.
+Baryon layer: CR111_CR114_baryon_bridge,PASS,sigma_h2=0.008109980757971721; all_paths=True,Bridge is provenance/support; LC06 does not reclassify CR018 as a fresh forward-blind Q-artifact.
+CR018 derived rows match summary Omega_b,PASS,0.049299011266100756,CR018 derived row
+CR019 inventory rows match summary Omega_m_eff,PASS,0.3137609155690572,CR019 inventory row
+CR023 component table keeps CR018/CR019 PASS and CR020-CR022 BOUNDARY_PASS,PASS,5,CR023 component verdicts
+G310 wrong controls pass,PASS,G310_RATIO_RESIDUAL_LOCALIZED_TO_OMEGA_M_SIDE,G310
+G312 wrong controls pass,PASS,G312_D_CHI2_OMEGA_M_CORRECTION_CANDIDATE_IDENTIFIED,G312
+G313 wrong controls pass,PASS,G313_D_CHI2_TERM_DERIVED_STRUCTURAL_ARGUMENT,G313
+QP092H direct qA controls rejected,PASS,3/3,QP092H direct qA controls
+CR119 wrong controls all pass/reject,PASS,6,CR119 wrong controls
+CR119 identity counts CSV records layer_matter 126,PASS,layer_matter,CR119 identity counts CSV
+WC09_CARRIER_PROMOTED_TO_MATTER rejected,PASS,,CR116 locks 18 as carrier-only; CR119 excludes QP093A-0088 null conjugate from matter; matter table stays 126 rows
+WC23_BARYON_INVENTORY_RAW_BRANCH rejected,PASS,,CR119 matter table keeps 63 stable + 63 bound rows; QP092H reports matter_rows_added=0 and admits branches only through carrier compression
+WC_DIRECT_QA_AS_MASS rejected,PASS,,QP092H rejects direct qA controls 3/3; CR119 qA splits into tensor/retained support and is not treated as mass
+WC_NULL_CONJUGATE_OVERRIDE_IGNORED rejected,PASS,,"QP093A-0088 has M_native=18, S_debit=18, M_observed=0, qA=0, latest_matter_row_allowed=no, and zero matter rows"
+WC_ANTIMATTER_INCLUDED_IN_MATTER rejected,PASS,,latest export says antimatter_excluded=true; LC06 counts 0 antimatter rows in the 126-row matter table
+WC_BARYON_OBSERVATION_BACKFILL rejected,PASS,,"CR018 derives Omega_b from A0, D, and chi with free_parameters_zero=true; governance CR114 says Planck anchor not tuned"
+WC_CHI_FIT_TO_RATIO rejected,PASS,,G310/G312/G313 wrong controls reject chi fitting because it damages Omega_b
+WC_TARGET_FIT_OMEGA_M rejected,PASS,,G312/G313 reject k_target as derivation; derived coefficient equals D=3
+WC_ROW_DELETION rejected,PASS,,"LC06 keeps 126/126 matter rows, checks the excluded null particle row, and preserves CR020-CR022 BOUNDARY_PASS components"
+WC_FULL_COSMOLOGY_OVERCLAIM rejected,PASS,,CR023 and branch README explicitly preserve those as open debts; LC06 records boundary-pass status

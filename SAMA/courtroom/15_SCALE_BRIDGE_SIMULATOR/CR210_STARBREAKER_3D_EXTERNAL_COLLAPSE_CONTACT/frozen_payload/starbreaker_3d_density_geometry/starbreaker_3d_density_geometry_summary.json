@@ -1,0 +1,978 @@
+{
+  "artifact": "STARBREAKER_3D_DENSITY_GEOMETRY_GATE_V0_1",
+  "status": "PASS_INTERNAL_3D_GEOMETRY_GATE__EXTERNAL_PHYSICS_VALIDATION_OPEN",
+  "scope": "Basement spherical-geometry stress test; all earlier Starbreaker artifacts remain unchanged",
+  "config": {
+    "exponents": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "geometries": [
+      "localized_ledger_cells",
+      "dispersed_slots"
+    ],
+    "anchors": [
+      [
+        "low_drive",
+        0.75,
+        1.4
+      ],
+      [
+        "middle_drive",
+        1.05,
+        1.2
+      ],
+      [
+        "high_drive",
+        1.35,
+        1.0
+      ]
+    ],
+    "holdout_seeds": [
+      2601,
+      2602,
+      2603,
+      2604,
+      2605,
+      2606,
+      2607
+    ],
+    "collapse_pressure": 1.0,
+    "carrier_leak": 0.63,
+    "cooling": 0.6,
+    "remnant_threshold": 0.64,
+    "burst_threshold": 0.18,
+    "mechanism_effect_min": 0.02,
+    "conditional_effect_min": 0.005,
+    "mechanism_sign_stability_min": 0.8,
+    "ledger_cell_radius": 0.055,
+    "permutation_limit": null
+  },
+  "source_contract": {
+    "ordinary_basement_work": true,
+    "courtroom_preflight_invoked": false,
+    "all_sources_present": true,
+    "sources": [
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_LAB/starbreaker.py",
+        "exists": true,
+        "sha256": "7e1637faf9954dc61a1a89c415a533502f80411a3edbb00e100d63aaa2d07653",
+        "use": "fixed ledger typing and shell contract"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_MECHANISM_AUDIT/starbreaker_mechanism_audit.py",
+        "exists": true,
+        "sha256": "2c7773776f3f4fd775c139191b2a0322624633ebf964cd268d5dd9e62375374b",
+        "use": "frozen neutral coefficients and scoring"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_FIELD/starbreaker_carrier_density.py",
+        "exists": true,
+        "sha256": "426a224c5ea71ce2e05c4ff8f2b0e50df4cd986a28b1b3995177c6861b2a04cd",
+        "use": "complete-ledger A packing law"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_COUPLING/starbreaker_density_coupling.py",
+        "exists": true,
+        "sha256": "39ee6d6979400c1b98ca00e6adcbd7ea816a75a1b44196287e4e46c131b6358e",
+        "use": "locked allocations and 2D control design"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_COUPLING/outputs/starbreaker_density_coupling_summary.json",
+        "exists": true,
+        "sha256": "ab04ff835379f07d42736340bd2b07880dcdef5a9c3c7bceee69ff50105ed30c",
+        "use": "executed 2D coupling result held immutable for comparison"
+      },
+      {
+        "path": "21_GRAVITATIONAL_WAVES/STARBREAKER_GW_BRIDGE/starbreaker_gw_bridge.py",
+        "exists": true,
+        "sha256": "68896670750cd90a238d3beb010a17dcbbb24a9c7075ac198bb703a04d4f734c",
+        "use": "unchanged tensor-exposure accounting"
+      }
+    ]
+  },
+  "geometry_contract": {
+    "localized_ledger_cells": "complete ledgers have volume-uniform shell centers and a fixed p-independent packet radius",
+    "dispersed_slots": "complete ledger identity and typing remain, but slots are volume-uniform across each shell",
+    "dynamics_lift": "collapse and distances use full 3D radius; frozen azimuthal phase rules are retained and polar angle is conserved"
+  },
+  "allocation_counts": {
+    "p0": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "p1": [
+      5,
+      5,
+      5,
+      6
+    ],
+    "p2": [
+      11,
+      9,
+      7,
+      6
+    ],
+    "p3": [
+      24,
+      16,
+      9,
+      7
+    ]
+  },
+  "shell_order": [
+    "core",
+    "heavy_shell",
+    "fusion_shell",
+    "outer_light_shell"
+  ],
+  "uniform_same_total_counts": [
+    8,
+    12,
+    16,
+    20
+  ],
+  "run_counts": {
+    "density_runs": 168,
+    "uniform_same_total_runs": 42,
+    "permutation_runs": 1008,
+    "permutations_per_geometry": 24,
+    "total_3d_simulations": 1218
+  },
+  "p3_effects": [
+    {
+      "geometry": "localized_ledger_cells",
+      "exponent": 3,
+      "run_count": 21,
+      "total_ledgers": 56,
+      "atom_count": 9072,
+      "ledger_localization_radius_mean": 0.03977137695031322,
+      "remnant_fraction_mean": 0.7883387923070463,
+      "remnant_fraction_mean_delta": 0.293734777861762,
+      "remnant_fraction_mean_abs_delta": 0.293734777861762,
+      "remnant_fraction_sign_stability": 1.0,
+      "residue_fraction_mean": 0.1766345427059713,
+      "residue_fraction_mean_delta": -0.25934849248341313,
+      "residue_fraction_mean_abs_delta": 0.25934849248341313,
+      "residue_fraction_sign_stability": 1.0,
+      "ejecta_fraction_mean": 0.21166120769295374,
+      "ejecta_fraction_mean_delta": -0.293734777861762,
+      "ejecta_fraction_mean_abs_delta": 0.293734777861762,
+      "ejecta_fraction_sign_stability": 1.0,
+      "unlinked_tensor_fraction_mean": 0.06872712270101268,
+      "unlinked_tensor_fraction_mean_delta": -0.033004115531936946,
+      "unlinked_tensor_fraction_mean_abs_delta": 0.03369503551734534,
+      "unlinked_tensor_fraction_sign_stability": 0.9523809523809523,
+      "edges_per_atom_mean": 0.7320011337868481,
+      "edges_per_atom_mean_delta": -1.1081769127404049,
+      "edges_per_atom_mean_abs_delta": 1.1081769127404049,
+      "edges_per_atom_sign_stability": 1.0,
+      "residue_clusters_per_1000_atoms_mean": 3.558830939783321,
+      "residue_clusters_per_1000_atoms_mean_delta": -4.5666414714033765,
+      "residue_clusters_per_1000_atoms_mean_abs_delta": 4.5666414714033765,
+      "residue_clusters_per_1000_atoms_sign_stability": 1.0,
+      "mean_residue_size_mean": 54.192113156756555,
+      "mean_residue_size_mean_delta": -6.282764977859607,
+      "mean_residue_size_mean_abs_delta": 11.709987793129173,
+      "mean_residue_size_sign_stability": 0.6666666666666666,
+      "mapped_ringdown_carrier_exposure_mean": 0.008590890337626585,
+      "mapped_ringdown_carrier_exposure_mean_delta": -0.004125514441492118,
+      "mapped_ringdown_carrier_exposure_mean_abs_delta": 0.004211879439668167,
+      "mapped_ringdown_carrier_exposure_sign_stability": 0.9523809523809523,
+      "max_mean_abs_fraction_delta": 0.293734777861762,
+      "max_fraction_sign_stability": 1.0,
+      "classification": "robust_internal_3d_effect"
+    },
+    {
+      "geometry": "dispersed_slots",
+      "exponent": 3,
+      "run_count": 21,
+      "total_ledgers": 56,
+      "atom_count": 9072,
+      "ledger_localization_radius_mean": 0.42204067432701897,
+      "remnant_fraction_mean": 0.8190455194423448,
+      "remnant_fraction_mean_delta": 0.2635109599395314,
+      "remnant_fraction_mean_abs_delta": 0.2635109599395314,
+      "remnant_fraction_sign_stability": 1.0,
+      "residue_fraction_mean": 0.001679684219366759,
+      "residue_fraction_mean_delta": 0.0014907197446879985,
+      "residue_fraction_mean_abs_delta": 0.0015432098765432098,
+      "residue_fraction_sign_stability": 0.95,
+      "ejecta_fraction_mean": 0.18095448055765515,
+      "ejecta_fraction_mean_delta": -0.2635109599395314,
+      "ejecta_fraction_mean_abs_delta": 0.2635109599395314,
+      "ejecta_fraction_sign_stability": 1.0,
+      "unlinked_tensor_fraction_mean": 0.354731027012948,
+      "unlinked_tensor_fraction_mean_delta": -0.282258301628366,
+      "unlinked_tensor_fraction_mean_abs_delta": 0.282258301628366,
+      "unlinked_tensor_fraction_sign_stability": 1.0,
+      "edges_per_atom_mean": 0.007432602670697909,
+      "edges_per_atom_mean_delta": -0.0009028302679096329,
+      "edges_per_atom_mean_abs_delta": 0.00173217435122197,
+      "edges_per_atom_sign_stability": 0.5714285714285714,
+      "residue_clusters_per_1000_atoms_mean": 0.5249013185521122,
+      "residue_clusters_per_1000_atoms_mean_delta": 0.4619131603258587,
+      "residue_clusters_per_1000_atoms_mean_abs_delta": 0.48290921306794327,
+      "residue_clusters_per_1000_atoms_sign_stability": 0.95,
+      "mean_residue_size_mean": 3.0609839895554183,
+      "mean_residue_size_mean_delta": 2.6324125609839895,
+      "mean_residue_size_mean_abs_delta": 2.6324125609839895,
+      "mean_residue_size_sign_stability": 1.0,
+      "mapped_ringdown_carrier_exposure_mean": 0.0443413783766185,
+      "mapped_ringdown_carrier_exposure_mean_delta": -0.03528228770354575,
+      "mapped_ringdown_carrier_exposure_mean_abs_delta": 0.03528228770354575,
+      "mapped_ringdown_carrier_exposure_sign_stability": 1.0,
+      "max_mean_abs_fraction_delta": 0.282258301628366,
+      "max_fraction_sign_stability": 1.0,
+      "classification": "robust_internal_3d_effect"
+    }
+  ],
+  "effect_survival": "SURVIVES_3D_AND_LEDGER_LOCALIZATION_CONTROL",
+  "outcome_class_distributions": {
+    "localized_ledger_cells_p0": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 0,
+        "not_collapse_dominated": 21
+      },
+      "wave_channels": {
+        "burst_candidate": 1,
+        "weak_leakage": 20
+      }
+    },
+    "localized_ledger_cells_p1": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 7,
+        "not_collapse_dominated": 14
+      },
+      "wave_channels": {
+        "burst_candidate": 0,
+        "weak_leakage": 21
+      }
+    },
+    "localized_ledger_cells_p2": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 14,
+        "not_collapse_dominated": 7
+      },
+      "wave_channels": {
+        "burst_candidate": 0,
+        "weak_leakage": 21
+      }
+    },
+    "localized_ledger_cells_p3": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 21,
+        "not_collapse_dominated": 0
+      },
+      "wave_channels": {
+        "burst_candidate": 0,
+        "weak_leakage": 21
+      }
+    },
+    "dispersed_slots_p0": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 7,
+        "not_collapse_dominated": 14
+      },
+      "wave_channels": {
+        "burst_candidate": 21,
+        "weak_leakage": 0
+      }
+    },
+    "dispersed_slots_p1": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 14,
+        "not_collapse_dominated": 7
+      },
+      "wave_channels": {
+        "burst_candidate": 21,
+        "weak_leakage": 0
+      }
+    },
+    "dispersed_slots_p2": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 18,
+        "not_collapse_dominated": 3
+      },
+      "wave_channels": {
+        "burst_candidate": 21,
+        "weak_leakage": 0
+      }
+    },
+    "dispersed_slots_p3": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 21,
+        "not_collapse_dominated": 0
+      },
+      "wave_channels": {
+        "burst_candidate": 21,
+        "weak_leakage": 0
+      }
+    },
+    "localized_ledger_cells_uniform_same_total": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 0,
+        "not_collapse_dominated": 21
+      },
+      "wave_channels": {
+        "burst_candidate": 0,
+        "weak_leakage": 21
+      }
+    },
+    "dispersed_slots_uniform_same_total": {
+      "run_count": 21,
+      "remnant_classes": {
+        "collapse_dominated": 7,
+        "not_collapse_dominated": 14
+      },
+      "wave_channels": {
+        "burst_candidate": 21,
+        "weak_leakage": 0
+      }
+    }
+  },
+  "same_total_comparison": [
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "remnant_fraction",
+      "aligned_p3_mean": 0.7883387923070463,
+      "uniform_same_total_mean": 0.49843054505752926,
+      "aligned_minus_uniform": 0.289908247249517
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "residue_fraction",
+      "aligned_p3_mean": 0.1766345427059713,
+      "uniform_same_total_mean": 0.4273589065255732,
+      "aligned_minus_uniform": -0.2507243638196019
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "ejecta_fraction",
+      "aligned_p3_mean": 0.21166120769295374,
+      "uniform_same_total_mean": 0.5015694549424708,
+      "aligned_minus_uniform": -0.28990824724951714
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "unlinked_tensor_fraction",
+      "aligned_p3_mean": 0.06872712270101268,
+      "uniform_same_total_mean": 0.09995747543389577,
+      "aligned_minus_uniform": -0.03123035273288309
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "edges_per_atom",
+      "aligned_p3_mean": 0.7320011337868481,
+      "uniform_same_total_mean": 1.7485512723607963,
+      "aligned_minus_uniform": -1.0165501385739484
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "residue_clusters_per_1000_atoms",
+      "aligned_p3_mean": 3.558830939783321,
+      "uniform_same_total_mean": 7.600571092634585,
+      "aligned_minus_uniform": -4.041740152851264
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "mean_residue_size",
+      "aligned_p3_mean": 54.192113156756555,
+      "uniform_same_total_mean": 61.948645248450596,
+      "aligned_minus_uniform": -7.756532091694041
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "mapped_ringdown_carrier_exposure",
+      "aligned_p3_mean": 0.008590890337626585,
+      "uniform_same_total_mean": 0.012494684429236971,
+      "aligned_minus_uniform": -0.0039037940916103863
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "remnant_fraction",
+      "aligned_p3_mean": 0.8190455194423448,
+      "uniform_same_total_mean": 0.5510256571764508,
+      "aligned_minus_uniform": 0.268019862265894
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "residue_fraction",
+      "aligned_p3_mean": 0.001679684219366759,
+      "uniform_same_total_mean": 0.020187704711514234,
+      "aligned_minus_uniform": -0.018508020492147476
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "ejecta_fraction",
+      "aligned_p3_mean": 0.18095448055765515,
+      "uniform_same_total_mean": 0.4489743428235492,
+      "aligned_minus_uniform": -0.268019862265894
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "unlinked_tensor_fraction",
+      "aligned_p3_mean": 0.354731027012948,
+      "uniform_same_total_mean": 0.5905737116081949,
+      "aligned_minus_uniform": -0.23584268459524693
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "edges_per_atom",
+      "aligned_p3_mean": 0.007432602670697909,
+      "uniform_same_total_mean": 0.04538296800201562,
+      "aligned_minus_uniform": -0.03795036533131771
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "residue_clusters_per_1000_atoms",
+      "aligned_p3_mean": 0.5249013185521122,
+      "uniform_same_total_mean": 6.272570756697741,
+      "aligned_minus_uniform": -5.747669438145628
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "mean_residue_size",
+      "aligned_p3_mean": 3.0609839895554183,
+      "uniform_same_total_mean": 3.205405938744273,
+      "aligned_minus_uniform": -0.14442194918885454
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "mapped_ringdown_carrier_exposure",
+      "aligned_p3_mean": 0.0443413783766185,
+      "uniform_same_total_mean": 0.07382171395102437,
+      "aligned_minus_uniform": -0.029480335574405866
+    }
+  ],
+  "permutation_ranks": [
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "remnant_fraction",
+      "aligned_p3_mean": 0.7883387923070463,
+      "permutation_min": 0.4293850256151844,
+      "permutation_max": 0.7883387923070463,
+      "lower_percentile": 1.0,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "residue_fraction",
+      "aligned_p3_mean": 0.1766345427059713,
+      "permutation_min": 0.1766345427059713,
+      "permutation_max": 0.4852450239355002,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "ejecta_fraction",
+      "aligned_p3_mean": 0.21166120769295374,
+      "permutation_min": 0.21166120769295374,
+      "permutation_max": 0.5706149743848157,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "unlinked_tensor_fraction",
+      "aligned_p3_mean": 0.06872712270101268,
+      "permutation_min": 0.0680222515419247,
+      "permutation_max": 0.10662192512601691,
+      "lower_percentile": 0.08333333333333333,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "edges_per_atom",
+      "aligned_p3_mean": 0.7320011337868481,
+      "permutation_min": 0.7320011337868481,
+      "permutation_max": 1.9775237255395985,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "residue_clusters_per_1000_atoms",
+      "aligned_p3_mean": 3.558830939783321,
+      "permutation_min": 3.558830939783321,
+      "permutation_max": 8.88657932308726,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "mean_residue_size",
+      "aligned_p3_mean": 54.192113156756555,
+      "permutation_min": 52.53967702634533,
+      "permutation_max": 62.947846841456155,
+      "lower_percentile": 0.125,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "localized_ledger_cells",
+      "metric": "mapped_ringdown_carrier_exposure",
+      "aligned_p3_mean": 0.008590890337626585,
+      "permutation_min": 0.008502781442740588,
+      "permutation_max": 0.013327740640752114,
+      "lower_percentile": 0.08333333333333333,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "remnant_fraction",
+      "aligned_p3_mean": 0.8190455194423448,
+      "permutation_min": 0.48262576635592513,
+      "permutation_max": 0.8190455194423448,
+      "lower_percentile": 1.0,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "residue_fraction",
+      "aligned_p3_mean": 0.001679684219366759,
+      "permutation_min": 0.001679684219366759,
+      "permutation_max": 0.03208721760309062,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "ejecta_fraction",
+      "aligned_p3_mean": 0.18095448055765515,
+      "permutation_min": 0.18095448055765515,
+      "permutation_max": 0.5173742336440749,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "unlinked_tensor_fraction",
+      "aligned_p3_mean": 0.354731027012948,
+      "permutation_min": 0.35086318074389694,
+      "permutation_max": 0.6281067917496641,
+      "lower_percentile": 0.08333333333333333,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "edges_per_atom",
+      "aligned_p3_mean": 0.007432602670697909,
+      "permutation_min": 0.007432602670697909,
+      "permutation_max": 0.0600644578819182,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "residue_clusters_per_1000_atoms",
+      "aligned_p3_mean": 0.5249013185521122,
+      "permutation_min": 0.5249013185521122,
+      "permutation_max": 9.437725707566978,
+      "lower_percentile": 0.041666666666666664,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "mean_residue_size",
+      "aligned_p3_mean": 3.0609839895554183,
+      "permutation_min": 3.054669140383426,
+      "permutation_max": 3.4176430695315068,
+      "lower_percentile": 0.125,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "metric": "mapped_ringdown_carrier_exposure",
+      "aligned_p3_mean": 0.0443413783766185,
+      "permutation_min": 0.04385789759298712,
+      "permutation_max": 0.07851334896870801,
+      "lower_percentile": 0.08333333333333333,
+      "permutation_count": 24
+    }
+  ],
+  "geometry_contrast": [
+    {
+      "exponent": 0,
+      "metric": "ledger_localization_radius",
+      "localized_mean": 0.03936479358258092,
+      "dispersed_mean": 0.6237835216755296,
+      "localized_minus_dispersed": -0.5844187280929487
+    },
+    {
+      "exponent": 0,
+      "metric": "remnant_fraction",
+      "localized_mean": 0.4946040144452843,
+      "dispersed_mean": 0.5555345595028134,
+      "localized_minus_dispersed": -0.060930545057529095
+    },
+    {
+      "exponent": 0,
+      "metric": "residue_fraction",
+      "localized_mean": 0.4359830351893844,
+      "dispersed_mean": 0.00018896447467876037,
+      "localized_minus_dispersed": 0.43579407071470566
+    },
+    {
+      "exponent": 0,
+      "metric": "ejecta_fraction",
+      "localized_mean": 0.5053959855547158,
+      "dispersed_mean": 0.44446544049718656,
+      "localized_minus_dispersed": 0.060930545057529206
+    },
+    {
+      "exponent": 0,
+      "metric": "unlinked_tensor_fraction",
+      "localized_mean": 0.10173123823294962,
+      "dispersed_mean": 0.6369893286413141,
+      "localized_minus_dispersed": -0.5352580904083645
+    },
+    {
+      "exponent": 0,
+      "metric": "edges_per_atom",
+      "localized_mean": 1.8401780465272528,
+      "dispersed_mean": 0.008335432938607541,
+      "localized_minus_dispersed": 1.8318426135886452
+    },
+    {
+      "exponent": 0,
+      "metric": "residue_clusters_per_1000_atoms",
+      "localized_mean": 8.125472411186697,
+      "dispersed_mean": 0.06298815822625346,
+      "localized_minus_dispersed": 8.062484252960443
+    },
+    {
+      "exponent": 0,
+      "metric": "mean_residue_size",
+      "localized_mean": 60.47487813461616,
+      "dispersed_mean": 0.42857142857142855,
+      "localized_minus_dispersed": 60.04630670604473
+    },
+    {
+      "exponent": 0,
+      "metric": "mapped_ringdown_carrier_exposure",
+      "localized_mean": 0.012716404779118702,
+      "dispersed_mean": 0.07962366608016426,
+      "localized_minus_dispersed": -0.06690726130104556
+    },
+    {
+      "exponent": 1,
+      "metric": "ledger_localization_radius",
+      "localized_mean": 0.03941318878318914,
+      "dispersed_mean": 0.5585816168187652,
+      "localized_minus_dispersed": -0.5191684280355761
+    },
+    {
+      "exponent": 1,
+      "metric": "remnant_fraction",
+      "localized_mean": 0.595000139973685,
+      "dispersed_mean": 0.6386299375717366,
+      "localized_minus_dispersed": -0.043629797598051634
+    },
+    {
+      "exponent": 1,
+      "metric": "residue_fraction",
+      "localized_mean": 0.3487024439405392,
+      "dispersed_mean": 0.0007558578987150415,
+      "localized_minus_dispersed": 0.34794658604182416
+    },
+    {
+      "exponent": 1,
+      "metric": "ejecta_fraction",
+      "localized_mean": 0.40499986002631505,
+      "dispersed_mean": 0.3613700624282635,
+      "localized_minus_dispersed": 0.04362979759805152
+    },
+    {
+      "exponent": 1,
+      "metric": "unlinked_tensor_fraction",
+      "localized_mean": 0.09566165504263256,
+      "dispersed_mean": 0.5695791051614547,
+      "localized_minus_dispersed": -0.47391745011882214
+    },
+    {
+      "exponent": 1,
+      "metric": "edges_per_atom",
+      "localized_mean": 1.4540326418633296,
+      "dispersed_mean": 0.010050110579211109,
+      "localized_minus_dispersed": 1.4439825312841186
+    },
+    {
+      "exponent": 1,
+      "metric": "residue_clusters_per_1000_atoms",
+      "localized_mean": 6.508776350046192,
+      "dispersed_mean": 0.25195263290501385,
+      "localized_minus_dispersed": 6.256823717141178
+    },
+    {
+      "exponent": 1,
+      "metric": "mean_residue_size",
+      "localized_mean": 59.433967242144114,
+      "dispersed_mean": 1.7142857142857142,
+      "localized_minus_dispersed": 57.7196815278584
+    },
+    {
+      "exponent": 1,
+      "metric": "mapped_ringdown_carrier_exposure",
+      "localized_mean": 0.01195770688032907,
+      "dispersed_mean": 0.07119738814518184,
+      "localized_minus_dispersed": -0.05923968126485277
+    },
+    {
+      "exponent": 2,
+      "metric": "ledger_localization_radius",
+      "localized_mean": 0.03962513131183228,
+      "dispersed_mean": 0.4813131127668376,
+      "localized_minus_dispersed": -0.4416879814550053
+    },
+    {
+      "exponent": 2,
+      "metric": "remnant_fraction",
+      "localized_mean": 0.7045588156699268,
+      "dispersed_mean": 0.7471897101526731,
+      "localized_minus_dispersed": -0.04263089448274626
+    },
+    {
+      "exponent": 2,
+      "metric": "residue_fraction",
+      "localized_mean": 0.25325566066306804,
+      "dispersed_mean": 0.0012737605330197922,
+      "localized_minus_dispersed": 0.25198190013004823
+    },
+    {
+      "exponent": 2,
+      "metric": "ejecta_fraction",
+      "localized_mean": 0.2954411843300732,
+      "dispersed_mean": 0.2528102898473269,
+      "localized_minus_dispersed": 0.04263089448274632
+    },
+    {
+      "exponent": 2,
+      "metric": "unlinked_tensor_fraction",
+      "localized_mean": 0.07584520424337933,
+      "dispersed_mean": 0.44800747257799484,
+      "localized_minus_dispersed": -0.3721622683346155
+    },
+    {
+      "exponent": 2,
+      "metric": "edges_per_atom",
+      "localized_mean": 1.0759713537491316,
+      "dispersed_mean": 0.009263712967416671,
+      "localized_minus_dispersed": 1.0667076407817149
+    },
+    {
+      "exponent": 2,
+      "metric": "residue_clusters_per_1000_atoms",
+      "localized_mean": 4.703115814226925,
+      "dispersed_mean": 0.40083373416706747,
+      "localized_minus_dispersed": 4.302282080059858
+    },
+    {
+      "exponent": 2,
+      "metric": "mean_residue_size",
+      "localized_mean": 58.13118264073961,
+      "dispersed_mean": 2.551587301587302,
+      "localized_minus_dispersed": 55.579595339152306
+    },
+    {
+      "exponent": 2,
+      "metric": "mapped_ringdown_carrier_exposure",
+      "localized_mean": 0.009480650530422416,
+      "dispersed_mean": 0.056000934072249355,
+      "localized_minus_dispersed": -0.04652028354182694
+    },
+    {
+      "exponent": 3,
+      "metric": "ledger_localization_radius",
+      "localized_mean": 0.03977137695031322,
+      "dispersed_mean": 0.42204067432701897,
+      "localized_minus_dispersed": -0.38226929737670573
+    },
+    {
+      "exponent": 3,
+      "metric": "remnant_fraction",
+      "localized_mean": 0.7883387923070463,
+      "dispersed_mean": 0.8190455194423448,
+      "localized_minus_dispersed": -0.03070672713529854
+    },
+    {
+      "exponent": 3,
+      "metric": "residue_fraction",
+      "localized_mean": 0.1766345427059713,
+      "dispersed_mean": 0.001679684219366759,
+      "localized_minus_dispersed": 0.17495485848660453
+    },
+    {
+      "exponent": 3,
+      "metric": "ejecta_fraction",
+      "localized_mean": 0.21166120769295374,
+      "dispersed_mean": 0.18095448055765515,
+      "localized_minus_dispersed": 0.030706727135298595
+    },
+    {
+      "exponent": 3,
+      "metric": "unlinked_tensor_fraction",
+      "localized_mean": 0.06872712270101268,
+      "dispersed_mean": 0.354731027012948,
+      "localized_minus_dispersed": -0.28600390431193534
+    },
+    {
+      "exponent": 3,
+      "metric": "edges_per_atom",
+      "localized_mean": 0.7320011337868481,
+      "dispersed_mean": 0.007432602670697909,
+      "localized_minus_dispersed": 0.7245685311161502
+    },
+    {
+      "exponent": 3,
+      "metric": "residue_clusters_per_1000_atoms",
+      "localized_mean": 3.558830939783321,
+      "dispersed_mean": 0.5249013185521122,
+      "localized_minus_dispersed": 3.033929621231209
+    },
+    {
+      "exponent": 3,
+      "metric": "mean_residue_size",
+      "localized_mean": 54.192113156756555,
+      "dispersed_mean": 3.0609839895554183,
+      "localized_minus_dispersed": 51.13112916720114
+    },
+    {
+      "exponent": 3,
+      "metric": "mapped_ringdown_carrier_exposure",
+      "localized_mean": 0.008590890337626585,
+      "dispersed_mean": 0.0443413783766185,
+      "localized_minus_dispersed": -0.03575048803899192
+    }
+  ],
+  "two_dimensional_reference": {
+    "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_COUPLING/outputs/starbreaker_density_coupling_summary.json",
+    "sha256": "ab04ff835379f07d42736340bd2b07880dcdef5a9c3c7bceee69ff50105ed30c",
+    "status": "PASS_INTERNAL_DENSITY_COUPLING_STRESS_TEST__3D_PHYSICAL_VALIDATION_OPEN",
+    "p3_effect": {
+      "exponent": 3,
+      "run_count": 21,
+      "total_ledgers": 56,
+      "atom_count": 9072,
+      "remnant_fraction_mean": 0.787388720920467,
+      "remnant_fraction_mean_delta": 0.2742871840094062,
+      "remnant_fraction_mean_abs_delta": 0.2742871840094062,
+      "remnant_fraction_sign_stability": 1.0,
+      "residue_fraction_mean": 0.1671443268665491,
+      "residue_fraction_mean_delta": -0.15050495506844713,
+      "residue_fraction_mean_abs_delta": 0.15050495506844713,
+      "residue_fraction_sign_stability": 1.0,
+      "ejecta_fraction_mean": 0.21261127907953303,
+      "ejecta_fraction_mean_delta": -0.2742871840094062,
+      "ejecta_fraction_mean_abs_delta": 0.2742871840094062,
+      "ejecta_fraction_sign_stability": 1.0,
+      "unlinked_tensor_fraction_mean": 0.07899909559852626,
+      "unlinked_tensor_fraction_mean_delta": -0.10557637919586557,
+      "unlinked_tensor_fraction_mean_abs_delta": 0.10557637919586557,
+      "unlinked_tensor_fraction_sign_stability": 1.0,
+      "edges_per_atom_mean": 0.3341994205089443,
+      "edges_per_atom_mean_delta": -0.10747354497354496,
+      "edges_per_atom_mean_abs_delta": 0.110958889728731,
+      "edges_per_atom_sign_stability": 0.7619047619047619,
+      "residue_clusters_per_1000_atoms_mean": 9.568951037205006,
+      "residue_clusters_per_1000_atoms_mean_delta": -28.958805744520028,
+      "residue_clusters_per_1000_atoms_mean_abs_delta": 28.958805744520028,
+      "residue_clusters_per_1000_atoms_sign_stability": 1.0,
+      "mean_residue_size_mean": 18.264877087485768,
+      "mean_residue_size_mean_delta": 9.47284821400896,
+      "mean_residue_size_mean_abs_delta": 9.47284821400896,
+      "mean_residue_size_sign_stability": 1.0,
+      "mapped_ringdown_carrier_exposure_mean": 0.009874886949815783,
+      "mapped_ringdown_carrier_exposure_mean_delta": -0.013197047399483196,
+      "mapped_ringdown_carrier_exposure_mean_abs_delta": 0.013197047399483196,
+      "mapped_ringdown_carrier_exposure_sign_stability": 1.0,
+      "max_mean_abs_fraction_delta": 0.2742871840094062,
+      "max_fraction_sign_stability": 1.0,
+      "classification": "robust_internal_effect"
+    },
+    "same_total_comparison": [
+      {
+        "metric": "remnant_fraction",
+        "aligned_p3_mean": 0.787388720920467,
+        "uniform_same_total_mean": 0.49531263122532965,
+        "aligned_minus_uniform": 0.2920760896951373
+      },
+      {
+        "metric": "residue_fraction",
+        "aligned_p3_mean": 0.1671443268665491,
+        "uniform_same_total_mean": 0.4713456370202402,
+        "aligned_minus_uniform": -0.3042013101536911
+      },
+      {
+        "metric": "ejecta_fraction",
+        "aligned_p3_mean": 0.21261127907953303,
+        "uniform_same_total_mean": 0.5046873687746704,
+        "aligned_minus_uniform": -0.2920760896951373
+      },
+      {
+        "metric": "unlinked_tensor_fraction",
+        "aligned_p3_mean": 0.07899909559852626,
+        "uniform_same_total_mean": 0.06446008732758354,
+        "aligned_minus_uniform": 0.014539008270942719
+      },
+      {
+        "metric": "edges_per_atom",
+        "aligned_p3_mean": 0.3341994205089443,
+        "uniform_same_total_mean": 1.8619404551944234,
+        "aligned_minus_uniform": -1.5277410346854792
+      },
+      {
+        "metric": "residue_clusters_per_1000_atoms",
+        "aligned_p3_mean": 9.568951037205006,
+        "uniform_same_total_mean": 2.0313681027966743,
+        "aligned_minus_uniform": 7.537582934408331
+      },
+      {
+        "metric": "mean_residue_size",
+        "aligned_p3_mean": 18.264877087485768,
+        "uniform_same_total_mean": 296.93696673948426,
+        "aligned_minus_uniform": -278.6720896519985
+      },
+      {
+        "metric": "mapped_ringdown_carrier_exposure",
+        "aligned_p3_mean": 0.009874886949815783,
+        "uniform_same_total_mean": 0.008057510915947943,
+        "aligned_minus_uniform": 0.0018173760338678398
+      }
+    ]
+  },
+  "invariants": {
+    "source_contract_present": true,
+    "p0_allocation_replays_base": true,
+    "all_dynamic_invariants_pass": true,
+    "all_typed_ledger_identities_close": true,
+    "all_initial_points_inside_shells": true,
+    "same_total_control_matches_p3_inventory": true,
+    "permutations_preserve_p3_inventory": true,
+    "exhaustive_permutation_count": true,
+    "all_wrong_controls_rejected": true,
+    "localized_packets_are_spatially_tighter_than_control": true,
+    "all_pass": true
+  },
+  "boundaries": [
+    "The ledger packet radius is a declared spatial hypothesis, not a derived physical scale.",
+    "The dispersed-slot lane is a localization null, not an assertion that real ledger slots disperse independently.",
+    "The shell A field remains a kinematic proxy and does not solve hydrodynamic or relativistic field equations.",
+    "The legacy azimuthal phase rule is lifted conservatively; a fully isotropic 3D mode field remains open.",
+    "No density exponent is physically promoted by this internal gate."
+  ],
+  "next_gate": "only if the effect survives both 3D geometries and same-total/permutation controls, compare the locked qualitative direction against one external collapse signature without fitting Starbreaker to it"
+}

@@ -1,0 +1,116 @@
+{
+  "cr_id": "CR123",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH",
+  "lives_in": "00_governance",
+  "test_class": "CROSS_BRANCH_PHASE_3_COMPOSITE_CERTIFICATE",
+  "execution_status": "CLEAN",
+  "result_class": "CR123_COURTROOM_CROSS_BRANCH_PHASE_3_CERTIFICATE_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "phase_3_objects_certified": [
+    "09a CR119 vault reveal (321/126/126)",
+    "09a CR120 qp091 chain (125.25 EXACT)",
+    "11  CR121 gravity mechanism (1/8 carrier + qA)",
+    "gov CR122 carrier-compression gate over 10 sealed CRs"
+  ],
+  "composite_phase_3_sha256": "263bc61b487884ec2af45aa53691c1f83b29859ad5abf7869a76571080f4fec9",
+  "certificate_sha256": "38a6f11eaf6a366a470ae2f34a0483e0669c451b954364d495252052dc8d0fe2",
+  "sealed_at_utc": "2026-06-15T19:43:43Z",
+  "phase_3_hashes": {
+    "CR119_summary_09a": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR120_qp091_chain_intake": "09cf6beaf8bd6fb1520b740b4451491a664e220897e4803f514fd9adcd9e604d",
+    "CR121_gravity_mechanism": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR122_carrier_compression": "26b4ea2cf3cc6dd89bd47e392e23d3dd600776e9cc14a081a1b0dc81663ad27a"
+  },
+  "phase_2_chain_of_custody": {
+    "CR113_phase_2_cross_branch_certificate": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+    "CR114_cosmic_baryon_bridge_sigma_0_0017": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "CR117_sam_cmb_scope_boundary": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+    "CR118_sn_bao_headline_0_240pct": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d"
+  },
+  "phase_1_anchors": {
+    "CR064a_09a_branch_verdict": "a2af5df2dd3ac83cd131bb8a09913d806d0ba57db70942f53b232a892f0173e6",
+    "CR106_14_branch_verdict": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "CR098_13_particle_registry": "6884850496ee233ed799c886dc114c70e9930b9a6c9b9c7d5df867064751fb1e",
+    "CR069a_09a_phase_2_verdict": "6a4d7d7dfdbf0fbf5f717a11390700ed66424e330f75f0307a9985e3beff4055",
+    "CR112_14_phase_2_verdict": "632917ff7fcf9573e6b016103993fb739fdbcbae6aca1c8d6709202c583a7889",
+    "CR098a_13_phase_2_registry": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "predictions": [
+    {
+      "name": "P1_all_four_phase_3_objects_present",
+      "pass": true,
+      "details": {
+        "CR119_summary_09a": true,
+        "CR120_qp091_chain_intake": true,
+        "CR121_gravity_mechanism": true,
+        "CR122_carrier_compression": true
+      }
+    },
+    {
+      "name": "P2_phase_2_chain_of_custody_present",
+      "pass": true
+    },
+    {
+      "name": "P3_phase_1_anchors_present",
+      "pass": true
+    },
+    {
+      "name": "P4_composite_hash_deterministic_64_chars",
+      "pass": true
+    },
+    {
+      "name": "P5_certificate_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "certificate_sha256": "38a6f11eaf6a366a470ae2f34a0483e0669c451b954364d495252052dc8d0fe2"
+      }
+    },
+    {
+      "name": "P6_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P7_zero_free_parameters_introduced",
+      "pass": true
+    },
+    {
+      "name": "P8_structural_one_liner_includes_all_four_CRs",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_branch_artifact_modified",
+      "pass": true,
+      "details": "CR123 only reads; writes only to its own dir"
+    },
+    {
+      "name": "WC2_no_new_prediction_introduced",
+      "pass": true,
+      "details": "all predictions remain in CR119, CR120, CR121, CR122; CR123 is provenance only"
+    },
+    {
+      "name": "WC3_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC4_phase_2_verdicts_referenced_unchanged",
+      "pass": true
+    },
+    {
+      "name": "WC5_phase_1_anchors_referenced_unchanged",
+      "pass": true
+    },
+    {
+      "name": "WC6_does_not_claim_to_seal_curator_sign_off",
+      "pass": true,
+      "details": "scope status PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF; curator sign-off remains pending"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future LIGO/Virgo / HL-LHC / Higgs-factory reveals will appeal back to CR121_PRED / CR120_PRED via NEW CRs",
+    "Future CR098b registry refresh would carry the new forward-blind PREDs from CR119/CR120/CR121/CR122"
+  ]
+}

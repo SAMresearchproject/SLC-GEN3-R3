@@ -1,0 +1,14 @@
+key,value,note
+original_cr204_verdict,BOUNDARY,frozen boundary preserved
+allowed_import_file_count,5,from CR204a metadata manifest
+external_hzz4l_parent_rows,2,CR092 rows accepted by topology envelope
+excluded_parent_context_rows,1,diphoton-only context excluded as HZZ4l topology anchor
+external_z_daughter_mass_MeV,91187.6,CR091 on-shell Z row
+offshell_Zstar_min_MeV,33902.399999999994,external H - external Z
+offshell_Zstar_max_MeV,33922.399999999994,external H - external Z
+sam_route_event,G753_EVT_B_SCALAR_FOUR_WRITE_ZZSTAR_4L,G753 route selected for HZZ*->4l grammar
+intermediate_branches,Z_on_shell_branch|Zstar_off_shell_branch,two branch topology
+final_state_grammar_rows,2,4l/terminal-lepton controls present
+sam_visible_parent_MeV,125219.0,visible invariant parent from CR204
+hidden_source_budget_MeV,125419.11694535677,"tracked separately, not added to visible parent"
+z_precision_debt_status,AGREEMENT_OUTSIDE_DECLARED_BAND,kept separate from parent/daughter topology appeal

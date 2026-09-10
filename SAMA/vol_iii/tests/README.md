@@ -1,0 +1,193 @@
+# Volume III — test records
+
+[Back to the volume](../README.md)
+
+Use the test folders inside each branch for tests linked to that branch. This index also retains the other recorded tests assigned to this volume.
+
+- [Parent custody and sealed source](g-g01-sam-language-0-6.md) — `G:G01@SAM-LANGUAGE-0.6`
+- [Source-native N100-to-F81 compiler audit](g-g1-sam-research.md) — `G:G1@SAM-RESEARCH`
+- [Single Parser Checker Evaluator Type System And Registry Path](g-g02-sam-language-0-6.md) — `G:G02@SAM-LANGUAGE-0.6`
+- [Formal Profile Isolation](g-g03-sam-language-0-6.md) — `G:G03@SAM-LANGUAGE-0.6`
+- [Twelve Sites And 4096 Basis Addresses](g-g04-sam-language-0-6.md) — `G:G04@SAM-LANGUAGE-0.6`
+- [Exact Canonical State Invariant](g-g05-sam-language-0-6.md) — `G:G05@SAM-LANGUAGE-0.6`
+- [Frozen B Prepare Request And X1 Response Operators](g-g06-sam-language-0-6.md) — `G:G06@SAM-LANGUAGE-0.6`
+- [Complete Ordered Pair Lift](g-g07-sam-language-0-6.md) — `G:G07@SAM-LANGUAGE-0.6`
+- [Four Real Request Sign Gauge Diagnostics](g-g08-sam-language-0-6.md) — `G:G08@SAM-LANGUAGE-0.6`
+- [Rooted Forests And All Native Decompositions](g-g09-sam-language-0-6.md) — `G:G09@SAM-LANGUAGE-0.6`
+- [Extra Edge Peel And Restore](g-g10-sam-language-0-6.md) — `G:G10@SAM-LANGUAGE-0.6`
+- [Frozen Classical Limit](g-g11-sam-language-0-6.md) — `G:G11@SAM-LANGUAGE-0.6`
+- [State / history separation](g-g12-sam-language-0-6.md) — `G:G12@SAM-LANGUAGE-0.6`
+- [Deterministic Api And Cli Receipts](g-g13-sam-language-0-6.md) — `G:G13@SAM-LANGUAGE-0.6`
+- [Atomic Rejection And Tamper Detection](g-g14-sam-language-0-6.md) — `G:G14@SAM-LANGUAGE-0.6`
+- [Inherited regressions and clean wheel](g-g15-sam-language-0-6.md) — `G:G15@SAM-LANGUAGE-0.6`
+- [Boundary And Wrong Control Preservation](g-g16-sam-language-0-6.md) — `G:G16@SAM-LANGUAGE-0.6`
+- [Ligo Ringdown Under Current Metric](g-g57-sam-archive.md) — `G:G57@SAM-ARCHIVE`
+- [Ringdown Quintic](g-g66-sam-archive.md) — `G:G66@SAM-ARCHIVE`
+- [Bns Engine Time Scaling](g-g96-sam-archive.md) — `G:G96@SAM-ARCHIVE`
+- [Axial QNM convergence study](g-g109-sam-archive.md) — `G:G109@SAM-ARCHIVE`
+- [Higher-mode QNM via residual subtraction](g-g112-sam-archive.md) — `G:G112@SAM-ARCHIVE`
+- [Polar Qnm](g-g114-sam-archive.md) — `G:G114@SAM-ARCHIVE`
+- [Decomposition](g-g114b-sam-archive.md) — `G:G114B@SAM-ARCHIVE`
+- [Polar QNM with constraint-feedback correction](g-g114c-sam-archive.md) — `G:G114C@SAM-ARCHIVE`
+- [G114-rigorous - Polar QNM from quadratic action](g-g114rig-sam-archive.md) — `G:G114rig@SAM-ARCHIVE`
+- [Gr Kerr Qnm Calibration](g-g120a-sam-archive.md) — `G:G120a@SAM-ARCHIVE`
+- [WKB QNM solver](g-g194-sam-archive.md) — `G:G194@SAM-ARCHIVE`
+- [Kerr Qnm Leaver Subhalfpct](g-g194b-sam-archive.md) — `G:G194b@SAM-ARCHIVE`
+- [Polar Zerilli QNMs](g-g196-sam-archive.md) — `G:G196@SAM-ARCHIVE`
+- [Sam Qnm Eikonal And Polar Scope](g-g272-sam-archive.md) — `G:G272@SAM-ARCHIVE`
+- [QGC Phase 1: Substrate gate involution end-to-end](cr-cr001-18.md) — `CR:CR001@18`
+- [Carrier-Tensor Energy Cap — RESULT](cr-cr001-21.md) — `CR:CR001@21`
+- [QGC T2 prescreening + K1-frozen hardware envelope](cr-cr002-18.md) — `CR:CR002@18`
+- [Binary-Only Cap-Approaching Emission — RESULT](cr-cr002-21.md) — `CR:CR002@21`
+- [QGC Phase 2: Joint figure C correlation end-to-end](cr-cr003-18.md) — `CR:CR003@18`
+- [Ringdown Frequency in Substrate Units — RESULT](cr-cr003-21.md) — `CR:CR003@21`
+- [QNM Higher Modes Strength Test — RESULT](cr-cr003b-21.md) — `CR:CR003b@21`
+- [QGC Phase 2: Distance-dependent coupling via 1/r A-kernel](cr-cr004-18.md) — `CR:CR004@18`
+- [SAM vs GR / Standard Discrimination Map — RESULT](cr-cr004-21.md) — `CR:CR004@21`
+- [M native Provenance Audit — Result](cr-cr005-18.md) — `CR:CR005@18`
+- [Θ Carrier Overflow and Schwarzschild QNM Derivation — RESULT](cr-cr005-21.md) — `CR:CR005@21`
+- [Neutrino Substrate Identification + DUNE Forecast Lock — RESULT](cr-cr005a-21.md) — `CR:CR005a@21`
+- [CR005a-b — Neutrino Substrate Identification + DUNE Forecast Lock — RESULT (APPEAL PASS)](cr-cr005ab-21.md) — `CR:CR005ab@21`
+- [QNM Damping Substrate Dynamics -- RESULT](cr-cr005b-21.md) — `CR:CR005b@21`
+- [Starbreaker Escape / Closure Observability Gate — Result](cr-cr005c-21.md) — `CR:CR005c@21`
+- [Continuous Starbreaker Flow and Carrier-QNM Source Bridge Result](cr-cr005d-21.md) — `CR:CR005d@21`
+- [Starbreaker / Weak-CCSN Pixel Bridge Precommit](cr-cr005e-sam-research.md) — `CR:CR005e@SAM-RESEARCH`
+- [Trace-Corrected Weak-CCSN Pixel Bridge Precommit](cr-cr005f-sam-research.md) — `CR:CR005f@SAM-RESEARCH`
+- [Starbreaker / Weak-CCSN Pixel Bridge Result](cr-cr005g-21.md) — `CR:CR005g@21`
+- [Starbreaker per-carrier GW candidate ledger](cr-cr005h-21.md) — `CR:CR005h@21`
+- [Starbreaker per-carrier GW control appeal](cr-cr005i-21.md) — `CR:CR005i@21`
+- [Connection-Fee K1 Reveal — Result](cr-cr009-18.md) — `CR:CR009@18`
+- [Loop Pop-Bounce-Intersect Coupling Mechanism — RESULT](cr-cr011-18.md) — `CR:CR011@18`
+- [Nested-Home Distance-as-Information Foundation — RESULT](cr-cr012-18.md) — `CR:CR012@18`
+- [Paul Revere letter alphabet lock v1.0](cr-cr060a-12a.md) — `CR:CR060a@12a`
+- [Ideal qubit selection within 3-body standard letter tier v1.0](cr-cr061a-12a.md) — `CR:CR061a@12a`
+- [Hardware translation document v1.0 (T2_grav prediction)](cr-cr063a-12a.md) — `CR:CR063a@12a`
+- [A_0 calibration + published T2 verification v1.0](cr-cr064a-12a.md) — `CR:CR064a@12a`
+- [Paul Revere implementation spec v1.0](cr-cr065a-12a.md) — `CR:CR065a@12a`
+- [Born extension and 1/alpha_H^4 letter increment v1.0](cr-cr066a-12a.md) — `CR:CR066a@12a`
+- [Slot vs contact-level layering of 1/alpha_H^4 letter increment v1.0](cr-cr066b-12a.md) — `CR:CR066b@12a`
+- [Multi-Letter Capacity Scaling and the Gravity Channel Ceiling v1.0](cr-cr067a-12a.md) — `CR:CR067a@12a`
+- [Paul Revere NV simulator v1.0 cryo+DD](cr-cr067b-12a.md) — `CR:CR067b@12a`
+- [Paul Revere warning-only simulator v1.0](cr-cr068a-12a.md) — `CR:CR068a@12a`
+- [Stage 2 empirical T2 contact table](cr-cr069a-12a.md) — `CR:CR069a@12a`
+- [Expanded NV-diamond T2 contact table](cr-cr070a-12a.md) — `CR:CR070a@12a`
+- [Photonic PR letter framework mapping](cr-cr071a-12a.md) — `CR:CR071a@12a`
+- [Photonic empirical contact table](cr-cr072a-12a.md) — `CR:CR072a@12a`
+- [Cross-platform PR letter scaling test](cr-cr073a-12a.md) — `CR:CR073a@12a`
+- [Reproducibility lock](cr-cr074a-12a.md) — `CR:CR074a@12a`
+- [Field comparison presentation bundle](cr-cr075a-12a.md) — `CR:CR075a@12a`
+- [GATE_2 astrophysical closure (c_SW = c)](cr-cr102-14.md) — `CR:CR102@14`
+- [GATE_1 N_SW multiplicity scaling (simplest reading disfavored)](cr-cr103-14.md) — `CR:CR103@14`
+- [Bounce-cost A-dependence and 11/12 spaghettification appeal](cr-cr103a-14.md) — `CR:CR103a@14`
+- [Corrected-structure closure appeal (G744c verification)](cr-cr103b-14.md) — `CR:CR103b@14`
+- [GATE_3 K(A_H) self-correction (EP tests)](cr-cr104-14.md) — `CR:CR104@14`
+- [Local Higgs vs galactic A appeal (Layer 4)](cr-cr104a-14.md) — `CR:CR104a@14`
+- [9/8 bounce derivation question lock](cr-cr104b-14.md) — `CR:CR104b@14`
+- [9/16 + 9/8 unification appeal](cr-cr104c-14.md) — `CR:CR104c@14`
+- [GATE-cross integrity (joint GATE_2 + GATE_3)](cr-cr105-14.md) — `CR:CR105@14`
+- [14 Phase 1 branch verdict zipper](cr-cr106-14.md) — `CR:CR106@14`
+- [SPARC galaxy rotation curve intake](cr-cr107-14.md) — `CR:CR107@14`
+- [Planck Omega_b anchor intake](cr-cr108-14.md) — `CR:CR108@14`
+- [PBH abundance constraint intake](cr-cr109-14.md) — `CR:CR109@14`
+- [Three-mode Earth/Galaxy/PBH closure appeal](cr-cr110-14.md) — `CR:CR110@14`
+- [Cosmic baryon Omega_b closure appeal](cr-cr111-14.md) — `CR:CR111@14`
+- [14 Phase 2 branch verdict zipper](cr-cr112-14.md) — `CR:CR112@14`
+- [Cross-branch Phase 2 courtroom certificate](cr-cr113-00.md) — `CR:CR113@00`
+- [A4 completed-WRITE address-count theorem (R=12)](cr-cr113-14.md) — `CR:CR113@14`
+- [Cosmic baryon bridge reveal (CR018 -> CR111_PRED_1)](cr-cr114-00.md) — `CR:CR114@00`
+- [Binary face-state split theorem (alpha_H=2)](cr-cr114-14.md) — `CR:CR114@14`
+- [Galaxy/PBH bridge partial reveal](cr-cr115-00.md) — `CR:CR115@00`
+- [D=3 invariant-carrier uniqueness theorem](cr-cr115-14.md) — `CR:CR115@14`
+- [SAM halo composition correction](cr-cr116-00.md) — `CR:CR116@00`
+- [18 graviton-channel carrier theorem](cr-cr116-14.md) — `CR:CR116@14`
+- [SAM/CMB scope boundary documentation](cr-cr117-00.md) — `CR:CR117@00`
+- [S8 Typed Surface Closure Octahedron Duality](cr-cr117-14.md) — `CR:CR117@14`
+- [Distance-road SN+BAO headline export](cr-cr118-00.md) — `CR:CR118@00`
+- [Typed Closure Hierarchy Promotion Ladder](cr-cr119-14.md) — `CR:CR119@14`
+- [Particle/Matter/Periodic Vault Reveal](cr-cr119-17.md) — `CR:CR119@17`
+- [Local Closure Propagation Adjacent Ledger Site](cr-cr120-14.md) — `CR:CR120@14`
+- [W9 Typed Resolution Certificate Bridge](cr-cr120a-14.md) — `CR:CR120A@14`
+- [Research Candidate Result](cr-cr120c-14.md) — `CR:CR120C@14`
+- [Runtime Contract Result](cr-cr120d-14.md) — `CR:CR120D@14`
+- [Structural Mapping Discrimination Result](cr-cr120e-14.md) — `CR:CR120E@14`
+- [Interaction, Record, and Higgs-Operator Discrimination](cr-cr120f-14.md) — `CR:CR120F@14`
+- [Internal Split, Residue, Mirror-Odd X1 Complement](cr-cr120g-14.md) — `CR:CR120G@14`
+- [Typed Residual Ledger / Au-197 Analogy Discrimination](cr-cr120h-14.md) — `CR:CR120H@14`
+- [Typed Substrate-Ledger Write-State-Read Discrimination](cr-cr120i-14.md) — `CR:CR120I@14`
+- [Internal Write-Visibility Ratio q WSR](cr-cr120j-14.md) — `CR:CR120J@14`
+- [p=9,g=0 W9 8+1 Independent-Inventory Discrimination](cr-cr120k-14.md) — `CR:CR120K@14`
+- [Typed 7-8-9 Theta Mirror Budget and F81 Roster Discrimination](cr-cr120l-14.md) — `CR:CR120L@14`
+- [Eight-Plus-One Binding-Transfer Source Gate](cr-cr120m-14.md) — `CR:CR120M@14`
+- [Fresh QP093A Updated-Sheet 100/81 Roster Comparison](cr-cr120n-14.md) — `CR:CR120N@14`
+- [All-Depth p9 Eight-Plus-One Native/qA Discrimination](cr-cr120o-14.md) — `CR:CR120O@14`
+- [P9 G0 Updated Sheet Binding Improvement Potential](cr-cr120p-14.md) — `CR:CR120P@14`
+- [P9 G0 Updated Sheet Binding Magnitude Holdout Sensitivity](cr-cr120q-14.md) — `CR:CR120Q@14`
+- [QP093A p9,g0 Witness-Packet Exclusion and 100-Row L162 Native Ledger](cr-cr120r-14.md) — `CR:CR120R@14`
+- [QP093A F81 Retained-Matter Projection](cr-cr120s-14.md) — `CR:CR120S@14`
+- [Qp093A Ledger To Matter W9 Higgs Binding Discovery](cr-cr120t-14.md) — `CR:CR120T@14`
+- [Qp093A Typed Motif Octahedral Incidence Discovery](cr-cr120u-14.md) — `CR:CR120U@14`
+- [B/X1 typed half-relay archival discrimination](cr-cr120v-14.md) — `CR:CR120V@14`
+- [A-field-carrier / X1 typed-weld discovery result](cr-cr120w-14.md) — `CR:CR120W@14`
+- [dual-depth Θ / B / X1 / W8-to-W9 relaxed discovery result](cr-cr120x-14.md) — `CR:CR120X@14`
+- [Θ18 Model-Wide Primary-Carrier Stress Test](cr-cr120y-14.md) — `CR:CR120Y@14`
+- [X1 Entanglement-Response Quantum Sandbox](cr-cr120z-14.md) — `CR:CR120Z@14`
+- [X1 Ordered Quantum Instrument Finite-Shot NV Discovery](cr-cr120zb-14.md) — `CR:CR120ZB@14`
+- [Carrier-compression gate retroactive bridge (qp092h)](cr-cr122-00.md) — `CR:CR122@00`
+- [Cross-branch Phase 3 courtroom certificate](cr-cr123-00.md) — `CR:CR123@00`
+- [Hostile audit master verdict (2026-06-17)](cr-cr135-00.md) — `CR:CR135@00`
+- [QP_chain ingest v1.0 (42 external artifacts internalized)](cr-cr136-00.md) — `CR:CR136@00`
+- [CR063a@12a verdict regrade (SEALED -> REFUTED) v1.0](cr-cr137-00.md) — `CR:CR137@00`
+- [CR064a@12a verdict regrade (SEALED -> BOUNDARY) v1.0](cr-cr138-00.md) — `CR:CR138@00`
+- [CR122@00_gov verdict language regrade (SEALED -> BOUNDARY) v1.0](cr-cr139-00.md) — `CR:CR139@00`
+- [CR120@09a Higgs claim reword (SEALED -> BOUNDARY) v1.0](cr-cr140-00.md) — `CR:CR140@00`
+- [Row-generator self-hash repair v1.0 (10 CRs)](cr-cr141-00.md) — `CR:CR141@00`
+- [Row-generator in-sample qualifier sweep v1.0 (10 CRs)](cr-cr142-00.md) — `CR:CR142@00`
+- [Source-to-field simulator bridge](cr-cr201-15.md) — `CR:CR201@15`
+- [Typed readout reproduction](cr-cr202-15.md) — `CR:CR202@15`
+- [Chladni-to-particle route bridge (QP091 fresh)](cr-cr203-15.md) — `CR:CR203@15`
+- [Resolved-SW parent reconstruction](cr-cr204-15.md) — `CR:CR204@15`
+- [External resolved-parent reconstruction](cr-cr204a-15.md) — `CR:CR204a@15`
+- [Scalar/gauge/fermion lane separation](cr-cr205-15.md) — `CR:CR205@15`
+- [Earth/galaxy/PBH accumulation mode selector](cr-cr206-15.md) — `CR:CR206@15`
+- [Closed-loop stability](cr-cr207-15.md) — `CR:CR207@15`
+- [External chain replay stability](cr-cr207a-15.md) — `CR:CR207a@15`
+- [Wrong-control zipper and branch verdict](cr-cr208-15.md) — `CR:CR208@15`
+- [Resolved-SW external promotion zipper](cr-cr208a-15.md) — `CR:CR208a@15`
+- [Electroweak topology extension (full EW theorem open)](cr-cr209-15.md) — `CR:CR209@15`
+- [Starbreaker 3D External Collapse Directional Contact Replay](cr-cr210-15.md) — `CR:CR210@15`
+- [HH001 Fano plates 126 intake](cr-cr210-17.md) — `CR:CR210@17`
+- [Octahedral Complete Ledger Address Adapter](cr-cr210a-15.md) — `CR:CR210a@15`
+- [OCTAHEDRAL COMPLETE LEDGER ADDRESS ADAPTER Result](cr-cr210b-15.md) — `CR:CR210b@15`
+- [OCTAHEDRAL COMPLETE LEDGER ADDRESS ADAPTER Result](cr-cr210c-15.md) — `CR:CR210c@15`
+- [Octahedral Complete Ledger Boundary Closure Appeal](cr-cr210d-15.md) — `CR:CR210d@15`
+- [Starbreaker Particle Ledger Interface](cr-cr211-15.md) — `CR:CR211@15`
+- [HH001 content verification against Courtroom data](cr-cr211-17.md) — `CR:CR211@17`
+- [Fano Plates Open Readings Promotion Scan](cr-cr212-fano.md) — `CR:CR212@Fano`
+- [Fano Plates SAM Scaffold Regrade](cr-cr212a-fano.md) — `CR:CR212a@Fano`
+- [D3 to Particle Breadcrumb Audit](cr-cr213-fano.md) — `CR:CR213@Fano`
+- [Native 63 generator](cr-cr220-12a.md) — `CR:CR220@12a`
+- [Bound 63 generator](cr-cr221-12a.md) — `CR:CR221@12a`
+- [Carrier ledger 12 plus 1](cr-cr222-12a.md) — `CR:CR222@12a`
+- [Native stack contract](cr-cr222a-12a.md) — `CR:CR222a@12a`
+- [Paul Revere packet contract](cr-cr222b-12a.md) — `CR:CR222b@12a`
+- [PR packet audit states](cr-cr222c-12a.md) — `CR:CR222c@12a`
+- [Row taxonomy promotion gate](cr-cr222d-12a.md) — `CR:CR222d@12a`
+- [PR warning emission gate](cr-cr222e-12a.md) — `CR:CR222e@12a`
+- [PR platform adapter contract](cr-cr222f-12a.md) — `CR:CR222f@12a`
+- [PR target binding 3-body diamond](cr-cr222g-12a.md) — `CR:CR222g@12a`
+- [Pair-to-triad binding 0262 to 0200](cr-cr222h-12a.md) — `CR:CR222h@12a`
+- [CP/QC PR particle-carrier pair](cr-cr222i-12a.md) — `CR:CR222i@12a`
+- [PR self-correction triad carrier](cr-cr222j-12a.md) — `CR:CR222j@12a`
+- [PR observable identity lock](cr-cr223a-12a.md) — `CR:CR223a@12a`
+- [PR qutrit tomography purity estimator](cr-cr223b-12a.md) — `CR:CR223b@12a`
+- [PR Raw Tomography & Sensor-Proxy Contact Result](cr-cr223c-12a.md) — `CR:CR223c@12a`
+- [PR realtime warning contact](cr-cr223d-12a.md) — `CR:CR223d@12a`
+- [PR QC operational benefit](cr-cr223e-12a.md) — `CR:CR223e@12a`
+- [Tensor carrier physical discriminant](cr-cr223f-12a.md) — `CR:CR223f@12a`
+- [The Last Campaign Charter](lc-lc00.md) — `LC:LC00`
+
+
+Public Courtroom source recovered by exact file identity: [complete copied test package](../../courtroom/21_GRAVITATIONAL_WAVES/CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE). This preserves code, precommitments, controls and results together.
+
+
+Public Courtroom source recovered by exact file identity: [complete copied test package](../../courtroom/21_GRAVITATIONAL_WAVES/CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED). This preserves code, precommitments, controls and results together.

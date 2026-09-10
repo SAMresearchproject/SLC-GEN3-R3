@@ -1,0 +1,10 @@
+{
+  "record_id": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "task": "Execute CR210c as a fresh successor to the frozen CR210b structural FAIL, preserving the identical octahedral complete-ledger candidate, predictions, controls, source firewall, and verdict ceiling, correcting only cross-kind boundary enumeration to apply the precommitted map over all six residues, with outcomes and binding closed, and stop after one execution",
+  "command": "python tools\\run_sam_test.py --task \"Execute CR210c as a fresh successor to the frozen CR210b structural FAIL, preserving the identical octahedral complete-ledger candidate, predictions, controls, source firewall, and verdict ceiling, correcting only cross-kind boundary enumeration to apply the precommitted map over all six residues, with outcomes and binding closed, and stop after one execution\" --script 15_SCALE_BRIDGE_SIMULATOR\\CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER\\CR210c_runner.py",
+  "started_utc": "2026-07-15T03:56:50.771433+00:00",
+  "finished_utc": "2026-07-15T03:56:51.341101+00:00",
+  "elapsed_seconds": 0.569668,
+  "execution_count": 1,
+  "direct_runner_execution": false
+}

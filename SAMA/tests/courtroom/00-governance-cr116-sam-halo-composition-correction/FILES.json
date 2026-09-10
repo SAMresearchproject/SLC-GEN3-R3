@@ -1,0 +1,76 @@
+{
+  "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION",
+  "files": [
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_appeal_rows_invalidating_prior_CR110_PRED_2_reading.csv",
+      "mode": "100644",
+      "git_blob": "02c777a7acc2e78af2dcb6aa0a765caca6854c5a",
+      "bytes": 2127,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_appeal_rows_invalidating_prior_CR110_PRED_2_reading.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_appeal_rows_invalidating_prior_CR110_PRED_2_reading.csv",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_appeal_rows_invalidating_prior_CR110_PRED_2_reading.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_appeal_rows_invalidating_prior_CR110_PRED_2_reading.csv"
+    },
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json",
+      "mode": "100644",
+      "git_blob": "4643c2edbc5cecd6a37f61bc09030bb24259e940",
+      "bytes": 5883,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json"
+    },
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "8861d913c0ac0fc2a64195be3819664fcb32c8a0",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_correction_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_result.md",
+      "mode": "100644",
+      "git_blob": "db192776e88362a5c19693ddbce98a27ee586b45",
+      "bytes": 6840,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_result.md",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_result.md"
+    },
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_runner.py",
+      "mode": "100644",
+      "git_blob": "861a1ba2871e19fe82c8381840d8836b01f889ed",
+      "bytes": 28878,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_runner.py",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_runner.py"
+    },
+    {
+      "path": "00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_summary.json",
+      "mode": "100644",
+      "git_blob": "fc407afd0e5cf850ec8f5069cf289c1169898aac",
+      "bytes": 5577,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_summary.json",
+      "sama_path": "courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION/CR116_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR116@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

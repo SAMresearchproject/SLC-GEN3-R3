@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_ENGINEERING_G753c_RESOLVED_SW_PARENT_RECONSTRUCTION_BOUNDARY_SCIENCE,source G-test result
+visible_parent_MeV,125219.0,visible invariant parent
+hidden_source_budget_MeV,125419.11694535677,tracked separately
+closed_rows,3,zero-residual visible closures
+wrong_controls,7/7,full-SW/direct-hidden controls rejected

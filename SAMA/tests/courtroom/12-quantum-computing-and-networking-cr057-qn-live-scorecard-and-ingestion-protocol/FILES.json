@@ -1,0 +1,87 @@
+{
+  "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL",
+  "files": [
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "0e42fe9b9ece5ee3fdf3367b0b6592cc7d5c36dd",
+      "bytes": 406,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_PRECOMMIT.md",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_PRECOMMIT.md"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "ee476aa4478670dabe32a803af9cc6a84b46c8aa",
+      "bytes": 493,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_declared_premises.json",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_declared_premises.json"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_result.md",
+      "mode": "100644",
+      "git_blob": "da275151974931ebc8e914aa4050feceb033fe40",
+      "bytes": 646,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_result.md",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_result.md",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_result.md"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_rows.csv",
+      "mode": "100644",
+      "git_blob": "27cd13ac542962c8cac1144ab113a7b98705cac4",
+      "bytes": 422,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_rows.csv",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_rows.csv",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_rows.csv"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_runner.py",
+      "mode": "100644",
+      "git_blob": "6461d2b46b28788997f182df7ea4c38ed7b85f4d",
+      "bytes": 4589,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_runner.py",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_runner.py",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_runner.py"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_summary.json",
+      "mode": "100644",
+      "git_blob": "8b57d5fdd1e00b5f0de9948f5e3dade96b31c3d4",
+      "bytes": 898,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_summary.json",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_summary.json",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/CR057_summary.json"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "4140a86a4a89fd4658f30944c499d638c7bd4e9e",
+      "bytes": 792,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/HASHES.txt",
+      "sama_path": "courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR057@12"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

@@ -1,0 +1,50 @@
+{
+  "test_id": "CR012_NATIVE_TYPED_RULER_ROAD_BRIDGE_DERIVATION",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR012_declared_premises.json",
+    "CR012_PRECOMMIT.md",
+    "CR012_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "R": 12.0,
+    "D": 3.0,
+    "A0_formula": "1/(pi*R)",
+    "Omega_b": 0.049299011266100756,
+    "Omega_BB_PBH_trapped": 0.26446190430295646,
+    "r_star_mpc": 144.20161713640252
+  },
+  "frozen_predictions": {
+    "w": "(D/R)*(Omega_b/Omega_BB_PBH_trapped)",
+    "r_drag": "r_star*(1+w)",
+    "S_projection": "1+w*phi",
+    "burst": "1+(D/R)*phi^R"
+  },
+  "expected_values": {
+    "A0": 0.026525823848649224,
+    "A_inf": 0.3183098861837907,
+    "w": 0.0466031311731253,
+    "r_drag_mpc": 150.92186401518705
+  },
+  "wrong_controls": [
+    "drop_D_over_R",
+    "use_Omega_b_over_Omega_m",
+    "use_phi_power_in_projection",
+    "half_loading",
+    "sign_flipped_loading"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "A0_identity",
+    "w_identity",
+    "r_drag_identity",
+    "projection_operator_identity",
+    "phi_and_phi_R_roles_separated",
+    "wrong_controls_do_not_match_packet"
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that the same native typed grammar derives the r_drag bridge, the settled projection operator, and the phi/phi^R lane split without selecting from SN, BAO, or CMB target data."
+}
+

@@ -1,0 +1,19 @@
+{
+  "constructed_model_checks": "PASS",
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "disposition": "RESEARCH_BOUNDARY_CONSTRUCTED_INTERACTION_GENERATES_REVERSIBLE_REDUNDANT_RECORD_SCALAR_HIGGS_WEIGHT_NOT_COMPLETE_OPERATOR_SAM_PHYSICAL_MAPPING_OPEN",
+  "free_propagation_record": false,
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "record_reversible": true,
+  "redundant_contact_record_fragments": 2,
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "sam_physical_mapping": "OPEN",
+  "scalar_weight_complete_operator": false,
+  "scientific_pass_claimed": false,
+  "single_contact_record_fragments": 1
+}

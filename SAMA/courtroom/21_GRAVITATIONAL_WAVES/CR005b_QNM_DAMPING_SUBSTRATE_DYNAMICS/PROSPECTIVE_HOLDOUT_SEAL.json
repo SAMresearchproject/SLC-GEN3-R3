@@ -1,0 +1,109 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_SEAL",
+  "cr_path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS",
+  "existing_artifacts_modified": false,
+  "existing_hashes_verification": {
+    "checked_entries": 13,
+    "mismatches": [],
+    "verified": true
+  },
+  "firewall_fields": {
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_completion_timestamp_status": "NOT_EXPLICITLY_RECORDED",
+  "original_scientific_completion_utc": null,
+  "prospective_sealed_utc": "2026-07-11T17:12:22Z",
+  "required_artifact_presence": {
+    "hashes": true,
+    "precommit": true,
+    "provenance": true,
+    "result": true,
+    "runner": true,
+    "summary": true
+  },
+  "sam_language_v0_3_consulted": false,
+  "scientific_bundle_file_count": 15,
+  "scientific_bundle_files": [
+    {
+      "bytes": 1807,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_ASSUMPTION_REGISTER.json",
+      "sha256": "9d36147d1a18a09bd29d302d084f61aa471e721e953fc6dda43da5e55cd0ad03"
+    },
+    {
+      "bytes": 7994,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_PRECOMMIT.md",
+      "sha256": "bac6d988df1546127f9cca0ba9831928600d09af3ed83aae14a5e3c5c612484b"
+    },
+    {
+      "bytes": 147,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_PRECOMMIT.sha256.txt",
+      "sha256": "92133dec05b0fc94a5476e222ce048cebeed1e358529d50a8ad5a79e50cfb465"
+    },
+    {
+      "bytes": 3444,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_PREFLIGHT.md",
+      "sha256": "4a91607b0f2444a317b80dbd7b3061e09657ba2fb8c4faba1177bbc1872c6c78"
+    },
+    {
+      "bytes": 4040,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_SOURCE_AUDIT.md",
+      "sha256": "ea6b5fb54b0d20e9c23cbef9549e4667ea345634e64ee307e2c2a78bce74d999"
+    },
+    {
+      "bytes": 4830,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_SOURCE_MANIFEST.json",
+      "sha256": "074b8f4ea9f8f20d6a02ef8fb30007cbbcb12ec8cba7823bee2ba02c747f2c16"
+    },
+    {
+      "bytes": 3167,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_VALIDATION.md",
+      "sha256": "07d5d278a631009aafe04ef4ce782743bcdbbd562dbcbde3e01999a5275ebe51"
+    },
+    {
+      "bytes": 7837,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_provenance.json",
+      "sha256": "33a488f30fd1d32953e0e579f8709a225b3966a0c90ae9878da6dd7a075f49f7"
+    },
+    {
+      "bytes": 1798,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_result.md",
+      "sha256": "7681c32ba817409f00df4dba3584ed456f33d1badfe04b0237da2070b17833aa"
+    },
+    {
+      "bytes": 14653,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_runner.py",
+      "sha256": "15d0f18283bb238466455e7d405b2b0948facfb258dc25a5254b71efb427fbb8"
+    },
+    {
+      "bytes": 144,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_runner.sha256.txt",
+      "sha256": "2c7696c8ab3a441f2ceaf9575a04847ef4db8d725748fcdfe50d148c5e63891f"
+    },
+    {
+      "bytes": 9531,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_summary.json",
+      "sha256": "dadc302d0ad4c35f59316ad388295c94ed44539876b8574772b0ce5c03707a56"
+    },
+    {
+      "bytes": 758,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_wrong_controls.csv",
+      "sha256": "d7c08193ea5d401fb11dee16a46a2dc2e1d8d90d7fc02cd9d4d11d778bd8f87e"
+    },
+    {
+      "bytes": 1961,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/HASHES.txt",
+      "sha256": "d46faae0e7d483b0bb8cf62a7186abf67117b4249fdc6ffebfe0397cea29f5d8"
+    },
+    {
+      "bytes": 4660,
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/NEW_SAM_CR_TARGET_SELECTION.md",
+      "sha256": "fa1fa8c306122bf8217d53a6ffeaf256d7d11351270a8c1fddf58b3e7a8fbf98"
+    }
+  ],
+  "scientific_bundle_sha256": "a8662d384f51c4fd18e6e7f647cbefa9b9d691eba5e1301a82251383c41ab47e",
+  "scientific_content_changed": false,
+  "scientific_tests_rerun": false,
+  "target_scientific_content_opened_for_favorable_selection": false
+}

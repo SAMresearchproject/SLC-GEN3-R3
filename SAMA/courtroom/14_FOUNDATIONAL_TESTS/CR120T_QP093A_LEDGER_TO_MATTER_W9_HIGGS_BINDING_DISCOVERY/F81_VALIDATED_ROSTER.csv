@@ -1,0 +1,127 @@
+﻿candidate_id,selected_by_frozen_rule,p,g,same_role,bin,q_sign,M_native_post_selection_readout,decision_trace
+QP093A-0001,True,1,0,matter_plus,stable_matter_rows,positive,1.25,g<=1.5:true | p<=8.5:true
+QP093A-0002,True,1,0,matter_minus,stable_matter_rows,negative,1.5,g<=1.5:true | p<=8.5:true
+QP093A-0003,True,1,0,neutral,stable_matter_rows,neutral,0.125,g<=1.5:true | p<=8.5:true
+QP093A-0004,True,2,0,matter_plus,stable_matter_rows,positive,2.5,g<=1.5:true | p<=8.5:true
+QP093A-0005,True,2,0,matter_minus,stable_matter_rows,negative,3,g<=1.5:true | p<=8.5:true
+QP093A-0006,True,2,0,neutral,stable_matter_rows,neutral,0.25,g<=1.5:true | p<=8.5:true
+QP093A-0007,True,3,0,matter_plus,stable_matter_rows,positive,3.75,g<=1.5:true | p<=8.5:true
+QP093A-0008,True,3,0,matter_minus,stable_matter_rows,negative,4.5,g<=1.5:true | p<=8.5:true
+QP093A-0009,True,3,0,neutral,stable_matter_rows,neutral,0.375,g<=1.5:true | p<=8.5:true
+QP093A-0010,True,4,0,matter_plus,stable_matter_rows,positive,5,g<=1.5:true | p<=8.5:true
+QP093A-0011,True,4,0,matter_minus,stable_matter_rows,negative,6,g<=1.5:true | p<=8.5:true
+QP093A-0012,True,4,0,neutral,stable_matter_rows,neutral,0.5,g<=1.5:true | p<=8.5:true
+QP093A-0013,True,6,0,matter_plus,stable_matter_rows,positive,7.5,g<=1.5:true | p<=8.5:true
+QP093A-0014,True,6,0,matter_minus,stable_matter_rows,negative,9,g<=1.5:true | p<=8.5:true
+QP093A-0015,True,6,0,neutral,stable_matter_rows,neutral,0.75,g<=1.5:true | p<=8.5:true
+QP093A-0016,True,8,0,matter_plus,stable_matter_rows,positive,10,g<=1.5:true | p<=8.5:true
+QP093A-0017,True,8,0,matter_minus,stable_matter_rows,negative,12,g<=1.5:true | p<=8.5:true
+QP093A-0018,True,8,0,neutral,stable_matter_rows,neutral,1,g<=1.5:true | p<=8.5:true
+QP093A-0019,True,9,0,matter_plus,stable_matter_rows,positive,11.25,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0020,True,9,0,matter_minus,stable_matter_rows,negative,13.5,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0021,True,9,0,neutral,stable_matter_rows,neutral,1.125,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:true
+QP093A-0022,True,12,0,matter_plus,stable_matter_rows,positive,15,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0023,True,12,0,matter_minus,stable_matter_rows,negative,18,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0024,True,12,0,neutral,stable_matter_rows,neutral,1.5,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:true
+QP093A-0025,True,1,1,matter_plus,stable_matter_rows,positive,15,g<=1.5:true | p<=8.5:true
+QP093A-0026,True,1,1,matter_minus,stable_matter_rows,negative,18,g<=1.5:true | p<=8.5:true
+QP093A-0027,True,1,1,neutral,stable_matter_rows,neutral,1.5,g<=1.5:true | p<=8.5:true
+QP093A-0028,True,2,1,matter_plus,stable_matter_rows,positive,30,g<=1.5:true | p<=8.5:true
+QP093A-0029,True,2,1,matter_minus,stable_matter_rows,negative,36,g<=1.5:true | p<=8.5:true
+QP093A-0030,True,2,1,neutral,stable_matter_rows,neutral,3,g<=1.5:true | p<=8.5:true
+QP093A-0031,True,3,1,matter_plus,stable_matter_rows,positive,45,g<=1.5:true | p<=8.5:true
+QP093A-0032,True,3,1,matter_minus,stable_matter_rows,negative,54,g<=1.5:true | p<=8.5:true
+QP093A-0033,True,3,1,neutral,stable_matter_rows,neutral,4.5,g<=1.5:true | p<=8.5:true
+QP093A-0034,True,4,1,matter_plus,stable_matter_rows,positive,60,g<=1.5:true | p<=8.5:true
+QP093A-0035,True,4,1,matter_minus,stable_matter_rows,negative,72,g<=1.5:true | p<=8.5:true
+QP093A-0036,True,4,1,neutral,stable_matter_rows,neutral,6,g<=1.5:true | p<=8.5:true
+QP093A-0037,True,6,1,matter_plus,stable_matter_rows,positive,90,g<=1.5:true | p<=8.5:true
+QP093A-0038,True,6,1,matter_minus,stable_matter_rows,negative,108,g<=1.5:true | p<=8.5:true
+QP093A-0039,True,6,1,neutral,stable_matter_rows,neutral,9,g<=1.5:true | p<=8.5:true
+QP093A-0040,True,8,1,matter_plus,stable_matter_rows,positive,120,g<=1.5:true | p<=8.5:true
+QP093A-0041,True,8,1,matter_minus,stable_matter_rows,negative,144,g<=1.5:true | p<=8.5:true
+QP093A-0042,True,8,1,neutral,stable_matter_rows,neutral,12,g<=1.5:true | p<=8.5:true
+QP093A-0043,True,9,1,matter_plus,stable_matter_rows,positive,135,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:true | q_sign==neutral:false
+QP093A-0044,True,9,1,matter_minus,stable_matter_rows,negative,162,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:true | q_sign==neutral:false
+QP093A-0045,False,9,1,neutral,stable_matter_rows,neutral,13.5,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:true | q_sign==neutral:true
+QP093A-0046,False,12,1,matter_plus,stable_matter_rows,positive,180,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:false | q_sign==neutral:false
+QP093A-0047,False,12,1,matter_minus,stable_matter_rows,negative,216,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:false | q_sign==neutral:false
+QP093A-0048,True,12,1,neutral,stable_matter_rows,neutral,18,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:false | q_sign==neutral:true
+QP093A-0049,False,1,2,matter_plus,stable_matter_rows,positive,180,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0050,False,1,2,matter_minus,stable_matter_rows,negative,216,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0051,True,1,2,neutral,stable_matter_rows,neutral,18,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:true | p<=3.5:true
+QP093A-0052,False,2,2,matter_plus,stable_matter_rows,positive,360,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0053,False,2,2,matter_minus,stable_matter_rows,negative,432,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0054,True,2,2,neutral,stable_matter_rows,neutral,36,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:true | p<=3.5:true
+QP093A-0055,False,3,2,matter_plus,stable_matter_rows,positive,540,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0056,False,3,2,matter_minus,stable_matter_rows,negative,648,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0057,True,3,2,neutral,stable_matter_rows,neutral,54,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:true | p<=3.5:true
+QP093A-0058,False,4,2,matter_plus,stable_matter_rows,positive,720,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0059,False,4,2,matter_minus,stable_matter_rows,negative,864,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0060,False,4,2,neutral,stable_matter_rows,neutral,72,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:true | p<=3.5:false
+QP093A-0061,False,6,2,matter_plus,stable_matter_rows,positive,1080,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0062,False,6,2,matter_minus,stable_matter_rows,negative,1296,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0063,False,6,2,neutral,stable_matter_rows,neutral,108,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:true | p<=3.5:false
+QP093A-0064,True,8,2,matter_plus,unstable_resonance_rows,positive,1440,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:true
+QP093A-0065,True,8,2,matter_minus,unstable_resonance_rows,negative,1728,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:true
+QP093A-0066,False,8,2,neutral,unstable_resonance_rows,neutral,144,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:true
+QP093A-0067,True,9,2,matter_plus,unstable_resonance_rows,positive,1620,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:false
+QP093A-0068,True,9,2,matter_minus,unstable_resonance_rows,negative,1944,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:false
+QP093A-0069,False,9,2,neutral,unstable_resonance_rows,neutral,162,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:true
+QP093A-0070,True,12,2,matter_plus,unstable_resonance_rows,positive,2160,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:false
+QP093A-0071,True,12,2,matter_minus,unstable_resonance_rows,negative,2592,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:false | p<=8.5:false
+QP093A-0072,False,12,2,neutral,unstable_resonance_rows,neutral,216,g<=1.5:false | bin==unstable_resonance_rows:true | q_sign==neutral:true
+QP093A-0073,True,1,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,1.25,g<=1.5:true | p<=8.5:true
+QP093A-0074,True,1,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,1.5,g<=1.5:true | p<=8.5:true
+QP093A-0075,True,2,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,2.5,g<=1.5:true | p<=8.5:true
+QP093A-0076,True,2,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,3,g<=1.5:true | p<=8.5:true
+QP093A-0077,True,3,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,3.75,g<=1.5:true | p<=8.5:true
+QP093A-0078,True,3,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,4.5,g<=1.5:true | p<=8.5:true
+QP093A-0079,True,4,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,5,g<=1.5:true | p<=8.5:true
+QP093A-0080,True,4,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,6,g<=1.5:true | p<=8.5:true
+QP093A-0081,True,6,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,7.5,g<=1.5:true | p<=8.5:true
+QP093A-0082,True,6,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,9,g<=1.5:true | p<=8.5:true
+QP093A-0083,True,8,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,10,g<=1.5:true | p<=8.5:true
+QP093A-0084,True,8,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,12,g<=1.5:true | p<=8.5:true
+QP093A-0085,True,9,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,11.25,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0086,True,9,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,13.5,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0087,True,12,0,antimatter_plus_source_role,antimatter_conjugate_rows,negative,15,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0088,True,12,0,antimatter_minus_source_role,antimatter_conjugate_rows,positive,18,g<=1.5:true | p<=8.5:false | g<=0.5:true | q_sign==neutral:false
+QP093A-0089,True,1,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,15,g<=1.5:true | p<=8.5:true
+QP093A-0090,True,1,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,18,g<=1.5:true | p<=8.5:true
+QP093A-0091,True,2,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,30,g<=1.5:true | p<=8.5:true
+QP093A-0092,True,2,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,36,g<=1.5:true | p<=8.5:true
+QP093A-0093,True,3,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,45,g<=1.5:true | p<=8.5:true
+QP093A-0094,True,3,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,54,g<=1.5:true | p<=8.5:true
+QP093A-0095,True,4,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,60,g<=1.5:true | p<=8.5:true
+QP093A-0096,True,4,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,72,g<=1.5:true | p<=8.5:true
+QP093A-0097,True,6,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,90,g<=1.5:true | p<=8.5:true
+QP093A-0098,True,6,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,108,g<=1.5:true | p<=8.5:true
+QP093A-0099,True,8,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,120,g<=1.5:true | p<=8.5:true
+QP093A-0100,True,8,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,144,g<=1.5:true | p<=8.5:true
+QP093A-0101,True,9,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,135,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:true | q_sign==neutral:false
+QP093A-0102,True,9,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,162,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:true | q_sign==neutral:false
+QP093A-0103,False,12,1,antimatter_plus_source_role,antimatter_conjugate_rows,negative,180,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:false | q_sign==neutral:false
+QP093A-0104,False,12,1,antimatter_minus_source_role,antimatter_conjugate_rows,positive,216,g<=1.5:true | p<=8.5:false | g<=0.5:false | p<=10.5:false | q_sign==neutral:false
+QP093A-0105,False,1,2,antimatter_plus_source_role,antimatter_conjugate_rows,negative,180,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0106,False,1,2,antimatter_minus_source_role,antimatter_conjugate_rows,positive,216,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0107,False,2,2,antimatter_plus_source_role,antimatter_conjugate_rows,negative,360,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0108,False,2,2,antimatter_minus_source_role,antimatter_conjugate_rows,positive,432,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0109,False,3,2,antimatter_plus_source_role,antimatter_conjugate_rows,negative,540,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0110,False,3,2,antimatter_minus_source_role,antimatter_conjugate_rows,positive,648,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0111,False,4,2,antimatter_plus_source_role,antimatter_conjugate_rows,negative,720,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0112,False,4,2,antimatter_minus_source_role,antimatter_conjugate_rows,positive,864,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0113,False,6,2,antimatter_plus_source_role,antimatter_conjugate_rows,negative,1080,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0114,False,6,2,antimatter_minus_source_role,antimatter_conjugate_rows,positive,1296,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0300,False,,,non_single_write,carrier_only_rows,neutral,18,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0301,False,,,non_single_write,carrier_only_rows,neutral,0,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0302,False,,,non_single_write,carrier_only_rows,neutral,9,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0304,False,,,non_single_write,carrier_only_rows,neutral,8,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0306,False,,,non_single_write,hidden_source_support_rows,positive,1.006944444,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0307,False,,,non_single_write,hidden_source_support_rows,positive,2.027777778,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0308,False,,,non_single_write,hidden_source_support_rows,positive,3.0625,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0309,False,,,non_single_write,hidden_source_support_rows,positive,4.111111111,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0310,False,,,non_single_write,hidden_source_support_rows,positive,6.25,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0311,False,,,non_single_write,hidden_source_support_rows,positive,8.444444444,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0312,False,,,non_single_write,hidden_source_support_rows,positive,9.5625,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false
+QP093A-0313,False,,,non_single_write,hidden_source_support_rows,positive,13,g<=1.5:false | bin==unstable_resonance_rows:false | same_role==neutral:false

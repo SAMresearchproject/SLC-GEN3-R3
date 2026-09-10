@@ -1,0 +1,169 @@
+{
+  "lock_id": "CR103a_BOUNCE_COST_A_DEPENDENCE_APPEAL_LOCK",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "cr_id": "CR103a",
+  "sealed_at_utc": "2026-06-13T22:48:35Z",
+  "appeal_target_cr": "CR103",
+  "appeal_target_verdict_unmodified": "CR103_CANDIDATE_4_SIMPLE_READING_DISFAVORED_BY_LHC",
+  "user_insights_locked_verbatim": {
+    "layer_1_resolution_mechanics": "1 full SW is in quantum phase- resolution produces 1/2 SW and 1/2  write. Ice pick makes a score and makes ice flakes fly.",
+    "layer_2_epistemology": "you can never 'see' 1 SW, once you do it becomes resolution",
+    "layer_3_bounce_cost_and_A_dependence": "The bounce cost should be directly related to A- it is 'theorized' the higgs wieght changes with A, so the cost of the bounce is higher near a black hole than it is a void but the weight of the higgs corrects and provides the appropriate amount of energy to intersect everywhere- except at 11/12 when A can differ enough between the front and back of an object to destabilize intersections- quantum spaghettification."
+  },
+  "upstream_verification_chain": {
+    "layer_1_sources": [
+      {
+        "id": "G425",
+        "verdict": "PASS",
+        "claim": "SW(A0) -> Higgs/bounce half + ledger/write half"
+      },
+      {
+        "id": "QGA021",
+        "verdict": "PASS_THRESHOLD_HALF_SLOT_ORIGIN",
+        "claim": "D_route = 6 half-slots = 3; I_threshold = D_route/6 = 1/2"
+      },
+      {
+        "id": "QGA019",
+        "verdict": "PASS_I_PHYS_CONTACT_OVERLAP_FUNCTIONAL",
+        "claim": "coherent echo-contact overlap functional"
+      }
+    ],
+    "layer_2_sources": [
+      {
+        "id": "QGA013",
+        "verdict": "STRUCTURAL_EQUATION_CANDIDATE",
+        "claim": "unresolved A has undetermined path; 3D reality appears where echoes physically interact and ledger-resolve"
+      },
+      {
+        "id": "G286d",
+        "verdict": "PRECHECK",
+        "claim": "Is a detection event = an SW event?"
+      }
+    ],
+    "layer_3_sources": [
+      {
+        "id": "G435",
+        "verdict": "PASS_BOUNCE_COST_MASS_PROPORTIONALITY",
+        "path": "tests/Substrate/G435_BOUNCE_COST_MASS_PROPORTIONALITY/G435_output.json",
+        "claim": "r_bounce = (A0/2)*(q/2^D), mass-proportional, 8/8 predictions and 7/7 wrong controls PASS"
+      },
+      {
+        "id": "G470",
+        "verdict": "PASS_SW_SPLIT_BOUNCE_ACTION_THEOREM",
+        "path": "tests/Substrate/G470_SW_SPLIT_BOUNCE_ACTION_THEOREM/G470_output.json",
+        "claim": "G425 + Gate-8/Gate-7 + G435 combine into one action theorem"
+      },
+      {
+        "id": "G432",
+        "verdict": "PASS",
+        "claim": "Bounce cost eighth-slot correction"
+      },
+      {
+        "id": "CH033",
+        "verdict": "DISCOVERY_DEN_PROMOTED",
+        "claim": "Charge as conserved manifold-bounce readout"
+      },
+      {
+        "id": "BB005",
+        "verdict": "PASS_TYPED_12_OF_12_TO_A0_RESET_EQUIVALENCE",
+        "path": "tests/Substrate/BB005_12_OF_12_A0_RESET_EQUIVALENCE_SELECTOR/BB005_RESULT.md",
+        "claim": "Native ordering: 11/12 = MAXIMUM LOADING; 23/24 = max acoustic drive; 12/12 = A=1 parent-road completion; A0 = child-road baseline after reset"
+      },
+      {
+        "id": "QP038",
+        "verdict": "COMPOSITE_STABILITY_SPAGHETTIFICATION_BOUNDARY_SELECTED",
+        "path": "docs/reports/QP038_PRIVATE_COMPOSITE_STABILITY_QUANTUM_SPAGHETTIFICATION_BOUNDARY.md",
+        "claim": "single identity is local W/I fixed point; composite support is many-SW binding; quantum spaghettification is extended A-road coherence shear"
+      },
+      {
+        "id": "SEAN_RAW_AUTHOR_NOTE_2026_06_09",
+        "claim": "Matter outside A=1 closure shredded by spaghettification as horizon expands; cooling -> hydrogen"
+      }
+    ]
+  },
+  "upstream_source_hashes_at_runner_time": {
+    "G435_output.json": "c419e7e601ef954e24fc6b0d8cb8d17c3ee01777020449a3c343518570f70e19",
+    "G435_verdict.md": "c87e9bbe38493cf582bbbbf3112cca52472ff6f5e08d1596f6a3f625d6827ff8",
+    "G470_output.json": "709bbf5ebf3b9097143a4517aa7a744148e34c6a5ec105fcb57f50b9af6c5d41",
+    "BB005_RESULT.md": "c2a6cee7b4ce54b1578afe91dc103e344baa846164688c7c0bfbd086ac8a6043",
+    "CH033_summary.md": "8ee316dc25fc3123aa0f69642252aedcde191edb50afbe346be8e816e7f741f0",
+    "QGA013_doc.md": "8e9f9143e8390fdead5b9d690ffd42b3a5dd92a51c152c17419fcc47ee05d918",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "key_formula_locked": {
+    "bounce_cost": "r_bounce = (A0/2) * (q / 2^D)",
+    "constants": {
+      "A0": "1/(12*pi) = 0.026525823848649224",
+      "A0_over_2": "1/(24*pi) = 0.013262911924324612",
+      "D": 3,
+      "two_to_D": 8,
+      "A0_times_12": "1/pi (full write total)"
+    },
+    "q_map": {
+      "electron": 4,
+      "muon": -2,
+      "tau": -7,
+      "proton": 6,
+      "neutron": 5
+    },
+    "mass_correction": "m_corrected = m_base / (1 + r_bounce)",
+    "delta_relation": "Delta_m / m_corrected = r_bounce"
+  },
+  "terminology_clarification_per_user_2026_06_13": {
+    "A0_is_constant": "A0 = 1/(12*pi) is the UNIVERSAL SW QUANTUM (a constant, not a field value)",
+    "A_is_local_field": "A is the LOCAL accumulated SW displacement density (position-dependent field)",
+    "A0_baseline_meaning": "A0 child-road baseline is the lowest possible A in deep vacuum AFTER parent-road reset (cosmological vacuum reference)",
+    "CERN_local_A": "CERN sits on Earth's surface; local A_CERN = A_Earth_surface, NOT A0 vacuum baseline",
+    "Earth_surface_A_estimate": "Schwarzschild factor 2GM/(rc^2) ~ 1.4e-9 at Earth surface; A_Earth correction relative to A0 baseline is at most O(1e-9)",
+    "discipline_rule": "Any CR test that compares SAM bounce-cost-affected quantity against CERN-class measurement must use local A at the experiment site (Earth's surface for LHC + Gran Sasso experiments); using A0 vacuum baseline as if CERN were in deep space is a category error",
+    "quantitative_impact_on_existing_CRs": {
+      "CR091_CR092_CR096_CR098_CR099_CR101_CR102": "particle masses and c_SW vs c bounds; A_Earth correction is ~1e-9; well below the experimental precision of every test in these CRs; verdicts unchanged",
+      "CR103_GATE_1_LHC_multiplicity": "bounce cost itself is ~1% per particle; A_Earth correction to that is ~1e-11 fractional; completely below LHC multiplicity precision; the 52 sigma failure of CR103's simple reading is NOT explained by A_Earth correction",
+      "future_CRs_with_high_A_anchors": "any CR using neutron star merger waveforms, BH accretion timing, or other near-horizon environments MUST use the local A at the cited source, not Earth surface or A0"
+    }
+  },
+  "forward_blind_predictions_registered": [
+    {
+      "prediction_id": "CR103a_PRED_1",
+      "claim": "LHC pp collisions occur at A = A_Earth_surface (~ A0 + 1.4e-9); r_bounce values measured in G435 are at this A_Earth_surface baseline (NOT at A=0 deep vacuum)",
+      "testable_at": "current LHC data",
+      "constraint": "any further test of bounce cost at LHC must yield r_bounce consistent with G435 values at A_Earth_surface; deep-space measurements (if ever performed) would yield r_bounce slightly smaller by ~1e-9"
+    },
+    {
+      "prediction_id": "CR103a_PRED_2",
+      "claim": "Bounce cost is monotonically increasing with A; Higgs weight self-corrects so per-intersection energy budget is A-invariant",
+      "testable_at": "gravitational wave merger waveforms; BH accretion disk spectra",
+      "constraint": "observable mass / observable energy budget should be A-invariant up to A approx 11/12"
+    },
+    {
+      "prediction_id": "CR103a_PRED_3",
+      "claim": "At A approaching 11/12 (maximum loading), front-back A differential across extended objects exceeds threshold; composite intersections destabilize; quantum spaghettification onset",
+      "testable_at": "tidal disruption events near supermassive BH horizons; LIGO/Virgo NS merger waveforms",
+      "constraint": "characteristic signature in matter-disruption phase; quantitative threshold at A = 11/12, not at A = 1 horizon"
+    },
+    {
+      "prediction_id": "CR103a_PRED_4",
+      "claim": "At A = 12/12 = 1, parent-road completes as closed sphere; matter outside undergoes spaghettification as horizon expands; cooling produces hydrogen (PBH cosmogenesis route)",
+      "testable_at": "primordial black hole abundance constraints; hydrogen cosmological abundance vs PBH scenario",
+      "constraint": "consistency check against existing cosmological constraints; Sean raw note as upstream"
+    }
+  ],
+  "implications_for_prior_CRs": {
+    "CR091_CR092_CR096_CR098_CR099": "unaffected; particle masses are post-bounce m_corrected values which already include bounce cost at A approx 0",
+    "CR101_GATE_2_CERN": "PARTIAL_CLOSURE holds; c_SW = c tested at A approx 0; Higgs self-correction ensures result extends to all A < 11/12",
+    "CR102_GATE_2_astrophysical": "PARTIAL_CLOSURE holds; tested across A range still consistent with self-correction regime",
+    "CR103_GATE_1_LHC": "DISFAVORED verdict UNCHANGED; reinterpreted: simple reading failed because the N_SW -> N_writes conversion structure is non-trivial; bounce cost at A approx 0 is small (~1%) so doesn't fix the s^0.17 gap; gap requires further structure (likely kinematic saturation)",
+    "GATE_3_K_A_H_substrate_tension": "now identified as the Higgs weight self-correction function K(A_H) = f(A_H) such that K * r_bounce * m = constant intersection cost; CR104 GATE_3 closure attempt should commit to this structural form"
+  },
+  "what_CR103a_does_NOT_do": [
+    "modify CR103 verdict",
+    "modify CR100 question lock",
+    "modify CR101 or CR102 GATE_2 partial closures",
+    "modify any 09a CR result",
+    "commit SAM to a specific functional form for r_bounce(A) or K(A_H) at finite A",
+    "test the four forward-blind predictions today (they are registered for future tests)"
+  ],
+  "prediction_commit_sha256": "e3c1f650c328cdaee454a0f0f723dbd47c9fdab30e23876380f1e6ab5797894c",
+  "prediction_commit_utc": "2026-06-13T22:48:35Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+}

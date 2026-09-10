@@ -1,0 +1,18 @@
+{
+  "X1_fixture_direction": "e0",
+  "candidate_face_dimension": 81,
+  "candidate_ledger_representation": "Q^81 direct-sum Q^81",
+  "even_sector": "(f_a+f_b)/2",
+  "field": "Q",
+  "fit_parameters": 0,
+  "installed_operator_claimed": false,
+  "mirror_exchange": "J(f_a,f_b)=(f_b,f_a)",
+  "model_class": "CONSTRUCTED_EXACT_RATIONAL_SPLIT_STATEFUL_MIRROR_ODD_X1_COMPLEMENT",
+  "null_rule": "NULL iff exact squared norm of Pi80(f_odd) is zero",
+  "odd_sector": "(f_a-f_b)/2",
+  "physical_mapping_claimed": false,
+  "projector": "Pi80=diag(0,1,...,1)",
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "scientific_pass_claimed": false,
+  "stochastic_samples": 0
+}

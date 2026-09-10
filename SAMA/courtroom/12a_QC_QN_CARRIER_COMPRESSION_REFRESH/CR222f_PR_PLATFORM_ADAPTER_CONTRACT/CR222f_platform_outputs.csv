@@ -1,0 +1,8 @@
+platform_id,scenario,coherence_observable,leak_observable,t_fire_formula,t_fire_coefficient,packet_state,warning_allowed,qA,tensor_witness,retained_write,emitted_state,emitted,passed
+NV_CENTER_T2,nv_sealed_below_threshold,T2,A_leak(t),T2*(-1/2*ln(23/24)),0.021279807209397945,SEALED_PACKET,False,0,0,0,SEALED_PACKET,False,True
+NV_CENTER_T2,nv_threshold_exact,T2,A_leak(t),T2*(-1/2*ln(23/24)),0.021279807209397945,VALID_WARNING_PACKET,True,1/24,1/192,7/192,EMITTED_WARNING_PACKET,True,True
+NV_CENTER_T2,nv_no_protocol_gate,T2,A_leak(t),T2*(-1/2*ln(23/24)),0.021279807209397945,SEALED_PACKET,False,0,0,0,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_sealed_below_threshold,tau_ent,A_leak(t),tau_ent*(-1/2*ln(23/24)),0.021279807209397945,SEALED_PACKET,False,0,0,0,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_threshold_exact,tau_ent,A_leak(t),tau_ent*(-1/2*ln(23/24)),0.021279807209397945,VALID_WARNING_PACKET,True,1/24,1/192,7/192,EMITTED_WARNING_PACKET,True,True
+PHOTONIC_TAU_ENT,photonic_no_protocol_gate,tau_ent,A_leak(t),tau_ent*(-1/2*ln(23/24)),0.021279807209397945,SEALED_PACKET,False,0,0,0,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_corrupt_threshold,tau_ent,A_leak(t),tau_ent*(-1/2*ln(23/24)),0.021279807209397945,CORRUPT_PACKET,False,0,0,0,CORRUPT_PACKET,False,True

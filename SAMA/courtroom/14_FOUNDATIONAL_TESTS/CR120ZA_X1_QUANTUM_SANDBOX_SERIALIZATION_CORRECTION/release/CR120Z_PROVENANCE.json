@@ -1,0 +1,21 @@
+{
+  "campaign_id": "CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION",
+  "completed_utc": "2026-07-18T20:42:57.913087+00:00",
+  "contract_sha256": "d39c1454d23ba9fc2625cc1a7596d5264738c64096aed6d1d67361ca7e9c04e8",
+  "fitting": "NONE",
+  "numpy_version": "2.4.4",
+  "precommit_sha256": "73fd01357845118d5bc2502a786d9b6a4e351570a4ad302ac2f8dfa89556c491",
+  "randomness": "NONE",
+  "registry_mutated": false,
+  "runner_sha256": "cdd98116989f2b029bf9d221b802851c6bba38b4010f080bf8b184f13099bd41",
+  "same_run_repair": false,
+  "seal_checks": {
+    "contract": true,
+    "precommit": true,
+    "runner": true,
+    "source_manifest": true
+  },
+  "source_manifest_sha256": "9c06cfc09a50e5adcc904effde854dcc43227ee2998d9227e4ba1a14fc39edd7",
+  "started_utc": "2026-07-18T20:42:57.868840+00:00",
+  "task_preflight": "artifacts/preflight_filled/PREFLIGHT_20260718_153332_no_script.md"
+}

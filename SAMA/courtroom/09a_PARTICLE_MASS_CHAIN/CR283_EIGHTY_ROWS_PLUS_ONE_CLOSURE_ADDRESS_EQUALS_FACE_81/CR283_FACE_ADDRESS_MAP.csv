@@ -1,0 +1,2 @@
+status,rule_id,row_entity_id,x_field,x_value,y_field,y_value,address,reason
+NO_NONARBITRARY_MAPPING_FOUND,NONE,,,,,,,No pair of pre-existing fields had exactly 9x9 values with 80 unique occupied addresses and one empty address.

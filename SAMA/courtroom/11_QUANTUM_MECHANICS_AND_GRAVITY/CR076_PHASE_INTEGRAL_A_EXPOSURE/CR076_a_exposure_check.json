@@ -1,0 +1,25 @@
+{
+  "hits": 5,
+  "sample": [
+    {
+      "file": "src/qp001_private_phase_functional_bridge.py",
+      "match": "A_exposure"
+    },
+    {
+      "file": "artifacts/qp001/qp001_phase_functional_summary.json",
+      "match": "A_exposure"
+    },
+    {
+      "file": "docs/reports/QP001_PRIVATE_PHASE_FUNCTIONAL_BRIDGE.md",
+      "match": "A_exposure"
+    },
+    {
+      "file": "src/qp010_private_protected_route_boundary_law.py",
+      "match": "A_exposure"
+    },
+    {
+      "file": "05_quantum_phase/README.md",
+      "match": "A exposure"
+    }
+  ]
+}

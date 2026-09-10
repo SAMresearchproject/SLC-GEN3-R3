@@ -1,0 +1,76 @@
+{
+  "bridge_id": "CR115_GALAXY_PBH_RETROACTIVE_PARTIAL_BRIDGE",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_08_13_14",
+  "sealed_at_utc": "2026-06-14T03:26:35Z",
+  "bridge_class": "PARTIAL_BRIDGE_WITH_EXPLICIT_OPEN_SCOPE",
+  "honest_temporal_ordering": {
+    "branch_08_sealed_before_CR110": true,
+    "consequence": "this is a RETROACTIVE bridge; CR110 was registered without bridging to 08",
+    "what_this_bridge_IS": "documentation that branch 08 work PARTIALLY satisfies CR110_PRED_1 and CR110_PRED_2",
+    "what_this_bridge_is_NOT": "full closure of either prediction; the G732c R12 specific form remains open"
+  },
+  "naming_disambiguation_critical": {
+    "warning": "branch 08 uses 'BB-origin PBH/trapped-A' as a SAM-native label for the cumulative trapped-A field. CR109 envelope constrains STANDARD particle PBHs. These are different object classes that share the acronym.",
+    "branch_08_pbh_meaning": "SAM-native trapped-A field at primordial origin (cumulative-A reading)",
+    "cr109_pbh_meaning": "compact-object particle PBHs in mass windows 1e-11 to 1e3 M_sun",
+    "implication": "CR023's omega_pbh ~ 0.265 is NOT a claim that particle PBHs are dark matter; it is the SAM-native trapped-A inventory lane"
+  },
+  "CR110_PRED_2_assessment_particle_pbh_envelope": {
+    "claim": "PBH envelope from CR109 is consistent with f_PBH = 0 (in particle interpretation); cumulative-A reading",
+    "evidence_from_08": {
+      "CR023_post_bb_particle_subchannel": 0.02576714268055339,
+      "CR024_post_bb_envelope_supplies_pct_of_dark_residual": 2.576714268055339,
+      "CR024_missing_after_particle_pbh_envelope_pct": 97.42328573194466,
+      "implied_f_pbh_particle_upper_bound_from_CR024": 0.02576714268055339
+    },
+    "interpretation": "particle PBHs in the CR109 envelope supply at most ~2.58% of the SPARC dark residual - consistent with the CR110 reading that particle PBHs cannot be the bulk DM",
+    "status": "BRIDGED_PARTICLE_PBH_INSUFFICIENT_CONSISTENT_WITH_CUMULATIVE_A_READING"
+  },
+  "CR110_PRED_1_assessment_rotation_curves": {
+    "claim": "galaxy rotation curves follow G732c native R12 cored law (r_c = R_outer/12); per-body A ensemble, no DM particle",
+    "evidence_from_08": {
+      "CR024_sparc_galaxies": 175,
+      "CR024_sparc_points": 3391,
+      "CR024_median_outer_dark_fraction": 0.760699023482704,
+      "CR025_galaxies_fit": 175,
+      "CR025_median_chi2_improvement_factor_over_baryon_only": 150.7662388291606,
+      "CR025_median_halo_overdensity_vs_cosmic_dm_mean": 79090.03192365015,
+      "CR025_native_radial_law_status": "native radial organization law / mass function / concentration relation"
+    },
+    "what_is_bridged": [
+      "real SPARC sample (175 galaxies, 3391 points) confirms large outer dark residual",
+      "clustered halo profile fits 175 galaxies with zero free parameters",
+      "chi^2 improvement 150x over baryon-only confirms halo presence",
+      "halo overdensity ~79090x cosmic DM mean confirms clustered profile (not smooth)"
+    ],
+    "what_remains_open": [
+      "CR025 explicitly lists 'native radial organization law / mass function / concentration' as OPEN selector",
+      "the SPECIFIC G732c r_c = R_outer/12 functional form was not the profile CR025 tested",
+      "per-galaxy r_c extraction vs R_outer/12 prediction is a future useful test"
+    ],
+    "status": "BRIDGED_PARTIALLY_RESIDUAL_AND_CLUSTERED_PROFILE_CLOSED_NATIVE_RADIAL_LAW_OPEN"
+  },
+  "branch_08_chain_of_custody": {
+    "CR022_kernel_root_sha256": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_inventory_chain_sha256": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_sparc_residual_sha256": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_clustered_profile_sha256": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR030_branch_verdict_sha256": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc"
+  },
+  "branch_14_chain_of_custody": {
+    "CR107_sparc_anchor_sha256": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR109_pbh_anchor_sha256": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+    "CR110_three_mode_appeal_sha256": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b"
+  },
+  "branch_13_registry_unmodified": {
+    "CR098a_registry_csv_sha256": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR098a_prediction_commit_sha256": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe"
+  },
+  "governance_chain": {
+    "CR113_cross_branch_certificate_sha256": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+    "CR114_cosmic_baryon_bridge_sha256": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "BLINDNESS_PROTOCOL_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "modifies_no_branch_artifact": true,
+  "free_parameters_total": 0
+}

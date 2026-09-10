@@ -1,0 +1,33 @@
+item,value,pass
+z_eq_SAM,3596.425733245939,True
+z_eq_Planck,3402.0,True
+z_eq_dev_pct,5.715042129510265,True
+z_star_SAM,1091.2151785738336,True
+z_star_Planck,1089.92,True
+z_star_dev_pct,0.11883244401731154,True
+z_drag_SAM,1023.3355606038734,True
+z_drag_Planck,1059.94,True
+z_drag_dev_pct,-3.4534444776238864,True
+r_s(z_star) Mpc_SAM,141.7778012507054,True
+r_s(z_star) Mpc_Planck,144.43,True
+r_s(z_star) Mpc_dev_pct,-1.8363212277882697,True
+r_d Mpc_SAM,147.76857624654207,True
+r_d Mpc_Planck,147.09,True
+r_d Mpc_dev_pct,0.46133404483109974,True
+D_M(z_star) Mpc_SAM,13536.180284887798,True
+D_M(z_star) Mpc_Planck,13869.6,True
+D_M(z_star) Mpc_dev_pct,-2.4039605692464274,True
+ell_A_SAM,299.9423334649783,True
+ell_A_Planck,301.76,True
+ell_A_dev_pct,-0.6023550288380551,True
+100*theta_*_SAM,1.0473988840780324,True
+100*theta_*_Planck,1.0411,True
+100*theta_*_dev_pct,0.6050220034610003,True
+P1_100theta_passed,True,True
+P2_ellA_passed,True,True
+P3_rd_passed,True,True
+WC1_canonical_percentile,2.8000000000000003,True
+WC1_p_value,0.028971028971028972,True
+WC2_canonical_percentile,6.3,True
+WC2_p_value,0.06393606393606394,True
+verdict,PASS,True

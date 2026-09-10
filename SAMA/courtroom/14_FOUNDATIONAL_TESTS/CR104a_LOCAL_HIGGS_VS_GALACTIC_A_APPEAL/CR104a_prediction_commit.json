@@ -1,0 +1,17 @@
+{
+  "commit_id": "CR104a_LAYER_4_APPEAL_LOCK_COMMIT",
+  "predictions_file": "CR104a_predictions.csv",
+  "prediction_commit_sha256": "0127b25c52b093921ddc78c03914b0f72f3680b22272917e4279f3dde34009dd",
+  "prediction_commit_utc": "2026-06-13T23:34:30Z",
+  "what_is_locked": "Layer 4 user insight (spell-corrected + original preserved) + four forward-blind predictions",
+  "what_is_NOT_modified": [
+    "CR104 verdict (PARTIAL_CLOSURE_K_A_H_CONSISTENT)",
+    "CR103a appeal lock",
+    "CR100 question lock",
+    "CR105 GATE_CROSS_INTEGRITY_PASS",
+    "CR106 14 branch verdict",
+    "any 09a CR result"
+  ],
+  "upstream_CR104_summary_sha256": "1487675d79c8fde276ef9505ba63946ccd68835ade87d33115b1e761dc873c9f",
+  "upstream_CR103a_appeal_lock_sha256": "f247211b34de740039b934bb5938baba1d84c0a4f92718aeecaa189eb21eefa8"
+}

@@ -1,0 +1,27 @@
+{
+  "admissible_transformations": [
+    "Q_ID",
+    "Q_12",
+    "Q_123",
+    "Q_SIGN_13",
+    "Q_FAR"
+  ],
+  "erasure_scar_distances": {
+    "exact_inverse": 0,
+    "sham": 1,
+    "summary_only": 2
+  },
+  "probe_family_size": 81,
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "type_names": [
+    "CoordinateProbe",
+    "HomeSnapshotState",
+    "RationalReadout",
+    "UpdateIndex",
+    "WriteInput",
+    "WriteResidue",
+    "WriterAction"
+  ],
+  "write_rule": "S_(n+1)=S_n+Pi80*u_n; kappa=tag_K((I-Pi80)u_n)",
+  "wrong_transformation": "Q_MIX_X1"
+}

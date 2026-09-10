@@ -1,0 +1,10 @@
+label,description,rms_MeV,R2,ratio_to_canonical,pass,note
+WC-1_drop_volume,Drop volume shape; refit remaining 4-term,20.420880919530255,0.6957508281375658,7.491231862882671,True,
+WC-2_drop_surface,Drop surface shape; refit remaining 4-term,16.82532496698246,0.7934584741203947,6.172231795126383,True,
+WC-3_drop_coulomb,Drop coulomb shape; refit remaining 4-term,14.337073948133657,0.8500309951383124,5.259437416240245,True,
+WC-4_drop_asymmetry,Drop asymmetry shape; refit remaining 4-term,12.381701789416464,0.8881486735007009,4.542125255374226,True,
+WC-5_drop_pairing,Drop pairing shape; refit remaining 4-term,3.167324802359751,0.9926807654881662,1.1619069996556117,False,
+WC-6_surface_A_half,Replace surface A^(2/3) with A^(1/2),3.0951662468014285,0.9930104628016778,1.135436228257052,False,
+WC-7_road_A_two_thirds,Replace road 1/A^(1/3) with 1/A^(2/3),5.625689425652745,0.9769095729881386,2.0637378006463294,True,
+WC-8_pairing_delta_over_sqrtA,Replace pairing delta_pair with delta_pair/sqrt(A),2.7770723118075233,0.9943732860644242,1.018746089834224,True,report-only; no degradation gate
+WC-9_shuffle_B_u,Shuffle B_u labels seed 20260623; refit,35.50122463704907,nan,13.023331668227316,True,

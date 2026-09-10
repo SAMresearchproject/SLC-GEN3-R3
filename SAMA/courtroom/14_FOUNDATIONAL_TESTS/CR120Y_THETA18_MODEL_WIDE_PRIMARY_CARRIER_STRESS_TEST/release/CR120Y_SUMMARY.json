@@ -1,0 +1,97 @@
+{
+  "A_contact_depths": [
+    1
+  ],
+  "campaign_id": "CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST",
+  "candidate": {
+    "frozen_before_scan": true,
+    "label": "Theta",
+    "type": "PrimaryCarrier",
+    "value": 18
+  },
+  "corpus_breadth": {
+    "D2_9": {
+      "branches": 17,
+      "campaigns": 59,
+      "carrier_context_files": 73,
+      "files": 83
+    },
+    "Theta18": {
+      "branches": 17,
+      "campaigns": 76,
+      "carrier_context_files": 86,
+      "files": 120
+    },
+    "hV_54": {
+      "branches": 1,
+      "campaigns": 9,
+      "carrier_context_files": 13,
+      "files": 15
+    },
+    "m3_6": {
+      "branches": 9,
+      "campaigns": 22,
+      "carrier_context_files": 27,
+      "files": 35
+    }
+  },
+  "corpus_policy": "DESCRIPTIVE_ONLY_NOT_A_PROOF_GATE",
+  "exact_derivation_routes_passed": 6,
+  "exact_derivation_routes_total": 6,
+  "hard_gates_passed": 9,
+  "hard_gates_total": 9,
+  "leave_one_family_out_survival": 6,
+  "leave_one_family_out_total": 6,
+  "precommit_seal_pass": true,
+  "primary_verdict": "PASS_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST__MULTIPATH_AND_LEAVE_ONE_FAMILY_OUT_ROBUST__PHYSICAL_IDENTITY_BOUNDARIES_PRESERVED",
+  "qp_carrier_roster_count": 6,
+  "qp_winners_by_mode": {
+    "native_payload": [
+      "QP093A-0300"
+    ],
+    "partition_scalar": [
+      "QP093A-0300"
+    ]
+  },
+  "registry_mutated": false,
+  "remaining_boundaries": [
+    "Theta and X1 remain distinct typed entities despite a normalized one-unit contact.",
+    "Theta18 remains carrier-only, not matter and not a physical-mass coefficient.",
+    "Corpus breadth is descriptive; it is not independent physical proof.",
+    "Starbreaker ledger typing supports the interface but does not alone establish physical ontology."
+  ],
+  "same_run_repair": false,
+  "scientific_status": "STRESS_TEST_PASS",
+  "source_hashes_matched": 18,
+  "source_hashes_total": 18,
+  "starbreaker": {
+    "all_ledgers_close_as_162_unique_slots": true,
+    "all_ledgers_preserve_18_126_18_typing": true,
+    "relation_count": 64253028,
+    "scenario_count": 96
+  },
+  "structural_output_family": [
+    {
+      "label": "m_3",
+      "value": 6
+    },
+    {
+      "label": "D^2",
+      "value": 9
+    },
+    {
+      "label": "Theta",
+      "value": 18
+    },
+    {
+      "label": "hV",
+      "value": 54
+    }
+  ],
+  "structural_substitution_winner": [
+    "Theta"
+  ],
+  "supported_meaning": "Theta18 is the current model-wide primary-carrier candidate and uniquely closes the tested structural-output role across the frozen SAM evidence families.",
+  "wrong_controls_rejected": 12,
+  "wrong_controls_total": 12
+}

@@ -1,0 +1,22 @@
+{
+  "artifact": "CR001_CARRIER_TENSOR_ENERGY_CAP",
+  "mode": "EXPLORATORY",
+  "verdict": "PASS",
+  "precommit_hash": "1e37ca0a35394c2c6a1c36f8a124058c505f4ad9be339bdb1204d9cacf1d0805",
+  "substrate_atoms": {
+    "alpha_H": 2,
+    "D": 3,
+    "R": 12,
+    "R_sq": 144,
+    "Theta": 18
+  },
+  "cap": 0.125,
+  "cap_closed_form": "Theta / R^2 = 18/144 = 1/8 = 0.125",
+  "events_tested": 16,
+  "within_cap": 16,
+  "near_boundary": 0,
+  "exceeded_cap": 0,
+  "max_f_rad_observed": 0.05977584059775841,
+  "max_f_rad_event": "GW170729",
+  "headroom_to_cap": 0.06522415940224159
+}

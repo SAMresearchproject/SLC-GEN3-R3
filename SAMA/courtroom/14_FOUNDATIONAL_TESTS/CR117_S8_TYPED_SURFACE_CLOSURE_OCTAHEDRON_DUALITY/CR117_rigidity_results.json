@@ -1,0 +1,18 @@
+{
+  "cube": {
+    "edges": 12,
+    "maxwell_3V_minus_6": 18,
+    "rank_status": "PASS_FLEXIBLE",
+    "rigidity_matrix_rank": 12,
+    "scope": "unbraced pin-jointed cube skeleton",
+    "vertices": 8
+  },
+  "octahedron": {
+    "edges": 12,
+    "maxwell_3V_minus_6": 12,
+    "rank_status": "PASS",
+    "rigidity_matrix_rank": 12,
+    "scope": "equal-edge pin-jointed 3D skeletal framework",
+    "vertices": 6
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "precommit_sha256": "13789eabc06abba59d5fc2668b4f04a97080e808a6415b1f8717f48bbb420e89",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR038_BRANCH_VERDICT_ZIPPER_PARAMETER_FREE_CMB_SHAPE",
+  "classification": "BRANCH_VERDICT_ZIPPER_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "per_galaxy_fitting": false,
+  "catalog_fit_parameters": 0,
+  "empirical_X_inf_input": false,
+  "prior_CR_result_inputs": true,
+  "gates": {
+    "G1_each_CR_predicate": true,
+    "G2_substrate_invariant": true,
+    "G3_H0_invariant": true,
+    "G4_perturbation_invariant": true,
+    "G5_CR037B_planck_TT_le_2.0": true,
+    "G6_CR037C_ACT_full_shape_le_2.0": true,
+    "G7_external_instrument_independence": true,
+    "G8_precommit_hash_verified": true,
+    "G9_forbidden_file_guard_not_tripped": true
+  },
+  "chain": {
+    "CR035A": {
+      "status": "FAIL (preserved audit trail)",
+      "verdict": "FAIL"
+    },
+    "CR035A2": {
+      "status": "PASS (peak-finder audit replacement)",
+      "verdict": "PASS"
+    },
+    "CR036": {
+      "status": "PASS (H_0_SAM = 67.2504 km/s/Mpc)",
+      "verdict": "PASS",
+      "H_0_SAM": 67.25037519502037,
+      "eta_SAM": 6.096089524484198e-10
+    },
+    "CR036B": {
+      "status": "PASS (SAM densities + H_0_SAM + Planck-centroid perturbations)",
+      "verdict": "PASS"
+    },
+    "CR037A": {
+      "status": "PASS (SAM perturbation triplet inside Planck posterior)",
+      "verdict": "PASS",
+      "A_s_SAM": 2.1117473567790055e-09,
+      "n_s_SAM": 0.9646322348684677,
+      "tau_SAM": 0.05305164769729845
+    },
+    "CR037B": {
+      "status": "PASS (full SAM cosmology vs Planck PR3 full shape; zero free params)",
+      "verdict": "PASS",
+      "Planck_TT_chi2_per_dof": 1.03393370270937
+    },
+    "CR037C": {
+      "status": "PASS (full SAM cosmology vs ACT DR4; zero free params; yp2=1.0)",
+      "verdict": "PASS",
+      "ACT_TT_chi2_over_dof": 1.2996241051190751,
+      "ACT_full_chi2_over_dof": 1.1218057388803668
+    }
+  },
+  "open_items_explicit": {
+    "O1_substrate_recombination_tension": "CR001c (substrate-DERIVED recombination) at 1.5-1.7% from Planck vs CR037B/C (SAM-cosmology + CAMB-recombination) at sub-percent. Substrate-derived recombination remains multi-CR program.",
+    "O2_foreground_independence": "ACT DR4 cleaned-CMB bandpowers are experiment-marginalized; SAM does not independently derive foreground spectra.",
+    "O3_yp2_fixed": "CR037C fixes yp2 = 1.0; full-likelihood yp2-marginalized version is CR037D placeholder.",
+    "O4_future_experiments": "SPT-3G high-ell, Simons Observatory, CMB-S4: CR037E/F placeholders when public bandpower releases are available.",
+    "O5_CR035A_audit_trail_preserved": "CR035A FAIL preserved bit-for-bit as audit-trail of original peak-finder spec; corrected in CR035A2."
+  },
+  "verdict_reason": "G1-G9 all PASS; six PASS CRs constitute parameter-free CMB shape closure with chain-level invariants satisfied; CR037C confirms external-instrument independence on ACT DR4 with zero free parameters.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 8
+}

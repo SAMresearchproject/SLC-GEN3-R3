@@ -1,0 +1,148 @@
+{
+  "cr_id": "CR128",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class == 'BOUND_COLOR_PAIR' (CR119 catalog extension, QP093 chain refinement, or any subsequent generation step), if the partition signature is (a, b) with a, b in partition_algebra, then M_native = R*a*b + D*|a-b| exactly.",
+    "falsifier": "ONE single future BOUND_COLOR_PAIR row with a 2-element partition (a, b) drawn from the partition algebra whose M_native differs from R*a*b + D*|a-b| by any non-zero integer.  ONE violation falsifies v1.0 and triggers an appeal CR with v1.1.",
+    "free_parameters_at_test": 0,
+    "id": "CR128_PRED_1",
+    "non_falsifying": "Rows of operator_class != BOUND_COLOR_PAIR (different generator).  Rows whose partition has != 2 elements (out of domain).  Rows whose partition contains an element outside the algebra (algebra extension would warrant a separate appeal CR, not a violation of v1.0)."
+  },
+  "in_sample_verification": {
+    "algebra_violations": 0,
+    "asymmetric_matches": 30,
+    "formula_matches": 36,
+    "formula_violations": 0,
+    "partition_parse_failures": 0,
+    "rows_tested": 36,
+    "symmetric_matches": 6
+  },
+  "law_committed_utc": "2026-06-15T22:29:48Z",
+  "law_definition": {
+    "applies_to": "operator_class == 'BOUND_COLOR_PAIR'",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "constraints": [
+      "partition_signature has exactly 2 elements (a, b)",
+      "a, b in partition_algebra",
+      "no requirement that a != b (symmetric pairs (a,a) allowed; M_native = R*a^2)",
+      "(a, b) and (b, a) generate same M_native; doublet splits by small +/- S_debit (CR128b)"
+    ],
+    "formula": "M_native(a, b) = R * a * b + D * |a - b|",
+    "name": "BOUND_COLOR_PAIR_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "S_debit amplitude formula (CR128b work)",
+      "M_observed formula for symmetric (a, a) pairs (separate scaling -- M_obs(a,a) appears to follow (43/4) * a^2)",
+      "OCTET_COMPOSITE (3-body) generator (CR129+ work)",
+      "Other operator_class generators (separate per-class CRs)"
+    ],
+    "partition_algebra": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ]
+  },
+  "law_immutability": "Law v1.0 formula, partition algebra, and constants are frozen at CR128 seal time.  Future falsification or revision must be in an appeal CR.",
+  "law_version": "v1.0",
+  "pair_coverage": {
+    "distinct_pairs_observed": 21,
+    "observed_pairs_list": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        8
+      ]
+    ],
+    "total_possible_pairs_in_algebra": 36
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR127_alp_window_inventory_csv": "3ae9752151c84aa2c805ee12a235583e8d5c0c47e498ce2a5fba7c87db839879"
+  }
+}

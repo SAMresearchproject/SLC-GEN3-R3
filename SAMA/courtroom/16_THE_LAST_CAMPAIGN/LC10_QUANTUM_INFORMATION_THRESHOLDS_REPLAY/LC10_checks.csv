@@ -1,0 +1,117 @@
+check,status,value,detail
+LC01 primitive stack passes,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC09 quantum pair-write Born lane passes,PASS,,LC09_PASS_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+alpha_H locked at 2,PASS,2,LC01 primitive
+A_side exact threshold is 1/24,PASS,1/24,1/(2R)
+A_share exact threshold is 1/12,PASS,1/12,1/R
+split fraction exact threshold is 1/8,PASS,1/8,2^-D
+letter increment exact threshold is 1/16,PASS,1/16,alpha_H^-4
+QP010 A_side matches 1/24,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP010 A_share matches 1/12,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP010 introduced zero free parameters,PASS,0,free parameters
+QP014 A_side matches 1/24,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP014 A_share matches 1/12,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP014 introduced zero free parameters,PASS,0,free parameters
+QP016 A_side matches 1/24,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP016 A_share matches 1/12,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",thresholds
+QP016 introduced zero free parameters,PASS,0,free parameters
+QN002 live quantum_phase artifact selected/built,PASS,,QN002_LINK_SURVIVAL_AND_CONTACT_SUPPRESSION_LAW_SELECTED
+QN002 zero free parameters,PASS,0,free parameters
+QN003 live quantum_phase artifact selected/built,PASS,,QN003_LEDGER_SAFE_RELAY_REPEATER_LAW_SELECTED
+QN003 zero free parameters,PASS,0,free parameters
+QN004 live quantum_phase artifact selected/built,PASS,,QN004_PAUL_REVERE_ROUTING_PROTOCOL_SELECTED
+QN004 zero free parameters,PASS,0,free parameters
+QN005 live quantum_phase artifact selected/built,PASS,,QN005_NETWORK_BORN_SURFACE_SELECTED
+QN005 zero free parameters,PASS,0,free parameters
+QN006 live quantum_phase artifact selected/built,PASS,,QN006_LETTER_SAFE_ERROR_CORRECTION_SELECTED
+QN006 zero free parameters,PASS,0,free parameters
+QN002 selected protected link carrier,PASS,QUBIT-NL-001,QN002 selected route
+QN004 forbids final ledger fields,PASS,False,QN004 forbidden fields
+QN006 forbids final ledger fields,PASS,False,QN006 forbidden fields
+QN006 correction rows match summary,PASS,49,QN006 correction rows
+CR050 branch-12 PASS source,PASS,,CR050_PASS_QP_CARRIER_SUPPORT
+CR051 branch-12 PASS source,PASS,,CR051_PASS_QC_CARRIER_ENVELOPE_GATE_READOUT
+CR052 branch-12 PASS source,PASS,,CR052_PASS_QC_MATERIAL_ISOTOPE_SUPPORT
+CR053 branch-12 PASS source,PASS,,CR053_PASS_QN_NETWORK_GRAMMAR_LINK_RELAY_ROUTING
+CR054 branch-12 PASS source,PASS,,CR054_PASS_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION
+CR055 branch-12 PASS source,PASS,,CR055_PASS_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST
+CR059 branch-12 PASS source,PASS,,CR059_PASS_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE
+CR056 branch-12 boundary pass preserved,PASS,,CR056_PASS_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL
+CR057 branch-12 boundary pass preserved,PASS,,CR057_PASS_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL
+CR058 branch-12 boundary pass preserved,PASS,,CR058_BOUNDARY_PASS_QUANTUM_COMPUTING_AND_NETWORKING_BRANCH
+Branch 12 layer: CR050 carrier support,PASS,CR050_PASS_QP_CARRIER_SUPPORT,"support artifact, not hardware demonstration"
+Branch 12 layer: CR051 carrier/envelope/sensor split,PASS,QUBIT-NL-001,protocol construction only
+Branch 12 layer: CR054 Born surface and letter-safe correction,PASS,0.9654196547077734,not final ledger readout
+Branch 12 layer: CR058 branch verdict,PASS,CR058_BOUNDARY_PASS_QUANTUM_COMPUTING_AND_NETWORKING_BRANCH,no hardware demonstration or live external validation
+Branch 12 layer: CR059 source-aware extension,PASS,CR059_PASS_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE,protocol extension only
+Branch 12a layer: CR060a alphabet lock,PASS,300,"alphabet is protocol tiering, not hardware proof"
+Branch 12a layer: CR061a ideal qubit selection,PASS,2,structural ideality only; other qubits not excluded
+Branch 12a layer: CR063a hardware translation,PASS,CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1,do not use CR063a v1.0 as threshold proof
+Branch 12a layer: CR064a A0/T2 calibration,PASS,CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE,not QI threshold theorem; empirical table is provisional
+Branch 12a layer: CR065a implementation spec,PASS,"Quantum probabilities (4/17, 9/17, 4/17); amplitudes (sqrt(4/17), sqrt(9/17), sqrt(4/17))","specification, not experiment"
+Branch 12a layer: CR066a letter increment,PASS,17/16 = 1 + 1/16 = 1 + 1/alpha_H^4 = (Born unity) + (letter increment),not a modification of Born measurement rule
+Branch 12a layer: CR066b slot/contact layering,PASS,2 : 3 : 2,q=0 scope only
+Branch 12a layer: CR067a capacity scaling,PASS,C_N = 2^-D * (1 - 2^-N),Holevo/Shannon connection remains open
+Branch 12a layer: CR067a/CR067b simulators,PASS,"{""cryo"": ""CR067b_PAUL_REVERE_NV_SIMULATOR_V1_CRYO_DD_SEALED__PREDICTIONS_10_OF_10__WRONG_CONTROLS_7_OF_7"", ""room"": ""CR067a_PAUL_REVERE_NV_SIMULATOR_V1_SEALED__PREDICTIONS_9_OF_10__WRONG_CONTROLS_7_OF_7""}","simulator operating-point result, not live hardware"
+Branch 12a layer: CR068a warning-only threshold,PASS,A_side = 1/24,warning-only signal; carrier identity is not exposed
+Branch 12a layer: CR069a empirical contact table,PASS,CR069a_STAGE2_T2_CONTACT_TABLE_SEALED__PREDICTIONS_7_OF_8__WRONG_CONTROLS_5_OF_6__ROWS_8__CONSISTENT_7__BOUNDARY_0__VIOLATIONS_1,not validation of QI thresholds; records the empirical boundary honestly
+CR060a wrong controls count is 21,PASS,21,wrong controls
+CR060a tier counts sum to 300,PASS,"{""1body_carrier"": 6, ""1body_fermion"": 114, ""2body_short"": 65, ""3body_standard"": 107, ""substrate_echo"": 8}",tier counts
+CR061a candidates are the expected alpha_H ladders,PASS,"[{""M_native"": ""756"", ""S_debit_predicted"": ""0.464844"", ""partition"": ""1+2+4"", ""sorted_abc"": ""(1,2,4)"", ""structural_form"": ""(alpha_H^0, alpha_H^1, alpha_H^2)""}, {""M_native"": ""3024"", ""S_debit_predicted"": ""1.859375"", ""partition"": ""2+4+8"", ""sorted_abc"": ""(2,4,8)"", ""structural_form"": ""(alpha_H^1, alpha_H^2, alpha_H^3)""}]",ideal candidates
+CR066a loaded weights match expected,PASS,"[""1/4"", ""9/16"", ""1/4""]",loaded weights
+CR066a baseline probabilities sum to one,PASS,1,baseline sum
+CR066a loaded weights sum to 17/16,PASS,17/16,loaded weight sum
+CR066a loaded probabilities sum to one,PASS,1,loaded probability sum
+CR066a loaded probabilities match 4/17 9/17 4/17,PASS,"[""4/17"", ""9/17"", ""4/17""]",loaded probabilities
+CR066a probability ratio is 9/4,PASS,9/4,P_b/P_a
+CR066a probability delta is 5/17,PASS,5/17,P_b-P_a
+CR066a shift vector matches,PASS,"[""-1/68"", ""1/34"", ""-1/68""]",shifts
+CR066a lock preserves Born unity,PASS,,CR066a lock
+CR066b slot-level surcharge locked,PASS,"{""layer"": ""slot-level (LOCKED)"", ""loaded_state"": ""(1/4, 9/16, 1/4)"", ""representation"": ""(0, 1/16, 0)"", ""structural_meaning"": ""Center-only surcharge -- the bridge slot is lifted.  Outer slots unchanged."", ""sum"": ""1/16""}",slot-level
+CR066b contact-level surcharge locked,PASS,"{""layer"": ""contact-level (LOCKED)"", ""loaded_state"": ""(a,b) leg: 1/32; (b,c) leg: 1/32; (a,c) outer-cross: 0"", ""representation"": ""(1/32, 1/32, 0)"", ""structural_meaning"": ""Bridge-only surcharge resolves symmetrically across two adjacent contact legs.  Outer-cross (a,c) has zero direct debit; carrier and sensor communicate only through the bridge."", ""sum"": ""1/16""}",contact-level
+CR066b rejected packet documented,PASS,"{""layer"": ""(REJECTED) mini-1:2:1 packet"", ""loaded_state"": ""(17/64, 17/32, 17/64)"", ""representation"": ""(1/64, 1/32, 1/64)"", ""structural_meaning"": ""Would preserve the (1/4, 1/2, 1/4) base shape after normalization and erase the central lift.  REJECTED because the locked form specifically lifts the center, not all three slots proportionally."", ""sum"": ""1/16""}",rejected packet
+CR066b lock keeps amplitude 2:3:2,PASS,,CR066b lock
+CR067a capacity table has 20 rows,PASS,20,capacity rows
+CR067a capacity recompute rows all pass,PASS,20,capacity recompute rows
+CR067a first capacity is 1/16,PASS,"{""closure_depth_level"": ""4"", ""cumulative_capacity_exact"": ""1/16"", ""cumulative_capacity_pct"": ""6.250000%"", ""fraction_of_gravity_channel"": ""50.000000%"", ""letter_index_N"": ""1"", ""per_letter_capacity_exact"": ""1/16"", ""per_letter_capacity_pct"": ""6.250000%"", ""residual_exact"": ""1/16""}",first row
+CR067a N=8 reaches 99.609375 percent,PASS,,N=8 row
+CR067a capacity ceiling is 1/8,PASS,,CR067a lock
+CR067a linear and parallel controls rejected,PASS,,capacity controls
+CR067a room simulator records known miss,PASS,"[9, 10]",room simulator counts
+CR067b cryo simulator passes fully,PASS,"[10, 10]",cryo simulator counts
+CR067b loaded probability sum is one,PASS,1.0,loaded sum
+CR068a alarm threshold is A_side,PASS,0.041666666666666664,alarm threshold
+CR068a alarm fires before A_share,PASS,0.041919263144548635,A_leak_at_fire
+CR068a results have 200 samples,PASS,200,CR068a sample rows
+CR068a first non-protected sample crosses A_side,PASS,"{""A_leak"": ""4.191926314e-02"", ""P_carrier_ms0"": ""2.572604139e-01"", ""P_envelope_msplus1"": ""5.142043288e-01"", ""P_sensor_msminus1"": ""2.285352573e-01"", ""alarm_state"": ""alarm_fired_this_sample"", ""purity"": ""9.580807369e-01"", ""sample_index"": ""58"", ""t_microseconds"": ""29.145729"", ""t_seconds"": ""2.914572864e-05""}",first alarm
+CR063a current status is refuted,PASS,,CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1
+CR064a current status is boundary pending,PASS,,CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE
+CR064a T2 coefficient math is corrected,PASS,61312.06142572983,T2 coefficient
+CR069a empirical table records one violation,PASS,"{""BOUNDARY_AT_FLOOR"": 0, ""CONSISTENT_WITH_FLOOR"": 7, ""INVALID_NONPOSITIVE_T2_OBSERVED"": 0, ""VIOLATION_OF_FLOOR"": 1}",CR069a classifications
+CR069a verified rows count is zero,PASS,"{""OTHER"": 0, ""PROVISIONAL_AUTHOR_BEST_EFFORT"": 8, ""VERIFIED"": 0}",verify status
+Threshold: A_side,PASS,1/24,write-candidacy / warning threshold
+Threshold: A_share,PASS,1/12,resolution/write-access threshold
+Threshold: A_write_midpoint,PASS,1/2,"midpoint diagnostic threshold, not replacement for A_side/A_share"
+Threshold: letter_increment,PASS,1/16,minimum Paul Revere letter information per row
+Threshold: gravity_channel_ceiling,PASS,1/8,multi-letter asymptotic ceiling per row
+Information recompute: baseline_probability_sum,PASS,1,exact rational replay
+Information recompute: loaded_weight_sum,PASS,17/16,exact rational replay
+Information recompute: loaded_probability_sum,PASS,1,exact rational replay
+Information recompute: letter_increment,PASS,1/16,exact rational replay
+Information recompute: P_a_equals_P_c,PASS,4/17 = 4/17,exact rational replay
+Information recompute: P_b_minus_P_a,PASS,5/17,exact rational replay
+Information recompute: P_b_over_P_a,PASS,9/4,exact rational replay
+Information recompute: shift_vector,PASS,"('-1/68', '1/34', '-1/68')",exact rational replay
+Information recompute: amplitude_ratio,PASS,sqrt(4):sqrt(9):sqrt(4),exact rational replay
+WC28_THRESHOLD_SWAP rejected,PASS,,LC10 recomputes A_side=1/24 and A_share=1/12 from R=12; QP010/QP014/QP016/CR068a match.
+WC_BORN_RULE_MODIFICATION rejected,PASS,,"Loaded weights sum 17/16, but loaded probabilities sum 1; CR066a states standard Born unity is preserved."
+WC_UNIFORM_QUTRIT_REPLACEMENT rejected,PASS,,CR067a/CR067b simulator wrong controls distinguish uniform input from SAM-native loaded probabilities.
+WC_MINI_1_2_1_PACKET rejected,PASS,,CR066b layering table marks mini-1:2:1 as REJECTED because it erases the central lift.
+WC_LINEAR_CAPACITY rejected,PASS,,CR067a rejects linear scaling because it exceeds the 1/8 gravity-channel ceiling.
+WC_PARALLEL_SHARE_CAPACITY rejected,PASS,,CR067a rejects parallel sharing because it dilutes one letter rather than scaling capacity.
+WC_FULL_UNITY_CEILING rejected,PASS,,"CR067a ceiling is 2^-D=1/8, not 1; LC10 capacity rows all remain below 1/8."
+WC_CR063A_OLD_PASS_AS_LOAD_BEARING rejected,PASS,,Current CR063a status is CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1; LC10 records it as refuted boundary.
+WC_CR064A_CR069A_EMPIRICAL_OVERPROMOTION rejected,PASS,,CR064a is CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE; CR069a has 1 violation and 0 verified rows.
+WC_FINAL_LEDGER_LEAK_IN_QN_CORRECTION rejected,PASS,,QN006 forbidden_fields_used=False; all correction rows preserve forbidden_fields_used=False.

@@ -1,0 +1,37 @@
+{
+  "test_id": "CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT",
+  "branch_id": "02_A_KERNEL_WEAK_FIELD",
+  "older_test_outputs_allowed": false,
+  "external_data_required": true,
+  "free_parameters_introduced": 0,
+  "constants": {
+    "c": 299792458.0
+  },
+  "bodies": [
+    {
+      "name": "Earth",
+      "mu_m3_s2": 3.986004418e14,
+      "radius_m": 6371000.0,
+      "surface_g_range_m_s2": [9.76, 9.84],
+      "escape_speed_range_m_s": [11150.0, 11220.0],
+      "source_note": "Declared external weak-field anchor range using standard Earth GM/radius scale."
+    },
+    {
+      "name": "Moon",
+      "mu_m3_s2": 4.9048695e12,
+      "radius_m": 1737400.0,
+      "surface_g_range_m_s2": [1.60, 1.65],
+      "escape_speed_range_m_s": [2350.0, 2400.0],
+      "source_note": "Declared external weak-field anchor range using standard lunar GM/radius scale."
+    },
+    {
+      "name": "Sun",
+      "mu_m3_s2": 1.32712440018e20,
+      "radius_m": 695700000.0,
+      "surface_g_range_m_s2": [273.0, 275.5],
+      "escape_speed_range_m_s": [616000.0, 619500.0],
+      "source_note": "Declared external weak-field anchor range using standard solar GM/radius scale."
+    }
+  ],
+  "rule_9": "This test could have falsified: the claim that SAM's weak-field A-kernel A(r)=r_s/r carries the correct factor, radial power, potential lane, acceleration lane, and escape-speed lane against external weak-field anchors."
+}

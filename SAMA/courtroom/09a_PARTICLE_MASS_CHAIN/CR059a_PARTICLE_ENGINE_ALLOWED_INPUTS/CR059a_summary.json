@@ -1,0 +1,16 @@
+{
+  "cr_id": "CR059a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_QP075_ALLOWED_INPUTS_AND_LATEST_SOURCE_LOCK",
+  "triage_bin": "A",
+  "reason": "QP075 is source-locked as the corrected terminal particle surface; old 09 is quarantined as historical misroute only.",
+  "captured_at_utc": "2026-06-13T10:57:11Z",
+  "active_terminal_source": "C:/VS/quantum_phase/artifacts/qp075",
+  "metrics": {
+    "closure_rows": 35,
+    "role_operator_rows": 26,
+    "free_parameters_introduced": 0
+  },
+  "manifest_sha256": "c6a62b1e6dad7a143b1dff11234c144fc781b865fe7be0fbbca789d482285e06"
+}

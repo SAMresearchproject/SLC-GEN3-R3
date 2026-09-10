@@ -1,0 +1,136 @@
+# Tensor carrier physical discriminant
+
+[Back to tests](README.md)
+
+Test identity: `CR:CR223f@12a`.
+
+## Premise
+
+Supplies the clean passing tensor-carrier physical discriminant as the typed premise for identifying the carrier role.
+
+**Question:** Does the registered tensor-carrier candidate pass the fixed CR223f physical-discriminant surface?
+
+**Calculation:** Apply the registered tensor-carrier physical discriminant to its fixed candidate and control surface.
+
+**Recorded outcome:** The permanent registry records CR223f with source verdict PASS and source status CLEAN for the tensor-carrier physical discriminant.
+
+**Scope of this result:** PASS/CLEAN are source verdict and status, not an authorized project classification. CR223f supplies a typed carrier premise without identifying matter, mass, or a complete physical mechanism.
+
+**Controls:**
+
+- Candidate and discriminant remain fixed.
+- Source verdict and status are preserved verbatim.
+
+**Diagnostic comparisons:**
+
+- Select the tensor candidate from the later Θ18 result.
+- Treat a clean discriminant as closure of every physical causal seam.
+
+[Read the original test](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md)
+
+<details>
+<summary>Exact source record</summary>
+
+```json
+{
+  "alternate_source_paths": [],
+  "approval": null,
+  "description": "Tensor carrier physical discriminant",
+  "family": "CR",
+  "keywords": [
+    "Higgs",
+    "carrier",
+    "compression",
+    "Tensor",
+    "physical",
+    "discriminant"
+  ],
+  "qualified_test_id": "CR223f@12a",
+  "record_key": "CR:CR223f@12a",
+  "related_test_ids": [
+    "CR223c"
+  ],
+  "reviewed_and_approved": false,
+  "source_basis": "COURTROOM_TEST_INDEX",
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md",
+  "source_repo": "The_Courtroom",
+  "source_sha256": "94ad00a7a87753f4e78f4a398c5693a344a2aece20c0fbf488a814b61ca54889",
+  "source_status": "CLEAN",
+  "source_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md",
+  "source_verdict": "PASS",
+  "test_id": "CR223f",
+  "volume_numbers": [
+    "II",
+    "III"
+  ]
+}
+```
+
+</details>
+
+
+
+<!-- BEGIN FULL COURTROOM DATA -->
+## Full Courtroom data
+
+[Open the primary source record](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md) · [All 13 package files](../../../tests/courtroom/12a-qc-qn-carrier-compression-refresh-cr223f-tensor-carrier-physical-discriminant/README.md) · [Browse the source directory in CR](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT)
+
+Package: `12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT`. This includes **1 code files** and **2 files categorized as results or reports**, plus all inputs, figures and other tracked files. The full inventory is unabridged.
+
+### Precommitments and premises
+
+- [CR223f_PRECOMMIT.md](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_PRECOMMIT.md)
+
+### Wrong controls and comparison rows
+
+- [CR223f_wrong_controls.csv](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_wrong_controls.csv)
+
+<details>
+<summary>Code files</summary>
+
+- [CR223f_runner.py](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_runner.py) — [raw](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_runner.py)
+
+</details>
+
+<details>
+<summary>Results and reports</summary>
+
+- [CR223f_result.md](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md) — [raw](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_result.md)
+- [CR223f_summary.json](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_summary.json) — [raw](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223f_TENSOR_CARRIER_PHYSICAL_DISCRIMINANT/CR223f_summary.json)
+
+</details>
+
+## Related Courtroom tests
+
+- **Related in the SAMA source record:** [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT)
+- **Related in the SAMA source record:** [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT)
+- **supports:** [14_FOUNDATIONAL_TESTS/CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY)
+
+<details>
+<summary>Other tests mentioned in the source package</summary>
+
+These links record mentions, not an inferred dependency or supporting result. Where an identifier has several branch-qualified matches, their paths remain explicit.
+
+- [09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL)
+- [09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE)
+- [09a_PARTICLE_MASS_CHAIN/CR227_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR227_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK)
+- [09a_PARTICLE_MASS_CHAIN/CR228_REVEAL_LAYER_SOB_FORMULA_WORKBOOK](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR228_REVEAL_LAYER_SOB_FORMULA_WORKBOOK)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR068a_PAUL_REVERE_WARNING_ONLY_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR068a_PAUL_REVERE_WARNING_ONLY_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR220_NATIVE_63_GENERATOR](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR220_NATIVE_63_GENERATOR)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR222a_NATIVE_STACK_CONTRACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR222a_NATIVE_STACK_CONTRACT)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR222g_PR_TARGET_BINDING_3BODY_DIAMOND](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR222g_PR_TARGET_BINDING_3BODY_DIAMOND)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223a_PR_OBSERVABLE_IDENTITY_LOCK](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223a_PR_OBSERVABLE_IDENTITY_LOCK)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT)
+- [14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER](../../../courtroom/14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER)
+- [14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE)
+- [14_FOUNDATIONAL_TESTS/_scratch/QP093A_0299_FIXED_SINGLETON_A_MASS_RESPONSE](../../../courtroom/14_FOUNDATIONAL_TESTS/_scratch/QP093A_0299_FIXED_SINGLETON_A_MASS_RESPONSE)
+- [17_DISCOVERY_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE](../../../courtroom/17_DISCOVERY_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE)
+- [Workbench-misc](../../../courtroom/Workbench-misc)
+- [archive/2026-06-17_CR135_audit_regrades/CR140_higgs_claim_reword/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR140_higgs_claim_reword/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE)
+
+</details>
+
+<!-- END FULL COURTROOM DATA -->

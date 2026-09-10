@@ -1,0 +1,86 @@
+{
+  "candidate_id": "QP093A-0299",
+  "canonical_source": {
+    "M_native": "126000",
+    "controlling": true,
+    "path": "C:/VS/quantum_phase/artifacts/qp104_corrected_299_catalog_propagation_audit/qp093a_v3_corrected_299.csv",
+    "sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c"
+  },
+  "disposition": "CANONICAL_126000_CONTROLS; workbook changes without sealed typed authorization are target-aware overlay evidence only",
+  "workbook_1_file_hash": "f3ff2fc94ea47a96dcbda5480c0ab5eb9eb771c673a12a47d705252679ecf1c2",
+  "workbook_1_occurrences": [
+    {
+      "row": 342,
+      "sheet": "Particle Stability Blocks",
+      "values": {
+        "M_native": "126000",
+        "M_observed_candidate": "125250",
+        "S_debit_or_credit": "750",
+        "bin": "unstable_resonance_rows",
+        "candidate_id": "QP093A-0299",
+        "closure_depth": "3",
+        "closure_status": "CLOSED_LOOP_WRITE",
+        "color_or_owner_closure": "loop_closed_then_split",
+        "direct_support_compatible": "TRUE",
+        "known_match": "Higgs (H)|downstream_only",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "neutral_scalar_axis",
+        "observed_identity_check": "TRUE",
+        "operator_class": "CLOSED_SCALAR_LOOP",
+        "partition_signature": "12+12",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_REVEAL_DEBIT",
+        "qA_source_support": "125250",
+        "q_abs": "0",
+        "q_sign": "neutral",
+        "retained_write_support": "109593.75",
+        "route_class": "closed_loop_parent",
+        "route_combination": "closed_scalar_loop[R2_retention_7_over_8]",
+        "spin_or_hand_class": "scalar_closed_loop",
+        "stability_status": "UNSTABLE_SCALAR_REVEAL_CANDIDATE",
+        "stable_particle_flag": "FALSE",
+        "surface_depth": "closed_loop_surface_D2_over_R",
+        "surface_packet_address": "closed_loop_surface_D2_over_R",
+        "surface_sign": "positive_debit",
+        "tensor_carrier_support": "15656.25"
+      }
+    }
+  ],
+  "workbook_2_file_hash": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+  "workbook_2_occurrences": [
+    {
+      "row": 342,
+      "sheet": "Particle Stability Blocks",
+      "values": {
+        "M_native": "0",
+        "M_observed_candidate": "125250",
+        "S_debit_or_credit": "750",
+        "bin": "unstable_resonance_rows",
+        "candidate_id": "QP093A-0299",
+        "closure_depth": "3",
+        "closure_status": "CLOSED_LOOP_WRITE",
+        "color_or_owner_closure": "loop_closed_then_split",
+        "direct_support_compatible": "TRUE",
+        "known_match": "Higgs (H)|downstream_only",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "neutral_scalar_axis",
+        "observed_identity_check": "TRUE",
+        "operator_class": "CLOSED_SCALAR_LOOP",
+        "partition_signature": "12+12",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_REVEAL_DEBIT",
+        "qA_source_support": "125250",
+        "q_abs": "0",
+        "q_sign": "neutral",
+        "retained_write_support": "109593.75",
+        "route_class": "closed_loop_parent",
+        "route_combination": "closed_scalar_loop[R2_retention_7_over_8]",
+        "spin_or_hand_class": "scalar_closed_loop",
+        "stability_status": "UNSTABLE_SCALAR_REVEAL_CANDIDATE",
+        "stable_particle_flag": "FALSE",
+        "surface_depth": "closed_loop_surface_D2_over_R",
+        "surface_packet_address": "closed_loop_surface_D2_over_R",
+        "surface_sign": "positive_debit",
+        "tensor_carrier_support": "15656.25"
+      }
+    }
+  ]
+}

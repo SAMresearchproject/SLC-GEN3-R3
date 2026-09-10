@@ -1,0 +1,74 @@
+{
+  "cr_id": "CR003@19",
+  "branch": "19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER",
+  "title": "A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY",
+  "precommit_sha256": "27603dd611afe5ed48fc24709126a58e6553b390a961fe06c4aec59a6ae3b658",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_zero_catalog_fit": {
+    "A_horizon_value": 1,
+    "A_horizon_meaning": "full local closure of the substrate accumulation field A(r) = r_s/r at r = r_s",
+    "alpha_H_value": 2,
+    "D_value": 3,
+    "R_value": 12,
+    "R_formula": "2 * alpha_H * D",
+    "angular_4pi_value": 12.566370614359172,
+    "A_profile": "A(r) = r_s / r"
+  },
+  "closed_form_identity_chain": {
+    "step_1": "A_horizon = 1 (sealed; full local closure condition)",
+    "step_2": "A_0 = A_horizon / (4*pi*D) (angular and dimensional projection)",
+    "step_3": "At D = 3: A_0 = 1/(12*pi)",
+    "step_4": "Omega_m = R*A_0 = (2*alpha_H*D) * (1/(4*pi*D)) = alpha_H/(2*pi)",
+    "step_5": "At alpha_H = 2: Omega_m = 1/pi (D-invariant under R coupling)"
+  },
+  "load_bearing_predictions": {
+    "P1": {
+      "name": "A_0 angular-dimensional projection identity",
+      "paths": [
+        "1 / (4 * pi * 3)",
+        "1 / (12 * pi)",
+        "A_horizon / (4 * pi * D) at A_horizon=1, D=3"
+      ],
+      "tolerance_rel": 1e-12,
+      "passed": true,
+      "max_relative_deviation_observed": 0.0
+    },
+    "P2": {
+      "name": "R*A_0 coupled-constant density identity",
+      "paths": [
+        "R * A_0 = 12 * 1/(12*pi)",
+        "alpha_H / (2 * pi) at alpha_H=2",
+        "1 / pi"
+      ],
+      "tolerance_rel": 1e-12,
+      "passed": true,
+      "max_relative_deviation_observed": 0.0
+    },
+    "P3": {
+      "name": "Horizon unit-closure identity A(r=r_s)=1",
+      "tests": ["r_s=1 (unit)", "r_s~2950 m (Sun)", "r_s=1e30 m"],
+      "formula": "A(r) = r_s/r evaluated at r=r_s",
+      "tolerance_rel": 1e-12,
+      "passed": true,
+      "max_abs_deviation_observed": 0.0
+    }
+  },
+  "reported_evidence_not_gates": {
+    "E1": "D-sensitivity table A_0 = 1/(4*pi*D) at D=2,3,4,5 with R-coupling invariance check showing R*A_0 = alpha_H/(2*pi) = 1/pi for all D",
+    "E2": "A(r) = r_s/r ramp outside the closure at r/r_s = 1, 2, 5, 10, 100, 1000",
+    "E3": "Bridge map chain from A_horizon = 1 to all downstream derived densities (Omega_m, chi, Omega_b, Omega_Lambda)",
+    "E4": "Reframing note: the r_s surface where A=1 is the full local closure of the substrate accumulation; the 'black hole' observational label sits on top of the structural condition but is not part of the substrate identity"
+  },
+  "no_wrong_controls": "Structural-identity CR; D-sensitivity table is reported as evidence E1, demonstrating that R*A_0 is invariant under D when R = 2*alpha_H*D",
+  "verdict_ladder_first": {
+    "PASS": "P1, P2, P3 all hold within tolerance",
+    "FAIL": "any of P1, P2, P3 fails its tolerance",
+    "BOUNDARY": "not applicable"
+  },
+  "rule_9_falsifier": "The closed-form identity A_0 = A_horizon / (4*pi*D) at A_horizon=1, D=3 produces A_0 = 1/(12*pi); coupling R = 2*alpha_H*D at alpha_H=2 produces R*A_0 = 1/pi; horizon profile A(r) = r_s/r at r=r_s produces A=1.",
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold to machine precision (0.0e+00 deviation observed); A_horizon=1 projects through 4*pi*D at D=3 into the sealed A_0=1/(12*pi); R*A_0 = alpha_H/(2*pi) = 1/pi is invariant under D when R = 2*alpha_H*D.",
+  "headline": "A_0 = A_horizon/(4*pi*D) at D=3 = 1/(12*pi); Omega_m = R*A_0 = alpha_H/(2*pi) = 1/pi (D-invariant under R coupling)"
+}

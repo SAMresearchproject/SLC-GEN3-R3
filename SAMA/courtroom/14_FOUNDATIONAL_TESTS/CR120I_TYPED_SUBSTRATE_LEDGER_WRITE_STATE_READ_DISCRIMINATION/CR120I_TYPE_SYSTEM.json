@@ -1,0 +1,45 @@
+{
+  "cross_type_numeric_equality_authorized": false,
+  "equivalence_signature": "approximately_equal_P subset S x S",
+  "physical_time_identification": "NOT_AUTHORIZED",
+  "read_signature": "R:S x P -> Y",
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION",
+  "types": [
+    {
+      "name": "HomeSnapshotState",
+      "role": "complete current 81-coordinate fixture snapshot",
+      "symbol": "S"
+    },
+    {
+      "name": "WriteInput",
+      "role": "proposed update input",
+      "symbol": "U"
+    },
+    {
+      "name": "WriteResidue",
+      "role": "separately tagged residue codomain",
+      "symbol": "K"
+    },
+    {
+      "name": "CoordinateProbe",
+      "role": "precommitted read probe",
+      "symbol": "P"
+    },
+    {
+      "name": "RationalReadout",
+      "role": "exact scalar probe result",
+      "symbol": "Y"
+    },
+    {
+      "name": "WriterAction",
+      "role": "transition identity",
+      "symbol": "A"
+    },
+    {
+      "name": "UpdateIndex",
+      "role": "discrete ordering label, not PhysicalTime",
+      "symbol": "N"
+    }
+  ],
+  "write_signature": "W:A x S x U -> S x K"
+}

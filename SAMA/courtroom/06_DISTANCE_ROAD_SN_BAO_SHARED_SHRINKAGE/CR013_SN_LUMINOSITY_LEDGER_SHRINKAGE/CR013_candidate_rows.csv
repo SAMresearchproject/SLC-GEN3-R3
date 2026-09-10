@@ -1,0 +1,7 @@
+candidate,rows,rms_distance_error_mpc,max_distance_error_mpc,matches_packet
+primary_SN_A_los_ledger,1701,0.0,0.0,True
+no_shrink,1701,490.92359280048225,5329.74851458971,False
+half_A,1701,245.46179640024116,2664.874257294856,False
+constant_median_A,1701,273.44116461752606,3323.8170183614147,False
+D2_power,1701,77.94196468453073,357.75156126179536,False
+linear_z_clipped,1701,112.89603658540769,308.3166272314256,False

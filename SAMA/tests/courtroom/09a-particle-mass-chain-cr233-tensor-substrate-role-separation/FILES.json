@@ -1,0 +1,65 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "590254ba624f9a2d291d0d27ee2fb5b00eb7bd48",
+      "bytes": 7584,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "mode": "100644",
+      "git_blob": "b2e3bcea9450c354ed26ef7334f3e926a71803ab",
+      "bytes": 8705,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_runner.py",
+      "mode": "100644",
+      "git_blob": "72941884caa2dc19185adcfa3a9cb15fd23b5acd",
+      "bytes": 13985,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_runner.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_runner.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_runner.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_summary.json",
+      "mode": "100644",
+      "git_blob": "e42a2ac290dc1e6b95803240125a3511d46987a6",
+      "bytes": 3165,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_summary.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_summary.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_summary.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "c83189b3928eeac3eeb8105d1b1f3421689d7dee",
+      "bytes": 1326,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR233@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

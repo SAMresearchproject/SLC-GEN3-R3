@@ -1,0 +1,68 @@
+{
+  "checks_passed": 15,
+  "checks_total": 15,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2
+  },
+  "cr_id": "CR221",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T08:01:04.306038+00:00",
+  "mass_laws": {
+    "pair": "M_pair(a,b) = R*a*b + D*abs(a-b)",
+    "triad": "M_triad(a,b,c) = R*D*(a^2+b^2+c^2)"
+  },
+  "next_gate": "CR222_TIER1_NATIVE_BOUND_ASSEMBLY",
+  "operator_class_counts": {
+    "BOUND_COLOR_PAIR": 36,
+    "GROUND_BARYON_3BODY": 14,
+    "OCTET_COMPOSITE": 13
+  },
+  "operator_family_counts": {
+    "EQUAL_NEUTRAL_PAIR": 7,
+    "ORIENTED_CHARGED_PAIR": 42,
+    "THREE_OWNER_COLOR_CLOSURE": 14
+  },
+  "outputs": {
+    "bound_csv": "Tier1_Bound63.csv",
+    "checks_csv": "CR221_checks.csv",
+    "pair_csv": "CR221_pair_closures_49.csv",
+    "result_md": "CR221_result.md",
+    "summary_json": "CR221_summary.json",
+    "triad_csv": "CR221_triad_closures_14.csv",
+    "validation_csv": "CR221_validation_against_CR219.csv",
+    "validation_source_csv": "CR221_downstream_validation_CR219_bound63.csv"
+  },
+  "pair_count": 49,
+  "pair_owner_set": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9
+  ],
+  "partition_modes": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "result_class": "CR221_PASS_BOUND_63_GENERATOR__CONSTANTS_ONLY__14_7_42__DOWNSTREAM_CR219_SIGNATURE_MATCH",
+  "roadmap": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\SAM_NEXT_MOVES_NATIVE_RESET.md",
+  "row_count": 63,
+  "sha256": {
+    "Tier1_Bound63.csv": "1a774001e30a322aaff3811c7ab376672744a2f7bfcba1b534a515dabb391713"
+  },
+  "source_boundary": "CR219 read after generation as downstream validation only; no imported IDs or labels in construction.",
+  "test_id": "CR221_BOUND_63_GENERATOR",
+  "triad_count": 14,
+  "triad_selector": "sum(parts)%D == 0 and max(parts) <= 8 and q != 0 where q=(a-b)+(c%D)",
+  "validation_source": "09a_PARTICLE_MASS_CHAIN\\CR219_PROMOTED_PARTICLE_ROWS_EXPORT\\CR219_promoted_particle_rows_126.csv"
+}

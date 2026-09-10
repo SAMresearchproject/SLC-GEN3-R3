@@ -1,0 +1,49 @@
+{
+  "P80": {
+    "authority": "STRUCTURAL_ONLY",
+    "populated_by_CR120I": false,
+    "semantic_type": "ParticleFaceContent"
+  },
+  "architectural_prefix": "V4.2 master formula has L and W_SAM write routing",
+  "constructed_entities_absent_from_registry": [
+    "COORDINATE_PROBE",
+    "HOME_SNAPSHOT_STATE",
+    "RATIONAL_READOUT",
+    "UPDATE_INDEX",
+    "WRITE_RESIDUE"
+  ],
+  "constructed_operators_absent_from_registry": [
+    "ERASE_SUBSTRATE_STATE",
+    "INVERSE_WRITE",
+    "PROBE_EQUIVALENCE",
+    "READ_SUBSTRATE_STATE",
+    "WRITE_SUBSTRATE_STATE"
+  ],
+  "cr120_frontier": {
+    "ADJACENT": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "ADJACENT_LEDGER_STATE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "LEDGER_SITE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "PROPAGATE_CLOSURE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    }
+  },
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION"
+}

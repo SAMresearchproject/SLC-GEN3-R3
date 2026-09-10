@@ -1,0 +1,9 @@
+{
+  "test_id": "CR052_QC_MATERIAL_ISOTOPE_SUPPORT",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QC005_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qc005 selects material/isotope support filters for the private qc application lane."
+}

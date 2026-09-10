@@ -1,0 +1,10 @@
+{
+  "cr_id": "CR075",
+  "branch": "11_QUANTUM_MECHANICS_AND_GRAVITY",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL_LEDGER_WRITE_CHAIN",
+  "triage_bin": "A",
+  "reason": "protected_route+syndrome+ledger_commit+stable_mode all present; qp010+qp016 zero free params; 5/5 public bridges; engine clean",
+  "captured_at_utc": "2026-06-13T09:14:35Z",
+  "seal_sha256": "f80c93f67da67a5c9286aafe845316ee6fa3a614439c4e9e120abb9c3a9207dc"
+}

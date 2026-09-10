@@ -1,0 +1,82 @@
+{
+  "all_inputs_verified": true,
+  "checks": {
+    "active_complement_row_count_is_194": true,
+    "active_csv_preserves_original_column_order": true,
+    "all_inputs_verified": true,
+    "external_footprint_identical_overall": true,
+    "group_size_is_two": true,
+    "members_in_same_bin": true,
+    "retired_row_count_is_one": true,
+    "row_reconciliation": true,
+    "verdict_matches_predeclared": true
+  },
+  "checks_passed": 9,
+  "checks_total": 9,
+  "cr_id": "CR216",
+  "duplicate_group_under_resolution": {
+    "bin": "carrier_only_rows",
+    "group_size": 2,
+    "label": "DUP-carrier_only_rows-01",
+    "members": [
+      "QP093A-0301",
+      "QP093A-0305"
+    ]
+  },
+  "execution_status": "CLEAN",
+  "external_footprint_identical_overall": true,
+  "external_footprint_identical_per_consumer": {
+    "CR060a_alphabet": true,
+    "CR119_vault_identity_assignments": true,
+    "CR124_crosswalk": true,
+    "CR132_verification": true
+  },
+  "generated_at_utc": "2026-06-20T06:08:49+00:00",
+  "input_hash_verification": {
+    "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_vault_identity_assignments.csv": {
+      "expected_sha256": "99d37c178188599c611179ae1e35a2113f378d6d79d8cbc89881598e1842816c",
+      "match": true,
+      "observed_sha256": "99d37c178188599c611179ae1e35a2113f378d6d79d8cbc89881598e1842816c"
+    },
+    "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv": {
+      "expected_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545",
+      "match": true,
+      "observed_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545"
+    },
+    "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv": {
+      "expected_sha256": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98",
+      "match": true,
+      "observed_sha256": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98"
+    },
+    "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv": {
+      "expected_sha256": "33f5c1f05bb23a69556d9c68f219a2515ddcd394c0310c85b5427e25bc341cdd",
+      "match": true,
+      "observed_sha256": "33f5c1f05bb23a69556d9c68f219a2515ddcd394c0310c85b5427e25bc341cdd"
+    },
+    "13_CERN_INDEPENDENT_TESTS/CR124_CERN_GAP_CROSSWALK_321_PARTICLE_LIST/CR124_crosswalk.csv": {
+      "expected_sha256": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+      "match": true,
+      "observed_sha256": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca"
+    },
+    "13_CERN_INDEPENDENT_TESTS/CR132_1BODY_CARRIER_LATTICE_LAW_V1/CR132_verification.csv": {
+      "expected_sha256": "9937d79e790c08d7a7230d1d5f20409ae28542a5aed8d944c3ddbe1716715bee",
+      "match": true,
+      "observed_sha256": "9937d79e790c08d7a7230d1d5f20409ae28542a5aed8d944c3ddbe1716715bee"
+    }
+  },
+  "physics_rationale_descriptive": "In standard QED A_mu IS the photon field. ROAD_LIGHT_CARRIER / transverse_vector and A_FIELD_CARRIER / environmental_A_support with identical numeric signature is consistent with one carrier enumerated twice under two labels. Ruling is grounded in courtroom evidence, not in this physics reading.",
+  "result_class": "CR216_PASS_DUP_CARRIER_ONLY_ROWS_01_RESOLVED__KEEP_QP093A-0301__RETIRE_QP093A-0305__FOOTPRINT_IDENTITY_PLUS_LOWER_ID_TIEBREAK__ACTIVE_COMPLEMENT_194__SEALED_INPUTS_UNMODIFIED",
+  "row_reconciliation": {
+    "active_complement_rows": 194,
+    "reconciles": true,
+    "retired_rows": 1,
+    "sealed_complement_rows": 195
+  },
+  "test_id": "CR216_CARRIER_DUPLICATE_RETIREMENT",
+  "tiebreak_rule": "KEEP_LOWER_CANDIDATE_ID__RETIRE_HIGHER_CANDIDATE_ID",
+  "verdict": {
+    "keep_candidate_id": "QP093A-0301",
+    "matches_predeclared_verdict": true,
+    "retire_candidate_id": "QP093A-0305"
+  }
+}

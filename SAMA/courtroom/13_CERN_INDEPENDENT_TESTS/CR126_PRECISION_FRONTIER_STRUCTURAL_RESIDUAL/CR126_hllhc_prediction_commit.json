@@ -1,0 +1,34 @@
+{
+  "commit_utc": "2026-06-15T21:49:00Z",
+  "cr_id": "CR126",
+  "decomposition_csv_sha256": "88f99f73229ff6f22f94b855edbeae6186b799bc03056398337974c77d7a435e",
+  "prediction": {
+    "claim_mass_GeV": 125.25,
+    "claim_mass_envelope_MeV": 50.0,
+    "context": "QP093A-0299 is the CLOSED_SCALAR_LOOP row with M_native = 126 GeV, S_debit = D^2 / R = 0.75 GeV, M_obs = 125.25 GeV exact.  At current precision (ATLAS 80 MeV stat, CMS 140 MeV stat) SAM and the published Higgs mass agree within 1 sigma -- the structural-residual hypothesis is compatible with data scatter and not separately required.  HL-LHC will tighten this.",
+    "expected_resolution_horizon": "HL-LHC final-data (target ~2040), partial intermediate updates 2030-2035",
+    "falsification_criterion": "If HL-LHC tightens the Higgs mass to combined sigma <= 50 MeV AND the converged central lies more than 100 MeV from 125.250 GeV, the closed-form 125.25 GeV is falsified.  Combined central within 50 MeV of 125.250 GeV confirms the structural-account framework; central between 50 and 100 MeV leaves the question open.",
+    "free_parameters_at_test": 0,
+    "natural_scale_expected": "alpha_H / R^3 = 2 / 1728 = 0.1157% (structural residual amplitude)",
+    "non_falsifying_outcomes": "Continued sigma > 100 MeV (insufficient precision); changes in alpha_s or m_t that shift the SM-predicted comparison value (the SAM claim is independent of those inputs by construction); systematic shifts in ATLAS-CMS combination methodology.",
+    "prediction_id": "CR126_PRED_1",
+    "regime": "HIGGS_MASS_HL_LHC_PRECISION_FRONTIER",
+    "source_row": "QP093A-0299"
+  },
+  "rule_of_immutability": "CR126 closed-form claim (M_H = 125.250 GeV) and falsification envelope locked at seal time.  Future HL-LHC measurements must be recorded in an appeal CR; this commit JSON is never edited.",
+  "structural_scales_examined": {
+    "1_over_R": 0.08333333333333333,
+    "1_over_R2": 0.006944444444444444,
+    "1_over_R3": 0.0005787037037037037,
+    "2_neg_D_over_R2": 0.0008680555555555555,
+    "2_neg_D_times_D_over_R2": 0.0026041666666666665,
+    "D_over_R3": 0.001736111111111111,
+    "alphaH_over_R3": 0.0011574074074074073
+  },
+  "upstream_sha256": {
+    "CR090_candidate_anchor_inventory_csv": "df2a13db83e261291ab508bfa632e02ab64bce7f53bd63c7482914946cc05926",
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR124_summary_json": "82951214172a95c1ca4c2e3bc7683801cb3ea94495a7decdaa5e286d2c7978bc"
+  }
+}

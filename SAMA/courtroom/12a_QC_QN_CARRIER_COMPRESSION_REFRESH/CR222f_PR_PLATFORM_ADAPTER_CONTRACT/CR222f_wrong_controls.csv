@@ -1,0 +1,10 @@
+wrong_control,attempted_adapter,observed_failure,expected_failure,passes_as_failure
+support_inventory_emits_without_G_protocol,support inventory -> warning write,G_protocol=0 leaves SEALED_PACKET not EMITTED_WARNING_PACKET,NO_EMISSION_WITHOUT_PROTOCOL_GATE,True
+A_side_replaced_by_one_over_e,A_side=1/e,1/e != 1/24,THRESHOLD_NOT_SEALED,True
+0303_counted_as_payload,mirror checksum -> payload,"QP093A-0303 mirror duplicate, not support payload",MIRROR_NOT_PAYLOAD,True
+0306_omitted,omit p=1 source support and emit anyway,161,161_CORRUPT_NO_EMISSION,True
+duplicate_0305_restored,restore duplicate support row and emit anyway,163,163_CORRUPT_NO_EMISSION,True
+tensor_treated_as_matter,tensor witness -> matter row,no,matter_row_allowed=no,True
+one_eighth_used_as_prewrite_leak_threshold,A_side=1/8 before gate,1/8 != 1/24,PREWRITE_THRESHOLD_CATEGORY_FAILURE,True
+one_sixteenth_used_as_prewrite_leak_threshold,A_side=1/16 before gate,1/16 != 1/24,PREWRITE_THRESHOLD_CATEGORY_FAILURE,True
+inverse_log_sign_used_for_t_fire,coherence*(-1/2*ln(24/23)),-0.021279807209397952,nonpositive firing time coefficient,True

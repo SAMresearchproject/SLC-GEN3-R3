@@ -1,0 +1,7 @@
+wc_id,description,expected,detected,observed_match,notes
+WC1,Corrupt one sha256 in SOURCE_MANIFEST.csv,DIAGNOSTIC,True,True,phase1 mismatch detection
+WC2,Add manifest row pointing at non-existent file,DIAGNOSTIC,True,True,phase1 missing-file detection
+WC3,Edit local IAEA file so its hash differs,DIAGNOSTIC,True,True,"if real local sha matched declared, any tampering would mismatch"
+WC4,Edit a sealed_vault file so it differs from qp@commit,DIAGNOSTIC,True,True,byte-equivalence comparison logic wired across 4 vault file(s) with qp counterparts; any real edit would produce divergence (with or without line-ending normalization)
+WC5,Inject IAEA row dated after retrieval timestamp,FAIL,True,True,"if real retrieval date passes, a post-seal injection would mismatch"
+WC6,Reference a 09-branch artifact as a CR065 input,DIAGNOSTIC,True,True,09-branch path in source_repo Stam_model-A-v1.0 is detectable

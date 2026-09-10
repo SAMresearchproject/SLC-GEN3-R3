@@ -1,0 +1,9 @@
+item,value,detail
+G1_substrate_decomposition,True,"Z=M=7*Theta, A=2M=14*Theta, main=7*hV"
+G2_five_way_convergence,True,matter horizon + doubly magic + carrier stable + noble + Z-fold
+G3_uniqueness_check,True,12/12 other nuclei do NOT match all five identifications
+G4_compound_inheritance_consistency,True,CR272 F3 noble + CR273 carrier use same inheritance
+G5_SOB_family_documented,True,8/8 SOB family Z=N balanced
+G6_SOB_family_Z_fold,True,All 8 SOB family members satisfy Z-fold rule
+G7_jerroldium_forecast_locks,True,5 forecast locks sealed for K1 reveal
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

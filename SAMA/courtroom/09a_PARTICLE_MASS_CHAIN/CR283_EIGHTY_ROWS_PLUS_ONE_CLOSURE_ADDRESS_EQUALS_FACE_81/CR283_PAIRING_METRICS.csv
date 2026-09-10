@@ -1,0 +1,7 @@
+metric,value,status
+charged_rows_with_partner_in_inventory,64,PASS
+unique_conjugate_pairs,32,PASS
+pair_completion_rate,1.000000,PASS
+neutral_fixed_point_count,16,PASS
+actual_pair_core_consistency_rate,1.000000,PASS
+source_partition_entropy,3.000000,INFO

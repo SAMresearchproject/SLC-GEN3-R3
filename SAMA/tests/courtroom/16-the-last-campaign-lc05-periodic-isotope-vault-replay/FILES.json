@@ -1,0 +1,109 @@
+{
+  "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY",
+  "files": [
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "119024921d8a5194c17cf37d641832647e7f2510",
+      "bytes": 1289,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv",
+      "mode": "100644",
+      "git_blob": "2962634e1db8cb3ec3e5493a643d0580776def1e",
+      "bytes": 6512,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv",
+      "mode": "100644",
+      "git_blob": "5ac848ebd95b5dab24909bb3c3bc214170da59c1",
+      "bytes": 1067,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv",
+      "mode": "100644",
+      "git_blob": "d2e225b9d171cbc3694764f3b8534beb0a53ea65",
+      "bytes": 1489,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv",
+      "mode": "100644",
+      "git_blob": "539e893b0bce43bb1da7fbe4de4f14e65797885d",
+      "bytes": 2082,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md",
+      "mode": "100644",
+      "git_blob": "bb73ae19df2e5b3881d8d9d6bd9d3e1b391518e9",
+      "bytes": 2197,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv",
+      "mode": "100644",
+      "git_blob": "7e047d9e05f5fc19f6ae9a2f12f7dbced46d3df3",
+      "bytes": 5723,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json",
+      "mode": "100644",
+      "git_blob": "9f9122d8e3ea0d279004f178a3411434f45f4278",
+      "bytes": 3771,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json"
+    },
+    {
+      "path": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "3d6c5a460d33d787662657cd0bc9c75a6da3f4ae",
+      "bytes": 2248,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv",
+      "sama_path": "courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "LC:LC05"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

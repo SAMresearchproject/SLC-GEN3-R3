@@ -1,0 +1,7 @@
+id,control,rejected,rejection_reason
+WC1a,SAM_SCAFFOLD_PLACEMENT_GRADE treated as forward-blind derivation of the column value,True,Each PLACEMENT-grade verdict carries a 'boundary' field stating it is not a SAM derivation of the column value itself.
+WC2a,CR212 verdicts rewritten in place rather than recorded as a regrade,True,CR212 sealed-artifact hashes re-checked by CR212a_cr212_seal_check.csv; no CR212 file modified.
+WC3a,OPEN_4 ACTION-spin promoted above RETIRED_FALSIFIED,True,OPEN_4 stays RETIRED_FALSIFIED in CR212a; SAM-scaffold tie listed for context only.
+WC4a,Comparator vs derivation distinction collapsed,True,Each PLACEMENT-grade row carries an explicit 'comparator_citation' separate from 'scaffold_citations'.
+WC5a,Seven-channel labeling declared closed because the scaffold is SAM,True,OPEN_5 boundary field explicitly says physical-meaning derivation of each position remains a separate open audit.
+WC6a,OPEN_1/2/3 left at NOT_PROMOTABLE after SAM-scaffold construction was documented,True,OPEN_1/2/3 regraded to SAM_SCAFFOLD_PLACEMENT_GRADE with line-numbered builder citations.

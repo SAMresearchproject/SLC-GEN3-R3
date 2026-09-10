@@ -1,0 +1,70 @@
+{
+  "precommit_sha256": "1896b71b4e97bff3598e501f63531fff01fc0507373d2d362e190f89940e08f0",
+  "proposal": {
+    "authority": "PROPOSAL_ONLY",
+    "evidence_status": "NOT_EVIDENCE",
+    "model": "gpt-5.6-sol",
+    "proposal_hash": "d011a8117154dc5497fb861cefe12aefcc4739c4df03ffc7c8218714f20a8e83",
+    "proposal_id": "sam2p-d011a8117154dc5497fb",
+    "provider": "CODEX_APP_SERVER",
+    "validation_status": "UNVALIDATED_INPUT"
+  },
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "source_scope": "INTERNAL_SAM_ONLY_NO_EXTERNAL_PHYSICS",
+  "sources": [
+    {
+      "bytes": 32482,
+      "path": "C:/Users/drwho/.codex/attachments/4f340b7d-50e2-457e-ba49-0644e89e0720/pasted-text.txt",
+      "role": "proposal-only research input; not evidence",
+      "sha256": "e5ca40c239b62078f78e4e75b26fe6a5dbb075cb4ec6d8cfdd2e8907d961b2ef"
+    },
+    {
+      "bytes": 14325,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/contracts/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "role": "frozen typed hierarchy handoff contract",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 2344,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry",
+      "sha256": "873f36e77b97e1e04f8d272af9f15e174ccf2605bec3fe7443be60bdf276935d"
+    },
+    {
+      "bytes": 2954,
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "controlling local-closure frontier",
+      "sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f"
+    },
+    {
+      "bytes": 3059,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "role": "F81/X1/P80 structural boundary result",
+      "sha256": "eb38fb07a4f886b144bb49139acb9c68416477bb78c22ef3b25761cd3e91afd7"
+    },
+    {
+      "bytes": 1026,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "role": "machine-readable structural boundary",
+      "sha256": "60eb12b9650bc8513133d104727bcd6711afe25690a28d8c0016a59d2af5f084"
+    },
+    {
+      "bytes": 2805,
+      "path": "14_FOUNDATIONAL_TESTS/CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION/CR120F_result.md",
+      "role": "interaction/operator role-discrimination boundary",
+      "sha256": "def4976eb2023af8c0a57399eb50645df9984c3cc03cf78c3e7e0b49521d9a4d"
+    },
+    {
+      "bytes": 819,
+      "path": "14_FOUNDATIONAL_TESTS/CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION/CR120F_summary.json",
+      "role": "machine-readable interaction boundary",
+      "sha256": "cdd9fe97a9be1289df036447b6a6cf9d4390df035d3c0a4afe1d5ac39ce62fab"
+    }
+  ]
+}

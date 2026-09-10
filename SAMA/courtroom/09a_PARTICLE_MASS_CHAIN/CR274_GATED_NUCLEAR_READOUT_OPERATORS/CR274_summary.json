@@ -1,0 +1,126 @@
+{
+  "cr": "CR274",
+  "verdict": "PASS",
+  "gates": {
+    "G0_cipher_exact": true,
+    "G1_base_RMS_leq_4.5": true,
+    "G2_operators_geq_3_pass": true,
+    "G3_combined_RMS_leq_3.5": true,
+    "G4_within_5MeV_geq_45": true,
+    "G5_anchors_within_10MeV": true,
+    "G6_hash_whitelist": true
+  },
+  "metrics": {
+    "cipher_max_deviation_num": 0,
+    "cipher_max_deviation_den": 1,
+    "base_RMS_MeV": 3.9101876783724157,
+    "base_5fold_CV_RMS_MeV": 6.114983786681375,
+    "base_outliers_gt_5MeV": 12,
+    "n_operators_passed": 4,
+    "combined_RMS_MeV": 2.716039627696933,
+    "within_5MeV_count": 50,
+    "within_5MeV_fraction": 0.9090909090909091,
+    "n_outliers_gt_5MeV": 5
+  },
+  "beta_K": {
+    "vol": 10.814717731372474,
+    "surf": 27.55377102233821,
+    "coul": 0.8330418169113959,
+    "pair": -78.16971798716308,
+    "quadZ_A": 4.251267938620264,
+    "quadN_A": 1.4069774382546392,
+    "quad_cross_A2": -2.852679669191055,
+    "shell_prox": -2.539364333160457,
+    "lightodd": 17.705846519554715,
+    "alpha": 0.7498509965412838,
+    "reonset": 13.611888941654877,
+    "doubmag": -1.558588968261812,
+    "asym": 36.818129859257176
+  },
+  "operators": {
+    "op_82pre": {
+      "gamma": -0.7273238920525138,
+      "family_size": 1,
+      "family": [
+        "Nd-142"
+      ],
+      "mean_improve_MeV": 11.63718227284022,
+      "adopted": true
+    },
+    "op_3d_odd": {
+      "gamma": 6.965431443111167,
+      "family_size": 3,
+      "family": [
+        "Cu-63",
+        "Mn-55",
+        "Co-59"
+      ],
+      "mean_improve_MeV": 5.646861267389866,
+      "adopted": true
+    },
+    "op_dm_sat": {
+      "gamma": 7.18003785865981,
+      "family_size": 1,
+      "family": [
+        "Pb-208"
+      ],
+      "mean_improve_MeV": 7.18003785865981,
+      "adopted": true
+    },
+    "op_ms_fill": {
+      "gamma": -0.45314378000587197,
+      "family_size": 2,
+      "family": [
+        "Ag-107",
+        "Sn-120"
+      ],
+      "mean_improve_MeV": 4.449270023416119,
+      "adopted": true
+    }
+  },
+  "anchors": {
+    "O-16": -0.8917140657912359,
+    "Fe-56": -1.2320168355005165,
+    "Au-197": 3.7194929808261143,
+    "Pb-208": 0.0
+  },
+  "outliers": [
+    {
+      "isotope": "Mg-26",
+      "Z": 12,
+      "N": 14,
+      "A": 26,
+      "final_resid": 5.612225240177084
+    },
+    {
+      "isotope": "Ca-40",
+      "Z": 20,
+      "N": 20,
+      "A": 40,
+      "final_resid": -6.288323792868162
+    },
+    {
+      "isotope": "Zr-90",
+      "Z": 40,
+      "N": 50,
+      "A": 90,
+      "final_resid": -5.496222777333543
+    },
+    {
+      "isotope": "Hg-202",
+      "Z": 80,
+      "N": 122,
+      "A": 202,
+      "final_resid": 5.469273817253164
+    },
+    {
+      "isotope": "U-234",
+      "Z": 92,
+      "N": 142,
+      "A": 234,
+      "final_resid": -7.2539503902268265
+    }
+  ],
+  "stewardship_hash": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "precommit_hash": "c09616e40e26f7d2df36350b0f3db62c7da81b17e01ce7607a1ed87c8431c3a9"
+}

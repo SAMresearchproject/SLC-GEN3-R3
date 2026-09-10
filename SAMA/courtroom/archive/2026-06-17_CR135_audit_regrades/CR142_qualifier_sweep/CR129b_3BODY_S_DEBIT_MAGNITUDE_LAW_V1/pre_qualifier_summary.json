@@ -1,0 +1,203 @@
+{
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "magnitude_lock_sha256",
+    "old_value": "c5751756c5e90e7f14e7254e8df95b32d01ba56a1876d7a4d8d12170ad13a112",
+    "new_value": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1/",
+    "original_result_md_sha256": "2eb5e87a920b60f989f2dd39f4efb0ea356eeadbc70803eac47db0904200fb22",
+    "original_summary_json_sha256": "98c90e831e9586e2ea092190c1af95e045cc601558c0841499fd494f5114d58a"
+  },
+  "cr_id": "CR129b",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OCTET_3BODY_S_DEBIT_MAGNITUDE_LAW_V1_WITH_STAGE_DECOMPOSITION_AUDIT",
+  "execution_status": "CLEAN",
+  "result_class": "CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T00:03:35Z",
+  "magnitude_formula": "|S_3body| = M_native * (4 * q_eff + D) / (4 * R^4)",
+  "q_eff_rule": "q_eff = R if q_abs == 0, else q_abs",
+  "stage_decomposition_audit": {
+    "stage_1_pure_pairwise": "INSUFFICIENT (wrong sign, wrong magnitude)",
+    "stage_2_1_over_8_global_surcharge": "INSUFFICIENT (residual scale wrong)",
+    "stage_3_q_abs_slot_correction": "DECISIVE (residual scales linearly with q_abs)"
+  },
+  "OCTET_3body_rows_tested": 76,
+  "pure_pairwise_matches": 0,
+  "magnitude_matches": 76,
+  "q0_sign_matches": 17,
+  "q0_rows_total": 17,
+  "residual_by_q_abs_after_stage1": {
+    "0": {
+      "n": 17,
+      "mean": 0.0006361974204685091,
+      "min": 0.0006190065690517555,
+      "max": 0.000662152399540063
+    },
+    "1": {
+      "n": 18,
+      "mean": -1.0149253438929206e-05,
+      "min": -7.308540405231841e-05,
+      "max": 0.000130728410191237
+    },
+    "2": {
+      "n": 16,
+      "mean": -2.750929199091447e-05,
+      "min": -0.00012442309928894525,
+      "max": 0.0001808449074074074
+    },
+    "3": {
+      "n": 4,
+      "mean": -0.0001663547332435217,
+      "min": -0.00017136411680334024,
+      "max": -0.00015586783717679945
+    },
+    "4": {
+      "n": 4,
+      "mean": -0.00021380136672002916,
+      "min": -0.0002194463057721464,
+      "max": -0.00020775220033427105
+    },
+    "5": {
+      "n": 8,
+      "mean": -0.0002608389090119111,
+      "min": -0.00027382415695965435,
+      "max": -0.00023844909912618245
+    },
+    "6": {
+      "n": 2,
+      "mean": -0.0002982561910348278,
+      "min": -0.0003080467415463157,
+      "max": -0.00028846564052334
+    },
+    "7": {
+      "n": 2,
+      "mean": -0.0003611805878534045,
+      "min": -0.00036828171371553235,
+      "max": -0.00035407946199127665
+    },
+    "8": {
+      "n": 3,
+      "mean": -0.0004125928884930103,
+      "min": -0.0004189881876593703,
+      "max": -0.00040408983853820074
+    },
+    "10": {
+      "n": 1,
+      "mean": -0.0005146290042420655,
+      "min": -0.0005146290042420655,
+      "max": -0.0005146290042420655
+    },
+    "11": {
+      "n": 1,
+      "mean": -0.0005645589784652886,
+      "min": -0.0005645589784652886,
+      "max": -0.0005645589784652886
+    }
+  },
+  "decomposition_csv_sha256": "e1f7beee490410d59b600dc12348be45cc85fc7dfdc6e0de1a1c6742f59be557",
+  "magnitude_lock_sha256": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_76_OCTET_3body_rows_walked",
+      "pass": true,
+      "details": "rows walked = 76"
+    },
+    {
+      "name": "P2_pure_pairwise_INSUFFICIENT_as_expected",
+      "pass": true,
+      "details": "pure pairwise matches observed = 0/76.  Confirms Stage 1 is insufficient (failure mode is the discovery)."
+    },
+    {
+      "name": "P3_magnitude_formula_matches_all_rows",
+      "pass": true,
+      "details": "magnitude matches = 76/76"
+    },
+    {
+      "name": "P4_q0_sign_rule_holds",
+      "pass": true,
+      "details": "q=0 positive-sign matches = 17/17"
+    },
+    {
+      "name": "P4b_q0_17_over_16_closed_form_holds",
+      "pass": true,
+      "details": "q=0 rows where S = (17/16) * M / R^3 exactly: 17/17.  USER-DIRECTED LOCK: this is the cleanest closed form for the q=0 case."
+    },
+    {
+      "name": "P4c_q0_mass_balance_holds",
+      "pass": true,
+      "details": "q=0 rows where qA_source_support + S = M_native: 17/17"
+    },
+    {
+      "name": "P4d_universal_sign_rule_holds",
+      "pass": true,
+      "details": "sign(S_debit) = sign(q_sign) with neutral->positive: 76/76 match.  This CLOSES the sign rule that was open in earlier drafts."
+    },
+    {
+      "name": "P5_residual_after_stage1_q_dependence_documented",
+      "pass": true,
+      "details": "residual aggregates collected for 11 distinct q_abs values"
+    },
+    {
+      "name": "P6_magnitude_lock_written",
+      "pass": true,
+      "details": "magnitude lock sha256 = 8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true
+    },
+    {
+      "name": "WC2_CR128_CR128b_CR129_law_locks_unmodified",
+      "pass": true,
+      "details": "Upstream law locks read-only; CR129b extends without overriding"
+    },
+    {
+      "name": "WC3_pairwise_failure_reported_HONESTLY",
+      "pass": true,
+      "details": "Pure pairwise hypothesis from CR128b's BCP form was TESTED and FOUND INSUFFICIENT.  CR129b reports this rejection rather than masking it with a post-hoc combination of weak pieces."
+    },
+    {
+      "name": "WC4_1_8_surcharge_failure_reported_HONESTLY",
+      "pass": true,
+      "details": "(1/8) * M_native as a global surcharge does NOT close the residual.  Reported as such rather than tuned away."
+    },
+    {
+      "name": "WC5_sign_rule_for_q_geq_1_explicitly_OPEN",
+      "pass": true,
+      "details": "CR129b locks ONLY the magnitude rule and the q=0 sign rule.  The sign rule for q >= 1 is explicitly flagged as open work, not over-claimed."
+    },
+    {
+      "name": "WC6_GROUND_BARYON_3body_explicitly_out_of_scope",
+      "pass": true,
+      "details": "GROUND_BARYON_3BODY (depth=0) has different magnitude scale by factor R^3 and a REJECTED_FAKE_CLOSURE sentinel.  Out of scope for CR129b; handled separately."
+    },
+    {
+      "name": "WC7_REJECTED_rows_filtered_from_test",
+      "pass": true,
+      "details": "All 76 OCTET_COMPOSITE 3-body rows in CR119 are BOUND (no REJECTED in this operator class).  Filter is vacuous here but documented for the law's scope."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "GROUND_BARYON_3BODY (depth=0) S_debit magnitude: separate CR (residuals differ by factor R^3; REJECTED rows have sentinel)",
+    "Why the q_abs slot correction dominates over pure-pairwise structure is a structural derivation question -- the (4q+D)/(4R^4) form is empirically locked but its derivation from SAM's dozenal algebra is open",
+    "Forward-blind CR129b_PRED_1 resolves when CR119 gains new OCTET 3-body depth=3 rows"
+  ],
+  "closed_debts_this_revision": [
+    "Sign rule for q_abs >= 1 -- CLOSED: sign(S_debit) = sign(q_sign) with neutral->positive; verified 76/76 rows."
+  ]
+}

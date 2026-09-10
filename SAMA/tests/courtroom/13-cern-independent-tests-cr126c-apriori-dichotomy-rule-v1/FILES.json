@@ -1,0 +1,76 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv",
+      "mode": "100644",
+      "git_blob": "4d522155a7904ee1cf34e0c83c2194e6543a6828",
+      "bytes": 1523,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "8ac9fdb7c1b7baa8c91a27ef8e64e9152ebbaf20",
+      "bytes": 102,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_apriori_rule_application.csv.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_result.md",
+      "mode": "100644",
+      "git_blob": "59cdc27f49853dc29f1ac79fb6f06813a5876ad1",
+      "bytes": 7640,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_rule_lock.json",
+      "mode": "100644",
+      "git_blob": "bfd599f74f3526d7dbd20cd3ae676ec982e196aa",
+      "bytes": 4715,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_rule_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_rule_lock.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_rule_lock.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_rule_lock.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_runner.py",
+      "mode": "100644",
+      "git_blob": "020c14678388b2cd60c8c6fe714bb0786823e43f",
+      "bytes": 29090,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_summary.json",
+      "mode": "100644",
+      "git_blob": "4cc58d107dead95d9d71595099ea01081965373d",
+      "bytes": 4978,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126c_APRIORI_DICHOTOMY_RULE_V1/CR126c_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR126c@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

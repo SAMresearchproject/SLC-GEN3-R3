@@ -1,0 +1,61 @@
+{
+  "platform": "NV_center_in_diamond",
+  "ideal_qubit_realized": "(1, 2, 4) foundational ideal qubit",
+  "M_native_target": 756,
+  "S_debit_predicted_MeV_inventory_units": 0.464844,
+  "S_over_M_ratio_predicted": "17 / (16 * R^3) = 17/27648 ~= 6.149e-4",
+  "physical_substrate": {
+    "host": "Single-crystal diamond, optionally isotopically purified (12C-enriched)",
+    "defect_center": "Negatively charged nitrogen-vacancy center (NV-)",
+    "ground_state": "Triplet 3A2 with 3 spin sublevels: ms = 0, +1, -1",
+    "zero_field_splitting_D": "~2.87 GHz (between ms=0 and ms=+/-1)",
+    "Zeeman_split_at_field": "Small axial field B_z lifts ms=+/-1 degeneracy; ~28 MHz/mT"
+  },
+  "slot_assignment": {
+    "slot_a_carrier": {
+      "partition_value": 1,
+      "physical_state": "ms = 0 (ground sublevel)",
+      "weight": "1/4",
+      "role": "route identity, protected pre-commit"
+    },
+    "slot_b_envelope": {
+      "partition_value": 2,
+      "physical_state": "ms = +1 (Zeeman-split middle sublevel)",
+      "weight": "9/16 = (9/8) * (1/2)",
+      "role": "letter content, 9/8 surcharge = the message"
+    },
+    "slot_c_sensor": {
+      "partition_value": 4,
+      "physical_state": "ms = -1 (Zeeman-split outer sublevel)",
+      "weight": "1/4",
+      "role": "boundary stress readout via PL coupling"
+    }
+  },
+  "control_channels": {
+    "optical_initialization": "532 nm laser, ~us pulse, polarizes NV to ms = 0",
+    "microwave_drive": "~2.87 GHz +/- field offset, addresses |0> <-> |+1> and |+1> <-> |-1> transitions",
+    "envelope_loading": "Composite pulse sequence preparing (1/4, 9/16, 1/4) population distribution",
+    "optical_readout": "637 nm excitation; PL counting at 637 nm distinguishes ms=0 (bright) vs ms=+/-1 (dim)"
+  },
+  "operating_modes": {
+    "room_temperature": {
+      "T2_typical": "~1 ms with Hahn echo, no DD",
+      "ratio_T2_grav": "CONSISTENT, ~10x below SAM floor at MHz drive",
+      "accessibility": "Wide academic access (Awschalom, Lukin, Stuttgart, Delft, Tsinghua, etc.)",
+      "use_case": "Initial demonstration; protocol verification"
+    },
+    "cryogenic_plus_dynamical_decoupling": {
+      "T2_typical": "~1 s with KDD or CPMG sequences",
+      "ratio_T2_grav": "AT THE LIMIT (~1.02x SAM floor per CR064a)",
+      "accessibility": "Specialized groups (Delft Hanson primarily)",
+      "use_case": "Maximum-coherence verification of the SAM floor itself"
+    }
+  },
+  "experimental_partner_candidates": [
+    "Hanson group, Delft University of Technology [VERIFY_PRECOMMIT]",
+    "Lukin group, Harvard University [VERIFY_PRECOMMIT]",
+    "Wrachtrup group, Stuttgart [VERIFY_PRECOMMIT]",
+    "Awschalom group, U Chicago [VERIFY_PRECOMMIT]"
+  ],
+  "review_status": "[EXPERT_REVIEW_REQUIRED] -- All NV-specific parameters tagged for confirmation by a qubit-engineering domain expert."
+}

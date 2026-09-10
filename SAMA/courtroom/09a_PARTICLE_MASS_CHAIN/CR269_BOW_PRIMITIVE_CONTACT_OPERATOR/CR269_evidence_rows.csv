@@ -1,0 +1,9 @@
+item,value,detail
+G1_B_type_signature,True,"B : R^2=144 -> (M=126, Theta=18)"
+G2_partition_identity,True,M + Theta_out = R^2 = 144
+G3_R_sq_equals_S_Theta,True,R^2 = S*Theta = 8*18 = 144
+G4_M_equals_S_minus_1_times_Theta,True,M = (S-1)*Theta = 7*18 = 126
+G5_yields_match_axis_fee,True,release 1/S = axis-fee 1/h^3 = closure unit 1/8
+G6_CR262_consistency,True,"carriers={6,9,18,54} are B outputs; containers={12,27,81} are B fixed points"
+G7_CR114_Higgs_reading,True,H_reveal = M - D^2/R = 126 - 0.75 = 125.25 GeV
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

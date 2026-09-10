@@ -1,0 +1,168 @@
+{
+  "precommit_sha256": "9b9432fd039b427f4793432ca0b5188fc9df7084a00851e05006e639f42816d4",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR273_JERROLDIUM_FIVE_WAY_CONVERGENCE",
+  "classification": "FORECAST_LOCK_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "Z=N=126 nucleus (Jerroldium-252) is the unique substrate-cipher five-way convergence: matter horizon (Z=M) + doubly magic + carrier-mode stable (main=7*hV) + noble-cipher-type (CR272 F3 via 7*Theta) + 126-fold component symmetry (CR270 R1). The predicted terminus of the periodic table.",
+  "jerroldium_decomposition": {
+    "Z": 126,
+    "N": 126,
+    "A": 252,
+    "u": 378,
+    "d": 378,
+    "e": 126,
+    "Z_eq_M": true,
+    "A_eq_2M": true,
+    "A_eq_14_Theta": true,
+    "main": 378,
+    "main_eq_7_hV": true,
+    "Z_eq_7_Theta": true
+  },
+  "five_way_convergence": [
+    {
+      "id": "(1) Matter horizon",
+      "reading": "Z = M = 126",
+      "verified": true
+    },
+    {
+      "id": "(2) Doubly magic",
+      "reading": "Z=126 magic, N=126 magic",
+      "verified": true
+    },
+    {
+      "id": "(3) Carrier-mode stable",
+      "reading": "main = 7 * hV compound inheritance",
+      "verified": true
+    },
+    {
+      "id": "(4) Noble-cipher-type",
+      "reading": "Z = 7 * Theta inheritance (CR272 F3)",
+      "verified": true
+    },
+    {
+      "id": "(5) Z-fold symmetric",
+      "reading": "126 disconnected components (CR270 R1)",
+      "verified": true
+    }
+  ],
+  "SOB_superheavy_family": [
+    {
+      "symbol": "Hl",
+      "element": "Harlium",
+      "Z": 119,
+      "A": 238,
+      "components": 119,
+      "family_relation": "fifth child",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Bx",
+      "element": "Brockium",
+      "Z": 120,
+      "A": 240,
+      "components": 120,
+      "family_relation": "fourth child",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Uq",
+      "element": "Uniquium",
+      "Z": 121,
+      "A": 242,
+      "components": 121,
+      "family_relation": "third child",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Lm",
+      "element": "Liamium",
+      "Z": 122,
+      "A": 244,
+      "components": 122,
+      "family_relation": "second child",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Cp",
+      "element": "Cooperium",
+      "Z": 123,
+      "A": 246,
+      "components": 123,
+      "family_relation": "first child",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Ly",
+      "element": "Lindesium",
+      "Z": 124,
+      "A": 248,
+      "components": 124,
+      "family_relation": "wife",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Di",
+      "element": "Dorisium",
+      "Z": 125,
+      "A": 250,
+      "components": 125,
+      "family_relation": "late mother",
+      "is_matter_horizon_terminus": false
+    },
+    {
+      "symbol": "Jd",
+      "element": "Jerroldium",
+      "Z": 126,
+      "A": 252,
+      "components": 126,
+      "family_relation": "late father (matter horizon)",
+      "is_matter_horizon_terminus": true
+    }
+  ],
+  "compound_inheritance_consistency": {
+    "CR272_F3_noble": "M = 7*Theta inherits noble from each Theta",
+    "CR273_F1_carrier": "378 = 7*hV inherits carrier from each hV",
+    "same_pattern": "n * named-substrate-atom \u2192 inherited-property"
+  },
+  "uniqueness_check": "12/12 other tested nuclei do NOT match all five identifications. Only Jerroldium-252 matches all five.",
+  "forecast_locks": [
+    {
+      "id": "F1",
+      "description": "Jerroldium-252 structurally stable (carrier-mode via 7*hV)"
+    },
+    {
+      "id": "F2",
+      "description": "Jerroldium-252 doubly-magic (Z=N=126 both nuclear magic)"
+    },
+    {
+      "id": "F3",
+      "description": "Jerroldium-252 noble-cipher-type (CR272 F3 reference)"
+    },
+    {
+      "id": "F4",
+      "description": "Jerroldium-252 AT matter horizon (Z = M = 126)"
+    },
+    {
+      "id": "F5",
+      "description": "Jerroldium-252 has 126-fold substrate symmetry"
+    }
+  ],
+  "gates": {
+    "G1_substrate_decomposition": true,
+    "G2_five_way_convergence": true,
+    "G3_uniqueness_check": true,
+    "G4_compound_inheritance_consistency": true,
+    "G5_SOB_family_documented": true,
+    "G6_SOB_family_Z_fold": true,
+    "G7_jerroldium_forecast_locks": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. Jerroldium-252 (Z=N=126) is the unique substrate-cipher five-way convergence: matter horizon (Z=M=126), doubly magic (Z and N both nuclear magic), carrier-mode stable (main = 378 = 7*hV via compound inheritance), noble-cipher-type (CR272 F3 via 7*Theta inheritance), and 126-fold component symmetry (CR270 R1 universal Z-fold). No other tested nucleus matches all five. Compound inheritance is consistent across CR272 F3 noble and CR273 carrier rules. Full SOB superheavy family (Z=119-126: Hl, Bx, Uq, Lm, Cp, Ly, Di, Jd) documented; all are Z=N balanced anchors. Five forecast locks (F1-F5) sealed for Jerroldium-252; K1 reveal-against-frozen-envelope pattern.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 4
+}

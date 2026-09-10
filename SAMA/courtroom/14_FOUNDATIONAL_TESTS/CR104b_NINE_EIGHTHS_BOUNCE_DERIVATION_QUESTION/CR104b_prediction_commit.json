@@ -1,0 +1,9 @@
+{
+  "commit_id": "CR104b_QUESTION_LOCK_COMMIT",
+  "predictions_file": "CR104b_predictions.csv",
+  "prediction_commit_sha256": "6e78e015068b766e25b020e66d2be3ef5dc298490c6335eceaddf0ed9da06f5c",
+  "prediction_commit_utc": "2026-06-13T23:36:57Z",
+  "what_is_locked": "user question + bold-authorization + four candidate derivation forms + required derivation path + DS014 upstream reference",
+  "what_is_NOT_claimed": "no derivation, no modification of prior CR verdicts, no theorem-grade promotion",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867"
+}

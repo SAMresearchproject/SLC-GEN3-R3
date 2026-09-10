@@ -1,0 +1,143 @@
+{
+  "cr_id": "CR065a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "extends_anchor": "CR064a",
+  "test_class": "COURTROOM_INTAKE_OF_QP084_THROUGH_QP091_FORWARD_FROZEN_PREDICTIONS",
+  "execution_status": "CLEAN",
+  "result_class": "CR065a_HIGGS_ZZ4L_PREDICTION_INTAKE_PASS",
+  "intake_utc": "2026-06-14T02:13:09Z",
+  "upstream_qp_chain_count": 8,
+  "predictions": [
+    {
+      "name": "P1_all_qp_passed",
+      "pass": true,
+      "details": {
+        "QP084": true,
+        "QP085": true,
+        "QP086": true,
+        "QP087": true,
+        "QP088": true,
+        "QP089": true,
+        "QP090": true,
+        "QP091": true
+      }
+    },
+    {
+      "name": "P2_all_zero_free_parameters",
+      "pass": true,
+      "details": {
+        "QP084": 0,
+        "QP085": 0,
+        "QP086": 0,
+        "QP087": 0,
+        "QP088": 0,
+        "QP089": 0,
+        "QP090": 0,
+        "QP091": 0
+      }
+    },
+    {
+      "name": "P3_target_blind_no_external_decay_data_in_chain",
+      "pass": true,
+      "details": {
+        "qp085_reveal_against_CR092_Higgs_mass_anchors_is_allowed_within_chain": true,
+        "no_other_qp_opened_external_decay_or_angular_data": true
+      }
+    },
+    {
+      "name": "P4_qp091_frozen_observables_match_expected",
+      "pass": true,
+      "details": {
+        "expected": {
+          "H_visible_parent_ledger_MeV": 125219.0,
+          "H_source_hidden_budget_MeV": 125419.11694535677,
+          "Z_visible_branch_MeV": 91161.5,
+          "two_on_shell_Z_deficit_visible_MeV": 57104.0,
+          "Zstar_ceiling_visible_MeV": 34057.5,
+          "terminal_thresholds_MeV": {
+            "4e": 2.043792,
+            "2e2mu": 212.393896,
+            "4mu": 422.744
+          },
+          "hidden_source_budget_fraction": 0.001595585666927944
+        },
+        "qp091_actual_summary_subset": {
+          "H_visible_parent_ledger_MeV": 125219.0,
+          "H_source_hidden_budget_MeV": 125419.11694535677,
+          "Z_visible_branch_MeV": 91161.5,
+          "two_on_shell_Z_deficit_visible_MeV": 57104.0,
+          "Zstar_ceiling_visible_MeV": 34057.5,
+          "terminal_thresholds_MeV": {
+            "4e": 2.043792,
+            "2e2mu": 212.393896,
+            "4mu": 422.744
+          },
+          "hidden_source_budget_fraction": 0.001595585666927944
+        }
+      }
+    },
+    {
+      "name": "P5_reveal_map_names_four_targets_three_strongest_held_for_CR066a",
+      "pass": true,
+      "details": {
+        "QP092_REVEAL_01": {
+          "reveal_id": "QP092_REVEAL_01",
+          "future_target": "H006/H007 signal strength",
+          "qp091_status": "HELD_NOT_OPENED",
+          "selection_role": "post-freeze reveal only"
+        },
+        "QP092_REVEAL_02": {
+          "reveal_id": "QP092_REVEAL_02",
+          "future_target": "m4l distribution / Higgs mass reconstruction",
+          "qp091_status": "HELD_NOT_OPENED",
+          "selection_role": "test visible parent closure"
+        },
+        "QP092_REVEAL_03": {
+          "reveal_id": "QP092_REVEAL_03",
+          "future_target": "m12/m34 or Z/Z* branch distributions",
+          "qp091_status": "HELD_NOT_OPENED",
+          "selection_role": "test native off-shell ceiling"
+        },
+        "QP092_REVEAL_04": {
+          "reveal_id": "QP092_REVEAL_04",
+          "future_target": "four-lepton angular correlations",
+          "qp091_status": "HELD_NOT_OPENED",
+          "selection_role": "test structured hidden-bounce/orientation handle"
+        }
+      }
+    },
+    {
+      "name": "P6_no_cern_decay_data_opened_in_CR065a",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_any_qp_failed_aborts_intake",
+      "pass": true
+    },
+    {
+      "name": "WC2_any_free_parameter_violates_chain",
+      "pass": true
+    },
+    {
+      "name": "WC3_no_premature_decay_data_opening",
+      "pass": true
+    },
+    {
+      "name": "WC4_qp091_frozen_predictions_not_modified_in_intake",
+      "pass": true
+    },
+    {
+      "name": "WC5_reveal_targets_held_at_intake_time",
+      "pass": true
+    }
+  ],
+  "intake_lock_sha256": "11e898ca84273071096436bd52c3667dd9ec3df2a3c6b599f5a94453827582a7",
+  "intake_lock_path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR065a_HIGGS_ZZ4L_PREDICTION_INTAKE\\CR065a_intake_lock.json",
+  "open_debts": [
+    "CR066a will open the three strongest reveal targets (m4l, m12/m34, angular) carefully",
+    "REVEAL_01 (signal strength) is recorded but intentionally held - per upstream user direction, signal strength is the weakest reveal target",
+    "Curator sign-off of the intake lock pending"
+  ]
+}

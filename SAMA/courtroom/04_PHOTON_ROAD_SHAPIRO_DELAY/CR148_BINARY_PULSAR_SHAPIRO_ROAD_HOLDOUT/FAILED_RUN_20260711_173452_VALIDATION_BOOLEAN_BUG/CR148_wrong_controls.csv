@@ -1,0 +1,8 @@
+control_id,canonical_metric,control_metric,delta_metric,sensitive_before_reveal,post_reveal_status
+WC1_ENDPOINT_ONLY_SUBSTITUTION,DD logarithmic road shape ratio=1,0.000000000000000,1.000000000000000,True,REJECTED
+WC2_WRONG_RADIAL_POWER,normalized DD logarithmic curve,max_norm_shape_diff=1.075684331452069,1.075684331452069,True,REJECTED
+WC3_MISSING_SOURCE_RADIUS_FACTOR,r_us=6.151445643708300,r_us=3.075722821854150,0.500000000000000,True,REJECTED
+WC4_A0_TREATED_AS_LOCAL_ROAD_SOURCE,source-only companion A_c(r),illegal common floor inserted as local source path term,TYPE_ERROR,True,REJECTED_ILLEGAL_TYPE_USE
+WC5_NO_NEAR_SOURCE_ENHANCEMENT,normalized DD logarithmic curve,max_norm_shape_diff=1.000000000000000,1.000000000000000,True,REJECTED
+WC6_WRONG_INCLINATION_ORIENTATION,s=0.999906773574375,s_complement=0.013654455686098,0.986344271239120,True,REJECTED
+WC7_FREE_AMPLITUDE_RESCUE,free_parameters_introduced=0,post-reveal multiplicative amplitude fit prohibited,PROHIBITED,True,REJECTED_PROHIBITED_RESCUE

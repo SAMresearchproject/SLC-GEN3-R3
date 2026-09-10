@@ -1,0 +1,25 @@
+{
+  "candidate": [
+    "A_SCALE(d_route=1)=N144",
+    "B(N144)=(M126,THETA18_OUT)",
+    "NORMALIZE_BY_THETA18(M,N,L)=(7,S8,W9)=(7,8,9)",
+    "NORMALIZE_BY_THETA18(THETA18_OUT)=1=X1 scalar contact",
+    "RESOLVE(S8,B,X1)->W9"
+  ],
+  "identity_merges": [],
+  "open_relations": [
+    "A_OPERATOR -> B_CONTACT_OPERATOR",
+    "A_OPERATOR -> X1_AXIS_SELF_CHANNEL executable edge",
+    "B dynamically creates X1",
+    "Starbreaker moving carrier == X1",
+    "physical causal formation operator"
+  ],
+  "registry_mutated": false,
+  "supported_relations": {
+    "A_d1_scale_contact": true,
+    "A_field_unique_X1_candidate": true,
+    "B_contact_to_X1_to_W9": true,
+    "B_partition": true,
+    "theta_789_normalization": true
+  }
+}

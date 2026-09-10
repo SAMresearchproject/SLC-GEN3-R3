@@ -1,0 +1,38 @@
+{
+  "checks_passed": 13,
+  "checks_total": 13,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2
+  },
+  "contract": "Native63 + Bound63 + CarrierLedger81 + Mirror81",
+  "cr_id": "CR222a",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T08:29:01.719938+00:00",
+  "matter_engine": "63 + 63 = 126 rows",
+  "next_gate": "CR222b_PAUL_REVERE_PACKET_CONTRACT",
+  "outputs": {
+    "checks_csv": "CR222a_checks.csv",
+    "contract_csv": "Tier1_NativeStackContract.csv",
+    "invariants_csv": "CR222a_stack_invariants.csv",
+    "manifest_csv": "CR222a_component_manifest.csv",
+    "protocol_csv": "CR222a_pr_protocol_roles.csv",
+    "result_md": "CR222a_result.md",
+    "summary_json": "CR222a_summary.json",
+    "wrong_controls_csv": "CR222a_wrong_controls.csv"
+  },
+  "pr_boundary": "PR consumes message route + support inventory + tensor witness + ledger checksum; PR does not generate the physics rows.",
+  "result_class": "CR222a_PASS_NATIVE_STACK_CONTRACT__NATIVE63_BOUND63_CARRIER81_MIRROR81",
+  "sha256": {
+    "Tier1_NativeStackContract.csv": "0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b"
+  },
+  "support_integrity": "81 + 81 = 162 ledger value",
+  "test_id": "CR222a_NATIVE_STACK_CONTRACT",
+  "upstream_sources": {
+    "CR220": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\CR220_NATIVE_63_GENERATOR\\Tier1_Native63.csv",
+    "CR221": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\CR221_BOUND_63_GENERATOR\\Tier1_Bound63.csv",
+    "CR222_ledger": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\CR222_CARRIER_LEDGER_12_PLUS_1\\Tier1_CarrierLedger81.csv",
+    "CR222_mirror": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\CR222_CARRIER_LEDGER_12_PLUS_1\\CR222_mirror_closure_0303.csv"
+  }
+}

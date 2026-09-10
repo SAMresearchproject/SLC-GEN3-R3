@@ -1,0 +1,11 @@
+wrong_control,attempted_mutation,evidence,result
+WC09_CARRIER_PROMOTED_TO_MATTER,put tensor carrier 18 into matter algebra as a rest-mass element or count-closing matter row,CR116 locks 18 as carrier-only; CR119 excludes QP093A-0088 null conjugate from matter; matter table stays 126 rows,REJECTED
+WC23_BARYON_INVENTORY_RAW_BRANCH,mix carrier-only rows into baryon/matter inventory to close counts,CR119 matter table keeps 63 stable + 63 bound rows; QP092H reports matter_rows_added=0 and admits branches only through carrier compression,REJECTED
+WC_DIRECT_QA_AS_MASS,"read qA_source_support as baryon density, element mass, or matter mass",QP092H rejects direct qA controls 3/3; CR119 qA splits into tensor/retained support and is not treated as mass,REJECTED
+WC_NULL_CONJUGATE_OVERRIDE_IGNORED,ignore QP093B null-conjugate boundary and promote QP093A-0088 to matter,"QP093A-0088 has M_native=18, S_debit=18, M_observed=0, qA=0, latest_matter_row_allowed=no, and zero matter rows",REJECTED
+WC_ANTIMATTER_INCLUDED_IN_MATTER,include antimatter conjugate rows in the matter inventory,latest export says antimatter_excluded=true; LC06 counts 0 antimatter rows in the 126-row matter table,REJECTED
+WC_BARYON_OBSERVATION_BACKFILL,fit Omega_b to Planck or observed baryon density,"CR018 derives Omega_b from A0, D, and chi with free_parameters_zero=true; governance CR114 says Planck anchor not tuned",REJECTED
+WC_CHI_FIT_TO_RATIO,move the Omega_m residual into chi to force the matter ratio,G310/G312/G313 wrong controls reject chi fitting because it damages Omega_b,REJECTED
+WC_TARGET_FIT_OMEGA_M,use exact target-fit noninteger k instead of D=3 directional cumulant,G312/G313 reject k_target as derivation; derived coefficient equals D=3,REJECTED
+WC_ROW_DELETION,"drop awkward matter rows, null boundary rows, or branch boundary components","LC06 keeps 126/126 matter rows, checks the excluded null particle row, and preserves CR020-CR022 BOUNDARY_PASS components",REJECTED
+WC_FULL_COSMOLOGY_OVERCLAIM,"promote branch 07 into full CMB, recombination, perturbation, TT/TE/EE, Planck-likelihood, or distance-triad closure",CR023 and branch README explicitly preserve those as open debts; LC06 records boundary-pass status,REJECTED

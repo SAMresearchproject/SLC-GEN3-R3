@@ -1,0 +1,36 @@
+{
+  "artifact": "QP091Q_A0_SCALAR_PARENT_CATEGORY_SPLIT_RESET",
+  "generated_at_utc": "2026-06-15T05:04:07.929478+00:00",
+  "result_class": "PASS_QP091Q_A0_SCALAR_PARENT_CATEGORY_SPLIT_RESET__CATEGORY_1_2_1_BOUNCE_CANCELS__SCALAR_PARENT_RETAINS_9_8_A0_OVER_R5__AE_DUMPED_CONTEXT_ONLY",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "A_used_active": "A0",
+  "A0": "0.026525823848649222628147293895419060339076607623409408124611",
+  "A_e_status": "dumped_context_only",
+  "B_visible": "9/16",
+  "B_full": "9/8",
+  "category_projection": {
+    "4e": "0.250000000000000000000000000000",
+    "2e2mu": "0.500000000000000000000000000000",
+    "4mu": "0.250000000000000000000000000000"
+  },
+  "delta_native_QP091N": "1.060133563978507323297206322056446529341921304529E-4",
+  "scalar_parent_shift_A0": "1.199265039453541966333337578460424820017569427418E-7",
+  "scalar_parent_shift_formula": "(9/8)A0/R^5",
+  "corrected_delta_A0": "1.058934298939053781330872984477986104521903735101E-4",
+  "H_A0_scalar_parent_GeV": "125.247731966116519945639815947158",
+  "v_A0_scalar_parent_GeV": "250.495463932233039891279631894315",
+  "H_target_CR062_GeV": "125.250000000000000000000000000000",
+  "target_gap_A0_scalar_parent_GeV": "0.002268033883480054360184052842",
+  "H_QP091P_Ae_context_GeV": "125.247738539861122412242878934821",
+  "A0_minus_Ae_context_H_GeV": "-0.000006573744602466603062987663",
+  "QP091M_cost_adjusted_category_surface_context": {
+    "4e": "0.249885258420134875571482600933",
+    "2e2mu": "0.500004803387118577747045754799",
+    "4mu": "0.250109938192746546681471644268"
+  },
+  "controls_passed": 6,
+  "controls_total": 6,
+  "scientific_reading": "Dumping A_e restores the clean A0 split. The HZZ4l flavor category projection is exact 1:2:1 because every ordered route carries the same visible half-bounce 9/16, so the bounce cancels on the category surface. The bounce residue remains in the scalar parent as (9/8)A0/R^5, giving H=125.24773196611652 GeV and leaving a 0.00226803388348 GeV reveal gap. QP091P Earth-local A is retained as context only.",
+  "next_frontier": "QP091R_FIND_NATIVE_SOURCE_OF_REMAINING_2_268MEV_GAP_OR_FREEZE_A0_SPLIT"
+}

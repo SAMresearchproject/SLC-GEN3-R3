@@ -1,0 +1,46 @@
+# Matter Minimal Coupling
+
+[Back to tests](README.md)
+
+Test identity: `G:G123@SAM-ARCHIVE`.
+
+This is the preserved test-index record. The source below carries the full test; no additional outcome is inferred here.
+
+The existing public index supplies a source locator and digest for this test, but no public source URL.
+
+<details>
+<summary>Exact source record</summary>
+
+```json
+{
+  "alternate_source_paths": [
+    "reference files_misc/archive/substrate_G_tests/G123_matter_minimal_coupling/G123_matter_minimal_coupling.py"
+  ],
+  "approval": null,
+  "description": "Matter Minimal Coupling",
+  "family": "G",
+  "keywords": [
+    "Matter",
+    "Minimal",
+    "Coupling"
+  ],
+  "qualified_test_id": "G123@SAM-ARCHIVE",
+  "record_key": "G:G123@SAM-ARCHIVE",
+  "related_test_ids": [],
+  "reviewed_and_approved": false,
+  "source_basis": "SAM_WORKSPACE_ARCHIVE_ARTIFACT",
+  "source_commit": null,
+  "source_path": "reference files_misc/archive/substrate_G_tests/G123_matter_minimal_coupling/results/G123_matter_minimal_coupling_summary.md",
+  "source_repo": "SAM_Workspace_Archive",
+  "source_sha256": "5b4015f9b8d41ef502feaf82c4cd155d5a9d4e227432762ff33928be30319a6a",
+  "source_status": null,
+  "source_url": null,
+  "source_verdict": null,
+  "test_id": "G123",
+  "volume_numbers": [
+    "I"
+  ]
+}
+```
+
+</details>

@@ -1,0 +1,15 @@
+source_line,qp093a_name,qp093a_value,canonical_value,source_cr,verdict
+L54,R,Decimal(12),12,CR238 §1,match
+L55,D,Decimal(3),3,CR238 §1,match
+L56,ALPHA_H,Decimal(2),2,CR238 §1,match
+L57,PARTITION,"{1,2,3,4,6,8,9,12}","{1,2,3,4,6,8,9,12}",LCQC002 / CR238,match
+L60,SEVEN,Decimal(7),S-1 = 7,CR238 §1,match
+L61,EIGHT,Decimal(8),S = alpha_H^D = 8,CR238 §1,match
+L62,THOUSAND,Decimal(1000),MeV scale convention,convention,match
+L230,Higgs_surface_debit,(D*D/R)*THOUSAND = 750,D^2/R = 0.75 (·1000 GeV→MeV),CR114 / CR229,match
+L256,qA_capacity_div,R*R = 144,R^2 = 144 (matter capacity),CR229,match
+L295,carrier_split,qA/EIGHT = qA/8,alpha_H^D split,CR238 + CR222d,match
+L296,retained_split,qA*SEVEN/EIGHT = 7*qA/8,(S-1)/S split,CR238 + CR222d,match
+L328,axis_factor,"{plus:1.25,minus:1.5,neutral:0.125}",POST-CR243 RECHECK,CR243 typed mass-lift,requires_recheck
+L434,pair_m_native,a*b*R + |q|*D,POST-CR244 RECHECK,CR244 unequal-pair forms,requires_recheck
+L456,higgs_scalar,R*R*7/8 * 1000 = 126000 MeV,R^2*(S-1)/S = 126 GeV,Higgs identity memo,match

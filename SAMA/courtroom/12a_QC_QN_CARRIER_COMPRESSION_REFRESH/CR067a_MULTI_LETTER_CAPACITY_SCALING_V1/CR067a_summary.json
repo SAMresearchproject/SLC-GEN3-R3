@@ -1,0 +1,122 @@
+{
+  "cr_id": "CR067a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "MULTI_LETTER_CAPACITY_SCALING_GEOMETRIC_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR067a_MULTI_LETTER_CAPACITY_SCALING_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T02:27:15Z",
+  "scaling_law_per_letter": "c_N = 1 / alpha_H^(D+N) = 2^-(D+N)",
+  "scaling_law_cumulative": "C_N = 2^-D * (1 - 2^-N)",
+  "asymptotic_limit": "2^-D = 1/8 (Higgs-released gravity channel)",
+  "candidate_linear": "REJECTED",
+  "candidate_parallel_share": "REJECTED",
+  "candidate_geometric": "LOCKED",
+  "single_letter_capacity": "1/16 = 6.25%",
+  "cumulative_at_N_2": "9.38% of unit baseline = 75.00% of gravity channel",
+  "cumulative_at_N_4": "11.72% of unit baseline = 93.75% of gravity channel",
+  "cumulative_at_N_8": "12.4512% of unit baseline = 99.6094% of gravity channel",
+  "practical_cutoff_99_6_pct": 8,
+  "kraft_sum": "2^-D = 1/8 (complete prefix code on gravity subspace)",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "capacity_csv_sha256": "f3d5bc0b0374107cb5cbb99e99f68be47464e54d6f87cd813d23a43f7a3c897b",
+  "scaling_lock_sha256": "54ebd6845bed8cd1e84ea91b342bbb2952541f6c442222265f528bc3d2ad51c4",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "5eb918d789d70d689e39f9d5c2f72ea4d149336d1e3a8b49d95548f5de592fc1",
+    "CR066b_hierarchy_lock_json": "f864bf6cf8c29b255618023481be1e493590b524c55735bc420666a3c4679b2d",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_single_letter_eq_one_alpha_H_4th",
+      "pass": true,
+      "details": "c_1 = 1/16 = 1/16"
+    },
+    {
+      "name": "P2_per_letter_geometric_halving",
+      "pass": true,
+      "details": "c_(N+1) = c_N / alpha_H verified for N = 1..10"
+    },
+    {
+      "name": "P3_cumulative_formula_holds",
+      "pass": true,
+      "details": "C_N = 2^-D * (1 - 2^-N) verified for N = 1..10"
+    },
+    {
+      "name": "P4_asymptotic_limit_eq_2_neg_D",
+      "pass": true,
+      "details": "asymptotic = 2^-D = 1/8 (Higgs-released gravity fraction)"
+    },
+    {
+      "name": "P5_kraft_sum_equals_one_eighth",
+      "pass": true,
+      "details": "Kraft sum = sum 2^-l_N = 2^-D = 1/8 = 12.5000%"
+    },
+    {
+      "name": "P6_N_max_20_in_capacity_table",
+      "pass": true,
+      "details": "capacity table has N = 1..20 (20 rows)"
+    },
+    {
+      "name": "P7_99_6_pct_cutoff_below_N_10",
+      "pass": true,
+      "details": "99.6% ceiling reached at N = 8"
+    },
+    {
+      "name": "P8_lock_written",
+      "pass": true,
+      "details": "scaling lock sha256 = 54ebd6845bed8cd1e84ea91b342bbb2952541f6c442222265f528bc3d2ad51c4"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_linear_scaling_explicitly_rejected",
+      "pass": true,
+      "details": "Linear scaling N * 1/16 grows without bound and violates the gravity channel ceiling identified in CR121.  Rejected as the SAM-native scaling law."
+    },
+    {
+      "name": "WC2_parallel_sharing_explicitly_rejected",
+      "pass": true,
+      "details": "Parallel-sharing constant 1/16 split N ways does NOT scale capacity -- it just dilutes the single-letter content.  Rejected as the SAM-native scaling law."
+    },
+    {
+      "name": "WC3_geometric_subdivision_matches_closure_depth_ladder",
+      "pass": true,
+      "details": "Letter N requires closure depth D+N.  This matches SAM's closure-depth ladder naturally: each successive letter is one deeper in the binary resolution structure."
+    },
+    {
+      "name": "WC4_asymptotic_limit_NOT_full_unity",
+      "pass": true,
+      "details": "The asymptotic limit is 2^-D = 1/8, NOT 1.  Paul Revere transmission is confined to the gravity-coupled subspace, which is the Higgs-released fraction.  Standard Born unity is NOT violated."
+    },
+    {
+      "name": "WC5_q_0_only_scope",
+      "pass": true,
+      "details": "CR067a is q = 0 specific per CR066a/CR066b.  Whether the geometric scaling extends to q >= 1 rows is a separate open question."
+    },
+    {
+      "name": "WC6_practical_cutoffs_acknowledged",
+      "pass": true,
+      "details": "Encoding deep-N letters requires high gate fidelity at closure depth D+N.  For practical NV implementations, N >= 8 may exceed achievable gate precision.  This is documented as an out-of-scope engineering question."
+    },
+    {
+      "name": "WC7_falsifier_distinguishes_per_letter_vs_cumulative",
+      "pass": true,
+      "details": "Three independent falsifiers: per-letter capacity differing from 2^-(D+N), cumulative exceeding 1/8, or saturating at a value different from 1/8.  Each tests a distinct claim of the geometric subdivision lock."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "Engineering: encoding letters at deep closure levels (N >= 8 -> depth >= 11) may exceed practical NV gate fidelity.  Hardware engineering CR.",
+    "Connection to Holevo capacity for quantum-channel transmission (separate CR).",
+    "Whether the geometric scaling extends to q >= 1 rows or multi-row entangled encodings (separate CRs).",
+    "Why the alpha_H = 2 bisection is THE structural division factor (vs alpha_H or D^k) at each level -- accepted from CR066b's Higgs identity but not derived from first principles."
+  ]
+}

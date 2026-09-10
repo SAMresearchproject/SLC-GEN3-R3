@@ -1,0 +1,10 @@
+metric,value
+prior_links,32
+h27_links,56
+intersection,8
+prior_only,24
+h27_only,48
+union,80
+jaccard,0.1
+h27_without_face_edge_links,32
+h27_without_face_edge_components,"[18,9]"

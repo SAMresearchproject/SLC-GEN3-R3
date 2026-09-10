@@ -1,0 +1,10 @@
+﻿# Post-hoc HASHES.txt seal recovery on 2026-06-22.
+# Original test sealed at 2026-06-13 (commit ed8003d).
+# Git integrity verified clean vs HEAD at recovery time.
+# Hashes computed at recovery, not at original sealing.
+artifact,sha256
+09a_PARTICLE_MASS_CHAIN/CR091a_Z_RESIDUAL_CLOSURE_APPEAL/CR091a_appeal_lock.json,cbb7e8411b17fc788f9266f615d4a7401ecb04b7b4c893b4f2b74605b0248ff0
+09a_PARTICLE_MASS_CHAIN/CR091a_Z_RESIDUAL_CLOSURE_APPEAL/CR091a_appeal_lock.json.sha256.txt,31d1a5ad9a60cfa02a0b4290a0cec213efe90e7598e81d5ea2c369f56ed6cc0b
+09a_PARTICLE_MASS_CHAIN/CR091a_Z_RESIDUAL_CLOSURE_APPEAL/CR091a_result.md,424f231cc4c19534dd15003222d97759ad251da486bf3746c22e9bc02242f127
+09a_PARTICLE_MASS_CHAIN/CR091a_Z_RESIDUAL_CLOSURE_APPEAL/CR091a_runner.py,eead171528a63ec0e64d6ddec2e3e340f9e523699a8cc3a0be6d3da4a5fac60c
+09a_PARTICLE_MASS_CHAIN/CR091a_Z_RESIDUAL_CLOSURE_APPEAL/CR091a_summary.json,a3a5189378fcae6bc1a3aff7262b462d0a8d1afe21077c0fc83f78d9f58cf50a

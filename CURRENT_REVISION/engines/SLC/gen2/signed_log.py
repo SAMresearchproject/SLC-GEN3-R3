@@ -46,7 +46,7 @@ def _result_convention(operation, left, right):
 
 def _binding(foundation):
     base = Path(__file__).resolve().parent
-    names = ('signed_log.py', 'quantities.py', 'exact.py')
+    names = ('signed_log.py', 'quantities.py', 'exact.py', 'write_arithmetic.py', 'WRITE_FOUNDATION.json')
     result = {name: sha256((base / name).read_bytes()).hexdigest() for name in names}
     result['bound_hd_source'] = sha256(Path(getsourcefile(foundation.hd_module.HDSignature)).read_bytes()).hexdigest()
     return result
@@ -64,7 +64,18 @@ def _reference(raw, quantity):
     return {'value': canonical(value), 'quantity': descriptor}
 
 
-def _signature(value, quantity, reference, foundation):
+def _signature(value, quantity, reference, foundation, representation='HD'):
+    if representation == 'RATIONAL':
+        divisor = 1 if reference is None else rational(reference['value'])
+        status = ('ZERO_HAS_NO_FINITE_LOG' if value == 0 else
+                  'REFERENCE_REQUIRED' if quantity['units'] and reference is None else 'DEFINED')
+        return {'value': canonical(value), 'hd_signature': None,
+                'sign': (value > 0) - (value < 0),
+                'variant': 'ZERO' if value == 0 else 'NONZERO',
+                'log_magnitude': ({'positive_rational_argument': canonical(abs(value)/divisor),
+                    'multiplier': '1', 'representation': 'EXACT_UNFACTORED_LOG'} if status == 'DEFINED' else None),
+                'log_status': status, 'representation': 'EXACT_RATIONAL',
+                'factorization': 'DEFERRED'}
     hd = foundation.hd_module.HDSignature.from_rational(value)
     if value == 0:
         logarithm, log_status = None, 'ZERO_HAS_NO_FINITE_LOG'
@@ -80,7 +91,7 @@ def _signature(value, quantity, reference, foundation):
             'log_magnitude': logarithm, 'log_status': log_status}
 
 
-def _append(inputs, prior, foundation):
+def _append(inputs, prior, foundation, representation='HD'):
     if not isinstance(inputs, list):
         raise ValueError('Contribution nodes must be a complete ordered list')
     nodes = deepcopy(prior)
@@ -103,7 +114,7 @@ def _append(inputs, prior, foundation):
                     'quantity': quantity, 'reference': reference, 'source': raw.get('source')}
             node = {'id': identifier, 'op': operation, 'operands': [], 'quantity': quantity,
                     'reference': reference, 'source': raw.get('source'), 'status': 'DEFINED',
-                    **_signature(value, quantity, reference, foundation)}
+                    **_signature(value, quantity, reference, foundation, representation)}
         else:
             if operation not in ('ADD', 'SUBTRACT', 'MULTIPLY', 'DIVIDE') or set(raw) != {'id', 'op', 'left', 'right'}:
                 raise ValueError('Binary value operation needs known operation and two explicit prior node IDs')
@@ -144,11 +155,13 @@ def _append(inputs, prior, foundation):
                         value = a + b
                     elif operation == 'SUBTRACT':
                         value = a - b
+                    elif representation == 'RATIONAL':
+                        value = a / b if operation == 'DIVIDE' else a * b
                     else:
                         hda = foundation.hd_module.HDSignature.from_rational(a)
                         hdb = foundation.hd_module.HDSignature.from_rational(b)
                         value = (hda.divide(hdb) if operation == 'DIVIDE' else hda.multiply(hdb)).value
-                    node.update(_signature(value, quantity, reference, foundation))
+                    node.update(_signature(value, quantity, reference, foundation, representation))
             node['status'] = status
             if status != 'DEFINED':
                 node.update(value=None, hd_signature=None, sign=None, variant='UNDEFINED',
@@ -184,13 +197,18 @@ def _result(body, work):
 def dispatch(operation, payload, foundation):
     """GEN2_SIGNED_LOG(nodes,result_id?) or RESUME(checkpoint,append_nodes,result_id?)."""
     if operation == 'GEN2_SIGNED_LOG':
-        if not isinstance(payload, dict) or set(payload) - {'nodes', 'result_id'} or 'nodes' not in payload:
+        if not isinstance(payload, dict) or set(payload) - {'nodes', 'result_id', 'representation'} or 'nodes' not in payload:
             raise ValueError('Signed arithmetic needs declared contribution nodes')
-        inputs, nodes = _append(payload['nodes'], [], foundation)
+        representation = payload.get('representation', 'HD')
+        if representation not in ('HD', 'RATIONAL'):
+            raise ValueError('Arithmetic representation must be HD or RATIONAL')
+        inputs, nodes = _append(payload['nodes'], [], foundation, representation)
         if not nodes:
             raise ValueError('A signed arithmetic graph requires at least one contribution')
         body = {'schema': SCHEMA, 'complete': True, 'implementation_binding': _binding(foundation),
                 'inputs': inputs, 'nodes': nodes, 'result_id': payload.get('result_id', nodes[-1]['id'])}
+        if representation != 'HD':
+            body['representation'] = representation
         return _result(body, {'new_nodes_evaluated': len(nodes), 'existing_nodes_reused': 0,
                               'checkpoint_nodes_revalidated': 0})
     if operation != 'GEN2_SIGNED_LOG_RESUME':
@@ -202,16 +220,21 @@ def dispatch(operation, payload, foundation):
         raise ValueError('Malformed signed arithmetic checkpoint')
     body = deepcopy(checkpoint['body'])
     expected = {'schema', 'complete', 'implementation_binding', 'inputs', 'nodes', 'result_id'}
+    if isinstance(body, dict) and 'representation' in body:
+        expected.add('representation')
+    representation = body.get('representation', 'HD') if isinstance(body, dict) else None
+    if representation not in ('HD', 'RATIONAL'):
+        raise ValueError('Unknown checkpoint arithmetic representation')
     if not isinstance(body, dict) or set(body) != expected or body['schema'] != SCHEMA or body['complete'] is not True or digest(body) != checkpoint['sha256'] or body['implementation_binding'] != _binding(foundation):
         raise ValueError('Signed arithmetic checkpoint is incomplete, altered or differently bound')
     validated = 0
     if canonical_bytes(body) not in _VERIFIED:
-        inputs, nodes = _append(body['inputs'], [], foundation)
+        inputs, nodes = _append(body['inputs'], [], foundation, representation)
         if inputs != body['inputs'] or nodes != body['nodes']:
             raise ValueError('Contribution graph values, references or operation associations were altered')
         validated = len(nodes)
     prior = len(body['nodes'])
-    inputs, nodes = _append(payload.get('append_nodes', []), body['nodes'], foundation)
+    inputs, nodes = _append(payload.get('append_nodes', []), body['nodes'], foundation, representation)
     body['inputs'] += inputs; body['nodes'] = nodes
     body['result_id'] = payload.get('result_id', nodes[-1]['id'] if inputs else body['result_id'])
     return _result(body, {'new_nodes_evaluated': len(inputs), 'existing_nodes_reused': prior,

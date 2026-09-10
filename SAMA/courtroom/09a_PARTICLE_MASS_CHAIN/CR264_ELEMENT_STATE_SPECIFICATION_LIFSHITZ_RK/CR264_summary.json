@@ -1,0 +1,61 @@
+{
+  "precommit_sha256": "5f8de5f6724cae717b00cee67210a45c0b4fc1e9f0f2c7baebde8d2cdb5feb33",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR264_ELEMENT_STATE_SPECIFICATION_LIFSHITZ_RK",
+  "classification": "STRUCTURAL_PREDICTION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "state_model": "Lifshitz-RK ground state on tripartite graph (A, B, C) with disjoint-A-B-C-between topology (paper Fig. 1(a))",
+  "subsystem_length_assignments": {
+    "l_A": "u_count = 2Z+N",
+    "l_B": "d_count = Z+2N",
+    "l_C": "e_count = Z",
+    "l_total": "3A = 3(Z+N)"
+  },
+  "GHZ_count_map": "min(u, d, e) = Z for Z \u2264 N",
+  "multientropy_formula_massless": "G^(3)_n(Z, N) = (2-n)/(4n) \u00b7 log[(3Z+N)(2Z+2N) / (3\u00b7Z\u00b7A)]",
+  "n2_vanishing": true,
+  "anchor_values_n1": {
+    "C_12": {
+      "arg_fraction": "8/3",
+      "value_dimensionless": 0.20666964329611698
+    },
+    "He_4": {
+      "arg_fraction": "8/3",
+      "value_dimensionless": 0.20666964329611698
+    },
+    "Au_197": {
+      "arg_fraction": "710/237",
+      "value_dimensionless": 0.24293578348032913
+    }
+  },
+  "chain_step_degeneracy": "all Z=N give argument 8/3",
+  "structural_constraint_for_CR265": "\u03ba'(C-12) = 0 exactly; the fee scale must vanish at C-12 to respect m(C-12) = 12 by definition of u",
+  "closes_open_items": [
+    "O1_element_state_specification"
+  ],
+  "defers_open_items_to": {
+    "CR265": [
+      "O2_fee_scale_constant",
+      "O3_sign_convention",
+      "O4_GHZ_count_substrate_quantity"
+    ],
+    "constraint": "\u03ba'(C-12) = 0 exactly (since G^(3)_1(C-12) > 0 but B_u(C-12) = 0 by definition of u); CR265 scale must have structural zero at C-12"
+  },
+  "gates": {
+    "G1_state_model_formula": true,
+    "G2_GHZ_count_equals_Z": true,
+    "G3_n2_vanishing": true,
+    "G4_anchor_values_match": true,
+    "G5_chain_step_degeneracy": true,
+    "G6_Au_C12_ratio": true,
+    "G7_open_items_reassigned": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. Lifshitz-RK state model with source-channel lengths gives substrate-natural multientropy: G^(3)_2 vanishes for all elements (Markov gap zero), G^(3)_1 = (1/4)\u00b7log(16/7) for all Z=N elements (chain-step degeneracy), Au-197 carries 17.6% more multientropy bits than C-12. Open item O1 closed; constraint \u03ba'(C-12) = 0 sealed for CR265.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 2
+}

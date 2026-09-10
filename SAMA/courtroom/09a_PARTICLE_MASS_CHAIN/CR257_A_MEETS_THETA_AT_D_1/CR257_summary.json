@@ -1,0 +1,29 @@
+{
+  "artifact": "CR257_A_MEETS_THETA_AT_D_1",
+  "verdict": "BOUNDARY",
+  "precommit_hash": "75ee3b884a8b4d25bebfa2fa847de75e7edc0d7a2e0264424a610469f6e64afd",
+  "input_hash": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+  "n_anti_d1": 16,
+  "n_anti_d0": 16,
+  "E_gate_matches": "16/16",
+  "E_gate_max_residual": 5.000001124244591e-08,
+  "A_gate_fraction_equal": "16/16",
+  "D_gate_d0_compact_matches": {
+    "neg": "0/8",
+    "pos": "0/8"
+  },
+  "wrong_controls": {
+    "W3_sign_swap": "0/16",
+    "W4_power_variants": {
+      "power=1": 8,
+      "power=3": 0
+    }
+  },
+  "verdict_conditions": {
+    "E_empirical_16_16": true,
+    "A_algebraic_fraction_equality": true,
+    "D_depth_uniqueness": true,
+    "W3_sign_swap_le_4": true,
+    "W4_power_variants_zero": false
+  }
+}

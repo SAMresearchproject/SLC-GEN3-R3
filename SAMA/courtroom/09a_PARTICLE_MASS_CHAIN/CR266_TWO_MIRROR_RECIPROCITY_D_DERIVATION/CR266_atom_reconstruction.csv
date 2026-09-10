@@ -1,0 +1,8 @@
+label,h_exp,d_exp,value_derived,value_sealed_previously,reconstruction_ok
+S,3,0,8,8,True
+R,2,1,12,12,True
+V,0,3,27,27,True
+F,0,4,81,81,True
+Theta,1,2,18,18,True
+L_curly,1,4,162,162,True
+M,(S-1)*Theta,-,126,126,True

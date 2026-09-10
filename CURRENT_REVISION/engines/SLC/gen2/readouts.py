@@ -326,6 +326,9 @@ def _dispatch_base(operation, payload):
 
 
 def dispatch(operation, payload):
+    if payload.get('strategy') == 'write_foundation':
+        from .write_arithmetic import dispatch as foundation_dispatch
+        return foundation_dispatch(operation.removeprefix('GEN2_'), payload)
     from .motion_adapters import readout_geometry
     from .boundary_information import register_ordinary
     return register_ordinary(operation, payload,

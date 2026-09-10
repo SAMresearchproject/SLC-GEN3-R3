@@ -1,0 +1,15 @@
+invariant,expected,observed,status
+matter_row_count,126,126,PASS
+source_matter_row_count,126,126,PASS
+bin_counts,"{'stable_matter_rows': 63, 'bound_composite_rows': 63}","{'stable_matter_rows': 63, 'bound_composite_rows': 63}",PASS
+all_rows_matter_allowed,matter_row_allowed=yes and latest_matter_row_allowed=yes on 126/126,126,PASS
+matter_gate_counts,"{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}","{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}",PASS
+operator_class_counts,"{'V4_1_SINGLE_WRITE': 42, 'OUTER_BINARY_NEUTRAL': 21, 'BOUND_COLOR_PAIR': 36, 'GROUND_BARYON_3BODY': 14, 'OCTET_COMPOSITE': 13}","{'V4_1_SINGLE_WRITE': 42, 'OUTER_BINARY_NEUTRAL': 21, 'GROUND_BARYON_3BODY': 14, 'BOUND_COLOR_PAIR': 36, 'OCTET_COMPOSITE': 13}",PASS
+stability_status_counts,"{'STABLE_MATTER_CANDIDATE': 42, 'STABLE_NEUTRAL_CANDIDATE': 21, 'BOUND_PAIR_CHARGED_CANDIDATE': 42, 'BOUND_COLOR_CLOSED_STABLE_CANDIDATE': 14, 'BOUND_PAIR_NEUTRAL_CANDIDATE': 7}","{'STABLE_MATTER_CANDIDATE': 42, 'STABLE_NEUTRAL_CANDIDATE': 21, 'BOUND_COLOR_CLOSED_STABLE_CANDIDATE': 14, 'BOUND_PAIR_NEUTRAL_CANDIDATE': 7, 'BOUND_PAIR_CHARGED_CANDIDATE': 42}",PASS
+no_antimatter_rows_in_matter_table,0,0,PASS
+known_labels_not_construction_inputs,{'no': 126},{'no': 126},PASS
+native_matter_identity,{'NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL': 126},{'NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL': 126},PASS
+native_identity_no_external_label,{'native_identity_no_external_label': 126},{'native_identity_no_external_label': 126},PASS
+qA_support_split_from_LC01,tensor=qA/8 and retained=7qA/8 within 1e-90 exported-decimal tolerance,max_error=1E-96; tolerance=1E-90,PASS
+observed_surface_identity,M_observed_candidate = M_native - S_debit_or_credit,max_error=0.00; tolerance=1E-90,PASS
+QP093A_0088_null_conjugate_excluded_from_matter,"particle row exists, matter table excludes it, latest_matter_row_allowed=no","{'particle_rows': 1, 'matter_rows': 0, 'latest_matter_row_allowed': 'no', 'vault_reveal_status': 'NULL_CONJUGATE_REVEALED_ZERO_QA_NO_MATTER_PROMOTION'}",PASS

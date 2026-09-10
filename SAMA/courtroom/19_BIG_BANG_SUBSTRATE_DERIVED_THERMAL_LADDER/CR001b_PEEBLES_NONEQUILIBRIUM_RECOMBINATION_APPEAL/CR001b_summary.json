@@ -1,0 +1,120 @@
+{
+  "precommit_sha256": "38259de487a8b3a31df787c7c5d5bed5e442c134472b74e3f5ad0a98d7ff991b",
+  "appeal_of": "CR001@19",
+  "appeal_basis": "Saha first-approximation replaced with Peebles non-equilibrium effective-three-level atom",
+  "substrate": {
+    "A_0": 0.026525823848649224,
+    "alpha_H": 2,
+    "D": 3,
+    "R": 12,
+    "S": 8,
+    "Theta": 18,
+    "Omega_m_SAM": 0.3183098861837907,
+    "chi": 0.07073553026306459,
+    "Omega_b_SAM": 0.049299011266100756,
+    "Omega_c_SAM": 0.26901087491768993
+  },
+  "measurement_inputs": {
+    "H0": 68.76,
+    "T_0": 2.7255,
+    "N_eff": 3.046
+  },
+  "planck_reference": {
+    "z_eq": 3402.0,
+    "z_star": 1089.92,
+    "z_drag": 1059.94,
+    "rs_zstar": 144.43,
+    "r_d": 147.09,
+    "DM_zstar": 13869.6,
+    "ell_A": 301.76,
+    "hundred_theta_star": 1.0411
+  },
+  "canonical": {
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "Omega_c": 0.26901087491768993,
+    "Omega_gamma": 5.230558316323047e-05,
+    "Omega_r": 8.848895834757732e-05,
+    "Omega_L": 0.6816016248578617,
+    "H0": 68.76,
+    "rho_c_0": 8.880681956293429e-27,
+    "a_eq": 0.0002779962614685621,
+    "z_eq": 3596.1706767469873,
+    "k_eq_per_Mpc": 0.010975788982681985,
+    "a_star": 0.004379910908226619,
+    "z_star": 227.31514634732372,
+    "rs_zstar_Mpc": 328.2601483742965,
+    "DM_zstar_Mpc": 13015.320526885858,
+    "theta_star": 0.02522105757566298,
+    "hundred_theta_star": 2.522105757566298,
+    "ell_A": 124.56228864174466,
+    "a_d": 0.0023356185420614056,
+    "z_d": 427.1521070291748,
+    "rd_Mpc": 244.1353814091623
+  },
+  "bbn": {
+    "eta": 6.372849308308806e-10,
+    "eta_10": 6.3728493083088065,
+    "T_f_MeV": 1.1499063356355128,
+    "n_p_freeze": 0.3247497804711521,
+    "t_f_s": 0.55830954686706,
+    "t_BBN_s": 247.7929014782426,
+    "delta_t_s": 247.23459193137555,
+    "n_p_bbn": 0.24516094009112516,
+    "Y_p": 0.3937819316323614,
+    "D_H": 2.3561294029618494e-05
+  },
+  "deviations": {
+    "z_eq_pct": 5.707544877924376,
+    "z_star_pct": -79.14386869244314,
+    "z_drag_pct": -59.70035030009484,
+    "rs_zstar_pct": 127.27975377296717,
+    "r_d_pct": 65.97687226131097,
+    "DM_zstar_pct": -6.15936633438702,
+    "ell_A_pct": -58.72140487747062,
+    "hundred_theta_pct": 142.25393886910942,
+    "Y_p_pct": 60.72731903361691,
+    "D_H_pct": -6.761796479546921,
+    "eta_10_pct": 4.4729394804722435
+  },
+  "P1": {
+    "name": "100*theta_* vs Planck",
+    "deviation": 1.4225393886910942,
+    "threshold": 0.05,
+    "passed": "False"
+  },
+  "P2": {
+    "name": "ell_A vs Planck",
+    "deviation": -0.5872140487747062,
+    "threshold": 0.05,
+    "passed": "False"
+  },
+  "P3": {
+    "name": "r_d vs Planck",
+    "deviation": 0.6597687226131097,
+    "threshold": 0.05,
+    "passed": false
+  },
+  "WC1": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 1.4225393886910942,
+    "null_median": 1.3223333035828195,
+    "null_p1": 1.2597916816401022,
+    "null_p5": 1.2627085054504197,
+    "n_extreme": 719,
+    "canonical_percentile": 71.89999999999999,
+    "p_value": 0.7192807192807192
+  },
+  "WC2": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 1.4225393886910942,
+    "null_median": 1.5418820397118373,
+    "null_p1": 1.2105028366479995,
+    "null_p5": 1.2533361552512927,
+    "n_extreme": 319,
+    "canonical_percentile": 31.900000000000002,
+    "p_value": 0.3196803196803197
+  },
+  "verdict": "FAIL",
+  "verdict_reason": "failed gate(s): ['P1', 'P2', 'P3']"
+}

@@ -1,0 +1,9 @@
+control,passed,observation
+WC01_SYNTHETIC_CROSSING_DIRECTION,True,"{""inward"": [[0.5, ""inward""]], ""outward"": [[0.5, ""outward""]], ""passed"": true}"
+WC02_SAME_PAIR_RETURN_IS_NOT_EVENT_CLOSURE,True,local 101 return rejected as independent closure
+WC03_FINAL_CONTACT_IS_NOT_CLOSURE_TIME,True,final selector has no timestamp
+WC04_FINAL_FATE_IS_NOT_ESCAPE_TIME,True,endpoint label has no cadence
+WC05_CONTACT_RADIUS_IS_NOT_HORIZON,True,radius role remains geometric proximity
+WC06_NO_EQUAL_PHYSICAL_DURATION_ASSUMPTION,True,lambda is explicitly stage-normalized only
+WC07_ENDING_ZERO_HISTORIES_RETAINED,True,59191245
+WC08_B_X1_NOT_ASSIGNED,True,no causal or identity assignment

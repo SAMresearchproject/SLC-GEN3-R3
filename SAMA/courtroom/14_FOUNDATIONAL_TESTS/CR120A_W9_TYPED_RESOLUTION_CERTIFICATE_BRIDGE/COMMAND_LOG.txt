@@ -1,0 +1,199 @@
+## valid_resolve_check
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve.sam
+returncode: 0
+stdout:
+{
+  "return_entity": "W9_CLOSURE_WITNESS",
+  "status": "PASS"
+}
+
+## valid_resolve_run
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli run 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve.sam
+returncode: 0
+stdout:
+{
+  "authority_status": "ACTIVE",
+  "entity_id": "W9_CLOSURE_WITNESS",
+  "scalar_value": 9,
+  "semantic_type": "ClosureWitness",
+  "source_trace": [
+    {
+      "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+      "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+      "source_key": "parent_v04_release"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "source_key": "typed_hierarchy"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "source_key": "handoff_contract"
+    }
+  ],
+  "trace": [
+    {
+      "entity_id": "S8_BINARY_SURFACE",
+      "name": "surface",
+      "stage": "name_resolution",
+      "status": "PASS"
+    },
+    {
+      "entity_id": "X1_AXIS_SELF_CHANNEL",
+      "name": "axis",
+      "stage": "name_resolution",
+      "status": "PASS"
+    },
+    {
+      "args": [
+        "S8_BINARY_SURFACE",
+        "B_CONTACT_OPERATOR",
+        "X1_AXIS_SELF_CHANNEL"
+      ],
+      "operator": "RESOLVE",
+      "result_entity": "W9_CLOSURE_WITNESS",
+      "stage": "typed_execution_plan",
+      "status": "PASS"
+    },
+    {
+      "entity_id": "W9_CLOSURE_WITNESS",
+      "scalar_value": 9,
+      "semantic_type": "ClosureWitness",
+      "stage": "execution",
+      "status": "PASS"
+    }
+  ],
+  "warnings": []
+}
+
+## valid_resolve_promote_check
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve_promote.sam
+returncode: 0
+stdout:
+{
+  "return_entity": "V27_VOLUME_CONTAINER",
+  "status": "PASS"
+}
+
+## valid_resolve_promote_run
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli run 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve_promote.sam
+returncode: 0
+stdout:
+{
+  "authority_status": "ACTIVE",
+  "entity_id": "V27_VOLUME_CONTAINER",
+  "scalar_value": 27,
+  "semantic_type": "VolumeContainer",
+  "source_trace": [
+    {
+      "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+      "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+      "source_key": "parent_v04_release"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "source_key": "typed_hierarchy"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "source_key": "handoff_contract"
+    }
+  ],
+  "trace": [
+    {
+      "entity_id": "S8_BINARY_SURFACE",
+      "name": "surface",
+      "stage": "name_resolution",
+      "status": "PASS"
+    },
+    {
+      "entity_id": "X1_AXIS_SELF_CHANNEL",
+      "name": "axis",
+      "stage": "name_resolution",
+      "status": "PASS"
+    },
+    {
+      "args": [
+        "S8_BINARY_SURFACE",
+        "B_CONTACT_OPERATOR",
+        "X1_AXIS_SELF_CHANNEL"
+      ],
+      "operator": "RESOLVE",
+      "result_entity": "W9_CLOSURE_WITNESS",
+      "stage": "typed_execution_plan",
+      "status": "PASS"
+    },
+    {
+      "args": [
+        "W9_CLOSURE_WITNESS",
+        "D3_DIMENSION"
+      ],
+      "operator": "PROMOTE_VOLUME",
+      "result_entity": "V27_VOLUME_CONTAINER",
+      "stage": "typed_execution_plan",
+      "status": "PASS"
+    },
+    {
+      "entity_id": "V27_VOLUME_CONTAINER",
+      "scalar_value": 27,
+      "semantic_type": "VolumeContainer",
+      "stage": "execution",
+      "status": "PASS"
+    }
+  ],
+  "warnings": []
+}
+
+## invalid_direct_promote
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_direct_promote.sam
+returncode: 2
+stderr:
+{
+  "error": "TypeCheckError",
+  "message": "PROMOTE_VOLUME expects ('ClosureWitness', 'Dimension'), found ('BinarySurface', 'Dimension'); PROMOTE_VOLUME(S8, D3) is not legal because S8 remains BinarySurface",
+  "status": "FAIL"
+}
+
+## invalid_missing_x1
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_missing_x1.sam
+returncode: 2
+stderr:
+{
+  "error": "TypeCheckError",
+  "message": "RESOLVE expected 3 args, found 2",
+  "status": "FAIL"
+}
+
+## invalid_contact_as_axis
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_contact_as_axis.sam
+returncode: 2
+stderr:
+{
+  "error": "TypeCheckError",
+  "message": "RESOLVE expects ('BinarySurface', 'ContactOperator', 'AxisChannel'), found ('BinarySurface', 'ContactOperator', 'ContactOperator'); PROMOTE_VOLUME(S8, D3) is not legal because S8 remains BinarySurface",
+  "status": "FAIL"
+}
+
+## invalid_axis_as_contact
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_axis_as_contact.sam
+returncode: 2
+stderr:
+{
+  "error": "TypeCheckError",
+  "message": "RESOLVE expects ('BinarySurface', 'ContactOperator', 'AxisChannel'), found ('BinarySurface', 'AxisChannel', 'AxisChannel'); PROMOTE_VOLUME(S8, D3) is not legal because S8 remains BinarySurface",
+  "status": "FAIL"
+}
+
+## invalid_same_scalar_merge
+C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_same_scalar_merge.sam
+returncode: 2
+stderr:
+{
+  "error": "AuthorityError",
+  "message": "Scalar equality is insufficient: W9_CLOSURE_WITNESS:ClosureWitness != CARRIER9:Carrier",
+  "status": "FAIL"
+}

@@ -1,0 +1,162 @@
+{
+  "cr_id": "CR281",
+  "nodes": [
+    "A0",
+    "chi",
+    "Omega_b",
+    "Omega_m",
+    "Omega_c",
+    "Omega_Lambda",
+    "Omega_m_eff",
+    "M",
+    "Theta",
+    "eta",
+    "K(T_CMB)",
+    "omega_b",
+    "h_squared",
+    "h",
+    "H0"
+  ],
+  "chains": [
+    [
+      "A0",
+      "chi",
+      "Omega_b"
+    ],
+    [
+      "A0*R",
+      "Omega_m",
+      "Omega_c"
+    ],
+    [
+      "Omega_m",
+      "Omega_Lambda"
+    ],
+    [
+      "A0",
+      "chi",
+      "D",
+      "Omega_m_eff"
+    ],
+    [
+      "A0",
+      "M",
+      "Theta",
+      "eta"
+    ],
+    [
+      "eta",
+      "K(T_CMB)",
+      "omega_b"
+    ],
+    [
+      "omega_b",
+      "Omega_b",
+      "h_squared"
+    ],
+    [
+      "h_squared",
+      "h",
+      "H0"
+    ]
+  ],
+  "edges": [
+    {
+      "from": [
+        "A0",
+        "S",
+        "D"
+      ],
+      "to": "chi",
+      "formula": "chi=(S/D)*A0"
+    },
+    {
+      "from": [
+        "alpha_H",
+        "A0",
+        "chi"
+      ],
+      "to": "Omega_b",
+      "formula": "Omega_b=alpha_H*A0*(1-chi)"
+    },
+    {
+      "from": [
+        "R",
+        "A0"
+      ],
+      "to": "Omega_m",
+      "formula": "Omega_m=R*A0=1/pi"
+    },
+    {
+      "from": [
+        "Omega_m",
+        "Omega_b"
+      ],
+      "to": "Omega_c",
+      "formula": "Omega_c=Omega_m-Omega_b"
+    },
+    {
+      "from": [
+        "Omega_m"
+      ],
+      "to": "Omega_Lambda",
+      "formula": "Omega_Lambda=1-Omega_m"
+    },
+    {
+      "from": [
+        "R",
+        "A0",
+        "chi",
+        "D"
+      ],
+      "to": "Omega_m_eff",
+      "formula": "R*A0-2*A0*(chi+D*chi^2)"
+    },
+    {
+      "from": [
+        "M",
+        "alpha_H",
+        "Theta",
+        "A0"
+      ],
+      "to": "eta",
+      "formula": "(M/(alpha_H^2*Theta))*A0^6"
+    },
+    {
+      "from": [
+        "T_CMB",
+        "SI/CODATA constants"
+      ],
+      "to": "K(T_CMB)",
+      "formula": "n_b_per_omega_b/n_gamma"
+    },
+    {
+      "from": [
+        "eta",
+        "K(T_CMB)"
+      ],
+      "to": "omega_b",
+      "formula": "omega_b=eta/K"
+    },
+    {
+      "from": [
+        "omega_b",
+        "Omega_b"
+      ],
+      "to": "h_squared",
+      "formula": "h^2=omega_b/Omega_b"
+    },
+    {
+      "from": [
+        "h_squared"
+      ],
+      "to": "H0",
+      "formula": "H0=100*sqrt(h^2)"
+    }
+  ],
+  "forbidden_edge": {
+    "from": "Planck_omega_b_h2",
+    "to": "omega_b",
+    "status": "rejected_comparator_only"
+  }
+}

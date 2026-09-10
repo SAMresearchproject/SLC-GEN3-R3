@@ -1,0 +1,9 @@
+operator,edge,status,source_reason
+RESOLVE,S8 + X1 -> W9,PASS,"CR267 plus CR269 plus CR282 appeal; B acts through X1, B != X1"
+PROMOTE_VOLUME,W9 * D3 -> V27,PASS,CR262 container role and exact D*W/D^3
+PROMOTE_FACE,V27 * D3 -> F81,PASS,CR233/CR262 completed face role
+MIRROR_CLOSE,F81 * h2 -> L162,PASS,CR229/CR233 closed ledger
+RELEASE_CARRIER,N144 / S8 -> Theta18,PASS,CR114/CR269 split-loss and release role
+RETAIN_MATTER,N144 - Theta18 -> M126,PASS,CR114/CR229/CR269 retained matter capacity
+RESERVE_CLOSURE_ADDRESS,F81 - X1 -> P80,STRUCTURAL_ONLY,CR283 inherited verdict; row geometry open
+PROMOTE_VOLUME,S8 * D3 -> 24,TYPE_REJECT_UNRESOLVED_SURFACE_NOT_CLOSURE_WITNESS,unresolved surface is not legal VolumeContainer input

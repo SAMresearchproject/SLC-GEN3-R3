@@ -1,0 +1,285 @@
+{
+  "constructed_roles": {
+    "conserving_split": {
+      "fixture_space": "Q^81_CONSTRUCTED_NOT_INSTALLED",
+      "kappa": {
+        "e2": 1
+      },
+      "left": {
+        "e0": 1
+      },
+      "omitted_kappa_scalar_residual": 1,
+      "omitted_kappa_vector_residual": {
+        "e2": 1
+      },
+      "operator_actions": {
+        "B0": {
+          "definition": "identity",
+          "kappa_B": {
+            "e2": 1
+          }
+        },
+        "B1": {
+          "definition": "swap e1 and e2",
+          "kappa_B": {
+            "e1": 1
+          }
+        }
+      },
+      "parent": {
+        "e0": 1,
+        "e1": 1,
+        "e2": 1
+      },
+      "right": {
+        "e1": 1
+      },
+      "role_types": {
+        "B0_and_B1": "ConstructedStaticAction",
+        "F81": "InstalledCompletedFace",
+        "P80": "InstalledStructuralOnlyParticleFaceContent",
+        "X1": "InstalledAxisChannel",
+        "b": "ConstructedCarrierState",
+        "kappa_B": "ConstructedResidueVector"
+      },
+      "scalar_invariant_closure_residual": 0,
+      "vector_closure_residual": {}
+    },
+    "stateful_comparison": {
+      "classification": "CONSTRUCTED_STATEFUL_COMPARISON_NOT_INSTALLED_OPERATOR",
+      "histories": {
+        "H1": {
+          "final_state": {
+            "e1": 1
+          },
+          "history": [
+            {
+              "e1": 1
+            }
+          ],
+          "readout": 1
+        },
+        "H2": {
+          "final_state": {
+            "e2": 1
+          },
+          "history": [
+            {
+              "e2": 1
+            }
+          ],
+          "readout": 0
+        }
+      },
+      "initial_state": {},
+      "probe": {
+        "e1": 1
+      },
+      "recurrence": "Phi(b,v)=b+v",
+      "static_memoryless_control": {
+        "definition": "fixed readout zero; no state argument",
+        "readouts": {
+          "H1": 0,
+          "H2": 0
+        }
+      }
+    }
+  },
+  "discriminations": {
+    "B0_or_B1_is_installed_B_CONTACT_OPERATOR": "OPEN_NOT_MAPPED",
+    "H2_ARITY_is_external_Higgs_entity": "REJECTED_NO_MERGE_AUTHORIZED",
+    "P80_is_populated_particle_inventory": "REJECTED_STRUCTURAL_ONLY",
+    "residue_is_carrier_state": "REJECTED_BY_SEPARATE_TYPES",
+    "static_action_is_its_residue": "REJECTED_IN_FIXTURE",
+    "static_action_is_stateful_recurrence": "REJECTED_IN_FIXTURE"
+  },
+  "installed_surface": {
+    "count_products": {
+      "F81_minus_X1_equals_P80": true,
+      "F81_times_H2_equals_L162": true,
+      "S8_plus_X1_equals_W9": true,
+      "V27_times_D3_equals_F81": true,
+      "W9_times_D3_equals_V27": true
+    },
+    "cr120_frontier": {
+      "ADJACENT": {
+        "recorded_in_CR120_boundary": true,
+        "registry_entity_absent": true,
+        "registry_operator_absent": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "ADJACENT_LEDGER_STATE": {
+        "recorded_in_CR120_boundary": true,
+        "registry_entity_absent": true,
+        "registry_operator_absent": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "LEDGER_SITE": {
+        "recorded_in_CR120_boundary": true,
+        "registry_entity_absent": true,
+        "registry_operator_absent": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "PROPAGATE_CLOSURE": {
+        "recorded_in_CR120_boundary": true,
+        "registry_entity_absent": true,
+        "registry_operator_absent": true,
+        "status": "MISSING_PRESERVED"
+      }
+    },
+    "entities": {
+      "B_CONTACT_OPERATOR": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": null,
+        "semantic_type": "ContactOperator"
+      },
+      "D3_DIMENSION": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 3,
+        "semantic_type": "Dimension"
+      },
+      "F81_COMPLETED_FACE": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 81,
+        "semantic_type": "CompletedFace"
+      },
+      "H2_ARITY": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 2,
+        "semantic_type": "Arity"
+      },
+      "L162_FULL_LEDGER": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 162,
+        "semantic_type": "FullLedger"
+      },
+      "P80_PARTICLE_FACE_CONTENT": {
+        "authority": "STRUCTURAL_ONLY",
+        "matches_frozen_prefix": true,
+        "scalar_value": 80,
+        "semantic_type": "ParticleFaceContent"
+      },
+      "S8_BINARY_SURFACE": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 8,
+        "semantic_type": "BinarySurface"
+      },
+      "V27_VOLUME_CONTAINER": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 27,
+        "semantic_type": "VolumeContainer"
+      },
+      "W9_CLOSURE_WITNESS": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 9,
+        "semantic_type": "ClosureWitness"
+      },
+      "X1_AXIS_SELF_CHANNEL": {
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "scalar_value": 1,
+        "semantic_type": "AxisChannel"
+      }
+    },
+    "installed_candidate_operator_names_absent": [
+      "DECODE_P80_ROWS",
+      "EXTRACT_RESIDUE",
+      "MIRROR_PARITY_DECOMPOSE",
+      "PROJECT_X1_COMPLEMENT",
+      "SPLIT_PARENT",
+      "STATEFUL_LIFT"
+    ],
+    "operators": {
+      "MIRROR_CLOSE": {
+        "arg_types": [
+          "CompletedFace",
+          "Arity"
+        ],
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "result_entity": "L162_FULL_LEDGER",
+        "result_type": "FullLedger",
+        "structural_only": false
+      },
+      "PROMOTE_FACE": {
+        "arg_types": [
+          "VolumeContainer",
+          "Dimension"
+        ],
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "result_entity": "F81_COMPLETED_FACE",
+        "result_type": "CompletedFace",
+        "structural_only": false
+      },
+      "PROMOTE_VOLUME": {
+        "arg_types": [
+          "ClosureWitness",
+          "Dimension"
+        ],
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "result_entity": "V27_VOLUME_CONTAINER",
+        "result_type": "VolumeContainer",
+        "structural_only": false
+      },
+      "RESERVE_CLOSURE_ADDRESS": {
+        "arg_types": [
+          "CompletedFace",
+          "AxisChannel"
+        ],
+        "authority": "STRUCTURAL_ONLY",
+        "matches_frozen_prefix": true,
+        "result_entity": "P80_PARTICLE_FACE_CONTENT",
+        "result_type": "ParticleFaceContent",
+        "structural_only": true
+      },
+      "RESOLVE": {
+        "arg_types": [
+          "BinarySurface",
+          "ContactOperator",
+          "AxisChannel"
+        ],
+        "authority": "ACTIVE",
+        "matches_frozen_prefix": true,
+        "result_entity": "W9_CLOSURE_WITNESS",
+        "result_type": "ClosureWitness",
+        "structural_only": false
+      }
+    },
+    "representation_boundary": {
+      "F81_vector_space_installed": false,
+      "P80_coordinate_or_particle_decoder_installed": false,
+      "X1_vector_embedding_installed": false,
+      "basis": "absence established on typed registry and handoff contract surfaces",
+      "inner_product_installed": false,
+      "mirror_parity_operator_installed": false
+    },
+    "same_scalar_distinctions": [
+      {
+        "entity_id": "X1_AXIS_SELF_CHANNEL",
+        "scalar_value": 1,
+        "semantic_type": "AxisChannel"
+      },
+      {
+        "entity_id": "C1_ROAD_LIGHT_CARRIER",
+        "scalar_value": 1,
+        "semantic_type": "Carrier"
+      },
+      {
+        "entity_id": "P1_LIFT_BEARING_SUPPORT",
+        "scalar_value": 1,
+        "semantic_type": "LiftBearingSupport"
+      }
+    ]
+  },
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT"
+}

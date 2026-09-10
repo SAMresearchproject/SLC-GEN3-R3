@@ -1,0 +1,114 @@
+{
+  "automatic_production_install": false,
+  "campaign_id": "SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE",
+  "candidate_code_hash": "25f2fa3eeec29a73a1937e4655996b38c89947b68eb6fbe310b56198aad01616",
+  "engine_contract_hash": "7efb50704ca42ce158285ca245c6cbcf71754bfa0ed15b0291abe1dfd6399708",
+  "formal_candidate": true,
+  "gates": [
+    {
+      "gate": "G01",
+      "status": "PASS",
+      "title": "Parent custody and sealed source/precommit lineage"
+    },
+    {
+      "gate": "G02",
+      "status": "PASS",
+      "title": "Single parser, checker, evaluator, type system, and registry path"
+    },
+    {
+      "gate": "G03",
+      "status": "PASS",
+      "title": "Formal profile isolation"
+    },
+    {
+      "gate": "G04",
+      "status": "PASS",
+      "title": "Twelve sites and 4096 basis addresses"
+    },
+    {
+      "gate": "G05",
+      "status": "PASS",
+      "title": "Exact canonical state invariant"
+    },
+    {
+      "gate": "G06",
+      "status": "PASS",
+      "title": "Frozen B, PREPARE_REQUEST, and X1_RESPONSE operators"
+    },
+    {
+      "gate": "G07",
+      "status": "PASS",
+      "title": "Complete ordered-pair lift"
+    },
+    {
+      "gate": "G08",
+      "status": "PASS",
+      "title": "Four real request sign-gauge diagnostics"
+    },
+    {
+      "gate": "G09",
+      "status": "PASS",
+      "title": "Rooted forests and all native decompositions"
+    },
+    {
+      "gate": "G10",
+      "status": "PASS",
+      "title": "Extra-edge peel and restore"
+    },
+    {
+      "gate": "G11",
+      "status": "PASS",
+      "title": "Frozen classical limit"
+    },
+    {
+      "gate": "G12",
+      "status": "PASS",
+      "title": "State/history separation"
+    },
+    {
+      "gate": "G13",
+      "status": "PASS",
+      "title": "Deterministic API and CLI receipts"
+    },
+    {
+      "gate": "G14",
+      "status": "PASS",
+      "title": "Atomic rejection and tamper detection"
+    },
+    {
+      "gate": "G15",
+      "status": "PASS",
+      "title": "Inherited/new regressions and clean wheel"
+    },
+    {
+      "gate": "G16",
+      "status": "PASS",
+      "title": "Boundary and wrong-control preservation"
+    }
+  ],
+  "generated_utc": "2026-07-18T23:52:44.230504+00:00",
+  "headline_counts": {
+    "classicalized_total_schedule_cases": 1081344,
+    "forest_parent_cases": 66,
+    "forward_formula_cases": 540672,
+    "native_decomposition_assignments": 31572,
+    "ordered_placements": 132,
+    "peel_restore_cases": 204,
+    "predecessor_classical_rows": 8,
+    "reverse_formula_cases": 540672,
+    "sign_gauge_cases": 528,
+    "wrong_controls": 23
+  },
+  "parent_executable_hash": "726011b38d27a9b5403a7df66d8d4d5ac7c49960bc331d65f57c66de7a7ecaf0",
+  "primary_verdict": "PASS_SAM_LANGUAGE_V0_6_SLC_C1_REAL_GRAMMAR_KERNEL__EXACT_12_LEBIT_STATE_EXECUTION_AND_TAMPER_EVIDENT_ROUTE_HISTORY__PHASE_PUBLICATION_AND_PHYSICAL_REALIZATION_OPEN",
+  "release_manifest_sha256": "b9460eec3c29fccf5d067bd5418b0fb8ea77b6a464e569721b7c7fdfc42b6591",
+  "remaining_boundaries": [
+    "complex phase semantics",
+    "measurement and publication",
+    "physical connectivity",
+    "coupling magnitude and cost",
+    "hardware realization"
+  ],
+  "same_run_repair": false,
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+control_id,hypothesis,wrong_formula,H_native,surface_debit,H_reveal,correct_H_reveal,rejected,reason
+WC17_HIGGS_TARGET_LOCK,Set H_reveal to the target first and call the selector done.,H_reveal := target,not computed,not computed,"target assertion, not replay",501/4,True,LC02 uses LC01 primitives before comparison; target assertion is not a replay formula.
+WC18A_CARRIER_LOSS_AS_SURFACE_DEBIT,Replace the surface debit with the 18 carrier loss.,H = H_native - 18,126,18,108,501/4,True,"Carrier loss is upstream split support, not the observed-surface debit."
+WC18B_HALF_BOUNCE_AS_SURFACE_DEBIT,Replace the surface debit with resolved half-bounce 9/16.,H = H_native - D^2/2^(D+1),126,9/16,2007/16,501/4,True,"9/16 is the resolved half-bounce algebra, not the Higgs surface debit."
+WC18C_BOUNCE_LIFT_AS_SURFACE_DEBIT,Replace the surface debit with bounce lift 9/8.,H = H_native - D^2/2^D,126,9/8,999/8,501/4,True,"9/8 is the bounce lift lane, not the observed-surface debit."
+WC20_NEAREST_PARTICLE_ROW_SELECTION,Pick the nearest particle row after seeing the target.,post-hoc nearest-row assignment,route not fixed,route not fixed,not a closed-form replay,501/4,True,LC02 fixes the CLOSED_SCALAR_LOOP route before comparison; no nearest-row search is run.
+WC_QP091U_WRONG_D_2,Use D=2 while keeping R=12.,R^2*(1-2^-2) - 2^2/R,108,1/3,323/3,501/4,True,D=2 fails both parent and reveal.
+WC_QP091U_WRONG_D_4,Use D=4 while keeping R=12.,R^2*(1-2^-4) - 4^2/R,135,4/3,401/3,501/4,True,D=4 fails both parent and reveal.
+WC_QP091U_WRONG_R_10,Use R=10 while keeping D=3.,10^2*(1-2^-3) - D^2/10,175/2,9/10,433/5,501/4,True,R=10 fails both parent and reveal.
+WC_QP091U_WRONG_R_24,Use R=24 while keeping D=3.,24^2*(1-2^-3) - D^2/24,504,3/8,4029/8,501/4,True,R=24 fails both parent and reveal.
+WC_QP091U_NO_SURFACE_DEBIT,Keep H_native but drop the observed-surface debit.,H = H_native,126,0,126,501/4,True,No debit preserves the parent but fails the reveal surface.
+WC_QP091U_DEBIT_D_OVER_R,Use D/R as the surface debit.,H = H_native - D/R,126,1/4,503/4,501/4,True,D/R preserves the parent but fails the reveal surface.
+WC_QP091U_DEBIT_D2_OVER_R2,Use D^2/R^2 as the surface debit.,H = H_native - D^2/R^2,126,1/16,2015/16,501/4,True,D^2/R^2 preserves the parent but fails the reveal surface.
+WC_OLD_2PI_QSPLIT_ROUTE_RESTORE,Restore the old 2*pi q-split near-lock as the exact parent route.,H_qsplit - D^2/R,126.001639700297361188599351135096,3/4,125.251639700297361188599351135096,501/4,True,QP091S/QP091T keep 2*pi q-split as near-lock context only; it misses the exact reveal by the recorded gap.

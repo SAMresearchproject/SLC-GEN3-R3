@@ -1,0 +1,6 @@
+control_id,control,observed,rejected,reason
+WC1,probability_is_completed_write,probability_only,True,QGA018 keeps below-threshold probability withheld_unresolved
+WC2,below_threshold_route_r0_write,withheld_unresolved,True,QGA019 r0 is below I_threshold=1/2
+WC3,selected_route_not_r1,r1,True,"QGA018, QGA019, and G678 all select r1"
+WC4,human_observation_causes_resolution,delayed local readout,True,G678 resolves at detector/cat/environment contact
+WC5,imported_qga019_disagrees,match,True,G678 imported QGA019 verdict and functional match current QGA019

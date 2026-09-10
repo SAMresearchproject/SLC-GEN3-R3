@@ -1,0 +1,49 @@
+{
+  "test_id": "CR023_BARYON_COSMOLOGY_BRANCH_VERDICT",
+  "verdict": "CR023_BOUNDARY_PASS_BARYON_INVENTORY_AND_COSMOLOGY_BRANCH",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PASS",
+  "triage_bin": "B",
+  "claim_tier": "DERIVED_BARYON_INVENTORY_AND_SCOPED_COSMOLOGY_CONTACT_FULL_CMB_BOUNDARIES_PRESERVED",
+  "export_claim": "SAM derives \u03a9_b \u2248 0.049299 from native A0/radix structure and horizon quotient \u03c7, then sharpens \u03a9_m_eff \u2248 0.313761 through the D\u00b7\u03c7\u00b2 directional-cumulant correction. The result feeds scoped CMB-boundary, acoustic, Planck-lite, BBN, and precision-CMB contact branches. Full recombination, perturbation, TT/TE/EE, full Planck likelihood, and theorem-grade CMB closure remain open debts.",
+  "scope_boundaries": [
+    "not full CMB closure",
+    "not full recombination closure",
+    "not full perturbation theorem",
+    "not full TT/TE/EE theorem closure",
+    "not full Planck likelihood",
+    "not full distance-triad closure"
+  ],
+  "component_verdicts": [
+    {
+      "component": "CR018",
+      "verdict": "CR018_PASS_A0_CHI_BARYON_INVENTORY_DERIVATION",
+      "scientific_verdict": "PASS",
+      "claim_tier": "DERIVED_BARYON_INVENTORY_CANDIDATE"
+    },
+    {
+      "component": "CR019",
+      "verdict": "CR019_PASS_EFFECTIVE_MATTER_INVENTORY_REFINEMENT",
+      "scientific_verdict": "PASS",
+      "claim_tier": "EFFECTIVE_MATTER_INVENTORY_FROM_D_CHI2_DIRECTIONAL_CUMULANT"
+    },
+    {
+      "component": "CR020",
+      "verdict": "CR020_BOUNDARY_PASS_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN",
+      "scientific_verdict": "BOUNDARY_PASS",
+      "claim_tier": "CMB_BOUNDARY_ACOUSTIC_CONCEPT_CHAIN_NOT_FULL_CMB_THEOREM"
+    },
+    {
+      "component": "CR021",
+      "verdict": "CR021_BOUNDARY_PASS_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT",
+      "scientific_verdict": "BOUNDARY_PASS",
+      "claim_tier": "SCOPED_CMB_DENSITY_BBN_CONTACT_NOT_FULL_CMB_CLOSURE"
+    },
+    {
+      "component": "CR022",
+      "verdict": "CR022_BOUNDARY_PASS_PRECISION_CMB_EXTENSION",
+      "scientific_verdict": "BOUNDARY_PASS",
+      "claim_tier": "SCOPED_PRECISION_CMB_EXTENSION_FULL_CMB_BOUNDARIES_PRESERVED"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# CR267 hashes
+
+CR267_PRECOMMIT.md sha256 = 61f39f1e1024464d033be63cb01e82cd7c67a3ec6764981c237908f55dcfbb39
+CR267_runner.py sha256 = c158489be723668622e122c849d1c7acd8739a9fcf043867c9afba66f65be332
+CR267_summary.json sha256 = e16730393faf89aa1e4d90f25095c9b7bd3b06cd4d33ec434de3e5dc64eb802e
+CR267_result.md sha256 = 098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3
+CR267_evidence_rows.csv sha256 = 05b44bd7b549ff24a736aa1be3ca5fcbcfdf31524abc04739f8742f257296bc3
+CR267_tensor9_roles.csv sha256 = 507002dd48dbcbea965c507bec65f65aebfcbe7956a8358aed348c2d9980cb1f
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR266@09a two-mirror reciprocity d_hat derivation
+  CR229@09a closed-ledger ratio L = R^2 * 9/8
+  CR114@09a Higgs reveal identity D^2/R surface debit

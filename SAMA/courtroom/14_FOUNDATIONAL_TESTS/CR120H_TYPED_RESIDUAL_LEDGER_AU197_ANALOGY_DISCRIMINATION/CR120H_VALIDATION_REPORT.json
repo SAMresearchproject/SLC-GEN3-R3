@@ -1,0 +1,42 @@
+{
+  "all_precommitted_gates_passed": true,
+  "all_wrong_controls_detected": true,
+  "checks": {
+    "G0_all_frozen_source_hashes_match": true,
+    "G1_CR120G_generic_base_plus_adjustment_equals_final": true,
+    "G1_CR120G_reconciliation_closes_exactly": true,
+    "G1_CR120G_reference_minus_final_equals_residual": true,
+    "G2_AU197_generic_base_plus_adjustment_equals_final": true,
+    "G2_AU197_operator_slot_is_exactly_null": true,
+    "G2_AU197_reference_minus_final_equals_residual": true,
+    "G3_schema_slot_names_match": true,
+    "G3_types_remain_domain_distinct": true,
+    "G3_units_remain_domain_distinct": true,
+    "G4_CR277_contains_positive_negative_and_zero_contributions": true,
+    "G4_CR277_plus_rule_holds_within_serialization_tolerance": true,
+    "G4_CR277_rows_available": true,
+    "G4_CR277_stored_residual_sign_holds_within_tolerance": true,
+    "G4_forced_universal_minus_rule_fails_nonzero_rows": true,
+    "G5_CR120_frontier_remains_missing": true,
+    "G5_P80_remains_structural_only_unpopulated": true,
+    "G5_no_cross_domain_bridge_operator_installed": true,
+    "G6_DRIVE_002_nested_source_hashes_match": true,
+    "G7_AU197_operator_effect_class_is_null": true,
+    "G7_no_clock_or_supernova_surface_used": true,
+    "G7_no_response_scalar_q_defined": true,
+    "G7_scientific_pass_not_claimed": true,
+    "G7_shared_shape_does_not_claim_type_equivalence": true
+  },
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "wrong_controls": {
+    "WC1_omitted_CR120G_kappa_detected": true,
+    "WC2_AU197_post_program_residual_is_not_operator_contribution": true,
+    "WC3_forced_universal_minus_rule_rejected": true,
+    "WC4_forced_nonzero_AU197_operator_rejected_by_frozen_drive": true,
+    "WC5_observed_as_generator_rejected_as_target_leakage": true,
+    "WC6_CR120G_kappa_not_identical_to_nuclear_operator_contribution": true,
+    "WC7_CR120G_reconciliation_not_identical_to_AU197_residual": true
+  }
+}

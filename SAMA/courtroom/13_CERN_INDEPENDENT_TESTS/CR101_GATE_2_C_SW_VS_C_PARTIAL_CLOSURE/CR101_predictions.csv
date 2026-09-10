@@ -1,0 +1,2 @@
+row_id,gate,candidate_index_in_CR100,candidate_name,predicted_value_dimensionless,expression,free_parameters_introduced,upstream_question_lock_sha256
+SAM_COMMITMENT,GATE_2,1,c_SW = c (identity),0.0,(v_substrate - c) / c,0,fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867

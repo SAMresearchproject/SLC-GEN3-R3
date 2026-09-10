@@ -1,0 +1,6 @@
+decomposition_id,expression,value,source_support,pass
+D1,80 = 48 matter + 32 antimatter,80,CR253/CR280,True
+D2,80 = 64 charged + 16 neutral,80,CR254/CR255/CR256 row-law split,True
+D3,80 = 32 matter charged + 16 matter neutral + 32 antimatter charged,80,CR254/CR255/CR256,True
+D4,80 = 81 - 1,80,CR267/CR269/CR282 plus F81 arithmetic,True
+D5,80 = 8 * 10,80,"exact arithmetic; partition_signature audit reports source-native eight decets, not ten octets",True

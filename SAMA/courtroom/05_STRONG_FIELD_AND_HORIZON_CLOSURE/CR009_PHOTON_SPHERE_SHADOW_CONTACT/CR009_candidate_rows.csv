@@ -1,0 +1,7 @@
+candidate,x_photon,A_photon,bcrit_over_rs,shadow_diameter_over_rs,local_minimum,full_packet,max_relative_miss
+sam_schwarzschild_photon_lane,1.5,0.6666666666666666,2.5980762113533156,5.196152422706631,True,True,1.709300165674279e-16
+wrong_half_A_horizon_wrong,1.0,1.0,1.414213562373095,2.82842712474619,True,False,0.5000000000000001
+wrong_power_preserve_horizon,1.4142135623730951,0.7071067811865475,2.0,4.0,True,False,0.230199641080499
+wrong_linear_shift_preserve_horizon,2.414213562373095,0.4142135623730951,3.751142200965657,7.502284401931314,False,False,0.60947570824873
+wrong_photon_at_2rs,1.4142135623730951,0.7071067811865475,2.0,4.0,True,False,0.230199641080499
+wrong_horizon_as_shadow,1.0,1.0,1.0,2.0,True,False,0.6150998205402495

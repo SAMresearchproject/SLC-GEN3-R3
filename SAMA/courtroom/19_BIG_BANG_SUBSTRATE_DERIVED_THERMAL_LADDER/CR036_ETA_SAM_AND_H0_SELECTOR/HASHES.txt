@@ -1,0 +1,75 @@
+# CR036 HASHES
+
+Sealed 2026-06-27. Substrate-derivation of eta_SAM and H_0,SAM via
+the closed-ledger-to-write-cell reducer L/V = 6.
+
+  eta_SAM = (M / (alpha_H^2 * Theta)) * A_0^(L/V) = 7 / (4 * (12*pi)^6)
+           = 6.09608952448e-10  (expected)
+  H_0,SAM = 67.25037526 km/s/Mpc (expected; derived in-runner via FIRAS
+           thermal anchor + CODATA 2018 / SI fixed constants)
+
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Precommit (sealed first; runner must honor)
+345a1a8dc180eb6b28141114a82315e3b8d92889537c1219eec4312d59ca33f2  CR036_PRECOMMIT.md
+
+# Runner (HASHED BEFORE EXECUTION; frozen-at-launch evidence)
+fe4e570215b2ee0d77b25f88fd4f019fefb1d7dbba4fdab895f7088323490289  CR036_runner.py
+
+# CR036 artifacts (HASHED IMMEDIATELY AFTER RUNNER EXECUTION)
+# Runner verdict: PASS (P1 PASS at -0.374%; P2 PASS at -0.163%; I1 OK at 1.7e-16).
+#   eta_SAM Path A = 6.096089524484198e-10  (matches Sean target 6.09608952448e-10)
+#   eta_SAM Path B = 6.096089524484197e-10  (I1 |rel diff| = 1.7e-16)
+#   H_0_SAM = 67.2503751950 km/s/Mpc  (matches Sean target 67.25037526)
+#   eta dev vs Planck = -0.374% (PASS, STRONG_CONTACT)
+#   eta dev vs BBN    = -0.064% (also STRONG_CONTACT)
+#   H_0 dev vs Planck = -0.163% (PASS)
+# KNOWN E5 unit bug (reported evidence only; does NOT affect P1/P2 gates):
+#   omega_gamma is computed from u_gamma without the /c^2 conversion from
+#   energy density to mass-equivalent density. Reported omega_gamma is in
+#   wrong units, so z_eq_SAM in E5 prints -1.0000. The P1, P2, I1, E1-E4
+#   gates are unaffected. Audit-trail entry; appeal CR or amendment to
+#   follow if Sean wants z_eq cascade cleaned.
+97f3b07bba6e842a8474b62d5ab3b99fdcc8a3261536086d402c51b73ddae3af  CR036_summary.json
+fe1c9ee9c6a4ccf3c6f3d7d6e68ca34f93620c2650811f6b519ce636e1c247a6  CR036_result.md
+03dd23411e8ccd07aadb612a2810931bf5130490de5b6669c9e58cf0f8c4aed6  CR036_evidence_rows.csv
+e95ee9bca24ba8b1bb52607cdaebeb0edd5903b7b3299348f6f87c8c97af2ece  CR036_substrate_atoms.csv
+
+# Frozen external references (in-code numeric constants; NOT files)
+ETA_REFERENCE          = 6.119e-10           (Planck 2018 TT,TE,EE+lowE central, derived from omega_b)
+ETA_BBN_CONSENSUS      = 6.10e-10            (Cooke et al. 2018 D/H; E1 reporting only)
+H_0_REFERENCE_KMS_MPC  = 67.36               (Planck 2018 base_plikHM_TTTEEE+lowE+lensing central)
+T_CMB_K                = 2.7255              (FIRAS)
+M_P_KG                 = 1.67262192369e-27   (CODATA 2018)
+G_M3_KG_S2             = 6.67430e-11         (CODATA 2018)
+H_J_S                  = 6.62607015e-34      (SI exact, 2019)
+K_B_J_K                = 1.380649e-23        (SI exact, 2019)
+C_M_S                  = 299792458           (SI exact)
+MPC_M                  = 3.0856775815e22     (parsec-based)
+
+# Engine
+ENGINE:Python standard library + numpy
+ENGINE:hbar computed as h/(2*pi) in-runner; NO scipy.constants imports at runtime
+
+# Forbidden inputs
+FORBIDDEN  CMB power spectra (Planck PR3 *.txt / *.fits / *.cls)
+FORBIDDEN  CR035A* / CR035A2* result/summary/evidence/residuals files
+FORBIDDEN  CR035A_runner*.py / CR035A2_runner.py
+FORBIDDEN  CR001 / CR001b / CR001c / CR002 / CR003 family files
+FORBIDDEN  CR018b / CR019 family files
+FORBIDDEN  CR025 / CR031b / CR032 / CR033 family files
+FORBIDDEN  CR205 files
+FORBIDDEN  Planck likelihood / clik / Cobaya chain files
+FORBIDDEN  BAO best-fit H_0 / chain files
+FORBIDDEN  SN best-fit H_0 / chain files
+FORBIDDEN  any external H_0 measurement table read at runtime
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv

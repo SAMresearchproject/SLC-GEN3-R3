@@ -1,0 +1,12 @@
+# CR120G command log
+
+Recorded UTC: 2026-07-14T00:49:28.424060+00:00
+Execution path: tools/run_sam_test.py --task "Run the attached proposal for investigation" --script tools/run_cr120g_internal_split_residue_mirror_odd_x1_complement.py
+External subprocesses from candidate runner: none
+External physics inputs: none
+Numerical fitting: none
+Stochastic samples: none
+Generated Python executed: none
+Registry mutations: none
+Precommit sha256: 1896b71b4e97bff3598e501f63531fff01fc0507373d2d362e190f89940e08f0
+Outcome: all precommitted mathematical gates passed; all wrong controls detected; scientific_pass_claimed=false

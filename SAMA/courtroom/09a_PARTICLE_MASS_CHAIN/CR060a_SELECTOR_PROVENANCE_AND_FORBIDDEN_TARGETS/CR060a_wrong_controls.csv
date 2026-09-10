@@ -1,0 +1,4 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Observed masses used as selector inputs,FAIL,True,True,QP075 decision table says REVEAL_ONLY_RESIDUAL_COLUMN
+WC2,Missing selector field in closure row,FAIL,True,True,every closure row has selector fields
+WC3,Non-integer role-operator tuple,FAIL,True,True,"every operator row has integer k, shift, q, N"

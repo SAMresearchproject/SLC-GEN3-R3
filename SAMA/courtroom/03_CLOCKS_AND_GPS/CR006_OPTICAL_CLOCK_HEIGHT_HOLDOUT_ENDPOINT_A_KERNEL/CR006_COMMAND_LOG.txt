@@ -1,0 +1,36 @@
+CR006 command log, research session.
+
+1. python tools\run_sam_test.py --task "SAM Prospective CR optical clock height holdout" --preflight-only
+2. Get-Content -Raw artifacts\preflight_filled\PREFLIGHT_20260711_114903_no_script.md
+3. Get-Content -Raw artifacts\preflight_filled\PREFLIGHT_20260711_114903_no_script.json
+4. Get-ChildItem -Force 03_CLOCKS_AND_GPS
+5. Get-Content -Raw COURTROOM_BRANCH_INTAKE_MAP.md
+6. Get-Content -Raw 03_CLOCKS_AND_GPS\README.md
+7. Get-ChildItem -Force 03_CLOCKS_AND_GPS\CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT
+8. Get-Content -Raw 03_CLOCKS_AND_GPS\CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT\CR005_result.md
+9. Get-Content -Raw 03_CLOCKS_AND_GPS\CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT\CR005_summary.json
+10. Get-Content -Raw 03_CLOCKS_AND_GPS\CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT\CR005_PRECOMMIT.md
+11. Get-Content -Raw 02_A_KERNEL_WEAK_FIELD\README.md
+12. Get-ChildItem -Force 02_A_KERNEL_WEAK_FIELD\CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT
+13. rg -n "optical|clock|redshift|Pound|Rebka|Hafele|GPS|height|frequency" 02_A_KERNEL_WEAK_FIELD 03_CLOCKS_AND_GPS
+14. Get-Content -Raw 02_A_KERNEL_WEAK_FIELD\CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT\CR004_result.md
+15. Get-Content -Raw 02_A_KERNEL_WEAK_FIELD\CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT\CR004_PRECOMMIT.md
+16. Get-Content -Raw 02_A_KERNEL_WEAK_FIELD\CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT\CR004_summary.json
+17. Get-Content -Raw 02_A_KERNEL_WEAK_FIELD\CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION\CR003_result.md
+18. Test-Path 03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL
+19. Get-Content -Raw A0-a_h-D\README.md
+20. Get-ChildItem -Force A0-a_h-D
+21. New-Item -ItemType Directory -Force 03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL\sources | Out-Null
+22. Invoke-WebRequest -Uri "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933368" -OutFile "03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL\sources\Bothwell_2022_Nature_NIST_pub933368.pdf"
+23. Invoke-WebRequest -Uri "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-04349-7/MediaObjects/41586_2021_4349_MOESM1_ESM.pdf" -OutFile "03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL\sources\Bothwell_2022_Nature_peer_review_file.pdf"
+24. Get-FileHash 03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL\sources\* -Algorithm SHA256 | Format-List
+25. Inline Python decimal calculation for locked geometry and pre-reveal prediction values.
+26. apply_patch added CR006 non-runner lock/precommit/source artifacts.
+27. Inline Python JSON parse check for CR006 non-runner JSON artifacts.
+28. Get-FileHash CR006_PRECOMMIT.md, CR006_TARGET_IDENTITY_LOCK.json, CR006_GEOMETRY_LOCK.json -Algorithm SHA256 | Format-List
+29. Select-String -Path CR006_GEOMETRY_LOCK.json -Pattern "r_lower_m|r_upper_m"
+30. apply_patch corrected the CR006_GEOMETRY_LOCK.json r_lower_m copied digit run before runner creation.
+31. Inline Python JSON parse check for corrected CR006_TARGET_IDENTITY_LOCK.json and CR006_GEOMETRY_LOCK.json.
+32. Get-FileHash CR006_PRECOMMIT.md, CR006_TARGET_IDENTITY_LOCK.json, CR006_GEOMETRY_LOCK.json -Algorithm SHA256 | Format-List
+33. apply_patch added CR006_runner.py after precommit and lock hashes were sealed.
+34. python tools\run_sam_test.py --task "SAM independent optical-clock endpoint holdout" --script "03_CLOCKS_AND_GPS\CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL\CR006_runner.py"

@@ -1,0 +1,20 @@
+{
+  "record_id": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "outcomes_opened": false,
+  "binding_opened": false,
+  "f81_membership_opened": false,
+  "workbook_membership_opened": false,
+  "fitted_parameters": 0,
+  "allowed_starbreaker_fields_used": [
+    "atom_id",
+    "ledger_slot",
+    "kind",
+    "route",
+    "dimension",
+    "side"
+  ],
+  "forbidden_starbreaker_fields_used": [],
+  "forbidden_path_hits": [],
+  "candidate_derived_only_from_structural_fields": true,
+  "note": "Most declared authorities were opened only for byte-level hash validation; only the base structural source and safe prior interface template were parsed."
+}

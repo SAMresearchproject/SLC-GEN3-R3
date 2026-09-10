@@ -1,0 +1,9 @@
+control,attempt,evidence,result
+all_columns_are_courtroom_native,Treat MATTER/CLOCK/LIGHT/ACTION as if sourced from CR119/Courtroom.,"HH001 builder supplies embedded ATOMIC_MASS, clock_value, LIGHT_NM, and NUCLEAR_SPIN tables.",REJECTED
+hide_reference_columns,Verify only CR119-backed columns and omit the reference columns.,CR211 emits CR211_external_reference_columns.csv and claim rows for all four reference columns.,REJECTED
+hide_row_mismatches,Use aggregate row counts without row-by-row CR119 comparison.,"CR211_row_verification.csv checks 126/126 rows for labels, PARTICLE, ELEMENT, GRAVITY, and GRAVITON.",REJECTED
+known_labels_as_inputs,Use known element labels as construction inputs.,CR119 known_label_used_as_construction_input = no for 126/126 rows.,REJECTED
+frontier_relabel,Treat Z119-Z126 as known elements.,CR119 reports 8 SAM_FRONTIER_UNKNOWN_Z119_Z126 rows; HH001 uses Z119-Z126 / SAM frontier.,REJECTED
+promote_action_residual,Promote ACTION residual = nuclear spin.,HH001 diagnostic remains 1/102 matches.,REJECTED
+promote_binary_xor,Promote per-element binary XOR closure.,HH001 binary controls remain 7/102 and 7/102.,REJECTED
+skip_higgs_source_separation,Use HH001 table alone as Higgs closed-form proof.,LC02 is the Courtroom Higgs replay source; HH001 verifies the retained 126 surface/table.,REJECTED

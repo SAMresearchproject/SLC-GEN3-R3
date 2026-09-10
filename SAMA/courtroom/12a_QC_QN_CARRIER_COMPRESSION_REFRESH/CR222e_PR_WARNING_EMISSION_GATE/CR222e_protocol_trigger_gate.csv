@@ -1,0 +1,7 @@
+scenario,sealed_packet,G_protocol,A_leak,A_side,threshold_rule,threshold_reached,route_present,tensor_witness_present,checksum_intact,valid_warning_rule,observed_state,expected_state,passed
+draft_packet,False,0,0,1/24,A_leak>=A_side,False,True,True,True,SEALED_PACKET+G_protocol=1+A_leak>=A_side,DRAFT_PACKET,DRAFT_PACKET,True
+sealed_no_protocol_gate,True,0,1/24,1/24,A_leak>=A_side,True,True,True,True,SEALED_PACKET+G_protocol=1+A_leak>=A_side,SEALED_PACKET,SEALED_PACKET,True
+sealed_below_threshold,True,1,1/48,1/24,A_leak>=A_side,False,True,True,True,SEALED_PACKET+G_protocol=1+A_leak>=A_side,SEALED_PACKET,SEALED_PACKET,True
+sealed_threshold_exact,True,1,1/24,1/24,A_leak>=A_side,True,True,True,True,SEALED_PACKET+G_protocol=1+A_leak>=A_side,VALID_WARNING_PACKET,VALID_WARNING_PACKET,True
+sealed_above_threshold,True,1,1/12,1/24,A_leak>=A_side,True,True,True,True,SEALED_PACKET+G_protocol=1+A_leak>=A_side,VALID_WARNING_PACKET,VALID_WARNING_PACKET,True
+corrupt_threshold_reached,False,1,1/24,1/24,A_leak>=A_side,True,True,True,False,SEALED_PACKET+G_protocol=1+A_leak>=A_side,CORRUPT_PACKET,CORRUPT_PACKET,True

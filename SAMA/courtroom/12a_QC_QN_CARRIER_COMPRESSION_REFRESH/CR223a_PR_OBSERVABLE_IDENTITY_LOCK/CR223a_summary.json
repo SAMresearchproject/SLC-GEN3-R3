@@ -1,0 +1,51 @@
+{
+  "a_side": {
+    "den": 24,
+    "float": 0.041666666666666664,
+    "num": 1
+  },
+  "campaign_values": {
+    "m1": 0.0212798,
+    "m2": 0.0435057,
+    "m3": 0.0354358,
+    "m4_cr068a_sample_grid": 0.029146
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "coefficients": {
+    "m1": 0.02127980720939777,
+    "m2": 0.04350568849481462,
+    "m3": 0.03543583226729716,
+    "m4": 0.02896146823059353
+  },
+  "cr_id": "CR223a",
+  "execution_status": "CLEAN",
+  "free_parameters": 0,
+  "generated_at_utc": "2026-06-21T13:36:33.776060+00:00",
+  "hardware_default_rule": "t_fire^pred = inf{ t : 1 - Tr[rho_cal(t)^2] >= 1/24 }",
+  "loaded_state": {
+    "diag_purity_term": "113/289",
+    "ket": "(2|0> + 3|+1> + 2|-1>) / sqrt(17)",
+    "off_purity_term": "176/289",
+    "populations": {
+      "p0": "4/17",
+      "p_minus": "4/17",
+      "p_plus": "9/17"
+    }
+  },
+  "next_gate": "CR223b_PR_QUTRIT_TOMOGRAPHY_ESTIMATOR",
+  "no_universal_c0": true,
+  "outputs": {
+    "checks_csv": "CR223a_checks.csv",
+    "firing_coefficients_csv": "CR223a_firing_coefficients.csv",
+    "model_roster_csv": "CR223a_model_roster.csv",
+    "precommit_md": "CR223a_PRECOMMIT.md",
+    "purity_formulas_md": "CR223a_purity_formulas.md",
+    "readme_md": "README.md",
+    "result_md": "CR223a_result.md",
+    "wrong_controls_csv": "CR223a_wrong_controls.csv"
+  },
+  "result_class": "CR223a_PASS_PR_OBSERVABLE_IDENTITY_LOCKED",
+  "sha256_firing_coefficients_csv": "b32f6767c5b2a16cfba887fa8b8e340732ecce430b7d3083774465b46d9be4d2",
+  "test_id": "CR223a_PR_OBSERVABLE_IDENTITY_LOCK"
+}

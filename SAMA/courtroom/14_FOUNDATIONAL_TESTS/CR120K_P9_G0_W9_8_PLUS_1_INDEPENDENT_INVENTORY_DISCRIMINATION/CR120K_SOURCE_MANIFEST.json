@@ -1,0 +1,90 @@
+{
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION",
+  "preflight_task": "Run CR for p9 g0 8 plus 1 W9 provenance and 100 row 16200 independent inventory",
+  "sources": [
+    {
+      "bytes": 43208,
+      "path": "C:/VS/quantum_phase/src/qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "role": "frozen QP093A generator and exact row formulas",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    {
+      "bytes": 213474,
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/qp093a_candidate_catalog.csv",
+      "role": "authoritative 321-row candidate catalog",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    {
+      "bytes": 576,
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/qp093a_catalog_stats.json",
+      "role": "frozen catalog bin counts",
+      "sha256": "fa20decbfb70aea103953d0dff28d5b1e8445f01342c8dbca4dad6320e39c7f3"
+    },
+    {
+      "bytes": 893,
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/qp093a_declared_premises.json",
+      "role": "historical primitive-nine partition premise",
+      "sha256": "d8c2025feb1439182a255517c40d2d20ef7e06899ae36a9b9f23945e02472cdc"
+    },
+    {
+      "bytes": 1323,
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "role": "QP093A discovery status and authority boundary",
+      "sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5"
+    },
+    {
+      "bytes": 2968,
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/HASHES.txt",
+      "role": "QP093A artifact hash ledger",
+      "sha256": "9fc6b2b73fc51ef83dec9f868f506a278d39f78f5e941ec8b9a6be7ad12953e8"
+    },
+    {
+      "bytes": 7351,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json",
+      "role": "executed typed S8/B/X1 to W9 provenance",
+      "sha256": "d0c6799eaa64b1dad9fe9587d07fb834d76049a40c11516ee650be5ad0ae1755"
+    },
+    {
+      "bytes": 3059,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "role": "controlling structural mapping boundary",
+      "sha256": "eb38fb07a4f886b144bb49139acb9c68416477bb78c22ef3b25761cd3e91afd7"
+    },
+    {
+      "bytes": 3170,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120E candidate manifest",
+      "sha256": "454d1e99de09945ab54c79d453fd0e4bf4f8e8cb6e3aa5425fa903c26730e244"
+    },
+    {
+      "bytes": 2928,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_result.md",
+      "role": "constructed internal split and physical-mapping boundary",
+      "sha256": "8813f743d300110f100b7ab1dbfc3bd962964edbdd1faf9c28e9b0880d74c832"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen typed S8, X1, W9, and B entities",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 2344,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_OPERATOR_REGISTRY.json",
+      "role": "frozen active RESOLVE signature",
+      "sha256": "873f36e77b97e1e04f8d272af9f15e174ccf2605bec3fe7443be60bdf276935d"
+    },
+    {
+      "bytes": 2954,
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "controlling CR120 missing-science frontier",
+      "sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f"
+    },
+    {
+      "bytes": 17384,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260714_021203_no_script.md",
+      "role": "task-specific Courtroom preflight",
+      "sha256": "c22e9b11de9b0a039b44243678eded801c47859bb192bb75c5afc5df09d26756"
+    }
+  ]
+}

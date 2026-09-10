@@ -1,0 +1,11 @@
+wrong_control,attempted_mutation,evidence,result
+WC22_PERIODIC_TABLE_DATA_BACKFILL,"use known periodic labels, IAEA roster values, or isotope observations as generator inputs",CR119 table has known_label_used_as_construction_input=no on 126/126 rows; CR066/CR069 reserve observed data for comparator stage,REJECTED
+WC23_CARRIER_MATTER_MIXING,mix tensor-carrier support or carrier-only rows into periodic/matter identity counts,CR116 keeps tensor carrier as carrier-only; LC05 uses support split columns but does not promote tensor support into element identities,REJECTED
+WC_Z119_Z126_PROMOTION,promote Z119-Z126 frontier rows to known elements,CR119 rejects promote_Z119_Z126_to_known_elements and table keeps 8 native_frontier_identity rows with blank known symbol/name,REJECTED
+WC_CR071_FRONTIER_OVERWRITE,overwrite CR071 when new observations arrive or when CR072 cites the frontier,CR071 map is sealed/permanent; CR072 cites it with modification forbidden and appeal-only channels,REJECTED
+WC_Z097_Z118_AS_FAILURE,score old branch Z=97..118 0/38 frontier as a failed result,CR069 records Z=97..118 as deferred_to_cr071; CR072 forbids interpreting it as branch failure,REJECTED
+WC_OBSERVED_ROSTER_AS_CONSTRUCTION,let IAEA roster contact mutate the sealed prediction manifest,CR072 strongest claim states sealed_hash_guard_pass=true and prediction_manifest_mutated=false; CR065 anchors IAEA only as external comparator,REJECTED
+WC_ROW_DELETION,"drop frontier, synthetic, long-lived-hole, or inconvenient periodic rows",LC05 keeps 126/126 CR119 rows and branch-10 keeps 200 sealed rows with 162/200 full-band accounting,REJECTED
+WC_FULL_NUCLEAR_PHYSICS_OVERCLAIM,"claim shell model, binding-energy ledger, half-life ordering, or synthesis pathway derivation",CR072 strongest claim explicitly lists those as not claimed; LC05 preserves that boundary,REJECTED
+WC_QA_AS_ELEMENT_MASS,treat qA_total_primary as observed element mass or isotope mass,qA splits into carrier/retained support by LC01 fractions; no LC05 comparison treats qA as mass,REJECTED
+WC_CONSTANT_MUTATION,"alter alpha_H, R, D, 1/8, 7/8, or carrier support for periodic rows",LC05 imports LC01 locked stack and confirms qA support split with zero Decimal error on 126 rows,REJECTED

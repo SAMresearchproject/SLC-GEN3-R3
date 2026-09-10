@@ -1,0 +1,97 @@
+{
+  "cr_id": "CR005",
+  "title": "M_native Provenance Audit",
+  "started_at_utc": "2026-06-24T22:26:17+00:00",
+  "completed_at_utc": "2026-06-24T22:26:18+00:00",
+  "verdict_class": "BOUNDARY",
+  "formula_audit_physics_fit_count": 0,
+  "upstream_audit_physics_fit_count": 0,
+  "upstream_requires_upstream_audit_count": 0,
+  "smoking_gun_total_matches": 0,
+  "smoking_gun_input_position_matches": 0,
+  "verifications": {
+    "V-1_formula_audit_written": true,
+    "V-2_upstream_audit_written": true,
+    "V-3_smoking_gun_written": true,
+    "V-4_provenance_chain_written": true,
+    "V-5_cascade_rows_walked": true,
+    "V-6_verdict_resolved": true
+  },
+  "pass_conditions": {
+    "P1_verifications": true,
+    "P2_zero_formula_physics_fit": true,
+    "P3_zero_smoking_gun_inputs": true,
+    "P4_zero_upstream_physics_fit": true,
+    "P5_wrong_controls_pass": false
+  },
+  "fail_conditions": {
+    "F1_formula_physics_fit": false,
+    "F2_smoking_gun_input": false,
+    "F3_upstream_physics_fit": false,
+    "F4_WC2_proton_input": false,
+    "F7_audit_incomplete": false
+  },
+  "wrong_controls": {
+    "WC-1": {
+      "qp093a_has_R12": true,
+      "CR238_has_R12": false,
+      "passed": false
+    },
+    "WC-2": {
+      "proton_input_matches": 0,
+      "passed": true
+    },
+    "WC-3": {
+      "downstream_only_matches": 0,
+      "input_position_matches": 0,
+      "passed": true
+    },
+    "WC-4": {
+      "expected_count": 9,
+      "found_count": 9,
+      "missing": [],
+      "passed": true
+    }
+  },
+  "upstream_summaries": [
+    {
+      "cr_id": "CR221",
+      "constants_count": 0,
+      "classification_counts": {}
+    },
+    {
+      "cr_id": "CR222",
+      "constants_count": 13,
+      "classification_counts": {
+        "substrate_atom": 10,
+        "structural_constant": 3
+      }
+    },
+    {
+      "cr_id": "CR224",
+      "constants_count": 13,
+      "classification_counts": {
+        "substrate_atom": 10,
+        "structural_constant": 3
+      }
+    },
+    {
+      "cr_id": "CR225",
+      "constants_count": 0,
+      "classification_counts": {}
+    },
+    {
+      "cr_id": "CR226",
+      "constants_count": 0,
+      "classification_counts": {}
+    },
+    {
+      "cr_id": "CR238",
+      "constants_count": 2,
+      "classification_counts": {
+        "substrate_atom": 2
+      }
+    }
+  ],
+  "appeal_block": null
+}

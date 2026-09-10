@@ -1,0 +1,73 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "selection_sealed_utc": "2026-07-11T17:28:47Z",
+  "metadata_only_selection": true,
+  "selected_system": "PSR J0737-3039A/B",
+  "selected_source": {
+    "title": "Tests of general relativity from timing the double pulsar",
+    "authors": "Kramer et al.",
+    "year": 2006,
+    "journal_reference": "Science 314:97-102",
+    "arxiv_id": "astro-ph/0609417",
+    "doi": "10.1126/science.1132305"
+  },
+  "selection_rule_priority": [
+    "prior-use exclusion",
+    "independent input quality",
+    "public geometry/data completeness",
+    "covariance or uncertainty availability",
+    "bounded implementation scope"
+  ],
+  "candidates": [
+    {
+      "rank": 1,
+      "system": "PSR J0737-3039A/B",
+      "title": "Tests of general relativity from timing the double pulsar",
+      "year": 2006,
+      "data_availability": "arXiv source package, PDF, Science journal reference, supporting material included",
+      "timing_ephemeris_present": true,
+      "uncertainty_or_covariance_products_present": true,
+      "prior_sam_branch04_use": false,
+      "selected": true,
+      "selection_note": "independent mass-ratio and periastron-advance inputs before Shapiro target reveal"
+    },
+    {
+      "rank": 2,
+      "system": "PSR J1909-3744",
+      "title": "Shapiro Delay in the Binary Millisecond Pulsar PSR J1909-3744 / later high-precision timing",
+      "year": "2003/2020",
+      "data_availability": "public papers and timing releases exist",
+      "timing_ephemeris_present": true,
+      "uncertainty_or_covariance_products_present": true,
+      "prior_sam_branch04_use": false,
+      "selected": false,
+      "selection_note": "mass and inclination anchors less independent of the Shapiro fit for this campaign"
+    },
+    {
+      "rank": 3,
+      "system": "PSR J1614-2230",
+      "title": "A two-solar-mass neutron star measured using Shapiro delay",
+      "year": 2010,
+      "data_availability": "public paper and arXiv record exist",
+      "timing_ephemeris_present": true,
+      "uncertainty_or_covariance_products_present": true,
+      "prior_sam_branch04_use": false,
+      "selected": false,
+      "selection_note": "companion mass and inclination primarily come from the Shapiro fit"
+    },
+    {
+      "rank": 4,
+      "system": "PSR J2222-0137",
+      "title": "PSR J2222-0137. I. Improved physical parameters for the system",
+      "year": 2021,
+      "data_availability": "public paper and arXiv record exist",
+      "timing_ephemeris_present": true,
+      "uncertainty_or_covariance_products_present": true,
+      "prior_sam_branch04_use": false,
+      "selected": false,
+      "selection_note": "larger implementation scope and less direct independent-shape setup"
+    }
+  ],
+  "selected_target_value_opened_during_selection": false
+}
+

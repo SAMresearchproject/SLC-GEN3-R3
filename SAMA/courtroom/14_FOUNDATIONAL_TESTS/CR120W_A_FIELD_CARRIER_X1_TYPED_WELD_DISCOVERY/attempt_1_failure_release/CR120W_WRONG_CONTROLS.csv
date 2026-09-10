@@ -1,0 +1,13 @@
+control,status,observed,required
+WC01_SCALAR_ONLY_DEDUPE,PASS,26,scalar one alone retains multiple candidates
+WC02_EQUAL_TREATMENT,FAIL,26,25
+WC03_ROAD_LIGHT_DISTINCT,PASS,transverse carrier remains additive carrier_mode,not collapsed with A-field
+WC04_P1_SUPPORT_DISTINCT,PASS,positive charged source-axis support,not collapsed with A-field
+WC05_MATTER_P1_REJECTED,PASS,all scalar-one matter rows fail G1,matter is not infrastructure
+WC06_FAKE_CONTROLS_REJECTED,PASS,all partition-one rejected controls fail G1,no fake closure admitted
+WC07_ADDITIVE_RESTORE,PASS,81+1=82; 82+81=163,82 and 163 remain wrong-control totals
+WC08_TYPED_OBJECT_SEPARATION,PASS,"A_OPERATOR, A1 proxy, scalar carrier/support, B, and X1 remain typed separately",no identity collapse
+WC09_GRAMMAR_INFRASTRUCTURE,PASS,source_rows=1 runtime_rows=1,A-field record preserved without particle production
+WC10_STARBREAKER_NO_RELABEL,PASS,shared-axis aggregate used only as model evidence,no atom assigned A-field or X1
+WC11_DIRECT_EDGE_OPEN,PASS,OPEN,OPEN
+WC12_X1_REGISTER,PASS,scalar 1 AxisChannel ACTIVE,one exact X1 record

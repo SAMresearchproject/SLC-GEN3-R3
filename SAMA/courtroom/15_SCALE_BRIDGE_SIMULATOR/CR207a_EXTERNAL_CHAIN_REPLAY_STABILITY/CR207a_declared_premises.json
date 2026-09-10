@@ -1,0 +1,12 @@
+{
+  "test_id": "CR207a",
+  "appeals": "CR207_BOUNDARY_CLOSED_LOOP_STABILITY",
+  "original_verdict_must_remain": "BOUNDARY",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "external_facing_endpoint": "CR204a_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION",
+  "rule_9_falsification": "This test could have falsified the claim that the scale-bridge simulator can replay from source grammar to an external-facing resolved-parent readout while preserving all frozen lane rules and boundary labels."
+}

@@ -1,0 +1,306 @@
+{
+  "collision_count": 30,
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "rows": [
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_E2",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_TERMINAL_A",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_TERMINAL_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_A",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_B",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E1",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_TERMINAL_A",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_TERMINAL_B",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_A",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_E2",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_X1",
+      "ordered_histories_equal": false,
+      "q_WSR": 0,
+      "residue_budgets_equal": true,
+      "right": "H_STATE_CANCEL_WITH_RESIDUE",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_A",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_TERMINAL_B",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_TERMINAL_A",
+      "ordered_histories_equal": true,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_A",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_TERMINAL_A",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_TERMINAL_A",
+      "ordered_histories_equal": true,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_A",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_A",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_TERMINAL_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_ORDER_A",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_ORDER_A",
+      "ordered_histories_equal": true,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_ORDER_A",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_ORDER_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_OVERWRITE",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_ORDER_B",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": true,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": false,
+      "left": "H_OVERWRITE",
+      "ordered_histories_equal": false,
+      "q_WSR": 1,
+      "residue_budgets_equal": true,
+      "right": "H_REPEAT",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": false
+    },
+    {
+      "full_probe_states_equal": true,
+      "left": "H_ORDER_MIX_A",
+      "ordered_histories_equal": false,
+      "q_WSR": "2/3",
+      "residue_budgets_equal": true,
+      "right": "H_ORDER_MIX_B",
+      "terminal_inputs_equal": false,
+      "visible_budgets_equal": true
+    }
+  ]
+}

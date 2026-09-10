@@ -1,0 +1,144 @@
+{
+  "cr_id": "CR118",
+  "scope": "COURTROOM_LEVEL_HEADLINE_EXPORT",
+  "lives_in": "00_governance",
+  "test_class": "HEADLINE_EXPORT_CLAIM_FROM_BRANCH_06_CR012_THROUGH_CR017",
+  "execution_status": "CLEAN",
+  "result_class": "CR118_DISTANCE_ROAD_SN_BAO_HEADLINE_EXPORT_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "headline_sha256": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d",
+  "headline_one_liner": "Two independent observational ledgers (SN luminosity 1701 Pantheon rows; BAO ruler projection 19 rows) are built without sharing data AND independently reduce to the same A_los(z) with zero free parameters; their cross-overlap is 0.240%.",
+  "key_numbers": {
+    "A0_structural": 0.026525823848649224,
+    "A0_formula": "1 / (12 * pi)",
+    "A_inf_structural": 0.3183098861837907,
+    "A_inf_formula": "1 / pi",
+    "w_projection_operator": 0.0466031311731253,
+    "r_drag_mpc_derived": 150.92186401518705,
+    "planck_r_drag_mpc_reference": 147.05,
+    "r_drag_delta_vs_planck_percent": 2.6330255118579005,
+    "sn_pantheon_rows": 1701,
+    "sn_max_mu_identity_error": 7.105427357601002e-15,
+    "sn_low_z_mean_A": 0.0062347071581974845,
+    "sn_high_z_mean_A": 0.2927243984113852,
+    "bao_compilation_rows": 19,
+    "bao_rms_pull": 0.8269872776835621,
+    "bao_max_abs_pull": 1.4298269726773956,
+    "bao_rows_over_3sigma": 0,
+    "sn_bao_cross_overlap_pct_abs": 0.24000025506268896,
+    "sn_bao_max_identity_error": 0.0,
+    "lcdm_baseline_fit_parameter_count": 6,
+    "sam_distance_road_fit_parameter_count": 0
+  },
+  "predictions": [
+    {
+      "name": "P1_CR012_structural_constants_consistent_with_A0_identity",
+      "pass": true,
+      "details": {
+        "A0": 0.026525823848649224,
+        "1_over_12pi": 0.026525823848649224
+      }
+    },
+    {
+      "name": "P2_CR013_sn_ledger_identity_at_machine_precision",
+      "pass": true,
+      "details": {
+        "sn_max_mu_error": 7.105427357601002e-15
+      }
+    },
+    {
+      "name": "P3_CR014_bao_zero_rows_over_3sigma",
+      "pass": true,
+      "details": {
+        "bao_rows_over_3sigma": 0
+      }
+    },
+    {
+      "name": "P4_CR015_cross_overlap_within_quarter_percent",
+      "pass": true,
+      "details": {
+        "cross_overlap_pct_abs": 0.24000025506268896
+      }
+    },
+    {
+      "name": "P5_r_drag_derived_within_few_percent_of_planck",
+      "pass": true,
+      "details": {
+        "r_drag_derived_mpc": 150.92186401518705,
+        "planck_r_drag_mpc_reference": 147.05,
+        "delta_percent": 2.6330255118579005
+      }
+    },
+    {
+      "name": "P6_two_lanes_built_without_shared_data",
+      "pass": true,
+      "details": "CR013 pass condition bao_inputs_not_loaded=true; CR014 pass condition sn_inputs_not_loaded=true"
+    },
+    {
+      "name": "P7_zero_free_parameters_in_distance_road",
+      "pass": true
+    },
+    {
+      "name": "P8_branch_verdict_CR017_PASS_referenced_unchanged",
+      "pass": true
+    },
+    {
+      "name": "P9_export_headline_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "headline_sha256": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d"
+      }
+    },
+    {
+      "name": "P10_no_prior_CR_modified",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_does_not_claim_full_cosmological_closure",
+      "pass": true,
+      "details": "CMB modal/polarization explicitly left open per CR017 and CR117 scope boundary"
+    },
+    {
+      "name": "WC2_does_not_modify_branch_06_CRs",
+      "pass": true
+    },
+    {
+      "name": "WC3_does_not_introduce_free_parameter",
+      "pass": true
+    },
+    {
+      "name": "WC4_does_not_overstate_BAO_sample_size",
+      "pass": true,
+      "details": "BAO is a 19-row compilation, not the full DESI/LSST catalog; explicitly noted in scope"
+    },
+    {
+      "name": "WC5_does_not_misrepresent_overlap_as_global",
+      "pass": true,
+      "details": "0.240% is the max-overlap-row-pct-abs, on rows where SN and BAO share redshifts; not a global all-z claim"
+    },
+    {
+      "name": "WC6_honest_about_LCDM_comparison",
+      "pass": true,
+      "details": "LCDM baseline 6-parameter fit is the standard joint SN+BAO+CMB closure shape; comparison stated factually"
+    }
+  ],
+  "upstream_hashes": {
+    "CR012_native_typed_ruler_road_bridge_derivation_sha256": "29abc83488c863d2eacf7ca2595cda4f63cd5ef969eed56fcd8631ae9523517d",
+    "CR013_sn_luminosity_ledger_shrinkage_sha256": "bffd17d22a11fcb03b0c2dd8581550d60df91c052e59e7f8023bae7d300420cc",
+    "CR014_bao_ruler_projection_ledger_shrinkage_sha256": "78fe728d2adf4780ccf13ec1b7cd5149889f00057f7150a63cbfe1594d17b8a2",
+    "CR015_sn_bao_independent_ledger_lock_sha256": "584d3dad801b81bc62e84b22be6b45391c14fe238b0aa6b85b27bc85e3fb8217",
+    "CR016_cmb_acoustic_ruler_photon_road_ratio_sha256": "4ec3d7baf0966db6daeec2da2c0a5b3393eff2165471a8941be03cb1935af5d6",
+    "CR017_distance_road_typed_bridge_closure_sha256": "b122955abcfa4cb4739f2e8846b3c51b3155d72ad9961013b113b706b782f555",
+    "CR108_planck_anchor_sha256": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR114_cosmic_baryon_bridge_sha256": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "CR117_sam_cmb_scope_boundary_sha256": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+    "BLINDNESS_PROTOCOL_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future high-row BAO compilation (DESI/LSST) could tighten the 19-row test",
+    "CMB modal/polarization closure is the next-layer move per CR117 scope boundary"
+  ]
+}

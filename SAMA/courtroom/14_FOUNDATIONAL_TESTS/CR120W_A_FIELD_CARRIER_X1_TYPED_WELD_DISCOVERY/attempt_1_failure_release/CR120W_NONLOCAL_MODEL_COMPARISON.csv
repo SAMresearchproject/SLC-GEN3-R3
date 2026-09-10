@@ -1,0 +1,4 @@
+candidate_id,operator_class,model_class,frozen_prediction,shared_axis_observation_compatible,selected_as_unique_typed_candidate
+QP093A-0301,ROAD_LIGHT_CARRIER,TRANSVERSE_TRANSPORT,propagating transverse carrier; additive carrier mode,False,False
+QP093A-0305,A_FIELD_CARRIER,ENVIRONMENTAL_SHARED_AXIS,shared carrier-and-matter axis; non-additive,True,True
+QP093A-0306,SOURCE_SUPPORT_PACKET,CHARGED_SOURCE_AXIS_SUPPORT,positive source support; not neutral carrier axis,False,False

@@ -1,0 +1,5 @@
+layer,input,role,allowed_use,forbidden_use
+carrier_packet,CR222b/CR222d carrier ledger,route + tensor witness + checksum envelope,"validate route, witness, and 162 closure",do not become target matter and do not absorb 3-body row into checksum
+target_particle,CR219 GROUND_BARYON_3BODY matter row,3-body diamond/baryon target address,supply matter target qA/T/W after G_matter=1,"do not replace carrier route, mirror, or 12 support roster"
+protocol_gate,CR222e/CR222f warning condition,allow targeted warning emission,G_protocol=1 and A_leak>=1/24,do not emit from support inventory alone
+binding_output,carrier_packet + target_particle + protocol_gate,targeted PR warning/write trial,carrier validates route; target supplies matter address; gate permits emission,do not confuse protocol_event_qA=1/24 with target matter qA

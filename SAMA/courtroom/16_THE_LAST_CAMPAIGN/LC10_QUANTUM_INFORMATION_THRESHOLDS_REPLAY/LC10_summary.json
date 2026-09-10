@@ -1,0 +1,98 @@
+{
+  "artifacts": {
+    "branch12_layers": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12_layers.csv",
+    "branch12a_layers": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12a_layers.csv",
+    "capacity_recompute": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_capacity_recompute.csv",
+    "checks": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_claim_boundaries.csv",
+    "formula_manifest": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_formula_manifest.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/HASHES.txt",
+    "information_recompute": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_information_recompute.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC10_quantum_information_thresholds_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_summary.json",
+    "threshold_manifest": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_threshold_manifest.csv",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 116,
+    "total": 116
+  },
+  "claim_boundaries": [
+    "LC10 replays quantum information thresholds and capacity rules; it does not claim hardware demonstration or live external network validation.",
+    "A_side and A_share derive from R=12 and cannot be replaced by fault-tolerance, T2, or platform-specific thresholds.",
+    "The 1/16 increment is a state-preparation/surface-debit signature; measurement probabilities still sum to one.",
+    "The (4/17,9/17,4/17), 2:3:2, and 1/16 letter increment claims are q=0 Paul Revere letter claims unless separately generalized.",
+    "Per-row multi-letter capacity saturates at 2^-D = 1/8, not full Born unity.",
+    "CR063a is refuted, CR064a is boundary pending verification/disclosure, and CR069a is provisional with one violation; none are load-bearing for LC10 PASS.",
+    "The connection to Shannon/Holevo capacity remains open and is not claimed by LC10."
+  ],
+  "generated_utc": "2026-07-11T02:02:18+00:00",
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": "0.026525823848649222628147293895",
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": "1.125000000000000000000000000000",
+    "carrier_side": "1/8",
+    "carrier_side_decimal": "0.125000000000000000000000000000",
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": "0.562500000000000000000000000000",
+    "retained_side": "7/8",
+    "retained_side_decimal": "0.875000000000000000000000000000",
+    "split_fraction": "1/8",
+    "split_fraction_decimal": "0.125000000000000000000000000000",
+    "surface_debit": "3/4",
+    "surface_debit_decimal": "0.750000000000000000000000000000"
+  },
+  "pass_condition": {
+    "born_measurement_modification": "forbidden",
+    "constant_mutation": "forbidden",
+    "formula_mutation": "forbidden",
+    "hardware_threshold_substitution": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden",
+    "threshold_swap": "forbidden"
+  },
+  "result": "LC10_PASS_QUANTUM_INFORMATION_THRESHOLDS_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC10",
+  "task_name": "quantum information thresholds replay",
+  "threshold_replay": {
+    "A_share": "1/12",
+    "A_side": "1/24",
+    "CR063a_status": "CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1",
+    "CR064a_status": "CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE",
+    "CR069a_violation_count": 1,
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2,
+    "capacity_all_rows_pass": true,
+    "capacity_rows": 20,
+    "letter_increment": "1/16",
+    "loaded_probabilities": [
+      "4/17",
+      "9/17",
+      "4/17"
+    ],
+    "loaded_probability_sum": "1",
+    "loaded_weight_sum": "17/16",
+    "loaded_weights": [
+      "1/4",
+      "9/16",
+      "1/4"
+    ],
+    "probability_diff_b_minus_a": "5/17",
+    "probability_ratio_b_over_a": "9/4",
+    "split_fraction": "1/8"
+  },
+  "wrong_controls": {
+    "rejected": 10,
+    "tested": 10
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "source_policy": "EXACT_HASHED_READ_ONLY_INPUTS",
+  "sources": [
+    {
+      "source_id": "updated_particle_rows_workbook",
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "role": "current QP093A-derived 105/100-row research workbook; sum context only, not a selector for the 8+1 test",
+      "authority": "USER_RESEARCH_WORKBOOK_CURRENT_INPUT",
+      "bytes": 77128,
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    },
+    {
+      "source_id": "updated_particle_rows2_workbook",
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "role": "current 81-row M_native=12600 research workbook; sum context only, not a selector for the 8+1 test",
+      "authority": "USER_RESEARCH_WORKBOOK_CURRENT_INPUT",
+      "bytes": 93700,
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    {
+      "source_id": "discovery_proposal",
+      "path": "C:\\Users\\drwho\\.codex\\attachments\\59881436-4536-4f37-b89c-2261e12d1209\\pasted-text.txt",
+      "role": "unvalidated proposal defining the all-depth p9=8+1 claim, qA law, controls, falsifiers, and authority boundary",
+      "authority": "PROPOSAL_ONLY_NOT_EVIDENCE",
+      "bytes": 64182,
+      "sha256": "cb6d604997a79519f5a238a1e09e70ee8be8ea0d3a4e78a1aeff187f449167d6"
+    },
+    {
+      "source_id": "qp093a_generator",
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "role": "frozen QP093A construction, single-write native formula, surface operation, qA order, and p/g roster source",
+      "authority": "FROZEN_UPSTREAM_GENERATOR",
+      "bytes": 43208,
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    {
+      "source_id": "qp093a_catalog",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "role": "canonical QP093A identities, types, routes, exact stored decimals, and challenge population",
+      "authority": "CANONICAL_QP093A_ROW_SOURCE",
+      "bytes": 213474,
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    {
+      "source_id": "qp093a_declared_premises",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_declared_premises.json",
+      "role": "historical primitive-nine premise and construction spine",
+      "authority": "FROZEN_QP093A_PREMISE",
+      "bytes": 893,
+      "sha256": "d8c2025feb1439182a255517c40d2d20ef7e06899ae36a9b9f23945e02472cdc"
+    },
+    {
+      "source_id": "qp093a_result",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "role": "executed QP093A discovery status and stability-selector boundary",
+      "authority": "EXECUTED_UPSTREAM_DISCOVERY_RECORD",
+      "bytes": 1323,
+      "sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5"
+    },
+    {
+      "source_id": "task_preflight",
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_040346_no_script.md",
+      "role": "task-specific constructive-new-work gate",
+      "authority": "COURTROOM_PREFLIGHT",
+      "bytes": 16976,
+      "sha256": "c11cda98d2b1f8e526f1aeedbb79f09cd430baefa21f900403852180a2c52cc0"
+    }
+  ]
+}

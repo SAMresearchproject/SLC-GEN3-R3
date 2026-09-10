@@ -1,0 +1,126 @@
+{
+  "precommit_sha256": "5b2d07b5c1447c39c221e4a53febeff6b379acfae6788cb675970017acfe2001",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR261_PAIR_WRITE_BINDING_EXTENSION",
+  "classification": "BINDING_CLOSURE_EXTENSION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "free_parameters_introduced": 4,
+  "fitted_coefficients_MeV": {
+    "a": 8.174084556626521,
+    "b": 19.766940769939776,
+    "c": 0.5854329143680391,
+    "e": -41.89065159502022
+  },
+  "locked_asymmetry_coefficient": {
+    "num": 50310649,
+    "den": 1366464,
+    "value": 36.818129859257176,
+    "identity": "(Q_mass \u2212 Q_sub)\u00b2 / Q_mass = (N\u2212Z)\u00b2 / A \u00b7 7093\u00b2 / (192\u00b77117)",
+    "sealed_in": "CR245@09a"
+  },
+  "rms_MeV": {
+    "cr261_train": 5.554516002784788,
+    "cr261_test": 8.573818506781233,
+    "cr248_phase_b_linear_train": 24.52,
+    "improvement_factor": 4.414426025185049,
+    "sob126_lt_119": NaN
+  },
+  "anchor_cases": {
+    "C-12": {
+      "B_u_obs_MeV": 0.0,
+      "B_u_pred_MeV": -1.0976170194215094,
+      "residual_MeV": -1.0976170194215094
+    },
+    "C-13": {
+      "B_u_obs_MeV": -3.125009212706496,
+      "B_u_pred_MeV": -13.325398299330761,
+      "residual_MeV": -10.200389086624265
+    },
+    "Au-197": {
+      "B_u_obs_MeV": 31.140970294293464,
+      "B_u_pred_MeV": 36.80746080716693,
+      "residual_MeV": 5.6664905128734695
+    }
+  },
+  "phase_a_regression_pass": true,
+  "phase_a_rows_checked": 69,
+  "asymmetry_identity_pass": true,
+  "asymmetry_rows_checked": 69,
+  "asymmetry_rows_ok": 69,
+  "gates": {
+    "G1_asymmetry_identity_exact": true,
+    "G2_train_RMS_le_4": false,
+    "G3_test_RMS_le_5": false,
+    "G4_improvement_ge_5x_over_CR248": false,
+    "G5_anchors_within_5MeV": false,
+    "G6_precommit_and_forbidden_file_gate": true,
+    "Phase_A_regression": true
+  },
+  "sob126_total_rows": 126,
+  "jerroldium_frontier": [
+    {
+      "Z": 119,
+      "symbol": "Uue",
+      "N": 218,
+      "A": 337,
+      "B_u_pred_MeV": -454.67692941045425
+    },
+    {
+      "Z": 120,
+      "symbol": "Ubn",
+      "N": 230,
+      "A": 350,
+      "B_u_pred_MeV": -577.6678199320327
+    },
+    {
+      "Z": 121,
+      "symbol": "Ubu",
+      "N": 121,
+      "A": 242,
+      "B_u_pred_MeV": -156.26661691986018
+    },
+    {
+      "Z": 122,
+      "symbol": "Ubb",
+      "N": 132,
+      "A": 254,
+      "B_u_pred_MeV": -93.0642951368801
+    },
+    {
+      "Z": 123,
+      "symbol": "Ubt",
+      "N": 143,
+      "A": 266,
+      "B_u_pred_MeV": -67.19400960259404
+    },
+    {
+      "Z": 124,
+      "symbol": "Ubq",
+      "N": 155,
+      "A": 279,
+      "B_u_pred_MeV": -56.725700264549545
+    },
+    {
+      "Z": 125,
+      "symbol": "Ubp",
+      "N": 166,
+      "A": 291,
+      "B_u_pred_MeV": -71.39590616254088
+    },
+    {
+      "Z": 126,
+      "symbol": "Ubh",
+      "N": 178,
+      "A": 304,
+      "B_u_pred_MeV": -105.1587862311344
+    }
+  ],
+  "forbidden_files_opened": false,
+  "opened_paths_count": 7,
+  "input_hashes": {
+    "train": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+    "test": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+    "sob126": "3bfdd083457b187c156bf331b2997bb904be1f45adb335a724c12100d9c6e72b"
+  }
+}

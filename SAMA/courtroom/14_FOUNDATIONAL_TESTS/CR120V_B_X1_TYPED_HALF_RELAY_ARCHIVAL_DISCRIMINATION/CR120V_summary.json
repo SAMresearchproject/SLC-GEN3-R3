@@ -1,0 +1,23 @@
+{
+  "B_creates_X1": "UNTESTABLE_IN_CURRENT_RUNTIME",
+  "evidence_gates_passed": 13,
+  "evidence_gates_total": 14,
+  "expected_open_weld_gate": "E14_EXPLICIT_INTERFACE_WELD",
+  "literal_B_half_X1_half": "REJECTED_BY_FROZEN_RECORD",
+  "physical_relay_executed": false,
+  "precommit_sha256": "03c23e9ebfc1e5be7e1e9a32d87987b27197ae2cc9281659e79009ffe0cb460f",
+  "primary_verdict": "PASS_RECIPROCAL_HALF_SLOT_RELAY_EXISTS__BOUNDARY_B_REQUEST_X1_RESPONSE_WELD__LITERAL_TWO_HALF_REJECTED",
+  "proposal_hash": "378de6a78a8c2bd479b182a0add9c7420e396337c62d8bb52d2b86de073d8d87",
+  "proposal_id": "sam2p-378de6a78a8c2bd479b1",
+  "reciprocal_half_slot_relay": "PASS_ARCHIVAL_STRUCTURE",
+  "record_id": "CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION",
+  "sam_registry_mutated": false,
+  "same_run_repair": false,
+  "source_hashes_matched": 13,
+  "source_hashes_total": 13,
+  "static_runtime": "PASS_IN_RUNTIME_SCOPE",
+  "typed_B_request_X1_response": "SUPPORTED_AS_ARCHIVAL_HYPOTHESIS_WELD_OPEN",
+  "wrong_controls_pass": true,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8
+}

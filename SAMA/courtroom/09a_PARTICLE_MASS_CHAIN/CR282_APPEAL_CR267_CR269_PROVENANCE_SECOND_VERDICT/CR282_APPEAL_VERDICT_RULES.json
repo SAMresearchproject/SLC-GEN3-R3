@@ -1,0 +1,38 @@
+{
+  "record_id": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+  "parent_record": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "appeal_claim": "CR282 correctly preserved the direct A-through-X1 weld as open, but CR267 and CR269 provide sealed provenance for a narrower B/contact-to-axis-fee closure bridge that changes the impact of the original boundary verdict.",
+  "appeal_rules": [
+    {
+      "gate": "A1_parent_preserved",
+      "pass_if": "CR282 remains BOUNDARY and historical row trace PASS / axis-self weld OPEN are unchanged."
+    },
+    {
+      "gate": "A2_non_row_A_preserved",
+      "pass_if": "CR256 and CR282 preserve A as a non-row operator and ledger 162 is unchanged."
+    },
+    {
+      "gate": "A3_cr267_closure_witness",
+      "pass_if": "CR267 seals 9 = 8 + 1 and +1 = axis self-coupling / axis fee."
+    },
+    {
+      "gate": "A4_cr269_contact_operator",
+      "pass_if": "CR269 seals B : R^2 -> (M, Theta_out), R^2 = S*Theta = 8*18, and release fraction 1/8."
+    },
+    {
+      "gate": "A5_contact_axis_fee_bridge",
+      "pass_if": "CR269 explicitly matches its 1/8 release fraction to CR267's axis-fee fraction."
+    },
+    {
+      "gate": "A6_scope_refinement",
+      "pass_if": "The appeal separates B/contact-to-axis-fee PASS from A-to-B or A-through-X1 OPEN."
+    },
+    {
+      "gate": "A7_no_parent_rewrite",
+      "pass_if": "No parent CR artifact is modified."
+    }
+  ],
+  "current_status_if_all_pass": "APPEAL_GRANTED_SCOPE_REFINED_CONTACT_AXIS_FEE_BRIDGE_PASS_A_TO_CONTACT_WELD_OPEN",
+  "scientific_result_status_if_all_pass": "APPEAL_GRANTED_IN_PART",
+  "failure_status": "APPEAL_DENIED_OR_BOUNDARY"
+}

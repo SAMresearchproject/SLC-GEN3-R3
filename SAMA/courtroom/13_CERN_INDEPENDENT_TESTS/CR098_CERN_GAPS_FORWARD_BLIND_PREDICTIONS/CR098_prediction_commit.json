@@ -1,0 +1,10 @@
+{
+  "commit_id": "CR098_FORWARD_BLIND_PREDICTION_COMMIT",
+  "predictions_file": "CR098_predictions.csv",
+  "prediction_commit_sha256": "cf0cec19b5ce8a91cf5888eded94dc8ac8fa213296215fee674fc52bd3734a91",
+  "prediction_commit_utc": "2026-06-13T21:41:50Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "anchor_envelope_does_not_yet_exist": "CERN_HAS_NOT_PUBLISHED_MATCHING_MEASUREMENTS",
+  "blindness_pillar": "PILLAR_2_PROCEDURAL_BLINDNESS_PRE_COMMIT_PREDICTION_HASH",
+  "forward_blind_principle": "The hash + utc is the cryptographic record that SAM committed BEFORE CERN published"
+}

@@ -1,0 +1,41 @@
+{
+  "cr_id": "CR067",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL",
+  "triage_bin": "A",
+  "reason": "periodic structure derives from QP049-QP060 with hash-locked Phase5 tables, cross-branch shared inputs verified, roster non-contact confirmed, and sealed prediction hash guard intact",
+  "captured_at_utc": "2026-06-13T07:36:24Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "phases": {
+    "phase_1_seal_and_hash": {
+      "seal_exists": true,
+      "sha_matches": true,
+      "verified": 155
+    },
+    "phase_2_vault_chain": {
+      "ok_steps": 12,
+      "of": 12
+    },
+    "phase_3_phase5_tables": {
+      "matched": 9,
+      "of": 9
+    },
+    "phase_4_cross_branch_inputs": {
+      "verified": 2,
+      "mismatches": 0
+    },
+    "phase_5_roster_non_contact": {
+      "clean": 12,
+      "doc_mention": 0,
+      "engine_violations": 0
+    },
+    "phase_6_sealed_prediction_guard": {
+      "status": "sealed_prediction_hash_guard_verified"
+    },
+    "phase_7_wrong_derivations": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

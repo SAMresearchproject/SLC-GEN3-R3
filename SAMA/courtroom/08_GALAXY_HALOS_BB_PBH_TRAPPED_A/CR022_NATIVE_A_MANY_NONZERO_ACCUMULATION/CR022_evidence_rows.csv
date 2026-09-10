@@ -1,0 +1,7 @@
+item,value,pass
+master_many_source_formula,A(x) = sum_i,True
+master_halo_cumulative_formula,A(r) = r_s(<r)/r,True
+action_many_source_formula,A_L(x) = sum_i,True
+action_halo_cumulative_formula,A_L(r) = r_s(<r)/r,True
+single_nonzero_A,1e-18,True
+many_nonzero_sum,1.0000000000000001e-07,True

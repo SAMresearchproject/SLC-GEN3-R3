@@ -1,0 +1,10 @@
+species_id,chemical_species,formal_charge,role,speciation_condition,prediction_status,observed_target_values_allowed
+SP01,H2O,0,solvent_reference,liquid_water,UNPREDICTED,false
+SP02,Na+,1,monovalent_cation,aqueous,UNPREDICTED,false
+SP03,K+,1,monovalent_cation,aqueous,UNPREDICTED,false
+SP04,Mg2+,2,divalent_cation,aqueous,UNPREDICTED,false
+SP05,Ca2+,2,divalent_cation,aqueous,UNPREDICTED,false
+SP06,Cl-,-1,monovalent_anion,aqueous,UNPREDICTED,false
+SP07,SO4^2-,-2,polyatomic_divalent_anion,aqueous_and_pH_recorded,UNPREDICTED,false
+SP08,B(OH)3,0,neutral_boron_species,pH_recorded,UNPREDICTED,false
+SP09,B(OH)4-,-1,anionic_boron_species,pH_recorded,UNPREDICTED,false

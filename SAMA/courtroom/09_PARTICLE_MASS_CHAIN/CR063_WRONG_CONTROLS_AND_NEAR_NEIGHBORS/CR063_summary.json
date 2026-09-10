@@ -1,0 +1,38 @@
+{
+  "cr_id": "CR063",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_HONEST_NEGATIVES_REJECT",
+  "triage_bin": "A",
+  "reason": "qp040 present; QGA wrong-controls present; hostile audit roll-forward NO_BLOCKER_FOUND; engine perturbations detected as chain-breaking",
+  "captured_at_utc": "2026-06-13T07:45:02Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "phases": {
+    "phase_1": {
+      "verified": 572
+    },
+    "phase_2_qp040": {
+      "status": "honest_negative_present_and_hash_locked",
+      "rows": 8
+    },
+    "phase_3_qga_wrong_controls": {
+      "present_with_rows": 13,
+      "of": 13
+    },
+    "phase_4_hostile_audit": {
+      "status": "audit_roll_forward_verified"
+    },
+    "phase_5_engine_perturbations": {
+      "detected": 3,
+      "of": 3
+    },
+    "phase_6_near_neighbor": {
+      "gap_ok": 12,
+      "of": 12
+    },
+    "phase_7_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

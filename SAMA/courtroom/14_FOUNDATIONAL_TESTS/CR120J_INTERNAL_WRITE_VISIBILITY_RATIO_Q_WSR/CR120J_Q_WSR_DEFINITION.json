@@ -1,0 +1,32 @@
+{
+  "authority": "CONSTRUCTED_MATHEMATICAL_RESEARCH_BOUNDARY",
+  "budgets": {
+    "A_H": "squared full-probe distance of current snapshot from reference",
+    "B_H": "sum of squared separately tagged write residues",
+    "C_H": "sum of squared retained updates",
+    "T_H": "sum of squared write inputs"
+  },
+  "meaning": "current probe-visible state budget relative to current-state plus accumulated-residue budgets",
+  "not_meaning": [
+    "total-history share",
+    "record identity",
+    "state decoder",
+    "ordered transcript",
+    "memory magnitude",
+    "physical closure scalar"
+  ],
+  "partial_definition": {
+    "CANCELED_NONEMPTY": "q_WSR=null when nonempty history has A_H+B_H=0",
+    "DEFINED": "q_WSR=A_H/(A_H+B_H) when A_H+B_H>0",
+    "NULL_HISTORY": "q_WSR=null when history length is zero"
+  },
+  "probe_family": "P81 coordinate probes",
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "reference_state": {},
+  "residue_scale_s_K": 1,
+  "scale_lock": "isometric inheritance from common Q^81 input fixture",
+  "scientific_pass_claimed": false,
+  "semantic_type": "InternalWriteVisibilityRatio",
+  "state_scale_s_Y": 1,
+  "symbol": "q_WSR"
+}

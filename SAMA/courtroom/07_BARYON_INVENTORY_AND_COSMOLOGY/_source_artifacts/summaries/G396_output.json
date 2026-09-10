@@ -1,0 +1,25 @@
+{
+  "test_id": "G396",
+  "test_name": "TOE_G23_BBN_LIGHT_ELEMENT_GATE",
+  "started_utc": "2026-06-01T14:41:56.492211+00:00",
+  "finished_utc": "2026-06-01T14:41:56.498939+00:00",
+  "verdict": "G396_PASS_TOE_G23_SCOPED_BBN_COMPATIBILITY__PRECISION_LIGHT_ELEMENTS_OPEN",
+  "check_passes": 9,
+  "check_total": 9,
+  "omega_b_h2_primary": 0.022368783502886305,
+  "omega_b_h2_primary_pct": -0.005438073820723102,
+  "eta10_primary": 6.126809801440558,
+  "N_eff": 3.046,
+  "YHe_CMB_status": "CAMB_BBN_DEFAULT",
+  "M022_YHe_predicted": 0.22994412280566878,
+  "M022_YHe_observed": 0.247,
+  "M022_YHe_relative_pct": -6.905213439000492,
+  "M022_YHe_sigma": -5.016434468920946,
+  "scope_boundary": "Scoped BBN compatibility and He4 native contact; no native precision D/H, Li/H, weak freeze-out, neutron lifetime, or full nuclear network derivation.",
+  "next_gate": "TOE_G24B_SN_A_LOS_REBUILD_OR_TOE_G25_DEPENDENCY_CHECK",
+  "artifacts": {
+    "bbn_input_board": "native_prediction_artifacts\\g396_bbn_input_board.csv",
+    "light_element_board": "native_prediction_artifacts\\g396_light_element_board.csv",
+    "checks": "native_prediction_artifacts\\g396_toe_g23_bbn_checks.csv"
+  }
+}

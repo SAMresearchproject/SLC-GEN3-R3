@@ -1,0 +1,175 @@
+{
+  "precommit_sha256": "01797081265fdc072b233dfed413c38374a8a27f4ef6c02bcf1740623ea42b05",
+  "n_galaxies_loaded": 175,
+  "n_radial_points_loaded": 3391,
+  "canonical": {
+    "upsilon_disk": 0.5,
+    "upsilon_bul": 0.7,
+    "pop_median": [
+      1.1512871135186695,
+      1.7270781679390623,
+      2.4224094922018837,
+      2.6832241819495484,
+      3.122506591583315
+    ],
+    "log_spread": [
+      0.6137087532479867,
+      0.4477236347838408,
+      0.43467591231295244,
+      0.404172398117451,
+      0.3960308884579974
+    ],
+    "n_galaxies_per_bin": [
+      163,
+      174,
+      171,
+      173,
+      175
+    ],
+    "n_pos_per_bin": [
+      142,
+      165,
+      167,
+      170,
+      173
+    ],
+    "total_nonpos_per_bin": [
+      173,
+      22,
+      8,
+      6,
+      5
+    ],
+    "total_count_per_bin": [
+      1038,
+      673,
+      570,
+      522,
+      586
+    ],
+    "P1": {
+      "name": "P1",
+      "passed": true,
+      "reason": "P1 holds",
+      "endpoint_diff": 1.9712194780646453,
+      "spearman": 0.9999999999999999,
+      "adjacent_rises_of_4": 4
+    },
+    "P2": {
+      "name": "P2",
+      "passed": true,
+      "reason": "P2 holds",
+      "outer_median": 3.122506591583315,
+      "low_bound": 2.5,
+      "high_bound": 4.5,
+      "cosmic_cap": 4.5594
+    },
+    "P3": {
+      "name": "P3",
+      "passed": true,
+      "reason": "P3 holds",
+      "spread_inner": 0.6137087532479867,
+      "spread_outer": 0.3960308884579974,
+      "spread_endpoint_diff": -0.2176778647899893,
+      "adjacent_decreases_of_4": 4
+    }
+  },
+  "WC1": {
+    "upsilon_disk": 0.3,
+    "upsilon_bul": 0.7,
+    "pop_median": [
+      2.352073731639754,
+      3.001069351521023,
+      3.390715778372514,
+      3.620936846861544,
+      4.18247668063584
+    ],
+    "log_spread": [
+      0.5466304080767794,
+      0.38266717829993796,
+      0.3283503584544143,
+      0.33687142494770755,
+      0.32725967437118
+    ],
+    "P1": {
+      "name": "P1",
+      "passed": true,
+      "reason": "P1 holds",
+      "endpoint_diff": 1.8304029489960865,
+      "spearman": 0.9999999999999999,
+      "adjacent_rises_of_4": 4
+    },
+    "P3": {
+      "name": "P3",
+      "passed": true,
+      "reason": "P3 holds",
+      "spread_inner": 0.5466304080767794,
+      "spread_outer": 0.32725967437118,
+      "spread_endpoint_diff": -0.21937073370559945,
+      "adjacent_decreases_of_4": 3
+    }
+  },
+  "WC2": {
+    "upsilon_disk": 0.7,
+    "upsilon_bul": 0.7,
+    "pop_median": [
+      0.5602095458809278,
+      1.103300585556731,
+      1.719350981169592,
+      2.1006715654086823,
+      2.366075909449261
+    ],
+    "log_spread": [
+      0.6003897289735936,
+      0.5211790128242371,
+      0.4589693575319894,
+      0.5074086035699391,
+      0.44706606346756206
+    ],
+    "P1": {
+      "name": "P1",
+      "passed": true,
+      "reason": "P1 holds",
+      "endpoint_diff": 1.8058663635683334,
+      "spearman": 0.9999999999999999,
+      "adjacent_rises_of_4": 4
+    },
+    "P3": {
+      "name": "P3",
+      "passed": true,
+      "reason": "P3 holds",
+      "spread_inner": 0.6003897289735936,
+      "spread_outer": 0.44706606346756206,
+      "spread_endpoint_diff": -0.1533236655060315,
+      "adjacent_decreases_of_4": 3
+    }
+  },
+  "WC3": {
+    "n_trials": 1000,
+    "p1_fail_count": 839,
+    "p1_fail_fraction": 0.839,
+    "p1_fail_endpoint": 494,
+    "p1_fail_spearman": 56,
+    "p1_fail_rises": 289,
+    "passes_as_negative_control": false
+  },
+  "WC4": {
+    "n_trials": 1000,
+    "p3_fail_count": 808,
+    "p3_fail_fraction": 0.808,
+    "passes_as_negative_control": false
+  },
+  "pass_conditions": {
+    "P1_canonical": true,
+    "P2_canonical": true,
+    "P3_canonical": true,
+    "WC1_P1": true,
+    "WC1_P3": true,
+    "WC2_P1": true,
+    "WC2_P3": true,
+    "WC3_kill": false,
+    "WC4_kill": false
+  },
+  "verdict": "BOUNDARY",
+  "verdict_reason": "P1 holds but failed conditions: ['WC3_kill', 'WC4_kill']"
+}

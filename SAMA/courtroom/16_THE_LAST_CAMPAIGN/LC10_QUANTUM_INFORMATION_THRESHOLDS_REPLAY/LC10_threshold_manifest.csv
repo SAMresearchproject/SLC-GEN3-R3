@@ -1,0 +1,6 @@
+threshold,exact,decimal,source,meaning,status
+A_side,1/24,0.041666666666666664,LC01 R=12 -> 1/(2R); QP010/QP014/QP016/QN/CR068a,write-candidacy / warning threshold,PASS
+A_share,1/12,0.08333333333333333,LC01 R=12 -> 1/R; QP010/QP014/QP016,resolution/write-access threshold,PASS
+A_write_midpoint,1/2,0.5,QP010/QP014/QP016,"midpoint diagnostic threshold, not replacement for A_side/A_share",PASS
+letter_increment,1/16,0.0625,"CR066a/CR066b, alpha_H^-4",minimum Paul Revere letter information per row,PASS
+gravity_channel_ceiling,1/8,0.125,LC01 split_fraction=2^-D and CR067a capacity ceiling,multi-letter asymptotic ceiling per row,PASS

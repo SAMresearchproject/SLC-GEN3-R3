@@ -1,0 +1,80 @@
+{
+  "cr_id": "CR212",
+  "test_id": "CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN",
+  "purpose": "Scoped Courtroom audit: score each OPEN reading from CR210/CR211 against five candidate corpora (priority-record G-tests, QP, SUK gate, QGA, Courtroom sealed closures). Emit per-reading promotion verdicts. Do not seal new theorems. Do not modify upstream Courtroom verdicts.",
+  "claim_grade": "SCOPED_AUDIT",
+  "upstream_intake_branch": "17_HAUNTED_HOUSE_INTAKE",
+  "upstream_dependencies": {
+    "CR210": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_summary.json",
+    "CR211": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_summary.json"
+  },
+  "frozen_inputs": {
+    "alpha_H": 2,
+    "R": 12,
+    "D": 3,
+    "R_squared": 144,
+    "face_states": 8,
+    "carrier_cells": 18,
+    "retained_cells": 126,
+    "H_native_decimal": "126",
+    "H_reveal_decimal": "125.25"
+  },
+  "open_readings_under_audit": [
+    {
+      "id": "OPEN_1",
+      "name": "MATTER column",
+      "shape": "atomic-weight value, 126 rows",
+      "upstream_status": "REFERENCE_NOT_COURTROOM_DATA"
+    },
+    {
+      "id": "OPEN_2",
+      "name": "CLOCK column",
+      "shape": "stable/radioactive flag, 126 rows",
+      "upstream_status": "REFERENCE_NOT_COURTROOM_DATA"
+    },
+    {
+      "id": "OPEN_3",
+      "name": "LIGHT column",
+      "shape": "atomic-spectrum wavelength, 126 rows",
+      "upstream_status": "REFERENCE_NOT_COURTROOM_DATA"
+    },
+    {
+      "id": "OPEN_4",
+      "name": "ACTION column",
+      "shape": "nuclear-spin value, 126 rows",
+      "upstream_status": "REFERENCE_NOT_COURTROOM_DATA__FALSIFIED_1_OF_102"
+    },
+    {
+      "id": "OPEN_5",
+      "name": "seven-channel physical mapping",
+      "shape": "Fano F_2^3 position assignment to physical channel",
+      "upstream_status": "STRUCTURAL_READING_PENDING_AUDIT"
+    },
+    {
+      "id": "OPEN_6",
+      "name": "126 GeV conversion",
+      "shape": "H_native = 126 -> Higgs mass 125.25 GeV reveal",
+      "upstream_status": "HIDDEN_PARAMETER_RISK"
+    }
+  ],
+  "corpora": [
+    {"id": "CORPUS_A", "name": "priority-record G-tests", "path": "C:/VS/memory/PRIORITY_RECORD.md"},
+    {"id": "CORPUS_B", "name": "QP corpus", "path": "C:/VS/quantum_phase/src"},
+    {"id": "CORPUS_C", "name": "SUK gate lineage", "anchor_files": ["qp071_private_heavy_composite_derivation_rule_and_suk_gate_draft.py", "qp073_private_phase4_final_freeze_post_suk_hco.py"]},
+    {"id": "CORPUS_D", "name": "QGA references", "search_path": "C:/VS/memory/PRIORITY_RECORD.md"},
+    {"id": "CORPUS_E", "name": "Courtroom sealed closures", "scan_root": "C:/VS/The_Courtroom"}
+  ],
+  "allowed_verdicts": [
+    "COURTROOM_NATIVE_BACKED",
+    "REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND",
+    "NOT_PROMOTABLE_FROM_EXISTING_DATA",
+    "RETIRED_FALSIFIED"
+  ],
+  "forbidden_overclaims": [
+    "promoting any OPEN reading to Courtroom-grade from this test",
+    "treating absence-of-evidence as derivation",
+    "using LC02 H_native=126 as forward-blind reveal",
+    "modifying CR210 or CR211 verdicts",
+    "sealing a new theorem from this scan"
+  ]
+}

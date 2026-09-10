@@ -1,0 +1,13 @@
+key,value,note
+wrapped_preflight_root,SAM_TEST_PREFLIGHT_V4_2_LOCKED,SAM V4.2 locked wrapper
+full_3d_replay,1218/1218,"two geometries, p=0..3, same-total and all 24 permutations"
+regression_tests,58/58,full Starbreaker chain
+exact_replay_hashes,28/28,post-replay versus precommit
+localized_remnant_ladder,0.494604|0.595000|0.704559|0.788339,"strict p=0,1,2,3 means"
+dispersed_remnant_ladder,0.555535|0.638630|0.747190|0.819046,"strict p=0,1,2,3 means"
+runwise_monotonic_ladders,42/42,all locked geometry anchor seed ladders
+same_total_inward_wins,42/42,inward p=3 versus uniform 56-ledger controls
+aligned_radial_permutation_rank,2/2 maximum of 24,both 3D geometry families
+fitted_parameters,0,direction only; no external fit
+payload_fingerprint_sha256,ae60c1b744b2d2ea5ec7fe89aacc491065b83207288fa872f28232ea83d0f77d,22-file Courtroom snapshot
+remaining_boundary,OPEN_TIME_RESOLVED_COLLAPSE_AND_PHYSICAL_CALIBRATION,endpoint directional contact only

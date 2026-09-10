@@ -1,0 +1,72 @@
+{
+  "result_class": "CR205_PASS_SCALAR_GAUGE_FERMION_LANE_SEPARATION",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "SIMULATOR_TYPED_LANE_SEPARATION",
+  "question": "Can scalar 9/16 stay lane-specific rather than becoming a universal particle multiplier?",
+  "pass_conditions": {
+    "lane_gate_pass": true,
+    "not_audit_or_retest": true,
+    "no_free_parameters": true,
+    "scalar_half_is_9_16": true,
+    "scalar_expression_is_D3": true,
+    "fermions_degrade_under_forced_9_16": true,
+    "fermions_degrade_under_forced_16_9": true,
+    "gauge_rows_held": true,
+    "higgs_scalar_owner_confirmed": true,
+    "wrong_controls_passed": true
+  },
+  "evidence_rows": [
+    {
+      "key": "result_class",
+      "value": "PASS_G754c_SCALAR_GAUGE_FERMION_LANE_SEPARATION",
+      "note": "source G-test result"
+    },
+    {
+      "key": "derived_scalar_half",
+      "value": 0.5625,
+      "note": "D=3 scalar lane"
+    },
+    {
+      "key": "fermion_rows_checked",
+      "value": 6,
+      "note": "fermion controls degrade under scalar multipliers"
+    },
+    {
+      "key": "gauge_rows_held",
+      "value": 2,
+      "note": "gauge owners separated"
+    },
+    {
+      "key": "wrong_controls",
+      "value": "8/8",
+      "note": "all lane-separation controls passed"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that 9/16 is a D=3 scalar-lane structure and not a universal multiplier for fermion or gauge rows.",
+  "notes": [
+    "This is a scoped lane-separation result, not a new particle-mass fit."
+  ],
+  "test_id": "CR205",
+  "generated_at_utc": "2026-06-14T04:04:01.781993+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G754c_SCALAR_GAUGE_FERMION_LANE_SEPARATION_TEST\\G754c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "35b2cb9742ac39a619da8da0f1c818e1ca156ecb6e8e00ce720099a2b398b9bc",
+      "bytes": 1212,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "wrong_controls",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G754c_SCALAR_GAUGE_FERMION_LANE_SEPARATION_TEST\\G754c_wrong_controls.csv",
+      "role": "wrong_controls",
+      "sha256": "021ae4e9836eda9809f18c3b89257deac32c2b461095db62db8244da8046d2ef",
+      "bytes": 985,
+      "used_as_computed_input": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "artifact": "QP010_PRIVATE_PROTECTED_ROUTE_BOUNDARY_LAW",
+  "result_class": "QP010_PRIVATE_PROTECTED_ROUTE_BOUNDARY_LAW_BUILT",
+  "generated_at_utc": "2026-06-07T15:14:31.235697+00:00",
+  "source_scope": "PRIVATE_E_DRIVE_QUANTUM_PHASE_ONLY",
+  "external_data_used": true,
+  "free_parameters_introduced": 0,
+  "thresholds": {
+    "A_SIDE": 0.041666666666666664,
+    "A_SHARE": 0.08333333333333333,
+    "A_WRITE_MIDPOINT": 0.5
+  },
+  "law": "A_leak(N)=N*Gamma_leak; protected if A_leak<A_SIDE; write-candidate at A_SIDE; resolution-accessible at A_SHARE",
+  "qubit_rows": 7,
+  "contact_rows": 6,
+  "modality_rows": 11,
+  "ledger_cell_rows": 4,
+  "top_protected_route": "QUBIT-NL-001",
+  "top_ticks_to_A_SIDE": 1009937.4558405371,
+  "top_ticks_to_A_SHARE": 2019874.9116810742,
+  "status_counts": {
+    "PROTECTED_UNRESOLVED_ROUTE": 7
+  },
+  "next_frontier": "QP011_PRIVATE_DECOHERENCE_LEDGER_LEAKAGE_MODEL"
+}

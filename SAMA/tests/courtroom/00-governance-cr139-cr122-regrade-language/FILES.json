@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE",
+  "files": [
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_predictions.csv",
+      "mode": "100644",
+      "git_blob": "1b2a2d7cecd2e07403fa4fd412645af301e6c132",
+      "bytes": 798,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json",
+      "mode": "100644",
+      "git_blob": "9a0b715f0c5a2de9ffde9ecca27e7cc7c81ff65a",
+      "bytes": 5807,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "be04737efa22538c630e67d773592c784c84d2f0",
+      "bytes": 98,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_manifest.csv",
+      "mode": "100644",
+      "git_blob": "5b6f955ad48a60b659ffbe4ab0fe5d7e61c9d3a1",
+      "bytes": 859,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_regrade_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_result.md",
+      "mode": "100644",
+      "git_blob": "6fae05f2c8e9702488c55cc6f27c90dae604b921",
+      "bytes": 9418,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_result.md",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_result.md"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_runner.py",
+      "mode": "100644",
+      "git_blob": "e480bd4713b948e46a01203c10ccf20f7b2f9b78",
+      "bytes": 44986,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_runner.py",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_runner.py"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "996ec868cf0db27bdd447796a047b13a3777846f",
+      "bytes": 814,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_summary.json",
+      "mode": "100644",
+      "git_blob": "aee2a2c30e3a54daa654a70d5ba8dd63cb68db22",
+      "bytes": 11153,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_summary.json",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_summary.json"
+    },
+    {
+      "path": "00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "6172fc8aa377868a00b24b1054a5e041e084406f",
+      "bytes": 2076,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR139_CR122_REGRADE_LANGUAGE/CR139_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR139@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

@@ -1,0 +1,13 @@
+{
+  "cr_id": "CR060a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_QP075_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS",
+  "triage_bin": "A",
+  "reason": "QP075 exposes selector/role provenance and keeps observed masses in reveal-only residual columns.",
+  "captured_at_utc": "2026-06-13T10:57:11Z",
+  "closure_rows_checked": 35,
+  "role_operator_rows_checked": 26,
+  "observed_mass_use": "REVEAL_ONLY_RESIDUAL_COLUMN",
+  "manifest_sha256": "c6a62b1e6dad7a143b1dff11234c144fc781b865fe7be0fbbca789d482285e06"
+}

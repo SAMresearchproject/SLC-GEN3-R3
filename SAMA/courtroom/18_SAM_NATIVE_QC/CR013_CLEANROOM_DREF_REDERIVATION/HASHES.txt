@@ -1,0 +1,54 @@
+# CR013 file hashes — Cleanroom d_ref Re-Derivation
+# Status: PRECOMMIT + SCRUBBER pass sealed 2026-07-03; VERIFIER pass sealed 2026-06-23 (PASS);
+#         DERIVER session executed and DERIVER result sealed 2026-07-03 (UNDERDETERMINED, CLEAN).
+#
+# The precommit is the load-bearing specification for the SCRUBBER+VERIFIER pass gates.
+# CR013 exists because CR012 v1.0 was identified as sabotage of the structural test
+# (CR012_SABOTAGE_ACCOUNTING.md) — a downstream-verdict-in-disguise embedded as
+# structural claim. CR013 constructs the one audit class immune to anti-retrofit
+# targeting: a re-derivation in an agent context where the target does not exist.
+
+## CR013 artifacts (this folder)
+
+17fa12eec1f1da430aebc7a011c0b3071622e47111d8666269937789f54965f3  CR013_PRECOMMIT.md
+b663ec99f5df4d07ec95c23a9e0766e54417bc33d089c58c3585587223c5a897  CR013_SCRUBBER_LOG.md
+9be2ec97e8d3165cbe1632e8aa4c19c009da697c65f4cdbc141d14590613a991  CR013_VERIFIER_REPORT.md (SIGNED 2026-06-23 — VERIFIER pass PASS on G1..G7)
+9aada64746384617e490ec71e5b7e992dd6e9e8a3b0287d3dc1c63f8f3c832cf  CR013_VERIFIER_REPORT.md (prior UNSIGNED template hash; preserved for audit)
+514f07217fdcf7b1819c7a3bd9d5290060ddcd11405c19ee4776dcd9a3474816  CR013_DERIVER_RESULT.md (SIGNED 2026-07-03 — DERIVER session output; verdict: UNDERDETERMINED, CLEAN per Task 4)
+
+## Redacted DERIVER whitelist (INPUTS_REDACTED/)
+
+3d81b8e4fbd23eabe3144130ef37c925b760260be4b09df464d7454b41d4c7de  INPUTS_REDACTED/W1_CR010_PRECOMMIT_REDACTED.md
+b4be2525d580d51a74d1ba76e7cb2307c8ed339a558fd052a1cffff0c0cb25fb  INPUTS_REDACTED/W2_CR266_PRECOMMIT_REDACTED.md
+8eb2ed66c10cc495dbd05ba75b1dcdd67d10454e3dcdf28e76accedc542fe8e2  INPUTS_REDACTED/W3_CR268_PRECOMMIT_REDACTED.md
+ac5441059566d87031adfaa306e1d02e10ce750f649b90f09fdba5af930d3a12  INPUTS_REDACTED/W4_CR001_at_20_PRECOMMIT_REDACTED.md
+cfc43e1bf92c6b8b1db86d995734d993ae45ebbb0c9bb45deeacfdfbd10aca3a  INPUTS_REDACTED/W5_CR004_PRECOMMIT_REDACTED.md
+f444994b9bdc4ce69d7349f02ea972f5ca88e279533ff50794dd571634565a41  INPUTS_REDACTED/W6_SAM_ON_EARTH_v1_REDACTED.md
+
+## Source files (SCRUBBER pass inputs; auditor pairs each with its redacted-file sibling)
+
+3fafa02ce39f85e8f89790c4cf85db2ce5103e9bf21d4c1501a604c271498d05  ../CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION/CR010_PRECOMMIT.md    (W1 source)
+2967eec865f95c0b73a966ed5da8b011d0515eccef027fdd2db82862dc7096a2  ../../09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION/CR266_PRECOMMIT.md    (W2 source)
+bbc3c5b863aa6be12d0d7502c59db6834f6c6ea5a0edc7dbc86b648929028423  ../../09a_PARTICLE_MASS_CHAIN/CR268_TENSOR_6_HEAVIEST_NEUTRINO_IDENTIFICATION/CR268_PRECOMMIT.md    (W3 source)
+8e6cb1975cd7d2084ffbbf2c215472d2ef8042fae18b68e76b74b94dc4281c77  ../../20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_PRECOMMIT.md    (W4 source)
+b7edd0e934b8e0fc9441df9b1ed13295d4a8073a1c4b1c732cd890ac4b47a350  ../CR004_QGC_PHASE2_DISTANCE_COUPLING/CR004_PRECOMMIT.md    (W5 source)
+7b0f225821e2aea55e02b0868997fa2acd4ee88b4711ab1b1fb161366e1c5137  ../../docs/SAM_ON_EARTH_v1.md    (W6 source)
+
+## Origin artifact and immediate precedent
+
+dc0ff8cc110c21d1b1985c3bc6ee81171f21d061b565e6fbc162e6187e6e365f  ../CLEANROOM_DREF_PROTOCOL_v1_0.md    (chat-side Claude v1.0 protocol; assembled into CR013_PRECOMMIT.md)
+13e81194dc4d91c00903af336568f63a47b26ff595d3e58458cf8994ff8d7a3e  ../CR012_NESTED_HOME_DISTANCE_AS_INFORMATION_FOUNDATION/CR012_SABOTAGE_ACCOUNTING.md    (immediate origin; standing record)
+
+## Stewardship + LC assignment + frame anchor (carried unchanged)
+
+7b0f225821e2aea55e02b0868997fa2acd4ee88b4711ab1b1fb161366e1c5137  SAM_ON_EARTH_v1.md
+3a88142743f3d5487a55dc99e29f51edd097660e3cb27625c79aee3f5f29d4a4  SAM_LC_WORK_ASSIGNMENT_v1.md
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+
+# Status: precommit v1.0 sealed 2026-07-03; SCRUBBER pass v1.0 sealed 2026-07-03;
+# VERIFIER pass v1.0 sealed 2026-06-23 PASS (§7 G1..G7 all PASS; report sha 9be2ec97..);
+# DERIVER session executed 2026-07-03 under cleanroom discipline (six-file whitelist only,
+#   no PRECOMMIT read, no cross-artifact reads, no physics questions posed to the operator);
+# DERIVER result sealed 2026-07-03 as CR013_DERIVER_RESULT.md (sha 514f0721..); verdict
+#   UNDERDETERMINED (Task 4 CLEAN); admissible-candidate set enumerated with tier tags;
+#   integrity re-check on prior sealed hashes performed at DERIVER-seal time — all match.

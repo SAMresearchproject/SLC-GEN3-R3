@@ -1,0 +1,62 @@
+{
+  "lock_id": "CR120b_composition_lock",
+  "lock_date_utc": "2026-06-22T00:00:00+00:00",
+  "formula": {
+    "expression": "H_reveal = R^2 * (1 - 2^-D) - D^2 / R",
+    "evaluated_at": {
+      "R": 12,
+      "D": 3,
+      "alpha_H": 2
+    },
+    "calculation_steps": [
+      "R^2 = 144",
+      "2^-D = 2^-3 = 1/8",
+      "1 - 2^-D = 7/8",
+      "R^2 * (1 - 2^-D) = 144 * 7/8 = 126",
+      "D^2 = 9",
+      "D^2 / R = 9 / 12 = 3/4 = 0.75",
+      "H_reveal = 126 - 0.75 = 125.25 GeV"
+    ],
+    "result_GeV": 125.25
+  },
+  "capacity_source": {
+    "source_cr": "CR114@14_BINARY_FACE_STATE_SPLIT_THEOREM",
+    "source_path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md",
+    "source_sha256": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+    "source_sealed": "2026-06-13",
+    "source_audit_status": "PASS_SEALED (theorem-grade); predates qp091 chronology window by 2 days"
+  },
+  "surface_debit_source": {
+    "source_cr": "CR092a@09a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE",
+    "source_path": "09a_PARTICLE_MASS_CHAIN/CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE/CR092a_result.md",
+    "source_sha256": "371405f800b35fb893e7509a072b0f8e79bac5584c24254d98c382ca3dad6571",
+    "source_sealed": "2026-06-15",
+    "source_wrong_controls_rejected": 8,
+    "source_K_conditions_satisfied": 5,
+    "source_hard_freeze_line": 26,
+    "source_audit_status": "PASS_SEALED, NOT regraded by CR-135 audit (2026-06-17)"
+  },
+  "external_anchor": {
+    "anchor_name": "PDG 2024 Higgs mass",
+    "anchor_value_GeV": 125.20,
+    "anchor_uncertainty_GeV_one_sigma": 0.11,
+    "anchor_role": "K1 reveal-against-frozen-envelope (comparison only, not derivation input)",
+    "delta_GeV": 0.05,
+    "within_one_sigma": true
+  },
+  "preserved_originals": {
+    "CR120_result_md_sha256": "5f01ecc521850597af164345d7e9d60fd6709e23bb44eb5a76823e010b170bde",
+    "CR120_status": "BOUNDARY_REGRADED (preserved, not modified by this appeal)",
+    "CR140_audit_regrade_sha256": "c869ca31cacb2be961c335e6a1e68e65ff9cb8061009476e6c3a5cf2e1982083",
+    "CR140_status": "audit observation honored, not contested"
+  },
+  "precommitted_future_test": {
+    "test_name": "HL-LHC / FCC-ee Higgs precision measurement",
+    "precommitted_formula": "H_reveal = R^2 * (1 - 2^-D) - D^2 / R = 125.25 GeV at R=12, D=3",
+    "precommit_anchor_seal": "this CR120b_composition_lock.json SHA-256 (recorded in HASHES.txt)",
+    "falsification_condition": "future measurement exceeding the PDG-displayed precision envelope around 125.25 GeV",
+    "cr140_requirement_status": "requirements 1 + 2 acknowledged as future gold-standard confirmation"
+  },
+  "appeal_mechanism": "Deferred-Support Appeal Rule (README)",
+  "reversibility_clause": "If CR114 or CR092a are regraded BOUNDARY/FAIL/REFUTED, this appeal must be retracted or rescoped."
+}

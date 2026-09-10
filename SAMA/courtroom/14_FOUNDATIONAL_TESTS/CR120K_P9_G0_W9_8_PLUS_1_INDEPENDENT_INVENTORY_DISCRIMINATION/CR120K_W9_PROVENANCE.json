@@ -1,0 +1,67 @@
+{
+  "all_passed": true,
+  "checks": {
+    "B_acts_through_X1": true,
+    "B_contact_active": true,
+    "CR120E_exact_step_passed": true,
+    "RESOLVE_active": true,
+    "RESOLVE_result": true,
+    "RESOLVE_result_type": true,
+    "RESOLVE_signature": true,
+    "S8_scalar_8": true,
+    "S8_type_BinarySurface": true,
+    "W9_scalar_9": true,
+    "W9_type_ClosureWitness": true,
+    "X1_scalar_1": true,
+    "X1_type_AxisChannel": true,
+    "scalar_closure": true
+  },
+  "entities": {
+    "B": {
+      "entity_id": "B_CONTACT_OPERATOR",
+      "semantic_type": "ContactOperator"
+    },
+    "S8": {
+      "entity_id": "S8_BINARY_SURFACE",
+      "scalar_value": 8,
+      "semantic_type": "BinarySurface"
+    },
+    "W9": {
+      "entity_id": "W9_CLOSURE_WITNESS",
+      "scalar_value": 9,
+      "semantic_type": "ClosureWitness"
+    },
+    "X1": {
+      "entity_id": "X1_AXIS_SELF_CHANNEL",
+      "scalar_value": 1,
+      "semantic_type": "AxisChannel"
+    }
+  },
+  "executed_step": {
+    "args": [
+      "S8_BINARY_SURFACE",
+      "B_CONTACT_OPERATOR",
+      "X1_AXIS_SELF_CHANNEL"
+    ],
+    "operator": "RESOLVE",
+    "result_entity": "W9_CLOSURE_WITNESS",
+    "stage": "typed_execution_plan",
+    "status": "PASS"
+  },
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION",
+  "resolve": {
+    "arg_types": [
+      "BinarySurface",
+      "ContactOperator",
+      "AxisChannel"
+    ],
+    "authority": {
+      "note": "B/contact -> X1 axis-fee -> W9 PASS",
+      "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+      "status": "ACTIVE"
+    },
+    "result_entity": "W9_CLOSURE_WITNESS",
+    "result_type": "ClosureWitness",
+    "structural_only": false
+  }
+}

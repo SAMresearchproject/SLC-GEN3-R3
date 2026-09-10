@@ -1,0 +1,131 @@
+{
+  "cr_id": "CR129b",
+  "decomposition_strategy_tested": {
+    "stage_1": "pure pairwise BCP debit sum: S_pred_1 = S_BCP(a,b) + S_BCP(b,c) + S_BCP(a,c) using CR128b formula on each pair",
+    "stage_1_result": "INSUFFICIENT.  Pure pairwise gives the wrong sign (all-negative under canonical ordering) and is off in magnitude by factors of 7-15 from observed.  Residual = S_observed - S_pairwise varies row-by-row.",
+    "stage_2": "+ 1/8 * M_native global surcharge",
+    "stage_2_result": "INSUFFICIENT.  Adding (1/8)*M_native does NOT close the residual: the residual after pure pairwise is in the milli-MeV range, while (1/8)*M_native is in the hundreds-of-MeV range -- wrong magnitude scale entirely.  The 1/8 = 2^-D surcharge hypothesis as a STANDALONE global term is rejected.",
+    "stage_3": "+ q_abs slot-level correction",
+    "stage_3_result": "DECISIVE.  The residual after Stage 1 scales linearly with q_abs: res/M ~ +6.2e-4 for q=0; res/M ~ -7e-5 * q for q>=1.  This points to the magnitude rule below, where q_abs is the dominant control parameter."
+  },
+  "forward_blind_test": {
+    "claim_magnitude_only": "For any FUTURE row with operator_class == 'OCTET_COMPOSITE', 3-element partition, closure_depth == 3, and stability_status != REJECTED, |S_debit| = M_native * (4 * q_eff + D) / (4 * R^4) exactly, where q_eff = R if q_abs == 0 else q_abs.",
+    "claim_sign_partial": "Additionally, q_abs == 0 rows have sign(S_debit) = +1.",
+    "falsifier_magnitude": "ONE single future OCTET-3body-depth3 non-rejected row whose |S_debit| differs from the magnitude formula by any non-zero rational falsifies the magnitude rule.",
+    "falsifier_sign_q0": "ONE single future q_abs == 0 OCTET-3body-depth3 non-rejected row with negative S_debit falsifies the q=0 sign rule.",
+    "free_parameters_at_test": 0,
+    "id": "CR129b_PRED_1",
+    "non_falsifying": "Sign for q_abs >= 1 is OPEN; observation of any sign for q>=1 rows is consistent with v1.0.  GROUND_BARYON_3BODY rows (depth=0) are out of scope.  Algebra extensions warrant appeal CR."
+  },
+  "immutability": "Magnitude formula, q=0 sign rule, and scope are frozen at CR129b seal time.  Future falsification or refinement (including a full sign rule for q>=1) must be in an appeal CR.",
+  "in_sample_verification": {
+    "OCTET_3body_rows_tested": 76,
+    "magnitude_formula_matches_observed": 76,
+    "pure_pairwise_matches_observed": 0,
+    "q0_rows_total": 17,
+    "q0_sign_matches": 17,
+    "residual_by_q_abs_after_stage1": {
+      "0": {
+        "max": 0.000662152399540063,
+        "mean": 0.0006361974204685091,
+        "min": 0.0006190065690517555,
+        "n": 17
+      },
+      "1": {
+        "max": 0.000130728410191237,
+        "mean": -1.0149253438929206e-05,
+        "min": -7.308540405231841e-05,
+        "n": 18
+      },
+      "10": {
+        "max": -0.0005146290042420655,
+        "mean": -0.0005146290042420655,
+        "min": -0.0005146290042420655,
+        "n": 1
+      },
+      "11": {
+        "max": -0.0005645589784652886,
+        "mean": -0.0005645589784652886,
+        "min": -0.0005645589784652886,
+        "n": 1
+      },
+      "2": {
+        "max": 0.0001808449074074074,
+        "mean": -2.750929199091447e-05,
+        "min": -0.00012442309928894525,
+        "n": 16
+      },
+      "3": {
+        "max": -0.00015586783717679945,
+        "mean": -0.0001663547332435217,
+        "min": -0.00017136411680334024,
+        "n": 4
+      },
+      "4": {
+        "max": -0.00020775220033427105,
+        "mean": -0.00021380136672002916,
+        "min": -0.0002194463057721464,
+        "n": 4
+      },
+      "5": {
+        "max": -0.00023844909912618245,
+        "mean": -0.0002608389090119111,
+        "min": -0.00027382415695965435,
+        "n": 8
+      },
+      "6": {
+        "max": -0.00028846564052334,
+        "mean": -0.0002982561910348278,
+        "min": -0.0003080467415463157,
+        "n": 2
+      },
+      "7": {
+        "max": -0.00035407946199127665,
+        "mean": -0.0003611805878534045,
+        "min": -0.00036828171371553235,
+        "n": 2
+      },
+      "8": {
+        "max": -0.00040408983853820074,
+        "mean": -0.0004125928884930103,
+        "min": -0.0004189881876593703,
+        "n": 3
+      }
+    }
+  },
+  "law_committed_utc": "2026-06-16T00:03:35Z",
+  "law_version": "v1.0",
+  "magnitude_law_v1": {
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "equivalent_X_form": "|X * 4| = |S * 4 * R^4 / M| = 4 * q_eff + D",
+    "equivalent_cleaner_form": "|S_3body| = [(4*q_eff + D) / (4*R)] * M_native / R^3",
+    "evolution_of_understanding": "Stage 1 (pure pairwise): INSUFFICIENT.  Stage 2 (1/8 global surcharge): INSUFFICIENT -- WRONG SCALE.  Stage 2-refined (9/8 surcharge as user proposed): OVERSHOOTS by exact factor 18/17 uniformly.  Stage 3 (q_abs slot relative to mass): DECISIVE.  The exact q=0 form is S = (17/16) * M / R^3 -- user pointed directly to this clean ratio after the 9/8 was found to overshoot.",
+    "name": "OCTET_3BODY_DEPTH3_S_DEBIT_MAGNITUDE",
+    "q0_special_form_USER_LOCKED": "S_3body(q=0) = (17/16) * M_native / R^3",
+    "q0_structural_decomposition": "S(q=0) = (R + D + alpha_H) * M_native / (alpha_H^4 * R^3)  where 17 = R + D + alpha_H = 12 + 3 + 2 (sum of three foundation constants), and 16 = alpha_H^4 (algebra's alpha_H component to the 4th power).",
+    "q_eff_definition": "q_eff = R if q_abs == 0, else q_abs",
+    "structural_interpretation": "Each unit of q_abs contributes M_native / R^4 to |S|.  The D = 3 constant offset is the structural inhomogeneity analog of CR128b's (|a-b| + D) term.  When q_abs = 0, the formula wraps via q_eff = R, giving the maximal coefficient (4R + D = 51) which factors cleanly as (R + D + alpha_H) / alpha_H^4 times M/R^3.",
+    "unified_formula": "|S_3body| = M_native * (4 * q_eff + D) / (4 * R^4)"
+  },
+  "scope": {
+    "applies_to": "operator_class == 'OCTET_COMPOSITE' AND partition has 3 elements AND closure_depth == 3 AND stability_status != 'REJECTED_FAKE_CLOSURE'",
+    "rows_covered_in_CR119": 76
+  },
+  "sign_law_v1": {
+    "equivalent_formulation": "sign(S_debit) = sign(net charge q) with neutral charge mapped to positive sign.  The surface debit follows the direction of net charge.",
+    "name": "OCTET_3BODY_DEPTH3_S_DEBIT_SIGN_UNIVERSAL",
+    "rule": "sign(S_debit) = +1 if q_sign in {positive, neutral}, else -1 if q_sign == negative",
+    "structural_interpretation": "Analogous to CR128b's BCP sign rule sign(S) = sign(a - b) -- both encode charge direction through the surface debit's sign.  For 2-body BCP, charge direction is expressed via partition ordering (a-b).  For 3-body OCTET, charge direction is expressed directly via q_sign on the net charge.",
+    "verification": "76/76 OCTET 3-body depth=3 rows match this rule, including all 17 q=0 (neutral, S>0), 10 q_sign=positive (S>0), 49 q_sign=negative (S<0)."
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710"
+  }
+}

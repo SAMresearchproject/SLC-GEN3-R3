@@ -1,0 +1,63 @@
+{
+  "anchor_id": "CR108_PLANCK_2018_OMEGA_B_PUBLIC_REFERENCE_ANCHOR",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR107 (SPARC intake) -> CR106 (14 branch verdict zipper)",
+  "sealed_at_utc": "2026-06-14T02:55:49Z",
+  "intake_class": "PUBLIC_REFERENCE_DATA_NO_MATCH_REVEALED",
+  "upstream_sha256": {
+    "CR107_sparc_anchor.json": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR106_14_branch_verdict.json": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "planck_2018_reference": {
+    "source_paper": {
+      "title": "Planck 2018 results. VI. Cosmological parameters",
+      "authors": "Planck Collaboration",
+      "journal": "A&A 641 A6 (2020)",
+      "arxiv": "1807.06209"
+    },
+    "dataset_combination": "TT,TE,EE+lowE+lensing baseline LCDM",
+    "parameters": {
+      "Omega_b_h2": {
+        "value": 0.02237,
+        "uncertainty": 0.00015,
+        "role": "PRIMARY anchor for CR111 cosmic baryon closure appeal"
+      },
+      "Omega_c_h2": {
+        "value": 0.12,
+        "uncertainty": 0.0012,
+        "role": "secondary - cold component reference for cumulative-A reading"
+      },
+      "H0_km_s_Mpc": {
+        "value": 67.36,
+        "uncertainty": 0.54,
+        "role": "Hubble constant from same dataset"
+      },
+      "Omega_b": {
+        "value": 0.0493,
+        "uncertainty": 0.00057,
+        "role": "baryon density parameter (Omega_b h^2 / h^2)"
+      },
+      "n_s": {
+        "value": 0.9649,
+        "uncertainty": 0.0042,
+        "role": "scalar spectral index"
+      },
+      "sigma_8": {
+        "value": 0.8111,
+        "uncertainty": 0.006,
+        "role": "matter power normalization"
+      }
+    }
+  },
+  "what_this_anchor_provides": [
+    "Planck 2018 Omega_b h^2 = 0.02237 +/- 0.00015 as the cosmic baryon anchor",
+    "associated LCDM baseline parameters for cross-check (Omega_c h^2, H_0, n_s, sigma_8)",
+    "a sealed reference for CR111 cosmic baryon closure appeal"
+  ],
+  "what_this_anchor_does_NOT_do": [
+    "compare any SAM substrate prediction to Planck values (deferred to CR111)",
+    "modify any prior CR verdict"
+  ],
+  "free_parameters_total": 0
+}

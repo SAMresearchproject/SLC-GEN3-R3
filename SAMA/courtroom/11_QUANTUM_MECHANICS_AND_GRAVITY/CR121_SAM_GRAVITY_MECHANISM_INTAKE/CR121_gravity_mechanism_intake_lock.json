@@ -1,0 +1,149 @@
+{
+  "intake_id": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_LOCK",
+  "scope": "BRANCH_11_QUANTUM_MECHANICS_AND_GRAVITY_INTAKE",
+  "sealed_at_utc": "2026-06-15T18:32:34Z",
+  "intake_class": "MECHANISM_LOCK_NOT_GRAVITON_PARTICLE_AND_NOT_FULL_QUANTUM_GRAVITY_THEOREM",
+  "one_line_headline": "Gravity emerges from matter ledger compression: each closed matter write splits (7/8 retained as mass identity, 1/8 released as unresolved tensor-carrier channel); the 1/8 carrier couples with qA via the qA->A ledger compression rule and updates the macroscopic A field, which IS the gravity field locally. No graviton particle, no free parameter, weak-field gravity readouts recovered.",
+  "qp092_chain_summary_hashes": {
+    "qp092a_split_loss_summary.json": "649e61e0ca47d715e526738bf867f8e57aab1bad6d46974b201fd57c2b4ceaca",
+    "qp092b_summary.json": "74940558dbe739d48fd619bf699792391faaa4c43af7fd3bc8dbbe73d33beb13",
+    "qp092c_summary.json": "4063950dde82ca109dd0608e7d0d702066beb7f7da79489638a1a10aa9344e27",
+    "qp092c_hard_freeze_summary.json": "694884e3e709d0db05536cba8e661fba1f81a53243d5a19c4b8e63abda055820",
+    "qp092d_summary.json": "257ca5644d5b618be7cab458ebee18e15b36684536173bbd74021cf0c9d6ae87",
+    "qp092e_summary.json": "d92ce93c234af576d867ed701635fe24439e84ab877e9a01d09bc91f3d2c6eda",
+    "qp092f_summary.json": "b122cec6fd334a73a59b280bbf137b3a76a7b588e30e609b81dfeb92f5369536",
+    "qp092g_summary.json": "b5ee2482db3c4fda01e26359feb3a65089c136a3e038947730f11d9e51b79841",
+    "qp092h_summary.json": "5b8139aa90883b8b3ac210fdad44055fc9cbf23c6f4e16dbef58668a8d2bda49"
+  },
+  "qp092_chain_ledger_count": 9,
+  "all_qp092_chain_passed": true,
+  "courtroom_anchors_chain_of_custody_sha256": {
+    "branch_11_sealed_scope_lock :: SEALED_QUANTUM_MECHANICS_AND_GRAVITY_SCOPE_APPROACH_2026_06_13.md": "f80c93f67da67a5c9286aafe845316ee6fa3a614439c4e9e120abb9c3a9207dc",
+    "CR076_phase_integral_A_exposure :: CR076_summary.json": "663ccdfd590b37096e632f450056ef81ed3fa5d019536f3b04d205f536f5512b",
+    "CR103a_bounce_cost_A_dependence :: CR103a_summary.json": "f4b95da7350c5ca36a1c29f89af8cfe808ce0c9915a2fab68317b6bcae978a9d",
+    "CR104a_layer_4_local_higgs :: CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "CR117_sam_cmb_scope_boundary :: CR117_scope_boundary_lock.json": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+    "CR118_distance_road_headline :: CR118_distance_road_headline_export_claim.json": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d",
+    "CR119_particle_matter_periodic :: CR119_summary.json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "mechanism_chain": [
+    {
+      "stage": "1_closed_scalar_matter_write",
+      "describes": "closed scalar matter write at R^2 = 144 (12^2)",
+      "frozen_by": "qp091 chain (closed-loop 144 = 12^2 lock)",
+      "result": "R^2 = 144 closed scalar loop available for split"
+    },
+    {
+      "stage": "2_seven_eighths_one_eighth_split",
+      "describes": "144 splits 7/8 retained (= 126) + 1/8 released (= 18)",
+      "frozen_by": "qp091 closed-loop split + qp092a split-loss tensor carrier",
+      "result": "7/8 -> scalar parent mass identity (126 visible Higgs base); 1/8 -> unresolved tensor carrier (18 units, alpha_H * D^2)"
+    },
+    {
+      "stage": "3_tensor_carrier_qA_coupling",
+      "describes": "qA loads the 1/8 unresolved tensor carrier support",
+      "frozen_by": "qp092b qA coupling PASS",
+      "result": "direct qA as mass REJECTED; ledger-compressed A update PASSES; not a particle row"
+    },
+    {
+      "stage": "4_propagation_kernel_recovery",
+      "describes": "tensor carrier propagation recovers the A kernel at point / multi-source / extended",
+      "frozen_by": "qp092c PASS + qp092c hard freeze",
+      "result": "A kernel A(r) = r_s/r recovered from the carrier mechanism; mechanism chain frozen"
+    },
+    {
+      "stage": "5_conservation_and_source_ledger",
+      "describes": "particle / macro / propagation support is conserved across the carrier ledger",
+      "frozen_by": "qp092d conservation PASS",
+      "result": "no matter promotion; ledger compression required; conservation closes"
+    },
+    {
+      "stage": "6_weak_field_external_readout",
+      "describes": "weak-field gravity readouts (G clock path delay) recovered from the carrier mechanism",
+      "frozen_by": "qp092e weak-field external readout PASS",
+      "result": "G clock path delay recovered; authoritative decimal ledger emitted; matches branch 03 CR005 GPS and branch 04 CR006 Shapiro at the standard precision"
+    },
+    {
+      "stage": "7_wave_propagation_mode",
+      "describes": "tensor carrier propagates as massless, c-speed, two tensor polarizations",
+      "frozen_by": "qp092f wave propagation PASS",
+      "result": "massless propagation at c with 2 tensor polarizations - same signature as GR gravitational waves; no graviton mass claim"
+    },
+    {
+      "stage": "8_weak_strong_quantum_bridge_packet",
+      "describes": "weak-field A1 boundary tied to unresolved tensor support across QM/gravity layer",
+      "frozen_by": "qp092g bridge packet PASS",
+      "result": "no new machinery beyond the mechanism; bridge to QM/gravity completed at boundary level"
+    },
+    {
+      "stage": "9_baryon_cmb_carrier_compression_gate",
+      "describes": "baryon inventory admits to CMB ONLY through carrier compression",
+      "frozen_by": "qp092h CMB carrier gate PASS",
+      "result": "CMB scope boundaries preserved; direct qA as mass REJECTED; dovetails CR117 SAM/CMB scope boundary"
+    }
+  ],
+  "hard_boundaries_enforced_across_all_9_tests": [
+    "tensor carrier is NOT promoted to a particle row (all 9 tests enforce this)",
+    "qA is NOT treated as mass (direct_qA_as_mass REJECTED in qp092a, b, c, d, e, f, g, h)",
+    "this is NOT a graviton particle prediction",
+    "this is NOT full quantum-gravity theorem closure (boundary explicitly preserved)",
+    "this IS the SAM mechanism for why matter sources gravity",
+    "0 free parameters introduced across the entire 9-test chain"
+  ],
+  "forward_blind_expectations": [
+    {
+      "id": "CR121_PRED_1",
+      "claim": "Gravitational waves observed by LIGO/Virgo carry two tensor polarizations propagating at the speed of light, consistent with qp092f's massless c-speed two-tensor-polarization mode. Discovery of a third polarization, scalar mode, or v != c propagation would falsify the SAM tensor-carrier mechanism.",
+      "testable_at": "LIGO/Virgo/KAGRA polarization tests; LIGO/Virgo speed-of-gravity constraints",
+      "falsification_criterion": "detection of a third polarization, scalar mode, or v_gw != c at strain-detected precision",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR121_PRED_2",
+      "claim": "High-precision atomic clock comparisons in varying gravitational potentials reproduce the G clock path delay that qp092e recovered from the tensor-carrier mechanism, with no detectable deviation from standard weak-field GR predictions. Layer 4b per-body A (CR104a) is satisfied at each individual gravitating body without hierarchical summing.",
+      "testable_at": "next-generation optical clocks (sub-1e-19); future tests of UFF/UGR",
+      "falsification_criterion": "detection of A-dependent shift not predicted by per-body A or any deviation in clock delay correlated with cumulative galactic A",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR121_PRED_3",
+      "claim": "No new particle at 18 GeV (= R^2 * 1/8 = 144/8) will be detected at the LHC or future colliders. The 1/8 split-loss is a TENSOR CARRIER CHANNEL, not a massless boson and not a stable particle - it is the unresolved support side of the matter write.",
+      "testable_at": "ATLAS / CMS / FCC searches near 18 GeV; any structural search that would promote the 1/8 channel to a particle row",
+      "falsification_criterion": "discovery of a stable / quasi-stable particle at ~18 GeV with the right tensor-channel quantum numbers",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR121_PRED_4",
+      "claim": "Strong-field tests (NICER neutron star mass-radius, EHT M87 / Sgr A* shadow, LIGO binary BH merger waveforms) recover the SAM A-kernel at A(r) = r_s/r without introducing a graviton mass term; agreement with branch 04 CR006 Shapiro at 1.8e-13 and branch 05 photon-sphere / ISCO landmarks at R12 fractions is preserved.",
+      "testable_at": "EHT, NICER, LIGO/Virgo binary BH/NS merger waveforms",
+      "falsification_criterion": "detection of weak-field or strong-field gravitational behavior that requires a massive graviton or a free parameter beyond r_s/r kernel structure",
+      "free_parameters": 0
+    }
+  ],
+  "structural_inputs": {
+    "R_squared_closed_loop": 144,
+    "seven_eighths_visible_retained": 126,
+    "one_eighth_unresolved_tensor_carrier": 18,
+    "split_identity": "144 * 7/8 = 126; 144 * 1/8 = 18",
+    "tensor_carrier_quantity_alpha_H_D2": "alpha_H * D^2 / 18  (from qp092a R^2 (1/8) loss identity)"
+  },
+  "what_is_intakerd": [
+    "9-stage SAM gravity mechanism (closed write -> split -> qA coupling -> A kernel recovery -> conservation -> weak field -> wave mode -> bridge packet -> CMB carrier gate)",
+    "Weak-field external readout recovery (G clock path delay) at zero free parameters",
+    "Massless c-speed two-tensor-polarization propagation mode",
+    "qA->A ledger compression rule (from qp092c hard freeze)",
+    "CMB carrier compression gate preserving CR117 scope boundary",
+    "Mechanism cross-references to CR076 (current branch 11 boundary), CR104a Layer 4b, CR103a bounce cost, CR117 scope boundary, CR118 distance road, CR119 321/126/126 particle/matter/periodic table"
+  ],
+  "what_is_NOT_intaken_explicitly": [
+    "any graviton particle prediction",
+    "any free parameter (qp092 chain reports 0 across all 9 tests)",
+    "full quantum-gravity theorem closure (this is mechanism, not theorem)",
+    "strong-field strong-curvature closure beyond branch 05 existing landmarks",
+    "promotion of tensor carrier to particle row (CR119 explicitly forbids this)",
+    "treatment of qA as mass (every qp092 test rejects direct_qA_as_mass)"
+  ],
+  "free_parameters_introduced_by_this_intake": 0,
+  "modifies_no_prior_artifact": true
+}

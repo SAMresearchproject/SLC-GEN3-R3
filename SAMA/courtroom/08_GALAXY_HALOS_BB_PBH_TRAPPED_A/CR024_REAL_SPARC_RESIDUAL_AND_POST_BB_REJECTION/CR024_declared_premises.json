@@ -1,0 +1,27 @@
+{
+  "test_id": "CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION",
+  "short_id": "CR024",
+  "generated_precommit_utc": "2026-06-13T00:55:03.327962+00:00",
+  "test_type": "Fresh Courtroom branch test",
+  "is_confirmation_audit_or_double_check": false,
+  "question": "Does real SPARC data show a large outer halo residual while the post-BB-only PBH envelope remains far too small to be the full halo source?",
+  "sources": {
+    "g392_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\G392_REAL_SPARC_PBH_HALO_INVENTORY_TEST\\G392_summary.json",
+      "role": "real SPARC residual summary"
+    },
+    "g393_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\G393_PBH_HALO_FORWARD_STACK_SELECTOR\\G393_summary.json",
+      "role": "forward stack and post-BB-only budget summary"
+    }
+  },
+  "free_parameters_introduced": 0,
+  "expected_success_verdict": "CR024_PASS_REAL_SPARC_RESIDUAL_POST_BB_ONLY_REJECTED",
+  "expected_success_scientific_verdict": "PASS",
+  "expected_success_claim_tier": "PASS_REAL_DATA_HALO_RESIDUAL_AND_CONTROL_REJECTION",
+  "expected_success_triage_bin": "A",
+  "failure_verdict": "CR024_FAIL_REAL_SPARC_RESIDUAL_POST_BB_REJECTION",
+  "failure_claim_tier": "FAILED_REAL_DATA_RESIDUAL_CONTACT",
+  "scope_note": "CR024 is a real-data contact test. It does not close the full radial halo law; it locks the SPARC residual and rejects the post-BB-only control as a full-halo explanation.",
+  "rule_9_falsification": "This test could have falsified: the claim that SPARC rotation data leaves a large halo residual and that the bounded post-BB/window PBH envelope is insufficient as the complete source."
+}

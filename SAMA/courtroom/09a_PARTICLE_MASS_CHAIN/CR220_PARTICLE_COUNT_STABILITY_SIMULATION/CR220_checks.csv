@@ -1,0 +1,20 @@
+check,passed,observed,expected
+all_required_inputs_exist,True,[],first 9 required inputs exist
+cr119_periodic_rows_126,True,126,126
+cr119_matter_rows_126,True,126,126
+native_capacity_126,True,126,126
+qp094a_summary_capacity_126,True,126,126
+component_proton_qp093a_0115,True,QP093A-0115,QP093A-0115
+component_neutron_qp093a_0003,True,QP093A-0003,QP093A-0003
+component_electron_qp093a_0002,True,QP093A-0002,QP093A-0002
+simulated_primary_rows_126,True,126,126
+simulated_isotope_rows_214,True,214,214
+all_GR_match_CR119_qA,True,126,126
+all_G_match_CR119_tensor,True,126,126
+all_retained_match_CR119,True,126,126
+closed_shell_rows_8,True,8,8
+reference_clock_counts_81_37_8,True,"{'stable': 81, 'radioactive': 37, 'frontier': 8}","{'stable': 81, 'radioactive': 37, 'frontier': 8}"
+z_le_83_count_threshold_candidates_83,True,83,83
+z_le_83_false_positive_holes_43_61,True,43;61,43;61
+reference_patched_81_perfect,True,"{'accuracy': '1.000000', 'count': 81}","accuracy=1.000000,count=81"
+known_labels_not_construction_inputs,True,{'no': 126},all no/blank

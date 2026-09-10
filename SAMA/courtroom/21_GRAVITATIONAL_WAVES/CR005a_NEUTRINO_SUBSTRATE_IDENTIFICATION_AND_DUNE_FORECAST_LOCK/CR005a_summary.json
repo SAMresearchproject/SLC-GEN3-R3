@@ -1,0 +1,56 @@
+{
+  "artifact": "CR005a_NEUTRINO_SUBSTRATE_IDENTIFICATION_AND_DUNE_FORECAST_LOCK",
+  "classification": "STRUCTURAL_IDENTIFICATION + FORECAST_LOCK",
+  "verdict": "FAIL",
+  "precommit_hash": "5beb9ab51b03ee4ec29b18e9e60c743092d0f47e386072281d6f2c1a9e78dcd8",
+  "substrate_identification": {
+    "m1_sq_over_base_eV_sq": 1,
+    "m1_position": "(0, 0)",
+    "m2_sq_over_base_eV_sq": 2,
+    "m2_position": "(1, 0)",
+    "m3_sq_over_base_eV_sq": 36,
+    "m3_position": "(2, 2)",
+    "m3_in_overflow_set": true,
+    "m3_overflow_set_index": 1,
+    "cross_branch_m3_sq_equals_2Theta": true
+  },
+  "multiplicative_chain": {
+    "sequence_s": [
+      1,
+      2,
+      36
+    ],
+    "step_1_to_2_multiplier": 2,
+    "step_2_to_3_multiplier": 18
+  },
+  "splittings": {
+    "Dm21_factor": 1,
+    "Dm31_factor": 35,
+    "ratio_SAM": 35,
+    "ratio_form": "(h_hat*Theta - 1) / (h_hat - 1)"
+  },
+  "eV_anchor": {
+    "base_eV": 0.008476859256655311,
+    "m1_eV": 0.008476859256655311,
+    "m2_eV": 0.011988089327089856,
+    "m3_eV": 0.05086115553993187,
+    "Sigma_mnu_eV": 0.07132610412367704,
+    "Sigma_mnu_below_Planck_bound": true
+  },
+  "forecast_lock": {
+    "SAM_ratio": 35.0,
+    "measured_ratio": 33.89487870619946,
+    "current_sigma": 0.7,
+    "DUNE_projected_sigma": 0.17,
+    "DUNE_HK_joint_sigma": 0.1,
+    "deviation": 1.1051212938005435,
+    "deviation_pct": 3.26043737574554,
+    "current_discrimination_sigma": 1.578744705429348,
+    "DUNE_discrimination_sigma": 6.500713492944373,
+    "DUNE_HK_joint_discrimination_sigma": 11.051212938005435,
+    "falsification_threshold_dune": "|35 - r_DUNE| / sigma_DUNE > 3",
+    "confirmation_threshold_dune": "|35 - r_DUNE| / sigma_DUNE < 1",
+    "timeline": "DUNE 2028-2032; Hyper-K 2027+; discrimination ~2030"
+  },
+  "all_claims_passed": false
+}

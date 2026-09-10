@@ -1,0 +1,7 @@
+control,value,status
+descriptor_shuffle_seed,12681,LOCKED
+descriptor_shuffle_permutations,200,LOCKED
+actual_pair_core_consistency_rate,1.000000,OBSERVED
+random_mean_pair_core_consistency_rate,0.017812,CONTROL
+random_max_pair_core_consistency_rate,0.093750,CONTROL
+actual_beats_random_max,True,PASS

@@ -1,0 +1,5 @@
+input,role,used_as_computed_input,used_as_formula_source
+CR016_declared_premises.json,declared_formula_controls,True,
+CR016_PRECOMMIT.md,sealed_pre_run_prediction,False,
+CR016_runner.py,calculation_script,True,
+Planck theta100 reference,downstream_external_anchor_only,,False

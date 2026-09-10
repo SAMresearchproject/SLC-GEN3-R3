@@ -1,0 +1,57 @@
+{
+  "record_id": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "base_runner_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210a_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER\\CR210a_runner.py",
+  "base_runner_sha256": "094d39be033db8dfe7bd1b78c845abf8839dbba1f36b31987af3d3bfb7616d1a",
+  "transformed_in_memory_sha256": "b7ac15e458ad0a91f927fe55dca9992a2a60c73a8d8e2e7b5c23e1aa9f9bf6de",
+  "substitutions": [
+    {
+      "kind": "successor_identity",
+      "occurrences": 42,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "successor_source_manifest_hash",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "successor_premises_hash",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "successor_precommit_hash",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "successor_source_count_gate",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "successor_source_count_display",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "set_safe_check_display_serializer_inherited_from_CR210b",
+      "occurrences": 1,
+      "scientific_candidate_change": false
+    },
+    {
+      "kind": "cross_kind_full_six_residue_domain",
+      "occurrences": 1,
+      "from": "all modes r=0..2",
+      "to": "cross-kind r=0..5; same-kind representatives r=0..2 per boundary block",
+      "frozen_formula_changed": false,
+      "frozen_expected_values_changed": false
+    }
+  ],
+  "scientific_candidate_changed": false,
+  "predictions_changed": false,
+  "controls_changed": false,
+  "firewall_changed": false,
+  "cross_kind_domain_now_matches_precommit": true,
+  "transformed_source_persisted": false
+}

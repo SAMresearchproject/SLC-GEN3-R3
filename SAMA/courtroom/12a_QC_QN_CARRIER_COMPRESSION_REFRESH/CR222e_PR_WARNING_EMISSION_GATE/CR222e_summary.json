@@ -1,0 +1,51 @@
+{
+  "A_side": "1/24",
+  "checks_passed": 15,
+  "checks_total": 15,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2
+  },
+  "core_rule": "VALID_PR_WARNING=SEALED_PACKET+G_protocol=1+A_leak>=A_side",
+  "cr_id": "CR222e",
+  "emission_rule": {
+    "T": "qA/8",
+    "W": "7qA/8",
+    "qA": "qA>0"
+  },
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T09:50:49.156175+00:00",
+  "next_gate": "PR_LETTER_PROTOCOL_DRAFT_WITH_EMISSION_GATE",
+  "outputs": {
+    "checks_csv": "CR222e_checks.csv",
+    "protocol_trigger_gate_csv": "CR222e_protocol_trigger_gate.csv",
+    "result_md": "CR222e_result.md",
+    "state_machine_csv": "CR222e_emission_state_machine.csv",
+    "summary_json": "CR222e_summary.json",
+    "upstream_seals_csv": "CR222e_upstream_seals.csv",
+    "warning_emission_rows_csv": "CR222e_warning_emission_rows.csv",
+    "wrong_controls_csv": "CR222e_wrong_controls.csv"
+  },
+  "pr_stack": "CR222a native stack -> CR222b packet contract -> CR222d promotion gate -> CR222e warning emission",
+  "result_class": "CR222e_PASS_PR_WARNING_EMISSION_GATE__SEALED_PACKET_PROMOTION_TRIGGER_TENSOR_WRITE",
+  "sha256": {
+    "CR222e_emission_state_machine.csv": "a79ee4b0d5519c85eb6edded7f96e698b51a274b56e1e64f2b160c5ef211f2d7"
+  },
+  "state_chain": "DRAFT_PACKET -> SEALED_PACKET -> VALID_WARNING_PACKET -> EMITTED_WARNING_PACKET; DRAFT_PACKET/SEALED_PACKET -> CORRUPT_PACKET",
+  "support_roster_correction": {
+    "closure_total": 162,
+    "duplicate_mirror_row": "QP093A-0303",
+    "duplicate_mirror_value": 81,
+    "raw_blocked_nonmatter_rows": 13,
+    "rule": "QP093A-0303 remains blocked non-matter but is not an independent support mode.",
+    "unique_support_roster_rows": 12,
+    "unique_support_roster_sum": 81
+  },
+  "t_fire": {
+    "expression": "T2*(-1/2*ln(23/24))",
+    "over_T2_decimal": "0.021279807209397945"
+  },
+  "test_id": "CR222e_PR_WARNING_EMISSION_GATE"
+}

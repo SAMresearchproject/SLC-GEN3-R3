@@ -1,0 +1,27 @@
+{
+  "test_id": "CR209",
+  "source_gate": "G758c_ELECTROWEAK_TOPOLOGY_EXTENSION",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "free_parameters_introduced": 0,
+  "question": "Can the same resolved-parent/write-bounce grammar distinguish H, Z, W, and gamma lanes without changing rules?",
+  "required_imports": [
+    "G758c_summary.json",
+    "G758c_lane_classification_results.csv",
+    "G758c_wrong_controls.csv",
+    "G758c_source_manifest.csv",
+    "CR204a_summary.json",
+    "CR208a_summary.json"
+  ],
+  "pass_requires": [
+    "G758c PASS",
+    "5/5 target lanes classified",
+    "fake parent rejected",
+    "7/7 wrong controls pass",
+    "CR204a topology bridge preserved",
+    "CR208a electroweak theorem boundary preserved",
+    "no new parameters"
+  ],
+  "boundary_preserved": "Full electroweak theorem, couplings, amplitudes, and branching ratios remain open."
+}
+

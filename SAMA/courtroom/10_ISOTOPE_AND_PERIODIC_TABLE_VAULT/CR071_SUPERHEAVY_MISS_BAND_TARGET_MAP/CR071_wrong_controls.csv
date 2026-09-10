@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,qp061 broader Z=97..118 row count = 37 (off by one),FAIL,True,True,row count mismatch detection wired
+WC2,qp068 external_data_used=true,FAIL,True,True,external_data_used violation detection wired
+WC3,prediction map sha256 verification,verified,True,True,sha256 is computed deterministically
+WC4,CR065 manifest seal corruption,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC5,IAEA retrieval post-2026-06-13 (would imply backfit),FAIL_UPSTREAM_AT_CR065,True,True,would fail upstream at CR065 retrieval-date check
+WC6,Post-CR071 IAEA observation matching one prediction,APPEAL_FRONTIER_HIT,True,True,appeal channel APPEAL_FRONTIER_HIT documented; CR071 itself remains permanent

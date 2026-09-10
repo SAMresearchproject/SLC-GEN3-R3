@@ -1,0 +1,106 @@
+{
+  "candidate_entities": [
+    {
+      "id": "LEDGER_SITE",
+      "status": "OPEN_UNSOURCED",
+      "type": "LedgerAddress"
+    },
+    {
+      "base_entity": "L162_FULL_LEDGER",
+      "id": "SOURCE_LEDGER_STATE@site_i",
+      "site": "site_i",
+      "status": "OPEN_REQUIRES_SITE_SOURCE",
+      "type": "FullLedgerInstance"
+    },
+    {
+      "id": "ADJACENT_LEDGER_STATE@site_j",
+      "initial_state": "unresolved_or_available",
+      "relation_to_source": "ADJACENT",
+      "site": "site_j",
+      "status": "OPEN_REQUIRES_SITE_SOURCE",
+      "type": "LedgerSiteState"
+    },
+    {
+      "base_entity": "W9_CLOSURE_WITNESS",
+      "id": "W9_CLOSURE_WITNESS@site_j",
+      "site": "site_j",
+      "status": "OPEN_REQUIRES_PROPAGATE_CLOSURE",
+      "type": "ClosureWitnessInstance"
+    }
+  ],
+  "candidate_operator": {
+    "canonical_candidate_expression": "PROPAGATE_CLOSURE(L162_FULL_LEDGER@site_i, THETA18_PRIMARY_CARRIER, ADJACENT_LEDGER_STATE@site_j, B_CONTACT_OPERATOR, X1_AXIS_SELF_CHANNEL) -> W9_CLOSURE_WITNESS@site_j",
+    "id": "PROPAGATE_CLOSURE",
+    "returns": "ClosureWitnessInstance",
+    "signature": [
+      {
+        "name": "source",
+        "type": "FullLedgerInstance"
+      },
+      {
+        "name": "carrier",
+        "type": "PrimaryCarrier"
+      },
+      {
+        "name": "target",
+        "type": "AdjacentLedgerState"
+      },
+      {
+        "name": "contact",
+        "type": "ContactOperator"
+      },
+      {
+        "name": "axis",
+        "type": "AxisChannel"
+      }
+    ],
+    "status": "MISSING_OPERATOR_CONTRACT"
+  },
+  "candidate_relations": [
+    {
+      "id": "ADJACENT",
+      "required_constraints": [
+        "irreflexive",
+        "local",
+        "source_scoped"
+      ],
+      "signature": [
+        "LedgerAddress",
+        "LedgerAddress"
+      ],
+      "status": "OPEN_UNSOURCED"
+    }
+  ],
+  "candidate_types": [
+    {
+      "id": "LedgerAddress",
+      "status": "OPEN_UNSOURCED"
+    },
+    {
+      "base_type": "FullLedger",
+      "id": "FullLedgerInstance",
+      "status": "OPEN_UNSOURCED"
+    },
+    {
+      "id": "LedgerSiteState",
+      "status": "OPEN_UNSOURCED"
+    },
+    {
+      "base_type": "ClosureWitness",
+      "id": "ClosureWitnessInstance",
+      "status": "OPEN_UNSOURCED"
+    }
+  ],
+  "contract_version": "0.1-boundary",
+  "install_authority": "DO_NOT_INSTALL_AUTHORITATIVELY",
+  "must_preserve": [
+    "B_CONTACT_OPERATOR != X1_AXIS_SELF_CHANNEL",
+    "A_OPERATOR != B_CONTACT_OPERATOR",
+    "A_OPERATOR relation_to_B = OPEN",
+    "P80_PARTICLE_FACE_CONTENT authority = STRUCTURAL_ONLY",
+    "no operator inserted as a ledger row"
+  ],
+  "rationale": "This contract records the missing typed surface exposed by CR120. It is a next-CR handoff, not a v0.4.1 registry patch.",
+  "record_id": "CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE",
+  "source_verdict": "BOUNDARY_CLOSURE_HIERARCHY_PASS_ADJACENCY_OR_LOCALITY_UNSOURCED"
+}

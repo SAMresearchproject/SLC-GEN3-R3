@@ -1,0 +1,19 @@
+# CR268 hashes
+
+CR268_PRECOMMIT.md sha256 = bbc3c5b863aa6be12d0d7502c59db6834f6c6ea5a0edc7dbc86b648929028423
+CR268_runner.py sha256 = bd9c46ff93313a7740c2ec12336e420cff2074b310b7b574a0cc1ca1f3628368
+CR268_summary.json sha256 = 09315775605102819e00eb00a6a13840b4054002c17c280c800a9f5250310f7c
+CR268_result.md sha256 = c47ad4d79f0d3c0549bf0c979a55389f01e77c7dc075027ca1a0b891742066d3
+CR268_evidence_rows.csv sha256 = 01c27904b583ccd65382e1f89c85b7956496de1ef8aad8e68e0ef5a97c7c7cb3
+CR268_chain_and_paths.csv sha256 = 60275d29521f87c21a24082dcdf3c6d63b1e3754621500aa7dfe47699c7cdaf4
+CR268_cross_sector_appearances.csv sha256 = 41d451f73846b27cc6baac488a23a1589341291546b092334f4c28cc8bcc8260
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR266@09a two-mirror reciprocity d_hat derivation
+  CR267@09a tensor 9 closure witness
+  CR262@09a carrier/container cipher (m_3 = h*d = 6 -> He-4)
+  CR001@20 neutrino mass spectrum (m_3/base_eV = alpha_H*D = 6)
+  CR005ab@21 neutrino-Theta identification (m_3^2 = h*Theta)
+  CR229@09a Theta as graviton overlap

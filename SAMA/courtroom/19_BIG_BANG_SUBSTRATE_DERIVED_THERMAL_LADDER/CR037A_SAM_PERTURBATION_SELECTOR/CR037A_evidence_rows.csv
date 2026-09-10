@@ -1,0 +1,43 @@
+field,value,units,notes
+R,12,,radix
+D,3,,dimension
+S,8,,split inventory
+alpha_H,2,,binary readout
+Theta,18,,tensor bridge
+M,126,,matter capacity
+L,162,,closed ledger
+V,27,,resolved write cell
+A_0,2.65258238486492242680e-02,,1/(12*pi)
+chi,7.07355302630645887962e-02,,2/(9*pi)
+eta_SAM Path A (atoms),6.09608952448419771621e-10,,(M/(alpha^2*Theta))*A_0^(L/V)
+eta_SAM Path B (compact),6.09608952448419668224e-10,,7/(4*(12pi)^6)
+|eta A - eta B| / eta A,1.696e-16,,machine-precision check
+n_s_SAM Path A,9.64632234868467719480e-01,,1 - chi/2
+n_s_SAM Path B,9.64632234868467719480e-01,,1 - 1/(9*pi)
+A_s_SAM Path A,2.11174735677900553211e-09,,eta_SAM * sqrt(R)
+A_s_SAM Path B,2.11174735677900511852e-09,,7*sqrt(R)/(4*(12pi)^6)
+tau_SAM Path A,5.30516476972984485361e-02,,2*A_0
+tau_SAM Path B,5.30516476972984485361e-02,,1/(6*pi)
+A_s_SAM canonical,2.11174735677900553211e-09,,Path A
+n_s_SAM canonical,9.64632234868467719480e-01,,Path A
+tau_SAM canonical,5.30516476972984485361e-02,,Path A
+A_s_reference,2.100000e-09,,Planck 2018
+sigma_As,3.000000e-11,,Planck 2018
+n_s_reference,0.9649,,Planck 2018
+sigma_ns,0.0042,,Planck 2018
+tau_reference,0.0544,,Planck 2018
+sigma_tau,0.0073,,Planck 2018
+sigma_dev_As,+0.391579,,band=PASS
+sigma_dev_ns,-0.063754,,band=PASS
+sigma_dev_tau,-0.184706,,band=PASS
+STRONG_CONTACT_AS,True,,|sigma_dev| <= 0.5
+STRONG_CONTACT_NS,True,,|sigma_dev| <= 0.5
+STRONG_CONTACT_TAU,True,,|sigma_dev| <= 0.5
+A_s WC: eta_SAM (bare),6.096090e-10,,sigma_dev = -49.6797
+A_s WC: eta * sqrt(R) [chosen],2.111747e-09,,sigma_dev = +0.3916
+A_s WC: eta * sqrt(S),1.724234e-09,,sigma_dev = -12.5255
+A_s WC: eta * sqrt(R/2),1.493231e-09,,sigma_dev = -20.2256
+A_s WC: eta * sqrt(Theta),2.586352e-09,,sigma_dev = +16.2117
+A_s WC: eta * D,1.828827e-09,,sigma_dev = -9.0391
+A_s WC: eta * pi,1.915143e-09,,sigma_dev = -6.1619
+tau_alt = 2*A_0*(1+A_0),0.054458886359,,sigma_dev = +0.0081 (reported only)

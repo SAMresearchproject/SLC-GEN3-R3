@@ -1,0 +1,18 @@
+{
+  "cr_id": "CR069",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_K1_ROSTER_LEVEL",
+  "triage_bin": "A",
+  "reason": "Z=1..96 = 162/162 (100%); Z=97..118 = 0/38 deferred to CR071; IAEA anchor sha 8aee5dc4... verified",
+  "captured_at_utc": "2026-06-13T07:50:06Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "headline": {
+    "Z_001_096_exact_matches": 162,
+    "Z_001_096_sealed_rows": 162,
+    "Z_097_118_exact_matches": 0,
+    "Z_097_118_sealed_rows": 38,
+    "k1_pass": true,
+    "iaea_anchor_sha256": "8aee5dc431af1e35fcb49746387b83e927b3c300e7787defbda621a08212c795"
+  }
+}

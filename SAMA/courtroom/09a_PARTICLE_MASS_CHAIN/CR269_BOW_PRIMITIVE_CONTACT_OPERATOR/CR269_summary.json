@@ -1,0 +1,62 @@
+{
+  "precommit_sha256": "b939b6452ba1e65d9b2139db16779e3fc08f316ec48e4e988e26aba4e6991daa",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR269_BOW_PRIMITIVE_CONTACT_OPERATOR",
+  "classification": "STRUCTURAL_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "B (bow) is the formal contact operator B : R^2 -> (M, Theta_out) with R^2 = S*Theta = 8*18 = 144, M = (S-1)*Theta = 7*18 = 126 scratch retained, Theta_out = 1*Theta = 18 flakes released; yield ratios 7/8 and 1/8 where 1/8 = closure-axiom axis-fee fraction (CR267 G5)",
+  "B_type_signature": {
+    "domain": "R^2 = 144 (total mirror area)",
+    "codomain_scratch": "M = 126 (in-plane standing write)",
+    "codomain_flakes": "Theta_out = 18 (out-of-plane carrier release)"
+  },
+  "partition_identities": {
+    "R_sq": 144,
+    "R_sq_equals_S_times_Theta": true,
+    "M_equals_S_minus_1_times_Theta": true,
+    "partition_sum_equals_R_sq": true
+  },
+  "yield_ratios": {
+    "retain_M_over_R_sq": "7/8",
+    "release_Theta_over_R_sq": "1/8",
+    "release_matches_axis_fee_1_over_S": true
+  },
+  "CR262_consistency": {
+    "carriers_as_B_outputs": [
+      6,
+      9,
+      18,
+      54
+    ],
+    "containers_as_B_fixed_points": [
+      12,
+      27,
+      81
+    ],
+    "disjoint": true
+  },
+  "CR264_reading": "C-12 at A = R = 12 is B self-touch / trivial action; kappa'(C-12) = 0 because no carrier traffic at self-touch",
+  "CR114_Higgs_reading": {
+    "first_term": "R^2 * (1 - 2^-D) = R^2 * (S-1)/S = M = 126",
+    "second_term": "D^2/R = d_hat^2/(h_hat^2 * d_hat) = d_hat/h_hat^2 = 3/4 = 0.75",
+    "H_reveal": "M - D^2/R = 126 - 0.75 = 125.25 GeV",
+    "sealed_PDG": "m_H = 125.20 +/- 0.11 (inside 1 sigma)"
+  },
+  "gates": {
+    "G1_B_type_signature": true,
+    "G2_partition_identity": true,
+    "G3_R_sq_equals_S_Theta": true,
+    "G4_M_equals_S_minus_1_times_Theta": true,
+    "G5_yields_match_axis_fee": true,
+    "G6_CR262_consistency": true,
+    "G7_CR114_Higgs_reading": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. B is sealed as formal contact operator on R^2: takes total mirror area, partitions into (M=126 scratch, Theta_out=18 flakes) with the (S-1):1 ratio forced by reading R^2 = S*Theta. Release fraction 1/S = 1/8 matches CR267 axis-fee fraction; same primitive across CR266 closure axiom, CR267 closure witness, CR269 bow operator. CR262 carriers are B outputs; containers are B fixed points. CR264 C-12 is B self-touch. CR114 Higgs reveal reads as M - D^2/R = B's scratch yield minus closure-witness/closure-radius correction = 125.25 GeV (inside PDG 1 sigma). Violin.md bow promoted from Discovery to Courtroom.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 3
+}

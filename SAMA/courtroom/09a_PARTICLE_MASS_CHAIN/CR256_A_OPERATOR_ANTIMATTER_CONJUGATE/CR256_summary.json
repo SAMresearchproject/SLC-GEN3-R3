@@ -1,0 +1,36 @@
+{
+  "artifact": "CR256_A_OPERATOR_ANTIMATTER_CONJUGATE",
+  "verdict": "PASS",
+  "precommit_hash": "25654e6e3f1e3863f096e997326eaf3036cd5c9b2cb0436ed83f651c37a0b382",
+  "input_hash": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+  "n_anti_charged": 32,
+  "canonical_matches": 32,
+  "max_residual": 5.000001124244591e-08,
+  "hard_zero_row": "QP093A-0088",
+  "hard_zero_actual_qA": 0.0,
+  "hard_zero_passed": true,
+  "wrong_controls": {
+    "W1_wrong_exponent": {
+      "R^d (depth-independent)": 0,
+      "R^(d+2)": 0,
+      "R^(d-1) clamped": 0
+    },
+    "W2_wrong_coefs": {
+      "(1, 1) no conjugation": 1,
+      "(6/5, 5/6) swapped": 1,
+      "(7/8, 8/7) off-substrate": 1
+    },
+    "W3_sign_swap_matches": 0,
+    "W3_sign_swap_predicts_hard_zero_as": 39.0,
+    "W4_continuous_full_matches": 0,
+    "W4_continuous_best_match_count": 1
+  },
+  "verdict_conditions": {
+    "canonical_32_32": true,
+    "hard_zero_sub_gate": true,
+    "W1_le_16": true,
+    "W2_le_16": true,
+    "W3_le_16_and_kills_zero": true,
+    "W4_zero_full_match": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "sealed_at_utc": "2026-07-21T04:38:10.7546530Z",
+  "files": {
+    "CR005h_CONTRACT.json": {
+      "bytes": 5919,
+      "sha256": "bd3ac5f0ff73b9564ca5beff8c8047113e5afad81634ebc39d24bf7c3542bfa6"
+    },
+    "CR005h_PRECOMMIT.md": {
+      "bytes": 2014,
+      "sha256": "b745d87add097ebea088d02cd4aa04337224252adbc7ea3b4bf070c795292ee4"
+    },
+    "CR005h_SOURCE_MANIFEST.json": {
+      "bytes": 3411,
+      "sha256": "72ffd4e493b39686d05ed301428e5ef84152b9142a630bfa082780a54b81931a"
+    }
+  },
+  "runner_present_at_seal": false,
+  "results_opened": false,
+  "same_run_repair_allowed": false,
+  "external_waveform_allowed": false,
+  "qnm_filter_allowed": false,
+  "registry_mutation_allowed": false
+}

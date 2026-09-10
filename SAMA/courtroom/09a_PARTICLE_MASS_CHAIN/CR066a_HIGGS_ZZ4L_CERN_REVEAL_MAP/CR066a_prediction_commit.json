@@ -1,0 +1,14 @@
+{
+  "commit_id": "CR066a_HIGGS_ZZ4L_REVEAL_PREDICTION_COMMIT",
+  "prediction_commit_sha256": "c501db4f72c5f4d59102af216b64e5c16e700f01daea5bc4f45a863ce73790f9",
+  "prediction_commit_utc": "2026-06-14T02:17:17Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "upstream_CR065a_intake_lock_sha256": "11e898ca84273071096436bd52c3667dd9ec3df2a3c6b599f5a94453827582a7",
+  "sam_predictions": {
+    "REVEAL_02_m4l_peak_GeV": 125.219,
+    "REVEAL_03_m12_peak_GeV": 91.1615,
+    "REVEAL_03_m34_ceiling_GeV": 34.0575,
+    "REVEAL_03_two_on_shell_Z_forbidden": true,
+    "REVEAL_04_angular_structural": 1.0
+  }
+}

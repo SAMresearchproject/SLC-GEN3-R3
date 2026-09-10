@@ -1,0 +1,26 @@
+CR232 Matter / Support Promotion Gate Audit - SHA-256 Manifest
+Sealed: 2026-06-22 by Sean Brady
+Verdict: PASS (126/126 matter + 13/13 blocked + 8/8 surcharge; 4/4 wrong controls broke)
+
+== Artifacts in this CR folder ==
+4b29f49c5818816620ad3b7a49644cf8de3385ac642019b844e173f556696765  CR232_PRECOMMIT.md
+f7840628755b0e4551c3e4e0d989a8f90c2acea9aae90ef2e3070af75f712e25  CR232_result.md
+7f72b3c2689b9a555e3a25b2ab086a261db51c1fd48f29547a183bf8b93decc1  CR232_runner.py
+901f0e634d64eab4a03330126686f315d391437fd7c6512fab9e2828179ecd7a  CR232_summary.json
+c212b4c4b1ef2314d7a9fa649f239be5b2ccd441f1e70c0e97e34ac915d0fdd9  CR232_matter_row_audit.csv
+413acacee22fdec08a233d273d480984fb353f83a038faa0e25886fc3fc26229  CR232_blocked_row_audit.csv
+c29133a85abb553ea86dd1981977a8401b7c4a91422e01c674af0e43e534c482  CR232_surcharge_audit.csv
+
+== Hash-locked source ==
+45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f  C:\VS\CR219_promoted_particle_rows_126.csv
+
+== Hash-locked upstream CRs ==
+3c1fd16c860a09a3b92fe61de008eb3b5f943e797a63327c47110af51b9829b7  CR230_result.md (raw-generator)
+ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da  CR229_result.md (inclusion-exclusion identity)
+b316d0fb2e8d5eb83a8be4cad5a53926385004f3130434eebaf2d13b4beda83e  CR222_result.md (carrier ledger)
+5fd583b8f4c600c78e9aea4446b2d93b22f2de6cba33ef7d3dfe082f25346b80  CR216_result.md (duplicate retirement)
+f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543  CR114_result.md (binary face-state split)
+
+== Reproducibility ==
+Runner: python CR232_runner.py
+Tolerance: 1e-6

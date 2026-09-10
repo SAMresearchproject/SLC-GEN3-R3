@@ -1,0 +1,76 @@
+{
+  "AU197_nonzero_operator_effect_test": "NULL_NOT_EXERCISED",
+  "AU197_projection": {
+    "authority": "PASS_NATIVE_V4_2_AU197_BINDING_BU_PACKET",
+    "base": {
+      "provenance": "B_u_base_MeV",
+      "semantic_type": "NuclearBindingBaseMeV",
+      "unit": "MeV",
+      "value": "27.421477"
+    },
+    "domain": "AU197_NUCLEAR_BINDING_PACKET",
+    "operator_adjustment": {
+      "provenance": "op_contribution_MeV",
+      "semantic_type": "NuclearOperatorContributionMeV",
+      "unit": "MeV",
+      "value": "0.000000"
+    },
+    "operator_effect_class": "NULL_ZERO_OPERATOR_CONTRIBUTION",
+    "post_program_residual": {
+      "provenance": "B_u_obs_MeV-B_u_final_MeV",
+      "semantic_type": "NuclearPostPredictionResidualMeV",
+      "unit": "MeV",
+      "value": "3.718275"
+    },
+    "program_final": {
+      "provenance": "B_u_final_MeV",
+      "semantic_type": "NuclearBindingPredictionMeV",
+      "unit": "MeV",
+      "value": "27.421477"
+    },
+    "reference": {
+      "provenance": "B_u_obs_MeV",
+      "semantic_type": "NuclearBindingObservationMeV",
+      "unit": "MeV",
+      "value": "31.139752"
+    }
+  },
+  "CR120G_projection": {
+    "authority": "CONSTRUCTED_MATHEMATICAL_RESEARCH_BOUNDARY",
+    "base": {
+      "provenance": "I(left)+I(right)",
+      "semantic_type": "ConstructedDaughterSubtotalCount",
+      "unit": "constructed_coordinate_count",
+      "value": "2"
+    },
+    "domain": "CR120G_CONSTRUCTED_CLOSURE_FIXTURE",
+    "operator_adjustment": {
+      "provenance": "I(kappa)",
+      "semantic_type": "ConstructedSplitResidueCount",
+      "unit": "constructed_coordinate_count",
+      "value": "1"
+    },
+    "operator_effect_class": "NON_NULL_CONSTRUCTED_RESIDUE",
+    "post_program_residual": {
+      "provenance": "I(parent)-reconstructed_parent",
+      "semantic_type": "ConstructedClosureReconciliationCount",
+      "unit": "constructed_coordinate_count",
+      "value": "0"
+    },
+    "program_final": {
+      "provenance": "base+I(kappa)",
+      "semantic_type": "ConstructedReconstructedParentCount",
+      "unit": "constructed_coordinate_count",
+      "value": "3"
+    },
+    "reference": {
+      "provenance": "I(parent)",
+      "semantic_type": "ConstructedParentInvariantCount",
+      "unit": "constructed_coordinate_count",
+      "value": "3"
+    }
+  },
+  "cross_domain_identity_result": "REJECTED",
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "shared_shape_result": "SUPPORTED"
+}

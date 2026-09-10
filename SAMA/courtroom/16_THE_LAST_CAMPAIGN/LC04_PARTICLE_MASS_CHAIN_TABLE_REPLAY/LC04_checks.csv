@@ -1,0 +1,66 @@
+check,status,value,detail
+LC01 locked primitive stack available,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC02 completed before LC04,PASS,,LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+LC03 completed before LC04,PASS,,LC03_PASS_QA_LEDGER_COMPRESSION_GRAVITY_AS_A_REPLAY
+alpha_H locked at 2,PASS,2,LC01 primitive
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+R_squared locked at 144,PASS,144,LC01 primitive
+split fraction locked at 1/8,PASS,1/8,LC01 primitive
+surface debit locked at 0.75,PASS,3/4,LC01 primitive
+CR061a 35-row mass-chain closure passes,PASS,,PASS_QP075_MASS_CHAIN_REPRODUCTION
+CR061a closure rows are 35,PASS,35,base closure row count
+CR061a operator rows are 26,PASS,26,operator row count
+CR061a introduces zero free parameters,PASS,0,free parameter count
+CR062a row-by-row ledger passes,PASS,,PASS_QP075_ROW_BY_ROW_PARTICLE_LEDGER_35_ROWS
+CR062a ledger rows are 35,PASS,35,ledger row count
+CR064a branch verdict passes,PASS,,PASS_QP075_PARTICLE_MASS_CHAIN_BRANCH_RERUN
+CR119 vault passes,PASS,,PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY
+CR119 particle row summary is 321,PASS,321,summary particle rows
+CR119 particle table exports 321 rows,PASS,321,csv particle rows
+CR119 matter rows are 126,PASS,126,summary matter rows
+CR119 periodic rows are 126,PASS,126,summary periodic rows
+CR119 known labels are reveal-only,PASS,"[""known labels are downstream reveal labels only"", ""particle and matter rows without known labels keep native identities"", ""Z119-Z126 remain SAM frontier unknown identities"", ""QP093A-0088 remains a null conjugate closure with zero reveal and no matter promotion"", ""tensor carrier is not promoted to particle row"", ""qA is not treated as mass""]",boundary text
+CR119 nearest-match fake control exists and is rejected,PASS,1,fake_nearest_known_match rows
+CR119 qA-as-mass fake control exists and is rejected,PASS,1,fake_direct_qA_as_mass rows
+CR128 generator source passes,PASS,,CR128_BOUND_COLOR_PAIR_MASS_LAW_V1_SEALED
+CR128 violation count is zero,PASS,0,violation metric
+CR128b generator source passes,PASS,,CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_SEALED
+CR128b violation count is zero,PASS,0,violation metric
+CR129 generator source passes,PASS,,CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1_SEALED
+CR129 violation count is zero,PASS,0,violation metric
+CR129b generator source passes,PASS,,CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1_SEALED
+CR129b violation count is zero,PASS,0,violation metric
+CR129c generator source passes,PASS,,CR129c_3BODY_UNIVERSAL_GENERATOR_SEALED
+CR129c violation count is zero,PASS,0,violation metric
+CR130 generator source passes,PASS,,CR130_2BODY_3BODY_STRUCTURAL_BRIDGE_SEALED
+CR130 violation count is zero,PASS,0,violation metric
+CR131 generator source passes,PASS,,CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1_SEALED
+CR131 violation count is zero,PASS,0,violation metric
+CR132 generator source passes,PASS,,CR132_1BODY_CARRIER_LATTICE_LAW_V1_SEALED
+CR132 violation count is zero,PASS,0,violation metric
+CR133 generator source passes,PASS,,CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1_SEALED
+CR133 violation count is zero,PASS,0,violation metric
+CR134 generator source passes,PASS,,CR134_SOURCE_SUPPORT_PACKET_LAW_V1_SEALED
+CR134 violation count is zero,PASS,0,violation metric
+CR128 BCP mass rows all match,PASS,36/36,rows/matches
+CR128b asymmetric BCP debit rows all match,PASS,30/30,rows/matches
+CR129 OCTET 3-body rows all match,PASS,76/76,rows/matches
+CR129b 3-body debit magnitude rows all match,PASS,76/76,rows/matches
+CR129c universal 3-body rows all match,PASS,120/120/0,rows/matches/violations
+CR130 bridge direct and rewrite rows all match,PASS,76/76/76,rows/direct/rewrite
+CR131 single-write fermion ladder rows all match,PASS,90/90,rows/matches
+CR132 carrier lattice rows all match,PASS,6/6,rows/matches
+CR133 neutral ladder rows all match,PASS,24/24,rows/matches
+CR134 source support rows all match,PASS,8/8,rows/matches
+WC20_PARTICLE_TABLE_NEAREST_MATCH rejected,PASS,,CR119 source table keeps 1 fake_nearest_known_match row(s) rejected; known labels are reveal-only
+WC21_PARTICLE_ROW_SUPPRESSION rejected,PASS,,CR062a retains 35/35 ledger rows; CR119 exports 321/321 particle rows; CR129c keeps rejected fake-closure controls outside pass set
+WC22_PERIODIC_TABLE_DATA_BACKFILL rejected,PASS,,CR119 reports periodic rows as vault reveal; LC04 defers periodic/isotope replay to LC05 and uses no periodic target labels
+WC_QA_AS_MASS rejected,PASS,,CR119 keeps 1 fake_direct_qA_as_mass row(s) rejected; LC03 qA bridge remains debit/source grammar only
+WC_CARRIER_PROMOTED_TO_MATTER rejected,PASS,,CR116/CR119/CR132 keep tensor carrier as carrier/support; matter catalog remains 126 rows
+WC_FORMULA_MUTATION rejected,PASS,,CR128-CR134 replay class-specific declared formulas with violations zero in their scopes
+WC_CONSTANT_MUTATION rejected,PASS,,"All LC04 laws are read against LC01 locked primitive stack: alpha_H=2, R=12, D=3, split=1/8, surface_debit=0.75"
+WC_Q_LABEL_RELABEL rejected,PASS,,CR129b/CR131/CR133 replay q and partition rules as fixed row grammar; no q-label relabeling is introduced in LC04
+WC_INSAMPLE_OVERCLAIM rejected,PASS,,LC04 preserves the CR142 qualifier: generator rows are in-sample consistency unless separately forward-blind
+WC_4BODY_CONJECTURE_AS_PASS rejected,PASS,,"LC04 records the 4-body term as forward-blind conjecture only, not an in-sample pass"
+WC_SOURCE_SUPPORT_AS_MATTER rejected,PASS,,CR134 source support rows remain qA=0 hidden support with S_debit=0; not matter

@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,CR069 FAIL on Z=1..96,FAIL_10_BRANCH,True,True,K1 roster fail detection wired
+WC2,CR071 modification attempt,FORBIDDEN,True,True,CR071 frontier seal is permanent; CR072 cites only
+WC3,CR066 appeal overwriting original file,FORBIDDEN,True,True,original_file_modified=False enforced
+WC4,corrupt manifest seal,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC5,missing prior CR summary,DIAGNOSTIC,True,True,missing-summary detection wired
+WC6,Z=97..118 deferral counted as FAIL,FORBIDDEN_INTERPRETATION,True,True,Z=97..118 is structured frontier per seal; never scored as FAIL by CR069

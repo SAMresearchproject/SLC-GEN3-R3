@@ -1,0 +1,77 @@
+{
+  "cr_id": "CR113",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH",
+  "lives_in": "00_governance",
+  "test_class": "CROSS_BRANCH_PHASE_2_COMPOSITE_CERTIFICATE",
+  "execution_status": "CLEAN",
+  "result_class": "CR113_COURTROOM_CROSS_BRANCH_PHASE_2_CERTIFICATE_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "branches_certified": [
+    "09a_PARTICLE_MASS_CHAIN (CR069a)",
+    "14_FOUNDATIONAL_TESTS (CR112)",
+    "13_CERN_INDEPENDENT_TESTS (CR098a)"
+  ],
+  "composite_phase_2_sha256": "282bed22adc035e1d524e71db98e29c40b8394eaa7392cd0fbf7e834aeaf60eb",
+  "certificate_sha256": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+  "sealed_at_utc": "2026-06-14T03:11:03Z",
+  "predictions": [
+    {
+      "name": "P1_all_three_phase_2_objects_present",
+      "pass": true,
+      "details": {
+        "cr069a_verdict_sha256": "6a4d7d7dfdbf0fbf5f717a11390700ed66424e330f75f0307a9985e3beff4055",
+        "cr112_verdict_sha256": "632917ff7fcf9573e6b016103993fb739fdbcbae6aca1c8d6709202c583a7889",
+        "cr098a_commit_sha256": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe",
+        "cr098a_registry_sha256": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986"
+      }
+    },
+    {
+      "name": "P2_phase_1_chain_of_custody_present",
+      "pass": true
+    },
+    {
+      "name": "P3_composite_hash_deterministic_64_chars",
+      "pass": true
+    },
+    {
+      "name": "P4_zero_free_parameters_across_phase_2",
+      "pass": true
+    },
+    {
+      "name": "P5_certificate_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "certificate_sha256": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35"
+      }
+    },
+    {
+      "name": "P6_blindness_protocol_present",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_branch_artifact_modified",
+      "pass": true,
+      "details": "CR113 only reads; it writes only to its own dir"
+    },
+    {
+      "name": "WC2_no_new_prediction_introduced",
+      "pass": true,
+      "details": "all predictions remain in CR098 / CR098a; CR113 is provenance-only"
+    },
+    {
+      "name": "WC3_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC4_phase_1_verdicts_referenced_unchanged",
+      "pass": true
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future SPARC quantitative reveal CR will appeal CR098a CR110_PRED_1 against CR107 anchor",
+    "Future Omega_b derivation CR will appeal CR098a CR111_PRED_1 against CR108 anchor"
+  ]
+}

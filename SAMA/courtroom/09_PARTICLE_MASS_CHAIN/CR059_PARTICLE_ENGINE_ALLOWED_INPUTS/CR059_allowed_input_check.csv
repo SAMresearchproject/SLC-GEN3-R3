@@ -1,0 +1,9 @@
+input_name,declared_form,match_count,match_file_count,exemplar_file,exemplar_line,exemplar_text,status
+A_0,1/(12*pi),6043,107,tests/Substrate/G505_RADIATIVE_QED_INCLUSIVE_SCREEN_THEOREM/G505_output.json,15,"    ""coefficient_rule"": ""G505 theorem: S_A0alpha = 1 - A0 - alpha_em from the G468 first-order post-tree simplex; direct multiplier on inclusive branch ratios after tree helicity readout; fixed before",found
+alpha_em,fine-structure const,5136,96,tests/Substrate/G505_RADIATIVE_QED_INCLUSIVE_SCREEN_THEOREM/G505_output.json,15,"    ""coefficient_rule"": ""G505 theorem: S_A0alpha = 1 - A0 - alpha_em from the G468 first-order post-tree simplex; direct multiplier on inclusive branch ratios after tree helicity readout; fixed before",found
+D,3,281,20,tests/Substrate/G611c_ELECTRON_MASS_COMPOSITION_ATTEMPT/G611c_verdict.md,185,- G609c (bipartite-write D = 3 articulation):,found
+alpha_H,2,909,56,tests/Substrate/G506_CORRECTION_THEOREM_DELTA_AUDIT/G506_output.json,49,"      ""coefficient_rule"": ""G499 theorem: terminal charged electron mass times half-write 1/alpha_H and baryon baseline/EM factor (1 - A0 + alpha_em); fixed before p/n or endpoint reveal"",",found
+R,12,78,20,tests/Substrate/G611c_ELECTRON_MASS_COMPOSITION_ATTEMPT/G611c_verdict.md,118,  The /R=12 alternative (R = radix) gives 8.5% error — worse than /13.,found
+S,1 - A_0 - alpha_em,85,31,tests/Substrate/G613c_MUON_MASS_COMPOSITION_ATTEMPT/G613c_verdict.md,117,- **S^2 application.** Why TWO screen factors and not one or three?,found
+m_P,Planck mass anchor,4901,66,tests/Substrate/G611c_ELECTRON_MASS_COMPOSITION_ATTEMPT/G611c_ELECTRON_MASS_COMPOSITION_ATTEMPT.py,3,Computes m_candidate = m_P * A_0^a * alpha_em^b for six pre-declared,found
+tier_n,layered set {alpha_H^i * D^j} per G544b,167,21,tests/Substrate/G611c_ELECTRON_MASS_COMPOSITION_ATTEMPT/G611c_verdict.md,72,under the V4.1 cascade rules (G544b 1-to-1 tier mapping + G589c,found

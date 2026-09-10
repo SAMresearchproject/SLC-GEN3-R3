@@ -1,0 +1,18 @@
+{
+  "row_count": 2,
+  "boundary_pass_count": 2,
+  "fail_count": 0,
+  "max_residual_pct": 0.477797,
+  "rows": [
+    {
+      "symbol": "d",
+      "residual_pct": 0.477797,
+      "verdict": "BOUNDARY_ROW_LEVEL_WITHIN_AUDIT_BAND"
+    },
+    {
+      "symbol": "t",
+      "residual_pct": 0.042299,
+      "verdict": "BOUNDARY_ROW_LEVEL_WITHIN_AUDIT_BAND"
+    }
+  ]
+}

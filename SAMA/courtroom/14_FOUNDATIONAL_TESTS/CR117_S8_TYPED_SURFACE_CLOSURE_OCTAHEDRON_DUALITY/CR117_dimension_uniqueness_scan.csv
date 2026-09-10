@@ -1,0 +1,13 @@
+D,h,S_state,S_cross_facets,R,Theta,S_split,cross_polytope_edges,cube_edges,state_equals_split,cross_edges_equal_R,cube_edges_equal_R
+1,2,2,2,4,2,8,0,1,False,False,False
+2,2,4,4,8,8,8,4,4,False,False,False
+3,2,8,8,12,18,8,12,12,True,True,True
+4,2,16,16,16,32,8,24,32,False,False,False
+5,2,32,32,20,50,8,40,80,False,False,False
+6,2,64,64,24,72,8,60,192,False,False,False
+7,2,128,128,28,98,8,84,448,False,False,False
+8,2,256,256,32,128,8,112,1024,False,False,False
+9,2,512,512,36,162,8,144,2304,False,False,False
+10,2,1024,1024,40,200,8,180,5120,False,False,False
+11,2,2048,2048,44,242,8,220,11264,False,False,False
+12,2,4096,4096,48,288,8,264,24576,False,False,False

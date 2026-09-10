@@ -1,0 +1,10 @@
+control,variant,matches_out_of_32,sensitive
+W1,R^d (depth-independent),0,True
+W1,R^(d+2),0,True
+W1,R^(d-1) clamped,0,True
+W2,"(1, 1) no conjugation",1,True
+W2,"(6/5, 5/6) swapped",1,True
+W2,"(7/8, 8/7) off-substrate",1,True
+W3,sign-swap convention,0,True
+W3-hz,sign-swap predicts hard-zero row as non-zero,39.0,True
+W4,"continuous random (c_neg, c_pos, R_exp), 1000 draws","0/1000 full, max=1",True

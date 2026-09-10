@@ -1,0 +1,64 @@
+{
+  "campaign_id": "CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY",
+  "classification": "CONSTRUCTIVE_HARDWARE_REALISTIC_FINITE_SHOT_DISCOVERY",
+  "question": "Does the CR120Z B-then-X1 order discriminator survive finite-shot tomography under the three frozen CR223c high-fidelity NV noise profiles and matched resource controls?",
+  "hardware_status": "NO_LIVE_BACKEND_AVAILABLE_SIMULATOR_ONLY",
+  "frozen_circuit_roles": {
+    "B": "H_A request-stage analog",
+    "X1": "CNOT_A_to_B response-stage analog",
+    "forward": "B then X1",
+    "reverse": "X1 then B"
+  },
+  "profiles": "Import exact room_temp_NV, cryogenic_NV, and noisy_NV parameters from CR223c_HF_summary.json",
+  "simulation": {
+    "calibration_blocks_per_profile": 24,
+    "validation_blocks_per_profile": 48,
+    "shots_per_Pauli_observable": 4096,
+    "Pauli_observables": 15,
+    "normalized_stage_time_over_T2": 0.01,
+    "rng_seeds": {"calibration": 1202601, "validation": 1202602, "swap": 1202603},
+    "state_estimator": "two-qubit Pauli linear inversion followed by PSD projection and trace normalization",
+    "readout_correction": "invert the frozen symmetric bit-flip attenuation per Pauli weight"
+  },
+  "matched_direct_conditions": [
+    "B_THEN_X1",
+    "X1_THEN_B",
+    "B_ONLY_PADDED",
+    "X1_ONLY_PADDED",
+    "IDENTITY_IDLE",
+    "LOCAL_UNITARY_SUBSTITUTION",
+    "DEPHASED_REQUEST",
+    "CLASSICAL_RETURN"
+  ],
+  "noise_mapping": {
+    "SPAM": "mix input with I4/4 at profile spam_err",
+    "pulse_error": "global depolarization after each of two matched stages",
+    "T1": "independent amplitude damping with p=1-exp(-gamma_1_T2*tau)",
+    "Tphi": "independent phase-flip channel with p=(1-exp(-gamma_phi_T2*tau))/2",
+    "phase_noise": "blockwise Rz error on the B request stage",
+    "drift": "blockwise correlated ZZ phase-flip probability capped below 1/4",
+    "readout": "symmetric observable attenuation and frozen inverse correction"
+  },
+  "validation_gates": [
+    "all source and seal hashes match",
+    "all reconstructed states are PSD and unit trace",
+    "known Bell and product calibration states remain distinguishable in all profiles",
+    "forward median negativity exceeds 0.30 in every profile",
+    "forward 5th-percentile negativity exceeds every direct-control 95th percentile by at least 0.15 in every profile",
+    "matched forward-minus-reverse negativity gap is positive in at least 47 of 48 validation blocks per profile",
+    "forward median frozen-setting CHSH exceeds 2.30 and at least 45 of 48 blocks exceed 2 in every profile",
+    "every direct-control 95th-percentile negativity is below 0.05",
+    "resolved Bell-response swapping survives with 5th-percentile negativity above 0.20 while product and unresolved controls stay below 0.05 at their 95th percentiles",
+    "local marginals remain invariant in the exact noisy channel within 1e-12",
+    "all semantic and statistical wrong controls are rejected"
+  ],
+  "forbidden_claims": [
+    "real hardware was executed",
+    "B is physically H",
+    "X1 is physically CNOT",
+    "a simulator result installs a SAM operator",
+    "finite-shot survival proves a physical B/X1 weld"
+  ],
+  "same_run_repair": false,
+  "registry_mutation": false
+}

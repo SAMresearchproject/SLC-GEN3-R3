@@ -1,0 +1,10 @@
+label,Z,expr,a,b,reactive_rule_ok,note
+Li,3,d,0,1,True,"pure d (a=0, b=1)"
+Be,4,h^2,2,0,True,"pure h^2 beyond primitive (a=2, b=0)"
+C,6,h*d = m_3,1,1,True,"mixed but b=1 (a=1, b=1)"
+O,8,h^3 = S,3,0,True,"pure h^3 (a=3, b=0)"
+F,9,d^2 = D^2,0,2,True,"pure d^2 (a=0, b=2)"
+Mg,12,h^2*d = R,2,1,True,"mixed but b=1 (a=2, b=1)"
+S-elem,16,h^4,4,0,True,"pure h^4 (a=4, b=0)"
+Co,27,d^3 = V,0,3,True,"pure d^3 (a=0, b=3)"
+Tl,81,d^4 = F,0,4,True,"pure d^4 (a=0, b=4)"

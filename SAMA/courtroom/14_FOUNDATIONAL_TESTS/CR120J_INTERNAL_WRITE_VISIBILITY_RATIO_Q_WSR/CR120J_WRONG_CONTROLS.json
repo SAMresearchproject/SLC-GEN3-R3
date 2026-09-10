@@ -1,0 +1,17 @@
+{
+  "WC_Q_MIX_X1_rejected": true,
+  "WC_force_canceled_nonempty_to_numeric_zero_rejected": true,
+  "WC_force_empty_history_to_numeric_zero_rejected": true,
+  "WC_general_basis_invariance_not_claimed": true,
+  "WC_identity_delay_as_physical_time_rejected": true,
+  "WC_incomplete_probe_family_rejected": true,
+  "WC_interpret_q_one_as_memory_magnitude_rejected": true,
+  "WC_interpret_q_zero_as_no_write_rejected": true,
+  "WC_projector_probe_scale_retuning_rejected": true,
+  "WC_q_as_erasure_detector_rejected": true,
+  "WC_q_as_ordered_transcript_rejected": true,
+  "WC_q_equality_as_state_equality_rejected": true,
+  "WC_relative_scale_choice_is_consequential": true,
+  "WC_scale_retuning_rejected_authoritative_sK_is_one": true,
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR"
+}

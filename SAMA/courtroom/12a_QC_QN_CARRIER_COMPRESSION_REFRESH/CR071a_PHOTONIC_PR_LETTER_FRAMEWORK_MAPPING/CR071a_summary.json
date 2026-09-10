@@ -1,0 +1,196 @@
+{
+  "cr_id": "CR071a",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "test_class": "PHOTONIC_PR_LETTER_FRAMEWORK_MAPPING_FROM_NV_DIAMOND_ALPHABET",
+  "execution_status": "CLEAN",
+  "result_class": "CR071a_PHOTONIC_MAPPING_SEALED__PREDICTIONS_8_OF_8__WRONG_CONTROLS_8_OF_8__MAPPING_ROWS_10__FREE_PARAMETERS_0",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "alphabet_ratios_used": {
+    "carrier_slot_weight": "4/17",
+    "envelope_slot_weight": "9/17",
+    "sensor_slot_weight": "4/17",
+    "A_side": "1/24",
+    "A_share": "1/12 = 1/R"
+  },
+  "T2_grav_formula": "T2_grav(omega) = 16*pi*R^4/(17*omega)",
+  "T2_grav_at_canonical_photonic_omegas": {
+    "telecom_C_band_1550_nm": 5.046260199648546e-11,
+    "telecom_O_band_1310_nm": 4.263703854362297e-11,
+    "free_space_850_nm": 2.7667897755293245e-11
+  },
+  "mapping_row_count": 10,
+  "canonical_nv_observables_count": 10,
+  "honest_aggregate_verdict": "CR071a defines 10 mapping rows from NV-diamond observables to photonic equivalents using only CR060a alphabet ratios. Every mapping row carries a falsifier statement. No mapping row introduces a free knob. T2_grav v1.1 evaluated at telecom 1550 nm gives a floor of ~50.4 ps. This mapping framework is the input surface for CR072a (photonic empirical contact table) and CR073a (cross-platform t_fire scaling test). CR071a does not populate empirical photonic data and does not test cross-platform scaling. Mapping correctness is structural; partner-lab verification of each photonic equivalent against published platform documentation is the next discipline step.",
+  "predictions": {
+    "P1_every_NV_observable_has_one_photonic_equivalent": {
+      "pass": true,
+      "details": {
+        "expected_NV_observables": [
+          "A_leak",
+          "A_share",
+          "A_side",
+          "T2_equivalent",
+          "T2_grav_floor",
+          "carrier_slot",
+          "envelope_slot",
+          "ledger_node",
+          "sensor_slot",
+          "t_fire"
+        ],
+        "observed_NV_observables": [
+          "A_leak",
+          "A_share",
+          "A_side",
+          "T2_equivalent",
+          "T2_grav_floor",
+          "carrier_slot",
+          "envelope_slot",
+          "ledger_node",
+          "sensor_slot",
+          "t_fire"
+        ],
+        "missing": [],
+        "extra": []
+      }
+    },
+    "P2_every_photonic_equivalent_is_documentable_from_public_sources": {
+      "pass": true,
+      "details": {
+        "recognized_keywords": [
+          "Qunnect",
+          "Cisco",
+          "RFC 9340",
+          "NIST",
+          "Bell-state analyzer",
+          "quantum-state tomography",
+          "quantum-network",
+          "entanglement",
+          "QN015",
+          "CR060a",
+          "CR064a",
+          "CR068a",
+          "quantum-optics",
+          "SAM primitive"
+        ],
+        "violations": []
+      }
+    },
+    "P3_mapping_uses_only_CR060a_alphabet_ratios": {
+      "pass": true,
+      "details": {
+        "rows_with_free_knob": [],
+        "alphabet_ratios": {
+          "carrier": "4/17",
+          "envelope": "9/17",
+          "sensor": "4/17",
+          "A_side": "1/24",
+          "A_share": "1/12"
+        }
+      }
+    },
+    "P4_every_mapping_row_has_a_non_empty_specific_falsifier": {
+      "pass": true,
+      "details": {
+        "violations": []
+      }
+    },
+    "P5_no_internal_ambiguity_in_assignment": {
+      "pass": true,
+      "details": {
+        "ambiguous_assignments": {}
+      }
+    },
+    "P6_T2_grav_formula_unchanged_across_platforms": {
+      "pass": true,
+      "details": {
+        "formula": "T2_grav(omega) = 16*pi*R^4/(17*omega) with R = 12",
+        "at_canonical_photonic_omegas": {
+          "telecom_C_band_1550_nm": {
+            "wavelength_m": 1.55e-06,
+            "omega_drive_rad_per_s": 1215000000000000.0,
+            "T2_grav_seconds": 5.046260199648546e-11
+          },
+          "telecom_O_band_1310_nm": {
+            "wavelength_m": 1.31e-06,
+            "omega_drive_rad_per_s": 1438000000000000.0,
+            "T2_grav_seconds": 4.263703854362297e-11
+          },
+          "free_space_850_nm": {
+            "wavelength_m": 8.5e-07,
+            "omega_drive_rad_per_s": 2216000000000000.0,
+            "T2_grav_seconds": 2.7667897755293245e-11
+          }
+        }
+      }
+    },
+    "P7_QN015_diamond_topology_consistency": {
+      "pass": true,
+      "details": {
+        "qn015_role_tokens": {
+          "carrier_slot": "DIAMOND-V1-CARRIER",
+          "sensor_slot": "DIAMOND-V2-SENSOR",
+          "envelope_slot": "DIAMOND-V3-ENVELOPE",
+          "ledger_node": "DIAMOND-V4-LEDGER"
+        },
+        "violations": []
+      }
+    },
+    "P8_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    }
+  },
+  "wrong_controls": {
+    "WC1_mapping_with_a_free_knob_is_rejected": {
+      "pass": true,
+      "details": "Free-knob test row correctly parsed as uses_free_knob=True; P3 would catch it"
+    },
+    "WC2_mapping_with_empty_falsifier_is_rejected": {
+      "pass": true,
+      "details": "Empty-falsifier test row caught by P4 (length < 30)"
+    },
+    "WC3_mapping_with_ambiguous_assignment_is_rejected": {
+      "pass": true,
+      "details": "Ambiguous assignment test correctly produces NV observable with >1 mapping_id; P5 would catch it"
+    },
+    "WC4_mapping_that_requires_unpublished_photonic_observable_is_rejected": {
+      "pass": true,
+      "details": "Unpublished-vocab test row has no recognized public source keyword; P2 would catch it"
+    },
+    "WC5_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on CR060a, CR065a, CR068a, CR070a, QN015 source artifacts"
+    },
+    "WC6_no_free_parameters": {
+      "pass": true,
+      "details": "All 10 loaded mapping rows have uses_free_knob = False"
+    },
+    "WC7_T2_grav_floor_computed_correctly_at_photonic_omega": {
+      "pass": true,
+      "details": {
+        "correct_T2_grav_at_1550nm_seconds": 5.046260199648546e-11,
+        "wrong_inverted_T2_grav_at_1550nm_seconds": 1165685618.3488429,
+        "log10_ratio_correct_over_wrong": 19.36361179816582,
+        "interpretation": "Correct formula gives ~50 ps floor at 1550 nm; inverted formula differs by >15 orders of magnitude (observed ~19)"
+      }
+    },
+    "WC8_QN015_role_swap_rejected": {
+      "pass": true,
+      "details": "QN015 role-swap test correctly mismatches expected token; P7 would catch it"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 8,
+    "predictions_total": 8,
+    "wrong_controls_passed": 8,
+    "wrong_controls_total": 8
+  }
+}

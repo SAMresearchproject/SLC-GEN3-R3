@@ -1,0 +1,39 @@
+item,value,pass
+z_eq_SAM,3596.1706767469873,True
+z_eq_Planck,3402.0,True
+z_eq_dev_pct,5.707544877924376,True
+z_star (Peebles DER)_SAM,1073.0631740185672,True
+z_star (Peebles DER)_Planck,1089.92,True
+z_star (Peebles DER)_dev_pct,-1.5466113092183689,True
+z_drag (Peebles DER)_SAM,1055.8115080186676,True
+z_drag (Peebles DER)_Planck,1059.94,True
+z_drag (Peebles DER)_dev_pct,-0.3895024229043573,True
+r_s(z_star) Mpc_SAM,143.29909817630747,True
+r_s(z_star) Mpc_Planck,144.43,True
+r_s(z_star) Mpc_dev_pct,-0.7830103328204249,True
+r_d Mpc_SAM,144.80644193482388,True
+r_d Mpc_Planck,147.09,True
+r_d Mpc_dev_pct,-1.5524903563642147,True
+D_M(z_star) Mpc_SAM,13532.742328518672,True
+D_M(z_star) Mpc_Planck,13869.6,True
+D_M(z_star) Mpc_dev_pct,-2.4287482802772105,True
+ell_A_SAM,296.68270368240917,True
+ell_A_Planck,301.76,True
+ell_A_dev_pct,-1.6825610808559193,True
+100*theta_*_SAM,1.0589065741266748,True
+100*theta_*_Planck,1.0411,True
+100*theta_*_dev_pct,1.7103615528455345,True
+k_eq_per_Mpc,0.010975788982681985,True
+eta_10_SAM,6.3728493083088065,True
+eta_10_dev_pct,4.4729394804722435,True
+Y_p_SAM_schematic,0.3937819316323614,True
+D_H_SAM_scaled,2.3561294029618494e-05,True
+D_H_dev_pct,-6.761796479546921,True
+P1_100theta_passed,True,True
+P2_ellA_passed,True,True
+P3_rd_passed,True,True
+WC1_canonical_percentile,7.7,True
+WC1_p_value,0.07792207792207792,True
+WC2_canonical_percentile,16.400000000000002,True
+WC2_p_value,0.16483516483516483,True
+verdict,PASS,True

@@ -1,0 +1,12 @@
+check,passed,observed,expected
+input_cr222_elements_exists,True,True,True
+cr222_elements_126,True,126,126
+xlsx_written,True,91012,>0
+xlsx_is_valid_zip,True,True,True
+xlsx_has_5_sheets,True,5,5
+formula_count_gt_4000,True,7621,>4000
+elements_formula_rows_126,True,126,126
+isotope_candidate_formula_rows_252,True,252,252
+active_isotope_formula_expected_214,True,214,214
+gold_like_formula_values_match_cr222,True,"{'P': '79p+118n+79e', 'G': '732.6966145833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333'}",CR222 Z79
+known_label_card_fields_blank_by_design,True,True,True

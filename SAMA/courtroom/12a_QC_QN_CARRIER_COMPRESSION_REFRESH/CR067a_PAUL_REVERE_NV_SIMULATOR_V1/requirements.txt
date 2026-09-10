@@ -1,0 +1,14 @@
+# CR067a Paul Revere NV-Center Simulator V1.0
+# Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.
+#
+# Python dependencies. Install with:
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.10+. QuTiP is the load-bearing dependency
+# (it provides the open-quantum-system Lindblad master-equation
+# integrator and the spin-1 / qutrit operators).
+
+qutip>=4.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0

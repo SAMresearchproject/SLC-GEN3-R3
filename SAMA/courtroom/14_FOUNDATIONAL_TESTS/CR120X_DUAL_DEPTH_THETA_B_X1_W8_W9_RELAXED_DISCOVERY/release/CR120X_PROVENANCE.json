@@ -1,0 +1,18 @@
+{
+  "campaign_id": "CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY",
+  "completed_utc": "2026-07-18T19:57:09.840491+00:00",
+  "precommit_seal": {
+    "campaign_id": "CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY",
+    "contract_sha256": "81824cf5b63c386ae371ca59b97393a5797f603b0d9b211b7e0dba9c922224bc",
+    "precommit_sha256": "bab3e67ece38f9183fb7f92ce13a0321ad50ee2f55791d5dc3b385c07e266c43",
+    "same_run_repair": "false",
+    "sealed_utc": "2026-07-18T19:58:00Z",
+    "source_manifest_sha256": "7825bcef18a0436db997e9f5f94fa039dce88382ab4d4c43c1e286c5542fd5a3"
+  },
+  "registry_mutated": false,
+  "runner_sha256": "8dd5347dfe9326850152fcbc89bd6fe626ef9b17afa9b46178409077a4e918ed",
+  "same_run_repair": false,
+  "source_hashes_matched": 20,
+  "source_hashes_total": 20,
+  "started_utc": "2026-07-18T19:57:09.832259+00:00"
+}

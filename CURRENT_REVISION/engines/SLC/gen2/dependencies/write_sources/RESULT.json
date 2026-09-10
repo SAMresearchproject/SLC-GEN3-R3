@@ -1,0 +1,2090 @@
+{
+  "campaign": "RH_PHYSICAL_WRITE_CLOCK1",
+  "ceff_result": {
+    "activation_candidates_retained": 2,
+    "bindings": {
+      "CURRENT_REVISION/engines/SLC/INTERFACE.json": {
+        "bytes": 12328,
+        "sha256": "93f554ba26d098d984c96a233555658f626ed8e35960c45f61feee76e646f87d"
+      },
+      "SAM_CONCEPTUAL_SPINE.md": {
+        "bytes": 42737,
+        "sha256": "d74b6b964182b743995fe3159679bd52bebb8a96987ed096f645b4750722e62e"
+      },
+      "SAM_REVIEW/campaigns/RH_LOCAL_ACTION_ACTIVATION1/work/core1/ATLAS.json": {
+        "bytes": 269515,
+        "sha256": "2fe71b4de4e795de4f96838a289cabe0ca44175417c55fc60464e775811b11f3"
+      },
+      "SAM_REVIEW/campaigns/RH_LOCAL_ACTION_ACTIVATION1/work/core1/RESULT.json": {
+        "bytes": 2464087,
+        "sha256": "49dcebbceeb83a372f7146d49cfd0df0b3d081ae52485a6305bc8b7a68d79492"
+      },
+      "SAM_REVIEW/campaigns/RH_MINIMUM_WRITE_ADVANCE1/inputs/THERMAL_LADDER/CR036_ETA_SAM_AND_H0_SELECTOR/CR036_summary.json": {
+        "bytes": 2572,
+        "sha256": "1c26df9c83891c79e3b3f6b12662898e9000cc9c8083a2844466e83837b04e35"
+      },
+      "SAM_REVIEW/campaigns/RH_PHYSICAL_WRITE_CLOCK1/inputs/SAM_TIME_DISTANCE.pdf": {
+        "bytes": 839532,
+        "sha256": "f038dbb7de6eedc5652f826871a0afa35e8cbeb3caf868349f5465c9a66cf9bd"
+      },
+      "SAM_REVIEW/campaigns/RH_PHYSICAL_WRITE_CLOCK1/inputs/SAM_TIME_DISTANCE.txt": {
+        "bytes": 35304,
+        "sha256": "dc43d1b05eb79f553e4d86c51bba2d4a23908a586895a7b4b4363e7e079fda8a"
+      },
+      "volume_I/SAM_VOLUME_I_SUBSTRATE_TECHNICAL_SPINE.md": {
+        "bytes": 69854,
+        "sha256": "8fe406d800edc36c2935620289324b815297e99288ae5185062b667cd196ed4e"
+      },
+      "volume_II/SAM_VOLUME_II_MATTER_TECHNICAL_SPINE.md": {
+        "bytes": 67406,
+        "sha256": "ae9abbc9aa7197a7c9c963aaee538d6ed5b3e228e25eef5e59262374320daf7b"
+      }
+    },
+    "check_count": 142,
+    "checks": {
+      "activation_source_recovered": 1,
+      "analytic_monotone_pi_endpoint_order": 32,
+      "both_activation_values_retained": 1,
+      "ceff_inverse_units_wiring": 8,
+      "ceff_recovers_accumulation": 1,
+      "existing_gate_alternatives_retained": 1,
+      "independent_384_bit_pi_enclosure": 1,
+      "independent_coarse_pi_enclosure": 1,
+      "local_clock_density_pullback": 72,
+      "nine_inherited_density_values": 1,
+      "normalized_time_log_preserved": 2,
+      "one_common_geometric_time_scale": 1,
+      "one_common_mass_radius_time_scale": 1,
+      "ratio_pi_enclosure_order": 1,
+      "retained_complement_relation": 8,
+      "same_source_readout_event_time": 8,
+      "twelve_floor_ceiling_ratio": 2
+    },
+    "equation_layer_count": 8,
+    "floor_redshift_log": {
+      "comparison": {
+        "coefficients": [],
+        "expression": "0",
+        "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+      },
+      "exact_comparison": 1,
+      "exact_sign": 1,
+      "formal_log": {
+        "coefficients": [
+          {
+            "coefficient": {
+              "denominator": 3,
+              "numerator": 2
+            },
+            "prime": 2
+          },
+          {
+            "coefficient": {
+              "denominator": 3,
+              "numerator": 1
+            },
+            "prime": 3
+          },
+          {
+            "coefficient": {
+              "denominator": 3,
+              "numerator": -1
+            },
+            "prime": 11
+          }
+        ],
+        "expression": "2/3*ln(2) + 1/3*ln(3) - 1/3*ln(11)",
+        "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+      }
+    },
+    "graph_node_count": 279,
+    "levels": {
+      "CEILING": {
+        "A": {
+          "display_midpoint": 0.3183098861837907,
+          "lower": "1000000000000000000/3141592653589793239",
+          "upper": "500000000000000000/1570796326794896619"
+        },
+        "ceff_m_per_s": {
+          "display_midpoint": 204365554.81526116,
+          "lower": "321016662827213319265899502/1570796326794896619",
+          "upper": "642033325654426638831591462/3141592653589793239"
+        },
+        "conditional_CMB_quarter_s": {
+          "display_midpoint": 1.0572768301597827e+18,
+          "lower": "7613604259678792014845429067275399442953517121500000/7201145473440644156016377774912903",
+          "upper": "15227208519357584039384800155937919379166766930750000/14402290946881288318757793069327843"
+        },
+        "equatorial_quarter_s_per_home_kg": {
+          "display_midpoint": 1.141580368909674e-35,
+          "lower": "164681751635476765525714233548856596578623/14425769408838441495290869096409397977040764000000000000000000000000000000000",
+          "upper": "658727006541907062522215571152513526548903/57703077635353766008107478803011581447498968000000000000000000000000000000000"
+        },
+        "equatorial_quarter_s_per_radius_m": {
+          "display_midpoint": 7.686208804682559e-09,
+          "lower": "2467401100272339653981904222897631161/321016662827213319265899502000000000000000000",
+          "upper": "9869604401089358622210802198770111121/1284066651308853277663182924000000000000000000"
+        },
+        "f": {
+          "display_midpoint": 0.6816901138162094,
+          "lower": "1070796326794896619/1570796326794896619",
+          "upper": "2141592653589793239/3141592653589793239"
+        },
+        "period_multiplier": {
+          "display_midpoint": 1.46694220692426,
+          "lower": "3141592653589793239/2141592653589793239",
+          "upper": "1570796326794896619/1070796326794896619"
+        },
+        "seconds_per_native_m": {
+          "display_midpoint": 4.893192499606711e-09,
+          "lower": "3141592653589793239/642033325654426638831591462",
+          "upper": "1570796326794896619/321016662827213319265899502"
+        }
+      },
+      "FLOOR": {
+        "A": {
+          "display_midpoint": 0.026525823848649224,
+          "lower": "250000000000000000/9424777960769379717",
+          "upper": "125000000000000000/4712388980384689857"
+        },
+        "ceff_m_per_s": {
+          "display_midpoint": 291840216.06793845,
+          "lower": "1375264618231639957797698506/4712388980384689857",
+          "upper": "2750529236463279916494774386/9424777960769379717"
+        },
+        "conditional_CMB_quarter_s": {
+          "display_midpoint": 7.403741982517747e+17,
+          "lower": "22840812779036376044536287201826198328860551364500000/30850363009637233343049133324738709",
+          "upper": "45681625558072752118154400467813758137500300792250000/61700726019274466706273379207983529"
+        },
+        "equatorial_quarter_s_per_home_kg": {
+          "display_midpoint": 7.994090348539402e-36,
+          "lower": "494045254906430296577142700646569789735869/61801309888459942294166046789228193931122292000000000000000000000000000000000",
+          "upper": "1976181019625721187566646713457540579646709/247205239553839769257496194409034744342496904000000000000000000000000000000000"
+        },
+        "equatorial_quarter_s_per_radius_m": {
+          "display_midpoint": 5.382384744497399e-09,
+          "lower": "7402203300817018961945712668692893483/1375264618231639957797698506000000000000000000",
+          "upper": "29608813203268075866632406596310333363/5501058472926559832989548772000000000000000000"
+        },
+        "f": {
+          "display_midpoint": 0.9734741761513508,
+          "lower": "4587388980384689857/4712388980384689857",
+          "upper": "9174777960769379717/9424777960769379717"
+        },
+        "period_multiplier": {
+          "display_midpoint": 1.0272486158323373,
+          "lower": "9424777960769379717/9174777960769379717",
+          "upper": "4712388980384689857/4587388980384689857"
+        },
+        "seconds_per_native_m": {
+          "display_midpoint": 3.4265325508366768e-09,
+          "lower": "9424777960769379717/2750529236463279916494774386",
+          "upper": "4712388980384689857/1375264618231639957797698506"
+        }
+      },
+      "Z1": {
+        "A": {
+          "display_midpoint": 0.2785211504108168,
+          "lower": "875000000000000000/3141592653589793239",
+          "upper": "437500000000000000/1570796326794896619"
+        },
+        "ceff_m_per_s": {
+          "display_midpoint": 216293917.7133535,
+          "lower": "339753691452213319265899502/1570796326794896619",
+          "upper": "679507382904426638831591462/3141592653589793239"
+        },
+        "conditional_CMB_quarter_s": {
+          "display_midpoint": 9.989692187057967e+17,
+          "lower": "7613604259678792014845429067275399442953517121500000/7621460318409521468516377774912903",
+          "upper": "15227208519357584039384800155937919379166766930750000/15242920636819042943757793069327843"
+        },
+        "equatorial_quarter_s_per_home_kg": {
+          "display_midpoint": 1.0786235134342504e-35,
+          "lower": "164681751635476765525714233548856596578623/15267769484381378668395116346409397977040764000000000000000000000000000000000",
+          "upper": "658727006541907062522215571152513526548903/61071077937525514700524467803011581447498968000000000000000000000000000000000"
+        },
+        "equatorial_quarter_s_per_radius_m": {
+          "display_midpoint": 7.2623231545355616e-09,
+          "lower": "2467401100272339653981904222897631161/339753691452213319265899502000000000000000000",
+          "upper": "9869604401089358622210802198770111121/1359014765808853277663182924000000000000000000"
+        },
+        "f": {
+          "display_midpoint": 0.7214788495891832,
+          "lower": "1133296326794896619/1570796326794896619",
+          "upper": "2266592653589793239/3141592653589793239"
+        },
+        "period_multiplier": {
+          "display_midpoint": 1.3860420171283045,
+          "lower": "3141592653589793239/2266592653589793239",
+          "upper": "1570796326794896619/1133296326794896619"
+        },
+        "seconds_per_native_m": {
+          "display_midpoint": 4.623338513500244e-09,
+          "lower": "3141592653589793239/679507382904426638831591462",
+          "upper": "1570796326794896619/339753691452213319265899502"
+        }
+      },
+      "ZERO": {
+        "A": {
+          "display_midpoint": 0.0,
+          "lower": "0",
+          "upper": "0"
+        },
+        "ceff_m_per_s": {
+          "display_midpoint": 299792458.0,
+          "lower": "299792458",
+          "upper": "299792458"
+        },
+        "conditional_CMB_quarter_s": {
+          "display_midpoint": 7.207351626868634e+17,
+          "lower": "4846971010693560245858446948500000/6725037519502037",
+          "upper": "4846971010693560247401285739250000/6725037519502037"
+        },
+        "equatorial_quarter_s_per_home_kg": {
+          "display_midpoint": 7.782040516123858e-36,
+          "lower": "104839659239271785041917/13472001208686994769667956000000000000000000000000000000000",
+          "upper": "209679318478543570150577/26944002417373989539335912000000000000000000000000000000000"
+        },
+        "equatorial_quarter_s_per_radius_m": {
+          "display_midpoint": 5.239612554879205e-09,
+          "lower": "1570796326794896619/299792458000000000000000000",
+          "upper": "3141592653589793239/599584916000000000000000000"
+        },
+        "f": {
+          "display_midpoint": 1.0,
+          "lower": "1",
+          "upper": "1"
+        },
+        "period_multiplier": {
+          "display_midpoint": 1.0,
+          "lower": "1",
+          "upper": "1"
+        },
+        "seconds_per_native_m": {
+          "display_midpoint": 3.3356409519815204e-09,
+          "lower": "1/299792458",
+          "upper": "1/299792458"
+        }
+      }
+    },
+    "local_clock_squared": {
+      "HI_CEILING": {
+        "1": "9869604401089358622210802198770111121/412206791250883047223515788391356554023873871671297444",
+        "169/144": "39478417604357434488843208795080444484/1935081881149978749465949117726090489723185675345813001",
+        "169/180": "49348022005446793111054010993850555605/1935081881149978749465949117726090489723185675345813001",
+        "25/9": "9869604401089358622210802198770111121/1145018864585786242287543856642657094510760754642492900",
+        "289/225": "246740110027233965555270054969252778025/13236418074611688960844006982789116012544394323667217924",
+        "625/576": "157913670417429737955372835180321777936/7156367903661164014297149104016606840692254716515580625",
+        "625/612": "167783274818519096577583637379091889057/7156367903661164014297149104016606840692254716515580625",
+        "9/10": "49348022005446793111054010993850555605/1854930560628973712505821047761104493107432422520838498",
+        "9/13": "128304857214161662088740428584011444573/3709861121257947425011642095522208986214864845041676996"
+      },
+      "HI_FLOOR": {
+        "1": "88826439609804227599897219788931000089/7565411080639273605755659460861303320214864845041676996",
+        "169/144": "3197751825952952193596299912401516003204/319638618157009309843176612221390065279078039703010853081",
+        "169/180": "3997189782441190241995374890501895004005/319638618157009309843176612221390065279078039703010853081",
+        "25/9": "799437956488238048399074978100379000801/189135277015981840143891486521532583005371621126041924900",
+        "289/225": "19985948912205951209976874452509475020025/2186403802304750072063385584188916659542095940217044651844",
+        "625/576": "12791007303811808774385199649606064012816/1182095481349886500899321790759578643783572632037762030625",
+        "625/612": "13590445260300046822784274627706443013617/1182095481349886500899321790759578643783572632037762030625",
+        "9/10": "49348022005446793111054010993850555605/3782705540319636802877829730430651660107432422520838498",
+        "9/13": "128304857214161662088740428584011444573/7565411080639273605755659460861303320214864845041676996"
+      },
+      "HI_Z1": {
+        "1": "9869604401089358622210802198770111121/461730283421623079945016051502554953023873871671297444",
+        "169/144": "355305758439216910399588879155724000356/19508104474563575127676928175982946765258671078112317009",
+        "169/180": "444132198049021137999486098944655000445/19508104474563575127676928175982946765258671078112317009",
+        "25/9": "88826439609804227599897219788931000089/11543257085540576998625401287563873825596846791782436100",
+        "289/225": "2220660990245105689997430494723275002225/133440051908849070104109638884238381423899548913004961316",
+        "625/576": "1421223033756867641598355516622896001424/72145356784628606241408758047274211409980292448640225625",
+        "625/612": "1510049473366671869198252736411827001513/72145356784628606241408758047274211409980292448640225625",
+        "9/10": "49348022005446793111054010993850555605/2077786275397303859752572231761497288607432422520838498",
+        "9/13": "128304857214161662088740428584011444573/4155572550794607719505144463522994577214864845041676996"
+      },
+      "HI_ZERO": {
+        "1": "1/89875517873681764",
+        "169/144": "36/3797240630163054529",
+        "169/180": "45/3797240630163054529",
+        "25/9": "9/2246887946842044100",
+        "289/225": "225/25974024665494029796",
+        "625/576": "144/14043049667762775625",
+        "625/612": "153/14043049667762775625",
+        "9/10": "5/404439830431567938",
+        "9/13": "13/808879660863135876"
+      },
+      "LO_CEILING": {
+        "1": "2467401100272339653981904222897631161/103051697812720761709640572689911628210436821163848004",
+        "169/144": "88826439609804227543348552024314721796/4353934232587452182232314196148766291890955694172578169",
+        "169/180": "111033049512255284429185690030393402245/4353934232587452182232314196148766291890955694172578169",
+        "25/9": "22206609902451056885837138006078680449/2576292445318019042741014317247790705260920529096200100",
+        "289/225": "555165247561276422145928450151967011225/29781940667876300134086125507384460552816241316352073156",
+        "625/576": "355305758439216910173394208097258887184/16101827783237619017131339482798691907880753306851250625",
+        "625/612": "377512368341667967059231346103337567633/16101827783237619017131339482798691907880753306851250625",
+        "9/10": "1370778389040188696656613457165350645/51525848906360380854820286344955814105218410581924002",
+        "9/13": "3564023811504490611307194988629911677/103051697812720761709640572689911628210436821163848004"
+      },
+      "LO_FLOOR": {
+        "1": "22206609902451056885837138006078680449/1891352770159818400202032984315040960893931390474632036",
+        "169/144": "799437956488238047890136968218832496164/79909654539252327408535893587310480597768601247553203521",
+        "169/180": "999297445610297559862671210273540620205/79909654539252327408535893587310480597768601247553203521",
+        "25/9": "199859489122059511972534242054708124041/47283819253995460005050824607876024022348284761865800900",
+        "289/225": "4996487228051487799313356051367703101025/546600950576187517658387532467046837698346171847168658404",
+        "625/576": "3197751825952952191560547872875329984656/295523870337471625031567653799225150139676779761661255625",
+        "625/612": "3397611315075011703533082114930038108697/295523870337471625031567653799225150139676779761661255625",
+        "9/10": "12337005501361698269909521114488155805/945676385079909200101016492157520480446965695237316018",
+        "9/13": "32076214303540415501764754897669205093/1891352770159818400202032984315040960893931390474632036"
+      },
+      "LO_Z1": {
+        "1": "2467401100272339653981904222897631161/115432570855405769884398418600606117710436821163848004",
+        "169/144": "88826439609804227543348552024314721796/4877026118640893777615833185875608473265955694172578169",
+        "169/180": "111033049512255284429185690030393402245/4877026118640893777615833185875608473265955694172578169",
+        "25/9": "22206609902451056885837138006078680449/2885814271385144247109960465015152942760920529096200100",
+        "289/225": "555165247561276422145928450151967011225/33360012977212267496591142975575168018316241316352073156",
+        "625/576": "355305758439216910173394208097258887184/18036339196157151544437252906344705892255753306851250625",
+        "625/612": "22206609902451056885837138006078680449/1060961129185714796731603112137923876015044312167720625",
+        "9/10": "1370778389040188696656613457165350645/57716285427702884942199209300303058855218410581924002",
+        "9/13": "3564023811504490611307194988629911677/115432570855405769884398418600606117710436821163848004"
+      },
+      "LO_ZERO": {
+        "1": "1/89875517873681764",
+        "169/144": "36/3797240630163054529",
+        "169/180": "45/3797240630163054529",
+        "25/9": "9/2246887946842044100",
+        "289/225": "225/25974024665494029796",
+        "625/576": "144/14043049667762775625",
+        "625/612": "153/14043049667762775625",
+        "9/10": "5/404439830431567938",
+        "9/13": "13/808879660863135876"
+      }
+    },
+    "log_graph_checkpoint": {
+      "body": {
+        "complete": true,
+        "implementation_binding": {
+          "bound_hd_source": "e0f7b43b06fcf75f3dce522ab87de4eb189fde99098b0a025bae2d751dc4adfc",
+          "exact.py": "f910d3d51aa1c7ad2deb5a6b39f6d0873ec7b56a48ded39e9015bcf7f06b2d63",
+          "quantities.py": "3c56500cb3a59ea340564ebdcd21ed6f042fd6d22f7a62ad6e674a2e16bd1db1",
+          "signed_log.py": "5e686b07d0b7d76c943c30fbbc4fe3d6f51ce4fa8476fa766b131f1ebbdbdd20"
+        },
+        "inputs": [
+          {
+            "id": "one",
+            "op": "VALUE",
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "source": null,
+            "value": 1
+          },
+          {
+            "id": "twelve",
+            "op": "VALUE",
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "source": null,
+            "value": 12
+          },
+          {
+            "id": "LOpi",
+            "op": "VALUE",
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "source": "certified rational pi enclosure for exact R4 prime-log representation",
+            "value": "103993/33102"
+          },
+          {
+            "id": "LOC",
+            "left": "one",
+            "op": "DIVIDE",
+            "right": "LOpi"
+          },
+          {
+            "id": "LOA0",
+            "left": "LOC",
+            "op": "DIVIDE",
+            "right": "twelve"
+          },
+          {
+            "id": "LOf0",
+            "left": "one",
+            "op": "SUBTRACT",
+            "right": "LOA0"
+          },
+          {
+            "id": "LOfC",
+            "left": "one",
+            "op": "SUBTRACT",
+            "right": "LOC"
+          },
+          {
+            "id": "LOratio",
+            "left": "LOf0",
+            "op": "DIVIDE",
+            "right": "LOfC"
+          },
+          {
+            "id": "HIpi",
+            "op": "VALUE",
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "source": "certified rational pi enclosure for exact R4 prime-log representation",
+            "value": "104348/33215"
+          },
+          {
+            "id": "HIC",
+            "left": "one",
+            "op": "DIVIDE",
+            "right": "HIpi"
+          },
+          {
+            "id": "HIA0",
+            "left": "HIC",
+            "op": "DIVIDE",
+            "right": "twelve"
+          },
+          {
+            "id": "HIf0",
+            "left": "one",
+            "op": "SUBTRACT",
+            "right": "HIA0"
+          },
+          {
+            "id": "HIfC",
+            "left": "one",
+            "op": "SUBTRACT",
+            "right": "HIC"
+          },
+          {
+            "id": "HIratio",
+            "left": "HIf0",
+            "op": "DIVIDE",
+            "right": "HIfC"
+          }
+        ],
+        "nodes": [
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 1,
+                "numerator": 1
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": 0,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "one",
+            "log_magnitude": {
+              "coefficients": [],
+              "expression": "0",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "VALUE",
+            "operands": [],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": 1,
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 1,
+                "numerator": 1
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": 2,
+              "v3": 1,
+              "variant": "NONZERO"
+            },
+            "id": "twelve",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 2
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 3
+                }
+              ],
+              "expression": "2*ln(2) + ln(3)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "VALUE",
+            "operands": [],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": 12,
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 613,
+                "numerator": 103993
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -1,
+              "v3": -3,
+              "variant": "NONZERO"
+            },
+            "id": "LOpi",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 613
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 103993
+                }
+              ],
+              "expression": "-ln(2) - 3*ln(3) - ln(613) + ln(103993)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "VALUE",
+            "operands": [],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": "certified rational pi enclosure for exact R4 prime-log representation",
+            "status": "DEFINED",
+            "value": "103993/33102",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 103993,
+                "numerator": 613
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": 1,
+              "v3": 3,
+              "variant": "NONZERO"
+            },
+            "id": "LOC",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 3
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 613
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 103993
+                }
+              ],
+              "expression": "ln(2) + 3*ln(3) + ln(613) - ln(103993)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "one",
+              "LOpi"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "33102/103993",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 103993,
+                "numerator": 613
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -1,
+              "v3": 2,
+              "variant": "NONZERO"
+            },
+            "id": "LOA0",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 2
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 613
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 103993
+                }
+              ],
+              "expression": "-ln(2) + 2*ln(3) + ln(613) - ln(103993)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "LOC",
+              "twelve"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "5517/207986",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 103993,
+                "numerator": 202469
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -1,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "LOf0",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 23
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 8803
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 103993
+                }
+              ],
+              "expression": "-ln(2) + ln(23) + ln(8803) - ln(103993)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "SUBTRACT",
+            "operands": [
+              "one",
+              "LOA0"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "202469/207986",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 103993,
+                "numerator": 70891
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": 0,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "LOfC",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 70891
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 103993
+                }
+              ],
+              "expression": "ln(70891) - ln(103993)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "SUBTRACT",
+            "operands": [
+              "one",
+              "LOC"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "70891/103993",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 70891,
+                "numerator": 202469
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -1,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "LOratio",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 23
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 8803
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 70891
+                }
+              ],
+              "expression": "-ln(2) + ln(23) + ln(8803) - ln(70891)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "LOf0",
+              "LOfC"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "202469/141782",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 33215,
+                "numerator": 26087
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": 2,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "HIpi",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 2
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 5
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 7
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 13
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 19
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 73
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 1373
+                }
+              ],
+              "expression": "2*ln(2) - ln(5) - ln(7) - ln(13) + ln(19) - ln(73) + ln(1373)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "VALUE",
+            "operands": [],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": "certified rational pi enclosure for exact R4 prime-log representation",
+            "status": "DEFINED",
+            "value": "104348/33215",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 26087,
+                "numerator": 33215
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -2,
+              "v3": 0,
+              "variant": "NONZERO"
+            },
+            "id": "HIC",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -2
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 5
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 7
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 13
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 19
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 73
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 1373
+                }
+              ],
+              "expression": "-2*ln(2) + ln(5) + ln(7) + ln(13) - ln(19) + ln(73) - ln(1373)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "one",
+              "HIpi"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "33215/104348",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 26087,
+                "numerator": 33215
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -4,
+              "v3": -1,
+              "variant": "NONZERO"
+            },
+            "id": "HIA0",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -4
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 5
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 7
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 13
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 19
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 73
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 1373
+                }
+              ],
+              "expression": "-4*ln(2) - ln(3) + ln(5) + ln(7) + ln(13) - ln(19) + ln(73) - ln(1373)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "HIC",
+              "twelve"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "33215/1252176",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 26087,
+                "numerator": 1218961
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -4,
+              "v3": -1,
+              "variant": "NONZERO"
+            },
+            "id": "HIf0",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -4
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 19
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 487
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 1373
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 2503
+                }
+              ],
+              "expression": "-4*ln(2) - ln(3) - ln(19) + ln(487) - ln(1373) + ln(2503)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "SUBTRACT",
+            "operands": [
+              "one",
+              "HIA0"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "1218961/1252176",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 26087,
+                "numerator": 23711
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -2,
+              "v3": 1,
+              "variant": "NONZERO"
+            },
+            "id": "HIfC",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -2
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 19
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 131
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 181
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 1373
+                }
+              ],
+              "expression": "-2*ln(2) + ln(3) - ln(19) + ln(131) + ln(181) - ln(1373)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "SUBTRACT",
+            "operands": [
+              "one",
+              "HIC"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "71133/104348",
+            "variant": "NONZERO"
+          },
+          {
+            "hd_signature": {
+              "coprime_cofactor": {
+                "denominator": 23711,
+                "numerator": 1218961
+              },
+              "schema": "SLC_HD_SIGNATURE_V1",
+              "sign": 1,
+              "v2": -2,
+              "v3": -2,
+              "variant": "NONZERO"
+            },
+            "id": "HIratio",
+            "log_magnitude": {
+              "coefficients": [
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -2
+                  },
+                  "prime": 2
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -2
+                  },
+                  "prime": 3
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 131
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": -1
+                  },
+                  "prime": 181
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 487
+                },
+                {
+                  "coefficient": {
+                    "denominator": 1,
+                    "numerator": 1
+                  },
+                  "prime": 2503
+                }
+              ],
+              "expression": "-2*ln(2) - 2*ln(3) - ln(131) - ln(181) + ln(487) + ln(2503)",
+              "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+            },
+            "log_status": "DEFINED",
+            "op": "DIVIDE",
+            "operands": [
+              "HIf0",
+              "HIfC"
+            ],
+            "quantity": {
+              "component": null,
+              "frame": null,
+              "kind": "SIGNED_RATIONAL",
+              "normalization": null,
+              "reference_state": null,
+              "role": null,
+              "schema": "GEN2_QUANTITY_V1",
+              "scope": "SCALAR",
+              "sign_convention": "SIGNED_VALUE",
+              "source": "GEN2_EXACT_RATIONAL",
+              "units": {}
+            },
+            "reference": null,
+            "sign": 1,
+            "source": null,
+            "status": "DEFINED",
+            "value": "1218961/853596",
+            "variant": "NONZERO"
+          }
+        ],
+        "result_id": "HIratio",
+        "schema": "GEN2_SIGNED_LOG_CHECKPOINT_V1"
+      },
+      "sha256": "6b77d2ca4a72df5e19abfea9ecfb2231635c0e4759e29d2b2e671ab8abb4a4a1"
+    },
+    "mass_radius_time_family": {
+      "boundary": {
+        "automatic": true,
+        "information_status": "COMPLETE_RELATION_AND_MEASURE_REQUIRED",
+        "registration": {
+          "exterior": "linear",
+          "interior": "DECLARED_SOURCE_OPERANDS",
+          "kind": "REGISTERED_READOUT"
+        },
+        "relation_entrypoint": "GEN2_BOUNDARY_OPEN",
+        "schema": "GEN2_REGISTERED_BOUNDARY_V1",
+        "source_amounts_are_probability_weights": false
+      },
+      "complete": true,
+      "free_coordinates": [
+        2
+      ],
+      "member_count": "INFINITE_RATIONAL_AFFINE_FAMILY",
+      "members": [],
+      "nullspace_basis": [
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "parameter_domain": "RATIONAL",
+      "particular": [
+        0,
+        0,
+        0
+      ],
+      "rank": 2,
+      "schema": "GEN2_JOINT_ANSWER_V1",
+      "strategy": "EXACT_LINEAR",
+      "unique": false
+    },
+    "native_calls": [
+      {
+        "case": "CEFF_LAYER_00",
+        "failed": false,
+        "input_sha256": "c107217e39e090a9a8e66f3b9e2581f805d96b30266295af91c96d60e449c2c9",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "f45450a51f7d903e245001e38d1bf06ecbe88193a06029f4e313a9896d56fa38",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/36b220ef43f440bda37c51232f018aad/RECEIPT.json",
+        "seconds": 0.014157858999169548
+      },
+      {
+        "case": "CEFF_LAYER_01",
+        "failed": false,
+        "input_sha256": "d1c7ffd73a9d6cc965bfdc19d14566f2ca55e8f045453d858a1ae312619f17a2",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "3cdbda5100bc4f35099d3f9d60d45fc05ad6369c2b450dc631834c42589018b6",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/929775c870dd455f8c30512d57d466ab/RECEIPT.json",
+        "seconds": 0.009968934999051271
+      },
+      {
+        "case": "CEFF_LAYER_02",
+        "failed": false,
+        "input_sha256": "1df6140fe3a6a8fc6ca59c2f0713f18d8ab41e31d4abe92f2da55bd46911e179",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "38060494663135d4440958308936292b46f1635b7a7f0619b79d8fcf74fd5e21",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/918072dfe68f4c52b284a9ebe1920cf5/RECEIPT.json",
+        "seconds": 0.010855888998776209
+      },
+      {
+        "case": "CEFF_LAYER_03",
+        "failed": false,
+        "input_sha256": "19b8a7e46001f20c7e815974fc383873fc9ce3388b973ea7d31281c88f89a2f8",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "334a1dcbaa7bbfd3411ab2faec9ee6971fea82a0dfa3556ed79bf19b7f62a1c1",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/afb2bb3a8d3148dba0062b72f1caa640/RECEIPT.json",
+        "seconds": 0.010104896000484587
+      },
+      {
+        "case": "CEFF_LAYER_04",
+        "failed": false,
+        "input_sha256": "691d39cc1c525cce0a2d55504ed6c3062d7dc52b2ff9c8362ad7d6ac4cd00cbc",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "44f232f760445f9db2032c66258626f638bfc25dfece26983283d31c28e4d21d",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/1fbbfc0c332e4752a3eda4715e31e6d7/RECEIPT.json",
+        "seconds": 0.011068440000599367
+      },
+      {
+        "case": "CEFF_LAYER_05",
+        "failed": false,
+        "input_sha256": "c509cd8cedbb27a938d8a05f72022c0e984ef98f9f90ad3938f70496aa6dba97",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "4e7df65d97ba5d3c7000e1f5a91ed06f7616126197a2d02fa9ac8a83c76198e3",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/460f9dd96cde45e3a8607bda37c35592/RECEIPT.json",
+        "seconds": 0.016955544000666123
+      },
+      {
+        "case": "CEFF_LAYER_06",
+        "failed": false,
+        "input_sha256": "4013520ca40430ff03b5461a6f6f289e3b453ad2b7acfb25102757c0cf098ae7",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "0a6fee96093e23472286e2df35a26fd7cf8424bdcc375c8b9c661894762e5803",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/9ce19dd1bc4e40fcb22dd019e063696a/RECEIPT.json",
+        "seconds": 0.0826540500002011
+      },
+      {
+        "case": "CEFF_LAYER_07",
+        "failed": false,
+        "input_sha256": "505c49f084e9848a5f94e9a6a7f94b32adf0193db1589c18a1a59aecd38cb8ee",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "951eb2c7ea7a53e559fd881fe6c250f0388adfa49b5de1ec94d57a29ea6847cf",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/84f980e0cced4d74b367c92fdb921052/RECEIPT.json",
+        "seconds": 0.02482098499967833
+      },
+      {
+        "case": "CEFF_LOG_GRAPH",
+        "failed": false,
+        "input_sha256": "47a1f271f6f227c17b6c2eb2aa677e51afe8ea12f5e5dabe8a0e0361f9a6ca64",
+        "operation": "GEN2_SIGNED_LOG",
+        "output_sha256": "164614358e1fe8afa4c20685f968a2349958d0baa7667b63bda95ddb1fcecaa4",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/07bf25ff789b4251b20772341deecccb/RECEIPT.json",
+        "seconds": 0.2917986580014258
+      },
+      {
+        "case": "TIME_RATIO_LOG_LO",
+        "failed": false,
+        "input_sha256": "611732b96b8525e71015e28fedbc91ea12733c1ea9ae9a08487d9c91dd89c020",
+        "operation": "GEN2_FORMAL_LOG",
+        "output_sha256": "f8e4a2004a9a13d0758658a4bbf1887250e0ddbe84b2c1cf0db179a2dd2da147",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/fbed7ada3cff4537ad6f47f7d68d9241/RECEIPT.json",
+        "seconds": 0.18410316799963766
+      },
+      {
+        "case": "TIME_RATIO_LOG_HI",
+        "failed": false,
+        "input_sha256": "fae37443bf3dcddcb9bb02184167d865916c638f27b95b2476609621ccbb461b",
+        "operation": "GEN2_FORMAL_LOG",
+        "output_sha256": "5dc36db50ce4531e7d35065728c486ba3404db3fc68541bc9c1aa3e310be857d",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/83eb0e3efcbb44dc9a776e50137ed0c9/RECEIPT.json",
+        "seconds": 0.17225098699964292
+      },
+      {
+        "case": "FLOOR_REDSHIFT_LOG",
+        "failed": false,
+        "input_sha256": "d704e957d0036fdab3b21acf7a71d07d8b46f652790df9e7c934ef8aa00b78de",
+        "operation": "GEN2_FORMAL_LOG",
+        "output_sha256": "176a94cceb4041c961b1eb5c17fa2169a61478c1959d0951f44d0dd7ed554a33",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/d4a41d0c36ea48728cd926b8184e05f2/RECEIPT.json",
+        "seconds": 0.17769796599895926
+      },
+      {
+        "case": "CEFF_INVERSE",
+        "failed": false,
+        "input_sha256": "3bb77bccf60048b1141da8911fc05fa7cbd9d5882b39f3bcf3e2e381e717ddba",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "217ea5c0548a8b904ab1208a4686f89673a060647d186a40b51a187a2cad3ac0",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/97f66f8bc8614506b3d5de4765443a6f/RECEIPT.json",
+        "seconds": 0.008164639999449719
+      },
+      {
+        "case": "RADIUS_TIME_FAMILY",
+        "failed": false,
+        "input_sha256": "4b589216396567a545cae12bc73fd512c45053941f00b8c93f39096bbed6cfe4",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "f3765ede09e27de363c31391d22e793036756fee1135f5a430b6a079806e6a95",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/9912a7b9b85e4d41b093def8d3f7e5a5/RECEIPT.json",
+        "seconds": 0.006646554000326432
+      },
+      {
+        "case": "MASS_RADIUS_TIME_FAMILY",
+        "failed": false,
+        "input_sha256": "8a3ed37beed356736d947c7202fa2c191537da8df6c0936586983131c0276dcd",
+        "operation": "GEN2_READOUT_INVERSE",
+        "output_sha256": "436b3fae6cad18ac4cc533669f44b7765da0b9acd4ec7e3fb9eb7cbde326932f",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/b842416a205b498ca2f15841ab2c8b62/RECEIPT.json",
+        "seconds": 0.008076702000835212
+      },
+      {
+        "case": "ACTIVATION_RESTORED",
+        "failed": false,
+        "input_sha256": "ede88730ead3f6743c0a09e8b132911e56ebe97ef40c3bf3821359ef95802aca",
+        "operation": "GEN2_BOUNDARY_RESUME",
+        "output_sha256": "449bbd56a45e71268fffe9f8e9b45dbf990986b882293b52fda78ffb0ed34f0f",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/a7ee045545de4dd7bed3ec5371a7994e/RECEIPT.json",
+        "seconds": 2.2112708050008223
+      },
+      {
+        "case": "ACTIVATION_CONTEXT",
+        "failed": false,
+        "input_sha256": "c3211e06b47bd4b95d70c3fadcd128ea93e5dc749cfe1f04161bed9e2171c619",
+        "operation": "GEN2_BOUNDARY_CONDITION",
+        "output_sha256": "8146f1e230d3a492ad8ac0e265337f6dc781927415dfb4e5a099b198d8738458",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/52a7be02af874eb785c4cd8154118f8b/RECEIPT.json",
+        "seconds": 0.31209350999961316
+      }
+    ],
+    "radius_time_family": {
+      "boundary": {
+        "automatic": true,
+        "information_status": "COMPLETE_RELATION_AND_MEASURE_REQUIRED",
+        "registration": {
+          "exterior": "linear",
+          "interior": "DECLARED_SOURCE_OPERANDS",
+          "kind": "REGISTERED_READOUT"
+        },
+        "relation_entrypoint": "GEN2_BOUNDARY_OPEN",
+        "schema": "GEN2_REGISTERED_BOUNDARY_V1",
+        "source_amounts_are_probability_weights": false
+      },
+      "complete": true,
+      "free_coordinates": [
+        1
+      ],
+      "member_count": "INFINITE_RATIONAL_AFFINE_FAMILY",
+      "members": [],
+      "nullspace_basis": [
+        [
+          1,
+          1
+        ]
+      ],
+      "parameter_domain": "RATIONAL",
+      "particular": [
+        0,
+        0
+      ],
+      "rank": 1,
+      "schema": "GEN2_JOINT_ANSWER_V1",
+      "strategy": "EXACT_LINEAR",
+      "unique": false
+    },
+    "reference_values": {
+      "R_CMB_Mpc": {
+        "display": 4457.855545498852,
+        "exact": "29979245800000000000/6725037519502037"
+      },
+      "R_CMB_metres": {
+        "display": 1.3755504918311262e+26,
+        "exact": "925062866753380327000000000000000000000000/6725037519502037"
+      },
+      "closure_radius_per_kg": {
+        "display": 1.4852320538237331e-27,
+        "exact": "66743/44937758936840882000000000000000"
+      },
+      "t_H_seconds": {
+        "display": 4.588342552070226e+17,
+        "exact": "3085677581500000000000000000000000/6725037519502037"
+      }
+    },
+    "seconds": 3.935996009000519,
+    "source_mapping": "fixed native radius/path; ds_native/dt=c_eff; readout time coordinate",
+    "status": "COMPLETE",
+    "time_ratio": {
+      "coarse_certified_endpoint_logs": {
+        "HI": {
+          "comparison": {
+            "coefficients": [],
+            "expression": "0",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "exact_comparison": 1,
+          "exact_sign": 1,
+          "formal_log": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -2
+                },
+                "prime": 3
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 131
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 181
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 487
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 2503
+              }
+            ],
+            "expression": "-2*ln(2) - 2*ln(3) - ln(131) - ln(181) + ln(487) + ln(2503)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          }
+        },
+        "LO": {
+          "comparison": {
+            "coefficients": [],
+            "expression": "0",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          },
+          "exact_comparison": 1,
+          "exact_sign": 1,
+          "formal_log": {
+            "coefficients": [
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 2
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 23
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": 1
+                },
+                "prime": 8803
+              },
+              {
+                "coefficient": {
+                  "denominator": 1,
+                  "numerator": -1
+                },
+                "prime": 70891
+              }
+            ],
+            "expression": "-ln(2) + ln(23) + ln(8803) - ln(70891)",
+            "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+          }
+        }
+      },
+      "display_midpoint": 1.4280303563472383,
+      "lower": "834070723706307247/584070723706307247",
+      "upper": "4587388980384689857/3212388980384689857"
+    },
+    "unique_density_squared_values": [
+      "9/13",
+      "9/10",
+      "169/180",
+      "1",
+      "625/612",
+      "625/576",
+      "169/144",
+      "289/225",
+      "25/9"
+    ]
+  },
+  "checks": 143,
+  "classification": "The test result suggests the concept is possible.",
+  "fresh_recovery": {
+    "check_count": 1,
+    "checks": {
+      "fresh_ceff_log_graph_identical": 1
+    },
+    "native_calls": [
+      {
+        "case": "LOG_FRESH",
+        "failed": false,
+        "input_sha256": "95390dd0f60edd8e0d6c6f1de51021ecfcc923c35269edf2a12a6b0c29ec975d",
+        "operation": "GEN2_SIGNED_LOG_RESUME",
+        "output_sha256": "164614358e1fe8afa4c20685f968a2349958d0baa7667b63bda95ddb1fcecaa4",
+        "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/2929d95b17f043a08de379214610316f/RECEIPT.json",
+        "seconds": 0.35425953500089236
+      }
+    ],
+    "status": "COMPLETE"
+  },
+  "log_enclosure": {
+    "lower_argument": "1218961/853596",
+    "lower_display": 0.3562961215912767,
+    "lower_formal_log": {
+      "coefficients": [
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -2
+          },
+          "prime": 2
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -2
+          },
+          "prime": 3
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -1
+          },
+          "prime": 131
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -1
+          },
+          "prime": 181
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "prime": 487
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "prime": 2503
+        }
+      ],
+      "expression": "-2*ln(2) - 2*ln(3) - ln(131) - ln(181) + ln(487) + ln(2503)",
+      "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+    },
+    "pi_bounds": {
+      "HI": "104348/33215",
+      "LO": "103993/33102"
+    },
+    "upper_argument": "202469/141782",
+    "upper_display": 0.35629612171857183,
+    "upper_formal_log": {
+      "coefficients": [
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -1
+          },
+          "prime": 2
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "prime": 23
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": 1
+          },
+          "prime": 8803
+        },
+        {
+          "coefficient": {
+            "denominator": 1,
+            "numerator": -1
+          },
+          "prime": 70891
+        }
+      ],
+      "expression": "-ln(2) + ln(23) + ln(8803) - ln(70891)",
+      "schema": "SLC_FORMAL_LOG_ELEMENT_V1"
+    }
+  },
+  "native_calls": 18,
+  "notepad": "Notepad/AN0005_CEFF_SUBSTRATE_RATE_AND_SECONDS_PER_WRITE.md",
+  "operation_names": [
+    "GEN2_BOUNDARY_CONDITION",
+    "GEN2_BOUNDARY_RESUME",
+    "GEN2_FORMAL_LOG",
+    "GEN2_READOUT_INVERSE",
+    "GEN2_SIGNED_LOG",
+    "GEN2_SIGNED_LOG_RESUME"
+  ],
+  "status": "COMPLETE",
+  "stopped_attempt": {
+    "completed_research_outputs": 0,
+    "exit_code": 130,
+    "reason": "Installed general signed-log path fully trial-factors every large SI and pi rational. Stop requested by Codex; preserve exact source equations and evaluate them through installed R4 readout inverse in ceff2.",
+    "receipt_candidates": [
+      {
+        "directory": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/RH_b09707b457d04d39ab47332bd60ca6ad/calls/5df04695fda8421ba689c3c13bbdc5cf",
+        "files": [
+          "INPUT.json"
+        ],
+        "purpose": "RH_PHYSICAL_WRITE_CLOCK1/1: Evaluate c_eff=c(1-A_los) from A0 through saturation, fixed-native-path quarter clock coefficients, source SI radius factors, and inherited local action densities; all SI numbers normalized to their stated units."
+      }
+    ],
+    "source_equations_changed": false,
+    "status": "STOPPED_DURING_FULL_PRIME_LOG_EXPANSION"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "sealed_at_utc": "2026-07-21T04:54:42.4692677Z",
+  "files": {
+    "CR005i_CONTRACT.json": {"bytes": 4457, "sha256": "afecf4db0b143b134b5cd902309cf8cf5534ebd92b52269219b2d7e3548b2758"},
+    "CR005i_PRECOMMIT.md": {"bytes": 2074, "sha256": "5009a163b33a9adc713725dcdae501fa5e4fd6f8ab9078d760774f887993e502"},
+    "CR005i_SOURCE_MANIFEST.json": {"bytes": 4739, "sha256": "288997aebf050250ac1fb748b10a44546cfbd23a561d12ac8f7216b6c35f1c8a"}
+  },
+  "runner_present_at_seal": false,
+  "appeal_results_opened": false,
+  "same_run_repair_allowed": false,
+  "candidate_ledger_may_change": false,
+  "candidate_rules_may_change": false
+}

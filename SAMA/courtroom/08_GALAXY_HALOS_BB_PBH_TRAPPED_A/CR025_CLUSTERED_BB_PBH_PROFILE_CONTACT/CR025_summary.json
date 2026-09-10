@@ -1,0 +1,55 @@
+{
+  "test_id": "CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT",
+  "short_id": "CR025",
+  "question": "Does the clustered BB-PBH/trapped-A halo profile contact strongly improve the real SPARC rotation-curve fit while preserving the native radial-law debt?",
+  "verdict": "CR025_PASS_CLUSTERED_BB_PBH_PROFILE_CONTACT_RADIAL_LAW_OPEN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SCOPED_CLUSTERED_HALO_PROFILE_CONTACT",
+  "structural_success": true,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "realistic_clustered_halo_profile_passed": true,
+    "real_sparc_sample_fit": true,
+    "clustered_profile_improves_baryon_only": true,
+    "halo_requires_clustered_overdensity": true,
+    "native_radial_selector_debt_preserved": true,
+    "wrong_controls_rejected_upstream": true,
+    "free_parameters_introduced_zero": true
+  },
+  "evidence_rows": [
+    {
+      "item": "galaxies_fit",
+      "value": 175,
+      "pass": true
+    },
+    {
+      "item": "median_baryon_rms_kms",
+      "value": 40.95236813050122,
+      "pass": true
+    },
+    {
+      "item": "median_halo_rms_kms",
+      "value": 3.625430524040301,
+      "pass": true
+    },
+    {
+      "item": "median_chi2_improvement_factor",
+      "value": 150.7662388291606,
+      "pass": true
+    },
+    {
+      "item": "median_halo_overdensity_vs_cosmic_dm_mean",
+      "value": 79090.03192365015,
+      "pass": true
+    },
+    {
+      "item": "selector_open",
+      "value": "native radial organization law / mass function / concentration relation",
+      "pass": true
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that a clustered BB-PBH/trapped-A halo profile can carry the real SPARC rotation residual far better than baryons alone.",
+  "scope_note": "CR025 is a scoped external-contact test. It records clustered profile compatibility and explicitly keeps native radial organization / mass function / concentration as open selectors."
+}

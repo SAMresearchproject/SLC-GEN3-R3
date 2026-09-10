@@ -1,0 +1,101 @@
+{
+  "artifacts": {
+    "branch05_layers": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_branch05_layers.csv",
+    "checks": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_claim_boundaries.csv",
+    "formula_manifest": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/HASHES.txt",
+    "horizon_ladder": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_horizon_ladder_replay.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC11_black_hole_horizon_thermodynamic_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json",
+    "thermodynamic_layers": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_thermodynamic_layers.csv",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 100,
+    "total": 100
+  },
+  "claim_boundaries": [
+    "Branch 05 explicitly does not claim a full strong-field metric.",
+    "CR009/CR010 are Schwarzschild-like scoped contacts; QGA026 preserves only the uniform-temperature Kerr route.",
+    "CR009 rejects EHT-image overclaim and preserves photon-sphere/shadow invariant scope.",
+    "The branch-05 seal keeps QNM/ringdown separate.",
+    "QGA025/QGA026 keep greybody factors, species branching, exact rate inventory, full Kerr spectrum, correlations, and endpoint open.",
+    "CR147 and G11555 preserve A=1 as no-escape / zero-depth / no completed parent-ledger crossing.",
+    "CR103a locks monotonic A-dependence and the 11/12 threshold, while the exact r_bounce(A) and K(A_H) functional forms remain open.",
+    "SUK060/SUK061 route HR exhaust as parent-boundary inventory drift and balanced ledger-cell activity, not child-ledger HR energy."
+  ],
+  "generated_utc": "2026-06-19T12:34:21+00:00",
+  "horizon_replay": {
+    "A_share": "1/12",
+    "A_side": "1/24",
+    "CR008_last_near_horizon_lapse": 9.999889390787672e-07,
+    "CR008_last_near_horizon_redshift": 1000010.0610435781,
+    "CR009_bcrit_over_rs": 2.5980762113533156,
+    "CR010_omega_rs_over_c": 0.13608276348795434,
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2,
+    "completion": "1",
+    "landmarks": {
+      "horizon": "1",
+      "isco": "1/3",
+      "photon_sphere": "2/3"
+    },
+    "max_loading": "11/12",
+    "split_loss_native": "18"
+  },
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": "0.026525823848649222628147293895",
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": "1.125000000000000000000000000000",
+    "carrier_side": "1/8",
+    "carrier_side_decimal": "0.125000000000000000000000000000",
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": "0.562500000000000000000000000000",
+    "retained_side": "7/8",
+    "retained_side_decimal": "0.875000000000000000000000000000",
+    "split_fraction": "1/8",
+    "split_fraction_decimal": "0.125000000000000000000000000000",
+    "surface_debit": "3/4",
+    "surface_debit_decimal": "0.750000000000000000000000000000"
+  },
+  "pass_condition": {
+    "A1_softening": "forbidden",
+    "child_ledger_HR_energy_substitution": "forbidden",
+    "constant_mutation": "forbidden",
+    "formula_mutation": "forbidden",
+    "full_thermodynamics_overpromotion": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden"
+  },
+  "result": "LC11_PASS_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC11",
+  "task_name": "black-hole horizon thermodynamic replay",
+  "thermodynamic_replay": {
+    "CR147_A1_exact_status": "NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT",
+    "CR147_release_A": 0.05611455406252441,
+    "G11555_lane_verdict": "NO_COMPLETED_PARENT_LEDGER_CROSSING",
+    "QGA025_predictions": "12/12",
+    "QGA025_scope": "Hawking temperature, entropy, first-law/Smarr consistency, and blackbody evaporation scaling proxy pass; full greybody spectrum, species branching, exact emission rate, Kerr spectrum, backreaction, information correlations, and final endpoint remain open.",
+    "QGA025_wrong_controls": "8/8",
+    "QGA026_predictions": "12/12",
+    "QGA026_scope": "QGA026 forces the Kerr uniform-temperature route, preserves G103 as a greybody diagnostic candidate, preserves rotation enhancement as a rate-route candidate, and keeps species branching, exact rate inventory, and full Kerr spectral distribution open.",
+    "QGA026_wrong_controls": "8/8",
+    "SUK060_invariants": "6/6",
+    "SUK061_invariants": "7/7"
+  },
+  "wrong_controls": {
+    "rejected": 8,
+    "tested": 8
+  }
+}

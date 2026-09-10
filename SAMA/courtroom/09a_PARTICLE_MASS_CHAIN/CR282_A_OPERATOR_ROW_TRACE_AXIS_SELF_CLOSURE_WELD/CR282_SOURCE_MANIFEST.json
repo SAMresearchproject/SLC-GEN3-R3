@@ -1,0 +1,47 @@
+{
+  "record_id": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "sealed_utc": "2026-07-12T07:04:57Z",
+  "firewall": {
+    "prospective_record_class": "SCIENTIFIC_TEST",
+    "language_or_meta_language_test": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "queue_maintenance_performed_by_research_agent": false,
+    "forecast_generated": false,
+    "forbidden_path_patterns": [
+      "SAM_LANGUAGE*",
+      "*V0_3_GENERALIZATION*",
+      "*PROSPECTIVE_HOLDOUT*",
+      "*FORECAST_GATE*",
+      "*LANGUAGE_CONTRACT*"
+    ]
+  },
+  "sources": [
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv", "sha256": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42", "used_for": ["row_306_exactness", "duplicate_signature_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_result.md", "sha256": "80834e7202ccbc92bc8d134c025c9f3aa93d861a3838f49786aa4aabd0a430dd", "used_for": ["CR119_context"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_result.md", "sha256": "76cdd987330b24ead18fa3dfc4b3979719165101ae0be8d07815604ef40e25f0", "used_for": ["duplicate_audit_scope"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv", "sha256": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98", "used_for": ["duplicate_group_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_signature_keys.csv", "sha256": "c26dac2ac7b51a414ef538e52ed3a6e81f04e82fed71cbaec2ff51169d675522", "used_for": ["numeric_signature_definition"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_result.md", "sha256": "5fd583b8f4c600c78e9aea4446b2d93b22f2de6cba33ef7d3dfe082f25346b80", "used_for": ["retirement_scope", "QED_descriptive_not_load_bearing"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_summary.json", "sha256": "a7f8470710acb12f0aec6fb4a7e2de172f582682369984d474c6d83f2d3bf309", "used_for": ["retirement_summary_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_retirement_ledger.csv", "sha256": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610", "used_for": ["retired_row_identity"]},
+    {"path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/QP102_TENSOR_SUM_LEDGER_CLOSURE_result.md", "sha256": "35a9064ef95aa5d995a8e8dcb1104f9a20e87e0ecb3c4ed61af644f154594342", "used_for": ["ledger_162_163_source"]},
+    {"path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/qp102_summary.json", "sha256": "0642030260f7f1c61e04da20749f049f92634a9356cc61c8bd9f660e8682e180", "used_for": ["ledger_162_163_replay"]},
+    {"path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/QP103_A_FIELD_LOCATION_result.md", "sha256": "f9c90d7434f20b60e1757a93e6caeac36556a90325ac521c6e332b4ff6ccafd7", "used_for": ["A_above_ledger_source"]},
+    {"path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/qp103_summary.json", "sha256": "bb13b6338267a8b23905a73edd9c5cd3bfcfeb6d95b276db4c5adc2c247d21c4", "used_for": ["A_above_ledger_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY/CR229_result.md", "sha256": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da", "used_for": ["closed_carrier_ledger"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md", "sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5", "used_for": ["non_row_A_operator"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json", "sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b", "used_for": ["A_operator_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_per_row_predictions.csv", "sha256": "0ecca62469c65246ecf88d2589c3d477353b1d7a1bb89eac098632b0d5c1fccd", "used_for": ["32_row_transform_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_wrong_controls.csv", "sha256": "a7bcf6e77ffbc8b95c3cc8a80e006793dc73a287107ac561dce63d834350723e", "used_for": ["A_operator_wrong_controls"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_result.md", "sha256": "742ae8ded1253ff59a9e121887b7bddeac2a0538c58f7306c39366df29129b89", "used_for": ["A_surface_contact"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_summary.json", "sha256": "0585d00bd2e11b9eb4e78a7bec88982475db6233e91869c18560e749ccc402a5", "used_for": ["A_surface_contact_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_d1_predictions.csv", "sha256": "0adb50d8639a6f74dab1cdeae9be4f0e2433d1067ec3ce94a62f8f191a875c3f", "used_for": ["d1_prediction_replay"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_wrong_controls.csv", "sha256": "fa437797bdaf8b83249f8df9ed873c33bc0cc726d34149073e83d0c6fe58915f", "used_for": ["surface_contact_wrong_controls"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION/CR266_result.md", "sha256": "cfed8bffb08d88b1d3e8fe4435ffff8f402dd880f5bb8662d274b4d85d37c8d9", "used_for": ["mirror_axis_context"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md", "sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3", "used_for": ["axis_self_closure_witness"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_tensor9_roles.csv", "sha256": "507002dd48dbcbea965c507bec65f65aebfcbe7956a8358aed348c2d9980cb1f", "used_for": ["tensor9_role_registry"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md", "sha256": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1", "used_for": ["primitive_zero_free_parameter_base", "P1_support_lift"]},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md", "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea", "used_for": ["B_contact_competing_model"]}
+  ]
+}

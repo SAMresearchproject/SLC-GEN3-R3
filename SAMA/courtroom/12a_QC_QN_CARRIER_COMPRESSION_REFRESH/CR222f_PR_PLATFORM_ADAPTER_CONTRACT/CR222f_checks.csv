@@ -1,0 +1,17 @@
+check,passed,observed,expected
+upstream_seals_match,True,4,4
+adapter_has_nv_and_photonic_platforms,True,"['NV_CENTER_T2', 'PHOTONIC_TAU_ENT']","NV_CENTER_T2,PHOTONIC_TAU_ENT"
+adapter_adds_no_new_physics,True,"['CR222e imports CR222a/CR222b/CR222d; adapter adds no physics', 'CR222e imports CR222a/CR222b/CR222d; adapter adds no physics']",adapter adds no physics
+nv_uses_T2,True,NV_CENTER_T2,T2
+photonic_uses_tau_ent,True,PHOTONIC_TAU_ENT,tau_ent
+threshold_is_one_over_24,True,"['A_side=1/24', 'A_side=1/24']",A_side=1/24
+packet_checksum_is_162,True,"['162', '162']",162
+t_fire_uses_positive_sealed_coefficient,True,0.021279807209397945,positive -1/2*ln(23/24)
+support_roster_12_plus_mirror_162_preserved,True,"{""closure_total"": 162, ""duplicate_mirror_row"": ""QP093A-0303"", ""duplicate_mirror_value"": 81, ""raw_blocked_nonmatter_rows"": 13, ""rule"": ""QP093A-0303 remains blocked non-matter but is not an independent support mode."", ""unique_support_roster_rows"": 12, ""unique_support_roster_sum"": 81}",12 support rows plus mirror closure 162
+below_threshold_does_not_emit,True,"[('nv_sealed_below_threshold', 'False'), ('photonic_sealed_below_threshold', 'False')]",False
+no_protocol_gate_does_not_emit,True,"[('nv_no_protocol_gate', 'False'), ('photonic_no_protocol_gate', 'False')]",False
+threshold_exact_emits_for_both_platforms,True,"[('nv_threshold_exact', 'True'), ('photonic_threshold_exact', 'True')]",True
+threshold_exact_qA_is_one_over_24,True,"['1/24', '1/24']",1/24
+threshold_exact_tensor_is_one_over_192,True,"['1/192', '1/192']",1/192
+threshold_exact_retained_is_7_over_192,True,"['7/192', '7/192']",7/192
+wrong_controls_fail_as_expected,True,9,9

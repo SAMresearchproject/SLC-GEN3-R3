@@ -1,0 +1,299 @@
+{
+  "all_typed_eligible": true,
+  "by_generation": {
+    "0": 5,
+    "1": 5
+  },
+  "by_role": {
+    "anti_minus": 2,
+    "anti_plus": 2,
+    "minus": 2,
+    "neutral": 2,
+    "plus": 2
+  },
+  "details": [
+    {
+      "candidate_ids": [
+        "QP093A-0001",
+        "QP093A-0016",
+        "QP093A-0019"
+      ],
+      "generation": 0,
+      "role": "plus",
+      "triple_id": "T01",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "0",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "plus",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "positive",
+        "route_class": "single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_MATTER_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0002",
+        "QP093A-0017",
+        "QP093A-0020"
+      ],
+      "generation": 0,
+      "role": "minus",
+      "triple_id": "T02",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "0",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "minus",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "negative",
+        "route_class": "single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_MATTER_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0003",
+        "QP093A-0018",
+        "QP093A-0021"
+      ],
+      "generation": 0,
+      "role": "neutral",
+      "triple_id": "T03",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "0",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "neutral",
+        "operator_class": "OUTER_BINARY_NEUTRAL",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "neutral",
+        "route_class": "outer_binary_neutral",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_NEUTRAL_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0073",
+        "QP093A-0083",
+        "QP093A-0085"
+      ],
+      "generation": 0,
+      "role": "anti_plus",
+      "triple_id": "T04",
+      "type_fields": {
+        "bin": "antimatter_conjugate_rows",
+        "closure_depth": "0",
+        "closure_status": "CLOSED_CONJUGATE_WRITE",
+        "color_or_owner_closure": "owner_closed_conjugate",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "conjugate_axis",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "ANTIMATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "negative",
+        "route_class": "conjugate_single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "ANTIMATTER_STABLE_CONJUGATE",
+        "surface_depth": "depth=0",
+        "surface_sign": "negative_credit"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0074",
+        "QP093A-0084",
+        "QP093A-0086"
+      ],
+      "generation": 0,
+      "role": "anti_minus",
+      "triple_id": "T05",
+      "type_fields": {
+        "bin": "antimatter_conjugate_rows",
+        "closure_depth": "0",
+        "closure_status": "CLOSED_CONJUGATE_WRITE",
+        "color_or_owner_closure": "owner_closed_conjugate",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "conjugate_axis",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "ANTIMATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "positive",
+        "route_class": "conjugate_single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "ANTIMATTER_STABLE_CONJUGATE",
+        "surface_depth": "depth=0",
+        "surface_sign": "positive_debit"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0025",
+        "QP093A-0040",
+        "QP093A-0043"
+      ],
+      "generation": 1,
+      "role": "plus",
+      "triple_id": "T06",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "1",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "plus",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "positive",
+        "route_class": "single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_MATTER_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0026",
+        "QP093A-0041",
+        "QP093A-0044"
+      ],
+      "generation": 1,
+      "role": "minus",
+      "triple_id": "T07",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "1",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "minus",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "negative",
+        "route_class": "single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_MATTER_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0027",
+        "QP093A-0042",
+        "QP093A-0045"
+      ],
+      "generation": 1,
+      "role": "neutral",
+      "triple_id": "T08",
+      "type_fields": {
+        "bin": "stable_matter_rows",
+        "closure_depth": "1",
+        "closure_status": "CLOSED_WRITE",
+        "color_or_owner_closure": "owner_closed",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "neutral",
+        "operator_class": "OUTER_BINARY_NEUTRAL",
+        "promotion_status": "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "neutral",
+        "route_class": "outer_binary_neutral",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "STABLE_NEUTRAL_CANDIDATE",
+        "surface_depth": "route_contact",
+        "surface_sign": "zero_contact"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0089",
+        "QP093A-0099",
+        "QP093A-0101"
+      ],
+      "generation": 1,
+      "role": "anti_plus",
+      "triple_id": "T09",
+      "type_fields": {
+        "bin": "antimatter_conjugate_rows",
+        "closure_depth": "1",
+        "closure_status": "CLOSED_CONJUGATE_WRITE",
+        "color_or_owner_closure": "owner_closed_conjugate",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "conjugate_axis",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "ANTIMATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "negative",
+        "route_class": "conjugate_single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "ANTIMATTER_STABLE_CONJUGATE",
+        "surface_depth": "depth=1",
+        "surface_sign": "negative_credit"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    },
+    {
+      "candidate_ids": [
+        "QP093A-0090",
+        "QP093A-0100",
+        "QP093A-0102"
+      ],
+      "generation": 1,
+      "role": "anti_minus",
+      "triple_id": "T10",
+      "type_fields": {
+        "bin": "antimatter_conjugate_rows",
+        "closure_depth": "1",
+        "closure_status": "CLOSED_CONJUGATE_WRITE",
+        "color_or_owner_closure": "owner_closed_conjugate",
+        "matter_row_allowed": "yes",
+        "native_charge_axis": "conjugate_axis",
+        "operator_class": "V4_1_SINGLE_WRITE",
+        "promotion_status": "ANTIMATTER_ROW_ALLOWED_AFTER_SURFACE_GATE",
+        "q_sign": "positive",
+        "route_class": "conjugate_single_write",
+        "spin_or_hand_class": "fermion_half_write",
+        "stability_status": "ANTIMATTER_STABLE_CONJUGATE",
+        "surface_depth": "depth=1",
+        "surface_sign": "positive_debit"
+      },
+      "type_mismatches": [],
+      "typed_eligible": true
+    }
+  ],
+  "matching_rule": "EXACT_NON_P_TYPE_AND_ROLE_MATCH",
+  "primary_triples": 10,
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION"
+}

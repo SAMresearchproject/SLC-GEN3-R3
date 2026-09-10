@@ -1,0 +1,5 @@
+id,description,wc_pass,detail
+WC-1,abstract-distance recovery at d=1e6,True,"{""predicted_cumA_A_abstract"": 0.003131524008350731, ""observed_cumA_A"": 0.003131526096033403, ""predicted_cumA_B_abstract"": 0.0020876826722338203, ""observed_cumA_B"": 0.0020876858037578282}"
+WC-2,"correlation distance-invariance across d in {1, 12, 100, 10000}",True,"{""correlations_per_distance"": [[1.0, 1, 1], [12.0, 1, 1], [100.0, 1, 1], [10000.0, 1, 1]]}"
+WC-3,runner uses 1/r kernel (NOT 1/d^2),True,"{""observed_cumA_A"": 0.003305497564370215, ""correct_1_over_r_prediction_A"": 0.003305497564370215, ""wrong_1_over_d_squared_prediction_A"": 0.0031460218046856876, ""matches_correct"": true, ""matches_wrong"": false}"
+WC-4,exact rational match at d=R=12 (19/6 and 9/4 factors),True,"{""expected_cumA_A_19_over_6"": 0.003305497564370215, ""observed_cumA_A"": 0.003305497564370215, ""expected_cumA_B_9_over_4"": 0.002348643006263048, ""observed_cumA_B"": 0.002348643006263048}"

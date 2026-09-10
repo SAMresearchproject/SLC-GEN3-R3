@@ -1,0 +1,15 @@
+{
+  "bare_law": "Delta_qA = a*c*12^g/9",
+  "bare_law_failed": 4,
+  "bare_law_failure_roles": [
+    "anti_minus",
+    "anti_plus"
+  ],
+  "bare_law_passed": 6,
+  "binding_energy_claimed": false,
+  "generator_complete_failed": 0,
+  "generator_complete_law": "Delta_qA = a * [c*12^g/9 + sigma*35/24]",
+  "generator_complete_passed": 10,
+  "interpretation": "The proposal's bare factorization is complete for zero-contact charged and neutral routes only; conjugates require the frozen surface debit/credit term.",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION"
+}

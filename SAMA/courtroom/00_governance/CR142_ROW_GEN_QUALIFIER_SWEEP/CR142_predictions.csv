@@ -1,0 +1,7 @@
+name,pass,details
+P1_ten_targets_identified,True,len(results) = 10 (expected 10)
+P2_all_targets_qualified_or_already_qualified,True,in-clean-state: 10/10
+P3_pre_qualifier_archive_present_per_target,True,every target has a pre_qualifier_result.md archived with recorded SHA
+P4_summary_json_has_audit_qualifier_field,True,audit_qualifier object present in every qualified summary.json
+P5_result_md_has_qualifier_header,True,CR142 qualifier header marker present in every qualified result.md
+P6_verdicts_unchanged,True,result_class on every target still contains _SEALED suffix (no verdict change)

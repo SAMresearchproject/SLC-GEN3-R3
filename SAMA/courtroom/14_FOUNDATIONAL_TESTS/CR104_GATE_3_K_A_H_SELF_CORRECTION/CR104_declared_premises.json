@@ -1,0 +1,220 @@
+{
+  "cr_id": "CR104",
+  "title": "GATE_3_K_A_H_SELF_CORRECTION",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "GATE_3_PARTIAL_CLOSURE_VIA_EQUIVALENCE_PRINCIPLE_CONSISTENCY_PLUS_11_OVER_12_FORWARD_BLIND",
+  "blindness_protocol_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "PENDING_HASH_AT_RUNNER_TIME",
+  "upstream_question_lock_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR100_SW_PRIMITIVE_OPEN_QUESTION_ROADMAP/CR100_question_lock.json",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "upstream_CR103a_appeal_lock_cite": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL/CR103a_appeal_lock.json",
+  "upstream_CR103a_appeal_lock_sha256": "f247211b34de740039b934bb5938baba1d84c0a4f92718aeecaa189eb21eefa8",
+  "subject_gate": {
+    "gate_id": "GATE_3",
+    "name": "K(A_H) substrate tension",
+    "verbatim_from_CR100_upstream": "derive K(A_H) from substrate tension",
+    "identification_from_CR103a": "K(A_H) is the Higgs weight self-correction function. K(A_H) * r_bounce(A_H) * m_particle = constant intersection cost for A_H < 11/12; saturates at 11/12 = quantum spaghettification onset."
+  },
+  "sam_commitment": {
+    "selected_form": "K(A_H) self-correction maintaining A-invariant intersection cost",
+    "expressed_as_prediction": "equivalence_principle_violation = 0 for A < 11/12",
+    "free_parameters_introduced": 0,
+    "boundary_of_validity": "A < 11/12 = 0.91666...",
+    "at_or_beyond_11_over_12": "smooth self-correction fails; composite intersections destabilize; quantum spaghettification (CR103a forward-blind Prediction 3)",
+    "rationale": "CR103a sealed the Higgs weight self-correction as the SAM-native form of equivalence principle. Predicting zero EP violation at tested A range is the direct testable consequence."
+  },
+  "live_equivalence_principle_anchors": [
+    {
+      "row_id": "A1",
+      "experiment": "Pound-Rebka gravitational redshift",
+      "publication_reference": "Pound & Rebka 1960, Phys. Rev. Lett. 4, 337 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "1960-04-01",
+      "tested_A_value": 1e-15,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 1e-2,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless |delta_z - z_GR| / z_GR",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "foundational test, low precision but historical anchor"
+    },
+    {
+      "row_id": "A2",
+      "experiment": "Vessot-Levine Gravity Probe A",
+      "publication_reference": "Vessot et al. 1980, Phys. Rev. Lett. 45, 2081 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "1980-12-29",
+      "tested_A_value": 1e-9,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 1.4e-4,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A3",
+      "experiment": "GPS satellite vs Earth-surface clock differential",
+      "publication_reference": "Ashby 2003, Living Rev. Relativity 6, 1 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2003-01-01",
+      "tested_A_value": 1e-9,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 1e-12,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless fractional clock rate",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A4",
+      "experiment": "Al+ optical atomic clock gravitational redshift",
+      "publication_reference": "Chou et al. 2010, Science 329, 1630 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-09-24",
+      "tested_A_value": 1e-15,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 5.8e-19,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless fractional frequency per cm height",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "highest-precision low-A test of EP"
+    },
+    {
+      "row_id": "A5",
+      "experiment": "LIGO/Virgo + Fermi/INTEGRAL GW170817 binary NS merger",
+      "publication_reference": "Abbott et al. 2017, ApJL 848, L13 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2017-10-16",
+      "tested_A_value": 1e-3,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 1e-15,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless |v_g - v_light| / c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "tests gravity vs light propagation through cosmological distances"
+    },
+    {
+      "row_id": "A6",
+      "experiment": "PSR B1913+16 Hulse-Taylor binary pulsar GR tests",
+      "publication_reference": "Weisberg & Huang 2016, ApJ 829, 55 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2016-09-20",
+      "tested_A_value": 0.4,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 3e-3,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless residual / GR prediction",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "NS-NS binary; near-NS-surface A approx 0.4"
+    },
+    {
+      "row_id": "A7",
+      "experiment": "PSR J0740+6620 NICER mass measurement",
+      "publication_reference": "Miller et al. 2021, ApJL 918, L28 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2021-09-13",
+      "tested_A_value": 0.42,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 0.03,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless GR mass fit residual",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A8",
+      "experiment": "EHT M87* + Sgr A* near-horizon imaging",
+      "publication_reference": "EHT Collab 2019, ApJL 875, L1 + EHT Collab 2022, ApJL 930, L12 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2022-05-12",
+      "tested_A_value": 0.5,
+      "measured_EP_violation": 0.0,
+      "stat_uncertainty": 1e-2,
+      "sys_uncertainty": 0.0,
+      "units": "dimensionless |shadow - GR prediction| / GR",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "highest A tested with direct imaging; ~0.5 still well below 11/12 = 0.917"
+    }
+  ],
+  "honest_negative_anchors": [
+    {
+      "row_id": "HN1",
+      "experiment": "Withdrawn equivalence-principle violation claim",
+      "publication_reference": "WITHDRAWN_EP_VIOLATION_CLAIM",
+      "publication_date_utc": "2000-01-01",
+      "tested_A_value": 1e-9,
+      "measured_EP_violation": 1e-6,
+      "stat_uncertainty": 1e-7,
+      "sys_uncertainty": 0.0,
+      "honest_negative_class": "CLASS_A",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "withdrawn / superseded EP-violation claim"
+    },
+    {
+      "row_id": "HN2",
+      "experiment": "Unpublished EP-violation preprint claim",
+      "publication_reference": "NO_PUBLICATION_REFERENCE",
+      "publication_date_utc": "2026-06-13",
+      "tested_A_value": 1e-9,
+      "measured_EP_violation": 1e-7,
+      "stat_uncertainty": 1e-8,
+      "sys_uncertainty": 0.0,
+      "honest_negative_class": "CLASS_X_UNPUBLISHED",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "no peer-reviewed publication reference"
+    },
+    {
+      "row_id": "HN3",
+      "experiment": "LIGO/Virgo + Fermi/INTEGRAL (synthetic CLASS_G perturbation)",
+      "publication_reference": "SYNTHETIC_PERTURBATION_OF_arXiv:1710.05834",
+      "publication_date_utc": "2026-06-13",
+      "tested_A_value": 1e-3,
+      "measured_EP_violation": 1e-12,
+      "stat_uncertainty": 1e-15,
+      "sys_uncertainty": 0.0,
+      "honest_negative_class": "CLASS_G",
+      "expected_rejection_gate": "GATE_R_RESIDUAL",
+      "rationale": "central value shifted by 1000x precision; residual against SAM zero must place outside band"
+    }
+  ],
+  "forward_blind_11_over_12_threshold": {
+    "from_CR103a_appeal": true,
+    "claim": "At A approaching 11/12 = 0.91666..., front-back A differential across an extended object exceeds threshold for coherent A-road shear; composite intersections destabilize; quantum spaghettification onset.",
+    "current_A_max_tested": 0.5,
+    "gap_to_threshold": "0.5 to 0.917 = 0.417 (factor ~1.83x increase in A needed)",
+    "candidate_future_probes": [
+      "LIGO/Virgo NS-BH merger waveforms - matter disruption phase",
+      "tidal disruption events near supermassive BH horizons (TDE light curves)",
+      "EHT near-horizon imaging extension with extreme accretion",
+      "X-ray QPOs from accretion disk inner edge"
+    ]
+  },
+  "what_CR104_does_and_does_not_claim": {
+    "claims": [
+      "SAM's K(A_H) self-correction is consistent with every available equivalence-principle test at A < 0.5",
+      "Pillar 1 zero free parameters: the prediction equivalence_principle_violation = 0 has no fit parameters",
+      "Pillar 3 cross-source: spans gravitational redshift, atomic clocks, GW, binary pulsars, NICER, EHT",
+      "The 11/12 spaghettification threshold remains forward-blind sealed via CR103a"
+    ],
+    "does_not_claim": [
+      "definitive closure of GATE_3 (functional form of K(A_H) at finite A still open)",
+      "test of 11/12 onset (no current data at A > 0.5)",
+      "modification of CR100 question lock or CR103a appeal lock",
+      "modification of CR101, CR102, CR103, or CR103a results"
+    ]
+  },
+  "open_debts_declared_at_CR104": [
+    "Anchor citation_verification_status PENDING; curator promotion required",
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "14 branch seal sha256 sibling pending",
+    "Functional form of K(A_H) at finite A remains upstream-SAM open work",
+    "11/12 forward-blind prediction unprobed by current data; new appeal rows registered when LIGO/Virgo, TDE, or EHT data reach the regime"
+  ]
+}

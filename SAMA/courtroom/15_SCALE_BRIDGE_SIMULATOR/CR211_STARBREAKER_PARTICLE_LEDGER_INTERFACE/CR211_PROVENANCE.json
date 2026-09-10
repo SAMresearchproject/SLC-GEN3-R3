@@ -1,0 +1,63 @@
+{
+  "forbidden_sources_opened": [],
+  "runner_sha256": "282ae001e417ee7b2e9c111cae355bc7c281dbf64c36b20cdd31c7d65a4b51a8",
+  "source_access": "STRUCTURAL_ONLY",
+  "source_validation": [
+    {
+      "actual_sha256": "ad2ad498afd842ad6ee160991169b7c5124e186a67324fa94562356ced2327e7",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/FINAL_ASSEMBLY_SOURCE_MANIFEST.json",
+      "role": "final_source_freeze",
+      "sha256": "ad2ad498afd842ad6ee160991169b7c5124e186a67324fa94562356ced2327e7",
+      "verified": true
+    },
+    {
+      "actual_sha256": "d8c8332ce0f7d26a4e0338b333f9b52dddcfc5a989fc959f6ee3bdb6a5581de9",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/FINAL_ASSEMBLY_AUTHORITY_GRAPH.json",
+      "role": "authority_graph",
+      "sha256": "d8c8332ce0f7d26a4e0338b333f9b52dddcfc5a989fc959f6ee3bdb6a5581de9",
+      "verified": true
+    },
+    {
+      "actual_sha256": "010aa10f47184f0ef84db2e9b2e8118df6ee3f9ddc4b875e5672cac89179dfdc",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR210d_OCTAHEDRAL_COMPLETE_LEDGER_BOUNDARY_CLOSURE_APPEAL/CR210d_SLOT_TEMPLATE.csv",
+      "role": "address_geometry",
+      "sha256": "010aa10f47184f0ef84db2e9b2e8118df6ee3f9ddc4b875e5672cac89179dfdc",
+      "verified": true
+    },
+    {
+      "actual_sha256": "896cd6816a8beb03c49cf8bd64d95e966e19ebee0d5ac87cc81ec197fb3f2fe6",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR210d_OCTAHEDRAL_COMPLETE_LEDGER_BOUNDARY_CLOSURE_APPEAL/CR210d_SUMMARY.json",
+      "role": "address_authority",
+      "sha256": "896cd6816a8beb03c49cf8bd64d95e966e19ebee0d5ac87cc81ec197fb3f2fe6",
+      "verified": true
+    },
+    {
+      "actual_sha256": "44683621a7c6c027fdce10cc1124e53ff488dae3d18383ce20565b54d74d88f0",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_PHASE1_TARGET_WITHHELD_ASSEMBLY_TEMPLATE_ENUMERATION/PHASE1_COMPLETE_ASSEMBLY_TEMPLATE_CENSUS.csv",
+      "role": "qp_template_grammar",
+      "sha256": "44683621a7c6c027fdce10cc1124e53ff488dae3d18383ce20565b54d74d88f0",
+      "verified": true
+    },
+    {
+      "actual_sha256": "590c3f03f5c8369378ff731b7bfa0f520f10bc49c172fc0ff24553c613e0e46d",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_PHASE1_TARGET_WITHHELD_ASSEMBLY_TEMPLATE_ENUMERATION/PHASE1_SUMMARY.json",
+      "role": "template_authority",
+      "sha256": "590c3f03f5c8369378ff731b7bfa0f520f10bc49c172fc0ff24553c613e0e46d",
+      "verified": true
+    },
+    {
+      "actual_sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+      "role": "native_signature_ids",
+      "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+      "verified": true
+    },
+    {
+      "actual_sha256": "229bb55d7f76b38fddc14de4e886c8eaa4dcc4e6904e123e150d8ddccba832ed",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_SUMMARY.json",
+      "role": "native_signature_authority",
+      "sha256": "229bb55d7f76b38fddc14de4e886c8eaa4dcc4e6904e123e150d8ddccba832ed",
+      "verified": true
+    }
+  ]
+}

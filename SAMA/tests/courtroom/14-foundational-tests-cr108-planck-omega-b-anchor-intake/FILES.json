@@ -1,0 +1,65 @@
+{
+  "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json",
+      "mode": "100644",
+      "git_blob": "8bea3b70278f7a6489fa3bced00fcef6778c522d",
+      "bytes": 2266,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "4043d5ead9a00788bc46da463f81aa79c02628e2",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json.sha256.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_planck_anchor.json.sha256.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_result.md",
+      "mode": "100644",
+      "git_blob": "7acd46da74bb02aefec0ba4511fdcd03c8bdfe10",
+      "bytes": 2127,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_result.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_result.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_result.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_runner.py",
+      "mode": "100644",
+      "git_blob": "f40b2d4b1dbfce97174225c92b6dc3be9f2f418b",
+      "bytes": 9642,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_runner.py",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_runner.py",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_runner.py"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_summary.json",
+      "mode": "100644",
+      "git_blob": "d551078db959222ed29e362dc8ca97b2d3cc2e2c",
+      "bytes": 2214,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_summary.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_summary.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE/CR108_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR108@14"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

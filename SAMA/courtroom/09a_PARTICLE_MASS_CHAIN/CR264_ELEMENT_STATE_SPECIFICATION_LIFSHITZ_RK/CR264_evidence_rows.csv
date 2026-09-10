@@ -1,0 +1,9 @@
+item,value,detail
+G1_state_model_formula,True,"ℓ_A=u, ℓ_B=d, ℓ_C=e, ℓ=3A"
+G2_GHZ_count_equals_Z,True,"min(u,d,e) = Z for Z≤N"
+G3_n2_vanishing,True,G^(3)_2 = 0 for all elements (prefactor zero)
+G4_anchor_values_match,True,C-12=He-4=(1/4)·log(8/3)=0.206670; Au-197=(1/4)·log(710/237)=0.242936
+G5_chain_step_degeneracy,True,"all Z=N give argument 16/7, so G^(3)_1 = (1/4)·log(16/7)"
+G6_Au_C12_ratio,True,"ratio = 1.175479, expected 1.175479"
+G7_open_items_reassigned,True,"closed=['O1_element_state_specification']; deferred=['O2_fee_scale_constant', 'O3_sign_convention', 'O4_GHZ_count_substrate_quantity']"
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

@@ -1,0 +1,78 @@
+# CR223c_INPUTS.yaml - precommitted raw-data interface
+
+# This file declares the exact inputs CR223c will read once partner-lab raw
+# data arrives. It is sealed before any raw shots are opened. Any change to
+# this interface after raw data is received is a campaign-stop event.
+
+platform_priority:
+  - NV_qutrit
+  - photonic_qutrit  # transfer lane, only after NV contact
+
+time_grid_over_T2:
+  - 0.0
+  - 0.01
+  - 0.02
+  - 0.025
+  - 0.03
+  - 0.035
+  - 0.04
+  - 0.05
+  - 0.07
+  - 0.1
+
+shot_counts:
+  tomo_per_setting: 5000
+  sensor_per_time: 50000
+
+measurement_basis:
+  - lambda_1
+  - lambda_2
+  - lambda_3
+  - lambda_4
+  - lambda_5
+  - lambda_6
+  - lambda_7
+  - lambda_8
+
+sensor_observable:
+  name: P0_photoluminescence
+  description: |
+    |0> population from direct photoluminescence-style readout (NV native).
+    A single multinomial readout per time point with shot count
+    sensor_per_time. Calibrated against tomography labels on the train
+    subset; evaluated unchanged on the test subset.
+
+train_test_split:
+  type: trial_disjoint
+  train_rng_seed: 70260621
+  test_rng_seed: 80260621
+  controls_rng_seed: 90260621
+  n_trials_train: 100
+  n_trials_test: 100
+
+success_criteria:
+  tomography_crossing_resolved: required
+  crossing_inside_window: required
+  cr223a_m4_prediction_inside_ci_or_classified_shifted: required
+  sensor_balanced_accuracy: ">= 0.8"
+  sensor_vs_tomo_crossing_offset: "<= 1 grid intervals"
+  zero_wait_control_does_not_fire: required
+  no_decoherence_control_does_not_fire: required
+
+result_classes:
+  - CR223c_PIPELINE_SEALED__SELF_TEST_PASS__AWAITING_RAW_DATA
+  - CR223c_CONTACT_MATCHED_MODEL
+  - CR223c_CONTACT_SHIFTED_FROM_MODEL
+  - CR223c_CONTACT_NO_CROSSING_IN_WINDOW
+  - CR223c_CONTACT_SENSOR_PROXY_FAILED
+  - CR223c_CONTACT_TOMOGRAPHY_INVALID
+
+raw_data_interface:
+  manifest: raw/RAW_MANIFEST.csv
+  hashes: raw/HASHES.txt
+  upgrade_rule: |
+    When raw/ contains a populated RAW_MANIFEST.csv (>= 1 non-template row)
+    and raw/HASHES.txt with matching SHA-256 entries, the runner reads raw
+    shots in place of the synthetic Lindblad and emits one of the
+    CONTACT_* result classes. Otherwise it stays in
+    CR223c_PIPELINE_SEALED__SELF_TEST_PASS__AWAITING_RAW_DATA.

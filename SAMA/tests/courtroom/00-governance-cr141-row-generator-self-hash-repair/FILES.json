@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR",
+  "files": [
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_predictions.csv",
+      "mode": "100644",
+      "git_blob": "af3c757816cbf3ed9c4ccaaa16bd79a18bc28f03",
+      "bytes": 614,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json",
+      "mode": "100644",
+      "git_blob": "d332d70bf0003094033cdb6f48d39df2f65d6c47",
+      "bytes": 3526,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "e1f546ac603829b816bf8dc32c536bd6a124cc49",
+      "bytes": 97,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_manifest.csv",
+      "mode": "100644",
+      "git_blob": "1fe897a6d22a1138338bd6e1ec94a740e18a87b1",
+      "bytes": 5391,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_repair_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_result.md",
+      "mode": "100644",
+      "git_blob": "aa9005ecc03f02b2b1c7e566f2b7eca6decc533d",
+      "bytes": 7476,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_result.md",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_result.md"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_runner.py",
+      "mode": "100644",
+      "git_blob": "08ddf5b4e9bedbf323d26ba8497e9fb8dfcbc6ac",
+      "bytes": 51609,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_runner.py",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_runner.py"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "aeccfadacd810b4d5045c366f1eff8c1f69e721e",
+      "bytes": 5285,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_summary.json",
+      "mode": "100644",
+      "git_blob": "7f8e7207bef4c0095eadc27e248f23844b7334e8",
+      "bytes": 13745,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_summary.json",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_summary.json"
+    },
+    {
+      "path": "00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "02094aa508c565997fcee91f7bb4349cd0ba9695",
+      "bytes": 1915,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR/CR141_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR141@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

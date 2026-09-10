@@ -1,0 +1,65 @@
+{
+  "precommit_sha256": "8e6cb1975cd7d2084ffbbf2c215472d2ef8042fae18b68e76b74b94dc4281c77",
+  "substrate": {
+    "alpha_H": 2,
+    "D": 3
+  },
+  "derivation_rule": {
+    "description": "m_i = base_eV * substrate_ratio_i",
+    "ratios": {
+      "r1": 1.0,
+      "r2": 1.4142135623730951,
+      "r3": 6
+    },
+    "ratio_formula": "(1, sqrt(alpha_H), alpha_H * D) = (1, sqrt(2), 6)",
+    "eV_anchor": "base_eV = sqrt(Delta m^2_31 / 35)"
+  },
+  "substrate_derived_splittings_ratio": 34.999999999999986,
+  "observed_splittings_ratio": 33.89487870619946,
+  "base_eV": 0.008476859256655313,
+  "masses_eV": {
+    "m_1": 0.008476859256655313,
+    "m_2": 0.011988089327089857,
+    "m_3": 0.05086115553993188
+  },
+  "Sigma_m_nu_eV": 0.07132610412367706,
+  "ordering": "normal",
+  "external_anchors": {
+    "Delta_m2_31_eV2": 0.002515,
+    "Delta_m2_21_eV2": 7.42e-05,
+    "Sigma_m_nu_Planck_bound_eV": 0.12,
+    "KATRIN_m_beta_bound_eV": 0.45
+  },
+  "P1": {
+    "name": "Splittings ratio SAM vs observed",
+    "SAM": 34.999999999999986,
+    "observed": 33.89487870619946,
+    "deviation": 0.03260437375745498,
+    "threshold": 0.1,
+    "passed": true
+  },
+  "P2": {
+    "name": "Sigma m_nu vs Planck cosmological bound",
+    "Sigma_m_nu": 0.07132610412367706,
+    "bound": 0.12,
+    "margin_below_pct": 40.56157989693578,
+    "passed": true
+  },
+  "P3": {
+    "name": "Three positive mass eigenstates",
+    "m_1": 0.008476859256655313,
+    "m_2": 0.011988089327089857,
+    "m_3": 0.05086115553993188,
+    "passed": true
+  },
+  "evidence": {
+    "E1_Delta_m2_21_SAM": 7.185714285714289e-05,
+    "E1_Delta_m2_21_observed": 7.42e-05,
+    "E1_deviation": -0.031574894108586396,
+    "E5_m_beta": 0.012196801325406126,
+    "E5_m_beta_meV": 12.196801325406126,
+    "E5_KATRIN_factor_below": 36.89491924924964
+  },
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold under canonical substrate inputs. Substrate-derived splittings ratio 35 matches observed 33.9 within 3.3%; Sigma m_nu = 0.071 eV is 40% below the Planck cosmological bound; all three mass eigenstates are positive."
+}

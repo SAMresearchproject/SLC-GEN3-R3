@@ -1,0 +1,91 @@
+{
+  "artifact": "CR235_QA_8_GRAVITY_BRIDGE_TEST",
+  "classification": "PROPORTIONAL_SOURCE_BRIDGE",
+  "arc_position": "Test 6 of 7 in the Seven-Test Ownership Arc",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "precommit_sha256": "0e91dd6759200d3cf2b8b361632631805a71cf5b311a6c465cc8a8457265538e",
+  "source_shas": {
+    "matter_CR219": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+    "sob_test5": "0cd620be2f7ed1cd9ca03d4fb7222061ba990d258a04a7c99bbc7ff020b94616",
+    "reveal_reference": "fbfb17d82fbe7375690ae4b7c5ec0e473d0024284caf2dbd89d5404ded1b7b3a"
+  },
+  "tolerance_matter": "1E-9",
+  "tolerance_sob": "0 (exact Fraction)",
+  "audit_1_matter_identities": {
+    "id1": 99,
+    "id2": 82,
+    "id3": 82,
+    "all": 76,
+    "rows": 126
+  },
+  "audit_2_sob_identities": {
+    "id1": 126,
+    "id2": 126,
+    "id3": 126,
+    "all": 126,
+    "rows": 126
+  },
+  "audit_3_matter_ratio_invariance": {
+    "rows": 126,
+    "ordered_pairs_checked": 15750,
+    "ratio_invariance_breaks": 8842,
+    "ratio_invariance_passes": 6908,
+    "largest_residue": "0.000579975",
+    "passes_audit": false
+  },
+  "audit_4_sob_ratio_invariance": {
+    "rows": 126,
+    "ordered_pairs_checked": 15750,
+    "ratio_invariance_breaks": 0,
+    "ratio_invariance_passes": 15750,
+    "passes_audit": true
+  },
+  "audit_5_directional": {
+    "stable_set_size": 81,
+    "joined_rows": 81,
+    "spearman_rho_G_vs_anchor_A": 1.0,
+    "directional_verdict": "PASS_DIRECTIONAL",
+    "passes_directional": true
+  },
+  "wrong_controls": {
+    "WC1_G_eq_qA_over_7": {
+      "rule_under_test": "G = qA/7 (wrong; correct G = qA/8)",
+      "matter_breaks": 126,
+      "sob_breaks": 126,
+      "broke_as_predicted": true
+    },
+    "WC2_W_eq_6qA_over_8": {
+      "rule_under_test": "W = 6qA/8 (wrong; correct W = 7qA/8)",
+      "matter_breaks": 126,
+      "sob_breaks": 126,
+      "broke_as_predicted": true
+    },
+    "WC3_shuffle_qA": {
+      "rule_under_test": "shuffle qA across SOB rows (G unchanged)",
+      "seed": 20260622,
+      "pairs_checked": 15750,
+      "ratio_invariance_breaks": 15750,
+      "break_rate": 1.0,
+      "broke_as_predicted": true
+    },
+    "WC4_shuffle_G": {
+      "rule_under_test": "shuffle G(P) across Z (recompute Spearman rho vs external_anchor_A)",
+      "seed": 20260623,
+      "joined_rows": 81,
+      "spearman_rho_after_shuffle": -0.10752032520325203,
+      "broke_as_predicted": false
+    },
+    "all_broke_as_predicted": false
+  },
+  "main_audits_pass": false,
+  "wrong_controls_pass": false,
+  "scientific_verdict": "FAIL",
+  "execution_status": "CLEAN",
+  "K_gates": {
+    "K1_external_anchor": "PASS (directional rank vs external_anchor_A, no unit conversion)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (identities/tolerance/WCs locked in precommit pre-execution)",
+    "K4_typed_inputs": "PASS (R=12; two SHA-locked CSVs; reveal SHA-locked but used directionally only)",
+    "K5_reproduction_on_demand": "PASS (deterministic + seeded WCs)"
+  }
+}

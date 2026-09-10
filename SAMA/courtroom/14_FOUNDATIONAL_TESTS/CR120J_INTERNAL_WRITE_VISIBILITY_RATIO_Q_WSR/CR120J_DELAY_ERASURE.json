@@ -1,0 +1,137 @@
+{
+  "delay": {
+    "A_after_delay": 1,
+    "A_immediate": 1,
+    "frames": [
+      {
+        "identity_delay_step": 1,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 2,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 3,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 4,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 5,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 6,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 7,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 8,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 9,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 10,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 11,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 12,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 13,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 14,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 15,
+        "snapshot": {
+          "e1": 1
+        }
+      },
+      {
+        "identity_delay_step": 16,
+        "snapshot": {
+          "e1": 1
+        }
+      }
+    ],
+    "history": "H_E1",
+    "q_after": 1,
+    "q_before": 1,
+    "rho_16": 1,
+    "steps": 16
+  },
+  "erasure": {
+    "EXACT_INVERSE": {
+      "q_WSR": null,
+      "q_status": "CANCELED_NONEMPTY",
+      "scar_ratio_chi": 0
+    },
+    "OVERWRITE": {
+      "q_WSR": 1,
+      "q_status": "DEFINED",
+      "scar_ratio_chi": 2
+    },
+    "SHAM": {
+      "q_WSR": 1,
+      "q_status": "DEFINED",
+      "scar_ratio_chi": 1
+    },
+    "SUMMARY_ONLY_ERASE": {
+      "q_WSR": null,
+      "q_eligibility": "INELIGIBLE_NON_WRITE_OPERATION",
+      "restored_scalar_summary": true,
+      "scar_ratio_chi": 2,
+      "state": {
+        "e1": 1,
+        "e2": -1
+      }
+    }
+  },
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR"
+}

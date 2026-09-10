@@ -1,0 +1,121 @@
+{
+  "cr_id": "CR066b",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "SLOT_VS_CONTACT_LEVEL_LAYERING_OF_LETTER_INCREMENT_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR066b_SLOT_VS_CONTACT_LAYERING_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T02:20:30Z",
+  "slot_level_surcharge": "Delta_w_slot = (0, 1/16, 0)",
+  "contact_level_surcharge": "Delta_pair = (1/32, 1/32, 0)",
+  "rejected_reading": "(1/64, 1/32, 1/64) explicitly rejected -- erases central lift",
+  "amplitude_ratio_locked": "2 : 3 : 2",
+  "loaded_probabilities": "(4/17, 9/17, 4/17)",
+  "loaded_amplitudes": "(2/sqrt(17), 3/sqrt(17), 2/sqrt(17))",
+  "Higgs_letter_identity": "1/16 = (1/alpha_H) * 2^-D = HALF the Higgs-released 1/8",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "layering_csv_sha256": "16b1c664872370925d8d937ec1cdce70cf9b6d909e2eb6e80857e1bfd762af8e",
+  "hierarchy_lock_sha256": "60842345eed77ae88637519a0de5076a5f9abcb3d5a40e692a4ea551db9327cc",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "5eb918d789d70d689e39f9d5c2f72ea4d149336d1e3a8b49d95548f5de592fc1",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_slot_level_sum_equals_1_16",
+      "pass": true,
+      "details": "slot-level surcharge sum = 1/16"
+    },
+    {
+      "name": "P2_contact_level_sum_equals_1_16",
+      "pass": true,
+      "details": "contact-level surcharge sum = 1/16"
+    },
+    {
+      "name": "P3_slot_level_center_only",
+      "pass": true,
+      "details": "Delta_w_slot = (Fraction(0, 1), Fraction(1, 16), Fraction(0, 1)) (center-only verified)"
+    },
+    {
+      "name": "P4_contact_level_outer_cross_zero",
+      "pass": true,
+      "details": "outer-cross (a,c) leg debit = 0"
+    },
+    {
+      "name": "P5_contact_level_bridge_legs_symmetric",
+      "pass": true,
+      "details": "(a,b) leg = 1/32; (b,c) leg = 1/32; symmetric: True"
+    },
+    {
+      "name": "P6_rejected_packet_lifts_outer_slots",
+      "pass": true,
+      "details": "(1/64, 1/32, 1/64) would give outer slots 17/64 and 17/64 (not 1/4), erasing the central lift"
+    },
+    {
+      "name": "P7_Higgs_letter_identity_holds",
+      "pass": true,
+      "details": "1/16 = (1/alpha_H) * (1/alpha_H^3) = (1/2) * (1/8) = 1/16 = 1/16"
+    },
+    {
+      "name": "P8_amplitude_ratio_2_3_2",
+      "pass": true,
+      "details": "amplitudes (sqrt(4/17), sqrt(9/17), sqrt(4/17)) give ratio 2 : 3 : 2 by inspection of square roots of (4, 9, 4)"
+    },
+    {
+      "name": "P9_lock_written",
+      "pass": true,
+      "details": "hierarchy lock sha256 = 60842345eed77ae88637519a0de5076a5f9abcb3d5a40e692a4ea551db9327cc"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR066a_NOT_invalidated",
+      "pass": true,
+      "details": "CR066a's 1/alpha_H^4 letter increment, (4/17, 9/17, 4/17) probabilities, and Born extension framing remain correct.  CR066b refines the STRUCTURAL LAYERING of how the 1/16 lives, not the value itself."
+    },
+    {
+      "name": "WC2_mini_1_2_1_packet_explicitly_REJECTED",
+      "pass": true,
+      "details": "The (1/64, 1/32, 1/64) representation is documented in the layering table as REJECTED with explicit reasoning.  Future readers should not confuse it with the locked slot-level center-only form."
+    },
+    {
+      "name": "WC3_contact_resolution_symmetric_under_reflection_only",
+      "pass": true,
+      "details": "The (1/32, 1/32, 0) contact-level split assumes reflection symmetry a <-> c.  Asymmetric routes might split the bridge surcharge differently across the two adjacent legs.  Explicitly noted in out-of-scope."
+    },
+    {
+      "name": "WC4_q_0_only_explicit",
+      "pass": true,
+      "details": "All CR066b claims are q = 0 specific (per CR066a / CR129b).  Whether the bridge-only attribution generalizes to q >= 1 is a separate question."
+    },
+    {
+      "name": "WC5_Higgs_attribution_is_arithmetic_NOT_physical_identity",
+      "pass": true,
+      "details": "The 1/16 = (1/alpha_H) * 2^-D identity is dozenal arithmetic linking the Paul Revere letter capacity to the Higgs-released gravitational fraction.  It does NOT claim the physical Higgs boson IS the bridge slot, only that they share the same surface-debit-channel arithmetic."
+    },
+    {
+      "name": "WC6_no_clone_guard_realized_at_surface_debit_layer",
+      "pass": true,
+      "details": "The contact-level (1/32, 1/32, 0) split with zero outer-cross is the surface-debit realization of CR051's no-clone guard: any relay processing the bridge can refresh the envelope but cannot copy the (a, c) endpoints directly.  This is a structural emergence, not an assumed axiom."
+    },
+    {
+      "name": "WC7_falsifier_per_layer",
+      "pass": true,
+      "details": "Three concrete falsifiers per layer: slot-level (outer slot lift above 1/4), contact-level (significant outer-cross debit), amplitude (deviation from 2:3:2).  Each is independently testable on the NV platform."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "Expert review on whether the symmetric bridge-split (1/32, 1/32, 0) is structurally unique or admits asymmetric variations.",
+    "CR067a candidate: capacity scaling -- does an N-letter row carry N * (1/alpha_H^4) or saturate?",
+    "Whether the bridge-only attribution generalizes to q >= 1 rows (currently q = 0 only)."
+  ]
+}

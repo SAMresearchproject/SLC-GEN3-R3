@@ -1,0 +1,123 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "lock_type": "geometry_formula_verdict_control_lock",
+  "locked_utc": "2026-07-11T17:15:00Z",
+  "selected_experiment_doi": "10.1038/s41586-021-04349-7",
+  "observable_definition": {
+    "reported_source_coordinate": "paper coordinate has expected redshift gradient negative along its plotted z axis",
+    "cr006_canonical_observable": "upper clock fractional frequency minus lower clock fractional frequency per 1 mm upward separation",
+    "canonical_expected_sign": "positive",
+    "measurement_reveal_conversion": "multiply the paper's final reported gradient by -1 when converting to upper-minus-lower per positive upward height"
+  },
+  "external_dimensional_anchors": {
+    "speed_of_light_m_s": {
+      "value": "299792458",
+      "classification": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source": "SI exact"
+    },
+    "earth_gravitational_parameter_m3_s2": {
+      "value": "3.986004418e14",
+      "classification": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source": "standard Earth GM"
+    },
+    "local_gravitational_acceleration_m_s2": {
+      "value": "9.796",
+      "classification": "EXTERNAL_GEOMETRY_INPUT",
+      "source": "Bothwell et al. paper Methods, NGS evaluated local laboratory acceleration rounded to 4 digits"
+    },
+    "height_step_m": {
+      "value": "0.001",
+      "classification": "EXTERNAL_GEOMETRY_INPUT",
+      "source": "millimetre-scale gradient observable"
+    }
+  },
+  "derived_geometry_before_reveal": {
+    "r_lower_m": "6378880.9898545406187519554583598443269674966815389824964319143784",
+    "r_upper_m": "6378880.9908545406187519554583598443269674966815389824964319143784",
+    "derivation": "r_lower = sqrt(mu_earth/local_gravity); r_upper = r_lower + 0.001 m"
+  },
+  "canonical_calculation_lock": {
+    "rs_formula": "rs = 2*mu_earth/c^2",
+    "A_lower_formula": "A_lower = rs/r_lower",
+    "A_upper_formula": "A_upper = rs/r_upper",
+    "weak_fractional_shift_formula": "(A_lower - A_upper)/2",
+    "exact_fractional_shift_formula": "sqrt((1-A_upper)/(1-A_lower)) - 1",
+    "A0_rule": "A0 is a common floor and is canceled before forming the endpoint observable"
+  },
+  "frozen_predictions_before_reveal": {
+    "rs_m": "0.0088700560782353414310643118900272650501115344117909910700123652433993701792508065",
+    "A_lower": "1.3905348120372453859539893254694029002433348013274734942967558377530683594947568e-9",
+    "A_upper": "1.3905348118192549870061381702223276637552377655168256062899286477014232479335079e-9",
+    "weak_fractional_shift_per_mm": "1.0899519947392557762353761824404851790532394400341359502582255578062445e-19",
+    "exact_fractional_shift_per_mm": "1.089951996254871970417865197056993179381484296259050233221356e-19",
+    "exact_minus_weak_per_mm": "1.5156161941824890146165080003282448562249142829631304421937555e-28"
+  },
+  "uncertainty_method": {
+    "primary_sigma": "experiment's final reported total uncertainty after measurement reveal",
+    "input_sigma": "local acceleration rounding bound propagated as optional negligible input uncertainty",
+    "standardized_residual": "z = (Delta_SAM - Delta_obs)/sqrt(sigma_obs^2 + sigma_input^2)"
+  },
+  "permitted_verdicts": [
+    "PASS_OPTICAL_CLOCK_ENDPOINT_HOLDOUT",
+    "BOUNDARY_PUBLIC_GEOMETRY_OR_UNCERTAINTY",
+    "FAIL_OPTICAL_CLOCK_ENDPOINT_HOLDOUT",
+    "INVALID_SOURCE_OR_TARGET_REUSE",
+    "INVALID_FIREWALL_EXPOSURE"
+  ],
+  "verdict_thresholds": {
+    "PASS": "|z| <= 2 and WC1-WC6 fail materially by magnitude or channel rule; WC7 is diagnostic only",
+    "FAIL": "|z| > 3, canonical sign/channel wrong, local A0 required, or fitted normalization required",
+    "BOUNDARY": "2 < |z| <= 3 or public geometry insufficient for clean independent calculation"
+  },
+  "exact_weak_consistency_gate": {
+    "max_allowed_abs_difference": "1e-26",
+    "basis": "well above the computed expansion-order difference and far below the observed uncertainty"
+  },
+  "wrong_controls_locked_before_reveal": [
+    {
+      "id": "WC1",
+      "name": "Add the floor locally",
+      "formula": "wrong = weak_fractional_shift + A0/2",
+      "break_condition": "fails if any uncanceled A0 local contribution is required or if magnitude is grossly inconsistent"
+    },
+    {
+      "id": "WC2",
+      "name": "Remove the half factor",
+      "formula": "wrong = A_lower - A_upper",
+      "break_condition": "fails materially if |z| > 3 or if it doubles the endpoint clock coefficient"
+    },
+    {
+      "id": "WC3",
+      "name": "Use 1/r^2 as the clock field",
+      "formula": "wrong = ((A_lower^2) - (A_upper^2))/2",
+      "break_condition": "fails materially if |z| > 3 or if it changes the endpoint field dependence"
+    },
+    {
+      "id": "WC4",
+      "name": "Reverse endpoint order",
+      "formula": "wrong = (A_upper - A_lower)/2",
+      "break_condition": "fails if the sign reverses relative to the frozen upper-minus-lower observable"
+    },
+    {
+      "id": "WC5",
+      "name": "Use photon-road integration",
+      "formula": "wrong = (1/c) * integral_lower_to_upper A ds approximated by A_lower*h/c",
+      "break_condition": "fails by channel and units because a road time integral is not an endpoint clock fraction"
+    },
+    {
+      "id": "WC6",
+      "name": "Free clock normalization",
+      "formula": "wrong fits k = observed/weak after reveal",
+      "break_condition": "rejected as noncanonical because it introduces one free parameter"
+    },
+    {
+      "id": "WC7",
+      "name": "Newtonian near-surface approximation only",
+      "formula": "diagnostic = g*h/c^2",
+      "break_condition": "not a wrong-physics failure; must agree as the near-surface limit and must not replace the A-kernel route"
+    }
+  ],
+  "free_parameters_introduced": 0,
+  "forecast_generated": false,
+  "queue_maintenance_performed": false
+}

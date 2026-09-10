@@ -1,0 +1,125 @@
+{
+  "conserving_split": {
+    "fixture_space": "Q^81_CONSTRUCTED_NOT_INSTALLED",
+    "kappa": {
+      "e2": 1
+    },
+    "left": {
+      "e0": 1
+    },
+    "omitted_kappa_scalar_residual": 1,
+    "omitted_kappa_vector_residual": {
+      "e2": 1
+    },
+    "operator_actions": {
+      "B0": {
+        "definition": "identity",
+        "kappa_B": {
+          "e2": 1
+        }
+      },
+      "B1": {
+        "definition": "swap e1 and e2",
+        "kappa_B": {
+          "e1": 1
+        }
+      }
+    },
+    "parent": {
+      "e0": 1,
+      "e1": 1,
+      "e2": 1
+    },
+    "right": {
+      "e1": 1
+    },
+    "role_types": {
+      "B0_and_B1": "ConstructedStaticAction",
+      "F81": "InstalledCompletedFace",
+      "P80": "InstalledStructuralOnlyParticleFaceContent",
+      "X1": "InstalledAxisChannel",
+      "b": "ConstructedCarrierState",
+      "kappa_B": "ConstructedResidueVector"
+    },
+    "scalar_invariant_closure_residual": 0,
+    "vector_closure_residual": {}
+  },
+  "mirror_trial_summary": [
+    {
+      "classification": "NULL",
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "BALANCED"
+    },
+    {
+      "classification": "NULL",
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "X1_ONLY"
+    },
+    {
+      "classification": "NON_NULL",
+      "h80": {
+        "e1": 1,
+        "e2": 2
+      },
+      "norm_squared": 5,
+      "trial": "TRANSVERSE"
+    },
+    {
+      "classification": "NON_NULL",
+      "h80": {
+        "e1": 1,
+        "e2": 2
+      },
+      "norm_squared": 5,
+      "trial": "MIXED"
+    },
+    {
+      "classification": "NULL",
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "DEGENERATE"
+    }
+  ],
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "stateful_comparison": {
+    "classification": "CONSTRUCTED_STATEFUL_COMPARISON_NOT_INSTALLED_OPERATOR",
+    "histories": {
+      "H1": {
+        "final_state": {
+          "e1": 1
+        },
+        "history": [
+          {
+            "e1": 1
+          }
+        ],
+        "readout": 1
+      },
+      "H2": {
+        "final_state": {
+          "e2": 1
+        },
+        "history": [
+          {
+            "e2": 1
+          }
+        ],
+        "readout": 0
+      }
+    },
+    "initial_state": {},
+    "probe": {
+      "e1": 1
+    },
+    "recurrence": "Phi(b,v)=b+v",
+    "static_memoryless_control": {
+      "definition": "fixed readout zero; no state argument",
+      "readouts": {
+        "H1": 0,
+        "H2": 0
+      }
+    }
+  }
+}

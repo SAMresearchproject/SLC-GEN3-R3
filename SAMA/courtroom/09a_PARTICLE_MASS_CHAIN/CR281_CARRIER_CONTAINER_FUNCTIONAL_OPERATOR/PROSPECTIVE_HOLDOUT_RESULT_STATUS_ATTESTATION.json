@@ -1,0 +1,19 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_RESULT_STATUS_ATTESTATION",
+  "attestation_created_utc": "2026-07-11T17:17:03Z",
+  "canonical_scientific_result_status": "PASS",
+  "cr_path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR",
+  "detailed_source_verdict": "PASS",
+  "existing_artifacts_modified": false,
+  "mapping_rule": "PASS -> PASS by prefix/exact mechanical rule",
+  "qualification_basis": "branch-local CR has precommit, runner, result, summary, provenance, HASHES, prospective seal, and mapped scientific verdict",
+  "qualifies_as_new_scientific_test": true,
+  "scientific_content_changed": false,
+  "scientific_tests_rerun": false,
+  "source_result_path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_result.md",
+  "source_result_sha256": "4c02734cc2eecf9fa9d4d83a266c0744104852f62c8d07b45167ae60772fcb9f",
+  "source_summary_path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_summary.json",
+  "source_summary_sha256": "3cb7d3cefe77ff76f778e173f83e305db0b5e42a6e58bae2c08e4ee31bf42aea",
+  "source_verdict_field": "CR281_summary.json:scientific_verdict",
+  "target_scientific_content_opened_beyond_status_metadata": false
+}

@@ -1,0 +1,186 @@
+{
+  "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CANDIDATE_HASH.txt",
+      "mode": "100644",
+      "git_blob": "2d5d82f360b483908dd066e20dac0a8fc442477d",
+      "bytes": 65,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CANDIDATE_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CANDIDATE_HASH.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CANDIDATE_HASH.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CANDIDATE_HASH.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/COMMAND_LOG.txt",
+      "mode": "100644",
+      "git_blob": "97abb029929871c0aa1ec7755e36819a235780d3",
+      "bytes": 3421,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/COMMAND_LOG.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/COMMAND_LOG.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/COMMAND_LOG.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/COMMAND_LOG.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json",
+      "mode": "100644",
+      "git_blob": "034ca79a6565e1f5a18a37caee222eead1bd5632",
+      "bytes": 3108,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_CANDIDATE_MANIFEST.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_DISCRIMINATION.json",
+      "mode": "100644",
+      "git_blob": "ee24c244f3c03e74c49708e59b9c8645e47b4049",
+      "bytes": 1485,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_DISCRIMINATION.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_DISCRIMINATION.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_DISCRIMINATION.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_DISCRIMINATION.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_SPEC.json",
+      "mode": "100644",
+      "git_blob": "e22402c80b0c699d65a39296379d67e090e4811d",
+      "bytes": 634,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_SPEC.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_SPEC.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_SPEC.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_MODEL_SPEC.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "ce1f58b27713d0d35d2a5427cfc4b9df12d1a12e",
+      "bytes": 5347,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.sha256.txt",
+      "mode": "100644",
+      "git_blob": "e6ae8915301266cac4f74128f795e6f4d029ff6a",
+      "bytes": 276,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.sha256.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.sha256.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_PRECOMMIT.sha256.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_ROW_INVENTORY.json",
+      "mode": "100644",
+      "git_blob": "7a533537d621491ca34b10b4ebf745f78ad1bde1",
+      "bytes": 762,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_ROW_INVENTORY.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_ROW_INVENTORY.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_ROW_INVENTORY.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_ROW_INVENTORY.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json",
+      "mode": "100644",
+      "git_blob": "c4c2c0a32e352788565914900b0a73e1d5b97b74",
+      "bytes": 7228,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_RUNTIME_EXECUTION.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_SOURCE_MANIFEST.json",
+      "mode": "100644",
+      "git_blob": "b1014cd6a7a67643bbeac673a31b0e6a95d03528",
+      "bytes": 5195,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_SOURCE_MANIFEST.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_SOURCE_MANIFEST.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_SOURCE_MANIFEST.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_SOURCE_MANIFEST.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_TRANSFORMATION_SURFACE.json",
+      "mode": "100644",
+      "git_blob": "c72d57116b13f30771b77f5121a17c8bd21c201e",
+      "bytes": 2013,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_TRANSFORMATION_SURFACE.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_TRANSFORMATION_SURFACE.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_TRANSFORMATION_SURFACE.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_TRANSFORMATION_SURFACE.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_VALIDATION_REPORT.json",
+      "mode": "100644",
+      "git_blob": "1dcf745615bea719e57308fff5fe0e581cf92d88",
+      "bytes": 8853,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_VALIDATION_REPORT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_VALIDATION_REPORT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_VALIDATION_REPORT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_VALIDATION_REPORT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "mode": "100644",
+      "git_blob": "a904344dad43693a0313322bc03df26a1f41757e",
+      "bytes": 2964,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "mode": "100644",
+      "git_blob": "91881eb4e67b6f0e8a3557df324b8eee4466cef6",
+      "bytes": 1005,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "99dae695783bc964bf75b482823e1aca68f1aeea",
+      "bytes": 2622,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/HASHES.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/HASHES.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam",
+      "mode": "100644",
+      "git_blob": "9ed03ed1f797c1de202462aff358f7537fa4bb1d",
+      "bytes": 344,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam"
+    }
+  ],
+  "test_keys": [
+    "CR:CR120E@14"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

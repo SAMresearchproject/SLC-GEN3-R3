@@ -1,0 +1,6 @@
+control,rejected,reason
+WC_2D_DISTANCE_IN_3D_GATE,True,"edge distance and neighborhood hashing both include x, y, and z"
+WC_FRACTIONAL_OR_RETYPED_LEDGER,True,"every ledger retains 18 carrier, 126 matter, and 18 shadow slots"
+WC_P_DEPENDENT_LEDGER_CELL_RADIUS,True,localized ledger packet radius is fixed before and across p=0..3
+WC_ASSUME_LEDGER_LOCALIZATION,True,the dispersed-slot geometry preserves inventory while removing packet localization
+WC_PROMOTE_TO_PHYSICAL_STELLAR_MODEL,True,the shell field is kinematic and no hydrodynamic or relativistic field equations are solved

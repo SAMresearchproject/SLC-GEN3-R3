@@ -1,0 +1,349 @@
+{
+  "record_id": "CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY",
+  "source_policy": "HASH_LOCKED_READ_ONLY_DISCOVERY_THEN_FROZEN_VALIDATION",
+  "sources": [
+    {
+      "source_id": "CAMPAIGN_BRIEF",
+      "path": "SAM_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY.md",
+      "bytes": 29458,
+      "sha256": "9b49641de9b221acc44ebba95e7835d5679e8b19f0b35400bcd96e00831635e0",
+      "role": "controlling campaign contract",
+      "authority": "USER_SUPPLIED_CONSTRUCTIVE_BRIEF",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "TASK_PREFLIGHT",
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260714_122508_no_script.md",
+      "bytes": 16877,
+      "sha256": "d79fa07dcdbc815795719b0156ea6de1a0548f7d79bd6e301328c50f405a12eb",
+      "role": "task-specific constructive-new-work gate",
+      "authority": "COURTROOM_PREFLIGHT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "UPDATED_WORKBOOK_100_ORIGINAL",
+      "path": "C:/Users/drwho/OneDrive/Desktop/Updated Particle Rows.xlsx",
+      "bytes": 77128,
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3",
+      "role": "saved 105-row source lane and p9g0 overlay source",
+      "authority": "USER_RESEARCH_WORKBOOK_PRIMARY_EVIDENCE",
+      "verify_mode": "prior_frozen_hash_plus_saved_excel_capture_cell_reconciliation",
+      "note": "Live path was held open by saved Excel workbook at seal time; no unsaved changes were present."
+    },
+    {
+      "source_id": "UPDATED_WORKBOOK_100_CAPTURE",
+      "path": "14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/source_snapshots/Updated Particle Rows.xlsx",
+      "bytes": 77125,
+      "sha256": "f3ff2fc94ea47a96dcbda5480c0ab5eb9eb771c673a12a47d705252679ecf1c2",
+      "role": "readable SaveCopyAs capture of the saved open workbook",
+      "authority": "SOURCE_CAPTURE_REQUIRES_LOGICAL_RECONCILIATION",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "UPDATED_WORKBOOK_81_ORIGINAL",
+      "path": "C:/Users/drwho/OneDrive/Desktop/Updated Particle Rows2.xlsx",
+      "bytes": 93700,
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "role": "explicit target-aware 81-row research roster",
+      "authority": "USER_RESEARCH_WORKBOOK_DISCOVERY_EVIDENCE",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "UPDATED_WORKBOOK_81_CAPTURE",
+      "path": "14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/source_snapshots/Updated Particle Rows2.xlsx",
+      "bytes": 93700,
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "role": "byte-identical readable campaign capture",
+      "authority": "SOURCE_CAPTURE",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120R_ZIP",
+      "path": "14_FOUNDATIONAL_TESTS/CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER.zip",
+      "bytes": 32802,
+      "sha256": "63b4001a6805f88c6a6fd23bd342c6e1c05ab5151cbfccf081a6a451efdc088e",
+      "role": "preserved five-row packet and 100-row L162 record",
+      "authority": "PRESERVED_PRIOR_RESULT_BUNDLE",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120R_RESULT",
+      "path": "14_FOUNDATIONAL_TESTS/CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER/CR120R_result.md",
+      "bytes": 2026,
+      "sha256": "f330d85f8df6275d30b101e92c618de16484cf957baeb198032519b889dfafca",
+      "role": "readable preserved CR120R disposition",
+      "authority": "PRESERVED_PRIOR_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120S_RESULT",
+      "path": "14_FOUNDATIONAL_TESTS/CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION/CR120S_result.md",
+      "bytes": 2091,
+      "sha256": "558f07f653166c8b161a735f15f0fbff987cf285566db275d714d39568cf7644",
+      "role": "preserved F81 operator-open boundary",
+      "authority": "PRESERVED_PRIOR_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120S_OPERATOR_SEARCH",
+      "path": "14_FOUNDATIONAL_TESTS/CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION/CR120S_operator_search.json",
+      "bytes": 1700,
+      "sha256": "7ff121e0211f17c2d22f35659539bddb5da870c836684d88fa8c391b7e7613ac",
+      "role": "prior operator boundary as constructive input",
+      "authority": "PRESERVED_PRIOR_BOUNDARY",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120N_WORKBOOK_EXTRACTION",
+      "path": "14_FOUNDATIONAL_TESTS/CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON/CR120N_WORKBOOK_EXTRACTION.json",
+      "bytes": 1703,
+      "sha256": "43cd95e27fde97f0bb7ace6e6e2c0c744375b1fa93fea916c3d6c9767b6664fd",
+      "role": "prior extraction reading aid and logical-capture comparator",
+      "authority": "EXPLORATORY_READING_AID",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120N_ROSTER100",
+      "path": "14_FOUNDATIONAL_TESTS/CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON/CR120N_ROSTER100_RAW.csv",
+      "bytes": 45499,
+      "sha256": "bb5df87ba8ca50a8b3ce62803533e2c58be4a3fe26fdc19aece9aefc9cd05390",
+      "role": "prior 100-row extraction comparator",
+      "authority": "EXPLORATORY_READING_AID",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120N_ROSTER81",
+      "path": "14_FOUNDATIONAL_TESTS/CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON/CR120N_ROSTER81_RAW.csv",
+      "bytes": 36572,
+      "sha256": "2918088857ac008d613e2139ae07b253c07618de13eb986b9e50d92290ec61ce",
+      "role": "prior 81-row extraction comparator",
+      "authority": "EXPLORATORY_READING_AID",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR120N_SET_RECONCILIATION",
+      "path": "14_FOUNDATIONAL_TESTS/CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON/CR120N_SET_RECONCILIATION.json",
+      "bytes": 4469,
+      "sha256": "b38728c704b27e799d0f74a87d9a2b2acd8fce9ac3841412e91aefcf6a1359cd",
+      "role": "prior delta reading aid",
+      "authority": "EXPLORATORY_READING_AID",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "QP093A_CANONICAL_299",
+      "path": "C:/VS/quantum_phase/artifacts/qp104_corrected_299_catalog_propagation_audit/qp093a_v3_corrected_299.csv",
+      "bytes": 108383,
+      "sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "role": "canonical QP093A identity and numeric row authority",
+      "authority": "CANONICAL_QP093A_ROW_SOURCE",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "QP093A_GENERATOR",
+      "path": "C:/VS/quantum_phase/src/qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "bytes": 43208,
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "role": "frozen p/g row-law provenance",
+      "authority": "FROZEN_UPSTREAM_GENERATOR_PROVENANCE",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR119_RESULT",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_result.md",
+      "bytes": 1529,
+      "sha256": "4960244185e251d8a696fbff61afdd6ed4da9a956f24baccdb28e3d80d387208",
+      "role": "typed closure hierarchy verdict",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR119_TYPED_HIERARCHY",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/contracts/CR119_typed_hierarchy.json",
+      "bytes": 12824,
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "role": "machine-readable typed hierarchy",
+      "authority": "LANGUAGE_HANDOFF_READING_AID_BACKED_BY_SEALED_CRS",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR119_HANDOFF",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/contracts/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "bytes": 14325,
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "role": "canonical notation and occurrence-separation handoff",
+      "authority": "LANGUAGE_HANDOFF_READING_AID_BACKED_BY_SEALED_CRS",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR267_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+      "bytes": 4483,
+      "sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "role": "W9 closure witness and 8+1 provenance",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR269_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md",
+      "bytes": 6065,
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "role": "B/contact N-Theta-M partition and axis-fee provenance",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR282_APPEAL_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT/CR282_APPEAL_result.md",
+      "bytes": 1770,
+      "sha256": "beb5effdf9c3d0a0050e686f9a716f6f547c54dcc6e54efa878f685b0fdf1beb",
+      "role": "current B/contact to X1 to W9 appeal status",
+      "authority": "SEALED_CURRENT_APPEAL_STATUS",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR229_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY/CR229_result.md",
+      "bytes": 13203,
+      "sha256": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da",
+      "role": "L/N/M inclusion-exclusion ledger",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR233_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "bytes": 8705,
+      "sha256": "55e0c81a8c417fb79f377f5913035d65a917ada0cca80e5cc9cdf8851fd55895",
+      "role": "carrier/container and equal-scalar role separation",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR253_CANONICAL_COPY",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_input_catalog_299.csv",
+      "bytes": 108383,
+      "sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "role": "Courtroom byte-identical canonical catalog copy",
+      "authority": "SEALED_INPUT_COPY",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR253_PROMOTED_80",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_promoted_80_rows.csv",
+      "bytes": 7205,
+      "sha256": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+      "role": "sealed 80-row promoter surface",
+      "authority": "SEALED_STRUCTURAL_OUTPUT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR253_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_result.md",
+      "bytes": 7105,
+      "sha256": "fd944b04ae0701d1c1bbf25eb7860f808a3eb83f7e94d050c8b6858b5c0861e5",
+      "role": "promoter scope and boundary",
+      "authority": "SEALED_STRUCTURAL_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR254_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR254_COMPACT_MATTER_CHARGED_LAW/CR254_result.md",
+      "bytes": 6224,
+      "sha256": "b6b93f09ffd949c22bff1901069bc965d63e292d771c686cd58d132d4fd3b8b2",
+      "role": "charged row law",
+      "authority": "SEALED_ROW_LAW",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR255_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR255_COMPACT_MATTER_NEUTRAL_LAW/CR255_result.md",
+      "bytes": 5958,
+      "sha256": "62342a7aace289b7519c81c6d7f7aad85230e0b6914a94e9c24ca3ba40a8c60b",
+      "role": "neutral row law and 1/8 split",
+      "authority": "SEALED_ROW_LAW",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR256_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md",
+      "bytes": 7103,
+      "sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "role": "antimatter conjugate row law and hard zero",
+      "authority": "SEALED_ROW_LAW",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR257_RESULT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257_A_MEETS_THETA_AT_D_1/CR257_result.md",
+      "bytes": 8386,
+      "sha256": "eea3b57db301562992502c1b8ac76f7176b2f6cb64ac46338c2824e5961eb9b4",
+      "role": "compact d=1 structural forms and preserved boundary",
+      "authority": "SEALED_BOUNDARY_WITH_STRUCTURAL_COMPONENT_PASS",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR261_BINDING_35_20",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR261_PAIR_WRITE_BINDING_EXTENSION/CR261_bw_fit_per_row.csv",
+      "bytes": 2918,
+      "sha256": "3212a36064244e6addc30e465af6577d68df7997715f6c68ff9bb983b0d8eef2",
+      "role": "original binding train/test split",
+      "authority": "SEALED_BINDING_INPUT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR274_RUNNER",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR274_GATED_NUCLEAR_READOUT_OPERATORS/CR274_runner.py",
+      "bytes": 24750,
+      "sha256": "dc70c7ff960fe2c70399453cd99f2633e683efea92463288d17b619dff50a2d8",
+      "role": "controlling binding model implementation",
+      "authority": "SEALED_BINDING_IMPLEMENTATION",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR274_SUMMARY",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR274_GATED_NUCLEAR_READOUT_OPERATORS/CR274_summary.json",
+      "bytes": 3088,
+      "sha256": "c46843357aa7fe681c602b3c5e75fa7504f6b0bbec2bcfa5961bdd76d47e854d",
+      "role": "frozen 55-row baseline coefficients and metrics",
+      "authority": "SEALED_BINDING_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR277_ELEMENT_TABLE",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS/CR277_element_table.csv",
+      "bytes": 21173,
+      "sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1",
+      "role": "frozen zero-refit extended table; validation only",
+      "authority": "SEALED_BINDING_EXTENSION",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR277_SUMMARY",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS/CR277_summary.json",
+      "bytes": 4574,
+      "sha256": "9008ac47d08f4e81c46b4348585d7759bfc2c4674b57df5c12cadfd34ef6fcfc",
+      "role": "frozen extended baseline metrics; validation only",
+      "authority": "SEALED_BINDING_EXTENSION",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR249_DEAD_END",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR249_BINDING_AS_CONNECTION_FEE/CR249_result.md",
+      "bytes": 5546,
+      "sha256": "bba12cbbb876cc02436b5c8b377c3e7fecbd97e0d89bd3285dd7c49e80814ccb",
+      "role": "preserved linear connection-fee failure",
+      "authority": "SEALED_NEGATIVE_RESULT",
+      "verify_mode": "sha256"
+    },
+    {
+      "source_id": "CR250_DEAD_END",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR250_BINDING_FROM_CR009_LIFT_FORMULA/CR250_result.md",
+      "bytes": 10081,
+      "sha256": "c27db2c9d6400739c45b8893aed4e15e18d5d7e9563a7970b1ebd3edecf42fd9",
+      "role": "preserved single-rescale binding boundary",
+      "authority": "SEALED_NEGATIVE_RESULT",
+      "verify_mode": "sha256"
+    }
+  ]
+}

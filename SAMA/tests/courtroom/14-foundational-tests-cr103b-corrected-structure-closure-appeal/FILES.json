@@ -1,0 +1,54 @@
+{
+  "path": "14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json",
+      "mode": "100644",
+      "git_blob": "b0ba9bfef02c3eb7dead7b5c19c398bf7b68433c",
+      "bytes": 2639,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "b1143b8c2dc74626eb81e1d4b4dbffdbfbdd2b74",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json.sha256.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_appeal_lock.json.sha256.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_result.md",
+      "mode": "100644",
+      "git_blob": "7e83fac6ecba66ba62c2711adb3f1c44ff36423a",
+      "bytes": 2545,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_result.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_result.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_result.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_runner.py",
+      "mode": "100644",
+      "git_blob": "7cd082c3b02cf9f3ebf017ab75c369f475d99cc6",
+      "bytes": 6901,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_runner.py",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_runner.py",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR103b_CORRECTED_STRUCTURE_CLOSURE_APPEAL/CR103b_runner.py"
+    }
+  ],
+  "test_keys": [
+    "CR:CR103b@14"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

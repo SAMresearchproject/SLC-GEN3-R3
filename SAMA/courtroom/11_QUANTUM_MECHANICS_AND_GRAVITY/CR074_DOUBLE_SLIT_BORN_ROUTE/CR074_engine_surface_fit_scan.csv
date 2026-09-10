@@ -1,0 +1,4 @@
+pattern,engine_hit_count,doc_mention_count,exemplar_engine_file,exemplar_engine_line,classification
+"\bscipy\.optimize\b.{0,80}(probability|Born|amplitude)",0,0,,,CLEAN
+"\bcurve_fit\b.{0,80}(probability|Born)",0,0,,,CLEAN
+"\bminimize\b.{0,80}observed[_ ]?probabilit",0,0,,,CLEAN

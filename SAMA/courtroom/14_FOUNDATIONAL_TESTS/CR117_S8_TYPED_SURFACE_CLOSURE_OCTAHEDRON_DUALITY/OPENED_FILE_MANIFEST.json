@@ -1,0 +1,83 @@
+{
+  "record_id": "CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY",
+  "sealed_utc": "2026-07-12T03:12:56Z",
+  "firewall_note": "Opened/scanned files exclude SAM_LANGUAGE*, *V0_3_GENERALIZATION*, *PROSPECTIVE_HOLDOUT*, *FORECAST_GATE*, and *LANGUAGE_CONTRACT* content paths.",
+  "opened_or_scanned": [
+    {
+      "path": "SAM_PROSPECTIVE_CR_S8_TYPED_SURFACE_CLOSURE_5_5_XHIGH.md",
+      "purpose": "campaign instruction file"
+    },
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_220907_no_script.json",
+      "purpose": "preflight class and permission status"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md",
+      "purpose": "CR114 S=8 face-state and carrier split source"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_binary_face_state_split_lock.json",
+      "purpose": "CR114 lock source"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "purpose": "binary/tensor role separation"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_result.md",
+      "purpose": "historical S foundational wording and split alias"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_summary.json",
+      "purpose": "CR238 sealed summary context"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_result.md",
+      "purpose": "particle-catalog S=8 row count reference"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_recheck_derivations.md",
+      "purpose": "neutral 1/S reference"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH",
+      "purpose": "narrow rg scan for CR252 S=8 references; matched files are recorded in the source audit"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md",
+      "purpose": "current primitive-base control"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_summary.json",
+      "purpose": "current primitive-base summary"
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G219B_chi_corrected_derivation/results/G219B_summary.md",
+      "purpose": "corrected chi source and binary face-state count"
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G305_chi_horizon_quotient_measure/G305_output.txt",
+      "purpose": "direction-allocation theorem output"
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G306_horizon_measure_axiom_provenance/G306_output.txt",
+      "purpose": "horizon-measure axiom provenance"
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G307_substrate_gravity_horizon_cell/G307_output.txt",
+      "purpose": "local horizon-cell state count"
+    },
+    {
+      "path": "docs/VOLUME_I_APPENDIX_AND_GLOSSARY.md",
+      "purpose": "Volume I appendix/glossary S and Theta phrasing"
+    },
+    {
+      "path": "docs/SAM_VOLUME_I_SUBSTRATE_READER_v1_1.md",
+      "purpose": "Volume I reader split/row/horizon context"
+    },
+    {
+      "path": "docs/COURTROOM_MANUSCRIPT_SECTION_04_DERIVED_NATIVE_QUANTITIES.md",
+      "purpose": "current Section 4 chain and split inventory"
+    }
+  ]
+}

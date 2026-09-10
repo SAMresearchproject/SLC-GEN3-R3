@@ -1,0 +1,22 @@
+{
+  "campaign_id": "CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION",
+  "classification": "IMPLEMENTATION_ONLY_SUCCESSOR",
+  "predecessor": "CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY attempt 1",
+  "permitted_change": "Convert NumPy scalar values to native Python scalar values during JSON serialization.",
+  "frozen_unchanged": [
+    "input states",
+    "B analog H_A",
+    "X1 analog CNOT A->B",
+    "B then X1 operation order",
+    "direct controls",
+    "CHSH settings and sign convention",
+    "no-signaling remote-angle sweep",
+    "entanglement-swapping construction",
+    "noise family and 0.005 grid",
+    "all thresholds and hard gates",
+    "result interpretation and boundaries"
+  ],
+  "same_run_repair": false,
+  "scientific_logic_changed": false,
+  "registry_mutation": false
+}

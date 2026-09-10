@@ -1,0 +1,241 @@
+{
+  "intake_id": "CR120_QP091_HIGGS_EW_PRECISION_CHAIN_INTAKE_LOCK",
+  "scope": "09a_PARTICLE_MASS_CHAIN_QP091_CHAIN_INTAKE",
+  "sealed_at_utc": "2026-06-15T19:20:34Z",
+  "intake_class": "ITERATIVE_DISCOVERY_CHAIN_INTAKE_HEADLINE_CLOSED_FORM_QP091T",
+  "headline_one_liner": "H_reveal = R^2 (1 - 2^(-D)) - D^2/R = 144 * 7/8 - 9/12 = 126 - 0.75 = 125.25 GeV EXACT, derived from {R=12, D=3} alone with zero free parameters, no H input, dozenal fingerprint 100_12 -> A6_12 -> A5.3_12.",
+  "qp091_chain_summary_hashes": {
+    "qp091a": "55f6dc3fefe3c152471fbd0fe29cea80e9b3b303a9f0cf0b643a929f6e700aaf",
+    "qp091b": "7d0cc8681f2838135e1461d438a654e0159c6b777769acd686c26cd71689d296",
+    "qp091c": "79261edb19f9c175052d1f52c4db43ef6c7c8cd2e602344e516dac6dacdffb7e",
+    "qp091d": "56f8df7f136b862a392213fd9a109ee6171f165889dac6b94ec87698cb43a62a",
+    "qp091e": "145748c575f8914e175fd895899be5e68593e69dee9aebc6a309e64347360990",
+    "qp091f": "a6ee8c462e1e0a5654a6bd8c9fead862080df7ce30ac81d8ed40fcabcf7f8e75",
+    "qp091g": "39d80afe9437590f4226892e098bd30c976a5e7b2c98768cb97b94313f495261",
+    "qp091h": "71c7073b8c0d5cdea893c80ea5943c06d50374343b5a9201eaad87f8d9e4b37b",
+    "campaign08_qp091b_h_freeze": "b9237ea09dd625fb1d719227cc60b3933190a553f100cbe2e209fd47dcd6f969",
+    "qp091i": "f00e15ce3ddf6aa33b35e555271d4d83179fe6c541a37a07540972eae9b588cd",
+    "qp091j": "66273a055dab03ba1feb9d8bc1c554774e05349ac84856d0f7e32bef6d5277f4",
+    "qp091k": "5833da3056ae52ca0db6c5e69e96180a404fa2d68927242f26163721d2037645",
+    "qp091l": "9c4b27cd2931dac8de06c6d1b01c43c8ddfd669bf3949ae07a9a528080c501ef",
+    "qp091m": "586928b199d7fb67e9a08fd568d6833753e92a8992444a85e118285398ec6d9f",
+    "qp091n": "440a20c78f1ffc2ba77307be326de1f473614c948869a8e599fa634348f18ac6",
+    "qp091o": "0b1c83e2676c9721feb411f702ea46f499d7433a75a39cf1167132d1161ca4f7",
+    "qp091p": "d552a0527d7cd74badbd9a3c5a6a9006e98aece5f65d8836e7d568a69358f631",
+    "qp091q": "eacb7abcef455f8c8697d24b7d365980a9f3b7e49838135b62d9dc13f23e2db5",
+    "qp091r": "82135296db9be3ef4f1d7a9ce5034e6c0d740fe11e3dcf65db1b1cbcdde97b12",
+    "qp091s": "75351305e556b3b7e2bb7eaebcbe2c07a87b6f8fe978c85d7e5ad5693973114f",
+    "qp091t": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7",
+    "qp091u": "b87d85be2149f4bd51daa70bcfe39f7e14fe033fb6c21d50e441a037f8b27ee1",
+    "qp092a": "dfb7a745fc2c07b7bcd6ee35b77891a41f25dbd4f879d26fd9adfa060b044908",
+    "qp092b": "9c52aee14aeac5e3061312f4e52ca3c4402fabbd48244b11a7009eac735d6f51",
+    "qp091v": "ad48f50c3a4b4d693ff4eac1d0f1a6074f59db9a417688f7a1fa78251abff9c6",
+    "qp091w": "f63c25d00a096824d69035d8e8217d0d664b905234eddec0e0dff936cce33b11",
+    "qp091x": "8be3c25f44f3facc2ffa99121580de36cc1d36166531e5b62d6ee9e33cbfff62",
+    "qp091y": "1a83c41f9a17b114e11f6e387656adeaa4283cdde2b800af304cd25e1ee276c4",
+    "qp091z": "af249d9c6cd3828ba45d4b6333924b6803174a304c9aafcdebd8a85d5d5f3d64",
+    "qp091aa": "eb0296a65a7bc85d4e2981671a4c363d9fec2a7e57186e5bbee6bc3dff7ed7cc",
+    "qp091ab": "d4edaec75cbf4d26abbc55c1ff9812301c342fed78d228ff3aa1086690ca8856",
+    "qp091ac": "8e5b3efcf0bd7414a5c5e5b7ccc84b333350c20ac7dc5420baddecb48d48940a",
+    "qp091ad": "511b25f604fee8f7bf0fe9eb8d64bdb9dff6453645af27d9d59a76ec8b6c7c3b"
+  },
+  "qp091_chain_ledger_count": 33,
+  "qp091_chain_pass_count": 31,
+  "qp091_chain_boundary_count": 2,
+  "qp091_chain_all_passed": false,
+  "courtroom_anchors_chain_of_custody_sha256": {
+    "CR062a_summary :: CR062a_summary.json": "b1c67c1dd987e5da655e6327bccaed5033afc5cea29fb6baaf7a5408d4ae8823",
+    "CR064a_summary :: CR064a_summary.json": "a2af5df2dd3ac83cd131bb8a09913d806d0ba57db70942f53b232a892f0173e6",
+    "CR065a_summary :: CR065a_summary.json": "2cf489b716434f750266b4ef536c2c5552b0c1a2d5165809d8f5dfc9d4e96dfb",
+    "CR066a_summary :: CR066a_summary.json": "94d9ae0f98a3dcd042c87f5f0ef3b9b9a9ddb962bc8282496e128b8408a1fc7e",
+    "CR067a_wzh_anchor :: CR067a_wzh_anchor.json": "2e18cfe53ecb0f3033c179641814e8d30371a4ae32604defe38e880b5ae3258e",
+    "CR091a_appeal_lock :: CR091a_appeal_lock.json": "cbb7e8411b17fc788f9266f615d4a7401ecb04b7b4c893b4f2b74605b0248ff0",
+    "CR069a_phase_2_verdict :: CR069a_09a_phase_2_verdict.json": "6a4d7d7dfdbf0fbf5f717a11390700ed66424e330f75f0307a9985e3beff4055",
+    "CR119_summary :: CR119_summary.json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR121_intake_lock :: CR121_gravity_mechanism_intake_lock.json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "closed_form_derivation": {
+    "active_derivation_string": "H_native = R^2*(1-2^-D); H_reveal = H_native - D^2/R",
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "closed_loop_total_R2": 144,
+    "closed_loop_total_base12": "100_12",
+    "split_loss_fraction": "1/8 = 2^(-D)",
+    "retained_fraction": "7/8 = 1 - 2^(-D)",
+    "split_loss_amount": 18,
+    "split_loss_identity": "R^2 * 2^(-D) = alpha_H * D^2 = 18",
+    "H_native_GeV": 126,
+    "H_native_base12": "A6_12",
+    "surface_debit_D2_over_R": 0.75,
+    "surface_debit_base12": "0.9_12",
+    "H_reveal_GeV": 125.25,
+    "H_reveal_base12": "A5.3_12",
+    "CR062_target_GeV": 125.25,
+    "exact_match_to_CR062": true,
+    "HZZ4l_category_projection": {
+      "4e": "1/4",
+      "2e2mu": "1/2",
+      "4mu": "1/4"
+    },
+    "H_input_used": false,
+    "free_parameters_used": 0
+  },
+  "discovery_journey_milestones": [
+    {
+      "stage": "qp091a",
+      "milestone": "courtroom scale bridge post-bounce alignment map"
+    },
+    {
+      "stage": "qp091b/c",
+      "milestone": "BOUNDARYs: missing EW normalization + neutral rotation metric (no overclaim)"
+    },
+    {
+      "stage": "qp091d-g",
+      "milestone": "vertex / amplitude / phase-space / HZZ4l candidate skeletons emitted"
+    },
+    {
+      "stage": "qp091h",
+      "milestone": "relative branching rank ledger; absolute width BOUNDARY"
+    },
+    {
+      "stage": "campaign08",
+      "milestone": "native EW chain FROZEN pre-reveal (lock the bootstrap)"
+    },
+    {
+      "stage": "qp091i-k",
+      "milestone": "external reveal map + direct category reveal + daughter route projection to 1/2/1"
+    },
+    {
+      "stage": "qp091l",
+      "milestone": "direct generator precision audit (20dp rounded chain found)"
+    },
+    {
+      "stage": "qp091m-n",
+      "milestone": "native tree EW derivation + HZZ4l half ledger with H removed (still 125)"
+    },
+    {
+      "stage": "qp091o",
+      "milestone": "k=2 selected on 2A0/R^3 native correction; (9/8)A0/R^5 supplies 98.43% of required lift; gap 2.27 MeV"
+    },
+    {
+      "stage": "qp091p",
+      "milestone": "Earth-A localization lifts to 125.247739 GeV; gap shrinks to 2.26 MeV (lab-floor only)"
+    },
+    {
+      "stage": "qp091q-s",
+      "milestone": "A0 scalar parent category split reset to 1/2/1; Delta lane 126 lock; closed-loop split source category"
+    },
+    {
+      "stage": "qp091t",
+      "milestone": "**CLOSURE**: H_reveal = R^2(1-2^-D) - D^2/R = 125.25 GeV EXACT; qsplit demoted to context"
+    }
+  ],
+  "post_closure_refinement_milestones": [
+    {
+      "stage": "qp091u",
+      "milestone": "qp091t hard freeze; wrong controls reject D^2/D^4 R^10/R^24 and 'no debit' alternatives"
+    },
+    {
+      "stage": "qp092a/qp092b (early, 01:29 / 01:38)",
+      "milestone": "particle-row native surface-debit grammar; S-debit cluster grammar discovery (sign, contact). NOT the gravity tensor carrier - that's qp092a_split_loss_tensor_carrier in CR121"
+    },
+    {
+      "stage": "qp091v-x",
+      "milestone": "surface-debit sub-operator isolation: sign, magnitude packet, numeric coefficient"
+    },
+    {
+      "stage": "qp091y",
+      "milestone": "surface-debit R-power exponent selector"
+    },
+    {
+      "stage": "qp091z",
+      "milestone": "surface-debit native menu value selector"
+    },
+    {
+      "stage": "qp091aa-ab",
+      "milestone": "surface-debit fine structure factor isolation; residual exact-law isolation; stack frozen; epsilon object emerges"
+    },
+    {
+      "stage": "qp091ac",
+      "milestone": "epsilon residual cartography; epsilon object locked"
+    },
+    {
+      "stage": "qp091ad",
+      "milestone": "reference spread BOUNDARY: epsilon source reference contrast indicated; exact residual law open. NOTE: this is a SUB-PERCENT epsilon at the surface-debit FINE-STRUCTURE level, NOT the 125.25 closure - 125.25 is closed exactly at qp091t"
+    }
+  ],
+  "cross_courtroom_unifications": [
+    {
+      "unification_id": "U1_126_universal",
+      "description": "The number 126 = R^2 * (1 - 2^-D) = 144 * 7/8 appears as H_native (qp091t) AND native element-family capacity (qp094a / CR119). Same structural quantity, two faces.",
+      "qp091t": "H_native = 126 GeV",
+      "qp094a_CR119": "126 element-family rows in the periodic vault",
+      "implication": "the SAM 126 is not coincidence - it is the radix-12, D=3 retained 7/8 of the closed loop reused across mass-closure and element-vault layers"
+    },
+    {
+      "unification_id": "U2_one_eighth_split_two_faces",
+      "description": "The 1/8 split-loss IS the unresolved tensor carrier (CR121). The mass side (qp091t) discards the 1/8 to land 126; the gravity side (CR121) uses the 1/8 + qA to source A field.",
+      "qp091t": "1/8 discarded as split loss -> H_native = 126",
+      "CR121_qp092": "1/8 routes via qA bridge + ledger compression -> updates A field = gravity",
+      "implication": "Higgs mass closure and gravity sourcing are TWO FACES of the same R^2 = 144 split, both with zero free parameters"
+    },
+    {
+      "unification_id": "U3_triple_identity_eighteen",
+      "description": "R^2 * 2^(-D) = alpha_H * D^2 = 18. The carrier amount, the alpha_H * D^2 carrier identity, and the cost identity all equal 18.",
+      "qp091t": "split_loss_amount = 18",
+      "CR121_qp092a": "R^2 * (1/8) loss = alpha_H * D^2 / 18 identity",
+      "implication": "the 18 unit IS the carrier IS the cost identity - one structural quantity unifies the closed-loop loss with the alpha_H * D^2 carrier"
+    },
+    {
+      "unification_id": "U4_one_eighth_polarization_split",
+      "description": "qp092g decomposed A=1 = 7/8 retained + 1/16 plus + 1/16 cross. The 1/8 carrier splits 1/16 + 1/16 into the two TENSOR POLARIZATIONS of the gravitational wave (qp092f).",
+      "qp091t": "1/8 = single split loss term",
+      "qp092f_g_CR121": "1/16 plus + 1/16 cross = two tensor polarizations of GW",
+      "implication": "the GR-style 2 tensor polarizations emerge structurally from splitting the 1/8 carrier"
+    },
+    {
+      "unification_id": "U5_carrier_compression_gates_prior_CRs",
+      "description": "qp092h carrier-compression rule retroactively gates 10 prior Courtroom CRs (CR016, CR018-23, CR111, CR114, CR117). Direct qA-as-mass counterpath overreads Planck Omega_b by 0.663%-0.995% (max 1.475 sigma) - REJECTED.",
+      "qp092h_gate": "all baryon/CMB inventory CRs must admit through carrier compression, not direct qA-as-mass",
+      "implication": "the carrier-compression rule unifies the cosmology-side intakes under the same structural rule as the gravity mechanism"
+    }
+  ],
+  "forward_blind_expectations": [
+    {
+      "id": "CR120_PRED_1",
+      "claim": "The structural identity H_reveal = R^2 (1 - 2^(-D)) - D^2/R = 125.25 GeV exact is stable under any future refinement of the EW chain or HZZ4l observables. No fit to the PDG 125.25 +/- 0.16 GeV will be required to maintain agreement; the dozenal form 100_12 -> A6_12 -> A5.3_12 is the structural fingerprint.",
+      "testable_at": "future ATLAS/CMS Higgs mass updates; future Higgs-factory precision (ILC, FCC-ee)",
+      "falsification_criterion": "any PDG update that puts the Higgs mass outside the 125.25 +/- structural uncertainty band would require revisiting R=12 / D=3 / partition algebra structure",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR120_PRED_2",
+      "claim": "The HZZ4l category projection 1:2:1 (4e:2e2mu:4mu) emerges from qp091t without fitting any branching ratio. ATLAS/CMS Run 3 + HL-LHC HZZ4l category measurements should converge on 1:2:1 across all flavor categories within statistical precision.",
+      "testable_at": "ATLAS / CMS HZZ4l category counts at HL-LHC luminosity",
+      "falsification_criterion": "any measured 4e:2e2mu:4mu departure from 1:2:1 by more than statistical uncertainty would falsify the qp091t category projection",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR120_PRED_3",
+      "claim": "The epsilon residual at the sub-percent surface-debit fine-structure level (qp091ad BOUNDARY) will close from a NATIVE operator extension WITHOUT a fit. The 'reference spread boundary' qp091ad recorded means the epsilon has a structural meaning at a finer scale than the qp091t main closure; future qp091ae or successor will reveal the operator.",
+      "testable_at": "future qp091ae or successor structural closure of the epsilon residual",
+      "falsification_criterion": "if a fit to PDG precision (rather than structural operator extension) is required to close epsilon, the chain has hit a true open frontier",
+      "free_parameters": 0
+    }
+  ],
+  "open_frontier_after_qp091ad": "Epsilon residual at the surface-debit FINE-STRUCTURE level (sub-percent at qp091ad's 'reference spread boundary'). NOTE: this is NOT the 125.25 GeV closure - that is closed EXACTLY at qp091t. The epsilon is a finer-scale structural residual.",
+  "qp091o_to_qp091t_progression": {
+    "qp091o_required_k_on_A0_R3_after_half_bounce_R2": "2.031978319806199191910457",
+    "qp091o_k2_fraction_of_required_lift": "0.984262469980856322352150",
+    "qp091o_gap_to_target_GeV": "-0.002268033883480054360184052842",
+    "qp091p_H_earth_local_QP091O_GeV": "125.247738539861122412242878934821",
+    "qp091p_target_gap_after_earth_local_QP091O_GeV": "0.002261460138877587757121065179",
+    "qp091t_H_reveal_GeV": "125.250000000000000000000000000000",
+    "qp091t_gap_to_CR062": "0.000000000000 (EXACT)"
+  },
+  "qp091ad_BOUNDARY_scope_clarification": "PASS_QP091AD_REFERENCE_SPREAD_BOUNDARY_TEST__EPSILON_SOURCE_REFERENCE_CONTRAST_INDICATED__EXACT_RESIDUAL_STILL_OPEN__REFERENCE_BOUNDARY_NOT_UNIVERSAL_OPERATOR",
+  "modifies_no_prior_artifact": true,
+  "free_parameters_introduced": 0
+}

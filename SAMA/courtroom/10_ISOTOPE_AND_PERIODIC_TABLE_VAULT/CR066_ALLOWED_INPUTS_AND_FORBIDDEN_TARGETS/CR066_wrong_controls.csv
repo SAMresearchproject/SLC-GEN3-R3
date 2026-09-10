@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Inject vault-chain summary with external_data_used=true,FAIL,True,True,vault_chain_external_data_violation_detected
+WC2,Inject engine line importing ame2020 as construction input,FAIL,True,True,ame2020_engine_line_detected
+WC3,Inject qp060_summary missing next_frontier reference to qp061,FAIL,True,True,qp060_missing_qp061_next_frontier_detected
+WC4,Inject qp068_summary with external_data_used=true,FAIL,True,True,qp068_external_data_violation_detected
+WC5,Corrupt SOURCE_MANIFEST.csv so CR065 seal mismatches,DIAGNOSTIC,True,True,manifest_seal_mismatch_detected
+WC6,Inject vault summary with free_parameters_introduced=1,FAIL,True,True,free_parameters_violation_detected

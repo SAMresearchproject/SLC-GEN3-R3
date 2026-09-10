@@ -1,0 +1,30 @@
+{
+  "record_id": "CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER",
+  "assumptions": [
+    {
+      "id": "A1",
+      "statement": "This CR imports prior CR results and is not a fresh SAM Language v0.3 holdout.",
+      "status": "campaign_required"
+    },
+    {
+      "id": "A2",
+      "statement": "CR283's P80 edge is inherited exactly as structural PASS with row geometry open.",
+      "status": "source_inherited"
+    },
+    {
+      "id": "A3",
+      "statement": "B contact operator and X1 axis-self channel remain distinct even where the operation is expressed through X1.",
+      "status": "typed_boundary"
+    },
+    {
+      "id": "A4",
+      "statement": "A non-row operator and B contact operator remain distinct because CR282 appeal leaves A-to-contact OPEN.",
+      "status": "source_scope"
+    },
+    {
+      "id": "A5",
+      "statement": "Higgs mass, 126.343 geometry, and Higgs fitting are excluded as derivation inputs.",
+      "status": "excluded_input"
+    }
+  ]
+}

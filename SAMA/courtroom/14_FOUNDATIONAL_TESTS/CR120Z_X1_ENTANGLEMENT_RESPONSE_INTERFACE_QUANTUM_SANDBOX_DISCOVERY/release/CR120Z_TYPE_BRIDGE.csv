@@ -1,0 +1,5 @@
+sam_entity,frozen_sam_type,sandbox_analog,permitted_claim,forbidden_conversion
+B_CONTACT_OPERATOR,ContactOperator,local H_A request preparation,prospective local request operation,B=1/2 or B=X1
+X1_AXIS_SELF_CHANNEL,AxisChannel(value=1),joint CNOT response interface,prospective response transformation,"1 as amplitude, qubit, phase, or identity matrix"
+W9_CLOSURE_WITNESS,ClosureWitness(value=9),none,archival downstream closure only,entanglement witness or Bell flag
+THETA18_PRIMARY_CARRIER,PrimaryCarrier(value=18),none,separate current carrier candidate,X1 identity or spare quantum resource

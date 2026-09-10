@@ -1,0 +1,9 @@
+item,value,detail
+G1_closure_witness_identity,True,tensor 9 = d_hat^2 with d_hat = 2 + 1
+G2_binomial_decomposition,True,"mirror^2=4, cross=4, axis^2=1; sum=9"
+G3_closure_axiom_identification,True,9 = (mirror^2 + cross) + axis^2 = h^3 + 1 = 8 + 1
+G4_CR229_ledger_ratio,True,L = R^2 * (d^2/h^3) = 144 * 9/8 = 162
+G5_ledger_ratio_reading,True,9/8 = witness/pixels; 1/8 = axis fee/pixels
+G6_Higgs_surface_debit,True,D^2/R = d_hat/h_hat^2 = 3/4 = 0.75
+G7_tensor9_appearances,True,6 sealed roles for tensor 9
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

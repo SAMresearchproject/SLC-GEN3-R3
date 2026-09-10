@@ -1,0 +1,88 @@
+{
+  "artifact": "CR114_DOC_READINESS_LINEAGE_ZIPPER",
+  "generated_at_utc": "2026-06-19T06:09:13Z",
+  "verdict": "DOC_READY_LINEAGE_SOURCE_ORDER_DEFINED",
+  "rule": "CR114 is now the first citation for why the split fraction is 1/8; QP092A is downstream classification, not the primitive source.",
+  "rows": [
+    {
+      "order": 1,
+      "artifact_id": "CR113",
+      "role": "supplies R=12 from completed-WRITE address count",
+      "status": "PASS",
+      "source_path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_completed_write_address_count_lock.json",
+      "doc_rule": "Use for R=12 provenance; do not derive R from 2pi/A0.",
+      "exists": true,
+      "sha256": "6892987bdd978f03fa42cb7d0ef14e24cdd08e11e154ef8ced5cd5ede3fd15b4"
+    },
+    {
+      "order": 2,
+      "artifact_id": "CR114",
+      "role": "derives 1/8 from D binary face-states",
+      "status": "PASS",
+      "source_path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_binary_face_state_split_lock.json",
+      "doc_rule": "Cite this before QP092A whenever explaining why the carrier fraction is 1/8.",
+      "exists": true,
+      "sha256": "4139aee463004ac2cb882e2bda0642752e0bb5dc759eace42df0351fc51686ec"
+    },
+    {
+      "order": 3,
+      "artifact_id": "QP091T",
+      "role": "applies 7/8 retention and D^2/R debit to Higgs parent/surface",
+      "status": "PASS",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp091t\\QP091T_result.md",
+      "doc_rule": "Exact Higgs math: 126 parent, 125.25 observed surface; q_split is context only.",
+      "exists": true,
+      "sha256": "f4c4d5aadaddc80e5e20899b62289ed686d0eee668b1ac15f93d69fff06697a5"
+    },
+    {
+      "order": 4,
+      "artifact_id": "QP091U",
+      "role": "hard-freezes QP091T and rejects D/R/debit wrong controls",
+      "status": "PASS",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp091u\\QP091U_result.md",
+      "doc_rule": "Use for hash/freeze and wrong-control support.",
+      "exists": true,
+      "sha256": "8e397b27935ee88f798e8fe812bc313f2ea31793dbc5e7b32f00bcba92d78d51"
+    },
+    {
+      "order": 5,
+      "artifact_id": "QP092A",
+      "role": "classifies split_loss=18 as unresolved tensor-carrier support, not matter",
+      "status": "PASS",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp092a_split_loss_tensor_carrier\\QP092A_SPLIT_LOSS_TENSOR_CARRIER_result.md",
+      "doc_rule": "Now downstream of CR114; do not present QP092A's predeclared identity as first source of 1/8.",
+      "exists": true,
+      "sha256": "5c691285b8edd3e0a46684b9b0f1182aaf3b7a78ce86bae1fb84450f3bfd783a"
+    },
+    {
+      "order": 6,
+      "artifact_id": "QP092F",
+      "role": "packetizes carrier into two massless tensor modes",
+      "status": "PASS",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp092f_tensor_carrier_wave_mode\\QP092F_TENSOR_CARRIER_WAVE_MODE_result.md",
+      "doc_rule": "Use for plus/cross 1/16 + 1/16 support and non-matter wave-mode guardrail.",
+      "exists": true,
+      "sha256": "fe877ae6a166c8ba7ae508271cbf5198e6ba96f94d73111f87ad1a8d70ba7b82"
+    },
+    {
+      "order": 7,
+      "artifact_id": "QP092G",
+      "role": "bridges weak field, A=1 boundary, and unresolved quantum support",
+      "status": "PASS",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp092g_tensor_carrier_bridge_packet\\QP092G_TENSOR_CARRIER_BRIDGE_PACKET_result.md",
+      "doc_rule": "Use for A=1 closure: 7/8 + 1/16 + 1/16 = 1.",
+      "exists": true,
+      "sha256": "b180fd18ef7aba943d336cf166a929294c661342e720d64d22a479a1575945a5"
+    },
+    {
+      "order": 8,
+      "artifact_id": "QP091X",
+      "role": "adjacent surface-coefficient scan; does not close general S_debit magnitude law",
+      "status": "PASS_WITH_OPEN_LAW",
+      "source_path": "C:\\VS\\quantum_phase\\artifacts\\qp091x\\QP091X_result.md",
+      "doc_rule": "Use as caution: Higgs parent/surface is closed; general particle S_debit magnitude remains open.",
+      "exists": true,
+      "sha256": "acc5c41a79bb8ebe32f9b354d6c85fec8207b696a94a7dd1b58ebc445ca1998f"
+    }
+  ]
+}

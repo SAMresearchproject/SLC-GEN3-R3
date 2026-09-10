@@ -1,0 +1,13 @@
+CR002@20_NEUTRINO_ORDERING_FROM_SUBSTRATE_STRUCTURE
+Branch: 20_NEUTRINO_SELECTOR
+Sealed by: Sean Brady, 2026-06-26
+Verdict: PASS (normal ordering forced by substrate ratios; r_3 > r_2 > r_1 trivially under base_eV > 0)
+
+Local artifacts (SHA-256):
+  076979401c06c7af8d979549ccc26f7838d6a91c5eb5047858639a57d035d72a  CR002_PRECOMMIT.md
+  136cb33bccb286e21dddb79d48304b327cdedf4145937655a4d5b700c2f02520  CR002_result.md
+
+Upstream provenance:
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  ab1e1e5030dc09a171c2699c5c1f3274d1790f4a79315915b3e076ffe2454e5b  docs/SAM_VOLUME_I_SUBSTRATE.md
+  8e6cb1975cd7d2084ffbbf2c215472d2ef8042fae18b68e76b74b94dc4281c77  CR001@20 PRECOMMIT (sealed substrate ratios)

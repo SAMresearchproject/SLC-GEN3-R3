@@ -1,0 +1,74 @@
+{
+  "record_id": "CR120U_QP093A_TYPED_MOTIF_OCTAHEDRAL_INCIDENCE_DISCOVERY",
+  "sealed_utc": "2026-07-14T21:37:36Z",
+  "source_policy": "Only these files may be opened by the result runner. Binding observations and 81-membership are forbidden selectors.",
+  "sources": [
+    {
+      "path": "QP093A_321_ROW_BUCKET_MAP (1).csv",
+      "bytes": 82518,
+      "sha256": "cf137f6b861f0348f0f84eba521ffd5291b19a178bea2064bad1de9b145a8597",
+      "role": "operative_321_row_typed_grammar"
+    },
+    {
+      "path": "QP093A_321_ROW_STRUCTURAL_INTERPRETATION.md",
+      "bytes": 6862,
+      "sha256": "548f2ef8814cf6d965830e3b6d8ba550a651b4dda6eefbbadd3da2da9bed26cc",
+      "role": "constructive_hypothesis_context"
+    },
+    {
+      "path": "C:/Users/drwho/OneDrive/Desktop/shapes.pdf",
+      "bytes": 321318,
+      "sha256": "82f838ed32f2145a7a23c770e9eef43466c422cca90d9d70a5f8b4e49ecb7feb",
+      "role": "instance_incidence_requirements"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv",
+      "bytes": 305303,
+      "sha256": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+      "role": "original_321_row_source_reconciliation_only"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_typed_S8_contract.json",
+      "bytes": 912,
+      "sha256": "cdab540d366777e76b762c472189a5df1d188557229323b5bc241b234d605665",
+      "role": "frozen_S8_octahedral_type_contract"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_binary_state_face_bijection.csv",
+      "bytes": 762,
+      "sha256": "26cf529652986d71fd763683811a1a766320d0a339af00bdb39c7dfb34edaf03",
+      "role": "frozen_eight_sign_face_states"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_cube_octahedron_counts.csv",
+      "bytes": 188,
+      "sha256": "ff539a6d69587151a50ade57a1875669f840a09f0cfd0a3e9e2dfbe3cd42ceae",
+      "role": "frozen_cube_octahedron_duality_counts"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR218_HIDDEN_SOURCE_BIGRADE_DERIVATION/CR218_declared_premises.json",
+      "bytes": 2232,
+      "sha256": "2df616fa3deb7e763618b99259a0af297f6033850fd449a06cba1af0bee20370",
+      "role": "frozen_hidden_support_alphabet_derivation"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/BINDING_FEATURE_DEFINITIONS.json",
+      "bytes": 914,
+      "sha256": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+      "role": "binding_leakage_and_forbidden_coefficient_boundary_only"
+    },
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260714_163223_no_script.json",
+      "bytes": 7724,
+      "sha256": "5f16bbd4fadaffda94e5795df5df929b4160d3a5071d6bfe74f047f18252c6fb",
+      "role": "task_specific_constructive_preflight"
+    }
+  ],
+  "forbidden_inputs": [
+    "observed binding-energy tables",
+    "CR274 or CR277 prediction and residual tables",
+    "isotope-specific targets",
+    "current 81-row membership as a geometry selector",
+    "candidate-ID whitelists for shape selection"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test_id": "CR053_QN_NETWORK_GRAMMAR_LINK_RELAY_ROUTING",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QN001_summary.json",
+    "../_source_artifacts/summaries/QN002_summary.json",
+    "../_source_artifacts/summaries/QN003_summary.json",
+    "../_source_artifacts/summaries/QN004_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qn001-qn004 freeze the network grammar and select link, relay, and paul revere routing protocols."
+}

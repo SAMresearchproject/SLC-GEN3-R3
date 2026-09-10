@@ -1,0 +1,195 @@
+{
+  "precommit_sha256": "6310c00f6f74de36475c0edbf7331f0f41960098983ee90adff5449063ae0697",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "verdict_case": "PASS",
+  "verdict_token": "CR035A2_PASS_SAM_DENSITY_SPINE_REPRODUCES_PLANCK_TT_FULL_PER_MULTIPOLE_SHAPE_AT_PEAK_AND_FULL_SHAPE_TOLERANCES",
+  "triage_bin": "A",
+  "free_parameters_introduced_RunA": 0,
+  "external_perturbation_disclosed": true,
+  "prior_CR_result_inputs": false,
+  "forbidden_files_opened": false,
+  "CR035A_files_opened": false,
+  "opened_paths_count": 1,
+  "engine": "CAMB",
+  "engine_version": "1.6.6",
+  "peak_finder_spec": "windows_plus_prominence",
+  "peak_finder_windows": [
+    [
+      150,
+      300
+    ],
+    [
+      400,
+      650
+    ],
+    [
+      700,
+      900
+    ]
+  ],
+  "peak_finder_prominence_muK2": 50.0,
+  "peak_finder_smoothing_sigma_ell": 5.0,
+  "substrate": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "Omega_c": 0.26901087491768993,
+    "H_0": 68.76,
+    "h": 0.6876000000000001,
+    "ombh2": 0.023308264900782142,
+    "omch2": 0.12718666303322435
+  },
+  "external_perturbations": {
+    "A_s": 2.1e-09,
+    "n_s": 0.9649,
+    "tau": 0.0544,
+    "N_eff": 3.046,
+    "T_CMB": 2.7255,
+    "k_pivot": 0.05
+  },
+  "Planck_files": {
+    "TT": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-TT-full_R3.01.txt",
+    "TE": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-TE-full_R3.01.txt",
+    "EE": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-EE-full_R3.01.txt"
+  },
+  "sample": {
+    "n_TT_bins": 2471,
+    "n_TE_bins": 1967,
+    "n_EE_bins": 1967,
+    "ell_min": 30,
+    "ell_max": 2500
+  },
+  "runA": {
+    "chi2_TT": 3327.0128123221857,
+    "dof_TT": 2471,
+    "chi2_per_dof_TT": 1.3464236391429323,
+    "chi2_TE": 2348.8781943110553,
+    "dof_TE": 1967,
+    "chi2_per_dof_TE": 1.1941424475399365,
+    "chi2_EE": 2212.062392345144,
+    "dof_EE": 1967,
+    "chi2_per_dof_EE": 1.1245868796874143,
+    "P1a_pass": true,
+    "P1b_pass": false,
+    "P1c_pass": true,
+    "P1_pass": true,
+    "P1_n_pass": 2,
+    "P1_first_peak_delta_ell": 0.0,
+    "P1_2nd_3rd_peak_delta_ell": [
+      13.0,
+      8.0
+    ],
+    "P1_height_ratios": [
+      {
+        "theory": 0.44131530425888643,
+        "planck": 0.442982644822761
+      },
+      {
+        "theory": 0.4467351790990907,
+        "planck": 0.43518353202486276
+      }
+    ],
+    "P1_height_ratio_pass_each": [
+      true,
+      true
+    ],
+    "P2_band": "PASS",
+    "P2_chi2_TT_over_dof": 1.3464236391429323,
+    "polarization_debt_runA": false,
+    "peaks_theory": [
+      {
+        "window": [
+          150,
+          300
+        ],
+        "ell": 219.0,
+        "H_smoothed": 5636.327923987023,
+        "prominence": 4149.8549879124475,
+        "detected": true
+      },
+      {
+        "window": [
+          400,
+          650
+        ],
+        "ell": 533.0,
+        "H_smoothed": 2487.3977726771905,
+        "prominence": 710.4472708525122,
+        "detected": true
+      },
+      {
+        "window": [
+          700,
+          900
+        ],
+        "ell": 806.0,
+        "H_smoothed": 2517.9459645835486,
+        "prominence": 861.8139005966898,
+        "detected": true
+      }
+    ],
+    "peaks_planck": [
+      {
+        "window": [
+          150,
+          300
+        ],
+        "ell": 219.0,
+        "H_smoothed": 5826.3751379619425,
+        "prominence": 4391.0163007257015,
+        "detected": true
+      },
+      {
+        "window": [
+          400,
+          650
+        ],
+        "ell": 520.0,
+        "H_smoothed": 2580.9830683439604,
+        "prominence": 859.2546435969532,
+        "detected": true
+      },
+      {
+        "window": [
+          700,
+          900
+        ],
+        "ell": 814.0,
+        "H_smoothed": 2535.542511440125,
+        "prominence": 745.9563133366323,
+        "detected": true
+      }
+    ]
+  },
+  "runB": {
+    "A_s_optimized": 2.139684770060327e-09,
+    "n_s_optimized": 0.9681667337345483,
+    "tau_optimized": 0.050990670638726095,
+    "sigma_dev_As": 1.3228256686775552,
+    "sigma_dev_ns": 0.7777937463210316,
+    "sigma_dev_tau": -0.46703141935258935,
+    "chi2_TT_at_optimum": 2935.7867019703576,
+    "dof_TT_at_optimum": 2471,
+    "chi2_per_dof_TT_at_optimum": 1.188096601363965,
+    "chi2_TE_at_optimum": 2340.6437084272047,
+    "dof_TE_at_optimum": 1967,
+    "chi2_per_dof_TE_at_optimum": 1.1899561303646187,
+    "chi2_EE_at_optimum": 2170.878337679522,
+    "dof_EE_at_optimum": 1967,
+    "chi2_per_dof_EE_at_optimum": 1.1036493836703212,
+    "within_5sigma_planck_posterior": true,
+    "optimization_chi2_TT_in_band": true,
+    "polarization_sanity_TE": true,
+    "polarization_sanity_EE": true,
+    "optimizer_converged": true,
+    "optimizer_nfev": 16,
+    "optimizer_nit": 2,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  }
+}

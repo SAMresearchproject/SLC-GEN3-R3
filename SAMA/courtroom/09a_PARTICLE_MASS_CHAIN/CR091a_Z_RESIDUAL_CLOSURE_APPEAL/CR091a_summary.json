@@ -1,0 +1,87 @@
+{
+  "cr_id": "CR091a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "test_class": "APPEAL_TO_CR091_Z_RESIDUAL_VIA_QP087_BOUNCE_SUBSLOT",
+  "execution_status": "CLEAN",
+  "result_class": "CR091a_Z_RESIDUAL_CLOSURE_APPEAL_PASS",
+  "structural_closure": {
+    "z_pred_QP075_MeV": 91161.5,
+    "z_observed_LEP_MeV": 91187.6,
+    "z_residual_before_MeV": -26.10000000000582,
+    "q_subslot_grid": -0.16666666666666666,
+    "G435_r_unit": 0.0016578639905405765,
+    "r_correction": 0.00027631066509009605,
+    "z_corrected_MeV": 91186.6888946956,
+    "z_residual_after_MeV": -0.9111053044034634,
+    "original_sigma": 12.4285714285742,
+    "final_sigma": 0.433859668763554,
+    "lep_uncertainty_MeV": 2.1
+  },
+  "predictions": [
+    {
+      "name": "P1_qp087_z_row_subslot_grid_match",
+      "pass": true,
+      "details": {
+        "q_eff_measured": -0.17264572272624146,
+        "nearest_grid": "-2/12",
+        "grid_value": -0.16666666666666666,
+        "grid_error": 0.0059790560595748,
+        "inside_native_subslot_band": "True"
+      }
+    },
+    {
+      "name": "P2_sub_slot_correction_closes_residual_within_lep_uncertainty",
+      "pass": true,
+      "details": {
+        "original_sigma": 12.4285714285742,
+        "final_sigma": 0.433859668763554,
+        "z_corrected_to_observed_MeV": 91186.6888946956,
+        "z_observed_MeV": 91187.6,
+        "final_residual_MeV": -0.9111053044034634,
+        "interpretation": "structural correction via q_subslot = -1/6 closes the 12-sigma residual to a fraction of a sigma"
+      }
+    },
+    {
+      "name": "P3_zero_free_parameters_in_closure",
+      "pass": true,
+      "details": {
+        "constants_used": [
+          "A0",
+          "D=3",
+          "G435_r_unit",
+          "q_subslot = -2/12 from QP087 grid"
+        ],
+        "no_fit": true
+      }
+    },
+    {
+      "name": "P4_cr091_verdict_untouched",
+      "pass": true,
+      "details": {
+        "CR091_verdict_immutable": true
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_subslot_must_be_native_grid_point",
+      "pass": true,
+      "details": {
+        "nearest_grid": "-2/12"
+      }
+    },
+    {
+      "name": "WC2_correction_sign_must_close_not_widen",
+      "pass": true,
+      "details": {
+        "before_MeV": 26.10000000000582,
+        "after_MeV": 0.9111053044034634
+      }
+    }
+  ],
+  "appeal_lock_sha256": "cbb7e8411b17fc788f9266f615d4a7401ecb04b7b4c893b4f2b74605b0248ff0",
+  "open_debts": [
+    "CR091 verdict remains immutable; this appeal is an interpretation update",
+    "Curator sign-off pending"
+  ]
+}

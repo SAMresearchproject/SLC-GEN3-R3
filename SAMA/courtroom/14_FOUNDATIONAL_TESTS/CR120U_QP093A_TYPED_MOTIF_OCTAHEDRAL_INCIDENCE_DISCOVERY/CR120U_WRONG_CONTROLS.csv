@@ -1,0 +1,13 @@
+﻿control_id,hypothesis,observed,expected,rejected,boundary
+WC1_TETRA_ORIGIN,one triad plus p=0 origin forms the cell,V/E/F=4/6/4; p=0 absent from alphabet and one-body source,reject single-triad source-complete SAM mapping,True,valid tetrahedral polyhedron; source-incomplete operator
+WC2_FOUR_LABEL_TETRA,one source triad directly supplies a four-label tetrahedron,requires four partition labels and four triad face motifs,reject as one-triad/one-cell operator,True,tetrahedral geometry not globally excluded
+WC3_CUBE,one triad supplies a cube with triangular three-body faces,V/E/F=8/12/6; cube faces are quadrilateral,retain as CR117 dual; reject triangular-face operator,True,cube duality preserved
+WC4_COUNT_PRESERVING_SCRAMBLE,any graph with 6 vertices and 12 edges is octahedral incidence,"degree_sequence=[2, 4, 4, 4, 5, 5]",reject because every octahedral vertex must have degree 4,True,counts alone are insufficient
+WC5_COLLAPSE_EQUAL_LABELS,equal partition labels are identical vertex instances,64 repeated-label triads would collapse below six vertices,reject occurrence collapse,True,axis instance identity is load-bearing
+WC6_ALL_64_PAIRS_AS_ONE_CELL_EDGES,all ordered pair rows are edges of one cell,E=64 instead of 12,reject global-row-as-instance collapse,True,pair rows are reusable motif types
+WC7_TRIAD_ROW_IS_ONE_FACE,each triad row is one isolated literal face,F=1 per source row instead of 8 oriented face instances,reject row/instance collapse,True,triad row is a face-family/cell template
+WC8_HIDDEN_ROW_ORDER_TO_FACE,sort eight hidden rows and assign them to eight sign faces,no source field maps partition value to binary sign state,reject untyped row-order permutation,True,hidden rows define admissible coordinate alphabet
+WC9_CARRIER_ROW_ORDER_TO_VERTEX,sort six carrier rows and assign them to signed-axis vertices,no frozen opposite-pair or axis-sign incidence field,reject count-only carrier assignment,True,carrier-to-vertex typing remains open
+WC10_WRONG_RADIX_R10,replace native R=12 with decimal ten,"alphabet=[1, 2, 3, 4, 6, 8, 9]; size=7; triads=84; E_oct=12","reject: alphabet size 7, triads 84, and E does not equal R",True,native radix remains 12 decimal
+WC11_USE_81_MEMBERSHIP,use current 81 membership to select cell geometry,field exists in source but is absent from used geometry columns,reject leakage,True,81 projection remains downstream
+WC12_BINDING_RESIDUAL_RANKING,rank shapes by observed binding residual in this run,no binding observation source is present in the source manifest,reject leakage,True,binding formula not run

@@ -1,0 +1,7 @@
+control,expected,observed,passed
+use_known_labels_as_construction_inputs,REJECT,REJECT,True
+reveal_all_particle_rows_as_known_particles,REJECT,REJECT,True
+promote_Z119_Z126_to_known_elements,REJECT,REJECT,True
+ignore_QP093B_null_conjugate_override,REJECT,REJECT,True
+treat_qA_as_mass,REJECT,REJECT,True
+promote_tensor_carrier_to_particle_row,REJECT,REJECT,True

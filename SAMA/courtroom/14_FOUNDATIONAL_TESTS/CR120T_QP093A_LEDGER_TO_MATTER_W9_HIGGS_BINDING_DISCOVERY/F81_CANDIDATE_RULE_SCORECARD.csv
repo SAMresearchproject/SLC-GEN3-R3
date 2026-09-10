@@ -1,0 +1,6 @@
+﻿rule_id,max_depth,accuracy,exceptions,selected_rows_reported_after_rule,selected_M_native_sum_reported_after_rule,tree_nodes,conjugate_symmetry_fraction,description_score,uses_candidate_ids,uses_target_count_or_sum,uses_M_native
+F81_TREE_DEPTH_2,2,0.9047619047619048,12,89,15296.625,7,1.0,93.72619047619048,False,False,False
+F81_TREE_DEPTH_3,3,0.9285714285714286,9,86,14774.625,13,1.0,94.60714285714286,False,False,False
+F81_TREE_DEPTH_4,4,0.9603174603174603,5,84,14072.625,21,1.0,95.78174603174604,False,False,False
+F81_TREE_DEPTH_5,5,0.9761904761904762,3,84,14077.125,25,1.0,96.36904761904762,False,False,False
+F81_TREE_DEPTH_6,6,0.9761904761904762,3,84,14077.125,25,1.0,96.36904761904762,False,False,False

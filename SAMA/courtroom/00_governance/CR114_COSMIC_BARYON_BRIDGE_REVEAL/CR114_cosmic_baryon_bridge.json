@@ -1,0 +1,76 @@
+{
+  "bridge_id": "CR114_COSMIC_BARYON_OMEGA_B_RETROACTIVE_BRIDGE",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_07_13_14",
+  "sealed_at_utc": "2026-06-14T03:21:37Z",
+  "honest_temporal_ordering": {
+    "CR018_sealed_before_CR111": true,
+    "consequence": "this is NOT a forward-blind reveal; CR111 was registered without bridging to CR018",
+    "what_this_bridge_IS": "a retroactive Courtroom-level documentation that the structural derivation CR111_PRED_1 asked for already existed in branch 07",
+    "what_this_bridge_is_NOT": "a fresh prediction-then-reveal cycle; the prediction registry CR098a remains unmodified"
+  },
+  "CR018_structural_derivation": {
+    "source": "07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION",
+    "summary_sha256": "2810658911d7f7008c280febd53d1f27d93823f9c9e6362c58f06e66cf6c11a5",
+    "verdict": "CR018_PASS_A0_CHI_BARYON_INVENTORY_DERIVATION",
+    "scientific_verdict": "PASS",
+    "free_parameters_zero": true,
+    "A0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_b_derived": 0.049299011266100756,
+    "structural_inputs": "A0 = 1/(12 pi), horizon quotient chi, D = 3"
+  },
+  "CR108_planck_2018_anchor": {
+    "source": "14_FOUNDATIONAL_TESTS/CR108_PLANCK_OMEGA_B_ANCHOR_INTAKE",
+    "anchor_sha256": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "Omega_b_h2": 0.02237,
+    "Omega_b_h2_uncertainty": 0.00015,
+    "Omega_b_quoted": 0.0493,
+    "Omega_b_quoted_uncertainty": 0.00057,
+    "H0_km_s_Mpc": 67.36,
+    "h_squared": 0.45373695999999997
+  },
+  "quantitative_match": {
+    "path_A_omega_b_h2_comparison": {
+      "CR018_Omega_b_times_h2_planck": 0.022368783502886305,
+      "Planck_Omega_b_h2": 0.02237,
+      "delta": -1.216497113695758e-06,
+      "sigma": 0.008109980757971721,
+      "within_1_sigma": true
+    },
+    "path_B_omega_b_comparison_via_planck_h2": {
+      "CR018_Omega_b": 0.049299011266100756,
+      "Planck_Omega_b_h2_divided_by_h2": 0.049301692328524445,
+      "delta": -2.6810624236886516e-06,
+      "sigma": 0.004703618287173073,
+      "within_1_sigma": true
+    },
+    "path_C_direct_omega_b_comparison": {
+      "CR018_Omega_b": 0.049299011266100756,
+      "Planck_Omega_b_quoted": 0.0493,
+      "delta": -9.887338992403683e-07,
+      "sigma": 0.0017346208758602952,
+      "within_1_sigma": true
+    },
+    "all_paths_within_1_sigma": true
+  },
+  "CR111_PRED_1_status_update": {
+    "prediction_id": "CR111_PRED_1",
+    "registry_source": "13_CERN_INDEPENDENT_TESTS/CR098a (immutable)",
+    "registry_csv_sha256": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "status_before_CR114": "FORWARD_BLIND_AWAITING_UPSTREAM_Q_ARTIFACT",
+    "status_after_CR114": "RETROACTIVELY_BRIDGED_TO_PRIOR_SEALED_CR018_STRUCTURAL_DERIVATION",
+    "honest_limitation": "CR018 is not a Q-artifact; CR111 was specifically written to expect a Q-artifact. A genuine future Q-artifact closure remains an open and useful test."
+  },
+  "upstream_sha256": {
+    "CR018_summary.json": "2810658911d7f7008c280febd53d1f27d93823f9c9e6362c58f06e66cf6c11a5",
+    "CR023_summary.json": "ab88db5df8c0c90715c4e2c891fe256a81357a6e140131459ef39ce1b6378872",
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR111_cosmic_baryon_appeal_lock.json": "82d6913c614be2bd0def5329511ef2094ea134489d70a1cdb855e22dfe84a409",
+    "CR098a_phase_2_forward_blind_registry.csv": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR098a_prediction_commit.json": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe",
+    "CR113_cross_branch_phase_2_certificate.json": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "modifies_no_branch_artifact": true,
+  "free_parameters_total": 0
+}

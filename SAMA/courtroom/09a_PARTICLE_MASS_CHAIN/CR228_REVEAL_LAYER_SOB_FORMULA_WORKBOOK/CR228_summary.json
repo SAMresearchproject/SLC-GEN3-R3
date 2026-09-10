@@ -1,0 +1,46 @@
+{
+  "artifact": "CR228_REVEAL_LAYER_SOB_FORMULA_WORKBOOK",
+  "boundary": "Prediction rows remain formula-derived. Reveal fields are populated only on reveal sheets after the CR227 prediction workbook seal.",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "cr_id": "CR228",
+  "execution_status": "CLEAN",
+  "formula_count": 6033,
+  "generated_at_utc": "2026-06-21T04:49:41+00:00",
+  "prediction_workbook_sha256": "4a681da225ff94122c7167c3e852df6d636cd61b925297e39f76be45c160a020",
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260620_234941_CR228_runner.md",
+  "result_class": "CR228_PASS_REVEAL_LAYER_SOB_FORMULA_WORKBOOK__126_FORMULA_ROWS__REVEAL_FIELDS_POPULATED__Z79_GOLD_MASS_PRESENT__PREDICTION_SEAL_REFERENCED",
+  "reveal_counts": {
+    "mass_rows": 96,
+    "symbol_name_rows": 118
+  },
+  "rows": {
+    "native_formula_rows": 126,
+    "reveal_source_rows": 126,
+    "revealed_card_rows": 126
+  },
+  "sheets": [
+    "Constants",
+    "Hidden_Set",
+    "Shells",
+    "SOB_126",
+    "Reveal_Source_126",
+    "Revealed_Cards_126",
+    "Formula_Map",
+    "Input_Manifest",
+    "Checks"
+  ],
+  "workbook": "09a_PARTICLE_MASS_CHAIN/CR228_REVEAL_LAYER_SOB_FORMULA_WORKBOOK/CR228_reveal_layer_sob_formula_workbook.xlsx",
+  "z79": {
+    "Z": 79,
+    "atomic_mass_u": "196.966570",
+    "isotope_anchor": "Au-197",
+    "known_name": "Gold",
+    "known_symbol": "Au",
+    "mass_reveal_status": "REVEALED_QP061",
+    "matter_label": "Matter 196.967",
+    "name_symbol_reveal_status": "REVEALED",
+    "reference_clock": "stable",
+    "reveal_source": "CR119/CR220/QP061_AFTER_PREDICTION_SEAL"
+  }
+}

@@ -1,0 +1,4 @@
+slot,weight_baseline,weight_loaded,weight_decimal_baseline,weight_decimal_loaded,probability_baseline,probability_loaded,probability_decimal_baseline,probability_decimal_loaded,shift,shift_decimal
+a (carrier),1/4,1/4,0.250000,0.250000,1/4,4/17,0.250000,0.235294,-1/68,-0.014706
+b (envelope),1/2,9/16,0.500000,0.562500,1/2,9/17,0.500000,0.529412,1/34,+0.029412
+c (sensor),1/4,1/4,0.250000,0.250000,1/4,4/17,0.250000,0.235294,-1/68,-0.014706

@@ -1,0 +1,17 @@
+{
+  "installed_rule": "B_u_final=B_u_base+op_contribution",
+  "interpretation": "SIGNED_OPERATOR_CONTRIBUTION_NOT_UNIVERSAL_DEBIT",
+  "max_base_plus_contribution_error_MeV": "0.000001",
+  "max_stored_residual_error_MeV": "0.000001",
+  "nonzero_rows_rejecting_forced_minus_rule": 21,
+  "observed_rows_checked": 118,
+  "operator_contribution_counts": {
+    "negative": 14,
+    "positive": 7,
+    "zero": 105
+  },
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "rows_checked": 126,
+  "stored_residual_sign": "residual_MeV=B_u_final-B_u_obs",
+  "tolerance_MeV": "0.000002"
+}

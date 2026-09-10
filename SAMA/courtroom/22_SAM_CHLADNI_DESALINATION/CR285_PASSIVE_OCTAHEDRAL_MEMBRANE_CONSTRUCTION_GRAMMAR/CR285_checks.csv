@@ -1,0 +1,36 @@
+﻿check_id,requirement,actual,passed
+C01,Courtroom preflight metadata is present,file=True token=True,true
+C02,All precommitted CR285 contract files match SHA-256,6/6,true
+C03,Exactly 17 local sources are frozen,17,true
+C04,Every frozen source matches bytes and SHA-256,17/17,true
+C05,CR284 campaign intake is a clean PASS,PASS,true
+C06,CR120U operative shape result is PASS,PASS_QP093A_TRIAD_TO_OCTAHEDRAL_CELL_INCIDENCE_OPERATOR,true
+C07,CR120U geometry is V6 E12 F8 Euler2,"{'E': 12, 'Euler': 2, 'F': 8, 'V': 6}",true
+C08,CR120U open role assignments remain explicit,4,true
+C09,Exactly 120 source cells are loaded,120,true
+C10,Exactly 960 source faces are loaded,960,true
+C11,Exactly 720 source vertices are loaded,720,true
+C12,Exactly 1440 source edges are loaded,1440,true
+C13,Exactly 120 incidence rows are loaded,120,true
+C14,Every cell passes frozen topology,120,true
+C15,Every incidence row passes frozen topology,120,true
+C16,Every cell has all eight signed face states,120,true
+C17,Exactly 960 directed gates construct,960,true
+C18,Exactly 480 undirected gate pairs construct,480,true
+C19,Every gate uses complementary faces,960,true
+C20,Every gate has vertex-disjoint ports,960,true
+C21,Every gate has edge-disjoint ports,960,true
+C22,Every gate preserves source provenance,960,true
+C23,Source 107/13 allowed/rejected split is preserved,107/13,true
+C24,Every source cell remains in the topology catalog,120,true
+C25,Acoustic lane is shelved not erased,SHELVED_NOT_RETIRED,true
+C26,Passive system excludes acoustic and Starbreaker selector fields,excluded,true
+C27,Gate catalog declares no acoustic dependency,all_false,true
+C28,Gate catalog declares no Starbreaker dependency,all_false,true
+C29,All species scores remain unemitted,all_unemitted,true
+C30,All physical scales remain open,all_open,true
+C31,Compatibility operator is coefficient-free and preserves ties,present,true
+C32,Unregistered interface remains context only,NOT_REGISTERED,true
+C33,Particle row-to-face geometry remains open,open,true
+C34,Seventeen wrong controls are frozen,17,true
+C35,Every wrong control has a disposition and falsifier,complete,true

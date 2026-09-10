@@ -1,0 +1,14 @@
+{
+  "commit_id": "CR103a_APPEAL_LOCK_COMMIT",
+  "predictions_file": "CR103a_predictions.csv",
+  "prediction_commit_sha256": "e3c1f650c328cdaee454a0f0f723dbd47c9fdab30e23876380f1e6ab5797894c",
+  "prediction_commit_utc": "2026-06-13T22:48:35Z",
+  "what_is_locked": "user's three-layer insight + four forward-blind predictions + terminology discipline (A0 const vs A field)",
+  "what_is_NOT_modified": [
+    "CR103 verdict (still CANDIDATE_4_SIMPLE_READING_DISFAVORED_BY_LHC)",
+    "CR100 question lock",
+    "CR101 / CR102 GATE_2 closures",
+    "any 09a CR result"
+  ],
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867"
+}

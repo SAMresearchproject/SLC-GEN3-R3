@@ -1,0 +1,40 @@
+field,value,units,notes
+R,12,,radix
+D,3,,dimension
+S,8,,split inventory
+alpha_H,2,,binary readout
+Theta,18,,tensor bridge alpha_H*D^2
+M,126,,matter capacity R^2-Theta
+F,81,,carrier face D^(D+1)
+L,162,,closed ledger alpha_H*F
+V,27,,resolved write cell D^3
+L_over_V,6,,ledger-to-write-cell reducer
+A_0,2.65258238486492242680e-02,,= 1/(12*pi) = V/(pi*alpha_H*L)
+chi,7.07355302630645887962e-02,,= (S/D)*A_0 = 2/(9*pi)
+Omega_b_SAM,4.92990112661007562345e-02,,= 2*A_0*(1-chi)
+Omega_m_SAM,3.18309886183790691216e-01,,= R*A_0 = 1/pi
+Omega_c_SAM,2.69010874917689934982e-01,,= Omega_m - Omega_b
+c,299792458.0,m/s,SI exact
+h_Planck,6.62607015e-34,J*s,SI exact 2019
+hbar (computed),1.05457181764615647200e-34,J*s,= h/(2*pi)
+k_B,1.380649e-23,J/K,SI exact 2019
+G,6.6743e-11,m^3/(kg*s^2),CODATA 2018
+Mpc,3.0856775815e+22,m,parsec-based
+m_p,1.67262192369e-27,kg,CODATA 2018
+T_CMB,2.7255,K,FIRAS
+N_eff,3.046,,standard
+n_gamma,4.1072684792e+08,1/m^3,Planck blackbody at T_CMB
+H_100,3.2407792894e-18,1/s,100 km/s/Mpc in SI
+rho_crit_h1,1.8783416169e-26,kg/m^3,Friedmann at h=1
+n_b_per_omega_b,1.1229923453e+01,1/m^3,rho_crit_h1 / m_p
+K_eta_to_omega_b (computed),2.734158604426320e-08,,eta = K * omega_b
+K standard literature,2.735e-8,,comparison only
+eta_SAM Path A,6.096089524484198e-10,,(M/(alpha_H^2*Theta)) * A_0^(L/V)
+eta_SAM Path B,6.096089524484197e-10,,7 / (4*(12*pi)^6)
+omega_b_SAM,2.229603474580904e-02,,eta_SAM / K_eta_to_omega_b
+h_SAM,6.725037519502037e-01,,sqrt(omega_b_SAM / Omega_b_SAM)
+H_0_SAM,6.725037519502037e+01,km/s/Mpc,= 100 * h_SAM
+z_eq_SAM,-1.0000000000e+00,,Omega_m * h^2 / (omega_gamma*(1+0.2271*N_eff)) - 1
+eta_reference,6.119000e-10,,Planck 2018 CMB-side
+eta_BBN_consensus,6.100000e-10,,E1 reporting only
+H_0_reference,67.36,km/s/Mpc,"Planck 2018 TT,TE,EE+lowE+lensing central"

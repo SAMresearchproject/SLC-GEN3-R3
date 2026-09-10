@@ -1,0 +1,3 @@
+let candidate: QPUnorderedTriadCandidate = QP_UNORDERED_TRIAD(QP_P1, QP_P3, QP_P8)
+let triad = QP_TRIAD_SURFACE_GATE(candidate)
+return triad

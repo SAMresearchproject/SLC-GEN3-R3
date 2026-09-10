@@ -1,0 +1,119 @@
+{
+  "campaign_id": "CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST",
+  "frozen_candidate": {
+    "label": "Theta",
+    "value": 18,
+    "type": "PrimaryCarrier",
+    "selection_timing": "BEFORE_MODEL_WIDE_STRESS_TEST"
+  },
+  "sources": [
+    {
+      "key": "CR114_SPLIT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_summary.json",
+      "sha256": "e3b1f4aad262c08d1ab6286fc6a14386cc89c32da9e00666f439e52eed47acfb",
+      "role": "independent split-loss and 1/8 carrier identity"
+    },
+    {
+      "key": "CR115_D3_UNIQUENESS",
+      "path": "14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM/CR115_summary.json",
+      "sha256": "18556fc6e49193cfae7bb1e9107f953e92d545ae648f5518a69298d8c1f70328",
+      "role": "D=3 invariant-carrier structural support"
+    },
+    {
+      "key": "CR116_RESULT",
+      "path": "14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM/CR116_result.md",
+      "sha256": "4385529ee82f863e5c2ac40ad2ce0114b71c84e3720d09d96d1fdde79bf07464",
+      "role": "Theta18 carrier theorem result"
+    },
+    {
+      "key": "CR116_SUMMARY",
+      "path": "14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM/CR116_summary.json",
+      "sha256": "e63c5821b7bb75dac6d975494d73b255aea691c773f4780b4523a0e09ab885ca",
+      "role": "machine-readable Theta18 theorem status"
+    },
+    {
+      "key": "CR116_SOURCE_CHAIN",
+      "path": "14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM/CR116_source_chain.csv",
+      "sha256": "0fd68ff20aaffd936eefaf04844f2a96062ba60ce9449560efd50f7df69af922",
+      "role": "carrier theorem provenance"
+    },
+    {
+      "key": "CR119_HIERARCHY",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "role": "canonical typed hierarchy and exact constants"
+    },
+    {
+      "key": "CR119_HANDOFF",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "role": "typed boundary contract"
+    },
+    {
+      "key": "CR229_LEDGER_IDENTITY",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY/CR229_summary.json",
+      "sha256": "85966d6240f6565cf040cf1726072c5b2093ad44894e2a1f84ed955ce2e2b765",
+      "role": "two-side ledger inclusion-exclusion route"
+    },
+    {
+      "key": "CR256_A_DEPTH_ROWS",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json",
+      "sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "role": "current A depth-law execution"
+    },
+    {
+      "key": "CR257B_A_THETA_DEPTH",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_summary.json",
+      "sha256": "0585d00bd2e11b9eb4e78a7bec88982475db6233e91869c18560e749ccc402a5",
+      "role": "corrected d=1 A/Theta contact"
+    },
+    {
+      "key": "CR267_W9",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+      "sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "role": "8+1 to 9 closure and axis fee"
+    },
+    {
+      "key": "CR268_M3",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR268_TENSOR_6_HEAVIEST_NEUTRINO_IDENTIFICATION/CR268_result.md",
+      "sha256": "c47ad4d79f0d3c0549bf0c979a55389f01e77c7dc075027ca1a0b891742066d3",
+      "role": "m3=6 alternative carrier role"
+    },
+    {
+      "key": "CR269_B_CONTACT",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_summary.json",
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "role": "B partition and 1/8 release"
+    },
+    {
+      "key": "CR270_ATOMS",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR270_SOURCE_COUNT_MEASURE_GKS_IDENTIFICATION/CR270_result.md",
+      "sha256": "9871b4766e999d079b5852ff50a46516e17a69124a30ddb4e85a055b288e4abb",
+      "role": "carrier atom mapping"
+    },
+    {
+      "key": "CR281_FUNCTIONAL_ROLES",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_summary.json",
+      "sha256": "3cb7d3cefe77ff76f778e173f83e305db0b5e42a6e58bae2c08e4ee31bf42aea",
+      "role": "current structural carrier-output family 6,9,18,54"
+    },
+    {
+      "key": "QP_CURRENT_BUCKET_MAP",
+      "path": "QP093A_321_ROW_BUCKET_MAP (1).csv",
+      "sha256": "cf137f6b861f0348f0f84eba521ffd5291b19a178bea2064bad1de9b145a8597",
+      "role": "current QP row typing"
+    },
+    {
+      "key": "STARBREAKER_RELATION_HISTORY",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SUMMARY.json",
+      "sha256": "0212beaa36e331a1fee8ec8f1d635b79e3569fa6e5dab1edf08347221e4c16b1",
+      "role": "current 96-scenario complete typed ledger history"
+    },
+    {
+      "key": "CR120X_PRIOR_DISCOVERY",
+      "path": "14_FOUNDATIONAL_TESTS/CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY/release/CR120X_SUMMARY.json",
+      "sha256": "04e398feec4718b5dec8d016055ce9985123b86dba05b6b3e1c171a1f5d2f18e",
+      "role": "prior narrow QP-row discovery result; input, not verdict target"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "envelope_id": "CR204a_HZZ4L_TOPOLOGY_ANCHOR_ENVELOPE",
+  "status": "topology_anchor_added_after_user_refinement",
+  "purpose": "Separate Higgs parent mass contact from the specific H -> ZZ* -> 4l resolved-parent topology.",
+  "topology": {
+    "parent": "Higgs boson",
+    "parent_observed_directly": false,
+    "intermediate_branches": ["Z_on_shell", "Zstar_off_shell"],
+    "visible_final_state": "four charged leptons",
+    "readout": "reconstructed invariant mass peak / m4l",
+    "sam_mapping": "unobserved parent -> two intermediate daughter branches -> four visible final-state leptons -> reconstructed parent invariant; hidden/source budget remains separate"
+  },
+  "anchors": [
+    {
+      "row_id": "H001",
+      "source": "CR092",
+      "publication_reference": "arXiv:2308.04775",
+      "experiment": "ATLAS",
+      "hzz4l_topology_anchor": true,
+      "topology_note": "Combined ATLAS Higgs mass measurement includes H -> ZZ* -> 4l and H -> gamma gamma channels."
+    },
+    {
+      "row_id": "H002",
+      "source": "CR092",
+      "publication_reference": "arXiv:2002.06398",
+      "experiment": "CMS",
+      "hzz4l_topology_anchor": false,
+      "topology_note": "Diphoton mass measurement; retained as CR092 parent-mass context but excluded as direct HZZ4l topology anchor."
+    },
+    {
+      "row_id": "H003",
+      "source": "CR092",
+      "publication_reference": "arXiv:1503.07589",
+      "experiment": "ATLAS+CMS",
+      "hzz4l_topology_anchor": true,
+      "topology_note": "Combined ATLAS/CMS Higgs mass measurement uses H -> gamma gamma and H -> ZZ -> 4l reconstructed invariant mass peaks."
+    },
+    {
+      "row_id": "EW004",
+      "source": "CR091",
+      "publication_reference": "Phys.Rept.427:257",
+      "experiment": "LEP combined",
+      "hzz4l_topology_anchor": true,
+      "topology_note": "External on-shell Z daughter mass anchor; Z precision residual remains separately recorded."
+    }
+  ],
+  "wrong_control_opportunities": [
+    "full SW directly observed",
+    "hidden/source budget added to visible invariant parent",
+    "diphoton-only parent row treated as HZZ4l topology anchor",
+    "four terminal leptons alone treated as parent closure",
+    "off-shell branch erased by forcing two on-shell Z daughters"
+  ]
+}

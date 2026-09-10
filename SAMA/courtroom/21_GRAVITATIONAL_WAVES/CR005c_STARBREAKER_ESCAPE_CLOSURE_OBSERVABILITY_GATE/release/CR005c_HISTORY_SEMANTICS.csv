@@ -1,0 +1,8 @@
+history_code,stored_stage_semantics,relation_count,ending_state,operational_class,physical_time_available
+001,"outside at seed, outside at collapse, inside at final",532911,contact,OTHER_STORED_HISTORY,False
+010,"outside at seed, inside at collapse, outside at final",40784995,open,TRANSIENT_CONTACT_THEN_ENDING_ZERO,False
+011,"outside at seed, inside at collapse, inside at final",1164692,contact,OTHER_STORED_HISTORY,False
+100,"inside at seed, outside at collapse, outside at final",142329,open,EARLY_EXIT_NO_STORED_RETURN,False
+101,"inside at seed, outside at collapse, inside at final",8340,contact,RETURNED_AFTER_OPEN_INTERVAL,False
+110,"inside at seed, inside at collapse, outside at final",18263921,open,LATE_EXIT_NO_STORED_RETURN,False
+111,"inside at seed, inside at collapse, inside at final",3355840,contact,OTHER_STORED_HISTORY,False

@@ -1,0 +1,10 @@
+check,passed,observed,expected
+a_side_locked,True,0.041666666666666664,1/24
+a_share_locked,True,0.08333333333333333,1/12
+five_arms_run,True,"['ARM_NONE', 'ARM_PR', 'ARM_FIXED_SCHEDULE_1_fires', 'ARM_RATE_MATCHED', 'ARM_SHUFFLED']",5 arms
+paired_arms_same_trial_count,True,"[500, 500, 500, 500, 500]",all 500
+PR_action_count_close_to_budget_target,True,|PR=499 - best_control=500| = 1,<= 25
+PR_beats_NONE_baseline,True,"Delta = +0.055682, CI low = +0.036671",Delta >= 0.01 AND CI low > 0 (intervention helps over no-intervention)
+PR_beats_SHUFFLED_negative_control,True,lower CI = +0.019209,> 0 (sensor's per-trial info matters; shuffling timing across trials degrades)
+PR_partial_demonstration,True,"win_vs_none=True, win_vs_shuf=True",True (both NONE and SHUFFLED beaten with practical effect)
+all_wcs_pass_as_failures,True,7/7,7

@@ -1,0 +1,16 @@
+{
+  "record_id": "CR210d_OCTAHEDRAL_COMPLETE_LEDGER_BOUNDARY_CLOSURE_APPEAL",
+  "task": "Execute CR210d as a fresh structural closure successor that preserves CR210c's fifteen passed gates as immutable historical evidence, tests the precommitted modulo-6 cross-kind boundary map with explicit boundary-domain, bijection, and involution guards, produces a current composite structural verdict, keeps PDG and binding closed, and stops after the frozen structural closure",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "parent_freeze": "PSLI_DF_20260715T025638Z",
+  "source_manifest_sha256": "c3b44ad7f40078f13a0b61abc676ac84a86c547bde7a7521b190fbcabf85812b",
+  "declared_premises_sha256": "f9c08cccc0bfa4b78428c0b3523ee22f2e17d2562ef88dfbd81ad6b9b87a93e8",
+  "precommit_sha256": "1698321236e276e3fb279ac19a1f8f3b1fc3a5daf903ff2ab8a3ba35d898223d",
+  "runner_sha256": "252ccd78c0520665b10f49297a830e4de12ddb2817f3bc65578fb31d777cd59c",
+  "source_count": 25,
+  "fresh_gate_count": 17,
+  "historical_passes_counted_as_fresh_evidence": false,
+  "execution_path": "tools/run_sam_test.py",
+  "execution_count": 1,
+  "generated_utc": "2026-07-15T04:49:07.259136+00:00"
+}

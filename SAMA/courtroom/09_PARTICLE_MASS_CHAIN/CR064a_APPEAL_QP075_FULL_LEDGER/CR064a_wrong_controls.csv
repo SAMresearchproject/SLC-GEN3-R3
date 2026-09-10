@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,PDG row residual perturbed to +2.0% (above strict),FAIL_APPEAL,True,True,above-strict detection wired
+WC2,Campaign row references phantom_operator,FAIL_APPEAL,True,True,orphan campaign-row detection wired
+WC3,Operator in inventory with no campaign-row reference,DIAGNOSTIC,True,True,orphan operator detection wired
+WC4,free_parameters_used = 1 anywhere,FAIL_APPEAL,True,True,free-params detection wired
+WC5,Corrupt SOURCE_MANIFEST.csv seal,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,CR062 or CR064 result file modification,FORBIDDEN_IMMUTABILITY_VIOLATION,True,True,immutability policy enforced; CR064a writes only its own outputs

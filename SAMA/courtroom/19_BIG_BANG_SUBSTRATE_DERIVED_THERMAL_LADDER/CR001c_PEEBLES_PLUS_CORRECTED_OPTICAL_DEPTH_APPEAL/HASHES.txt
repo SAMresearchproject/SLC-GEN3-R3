@@ -1,0 +1,28 @@
+CR001c@19_PEEBLES_PLUS_CORRECTED_OPTICAL_DEPTH_APPEAL
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER
+Sealed by: Sean Brady, 2026-06-26
+Verdict: PASS  (P1 +1.71%, P2 -1.68%, P3 -1.55%; all three gates pass at 5% threshold)
+z_*  DERIVED via Peebles+Thomson tau = 1073 (Planck 1090, -1.55%)
+z_d  DERIVED via baryon-drag tau     = 1056 (Planck 1060, -0.39%)
+
+Local artifacts (SHA-256):
+  64b17ea78ddcf1ecfeffbcd722abc4f7446aaaeea1140e105acc3cad2c053bb1  CR001c_PRECOMMIT.md
+  8f3ad594b53c6f118f712244b5d21a2294c6da68d5bc3eac4f1ffe3d00188ad6  CR001c_runner.py
+  70e3a473ddfa9bab9a4acab40aaa6a82a7a6cc195db9a1ea57e896416eb4fd34  CR001c_result.md
+  0599c3f4062c9e4d4d29dc792ffe53a2a0c4fa167ac7cba19ba922003e7d0cba  CR001c_summary.json
+  0be73e704b2b9e73c8f3804d827855d4adaa004d51fcda6818dd184d2e99b23f  CR001c_evidence_rows.csv
+  72340bd5e592b0104cc006b6f9e247e2d76f1205e3aa0d083a9fbbcd210ba567  CR001c_declared_premises.json
+  65d476d559c9f9b1bf093cea8ebf071a138b55acf0598888bb7bc031b3666285  CR001c_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+
+Branch audit trail (predecessor CRs sealed unchanged):
+  7aec7240daf98c9a99e010692ec97e9966b3221568977538b1917561c304bdff  CR001@19_PRECOMMIT.md   (Saha+Bug B; FAIL)
+  38259de487a8b3a31df787c7c5d5bed5e442c134472b74e3f5ad0a98d7ff991b  CR001b@19_PRECOMMIT.md  (Peebles+Bug B; FAIL)
+
+Internal cross-checks (same substrate; different recombination method):
+  bdd4dc29688af099a0ec5b6f47e4cb0e449f0ff36c45037e545bf76bb88879ce  CR018b_PRECOMMIT.md     (BAO r_d via EH fit)
+  ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da  CR019_PRECOMMIT.md       (CMB compressed via HS/EH fits)

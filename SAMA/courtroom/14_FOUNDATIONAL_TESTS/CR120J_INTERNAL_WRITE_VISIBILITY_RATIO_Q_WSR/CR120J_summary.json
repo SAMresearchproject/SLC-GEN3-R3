@@ -1,0 +1,84 @@
+{
+  "P80_status": "STRUCTURAL_ONLY_UNPOPULATED",
+  "Q_MIX_X1": "REJECTED",
+  "admissible_transformation_family_size": 5,
+  "calibration": {
+    "H_E1": {
+      "q_WSR": 1,
+      "status": "DEFINED"
+    },
+    "H_E2": {
+      "q_WSR": 1,
+      "status": "DEFINED"
+    },
+    "H_EMPTY": {
+      "q_WSR": null,
+      "status": "NULL_HISTORY"
+    },
+    "H_MIX": {
+      "q_WSR": "1/2",
+      "status": "DEFINED"
+    },
+    "H_X1": {
+      "q_WSR": 0,
+      "status": "DEFINED"
+    }
+  },
+  "collision_count": 30,
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "delay_rho_16": 1,
+  "disposition": "RESEARCH_BOUNDARY_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR_DEFINED_ON_ELIGIBLE_NONZERO_BUDGET_HISTORIES_EXACT_CALIBRATION_COLLISION_SCALE_AND_HELDOUT_AUDITS_PASS_PHYSICAL_MAPPING_OPEN",
+  "empirical_exposure": "NONE",
+  "heldout": {
+    "H_CANCEL": {
+      "q_WSR": null,
+      "status": "CANCELED_NONEMPTY"
+    },
+    "H_MIXED_4_1": {
+      "q_WSR": "4/5",
+      "status": "DEFINED"
+    },
+    "H_ORDER_MIX_A": {
+      "q_WSR": "2/3",
+      "status": "DEFINED"
+    },
+    "H_ORDER_MIX_B": {
+      "q_WSR": "2/3",
+      "status": "DEFINED"
+    },
+    "H_REPEAT": {
+      "q_WSR": 1,
+      "status": "DEFINED"
+    },
+    "H_RESIDUE_ACCUM": {
+      "q_WSR": "1/3",
+      "status": "DEFINED"
+    },
+    "H_STATE_CANCEL_WITH_RESIDUE": {
+      "q_WSR": 0,
+      "status": "DEFINED"
+    }
+  },
+  "isometric_scale_lock": "PASS",
+  "partial_statuses": [
+    "NULL_HISTORY",
+    "CANCELED_NONEMPTY",
+    "DEFINED"
+  ],
+  "physical_mapping": "OPEN_NOT_INSTALLED",
+  "q_semantic_type": "InternalWriteVisibilityRatio",
+  "q_symbol": "q_WSR",
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scale_controls": [
+    "1/5",
+    "1/2",
+    "4/5"
+  ],
+  "scientific_pass_claimed": false
+}

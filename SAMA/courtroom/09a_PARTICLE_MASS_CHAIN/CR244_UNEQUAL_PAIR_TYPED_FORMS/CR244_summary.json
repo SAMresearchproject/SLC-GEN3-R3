@@ -1,0 +1,242 @@
+{
+  "verdict": "STRONG_PASS",
+  "verdict_signature": "CR244_STRONG_PASS_UNEQUAL_PAIR_TYPED_FORMS_CLOSED__ORDINARY_30_OF_30_AND_OCTET_12_OF_12_EXACT_AT_2DEC_X_STORAGE__R4_DENOMINATOR_LOCKED__D2_OVER_R_OCTET_CORRECTION_LOCKED__ALL_WRONG_CONTROLS_DEGRADE_AS_PREDICTED",
+  "input_sha256": "7f5d9cc4c20f4bb62c3e40a4825c793ccc020fed72abb44ec17fe30406d8e4e5",
+  "precommit_sha256": "1c1bd7c69ce8edf88cd8c1c164f822eefeee431adf0532ae8b141b610f9b6182",
+  "substrate_atoms": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "R^4": 20736
+  },
+  "lane_forms": {
+    "ORDINARY": "sign(a-b) * (|a-b| + D) / R^4",
+    "OCTET": "sign(a-b) * (|a-b| + D^2/R) / R^4",
+    "OCTET_trigger": "a == 9 or b == 9"
+  },
+  "canonical_counts": {
+    "ORDINARY": {
+      "total": 30,
+      "x_round": 30,
+      "y_tol": 30
+    },
+    "OCTET": {
+      "total": 12,
+      "x_round": 12,
+      "y_tol": 12
+    }
+  },
+  "wrong_controls": [
+    {
+      "label": "WC-R1",
+      "description": "R = 10, D = 3",
+      "kwargs": {
+        "R_": 10
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 2,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-R2",
+      "description": "R = 11, D = 3",
+      "kwargs": {
+        "R_": 11
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 6,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-R3",
+      "description": "R = 13, D = 3",
+      "kwargs": {
+        "R_": 13
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 6,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-D1",
+      "description": "R = 12, D = 2",
+      "kwargs": {
+        "D_": 2
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 10,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-D2",
+      "description": "R = 12, D = 4",
+      "kwargs": {
+        "D_": 4
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 8,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 2,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-T1",
+      "description": "Trigger swap (ORDINARY <-> OCTET)",
+      "kwargs": {
+        "trigger_swap": true
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 4,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-A1",
+      "description": "Alternate denominator R^3 = 1728",
+      "kwargs": {
+        "denom_override": 1728
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 0,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 0,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-A2",
+      "description": "Alternate denominator R^2 * M = 18144",
+      "kwargs": {
+        "denom_override": 18144
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 12,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 2,
+          "total": 12,
+          "degraded": true
+        }
+      }
+    },
+    {
+      "label": "WC-A3",
+      "description": "ORDINARY numerator (|a-b| + D^2) instead of (|a-b| + D)",
+      "kwargs": {
+        "ordinary_numer_offset": 9
+      },
+      "degrades_any_lane": true,
+      "per_lane": {
+        "ORDINARY": {
+          "canonical_x_round": 30,
+          "perturbed_x_round": 2,
+          "total": 30,
+          "degraded": true
+        },
+        "OCTET": {
+          "canonical_x_round": 12,
+          "perturbed_x_round": 12,
+          "total": 12,
+          "degraded": false
+        }
+      }
+    }
+  ],
+  "strong_pass_conditions": {
+    "S1_ordinary_all_match": true,
+    "S2_octet_all_match": true,
+    "S3_R_perturbations_degrade_both": true,
+    "S4_D_perturbations_degrade_any": true,
+    "S5_trigger_swap_degrades_both": true,
+    "S6_alternate_forms_degrade": true
+  },
+  "fail_conditions": {
+    "F1_lane_form_fails": false,
+    "F2_substrate_constant_does_not_degrade": false,
+    "F3_trigger_swap_does_not_degrade": false
+  }
+}

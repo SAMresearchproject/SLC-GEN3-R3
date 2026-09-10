@@ -1,0 +1,182 @@
+{
+  "B_contact_alternative_preserved": true,
+  "axis_weld_boundary": "CR267 seals X1 axis self, but no source seals A acts through X1.",
+  "expected_precommit_sha256": "4b7e26853966830103d2e8407c293ac4dac5c3c141e297eb6940b75a2cb501ef",
+  "forecast_generated": false,
+  "language_or_meta_language_test": false,
+  "precommit_sha256": "4b7e26853966830103d2e8407c293ac4dac5c3c141e297eb6940b75a2cb501ef",
+  "primary_verdict": "BOUNDARY_A_OPERATOR_ROW_TRACE_PASS_AXIS_SELF_WELD_OPEN",
+  "prospective_record_class": "SCIENTIFIC_TEST",
+  "queue_maintenance_performed_by_research_agent": false,
+  "record_id": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "row_trace_chain": [
+    "CR119 row appears",
+    "CR215 numeric collision identified",
+    "CR216 row retired from active inventory",
+    "QP102 active-row restoration breaks ledger to 163",
+    "QP103 A belongs above ledger",
+    "CR256 A is non-row operator"
+  ],
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "scientific_result_status": "BOUNDARY",
+  "sealed_utc": "2026-07-12T07:10:36Z",
+  "source_hashes": [
+    {
+      "expected": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+      "observed": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv"
+    },
+    {
+      "expected": "80834e7202ccbc92bc8d134c025c9f3aa93d861a3838f49786aa4aabd0a430dd",
+      "observed": "80834e7202ccbc92bc8d134c025c9f3aa93d861a3838f49786aa4aabd0a430dd",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_result.md"
+    },
+    {
+      "expected": "76cdd987330b24ead18fa3dfc4b3979719165101ae0be8d07815604ef40e25f0",
+      "observed": "76cdd987330b24ead18fa3dfc4b3979719165101ae0be8d07815604ef40e25f0",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_result.md"
+    },
+    {
+      "expected": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98",
+      "observed": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv"
+    },
+    {
+      "expected": "c26dac2ac7b51a414ef538e52ed3a6e81f04e82fed71cbaec2ff51169d675522",
+      "observed": "c26dac2ac7b51a414ef538e52ed3a6e81f04e82fed71cbaec2ff51169d675522",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_signature_keys.csv"
+    },
+    {
+      "expected": "5fd583b8f4c600c78e9aea4446b2d93b22f2de6cba33ef7d3dfe082f25346b80",
+      "observed": "5fd583b8f4c600c78e9aea4446b2d93b22f2de6cba33ef7d3dfe082f25346b80",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_result.md"
+    },
+    {
+      "expected": "a7f8470710acb12f0aec6fb4a7e2de172f582682369984d474c6d83f2d3bf309",
+      "observed": "a7f8470710acb12f0aec6fb4a7e2de172f582682369984d474c6d83f2d3bf309",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_summary.json"
+    },
+    {
+      "expected": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610",
+      "observed": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_retirement_ledger.csv"
+    },
+    {
+      "expected": "35a9064ef95aa5d995a8e8dcb1104f9a20e87e0ecb3c4ed61af644f154594342",
+      "observed": "35a9064ef95aa5d995a8e8dcb1104f9a20e87e0ecb3c4ed61af644f154594342",
+      "ok": true,
+      "path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/QP102_TENSOR_SUM_LEDGER_CLOSURE_result.md"
+    },
+    {
+      "expected": "0642030260f7f1c61e04da20749f049f92634a9356cc61c8bd9f660e8682e180",
+      "observed": "0642030260f7f1c61e04da20749f049f92634a9356cc61c8bd9f660e8682e180",
+      "ok": true,
+      "path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/qp102_summary.json"
+    },
+    {
+      "expected": "f9c90d7434f20b60e1757a93e6caeac36556a90325ac521c6e332b4ff6ccafd7",
+      "observed": "f9c90d7434f20b60e1757a93e6caeac36556a90325ac521c6e332b4ff6ccafd7",
+      "ok": true,
+      "path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/QP103_A_FIELD_LOCATION_result.md"
+    },
+    {
+      "expected": "bb13b6338267a8b23905a73edd9c5cd3bfcfeb6d95b276db4c5adc2c247d21c4",
+      "observed": "bb13b6338267a8b23905a73edd9c5cd3bfcfeb6d95b276db4c5adc2c247d21c4",
+      "ok": true,
+      "path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/qp103_summary.json"
+    },
+    {
+      "expected": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da",
+      "observed": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY/CR229_result.md"
+    },
+    {
+      "expected": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "observed": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md"
+    },
+    {
+      "expected": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "observed": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json"
+    },
+    {
+      "expected": "0ecca62469c65246ecf88d2589c3d477353b1d7a1bb89eac098632b0d5c1fccd",
+      "observed": "0ecca62469c65246ecf88d2589c3d477353b1d7a1bb89eac098632b0d5c1fccd",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_per_row_predictions.csv"
+    },
+    {
+      "expected": "a7bcf6e77ffbc8b95c3cc8a80e006793dc73a287107ac561dce63d834350723e",
+      "observed": "a7bcf6e77ffbc8b95c3cc8a80e006793dc73a287107ac561dce63d834350723e",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_wrong_controls.csv"
+    },
+    {
+      "expected": "742ae8ded1253ff59a9e121887b7bddeac2a0538c58f7306c39366df29129b89",
+      "observed": "742ae8ded1253ff59a9e121887b7bddeac2a0538c58f7306c39366df29129b89",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_result.md"
+    },
+    {
+      "expected": "0585d00bd2e11b9eb4e78a7bec88982475db6233e91869c18560e749ccc402a5",
+      "observed": "0585d00bd2e11b9eb4e78a7bec88982475db6233e91869c18560e749ccc402a5",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_summary.json"
+    },
+    {
+      "expected": "0adb50d8639a6f74dab1cdeae9be4f0e2433d1067ec3ce94a62f8f191a875c3f",
+      "observed": "0adb50d8639a6f74dab1cdeae9be4f0e2433d1067ec3ce94a62f8f191a875c3f",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_d1_predictions.csv"
+    },
+    {
+      "expected": "fa437797bdaf8b83249f8df9ed873c33bc0cc726d34149073e83d0c6fe58915f",
+      "observed": "fa437797bdaf8b83249f8df9ed873c33bc0cc726d34149073e83d0c6fe58915f",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_wrong_controls.csv"
+    },
+    {
+      "expected": "cfed8bffb08d88b1d3e8fe4435ffff8f402dd880f5bb8662d274b4d85d37c8d9",
+      "observed": "cfed8bffb08d88b1d3e8fe4435ffff8f402dd880f5bb8662d274b4d85d37c8d9",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION/CR266_result.md"
+    },
+    {
+      "expected": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "observed": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md"
+    },
+    {
+      "expected": "507002dd48dbcbea965c507bec65f65aebfcbe7956a8358aed348c2d9980cb1f",
+      "observed": "507002dd48dbcbea965c507bec65f65aebfcbe7956a8358aed348c2d9980cb1f",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_tensor9_roles.csv"
+    },
+    {
+      "expected": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1",
+      "observed": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md"
+    },
+    {
+      "expected": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "observed": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md"
+    }
+  ]
+}

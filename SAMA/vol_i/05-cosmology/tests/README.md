@@ -1,0 +1,68 @@
+# Related tests
+
+[Back to this branch](../README.md)
+
+- [SAM derived thermal ladder CMB and BBN](cr-cr001-19.md) — `CR:CR001@19`
+- [Peebles nonequilibrium recombination appeal](cr-cr001b-19.md) — `CR:CR001b@19`
+- [Peebles plus corrected optical depth appeal](cr-cr001c-19.md) — `CR:CR001c@19`
+- [Fate Hubble in readout distance via CR013 shrinkage](cr-cr002-19.md) — `CR:CR002@19`
+- [A horizon to A0 angular dimensional projection identity](cr-cr003-19.md) — `CR:CR003@19`
+- [Native typed ruler-road bridge derivation](cr-cr012-06.md) — `CR:CR012@06`
+- [SN luminosity ledger shrinkage](cr-cr013-06.md) — `CR:CR013@06`
+- [BAO ruler projection ledger shrinkage](cr-cr014-06.md) — `CR:CR014@06`
+- [SN/BAO independent ledger lock](cr-cr015-06.md) — `CR:CR015@06`
+- [CMB acoustic ruler photon-road ratio](cr-cr016-06.md) — `CR:CR016@06`
+- [Distance-road typed bridge closure (06 branch)](cr-cr017-06.md) — `CR:CR017@06`
+- [A0 / chi / baryon inventory derivation](cr-cr018-07.md) — `CR:CR018@07`
+- [SAM ZERO PARAMETER SN BAO DISTANCE VERDICT LADDER APPEAL](cr-cr018b-06.md) — `CR:CR018b@06`
+- [SAM ZERO PARAMETER CMB COMPRESSED GEOMETRY TEST](cr-cr019-06.md) — `CR:CR019@06`
+- [Effective matter inventory refinement](cr-cr019-07.md) — `CR:CR019@07`
+- [θ * Substrate-Lift Rule Audit — RESULT](cr-cr019b-06.md) — `CR:CR019b@06`
+- [Planck-lite CMB density and BBN contact](cr-cr021-07.md) — `CR:CR021@07`
+- [Precision-CMB extension (sam_precision_cmb)](cr-cr022-07.md) — `CR:CR022@07`
+- [Baryon inventory and cosmology branch verdict](cr-cr023-07.md) — `CR:CR023@07`
+- [PEAK FINDER AUDIT](cr-cr035a2-19.md) — `CR:CR035A2@19`
+- [SAM DENSITY SPINE CMB SHAPE](cr-cr035a-19.md) — `CR:CR035A@19`
+- [ETA SAM AND H0 SELECTOR](cr-cr036-19.md) — `CR:CR036@19`
+- [CMB SHAPE WITH H0 SAM](cr-cr036b-19.md) — `CR:CR036B@19`
+- [SAM PERTURBATION SELECTOR](cr-cr037a-19.md) — `CR:CR037A@19`
+- [PARAMETER FREE CMB SHAPE ATTEMPT](cr-cr037b-19.md) — `CR:CR037B@19`
+- [Parameter-Free CMB Shape on ACT DR4 -- RESULT](cr-cr037c-19.md) — `CR:CR037C@19`
+- [Branch 19 Verdict Zipper -- Parameter-Free CMB Shape -- RESULT](cr-cr038-19.md) — `CR:CR038@19`
+- [Cosmic-Budget Typed-Readout Promotion Result](cr-cr281-07.md) — `CR:CR281@07`
+- [Structural derivation of chi = 2^D/D x A 0 = 2/(9 pi)](g-g219.md) — `G:G219`
+- [Corrected Derivation Of Chi = 2/(9 Pi); Replaces Tautological G219](g-g219b.md) — `G:G219B`
+- [Monte Carlo structural confirmation with wrong controls](g-g219c.md) — `G:G219C`
+- [Horizon quotient measure under explicit symmetry axioms](g-g305.md) — `G:G305`
+- [Omega_m residual localization](g-g310.md) — `G:G310`
+- [D chi^2 Omega_m correction candidate](g-g312.md) — `G:G312`
+- [Directional-cumulant derivation of the D chi^2 term](g-g313.md) — `G:G313`
+- [Sn A Road Stretch Prior Prediction](g-g375-sam-archive.md) — `G:G375@SAM-ARCHIVE`
+- [Sam Cmb Parameter Card Freeze](g-g379.md) — `G:G379`
+- [Fixed Background Cmb Spectrum Smoke](g-g380.md) — `G:G380`
+- [Planck Lite Fixed Sam Densities](g-g381.md) — `G:G381`
+- [Cmb Peak Damping Polarization Residuals](g-g382.md) — `G:G382`
+- [Cmb Boltzmann Wrong Controls](g-g383.md) — `G:G383`
+- [Toe G22B Cmb Spectrum](g-g384.md) — `G:G384`
+- [H0 Density Closure Selector](g-g395-sam-archive.md) — `G:G395@SAM-ARCHIVE`
+- [Toe G23 Bbn Light Element Gate](g-g396.md) — `G:G396`
+- [Frozen Sn Distance Curve Preflight](g-g397-sam-archive.md) — `G:G397@SAM-ARCHIVE`
+- [SN Distance Residual Shape Diagnosis](g-g398-sam-archive.md) — `G:G398@SAM-ARCHIVE`
+- [SN Constant Offset Diagnostic](g-g398b-sam-archive.md) — `G:G398B@SAM-ARCHIVE`
+- [SN Constant Scale Origin Selector](g-g399-sam-archive.md) — `G:G399@SAM-ARCHIVE`
+- [SN Native Curvature After Scale](g-g400-sam-archive.md) — `G:G400@SAM-ARCHIVE`
+- [SN Native Source / Road Coupling](g-g401-sam-archive.md) — `G:G401@SAM-ARCHIVE`
+- [Z/A Effective Light-Speed Ruler](g-g688c-sam-archive.md) — `G:G688c@SAM-ARCHIVE`
+- [BAO Native Ruler Prediction Table](g-g689c-sam-archive.md) — `G:G689c@SAM-ARCHIVE`
+- [BAO Radial Derivative Turn Selector](g-g690c-sam-archive.md) — `G:G690c@SAM-ARCHIVE`
+- [Native SN/BAO Observable-Family Projection](g-g691c-sam-archive.md) — `G:G691c@SAM-ARCHIVE`
+- [Native BAO Scoring From G691c Projection](g-g692c-sam-archive.md) — `G:G692c@SAM-ARCHIVE`
+- [BAO Explicit c eff Native Distance Conversion](g-g693c-sam-archive.md) — `G:G693c@SAM-ARCHIVE`
+- [Native Average Speed Ruler Lanes](g-g694c-sam-archive.md) — `G:G694c@SAM-ARCHIVE`
+- [Native SN/BAO No-Dark-Energy Distance Curves](g-g695c-sam-archive.md) — `G:G695c@SAM-ARCHIVE`
+- [Native Distance z-Limit and EdS Decomposition](g-g696c-sam-archive.md) — `G:G696c@SAM-ARCHIVE`
+- [Native Distance Effective CPL Coordinate](g-g697c-sam-archive.md) — `G:G697c@SAM-ARCHIVE`
+- [Native Distance Coupling / F AP / z Split / DESI Overlay](g-g698c-sam-archive.md) — `G:G698c@SAM-ARCHIVE`
+- [Baryon And Matter Inventory Replay](lc-lc06.md) — `LC:LC06`
+- [SN/BAO Distance Road Replay](lc-lc07.md) — `LC:LC07`
+- [Black-Hole Horizon Thermodynamic Replay](lc-lc11.md) — `LC:LC11`

@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Fit on A_exposure,FAIL,True,True,fit-scan wired
+WC2,Absent A_exposure pattern,DIAGNOSTIC,True,True,absence detection wired
+WC3,Absent A_route accumulation,BOUNDARY,True,True,absence detection wired
+WC4,Missing G286 test,BOUNDARY,True,True,missing-test detection wired
+WC5,Seal corruption,DIAGNOSTIC,True,True,seal wired
+WC6,A_exposure in comment context,PRESENCE_RECORDED,True,True,presence-only

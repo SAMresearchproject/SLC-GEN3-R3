@@ -1,0 +1,776 @@
+{
+  "F81": {
+    "candidate_ids_used_by_selector": false,
+    "conjugate_mismatches": [],
+    "conjugate_pairs_tested": 42,
+    "contract_id": "CR120T_F81_FROZEN_SOURCE_TYPED_RULE_V1",
+    "current_membership_opened_or_used": false,
+    "domain_rows": 126,
+    "gates": {
+      "V_F81_0_HASH": true,
+      "V_F81_1_FIREWALL": true,
+      "V_F81_2_SHUFFLE": true,
+      "V_F81_3_VALUE_BLIND": true,
+      "V_F81_4_CONJUGATE": true,
+      "V_F81_5_EXACT": false,
+      "V_F81_6_TYPED_CONTROLS": true
+    },
+    "second_workbook_parsed": false,
+    "selected_M_native_sum_post_rule": "14077.125",
+    "selected_count_post_rule": 84,
+    "selector_predicate_features": [
+      "bin",
+      "g",
+      "p",
+      "q_sign",
+      "same_role"
+    ],
+    "source_sheet": "Particle Stability Blocks",
+    "source_typed_8_plus_1_to_9": true,
+    "status": "PARTIAL_SOURCE_TYPED_RULE",
+    "target_count_or_sum_used_by_selector": false,
+    "value_columns_used_by_selector": false
+  },
+  "QP093A_0066_status": "CLOSURE_BUDGET_UNIT_CELL_CAUSAL_EXCLUSION_OPEN",
+  "QP093A_0299_status": "HIGGS_REVEAL_PARENT_CANONICAL_126000_CONTROLS",
+  "accounting_ladder_status": "PASS_EXACT",
+  "binding": {
+    "CR261": {
+      "all55_baseline": {
+        "MAE_MeV": 2.0840705789579084,
+        "RMS_MeV": 2.716039627696933,
+        "max_abs_MeV": 7.2539503902268265,
+        "mean_pred_minus_obs_MeV": -0.08071365518981127,
+        "n": 55,
+        "within_15": 55,
+        "within_30": 55,
+        "within_5": 50,
+        "within_8": 55
+      },
+      "all55_candidate": {
+        "MAE_MeV": 2.312957904320304,
+        "RMS_MeV": 3.166128953056739,
+        "max_abs_MeV": 12.021809423672394,
+        "mean_pred_minus_obs_MeV": 0.42226300637912656,
+        "n": 55,
+        "within_15": 55,
+        "within_30": 55,
+        "within_5": 50,
+        "within_8": 54
+      },
+      "test_baseline": {
+        "MAE_MeV": 2.2947769507875826,
+        "RMS_MeV": 3.0171130679193108,
+        "max_abs_MeV": 7.2539503902268265,
+        "mean_pred_minus_obs_MeV": 0.04050353967218445,
+        "n": 20,
+        "within_15": 20,
+        "within_30": 20,
+        "within_5": 17,
+        "within_8": 20
+      },
+      "test_candidate": {
+        "MAE_MeV": 2.88827962468926,
+        "RMS_MeV": 4.071613571192475,
+        "max_abs_MeV": 12.021809423672394,
+        "mean_pred_minus_obs_MeV": 1.0493001286770018,
+        "n": 20,
+        "within_15": 20,
+        "within_30": 20,
+        "within_5": 17,
+        "within_8": 19
+      },
+      "train_candidate": {
+        "MAE_MeV": 1.984202635538043,
+        "RMS_MeV": 2.5058773692704017,
+        "max_abs_MeV": 6.288323792868162,
+        "mean_pred_minus_obs_MeV": 0.06395607935176921,
+        "n": 35,
+        "within_15": 35,
+        "within_30": 35,
+        "within_5": 33,
+        "within_8": 35
+      }
+    },
+    "CR277": {
+      "anchors": {
+        "Au-197": {
+          "baseline_residual_pred_minus_obs_MeV": -3.7182749808261164,
+          "candidate_abs_residual_MeV": 3.1069259377189518,
+          "candidate_residual_pred_minus_obs_MeV": -3.1069259377189518
+        },
+        "Fe-56": {
+          "baseline_residual_pred_minus_obs_MeV": 1.230162835500522,
+          "candidate_abs_residual_MeV": 1.3255252753857079,
+          "candidate_residual_pred_minus_obs_MeV": 1.3255252753857079
+        },
+        "O-16": {
+          "baseline_residual_pred_minus_obs_MeV": 0.8917140657912359,
+          "candidate_abs_residual_MeV": 0.8917140657912359,
+          "candidate_residual_pred_minus_obs_MeV": 0.8917140657912359
+        },
+        "Pb-208": {
+          "baseline_residual_pred_minus_obs_MeV": -0.00022999999999839815,
+          "candidate_abs_residual_MeV": 0.6771176108667767,
+          "candidate_residual_pred_minus_obs_MeV": 0.6771176108667767
+        }
+      },
+      "by_band": {
+        "heavy_Z_83_118": {
+          "baseline": {
+            "MAE_MeV": 4.777321837392597,
+            "RMS_MeV": 5.752172150914848,
+            "max_abs_MeV": 15.898949841474717,
+            "mean_pred_minus_obs_MeV": 2.6768367455103697,
+            "n": 36,
+            "within_15": 35,
+            "within_30": 36,
+            "within_5": 24,
+            "within_8": 31
+          },
+          "candidate": {
+            "MAE_MeV": 5.149113917157861,
+            "RMS_MeV": 6.17762590157301,
+            "max_abs_MeV": 16.69454522643494,
+            "mean_pred_minus_obs_MeV": 3.464256152044827,
+            "n": 36,
+            "within_15": 35,
+            "within_30": 36,
+            "within_5": 22,
+            "within_8": 32
+          }
+        },
+        "light_Z_1_7": {
+          "baseline": {
+            "MAE_MeV": 13.28842277896373,
+            "RMS_MeV": 19.90736888015954,
+            "max_abs_MeV": 39.210978565310356,
+            "mean_pred_minus_obs_MeV": -7.865272981097393,
+            "n": 7,
+            "within_15": 4,
+            "within_30": 6,
+            "within_5": 4,
+            "within_8": 4
+          },
+          "candidate": {
+            "MAE_MeV": 13.270081099665834,
+            "RMS_MeV": 19.886754531133583,
+            "max_abs_MeV": 39.210978565310356,
+            "mean_pred_minus_obs_MeV": -7.8333080961016135,
+            "n": 7,
+            "within_15": 4,
+            "within_30": 6,
+            "within_5": 4,
+            "within_8": 4
+          }
+        },
+        "mid_Z_8_82": {
+          "baseline": {
+            "MAE_MeV": 3.2889802284477256,
+            "RMS_MeV": 4.144598843153304,
+            "max_abs_MeV": 10.554626967131654,
+            "mean_pred_minus_obs_MeV": -0.8491211092183956,
+            "n": 75,
+            "within_15": 75,
+            "within_30": 75,
+            "within_5": 54,
+            "within_8": 72
+          },
+          "candidate": {
+            "MAE_MeV": 3.3943412815412226,
+            "RMS_MeV": 4.259139960151772,
+            "max_abs_MeV": 12.021809423672394,
+            "mean_pred_minus_obs_MeV": -0.25606222880998863,
+            "n": 75,
+            "within_15": 75,
+            "within_30": 75,
+            "within_5": 57,
+            "within_8": 71
+          }
+        }
+      },
+      "extended_only_baseline": {
+        "MAE_MeV": 5.446968435527963,
+        "RMS_MeV": 7.9741442248170715,
+        "max_abs_MeV": 39.210978565310356,
+        "mean_pred_minus_obs_MeV": -0.23562641893496006,
+        "n": 78,
+        "within_15": 74,
+        "within_30": 77,
+        "within_5": 45,
+        "within_8": 67
+      },
+      "extended_only_candidate": {
+        "MAE_MeV": 5.584773954448111,
+        "RMS_MeV": 8.06744550429221,
+        "max_abs_MeV": 39.210978565310356,
+        "mean_pred_minus_obs_MeV": 0.4213804482776708,
+        "n": 78,
+        "within_15": 74,
+        "within_30": 77,
+        "within_5": 46,
+        "within_8": 68
+      },
+      "frontier": [
+        {
+          "Z": 119,
+          "baseline_pred_MeV": -379.2174987954691,
+          "candidate_pred_MeV": -379.2174987954691,
+          "delta_MeV": 0.0,
+          "isotope": "Hl-238"
+        },
+        {
+          "Z": 120,
+          "baseline_pred_MeV": -334.8766608820973,
+          "candidate_pred_MeV": -334.8766608820973,
+          "delta_MeV": 0.0,
+          "isotope": "Bx-240"
+        },
+        {
+          "Z": 121,
+          "baseline_pred_MeV": -400.64196409738344,
+          "candidate_pred_MeV": -400.64196409738344,
+          "delta_MeV": 0.0,
+          "isotope": "Uq-242"
+        },
+        {
+          "Z": 122,
+          "baseline_pred_MeV": -355.47049923283555,
+          "candidate_pred_MeV": -355.47049923283555,
+          "delta_MeV": 0.0,
+          "isotope": "Lm-244"
+        },
+        {
+          "Z": 123,
+          "baseline_pred_MeV": -421.63617085238724,
+          "candidate_pred_MeV": -421.63617085238724,
+          "delta_MeV": 0.0,
+          "isotope": "Cp-246"
+        },
+        {
+          "Z": 124,
+          "baseline_pred_MeV": -375.39781506705833,
+          "candidate_pred_MeV": -375.39781506705833,
+          "delta_MeV": 0.0,
+          "isotope": "Ly-248"
+        },
+        {
+          "Z": 125,
+          "baseline_pred_MeV": -441.66209587356457,
+          "candidate_pred_MeV": -441.66209587356457,
+          "delta_MeV": 0.0,
+          "isotope": "Di-250"
+        },
+        {
+          "Z": 126,
+          "baseline_pred_MeV": -388.33286460617956,
+          "candidate_pred_MeV": -388.33286460617956,
+          "delta_MeV": 0.0,
+          "isotope": "Jd-252"
+        }
+      ],
+      "whole_observed_baseline": {
+        "MAE_MeV": 4.336237819766602,
+        "RMS_MeV": 6.67248350218043,
+        "max_abs_MeV": 39.210978565310356,
+        "mean_pred_minus_obs_MeV": -0.1896175527176959,
+        "n": 118,
+        "within_15": 114,
+        "within_30": 117,
+        "within_5": 82,
+        "within_8": 107
+      },
+      "whole_observed_candidate": {
+        "MAE_MeV": 4.515544617211319,
+        "RMS_MeV": 6.828884164847849,
+        "max_abs_MeV": 39.210978565310356,
+        "mean_pred_minus_obs_MeV": 0.42945252237418075,
+        "n": 118,
+        "within_15": 114,
+        "within_30": 117,
+        "within_5": 83,
+        "within_8": 107
+      }
+    },
+    "baseline_reproduction": {
+      "CR274_abs_delta": 0.0,
+      "CR274_combined_55_RMS_published": 2.716039627696933,
+      "CR274_combined_55_RMS_recomputed": 2.716039627696933,
+      "CR277_extended_RMS_published": 7.974144218432505,
+      "CR277_extended_RMS_recomputed": 7.9741442248170715,
+      "CR277_max_abs_prediction_delta_from_stored_table_MeV": 4.981717154350918e-07,
+      "CR277_whole_RMS_abs_delta": 5.881643616589827e-09,
+      "CR277_whole_RMS_published": 6.672483508062074,
+      "CR277_whole_RMS_recomputed": 6.67248350218043
+    },
+    "candidate_id": "B3_SURFACE_EXCESS_REPLACES_82",
+    "contract_id": "CR120T_BINDING_FROZEN_SURFACE_EXCESS_V1",
+    "gates": {
+      "V_BIND_0_BASELINE": true,
+      "V_BIND_1_FIREWALL": true,
+      "V_BIND_2_TEST": false,
+      "V_BIND_3_EXTENSION": true,
+      "V_BIND_4_WHOLE": false,
+      "V_BIND_5_ANCHORS": true,
+      "V_BIND_6_COMPLEXITY": true,
+      "V_BIND_7_TYPED_ACCOUNTING": true
+    },
+    "same_run_repair_performed": false,
+    "status": "NO_FROZEN_BINDING_IMPROVEMENT",
+    "validation_observations_used_for_refit": 0
+  },
+  "campaign": "CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY",
+  "discovery_gates": {
+    "D0_SOURCE_HASHES": true,
+    "D1_WORKBOOK_AUDIT": true,
+    "D2_LEDGER_REPRODUCTION": true,
+    "D3_TYPED_ROW_AUDIT": true,
+    "D4_ROW_DOSSIERS": true,
+    "D5_RULE_DISCOVERY": true,
+    "D6_BINDING_DISCOVERY_FIREWALL": true
+  },
+  "execution_status": "CLEAN",
+  "finished_utc": "2026-07-14T18:18:41.747789+00:00",
+  "frozen_input_sha256_checks": {
+    "BINDING_BASELINE.json": {
+      "actual": "192096bd5e7354c243f015ea73d34fa26361852b14d7e8020e238ae6dfef2a06",
+      "expected": "192096bd5e7354c243f015ea73d34fa26361852b14d7e8020e238ae6dfef2a06",
+      "pass": true
+    },
+    "BINDING_DISCOVERY_RESULTS.csv": {
+      "actual": "76cb63f3175866a8aca1dd2999a4e9aa538e83f6db0916bf059959b0f02be5e8",
+      "expected": "76cb63f3175866a8aca1dd2999a4e9aa538e83f6db0916bf059959b0f02be5e8",
+      "pass": true
+    },
+    "BINDING_FEATURE_DEFINITIONS.json": {
+      "actual": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+      "expected": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+      "pass": true
+    },
+    "BINDING_FROZEN_CANDIDATE.json": {
+      "actual": "8194cff8f6c70b1e0f4ff3fb3b9dbe6b68a28adb3761fb8c2f10a9b6e4023b47",
+      "expected": "8194cff8f6c70b1e0f4ff3fb3b9dbe6b68a28adb3761fb8c2f10a9b6e4023b47",
+      "pass": true
+    },
+    "DISCOVERY_REPORT.json": {
+      "actual": "e600a27831fe2b82ad5ece146cc353a16eb586cf11809eb4cc363e6b3cd99811",
+      "expected": "e600a27831fe2b82ad5ece146cc353a16eb586cf11809eb4cc363e6b3cd99811",
+      "pass": true
+    },
+    "F81_CANDIDATE_RULES.json": {
+      "actual": "c6b16102993898762c2ba12a9e33340a2e30c744f6a5e85f513c6a613f2867dd",
+      "expected": "c6b16102993898762c2ba12a9e33340a2e30c744f6a5e85f513c6a613f2867dd",
+      "pass": true
+    },
+    "F81_FROZEN_RULE_CONTRACT.json": {
+      "actual": "c209c1250c51a1f54f68724396b6826247bf4d8aafd9bb36fd35ee6efc7f9877",
+      "expected": "c209c1250c51a1f54f68724396b6826247bf4d8aafd9bb36fd35ee6efc7f9877",
+      "pass": true
+    },
+    "SOURCE_MANIFEST.json": {
+      "actual": "b1eee6ab1603c7a3ed5995afb5e1b3061b17f1c8aafce11d7db0f675a7769451",
+      "expected": "b1eee6ab1603c7a3ed5995afb5e1b3061b17f1c8aafce11d7db0f675a7769451",
+      "pass": true
+    },
+    "freeze_candidates.py": {
+      "actual": "fe67a9730226504293133bf6f3bf6ee50bb1386fed8326156b28a6987f914d01",
+      "expected": "fe67a9730226504293133bf6f3bf6ee50bb1386fed8326156b28a6987f914d01",
+      "pass": true
+    },
+    "runner_discovery.py": {
+      "actual": "323de8fcb7d1e7e7d8d0b9db8f1b7767905a27ebc0ba43d09a76ac9f6cbade30",
+      "expected": "323de8fcb7d1e7e7d8d0b9db8f1b7767905a27ebc0ba43d09a76ac9f6cbade30",
+      "pass": true
+    }
+  },
+  "precommit_sha256_match": true,
+  "primary_verdict": "BOUNDARY_DISCOVERY_SUPPORTED_PROJECTION_OR_BINDING_OPEN",
+  "same_role_arithmetic_status": "PASS_ARITHMETIC_NOT_UNIQUE",
+  "same_run_repair": false,
+  "source_hash_checks": {
+    "CAMPAIGN_BRIEF": {
+      "access_mode": "hash_only",
+      "actual_bytes": 29458,
+      "actual_sha256": "9b49641de9b221acc44ebba95e7835d5679e8b19f0b35400bcd96e00831635e0",
+      "exists": true,
+      "expected_bytes": 29458,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY.md",
+      "sha256_match": true
+    },
+    "CR119_HANDOFF": {
+      "access_mode": "hash_only",
+      "actual_bytes": 14325,
+      "actual_sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "exists": true,
+      "expected_bytes": 14325,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_LANGUAGE_V0_4_1_CANDIDATE\\contracts\\CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "sha256_match": true
+    },
+    "CR119_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 1529,
+      "actual_sha256": "4960244185e251d8a696fbff61afdd6ed4da9a956f24baccdb28e3d80d387208",
+      "exists": true,
+      "expected_bytes": 1529,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER\\CR119_result.md",
+      "sha256_match": true
+    },
+    "CR119_TYPED_HIERARCHY": {
+      "access_mode": "hash_only",
+      "actual_bytes": 12824,
+      "actual_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "exists": true,
+      "expected_bytes": 12824,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_LANGUAGE_V0_4_1_CANDIDATE\\contracts\\CR119_typed_hierarchy.json",
+      "sha256_match": true
+    },
+    "CR120N_ROSTER100": {
+      "access_mode": "hash_only",
+      "actual_bytes": 45499,
+      "actual_sha256": "bb5df87ba8ca50a8b3ce62803533e2c58be4a3fe26fdc19aece9aefc9cd05390",
+      "exists": true,
+      "expected_bytes": 45499,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON\\CR120N_ROSTER100_RAW.csv",
+      "sha256_match": true
+    },
+    "CR120N_ROSTER81": {
+      "access_mode": "hash_only",
+      "actual_bytes": 36572,
+      "actual_sha256": "2918088857ac008d613e2139ae07b253c07618de13eb986b9e50d92290ec61ce",
+      "exists": true,
+      "expected_bytes": 36572,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON\\CR120N_ROSTER81_RAW.csv",
+      "sha256_match": true
+    },
+    "CR120N_SET_RECONCILIATION": {
+      "access_mode": "hash_only",
+      "actual_bytes": 4469,
+      "actual_sha256": "b38728c704b27e799d0f74a87d9a2b2acd8fce9ac3841412e91aefcf6a1359cd",
+      "exists": true,
+      "expected_bytes": 4469,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON\\CR120N_SET_RECONCILIATION.json",
+      "sha256_match": true
+    },
+    "CR120N_WORKBOOK_EXTRACTION": {
+      "access_mode": "hash_only",
+      "actual_bytes": 1703,
+      "actual_sha256": "43cd95e27fde97f0bb7ace6e6e2c0c744375b1fa93fea916c3d6c9767b6664fd",
+      "exists": true,
+      "expected_bytes": 1703,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON\\CR120N_WORKBOOK_EXTRACTION.json",
+      "sha256_match": true
+    },
+    "CR120R_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 2026,
+      "actual_sha256": "f330d85f8df6275d30b101e92c618de16484cf957baeb198032519b889dfafca",
+      "exists": true,
+      "expected_bytes": 2026,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER\\CR120R_result.md",
+      "sha256_match": true
+    },
+    "CR120R_ZIP": {
+      "access_mode": "hash_only",
+      "actual_bytes": 32802,
+      "actual_sha256": "63b4001a6805f88c6a6fd23bd342c6e1c05ab5151cbfccf081a6a451efdc088e",
+      "exists": true,
+      "expected_bytes": 32802,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER.zip",
+      "sha256_match": true
+    },
+    "CR120S_OPERATOR_SEARCH": {
+      "access_mode": "hash_only",
+      "actual_bytes": 1700,
+      "actual_sha256": "7ff121e0211f17c2d22f35659539bddb5da870c836684d88fa8c391b7e7613ac",
+      "exists": true,
+      "expected_bytes": 1700,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION\\CR120S_operator_search.json",
+      "sha256_match": true
+    },
+    "CR120S_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 2091,
+      "actual_sha256": "558f07f653166c8b161a735f15f0fbff987cf285566db275d714d39568cf7644",
+      "exists": true,
+      "expected_bytes": 2091,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION\\CR120S_result.md",
+      "sha256_match": true
+    },
+    "CR229_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 13203,
+      "actual_sha256": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da",
+      "exists": true,
+      "expected_bytes": 13203,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY\\CR229_result.md",
+      "sha256_match": true
+    },
+    "CR233_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 8705,
+      "actual_sha256": "55e0c81a8c417fb79f377f5913035d65a917ada0cca80e5cc9cdf8851fd55895",
+      "exists": true,
+      "expected_bytes": 8705,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION\\CR233_result.md",
+      "sha256_match": true
+    },
+    "CR249_DEAD_END": {
+      "access_mode": "hash_only",
+      "actual_bytes": 5546,
+      "actual_sha256": "bba12cbbb876cc02436b5c8b377c3e7fecbd97e0d89bd3285dd7c49e80814ccb",
+      "exists": true,
+      "expected_bytes": 5546,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR249_BINDING_AS_CONNECTION_FEE\\CR249_result.md",
+      "sha256_match": true
+    },
+    "CR250_DEAD_END": {
+      "access_mode": "hash_only",
+      "actual_bytes": 10081,
+      "actual_sha256": "c27db2c9d6400739c45b8893aed4e15e18d5d7e9563a7970b1ebd3edecf42fd9",
+      "exists": true,
+      "expected_bytes": 10081,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR250_BINDING_FROM_CR009_LIFT_FORMULA\\CR250_result.md",
+      "sha256_match": true
+    },
+    "CR253_CANONICAL_COPY": {
+      "access_mode": "hash_only",
+      "actual_bytes": 108383,
+      "actual_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "exists": true,
+      "expected_bytes": 108383,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR253_PARTICLE_PROMOTER_80_ROW\\CR253_input_catalog_299.csv",
+      "sha256_match": true
+    },
+    "CR253_PROMOTED_80": {
+      "access_mode": "hash_only",
+      "actual_bytes": 7205,
+      "actual_sha256": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+      "exists": true,
+      "expected_bytes": 7205,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR253_PARTICLE_PROMOTER_80_ROW\\CR253_promoted_80_rows.csv",
+      "sha256_match": true
+    },
+    "CR253_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 7105,
+      "actual_sha256": "fd944b04ae0701d1c1bbf25eb7860f808a3eb83f7e94d050c8b6858b5c0861e5",
+      "exists": true,
+      "expected_bytes": 7105,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR253_PARTICLE_PROMOTER_80_ROW\\CR253_result.md",
+      "sha256_match": true
+    },
+    "CR254_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 6224,
+      "actual_sha256": "b6b93f09ffd949c22bff1901069bc965d63e292d771c686cd58d132d4fd3b8b2",
+      "exists": true,
+      "expected_bytes": 6224,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR254_COMPACT_MATTER_CHARGED_LAW\\CR254_result.md",
+      "sha256_match": true
+    },
+    "CR255_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 5958,
+      "actual_sha256": "62342a7aace289b7519c81c6d7f7aad85230e0b6914a94e9c24ca3ba40a8c60b",
+      "exists": true,
+      "expected_bytes": 5958,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR255_COMPACT_MATTER_NEUTRAL_LAW\\CR255_result.md",
+      "sha256_match": true
+    },
+    "CR256_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 7103,
+      "actual_sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "exists": true,
+      "expected_bytes": 7103,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR256_A_OPERATOR_ANTIMATTER_CONJUGATE\\CR256_result.md",
+      "sha256_match": true
+    },
+    "CR257_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 8386,
+      "actual_sha256": "eea3b57db301562992502c1b8ac76f7176b2f6cb64ac46338c2824e5961eb9b4",
+      "exists": true,
+      "expected_bytes": 8386,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR257_A_MEETS_THETA_AT_D_1\\CR257_result.md",
+      "sha256_match": true
+    },
+    "CR261_BINDING_35_20": {
+      "access_mode": "hash_only",
+      "actual_bytes": 2918,
+      "actual_sha256": "3212a36064244e6addc30e465af6577d68df7997715f6c68ff9bb983b0d8eef2",
+      "exists": true,
+      "expected_bytes": 2918,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR261_PAIR_WRITE_BINDING_EXTENSION\\CR261_bw_fit_per_row.csv",
+      "sha256_match": true
+    },
+    "CR267_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 4483,
+      "actual_sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "exists": true,
+      "expected_bytes": 4483,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR267_TENSOR_9_CLOSURE_WITNESS\\CR267_result.md",
+      "sha256_match": true
+    },
+    "CR269_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 6065,
+      "actual_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "exists": true,
+      "expected_bytes": 6065,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md",
+      "sha256_match": true
+    },
+    "CR274_RUNNER": {
+      "access_mode": "hash_only",
+      "actual_bytes": 24750,
+      "actual_sha256": "dc70c7ff960fe2c70399453cd99f2633e683efea92463288d17b619dff50a2d8",
+      "exists": true,
+      "expected_bytes": 24750,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR274_GATED_NUCLEAR_READOUT_OPERATORS\\CR274_runner.py",
+      "sha256_match": true
+    },
+    "CR274_SUMMARY": {
+      "access_mode": "hash_only",
+      "actual_bytes": 3088,
+      "actual_sha256": "c46843357aa7fe681c602b3c5e75fa7504f6b0bbec2bcfa5961bdd76d47e854d",
+      "exists": true,
+      "expected_bytes": 3088,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR274_GATED_NUCLEAR_READOUT_OPERATORS\\CR274_summary.json",
+      "sha256_match": true
+    },
+    "CR277_ELEMENT_TABLE": {
+      "access_mode": "hash_only",
+      "actual_bytes": 21173,
+      "actual_sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1",
+      "exists": true,
+      "expected_bytes": 21173,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS\\CR277_element_table.csv",
+      "sha256_match": true
+    },
+    "CR277_SUMMARY": {
+      "access_mode": "hash_only",
+      "actual_bytes": 4574,
+      "actual_sha256": "9008ac47d08f4e81c46b4348585d7759bfc2c4674b57df5c12cadfd34ef6fcfc",
+      "exists": true,
+      "expected_bytes": 4574,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS\\CR277_summary.json",
+      "sha256_match": true
+    },
+    "CR282_APPEAL_RESULT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 1770,
+      "actual_sha256": "beb5effdf9c3d0a0050e686f9a716f6f547c54dcc6e54efa878f685b0fdf1beb",
+      "exists": true,
+      "expected_bytes": 1770,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT\\CR282_APPEAL_result.md",
+      "sha256_match": true
+    },
+    "QP093A_CANONICAL_299": {
+      "access_mode": "hash_only",
+      "actual_bytes": 108383,
+      "actual_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "exists": true,
+      "expected_bytes": 108383,
+      "pass": true,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp104_corrected_299_catalog_propagation_audit\\qp093a_v3_corrected_299.csv",
+      "sha256_match": true
+    },
+    "QP093A_GENERATOR": {
+      "access_mode": "hash_only",
+      "actual_bytes": 43208,
+      "actual_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "exists": true,
+      "expected_bytes": 43208,
+      "pass": true,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256_match": true
+    },
+    "TASK_PREFLIGHT": {
+      "access_mode": "hash_only",
+      "actual_bytes": 16877,
+      "actual_sha256": "d79fa07dcdbc815795719b0156ea6de1a0548f7d79bd6e301328c50f405a12eb",
+      "exists": true,
+      "expected_bytes": 16877,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_122508_no_script.md",
+      "sha256_match": true
+    },
+    "UPDATED_WORKBOOK_100_CAPTURE": {
+      "access_mode": "hash_only",
+      "actual_bytes": 77125,
+      "actual_sha256": "f3ff2fc94ea47a96dcbda5480c0ab5eb9eb771c673a12a47d705252679ecf1c2",
+      "exists": true,
+      "expected_bytes": 77125,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY\\source_snapshots\\Updated Particle Rows.xlsx",
+      "sha256_match": true
+    },
+    "UPDATED_WORKBOOK_100_ORIGINAL": {
+      "access_mode": "metadata_only_prior_hash_plus_frozen_capture",
+      "actual_bytes": 78303,
+      "disposition": "live original may drift after SaveCopyAs; frozen capture hash and discovery cell reconciliation control",
+      "exists": true,
+      "expected_bytes": 77128,
+      "live_original_bytes_match_freeze_metadata": false,
+      "pass": true,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256_match": "DEFERRED_BY_MANIFEST_CONTRACT"
+    },
+    "UPDATED_WORKBOOK_81_CAPTURE": {
+      "access_mode": "hash_only",
+      "actual_bytes": 93700,
+      "actual_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "exists": true,
+      "expected_bytes": 93700,
+      "pass": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY\\source_snapshots\\Updated Particle Rows2.xlsx",
+      "sha256_match": true
+    },
+    "UPDATED_WORKBOOK_81_ORIGINAL": {
+      "access_mode": "hash_only",
+      "actual_bytes": 93700,
+      "actual_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "exists": true,
+      "expected_bytes": 93700,
+      "pass": true,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256_match": true
+    }
+  },
+  "started_utc": "2026-07-14T18:18:41.662353+00:00",
+  "typed_8_plus_1_status": "PASS_SOURCE_TYPED",
+  "wrong_controls_all_pass": true
+}

@@ -1,0 +1,144 @@
+{
+  "audit_regrade": {
+    "applied_utc": "2026-06-17T23:07:10Z",
+    "driving_appeal_cr": "CR-137",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "regrade_type": "VERDICT_DOWNGRADE_PASS_TO_REFUTED",
+    "verdict_direction": "DOWNGRADED",
+    "from_verdict": "CR063a_HARDWARE_TRANSLATION_V1_SEALED",
+    "to_verdict": "CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1",
+    "trigger": "TRANSMON_T2_EMPIRICAL_CONTACT_TIER7_AUDIT_FINDING",
+    "trigger_evidence": {
+      "platform": "IBM Heron / Eagle transmon (typical)",
+      "gate_omega_rad_per_s": 31416000.0,
+      "T2_observed_us": 100.0,
+      "T2_grav_v1_0_predicted_ns": 51.8,
+      "overrun_factor_approx": 1932,
+      "source": "CR064a published-T2 verification table (entry tagged [VERIFY_PRECOMMIT])",
+      "v1_0_falsifier_text": "ONE rigorously-isolated T2 measurement on any platform exceeding T2_grav (after channel subtraction) falsifies v1.0."
+    },
+    "rescue_path": {
+      "rescue_cr": "CR-064a A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1",
+      "rescue_formula": "T2_grav = 16 * pi * R^4 / (17 * omega_gate) seconds",
+      "rescue_structural_inputs_introduced": [
+        "A_0 = 1/(pi*R) operating point correction (enhancement factor pi*R ~= 37.7)",
+        "omega reinterpretation: omega_gate (substrate response rate) rather than qubit splitting"
+      ],
+      "rescue_audit_status": "Surviving claim as of 2026-06-17; CR-138 regrades CR-064a to BOUNDARY pending citation verification and disclosure of 1.0248 gate-rate artifact."
+    },
+    "audit_finding_tier": "Tier 7 CALLOUT_FAIL_DRESSED_AS_PASS",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR137_CR063a_regrade/CR063a_HARDWARE_TRANSLATION_V1/",
+    "original_result_md_sha256": "710591fa467aae21f17aa121f3d629876a5fb35bbee632248d757ccbb2b52917",
+    "original_summary_json_sha256": "1469b11fc76044a392ae51bf085e871770bbc19910df0a75dbc669123a3250b8",
+    "replacement_record_path": "archive/2026-06-17_CR135_audit_regrades/CR137_CR063a_regrade/CR063a_HARDWARE_TRANSLATION_V1/REPLACEMENT_RECORD.md"
+  },
+  "cr_id": "CR063a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_QUBIT_HARDWARE_TRANSLATION_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T01:22:35Z",
+  "S_over_M_ratio": "17 / (16 * R^3) = 17 / 27648 ~= 6.149e-4 = 0.06149 %",
+  "T2_grav_formula": "T2_grav = 16 * R^3 / (17 * omega) ~= 1626.35 / omega seconds",
+  "T2_grav_at_5GHz_transmon": "51.77 ns",
+  "T2_grav_at_2_87GHz_NV": "90.19 ns",
+  "T2_grav_at_10MHz_ion_hf": "25.88 us",
+  "T2_grav_at_200THz_optical": "1.294 ps",
+  "platform_recommendations": {
+    "1+2+4_foundational": {
+      "candidate": "(1, 2, 4)",
+      "primary": "NV center in diamond"
+    },
+    "2+4+8_extended_generation": {
+      "candidate": "(2, 4, 8)",
+      "primary": "Trapped ion (e.g. Yb+, Ca+)"
+    }
+  },
+  "verification_test": "Decoherence channel hunt: extract T2 residual after known-source subtraction; check T2_residual <= T2_grav = 1626.35 / omega.",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "translation_matrix_csv_sha256": "bb6f71530b6268d55efd2a7b1db846ae68d9a6dd7f2a8e89951fb952d81dc831",
+  "T2_grav_predictions_csv_sha256": "8d8587023b3eb9dbb0cd75d1d76f929b7b247860bd0f236c929a80b2e2371455",
+  "hardware_lock_sha256": "4e710072b2c1200efefae067353ed28263a080351827a0829ca98ea904346c14",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_translation_matrix_covers_4_platforms",
+      "pass": true,
+      "details": "platforms covered: SC transmon, NV center, trapped ion, photonic"
+    },
+    {
+      "name": "P2_three_slot_roles_per_platform",
+      "pass": true,
+      "details": "each platform has carrier + envelope + sensor entries"
+    },
+    {
+      "name": "P3_both_ideal_candidates_have_recommendations",
+      "pass": true,
+      "details": "(1,2,4) -> NV center, (2,4,8) -> trapped ion"
+    },
+    {
+      "name": "P4_T2_grav_predictions_spans_8_orders_of_magnitude",
+      "pass": true,
+      "details": "predictions: 8 platform-frequency pairs"
+    },
+    {
+      "name": "P5_S_over_M_ratio_matches_CR129b",
+      "pass": true,
+      "details": "S/M = 17/27648 = 6.149e-4 verified"
+    },
+    {
+      "name": "P6_hardware_lock_written",
+      "pass": true,
+      "details": "hardware lock sha256 = 4e710072b2c1200efefae067353ed28263a080351827a0829ca98ea904346c14"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_hardware_demonstration_claimed",
+      "pass": true,
+      "details": "CR063a is a STRUCTURAL FIT translation, not a hardware demonstration.  Platform recommendations identify candidates worth testing, not endorsements."
+    },
+    {
+      "name": "WC2_M_native_NOT_calibrated_as_energy_splitting",
+      "pass": true,
+      "details": "M_native = 756 / 3024 MeV are partition-algebra inventory integers.  The physically testable content is the dimensionless ratio S/M = 17/(16*R^3), not the absolute mass scale."
+    },
+    {
+      "name": "WC3_gravitational_channel_identification_via_CR121",
+      "pass": true,
+      "details": "The interpretation of S_debit as gravitational decoherence rests on CR121's lock (1/8 + qA = gravity).  If CR121 is later refined, CR063a's gravitational interpretation should be re-examined."
+    },
+    {
+      "name": "WC4_T2_floor_formula_FALSIFIABLE",
+      "pass": true,
+      "details": "T2_grav = 1626.35 / omega is a CONCRETE NUMERIC FORMULA.  One platform measurement exceeding it under rigorous channel subtraction falsifies the universality claim.  This is not a vague proposal -- it is an experimentally testable bound."
+    },
+    {
+      "name": "WC5_inconclusive_outcome_documented",
+      "pass": true,
+      "details": "The verification protocol explicitly admits outcome C (other channels dominate, no clean residual).  This is not a way to evade falsification -- if outcome A or B is obtained, v1.0 is decided.  Outcome C means the test failed to isolate the channel, not that v1.0 escaped scrutiny."
+    },
+    {
+      "name": "WC6_platform_recommendations_are_NOT_endorsements",
+      "pass": true,
+      "details": "NV center and trapped ion recommendations are based on structural fit (3-level spin / multi-level hyperfine, optical readout).  CR063a does not claim either platform has been validated for SAM-native qubit operation.  Other platforms (SC transmon, photonic) may equally well or better serve."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "Mass-to-frequency calibration: how do 756 MeV / 3024 MeV translate to qubit splitting frequencies?  This is the OPEN STRUCTURAL QUESTION.",
+    "CR062a (deferred): Paul Revere protocol sharpening with the (1/4, 9/16, 1/4) slot weights now that hardware constraints are documented.",
+    "CR064a: coherence-ladder vs threshold-theorem comparison (1/12 = A_share vs ~1% fault tolerance).",
+    "Experimental partner outreach: which group has the cleanest single-channel T2 isolation capability?"
+  ]
+}

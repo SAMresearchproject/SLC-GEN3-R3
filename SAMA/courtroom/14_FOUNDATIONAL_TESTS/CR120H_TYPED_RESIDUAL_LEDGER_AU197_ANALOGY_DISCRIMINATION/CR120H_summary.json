@@ -1,0 +1,23 @@
+{
+  "AU197_operator_contribution_MeV": "0.000000",
+  "AU197_operator_effect": "NULL",
+  "AU197_post_program_residual_MeV": "3.718275",
+  "CR120G_reconciliation_residual": "0",
+  "P80_status": "STRUCTURAL_ONLY_UNPOPULATED",
+  "clock_or_supernova_coupling": "NOT_TESTED",
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "cross_domain_entity_identity": "REJECTED",
+  "cross_domain_mechanism_mapping": "OPEN_NOT_INSTALLED",
+  "disposition": "RESEARCH_BOUNDARY_TYPED_LEDGER_SHAPE_SHARED_AU197_OPERATOR_SLOT_NULL_CLOSURE_NUCLEAR_IDENTITY_REJECTED_MECHANISM_MAPPING_OPEN",
+  "operator_contribution_sign_rule": "SIGNED_PLUS_CONTRIBUTION_NOT_UNIVERSAL_DEBIT",
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "response_scalar_q": "NOT_DEFINED",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "shared_typed_accounting_shape": "SUPPORTED"
+}

@@ -1,0 +1,104 @@
+{
+  "open_boundaries": [
+    "complex phase semantics",
+    "measurement and publication",
+    "physical connectivity",
+    "coupling magnitude and cost",
+    "hardware realization"
+  ],
+  "status": "PASS",
+  "wrong_controls": [
+    {
+      "control": "WC01_CONTROL_EQUALS_TARGET",
+      "status": "PASS"
+    },
+    {
+      "control": "WC02_R10_SUBSTITUTION",
+      "status": "PASS"
+    },
+    {
+      "control": "WC03_EIGHT_SLOTS_NOT_SITES",
+      "status": "PASS"
+    },
+    {
+      "control": "WC04_PARTITION_PAIRS_NOT_EDGES",
+      "status": "PASS"
+    },
+    {
+      "control": "WC05_QP_LABEL_NOT_SITE",
+      "status": "PASS"
+    },
+    {
+      "control": "WC06_LEGACY_LATENT_BITS_NOT_AUTHORITY",
+      "status": "PASS"
+    },
+    {
+      "control": "WC07_B_NOT_PREPARE",
+      "status": "PASS"
+    },
+    {
+      "control": "WC08_B_NOT_BALANCED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC09_REVERSE_NOT_FORWARD",
+      "status": "PASS"
+    },
+    {
+      "control": "WC10_DUPLICATE_RESPONSE_RETAINED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC11_CLOSING_EDGE_NOT_IDENTITY",
+      "status": "PASS"
+    },
+    {
+      "control": "WC12_CHILD_BEFORE_PARENT_IS_LEGAL_BUT_INCOMPLETE",
+      "status": "PASS"
+    },
+    {
+      "control": "WC13_PREPARE_TWICE_INVOLUTION",
+      "status": "PASS"
+    },
+    {
+      "control": "WC14_TERMINAL_HISTORY_NOT_INFERRED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC15_STATE_HASH_ROUTE_INDEPENDENT",
+      "status": "PASS"
+    },
+    {
+      "control": "WC16_HISTORY_HASH_ROUTE_DEPENDENT",
+      "status": "PASS"
+    },
+    {
+      "control": "WC17_NO_FLOAT_STATE_DECISIONS",
+      "status": "PASS"
+    },
+    {
+      "control": "WC18_COMPLEX_PHASE_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC19_PHYSICAL_CONNECTIVITY_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC20_NO_LEGACY_COST_ATTACHED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC21_PUBLICATION_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC22_FORMAL_OPS_PROFILE_ISOLATED",
+      "status": "PASS"
+    },
+    {
+      "control": "WC23_TAMPER_REJECTED",
+      "status": "PASS"
+    }
+  ]
+}

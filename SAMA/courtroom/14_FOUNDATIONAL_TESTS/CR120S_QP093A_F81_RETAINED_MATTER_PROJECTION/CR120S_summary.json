@@ -1,0 +1,23 @@
+{
+  "record_id": "CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION",
+  "execution_status": "CLEAN",
+  "mathematical_verdict": "BOUNDARY",
+  "scientific_verdict": "BOUNDARY_F81_AND_M126_NUMERIC_WELD_PROJECTION_RULE_OPEN",
+  "result_class": "STRUCTURAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "precommit_sha256": "31078686c115b5a81c2058f358fa15843d1313f575d3efab992a805d0a01d1d7",
+  "source_manifest_sha256": "6c4b6affb4644dd31faf2d6286d17c8c0f8c8cebc02f1a7d75d72dc0ef0924e9",
+  "gates": {
+    "G1_SOURCE_LOCK": true,
+    "G2_ALLOWED_FIELD_CONTRACT": true,
+    "G3_SOURCE_OPERATOR_PRESENT": false,
+    "G4_REVEAL_DISCIPLINE": true
+  },
+  "candidate_operator_contract": "NONE_FOUND",
+  "M_native_reveal_authorized": false,
+  "workbook_parsed": false,
+  "M_native_column_opened": false,
+  "selected_roster_emitted": false,
+  "prior_numeric_weld_status": "PRESERVED_AS_CONTEXT_NOT_RECOMPUTED",
+  "binding_use": "NO_LEDGER_TOTAL_OR_SCALAR_IS_A_BINDING_COEFFICIENT"
+}

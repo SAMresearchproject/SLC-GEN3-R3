@@ -1,0 +1,3 @@
+source,result_class,selected_candidate,data_package_files,paul_revere_letter_rows,scorecard_rows,leakage_firewall_rows,demo_data_only,demo_trials,pass_trials,partial_trials,blocker_trials,ingestion_schema_rows,score_rule_rows
+QN012,QN012_LIVE_PROTOCOL_SCORECARD_DATA_PACKAGE_BUILT,Qunnect_Cisco_metro_photonic_entanglement_swap,8,6,14,12,,,,,,,
+QN013,QN013_LIVE_DATA_INGESTION_SCORING_PROTOCOL_BUILT,,,,,,True,3,1,1,1,8,4

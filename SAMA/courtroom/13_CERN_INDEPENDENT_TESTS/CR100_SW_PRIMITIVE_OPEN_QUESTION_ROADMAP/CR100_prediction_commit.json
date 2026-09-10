@@ -1,0 +1,9 @@
+{
+  "commit_id": "CR100_QUESTION_LOCK_COMMIT",
+  "predictions_file": "CR100_predictions.csv",
+  "prediction_commit_sha256": "6ebf43e729e718032f5ab14bb44fba21bfc8c7e63e4845170135e534d10dfd5c",
+  "prediction_commit_utc": "2026-06-13T21:55:11Z",
+  "what_the_commit_locks": "the verbatim question, the three open-gate enumeration, and the partial-answer chain",
+  "what_the_commit_does_not_do": "does not answer the question; does not predict the form of N_SW / c_SW/c / K(A_H); does not constrain how the gates will close",
+  "blindness_pillar": "PILLAR_2_PROCEDURAL_BLINDNESS_PRE_COMMIT_PREDICTION_HASH (applied to a roadmap-prediction, not a numerical observable)"
+}

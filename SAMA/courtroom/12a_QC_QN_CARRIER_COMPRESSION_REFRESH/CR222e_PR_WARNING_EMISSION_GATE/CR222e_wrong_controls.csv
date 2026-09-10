@@ -1,0 +1,7 @@
+wrong_control,attempted_action,observed_failure,expected_failure,passes_as_failure
+support_row_emits_without_gate,use closed support row as emitted qA/T/W source,G_matter=0 => M_obs=qA=T=W=0,NO_EMISSION,True
+0303_mirror_emits_as_payload,treat QP093A-0303 mirror checksum as payload emission,duplicate_mirror_closure_row; counted=no,MIRROR_NOT_PAYLOAD,True
+tensor_row_promoted_to_matter,promote QP093A-0300 tensor carrier as matter,no,matter_row_allowed=no,True
+dot_one_visual_separator_counted_as_p,read .1 visual separator as algebraic partition p,display marker != numeric support p,VISUAL_MARKER_NOT_NUMERIC_PARTITION,True
+missing_0306_packet_still_emits,emit warning after omitting p=1 source packet,161,161_CORRUPT_NO_EMISSION,True
+mass_lift_support_value_used_as_ledger_p,use support mass-lift fields instead of bare p/checksum ledger,12019/144,NOT_81_NO_EMISSION,True

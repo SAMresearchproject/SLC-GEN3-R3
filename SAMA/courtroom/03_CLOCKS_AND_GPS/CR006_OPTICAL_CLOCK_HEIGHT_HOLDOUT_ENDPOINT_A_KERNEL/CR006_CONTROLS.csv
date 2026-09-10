@@ -1,0 +1,8 @@
+control_id,name,prediction,z,channel_valid,free_parameters,status,note
+WC1,Add the floor locally,1.326291192432461142E-2,5.766483276671159548E+17,false,0,FAIL_CHANNEL_AND_MAGNITUDE,Uncanceled A0/2 local term is not an endpoint clock observable.
+WC2,Remove the half factor,2.179903989478511552E-19,5.216973714685353567E+0,true,0,FAIL_MATERIAL,Doubles the canonical endpoint coefficient.
+WC3,Use 1/r^2 as the clock field,3.031232384031144335E-28,-4.260869427394587635E+0,true,0,FAIL_MATERIAL,Force-like radial dependence erases the endpoint clock scale.
+WC4,Reverse endpoint order,-1.089951994739255776E-19,-8.999791018203464510E+0,true,0,FAIL_SIGN,Sign is opposite the frozen upper-minus-lower observable.
+WC5,Use photon-road integration,4.638324864187361865E-21,,false,0,FAIL_CHANNEL_UNITS,A road time integral in seconds is not a fractional endpoint clock shift.
+WC6,Free clock normalization,9.800000000000000000E-20,0.000000000000000000E+18,false,1,FAIL_FREE_PARAMETER,Would require fitted k = 0.89912216751751613761569454109049465778776664079315258129288386756155850185527242.
+WC7,Newtonian near-surface approximation only,1.089951994910124616E-19,4.780521377986555191E-1,true,0,DIAGNOSTIC_LIMIT_MATCH,Near-surface limit agrees and does not replace the radial A-kernel route.

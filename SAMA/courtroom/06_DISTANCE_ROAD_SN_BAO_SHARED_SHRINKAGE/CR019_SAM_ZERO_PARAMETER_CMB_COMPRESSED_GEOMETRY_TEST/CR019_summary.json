@@ -1,0 +1,87 @@
+{
+  "precommit_sha256": "ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da",
+  "substrate": {
+    "A_0": 0.026525823848649224,
+    "Omega_m_SAM": 0.3183098861837907,
+    "chi": 0.07073553026306459,
+    "Omega_b_SAM": 0.049299011266100756
+  },
+  "measurement_inputs": {
+    "H0": 68.76,
+    "T_CMB": 2.7255,
+    "N_eff": 3.046
+  },
+  "planck_reference": {
+    "z_eq": 3402.0,
+    "z_star": 1089.92,
+    "z_drag": 1059.94,
+    "rs_zstar": 144.43,
+    "r_d": 147.09,
+    "DM_zstar": 13869.6,
+    "ell_A": 301.76,
+    "hundred_theta_star": 1.0411
+  },
+  "canonical": {
+    "z_eq": 3596.425733245939,
+    "z_star": 1091.2151785738336,
+    "z_drag": 1023.3355606038734,
+    "rs_zstar": 141.7778012507054,
+    "rs_zd": 147.76857624654207,
+    "DM_zstar": 13536.180284887798,
+    "ell_A": 299.9423334649783,
+    "hundred_theta_star": 1.0473988840780324,
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "H0": 68.76
+  },
+  "deviations": {
+    "z_eq_pct": 5.715042129510265,
+    "z_star_pct": 0.11883244401731154,
+    "z_drag_pct": -3.4534444776238864,
+    "rs_zstar_pct": -1.8363212277882697,
+    "r_d_pct": 0.46133404483109974,
+    "DM_zstar_pct": -2.4039605692464274,
+    "ell_A_pct": -0.6023550288380551,
+    "hundred_theta_pct": 0.6050220034610003
+  },
+  "P1": {
+    "name": "100*theta_* vs Planck",
+    "deviation": 0.0060502200346100035,
+    "threshold": 0.01,
+    "passed": true
+  },
+  "P2": {
+    "name": "ell_A vs Planck",
+    "deviation": -0.006023550288380551,
+    "threshold": 0.01,
+    "passed": true
+  },
+  "P3": {
+    "name": "r_d vs Planck",
+    "deviation": 0.004613340448310997,
+    "threshold": 0.01,
+    "passed": true
+  },
+  "WC1": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 0.0060502200346100035,
+    "null_median": 0.08888018965632147,
+    "null_p1": 0.0019445582651449942,
+    "null_p5": 0.010547948767199599,
+    "n_extreme": 28,
+    "canonical_percentile": 2.8000000000000003,
+    "p_value": 0.028971028971028972
+  },
+  "WC2": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 0.0060502200346100035,
+    "null_median": 0.06790201779458194,
+    "null_p1": 0.0007273903473109601,
+    "null_p5": 0.004698189431927156,
+    "n_extreme": 63,
+    "canonical_percentile": 6.3,
+    "p_value": 0.06393606393606394
+  },
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold under canonical substrate inputs"
+}

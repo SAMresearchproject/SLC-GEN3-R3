@@ -1,0 +1,17 @@
+{
+  "hits": 3,
+  "sample": [
+    {
+      "file": "src/qp001_private_phase_functional_bridge.py",
+      "match": "a_route"
+    },
+    {
+      "file": "artifacts/qp001/qp001_phase_functional_summary.json",
+      "match": "A_route"
+    },
+    {
+      "file": "docs/reports/QP001_PRIVATE_PHASE_FUNCTIONAL_BRIDGE.md",
+      "match": "A route"
+    }
+  ]
+}

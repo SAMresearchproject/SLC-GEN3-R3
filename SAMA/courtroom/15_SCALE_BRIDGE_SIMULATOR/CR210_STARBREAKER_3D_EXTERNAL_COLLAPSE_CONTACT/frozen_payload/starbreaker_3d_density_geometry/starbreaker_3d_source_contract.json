@@ -1,0 +1,43 @@
+{
+  "ordinary_basement_work": true,
+  "courtroom_preflight_invoked": false,
+  "all_sources_present": true,
+  "sources": [
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_LAB/starbreaker.py",
+      "exists": true,
+      "sha256": "7e1637faf9954dc61a1a89c415a533502f80411a3edbb00e100d63aaa2d07653",
+      "use": "fixed ledger typing and shell contract"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_MECHANISM_AUDIT/starbreaker_mechanism_audit.py",
+      "exists": true,
+      "sha256": "2c7773776f3f4fd775c139191b2a0322624633ebf964cd268d5dd9e62375374b",
+      "use": "frozen neutral coefficients and scoring"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_FIELD/starbreaker_carrier_density.py",
+      "exists": true,
+      "sha256": "426a224c5ea71ce2e05c4ff8f2b0e50df4cd986a28b1b3995177c6861b2a04cd",
+      "use": "complete-ledger A packing law"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_COUPLING/starbreaker_density_coupling.py",
+      "exists": true,
+      "sha256": "39ee6d6979400c1b98ca00e6adcbd7ea816a75a1b44196287e4e46c131b6358e",
+      "use": "locked allocations and 2D control design"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_CARRIER_DENSITY_COUPLING/outputs/starbreaker_density_coupling_summary.json",
+      "exists": true,
+      "sha256": "ab04ff835379f07d42736340bd2b07880dcdef5a9c3c7bceee69ff50105ed30c",
+      "use": "executed 2D coupling result held immutable for comparison"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/STARBREAKER_GW_BRIDGE/starbreaker_gw_bridge.py",
+      "exists": true,
+      "sha256": "68896670750cd90a238d3beb010a17dcbbb24a9c7075ac198bb703a04d4f734c",
+      "use": "unchanged tensor-exposure accounting"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+check,status,value,detail
+LC01 source exists,PASS,True,16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock.json
+CR003 source exists,PASS,True,02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION/CR003_summary.json
+CR103a source exists,PASS,True,14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL/CR103a_summary.json
+CR103a_lock source exists,PASS,True,14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL/CR103a_appeal_lock.json
+CR113 source exists,PASS,True,14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM/CR113_summary.json
+CR113_lock source exists,PASS,True,14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM/CR113_completed_write_address_count_lock.json
+CR116 source exists,PASS,True,14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM/CR116_summary.json
+CR147 source exists,PASS,True,04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL/CR147_summary.json
+branch05_readme source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/README.md
+branch05_seal source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/SEALED_STRONG_FIELD_SCOPE_APPROACH_2026_06_11.md
+CR007 source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_summary.json
+CR008 source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_summary.json
+CR009 source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/CR009_summary.json
+CR010 source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT/CR010_summary.json
+CR011 source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER/CR011_summary.json
+CR073 source exists,PASS,True,11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR/CR073_summary.json
+CR073_manifest source exists,PASS,True,11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR/CR073_input_manifest.csv
+CR074 source exists,PASS,True,11_QUANTUM_MECHANICS_AND_GRAVITY/CR074_DOUBLE_SLIT_BORN_ROUTE/CR074_summary.json
+CR075 source exists,PASS,True,11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE/CR075_summary.json
+CR076 source exists,PASS,True,11_QUANTUM_MECHANICS_AND_GRAVITY/CR076_PHASE_INTEGRAL_A_EXPOSURE/CR076_summary.json
+G11555 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/G11555_MAGIC_BELL_A1_NO_CROSSING_THEOREM/G11555_summary.json
+QGA024 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA024_ETA_HBAR_OR_CONTINUUM_STRESS_ANCHOR/QGA024_summary.json
+QGA025 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA025_HAWKING_RADIATION_THERMAL_BRIDGE_AUDIT/QGA025_summary.json
+QGA026 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA026_HAWKING_GREYBODY_SPECIES_KERR_ROUTE_AUDIT/QGA026_summary.json
+SUK060 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK060_summary.json
+SUK061 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK061_summary.json
+XBS006 source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/TYPED_STABILITY_CROSS_BRANCH_SELECTOR_TRANSFER_CAMPAIGN/XBS006_summary.json
+CR007_candidate_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_candidate_rows.csv
+CR008_candidate_summary row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_candidate_summary.csv
+CR008_near_horizon_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_near_horizon_rows.csv
+CR009_candidate_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/CR009_candidate_rows.csv
+CR010_candidate_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT/CR010_candidate_rows.csv
+CR011_dependency_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER/CR011_dependency_rows.csv
+CR011_appeal_rows row source exists,PASS,True,05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER/CR011_appeal_rows.csv
+CR147_checks row source exists,PASS,True,04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL/CR147_checks.csv
+CR147_wrong_controls row source exists,PASS,True,04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL/CR147_wrong_controls.csv
+G11555_checks row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/G11555_MAGIC_BELL_A1_NO_CROSSING_THEOREM/G11555_checks.csv
+G11555_wrong_controls row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/G11555_MAGIC_BELL_A1_NO_CROSSING_THEOREM/G11555_wrong_controls.csv
+QGA024_checks row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA024_ETA_HBAR_OR_CONTINUUM_STRESS_ANCHOR/QGA024_checks.csv
+QGA025_checks row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA025_HAWKING_RADIATION_THERMAL_BRIDGE_AUDIT/QGA025_checks.csv
+QGA025_thermal_rows row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA025_HAWKING_RADIATION_THERMAL_BRIDGE_AUDIT/QGA025_thermal_rows.csv
+QGA025_gap_register row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA025_HAWKING_RADIATION_THERMAL_BRIDGE_AUDIT/QGA025_gap_register.csv
+QGA026_checks row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA026_HAWKING_GREYBODY_SPECIES_KERR_ROUTE_AUDIT/QGA026_checks.csv
+QGA026_kerr_rows row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA026_HAWKING_GREYBODY_SPECIES_KERR_ROUTE_AUDIT/QGA026_kerr_rows.csv
+QGA026_gap_register row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA026_HAWKING_GREYBODY_SPECIES_KERR_ROUTE_AUDIT/QGA026_gap_register.csv
+SUK060_invariants row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK060_invariants.csv
+SUK060_wrong_controls row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK060_wrong_controls.csv
+SUK061_invariants row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK061_invariants.csv
+SUK061_wrong_controls row source exists,PASS,True,C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK061_wrong_controls.csv
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+alpha_H locked at 2,PASS,2,LC01 primitive
+split fraction locked at 1/8,PASS,1/8,LC01 primitive
+retained side locked at 7/8,PASS,7/8,LC01 primitive
+carrier side locked at 1/8,PASS,1/8,LC01 primitive
+surface debit locked at 3/4,PASS,3/4,LC01 primitive
+bounce lift locked at 9/8,PASS,9/8,LC01 primitive
+resolved half-bounce locked at 9/16,PASS,9/16,LC01 primitive
+A_share recomputes to 1/12,PASS,1/12,R-derived
+A_side recomputes to 1/24,PASS,1/24,R-derived
+11/12 maximum loading recomputes,PASS,11/12,R-derived
+12/12 completion recomputes to A=1,PASS,1,R-derived
+split loss native equals 18,PASS,18,R^2 * 2^-D
+CR007 horizon landmark replay,PASS,1.0,A = r_s / r = 1 / x
+CR007 photon_sphere landmark replay,PASS,0.6666666666666666,A = r_s / r = 1 / x
+CR007 isco landmark replay,PASS,0.3333333333333333,A = r_s / r = 1 / x
+CR007 landmark root layer replay,PASS,CR007_BOUNDARY_STRONG_FIELD_LANDMARK_SELECTOR,"A(r)=r_s/r places horizon, photon sphere, and ISCO at A=1,2/3,1/3"
+CR008 A=1 closure layer replay,PASS,CR008_BOUNDARY_CLOCK_TRAVERSAL_CLOSURE,"lapse -> 0, redshift and outside traversal diverge as A -> 1"
+CR009 photon sphere / shadow layer replay,PASS,CR009_PASS_SCOPED_PHOTON_SPHERE_SHADOW_CONTACT,A=2/3 carries b_crit/r_s=3*sqrt(3)/2 and shadow diameter/r_s=3*sqrt(3)
+CR010 ISCO layer replay,PASS,CR010_PASS_SCOPED_ISCO_ORBITAL_CONTACT,A=1/3 carries Schwarzschild ISCO invariants
+CR011 appeal zipper layer replay,PASS,CR011_PASS_DEFERRED_SUPPORT_ZIPPER,append appeal PASS readouts without overwriting CR007/CR008 original boundary grades
+G11555 A=1 no-crossing theorem layer replay,PASS,PASS_MAGIC_BELL_THEOREM,A=1 is the magic-bell closure; A>1 rejects parent-ledger write
+QGA024 phase/stress anchor layer replay,PASS,QGA024_PASS_PHASE_STRESS_SKELETON_ETA_EXTERNAL,phase/stress skeleton passes; eta/hbar and full continuum law stay separate
+QGA025 scoped thermal bridge layer replay,PASS,QGA025_PASS_SCOPED_HAWKING_THERMAL_BRIDGE_GAPS_REGISTERED,"Hawking T, BH entropy, first-law/Smarr, and proxy scaling pass"
+QGA026 Kerr/greybody route split layer replay,PASS,QGA026_PASS_KERR_THERMAL_GREYBODY_ROUTE_SPLIT_SPECIES_OPEN,Kerr uniform-temperature route passes; greybody/species/rate/spectrum remain open
+SUK060 HR backreaction inventory layer replay,PASS,HR_EXHAUST_DRIVES_PARENT_HORIZON_INVENTORY_DRIFT_NOT_CHILD_LEDGER_ENERGY,HR exhaust decreases parent horizon inventory and contributes zero child-ledger HR energy
+SUK061 horizon-bounded ledger cell layer replay,PASS,BOUNDARY_MATH_SELECTS_HORIZON_BOUNDED_LEDGER_CELL_FRAME,outside HR exhaust and inside write import balance across one shared boundary
+CR103a 11/12 threshold present,PASS,11/12,CR103a appeal lock
+CR103a functional-form debt preserved,PASS,preserved,CR103a open debts
+CR113 R theorem passes,PASS,CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM,CR113
+CR113 uses R-first not A0 smuggling,PASS,R-first,CR113 theorem statement
+CR116 18 carrier theorem passes,PASS,CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM,CR116
+CR116 keeps 18 carrier-only,PASS,carrier_only_not_matter,CR116 particle status
+CR147 dynamic release passes,PASS,CR147_PASS_GW170817_DYNAMIC_A_RELEASE_ENGINE_DIFFERENTIAL_WITH_STATIC_A_INTEGRAL_BOUNDARY,CR147
+CR147 preserves A=1 no literal launch,PASS,NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT,CR147 boundary
+CR147 rejects static A integral seconds explanation,PASS,REJECTED_AS_SECONDS_SCALE_EXPLANATION,CR147 static lane
+QGA025 12/12 predictions pass,PASS,"[12, 12]",QGA025 checks
+QGA025 8/8 wrong controls pass,PASS,"[8, 8]",QGA025 checks
+QGA025 gaps remain open,PASS,6,QGA025 gap register
+QGA026 12/12 predictions pass,PASS,"[12, 12]",QGA026 checks
+QGA026 8/8 wrong controls pass,PASS,"[8, 8]",QGA026 checks
+QGA026 gaps remain open,PASS,5,QGA026 gap register
+SUK060 invariants pass,PASS,6,SUK060 invariants
+SUK060 wrong controls rejected,PASS,4,SUK060 controls
+SUK061 invariants pass,PASS,7,SUK061 invariants
+SUK061 wrong controls rejected,PASS,5,SUK061 controls
+Branch-05 seal keeps full thermodynamics separate,PASS,scope preserved,branch05 seal
+CR073 manifest carries Hawking thermal bridge evidence,PASS,QGA025 carried,CR073 manifest
+CR073 manifest carries horizon no-crossing evidence,PASS,G11555 carried,CR073 manifest
+All wrong controls rejected,PASS,8/8,LC11 wrong controls

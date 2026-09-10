@@ -1,0 +1,94 @@
+{
+  "record_id": "CR120L_TYPED_7_8_9_THETA_MIRROR_BUDGET_F81_ROSTER_DISCRIMINATION",
+  "source_policy": "EXACT_HASHED_READ_ONLY_INPUTS",
+  "sources": [
+    {
+      "source_id": "updated_particle_rows2_workbook",
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "role": "user-constructed F81 roster and target-aware 12600 budget witness",
+      "bytes": 93700,
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "authority": "USER_RESEARCH_OVERLAY_NOT_CANONICAL_QP093A"
+    },
+    {
+      "source_id": "qp093a_generator",
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "role": "canonical QP093A generator and source formulas",
+      "bytes": 43208,
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "authority": "FROZEN_UPSTREAM_GENERATOR"
+    },
+    {
+      "source_id": "qp093a_catalog",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "role": "canonical 321-row identity and numeric source",
+      "bytes": 213474,
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+      "authority": "CANONICAL_QP093A_ROW_SOURCE"
+    },
+    {
+      "source_id": "cr120k_summary",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_summary.json",
+      "role": "100 independent records and 16200 upper-budget source",
+      "bytes": 913,
+      "sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67",
+      "authority": "SEALED_PRIOR_STRUCTURAL_RESEARCH_RESULT"
+    },
+    {
+      "source_id": "cr120k_result",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_result.md",
+      "role": "CR120K typed W9 provenance and authority boundary",
+      "bytes": 5328,
+      "sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b",
+      "authority": "SEALED_PRIOR_STRUCTURAL_RESEARCH_RESULT"
+    },
+    {
+      "source_id": "cr120k_candidate_manifest",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_CANDIDATE_MANIFEST.json",
+      "role": "CR120K candidate hash source",
+      "bytes": 4066,
+      "sha256": "672007802272cdc5d80344669e21c737ec9b622797dd158d56f58e4cba9b994e",
+      "authority": "SEALED_CANDIDATE_MANIFEST"
+    },
+    {
+      "source_id": "cr269_summary",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json",
+      "role": "B:R2 to M,Theta typed operator and F81 fixed-point source",
+      "bytes": 2993,
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "authority": "SEALED_STRUCTURAL_FOUNDATION_CR"
+    },
+    {
+      "source_id": "cr269_result",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md",
+      "role": "readable 126,144,18 bow partition and Higgs bridge",
+      "bytes": 6065,
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "authority": "SEALED_STRUCTURAL_FOUNDATION_CR"
+    },
+    {
+      "source_id": "cr214_summary",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_summary.json",
+      "role": "canonical 321/126/195 gate and complement boundary",
+      "bytes": 3310,
+      "sha256": "fd4bce3f2ba2cea5773b8662297425f6742481081871c9579456d144b3aee00f",
+      "authority": "SEALED_PARTICLE_GATE_AUDIT"
+    },
+    {
+      "source_id": "cr214_gate_reasons",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_all_particle_gate_reasons.csv",
+      "role": "row-level canonical matter-gate status",
+      "bytes": 40326,
+      "sha256": "825a0f34f913bc2a868d4007acf1bdfade0391c0db26384db61e513b31474b98",
+      "authority": "SEALED_ROW_LEVEL_GATE_SOURCE"
+    },
+    {
+      "source_id": "task_preflight",
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_030021_no_script.md",
+      "role": "task-specific constructive-new-work gate",
+      "bytes": 17395,
+      "sha256": "f15ed79c4ef86e6de1ddedc367ec7d06763908597f0fdec2ae264ea2fd95e3f1",
+      "authority": "COURTROOM_PREFLIGHT"
+    }
+  ]
+}

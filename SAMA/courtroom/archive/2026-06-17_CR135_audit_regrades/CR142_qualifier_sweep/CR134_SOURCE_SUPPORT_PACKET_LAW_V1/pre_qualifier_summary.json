@@ -1,0 +1,110 @@
+{
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "law_lock_sha256",
+    "old_value": "4aa8f02b1e1bfb1e3db0f92aa80ce24e098c10d7c890ed55de04504f8d48e342",
+    "new_value": "6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR134_SOURCE_SUPPORT_PACKET_LAW_V1/",
+    "original_result_md_sha256": "4b3b6bc2b478e153c506b350792cd1acd3054a783b540cc873c08903523131fd",
+    "original_summary_json_sha256": "43381e4db213a40515479429929d64bc9a40ca70c598899349d63bc8c6ebb482"
+  },
+  "cr_id": "CR134",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "SOURCE_SUPPORT_PACKET_M_NATIVE_LAW_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR134_SOURCE_SUPPORT_PACKET_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T00:32:19Z",
+  "classification": "hidden_source_support_rows (unresolved_support spin, HIDDEN_SUPPORT_NOT_MATTER stability)",
+  "formula": "M_native = partition + partition^2 / R^2 = partition * (R^2 + partition) / R^2",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "rows_tested": 8,
+  "matches": 8,
+  "violations": 0,
+  "S_debit_zero": 8,
+  "qA_zero": 8,
+  "verification_csv_sha256": "d926bd4b2fcd6a98757d92128ff781d9f585d021cda46bc8c4412b2b809d39f9",
+  "law_lock_sha256": "6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_8_rows_walked",
+      "pass": true,
+      "details": "rows walked = 8 (expected 8)"
+    },
+    {
+      "name": "P2_formula_matches_all_rows",
+      "pass": true,
+      "details": "matches = 8/8, violations = 0"
+    },
+    {
+      "name": "P3_S_debit_zero_universally",
+      "pass": true,
+      "details": "S_debit = 0 on 8/8 rows"
+    },
+    {
+      "name": "P4_qA_zero_universally",
+      "pass": true,
+      "details": "qA = 0 on 8/8 rows (no qA channel for substrate)"
+    },
+    {
+      "name": "P5_eight_partition_values_observed",
+      "pass": true,
+      "details": "distinct partition values = [1, 2, 3, 4, 6, 8, 9, 12]"
+    },
+    {
+      "name": "P6_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = 6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_SOURCE_SUPPORT_PACKET_explicitly_NOT_matter",
+      "pass": true,
+      "details": "All 8 rows have stability_status = HIDDEN_SUPPORT_NOT_MATTER and matter_row_allowed = no.  CR134 locks the M_native generator without claiming these are physical particles -- they are SAM's substrate-support inventory."
+    },
+    {
+      "name": "WC3_formula_derived_directly_from_data",
+      "pass": true,
+      "details": "M_native - partition divided by partition^2 gives EXACTLY 1/R^2 = 1/144 for all 8 rows.  The formula M = p + p^2/R^2 is the direct algebraic reading; no hypothesis fitting required."
+    },
+    {
+      "name": "WC4_S_debit_and_qA_both_zero_universally",
+      "pass": true,
+      "details": "Confirmed: all 8 rows have S_debit = 0 AND qA_source_support = 0.  These are pure-structure rows with no surface debit and no qA channel."
+    },
+    {
+      "name": "WC5_partition_algebra_unbroken",
+      "pass": true,
+      "details": "All 8 partition values are in the SAM algebra {1, 2, 3, 4, 6, 8, 9, 12}."
+    },
+    {
+      "name": "WC6_law_derived_inductively_forward_blind_committed",
+      "pass": true,
+      "details": "Formula was extracted from the 8-row data via direct algebraic inspection.  Forward-blind CR134_PRED_1 commits the law for testing on future rows."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "First-principles derivation of why substrate support takes the +p^2/R^2 perturbative form is open",
+    "Cross-class relation between SOURCE_SUPPORT_PACKET and OUTER_BINARY_NEUTRAL's 1/8 coefficient (both 'hidden' families but different forms) is structurally open",
+    "Forward-blind CR134_PRED_1 resolves when CR119 gains new SOURCE_SUPPORT_PACKET rows"
+  ]
+}

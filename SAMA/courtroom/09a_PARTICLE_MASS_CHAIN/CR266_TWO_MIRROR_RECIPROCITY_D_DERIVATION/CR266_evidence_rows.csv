@@ -1,0 +1,9 @@
+item,value,detail
+G1_closure_axiom,True,9 = 8 + 1 with +1 read as reciprocity axis
+G2_carrier_atoms_reconstruct,True,"S=8, R=12, V=27, F=81, Theta=18, L=162, M=126"
+G3_CR229_ledger,True,R^2 = 144 = M + Theta = 126 + 18
+G4_CR248_mirror_reading,True,u+d=3A (closure axiom per nucleon); u-d=Z-N (mirror imbalance)
+G5_carrier_container_reproduction,True,carriers all have d_exp>=1; containers serve as boundary
+G6_conceptual_provenance,True,6 sources; 3 with paths
+G7_primitive_count_reduction,True,reduced from 3 to 2 primitives + 2 givens
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

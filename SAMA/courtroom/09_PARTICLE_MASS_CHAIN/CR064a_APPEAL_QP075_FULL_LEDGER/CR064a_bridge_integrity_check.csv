@@ -1,0 +1,36 @@
+campaign_row_symbol,campaign_row_role_or_ladder,bridge_kind,bridge_status
+up quark (u),V4.1_TP_freeze,ladder,ladder_anchored
+down quark (d),V4.1_TM_freeze,ladder,ladder_anchored
+strange quark (s),V4.1_TM_freeze,ladder,ladder_anchored
+charm quark (c),V4.1_TP_freeze,ladder,ladder_anchored
+bottom quark (b),V4.1_TM_freeze,ladder,ladder_anchored
+top quark (t),V4.1_TP_freeze,ladder,ladder_anchored
+electron (e),exterior_surface_delay,operator_bridge,operator_anchored
+muon (mu),direction_carrier,operator_bridge,operator_anchored
+tau (tau),outside_escape_complement,operator_bridge,operator_anchored
+electron neutrino (nu_e),V4.1_addendum_outer_binary_active,ladder,ladder_anchored
+muon neutrino (nu_mu),V4.1_addendum_outer_binary_active,ladder,ladder_anchored
+tau neutrino (nu_tau),V4.1_addendum_outer_binary_active,ladder,ladder_anchored
+W boson (W+/-),charged_weak_vector,operator_bridge,operator_anchored
+Z boson (Z),neutral_weak_vector,operator_bridge,operator_anchored
+Higgs (H),higgs_color_complement_scalar,operator_bridge,operator_anchored
+top quark (t),top_heavy_fermion,operator_bridge,operator_anchored
+proton (uud),color_minus_SW_terminal_baryon,operator_bridge,operator_anchored
+neutron (udd),weak_plus_SW_beta_bridge,operator_bridge,operator_anchored
+charged pion (pi+/-),charged_pion_color_power,operator_bridge,operator_anchored
+neutral pion (pi0),neutral_pion_D_b_carrier,operator_bridge,operator_anchored
+charged kaon (K+/-),charged_kaon_D_b_square,operator_bridge,operator_anchored
+neutral kaon (K0),neutral_kaon_color_complement,operator_bridge,operator_anchored
+deuteron (pn),u3u2_composite_SW_depth,operator_bridge,operator_anchored
+alpha particle (ppnn),u3u2_composite_D_depth,operator_bridge,operator_anchored
+"Delta (Delta++/0/-) (uuu, ...)",isoresonance_rank2_tensor_baryon,operator_bridge,operator_anchored
+Lambda (uds),octet_occupation_single_heavy_baryon_strange,operator_bridge,operator_anchored
+Lambda_c (udc),octet_occupation_single_heavy_baryon_charm,operator_bridge,operator_anchored
+Lambda_b (udb),bookend_layer_bottom_baryon,operator_bridge,operator_anchored
+D meson (cq),u3u2_composite_tier_d_meson,operator_bridge,operator_anchored
+B meson (bq),top_tower_rank2_bookend_b_meson,operator_bridge,operator_anchored
+eta (548) (~d_anti_d),light_same_flavor_pseudoscalar_eta_d,operator_bridge,operator_anchored
+eta prime (958) (~s_anti_s),light_strange_pseudoscalar_eta_prime,operator_bridge,operator_anchored
+"Xi_bc^+ / Omega_bcc (1b + nc, Sigma-like)",combined_bookend_octet_doubly_heavy_bc_baryon_sigma,operator_bridge,operator_anchored
+"Xi_bc^0 / Omega_bcs (1b + nc, Lambda-like)",combined_bookend_octet_doubly_heavy_bc_baryon_lambda,operator_bridge,operator_anchored
+"Omega_bbc (2b + 1c, Lambda-like)",multi_heavy_bc_baryon_two_bottom_lambda,operator_bridge,operator_anchored

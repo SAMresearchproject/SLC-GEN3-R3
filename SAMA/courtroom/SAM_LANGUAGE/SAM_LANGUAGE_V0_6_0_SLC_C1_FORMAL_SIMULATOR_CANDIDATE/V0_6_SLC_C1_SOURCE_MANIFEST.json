@@ -1,0 +1,923 @@
+{
+  "campaign_id": "SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE",
+  "deterministic_manifest": true,
+  "lineage_verification": {
+    "sam_language_v0_5": {
+      "candidate_code_hash": "726011b38d27a9b5403a7df66d8d4d5ac7c49960bc331d65f57c66de7a7ecaf0",
+      "executable_files_verified": 92,
+      "release_primary_verdict": "PASS_SAM_LANGUAGE_V0_5_DIRECT_QP_PARTICLE_GRAMMAR__321_ROW_STRUCTURAL_GRAMMAR_EXECUTABLE__NATIVE_SIGNATURES_EXECUTABLE__PHYSICAL_FORMATION_MASS_AND_BINDING_OPEN"
+    },
+    "slcx002": {
+      "artifacts_verified": 17,
+      "release_manifest_sha256": "99a9c187f35f16ec5ae06a54135e8a24418553f345fed0ea73cb6ff196e57c3d"
+    },
+    "slcx003": {
+      "artifacts_verified": 19,
+      "release_manifest_sha256": "36b734bf2b17a2f6f552df61a5226876b20723ff6be0f4b76067875108b6493a"
+    }
+  },
+  "preflight_stem": "PREFLIGHT_20260718_173728_no_script",
+  "source_count": 150,
+  "sources": [
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 3094,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/SLCX002_CONTRACT.json",
+      "sha256": "14d13eee1324f4077d1e7a1eb544d35553ac3bfd6aca21472191e16ae6702bd0"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 1611,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/SLCX002_PRECOMMIT.md",
+      "sha256": "74f99f8c65f73e838cbf423f06f7c38ceb336f91f46f16ca377d1345da7ada90"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 442,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/SLCX002_PRECOMMIT_SEAL.json",
+      "sha256": "d2166d153ad4fb8e22a598531350db7f6fd7f3e701b7c33dcf5acf3b33d3647b"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 4116,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/SLCX002_SOURCE_MANIFEST.json",
+      "sha256": "39411b4f2e347b12b8fd73d6a84ced788aefee6b4f1dcf74fbe598e63ed484dc"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 255,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_CLASSICAL_LIMIT.csv",
+      "sha256": "b1c342e9df695fe72b71ff5520d7c34a8a119423d3e38d8c765ac68527af0366"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 1383,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_COMPLEX_PHASE_BOUNDARY.csv",
+      "sha256": "8fe361d8c0d9a4506763308e807d66074c0626d851cef1ad9cc384f2c2c98c1a"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 922,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_EVIDENCE_MATRIX.csv",
+      "sha256": "56c83f0e42e1a3f3d1031cfbe578dac7c8a212c54e893a72eddb9b4102ca5694"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 1778,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_FORMAL_GRAMMAR_CANDIDATE.md",
+      "sha256": "141740d51dd17776e13596742ac9ed5abc783a4200af94e5fbfb05baf4988d18"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 392,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_GATES.csv",
+      "sha256": "1da3a43ba940617afc078e1b4244f0cf056f82d9df8871b85166677dea64ec18"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 222,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_MARGINAL_INVARIANCE.csv",
+      "sha256": "8ea5bab7abe7cd8077b0cad7a8aae180d2f8ceb875de913c9ee2fbfa08604e0d"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 122,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_MIXED_STATE_CONTROLS.csv",
+      "sha256": "f76185e08a19baa225eb1074e4a62be0411fc5e3ca9396348036fc179b763804"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 784,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_OPERATOR_MATRICES.json",
+      "sha256": "3974aabdc8b9a4dd5edff8cf9030c59aeba641d222871c4e9498ba1b40ea052d"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 1697,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_RELEASE_MANIFEST.csv",
+      "sha256": "99a9c187f35f16ec5ae06a54135e8a24418553f345fed0ea73cb6ff196e57c3d"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 96,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_RELEASE_MANIFEST_SHA256.txt",
+      "sha256": "401b41900bf7bc151dd517e8e34a0f6d9fd6304880daa9135e94d18c37c83126"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 1135,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_REQUEST_ENUMERATION.csv",
+      "sha256": "06fd670703344b7f6d282a40bfb1f84beee5047e954656fa6decee6a3c8da56c"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 1166,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_RESPONSE_ENUMERATION.csv",
+      "sha256": "d451a9366b8de6736722d64358fa7534ba5081d3a7d808f79c1228b5fa8dd37a"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 2570,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_RESULT.md",
+      "sha256": "11a1ce90682d94d4ce5b9f42cc01df3fdb17356693240092f664f4df13952c29"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 132,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_SEAL_CHECKS.json",
+      "sha256": "ab50612ebde718fc4dd6433100ed975065b87d7de5f5d0132bf264526361cb1a"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 503,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_SIGN_GAUGE_METRICS.csv",
+      "sha256": "08a684e4f6f0a8f7cd40f0f4aba64a95aeca999674342483778365f38bebcfe5"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 3916,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_SOURCE_CUSTODY.csv",
+      "sha256": "622d4500e06afd49602f9bef90ab6171612470ee0b279e315691aa06a74f4b5e"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 696,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_STATE_METRICS.csv",
+      "sha256": "e140f53284246bc5fac82a8c77bc6fbb1da90c0b9de6fc62303c4edbc4464522"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 1171,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_SUMMARY.json",
+      "sha256": "b07d3661081ee1ad8e2623ffb2b6ea6096a5f0b0b85f49067011a5dafb7fe631"
+    },
+    {
+      "authority": "FROZEN_SLCX002_REAL_TWO_OPERATION_SOURCE",
+      "bytes": 884,
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY/release/SLCX002_WRONG_CONTROLS.csv",
+      "sha256": "9a22be34b8547665a216149d92538d3d680b9f3106d2ed86020ae44c3023ddbe"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 5378,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/SLCX003_CONTRACT.json",
+      "sha256": "7874edcd9d212fa60b8b64274d0a7c7c74ef920bfae79291a18837329701a8af"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 2234,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/SLCX003_PRECOMMIT.md",
+      "sha256": "c3dbd66cb39e46049f5d48773957e52f714ef14cd47105d8b96b3804a8bdc39d"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 440,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/SLCX003_PRECOMMIT_SEAL.json",
+      "sha256": "b0ab5a869fb16cc5a182d3f0774a11b6507486172d5c61dba5a9d5273e208c1d"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 6573,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/SLCX003_SOURCE_MANIFEST.json",
+      "sha256": "027364605c0c7412f5ef1ded83a8073da1541b4034c44903906eb41c6c83175c"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 2305,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_12_LEBIT_FORMAL_GRAMMAR.md",
+      "sha256": "34f549336a183b4bcc7a6ebe5f468207610b7ee6dd393015aff629590529fb61"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 15299,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_CYCLE_EDGE_DIAGNOSTIC.csv",
+      "sha256": "d433cb76bc3d08e0538221ae545aa330c5ab62f6f6325444c91c076f60e9e6e7"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 3274622,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_DECOMPOSITION_ASSIGNMENTS.csv",
+      "sha256": "0cfe9703f0fc4ceed7b0310ce7971fd88b70b69c927f1ed3b838ab64f6045f0d"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 1254,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_EVIDENCE_MATRIX.csv",
+      "sha256": "19be75d4d2074ec09c607113dea3511a791170ed47aa0ae7ae464d82a6546b3b"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 504,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_EXECUTION_RECEIPT.json",
+      "sha256": "c96317a9930df91542ec5b2be8ae3cd5c0acc67a6860ee9a50e0cb0551f72c85"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 627,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_FOREST_INDUCTION.csv",
+      "sha256": "8eeab03aacbdbe3644523f4938acac925ea9946dd6723c5bf255b443606b1f9c"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 623,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_GATES.csv",
+      "sha256": "11da671e1ea27ff88c2ebe77497cb36e544be08494d81edb39980e76dc764ecd"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 483,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_NATIVE_DECOMPOSITION_CENSUS.csv",
+      "sha256": "3cadd97440d848b8610944f97380886f322225a37e6b6379a565e2de33db853a"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 538,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_OPERATOR_LIFT.json",
+      "sha256": "26029b0ed3ec02049a73c46215be726df9e698fc15209c823cf64280662444a6"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 244,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_PREDECESSOR_CLASSICAL_RECOVERY.csv",
+      "sha256": "78d5037143ac61652be92135702eae616ad48198a5f6ec9e49e00d7ddc915d91"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 875,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_PROVENANCE.json",
+      "sha256": "76d54bfacb1e40967f1e7df88209eb3b52e8a0c24604a530c41ebe7660a33e87"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 12874,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_REGISTER_EMBEDDINGS.csv",
+      "sha256": "29463df2baf1ea6193e75d0d4ae33665a3f3df0f7866a2fe3c184280862e17f0"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 1930,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_RELEASE_MANIFEST.csv",
+      "sha256": "36b734bf2b17a2f6f552df61a5226876b20723ff6be0f4b76067875108b6493a"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 96,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_RELEASE_MANIFEST_SHA256.txt",
+      "sha256": "2ae763d864bab1a74cbf1b7b4782e5b21126696c3462c91fe1b72d6edfe6e6ae"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 2802,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_RESULT.md",
+      "sha256": "eda3f3ed1ddaaee47b6fe41f05d334492a165e232925628a952da428100a21ad"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 132,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_SEAL_CHECKS.json",
+      "sha256": "ab50612ebde718fc4dd6433100ed975065b87d7de5f5d0132bf264526361cb1a"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 47282,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_SIGN_GAUGE_REGISTER.csv",
+      "sha256": "fe9b09e435d7b0c23c13f28698dbdc8a49b0a8d08ce360ba0c9d15850ba65a7b"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 6352,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_SOURCE_CUSTODY.csv",
+      "sha256": "e90ea70c05a4c1875d605b95632bc9113b126f2913485827b289eef4f0fcccad"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 1538,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_SUMMARY.json",
+      "sha256": "043a01beb29c17c7c882ef4229cfa4065a19fbdc714751da4eec0156a1e643a4"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 359,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_TYPED_NAMESPACE_CHECKS.json",
+      "sha256": "94eec648b82672f2d6647dae7da8619fc6cd48b87018228d51009fd5e7dc4f9e"
+    },
+    {
+      "authority": "FROZEN_SLCX003_12_LEBIT_FORMAL_ORACLE",
+      "bytes": 1451,
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY/release/SLCX003_WRONG_CONTROLS.csv",
+      "sha256": "1274db3486bdc3576d7e7d6b3307a65452a0063e4bed9df31f032bfb57f5bf46"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 623,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/CHANGELOG.md",
+      "sha256": "8c6d216cade95ac872a9697538d89d61544628b603e21ce2f9239256250819e6"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 12781,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/HASHES.txt",
+      "sha256": "c9e119ff697d8190ad82902118b3770576688a76041de16e6ed820b3120f8ce5"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1559,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/README.md",
+      "sha256": "2b65a45675fd769560108f5d59ecc6c11c55f5673f7022f4afe18dc11f996bae"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2146,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_ACCEPTANCE_CONTRACT.json",
+      "sha256": "2b355dbc06e84f98b9910f6019cf41c2a7bbc7463ee90ac441e7f212e3605cd6"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2145,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_ACCEPTANCE_MATRIX.json",
+      "sha256": "7f62546f87b152875d098276acb0122a0b6374353f426322690e85e0c85f9d30"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 134,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_COMBINED_REGISTRY_BUILD.json",
+      "sha256": "466c86a55666485a0124e353cc6b488106c8912b9c6e9abd91cb82023cdc48a0"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 10596,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_EXECUTABLE_HASHES.json",
+      "sha256": "e414a14aaa0cfbdd84fff167718b2c93ca79f82919ec6c52a4fbdffaf63245ed"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 66,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_EXECUTABLE_SEAL.txt",
+      "sha256": "91653d80cadc03c765fdfd8763bc1fc92d7d522e29f2fb6dbc1834b559ca6ea5"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 6411,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_PARENT_BASELINE.json",
+      "sha256": "9bc7264c7aa02d57fa0ad45b05ebb3fb3c991cc51261c9d46270b3c20cfcc55c"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 461,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_REGISTRY_DATA_BUILD.json",
+      "sha256": "d3e79a16a83a1d26a91dd2676010836e42efe2a03415bf92b35a2f779362e80f"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 383,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_REGRESSION_SUMMARY.json",
+      "sha256": "eb244658d718028aed16bb1a552bb86400ed7e7f6ae633470df098bb1c6571a1"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 15824,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_RELEASE_MANIFEST.json",
+      "sha256": "fa15a3d6f81b3a1af1fa59a3fc00ee4fd78094d376d6939f08739e99a0958782"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 598,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_RELEASE_READINESS.md",
+      "sha256": "4f81ddbed9e0a5a7bb6cc2a0ebca3b5cdf97bd72dd98daf6fedcceab78741ec4"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 241,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/V0_5_SCAFFOLD_RESULT.json",
+      "sha256": "bed000788ece517de96b548bbbaeebfff92d984d6397a9254312961e6020f9f8"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 354,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/cr005_gps_calibration.sam",
+      "sha256": "95222bf3f607d05d893a0b7e5add4bca5be1147da8e33670b172035227b45dd5"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 405,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/declared_42164km_circular_orbit.sam",
+      "sha256": "a759eb6c19c1a94cddc41d91ddc61484c79ebe57fda8703fd531fd8741cedaf3"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 81,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_deep_conjugate.sam",
+      "sha256": "6f2a2d362168b06edbfb411887642a7c76b337cfe25877080a779f44ed28622a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 84,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_neutral_conjugate.sam",
+      "sha256": "fec12cf4e06607fceeed7c1be7198d993e152306791201040ee9adccaa5abcdc"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 104,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_physical_mass.sam",
+      "sha256": "319ed63fdb274554134047a466a6dc3c0e84fe9c0fadcdd137bafccbe58b81df"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 99,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_relation_as_constituent.sam",
+      "sha256": "677ae37010324594d69bdcfbfc4529e6226357b9541f5dac03702c4f411ec329"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 124,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_starbreaker_transition.sam",
+      "sha256": "35d981c8fa350241648f33e71bfccae0bc86c0dac7c0b67e8fcf3230e5fd6cf7"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 95,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_static_slot_placement.sam",
+      "sha256": "523c436faae385254dd9dca1e5d18eefe76389b1f0d50dbb416f9946945e4a5e"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 65,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/invalid_unresolved_volume.sam",
+      "sha256": "6e6b155536e47d1b438146f13c060f10ec3ae9b1e8a0cc4e6135574802f1b86a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 335,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/mixed_core_qp.sam",
+      "sha256": "77b2b507ea47f1513e2f66357e5ae4d358d1ae8a01393921096668c90cacb726"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 161,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_admitted_triad.sam",
+      "sha256": "fd2c878cd70ec1b257fbe83b294bb47889efcecc3fbbfc666996806902e04cf9"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 94,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_carrier.sam",
+      "sha256": "d10ca0b78d9c51176734fc9979ce7de5e618786bccc2b2f8ebf83499050e960b"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 72,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_hidden_support.sam",
+      "sha256": "584b38fddc5d192d456a212727b159356d1ad8e711fc2f32595d39e0453c0392"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 200,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_native_signature.sam",
+      "sha256": "75344a4122e508e9354e3b9a25519392b919cd8e4be84cd7fe2ff221e87cdbbb"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 73,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_ordered_pair.sam",
+      "sha256": "ae1a9e88b8e2fadcf322fd1825f4da86cb8d606222898722029f86d2bbd2bb91"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 141,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_rejected_triad.sam",
+      "sha256": "e33b4bf422690c392c5238163a03ef612739a78cb76202dbf6bdee0056d0297d"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 66,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_scalar_parent.sam",
+      "sha256": "ffdcb9228d7e36592559002fdc8ed0b804be3beeed6d1e262270316550f775d0"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 161,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_triad.sam",
+      "sha256": "fd2c878cd70ec1b257fbe83b294bb47889efcecc3fbbfc666996806902e04cf9"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 90,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/qp_unary.sam",
+      "sha256": "35be33247b2275b2d69db4556c0310b049f1c0555137b58d358f9870be3ae59e"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 83,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/structural_only_research.sam",
+      "sha256": "2cd11dc38e1523fc8f3fe55add6c42a0b2446fc9c5ec1c9d9c6de70a0021d7b9"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 198,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/examples/valid_closure.sam",
+      "sha256": "c3a20813e4c7671381526e256badc25164db4d07bb2a3f43dc321378df297fc0"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 797,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/pyproject.toml",
+      "sha256": "633b3e5c7b6ad0480125c9b7788f68ba888cf79fd18ee15fa38892904bee7adf"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 215,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/CORE_SOURCE_MANIFEST.json",
+      "sha256": "90e5b5a9a209edf49de14678a0c85a494ed29c82e520148be7903e3ff08cd222"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 54163,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/ENTITY_REGISTRY.json",
+      "sha256": "2f634a6abf7c28bd72f384b85fd49e89b9593d878ae5accedc7940bbe175d2a1"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 659,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/OPEN_OPERATOR_REGISTER.json",
+      "sha256": "940d7e34cc38cdef36c6c9f2deab4aac4b07eca0048b122ed27dbc85c6aa68eb"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 23552,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/OPERATOR_REGISTRY.json",
+      "sha256": "55a9f38526412160a846669475c67057df726402d12b21c98ee9fe516a4f400f"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 6528,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_GRAMMAR_CONTRACT.json",
+      "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1231,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_PARTICLE_GRAMMAR.bnf",
+      "sha256": "cec1f87630855a7cd8f4842ce25533e04a89c723f5b7ec8e6feaef92e887e889"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2109,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_SEMANTIC_BOUNDARIES.md",
+      "sha256": "daea7b2fb41ded86077e7ff5060c0cffa2127f578cd8e04657b00c1075ea89ae"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 5145,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_SOURCE_MANIFEST.json",
+      "sha256": "316539300bad6a6d165b636eb1b2e761505e212bd2e0c101f8ba81170093a385"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 59728,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_SOURCE_RECONCILIATION.csv",
+      "sha256": "0cce98cb5f1cce15381cb8e4c6e46cb7d65ba36e6419a6dce56b63178c914ea1"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 773944,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_TEMPLATE_NATIVE_SIGNATURES.csv",
+      "sha256": "3b15ce858a95892825136f31ebde91b98498a54db4fb8fed97bc6b26c4f5bd75"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 766567,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_TEMPLATE_NATIVE_SIGNATURES_RAW.csv",
+      "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 39068,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/QP_TRIAD_ADMISSIBILITY.csv",
+      "sha256": "1af0edd3351f827602fca6a1a795001124b690a6b4bc3964b7ccb2dc3cd84398"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2186,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/registry/TYPE_HIERARCHY.json",
+      "sha256": "10695d9592124e0ceb7d51d554fafc2166fec4d311a6e697ec5f1b9fb5b5a861"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1209,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/__init__.py",
+      "sha256": "9abaee81cb71027d6e5dd157106e1a4607338d99ceb9dcc5ec45184c24540ec4"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 9717,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/cli.py",
+      "sha256": "d2bedbf8e189297ac7c659597b50835827c7aa251cc15b838453acad09622344"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 215,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/CORE_SOURCE_MANIFEST.json",
+      "sha256": "90e5b5a9a209edf49de14678a0c85a494ed29c82e520148be7903e3ff08cd222"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 54163,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/ENTITY_REGISTRY.json",
+      "sha256": "2f634a6abf7c28bd72f384b85fd49e89b9593d878ae5accedc7940bbe175d2a1"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 659,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/OPEN_OPERATOR_REGISTER.json",
+      "sha256": "940d7e34cc38cdef36c6c9f2deab4aac4b07eca0048b122ed27dbc85c6aa68eb"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 23552,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/OPERATOR_REGISTRY.json",
+      "sha256": "55a9f38526412160a846669475c67057df726402d12b21c98ee9fe516a4f400f"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 6528,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_GRAMMAR_CONTRACT.json",
+      "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1231,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_PARTICLE_GRAMMAR.bnf",
+      "sha256": "cec1f87630855a7cd8f4842ce25533e04a89c723f5b7ec8e6feaef92e887e889"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2109,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_SEMANTIC_BOUNDARIES.md",
+      "sha256": "daea7b2fb41ded86077e7ff5060c0cffa2127f578cd8e04657b00c1075ea89ae"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 5145,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_SOURCE_MANIFEST.json",
+      "sha256": "316539300bad6a6d165b636eb1b2e761505e212bd2e0c101f8ba81170093a385"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 59728,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_SOURCE_RECONCILIATION.csv",
+      "sha256": "0cce98cb5f1cce15381cb8e4c6e46cb7d65ba36e6419a6dce56b63178c914ea1"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 773944,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_TEMPLATE_NATIVE_SIGNATURES.csv",
+      "sha256": "3b15ce858a95892825136f31ebde91b98498a54db4fb8fed97bc6b26c4f5bd75"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 766567,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_TEMPLATE_NATIVE_SIGNATURES_RAW.csv",
+      "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 39068,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/QP_TRIAD_ADMISSIBILITY.csv",
+      "sha256": "1af0edd3351f827602fca6a1a795001124b690a6b4bc3964b7ccb2dc3cd84398"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2186,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/data/TYPE_HIERARCHY.json",
+      "sha256": "10695d9592124e0ceb7d51d554fafc2166fec4d311a6e697ec5f1b9fb5b5a861"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 5704,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/diagnostic_probe_map.py",
+      "sha256": "e9f8ff7fa39820902eed3260eec2bfb4f3a5299cb9db4ee5bb021d2d22f72746"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2229,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/errors.py",
+      "sha256": "3fa46ee130f807358ab08f32dcdecd7402dacf7ef2a132e332542dc2b3152bb0"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 221,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/evaluator.py",
+      "sha256": "f13e8575a44bf0ba56106dd52a6dbc1cba61c5c818ed960156227f1419a2333a"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2045,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/kernels.py",
+      "sha256": "c256f6682910ef5aad27cf54fe45e147abdef04f3a154d58c7b499e2e2a3f6b8"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 717,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/model.py",
+      "sha256": "e60f8e9d131f9bf476fbd6240b0e7560a322f0dcc507d556e1afe47bb3585e75"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 113,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/parser.py",
+      "sha256": "fbc5b6f34bd97293def2f63f763a95bfd0c98ff63e5ea61e7a3e325c21fd8d9d"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 155,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/provenance.py",
+      "sha256": "ed1202403ccb7261f298c5d095d1a61675a65ccefc1e222dcc10712e9c530ac9"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 9670,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/qp_grammar.py",
+      "sha256": "2ba12a0156e72223f63d111684997f46e83f805016bbd90ffaff4a4462513322"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 11615,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/qp_native.py",
+      "sha256": "531be4b1cf5cec23e364a9a93a7449ded855be2574106108db6250124d868e92"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 773,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/registry.py",
+      "sha256": "a3a4c3f1d439a9cd9f8fef37411d2046e54e537fb5fceb61fba819563b0352b5"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 566,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/registry_core.py",
+      "sha256": "b56b55982257cbdb1b64b234ff75a5c7d63a160e88b625d1dc29b720d58fdefa"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 14758,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/registry_qp.py",
+      "sha256": "48ad18a321972c4a5c3857bca69e571741acba64363cde524f7b9b522442b8a8"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 43144,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/runtime.py",
+      "sha256": "3587d10740349f8eb6e30902798461e12da442532e9bcbaf3ffc8598fc0e90cd"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2972,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/src/sam_language_v0_5/type_system.py",
+      "sha256": "7a55b659647410dddf174d175acbca9b494b77ae6c4259a7bc0f29f4c53c0491"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 61,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/__init__.py",
+      "sha256": "d443e6c96e6ac413c84adc59375f218529dd04ebb8e74ca69d373ad8f6f91b95"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1419,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v03_probe_regression_map.py",
+      "sha256": "937e3f3f3aca505e22f0b6f5c31aac4d32b3ff8eaba5c5745450a298690fc10f"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 4546,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v042_clock_kernel.py",
+      "sha256": "4fa8f13eac497830ee732652f7c939ecd0ddeae659dfaac1a38c316970a2dd8c"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 14448,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v04_runtime.py",
+      "sha256": "d4a84db80f7bb1095ee751ba2d999d3f25deb8c8379df5ac4c08fcb550708768"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 8194,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v05_direct_integration.py",
+      "sha256": "508552fc60b0cdd64cf682fa7d3528a0a526c329d66b997335fdef0a38536965"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 10398,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v05_grammar_exhaustive.py",
+      "sha256": "2e17dad31a3179b50760b92f7545503848033ba896dab6d4283ae2890778b044"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 5010,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v05_negative_boundaries.py",
+      "sha256": "a4101a3369d20257211840d5a557af5fe357bbf3ef9e7f94892584106706445b"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2649,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v05_source_tamper.py",
+      "sha256": "2c6a72f0eb9c5137c623b5b52bd3442fb775b4d7edaf02a7a4dcaae9d7a796a0"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 10292,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tests/test_v05_theorem_regression.py",
+      "sha256": "40322ab3b407f1ee008c4f7286564ed33f42c81e98b6c4270c81a8e9df61c68e"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 2067,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/build_combined_registries.py",
+      "sha256": "8e89b21f7336c6f13351af6ffe1596e7d2d5e3494fd3f13d0820fd8a049941f0"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 11689,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/build_registry_data.py",
+      "sha256": "2bb8e6167765740bc7cc67625c63062c6ce454439ebf2988ef378db34ff30919"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 12153,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/build_v05_precommit.py",
+      "sha256": "f7f30a9c89faadce8733646b17a03f4a122b7b0653f43d097355d3a3f14c078f"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 10649,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/clean_wheel_probe.py",
+      "sha256": "5bea4a0b3944b778bc3c10bcc0cf9f9c9cc074d5119d694cf5a20f03bacd134d"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 778,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/development_clean_wheel.py",
+      "sha256": "27e0d39bcf30bfc3ee694c9aeac30ed3d4c42d11473dfa1918010581e08527de"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 1912,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/development_smoke.py",
+      "sha256": "a6fb9f6c58be40020d5b09cb8bd055ebae53c19b670de06333f0e41760ff3798"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 3950,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/reference_qp_enumerator.py",
+      "sha256": "8e90781763617eccb9d0c6ee2f9ed8bf6583bab7e72eac95803b47124f64bb27"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 893,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/run_internal_tests.py",
+      "sha256": "1196760e528cae23f9c00ddcf6c1fda4f9a941257513892a024170af7a1fc101"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 37649,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/run_v05_acceptance.py",
+      "sha256": "9a98f5a1e4e1611bbcb50801a7ed4ad691b9be8487f47d222f12327ac6d4e72f"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 4052,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/static_direct_integration_audit.py",
+      "sha256": "c4fe736a35bb9142255a5eaf192e73afcb24903e2a5045cd8701db62935879f6"
+    },
+    {
+      "authority": "IMMUTABLE_SAM_LANGUAGE_V0_5_PARENT",
+      "bytes": 11495,
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE/tools/v05_external_diagnostic.py",
+      "sha256": "d48e7edb7530c365b8f0a563b1e825e0c5980761fe8c7a9d93b34a856152adaf"
+    },
+    {
+      "authority": "FROZEN_V0_6_C1_CONTRACT",
+      "bytes": 12908,
+      "path": "SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE/V0_6_SLC_C1_CONTRACT.json",
+      "sha256": "0250471ad673667e8e39527a0de777a2ff7541c3bec5ba4d6f95ad82a27cb3bd"
+    },
+    {
+      "authority": "PRECOMMIT_BUILDER",
+      "bytes": 13110,
+      "path": "SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE/build_v06_slc_c1_precommit.py",
+      "sha256": "c99a492d9b7c7b0de5bec84b13ddc115cb8af9d454741f244a16e4cdb7a654f6"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 7703,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260718_173728_no_script.json",
+      "sha256": "b714a7a8254363d7f8c646bd60df4f5998d7397498b5ef844edfde6f4dfc8025"
+    },
+    {
+      "authority": "LINEAGE_AND_PREFLIGHT_ANCHOR",
+      "bytes": 17213,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260718_173728_no_script.md",
+      "sha256": "dbe43d93253a055d5b110344f956a85e0261cf139e16675a9a033fd196891a52"
+    }
+  ]
+}

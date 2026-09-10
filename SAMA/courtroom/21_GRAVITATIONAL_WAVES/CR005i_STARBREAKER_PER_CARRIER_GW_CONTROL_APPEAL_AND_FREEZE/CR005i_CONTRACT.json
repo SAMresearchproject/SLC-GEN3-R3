@@ -1,0 +1,73 @@
+{
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "task": "Appeal CR005h numerical controls and adjudicate the frozen per-carrier GW candidate ledger",
+  "classification": "CONFIRMATION_OR_AUDIT_REQUIRES_PERMISSION",
+  "authorization": "User approved the per-carrier Starbreaker campaign and necessary freeze work on 2026-07-20.",
+  "appealed_campaign": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "appeal_scope": {
+    "candidate_ledger_may_change": false,
+    "candidate_rules_may_change": false,
+    "trajectory_flow_may_change": false,
+    "bind_escape_classes_may_change": false,
+    "external_waveform_allowed": false,
+    "qnm_filter_allowed": false,
+    "same_run_repair_allowed": false,
+    "appealed_items": [
+      "G02 parent-verdict string prefix",
+      "G05 floating-point linearity control",
+      "G08 static and isotropic zero controls"
+    ]
+  },
+  "frozen_failure_facts": {
+    "original_status": "FAIL",
+    "original_failed_gates": [
+      "G02_CONTRACT_SCHEMA_AND_PARENT_AUTHORITY",
+      "G05_TRACE_FREE_AND_LINEAR_SOURCE_CONSTRUCTION",
+      "G08_STATIC_AND_ISOTROPIC_ZERO_CONTROLS"
+    ],
+    "original_ledger_rows": 53568,
+    "original_manifest_sha256": "7cf6498211166ced701e0c97760375a9e3d6ba1d4e9e14b0975b0797e35e56cc"
+  },
+  "corrected_authority_control": {
+    "rule": "Require exact equality to the sealed CR005d primary verdict, not the erroneous CR005h prefix PASS_CONTINUOUS_FLOW.",
+    "required_parent_verdict": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__SOURCE_SEPARATION_OPEN"
+  },
+  "corrected_numerical_controls": {
+    "grid_intervals": 324,
+    "derivative_operator": "The exact sequential numpy.gradient edge_order=2 operator used by CR005h.",
+    "roundoff_envelope": "512 * machine_epsilon * infinity_norm(D^3) * max_time_component(sum_i(abs(Q_i))).",
+    "linearity_primary": "For every one of 96 scenarios, max_abs(D^3(sum_i Q_i) - sum_i D^3(Q_i)) must not exceed the frozen roundoff envelope.",
+    "linearity_power_guard": "For every scenario, the relative integrated-power difference between the two linear orderings must be <= 1e-6.",
+    "static_primary": "The aggregate static quadrupole must be constant to <= 64 machine epsilon relative residual before differentiation.",
+    "isotropic_primary": "The six-axis aggregate quadrupole must cancel to <= 64 machine epsilon relative to the summed individual quadrupole magnitude before differentiation.",
+    "synthetic_derivative_guard": "Third-derivative residuals for static and isotropic controls must lie inside the same frozen roundoff envelope.",
+    "rationale": "A third finite difference amplifies harmless floating-point residue by a factor proportional to grid_intervals cubed; quadrupole-level symmetry plus an a priori operator-norm envelope tests the scientific zero without demanding literal floating zero after amplification."
+  },
+  "adoption_rule": {
+    "custody": "The complete CR005h release manifest and all manifest-listed files must hash-match.",
+    "candidate_integrity": "The carrier ledger, slot table, and occurrence shortlist must be byte-identical to CR005h.",
+    "control_integrity": "All corrected authority, linearity, static, isotropic, inventory, and physical-claim firewall gates must pass.",
+    "result": "If all adoption gates pass, adopt and freeze the unchanged CR005h per-carrier ledger and its existing candidate classifications."
+  },
+  "verdict_ladder": {
+    "adopt": "PASS_CR005H_CONTROL_APPEAL__PER_CARRIER_GW_CANDIDATE_LEDGER_ADOPTED_AND_FROZEN",
+    "boundary": "BOUNDARY_CR005H_CONTROL_APPEAL__LEDGER_REMAINS_PROVISIONAL",
+    "fail": "FAIL_CR005H_CONTROL_APPEAL_CUSTODY_OR_INVENTORY"
+  },
+  "required_outputs": [
+    "CR005i_CONTROL_APPEAL.csv",
+    "CR005i_REVISED_GATES.csv",
+    "CR005i_ADOPTED_SLOT_CANDIDATES.csv",
+    "CR005i_ADOPTED_OCCURRENCE_SHORTLIST.csv",
+    "CR005i_ADOPTED_LEDGER_POINTER.json",
+    "CR005i_SOURCE_VALIDATION.csv",
+    "CR005i_SUMMARY.json",
+    "CR005i_RESULT.md",
+    "CR005i_PROVENANCE.json",
+    "EXECUTION_RECEIPT.json",
+    "CR005i_RELEASE_MANIFEST.csv",
+    "CR005i_RELEASE_MANIFEST_SHA256.txt"
+  ],
+  "interpretive_boundary": "Adoption validates an internal unit-weighted quadrupole-source attribution. It does not identify gravitational-wave material, physical strain, luminosity, seconds, signal speed, or detector visibility."
+}

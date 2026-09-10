@@ -1,0 +1,35 @@
+{
+  "record_id": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "parent_freeze": "PSLI_DF_20260715T025638Z",
+  "successor_of": "CR210b_FAIL_PRECOMMITTED_STRUCTURAL_CHECK",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "outcomes_opened": false,
+  "binding_opened": false,
+  "fitted_parameters": 0,
+  "permitted_code_changes": [
+    "set-safe normalization for check-display JSON",
+    "successor administrative identity and sealed source count",
+    "cross-kind boundary enumeration over all six residues exactly as precommitted"
+  ],
+  "scientific_candidate_change": false,
+  "source_premises": {
+    "L": 162,
+    "Theta": 18,
+    "M": 126,
+    "N": 144,
+    "route_count": 12,
+    "dimension_count": 3,
+    "side_count": 2,
+    "octahedral_points": 6,
+    "octahedral_edges": 12,
+    "octahedral_faces": 8
+  },
+  "candidate_address_systems": {
+    "primary": "W9_X_K18_CARTESIAN_LEDGER",
+    "orthogonal_inventory": "SIX_DIMENSION_SIDE_FIBERS_OF_27",
+    "constructed_control": "CENTERED_TERNARY_1_6_12_8_LABELING"
+  },
+  "leading_boundary_pairing": "CROSS_KIND_ANTIPODAL_CARRIER_SHADOW",
+  "neutral_boundary_pairing": "SAME_KIND_ANTIPODAL",
+  "promotion_ceiling": "PASS_EXACT_SOURCE_NATIVE_W9_BY_K18_ADDRESS_FACTORIZATION__SLOT_PARTITION_ROUTE_EDGE_OVERLAP_ORIENTATION_AND_PHYSICAL_INCIDENCE_OPEN"
+}

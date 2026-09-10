@@ -1,0 +1,5 @@
+source,result_class,network_objects,primary_carrier,control_envelope,boundary_sensor,selected_link_object,selected_link_route,selected_link_viability_score,selected_relay_surface,relay_viability_score,selected_route,top_selected_routing_score
+QN001,QN001_NETWORK_OBJECT_GRAMMAR_FROZEN,6,QUBIT-NL-001,QUBIT-CL-001,QUBIT-UNK-001,,,,,,,
+QN002,QN002_LINK_SURVIVAL_AND_CONTACT_SUPPRESSION_LAW_SELECTED,,,,,QN-CARRIER-001,QUBIT-NL-001,0.06559092722191634,,,,
+QN003,QN003_LEDGER_SAFE_RELAY_REPEATER_LAW_SELECTED,,,,,,,,ONE_T_SW:N0,0.060977389684884344,,
+QN004,QN004_PAUL_REVERE_ROUTING_PROTOCOL_SELECTED,,,,,,,,,,QUBIT-NL-001,0.003999561548899118

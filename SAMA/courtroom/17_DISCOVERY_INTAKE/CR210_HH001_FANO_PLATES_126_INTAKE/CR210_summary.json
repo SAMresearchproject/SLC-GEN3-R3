@@ -1,0 +1,77 @@
+{
+  "artifacts": {
+    "checks": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_checks.csv",
+    "claim_status": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_claim_status_rows.csv",
+    "declared_premises": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_declared_premises.json",
+    "fano_algebra": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_fano_algebra_checks.csv",
+    "hashes": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/HASHES.txt",
+    "input_manifest": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_input_manifest.csv",
+    "precommit": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_PRECOMMIT.md",
+    "result": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_result.md",
+    "source_copies": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/source_copies",
+    "source_inventory": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_haunted_house_source_inventory.csv",
+    "summary": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_summary.json",
+    "table_bridge": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_table_bridge_checks.csv",
+    "theorem_derivation": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_theorem_derivation.csv",
+    "wrong_controls": "17_HAUNTED_HOUSE_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE/CR210_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 51,
+    "total": 51
+  },
+  "claim_tier": "SAM_FANO_ADDRESS_PARTITION_126_TABLE_THEOREM_WITH_OPEN_PHYSICAL_MAPPING",
+  "cr_id": "CR210",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-19T12:44:12+00:00",
+  "pdf": {
+    "contains_frontier": true,
+    "contains_z126": true,
+    "metadata": {
+      "/CreationDate": "D:20260619120206Z",
+      "/Creator": "Matplotlib v3.10.8, https://matplotlib.org",
+      "/Producer": "Matplotlib pdf backend v3.10.8"
+    },
+    "page_count": 11,
+    "sam_fano_plate_mentions": 11,
+    "text_sha256": "2cecd909f34d6d3a4ff00b79b9981277d2015e100cd22a5e2442e5cbe8f6c626"
+  },
+  "replay": {
+    "action_residual_known_rows": 102,
+    "action_residual_matches": 1,
+    "binary_v22_closed": 7,
+    "binary_v2_closed": 7,
+    "fano_lines_passed": 7,
+    "fano_lines_total": 7,
+    "graviton_matches": 126,
+    "gravity_over_8_matches": 126,
+    "qA_matches": 126,
+    "sum_signature_distinct": 120,
+    "xor_signature_distinct": 101
+  },
+  "result_class": "CR210_PASS_SCOPED_HH001_FANO_ADDRESS_126_TABLE_THEOREM__SAM_ALGEBRA_VERIFIED__OPEN_READINGS_PRESERVED",
+  "row_counts": {
+    "cr119_periodic": 126,
+    "haunted_house_inventory_files": 37,
+    "hh001_sis": 126,
+    "hh001_sis_8col": 126
+  },
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL_THEOREM",
+  "test_id": "CR210_HH001_FANO_PLATES_126_INTAKE",
+  "theorem": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "carrier_cells": 18,
+    "cells_per_face_state": 18,
+    "face_state_count": 8,
+    "retained_fano_cells": 126,
+    "statement": "R=12 and D=3 give R^2=144 and 2^D=8; the 000 carrier receives 18 cells and the seven nonzero F_2^3 Fano addresses retain 7*18=126 cells.",
+    "theorem_partition_pass": true
+  },
+  "triage_bin": "A",
+  "wrong_controls": {
+    "rejected": 8,
+    "tested": 8
+  }
+}

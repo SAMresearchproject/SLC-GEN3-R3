@@ -1,0 +1,11 @@
+# CR120J command log
+
+Recorded UTC: 2026-07-14T02:10:47.676676+00:00
+Execution path: tools/run_sam_test.py --task "Adjust and run the internal q_WSR candidate" --script tools/run_cr120j_internal_write_visibility_ratio_q_wsr.py
+External subprocesses from candidate runner: none
+External empirical inputs: none
+Numerical fitting: none
+Clock or supernova exposure: none
+Registry mutations: none
+Precommit sha256: 3300f2576af51c3d1a168035b07fcdd5d59980eb9b7de55c6e3882de8c87a774
+Outcome: adjusted partial q_WSR calibration, collision, scale, probe, held-out, erasure, and symmetry gates passed; physical mapping open

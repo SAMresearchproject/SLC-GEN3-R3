@@ -1,0 +1,88 @@
+{
+  "binding_interface_exists": true,
+  "cr242": {
+    "global_sheet_columns": {
+      "five_row_p9_total": {
+        "constant": "50.625",
+        "exact_scalar_multiple_of_intercept": true,
+        "independent_predictor": false
+      },
+      "roster100_total": {
+        "constant": "16200",
+        "exact_scalar_multiple_of_intercept": true,
+        "independent_predictor": false
+      },
+      "roster81_total": {
+        "constant": "12600",
+        "exact_scalar_multiple_of_intercept": true,
+        "independent_predictor": false
+      },
+      "roster_sum_difference": {
+        "constant": "3600",
+        "exact_scalar_multiple_of_intercept": true,
+        "independent_predictor": false
+      }
+    },
+    "has_frozen_holdout_surface": true,
+    "intercept_all_one": true,
+    "isotope_coordinates_vary": true,
+    "row_count": 69,
+    "splits": [
+      "test_cr241_holdout",
+      "train_cr240_lane_a_non_anchor"
+    ]
+  },
+  "cr274": {
+    "adopted_gamma_sign_counts": {
+      "negative": 2,
+      "positive": 2,
+      "zero": 0
+    },
+    "adopted_operator_count": 4
+  },
+  "cr276": {
+    "all_five_roles_present": true,
+    "candidate_roles_present": [
+      "QP093A-0019",
+      "QP093A-0020",
+      "QP093A-0021",
+      "QP093A-0085",
+      "QP093A-0086"
+    ],
+    "roles": {
+      "QP093A-0019": {
+        "category": "SAM_ORPHAN",
+        "sam_role": "quark_like_charged",
+        "sub_role": "substrate quark slot p=9, d=0, matter"
+      },
+      "QP093A-0020": {
+        "category": "SAM_ORPHAN",
+        "sam_role": "quark_like_charged",
+        "sub_role": "substrate quark slot p=9, d=0, matter"
+      },
+      "QP093A-0021": {
+        "category": "SAM_ORPHAN",
+        "sam_role": "neutral_higher_partition",
+        "sub_role": "substrate-native neutral scalar at p=9, d=0"
+      },
+      "QP093A-0085": {
+        "category": "SAM_ORPHAN",
+        "sam_role": "quark_like_charged",
+        "sub_role": "substrate quark slot p=9, d=0, antimatter"
+      },
+      "QP093A-0086": {
+        "category": "SAM_ORPHAN",
+        "sam_role": "quark_like_charged",
+        "sub_role": "substrate quark slot p=9, d=0, antimatter"
+      }
+    }
+  },
+  "cr277": {
+    "element_rows": 126,
+    "has_observed_binding_panel": true,
+    "observed_rows": 78
+  },
+  "explicit_candidate_to_isotope_occupancy_map_present": false,
+  "measured_binding_improvement": "NOT_YET_TESTED",
+  "record_id": "CR120P_P9_G0_UPDATED_SHEET_BINDING_IMPROVEMENT_POTENTIAL"
+}

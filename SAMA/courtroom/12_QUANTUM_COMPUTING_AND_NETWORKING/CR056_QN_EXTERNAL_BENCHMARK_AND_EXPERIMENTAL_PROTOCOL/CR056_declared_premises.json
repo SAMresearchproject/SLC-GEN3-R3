@@ -1,0 +1,10 @@
+{
+  "test_id": "CR056_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QN010_summary.json",
+    "../_source_artifacts/summaries/QN011_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qn010-qn011 perform approved external benchmark comparison and translate requirements into an experimental protocol."
+}

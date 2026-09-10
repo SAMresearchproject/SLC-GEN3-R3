@@ -1,0 +1,7 @@
+candidate_id,operator_class,spin_class,partition,lattice_i,lattice_j,structural,M_native_predicted,M_native_observed,diff,S_debit_observed,S_debit_zero,match
+QP093A-0300,TENSOR_CARRIER,rank2_plus_cross,18,1,2,alpha_H * D^2,18,18,0,0,True,True
+QP093A-0301,ROAD_LIGHT_CARRIER,transverse_vector,1,massless,massless,0 (massless),0,0,0,0,True,True
+QP093A-0302,WEAK_VECTOR_CARRIER,massive_vector_support,9,0,2,D^2,9,9,0,0,True,True
+QP093A-0303,NEUTRAL_VECTOR_CARRIER,massive_vector_support,81,0,4,D^4,81,81,0,0,True,True
+QP093A-0304,COLOR_OWNER_CARRIER,color_octet_support,8,3,0,alpha_H^3,8,8,0,0,True,True
+QP093A-0305,A_FIELD_CARRIER,environmental_A_support,1,massless,massless,0 (massless),0,0,0,0,True,True

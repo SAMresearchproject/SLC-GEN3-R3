@@ -1,0 +1,61 @@
+{
+  "record_id": "CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE",
+  "sealed_utc": "2026-07-12T10:25:30Z",
+  "sources": [
+    {
+      "exists": true,
+      "path": "tools/CR120_local_closure_propagation_adjacent_ledger_site_runner.py",
+      "role": "CR120 validation runner",
+      "sha256": "391d9fae0e6132a920ac81aaeb54f627f2984986393cab45d1e5f64fc0e3fd3f"
+    },
+    {
+      "exists": true,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\readme.pdf",
+      "role": "user-supplied local-propagation target PDF",
+      "sha256": "00e0305c6249f22a64ada0b29433451b281af8c0520819e65d0cacca14809afd"
+    },
+    {
+      "exists": true,
+      "path": "SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_seed.sam",
+      "role": "v0.4.1 sealed hierarchy replay seed",
+      "sha256": "00535d2c079293400c0d7c42947c4dcbac0165f0c4ed3ba8e1247081271cbd5a"
+    },
+    {
+      "exists": true,
+      "path": "SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_target.sam",
+      "role": "v0.4.1 missing propagation edge target",
+      "sha256": "7e7903728d68947b19e4ff0ca8157187c227585c799ddfedbe3113c25cf28de2"
+    },
+    {
+      "exists": true,
+      "path": "SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/DRIVE_001_CLOSURE_PROPAGATION_RESULT.json",
+      "role": "Drive 001 machine-readable stop point",
+      "sha256": "24b51fb9f5f39c21b678e954d3d57b498218efa73f5b2fbe35182540094deabd"
+    },
+    {
+      "exists": true,
+      "path": "SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/DRIVE_001_CLOSURE_PROPAGATION_RESULT.md",
+      "role": "Drive 001 result report",
+      "sha256": "be0d74479a217acd6cf925477f26f144704fe22ad6e5decab29a9050fe26353c"
+    },
+    {
+      "exists": true,
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_REGRESSION_SUMMARY.json",
+      "role": "SAM Language v0.4.1 regression status",
+      "sha256": "a725c1d267fb70f3f71f7a7e45965f1534c19582a339f9ded8814539e1ef36d5"
+    },
+    {
+      "exists": true,
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "role": "sealed typed hierarchy",
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228"
+    },
+    {
+      "exists": true,
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "role": "sealed language handoff contract",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c"
+    }
+  ],
+  "task": "SAM_PROSPECTIVE_CR_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE"
+}

@@ -1,0 +1,103 @@
+{
+  "authority_boundary": {
+    "P80": {
+      "authority": "STRUCTURAL_ONLY",
+      "populated_by_CR120H": false,
+      "semantic_type": "ParticleFaceContent"
+    },
+    "contract_legal_edges_unchanged": [
+      "RESOLVE(S8_BINARY_SURFACE, B_CONTACT_OPERATOR, X1_AXIS_SELF_CHANNEL) -> W9_CLOSURE_WITNESS",
+      "PROMOTE_VOLUME(W9_CLOSURE_WITNESS, D3_DIMENSION) -> V27_VOLUME_CONTAINER",
+      "PROMOTE_FACE(V27_VOLUME_CONTAINER, D3_DIMENSION) -> F81_COMPLETED_FACE",
+      "MIRROR_CLOSE(F81_COMPLETED_FACE, H2_ARITY) -> L162_FULL_LEDGER",
+      "RELEASE_CARRIER(N144_NATIVE_CLOSURE_BUDGET, S8_BINARY_SURFACE) -> THETA18_PRIMARY_CARRIER",
+      "RETAIN_MATTER(N144_NATIVE_CLOSURE_BUDGET, THETA18_PRIMARY_CARRIER) -> M126_RETAINED_MATTER_CAPACITY"
+    ],
+    "cr120_frontier": {
+      "ADJACENT": {
+        "entity_absent": true,
+        "operator_absent": true,
+        "recorded_in_CR120": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "ADJACENT_LEDGER_STATE": {
+        "entity_absent": true,
+        "operator_absent": true,
+        "recorded_in_CR120": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "LEDGER_SITE": {
+        "entity_absent": true,
+        "operator_absent": true,
+        "recorded_in_CR120": true,
+        "status": "MISSING_PRESERVED"
+      },
+      "PROPAGATE_CLOSURE": {
+        "entity_absent": true,
+        "operator_absent": true,
+        "recorded_in_CR120": true,
+        "status": "MISSING_PRESERVED"
+      }
+    },
+    "cross_domain_authority": "NO_INSTALLED_CLOSURE_TO_BINDING_RELATION",
+    "forbidden_bridge_operators_absent": [
+      "APPLY_CLOSURE_RESIDUE_TO_NUCLEAR_BINDING",
+      "CLOSURE_RESPONSE_SCALAR",
+      "MAP_CLOSURE_TO_BINDING",
+      "NORMALIZE_CROSS_DOMAIN_RESIDUALS"
+    ]
+  },
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "slot_comparison": [
+    {
+      "AU197_semantic_type": "NuclearBindingBaseMeV",
+      "AU197_unit": "MeV",
+      "CR120G_semantic_type": "ConstructedDaughterSubtotalCount",
+      "CR120G_unit": "constructed_coordinate_count",
+      "same_entity": false,
+      "same_physical_quantity": false,
+      "same_schema_position": true,
+      "slot": "base"
+    },
+    {
+      "AU197_semantic_type": "NuclearOperatorContributionMeV",
+      "AU197_unit": "MeV",
+      "CR120G_semantic_type": "ConstructedSplitResidueCount",
+      "CR120G_unit": "constructed_coordinate_count",
+      "same_entity": false,
+      "same_physical_quantity": false,
+      "same_schema_position": true,
+      "slot": "operator_adjustment"
+    },
+    {
+      "AU197_semantic_type": "NuclearBindingPredictionMeV",
+      "AU197_unit": "MeV",
+      "CR120G_semantic_type": "ConstructedReconstructedParentCount",
+      "CR120G_unit": "constructed_coordinate_count",
+      "same_entity": false,
+      "same_physical_quantity": false,
+      "same_schema_position": true,
+      "slot": "program_final"
+    },
+    {
+      "AU197_semantic_type": "NuclearBindingObservationMeV",
+      "AU197_unit": "MeV",
+      "CR120G_semantic_type": "ConstructedParentInvariantCount",
+      "CR120G_unit": "constructed_coordinate_count",
+      "same_entity": false,
+      "same_physical_quantity": false,
+      "same_schema_position": true,
+      "slot": "reference"
+    },
+    {
+      "AU197_semantic_type": "NuclearPostPredictionResidualMeV",
+      "AU197_unit": "MeV",
+      "CR120G_semantic_type": "ConstructedClosureReconciliationCount",
+      "CR120G_unit": "constructed_coordinate_count",
+      "same_entity": false,
+      "same_physical_quantity": false,
+      "same_schema_position": true,
+      "slot": "post_program_residual"
+    }
+  ]
+}

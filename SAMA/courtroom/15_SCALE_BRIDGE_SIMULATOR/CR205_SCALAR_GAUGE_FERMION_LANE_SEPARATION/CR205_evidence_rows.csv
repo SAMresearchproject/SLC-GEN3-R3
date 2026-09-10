@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_G754c_SCALAR_GAUGE_FERMION_LANE_SEPARATION,source G-test result
+derived_scalar_half,0.5625,D=3 scalar lane
+fermion_rows_checked,6,fermion controls degrade under scalar multipliers
+gauge_rows_held,2,gauge owners separated
+wrong_controls,8/8,all lane-separation controls passed

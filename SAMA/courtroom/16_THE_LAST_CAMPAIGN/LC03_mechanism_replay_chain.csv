@@ -1,0 +1,9 @@
+step,stage,rule,source,replay_status
+LC03_STEP_01,closed_matter_write,stable resolved write carries source strength after resolution,CR103a/QP088/QP089,PASS
+LC03_STEP_02,qA_source_strength,qA_i = m_i*(1 + r_bounce_i),QP089/CR201,PASS
+LC03_STEP_03,source_support_split,qA support preserves 7/8 retained write support plus 1/8 carrier support,CR114/QP092B,PASS
+LC03_STEP_04,carrier_identity,1/8 carrier is split-loss tensor support = 18 = alpha_H*D^2,CR114/CR116,PASS
+LC03_STEP_05,ledger_compression,qA never updates A directly as mass; it routes through unresolved carrier support and post-bounce mass ledger compression,QP092B/QP092C/QP092C_hard_freeze,PASS
+LC03_STEP_06,A_kernel_update,A(r)=r_s/r=2GM/(c^2*r) from ledger-compressed mass inventory,QP092C,PASS
+LC03_STEP_07,typed_readout,"force, clock, and road readouts remain typed lanes of the same A kernel",QP092C/CR202,PASS
+LC03_STEP_08,gravity_as_A_readout,gravity is the local/macroscopic force-channel readout of the updated A field,CR121,PASS

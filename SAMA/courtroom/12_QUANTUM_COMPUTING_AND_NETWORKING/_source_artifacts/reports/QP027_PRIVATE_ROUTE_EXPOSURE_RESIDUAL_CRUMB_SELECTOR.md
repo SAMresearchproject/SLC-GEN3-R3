@@ -1,0 +1,55 @@
+# QP027 - Private Route Exposure Residual Crumb Selector
+
+## Result
+
+```text
+QP027_ROUTE_EXPOSURE_CRUMB_TIGHT_CONTACT
+```
+
+QP027 tests QP001 route-exposure bundles against the residual left by QP026.
+
+## Target
+
+```text
+residual_after_qp026 = 6.060378674501484e-06
+```
+
+## Top Route Crumbs
+
+| rank | route bundle | exposure sum | fraction closed | relative delta | class |
+| ---: | --- | ---: | ---: | ---: | --- |
+| 1 | QUBIT-NL-001;QUBIT-UNK-001;QUBIT-CL-001 | 6.034209759149847e-06 | 0.9956819669599624 | 0.00431803304003767 | TIGHT_ROUTE_EXPOSURE_CRUMB_CONTACT |
+| 2 | QUBIT-UNK-001;QUBIT-CL-001 | 5.992953078921081e-06 | 0.9888743593095773 | 0.011125640690422626 | NEAR_ROUTE_EXPOSURE_CRUMB_CONTACT |
+| 3 | QUBIT-NL-001;QUBIT-CL-001 | 4.478869556931507e-06 | 0.7390412047643097 | 0.26095879523569027 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+| 4 | QUBIT-CL-001 | 4.437612876702741e-06 | 0.7322335971139248 | 0.2677664028860752 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+| 5 | QUBIT-NL-001;QUBIT-UNK-001 | 1.596596882447106e-06 | 0.2634483698460376 | 0.7365516301539624 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+| 6 | QUBIT-UNK-001 | 1.5553402022183398e-06 | 0.2566407621956526 | 0.7433592378043474 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+| 7 | QUBIT-NL-001 | 4.125668022876614e-08 | 0.006807607650384956 | 0.9931923923496151 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+| 8 | QUBIT-BN-001 | 5.8634944237463996e-05 | 9.675128797506568 | 8.675128797506568 | NON_CONTACT_ROUTE_EXPOSURE_BUNDLE |
+
+## Key Fields
+
+```text
+best_route_bundle = QUBIT-NL-001;QUBIT-UNK-001;QUBIT-CL-001
+best_route_exposure_sum = 6.034209759149847e-06
+best_fraction_of_target_closed = 0.9956819669599624
+residual_after_best_bundle = 2.616891535163711e-08
+stable_chain_closes_A_SIDE = False
+```
+
+## Interpretation
+
+The best sealed bundle is:
+
+```text
+QUBIT-NL-001 + QUBIT-UNK-001 + QUBIT-CL-001
+```
+
+It closes about 99.568 percent of the QP026 remainder but still leaves an
+ultra-small residual. The stable chain is still just under `A_SIDE`.
+
+## Next Frontier
+
+```text
+QP028_PRIVATE_ULTRA_RESIDUAL_FLOOR_SELECTOR
+```

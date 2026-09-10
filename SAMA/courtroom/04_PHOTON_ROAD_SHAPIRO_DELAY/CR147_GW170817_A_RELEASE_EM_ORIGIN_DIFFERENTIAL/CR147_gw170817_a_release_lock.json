@@ -1,0 +1,53 @@
+{
+  "cr_id": "CR147",
+  "generated_at_utc": "2026-06-19T07:22:31Z",
+  "result_class": "CR147_PASS_GW170817_DYNAMIC_A_RELEASE_ENGINE_DIFFERENTIAL_WITH_STATIC_A_INTEGRAL_BOUNDARY",
+  "theorem_or_test": "fresh GW170817 A-release / EM-origin differential",
+  "external_inputs": {
+    "observed_delay_s": 1.74,
+    "observed_delay_sigma_s": 0.05,
+    "total_mass_msun": 2.74,
+    "total_mass_plus_msun": 0.04,
+    "total_mass_minus_msun": 0.01,
+    "distance_mpc": 40.0
+  },
+  "sam_release_packet": {
+    "A0": 0.026525823848649224,
+    "x_outer": 0.028057277031262207,
+    "r_release_over_rs": 17.820688709131893,
+    "A_release": 0.05611455406252441,
+    "delta_A_from_A1_to_release": 0.9438854459374756,
+    "tau_engine_s": 1.7014577527290415,
+    "residual_s": 0.03854224727095845,
+    "residual_sigma": 0.770844945419169,
+    "abs_percent_error": 2.2150716822389915
+  },
+  "dynamic_A_release_boundary": {
+    "A1_exact_status": "NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT",
+    "active_mechanism": "dynamic A-release / source-engine reorganization",
+    "static_control_status": "rejected as seconds-scale mechanism",
+    "formal_static_A_integral_boundary_to_release_s": 7.774813823798601e-05,
+    "formal_light_crossing_boundary_to_release_s": 0.00045403255131580843,
+    "observed_over_plain": 22379.957120952313,
+    "required_ln_ratio_to_force_delay": 64462.33484596954,
+    "required_log10_ratio_to_force_delay": 27995.636314204276,
+    "boundary": "exact A=1 is not a literal photon launch point; static A integral is only a wrong-control lane"
+  },
+  "carrier_channel": {
+    "source": "CR116",
+    "split_loss_tensor_channel": "18.000000000000000000000000000000",
+    "wave_mode": "two trace-zero transverse tensor polarizations, massless, phase_speed=c",
+    "particle_catalog_status": "carrier_only_not_matter"
+  },
+  "source_hashes": {
+    "CR147_RUNNER": "1bfc31158093625c71d600c02faf280159088628f0626fe7f5f8e102b2f14fff",
+    "CR116_M18_GRAVITON_CHANNEL": "e63c5821b7bb75dac6d975494d73b255aea691c773f4780b4523a0e09ab885ca",
+    "CR116_RESULT_TEXT": "4385529ee82f863e5c2ac40ad2ce0114b71c84e3720d09d96d1fdde79bf07464",
+    "CR006_PHOTON_ROAD_A_INTEGRAL": "772889096e86db5456a939159ab74ca88cb80684a8ea932b01b16e1c9ef9c723",
+    "G96_BNS_ENGINE_TIME": "c6896f685c9ac72a739b2a4fd73b8dc1bdbc5dbbe56912ead7c0d6b89895cd47",
+    "G699C_MULTIMESSENGER_SPLIT": "8f832b73d1739b13ec3911279153301298b115b25053807124d03fdb542f00d7",
+    "G699C_RESULT_TEXT": "9cf951dd8791b38e94a96ccf593906e229a26a8191f64c52aaeccab3374ee551",
+    "G699C_SEALED_ENVELOPE": "4d46a08226055c355246d7e1a2eccc998592bdacab7979358e089e4b618f2d9f",
+    "F5C_ONE_SIDED_CONTROL": "667eb26d1a2441a017a81b2ed87184b98d9579ef581e7e4337c943f9b184bbdf"
+  }
+}

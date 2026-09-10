@@ -1,0 +1,7 @@
+lead_id,pattern,observed,status,next_test
+P1,321 particle rows split into 126 selected matter rows plus 195 complement rows,321=126+195,BACKED_BY_CR119_TABLE_MEMBERSHIP,
+P2,126 matter table is a dual 63+63 selection,stable=63; bound=63,BACKED_BY_CR119_MATTER_TABLE,
+P3,195 complement is the rejection side of the QP093 matter gate,stability_open_or_heavy=118; antimatter_bin=41; not_matter_allowed=36,BACKED_BY_EXPORTER_GATE_REPLAY,
+P4,"The largest complement is the color/composite heavy side, not residue",bound_composite_complement=106; heavy_or_negative_surface=93+13,BACKED_BY_CR119_BIN_AND_STABILITY_FIELDS,
+P5,The stability-open/heavy complement count equals the downstream known-Z count,118=118,OPEN_COUNT_MATCH_ONLY_NOT_A_MAPPING,Build a row-level bridge test before treating this as mechanism.
+P6,Several guard counts are eight-row packets near the Z119-Z126 frontier count,frontier_z=8; hidden_support=8; rejected_fake=8,OPEN_COUNT_MATCH_ONLY_NOT_A_MAPPING,Test whether any row-level address relation exists.

@@ -1,0 +1,2850 @@
+{
+  "schema": "SAM_FOUR_VOLUMES_V1",
+  "published_parent": "5fa6bad8d4fec6596098755139db50b2eac37c05",
+  "volume_iv": "Retains the existing public RH assignment",
+  "chapters": [
+    {
+      "source_path": "documents/standard/FOUNDATION_PRIMITIVES_AND_PARTITION_ALGEBRA.md",
+      "source_blob": "0197b15a3dbe73aaf448139b2c1a4686cd25252a",
+      "source_document_id": "SAMA-D000001",
+      "path": "vol_i/01-foundations/foundation-primitives-and-partition-algebra.md",
+      "sha256": "e056daa3ffc00992c05383992d29899fefadf352770ff6efd001ac4a0e0a733e"
+    },
+    {
+      "source_path": "documents/standard/UNIVERSAL_ACCUMULATION_FLOOR_A0.md",
+      "source_blob": "100c26a993ba921812920bd8e00dc9999613d754",
+      "source_document_id": "SAMA-D000002",
+      "path": "vol_i/01-foundations/universal-accumulation-floor-a0.md",
+      "sha256": "d072da7620afcfc038729f4c57f6fb2daa716c435bce235c25cf135434cf96a6"
+    },
+    {
+      "source_path": "documents/standard/SPHERICAL_SOURCE_ACCUMULATION_LIFT.md",
+      "source_blob": "4230f440b727f32f3a854d61ca07676f81f2ce16",
+      "source_document_id": "SAMA-D000003",
+      "path": "vol_i/01-foundations/spherical-source-accumulation-lift.md",
+      "sha256": "66cc9b27e4ef5f764c9e9a41283fdbedca8fd17dbb743676ef678aa216c18dfe"
+    },
+    {
+      "source_path": "documents/standard/TYPED_WEAK_FIELD_READOUTS.md",
+      "source_blob": "0e82ad48a20e64311c9b671ec315e94d78510df1",
+      "source_document_id": "SAMA-D000004",
+      "path": "vol_i/02-gravity/typed-weak-field-readouts.md",
+      "sha256": "b984be08bd71a942aef72ceae2222620a44d982b2344334536d97a712a9ecfe3"
+    },
+    {
+      "source_path": "documents/standard/ENDPOINT_CLOCK_COMPARISON_AND_TIME_DILATION.md",
+      "source_blob": "0bcc2ed6d3687aab6805e48eafe060bb633830d8",
+      "source_document_id": "SAMA-D000005",
+      "path": "vol_i/03-clocks-and-light/endpoint-clock-comparison-and-time-dilation.md",
+      "sha256": "450170dc5b067b5cac9d6aed2eb3c849cb1fb0215bb6bb8fa77e00d51a329cdb"
+    },
+    {
+      "source_path": "documents/standard/OPTICAL_CLOCK_HEIGHT_HOLDOUT.md",
+      "source_blob": "fb799756dd9f3baf4835c6c082b229a14618adcc",
+      "source_document_id": "SAMA-D000006",
+      "path": "vol_i/03-clocks-and-light/optical-clock-height-holdout.md",
+      "sha256": "d9cdfc82861591e45c7b22fe2d4ed4e909acef1f83e2bebbc12656c033ee1f6a"
+    },
+    {
+      "source_path": "documents/standard/PHOTON_ROAD_ACCUMULATION_AND_SHAPIRO_DELAY.md",
+      "source_blob": "b6e5f3572b95d1754461a9e938fcf7d7e0bf7408",
+      "source_document_id": "SAMA-D000007",
+      "path": "vol_i/03-clocks-and-light/photon-road-accumulation-and-shapiro-delay.md",
+      "sha256": "ed6f6667be82717bba2b5a1702b25926710e04c71b12e821e6a9d10e424ca47b"
+    },
+    {
+      "source_path": "documents/standard/BINARY_PULSAR_ROAD_HOLDOUT.md",
+      "source_blob": "30229c120238e5e7be110715c50acb947d81763a",
+      "source_document_id": "SAMA-D000008",
+      "path": "vol_i/03-clocks-and-light/binary-pulsar-road-holdout.md",
+      "sha256": "9a7730a759ba3c5d9ba91aa2fc0a8cad546f1c5e8b46c7438ea4f5f64d5233f0"
+    },
+    {
+      "source_path": "documents/standard/INVARIANT_C_AND_EFFECTIVE_TRAVERSAL_READOUT.md",
+      "source_blob": "bb86da4d9d61ceb261f4a634ce6a4850031e9eab",
+      "source_document_id": "SAMA-D000009",
+      "path": "vol_i/03-clocks-and-light/invariant-c-and-effective-traversal-readout.md",
+      "sha256": "662b1ed48a45d1c11cfa648f2ef508b291990fc9a0e7f4cb543cdbd1ae89a803"
+    },
+    {
+      "source_path": "documents/standard/LOCAL_AND_COSMOLOGICAL_ROAD_DISTINCTION.md",
+      "source_blob": "b94a1c73276c2c64912d3ffaf3734299ea3dd25d",
+      "source_document_id": "SAMA-D000010",
+      "path": "vol_i/03-clocks-and-light/local-and-cosmological-road-distinction.md",
+      "sha256": "70b2be7de282b740c9c4bc6533616d5bccf5f2fbc90d6e2b29802c85b74872ff"
+    },
+    {
+      "source_path": "documents/standard/STRONG_FIELD_A_COORDINATE.md",
+      "source_blob": "8c78f071212247e055db66419baca5b6f3f3d408",
+      "source_document_id": "SAMA-D000013",
+      "path": "vol_i/04-black-holes/strong-field-a-coordinate.md",
+      "sha256": "a28060ebe498e5d1d5d19da67693eb91d06dd98833dd9148719d15de231fe198"
+    },
+    {
+      "source_path": "documents/standard/HORIZON_LAPSE_AND_EXTERIOR_TRAVERSAL.md",
+      "source_blob": "1f08ae3d9f4abc8e121a04835f8fb66275427a24",
+      "source_document_id": "SAMA-D000014",
+      "path": "vol_i/04-black-holes/horizon-lapse-and-exterior-traversal.md",
+      "sha256": "d62e6bb6af3acc224a52804341b878fcae888feee79507a92b7409a29d90c963"
+    },
+    {
+      "source_path": "documents/standard/PHOTON_SPHERE_AND_SHADOW.md",
+      "source_blob": "97d5e0a2177087046e53dfbaf8e5c5788c1cea41",
+      "source_document_id": "SAMA-D000015",
+      "path": "vol_i/04-black-holes/photon-sphere-and-shadow.md",
+      "sha256": "f073fbd56d7facfa5c3345944ae3ad6a1adc096bb8d20455c9513c2954a2dd6c"
+    },
+    {
+      "source_path": "documents/standard/ISCO_AND_TIMELIKE_ORBIT_LANDMARKS.md",
+      "source_blob": "9c31f87a7ac8b802e1a6b8d712abd9b22ac41d4b",
+      "source_document_id": "SAMA-D000016",
+      "path": "vol_i/04-black-holes/isco-and-timelike-orbit-landmarks.md",
+      "sha256": "276b13ffaeec84eb8a2514a2bfe4dbf6486296500477a2ab6059c520b10fd8a0"
+    },
+    {
+      "source_path": "documents/standard/HORIZON_CLOSURE_AND_THERMAL_READOUT.md",
+      "source_blob": "ffe2d4e04d0c69a563faa335f1c43987480f6a2e",
+      "source_document_id": "SAMA-D000017",
+      "path": "vol_i/04-black-holes/horizon-closure-and-thermal-readout.md",
+      "sha256": "679f100ee3d5fc0095599ec000f09b81e5dbe9af9883ca6ffd59551a90ea5e7c"
+    },
+    {
+      "source_path": "documents/standard/SUPERNOVA_DISTANCE_ROAD_OPERATOR.md",
+      "source_blob": "9c6658d64d656437b19c91afa82813138fe3c0ef",
+      "source_document_id": "SAMA-D000011",
+      "path": "vol_i/05-cosmology/supernova-distance-road-operator.md",
+      "sha256": "aa0eadd6081126c147b70eed40ce91c7b1b5ec773718e26232c58bbb789cfcca"
+    },
+    {
+      "source_path": "documents/standard/BAO_AND_ACOUSTIC_RULER_ROAD_BRIDGE.md",
+      "source_blob": "ad516c95974923339adccbdbb7ba58f5b68198d7",
+      "source_document_id": "SAMA-D000012",
+      "path": "vol_i/05-cosmology/bao-and-acoustic-ruler-road-bridge.md",
+      "sha256": "dabdf5d41a5c640010fdd99ee41ab9197bd96811110ad52408246f7ee971f946"
+    },
+    {
+      "source_path": "documents/standard/COSMIC_INVENTORY_FROM_ACCUMULATION_FLOOR.md",
+      "source_blob": "53e0e5af4db05a35aa2597f12792c61377ebf317",
+      "source_document_id": "SAMA-D000018",
+      "path": "vol_i/05-cosmology/cosmic-inventory-from-accumulation-floor.md",
+      "sha256": "a1b21956a0564ab20c0791771cbb382832db8337f3551be4154d524f8a200f82"
+    },
+    {
+      "source_path": "documents/standard/BARYON_TO_PHOTON_AND_HUBBLE_CASCADE.md",
+      "source_blob": "56bd5e5b7beeb4611aec5793f0afc82d78596cef",
+      "source_document_id": "SAMA-D000019",
+      "path": "vol_i/05-cosmology/baryon-to-photon-and-hubble-cascade.md",
+      "sha256": "4741e5cf2dff8a5388d0b4d45a38e2fff9af3da57247e5cfcdce2bf76b62f94d"
+    },
+    {
+      "source_path": "documents/standard/RECOMBINATION_AND_ACOUSTIC_GEOMETRY.md",
+      "source_blob": "5739b4ca7b35af0b01b1a31dd3b4b866ce936308",
+      "source_document_id": "SAMA-D000020",
+      "path": "vol_i/05-cosmology/recombination-and-acoustic-geometry.md",
+      "sha256": "f107acd914d5935334cf51f20b6b7feb41ec7b00f192e3672cfa7f99f69aafd4"
+    },
+    {
+      "source_path": "documents/standard/FULL_CMB_SHAPE_ROUTE.md",
+      "source_blob": "0686f9918b070ec9d44776f8511ea2b4ca33f006",
+      "source_document_id": "SAMA-D000021",
+      "path": "vol_i/05-cosmology/full-cmb-shape-route.md",
+      "sha256": "9657a17f6c41a076405a4937f504e9a12fb5f24ebdcde08d686b1fa821b009c9"
+    },
+    {
+      "source_path": "documents/standard/COSMOLOGICAL_FATE_AND_COMPLETED_SURFACE_BOUNDARY.md",
+      "source_blob": "eaf08e70315483c4971bc6e13b1a61cd078d5eef",
+      "source_document_id": "SAMA-D000023",
+      "path": "vol_i/05-cosmology/cosmological-fate-and-completed-surface-boundary.md",
+      "sha256": "31437314ab6522468adee769b0c30a83f302cd8e66836114adf6dafe0a10a669"
+    },
+    {
+      "source_path": "documents/standard/GALAXY_HALOS_AND_MASS_DISTRIBUTION.md",
+      "source_blob": "2268e6c88bc197ceaf859c573af37935b52acde1",
+      "source_document_id": "SAMA-D000022",
+      "path": "vol_i/06-galaxies/galaxy-halos-and-mass-distribution.md",
+      "sha256": "6e9f4c93f5844eba19d15ee240a0716fcd5f9903ee018be6c88c457716d0bb36"
+    },
+    {
+      "source_path": "documents/standard/MATTER_BOUNDARY_AND_FINITE_CLOSURE.md",
+      "source_blob": "fad956470325c83419ea04940aaccbca697ce754",
+      "source_document_id": "SAMA-D000024",
+      "path": "vol_ii/01-matter-foundations/matter-boundary-and-finite-closure.md",
+      "sha256": "d70ce320838c9a19e5ae4f1bd4601f58b4129ea2b5460c75df91c7acf87f63c8"
+    },
+    {
+      "source_path": "documents/standard/CONNECTORS_SUBSTRATE_ATOM_AND_CONTAINERS.md",
+      "source_blob": "8cad39a81fda3784083e0644b552ad0b734ab629",
+      "source_document_id": "SAMA-D000025",
+      "path": "vol_ii/01-matter-foundations/connectors-substrate-atom-and-containers.md",
+      "sha256": "8bdb943b2752a7a4694e87b610990d0a3174a776bce95283dd41ff2bf25bcd06"
+    },
+    {
+      "source_path": "documents/standard/TYPED_MATTER_SURFACES_AND_ROW_GRAMMAR.md",
+      "source_blob": "6b09b3ae353f2824d888ea5f75c5d9780eae94a7",
+      "source_document_id": "SAMA-D000026",
+      "path": "vol_ii/02-particles/typed-matter-surfaces-and-row-grammar.md",
+      "sha256": "764c43727d7434f6455e44c2557671d4524a3be5c5e35375ca20ea0363ace42a"
+    },
+    {
+      "source_path": "documents/standard/FINITE_PARTICLE_GRAMMAR_AND_321_ROW_CENSUS.md",
+      "source_blob": "d729f0abb48481a5ec65a844ec60abd9428b2337",
+      "source_document_id": "SAMA-D000027",
+      "path": "vol_ii/02-particles/finite-particle-grammar-and-321-row-census.md",
+      "sha256": "17c0cb1eeb97ea35ba9917ef7b57cc92cd7e26a3ffa3bd10269e608cf2ea17e5"
+    },
+    {
+      "source_path": "documents/standard/MASS_LIFT_DEBIT_AND_PARTICLE_READOUT.md",
+      "source_blob": "2dd9deaec1c69a2a1a6709c38dce1612f35c19f2",
+      "source_document_id": "SAMA-D000028",
+      "path": "vol_ii/02-particles/mass-lift-debit-and-particle-readout.md",
+      "sha256": "5e47dccb858d0ff90e819a949bfac98242525a63bb3726f481203eea1c8617e0"
+    },
+    {
+      "source_path": "documents/standard/HIGGS_AND_NEUTRINO_PACKETS.md",
+      "source_blob": "ece5cdabc2306c6202cdea1bfbba3ae3f9d101d4",
+      "source_document_id": "SAMA-D000029",
+      "path": "vol_ii/02-particles/higgs-and-neutrino-packets.md",
+      "sha256": "ee42ca4dadb32429d4adbfd3308a496b585f437bc76e72a62a4ae7e618d7cb09"
+    },
+    {
+      "source_path": "documents/standard/NUCLEAR_LEDGER_AND_ISOTOPE_FAMILIES.md",
+      "source_blob": "43bd519ca16029ce3bbf8f1b95538245a22410a9",
+      "source_document_id": "SAMA-D000030",
+      "path": "vol_ii/03-nuclei-and-elements/nuclear-ledger-and-isotope-families.md",
+      "sha256": "b5dc1f8ddb17c0e01743c6f4f357ca9f5d8b7ff15c0f1168b957bb7b5c2e345d"
+    },
+    {
+      "source_path": "documents/standard/PERIODIC_AND_COMPOSITE_MATTER.md",
+      "source_blob": "9a8b74b577c9ad30fe908eb4604270c5b30a810f",
+      "source_document_id": "SAMA-D000031",
+      "path": "vol_ii/03-nuclei-and-elements/periodic-and-composite-matter.md",
+      "sha256": "8141505a9d554c091502e1527206151c810e64bd217d26330fb265c45a100ed0"
+    },
+    {
+      "source_path": "documents/standard/BINDING_AND_THE_EXACT_ASYMMETRY_BRIDGE.md",
+      "source_blob": "e06f37e5eaa5ce5e6cc6f3b2403a7173c924a6e5",
+      "source_document_id": "SAMA-D000032",
+      "path": "vol_ii/04-binding/binding-and-the-exact-asymmetry-bridge.md",
+      "sha256": "a85f867ec3eb3393980f0a9e3d424065866a9bc71e329710ebf8c915de5f97ef"
+    },
+    {
+      "source_path": "documents/standard/CARRIER_CONTAINER_RETURN_TO_ACCUMULATION.md",
+      "source_blob": "f12d335033d50a419743ac9e544a45bf74caab65",
+      "source_document_id": "SAMA-D000033",
+      "path": "vol_ii/05-carriers-and-reception/carrier-container-return-to-accumulation.md",
+      "sha256": "f085d2100fdd948de31b9e34d9e38cac48b78fe46ae21a4dc0971b37898aaf80"
+    },
+    {
+      "source_path": "documents/standard/THETA18_CARRIER_AND_TENSOR_RETURN.md",
+      "source_blob": "49297edb031907dde80131a4f0400712b4784497",
+      "source_document_id": "SAMA-D000040",
+      "path": "vol_ii/05-carriers-and-reception/theta18-carrier-and-tensor-return.md",
+      "sha256": "f4f6ed2c3eb2333f8c6aa382465958dc997553b02bfb2f0a8c0607fda4d97864"
+    },
+    {
+      "source_path": "documents/standard/N100_COMPUTATIONAL_GRAMMAR.md",
+      "source_blob": "f757309aa93f52ce8561bd5de6fd3afbe53a3c77",
+      "source_document_id": "SAMA-D000034",
+      "path": "vol_iii/01-grammar-and-language/n100-computational-grammar.md",
+      "sha256": "42e13e8efbd1f9aa59c9020b6c4610c29ccef402a6a37cfe26361d07e714e8ab"
+    },
+    {
+      "source_path": "documents/standard/SAM_LANGUAGE_AND_EXACT_PROGRAM_SEMANTICS.md",
+      "source_blob": "6ec06e7be0dd8719501a673a37528851caff7a2b",
+      "source_document_id": "SAMA-D000035",
+      "path": "vol_iii/01-grammar-and-language/sam-language-and-exact-program-semantics.md",
+      "sha256": "27b8d180b3b23bf94f8a45492d4f0e23452b24364f5fd719c951db3beca07112"
+    },
+    {
+      "source_path": "documents/standard/EXACT_STATE_SPACES_AND_SLC_COMPUTATION.md",
+      "source_blob": "deec8980f9632a20ba6ca5c7f6ee3416d9e14f21",
+      "source_document_id": "SAMA-D000036",
+      "path": "vol_iii/02-slc/exact-state-spaces-and-slc-computation.md",
+      "sha256": "9f2215c8b2b576c214064de0b842d349d138d40649c12c39a0eded97d8a5bf91"
+    },
+    {
+      "source_path": "documents/standard/H14F_GRAMMAR_TO_WORK_FACTORIZATION.md",
+      "source_blob": "b78d828697bf19b1226d4aca698f11a270a6316c",
+      "source_document_id": "SAMA-D000037",
+      "path": "vol_iii/02-slc/h14f-grammar-to-work-factorization.md",
+      "sha256": "d3f3da21a76a8c2bd09e5fd5298abb536b248814512e74b6da316d819c4f5ea6"
+    },
+    {
+      "source_path": "documents/standard/SLCQ2_RZ_ORDINAL_SELECTION_ENGINE.md",
+      "source_blob": "2aeb719709281386429138367d3984cf88cbf3fb",
+      "source_document_id": "SAMA-D000055",
+      "path": "vol_iii/02-slc/slcq2-rz-ordinal-selection-engine.md",
+      "sha256": "a8ebf7a41e472bc441f3b6aca29febbe383d039dc28f69035c0c0150885936c4"
+    },
+    {
+      "source_path": "documents/standard/EXACT_ALGEBRA_AND_COMPLETE_EXACT_WRITE.md",
+      "source_blob": "e795f711ee2934e4371e6495c5f9b0fb96505ddb",
+      "source_document_id": "SAMA-D000038",
+      "path": "vol_iii/03-writes-and-history/exact-algebra-and-complete-exact-write.md",
+      "sha256": "a255f874fc9e51722325c1984c3bb2c445f8b5d152550855f407f0c51027957a"
+    },
+    {
+      "source_path": "documents/standard/W8_X1_W9_LIFECYCLE.md",
+      "source_blob": "6a7f9d829ee8514cf5434a0a8ce91764c2cb1844",
+      "source_document_id": "SAMA-D000039",
+      "path": "vol_iii/03-writes-and-history/w8-x1-w9-lifecycle.md",
+      "sha256": "fd29a5b7cedee9265c637b2d1be5000ba73c446a8434616022c33d99b5100820"
+    },
+    {
+      "source_path": "documents/standard/DIRECTIONAL_HISTORY_AND_EVENT_REEL_COMPUTATION.md",
+      "source_blob": "546d64e894187d5994c781760b3bb39d59623800",
+      "source_document_id": "SAMA-D000042",
+      "path": "vol_iii/03-writes-and-history/directional-history-and-event-reel-computation.md",
+      "sha256": "9779389a557235d3515e44e3556025166e620222fe9c31c465ffb759b6d8839b"
+    },
+    {
+      "source_path": "documents/standard/RECIPROCAL_HISTORY_AND_THE_RH_ROUTE.md",
+      "source_blob": "c238a41517a542c1aec734f4d45a51c784ef4c06",
+      "source_document_id": "SAMA-D000043",
+      "path": "vol_iii/03-writes-and-history/reciprocal-history-and-the-rh-route.md",
+      "sha256": "9def93abdb6794a70548de198020c142fc66316609360101fd10366964969978"
+    },
+    {
+      "source_path": "documents/standard/STARBREAKER_FORMATION_ENGINE.md",
+      "source_blob": "30f83a0fbfc4fec7720f9a950208224ac5f2328e",
+      "source_document_id": "SAMA-D000041",
+      "path": "vol_iii/04-starbreaker/starbreaker-formation-engine.md",
+      "sha256": "c084b715843492b12c1418e7b0eb3e358f110d97f7323c8c82a9ff8e5ee6e318"
+    },
+    {
+      "source_path": "documents/standard/PRIME_RULER_AND_MERSENNE_APPLICATION.md",
+      "source_blob": "ebded130cb9d5d2a1e568e5dfa34588b0f1bcaa5",
+      "source_document_id": "SAMA-D000056",
+      "path": "vol_iii/05-primes-and-jacobians/prime-ruler-and-mersenne-application.md",
+      "sha256": "a83e1f755cfae21ae5278ab00471be11164d699cdbfa2200019b0f61806409ac"
+    },
+    {
+      "source_path": "documents/standard/JACOBIAN_PROGRAM_AND_CLEAN_RESTART.md",
+      "source_blob": "56d2bc0c1bea03b2cbae4e275d33f8aedaff18b3",
+      "source_document_id": "SAMA-D000057",
+      "path": "vol_iii/05-primes-and-jacobians/jacobian-program-and-clean-restart.md",
+      "sha256": "e87bd2172f3d8b30c6800ec3832a6f946891d179a52ba708ba0cc2c8f01e6592"
+    },
+    {
+      "source_path": "documents/standard/NONZERO_AMPLIFICATION_QUANTUM_GALACTIC_BRIDGE.md",
+      "source_blob": "cd906ac5d0afd4c3f5806bd2c38a7030d76cba68",
+      "source_document_id": "SAMA-D000044",
+      "path": "vol_iii/06-connections-between-volumes/nonzero-amplification-quantum-galactic-bridge.md",
+      "sha256": "af5ce1dfeb87a537a11207eb9869d941c1adb98952de31dad6f671506d14cbb7"
+    },
+    {
+      "source_path": "documents/standard/RELATIONAL_NONZERO_AMPLIFICATION_INTERACTION_CLOSURE.md",
+      "source_blob": "1d2abd8a869eacc71375824beebcfa5845d8d5b7",
+      "source_document_id": "SAMA-D000045",
+      "path": "vol_iii/06-connections-between-volumes/relational-nonzero-amplification-interaction-closure.md",
+      "sha256": "a225dccc70f6fa70e6970ac3cd56e19d4ecf204de3e4dcd0c3c09dc1c7e331b8"
+    },
+    {
+      "source_path": "documents/standard/RH_QUESTION_AND_SELECTED_COMPLETED_WEIL_CRITERION.md",
+      "source_blob": "a530edbd2751be35cf8ff3745310ab30213e0fa7",
+      "source_document_id": "SAMA-D000058",
+      "path": "vol_iv/01-question-and-foundations/rh-question-and-selected-completed-weil-criterion.md",
+      "sha256": "b941df1778bea3047c79a2eec89c4f80f1f63a78220a785bc05a93a1d5ce7cc4"
+    },
+    {
+      "source_path": "documents/standard/RH_RADIAL_COMPILER_A0_CLOSURE_AND_LOG_COORDINATE.md",
+      "source_blob": "1bcf20bb91401507ded4177f5ec0f04135fd2dd6",
+      "source_document_id": "SAMA-D000059",
+      "path": "vol_iv/01-question-and-foundations/rh-radial-compiler-a0-closure-and-log-coordinate.md",
+      "sha256": "49b9b9f0eea5ef0cef3f01e58165ce0b7f47e23fb7672da7e9faeee38d6f435d"
+    },
+    {
+      "source_path": "documents/standard/RH_RECIPROCAL_HISTORY_NATIVE_NORMS_AND_EXACT_WRITE.md",
+      "source_blob": "9e6836da445d40c1ec3e4c79060e8ecdf682a8ab",
+      "source_document_id": "SAMA-D000060",
+      "path": "vol_iv/01-question-and-foundations/rh-reciprocal-history-native-norms-and-exact-write.md",
+      "sha256": "8ad41a285801678b531f620399b612d1511d14e73050c4d6b9cb164265887bd3"
+    },
+    {
+      "source_path": "documents/standard/RH_COMPLETED_XI_D0_AND_EXACT_WEIL_FORM.md",
+      "source_blob": "6031bdb942c87c2544a0cdcd5be9e70b2a5ccbf9",
+      "source_document_id": "SAMA-D000061",
+      "path": "vol_iv/01-question-and-foundations/rh-completed-xi-d0-and-exact-weil-form.md",
+      "sha256": "a87843871b8654ad6e6a2ce1c5884b07b71b167e2fc2d069f1494e43983a373f"
+    },
+    {
+      "source_path": "documents/standard/RH_SIGN_TRANSPORT_AND_PHASE_E_COMPLETION_BOUNDARY.md",
+      "source_blob": "4a359597c83a03fda83f166d67707a70b23ccc1f",
+      "source_document_id": "SAMA-D000062",
+      "path": "vol_iv/02-sign-and-factorization/rh-sign-transport-and-phase-e-completion-boundary.md",
+      "sha256": "b4925db5f84a1c4d97426bed1d6d9566808c022a57a66c5dfd5f852613c49c6f"
+    },
+    {
+      "source_path": "documents/standard/RH_RG0_FX1_RECEIPT_GRAM_AND_BALANCE_ELIMINATIONS.md",
+      "source_blob": "f19db289aa409d76ad132aed4e12d420838440ae",
+      "source_document_id": "SAMA-D000063",
+      "path": "vol_iv/02-sign-and-factorization/rh-rg0-fx1-receipt-gram-and-balance-eliminations.md",
+      "sha256": "82d20f689fd3c9323c3986e494dba45e692bace20962b0d344cbf5fd0665504b"
+    },
+    {
+      "source_path": "documents/standard/RH_PB1_PB2_FACTORIZATION_W9P_THETA_AND_AFC_DEFECT.md",
+      "source_blob": "8dae455c736c91e1ee94afde60b48e0e348610d2",
+      "source_document_id": "SAMA-D000064",
+      "path": "vol_iv/02-sign-and-factorization/rh-pb1-pb2-factorization-w9p-theta-and-afc-defect.md",
+      "sha256": "f9bdbc146af1edcba6e26417a0cf95bce27232ca7a4be303d81a613d89cd4b4c"
+    },
+    {
+      "source_path": "documents/standard/RH_SOURCE_MEASURES_PICK_KERNELS_AND_WEYL_LIMITS.md",
+      "source_blob": "b6b36a8df1ce1a3786c72f851b96811863caa457",
+      "source_document_id": "SAMA-D000065",
+      "path": "vol_iv/03-source-and-carriers/rh-source-measures-pick-kernels-and-weyl-limits.md",
+      "sha256": "5ece8147cfafaa610468a5a23c8716b051231a63c754be68e87cbe05d88bd725"
+    },
+    {
+      "source_path": "documents/standard/RH_EXACT_WRITE_EVENT_REEL_THETA_GRAMS_AND_AFC_COMPOSITION.md",
+      "source_blob": "7481a01de5edeefa6beb1d635f8c52480ef5e2a7",
+      "source_document_id": "SAMA-D000066",
+      "path": "vol_iv/03-source-and-carriers/rh-exact-write-event-reel-theta-grams-and-afc-composition.md",
+      "sha256": "1c154b5e8774c990ab055504fc662ca95c72cd808acdf830bf538e8d886b5bb3"
+    },
+    {
+      "source_path": "documents/standard/RH_GAMMA_SCHUR_ROBIN_AND_ADAPTIVE_CARRIERS.md",
+      "source_blob": "b6c58635f1d4f90df8b9bd02ea97f320be950243",
+      "source_document_id": "SAMA-D000067",
+      "path": "vol_iv/03-source-and-carriers/rh-gamma-schur-robin-and-adaptive-carriers.md",
+      "sha256": "7a65cd270ce63bb1700a5f591cf777ecfa42e3f8966fb0314fa8b4a4f19f58a7"
+    },
+    {
+      "source_path": "documents/standard/RH_COLLECTIVE_SPECTRAL_BRIDGE_RADAU_AND_Q2_ADAPTER.md",
+      "source_blob": "f9b4984c673cc082a91ccecfc26ca9d32f67ae42",
+      "source_document_id": "SAMA-D000068",
+      "path": "vol_iv/03-source-and-carriers/rh-collective-spectral-bridge-radau-and-q2-adapter.md",
+      "sha256": "05229126f7011df0d875e02d62dd861bd4acc72cd31b6383653deb6c94765fa5"
+    },
+    {
+      "source_path": "documents/standard/RH_NATURAL_TAIL_DIRICHLET_GREEN_CHAIN_AND_FRONTIER.md",
+      "source_blob": "57819ca26f7b5dce52b36e59124ee45c8666dd61",
+      "source_document_id": "SAMA-D000069",
+      "path": "vol_iv/04-tail-and-transversality/rh-natural-tail-dirichlet-green-chain-and-frontier.md",
+      "sha256": "7463235d894c406c15660072d1be5ad0eac49270feec472e20333d6ee499a15a"
+    },
+    {
+      "source_path": "documents/standard/RH_RII_BARRIER_AND_COMPLETED_SOURCE_TRANSVERSALITY.md",
+      "source_blob": "734a3cb3d842e176e6b8f519e13965b478220922",
+      "source_document_id": "SAMA-D000070",
+      "path": "vol_iv/04-tail-and-transversality/rh-rii-barrier-and-completed-source-transversality.md",
+      "sha256": "cfec07242975692d04d7b839da122af63bde57d86aea22fe82b3cee56ea92e30"
+    },
+    {
+      "source_path": "documents/standard/RH_MEANINGFUL_FALSIFICATIONS_CORRECTIONS_AND_SUCCESSORS.md",
+      "source_blob": "35570c3df6c64ecf00d122a8ca0316ccb5810b70",
+      "source_document_id": "SAMA-D000071",
+      "path": "vol_iv/05-results-and-corrections/rh-meaningful-falsifications-corrections-and-successors.md",
+      "sha256": "8aa2f79acf4dc3e715aa5381c53df7629f417c64606fbc7c23ff5c0fc00d0a0d"
+    },
+    {
+      "source_path": "documents/standard/RH_EVIDENCE_PUBLIC_CUSTODY_AND_REPRODUCIBILITY.md",
+      "source_blob": "ff4e4ddbbcd84c0dc7ffefd770ae0ccdf114f2f4",
+      "source_document_id": "SAMA-D000072",
+      "path": "vol_iv/05-results-and-corrections/rh-evidence-public-custody-and-reproducibility.md",
+      "sha256": "353d1c37bf66f1b7f849e4aefaea2e31304b4ea8bd3162cafb65eb41f97263b1"
+    },
+    {
+      "source_path": "documents/standard/RH_CURRENT_RESULT_OPEN_BOUNDARIES_AND_EXTERNAL_STATE.md",
+      "source_blob": "269729aea9cbbbb054e18777c0a33c7cbc662d1e",
+      "source_document_id": "SAMA-D000073",
+      "path": "vol_iv/05-results-and-corrections/rh-current-result-open-boundaries-and-external-state.md",
+      "sha256": "330d907691c49ec6fa639426711d1a5b838fab3873e07dab3913b548181646f9"
+    },
+    {
+      "source_path": "documents/standard/COLLABORATION_COAUTHORSHIP_AND_FIXED_ATTRIBUTION.md",
+      "source_blob": "dbd78b7c90f0203f723c1ace525192f41f408a75",
+      "source_document_id": "SAMA-D000046",
+      "path": "methodology/research-methods/collaboration-coauthorship-and-fixed-attribution.md",
+      "sha256": "3369b57dca2589d655a30d6af8dea9d67b2816fd38c3bf99cfc44223a04b7b7a"
+    },
+    {
+      "source_path": "documents/standard/AUTHORITY_EVIDENCE_CUSTODY_AND_SOURCE_PRECEDENCE.md",
+      "source_blob": "8c94d64196e04cee3182cc2cf2dc2ff7c770fdd6",
+      "source_document_id": "SAMA-D000047",
+      "path": "methodology/research-methods/authority-evidence-custody-and-source-precedence.md",
+      "sha256": "f49285d8b327e284d7641dff111fd0e5c55348d74929336dade30028e0bfe7d6"
+    },
+    {
+      "source_path": "documents/standard/EXPLORATORY_AND_ESTABLISHED_REFERENCE_TESTING_MODES.md",
+      "source_blob": "bd9856dc4d293c14dd6e535bed6676c23ec1647f",
+      "source_document_id": "SAMA-D000048",
+      "path": "methodology/research-methods/exploratory-and-established-reference-testing-modes.md",
+      "sha256": "9cde5e1091c948be2e7ceb06e3105c2c7d7305e24f9fcf60465c59bc351b5c2b"
+    },
+    {
+      "source_path": "documents/standard/CONCEPT_TO_TECHNICAL_CAMPAIGN_TRANSLATION.md",
+      "source_blob": "ed6f775b7f0cb5700626417dcf93a5eaaa0c6526",
+      "source_document_id": "SAMA-D000049",
+      "path": "methodology/research-methods/concept-to-technical-campaign-translation.md",
+      "sha256": "f5346a744a159c66479a66303277a8da507c7182b1b5971b08e25c6708441568"
+    },
+    {
+      "source_path": "documents/standard/WRONG_CONTROLS_HOLDOUTS_AND_DIAGNOSTIC_ALTERNATIVES.md",
+      "source_blob": "02fddddf6aba4485c36b7e7f0234ac9ea97660d5",
+      "source_document_id": "SAMA-D000050",
+      "path": "methodology/research-methods/wrong-controls-holdouts-and-diagnostic-alternatives.md",
+      "sha256": "a3fe719c15ac09dae194b38201264aa8cf845d8ddcd9036e89dbf7d896e28cc9"
+    },
+    {
+      "source_path": "documents/standard/FAILURE_PRESERVATION_CORRECTIONS_AND_SUCCESSOR_REPAIRS.md",
+      "source_blob": "757cd7424877500ba16428bf1f7d88401f991efa",
+      "source_document_id": "SAMA-D000051",
+      "path": "methodology/research-methods/failure-preservation-corrections-and-successor-repairs.md",
+      "sha256": "6683c73c8572d6220fc7d2960900c87eb7a5f020bd5e6c71fcdf39c01d6dc877"
+    },
+    {
+      "source_path": "documents/standard/RESULT_LANGUAGE_AND_HISTORICAL_STATUS_TYPING.md",
+      "source_blob": "ff2ab93ceb0903bed2a405a3ebecb55e9e4dc2f5",
+      "source_document_id": "SAMA-D000052",
+      "path": "methodology/research-methods/result-language-and-historical-status-typing.md",
+      "sha256": "87d6e1fc8ddde855188d49663c9fbf0af6c1118d7e5911c9f9562a8c708065ae"
+    },
+    {
+      "source_path": "documents/standard/DISCOVERY_INTAKE_BOUNDED_PROMOTION_AND_OWNER_REVIEW.md",
+      "source_blob": "c720f06a227b9ddb0ecae43f9be874c8634f0213",
+      "source_document_id": "SAMA-D000053",
+      "path": "methodology/research-methods/discovery-intake-bounded-promotion-and-owner-review.md",
+      "sha256": "874d7a8ecb18779b120fd224a0d9c16dd8f216d6788cabd8a264765fa41bd4d1"
+    },
+    {
+      "source_path": "documents/standard/RETRIEVAL_COMPACTION_HANDOFF_AND_PUBLICATION_BOUNDARIES.md",
+      "source_blob": "297613dfa2474cadfd80d5a8cebc4d0640defd94",
+      "source_document_id": "SAMA-D000054",
+      "path": "methodology/research-methods/retrieval-compaction-handoff-and-publication-boundaries.md",
+      "sha256": "31479867265370b36f9605d33fae24b12cbfb1e93950fde9eca5463a9c2fd869"
+    },
+    {
+      "source_path": "documents/standard/ATOM3D_THETA_MATTER_RECEPTION_AND_REEMISSION.md",
+      "source_blob": "5ce0dfa7734f487ac2b2037e1e1880d8b30e2617",
+      "source_document_id": "SAMA-D000058",
+      "path": "vol_ii/05-carriers-and-reception/atom3d-matter-reception-and-reemission.md",
+      "sha256": "e093e025c4e64f303999f922f3443f366ff292402e929414a106e3377ca4caa9"
+    },
+    {
+      "source_path": "documents/parents/SAM_VOLUME_I_SUBSTRATE_AND_ACCUMULATION.md",
+      "source_blob": "6fa789522d60c7c7344a649ec2da972a9daa6c7a",
+      "source_document_id": "SAMA-P000002",
+      "path": "vol_i/complete-volume.md",
+      "sha256": "a59c132439649d68d284b04fc179b9fd8b8c2dd3cc00baf16ee5e462eaa50413"
+    },
+    {
+      "source_path": "documents/parents/SAM_VOLUME_II_MATTER_AND_FINITE_CLOSURE.md",
+      "source_blob": "47816ad118594f98eee872dd44bd8dfb00358d0e",
+      "source_document_id": "SAMA-P000003",
+      "path": "vol_ii/complete-volume.md",
+      "sha256": "d26e318a5d574152c7cfa002b2e2fee37f8e8645ee7f81568f7c20d99103ab25"
+    },
+    {
+      "source_path": "documents/parents/SAM_VOLUME_III_COMPUTATION_AND_RECIPROCAL_HISTORY.md",
+      "source_blob": "4f387f96a311fc0f319f0600dc0c4061a852d317",
+      "source_document_id": "SAMA-P000004",
+      "path": "vol_iii/complete-volume.md",
+      "sha256": "1ac90e995052f1d838a238bd234e50525b071338f8adc63999e245f43289f141"
+    },
+    {
+      "source_path": "documents/parents/SAM_VOLUME_IV_RIEMANN_HYPOTHESIS_PROGRAM.md",
+      "source_blob": "f14c34aeb78f88e32031c1d0c1d74252d1babfb9",
+      "source_document_id": "SAMA-P000008",
+      "path": "vol_iv/complete-volume.md",
+      "sha256": "bef9d306debad9219c8cd0005863d114fd7ea0e4e7388bb9b9823c039229b90d"
+    },
+    {
+      "source_path": "documents/parents/SAM_RESEARCH_METHODOLOGY.md",
+      "source_blob": "1cf3f8688ada7ee91e67c46770e635070d9ca7f7",
+      "source_document_id": "SAMA-P000007",
+      "path": "methodology/complete-volume.md",
+      "sha256": "85d030ccc3f8cd027a387542d9bbd4b98faa5333bf5c086146786492b29b2fb1"
+    },
+    {
+      "source_path": "documents/parents/TIME_DILATION_AND_TRAVERSAL_ACCUMULATION.md",
+      "source_blob": "b93630d2e0169ff8441e669fcef5bae354ba8ecc",
+      "source_document_id": "SAMA-P000005",
+      "path": "vol_i/03-clocks-and-light/complete-argument.md",
+      "sha256": "0f681a2a4280f9e04f1a19a82521c6db4722788469038e675250fac19e79e6ed"
+    },
+    {
+      "source_path": "documents/parents/SAM_FINITE_PARTICLE_GRAMMAR_STARBREAKER_AND_BINDING.md",
+      "source_blob": "d4876ee1f13567fc5a8bed1a75eb283fbc8826b0",
+      "source_document_id": "SAMA-P000006",
+      "path": "vol_ii/02-particles/grammar-formation-and-binding.md",
+      "sha256": "59ef7d76d952324695e6ebf60fa6c5846481e3cdea401d9301cab1447773157c"
+    }
+  ],
+  "branch_test_assignments": [
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR001@A0-a",
+      "path": "vol_i/01-foundations/tests/cr-cr001-a0-a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000016",
+        "SAMA-XT000025"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR002@R12",
+      "path": "vol_i/01-foundations/tests/cr-cr002-r12.md",
+      "crosswalk_ids": [
+        "SAMA-XT000020"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR003@02",
+      "path": "vol_i/01-foundations/tests/cr-cr003-02.md",
+      "crosswalk_ids": [
+        "SAMA-XT000029"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR003@19",
+      "path": "vol_i/01-foundations/tests/cr-cr003-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000027"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR004@02",
+      "path": "vol_i/01-foundations/tests/cr-cr004-02.md",
+      "crosswalk_ids": [
+        "SAMA-XT000030"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "CR:CR022@08",
+      "path": "vol_i/01-foundations/tests/cr-cr022-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000032"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G356@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g356-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000014",
+        "SAMA-XT000023"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G357@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g357-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000015",
+        "SAMA-XT000024"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G583c@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g583c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000017"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G657c@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g657c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000018"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G661c@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g661c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000019"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G744c@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g744c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000028"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "G:G7@SAM-ARCHIVE",
+      "path": "vol_i/01-foundations/tests/g-g7-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000013",
+        "SAMA-XT000022"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "LC:LC01",
+      "path": "vol_i/01-foundations/tests/lc-lc01.md",
+      "crosswalk_ids": [
+        "SAMA-XT000021",
+        "SAMA-XT000026"
+      ]
+    },
+    {
+      "branch": "vol_i/01-foundations",
+      "record_key": "LC:LC03",
+      "path": "vol_i/01-foundations/tests/lc-lc03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000031"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "CR:CR003@02",
+      "path": "vol_i/02-gravity/tests/cr-cr003-02.md",
+      "crosswalk_ids": [
+        "SAMA-XT000036"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "CR:CR004@02",
+      "path": "vol_i/02-gravity/tests/cr-cr004-02.md",
+      "crosswalk_ids": [
+        "SAMA-XT000037"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "G:G284c@SAM-ARCHIVE",
+      "path": "vol_i/02-gravity/tests/g-g284c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000033"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "G:G410@SAM-ARCHIVE",
+      "path": "vol_i/02-gravity/tests/g-g410-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000034"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "G:G411@SAM-ARCHIVE",
+      "path": "vol_i/02-gravity/tests/g-g411-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000035"
+      ]
+    },
+    {
+      "branch": "vol_i/02-gravity",
+      "record_key": "LC:LC03",
+      "path": "vol_i/02-gravity/tests/lc-lc03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000038"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR005@03",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr005-03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000043"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR006@03",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr006-03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000044",
+        "SAMA-XT000045"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR006@04",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr006-04.md",
+      "crosswalk_ids": [
+        "SAMA-XT000003",
+        "SAMA-XT000049",
+        "SAMA-XT000055"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR013@06",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr013-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000006",
+        "SAMA-XT000056"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR017@06",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr017-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000007",
+        "SAMA-XT000057"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR147@04",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr147-04.md",
+      "crosswalk_ids": [
+        "SAMA-XT000005",
+        "SAMA-XT000050"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "CR:CR148@04",
+      "path": "vol_i/03-clocks-and-light/tests/cr-cr148-04.md",
+      "crosswalk_ids": [
+        "SAMA-XT000004",
+        "SAMA-XT000051",
+        "SAMA-XT000052"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G343@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g343-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000046"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G371@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g371-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000039"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G372@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g372-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000047"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G373@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g373-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000040"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G374@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g374-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000041"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G407@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g407-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000048"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G409@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g409-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000042"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G688c@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g688c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000001",
+        "SAMA-XT000053"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "G:G693c@SAM-ARCHIVE",
+      "path": "vol_i/03-clocks-and-light/tests/g-g693c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000002",
+        "SAMA-XT000054"
+      ]
+    },
+    {
+      "branch": "vol_i/03-clocks-and-light",
+      "record_key": "LC:LC07",
+      "path": "vol_i/03-clocks-and-light/tests/lc-lc07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000008",
+        "SAMA-XT000058"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR007@05",
+      "path": "vol_i/04-black-holes/tests/cr-cr007-05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000096",
+        "SAMA-XT000120"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR008@05",
+      "path": "vol_i/04-black-holes/tests/cr-cr008-05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000099",
+        "SAMA-XT000121"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR009@05",
+      "path": "vol_i/04-black-holes/tests/cr-cr009-05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000109"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR010@05",
+      "path": "vol_i/04-black-holes/tests/cr-cr010-05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000113"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR011@05",
+      "path": "vol_i/04-black-holes/tests/cr-cr011-05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000122"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "CR:CR147@04",
+      "path": "vol_i/04-black-holes/tests/cr-cr147-04.md",
+      "crosswalk_ids": [
+        "SAMA-XT000104"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G116@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g116-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000106"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G18@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g18-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000115"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G260@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g260-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000118"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G294@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g294-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000119"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G338@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g338-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000092",
+        "SAMA-XT000107",
+        "SAMA-XT000111"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G339@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g339-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000093"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G412@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g412-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000094",
+        "SAMA-XT000108"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G413@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g413-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000095",
+        "SAMA-XT000112"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G59@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g59-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000116"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G60@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g60-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000117"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G699c@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g699c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000101"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G700c@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g700c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000102"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G701c@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g701c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000103"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G85@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g85-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000105"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "G:G90@SAM-ARCHIVE",
+      "path": "vol_i/04-black-holes/tests/g-g90-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000098"
+      ]
+    },
+    {
+      "branch": "vol_i/04-black-holes",
+      "record_key": "LC:LC11",
+      "path": "vol_i/04-black-holes/tests/lc-lc11.md",
+      "crosswalk_ids": [
+        "SAMA-XT000097",
+        "SAMA-XT000100",
+        "SAMA-XT000110",
+        "SAMA-XT000114",
+        "SAMA-XT000123"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR001@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr001-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000140"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR001b@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr001b-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000141"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR001c@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr001c-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000142"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR002@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr002-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000180"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR003@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr003-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000181"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR012@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr012-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000082"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR013@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr013-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000067",
+        "SAMA-XT000083"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR014@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr014-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000084"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR015@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr015-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000068",
+        "SAMA-XT000085"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR016@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr016-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000086"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR017@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr017-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000069",
+        "SAMA-XT000087"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR018@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr018-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000131"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR018b@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr018b-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000070",
+        "SAMA-XT000088"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR019@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr019-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000089"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR019@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr019-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000132"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR019b@06",
+      "path": "vol_i/05-cosmology/tests/cr-cr019b-06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000090",
+        "SAMA-XT000143"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR021@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr021-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000144",
+        "SAMA-XT000151"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR022@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr022-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000152"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR023@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr023-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000133"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR035A2@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr035a2-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000154"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR035A@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr035a-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000153"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR036@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr036-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000137",
+        "SAMA-XT000155"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR036B@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr036b-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000138",
+        "SAMA-XT000156"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR037A@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr037a-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000157"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR037B@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr037b-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000158"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR037C@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr037c-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000159"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR038@19",
+      "path": "vol_i/05-cosmology/tests/cr-cr038-19.md",
+      "crosswalk_ids": [
+        "SAMA-XT000160"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "CR:CR281@07",
+      "path": "vol_i/05-cosmology/tests/cr-cr281-07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000134"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G219",
+      "path": "vol_i/05-cosmology/tests/g-g219.md",
+      "crosswalk_ids": [
+        "SAMA-XT000124"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G219B",
+      "path": "vol_i/05-cosmology/tests/g-g219b.md",
+      "crosswalk_ids": [
+        "SAMA-XT000125"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G219C",
+      "path": "vol_i/05-cosmology/tests/g-g219c.md",
+      "crosswalk_ids": [
+        "SAMA-XT000126"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G305",
+      "path": "vol_i/05-cosmology/tests/g-g305.md",
+      "crosswalk_ids": [
+        "SAMA-XT000127"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G310",
+      "path": "vol_i/05-cosmology/tests/g-g310.md",
+      "crosswalk_ids": [
+        "SAMA-XT000128"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G312",
+      "path": "vol_i/05-cosmology/tests/g-g312.md",
+      "crosswalk_ids": [
+        "SAMA-XT000129"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G313",
+      "path": "vol_i/05-cosmology/tests/g-g313.md",
+      "crosswalk_ids": [
+        "SAMA-XT000130"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G375@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g375-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000059"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G379",
+      "path": "vol_i/05-cosmology/tests/g-g379.md",
+      "crosswalk_ids": [
+        "SAMA-XT000145"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G380",
+      "path": "vol_i/05-cosmology/tests/g-g380.md",
+      "crosswalk_ids": [
+        "SAMA-XT000146"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G381",
+      "path": "vol_i/05-cosmology/tests/g-g381.md",
+      "crosswalk_ids": [
+        "SAMA-XT000147"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G382",
+      "path": "vol_i/05-cosmology/tests/g-g382.md",
+      "crosswalk_ids": [
+        "SAMA-XT000148"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G383",
+      "path": "vol_i/05-cosmology/tests/g-g383.md",
+      "crosswalk_ids": [
+        "SAMA-XT000149"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G384",
+      "path": "vol_i/05-cosmology/tests/g-g384.md",
+      "crosswalk_ids": [
+        "SAMA-XT000150"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G395@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g395-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000136"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G396",
+      "path": "vol_i/05-cosmology/tests/g-g396.md",
+      "crosswalk_ids": [
+        "SAMA-XT000139"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G397@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g397-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000060"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G398@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g398-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000061"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G398B@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g398b-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000062"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G399@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g399-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000063"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G400@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g400-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000064"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G401@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g401-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000065"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G688c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g688c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000066"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G689c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g689c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000072"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G690c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g690c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000073"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G691c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g691c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000074"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G692c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g692c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000075"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G693c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g693c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000076"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G694c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g694c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000077"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G695c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g695c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000078"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G696c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g696c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000079"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G697c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g697c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000080"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "G:G698c@SAM-ARCHIVE",
+      "path": "vol_i/05-cosmology/tests/g-g698c-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000081"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "LC:LC06",
+      "path": "vol_i/05-cosmology/tests/lc-lc06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000135"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "LC:LC07",
+      "path": "vol_i/05-cosmology/tests/lc-lc07.md",
+      "crosswalk_ids": [
+        "SAMA-XT000071",
+        "SAMA-XT000091"
+      ]
+    },
+    {
+      "branch": "vol_i/05-cosmology",
+      "record_key": "LC:LC11",
+      "path": "vol_i/05-cosmology/tests/lc-lc11.md",
+      "crosswalk_ids": [
+        "SAMA-XT000182"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR022@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr022-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000165"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR023@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr023-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000166"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR024@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr024-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000167"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR025@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr025-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000168"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR026@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr026-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000169"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR027@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr027-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000170"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR028@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr028-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000171"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR029@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr029-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000172"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR029b@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr029b-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000173"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR030@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr030-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000174"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR031@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr031-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000175"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR031b@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr031b-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000176"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR032@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr032-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000177"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "CR:CR033@08",
+      "path": "vol_i/06-galaxies/tests/cr-cr033-08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000178"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "G:G392@SAM-ARCHIVE",
+      "path": "vol_i/06-galaxies/tests/g-g392-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000161"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "G:G393@SAM-ARCHIVE",
+      "path": "vol_i/06-galaxies/tests/g-g393-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000162"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "G:G394@SAM-ARCHIVE",
+      "path": "vol_i/06-galaxies/tests/g-g394-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000163"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "G:G677@SAM-ARCHIVE",
+      "path": "vol_i/06-galaxies/tests/g-g677-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000164"
+      ]
+    },
+    {
+      "branch": "vol_i/06-galaxies",
+      "record_key": "LC:LC08",
+      "path": "vol_i/06-galaxies/tests/lc-lc08.md",
+      "crosswalk_ids": [
+        "SAMA-XT000179"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "CR:CR238@09a",
+      "path": "vol_ii/01-matter-foundations/tests/cr-cr238-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000201"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "CR:CR239@09a",
+      "path": "vol_ii/01-matter-foundations/tests/cr-cr239-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000202"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "CR:CR281@09a",
+      "path": "vol_ii/01-matter-foundations/tests/cr-cr281-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000211"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "CR:CR282@09a",
+      "path": "vol_ii/01-matter-foundations/tests/cr-cr282-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000212"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "CR:CR283@09a",
+      "path": "vol_ii/01-matter-foundations/tests/cr-cr283-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000213"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "LC:LC01",
+      "path": "vol_ii/01-matter-foundations/tests/lc-lc01.md",
+      "crosswalk_ids": [
+        "SAMA-XT000207",
+        "SAMA-XT000208"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "LC:LC03",
+      "path": "vol_ii/01-matter-foundations/tests/lc-lc03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000204"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "LC:LC06",
+      "path": "vol_ii/01-matter-foundations/tests/lc-lc06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000205"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "QP:QP034",
+      "path": "vol_ii/01-matter-foundations/tests/qp-qp034.md",
+      "crosswalk_ids": [
+        "SAMA-XT000206"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "QP:QP092d",
+      "path": "vol_ii/01-matter-foundations/tests/qp-qp092d.md",
+      "crosswalk_ids": [
+        "SAMA-XT000203"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "QP:QP101@SAM-ARCHIVE",
+      "path": "vol_ii/01-matter-foundations/tests/qp-qp101-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000209"
+      ]
+    },
+    {
+      "branch": "vol_ii/01-matter-foundations",
+      "record_key": "QP:QP112@SAM-ARCHIVE",
+      "path": "vol_ii/01-matter-foundations/tests/qp-qp112-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000210"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR001@20",
+      "path": "vol_ii/02-particles/tests/cr-cr001-20.md",
+      "crosswalk_ids": [
+        "SAMA-XT000250"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR002@20",
+      "path": "vol_ii/02-particles/tests/cr-cr002-20.md",
+      "crosswalk_ids": [
+        "SAMA-XT000251"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR119@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr119-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000214",
+        "SAMA-XT000224"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR128@13",
+      "path": "vol_ii/02-particles/tests/cr-cr128-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000227"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR129@13",
+      "path": "vol_ii/02-particles/tests/cr-cr129-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000228"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR129b@13",
+      "path": "vol_ii/02-particles/tests/cr-cr129b-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000229"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR129c@13",
+      "path": "vol_ii/02-particles/tests/cr-cr129c-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000230"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR130@13",
+      "path": "vol_ii/02-particles/tests/cr-cr130-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000231"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR131@13",
+      "path": "vol_ii/02-particles/tests/cr-cr131-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000232"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR132@13",
+      "path": "vol_ii/02-particles/tests/cr-cr132-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000233"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR133@13",
+      "path": "vol_ii/02-particles/tests/cr-cr133-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000234"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR134@13",
+      "path": "vol_ii/02-particles/tests/cr-cr134-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000235"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR239@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr239-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000238"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR240@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr240-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000239"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR243@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr243-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000240"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR244@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr244-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000241"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR252@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr252-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000215",
+        "SAMA-XT000225"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR253@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr253-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000216",
+        "SAMA-XT000242"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR254@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr254-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000243"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR255@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr255-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000244"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR256@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr256-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000245"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR279@13",
+      "path": "vol_ii/02-particles/tests/cr-cr279-13.md",
+      "crosswalk_ids": [
+        "SAMA-XT000249"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "CR:CR280@09a",
+      "path": "vol_ii/02-particles/tests/cr-cr280-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000217"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "G:G1@SAM-RESEARCH",
+      "path": "vol_ii/02-particles/tests/g-g1-sam-research.md",
+      "crosswalk_ids": [
+        "SAMA-XT000221",
+        "SAMA-XT000237"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "LC:LC02",
+      "path": "vol_ii/02-particles/tests/lc-lc02.md",
+      "crosswalk_ids": [
+        "SAMA-XT000248"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "LC:LC03",
+      "path": "vol_ii/02-particles/tests/lc-lc03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000247"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "LC:LC04",
+      "path": "vol_ii/02-particles/tests/lc-lc04.md",
+      "crosswalk_ids": [
+        "SAMA-XT000222",
+        "SAMA-XT000226"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "LC:LC06",
+      "path": "vol_ii/02-particles/tests/lc-lc06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000223"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "QP:QP034",
+      "path": "vol_ii/02-particles/tests/qp-qp034.md",
+      "crosswalk_ids": [
+        "SAMA-XT000218"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "QP:QP093A",
+      "path": "vol_ii/02-particles/tests/qp-qp093a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000219",
+        "SAMA-XT000236"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "QP:QP106@SAM-ARCHIVE",
+      "path": "vol_ii/02-particles/tests/qp-qp106-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000220"
+      ]
+    },
+    {
+      "branch": "vol_ii/02-particles",
+      "record_key": "QP:QP112@SAM-ARCHIVE",
+      "path": "vol_ii/02-particles/tests/qp-qp112-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000246"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR071@10",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr071-10.md",
+      "crosswalk_ids": [
+        "SAMA-XT000256"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR072@10",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr072-10.md",
+      "crosswalk_ids": [
+        "SAMA-XT000257"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR245@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr245-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000252"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR247@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr247-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000253"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR248@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr248-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000254"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR252@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr252-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000280"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR273@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr273-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000277"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR274@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr274-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000263",
+        "SAMA-XT000278"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR277@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr277-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000259",
+        "SAMA-XT000279"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "CR:CR278@09a",
+      "path": "vol_ii/03-nuclei-and-elements/tests/cr-cr278-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000255"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "LC:LC05",
+      "path": "vol_ii/03-nuclei-and-elements/tests/lc-lc05.md",
+      "crosswalk_ids": [
+        "SAMA-XT000258",
+        "SAMA-XT000276"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "LC:LC06",
+      "path": "vol_ii/03-nuclei-and-elements/tests/lc-lc06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000281"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "QP:QP047",
+      "path": "vol_ii/03-nuclei-and-elements/tests/qp-qp047.md",
+      "crosswalk_ids": [
+        "SAMA-XT000260"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "QP:QP051",
+      "path": "vol_ii/03-nuclei-and-elements/tests/qp-qp051.md",
+      "crosswalk_ids": [
+        "SAMA-XT000261"
+      ]
+    },
+    {
+      "branch": "vol_ii/03-nuclei-and-elements",
+      "record_key": "QP:QP052",
+      "path": "vol_ii/03-nuclei-and-elements/tests/qp-qp052.md",
+      "crosswalk_ids": [
+        "SAMA-XT000262"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR239@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr239-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000264"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR240@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr240-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000265"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR241@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr241-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000266"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR245@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr245-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000267"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR249@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr249-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000272"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR250@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr250-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000273"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR251@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr251-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000274"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "CR:CR274@09a",
+      "path": "vol_ii/04-binding/tests/cr-cr274-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000275"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "QP:QP040",
+      "path": "vol_ii/04-binding/tests/qp-qp040.md",
+      "crosswalk_ids": [
+        "SAMA-XT000268"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "QP:QP047",
+      "path": "vol_ii/04-binding/tests/qp-qp047.md",
+      "crosswalk_ids": [
+        "SAMA-XT000269"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "QP:QP051",
+      "path": "vol_ii/04-binding/tests/qp-qp051.md",
+      "crosswalk_ids": [
+        "SAMA-XT000270"
+      ]
+    },
+    {
+      "branch": "vol_ii/04-binding",
+      "record_key": "QP:QP052",
+      "path": "vol_ii/04-binding/tests/qp-qp052.md",
+      "crosswalk_ids": [
+        "SAMA-XT000271"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR120X@14",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr120x-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000384"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR120Y@14",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr120y-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000385"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR223f@12a",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr223f-12a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000383"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR256@09a",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr256-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000291"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR281@09a",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr281-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000285"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR282@09a",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr282-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000286"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "CR:CR283@09a",
+      "path": "vol_ii/05-carriers-and-reception/tests/cr-cr283-09a.md",
+      "crosswalk_ids": [
+        "SAMA-XT000287"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "G:G1@SAM-RESEARCH",
+      "path": "vol_ii/05-carriers-and-reception/tests/g-g1-sam-research.md",
+      "crosswalk_ids": [
+        "SAMA-XT000288"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "LC:LC03",
+      "path": "vol_ii/05-carriers-and-reception/tests/lc-lc03.md",
+      "crosswalk_ids": [
+        "SAMA-XT000289"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "LC:LC06",
+      "path": "vol_ii/05-carriers-and-reception/tests/lc-lc06.md",
+      "crosswalk_ids": [
+        "SAMA-XT000290"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "QP:QP092d",
+      "path": "vol_ii/05-carriers-and-reception/tests/qp-qp092d.md",
+      "crosswalk_ids": [
+        "SAMA-XT000282"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "QP:QP101@SAM-ARCHIVE",
+      "path": "vol_ii/05-carriers-and-reception/tests/qp-qp101-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000283"
+      ]
+    },
+    {
+      "branch": "vol_ii/05-carriers-and-reception",
+      "record_key": "QP:QP112@SAM-ARCHIVE",
+      "path": "vol_ii/05-carriers-and-reception/tests/qp-qp112-sam-archive.md",
+      "crosswalk_ids": [
+        "SAMA-XT000284"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "CR:CR120R@14",
+      "path": "vol_iii/01-grammar-and-language/tests/cr-cr120r-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000351"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G01@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g01-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000353"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G02@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g02-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000354"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G03@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g03-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000355"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G04@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g04-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000356"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G05@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g05-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000357"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G06@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g06-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000358"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G07@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g07-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000359"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G08@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g08-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000360"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G09@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g09-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000361"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G10@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g10-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000362"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G11@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g11-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000363"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G12@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g12-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000364"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G13@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g13-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000365"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G14@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g14-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000366"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G15@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g15-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000367"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G16@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g16-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000368"
+      ]
+    },
+    {
+      "branch": "vol_iii/01-grammar-and-language",
+      "record_key": "G:G1@SAM-RESEARCH",
+      "path": "vol_iii/01-grammar-and-language/tests/g-g1-sam-research.md",
+      "crosswalk_ids": [
+        "SAMA-XT000352",
+        "SAMA-XT000369"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120A@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120a-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000371"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120D@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120d-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000372"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120E@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120e-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000373"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120G@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120g-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000374"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120K@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120k-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000375"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120T@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120t-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000376"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120V@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120v-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000377"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120W@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120w-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000378"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120X@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120x-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000379"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120Y@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120y-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000380"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120Z@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120z-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000381"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "CR:CR120ZB@14",
+      "path": "vol_iii/03-writes-and-history/tests/cr-cr120zb-14.md",
+      "crosswalk_ids": [
+        "SAMA-XT000382"
+      ]
+    },
+    {
+      "branch": "vol_iii/03-writes-and-history",
+      "record_key": "G:G06@SAM-LANGUAGE-0.6",
+      "path": "vol_iii/03-writes-and-history/tests/g-g06-sam-language-0-6.md",
+      "crosswalk_ids": [
+        "SAMA-XT000370"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005c@21",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005c-21.md",
+      "crosswalk_ids": [
+        "SAMA-XT000388"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005d@21",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005d-21.md",
+      "crosswalk_ids": [
+        "SAMA-XT000389"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005e@SAM-RESEARCH",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005e-sam-research.md",
+      "crosswalk_ids": [
+        "SAMA-XT000390"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005f@SAM-RESEARCH",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005f-sam-research.md",
+      "crosswalk_ids": [
+        "SAMA-XT000391"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005g@21",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005g-21.md",
+      "crosswalk_ids": [
+        "SAMA-XT000392"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005h@21",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005h-21.md",
+      "crosswalk_ids": [
+        "SAMA-XT000393"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR005i@21",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr005i-21.md",
+      "crosswalk_ids": [
+        "SAMA-XT000394",
+        "SAMA-XT000395"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR210@15",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr210-15.md",
+      "crosswalk_ids": [
+        "SAMA-XT000386"
+      ]
+    },
+    {
+      "branch": "vol_iii/04-starbreaker",
+      "record_key": "CR:CR211@15",
+      "path": "vol_iii/04-starbreaker/tests/cr-cr211-15.md",
+      "crosswalk_ids": [
+        "SAMA-XT000387"
+      ]
+    },
+    {
+      "branch": "methodology/research-methods",
+      "record_key": "LC:LC00",
+      "path": "methodology/research-methods/tests/lc-lc00.md",
+      "crosswalk_ids": [
+        "SAMA-XT000009",
+        "SAMA-XT000011"
+      ]
+    },
+    {
+      "branch": "methodology/research-methods",
+      "record_key": "LC:LC01",
+      "path": "methodology/research-methods/tests/lc-lc01.md",
+      "crosswalk_ids": [
+        "SAMA-XT000010",
+        "SAMA-XT000012"
+      ]
+    }
+  ],
+  "source_test_count": 1246,
+  "source_crosswalk_count": 323,
+  "rh_result_count": 25,
+  "unavailable_source_links": [
+    {
+      "chapter": "vol_i/05-cosmology/baryon-to-photon-and-hubble-cascade.md",
+      "source_locator": "../reference files_misc/archive/substrate_G_tests/G395_H0_DENSITY_CLOSURE_SELECTOR/G395_output.json"
+    },
+    {
+      "chapter": "vol_i/05-cosmology/baryon-to-photon-and-hubble-cascade.md",
+      "source_locator": "../reference files_misc/archive/substrate_G_tests/G395_H0_DENSITY_CLOSURE_SELECTOR"
+    }
+  ],
+  "kept_published_files": [
+    {
+      "path": "LICENSE.md",
+      "sha": "b1ac6c5c2b9829f108b317be98ac49fdd230a887",
+      "mode": "100644"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha": "a2a8e1a151a68c55d429e9ab720ef8f1efcce7d5",
+      "mode": "100644"
+    },
+    {
+      "path": "STEWARDSHIP.md",
+      "sha": "4584f83b35d477c4952d1019ad31779e2cec00e9",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSE_DECISION.md",
+      "sha": "7201db5a347a2d379546ff42cdcab3ce0087477d",
+      "mode": "100644"
+    },
+    {
+      "path": "PUBLIC_DISCLOSURE_POLICY.md",
+      "sha": "4d2fa6e2e5506c46c4d5946cb2524bc6e51d0879",
+      "mode": "100644"
+    },
+    {
+      "path": "AUTHORS.md",
+      "sha": "5f5ae36d8ae2efe90d0fbd1061c37793e6768fff",
+      "mode": "100644"
+    },
+    {
+      "path": "COAUTHORSHIP.md",
+      "sha": "4c5d5c2265c26a10522c648cf01b9e79743ec14a",
+      "mode": "100644"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha": "e69d1447c21e6ea3b28abf799f27c29b57a6b6d9",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSES/AGPL-3.0-or-later.txt",
+      "sha": "2beb9e16309456b1f4244480f4fe6890324a5064",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.txt",
+      "sha": "e35dfb9fca0ba624504ca45e2c1930ae942ff7da",
+      "mode": "100644"
+    },
+    {
+      "path": "LICENSES/README.md",
+      "sha": "d779a69ca8ce6efe295caccecd3eaabedc54b211",
+      "mode": "100644"
+    }
+  ],
+  "scientific_results_recomputed": false,
+  "research_approval_changed": false,
+  "licence_terms_changed": false
+}

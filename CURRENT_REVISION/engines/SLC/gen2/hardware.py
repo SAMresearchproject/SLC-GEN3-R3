@@ -103,10 +103,11 @@ def _primary_chunk(bounds):
 
 def evaluate_primary(rows, blocks, workers=14):
     """Pinned H14F workers consume the actual compiled-source frames."""
-    if workers not in (4, 14):
-        raise ValueError('Declared H14F calibration profiles are four or fourteen physical workers')
-    available = os.sched_getaffinity(0)
-    cpus = [c for c in H14F_PHYSICAL_CPUS if c in available][:workers]
+    if type(workers) is not int or workers < 1:
+        raise ValueError('Worker count must be positive')
+    available = set(map(int,os.environ['SAM_R3_ALLOWED_CPUS'].split(','))) if 'SAM_R3_ALLOWED_CPUS' in os.environ else os.sched_getaffinity(0)
+    order = tuple(map(int,os.environ['SAM_R3_CPU_ORDER'].split(','))) if 'SAM_R3_CPU_ORDER' in os.environ else H14F_PHYSICAL_CPUS
+    cpus = [c for c in order if c in available][:workers]
     if len(cpus) != workers:
         raise ValueError('Requested pinned H14F physical profile is unavailable')
     global _PRIMARY_BLOCKS, _PRIMARY_ROWS

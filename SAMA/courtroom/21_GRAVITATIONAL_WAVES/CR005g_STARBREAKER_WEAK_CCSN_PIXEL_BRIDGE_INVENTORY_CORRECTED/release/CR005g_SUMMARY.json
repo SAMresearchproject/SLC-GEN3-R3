@@ -1,0 +1,172 @@
+{
+  "best_overall_match": {
+    "beats_frequency_reversal": true,
+    "beats_separable_null": true,
+    "beats_time_reversal": false,
+    "best_anchor": "high_drive",
+    "best_geometry": "dispersed_slots",
+    "best_p_level": 3,
+    "best_scenario_id": "REF_0272",
+    "best_seed": 910002,
+    "best_view_id": "face_yz_m",
+    "door": "discovery",
+    "frequency_reversed_best_affinity": 0.020370163169119767,
+    "hellinger_affinity": 0.4076472646703325,
+    "mass_msun": 9,
+    "separable_null_best_affinity": 0.38588284536474377,
+    "time_reversed_best_affinity": 0.40859634017424507,
+    "time_shift_empirical_p": 0.5,
+    "time_shift_null_median": 0.407288647130545,
+    "time_shift_null_q90": 0.45492066858510893,
+    "time_shift_null_q95": 0.45756630258955866,
+    "total_variation_distance": 0.7903519624411872,
+    "waveform": "s9.0.swbj15.horo.3d.gw.dat"
+  },
+  "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+  "construction_pass": true,
+  "directional_door_count": 0,
+  "directional_morphology_bridge": false,
+  "door_results": [
+    {
+      "clears_q90_and_reversals": false,
+      "clears_q95_and_all_controls": false,
+      "door": "discovery",
+      "frequency_reversed_median_affinity": 0.04133565919163908,
+      "observed_median_affinity": 0.15085708448339544,
+      "separable_null_median_affinity": 0.14514194242867545,
+      "time_reversed_median_affinity": 0.15148859658390498,
+      "time_shift_empirical_p": 0.5,
+      "time_shift_null_median": 0.15073653123462383,
+      "time_shift_null_q90": 0.15566940299868237,
+      "time_shift_null_q95": 0.15586119344350596,
+      "waveform_count": 4
+    },
+    {
+      "clears_q90_and_reversals": false,
+      "clears_q95_and_all_controls": false,
+      "door": "validation",
+      "frequency_reversed_median_affinity": 0.061107731541509114,
+      "observed_median_affinity": 0.068025103859652,
+      "separable_null_median_affinity": 0.09801181145720715,
+      "time_reversed_median_affinity": 0.06851097200921362,
+      "time_shift_empirical_p": 0.8125,
+      "time_shift_null_median": 0.07155109529070865,
+      "time_shift_null_q90": 0.0946935156035249,
+      "time_shift_null_q95": 0.09617518822042415,
+      "waveform_count": 3
+    },
+    {
+      "clears_q90_and_reversals": false,
+      "clears_q95_and_all_controls": false,
+      "door": "final",
+      "frequency_reversed_median_affinity": 0.08274516830035857,
+      "observed_median_affinity": 0.07647350873828994,
+      "separable_null_median_affinity": 0.08113754721047245,
+      "time_reversed_median_affinity": 0.07517706372643536,
+      "time_shift_empirical_p": 0.020833333333333332,
+      "time_shift_null_median": 0.061182153272261494,
+      "time_shift_null_q90": 0.07306172627440939,
+      "time_shift_null_q95": 0.07319307095726041,
+      "waveform_count": 3
+    }
+  ],
+  "external_data": {
+    "archive_sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3",
+    "catalog_url": "https://www.astro.princeton.edu/~burrows/gw.3d/index.html",
+    "door_counts": {
+      "discovery": 4,
+      "final": 3,
+      "validation": 3
+    },
+    "kind": "simulated three-dimensional core-collapse supernova matter-strain waveforms",
+    "waveform_count": 10
+  },
+  "invariance": {
+    "amplitude_scale_max_abs_error": 6.938893903907228e-18,
+    "polarization_rotation_max_abs_error": 6.938893903907228e-18,
+    "zero_map_rejected": true
+  },
+  "physical_claims": {
+    "detector_forecast": null,
+    "distance_reach": null,
+    "frequency_hz": null,
+    "luminosity": null,
+    "strain": null,
+    "time_seconds": null
+  },
+  "pixel_grid": {
+    "frequency_bins": 64,
+    "normalization_max_abs_error": 4.440892098500626e-16,
+    "physical_amplitude": false,
+    "physical_time": false,
+    "pixels_per_map": 3072,
+    "time_bins": 48
+  },
+  "precommit": {
+    "precommit": {
+      "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+      "classification": "CONSTRUCTIVE_FROZEN_INVENTORY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+      "contract_sha256": "109230a07d1b2359a23e99b3a335c08fddba647ce20e88adbb715d9aee22fea9",
+      "failed_predecessor_runner_sha256": "bd1d39756a3bed21d47901e257295c0e18d5da2fedce91e2fe9330999488076c",
+      "precommit_sha256": "83e9f147c670af22574d81c923984d526c975dc66167ca9d02d761b53a58d0fa",
+      "predecessor_rerun": false,
+      "preflight_path": "artifacts/preflight_filled/PREFLIGHT_20260720_220947_no_script.md",
+      "preflight_sha256": "88c5eeabc5627dc1543a7fef7caeddb5378cdfe04c75d24618e3560ac45f0838",
+      "results_opened": false,
+      "runner_present_at_seal": false,
+      "same_run_repair_allowed": false,
+      "sealed_utc": "2026-07-21T03:12:19Z",
+      "source_manifest_sha256": "a9319ef7dddc04ab9c870a36a56eda7ddcade9fd46cb77c821d8130914b61651",
+      "task": "Correct the frozen carrier inventory in the trace-corrected Starbreaker-to-weak-CCSN pixel bridge"
+    },
+    "runner": {
+      "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+      "contract_sha256": "109230a07d1b2359a23e99b3a335c08fddba647ce20e88adbb715d9aee22fea9",
+      "precommit_seal_sha256": "3f7943307ffc993e761e26cd20e555f575d473a1478df8dd4edc7fbe15af9c9d",
+      "precommit_sha256": "83e9f147c670af22574d81c923984d526c975dc66167ca9d02d761b53a58d0fa",
+      "runner": "CR005g_runner.py",
+      "runner_bytes": 40146,
+      "runner_sha256": "e6fa707163afba9f235e5661ead152273f369ffafe7e6ac4bb2357686a0f2e53",
+      "same_run_repair_allowed": false,
+      "sealed_utc": "2026-07-21T03:13:33Z",
+      "source_manifest_sha256": "a9319ef7dddc04ab9c870a36a56eda7ddcade9fd46cb77c821d8130914b61651",
+      "syntax_compile_passed": true
+    }
+  },
+  "record_class": "CONSTRUCTIVE_FROZEN_INVENTORY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+  "same_run_repair": false,
+  "source_count": 10,
+  "source_hashes_matched": 10,
+  "starbreaker": {
+    "atom_count": 482112,
+    "carrier_count_histogram": {
+      "1008": 24,
+      "252": 24,
+      "378": 24,
+      "594": 24
+    },
+    "carrier_occurrence_count": 53568,
+    "door_template_counts": {
+      "discovery": 624,
+      "final": 312,
+      "validation": 312
+    },
+    "ledger_count_histogram": {
+      "14": 24,
+      "21": 24,
+      "33": 24,
+      "56": 24
+    },
+    "scenario_count": 96,
+    "template_count": 1248
+  },
+  "strong_morphology_bridge": false,
+  "task": "Correct the frozen carrier inventory in the trace-corrected Starbreaker-to-weak-CCSN pixel bridge",
+  "trace_correction": {
+    "fit_parameter": false,
+    "max_enforced_trace_relative_error": 0.0,
+    "max_preprojection_trace_relative_error": 5.3787452709897693e-08,
+    "rule": "after finite differencing, set S_zz=-(S_xx+S_yy) before observer projection"
+  },
+  "verdict": "BOUNDARY_PIXEL_SURFACE_CONSTRUCTED__NO_STABLE_STARBREAKER_CCSN_MORPHOLOGY_MATCH"
+}

@@ -1,0 +1,3 @@
+upstream_cr,original_verdict,appeal_verdict,supporting_crs,rationale,original_file_modified,appeal_recorded_in
+CR059,BOUNDARY,APPEAL_PASS_DEFERRED_SUPPORT,CR061;CR062;CR063,downstream CR061-CR063 all PASS-tier; CR059/CR060 receive deferred-support upgrade per anti-circularity rule,False,CR064_appeal_pass_ledger.csv
+CR060,BOUNDARY,APPEAL_PASS_DEFERRED_SUPPORT,CR061;CR062;CR063,downstream CR061-CR063 all PASS-tier; CR059/CR060 receive deferred-support upgrade per anti-circularity rule,False,CR064_appeal_pass_ledger.csv

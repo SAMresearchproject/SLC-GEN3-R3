@@ -1,0 +1,56 @@
+{
+  "mc_trials_per_distribution": 200000,
+  "mc_range_pct": [
+    0.05,
+    5.0
+  ],
+  "tolerances": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "null_coverage_uniform": {
+    "2pct": 0.13705,
+    "5pct": 0.336975,
+    "10pct": 0.61191,
+    "20pct": 0.973975
+  },
+  "null_coverage_loguniform": {
+    "2pct": 0.129095,
+    "5pct": 0.319545,
+    "10pct": 0.58946,
+    "20pct": 0.955515
+  },
+  "observed_hits": {
+    "2pct": 4,
+    "5pct": 10,
+    "10pct": 14,
+    "20pct": 17
+  },
+  "n_allowed_rows": 17,
+  "pvalues_uniform": {
+    "2pct": 0.19579183158084945,
+    "5pct": 0.02945450917054797,
+    "10pct": 0.0567330106023193,
+    "20pct": 0.6387233047181441
+  },
+  "pvalues_loguniform": {
+    "2pct": 0.1679197316748148,
+    "5pct": 0.020173733766013294,
+    "10pct": 0.03863937076464168,
+    "20pct": 0.46135757483552353
+  },
+  "verdicts_uniform": {
+    "2pct": "SUGGESTIVE",
+    "5pct": "SIGNIFICANT",
+    "10pct": "SUGGESTIVE",
+    "20pct": "COMPATIBLE_WITH_NULL"
+  },
+  "verdicts_loguniform": {
+    "2pct": "SUGGESTIVE",
+    "5pct": "SIGNIFICANT",
+    "10pct": "SIGNIFICANT",
+    "20pct": "COMPATIBLE_WITH_NULL"
+  }
+}

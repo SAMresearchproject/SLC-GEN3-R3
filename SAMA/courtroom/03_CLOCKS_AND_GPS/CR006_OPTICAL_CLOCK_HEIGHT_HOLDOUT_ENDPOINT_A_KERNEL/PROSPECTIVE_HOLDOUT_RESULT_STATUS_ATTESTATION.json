@@ -1,0 +1,19 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_RESULT_STATUS_ATTESTATION",
+  "attestation_created_utc": "2026-07-11T17:17:03Z",
+  "canonical_scientific_result_status": "PASS",
+  "cr_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "detailed_source_verdict": "PASS_OPTICAL_CLOCK_ENDPOINT_HOLDOUT",
+  "existing_artifacts_modified": false,
+  "mapping_rule": "PASS_OPTICAL_CLOCK_ENDPOINT_HOLDOUT -> PASS by prefix/exact mechanical rule",
+  "qualification_basis": "branch-local CR has precommit, runner, result, summary, provenance, HASHES, prospective seal, and mapped scientific verdict",
+  "qualifies_as_new_scientific_test": true,
+  "scientific_content_changed": false,
+  "scientific_tests_rerun": false,
+  "source_result_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_result.md",
+  "source_result_sha256": "9d1230a6c3e0f1afbd315580a0ebbf86669b98487904a00fa43fd39b52a3d920",
+  "source_summary_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_summary.json",
+  "source_summary_sha256": "29f2aabf3283e0351bf7e1ba4f9558f45387e4f4ae84a2cf03d56596378f1cc3",
+  "source_verdict_field": "CR006_summary.json:verdict",
+  "target_scientific_content_opened_beyond_status_metadata": false
+}

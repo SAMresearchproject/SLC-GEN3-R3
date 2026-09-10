@@ -1,0 +1,23 @@
+{
+  "record_id": "CR285_PASSIVE_OCTAHEDRAL_MEMBRANE_CONSTRUCTION_GRAMMAR",
+  "test_id": "CR285",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "campaign_kind": "CONSTRUCTIVE_NEW_WORK",
+  "claim_tier": "PASSIVE_MEMBRANE_TOPOLOGY_GRAMMAR",
+  "free_parameters_allowed": 0,
+  "source_cell_templates_expected": 120,
+  "directed_gates_expected": 960,
+  "undirected_gate_pairs_expected": 480,
+  "acoustic_inputs_allowed": false,
+  "starbreaker_inputs_allowed": false,
+  "observed_water_ion_targets_allowed": false,
+  "species_predictions_allowed": false,
+  "physical_pore_size_allowed": false,
+  "physical_material_promotion_allowed": false,
+  "hidden_rows_to_faces_resolved": false,
+  "carrier_rows_to_vertices_resolved": false,
+  "expected_scientific_verdict": "PASS",
+  "expected_result_class": "CR285_PASS_PASSIVE_OCTAHEDRAL_MEMBRANE_CONSTRUCTION_GRAMMAR__960_DIRECTED_GATES__NO_SPECIES_SELECTIVITY_OR_PHYSICAL_PROMOTION",
+  "rule_9_falsification": "This test could have falsified passive membrane construction by exposing topology defects, non-complementary ports, unresolved-role dependence, acoustic dependence, target leakage, or physical-unit invention."
+}

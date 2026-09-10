@@ -1,0 +1,54 @@
+{
+  "precommit_sha256": "61f39f1e1024464d033be63cb01e82cd7c67a3ec6764981c237908f55dcfbb39",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR267_TENSOR_9_CLOSURE_WITNESS",
+  "classification": "STRUCTURAL_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "tensor 9 = d_hat^2 is the CLOSURE WITNESS: a single geometric object whose binomial expansion on the derived (mirror, axis) basis carries the closure axiom 9 = 8 + 1 inside one algebraic identity",
+  "binomial_decomposition": {
+    "d_hat_squared": 9,
+    "mirror_inplane_sq": 4,
+    "cross_coupling_two_directions": 4,
+    "axis_sq": 1,
+    "sum": 9
+  },
+  "closure_axiom_identification": {
+    "h_hat_cubed": 8,
+    "grouped_mirror_plus_cross": 8,
+    "axis_self": 1,
+    "sum": 9,
+    "equals_tensor_9": true
+  },
+  "ledger_ratio_reading": {
+    "ratio_98": "9/8",
+    "R_squared": 144,
+    "L_via_witness": 162,
+    "L_sealed": 162
+  },
+  "higgs_surface_debit_reading": {
+    "D_squared": 9,
+    "R": 12,
+    "ratio": "9/12",
+    "value": "3/4",
+    "value_decimal": 0.75,
+    "cancellation": "d_hat^2/(h_hat^2 * d_hat) = d_hat/h_hat^2 = 3/4"
+  },
+  "tensor_9_role_count": 6,
+  "gates": {
+    "G1_closure_witness_identity": true,
+    "G2_binomial_decomposition": true,
+    "G3_closure_axiom_identification": true,
+    "G4_CR229_ledger_ratio": true,
+    "G5_ledger_ratio_reading": true,
+    "G6_Higgs_surface_debit": true,
+    "G7_tensor9_appearances": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. Tensor 9 = d_hat^2 is the closure witness. Binomial expansion (2+1)^2 = 4 + 4 + 1 carries the closure axiom 9 = 8 + 1 with the +1 = axis self-coupling and the 8 = (mirror^2 + 2*mirror*axis) = h_hat * (in-plane area). CR229 ledger ratio L = R^2 * 9/8 = 162 reads as (witness)/(pixels). CR114 Higgs surface debit D^2/R = d_hat/h_hat^2 = 3/4 reads as (witness)/(closure radius). Six sealed roles enumerated.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 2
+}

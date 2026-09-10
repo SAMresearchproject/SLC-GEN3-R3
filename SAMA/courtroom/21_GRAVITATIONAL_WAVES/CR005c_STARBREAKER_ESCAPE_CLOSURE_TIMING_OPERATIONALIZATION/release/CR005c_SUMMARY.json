@@ -1,0 +1,148 @@
+{
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION",
+  "carrier_matter_history_totals": {
+    "001": 93977,
+    "010": 7308328,
+    "011": 204764,
+    "100": 70071,
+    "101": 5199,
+    "110": 3131940,
+    "111": 583782
+  },
+  "completed_utc": "2026-07-21T01:09:04.109852+00:00",
+  "controls": {
+    "endpoint_swap_max_abs_error": 0.0,
+    "invariant_samples": 1000,
+    "rotation_max_abs_error": 4.440892098500626e-16,
+    "translation_max_abs_error": 1.0880185641326534e-14,
+    "wrong_controls_passed": 8,
+    "wrong_controls_total": 8
+  },
+  "directional_cells": 6,
+  "frozen_door_results": [
+    {
+      "door": "discovery",
+      "geometry": "localized_ledger_cells",
+      "inequality_count": 698,
+      "inequality_fraction": 0.7529665587918015,
+      "median_margin": 0.0408196843198958,
+      "primary_carriers": 927,
+      "q10_margin": -0.04034912812101962,
+      "q90_margin": 0.2818407007653831
+    },
+    {
+      "door": "validation",
+      "geometry": "localized_ledger_cells",
+      "inequality_count": 264,
+      "inequality_fraction": 0.6910994764397905,
+      "median_margin": 0.01812887104234473,
+      "primary_carriers": 382,
+      "q10_margin": -0.07503550921078427,
+      "q90_margin": 0.12089560566533514
+    },
+    {
+      "door": "final",
+      "geometry": "localized_ledger_cells",
+      "inequality_count": 329,
+      "inequality_fraction": 0.7833333333333333,
+      "median_margin": 0.03290831395197391,
+      "primary_carriers": 420,
+      "q10_margin": -0.042918859763294834,
+      "q90_margin": 0.17372074589412914
+    },
+    {
+      "door": "discovery",
+      "geometry": "dispersed_slots",
+      "inequality_count": 137,
+      "inequality_fraction": 0.9383561643835616,
+      "median_margin": 0.06905355364502996,
+      "primary_carriers": 146,
+      "q10_margin": 0.003734478927850171,
+      "q90_margin": 0.5768427371159774
+    },
+    {
+      "door": "validation",
+      "geometry": "dispersed_slots",
+      "inequality_count": 68,
+      "inequality_fraction": 0.8831168831168831,
+      "median_margin": 0.05994241816991175,
+      "primary_carriers": 77,
+      "q10_margin": -0.0005601514196635015,
+      "q90_margin": 0.4761173111761906
+    },
+    {
+      "door": "final",
+      "geometry": "dispersed_slots",
+      "inequality_count": 39,
+      "inequality_fraction": 0.9512195121951219,
+      "median_margin": 0.06325330507136906,
+      "primary_carriers": 41,
+      "q10_margin": 0.010683809271931244,
+      "q90_margin": 0.5139915218765505
+    }
+  ],
+  "gates_passed": 10,
+  "gates_total": 10,
+  "geometry_results": [
+    {
+      "geometry": "localized_ledger_cells",
+      "inequality_count": 1291,
+      "inequality_fraction": 0.7466743782533256,
+      "median_margin": 0.031400737071567875,
+      "primary_carriers": 1729,
+      "q10_margin": -0.04945086945603475,
+      "q90_margin": 0.2132674558213399
+    },
+    {
+      "geometry": "dispersed_slots",
+      "inequality_count": 244,
+      "inequality_fraction": 0.9242424242424242,
+      "median_margin": 0.06621842719471638,
+      "primary_carriers": 264,
+      "q10_margin": 0.003030873930464306,
+      "q90_margin": 0.5509469852996552
+    }
+  ],
+  "operational_surface": {
+    "global_horizon": null,
+    "physical_time": null,
+    "surface": "carrier-matter relation distance equals 0.076",
+    "time_parameter": "seed=0, collapse=1, final=2 with piecewise-linear relative position"
+  },
+  "physical_claim_firewall": {
+    "fitted_parameter_count": 0,
+    "global_horizon_installed": false,
+    "gravitational_strain_emitted": false,
+    "physical_time_seconds_emitted": false,
+    "sam_registry_mutated": false,
+    "signal_speed_emitted": false
+  },
+  "preflight": {
+    "preflight_sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869",
+    "task": "Build and execute CR005c Starbreaker escape-before-closure timing operationalization"
+  },
+  "primary_result": {
+    "inequality_count": 1535,
+    "inequality_fraction": 0.77019568489714,
+    "median_margin": 0.035812527449339715,
+    "primary_carriers": 1993,
+    "q10_margin": -0.041471520675977924,
+    "q90_margin": 0.25432881978789973
+  },
+  "primary_verdict": "PASS_OPERATIONAL_ESCAPE_BEFORE_CLOSURE_STABLE_ACROSS_FROZEN_DOORS__PHYSICAL_TIME_OPEN",
+  "record_class": "CONSTRUCTIVE_TIMING_OPERATIONALIZATION",
+  "roster": {
+    "atoms": 482112,
+    "crossing_failures": 0,
+    "crossings_solved": 10515538,
+    "scenarios": 96,
+    "unique_timing_carrier_occurrences": 52437
+  },
+  "same_run_repair": false,
+  "source_count": 14,
+  "source_hashes_matched": 14,
+  "started_utc": "2026-07-21T01:06:18.926989+00:00",
+  "status": "PASS",
+  "strong_cells": 6
+}

@@ -1,0 +1,29 @@
+{
+  "test_id": "CR018_A0_CHI_BARYON_INVENTORY_DERIVATION",
+  "verdict": "CR018_PASS_A0_CHI_BARYON_INVENTORY_DERIVATION",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "DERIVED_BARYON_INVENTORY_CANDIDATE",
+  "A0": 0.026525823848649224,
+  "mu_H": 2.6666666666666665,
+  "chi": 0.07073553026306459,
+  "Omega_b": 0.049299011266100756,
+  "pass_conditions": {
+    "free_parameters_zero": true,
+    "G219_original_passed_but_reframed": true,
+    "G219B_corrected_passed": true,
+    "G219C_monte_carlo_passed": true,
+    "G305_predictions_passed": true,
+    "G305_wrong_controls_passed": true,
+    "A0_identity": true,
+    "mu_H_identity": true,
+    "chi_identity": true,
+    "Omega_b_identity": true
+  },
+  "source_verdicts": {
+    "G219": "G219_STRUCTURAL_DERIVATION_CHI_AND_MATTER_BUDGET_CLOSED",
+    "G219B": "G219B_CHI_HONESTLY_DERIVED_AT_D3",
+    "G305": "G305_CHI_DIRECTION_QUOTIENT_MEASURE_DERIVED_UNDER_SYMMETRY_AXIOMS"
+  }
+}

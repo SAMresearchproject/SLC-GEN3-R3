@@ -1,0 +1,15 @@
+source_cr,target_node,source_role
+CR266,D3_DIMENSION,D derived from h plus axis
+CR117,S8_BINARY_SURFACE,typed S8 surface
+CR267,X1_AXIS_SELF_CHANNEL,axis self-coupling
+CR267,W9_CLOSURE_WITNESS,closure witness
+CR269,B_CONTACT_OPERATOR,contact operator
+CR282_APPEAL,W9_CLOSURE_WITNESS,B/contact through X1 bridge
+CR262,THETA18_PRIMARY_CARRIER,carrier role
+CR262,V27_VOLUME_CONTAINER,container role
+CR233,F81_COMPLETED_FACE,ledger-side face capacity
+CR283,P80_PARTICLE_FACE_CONTENT,conditional structural-only particle-face content
+CR229,N144_NATIVE_CLOSURE_BUDGET,capacity/ledger budget
+CR229,M126_RETAINED_MATTER_CAPACITY,retained matter capacity
+CR229,L162_FULL_LEDGER,closed ledger
+CR256,A_OPERATOR,non-row operator

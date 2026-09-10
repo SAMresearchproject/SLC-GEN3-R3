@@ -1,0 +1,13 @@
+{
+  "conditional_edges": [
+    {
+      "edge_id": "P80_FACE_CONTENT",
+      "expression": "RESERVE_CLOSURE_ADDRESS(F81_COMPLETED_FACE, X1_AXIS_SELF_CHANNEL) -> P80_PARTICLE_FACE_CONTENT",
+      "inherited_status": "STRUCTURAL_ONLY",
+      "notes": "Cardinality and typed ledger weld are active; row-to-face geometry remains open.",
+      "upstream_source": "CR283",
+      "upstream_verdict": "PASS_CARDINALITY_AND_TYPED_LEDGER_WELD_ROW_GEOMETRY_OPEN"
+    }
+  ],
+  "record_id": "CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER"
+}

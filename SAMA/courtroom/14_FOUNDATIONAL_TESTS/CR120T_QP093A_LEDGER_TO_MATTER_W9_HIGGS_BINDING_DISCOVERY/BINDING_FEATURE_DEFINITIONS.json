@@ -1,0 +1,27 @@
+{
+  "algebraic_dependence": "F2 == F3 wherever qA = tensor + retained by column construction; count once.",
+  "fee_candidates": {
+    "F1": "qA_source_support - M_native",
+    "F2": "qA_source_support - retained_write_support",
+    "F3": "tensor_carrier_support",
+    "F4": "surface debit/credit only",
+    "F5": "no direct row fee; geometry and frozen operators only"
+  },
+  "forbidden_fitted_coefficients": [
+    126,
+    144,
+    162,
+    12600,
+    16200
+  ],
+  "geometry_features": {
+    "linear_excess_traffic": "abs(N-Z)",
+    "surface_normalized_excess_traffic": "abs(N-Z)/A^(1/3)"
+  },
+  "parameter_policy": "A new traffic coefficient must replace one frozen tiny-family operator coefficient; free-parameter delta = 0.",
+  "typed_zero_rules": {
+    "QP093A_0066_Theta_local_fee": 0,
+    "QP093A_0299_repeated_constituent_count": 0,
+    "neutral_W9_witness_local_count": 0
+  }
+}

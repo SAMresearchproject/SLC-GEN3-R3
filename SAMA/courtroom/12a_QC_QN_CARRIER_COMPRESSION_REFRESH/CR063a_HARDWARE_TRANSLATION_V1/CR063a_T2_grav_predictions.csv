@@ -1,0 +1,9 @@
+platform_class,qubit_frequency,omega_rad_per_s,T2_grav_seconds,T2_grav_human_readable
+SC transmon (5 GHz),5 GHz,3.1416e+10,5.176842e-08,51.8 ns
+SC transmon (10 GHz),10 GHz,6.2832e+10,2.588421e-08,25.9 ns
+Microwave hyperfine (10 GHz),10 GHz,6.2832e+10,2.588421e-08,25.9 ns
+NV center ZFS (2.87 GHz),2.87 GHz,1.8033e+10,9.018889e-08,90.2 ns
+Ion hyperfine (10 MHz),10 MHz,6.2832e+07,2.588421e-05,25.9 us
+Ion hyperfine (12.6 GHz Cs),12.6 GHz,7.9168e+10,2.054302e-08,20.5 ns
+Optical near-IR (200 THz),200 THz,1.2566e+15,1.294211e-12,1.29 ps
+Visible (500 THz),500 THz,3.1416e+15,5.176842e-13,0.518 ps

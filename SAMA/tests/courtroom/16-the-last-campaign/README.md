@@ -1,0 +1,398 @@
+# Courtroom test package: 16_THE_LAST_CAMPAIGN
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/16_THE_LAST_CAMPAIGN)
+
+This index includes every tracked file below `16_THE_LAST_CAMPAIGN` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**164 files · 916,581 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Code
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC01_primitive_stack_lock_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock_runner.py) | 33,273 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock_runner.py) |
+| [LC02_higgs_closed_form_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_runner.py) | 28,893 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_runner.py) |
+| [LC03_qa_ledger_compression_gravity_a_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_replay_runner.py) | 33,875 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_replay_runner.py) |
+| [LC04_particle_mass_chain_table_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_particle_mass_chain_table_replay_runner.py) | 41,926 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_particle_mass_chain_table_replay_runner.py) |
+| [LC05_periodic_isotope_vault_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_periodic_isotope_vault_replay_runner.py) | 40,392 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_periodic_isotope_vault_replay_runner.py) |
+| [LC06_baryon_matter_inventory_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_baryon_matter_inventory_replay_runner.py) | 44,724 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_baryon_matter_inventory_replay_runner.py) |
+| [LC07_sn_bao_distance_road_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_sn_bao_distance_road_replay_runner.py) | 57,688 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_sn_bao_distance_road_replay_runner.py) |
+| [LC08_halo_pbh_inventory_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_halo_pbh_inventory_replay_runner.py) | 63,482 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_halo_pbh_inventory_replay_runner.py) |
+| [LC09_quantum_pair_write_born_rule_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_quantum_pair_write_born_rule_replay_runner.py) | 51,359 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_quantum_pair_write_born_rule_replay_runner.py) |
+| [LC10_quantum_information_thresholds_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_quantum_information_thresholds_replay_runner.py) | 55,056 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_quantum_information_thresholds_replay_runner.py) |
+| [LC11_black_hole_horizon_thermodynamic_replay_runner.py](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_black_hole_horizon_thermodynamic_replay_runner.py) | 44,763 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_black_hole_horizon_thermodynamic_replay_runner.py) |
+
+## Wrong controls and comparison rows
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC01_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_wrong_controls.csv) | 5,372 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_wrong_controls.csv) |
+| [LC01_wrong_controls.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_wrong_controls.csv.sha256.txt) | 111 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_wrong_controls.csv.sha256.txt) |
+| [LC02_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_wrong_controls.csv) | 2,584 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_wrong_controls.csv) |
+| [LC02_wrong_controls.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_wrong_controls.csv.sha256.txt) | 111 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_wrong_controls.csv.sha256.txt) |
+| [LC03_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_wrong_controls.csv) | 3,596 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_wrong_controls.csv) |
+| [LC03_wrong_controls.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_wrong_controls.csv.sha256.txt) | 111 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_wrong_controls.csv.sha256.txt) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_wrong_controls.csv) | 2,270 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_wrong_controls.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv) | 2,248 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_wrong_controls.csv) | 2,226 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_wrong_controls.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_candidate_rows.csv) | 552 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_candidate_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_cmb_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_cmb_candidate_rows.csv) | 752 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_cmb_candidate_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_independent_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_independent_candidate_rows.csv) | 337 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_independent_candidate_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_candidate_rows.csv) | 418 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_candidate_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_wrong_controls.csv) | 2,178 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_wrong_controls.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_seed_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_seed_candidate_rows.csv) | 1,046 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_seed_candidate_rows.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_wrong_controls.csv) | 2,546 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_wrong_controls.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_wrong_controls.csv) | 1,939 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_wrong_controls.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_wrong_controls.csv) | 2,125 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_wrong_controls.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_wrong_controls.csv) | 1,327 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_wrong_controls.csv) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC01_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_result.md) | 1,689 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_result.md) |
+| [LC01_result.md.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_result.md.sha256.txt) | 102 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_result.md.sha256.txt) |
+| [LC01_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_summary.json) | 898 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_summary.json) |
+| [LC01_summary.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_summary.json.sha256.txt) | 105 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_summary.json.sha256.txt) |
+| [LC02_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_result.md) | 1,420 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_result.md) |
+| [LC02_result.md.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_result.md.sha256.txt) | 102 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_result.md.sha256.txt) |
+| [LC02_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_summary.json) | 1,203 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_summary.json) |
+| [LC02_summary.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_summary.json.sha256.txt) | 105 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_summary.json.sha256.txt) |
+| [LC03_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_result.md) | 1,718 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_result.md) |
+| [LC03_result.md.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_result.md.sha256.txt) | 102 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_result.md.sha256.txt) |
+| [LC03_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_summary.json) | 1,769 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_summary.json) |
+| [LC03_summary.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_summary.json.sha256.txt) | 105 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_summary.json.sha256.txt) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_result.md) | 1,817 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_result.md) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_summary.json) | 2,724 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_summary.json) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md) | 2,197 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json) | 3,771 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_result.md) | 2,710 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_result.md) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_summary.json) | 4,887 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_summary.json) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_result.md) | 2,242 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_result.md) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_summary.json) | 4,991 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_summary.json) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_result.md) | 2,792 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_result.md) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_summary.json) | 5,063 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_summary.json) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_result.md) | 2,964 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_result.md) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_summary.json) | 4,770 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_summary.json) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_result.md) | 3,157 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_result.md) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_summary.json) | 4,736 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_summary.json) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md) | 3,660 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json) | 5,192 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC01_hashes.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_hashes.txt) | 1,013 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_hashes.txt) |
+| [LC01_hashes.txt.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_hashes.txt.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_hashes.txt.sha256.txt) |
+| [LC02_hashes.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_hashes.txt) | 1,029 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_hashes.txt) |
+| [LC02_hashes.txt.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_hashes.txt.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_hashes.txt.sha256.txt) |
+| [LC03_hashes.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_hashes.txt) | 1,153 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_hashes.txt) |
+| [LC03_hashes.txt.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_hashes.txt.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_hashes.txt.sha256.txt) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/HASHES.txt) | 1,324 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/HASHES.txt) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_sources_hashes.csv) | 4,593 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_sources_hashes.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt) | 1,289 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv) | 5,723 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/HASHES.txt) | 1,456 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/HASHES.txt) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_sources_hashes.csv) | 6,045 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_sources_hashes.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/HASHES.txt) | 2,477 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/HASHES.txt) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_formula_manifest.csv) | 1,077 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_formula_manifest.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sources_hashes.csv) | 6,176 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sources_hashes.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/HASHES.txt) | 1,538 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/HASHES.txt) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_formula_manifest.csv) | 1,337 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_formula_manifest.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_sources_hashes.csv) | 10,886 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_sources_hashes.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/HASHES.txt) | 1,982 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/HASHES.txt) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_formula_manifest.csv) | 1,487 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_formula_manifest.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_sources_hashes.csv) | 8,531 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_sources_hashes.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/HASHES.txt) | 1,987 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/HASHES.txt) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_formula_manifest.csv) | 785 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_formula_manifest.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_sources_hashes.csv) | 11,523 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_sources_hashes.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_threshold_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_threshold_manifest.csv) | 634 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_threshold_manifest.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/HASHES.txt) | 1,697 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/HASHES.txt) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv) | 1,185 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_sources_hashes.csv) | 9,341 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_sources_hashes.csv) |
+
+## Data and supporting files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC01_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_checks.csv) | 1,756 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_checks.csv) |
+| [LC01_checks.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_checks.csv.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_checks.csv.sha256.txt) |
+| [LC01_downstream_lane_register.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_downstream_lane_register.csv) | 1,848 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_downstream_lane_register.csv) |
+| [LC01_downstream_lane_register.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_downstream_lane_register.csv.sha256.txt) | 121 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_downstream_lane_register.csv.sha256.txt) |
+| [LC01_primitive_stack_declared.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_declared.csv) | 899 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_declared.csv) |
+| [LC01_primitive_stack_declared.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_declared.csv.sha256.txt) | 121 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_declared.csv.sha256.txt) |
+| [LC01_primitive_stack_lock.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock.json) | 21,010 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock.json) |
+| [LC01_primitive_stack_lock.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock.json.sha256.txt) | 118 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock.json.sha256.txt) |
+| [LC01_primitive_stack_lock_runner.py.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock_runner.py.sha256.txt) | 123 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_primitive_stack_lock_runner.py.sha256.txt) |
+| [LC01_source_chain.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_source_chain.csv) | 1,970 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_source_chain.csv) |
+| [LC01_source_chain.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_source_chain.csv.sha256.txt) | 109 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC01_source_chain.csv.sha256.txt) |
+| [LC02_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_checks.csv) | 1,467 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_checks.csv) |
+| [LC02_checks.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_checks.csv.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_checks.csv.sha256.txt) |
+| [LC02_higgs_closed_form_replay_lock.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_lock.json) | 16,318 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_lock.json) |
+| [LC02_higgs_closed_form_replay_lock.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_lock.json.sha256.txt) | 127 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_lock.json.sha256.txt) |
+| [LC02_higgs_closed_form_replay_runner.py.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_runner.py.sha256.txt) | 127 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_closed_form_replay_runner.py.sha256.txt) |
+| [LC02_higgs_replay_chain.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_replay_chain.csv) | 1,127 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_replay_chain.csv) |
+| [LC02_higgs_replay_chain.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_replay_chain.csv.sha256.txt) | 115 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_higgs_replay_chain.csv.sha256.txt) |
+| [LC02_source_chain.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_source_chain.csv) | 3,167 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_source_chain.csv) |
+| [LC02_source_chain.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_source_chain.csv.sha256.txt) | 109 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_source_chain.csv.sha256.txt) |
+| [LC02_target_visibility_and_claim_grade.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_target_visibility_and_claim_grade.csv) | 611 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_target_visibility_and_claim_grade.csv) |
+| [LC02_target_visibility_and_claim_grade.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_target_visibility_and_claim_grade.csv.sha256.txt) | 130 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC02_target_visibility_and_claim_grade.csv.sha256.txt) |
+| [LC03_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_checks.csv) | 3,162 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_checks.csv) |
+| [LC03_checks.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_checks.csv.sha256.txt) | 103 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_checks.csv.sha256.txt) |
+| [LC03_claim_boundary.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_claim_boundary.csv) | 787 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_claim_boundary.csv) |
+| [LC03_claim_boundary.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_claim_boundary.csv.sha256.txt) | 111 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_claim_boundary.csv.sha256.txt) |
+| [LC03_mechanism_replay_chain.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_mechanism_replay_chain.csv) | 1,002 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_mechanism_replay_chain.csv) |
+| [LC03_mechanism_replay_chain.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_mechanism_replay_chain.csv.sha256.txt) | 119 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_mechanism_replay_chain.csv.sha256.txt) |
+| [LC03_numeric_replay_values.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_numeric_replay_values.csv) | 968 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_numeric_replay_values.csv) |
+| [LC03_numeric_replay_values.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_numeric_replay_values.csv.sha256.txt) | 118 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_numeric_replay_values.csv.sha256.txt) |
+| [LC03_qa_ledger_compression_gravity_a_lock.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_lock.json) | 27,092 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_lock.json) |
+| [LC03_qa_ledger_compression_gravity_a_lock.json.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_lock.json.sha256.txt) | 134 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_lock.json.sha256.txt) |
+| [LC03_qa_ledger_compression_gravity_a_replay_runner.py.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_replay_runner.py.sha256.txt) | 141 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_qa_ledger_compression_gravity_a_replay_runner.py.sha256.txt) |
+| [LC03_source_chain.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_source_chain.csv) | 5,215 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_source_chain.csv) |
+| [LC03_source_chain.csv.sha256.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_source_chain.csv.sha256.txt) | 109 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC03_source_chain.csv.sha256.txt) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_checks.csv) | 5,652 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_checks.csv) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_claim_boundaries.csv) | 1,053 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_claim_boundaries.csv) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_generator_suite_register.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_generator_suite_register.csv) | 1,435 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_generator_suite_register.csv) |
+| [LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv) | 12,690 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv) | 6,512 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv) | 1,067 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv) | 1,489 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv) |
+| [LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv) | 2,082 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_baryon_cosmology_replay.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_baryon_cosmology_replay.csv) | 817 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_baryon_cosmology_replay.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_checks.csv) | 7,521 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_checks.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_claim_boundaries.csv) | 1,180 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_claim_boundaries.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_matter_inventory_invariants.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_matter_inventory_invariants.csv) | 2,098 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_matter_inventory_invariants.csv) |
+| [LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_replay_layers.csv) | 2,412 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_replay_layers.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_primary_recomputed_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_primary_recomputed_rows.csv) | 2,351 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_bao_primary_recomputed_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_checks.csv) | 12,447 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_checks.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_claim_boundaries.csv) | 1,029 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_claim_boundaries.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_distance_replay_metrics.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_distance_replay_metrics.csv) | 1,020 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_distance_replay_metrics.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_replay_layers.csv) | 3,695 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_replay_layers.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_identity_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_identity_rows.csv) | 316 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_identity_rows.csv) |
+| [LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_overlap_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_overlap_rows.csv) | 496 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY/LC07_sn_bao_overlap_rows.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_checks.csv) | 16,909 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_checks.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_claim_boundaries.csv) | 1,099 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_claim_boundaries.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_halo_replay_metrics.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_halo_replay_metrics.csv) | 1,729 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_halo_replay_metrics.csv) |
+| [LC08_HALO_PBH_INVENTORY_REPLAY/LC08_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_replay_layers.csv) | 3,631 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_replay_layers.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_branch11_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_branch11_layers.csv) | 1,015 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_branch11_layers.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_checks.csv) | 8,980 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_checks.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_claim_boundaries.csv) | 973 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_claim_boundaries.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp014_probability_recompute.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp014_probability_recompute.csv) | 859 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp014_probability_recompute.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp015_pair_probability_recompute.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp015_pair_probability_recompute.csv) | 3,128 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp015_pair_probability_recompute.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_quantum_replay_metrics.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_quantum_replay_metrics.csv) | 691 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_quantum_replay_metrics.csv) |
+| [LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_replay_layers.csv) | 2,097 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_replay_layers.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12_layers.csv) | 960 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12_layers.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12a_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12a_layers.csv) | 2,582 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_branch12a_layers.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_capacity_recompute.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_capacity_recompute.csv) | 1,631 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_capacity_recompute.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_checks.csv) | 13,172 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_checks.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_claim_boundaries.csv) | 1,015 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_claim_boundaries.csv) |
+| [LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_information_recompute.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_information_recompute.csv) | 387 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY/LC10_information_recompute.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_branch05_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_branch05_layers.csv) | 952 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_branch05_layers.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_checks.csv) | 10,841 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_checks.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_claim_boundaries.csv) | 1,067 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_claim_boundaries.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_horizon_ladder_replay.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_horizon_ladder_replay.csv) | 238 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_horizon_ladder_replay.csv) |
+| [LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_thermodynamic_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_thermodynamic_layers.csv) | 1,945 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_thermodynamic_layers.csv) |
+
+## Other package files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC00_THE_LAST_CAMPAIGN_CHARTER.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC00_THE_LAST_CAMPAIGN_CHARTER.md) | 1,830 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC00_THE_LAST_CAMPAIGN_CHARTER.md) |
+
+## Related Courtroom tests
+
+- **depends on:** [02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT](../../../courtroom/02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT)
+- **depends on:** [A0-a_h-D/CR001_foundation_selector_recertification](../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification)
+- **depends on:** [R12_duodecimal_radix/CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION](../../../courtroom/R12_duodecimal_radix/CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION)
+- **retest of:** [02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT](../../../courtroom/02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT)
+- **retest of:** [12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts)
+- **retest of:** [A0-a_h-D/CR001_foundation_selector_recertification](../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification)
+- **retest of:** [R12_duodecimal_radix/CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION](../../../courtroom/R12_duodecimal_radix/CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION)
+- **retest of:** [upstream_artifacts/qp092](../../../courtroom/upstream_artifacts/qp092)
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE](../../../courtroom/00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE)
+- [00_governance/CR114_COSMIC_BARYON_BRIDGE_REVEAL](../../../courtroom/00_governance/CR114_COSMIC_BARYON_BRIDGE_REVEAL)
+- [00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL](../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL)
+- [00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION](../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION)
+- [00_governance/CR118_DISTANCE_ROAD_SN_BAO_HEADLINE_EXPORT](../../../courtroom/00_governance/CR118_DISTANCE_ROAD_SN_BAO_HEADLINE_EXPORT)
+- [00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE](../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE)
+- [00_governance/CR135_HOSTILE_AUDIT_2026_06_17](../../../courtroom/00_governance/CR135_HOSTILE_AUDIT_2026_06_17)
+- [00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR](../../../courtroom/00_governance/CR141_ROW_GENERATOR_SELF_HASH_REPAIR)
+- [00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP](../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP)
+- [02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION](../../../courtroom/02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION)
+- [04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL](../../../courtroom/04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR012_NATIVE_TYPED_RULER_ROAD_BRIDGE_DERIVATION](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR012_NATIVE_TYPED_RULER_ROAD_BRIDGE_DERIVATION)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR014_BAO_RULER_PROJECTION_LEDGER_SHRINKAGE](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR014_BAO_RULER_PROJECTION_LEDGER_SHRINKAGE)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR015_SN_BAO_INDEPENDENT_LEDGER_LOCK](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR015_SN_BAO_INDEPENDENT_LEDGER_LOCK)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR016_CMB_ACOUSTIC_RULER_PHOTON_ROAD_RATIO](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR016_CMB_ACOUSTIC_RULER_PHOTON_ROAD_RATIO)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR017_DISTANCE_ROAD_TYPED_BRIDGE_CLOSURE](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR017_DISTANCE_ROAD_TYPED_BRIDGE_CLOSURE)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018_SAM_ZERO_PARAMETER_SN_BAO_DISTANCE_TEST](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018_SAM_ZERO_PARAMETER_SN_BAO_DISTANCE_TEST)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018_candidate_workspace](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018_candidate_workspace)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_SAM_ZERO_PARAMETER_CMB_COMPRESSED_GEOMETRY_TEST](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_SAM_ZERO_PARAMETER_CMB_COMPRESSED_GEOMETRY_TEST)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_candidate_workspace](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_candidate_workspace)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR020_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR020_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR021_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR021_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR022_PRECISION_CMB_EXTENSION_FROM_sam_precision_cmb](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR022_PRECISION_CMB_EXTENSION_FROM_sam_precision_cmb)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR023_BARYON_COSMOLOGY_BRANCH_VERDICT](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR023_BARYON_COSMOLOGY_BRANCH_VERDICT)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/_source_artifacts](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/_source_artifacts)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR023_BB_PBH_TRAPPED_A_INVENTORY](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR023_BB_PBH_TRAPPED_A_INVENTORY)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR026_SEED_FIRST_CLUSTERING_SELECTOR](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR026_SEED_FIRST_CLUSTERING_SELECTOR)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR028_QP042_BARYON_SCAFFOLD_SUPPORT](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR028_QP042_BARYON_SCAFFOLD_SUPPORT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR029_NATIVE_RADIAL_LAW_DEBT_LEDGER](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR029_NATIVE_RADIAL_LAW_DEBT_LEDGER)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR030_BRANCH_VERDICT_ZIPPER](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR030_BRANCH_VERDICT_ZIPPER)
+- [09_PARTICLE_MASS_CHAIN/CR059_PARTICLE_ENGINE_ALLOWED_INPUTS](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR059_PARTICLE_ENGINE_ALLOWED_INPUTS)
+- [09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER)
+- [09_PARTICLE_MASS_CHAIN/CR064a_APPEAL_QP075_FULL_LEDGER](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR064a_APPEAL_QP075_FULL_LEDGER)
+- [09a_PARTICLE_MASS_CHAIN/CR060a_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR060a_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS)
+- [09a_PARTICLE_MASS_CHAIN/CR061a_MASS_CHAIN_REPRODUCTION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR061a_MASS_CHAIN_REPRODUCTION)
+- [09a_PARTICLE_MASS_CHAIN/CR062a_ROW_BY_ROW_PARTICLE_LEDGER](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR062a_ROW_BY_ROW_PARTICLE_LEDGER)
+- [09a_PARTICLE_MASS_CHAIN/CR063a_WRONG_CONTROLS_AND_NEAR_NEIGHBORS](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR063a_WRONG_CONTROLS_AND_NEAR_NEIGHBORS)
+- [09a_PARTICLE_MASS_CHAIN/CR064a_PARTICLE_MASS_CHAIN_BRANCH_VERDICT](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR064a_PARTICLE_MASS_CHAIN_BRANCH_VERDICT)
+- [09a_PARTICLE_MASS_CHAIN/CR065a_HIGGS_ZZ4L_PREDICTION_INTAKE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR065a_HIGGS_ZZ4L_PREDICTION_INTAKE)
+- [09a_PARTICLE_MASS_CHAIN/CR066a_HIGGS_ZZ4L_CERN_REVEAL_MAP](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR066a_HIGGS_ZZ4L_CERN_REVEAL_MAP)
+- [09a_PARTICLE_MASS_CHAIN/CR067a_WZH_BOUNCE_SUBSLOT_INTAKE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR067a_WZH_BOUNCE_SUBSLOT_INTAKE)
+- [09a_PARTICLE_MASS_CHAIN/CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL)
+- [09a_PARTICLE_MASS_CHAIN/CR069a_09A_PHASE_2_BRANCH_VERDICT_ZIPPER](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR069a_09A_PHASE_2_BRANCH_VERDICT_ZIPPER)
+- [09a_PARTICLE_MASS_CHAIN/CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE)
+- [09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL)
+- [09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR065_VAULT_PROTOCOL_AND_HASH_CHAIN](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR065_VAULT_PROTOCOL_AND_HASH_CHAIN)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR066_ALLOWED_INPUTS_AND_FORBIDDEN_TARGETS](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR066_ALLOWED_INPUTS_AND_FORBIDDEN_TARGETS)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR067_PERIODIC_STRUCTURE_DERIVATION](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR067_PERIODIC_STRUCTURE_DERIVATION)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR068_ISOTOPE_MANIFEST_REPRODUCTION](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR068_ISOTOPE_MANIFEST_REPRODUCTION)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR069_OBSERVED_ROSTER_COMPARISON](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR069_OBSERVED_ROSTER_COMPARISON)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR070_NULLS_RARITY_AND_WRONG_CONTROLS](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR070_NULLS_RARITY_AND_WRONG_CONTROLS)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR071_SUPERHEAVY_MISS_BAND_TARGET_MAP](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR071_SUPERHEAVY_MISS_BAND_TARGET_MAP)
+- [10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR072_ISOTOPE_PERIODIC_BRANCH_VERDICT](../../../courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR072_ISOTOPE_PERIODIC_BRANCH_VERDICT)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR074_DOUBLE_SLIT_BORN_ROUTE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR074_DOUBLE_SLIT_BORN_ROUTE)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR076_PHASE_INTEGRAL_A_EXPOSURE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR076_PHASE_INTEGRAL_A_EXPOSURE)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR121_SAM_GRAVITY_MECHANISM_INTAKE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR121_SAM_GRAVITY_MECHANISM_INTAKE)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR050_QP_CARRIER_SUPPORT](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR050_QP_CARRIER_SUPPORT)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR051_QC_CARRIER_ENVELOPE_GATE_READOUT](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR051_QC_CARRIER_ENVELOPE_GATE_READOUT)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR052_QC_MATERIAL_ISOTOPE_SUPPORT](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR052_QC_MATERIAL_ISOTOPE_SUPPORT)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR053_QN_NETWORK_GRAMMAR_LINK_RELAY_ROUTING](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR053_QN_NETWORK_GRAMMAR_LINK_RELAY_ROUTING)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR054_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR054_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR055_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR055_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR056_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR056_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR058_QC_QN_BRANCH_VERDICT](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR058_QC_QN_BRANCH_VERDICT)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/CR059_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/CR059_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR061a_IDEAL_QUBIT_SELECTION_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR061a_IDEAL_QUBIT_SELECTION_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR065a_PAUL_REVERE_IMPLEMENTATION_SPEC_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR065a_PAUL_REVERE_IMPLEMENTATION_SPEC_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066a_BORN_EXTENSION_AND_LETTER_INCREMENT_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066a_BORN_EXTENSION_AND_LETTER_INCREMENT_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066b_SLOT_VS_CONTACT_LAYERING_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066b_SLOT_VS_CONTACT_LAYERING_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067a_MULTI_LETTER_CAPACITY_SCALING_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067a_MULTI_LETTER_CAPACITY_SCALING_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067a_PAUL_REVERE_NV_SIMULATOR_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067a_PAUL_REVERE_NV_SIMULATOR_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067b_PAUL_REVERE_NV_SIMULATOR_V1_CRYO_DD](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR067b_PAUL_REVERE_NV_SIMULATOR_V1_CRYO_DD)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR068a_PAUL_REVERE_WARNING_ONLY_V1](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR068a_PAUL_REVERE_WARNING_ONLY_V1)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR069a_STAGE2_EMPIRICAL_T2_CONTACT_TABLE](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR069a_STAGE2_EMPIRICAL_T2_CONTACT_TABLE)
+- [13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH)
+- [13_CERN_INDEPENDENT_TESTS/CR098b_FORWARD_BLIND_REGISTRY_PHASE_3_REFRESH](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098b_FORWARD_BLIND_REGISTRY_PHASE_3_REFRESH)
+- [13_CERN_INDEPENDENT_TESTS/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON)
+- [13_CERN_INDEPENDENT_TESTS/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE)
+- [13_CERN_INDEPENDENT_TESTS/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR132_1BODY_CARRIER_LATTICE_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR132_1BODY_CARRIER_LATTICE_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1)
+- [13_CERN_INDEPENDENT_TESTS/CR134_SOURCE_SUPPORT_PACKET_LAW_V1](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR134_SOURCE_SUPPORT_PACKET_LAW_V1)
+- [14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR110_THREE_MODE_EARTH_GALAXY_PBH_CLOSURE_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR110_THREE_MODE_EARTH_GALAXY_PBH_CLOSURE_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR111_COSMIC_BARYON_OMEGA_B_CLOSURE_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR111_COSMIC_BARYON_OMEGA_B_CLOSURE_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER](../../../courtroom/14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER)
+- [14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE)
+- [14_FOUNDATIONAL_TESTS/_scratch/QP093A_0299_FIXED_SINGLETON_A_MASS_RESPONSE](../../../courtroom/14_FOUNDATIONAL_TESTS/_scratch/QP093A_0299_FIXED_SINGLETON_A_MASS_RESPONSE)
+- [15_SCALE_BRIDGE_SIMULATOR/CR201_SOURCE_TO_FIELD_SIMULATOR_BRIDGE](../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR201_SOURCE_TO_FIELD_SIMULATOR_BRIDGE)
+- [15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION](../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION)
+- [16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC10_QUANTUM_INFORMATION_THRESHOLDS_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY)
+- [17_DISCOVERY_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE](../../../courtroom/17_DISCOVERY_INTAKE/CR210_HH001_FANO_PLATES_126_INTAKE)
+- [18_SAM_NATIVE_QC/CR003_QGC_PHASE2_JOINT_FIGURE_CORRELATION](../../../courtroom/18_SAM_NATIVE_QC/CR003_QGC_PHASE2_JOINT_FIGURE_CORRELATION)
+- [18_SAM_NATIVE_QC/CR009_CONNECTION_FEE_K1_REVEAL](../../../courtroom/18_SAM_NATIVE_QC/CR009_CONNECTION_FEE_K1_REVEAL)
+- [18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION](../../../courtroom/18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION)
+- [18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM)
+- [18_SAM_NATIVE_QC/CR012_NESTED_HOME_DISTANCE_AS_INFORMATION_FOUNDATION](../../../courtroom/18_SAM_NATIVE_QC/CR012_NESTED_HOME_DISTANCE_AS_INFORMATION_FOUNDATION)
+- [18_SAM_NATIVE_QC/CR013_CLEANROOM_DREF_REDERIVATION](../../../courtroom/18_SAM_NATIVE_QC/CR013_CLEANROOM_DREF_REDERIVATION)
+- [19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY](../../../courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY)
+- [20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER](../../../courtroom/20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER)
+- [21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS](../../../courtroom/21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS)
+- [Workbench-misc](../../../courtroom/Workbench-misc)
+- [archive/2026-06-17_CR135_audit_regrades/CR137_CR063a_regrade/CR063a_HARDWARE_TRANSLATION_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR137_CR063a_regrade/CR063a_HARDWARE_TRANSLATION_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR138_CR064a_regrade/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR138_CR064a_regrade/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR139_CR122_regrade/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR139_CR122_regrade/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE)
+- [archive/2026-06-17_CR135_audit_regrades/CR140_higgs_claim_reword/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR140_higgs_claim_reword/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR132_1BODY_CARRIER_LATTICE_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR132_1BODY_CARRIER_LATTICE_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR134_SOURCE_SUPPORT_PACKET_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR134_SOURCE_SUPPORT_PACKET_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR132_1BODY_CARRIER_LATTICE_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR132_1BODY_CARRIER_LATTICE_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1)
+- [archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR134_SOURCE_SUPPORT_PACKET_LAW_V1](../../../courtroom/archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR134_SOURCE_SUPPORT_PACKET_LAW_V1)
+- [upstream_artifacts/qp091](../../../courtroom/upstream_artifacts/qp091)
+- [upstream_artifacts/qp092](../../../courtroom/upstream_artifacts/qp092)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/16_THE_LAST_CAMPAIGN) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

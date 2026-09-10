@@ -1,0 +1,24 @@
+{
+  "row_count": 3,
+  "tolerance_pct": 5.0,
+  "rows": [
+    {
+      "symbol": "Xi_bc^+ / Omega_bcc (1b + nc, Sigma-like)",
+      "residual": 4.1534,
+      "verdict": "APPEAL_BOUNDARY_LATTICE_WITHIN_BAND",
+      "reference_label": "lattice Xi_bc^+ / Omega_bcc"
+    },
+    {
+      "symbol": "Xi_bc^0 / Omega_bcs (1b + nc, Lambda-like)",
+      "residual": 3.9205,
+      "verdict": "APPEAL_BOUNDARY_LATTICE_WITHIN_BAND",
+      "reference_label": "lattice Xi_bc^0 / Omega_bcs"
+    },
+    {
+      "symbol": "Omega_bbc (2b + 1c, Lambda-like)",
+      "residual": 1.7715,
+      "verdict": "APPEAL_BOUNDARY_LATTICE_WITHIN_BAND",
+      "reference_label": "lattice Omega_bbc"
+    }
+  ]
+}

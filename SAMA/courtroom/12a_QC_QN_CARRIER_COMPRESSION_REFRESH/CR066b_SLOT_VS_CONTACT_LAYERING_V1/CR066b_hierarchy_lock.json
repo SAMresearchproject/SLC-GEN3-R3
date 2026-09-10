@@ -1,0 +1,81 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "cr_id": "CR066b",
+  "forward_blind_test": {
+    "claim_amplitude": "The amplitude ratio at the loaded q = 0 state is 2 : 3 : 2 exactly.",
+    "claim_contact_level": "Resolved to pair contacts, the surcharge is (1/32, 1/32, 0) on the (a-b), (b-c), and (a-c) legs respectively.  The outer-cross leg has ZERO direct debit.",
+    "claim_slot_level": "On any Paul Revere implementation at q = 0, the surcharge over the baseline (1/4, 1/2, 1/4) is concentrated ENTIRELY on the bridge (middle) slot: Delta_w_slot = (0, 1/16, 0).  Outer slots are unchanged.",
+    "falsifier_amplitude": "An amplitude ratio significantly deviating from 2 : 3 : 2 beyond statistical noise falsifies the (4/17, 9/17, 4/17) probability lock from CR066a.",
+    "falsifier_contact_level": "An experimental measurement of pair-correlation debits showing significant outer-cross (a, c) channel debit beyond statistical noise falsifies the bridge-only attribution.",
+    "falsifier_slot_level": "An experimental implementation producing an outer-slot lift (above 1/4) beyond statistical noise falsifies the slot-level center-only attribution.",
+    "free_parameters_at_test": 0,
+    "id": "CR066b_PRED_1",
+    "non_falsifying": "Distributions and amplitudes near the locked values with experimental noise are CONSISTENT.  Failure of the qubit to load the bridge slot is implementation failure, not falsification."
+  },
+  "immutability": "Slot-level center-only attribution (0, 1/16, 0), contact-level bridge-split (1/32, 1/32, 0), explicit rejection of the (1/64, 1/32, 1/64) packet, 2:3:2 amplitude signature, and Higgs 1/8 bisection identity are frozen at CR066b seal time.  Expert review may identify refinements requiring an appeal CR within 12a.",
+  "in_sample_verification": {
+    "Higgs_letter_identity_holds": true,
+    "contact_level_sum_eq_1_16": true,
+    "loaded_state_at_slot_level": "(1/4, 9/16, 1/4)",
+    "probabilities_at_q0": "(4/17, 9/17, 4/17)",
+    "rejected_packet_lifts_outer_slots": true,
+    "rejected_packet_sum_eq_1_16": true,
+    "slot_level_sum_eq_1_16": true
+  },
+  "lock_committed_utc": "2026-06-16T02:20:30Z",
+  "lock_definition": {
+    "amplitude_signature_locked": {
+      "amplitudes": "(sqrt(4/17), sqrt(9/17), sqrt(4/17)) = (2/sqrt(17), 3/sqrt(17), 2/sqrt(17))",
+      "interpretation": "The amplitude ratio is the clean quantum-mechanical signature of the loaded Paul Revere letter state on a 3-level qubit.  An NV-platform implementation must produce this ratio.",
+      "probabilities": "(4/17, 9/17, 4/17)",
+      "ratio": "2 : 3 : 2"
+    },
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "contact_level_locked": {
+      "interpretation": "Bridge-only surcharge resolves symmetrically across two adjacent contact legs.  The outer-cross (a,c) leg has zero direct surface debit -- carrier and sensor communicate ONLY through the bridge.",
+      "leg_layout": "(a,b) bridge leg = 1/32; (b,c) bridge leg = 1/32; (a,c) outer-cross = 0",
+      "physical_implication": "Realizes the CR051 / CR054 no-clone-guard architecture at the surface-debit layer: any relay processing slot b can refresh the envelope but cannot copy the (a, c) endpoints directly.",
+      "representation": "Delta_pair = (1/32, 1/32, 0)",
+      "sum": "1/16 (consistent with slot-level total)"
+    },
+    "higgs_1_8_bridge_attribution": {
+      "bisection_factor": "alpha_H = 2 -- the bisection of the Higgs-released fraction into letter + pure-gravity halves",
+      "higgs_released": "1/8 = 2^-D = the Higgs-split released gravitational fraction (per CR120 / CR121)",
+      "identity": "1/16 = (1/alpha_H) * (1/alpha_H^3) = (1/alpha_H) * 2^-D",
+      "letter_capacity": "1/16 = HALF of the Higgs-released 1/8",
+      "structural_reading": "The bridge slot carries HALF the Higgs 1/8 burden as letter content; the OTHER HALF remains as pure gravity coupling.  The Paul Revere letter rides on (and equals half of) the gravitational carrier channel.",
+      "verification": true
+    },
+    "name": "SLOT_VS_CONTACT_LEVEL_LAYERING_OF_LETTER_INCREMENT",
+    "out_of_scope": [
+      "Asymmetric routes where the (a, c) outer-cross leg might carry non-zero direct debit (would require separate CR).",
+      "Multi-letter capacity scaling (whether N letters per row = N * (1/alpha_H^4) or saturates).  CR067a candidate.",
+      "Explicit derivation of how the contact-level (1/32, 1/32, 0) split arises from the row's microscopic dynamics.",
+      "Whether the bridge-only attribution generalizes to q >= 1 rows (CR066b is q = 0 specific)."
+    ],
+    "rejected_reading": {
+      "diagnostic_signature": "If the (1/64, 1/32, 1/64) packet were physical, the probability shifts (S1, S2, S3) from CR066a would NOT be exactly (-1/68, +1/34, -1/68).",
+      "representation": "(1/64, 1/32, 1/64) mini-1:2:1 packet",
+      "sum": "1/16 (same total)",
+      "why_rejected": "Preserves the (1/4, 1/2, 1/4) base shape proportionally and ERASES the central lift.  The locked form specifically requires the center to be lifted asymmetrically."
+    },
+    "slot_level_locked": {
+      "interpretation": "Center-only surcharge on the bridge (envelope) slot; outer slots (carrier, sensor) unchanged.",
+      "loaded_state": "(1/4, 9/16, 1/4) sum = 17/16",
+      "representation": "Delta_w_slot = (0, 1/16, 0)"
+    }
+  },
+  "lock_version": "v1.0",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "5eb918d789d70d689e39f9d5c2f72ea4d149336d1e3a8b49d95548f5de592fc1",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

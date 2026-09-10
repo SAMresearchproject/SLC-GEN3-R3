@@ -1,0 +1,15 @@
+{
+  "appealed_release_manifest_sha256": "7cf6498211166ced701e0c97760375a9e3d6ba1d4e9e14b0975b0797e35e56cc",
+  "authorization": "User approved the per-carrier Starbreaker campaign and necessary freeze work on 2026-07-20.",
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "candidate_rows_changed": false,
+  "candidate_rows_recomputed": false,
+  "classification": "CONFIRMATION_OR_AUDIT_REQUIRES_PERMISSION",
+  "precommit_seal_sha256": "507b9ac256287bc1d7279826dd2a7d380a565be27717f393361747a3664e043d",
+  "precommit_sha256": "5009a163b33a9adc713725dcdae501fa5e4fd6f8ab9078d760774f887993e502",
+  "registry_mutated": false,
+  "runner_seal_sha256": "4fed05a102da92bbba91b6b288954353c941ff6394ea62986fb9ffe443c4f702",
+  "runner_sha256": "e5dd6b104757555a8ff78ecf74e112ff942952017007d683c3c4d1f2d773dab3",
+  "source_manifest_sha256": "288997aebf050250ac1fb748b10a44546cfbd23a561d12ac8f7216b6c35f1c8a",
+  "task": "Appeal CR005h numerical controls and adjudicate the frozen per-carrier GW candidate ledger"
+}

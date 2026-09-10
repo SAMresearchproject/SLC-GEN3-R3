@@ -1,0 +1,76 @@
+{
+  "test_id": "CR011_DEFERRED_SUPPORT_ZIPPER",
+  "test_type": "courtroom_05_ledger_zipper",
+  "external_or_older_non_05_outputs_used_as_computed_inputs": false,
+  "upstream_05_outputs_used_as_ledger_inputs": true,
+  "free_parameters_introduced": 0,
+  "sealed_scope_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/SEALED_STRONG_FIELD_SCOPE_APPROACH_2026_06_11.md",
+  "sealed_scope_sha256": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "upstream_tests": {
+    "CR007": {
+      "result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_result.md",
+      "result_sha256": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+      "summary_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_summary.json",
+      "summary_sha256": "0c895cbda9ca0a5af9e096d193b4d1b6b19b950400a2fe1ef188d6219dedd761",
+      "hashes_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/HASHES.txt",
+      "role": "original_boundary_landmark_root"
+    },
+    "CR008": {
+      "result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_result.md",
+      "result_sha256": "2f99fca192284ce5275b0d53020185995b109b65e7855172f3af3eb4495a41a7",
+      "summary_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_summary.json",
+      "summary_sha256": "949a2ab15d7146c77eb2a3bc5a3139289ccadb8182740ac3c092d37c2035a44e",
+      "hashes_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/HASHES.txt",
+      "role": "clean_boundary_bridge"
+    },
+    "CR009": {
+      "result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/CR009_result.md",
+      "result_sha256": "f7eee711fa191553187e739f9144b66c581c0b86b47a092165ea3486b41f41b5",
+      "summary_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/CR009_summary.json",
+      "summary_sha256": "37418488bef40e2c3eb1875d19fef9d447d938a3feef31a9e1fd00a8e5a0aec2",
+      "hashes_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/HASHES.txt",
+      "role": "clean_scoped_pass_photon_contact"
+    },
+    "CR010": {
+      "result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT/CR010_result.md",
+      "result_sha256": "b54e47f83435b8e92dd3b3c938dd051f0882a0ea23f611c8480cac7059ecced0",
+      "summary_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT/CR010_summary.json",
+      "summary_sha256": "2bef9b4ade22717a708e5c5d1ece3ad2a2122c73c1f6c92a90b1efc19866f5d8",
+      "hashes_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT/HASHES.txt",
+      "role": "clean_scoped_pass_isco_contact"
+    }
+  },
+  "dependency_expectations": {
+    "CR008": [
+      "cr007_typed_premise_present"
+    ],
+    "CR009": [
+      "cr007_typed_premise_present",
+      "cr008_typed_boundary_present"
+    ],
+    "CR010": [
+      "cr007_typed_premise_present",
+      "cr008_typed_boundary_present",
+      "cr009_typed_photon_contact_present"
+    ]
+  },
+  "appeal_targets": {
+    "CR007": {
+      "original_verdict": "CR007_BOUNDARY_STRONG_FIELD_LANDMARK_SELECTOR",
+      "appeal_verdict": "CR007_APPEAL_PASS_SCOPED_STRONG_FIELD_LANDMARK_ROOT_WITH_DOWNSTREAM_CONTACT",
+      "appeal_scientific_verdict": "PASS",
+      "exact_premise_dependency": "CR007 supplies the A-kernel landmark root: A=1 horizon, A=2/3 photon sphere, A=1/3 ISCO.",
+      "support_source_tests": "CR008, CR009, CR010"
+    },
+    "CR008": {
+      "original_verdict": "CR008_BOUNDARY_CLOCK_TRAVERSAL_CLOSURE",
+      "appeal_verdict": "CR008_APPEAL_PASS_SCOPED_CLOCK_TRAVERSAL_CLOSURE_WITH_DOWNSTREAM_CONTACT",
+      "appeal_scientific_verdict": "PASS",
+      "exact_premise_dependency": "CR008 supplies the A=1 closure boundary used by the CR009 photon contact and CR010 ISCO contact readouts.",
+      "support_source_tests": "CR009, CR010"
+    }
+  },
+  "expected_scientific_verdict": "PASS",
+  "expected_claim_tier": "PASS_LEDGER_DEFERRED_SUPPORT_ZIPPER",
+  "rule_9_falsification": "This ledger step could have failed to pass the CR007/CR008 appeal readouts if CR008-CR010 did not preserve typed dependencies, if CR009-CR010 lacked clean scoped PASS external contacts, if wrong controls matched the full packet, or if the local artifacts and hashes were incomplete."
+}

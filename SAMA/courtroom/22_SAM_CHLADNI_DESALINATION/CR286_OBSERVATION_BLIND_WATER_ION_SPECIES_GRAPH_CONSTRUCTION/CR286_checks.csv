@@ -1,0 +1,39 @@
+﻿check_id,requirement,actual,passed
+C01,Courtroom preflight metadata is present,file=True token=True,true
+C02,All precommitted CR286 contract files match SHA-256,8/8,true
+C03,Exactly 14 local sources are frozen,14,true
+C04,Every frozen source matches bytes and SHA-256,14/14,true
+C05,CR285 passive grammar is a clean PASS,PASS,true
+C06,CR285 supplies exactly 960 unscored passive gates,960,true
+C07,CR285 gates have no acoustic or Starbreaker dependency,all_false,true
+C08,CR120U common envelope is V6,6,true
+C09,CR120U does not globally exclude tetrahedral realization,open,true
+C10,Exactly nine frozen species are present,9,true
+C11,Observed targets remain forbidden for every species,all_false,true
+C12,Every species has a declared core atom inventory,9,true
+C13,Core atom inventory closes at 29,29,true
+C14,Core connectivity inventory closes at 20,20,true
+C15,Four common envelope variants are frozen,"['OCT6_PRIMARY', 'TET4_EVEN_CONTROL', 'TET4_ODD_CONTROL', 'CORE_ONLY_CONTROL']",true
+C16,One OCT6 primary and three controls are present,"Counter({'CONTROL_ONLY': 3, 'PRIMARY_FOR_ALL_SPECIES': 1})",true
+C17,Every declared core bond resolves to frozen atoms,0,true
+C18,Exactly 36 graph candidates construct,36,true
+C19,Exactly 278 graph nodes construct,278,true
+C20,Exactly 322 graph edges construct,322,true
+C21,Every species has all four variants,"Counter({'SP01': 4, 'SP02': 4, 'SP03': 4, 'SP04': 4, 'SP05': 4, 'SP06': 4, 'SP07': 4, 'SP08': 4, 'SP09': 4})",true
+C22,Every species has one common OCT6 primary,9,true
+C23,Both tetrahedral parity controls remain present,"['TET4_EVEN_CONTROL', 'TET4_ODD_CONTROL']",true
+C24,Core-only control remains present for every species,9,true
+C25,Every node carries provenance,complete,true
+C26,Every edge carries provenance,complete,true
+C27,No graph uses observed targets,all_false,true
+C28,No graph selects a CR285 gate,all_open,true
+C29,No species selectivity is emitted,all_unemitted,true
+C30,Na/K OCT6 topology tie is explicit,present,true
+C31,Mg/Ca OCT6 topology tie is explicit,present,true
+C32,Exactly two primary charge-typed tie groups remain,2,true
+C33,Graph schema contains no forbidden observed or physical fields,[],true
+C34,System records absent element-to-triad selector,open,true
+C35,Particle row-to-face geometry remains open,open,true
+C36,Acoustic lane remains shelved,SHELVED_NOT_RETIRED,true
+C37,Twenty-two wrong controls are frozen,22,true
+C38,Every wrong control has a disposition and falsifier,complete,true

@@ -1,0 +1,46 @@
+{
+  "test_id": "CR007_STRONG_FIELD_LANDMARK_SELECTOR",
+  "test_type": "fresh_courtroom_branch_test",
+  "older_outputs_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sealed_scope_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/SEALED_STRONG_FIELD_SCOPE_APPROACH_2026_06_11.md",
+  "sealed_scope_sha256": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "sam_inputs": {
+    "A_profile": "A(r)=r_s/r",
+    "schwarzschild_radius": "r_s=2GM/c^2"
+  },
+  "declared_external_inputs": {
+    "speed_of_light_m_s": 299792458.0,
+    "G_m3_kg_s2": 6.6743e-11,
+    "earth_mass_kg": 5.9722e24,
+    "solar_mass_kg": 1.98847e30,
+    "ten_solar_mass_kg": 1.98847e31
+  },
+  "external_reference_landmarks": {
+    "horizon": {
+      "r_over_rs": 1.0,
+      "target_A": 1.0
+    },
+    "photon_sphere": {
+      "r_over_rs": 1.5,
+      "target_A": 0.6666666666666666
+    },
+    "isco": {
+      "r_over_rs": 3.0,
+      "target_A": 0.3333333333333333
+    }
+  },
+  "expected_scientific_verdict": "BOUNDARY",
+  "expected_claim_tier": "STRUCTURAL_LANDMARK_ROOT",
+  "rule_9_falsification": "This test could have falsified the claim that SAM's strong-field root A(r)=r_s/r places the horizon, photon sphere, and ISCO at the ordered native A-values 1, 2/3, and 1/3 without a new parameter or a landmark-specific rule.",
+  "scope_boundaries": [
+    "not full strong-field metric",
+    "not full Kerr solution",
+    "not full EHT modeling",
+    "not full gravitational-wave generation",
+    "not full QNM/ringdown prediction",
+    "not full Hawking-radiation derivation",
+    "not full black-hole thermodynamics",
+    "not full quantum gravity"
+  ]
+}

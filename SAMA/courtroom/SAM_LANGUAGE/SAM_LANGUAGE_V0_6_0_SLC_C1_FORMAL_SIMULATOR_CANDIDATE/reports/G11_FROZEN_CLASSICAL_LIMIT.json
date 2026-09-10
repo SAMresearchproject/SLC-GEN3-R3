@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "direction": "forward",
+      "initial": "00",
+      "matched": true,
+      "observed": "11"
+    },
+    {
+      "direction": "reverse",
+      "initial": "00",
+      "matched": true,
+      "observed": "10"
+    },
+    {
+      "direction": "forward",
+      "initial": "01",
+      "matched": true,
+      "observed": "10"
+    },
+    {
+      "direction": "reverse",
+      "initial": "01",
+      "matched": true,
+      "observed": "11"
+    },
+    {
+      "direction": "forward",
+      "initial": "10",
+      "matched": true,
+      "observed": "00"
+    },
+    {
+      "direction": "reverse",
+      "initial": "10",
+      "matched": true,
+      "observed": "01"
+    },
+    {
+      "direction": "forward",
+      "initial": "11",
+      "matched": true,
+      "observed": "01"
+    },
+    {
+      "direction": "reverse",
+      "initial": "11",
+      "matched": true,
+      "observed": "00"
+    }
+  ],
+  "status": "PASS"
+}

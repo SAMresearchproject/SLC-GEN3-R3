@@ -1,0 +1,33 @@
+{
+  "artifact": "CR255_COMPACT_MATTER_NEUTRAL_LAW",
+  "verdict": "PASS",
+  "precommit_hash": "567e4683112c245f065205ac98695bc15a03db0b7730782c59c8e6e4c214752a",
+  "input_hash": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+  "n_matter_neutral": 16,
+  "canonical_matches": 16,
+  "max_residual": 0.0,
+  "wrong_controls": {
+    "W1_divisor_pool_full_matches": [],
+    "W2_dim_exponent": {
+      "R_d_minus_1": 0,
+      "R_d_plus_1": 0,
+      "R_2d": 8,
+      "d_plus_1_pow_d": 8
+    },
+    "W3_p_dependence": {
+      "p_squared": 2,
+      "p_times_D": 0,
+      "constant_p_mean": 0,
+      "sqrt_p_times_sqrt_p": 16
+    },
+    "W4_continuous_full_matches": 0,
+    "W4_continuous_best_match_count": 0
+  },
+  "verdict_conditions": {
+    "canonical_16_16": true,
+    "W1_no_non_canon_full_match": true,
+    "W2_all_le_8": true,
+    "W3_non_sanity_le_8": true,
+    "W4_zero_full_match": true
+  }
+}

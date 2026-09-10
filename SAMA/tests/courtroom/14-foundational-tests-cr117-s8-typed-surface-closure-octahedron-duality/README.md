@@ -1,0 +1,93 @@
+# Courtroom test package: CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY)
+
+This index includes every tracked file below `14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**22 files · 73,954 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Precommitments and premises
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_PRECOMMIT.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PRECOMMIT.md) | 4,004 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PRECOMMIT.md) |
+| [CR117_PRECOMMIT.sha256.txt](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PRECOMMIT.sha256.txt) | 85 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PRECOMMIT.sha256.txt) |
+| [CR117_PREFLIGHT.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PREFLIGHT.md) | 744 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_PREFLIGHT.md) |
+| [CR117_typed_S8_contract.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_typed_S8_contract.json) | 885 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_typed_S8_contract.json) |
+
+## Code
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_runner.py](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_runner.py) | 26,219 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_runner.py) |
+
+## Wrong controls and comparison rows
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_wrong_controls.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_wrong_controls.csv) | 1,074 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_wrong_controls.csv) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_SOURCE_AUDIT.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_SOURCE_AUDIT.md) | 3,702 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_SOURCE_AUDIT.md) |
+| [CR117_result.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_result.md) | 1,685 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_result.md) |
+| [CR117_rigidity_results.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_rigidity_results.json) | 412 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_rigidity_results.json) |
+| [CR117_summary.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_summary.json) | 2,566 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_SOURCE_MANIFEST.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_SOURCE_MANIFEST.json) | 5,455 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_SOURCE_MANIFEST.json) |
+| [HASHES.txt](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/HASHES.txt) | 1,829 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/HASHES.txt) |
+| [OPENED_FILE_MANIFEST.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/OPENED_FILE_MANIFEST.json) | 3,412 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/OPENED_FILE_MANIFEST.json) |
+
+## Data and supporting files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [COMMAND_LOG.txt](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/COMMAND_LOG.txt) | 1,906 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/COMMAND_LOG.txt) |
+| [CR117_ASSUMPTION_REGISTER.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_ASSUMPTION_REGISTER.json) | 2,194 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_ASSUMPTION_REGISTER.json) |
+| [CR117_S8_SOURCE_OCCURRENCE_REGISTER.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_S8_SOURCE_OCCURRENCE_REGISTER.csv) | 9,475 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_S8_SOURCE_OCCURRENCE_REGISTER.csv) |
+| [CR117_binary_state_face_bijection.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_binary_state_face_bijection.csv) | 753 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_binary_state_face_bijection.csv) |
+| [CR117_cube_octahedron_counts.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_cube_octahedron_counts.csv) | 185 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_cube_octahedron_counts.csv) |
+| [CR117_dimension_uniqueness_scan.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_dimension_uniqueness_scan.csv) | 665 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_dimension_uniqueness_scan.csv) |
+| [CR117_provenance.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_provenance.json) | 5,594 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_provenance.json) |
+| [CR117_runner.sha256.txt](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_runner.sha256.txt) | 82 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_runner.sha256.txt) |
+
+## Other package files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR117_VALIDATION.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_VALIDATION.md) | 1,028 | [Raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_VALIDATION.md) |
+
+## Related Courtroom tests
+
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/_source_artifacts](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/_source_artifacts)
+- [09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION)
+- [09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION)
+- [09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH)
+- [09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT)
+- [14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/14_FOUNDATIONAL_TESTS) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

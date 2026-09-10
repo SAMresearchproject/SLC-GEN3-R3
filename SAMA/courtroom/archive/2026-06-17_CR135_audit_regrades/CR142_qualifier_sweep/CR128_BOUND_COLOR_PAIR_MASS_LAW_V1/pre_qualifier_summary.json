@@ -1,0 +1,130 @@
+{
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "law_lock_sha256",
+    "old_value": "d8ed19c10f5166ab14c33b878ee045714648a3f9f65df9a48fc76595bf00820a",
+    "new_value": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128_BOUND_COLOR_PAIR_MASS_LAW_V1/",
+    "original_result_md_sha256": "0a4ebfe6c3a17f10f03909d1b5dfc4c9532b34132c9e306dfd9fa1b724970e10",
+    "original_summary_json_sha256": "6c7b50f2bd04e80014a7bc0c875ca0267dd2e6dbd7244a721fcd31a23bd06649"
+  },
+  "cr_id": "CR128",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "BOUND_COLOR_PAIR_MASS_LAW_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR128_BOUND_COLOR_PAIR_MASS_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:29:48Z",
+  "formula": "M_native(a, b) = R*a*b + D*|a-b|",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "partition_algebra": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "rows_tested": 36,
+  "formula_matches": 36,
+  "asymmetric_matches": 30,
+  "symmetric_matches": 6,
+  "formula_violations": 0,
+  "partition_parse_failures": 0,
+  "algebra_violations": 0,
+  "distinct_pairs_observed": 21,
+  "total_possible_pairs_in_algebra": 36,
+  "verification_csv_sha256": "0b51ff37925777edc9af0d48e3c279e28dfd5e69feddd6c12d379d2b40415517",
+  "law_lock_sha256": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR127_alp_window_inventory_csv": "3ae9752151c84aa2c805ee12a235583e8d5c0c47e498ce2a5fba7c87db839879"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_36_BCP_rows_verified",
+      "pass": true,
+      "details": "BOUND_COLOR_PAIR rows = 36, parse_failures = 0"
+    },
+    {
+      "name": "P2_formula_matches_all_rows",
+      "pass": true,
+      "details": "matches = 36/36, violations = 0"
+    },
+    {
+      "name": "P3_partition_algebra_unbroken",
+      "pass": true,
+      "details": "algebra_violations = 0"
+    },
+    {
+      "name": "P4_symmetric_pairs_covered",
+      "pass": true,
+      "details": "symmetric (a,a) matches = 6; CR127 ALP window did not surface these because doublet splitting requires a != b"
+    },
+    {
+      "name": "P5_asymmetric_pairs_covered",
+      "pass": true,
+      "details": "asymmetric (a,b) matches = 30 (each unordered pair generates two rows -- (a,b) and (b,a)); n_unordered_pairs_with_a_neq_b = 15"
+    },
+    {
+      "name": "P6_forward_blind_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = 0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 particle table read-only; sha recorded"
+    },
+    {
+      "name": "WC2_CR127_inventory_unmodified",
+      "pass": true,
+      "details": "CR127 ALP window inventory read-only; sha recorded"
+    },
+    {
+      "name": "WC3_law_derived_from_data_not_first_principles",
+      "pass": true,
+      "details": "Law v1.0 was derived inductively by inspecting BOUND_COLOR_PAIR cluster centers in CR127.  In-sample verification confirms the rule is CONSISTENT with the training set; CR128_PRED_1 commits the rule for FORWARD-BLIND testing on future rows where overfit cannot operate.  Honest WC: in-sample 100% match does not prove first-principles derivation, only generator consistency."
+    },
+    {
+      "name": "WC4_S_debit_formula_intentionally_NOT_claimed",
+      "pass": true,
+      "details": "Doublet splitting at +/- S_debit is observed in every (a,b) / (b,a) pair but its amplitude formula is left to CR128b.  Claiming the splitting formula here without separate derivation would overpromise."
+    },
+    {
+      "name": "WC5_symmetric_pair_M_obs_explicitly_out_of_scope",
+      "pass": true,
+      "details": "Symmetric (a,a) pairs match the M_native formula but their M_observed is shifted by a non-trivial debit (M_obs(a,a) ~ 10.75 * a^2 = (43/4) * a^2).  CR128 covers M_native only; M_observed structure for symmetric pairs is separate work."
+    },
+    {
+      "name": "WC6_OCTET_COMPOSITE_numerical_coincidences_noted",
+      "pass": true,
+      "details": "Several OCTET_COMPOSITE 3-body clusters in CR127 land at the same numerical mass as 2-body pair predictions (e.g. cluster 16 at 132 MeV = (1,9)).  This is a numerical coincidence -- 3-body generator is not the same as 2-body.  OCTET_COMPOSITE law derivation is separate CR129+ work."
+    },
+    {
+      "name": "WC7_algebra_extension_path_documented",
+      "pass": true,
+      "details": "If the partition algebra is ever extended (e.g. adding 5, 7, 10, 11), each new element generates additional pairs.  CR128 v1.0 is locked against the current algebra {1,2,3,4,6,8,9,12}; algebra extension warrants an appeal CR, not a violation of v1.0."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR128b: derive S_debit amplitude formula (doublet splitting) for asymmetric (a,b) pairs",
+    "CR128c: derive M_observed offset formula for symmetric (a,a) pairs (currently empirical ~ 10.75 a^2)",
+    "CR129+: derive 3-body M_native generator for OCTET_COMPOSITE and GROUND_BARYON_3BODY operator classes",
+    "Forward-blind test CR128_PRED_1 resolves when CR119 catalog gains new BOUND_COLOR_PAIR rows"
+  ]
+}

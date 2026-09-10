@@ -1,0 +1,464 @@
+{
+  "lock_id": "CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_LOCK",
+  "cr_id": "CR115",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "sealed_at_utc": "2026-06-19T06:30:35Z",
+  "execution_status": "CLEAN",
+  "result_class": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+  "grade": "structural theorem-gate inside SAM; computational topology core plus declared carrier-identity commitments",
+  "theorem_statement": "Given substrate-internal displacement-response identity and no external identity carrier, all admissible persistent matter-identity handles reduce to a self-contained stable source/topological sector. For the 1D loop/twist/intersection carrier, obstruction_dim=3-D, so D=3 is the unique stable dimension.",
+  "computed_core": {
+    "formula": "obstruction_dim = 3 - D",
+    "stable_ds": [
+      3
+    ],
+    "dimension_rows": [
+      {
+        "D": 1,
+        "obstruction_dim": 2,
+        "stable_loop_link_identity": false,
+        "reading": "overconstrained"
+      },
+      {
+        "D": 2,
+        "obstruction_dim": 1,
+        "stable_loop_link_identity": false,
+        "reading": "overconstrained"
+      },
+      {
+        "D": 3,
+        "obstruction_dim": 0,
+        "stable_loop_link_identity": true,
+        "reading": "stable_point_obstruction"
+      },
+      {
+        "D": 4,
+        "obstruction_dim": -1,
+        "stable_loop_link_identity": false,
+        "reading": "unwinds_or_slides"
+      },
+      {
+        "D": 5,
+        "obstruction_dim": -2,
+        "stable_loop_link_identity": false,
+        "reading": "unwinds_or_slides"
+      },
+      {
+        "D": 6,
+        "obstruction_dim": -3,
+        "stable_loop_link_identity": false,
+        "reading": "unwinds_or_slides"
+      },
+      {
+        "D": 7,
+        "obstruction_dim": -4,
+        "stable_loop_link_identity": false,
+        "reading": "unwinds_or_slides"
+      }
+    ]
+  },
+  "carrier_uniqueness": {
+    "all_g348_carriers_closed_to_stable_sector": true,
+    "carrier_rows": [
+      {
+        "g348_carrier": "loop_link_topology",
+        "g348_status": "sufficient_open_route",
+        "g349_support": "closed_1D_loop_substrate",
+        "g350_raw_data_status": "already_deformation_class",
+        "g350_survivor": "stable_loop_link_deformation_class",
+        "g352_self_contained_rule": true,
+        "g354_identity_rule": true,
+        "final_identity_handle": "stable_loop_link_sector",
+        "uniqueness_status": "CLOSED_TO_STABLE_SECTOR",
+        "reason": "direct Route C carrier; topology selector applies"
+      },
+      {
+        "g348_carrier": "spectral_eigenmode",
+        "g348_status": "alternate_live_in_G348",
+        "g349_support": "carrier_with_boundary_conditions",
+        "g350_raw_data_status": "raw_rejected_by_deformation_quotient",
+        "g350_survivor": "spectrum_of_deformation_operator_class",
+        "g352_self_contained_rule": true,
+        "g354_identity_rule": true,
+        "final_identity_handle": "stable_source_topological_sector",
+        "uniqueness_status": "CLOSED_TO_STABLE_SECTOR",
+        "reason": "extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector"
+      },
+      {
+        "g348_carrier": "endpoint_F4_label",
+        "g348_status": "alternate_live_in_G348",
+        "g349_support": "edge_or_boundary_transport",
+        "g350_raw_data_status": "raw_rejected_by_deformation_quotient",
+        "g350_survivor": "closed_loop_transport_conjugacy_class",
+        "g352_self_contained_rule": true,
+        "g354_identity_rule": true,
+        "final_identity_handle": "stable_source_topological_sector",
+        "uniqueness_status": "CLOSED_TO_STABLE_SECTOR",
+        "reason": "extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector"
+      },
+      {
+        "g348_carrier": "ledger_history",
+        "g348_status": "alternate_live_in_G348",
+        "g349_support": "ordered_SW_path",
+        "g350_raw_data_status": "raw_rejected_by_deformation_quotient",
+        "g350_survivor": "path_homotopy_or_closed_transport_class",
+        "g352_self_contained_rule": true,
+        "g354_identity_rule": true,
+        "final_identity_handle": "stable_source_topological_sector",
+        "uniqueness_status": "CLOSED_TO_STABLE_SECTOR",
+        "reason": "extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector"
+      },
+      {
+        "g348_carrier": "phase_holonomy",
+        "g348_status": "alternate_live_in_G348",
+        "g349_support": "path_or_closed_loop",
+        "g350_raw_data_status": "raw_rejected_by_deformation_quotient",
+        "g350_survivor": "closed_phase_holonomy",
+        "g352_self_contained_rule": true,
+        "g354_identity_rule": true,
+        "final_identity_handle": "stable_source_topological_sector",
+        "uniqueness_status": "CLOSED_TO_STABLE_SECTOR",
+        "reason": "extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector"
+      }
+    ]
+  },
+  "audit_calibration": {
+    "hostile_audit_f002_acknowledged": true,
+    "source_type_table": [
+      {
+        "label": "CR115_RUNNER",
+        "source_type": "EXECUTABLE_GATE",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G347_OUTPUT",
+        "source_type": "COMPUTATIONAL_TOPOLOGY_CORE",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G348_OUTPUT",
+        "source_type": "STRUCTURED_PREMISE_AUDIT",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G349_OUTPUT",
+        "source_type": "STRUCTURED_REDUCTION_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G350_OUTPUT",
+        "source_type": "STRUCTURED_REDUCTION_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G351_OUTPUT",
+        "source_type": "GAP_LOCALIZATION_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G352_OUTPUT",
+        "source_type": "STRUCTURED_REDUCTION_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G353_OUTPUT",
+        "source_type": "PROVENANCE_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G354_OUTPUT",
+        "source_type": "FRAMEWORK_PRINCIPLE_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "G355_OUTPUT",
+        "source_type": "AGGREGATE_THEOREM_RECORD",
+        "load_bearing": "True"
+      },
+      {
+        "label": "THEOREM_D3",
+        "source_type": "THEOREM_TEXT",
+        "load_bearing": "True"
+      },
+      {
+        "label": "VERDICT_G355",
+        "source_type": "VERDICT_TEXT",
+        "load_bearing": "True"
+      },
+      {
+        "label": "HOSTILE_AUDIT_F002",
+        "source_type": "EXTERNAL_HOSTILE_AUDIT",
+        "load_bearing": "True"
+      },
+      {
+        "label": "PRIORITY_RECORD",
+        "source_type": "RECORD_CONTEXT",
+        "load_bearing": "False"
+      },
+      {
+        "label": "G609C_SUMMARY",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      },
+      {
+        "label": "SUK056_SUMMARY",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      },
+      {
+        "label": "QGA021_SUMMARY",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      },
+      {
+        "label": "QGA050_SUMMARY",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      },
+      {
+        "label": "QP092B_RESULT",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      },
+      {
+        "label": "QP092C_RESULT",
+        "source_type": "SUPPORTING_PRESSURE",
+        "load_bearing": "False"
+      }
+    ],
+    "not_claimed": [
+      "external peer-review closure",
+      "empirical proof of D=3",
+      "string-theory critical dimension",
+      "D3 from poset axioms alone",
+      "D3 from R, A0, 2pi, Higgs, or downstream particle numerology"
+    ]
+  },
+  "source_chain_sha256": {
+    "CR115_RUNNER": "0c9c3d7cf30a20e2f1b833c77c89505e72a58eadefca35ec909e7c596128e5e5",
+    "G347_OUTPUT": "0e1c662c80e2eac4eb89e5aa6d13de251b5520edb4318a8da042ec7b00775f83",
+    "G348_OUTPUT": "ce02e5efcfd82aeabe129ff2564544560c3d74a6b20d8073c779ab40aa5236d3",
+    "G349_OUTPUT": "45d4164aaca93cc34a2634cd6b833e8f91c355d9f3bbd4f59bd51e4efd4b374f",
+    "G350_OUTPUT": "3781fae9d06191654185d1ecbc482bc54e41902a9368aa360ef9d5141adb90d3",
+    "G351_OUTPUT": "216cd3702a397176bed5e5cbd05b1b15775f50c285510e42b32203e810dcc8da",
+    "G352_OUTPUT": "46b2b8ae07d95d6c376af38b22a20ba124201fdec7dd6f32d3f9ffab16c602d5",
+    "G353_OUTPUT": "ff43fd9c42b97aa62184bbda6da15fa2e6feb751f653cf79abb1cc2d8e0f845b",
+    "G354_OUTPUT": "adfb155e8bfca9c181fb7c8302f72526154ba091e37a977e3a4ee587d507dc16",
+    "G355_OUTPUT": "3cd6662d64c290c3850f51395e35566aaa3992ebff40f1e266d47eeff69e3529",
+    "THEOREM_D3": "46590595f63726e913a58b4ad5e1d4cdc2443cead49584a1e154badef400b9d8",
+    "VERDICT_G355": "c82f41b0a60245b488c7801fede3bb1fca31e59e593f380a650f79e8f25069c6",
+    "HOSTILE_AUDIT_F002": "a795d712fa933dcb56043c11055e62af5a32fb338889ec354c2e78bcb744cb6d",
+    "PRIORITY_RECORD": "640c41f5d31878891e22a13d1ef5d3a8ed7cb47e9a8ed07934d110471dbfebb4",
+    "G609C_SUMMARY": "e460899b90e0d5d0b43fc5af70b9b3811272899fdd94b9760d20859f4f51c14f",
+    "SUK056_SUMMARY": "8b4e56244a973803043691300d71a754e7c0d3b30f4d71b394dbec47e5d15c67",
+    "QGA021_SUMMARY": "6e420a465a8bd3ed3ecb2a047e6ce3f583ae482b747b08d5e20f21e2aefc9bf9",
+    "QGA050_SUMMARY": "a2017822731a8724d933f79e322edbffce5440d911b46e5c9618196ae2708469",
+    "QP092B_RESULT": "b95aa3cffbebe38320b7bfc442fd72f82f8e7f6c0b2c1e75d1bccd1f2de007d8",
+    "QP092C_RESULT": "dc9b1d9367dbd9cdf8008fbcbff89d43b7da0a9d985b7685fa3075c65544f240"
+  },
+  "checks": [
+    {
+      "check_id": "P1_sources_present",
+      "description": "All load-bearing source artifacts are present.",
+      "observed": "{\"missing_load_bearing\": []}",
+      "passed": true,
+      "source": "source_chain"
+    },
+    {
+      "check_id": "P2_hostile_audit_trap_acknowledged",
+      "description": "The gate explicitly separates G347 computational topology from assertion/commitment records.",
+      "observed": "{\"audit_f002_found\": true, \"source_types\": [{\"label\": \"CR115_RUNNER\", \"load_bearing\": \"True\", \"source_type\": \"EXECUTABLE_GATE\"}, {\"label\": \"G347_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"COMPUTATIONAL_TOPOLOGY_CORE\"}, {\"label\": \"G348_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_PREMISE_AUDIT\"}, {\"label\": \"G349_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G350_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G351_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"GAP_LOCALIZATION_RECORD\"}, {\"label\": \"G352_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G353_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"PROVENANCE_RECORD\"}, {\"label\": \"G354_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"FRAMEWORK_PRINCIPLE_RECORD\"}, {\"label\": \"G355_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"AGGREGATE_THEOREM_RECORD\"}, {\"label\": \"THEOREM_D3\", \"load_bearing\": \"True\", \"source_type\": \"THEOREM_TEXT\"}, {\"label\": \"VERDICT_G355\", \"load_bearing\": \"True\", \"source_type\": \"VERDICT_TEXT\"}, {\"label\": \"HOSTILE_AUDIT_F002\", \"load_bearing\": \"True\", \"source_type\": \"EXTERNAL_HOSTILE_AUDIT\"}]}",
+      "passed": true,
+      "source": "audit.md/source_chain"
+    },
+    {
+      "check_id": "P3_G348_open_premise_captured",
+      "description": "G348's live alternate carriers are copied into the CR115 reduction table rather than ignored.",
+      "observed": "{\"G348_alternates\": [\"endpoint_F4_label\", \"ledger_history\", \"phase_holonomy\", \"spectral_eigenmode\"], \"carrier_table_alternates\": [\"endpoint_F4_label\", \"ledger_history\", \"phase_holonomy\", \"spectral_eigenmode\"], \"topology_necessary_in_G348\": false}",
+      "passed": true,
+      "source": "G348/CR115_carrier_reduction_table"
+    },
+    {
+      "check_id": "P4_G349_extended_support_reduces_alternates",
+      "description": "All G348 alternate carriers require extended support before quotienting.",
+      "observed": "{\"all_alternates_extended\": true, \"carrier_reductions\": [{\"carrier\": \"spectral_eigenmode\", \"reduction_reading\": \"mode identity needs an operator domain; domain lives on an extended carrier\", \"requires_extended_support\": true, \"support\": \"carrier_with_boundary_conditions\", \"topological_without_quotient\": false}, {\"carrier\": \"endpoint_F4_label\", \"reduction_reading\": \"label identity requires an endpoint/boundary and transport rule\", \"requires_extended_support\": true, \"support\": \"edge_or_boundary_transport\", \"topological_without_quotient\": false}, {\"carrier\": \"ledger_history\", \"reduction_reading\": \"history identity is a path through ordered writes\", \"requires_extended_support\": true, \"support\": \"ordered_SW_path\", \"topological_without_quotient\": false}, {\"carrier\": \"phase_holonomy\", \"reduction_reading\": \"holonomy is computed along an extended path or loop\", \"requires_extended_support\": true, \"support\": \"path_or_closed_loop\", \"topological_without_quotient\": false}]}",
+      "passed": true,
+      "source": "G349"
+    },
+    {
+      "check_id": "P5_G350_deformation_quotient_rejects_raw_carriers",
+      "description": "Raw labels, histories, phases, and spectra survive only as deformation classes.",
+      "observed": "{\"quotient_rows\": [{\"carrier\": \"raw_ledger_history\", \"quotient_survivor\": \"path_homotopy_or_closed_transport_class\", \"raw_invariant\": false, \"reason\": \"subdivision/reparameterization changes the raw ordered string\", \"survivor_topological_or_holonomic\": true}, {\"carrier\": \"bare_endpoint_F4_label\", \"quotient_survivor\": \"closed_loop_transport_conjugacy_class\", \"raw_invariant\": false, \"reason\": \"F4-preserving relabeling moves labels; loop transport trace/class can survive\", \"survivor_topological_or_holonomic\": true}, {\"carrier\": \"open_path_phase\", \"quotient_survivor\": \"closed_phase_holonomy\", \"raw_invariant\": false, \"reason\": \"open phase changes with gauge/path convention; closed holonomy can be invariant\", \"survivor_topological_or_holonomic\": true}, {\"carrier\": \"standalone_spectral_number\", \"quotient_survivor\": \"spectrum_of_deformation_operator_class\", \"raw_invariant\": false, \"reason\": \"eigenvalue alone lacks identity without operator domain and deformation class\", \"survivor_topological_or_holonomic\": true}], \"raw_all_variant\": true, \"survivors_all_topological_or_holonomic\": true}",
+      "passed": true,
+      "source": "G350"
+    },
+    {
+      "check_id": "P6_G352_self_contained_holonomy_reduces",
+      "description": "Self-contained nontrivial holonomy/transport identity reduces to a stable source sector.",
+      "observed": "{\"cases\": [{\"case\": \"external_background_holonomy\", \"closed_transport_invariant\": true, \"reason\": \"depends on prescribed external connection/background\", \"reduces_to_stable_sector\": false, \"requires_stable_source\": false, \"self_contained_identity\": false}, {\"case\": \"contractible_self_contained_loop\", \"closed_transport_invariant\": false, \"reason\": \"without protected source, closed phase is deformable or trivial\", \"reduces_to_stable_sector\": false, \"requires_stable_source\": true, \"self_contained_identity\": false}, {\"case\": \"curvature_defect_holonomy\", \"closed_transport_invariant\": true, \"reason\": \"identity moves to stability of the defect/source\", \"reduces_to_stable_sector\": true, \"requires_stable_source\": true, \"self_contained_identity\": \"conditional\"}, {\"case\": \"stable_loop_link_holonomy\", \"closed_transport_invariant\": true, \"reason\": \"nontrivial identity protected by loop/link deformation class\", \"reduces_to_stable_sector\": true, \"requires_stable_source\": true, \"self_contained_identity\": true}], \"self_contained_holonomy_reduces\": true, \"stable_ds\": [3]}",
+      "passed": true,
+      "source": "G352"
+    },
+    {
+      "check_id": "P7_G354_identity_principle_accepted_for_gate",
+      "description": "Displacement-response identity supplies the no-external identity rule used by CR115.",
+      "observed": "{\"no_external_principle_grounded\": true, \"stable_ds\": [3], \"verdict\": \"G354_DISPLACEMENT_RESPONSE_IDENTITY_PRINCIPLE_PASS\"}",
+      "passed": true,
+      "source": "G354"
+    },
+    {
+      "check_id": "P8_all_admissible_carriers_close_to_stable_sector",
+      "description": "Every G348 carrier is now routed to the stable source/topological sector under the declared SAM rules.",
+      "observed": "[{\"final_identity_handle\": \"stable_loop_link_sector\", \"g348_carrier\": \"loop_link_topology\", \"g348_status\": \"sufficient_open_route\", \"g349_support\": \"closed_1D_loop_substrate\", \"g350_raw_data_status\": \"already_deformation_class\", \"g350_survivor\": \"stable_loop_link_deformation_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"direct Route C carrier; topology selector applies\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"spectral_eigenmode\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"carrier_with_boundary_conditions\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"spectrum_of_deformation_operator_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"endpoint_F4_label\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"edge_or_boundary_transport\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"closed_loop_transport_conjugacy_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"ledger_history\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"ordered_SW_path\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"path_homotopy_or_closed_transport_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"phase_holonomy\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"path_or_closed_loop\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"closed_phase_holonomy\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}]",
+      "passed": true,
+      "source": "CR115_carrier_reduction_table"
+    },
+    {
+      "check_id": "P9_dimension_selector_computed_and_matches_sources",
+      "description": "CR115 recomputes obstruction_dim=3-D and finds D=3 as the unique stable row.",
+      "observed": "{\"CR115_stable_ds\": [3], \"G347_stable_ds\": [3], \"G350_stable_ds\": [3], \"G352_stable_ds\": [3], \"G354_stable_ds\": [3], \"G355_stable_ds\": [3]}",
+      "passed": true,
+      "source": "CR115/G347/G350/G352/G354/G355"
+    },
+    {
+      "check_id": "P10_G351_gap_is_specifically_closed",
+      "description": "G351 named the holonomy/topology gap; G352 and CR115 close that exact gap under no-external identity.",
+      "observed": "{\"G351_verdict\": \"G351_ROUTE_C_CONDITIONAL_THEOREM_SCHEMA_HOLONOMY_GAP_OPEN\", \"G352_verdict\": \"G352_SELF_CONTAINED_HOLONOMY_REDUCES_TO_STABLE_TOPOLOGY\", \"carrier_uniqueness_closed\": true}",
+      "passed": true,
+      "source": "G351/G352/CR115"
+    },
+    {
+      "check_id": "P11_G355_chain_remains_consistent",
+      "description": "G355 aggregate chain remains consistent with the explicit uniqueness closure.",
+      "observed": "{\"G355_chain_steps\": [\"matterless_undisturbed_no_write\", \"interaction_displacement_write\", \"identity_is_invariant_response_class\", \"extended_carrier_reduction\", \"deformation_quotient\", \"self_contained_holonomy_stable_source\", \"stable_loop_twist_only_D3\", \"extreme_A_reorganizes\"], \"G355_verdict\": \"G355_D3_DISPLACEMENT_RESPONSE_THEOREM_PASS\", \"theorem_text_has_if_claim\": true}",
+      "passed": true,
+      "source": "G355/THEOREM_D3"
+    },
+    {
+      "check_id": "P12_current_record_status_found",
+      "description": "Priority record currently records D=3 as derived inside SAM, so CR115 is an appeal/closure support artifact rather than a new free parameter.",
+      "observed": "priority record D3 status",
+      "passed": true,
+      "source": "PRIORITY_RECORD"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "control_id": "WC1_poset_axioms_alone_derive_D3",
+      "hypothesis": "Finite poset axioms alone derive D=3.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G347 rejects poset axioms alone as a D3 derivation."
+    },
+    {
+      "control_id": "WC2_topology_sufficient_implies_necessary",
+      "hypothesis": "Loop topology being sufficient in G348 already made it necessary.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G348 rejected the shortcut; CR115 closes necessity only after G349-G354 reductions."
+    },
+    {
+      "control_id": "WC3_rule_out_alternates_by_assertion",
+      "hypothesis": "Rule out spectra, labels, ledger history, and phase holonomy by assertion.",
+      "observed": "{\"CR115_reduction_rows\": [{\"final_identity_handle\": \"stable_loop_link_sector\", \"g348_carrier\": \"loop_link_topology\", \"g348_status\": \"sufficient_open_route\", \"g349_support\": \"closed_1D_loop_substrate\", \"g350_raw_data_status\": \"already_deformation_class\", \"g350_survivor\": \"stable_loop_link_deformation_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"direct Route C carrier; topology selector applies\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"spectral_eigenmode\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"carrier_with_boundary_conditions\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"spectrum_of_deformation_operator_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"endpoint_F4_label\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"edge_or_boundary_transport\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"closed_loop_transport_conjugacy_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"ledger_history\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"ordered_SW_path\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"path_homotopy_or_closed_transport_class\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}, {\"final_identity_handle\": \"stable_source_topological_sector\", \"g348_carrier\": \"phase_holonomy\", \"g348_status\": \"alternate_live_in_G348\", \"g349_support\": \"path_or_closed_loop\", \"g350_raw_data_status\": \"raw_rejected_by_deformation_quotient\", \"g350_survivor\": \"closed_phase_holonomy\", \"g352_self_contained_rule\": true, \"g354_identity_rule\": true, \"reason\": \"extended support plus deformation quotient leaves only self-contained transport/holonomy/operator-domain class, which G352 routes to a stable source sector\", \"uniqueness_status\": \"CLOSED_TO_STABLE_SECTOR\"}], \"G348_wrong_controls\": {\"endpoint\": {\"pass\": true, \"rejected\": true}, \"ledger\": {\"pass\": true, \"rejected\": true}, \"spectral\": {\"pass\": true, \"rejected\": true}}}",
+      "rejected": true,
+      "reason": "CR115 requires explicit support -> quotient -> stable-sector routing."
+    },
+    {
+      "control_id": "WC4_raw_ledger_string_persistent",
+      "hypothesis": "Raw ordered ledger history is itself persistent matter identity.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G350 rejects raw ledger strings under subdivision/reparameterization."
+    },
+    {
+      "control_id": "WC5_bare_endpoint_label_persistent",
+      "hypothesis": "Bare endpoint/F4 label is persistent matter identity without closed-loop transport.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G350 keeps only transport conjugacy class, not bare labels."
+    },
+    {
+      "control_id": "WC6_open_path_phase_persistent",
+      "hypothesis": "Open path phase is persistent matter identity without closed holonomy.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G350 rejects open phase as convention/path dependent."
+    },
+    {
+      "control_id": "WC7_standalone_spectral_number_persistent",
+      "hypothesis": "A standalone spectral number is persistent matter identity without operator-domain deformation class.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G350 keeps only spectrum of deformation operator class."
+    },
+    {
+      "control_id": "WC8_external_background_identity",
+      "hypothesis": "External/background holonomy can be intrinsic matter identity in SAM.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G352 rejects external background holonomy as not self-contained identity."
+    },
+    {
+      "control_id": "WC9_contractible_phase_identity",
+      "hypothesis": "Contractible self-contained phase is persistent nontrivial matter identity.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G352 rejects contractible phase as deformable/trivial without protected source."
+    },
+    {
+      "control_id": "WC10_holonomy_alone_derives_D3",
+      "hypothesis": "Holonomy by itself derives D=3 without a stable source/topological sector.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "G352 requires self-contained stable source sector before topology selector applies."
+    },
+    {
+      "control_id": "WC11_D2_or_D4_stable_identity",
+      "hypothesis": "D=2 or D=4 supplies the same stable nontrivial loop/twist identity.",
+      "observed": "{\"CR115_dimension_rows\": [{\"D\": 1, \"obstruction_dim\": 2, \"reading\": \"overconstrained\", \"stable_loop_link_identity\": false}, {\"D\": 2, \"obstruction_dim\": 1, \"reading\": \"overconstrained\", \"stable_loop_link_identity\": false}, {\"D\": 3, \"obstruction_dim\": 0, \"reading\": \"stable_point_obstruction\", \"stable_loop_link_identity\": true}, {\"D\": 4, \"obstruction_dim\": -1, \"reading\": \"unwinds_or_slides\", \"stable_loop_link_identity\": false}, {\"D\": 5, \"obstruction_dim\": -2, \"reading\": \"unwinds_or_slides\", \"stable_loop_link_identity\": false}, {\"D\": 6, \"obstruction_dim\": -3, \"reading\": \"unwinds_or_slides\", \"stable_loop_link_identity\": false}, {\"D\": 7, \"obstruction_dim\": -4, \"reading\": \"unwinds_or_slides\", \"stable_loop_link_identity\": false}], \"G354_WC\": {\"pass\": true, \"rejected\": true}, \"G355_WC\": {\"pass\": true, \"rejected\": true}}",
+      "rejected": true,
+      "reason": "Computed obstruction table and G354/G355 both reject D2/D4 stability."
+    },
+    {
+      "control_id": "WC12_import_string_critical_dimension",
+      "hypothesis": "D=3 is imported from string-theory critical dimension or other external target.",
+      "observed": "{\"G352_WC\": {\"pass\": true, \"rejected\": true}, \"G355_WC\": {\"pass\": true, \"rejected\": true}}",
+      "rejected": true,
+      "reason": "The selector is the SAM loop/twist obstruction count, not imported string criticality."
+    },
+    {
+      "control_id": "WC13_assertion_script_equals_computation",
+      "hypothesis": "Treat G348-G355 assertion/commitment records as if every layer were computational math.",
+      "observed": "[{\"label\": \"CR115_RUNNER\", \"load_bearing\": \"True\", \"source_type\": \"EXECUTABLE_GATE\"}, {\"label\": \"G347_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"COMPUTATIONAL_TOPOLOGY_CORE\"}, {\"label\": \"G348_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_PREMISE_AUDIT\"}, {\"label\": \"G349_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G350_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G351_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"GAP_LOCALIZATION_RECORD\"}, {\"label\": \"G352_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"STRUCTURED_REDUCTION_RECORD\"}, {\"label\": \"G353_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"PROVENANCE_RECORD\"}, {\"label\": \"G354_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"FRAMEWORK_PRINCIPLE_RECORD\"}, {\"label\": \"G355_OUTPUT\", \"load_bearing\": \"True\", \"source_type\": \"AGGREGATE_THEOREM_RECORD\"}, {\"label\": \"THEOREM_D3\", \"load_bearing\": \"True\", \"source_type\": \"THEOREM_TEXT\"}, {\"label\": \"VERDICT_G355\", \"load_bearing\": \"True\", \"source_type\": \"VERDICT_TEXT\"}, {\"label\": \"HOSTILE_AUDIT_F002\", \"load_bearing\": \"True\", \"source_type\": \"EXTERNAL_HOSTILE_AUDIT\"}]",
+      "rejected": true,
+      "reason": "CR115 tags source types and recomputes the topology table instead of hiding the audit classification."
+    },
+    {
+      "control_id": "WC14_downstream_R_A0_Higgs_derives_D3",
+      "hypothesis": "Use R=12, A0, Higgs, 2pi, or downstream particle matches as the D=3 derivation.",
+      "observed": "{\"declared_forbidden\": [\"external peer-review closure\", \"empirical proof of D=3\", \"string-theory critical dimension\", \"D3 from poset axioms alone\", \"D3 from R, A0, 2pi, Higgs, or downstream particle numerology\"], \"load_bearing_sources\": [\"CR115_RUNNER\", \"G347_OUTPUT\", \"G348_OUTPUT\", \"G349_OUTPUT\", \"G350_OUTPUT\", \"G351_OUTPUT\", \"G352_OUTPUT\", \"G353_OUTPUT\", \"G354_OUTPUT\", \"G355_OUTPUT\", \"THEOREM_D3\", \"VERDICT_G355\", \"HOSTILE_AUDIT_F002\"]}",
+      "rejected": true,
+      "reason": "The load-bearing D3 gate uses identity-carrier topology, not R/A0/Higgs downstream closure."
+    },
+    {
+      "control_id": "WC15_external_peer_review_or_empirical_proof_claim",
+      "hypothesis": "Claim external peer-review closure or empirical proof of D=3.",
+      "observed": "{\"pass\": true, \"rejected\": true}",
+      "rejected": true,
+      "reason": "CR115 is an inside-SAM theorem gate, not an external proof claim."
+    }
+  ],
+  "scope": [
+    "Closes the G348 carrier-necessity gap inside SAM by routing all G348 identity-carrier alternatives through support, deformation quotient, and self-contained stable-sector rules.",
+    "Keeps G347 as the only load-bearing computational topology selector.",
+    "Recalibrates G355: strong inside-SAM theorem gate, not external peer-review or empirical proof.",
+    "Does not derive D=3 from R=12, A0, Higgs, 2pi, SN/BAO, or particle mass matches.",
+    "Does not derive the matter spectrum, chirality, anomaly cancellation, or exact masses."
+  ],
+  "open_debts": [
+    "For publication, write the carrier-uniqueness theorem in prose with the source-type calibration visible.",
+    "External topology review can still be invited for the G347 obstruction theorem wording.",
+    "If desired, backfill G348-G355 with explicit test_type fields so assertion records are machine-labeled."
+  ]
+}

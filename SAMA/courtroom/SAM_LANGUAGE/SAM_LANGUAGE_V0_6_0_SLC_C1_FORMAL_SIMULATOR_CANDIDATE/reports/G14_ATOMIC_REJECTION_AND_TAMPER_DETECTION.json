@@ -1,0 +1,11 @@
+{
+  "rejected_operation_atomic": true,
+  "status": "PASS",
+  "tamper_detections": {
+    "coefficient": true,
+    "exponent": true,
+    "operator_argument": true,
+    "predecessor_hash": true,
+    "receipt": true
+  }
+}

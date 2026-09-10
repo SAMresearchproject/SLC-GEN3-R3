@@ -1,0 +1,132 @@
+{
+  "cr_id": "CR098b",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "extends_registry": "CR098 (particle-scale, sealed) + CR098a (Phase 2 cosmology-scale, sealed)",
+  "test_class": "FORWARD_BLIND_PREDICTION_REGISTRY_PHASE_3_REFRESH",
+  "execution_status": "CLEAN",
+  "result_class": "CR098b_PHASE_3_FORWARD_BLIND_REGISTRY_REFRESH_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "phase_3_predictions_count": 10,
+  "phase_3_predictions_per_source_cr": {
+    "CR116_corrected": 1,
+    "CR120": 3,
+    "CR121": 4,
+    "CR122": 2
+  },
+  "cr119_catalog_pointer_row_count": 573,
+  "prediction_commit_sha256": "7c9a7e5e4bf404a7928c1c54bcc487f32f158fa5c3bbcfecbf20591db92b992a",
+  "prediction_commit_utc": "2026-06-15T19:51:16Z",
+  "phase_3_registry_csv_sha256": "15ca15585270b6df3babe249f48f371062993a53d3abd03a090813c4902ef193",
+  "upstream_hashes": {
+    "CR098_summary.json": "ce13c6fba669d2ce5306fbe6373553423b515ba838c66211fe7ed146009ca123",
+    "CR098_forward_blind_prediction_registry.csv": "6884850496ee233ed799c886dc114c70e9930b9a6c9b9c7d5df867064751fb1e",
+    "CR098a_summary.json": "d5e17acbdf6ee3dff8f096ebe76bb86f16df819c40f86a9e9928b8d2fcbab080",
+    "CR098a_phase_2_forward_blind_registry.csv": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR098a_prediction_commit.json": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe",
+    "CR116_correction_lock.json": "d3f3204be9cbc5bbb9520664bdb937452981e494f38c6154266fffa95a04fd65",
+    "CR119_summary.json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR120_qp091_chain_intake_lock.json": "09cf6beaf8bd6fb1520b740b4451491a664e220897e4803f514fd9adcd9e604d",
+    "CR121_gravity_mechanism_intake_lock.json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR122_carrier_compression_gate_lock.json": "26b4ea2cf3cc6dd89bd47e392e23d3dd600776e9cc14a081a1b0dc81663ad27a",
+    "CR123_cross_branch_phase_3_certificate.json": "38a6f11eaf6a366a470ae2f34a0483e0669c451b954364d495252052dc8d0fe2",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_phase_3_registry_csv_written",
+      "pass": true,
+      "details": {
+        "registry_sha256": "15ca15585270b6df3babe249f48f371062993a53d3abd03a090813c4902ef193"
+      }
+    },
+    {
+      "name": "P2_ten_phase_3_predictions_registered",
+      "pass": true
+    },
+    {
+      "name": "P3_predictions_span_four_source_CRs",
+      "pass": true,
+      "details": {
+        "CR116_corrected": 1,
+        "CR120": 3,
+        "CR121": 4,
+        "CR122": 2
+      }
+    },
+    {
+      "name": "P4_each_prediction_has_falsification_criterion",
+      "pass": true
+    },
+    {
+      "name": "P5_each_prediction_zero_free_parameters",
+      "pass": true
+    },
+    {
+      "name": "P6_CR098_unmodified",
+      "pass": true
+    },
+    {
+      "name": "P7_CR098a_unmodified",
+      "pass": true
+    },
+    {
+      "name": "P8_all_phase_3_source_CRs_present",
+      "pass": true
+    },
+    {
+      "name": "P9_CR119_catalog_pointer_recorded_573_rows",
+      "pass": true
+    },
+    {
+      "name": "P10_registry_sealed_with_sha256_sibling",
+      "pass": true
+    },
+    {
+      "name": "P11_prediction_commit_lock_sealed",
+      "pass": true
+    },
+    {
+      "name": "P12_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P13_CR116_supersession_recorded_for_CR110_PRED_2",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR098_registry_not_modified",
+      "pass": true,
+      "details": "CR098 registry hashed and referenced; not overwritten"
+    },
+    {
+      "name": "WC2_CR098a_registry_not_modified",
+      "pass": true,
+      "details": "CR098a Phase 2 registry hashed and referenced; not overwritten"
+    },
+    {
+      "name": "WC3_no_match_revealed_at_registry_lock_time",
+      "pass": true,
+      "details": "all 10 Phase 3 predictions are forward-blind; no match data is used in this CR"
+    },
+    {
+      "name": "WC4_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC5_explicit_falsification_criterion_per_prediction",
+      "pass": true
+    },
+    {
+      "name": "WC6_CR119_broader_catalog_pointer_not_enumerated_inline",
+      "pass": true,
+      "details": "573-entry catalog summarized via pointer; individual rows are in CR119 dir, not duplicated"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future match reveals must be added as appeal rows in a NEW CR (never inline in any of CR098 / CR098a / CR098b CSVs)",
+    "CR119 broader catalog (573 rows) is referenced via pointer; future per-row reveal would be a separate registry refresh"
+  ]
+}

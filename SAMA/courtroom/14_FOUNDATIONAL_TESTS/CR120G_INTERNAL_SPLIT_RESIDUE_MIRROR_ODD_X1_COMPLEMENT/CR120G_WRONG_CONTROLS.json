@@ -1,0 +1,20 @@
+{
+  "WC1_omitted_residue_detected_vector": true,
+  "WC2_omitted_residue_detected_scalar": true,
+  "WC3_real_operator_mutation_detected": true,
+  "WC4_static_control_does_not_fake_history": true,
+  "WC5_Pi_bad_fails_X1_annihilation": true,
+  "WC6_Pi_bad_alters_transverse_signature": true,
+  "WC7_arbitrary_coordinate_removal_rejected": true,
+  "observables": {
+    "Pi_bad_X1": {
+      "e0": 1
+    },
+    "Pi_bad_transverse": {
+      "e2": 2
+    },
+    "Pi_bad_transverse_norm_squared": 4,
+    "correct_transverse_norm_squared": 5
+  },
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT"
+}

@@ -1,0 +1,178 @@
+{
+  "artifact": "CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "verdict": "PASS",
+  "precommit_hash": "bac6d988df1546127f9cca0ba9831928600d09af3ed83aae14a5e3c5c612484b",
+  "runner_hash": "15d0f18283bb238466455e7d405b2b0948facfb258dc25a5254b71efb427fbb8",
+  "sam_language_v0_3_consulted_during_development": false,
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "source_hashes": [
+    {
+      "path": "COURTROOM_BRANCH_INTAKE_MAP.md",
+      "expected_sha256": "bb852bf9467718da7b7ce21d8768737520a0ec041d4faf7bb2e2cf4d1e46bcc6",
+      "actual_sha256": "bb852bf9467718da7b7ce21d8768737520a0ec041d4faf7bb2e2cf4d1e46bcc6",
+      "match": true,
+      "role": "branch status and next-work map"
+    },
+    {
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "expected_sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4",
+      "actual_sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4",
+      "match": true,
+      "role": "current SAM radix-route and carrier kernel"
+    },
+    {
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "expected_sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd",
+      "actual_sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd",
+      "match": true,
+      "role": "current execution grammar and preflight discipline"
+    },
+    {
+      "path": "SAM_TESTING_RULES.md",
+      "expected_sha256": "6913e15b270ec16aba4c8985f6f9c2455d99d1debaf57cbf20575ed543e422a5",
+      "actual_sha256": "6913e15b270ec16aba4c8985f6f9c2455d99d1debaf57cbf20575ed543e422a5",
+      "match": true,
+      "role": "constructive-work versus audit guard"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/README.md",
+      "expected_sha256": "1a4a2e0d388f2a913ee68163a5b2636dfef44f0aa5712a48acbe6e17b4fb6595",
+      "actual_sha256": "1a4a2e0d388f2a913ee68163a5b2636dfef44f0aa5712a48acbe6e17b4fb6595",
+      "match": true,
+      "role": "branch framing and load-bearing atoms"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR_QUEUE.md",
+      "expected_sha256": "ef6f85bc02a1dd2a9fc62f4d14da865079f0705f25e73eeb815d1d6b6b810c66",
+      "actual_sha256": "ef6f85bc02a1dd2a9fc62f4d14da865079f0705f25e73eeb815d1d6b6b810c66",
+      "match": true,
+      "role": "queued GW tests and provenance requirements"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/GW_SUBSTRATE_FRAMING.md",
+      "expected_sha256": "a19afc01a749e925d6e1e4f70321217dcaca95fd5981a68e0e52ebdfcb2ed941",
+      "actual_sha256": "a19afc01a749e925d6e1e4f70321217dcaca95fd5981a68e0e52ebdfcb2ed941",
+      "match": true,
+      "role": "carrier-tensor wave hypothesis"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/STUDY_NOTES_FOR_QNM_DERIVATION.md",
+      "expected_sha256": "80eacc60d0d772bba7082b54a35322872e106f8a7864ba5ccf6e03355acf6e86",
+      "actual_sha256": "80eacc60d0d772bba7082b54a35322872e106f8a7864ba5ccf6e03355acf6e86",
+      "match": true,
+      "role": "open CR005b damping frontier"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS/CR003_result.md",
+      "expected_sha256": "5716a8854584ca5eedeeeec07b57a7c829585e20d77a5ab21ebaefe1ab6cc2b7",
+      "actual_sha256": "5716a8854584ca5eedeeeec07b57a7c829585e20d77a5ab21ebaefe1ab6cc2b7",
+      "match": true,
+      "role": "exploratory QNM real/imaginary match and comparator value"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS/CR003_summary.json",
+      "expected_sha256": "4d9807f875c6175b66d07e7696a9439f134a369adb15fbe68cb9a3630fa03213",
+      "actual_sha256": "4d9807f875c6175b66d07e7696a9439f134a369adb15fbe68cb9a3630fa03213",
+      "match": true,
+      "role": "machine-readable CR003 target and best expression"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR004_SAM_VS_GR_DISCRIMINATION_MAP/CR004_result.md",
+      "expected_sha256": "f816eb4b2e140a8f220e501fdb6e07c746a5c7cac5822720966a8d59be74b564",
+      "actual_sha256": "f816eb4b2e140a8f220e501fdb6e07c746a5c7cac5822720966a8d59be74b564",
+      "match": true,
+      "role": "QNM future-test context and open derivation map"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_PRECOMMIT.md",
+      "expected_sha256": "624f0c2655333dd9e6e217f2bed0cbdbd97197281b6f06b462747b7896b13b6b",
+      "actual_sha256": "624f0c2655333dd9e6e217f2bed0cbdbd97197281b6f06b462747b7896b13b6b",
+      "match": true,
+      "role": "sealed real-frequency derivation boundary"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_result.md",
+      "expected_sha256": "d21c4e16b5bd4471f158c4ec19d617c11c133f89937eb33a95c0993397a1e6ec",
+      "actual_sha256": "d21c4e16b5bd4471f158c4ec19d617c11c133f89937eb33a95c0993397a1e6ec",
+      "match": true,
+      "role": "explicit statement that damping remains open"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_summary.json",
+      "expected_sha256": "b2f598b3eb746a4075410a8abad5a864f422fbcde44822af0c8a1dd22b3e59f5",
+      "actual_sha256": "b2f598b3eb746a4075410a8abad5a864f422fbcde44822af0c8a1dd22b3e59f5",
+      "match": true,
+      "role": "machine-readable CR005 atoms and verdict"
+    }
+  ],
+  "source_manifest": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_SOURCE_MANIFEST.json",
+  "precommit": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_PRECOMMIT.md",
+  "external_anchors": [],
+  "external_comparators": [
+    {
+      "name": "Berti/Cardoso/Starinets 2009 Schwarzschild fundamental omega_I*M",
+      "value": 0.08896232,
+      "treatment": "reveal_only_comparator_from_CR003_source_chain"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_capacity_denominator",
+      "expression": "R/R^2",
+      "value_fraction": "1/12",
+      "value_decimal": 0.08333333333333333,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 6.327382948945878,
+      "role_status": "role_rejected"
+    },
+    {
+      "name": "WC2_closed_ledger_denominator",
+      "expression": "R/L",
+      "value_fraction": "2/27",
+      "value_decimal": 0.07407407407407407,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 16.735451510174112,
+      "role_status": "role_rejected"
+    },
+    {
+      "name": "WC3_matter_denominator",
+      "expression": "R/M",
+      "value_fraction": "2/21",
+      "value_decimal": 0.09523809523809523,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 7.054419486918997,
+      "role_status": "role_rejected"
+    },
+    {
+      "name": "WC4_dimension_numerator",
+      "expression": "d_hat/(L - V)",
+      "value_fraction": "1/45",
+      "value_decimal": 0.022222222222222223,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 75.02063545305222,
+      "role_status": "role_rejected"
+    },
+    {
+      "name": "WC5_theta_numerator",
+      "expression": "Theta/(L - V)",
+      "value_fraction": "2/15",
+      "value_decimal": 0.13333333333333333,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 49.876187281686605,
+      "role_status": "role_rejected"
+    },
+    {
+      "name": "WC6_pi_neighbor",
+      "expression": "(pi + S)/M",
+      "value_fraction": "irrational_pi_expression",
+      "value_decimal": 0.08842533852055391,
+      "target_decimal": 0.08896232,
+      "relative_error_pct": 0.6036055258519404,
+      "role_status": "role_rejected_pi_not_sourced_in_damping_shell_rule"
+    }
+  ],
+  "free_parameter_count": 0,
+  "exceptions": [],
+  "forecast_generated": false
+}

@@ -1,0 +1,173 @@
+{
+  "cr_id": "CR067b",
+  "test_class": "PAUL_REVERE_PROTOCOL_NV_CENTER_CLASSICAL_SIMULATOR_V1_CRYO_DD",
+  "execution_status": "CLEAN",
+  "result_class": "CR067b_PAUL_REVERE_NV_SIMULATOR_V1_CRYO_DD_SEALED__PREDICTIONS_10_OF_10__WRONG_CONTROLS_7_OF_7",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "epistemic_stance": "EPISTEMIC_STANCE.md",
+  "architectural_relationship_to_CR067a": "Same code architecture; cryo+DD operating-point parameters",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "A_share": 0.08333333333333333,
+    "A_side": 0.041666666666666664
+  },
+  "loaded_probabilities": {
+    "carrier_ms0": 0.23529411764705882,
+    "envelope_msplus1": 0.5294117647058824,
+    "sensor_msminus1": 0.23529411764705882,
+    "sum": 1.0
+  },
+  "nv_constants_used_cryo_dd": {
+    "D_zfs_Hz": 2870000000.0,
+    "T1_cryo_dd_s": 1.0,
+    "T2_cryo_dd_s": 1.0,
+    "open_window_duration_s": 0.0001,
+    "drift_angle_rad": 0.5,
+    "omega_drive_test_rad_per_s": 18032741831.60541
+  },
+  "T2_grav_prediction_v1_1_seconds": 3.4000409920065587e-06,
+  "predictions": {
+    "P1_loaded_state_amplitudes_correct": {
+      "pass": true,
+      "details": {
+        "loaded_carrier_ms0": 0.23529411764705882,
+        "loaded_envelope_msplus1": 0.5294117647058824,
+        "loaded_sensor_msminus1": 0.23529411764705882,
+        "target_carrier": 0.23529411764705882,
+        "target_envelope": 0.5294117647058824,
+        "target_sensor": 0.23529411764705882,
+        "abs_tol": 1e-06
+      }
+    },
+    "P2_carrier_population_preserved_through_correction": {
+      "pass": true,
+      "details": {
+        "carrier_loaded": 0.23529411764705882,
+        "carrier_post_correction": 0.23537058441179068,
+        "ratio": 1.0003249837501105,
+        "threshold": 0.95
+      }
+    },
+    "P3_sensor_population_preserved_through_correction": {
+      "pass": true,
+      "details": {
+        "sensor_loaded": 0.23529411764705882,
+        "sensor_post_correction": 0.23527058941175671,
+        "ratio": 0.999900004999966,
+        "threshold": 0.95,
+        "cr067a_room_temp_value_for_comparison": 0.9048375039736387
+      }
+    },
+    "P4_envelope_drift_correction_reduces_drift_by_at_least_50_percent": {
+      "pass": true,
+      "details": {
+        "drift_pre_correction": 0.06485568987067047,
+        "drift_post_correction": 5.293852942955812e-05,
+        "reduction_fraction": 0.9991837488810138,
+        "threshold": 0.5
+      }
+    },
+    "P5_no_clone_attempt_returns_invalid_state": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "purity_after": 0.39097232909941526,
+        "reason": "No-cloning theorem enforced: a single-shot copy attempt collapses to a diagonal mixture, reducing purity below 1."
+      }
+    },
+    "P6_premature_commit_returns_refused_flag": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "reason": "RefusedCommit: read attempted before selected-write hash boundary. Protocol returns no logical route identity."
+      }
+    },
+    "P7_T2_grav_floor_consistency": {
+      "pass": true,
+      "details": {
+        "T2_grav_v1_1_at_omega_test_s": 3.4000409920065587e-06,
+        "omega_drive_test_rad_per_s": 18032741831.60541,
+        "formula": "T2_grav = 16 * pi * R^4 / (17 * omega_drive)",
+        "note": "Same as CR067a; floor is operating-point-independent"
+      }
+    },
+    "P8_3_level_qutrit_dynamics_unitary_in_no_decoherence_limit": {
+      "pass": true,
+      "details": "verified by WC3"
+    },
+    "P9_decoherence_recovered_when_T1_T2_finite": {
+      "pass": true,
+      "details": {
+        "purity_at_load": 0.9999999999999999,
+        "purity_at_window_end": 0.9998491597297996,
+        "purity_change": 0.000150840270200292,
+        "note": "At cryo+DD T1=T2=1s with 100us window, decay is ~1e-4; small but nonzero"
+      }
+    },
+    "P10_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "All stages executed without runtime error"
+    }
+  },
+  "wrong_controls": {
+    "WC1_wrong_loaded_state_amplitudes_produce_different_populations": {
+      "pass": true,
+      "details": {
+        "wrong_uniform_P_carrier": 0.3333333333333334,
+        "sam_native_P_carrier": 0.23529411764705882,
+        "delta": 0.0980392156862746
+      }
+    },
+    "WC2_swapped_slot_assignment_violates_protocol_structure": {
+      "pass": true,
+      "details": {
+        "carrier_ms0_population": 0.23529411764705882,
+        "envelope_msplus1_population": 0.5294117647058824,
+        "structural_constraint": "carrier (4/17) < envelope (9/17)"
+      }
+    },
+    "WC3_zero_decoherence_gives_perfect_coherence": {
+      "pass": true,
+      "details": {
+        "purity_no_decoherence": 0.9999999999999999,
+        "expected": 1.0,
+        "tolerance": 1e-10
+      }
+    },
+    "WC4_clone_attempt_reduces_purity": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "purity_after": 0.39097232909941526,
+        "reason": "No-cloning theorem enforced: a single-shot copy attempt collapses to a diagonal mixture, reducing purity below 1."
+      }
+    },
+    "WC5_premature_read_before_selected_write_returns_no_logical_outcome": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "reason": "RefusedCommit: read attempted before selected-write hash boundary. Protocol returns no logical route identity."
+      }
+    },
+    "WC6_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on upstream CR locks"
+    },
+    "WC7_no_free_parameters_introduced": {
+      "pass": true,
+      "details": "All inputs traced to CR067b_declared_premises.json"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 10,
+    "predictions_total": 10,
+    "wrong_controls_passed": 7,
+    "wrong_controls_total": 7
+  }
+}

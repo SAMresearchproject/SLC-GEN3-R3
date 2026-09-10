@@ -1,0 +1,41 @@
+{
+  "commit_utc": "2026-06-15T21:42:55Z",
+  "cr_id": "CR125",
+  "predictions": [
+    {
+      "claim_mass_MeV": 6804.0,
+      "construction": "M_native = 4536 + |S_debit| = 4536 + 2268 = 6804 MeV from SAM closed-loop ledger arithmetic on GROUND_BARYON_3BODY row with partition signature 3+6+9 (sum = 18 = R^2 / 8), closure_depth = 0, q_abs = 3, three_owner_color_closure.",
+      "falsification_criterion": "Single-state fit at 6900 +/- 50 MeV with no satellite peak between 6750 and 6850 MeV at > 3 sigma local; OR a confirmed two-state structure where neither state lies within +/- 50 MeV of 6804 MeV.",
+      "free_parameters_at_test": 0,
+      "mass_tolerance_MeV": 50.0,
+      "non_falsifying_outcomes": "Null result in non-di-J/psi channels; additional states outside 6700-7100 MeV; continued single-vs-two-state ambiguity at low statistics.",
+      "prediction_id": "CR125_PRED_1",
+      "regime": "EXOTIC_HADRON_DI_JPSI_WINDOW",
+      "source_cr": "CR119 (sealed) -> CR124 crosswalk (sealed)",
+      "source_row": "QP093A-0192",
+      "target_dataset": "LHCb di-J/psi Run-3 refinement (extending Sci.Bull.65:1983, 2020); CMS Run-3 di-J/psi (extending CMS-PAS-BPH-23-009 era results); ATLAS Run-3 di-J/psi.  Resolution requires Run-3 final-data statistical power or better."
+    },
+    {
+      "claim_mass_MeV": 7056.94,
+      "construction": "M_native = 7056 = 49 * R^2 (exact integer on the partition lattice); M_obs = 7056 + 0.9358 = 7056.94 MeV from OCTET_COMPOSITE row with partition signature 4+6+12 (sum = 22), closure_depth = 3 (carrying the 2^-D = 1/8 surface debit), q_abs = 2, three_owner_color_closure.",
+      "falsification_criterion": "Single-state fit at 6900 +/- 50 MeV with no satellite peak between 7000 and 7100 MeV at > 3 sigma local; OR a confirmed two-state structure where neither state lies within +/- 50 MeV of 7057 MeV.",
+      "free_parameters_at_test": 0,
+      "mass_tolerance_MeV": 50.0,
+      "non_falsifying_outcomes": "Null result in non-di-J/psi channels; additional states outside 6700-7100 MeV; continued single-vs-two-state ambiguity at low statistics.",
+      "prediction_id": "CR125_PRED_2",
+      "regime": "EXOTIC_HADRON_DI_JPSI_WINDOW",
+      "source_cr": "CR119 (sealed) -> CR124 crosswalk (sealed)",
+      "source_row": "QP093A-0208",
+      "target_dataset": "LHCb di-J/psi Run-3 refinement; CMS Run-3 di-J/psi; ATLAS Run-3 di-J/psi. Same data sources as PRED_1; both predictions resolve together."
+    }
+  ],
+  "registry_csv_sha256": "a4f3166c962944d10916f3bc145a04fc27a16a0ff379e911803eb86782ab3bcb",
+  "rule_of_immutability": "Prediction masses and falsification criteria locked at CR125 seal time.  Future reveal of LHCb / CMS / ATLAS X(6900) substructure must be recorded in a SEPARATE appeal CR; this registry CSV is never edited.",
+  "upstream_sha256": {
+    "CR098b_phase_3_forward_blind_registry_csv": "15ca15585270b6df3babe249f48f371062993a53d3abd03a090813c4902ef193",
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR119_summary_json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR124_summary_json": "82951214172a95c1ca4c2e3bc7683801cb3ea94495a7decdaa5e286d2c7978bc"
+  }
+}

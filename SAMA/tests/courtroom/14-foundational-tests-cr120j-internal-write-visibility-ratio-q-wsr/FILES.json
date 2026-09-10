@@ -1,0 +1,252 @@
+{
+  "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CANDIDATE_HASH.txt",
+      "mode": "100644",
+      "git_blob": "9aa27d3cef8ca2c5f88c1113b6854238d46cc850",
+      "bytes": 65,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CANDIDATE_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CANDIDATE_HASH.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CANDIDATE_HASH.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CANDIDATE_HASH.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/COMMAND_LOG.txt",
+      "mode": "100644",
+      "git_blob": "ef57c62f22e071237c147394b454aba98936c46a",
+      "bytes": 613,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/COMMAND_LOG.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/COMMAND_LOG.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/COMMAND_LOG.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/COMMAND_LOG.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_AUTHORITY_BOUNDARY.json",
+      "mode": "100644",
+      "git_blob": "874854dfa1136b930e0c45ed20ec7396d30c0323",
+      "bytes": 1455,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_AUTHORITY_BOUNDARY.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_AUTHORITY_BOUNDARY.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_AUTHORITY_BOUNDARY.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_AUTHORITY_BOUNDARY.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CALIBRATION.json",
+      "mode": "100644",
+      "git_blob": "d6ac7a2c020204490e1858a08255bc4740580421",
+      "bytes": 4527,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CALIBRATION.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CALIBRATION.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CALIBRATION.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CALIBRATION.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CANDIDATE_MANIFEST.json",
+      "mode": "100644",
+      "git_blob": "6c92142f315081a346e9652ad059b223a3bf7deb",
+      "bytes": 4645,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CANDIDATE_MANIFEST.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CANDIDATE_MANIFEST.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CANDIDATE_MANIFEST.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_CANDIDATE_MANIFEST.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_COLLISION_MATRIX.json",
+      "mode": "100644",
+      "git_blob": "cacc8f0613a922704abd9ef96847d96165f82e52",
+      "bytes": 8417,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_COLLISION_MATRIX.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_COLLISION_MATRIX.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_COLLISION_MATRIX.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_COLLISION_MATRIX.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_DELAY_ERASURE.json",
+      "mode": "100644",
+      "git_blob": "e29dffe7447ebd633127d1995e0440324b6e75bc",
+      "bytes": 2434,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_DELAY_ERASURE.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_DELAY_ERASURE.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_DELAY_ERASURE.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_DELAY_ERASURE.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_HELDOUT.json",
+      "mode": "100644",
+      "git_blob": "c164c1ede848b7990e82e0d78eef2baccf44ea78",
+      "bytes": 8928,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_HELDOUT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_HELDOUT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_HELDOUT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_HELDOUT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_INHERITED_SURFACE_LOCK.json",
+      "mode": "100644",
+      "git_blob": "35747a42075411c467a7249061f5e502f25e111c",
+      "bytes": 568,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_INHERITED_SURFACE_LOCK.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_INHERITED_SURFACE_LOCK.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_INHERITED_SURFACE_LOCK.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_INHERITED_SURFACE_LOCK.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "e486e9e7724637016c66987d68a078c17800e105",
+      "bytes": 10913,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.sha256.txt",
+      "mode": "100644",
+      "git_blob": "62183ec06e451c6e72dcf43d11f8be2c28b46780",
+      "bytes": 86,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.sha256.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.sha256.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PRECOMMIT.sha256.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PROBE_AUDIT.json",
+      "mode": "100644",
+      "git_blob": "24d527e0cee061ebc7bfdcd8c65de2bf66972e27",
+      "bytes": 4219,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PROBE_AUDIT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PROBE_AUDIT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PROBE_AUDIT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_PROBE_AUDIT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_Q_WSR_DEFINITION.json",
+      "mode": "100644",
+      "git_blob": "743cbaa09595a78e1466cf698171a2e9ad94a748",
+      "bytes": 1176,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_Q_WSR_DEFINITION.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_Q_WSR_DEFINITION.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_Q_WSR_DEFINITION.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_Q_WSR_DEFINITION.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SCALE_AUDIT.json",
+      "mode": "100644",
+      "git_blob": "1a96172c3a7679f74abbe58bedb971c26ed3e0e5",
+      "bytes": 3548,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SCALE_AUDIT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SCALE_AUDIT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SCALE_AUDIT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SCALE_AUDIT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SOURCE_MANIFEST.json",
+      "mode": "100644",
+      "git_blob": "751d7c591ae346def3647dc12135b84d2d8abf31",
+      "bytes": 3974,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SOURCE_MANIFEST.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SOURCE_MANIFEST.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SOURCE_MANIFEST.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SOURCE_MANIFEST.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SUPPLIED_CONTROLS.json",
+      "mode": "100644",
+      "git_blob": "87c79f607c665ebda6c4df60aa0629f096f9c2bd",
+      "bytes": 7539,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SUPPLIED_CONTROLS.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SUPPLIED_CONTROLS.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SUPPLIED_CONTROLS.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SUPPLIED_CONTROLS.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SYMMETRY_AUDIT.json",
+      "mode": "100644",
+      "git_blob": "1a4aab123ff87c661e983f50a221a9962bbc3d7a",
+      "bytes": 20650,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SYMMETRY_AUDIT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SYMMETRY_AUDIT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SYMMETRY_AUDIT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_SYMMETRY_AUDIT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_VALIDATION_REPORT.json",
+      "mode": "100644",
+      "git_blob": "5798656b22e801c15c19868f5114202e106a4d35",
+      "bytes": 2773,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_VALIDATION_REPORT.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_VALIDATION_REPORT.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_VALIDATION_REPORT.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_VALIDATION_REPORT.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_WRONG_CONTROLS.json",
+      "mode": "100644",
+      "git_blob": "5ab4d1ef0121d058b38c328ac0f7849a5a802250",
+      "bytes": 797,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_WRONG_CONTROLS.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_WRONG_CONTROLS.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_WRONG_CONTROLS.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_WRONG_CONTROLS.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_result.md",
+      "mode": "100644",
+      "git_blob": "a57b3bb430d0e539e2132a94f8628717d775b70c",
+      "bytes": 3841,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_result.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_result.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_result.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_summary.json",
+      "mode": "100644",
+      "git_blob": "8b780952a0712ca9089ead4fcbbd4deb9a231eb4",
+      "bytes": 1986,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_summary.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_summary.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/CR120J_summary.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "3960b427534cc0784f5f3b46724994accb3ff851",
+      "bytes": 3635,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/HASHES.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR120J@14"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

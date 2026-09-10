@@ -1,0 +1,3 @@
+source,result_class,candidate_platforms,external_sources_used,comparison_rows,strongest_candidate,match_count,partial_count,blocker_count,selected_candidate,selected_candidate_alignment_class,protocol_requirement_rows,experimental_step_rows,observable_rows,success_criteria_rows
+QN010,QN010_EXTERNAL_BENCHMARK_COMPARISON_SELECTED,5,8,40,Qunnect_Cisco_metro_photonic_entanglement_swap,4,4,0,,,,,,
+QN011,QN011_EXPERIMENTAL_PROTOCOL_TRANSLATION_SELECTED,,,,,,,,Qunnect_Cisco_metro_photonic_entanglement_swap,STRONGEST_QN010_ALIGNMENT,8,9,61,9

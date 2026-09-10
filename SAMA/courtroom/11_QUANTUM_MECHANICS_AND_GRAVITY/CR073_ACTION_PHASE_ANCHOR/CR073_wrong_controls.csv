@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Simulated scipy.optimize on observed phase,FAIL,True,True,engine-surface fit detection wired
+WC2,Simulated qp001_summary with free_parameters_introduced=2,FAIL,True,True,free-params detection wired
+WC3,Simulated absence of action identity pattern,DIAGNOSTIC,True,True,identity-absence detection wired
+WC4,Simulated missing free-particle action test,BOUNDARY,True,True,missing-test detection wired
+WC5,Simulated manifest seal corruption,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,Identity pattern in a do-not-use comment,PRESENCE_RECORDED_FIT_SCAN_SEPARATE,True,True,phase 2/3 identity match is presence-only; engine-surface fit is phase 6

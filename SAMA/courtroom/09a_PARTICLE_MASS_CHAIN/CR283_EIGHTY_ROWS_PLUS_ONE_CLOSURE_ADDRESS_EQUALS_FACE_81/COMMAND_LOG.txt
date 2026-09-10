@@ -1,0 +1,5 @@
+2026-07-12T08:35:23Z | preflight | python tools\run_sam_test.py --task "SAM_PROSPECTIVE_CR_80_PARTICLE_ROWS_81_FACE_CLOSURE_ADDRESS_5_5_XHIGH" --preflight-only
+2026-07-12T08:37:45Z | precommit_package | Created source audit, source manifest, model definitions, coordinate-rule precommit, assumptions, and CR precommit.
+2026-07-12T08:38:30Z | precommit_hash | CR283_PRECOMMIT.md sha256=8c79dc4493cc2e91427f626c36c80e34a21ee628cd2fc48e807d02f794b8588a
+2026-07-12T08:39:00Z | runner_hash | CR283_runner.py sha256=e9962fd413e64ed000245b6464bfab02f2302210fc4b29f67d9b12529801933e
+2026-07-12T08:43:03Z | runner_complete | PASS_CARDINALITY_AND_TYPED_LEDGER_WELD_ROW_GEOMETRY_OPEN

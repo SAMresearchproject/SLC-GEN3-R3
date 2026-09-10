@@ -1,0 +1,55 @@
+{
+  "cr_id": "CR137",
+  "result_class": "CR137_CR063A_REGRADE_TO_REFUTED_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "appeal_queue_position": "2 of 7 blocking",
+  "regrade_type": "VERDICT_DOWNGRADE_PASS_TO_REFUTED",
+  "from_verdict": "CR063a_HARDWARE_TRANSLATION_V1_SEALED",
+  "to_verdict": "CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1",
+  "trigger": "TRANSMON_T2_EMPIRICAL_CONTACT_TIER7_AUDIT_FINDING",
+  "trigger_evidence": {
+    "platform": "IBM Heron / Eagle transmon (typical)",
+    "gate_omega_rad_per_s": 31416000.0,
+    "T2_observed_us": 100.0,
+    "T2_grav_v1_0_predicted_ns": 51.8,
+    "overrun_factor_approx": 1932,
+    "source": "CR064a published-T2 verification table (entry tagged [VERIFY_PRECOMMIT])",
+    "v1_0_falsifier_text": "ONE rigorously-isolated T2 measurement on any platform exceeding T2_grav (after channel subtraction) falsifies v1.0."
+  },
+  "rescue_path": {
+    "rescue_cr": "CR-064a A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1",
+    "rescue_formula": "T2_grav = 16 * pi * R^4 / (17 * omega_gate) seconds",
+    "rescue_structural_inputs_introduced": [
+      "A_0 = 1/(pi*R) operating point correction (enhancement factor pi*R ~= 37.7)",
+      "omega reinterpretation: omega_gate (substrate response rate) rather than qubit splitting"
+    ],
+    "rescue_audit_status": "Surviving claim as of 2026-06-17; CR-138 regrades CR-064a to BOUNDARY pending citation verification and disclosure of 1.0248 gate-rate artifact."
+  },
+  "restoration_requirements": [
+    {
+      "requirement": "Original v1.0 formula T2_grav = 16*R^3/(17*omega) at A = 1 horizon condition (NOT the A_0 = 1/(pi*R) rescue) must agree with a measured T2 on at least one physical qubit platform under rigorous non-gravitational channel subtraction.",
+      "how_to_verify": "Reviewer reads the measurement protocol, confirms the formula tested is literally 16*R^3/(17*omega), confirms the operating point is horizon (A=1) and NOT A_0, confirms subtraction protocol is reported transparently with all subtracted channels enumerated, and confirms the residual T2 equals T2_grav within experimental error."
+    },
+    {
+      "requirement": "The CR-064a v1.1 reinterpretation (omega as gate rate, A_0 scaling) MUST NOT be invoked. v1.0 stands or falls by its own declared formula and conditions.",
+      "how_to_verify": "Reviewer confirms no part of the restoration argument uses omega_gate in place of qubit angular frequency, and confirms no A_0 enhancement factor is applied. Either substitution disqualifies the restoration."
+    },
+    {
+      "requirement": "The CR-064a published-T2 table must be re-verified against current literature (closing the [VERIFY_PRECOMMIT] open debt) with at least one entry matching v1.0's prediction (NOT v1.1's).",
+      "how_to_verify": "Reviewer checks the verified-citation entries in CR-138 result, confirms at least one published T2 measurement equals the v1.0 T2_grav prediction within stated uncertainty at the cited gate angular frequency."
+    }
+  ],
+  "restoration_falsifier": "A second platform measurement showing T2 > 10x * T2_grav_v1_0 at the relevant omega with channel subtraction, BLOCKS restoration. Given the existing approximately 1930x overrun on transmons, restoration is structurally implausible; this CR records that judgment rather than papering over it.",
+  "target": {
+    "cr_id": "CR063a",
+    "dir_name": "CR063a_HARDWARE_TRANSLATION_V1",
+    "current_result_class": "CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1"
+  },
+  "wrong_controls_passed": 8,
+  "wrong_controls_total": 8,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "free_parameters": 0,
+  "falsifier": "Re-executing CR137_runner.py on the post-seal state MUST produce zero new REGRADED entries and zero archive writes; the recomputed lock SHA-256 MUST match the value recorded in CR137_result.md. Any deviation falsifies v1.0."
+}

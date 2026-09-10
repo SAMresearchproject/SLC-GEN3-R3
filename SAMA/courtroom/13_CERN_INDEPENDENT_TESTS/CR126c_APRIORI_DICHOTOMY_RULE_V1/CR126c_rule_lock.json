@@ -1,0 +1,151 @@
+{
+  "cr_id": "CR126c",
+  "forward_blind_test": {
+    "claim": "For any future physically-allowed SAM particle row (CR119 extension or new exotic hadron reveal) compared against a published CERN anchor, the closest natural SAM scale's denominator power is 3 iff the row's operator_class is CLOSED_SCALAR_LOOP, else in {1, 2}.",
+    "falsifier": "Any single physically-allowed row that violates the dichotomy: a non-CSL row whose closest scale is /R^3, OR a CSL row whose closest scale is /R or /R^2.  One violation falsifies v1.0 and triggers an appeal CR with rule v1.1.",
+    "free_parameters_at_test": 0,
+    "id": "CR126c_PRED_1",
+    "non_falsifying": "Rows currently classified REJECTED_FAKE_CLOSURE do not test the rule (excluded). Residuals outside [0.05%, 5%] are outside the rule's domain."
+  },
+  "natural_scale_catalog_size": 25,
+  "natural_scales_with_denom": {
+    "1_over_R1": {
+      "denom_pow": 1,
+      "value_pct": 8.333333
+    },
+    "1_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 0.694444
+    },
+    "1_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.05787
+    },
+    "2negD_D_over_R1": {
+      "denom_pow": 1,
+      "value_pct": 3.125
+    },
+    "2negD_D_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 0.260417
+    },
+    "2negD_D_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.021701
+    },
+    "2negD_alphaH_D_over_R1": {
+      "denom_pow": 1,
+      "value_pct": 6.25
+    },
+    "2negD_alphaH_D_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 0.520833
+    },
+    "2negD_alphaH_D_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.043403
+    },
+    "2negD_alphaH_over_R1": {
+      "denom_pow": 1,
+      "value_pct": 2.083333
+    },
+    "2negD_alphaH_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 0.173611
+    },
+    "2negD_alphaH_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.014468
+    },
+    "2negD_over_R1": {
+      "denom_pow": 1,
+      "value_pct": 1.041667
+    },
+    "2negD_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 0.086806
+    },
+    "2negD_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.007234
+    },
+    "D_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 2.083333
+    },
+    "D_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.173611
+    },
+    "D_sq_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 6.25
+    },
+    "D_sq_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.520833
+    },
+    "alphaH_D_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 4.166667
+    },
+    "alphaH_D_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.347222
+    },
+    "alphaH_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 1.388889
+    },
+    "alphaH_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.115741
+    },
+    "alphaH_sq_over_R2": {
+      "denom_pow": 2,
+      "value_pct": 2.777778
+    },
+    "alphaH_sq_over_R3": {
+      "denom_pow": 3,
+      "value_pct": 0.231481
+    }
+  },
+  "rule_committed_utc": "2026-06-15T22:08:34Z",
+  "rule_definition": {
+    "branches": {
+      "else": "predicted_denom_family = {1, 2} (i.e. /R or /R^2)",
+      "if operator_class == 'CLOSED_SCALAR_LOOP'": "predicted_denom_family = {3} (i.e. /R^3)"
+    },
+    "explicit_non_predictions": [
+      "numerator of the residual scale is NOT predicted by rule v1.0",
+      "closure_depth, q_abs, partition_signature are NOT inputs in v1.0"
+    ],
+    "input_features": [
+      "operator_class"
+    ],
+    "name": "OPERATOR_CLASS_TO_RESIDUAL_DENOMINATOR_DICHOTOMY",
+    "output": "predicted denominator family of closest natural SAM scale to (M_anchor - M_sam)/M_anchor"
+  },
+  "rule_immutability": "Rule v1.0 definition, MC seeds, scale catalog, and test domain frozen at CR126c seal time.  Falsification or revision must be in an appeal CR.",
+  "rule_version": "v1.0",
+  "test_outcome": {
+    "csl_hits": 1,
+    "csl_rows": 1,
+    "non_csl_hits": 16,
+    "non_csl_rows": 16,
+    "p_csl_loguniform": 0.42189,
+    "p_csl_uniform": 0.093265,
+    "p_joint_loguniform": 6.56699884001572e-05,
+    "p_joint_uniform": 0.019471740447779357,
+    "p_non_csl_loguniform": 0.0001556566602672668,
+    "p_non_csl_uniform": 0.20877864630653895,
+    "verdict_class": "RULE_V1_SUPPORTED"
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR126_summary_json": "1336c0a92628f306c8feea49a7cf966d1ddc9dbd187866c2a9aecf7d06f1a5ad",
+    "CR126b_extended_decomposition_csv": "9456b953768c5da4664e73ae06548c5e46a902e4db84ba8d2cc784e33b959cec",
+    "CR126b_summary_json": "ea26e5adce4066beff29c2a81acbceee22758216ae53b552f1e3fa091601a4f4"
+  }
+}

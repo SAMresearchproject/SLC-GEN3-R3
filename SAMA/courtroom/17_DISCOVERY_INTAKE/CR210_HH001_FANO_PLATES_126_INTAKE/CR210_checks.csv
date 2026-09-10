@@ -1,0 +1,52 @@
+check,status,value,detail
+hh_readme source exists,PASS,True,C:\VS\Haunted_House\README.md
+hh_house_rules source exists,PASS,True,C:\VS\Haunted_House\HOUSE_RULES.md
+hh_exploration_index source exists,PASS,True,C:\VS\Haunted_House\explorations\INDEX.md
+hh001_note source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_D3_TO_PARTICLES_BREADCRUMB_AUDIT.md
+hh001_pdf source exists,PASS,True,C:\VS\HH001_fano_plates_126.pdf
+hh001_sis_126x7 source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_126x7_table.csv
+hh001_sis_8col source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_8col_final.csv
+hh001_action_residual source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_action_residual.csv
+hh001_six_channel_signatures source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_6channel_signatures.csv
+hh001_binary_encoded source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_binary_encoded.csv
+hh001_binary_v2 source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_binary_v2.csv
+hh001_binary_v22 source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_SIS_binary_v22.csv
+hh001_fano_script source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_fano_plane_matter.py
+hh001_seven_channels_script source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_seven_channels_render.py
+hh001_build_8col_script source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_build_sis_8col_final.py
+hh001_png_fano source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_fano_plane_matter.png
+hh001_png_seven_channels source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_seven_channels.png
+hh001_png_fractal_126 source exists,PASS,True,C:\VS\Haunted_House\explorations\HH001_fractal_126.png
+cr113_summary source exists,PASS,True,C:\VS\The_Courtroom\14_FOUNDATIONAL_TESTS\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\CR113_summary.json
+cr114_summary source exists,PASS,True,C:\VS\The_Courtroom\14_FOUNDATIONAL_TESTS\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\CR114_summary.json
+cr115_summary source exists,PASS,True,C:\VS\The_Courtroom\14_FOUNDATIONAL_TESTS\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\CR115_summary.json
+cr119_summary source exists,PASS,True,C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL\CR119_summary.json
+cr119_periodic_table source exists,PASS,True,C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL\CR119_courtroom_periodic_table.csv
+cr119_result source exists,PASS,True,C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL\CR119_result.md
+cr119_hashes source exists,PASS,True,C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL\HASHES.txt
+PDF has 11 pages,PASS,11,pypdf readback
+PDF contains SAM Fano Plates footers,PASS,11,PDF extracted text
+PDF contains Z126 frontier plate,PASS,True,PDF extracted text
+HH001 note records Fano survival,PASS,SURVIVED,HH001 status trail
+HH001 note records falsified action reading,PASS,FALSIFIED,HH001 status trail
+HH001 note records open mapping risk,PASS,OPEN,HH001 status trail
+CR113 R theorem passed,PASS,CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM,CR113 summary
+CR114 binary face-state split theorem passed,PASS,CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM,CR114 summary
+CR115 D=3 invariant carrier theorem passed,PASS,CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE,CR115 summary
+SAM address partition theorem recomputes 18 + 126,PASS,18+126,R^2=144; 2^D=8; 144/8=18; 7*18=126
+CR119 passed source anchor,PASS,PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY,CR119 summary
+CR119 periodic row count is 126,PASS,126,CR119 periodic table
+HH001 SIS table has 126 rows,PASS,126,HH001_SIS_126x7_table.csv
+HH001 SIS table Z is 1..126,PASS,1-126,HH001 Z coverage
+HH001 8-column table has 126 rows,PASS,126,HH001_SIS_8col_final.csv
+Fano channel codes are seven nonzero F_2^3 addresses,PASS,"{""ACTION"": ""111"", ""CLOCK"": ""011"", ""ELEMENT"": ""001"", ""GRAVITY"": ""110"", ""LIGHT"": ""101"", ""MATTER"": ""010"", ""PARTICLE"": ""100""}",channel assignment
+All Fano lines XOR to carrier 000,PASS,7,Fano line table
+HH001 GRAVITY matches CR119 qA,PASS,126/126,rounded to 1e-6
+HH001 GRAVITON matches CR119 tensor carrier,PASS,126/126,rounded to 1e-6
+HH001 GRAVITON equals GRAVITY/8,PASS,126/126,rounded to 1e-6
+ACTION residual diagnostic preserved as failure,PASS,1/102,HH001_SIS_action_residual.csv
+XOR closure controls stay rejected/diagnostic,PASS,7/102; 7/102,binary v2/v22 closure counts
+Six-channel signature inventory is recorded,PASS,XOR 101/126; SUM 120/126,HH001_6channel_signatures.csv diagnostic/open lane
+Known labels downstream only,PASS,no construction input labels,CR119 periodic table
+Z119-Z126 frontier boundary preserved,PASS,8,CR119 summary
+All wrong controls rejected,PASS,8/8,CR210 controls

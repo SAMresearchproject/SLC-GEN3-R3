@@ -1,0 +1,42 @@
+﻿check_id,requirement,actual,passed
+C01,Courtroom preflight metadata is present,file=True token=True,true
+C02,All precommitted CR287 contract files match SHA-256,5/5,true
+C03,Exactly 14 local sources are frozen,14,true
+C04,Every frozen source matches bytes and SHA-256,14/14,true
+C05,CR285 coefficient-free lexicographic K is frozen,operator_present,true
+C06,CR285 supplies a clean 960-gate grammar,verdict=PASS gates=960,true
+C07,CR286 supplies a clean nine-species graph family without rankings,verdict=PASS species=9 rankings=0,true
+C08,CR287 remains the precommitted blind pore compatibility stage,SEALED_PORE_RANKINGS,true
+C09,Exactly nine primary OCT6 graphs are present,9,true
+C10,Every species has one primary and three controls,graphs=36 controls=27 species=9,true
+C11,Primary hypotheses remain unselected with six contacts,9,true
+C12,Primary species boundary is the exact signed-axis six-port set,-x;+x;-y;+y;-z;+z,true
+C13,Exactly 960 directed gates enter CR287,960,true
+C14,All directed gate IDs are unique,960,true
+C15,Exactly 480 complete reverse gate pairs enter CR287,480,true
+C16,Every entry and exit face contributes exactly three typed ports,960/960,true
+C17,Every gate covers six unique signed-axis ports,960/960,true
+C18,All gate rows retain complementary and disjoint source checks,all_true,true
+C19,Signed-axis equality is frozen as topology-only mapping,mapping_present,true
+C20,Exactly 8640 primary graph-gate mappings construct,8640,true
+C21,Every primary mapping is admissible,8640/8640,true
+C22,"Every admissible mapping has K=(0,0,0,0)",Counter({'0;0;0;0': 8640}),true
+C23,No species contact is broken,0,true
+C24,No support contact or remaining edit is added,support=0 remaining=0,true
+C25,Exactly 27 control graphs are audited,27,true
+C26,Exactly 25920 control mappings are rejected before ranking,25920,true
+C27,Both tetrahedral parity controls fail the typed namespace gate,"Counter({'FACE_STATE_NAMESPACE_NOT_SIGNED_AXIS_VERTEX_NAMESPACE': 18, 'NO_BOUNDARY_PORTS': 9})",true
+C28,All core-only controls fail for absent boundary ports,9,true
+C29,Primary comparison produces one distinct K vector,1,true
+C30,All nine species remain in one complete tie class,species=9 vectors=1,true
+C31,All 960 gates remain in one complete tie class,gates=960 vectors=1,true
+C32,All 480 reverse gate pairs remain tied,480/480,true
+C33,Complete CR285 source-surface partition is retained without selection,"{'yes': 856, 'no': 104}",true
+C34,Triad signatures do not alter the compatibility vector,120,true
+C35,No observed target or physical claim enters a comparison,all_false,true
+C36,No acoustic or Starbreaker dependency enters the gate catalog,all_false,true
+C37,No physical scale or material is promoted,all_open,true
+C38,Exactly 22 wrong controls were precommitted,22,true
+C39,Every wrong control is rejected,22/22,true
+C40,All precommitted CR287 inventory counts close exactly,"{'primary_species_graphs': 9, 'directed_gates': 960, 'all_graph_gate_combinations': 34560, 'primary_admissible_mappings': 8640, 'control_mappings_rejected': 25920, 'species_rank_groups': 1, 'gate_rank_groups': 1}",true
+C41,The declared outcome is a boundary with no physical promotion,BOUNDARY,true

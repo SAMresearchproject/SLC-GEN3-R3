@@ -1,0 +1,291 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "firewall_block_verbatim": "Do not inspect SAM_LANGUAGE_V0_3, its registered contracts,\ncandidate implementation, or expected language output while developing this CR.\n\nSet:\nsam_language_v0_3_consulted_during_development = false\nsam_language_v0_3_candidate_hash_known_to_research_agent = false\n\nRecord both fields in the CR precommit, provenance, summary, and result\nartifacts. If either field becomes true in any of those artifacts, the CR\nremains scientifically valid but is ineligible as a SAM Language v0.3 holdout.\n\nThis firewall is between new scientific work and the frozen executable\nlanguage, not between the new work and SAM itself. The research may still use\nthe full scientific repository, previous Courtroom records, conceptual volumes,\nexternal data, and normal SAM methods.",
+  "forbidden_source_paths_opened": false,
+  "forecast_generated": false,
+  "hash_manifest_rows": [
+    {
+      "path": "BINARY_PULSAR_INPUTS_LOCKED.json",
+      "sha256": "AB8BE67887C1C576DE465534E0E584072396E2EB1B2957F70A04C7FFDB961FC1"
+    },
+    {
+      "path": "BINARY_PULSAR_INPUTS_LOCKED.sha256",
+      "sha256": "405D04E8A51AB319782D13CB0067288B6C29A30B0539DE3893F2CD8BB7427003"
+    },
+    {
+      "path": "BINARY_PULSAR_TARGET_REVEAL.json",
+      "sha256": "3E8254FECBF6E8D2ABCA2B8CE9FD0FCCED30EC8F5C906A9727D60B38BFCCCC89"
+    },
+    {
+      "path": "BINARY_PULSAR_TARGET_REVEAL.sha256",
+      "sha256": "32701E2B109F6B43C14DED6C851512ED203DDF23630804335A782F9CD64361CF"
+    },
+    {
+      "path": "BINARY_PULSAR_TARGET_SELECTION.json",
+      "sha256": "6801B4D37EF3CA5053EA02BDC61E9037FE972AC32AC6786E3789A4A7EEB12BC8"
+    },
+    {
+      "path": "BINARY_PULSAR_TARGET_SELECTION.md",
+      "sha256": "0CB2495BEC0F7AF926483EFD4DB7F662F8CB84906A5D56165168F4A3D500FF92"
+    },
+    {
+      "path": "COMMAND_LOG.txt",
+      "sha256": "C541C0C70E8E1D78A5D01E0D78BE17A13C7D885FC35F2A282870497A5635446A"
+    },
+    {
+      "path": "CR148_delay_curve.csv",
+      "sha256": "FD4041BD4B3D461223952640CFEFB0480602EE92E276EAF4C9F698A5F85BE6E9"
+    },
+    {
+      "path": "CR148_dependency_graph.json",
+      "sha256": "FE6BC0C74B026884AE92A93A9457B7F0E6BD771BD2C153DC8B4388A911DB1A99"
+    },
+    {
+      "path": "CR148_integration_check.csv",
+      "sha256": "CDEFF755D0969623BEFD9538A0AD675D17E79B3785A81520F0448B6367C91670"
+    },
+    {
+      "path": "CR148_PRECOMMIT.md",
+      "sha256": "67F9965487DBA1039179E9670AD63CD5B89C1F252C404611AC923CA55571E778"
+    },
+    {
+      "path": "CR148_PRECOMMIT.sha256",
+      "sha256": "49312DE6B17238F20AC7361785149300AE91FE5BCCEF01C39FBCE49E036E3A17"
+    },
+    {
+      "path": "CR148_PREFLIGHT.md",
+      "sha256": "C41E87CBCBAD244B6FD267E7054548F821CB66566080D18453FF548289A1E712"
+    },
+    {
+      "path": "CR148_provenance.json",
+      "sha256": "6991CEC8498ADB8AD9D1500BA2E8467170689AE78E77E3482BACF90A9647B59A"
+    },
+    {
+      "path": "CR148_result.md",
+      "sha256": "A219E05B239441A3010A67F5AA7A8FB7C665D28C41CC329F643E716DF8D5CCE2"
+    },
+    {
+      "path": "CR148_runner.py",
+      "sha256": "2EF75942E3460955EC266677D74980E622DA1957B35C04B5D2587C8226EDC831"
+    },
+    {
+      "path": "CR148_runner.py.sha256",
+      "sha256": "C18EB560FA1D27D7A2B3DFED6AF5417F6AA82B2BCAAD8A1AF4ACB6A93445C4A1"
+    },
+    {
+      "path": "CR148_SOURCE_AUDIT.md",
+      "sha256": "305C1C27FD2561F6D9B1573355049C18A808D24221C34F464F5B4ADCB4212456"
+    },
+    {
+      "path": "CR148_SOURCE_MANIFEST.json",
+      "sha256": "5406A45122803BC5474B0ED0E19FAADA869E81113883DFBA257C06481EE06001"
+    },
+    {
+      "path": "CR148_summary.json",
+      "sha256": "8F387CA3F0E4534473B1375F911BA4BA3A3B2C09FD2AC3752E8C5128B8B31D78"
+    },
+    {
+      "path": "CR148_VALIDATION.md",
+      "sha256": "F5C99E47B2AACE8AA3CC2A12CE2DB54FB570D3E6306ED04AC238F5B5A157CF13"
+    },
+    {
+      "path": "CR148_values.csv",
+      "sha256": "9BAD4C2654FED27F845DF4E9D25746FF904000909B062ED18D820BD55111CEF2"
+    },
+    {
+      "path": "CR148_wrong_controls.csv",
+      "sha256": "33E644CA8A44A582B162C1201CAF327AE13A3808BDFC127556CDA57ED5478166"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-eprint.tar.gz",
+      "sha256": "3DFE4A855397EBED6F120B39EAB2117D0BF4509FA3D19CC56CACD76EEB677090"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig1.ps",
+      "sha256": "6930ECDC3937A41048AE8FA7BC9781AB41AAB11FB7BAE5ACE0FF66D9E6FD0F1D"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig1supp.ps",
+      "sha256": "58E7A25E9FA8A043E660D96BA78C7851A38C6C24C85D5056165DA9A1F2FA6D5D"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig2.ps",
+      "sha256": "42FC6590EC8DB6B35BEC076A5D9E939F380AE1480365224E9AAACB3991F0D080"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig2supp.ps",
+      "sha256": "63892EA34A573D6FD522B53298D5B5380CC9F15CBA8ECB035B9BF143707179F3"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig3.ps",
+      "sha256": "C56F969F994CF839630A10D108CE8FE4AE96FEECA7726A3B2D3E1FF1364EDA27"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig3supp.ps",
+      "sha256": "58261CB5BE8A7B57D9548FFC7645793ED2098BEEC1BFDC8AAA4A0D583D4BB1EF"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/fig4supp.ps",
+      "sha256": "02FA8030DF13625A41ED3482CFD4564712A6380021072813B83204B2258363E0"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/ksm+06.tex",
+      "sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/scicite.sty",
+      "sha256": "3DD6E949DCAC867096EF24CEF764162E41C0CCD3238BED258ECE639385054D32"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417-src/times.sty",
+      "sha256": "0F6A6688EFD3161B81D9314645B133D59283A67AF0F9E725428F9696905C1D8D"
+    },
+    {
+      "path": "external_sources/astro-ph-0609417.pdf",
+      "sha256": "47CAF499FE46675815EDCA0ACA1E758AC8A2EF5623DE000EF9C8ADD0C23E54C3"
+    },
+    {
+      "path": "OPENED_FILE_MANIFEST.json",
+      "sha256": "50D95272F13504687D9020E26D08CDD01D3368D3612967BFDFAD3AC5DD48B9C1"
+    }
+  ],
+  "hashes_verified": true,
+  "input_lock_sha256": "AB8BE67887C1C576DE465534E0E584072396E2EB1B2957F70A04C7FFDB961FC1",
+  "precommit_sha256": "67F9965487DBA1039179E9670AD63CD5B89C1F252C404611AC923CA55571E778",
+  "primary_verdict": "PASS_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "queue_maintenance_performed_by_research_agent": false,
+  "runner_sha256": "2EF75942E3460955EC266677D74980E622DA1957B35C04B5D2587C8226EDC831",
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "sam_language_v0_3_incidental_exposure_detected": false,
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-11T17:34:52Z",
+  "source_hash_rows": [
+    {
+      "actual_sha256": "D76ED2F662B7D28D6AC124D51D8D06C6A377A46AEA2BE320B8674919DB488B78",
+      "expected_sha256": "D76ED2F662B7D28D6AC124D51D8D06C6A377A46AEA2BE320B8674919DB488B78",
+      "id": "BRANCH_04_README",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\README.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "C5E5E6AD7DE696690DF1E727EE46821AC2F99E4E94954AFCC42B2341BC447E90",
+      "expected_sha256": "C5E5E6AD7DE696690DF1E727EE46821AC2F99E4E94954AFCC42B2341BC447E90",
+      "id": "CR006_RESULT",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\CR006_PHOTON_ROAD_SHAPIRO_EXTERNAL_CONTACT\\CR006_result.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "A4F3868773F2A1F0BDF36A4B65FD423FF2A1A9339A24C37BE34DB8DA7A0DD1C9",
+      "expected_sha256": "A4F3868773F2A1F0BDF36A4B65FD423FF2A1A9339A24C37BE34DB8DA7A0DD1C9",
+      "id": "CR147_RESULT",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL\\CR147_result.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "1E0BE6539763DE0347C75AF8EDA2259B385A99B3585A13E3CCECAD2F49744AE4",
+      "expected_sha256": "1E0BE6539763DE0347C75AF8EDA2259B385A99B3585A13E3CCECAD2F49744AE4",
+      "id": "SAM_NATIVE_MASTER_FORMULA_V4_2",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "976C649D071DB8E2320406899DCA3AAE8A10DAD2BCEF277B2954C9C931D600CD",
+      "expected_sha256": "976C649D071DB8E2320406899DCA3AAE8A10DAD2BCEF277B2954C9C931D600CD",
+      "id": "SAM_NATIVE_ACTION_ENGINE_V4_2",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "6913E15B270EC16ABA4C8985F6F9C2455D99D1DEBAF57CBF20575ED543E422A5",
+      "expected_sha256": "6913E15B270EC16ABA4C8985F6F9C2455D99D1DEBAF57CBF20575ED543E422A5",
+      "id": "SAM_TESTING_RULES",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\SAM_TESTING_RULES.md",
+      "section": "internal_sources"
+    },
+    {
+      "actual_sha256": "3DFE4A855397EBED6F120B39EAB2117D0BF4509FA3D19CC56CACD76EEB677090",
+      "expected_sha256": "3DFE4A855397EBED6F120B39EAB2117D0BF4509FA3D19CC56CACD76EEB677090",
+      "id": "KRAMER_2006_ARXIV_EPRINT",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT\\external_sources\\astro-ph-0609417-eprint.tar.gz",
+      "section": "external_sources"
+    },
+    {
+      "actual_sha256": "47CAF499FE46675815EDCA0ACA1E758AC8A2EF5623DE000EF9C8ADD0C23E54C3",
+      "expected_sha256": "47CAF499FE46675815EDCA0ACA1E758AC8A2EF5623DE000EF9C8ADD0C23E54C3",
+      "id": "KRAMER_2006_ARXIV_PDF",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT\\external_sources\\astro-ph-0609417.pdf",
+      "section": "external_sources"
+    },
+    {
+      "actual_sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7",
+      "expected_sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7",
+      "id": "KRAMER_2006_TEX",
+      "match": true,
+      "path": "C:\\VS\\The_Courtroom\\04_PHOTON_ROAD_SHAPIRO_DELAY\\CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT\\external_sources\\astro-ph-0609417-src\\ksm+06.tex",
+      "section": "external_sources"
+    }
+  ],
+  "source_manifest": "CR148_SOURCE_MANIFEST.json",
+  "target_reveal": {
+    "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+    "input_lock_sha256": "AB8BE67887C1C576DE465534E0E584072396E2EB1B2957F70A04C7FFDB961FC1",
+    "precommit_sha256": "67F9965487DBA1039179E9670AD63CD5B89C1F252C404611AC923CA55571E778",
+    "primary_comparator": {
+      "name": "Kramer2006 Table 2 Shapiro shape s observed/expected ratio",
+      "observed_over_expected_ratio": 0.99987,
+      "observed_over_expected_ratio_sigma": 0.0005,
+      "readout_type": "observed_over_expected_ratio_for_Shapiro_shape_s",
+      "s_expected_by_source": 0.99987,
+      "s_observed": 0.99974,
+      "s_sigma": 0.00039,
+      "s_sigma_minus": 0.00039,
+      "s_sigma_plus": 0.00016,
+      "sigma_source": "Table 2, line 950; uncertainty notation 0.99987(50)"
+    },
+    "revealed_lines": [
+      {
+        "line": 907,
+        "text": "Shapiro delay parameter $s$ & $0.99974(-39,+16)$ & $-$ \\\\"
+      },
+      {
+        "line": 908,
+        "text": "Shapiro delay parameter $r$ ($\\mu$s) & 6.21(33) & $-$ \\\\"
+      },
+      {
+        "line": 950,
+        "text": "$s$ & 0.99974($-39$,+16) & 0.99987($-48$,+13) & 0.99987(50) \\\\%& 0.9998 \\\\"
+      },
+      {
+        "line": 951,
+        "text": "$r(\\mu$s) & 6.21(33) & 6.153(26) & 1.009(55)  \\\\%&   6.1520 \\\\"
+      }
+    ],
+    "runner_sha256": "2EF75942E3460955EC266677D74980E622DA1957B35C04B5D2587C8226EDC831",
+    "secondary_comparators": {
+      "shapiro_range_r_microseconds": {
+        "expected_by_source": 6.153,
+        "expected_sigma": 0.026,
+        "observed": 6.21,
+        "observed_over_expected_ratio": 1.009,
+        "observed_over_expected_ratio_sigma": 0.055,
+        "sigma": 0.33,
+        "source_line": 951
+      }
+    },
+    "target_locked_before_reveal": true,
+    "target_reveal_utc": "2026-07-11T17:34:15Z",
+    "target_source_hash_ok_at_reveal": true,
+    "target_source_path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-src/ksm+06.tex",
+    "target_source_sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7",
+    "target_value_opened_after_precommit_and_runner_seal": true
+  }
+}

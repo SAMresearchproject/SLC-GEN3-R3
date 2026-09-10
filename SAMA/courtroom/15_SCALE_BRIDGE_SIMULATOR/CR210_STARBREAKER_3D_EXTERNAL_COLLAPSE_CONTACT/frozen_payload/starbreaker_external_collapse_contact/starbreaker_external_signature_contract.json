@@ -1,0 +1,20 @@
+{
+  "signature_id": "OO2011_HIGHER_BOUNCE_COMPACTNESS_STRONGER_COLLAPSE_DIRECTION",
+  "selection_state": "frozen_before_starbreaker_comparison",
+  "source_type": "primary_published_general_relativistic_collapse_simulation_study",
+  "title": "Black Hole Formation in Failing Core-Collapse Supernovae",
+  "authors": [
+    "Evan O'Connor",
+    "Christian D. Ott"
+  ],
+  "journal": "The Astrophysical Journal 730, 70 (2011)",
+  "doi": "10.1088/0004-637X/730/2/70",
+  "doi_url": "https://doi.org/10.1088/0004-637X/730/2/70",
+  "arxiv_id": "1010.5550v2",
+  "arxiv_url": "https://arxiv.org/abs/1010.5550",
+  "accessed_utc_date": "2026-07-15",
+  "source_scope": "Over 100 presupernova models studied with the spherically symmetric general-relativistic 1.5D GR1D code and simplified neutrino leakage/heating physics.",
+  "physical_quantity": "xi_M = (M / M_sun) / (R(M_bary = M) / 1000 km); the paper focuses on xi_2.5 at bounce",
+  "locked_external_direction": "Higher bounce compactness is associated with faster black-hole formation and progenitors that are harder to explode.",
+  "paper_boundary": "The source itself treats compactness as a first-order predictor within a stated EOS and simplified 1.5D setup, not a universal one-parameter law."
+}

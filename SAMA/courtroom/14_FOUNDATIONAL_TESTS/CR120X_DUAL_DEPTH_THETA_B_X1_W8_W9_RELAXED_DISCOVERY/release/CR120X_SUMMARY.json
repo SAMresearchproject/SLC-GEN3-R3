@@ -1,0 +1,68 @@
+{
+  "A_FIELD_CARRIER_X1_status": "PASS_A_FIELD_CARRIER_UNIQUE_TYPED_X1_WELD_CANDIDATE__DIRECT_A_TO_AXIS_EDGE_OPEN",
+  "A_N144_matching_depths_in_grid": [
+    1
+  ],
+  "A_depth_observed_counts": {
+    "0": 16,
+    "1": 16
+  },
+  "A_max_residual": 5.000001124244591e-08,
+  "A_rows_exact": 32,
+  "A_rows_total": 32,
+  "B_X1_W9_bridge_current_status": "PASS_TYPED_PROVENANCE",
+  "B_partition_exact": true,
+  "campaign_id": "CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY",
+  "carrier_roster_count": 6,
+  "carrier_winners_by_mode": {
+    "native_payload": [
+      "QP093A-0300"
+    ],
+    "partition_scalar": [
+      "QP093A-0300"
+    ]
+  },
+  "direct_A_OPERATOR_X1_edge": "OPEN",
+  "hard_gates_passed": 11,
+  "hard_gates_total": 11,
+  "ledger_A_proxy_wrong_control": "163",
+  "ledger_closed": "162",
+  "normalized_ladder": {
+    "L_over_Theta": "9",
+    "M_over_Theta": "7",
+    "N_over_Theta": "8",
+    "S8": "8",
+    "Theta_out_over_Theta": "1",
+    "W9": "9",
+    "X1": "1",
+    "entity_identity_claimed": false,
+    "exact_7_8_9": true,
+    "normalized_release_equals_X1_scalar": true
+  },
+  "precommit_seal_pass": true,
+  "primary_verdict": "PASS_EXPLORATORY_THETA_NORMALIZES_B_PARTITION_TO_7_8_9__A_D1_SCALE_CONTACT__B_X1_W9_CHAIN_COHERENT__CAUSAL_WELDS_OPEN",
+  "registry_mutated": false,
+  "same_run_repair": false,
+  "scientific_status": "DISCOVERY_PASS",
+  "source_hashes_matched": 20,
+  "source_hashes_total": 20,
+  "starbreaker": {
+    "B_X1_assignment": null,
+    "axis_shuffle_empirical_p": 0.0004997501249375312,
+    "carrier_median_cosine": -0.9960721050537192,
+    "carrier_near_antiparallel_fraction": 0.9901900674432863,
+    "complete_history_pass": true,
+    "complete_relation_count": 64253028,
+    "endpoint_direction": "CARRIER_DOMINANT_BOTH",
+    "literal_x1_carrier_identity": null,
+    "matched_specificity_grade": "STRONG_MATCHED_SPECIFICITY",
+    "overall_axis_class": "MIXED_OR_UNRESOLVED",
+    "policy": "SUPPORTIVE_NOT_EXCLUSIVE_GATE",
+    "selected_101_carrier_matter_pairs": 4511
+  },
+  "supportive_gates_passed": 1,
+  "supportive_gates_total": 1,
+  "theta_unique_full_ladder_carrier": true,
+  "wrong_controls_passed": 20,
+  "wrong_controls_total": 20
+}

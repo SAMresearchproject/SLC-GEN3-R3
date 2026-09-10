@@ -1,0 +1,65 @@
+{
+  "committed_utc": "2026-06-15T22:59:47Z",
+  "cr_id": "CR130",
+  "forward_blind_test_4body": {
+    "claim": "If a 4-body partition row appears in any FUTURE CR119 extension with the same structural class as OCTET_COMPOSITE 3-body, its M_native = R * [s1^2 + Delta^2] = 4*R*(a^2+b^2+c^2+d^2) = 48*(a^2+b^2+c^2+d^2).",
+    "falsifier": "ONE single 4-body row whose M_native differs from the conjecture formula by any non-zero integer falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR130_PRED_1",
+    "non_falsifying": "Continued absence of 4-body rows in the catalog; rows of other operator_class with different generators; algebra extensions."
+  },
+  "four_body_conjecture": {
+    "claim": "M_4(a, b, c, d) = R * [s1^2 + Delta^2]",
+    "lagrange_collapse": "Using Sum_{pairs} (a_i - a_j)^2 = n*Sum a_i^2 - s1^2, the n=4 formula collapses to:  M_4 = 4*R * (a^2+b^2+c^2+d^2) = 48 * (a^2+b^2+c^2+d^2)",
+    "name": "M_4_LAGRANGE_EXTENSION_v1",
+    "open_question": "Whether the prefactor scales as R*n for n >= 3 (giving R*n*Sum a_i^2), or follows another n-dependence, is not yet derivable from CR119 alone -- no 4-body rows are currently in the catalog.",
+    "test_status": "FORWARD_BLIND_NO_IN_SAMPLE_DATA",
+    "where": {
+      "Delta^2": "sum over 6 pairs of (a_i - a_j)^2",
+      "s1": "a + b + c + d"
+    }
+  },
+  "immutability": "CR130 rewriting identity, structural explanation, and 4-body conjecture are frozen at seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "OCTET_3body_rows_verified": 76,
+    "direct_CR129_matches_obs": 76,
+    "newton_identity_perfect": 76,
+    "rewrite_matches_obs": 76
+  },
+  "rewriting_identity": {
+    "claim": "3 * (a^2 + b^2 + c^2) = (a + b + c)^2 + (a - b)^2 + (b - c)^2 + (a - c)^2",
+    "consequence_for_M_native": "M_3(a, b, c) = R*D*(a^2+b^2+c^2) = (R*D)/3 * [s1^2 + Delta^2] = R * [s1^2 + Delta^2]",
+    "name": "NEWTON_3BODY_REWRITE",
+    "verification_method": "in-sample evaluation on all 76 3-body OCTET rows: direct CR129 formula and CR130 rewrite must both equal M_observed and equal each other (Newton identity).",
+    "where": {
+      "Delta^2": "(a-b)^2 + (b-c)^2 + (a-c)^2 (sum of squared pairwise differences)",
+      "s1": "a + b + c (sum)"
+    }
+  },
+  "structural_explanation": {
+    "argument": [
+      "Sum over signed pairwise differences vanishes identically for any n: Sum_{i!=j} (a_i - a_j) = 0.",
+      "Hence linear antisymmetric is forbidden in fully-symmetric formulas at every n.",
+      "At n = 2: catalog stores both orderings (doublet); M_native is symmetric in {a,b} but admits |a-b| (linear, fully-symmetric in the unordered pair).",
+      "At n >= 3: catalog stores one entry per multiset; M_native must be fully symmetric; antisymmetric content survives only at QUADRATIC order via Sum (a_i - a_j)^2."
+    ],
+    "implication": "The structural form CHANGE at the 2->3 boundary (linear-antisymmetric to squared-antisymmetric) is FORCED by representation theory of the symmetric group acting on partition multisets, combined with the requirement that antisymmetric content enter via natural products of the dozenal R=12 algebra.",
+    "principle": "For n >= 3 fully-symmetric M_native, linear antisymmetric content CANNOT appear; only quadratic (sum-of-squared-differences) survives."
+  },
+  "two_body_structural_distinction": {
+    "claim": "The 2-body formula M_2 = R*ab + D*|a-b| is structurally distinct from the n >= 3 family.",
+    "consequence": "The 2-body case is the only one with linear antisymmetric content; n >= 3 has only quadratic.",
+    "evidence": [
+      "If the rewriting R*[s1^2 + Delta^2] were applied at n=2, it would give 2*R*(a^2+b^2). For (1,2): 2*12*5 = 120. Observed M_2(1,2) = 27. MISMATCH.",
+      "2-body permits MIXED degree (degree-2 R*ab and degree-1 D*|a-b|) because the catalog stores both orderings as a doublet with the sign rule encoded in S_debit.",
+      "n >= 3 forces uniform degree (quadratic) because only one entry per multiset is stored."
+    ]
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710"
+  },
+  "version": "v1.0"
+}

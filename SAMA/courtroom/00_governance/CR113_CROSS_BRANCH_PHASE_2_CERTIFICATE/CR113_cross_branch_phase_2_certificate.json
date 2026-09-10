@@ -1,0 +1,46 @@
+{
+  "certificate_id": "CR113_COURTROOM_CROSS_BRANCH_PHASE_2_CERTIFICATE",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH",
+  "sealed_at_utc": "2026-06-14T03:11:03Z",
+  "phase_2_branch_verdicts_certified": {
+    "09a_PARTICLE_MASS_CHAIN": {
+      "verdict": "09A_PHASE_2_HIGGS_WZH_PRECISION_CLOSURE_AND_QUARK_LINEAGE_CONTROL_SEALED",
+      "verdict_json_sha256": "6a4d7d7dfdbf0fbf5f717a11390700ed66424e330f75f0307a9985e3beff4055",
+      "sealed_at_utc": "2026-06-14T03:06:39Z",
+      "composite_phase_2_sha256": "2e2e2d347200ecb6bb0365c560cb1648af57ea295d054c269d4f71b1de99a53e"
+    },
+    "14_FOUNDATIONAL_TESTS": {
+      "verdict": "14_PHASE_2_COSMOLOGY_INTAKE_AND_THREE_MODE_CLOSURE_SEALED",
+      "verdict_json_sha256": "632917ff7fcf9573e6b016103993fb739fdbcbae6aca1c8d6709202c583a7889",
+      "sealed_at_utc": "2026-06-14T03:06:39Z",
+      "composite_phase_2_sha256": "988e2d5703299419915a5d284e8ee0be1ba43acf2520d1a40332812275787503"
+    },
+    "13_CERN_INDEPENDENT_TESTS": {
+      "lock_id": "CR098a_PHASE_2_FORWARD_BLIND_PREDICTION_COMMIT",
+      "prediction_commit_sha256": "aac01c21dc37858e9a2dd3db99da78b1e3d0b629359c005b563b59b80da18a18",
+      "registry_csv_sha256": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+      "phase_2_predictions_count": 5
+    }
+  },
+  "phase_1_chain_of_custody": {
+    "CR064a_summary_sha256": "a2af5df2dd3ac83cd131bb8a09913d806d0ba57db70942f53b232a892f0173e6",
+    "CR106_verdict_sha256": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "CR098_registry_sha256": "6884850496ee233ed799c886dc114c70e9930b9a6c9b9c7d5df867064751fb1e",
+    "BLINDNESS_PROTOCOL_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "composite_phase_2_certificate_sha256": "282bed22adc035e1d524e71db98e29c40b8394eaa7392cd0fbf7e834aeaf60eb",
+  "free_parameters_total_across_phase_2": 0,
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "modifies_no_branch_artifact": true,
+  "what_this_certificate_proves": [
+    "the three Phase 2 verdicts (09a, 14, 13) were sealed before this certificate",
+    "the four upstream Phase 2 artifact sha256s reproduce the composite sha256 deterministically",
+    "any future modification to a sealed Phase 2 verdict invalidates this certificate",
+    "Phase 1 chain of custody (CR064a, CR106, CR098) is recorded but unmodified"
+  ],
+  "what_this_certificate_does_NOT_prove": [
+    "the SAM physics framework is correct (the certificate is about provenance, not physics)",
+    "any quantitative match between SAM predictions and external data beyond what each underlying CR claims",
+    "curator sign-off (still PROVISIONAL until human curator signs)"
+  ]
+}

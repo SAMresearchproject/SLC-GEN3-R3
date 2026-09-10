@@ -1,0 +1,25 @@
+<program> ::= { <let-statement> } <return-statement>
+
+<let-statement> ::= "let" <name> [ ":" <type-name> ] "=" <expression>
+<return-statement> ::= "return" <name>
+<expression> ::= <entity-name> | <qp-call>
+
+<qp-call> ::= "QP_UNARY_DIRECT" "(" <name> "," <name> "," <name> ")"
+            | "QP_UNARY_CONJUGATE" "(" <name> "," <name> "," <name> ")"
+            | "QP_ORDERED_PAIR" "(" <name> "," <name> ")"
+            | "QP_UNORDERED_TRIAD" "(" <name> "," <name> "," <name> ")"
+            | "QP_TRIAD_SURFACE_GATE" "(" <name> ")"
+            | "QP_HIDDEN_SUPPORT" "(" <name> ")"
+            | "QP_CARRIER_TERMINAL" "(" <name> ")"
+            | "QP_EXPLICIT_CONTROL" "(" <name> ")"
+            | "QP_SCALAR_PARENT" "(" ")"
+
+<partition-entity> ::= "QP_P1" | "QP_P2" | "QP_P3" | "QP_P4"
+                     | "QP_P6" | "QP_P8" | "QP_P9" | "QP_P12"
+<depth-entity> ::= "QP_D0" | "QP_D1" | "QP_D2"
+<route-entity> ::= "QP_ROUTE_PLUS" | "QP_ROUTE_MINUS" | "QP_ROUTE_NEUTRAL"
+
+(* This is an append-only semantic subset of frozen SAM Language v0.4 source
+   syntax. Operators are parsed by the v0.4 parser and executed only by the
+   separately registered parameterized QP evaluator. JSON alone does not make
+   an operator executable. *)

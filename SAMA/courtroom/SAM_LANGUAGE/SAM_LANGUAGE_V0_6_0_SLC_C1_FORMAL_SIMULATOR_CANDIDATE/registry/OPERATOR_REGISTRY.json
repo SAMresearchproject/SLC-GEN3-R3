@@ -1,0 +1,612 @@
+{
+  "operators": {
+    "EARTH_ORBIT_CLOCK": {
+      "arg_types": [
+        "Number",
+        "Number",
+        "Number",
+        "Number",
+        "Number",
+        "Number"
+      ],
+      "authority": {
+        "note": "Parameterized circular Earth-orbit clock calculation from CR005",
+        "source": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_runner.py",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "EarthOrbitClockPacket",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_runner.py",
+          "sha256": "5df0d0076ed89bc54515d692f7008f353b684cf4c2b7ddae929985f50a45e42f",
+          "source_key": "cr005_runner"
+        },
+        {
+          "path": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_declared_premises.json",
+          "sha256": "10ecccf596584e92cae1825dfb2dca30e7966a7c6f97abb5ea836e6950edbb7b",
+          "source_key": "cr005_premises"
+        }
+      ],
+      "structural_only": false
+    },
+    "MIRROR_CLOSE": {
+      "arg_types": [
+        "CompletedFace",
+        "Arity"
+      ],
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "computed": false,
+      "result_entity": "L162_FULL_LEDGER",
+      "result_type": "FullLedger",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": false
+    },
+    "PROMOTE_FACE": {
+      "arg_types": [
+        "VolumeContainer",
+        "Dimension"
+      ],
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "computed": false,
+      "result_entity": "F81_COMPLETED_FACE",
+      "result_type": "CompletedFace",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": false
+    },
+    "PROMOTE_VOLUME": {
+      "arg_types": [
+        "ClosureWitness",
+        "Dimension"
+      ],
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "computed": false,
+      "result_entity": "V27_VOLUME_CONTAINER",
+      "result_type": "VolumeContainer",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_CARRIER_TERMINAL": {
+      "arg_types": [
+        "QPCarrierTerminalName"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPCarrierInfrastructure",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_EXPLICIT_CONTROL": {
+      "arg_types": [
+        "QPControlName"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPRejectedConstruction",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_HIDDEN_SUPPORT": {
+      "arg_types": [
+        "QPPartitionLabel"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPHiddenSupport",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_NATIVE_ACCOUNT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPExactAccount",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_NATIVE_SIGNATURE": {
+      "arg_types": [
+        "QPGrammarProduction"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPNativeSignature",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_OBSERVED_CANDIDATE_ACCOUNT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPObservedCandidateAccount",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_ORDERED_PAIR": {
+      "arg_types": [
+        "QPPartitionLabel",
+        "QPPartitionLabel"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPOrderedPairTemplate",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_RETAINED_SUPPORT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPRetainedWriteSupport",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_SCALAR_PARENT": {
+      "arg_types": [],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPGlobalScalarParent",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_SOURCE_SUPPORT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPSourceSupport",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_SURFACE_DEBIT_OR_CREDIT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPSurfaceDebitOrCredit",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_TENSOR_SUPPORT": {
+      "arg_types": [
+        "QPNativeSignature"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPTensorCarrierSupport",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "15_SCALE_BRIDGE_SIMULATOR/PDG_REVEAL_STAGEB_POST_ASSEMBLY_NATIVE_SIGNATURE_FREEZE/STAGEB_TEMPLATE_NATIVE_SIGNATURES.csv",
+          "sha256": "b898869d09e0c3440803626503e76b9ed0108f0b4dd30a28ad16c00e1386410a",
+          "source_key": "qp_native_signatures"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_TRIAD_SURFACE_GATE": {
+      "arg_types": [
+        "QPUnorderedTriadCandidate"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPLocalTriadTemplate",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_UNARY_CONJUGATE": {
+      "arg_types": [
+        "QPPartitionLabel",
+        "QPDepth",
+        "QPRouteMode"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPUnaryConjugateTemplate",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_UNARY_DIRECT": {
+      "arg_types": [
+        "QPPartitionLabel",
+        "QPDepth",
+        "QPRouteMode"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPUnaryDirectTemplate",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "QP_UNORDERED_TRIAD": {
+      "arg_types": [
+        "QPPartitionLabel",
+        "QPPartitionLabel",
+        "QPPartitionLabel"
+      ],
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "computed": true,
+      "result_entity": null,
+      "result_type": "QPUnorderedTriadCandidate",
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        },
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/SOURCE_AND_FORMULA_RECONCILIATION.csv",
+          "sha256": "2da5201db5c7271621dc52520cf491e9527b4c9fc7853f250a5534e499919983",
+          "source_key": "qp_source_reconciliation"
+        }
+      ],
+      "structural_only": false
+    },
+    "RESERVE_CLOSURE_ADDRESS": {
+      "arg_types": [
+        "CompletedFace",
+        "AxisChannel"
+      ],
+      "authority": {
+        "note": "P80 is conditional structural-only",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "STRUCTURAL_ONLY"
+      },
+      "computed": false,
+      "result_entity": "P80_PARTICLE_FACE_CONTENT",
+      "result_type": "ParticleFaceContent",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": true
+    },
+    "RESOLVE": {
+      "arg_types": [
+        "BinarySurface",
+        "ContactOperator",
+        "AxisChannel"
+      ],
+      "authority": {
+        "note": "B/contact -> X1 axis-fee -> W9 PASS",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "computed": false,
+      "result_entity": "W9_CLOSURE_WITNESS",
+      "result_type": "ClosureWitness",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": false
+    },
+    "RETAIN_MATTER": {
+      "arg_types": [
+        "NativeClosureBudget",
+        "PrimaryCarrier"
+      ],
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "computed": false,
+      "result_entity": "M126_MATTER_CAPACITY",
+      "result_type": "MatterCapacity",
+      "semantic_scope": "CORE",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "structural_only": false
+    }
+  }
+}

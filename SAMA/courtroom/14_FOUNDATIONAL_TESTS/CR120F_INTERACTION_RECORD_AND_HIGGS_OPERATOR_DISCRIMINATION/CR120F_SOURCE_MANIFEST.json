@@ -1,0 +1,82 @@
+{
+  "precommit_sha256": "6af604ed697c76a95cbe20c97dafbd9d46177a548c20955ca1dedb08b16a14d9",
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "sol_proposal": {
+    "authority": "PROPOSAL_ONLY",
+    "evidence_status": "NOT_EVIDENCE",
+    "model": "gpt-5.6-sol",
+    "proposal_hash": "aee8cdb064f8eb54ab3ca38ba6856d258c181c21e2cb9f2d16789b927351924b",
+    "proposal_id": "sam2p-aee8cdb064f8eb54ab3c",
+    "reasoning_effort": "xhigh",
+    "web_search_used": true
+  },
+  "sources": [
+    {
+      "bytes": 40016,
+      "path": "C:/Users/drwho/.codex/attachments/0ba0a778-d441-4f68-9414-1701160d3d64/pasted-text.txt",
+      "role": "Sol xhigh proposal export; PROPOSAL_ONLY and NOT_EVIDENCE",
+      "sha256": "119159507cd8c2cb3c76a03eaad1fbaf2b8f92f4c8603dbf562253a830216892"
+    },
+    {
+      "bytes": 3674,
+      "path": "14_FOUNDATIONAL_TESTS/CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE/CR120D_result.md",
+      "role": "X1/W9 runtime boundary",
+      "sha256": "f7924768fd3f210d0e23be8443d816eb8d02a1759d335960c524a61f2be3d441"
+    },
+    {
+      "bytes": 3059,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_result.md",
+      "role": "structural address-weld result",
+      "sha256": "eb38fb07a4f886b144bb49139acb9c68416477bb78c22ef3b25761cd3e91afd7"
+    },
+    {
+      "bytes": 1026,
+      "path": "14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/CR120E_summary.json",
+      "role": "machine-readable CR120 frontier",
+      "sha256": "60eb12b9650bc8513133d104727bcd6711afe25690a28d8c0016a59d2af5f084"
+    },
+    {
+      "bytes": 26101,
+      "path": "18_SAM_NATIVE_QC/LCQC008_NATIVE_MEASUREMENT_OPERATION/LCQC008_NATIVE_MEASUREMENT_OPERATION_v2.md",
+      "role": "live PUBLISH architectural claim",
+      "sha256": "e2b81c13e93be08fbf323ba8e41619e1360bc45b963c2e5f9ba5d8c6066bdee9"
+    },
+    {
+      "bytes": 6886,
+      "path": "18_SAM_NATIVE_QC/LCQC008_NATIVE_MEASUREMENT_OPERATION/LCQC008_REPLACEMENT_RECORD.md",
+      "role": "v1-to-v2 controlling replacement record",
+      "sha256": "a2588566a29ee172dc2a4a5871118adae491b22362ddc614c5caaeb2b1d76fd5"
+    },
+    {
+      "bytes": 2386,
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts/reports/QP011_PRIVATE_DECOHERENCE_LEDGER_LEAKAGE_MODEL.md",
+      "role": "private decoherence/write distinction",
+      "sha256": "4df8a1ea3fbb749604bf19dd44c088cc40ebb99063546f0dd325a177a4f27ddf"
+    },
+    {
+      "bytes": 5653,
+      "path": "14_FOUNDATIONAL_TESTS/CR104_GATE_3_K_A_H_SELF_CORRECTION/CR104_result.md",
+      "role": "historical K(A_H) result surface",
+      "sha256": "48c5de6acf3c65f1ec3d1650f701fef8b0c429c9d62866c8d3015d7fefe7806e"
+    },
+    {
+      "bytes": 10645,
+      "path": "14_FOUNDATIONAL_TESTS/CR104_GATE_3_K_A_H_SELF_CORRECTION/CR104_declared_premises.json",
+      "role": "historical K(A_H) declared meaning",
+      "sha256": "197a488aa1508d82220e704b4c1cbd6f35ddee4071b8bdf3eb159e2d9ef5611d"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 5699,
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry",
+      "sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212"
+    }
+  ],
+  "web_source_status": "SOL_RESEARCH_LEADS_NOT_NUMERICAL_INPUTS_NOT_EVIDENCE"
+}

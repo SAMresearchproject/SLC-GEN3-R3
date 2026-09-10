@@ -1,0 +1,77 @@
+{
+  "campaign_id": "CR120W_A_FIELD_CARRIER_X1_TYPED_WELD_DISCOVERY",
+  "task": "Build and execute QP093A_A_FIELD_CARRIER_X1_TYPED_WELD_DISCOVERY_V1",
+  "authority": "CONSTRUCTIVE_TYPED_MODEL_DISCRIMINATION",
+  "objective": "Determine whether QP093A-0305 A_FIELD_CARRIER is the unique scalar-one QP infrastructure candidate compatible with X1 as a non-additive shared interaction axis, while preserving distinct entity identities and the open direct operator edge.",
+  "predecessor": {
+    "record": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+    "verdict": "BOUNDARY_A_OPERATOR_ROW_TRACE_PASS_AXIS_SELF_WELD_OPEN",
+    "preserved_findings": [
+      "QP093A-0305 is the retired historical A-field row trace",
+      "A_OPERATOR is non-row and does not change 162 to 163",
+      "shared scalar one is insufficient for an A-to-X1 weld",
+      "the direct A_OPERATOR-to-axis edge remains open"
+    ]
+  },
+  "new_evidence": {
+    "carrier_direction_parent": "PASS_101_REOPENING_MATCHED_SPECIFICITY__ENDPOINT_DIRECTION_CLASSIFIED__B_X1_NAMING_HELD_OPEN",
+    "axis_reversal_parent": "BOUNDARY_CARRIER_REOPENING_CONFIRMED__ONE_AXIS_REVERSAL_UNRESOLVED",
+    "opened_numeric_observation": "Carrier and matter both show approximately 99 percent same-line reversal; carrier trajectory identity survives frozen return-vector shuffle while the effect is not carrier-specific.",
+    "use": "Independent model-discrimination evidence favoring a shared environmental axis over a carrier-only transverse transport interpretation; not a direct row-to-Starbreaker join."
+  },
+  "candidate_universe": {
+    "source": "All 321 QP093A bucket-map rows",
+    "entry_gate": "partition_signature == 1",
+    "candidate_id_usage": "Candidate IDs are reporting keys only and are not scoring features.",
+    "expected_scalar_one_count": 26,
+    "expected_legal_nonlocal_count": 3
+  },
+  "equal_treatment_gates": [
+    {
+      "gate": "G1_LEGAL_NONLOCAL_INFRASTRUCTURE",
+      "rule": "arity=0, disposition=NONLOCAL_NODE, structural bucket is CARRIER_INFRASTRUCTURE or HIDDEN_SUPPORT, matter_row_allowed=no, and row is not a rejected control"
+    },
+    {
+      "gate": "G2_X1_AXIS_SHELL",
+      "rule": "partition=1, q_sign=neutral, q_abs=0, native_charge_axis=carrier_axis, closure_status=CLOSED_CARRIER_SUPPORT, no surface depth, and no matter owner"
+    },
+    {
+      "gate": "G3_NONADDITIVE_ADDRESS_ROLE",
+      "rule": "The row is excluded from the twelve additive 81 construction modes, preserves M_native=0, and restoring its partition proxy is a wrong control rather than a construction input"
+    },
+    {
+      "gate": "G4_SHARED_FIELD_AXIS_MECHANISM",
+      "rule": "The frozen role is environmental_A_support through a_kernel_support, rather than transverse-vector transport or charged hidden-source support"
+    }
+  ],
+  "model_comparison": {
+    "A_FIELD_CARRIER": "environmental shared-axis infrastructure",
+    "ROAD_LIGHT_CARRIER": "transverse propagation carrier",
+    "SOURCE_SUPPORT_PACKET_P1": "charged hidden source-axis support",
+    "observed_signature": "same local reversal axis across carrier and matter with carrier-dominant relation change",
+    "compatibility_rule": "Environmental shared-axis model is compatible; transverse carrier-only and charged source-axis models are not selected by the observed shared neutral axis signature."
+  },
+  "required_controls": [
+    "scalar-only deduplication must fail",
+    "all 25 partition-one rows receive identical gates",
+    "matter unary rows fail infrastructure typing rather than numeric value",
+    "eight rejected controls remain rejected",
+    "road-light remains a distinct transverse carrier",
+    "p1 hidden support remains a distinct charged source-axis lane",
+    "A_OPERATOR, A1 historical row proxy, A_FIELD_CARRIER, B, and X1 remain distinct typed objects",
+    "restoring A_FIELD_CARRIER as additive produces 82 and 163 wrong-control totals",
+    "the direct A_OPERATOR-to-X1 runtime edge remains uninstalled",
+    "no Starbreaker atom is relabeled A-field or X1"
+  ],
+  "promotion_rule": {
+    "typed_candidate_pass": "Exactly one scalar-one QP occurrence passes all four gates, all custody and wrong controls pass, and the shared-axis observation agrees with its predeclared mechanism class.",
+    "claim": "Unique typed weld candidate only.",
+    "not_authorized": "Literal entity identity, alias installation, direct A_OPERATOR-to-X1 edge, or physical field identification."
+  },
+  "verdict_ladder": {
+    "pass": "PASS_A_FIELD_CARRIER_UNIQUE_TYPED_X1_WELD_CANDIDATE__DIRECT_A_TO_AXIS_EDGE_OPEN",
+    "boundary": "BOUNDARY_SCALAR_ONE_INFRASTRUCTURE_NARROWED__X1_WELD_NOT_UNIQUE",
+    "fail": "FAIL_CR120W_SOURCE_OR_CANDIDATE_RECONSTRUCTION"
+  },
+  "same_run_repair_allowed": false
+}

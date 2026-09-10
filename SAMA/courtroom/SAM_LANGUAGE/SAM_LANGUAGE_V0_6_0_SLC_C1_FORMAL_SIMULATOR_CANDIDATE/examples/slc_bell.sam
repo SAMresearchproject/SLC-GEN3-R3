@@ -1,0 +1,5 @@
+let s0: SLCState12 = SLC_ZERO_REGISTER()
+let s1: SLCState12 = SLC_PREPARE_REQUEST(s0, L0)
+let bell: SLCState12 = SLC_X1_RESPONSE(s1, L0, L1)
+return bell
+

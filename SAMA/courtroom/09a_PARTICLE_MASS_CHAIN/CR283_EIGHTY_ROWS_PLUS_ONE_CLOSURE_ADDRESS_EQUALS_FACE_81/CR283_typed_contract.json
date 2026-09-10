@@ -1,0 +1,38 @@
+{
+  "candidate_relation": {
+    "expression": "P80_PARTICLE_FACE_CONTENT + X1_CLOSURE_ADDRESS = F81_COMPLETED_FACE",
+    "status": "PASS_CARDINALITY_AND_TYPED_LEDGER_WELD_ROW_GEOMETRY_OPEN"
+  },
+  "entities": [
+    {
+      "cardinality": 80,
+      "entity_id": "P80_PARTICLE_FACE_CONTENT",
+      "source_status": "REPRODUCED",
+      "type": "ParticleBearingRowInventory"
+    },
+    {
+      "entity_id": "X1_CLOSURE_ADDRESS",
+      "particle_row": false,
+      "scalar_value": 1,
+      "source_status": "CR267_CR269_CR282_SCOPE",
+      "type": "NonRowClosureContactAddress"
+    },
+    {
+      "entity_id": "F81_COMPLETED_FACE",
+      "origin": "W9^2",
+      "scalar_value": 81,
+      "type": "CompletedFaceCapacity"
+    },
+    {
+      "entity_id": "L162_FULL_LEDGER",
+      "origin": "2*F81",
+      "scalar_value": 162,
+      "type": "TwoSidedFullClosure"
+    }
+  ],
+  "forbidden_identity": [
+    "X1_CLOSURE_ADDRESS == 81st particle",
+    "X1_CLOSURE_ADDRESS == QP093A-0305",
+    "all scalar-one occurrences are identical"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "a_side": 0.041666666666666664,
+  "checks_passed": 16,
+  "checks_total": 16,
+  "cr223a_references": {
+    "M3": 0.0354358323,
+    "M4": 0.0289614682
+  },
+  "cr_id": "CR223c_HF",
+  "generated_at_utc": "2026-06-21T13:58:31.281734+00:00",
+  "n_sensor_shots_per_time": 200000,
+  "n_tomo_shots_per_setting": 10000,
+  "n_trials_test": 80,
+  "n_trials_train": 80,
+  "no_decoh_max_a_hat": 0.01191824407077082,
+  "regimes": {
+    "cryogenic_NV": {
+      "crossing_classification": "MATCHED_MODEL",
+      "profile": {
+        "drift_rel_per_window": 0.005,
+        "gamma_1_T2": 0.1,
+        "gamma_phi_T2": 0.95,
+        "name": "cryogenic_NV",
+        "phase_noise_rad": 0.03,
+        "pulse_fidelity_err": 0.001,
+        "readout_confusion": 0.008,
+        "spam_err": 0.003,
+        "t1_jitter_rel": 0.03,
+        "t2_jitter_rel": 0.04
+      },
+      "sensor_eval": {
+        "FN": 33,
+        "FP": 81,
+        "TN": 499,
+        "TNR": 0.8603448275862069,
+        "TP": 187,
+        "TPR": 0.85,
+        "balanced_accuracy": 0.8551724137931034,
+        "threshold": 0.24110655737704922
+      },
+      "sensor_threshold": 0.24110655737704922,
+      "t_fire_reference": 0.0354358323,
+      "t_fire_tomo_test": 0.04926111562322778
+    },
+    "noisy_NV": {
+      "crossing_classification": "MATCHED_MODEL",
+      "profile": {
+        "drift_rel_per_window": 0.03,
+        "gamma_1_T2": 1.0,
+        "gamma_phi_T2": 0.5,
+        "name": "noisy_NV",
+        "phase_noise_rad": 0.1,
+        "pulse_fidelity_err": 0.005,
+        "readout_confusion": 0.025,
+        "spam_err": 0.012,
+        "t1_jitter_rel": 0.08,
+        "t2_jitter_rel": 0.08
+      },
+      "sensor_eval": {
+        "FN": 44,
+        "FP": 6,
+        "TN": 157,
+        "TNR": 0.9631901840490797,
+        "TP": 593,
+        "TPR": 0.9309262166405023,
+        "balanced_accuracy": 0.947058200344791,
+        "threshold": 0.25910810810810814
+      },
+      "sensor_threshold": 0.25910810810810814,
+      "t_fire_reference": 0.0289614682,
+      "t_fire_tomo_test": 0.015278264713843233
+    },
+    "room_temp_NV": {
+      "crossing_classification": "MATCHED_MODEL",
+      "profile": {
+        "drift_rel_per_window": 0.01,
+        "gamma_1_T2": 1.0,
+        "gamma_phi_T2": 0.5,
+        "name": "room_temp_NV",
+        "phase_noise_rad": 0.05,
+        "pulse_fidelity_err": 0.002,
+        "readout_confusion": 0.015,
+        "spam_err": 0.005,
+        "t1_jitter_rel": 0.05,
+        "t2_jitter_rel": 0.05
+      },
+      "sensor_eval": {
+        "FN": 97,
+        "FP": 9,
+        "TN": 231,
+        "TNR": 0.9625,
+        "TP": 463,
+        "TPR": 0.8267857142857142,
+        "balanced_accuracy": 0.8946428571428571,
+        "threshold": 0.2601047120418849
+      },
+      "sensor_threshold": 0.2601047120418849,
+      "t_fire_reference": 0.0289614682,
+      "t_fire_tomo_test": 0.02192810482958351
+    }
+  },
+  "result_class": "CR223c_HF_PIPELINE_PASS__HIGH_FIDELITY_SIMULATOR_CONTACT",
+  "rng_seeds": {
+    "control": 300260621,
+    "test": 200260621,
+    "train": 100260621
+  },
+  "test_id": "CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT",
+  "zero_wait_max_a_hat": 0.02370936086051323
+}

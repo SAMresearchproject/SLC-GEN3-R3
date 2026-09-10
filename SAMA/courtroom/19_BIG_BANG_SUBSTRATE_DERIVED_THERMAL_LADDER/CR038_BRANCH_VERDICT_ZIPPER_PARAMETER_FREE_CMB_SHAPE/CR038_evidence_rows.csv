@@ -1,0 +1,15 @@
+item,value,detail
+G1_CR035A2,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G1_CR036,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G1_CR036B,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G1_CR037A,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G1_CR037B,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G1_CR037C,True,verdict=PASS; fp=0; prior=False; forbidden=False; status=CLEAN
+G2_substrate_invariant,True,"Om=0.3183098862, Ob=0.0492990113, Oc=0.2690108749"
+G3_H0_invariant,True,reference H_0 = 67.250375195
+G4_perturbation_invariant,True,"A_s=2.111747e-09, n_s=0.9646322, tau=0.0530516"
+G5_CR037B_planck_TT_chi2_dof_le_2.0,True,chi^2/dof = 1.03393370270937
+G6_CR037C_ACT_full_shape_bound,True,"TT=1.2996, full=1.1218"
+G7_external_instrument_independence,True,"data files: ['Binning.dat', 'cl_cmb_ap.dat', 'c_matrix_ap.dat', 'coadd_bpwf_15mJy_191127_lmin2.npz', 'coadd_bpwf_100mJy_191127_lmin2.npz']"
+G8_precommit_hash_verified,True,13789eabc06abba59d5fc2668b4f04a97080e808a6415b1f8717f48bbb420e89
+G9_forbidden_file_guard_not_tripped,True,opened=7; forbidden=0

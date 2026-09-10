@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED",
+  "files": [
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_predictions.csv",
+      "mode": "100644",
+      "git_blob": "66986a5b706b517c9d67d049c68d3c0ffb5822a1",
+      "bytes": 683,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json",
+      "mode": "100644",
+      "git_blob": "37ec122c42c1f8731aa7526627f33f008e192c39",
+      "bytes": 4071,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "0b04d1a0534f0a6d5a9ce4cdfa4c0021d529ea7b",
+      "bytes": 98,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_manifest.csv",
+      "mode": "100644",
+      "git_blob": "02e031b028d0e8186f1ae02797822875b82b1c6a",
+      "bytes": 692,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_regrade_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_result.md",
+      "mode": "100644",
+      "git_blob": "0eaf49876f4016d693a06afda382a4a1cb86b0e3",
+      "bytes": 9182,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_result.md",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_result.md"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_runner.py",
+      "mode": "100644",
+      "git_blob": "f6c9699b3be4e211cc83e1ef5d9d9d699d5a621e",
+      "bytes": 47175,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_runner.py",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_runner.py"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "5933bac9100a2cd13cf4279d1b51992dc6fbf467",
+      "bytes": 882,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_summary.json",
+      "mode": "100644",
+      "git_blob": "66df35f54d0aa589bbc4cca82e2a328ec24ba758",
+      "bytes": 9520,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_summary.json",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_summary.json"
+    },
+    {
+      "path": "00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "48cae4f161acc9f72326458454239db1c87c94d0",
+      "bytes": 2325,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR137_CR063A_REGRADE_TO_REFUTED/CR137_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR137@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

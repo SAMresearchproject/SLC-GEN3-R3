@@ -1,0 +1,11 @@
+source,result,formula,rows_in_scope,rows_replayed,wrong_controls_rejected,audit_qualifier_preserved,status
+CR128,CR128_BOUND_COLOR_PAIR_MASS_LAW_V1_SEALED,"M_native(a,b)=R*a*b + D*abs(a-b)",36,36,7,YES,PASS
+CR128b,CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_SEALED,|S_debit|=M_native*(abs(a-b)+D)/R^4; asymmetric rows only,30,30,6,YES,PASS
+CR129,CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1_SEALED,"M_native(a,b,c)=R*D*(a^2+b^2+c^2); 2-body OCTET rows checked by CR128 law",76,76,7,YES,PASS
+CR129b,CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1_SEALED,"|S_3body|=M_native*(4*q_eff + D)/(4*R^4), q_eff=R for q_abs=0 else q_abs",76,76,7,YES,PASS
+CR129c,CR129c_3BODY_UNIVERSAL_GENERATOR_SEALED,R*D*sum_squares universal 3-body generator over OCTET plus GROUND_BARYON,120,120,6,YES,PASS
+CR130,CR130_2BODY_3BODY_STRUCTURAL_BRIDGE_SEALED,M3=R*D*sum_squares = R*(s1^2 + Delta^2) identity check,76,76,6,YES,PASS
+CR131,CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1_SEALED,"M_native=q_abs*R^closure_depth*K(q_sign, stability_status)",90,90,6,YES,PASS
+CR132,CR132_1BODY_CARRIER_LATTICE_LAW_V1_SEALED,"Carrier/support lattice; tensor carrier M=alpha_H*D^2=18 is carrier, not matter",6,6,6,YES,PASS
+CR133,CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1_SEALED,M_native=partition*R^depth/alpha_H^3 = partition*R^depth/8,24,24,6,YES,PASS
+CR134,CR134_SOURCE_SUPPORT_PACKET_LAW_V1_SEALED,"M_native=partition + partition^2/R^2; hidden support, not matter",8,8,6,YES,PASS

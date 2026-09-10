@@ -1,0 +1,96 @@
+{
+  "known_qp_types": [
+    "QPCarrierInfrastructure",
+    "QPCarrierTerminalName",
+    "QPControlName",
+    "QPDepth",
+    "QPExactAccount",
+    "QPGlobalProduction",
+    "QPGlobalScalarParent",
+    "QPGrammarProduction",
+    "QPHiddenSupport",
+    "QPInfrastructure",
+    "QPLocalTriadTemplate",
+    "QPNativeSignature",
+    "QPObservedCandidateAccount",
+    "QPOrderedPairTemplate",
+    "QPPartitionLabel",
+    "QPRejectedConstruction",
+    "QPRejectedProduction",
+    "QPRelationTemplate",
+    "QPRetainedWriteSupport",
+    "QPRouteMode",
+    "QPSourceSupport",
+    "QPSurfaceDebitOrCredit",
+    "QPTemplate",
+    "QPTensorCarrierSupport",
+    "QPUnaryConjugateTemplate",
+    "QPUnaryDirectTemplate",
+    "QPUnaryTemplate",
+    "QPUnorderedTriadCandidate"
+  ],
+  "non_identity_guarantee": true,
+  "parents": {
+    "QPCarrierInfrastructure": [
+      "QPInfrastructure"
+    ],
+    "QPGlobalProduction": [
+      "QPGrammarProduction"
+    ],
+    "QPGlobalScalarParent": [
+      "QPGlobalProduction"
+    ],
+    "QPHiddenSupport": [
+      "QPInfrastructure"
+    ],
+    "QPInfrastructure": [
+      "QPGrammarProduction"
+    ],
+    "QPLocalTriadTemplate": [
+      "QPRelationTemplate"
+    ],
+    "QPObservedCandidateAccount": [
+      "QPExactAccount"
+    ],
+    "QPOrderedPairTemplate": [
+      "QPRelationTemplate"
+    ],
+    "QPRejectedConstruction": [
+      "QPRejectedProduction"
+    ],
+    "QPRejectedProduction": [
+      "QPGrammarProduction"
+    ],
+    "QPRelationTemplate": [
+      "QPTemplate"
+    ],
+    "QPRetainedWriteSupport": [
+      "QPExactAccount"
+    ],
+    "QPSourceSupport": [
+      "QPExactAccount"
+    ],
+    "QPSurfaceDebitOrCredit": [
+      "QPExactAccount"
+    ],
+    "QPTemplate": [
+      "QPGrammarProduction"
+    ],
+    "QPTensorCarrierSupport": [
+      "QPExactAccount"
+    ],
+    "QPUnaryConjugateTemplate": [
+      "QPUnaryTemplate"
+    ],
+    "QPUnaryDirectTemplate": [
+      "QPUnaryTemplate"
+    ],
+    "QPUnaryTemplate": [
+      "QPTemplate"
+    ],
+    "QPUnorderedTriadCandidate": [
+      "QPRelationTemplate"
+    ]
+  },
+  "relation": "TYPE_CHECKING_ONLY"
+}

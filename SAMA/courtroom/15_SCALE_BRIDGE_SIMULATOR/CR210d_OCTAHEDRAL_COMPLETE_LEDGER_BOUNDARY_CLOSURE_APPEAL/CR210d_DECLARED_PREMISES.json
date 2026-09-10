@@ -1,0 +1,38 @@
+{
+  "record_id": "CR210d_OCTAHEDRAL_COMPLETE_LEDGER_BOUNDARY_CLOSURE_APPEAL",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "parent_freeze": "PSLI_DF_20260715T025638Z",
+  "historical_record": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "historical_verdict": "CR210c_FAIL_PRECOMMITTED_STRUCTURAL_CHECK",
+  "historical_pass_count": 15,
+  "historical_fail_count": 2,
+  "historical_failed_checks": [
+    "C14_BOUNDARY_QUOTIENT",
+    "C15_WRONG_CONTROLS"
+  ],
+  "historical_record_mutated": false,
+  "historical_passes_counted_as_fresh_evidence": false,
+  "fresh_gate_count": 17,
+  "fresh_question": "Does a standalone full re-execution of the complete-ledger address adapter pass all seventeen frozen structural gates when the modulo-6 boundary map is implemented over the exact 36-slot domain with exhaustive guards?",
+  "cross_kind_map": "phi(b,q,r)=(8-b,q,(r+3) mod 6)",
+  "same_kind_comparator": "phi0(b,q,r)=(b,q,(r+3) mod 6)",
+  "boundary_blocks": [0, 8],
+  "boundary_occurrence_count": 36,
+  "expected_pair_classes": 18,
+  "expected_side_inventory": [9, 63, 9, 81],
+  "expected_quotient": {
+    "side_a": 81,
+    "side_b": 81,
+    "intersection": 18,
+    "union": 144,
+    "symmetric_difference": 126,
+    "occurrence_sum": 162
+  },
+  "outcomes_opened": false,
+  "workbooks_opened": false,
+  "f81_opened": false,
+  "pdg_opened": false,
+  "binding_opened": false,
+  "fitted_parameters": 0,
+  "promotion_ceiling": "CR210d_PASS_EXACT_SOURCE_NATIVE_W9_BY_K18_ADDRESS_FACTORIZATION__SLOT_PARTITION_ROUTE_EDGE_OVERLAP_ORIENTATION_AND_PHYSICAL_INCIDENCE_OPEN"
+}

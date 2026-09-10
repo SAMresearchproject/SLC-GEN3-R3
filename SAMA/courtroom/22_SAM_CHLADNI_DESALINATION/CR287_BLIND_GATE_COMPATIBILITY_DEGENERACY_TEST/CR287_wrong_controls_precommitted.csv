@@ -1,0 +1,23 @@
+control_id,wrong_control,expected_status,reason
+WC01,select gate by candidate ID order,REJECT,IDs stabilize rows only
+WC02,select gate by triad signature magnitude,REJECT,no typed signature-to-species operator
+WC03,use source_matter_row_allowed as a species selector,REJECT,source metadata is not compatibility evidence
+WC04,drop the 13 source-surface-rejected cells,REJECT,complete CR285 catalog must remain visible
+WC05,use atomic number modulo R to choose a triad,REJECT,no frozen element-to-triad selector
+WC06,use formula mass to choose a triad,REJECT,no frozen mass-to-triad selector
+WC07,use formal charge to choose an entry face,REJECT,charge-to-face rule is absent
+WC08,treat element label as a geometric distinction,REJECT,identity is provenance not geometry
+WC09,convert tetrahedral face bits into signed-axis vertices,REJECT,type namespace mismatch
+WC10,give invalid controls a large penalty and rank them,REJECT,CR285 rejects invalid mappings before ranking
+WC11,let core-only zero contacts win by zero edit count,REJECT,no boundary ports means inadmissible
+WC12,use candidate row order to break a scientific tie,REJECT,complete ties must remain explicit
+WC13,add a weighted coefficient to break the tie,REJECT,CR285 operator is coefficient free
+WC14,insert hydrated radius before reveal,REJECT,observed physical descriptor is sealed out
+WC15,insert preferred coordination before reveal,REJECT,observed physical descriptor is sealed out
+WC16,insert hydration or decoordination energy before reveal,REJECT,observed physical descriptor is sealed out
+WC17,insert membrane rejection or flux before reveal,REJECT,target leakage
+WC18,interpret QP numeric fields as pore dimensions,REJECT,no physical unit bridge
+WC19,use acoustic drive to break the tie,REJECT,acoustic lane is shelved and absent from operator
+WC20,use Starbreaker A or carrier density to break the tie,REJECT,no typed process-to-molecular bridge
+WC21,apply a different port mapping per species,REJECT,species-specific rescue rule
+WC22,suppress complete degeneracy and report a winner,REJECT,boundary result must remain visible

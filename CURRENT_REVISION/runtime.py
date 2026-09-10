@@ -6,7 +6,7 @@ import hashlib
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-GENERATION = "SLC-GEN2-R4-RESEARCH-20260907-1"
+GENERATION = "SLC-GEN3-R3-RESEARCH-20260910-1"
 
 def current_generation():
     return GENERATION
@@ -18,7 +18,7 @@ def require_generation(generation):
 def record(name):
     if name.upper() != "SLC":
         raise ValueError("This standalone repository exports the SLC engine; CE domain deployments are separate")
-    return {"name": "SLC", "version": "SLC-GEN2-R4", "generation": GENERATION}
+    return {"name": "SLC", "version": "SLC-GEN3-R3", "generation": GENERATION}
 
 def verify_sources():
     manifest = json.loads((ROOT / "provenance/SOURCE_MANIFEST.json").read_text())
@@ -33,4 +33,4 @@ def verify_sources():
 @lru_cache(maxsize=1)
 def load_slc():
     verify_sources()
-    return import_module("CURRENT_REVISION.engines.SLC.gen2_runtime")
+    return import_module("CURRENT_REVISION.engines.SLC.gen3_runtime")

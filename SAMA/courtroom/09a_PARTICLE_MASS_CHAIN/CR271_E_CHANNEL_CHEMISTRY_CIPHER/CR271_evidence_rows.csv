@@ -1,0 +1,9 @@
+item,value,detail
+G1_noble_cipher_set,True,5/5 noble-cipher elements verified
+G2_reactive_cipher_set,True,9/9 reactive-cipher elements verified
+G3_partition_consistency,False,noble and reactive cipher sets disjoint and complete
+G4_jerroldium_forecast_lock,True,Z=126=M=7*Theta noble-cipher-type
+G5_channel_separation,True,e=Z chemistry cipher and main=3Z nuclear cipher independent
+G6_cipher_silence,True,18/18 off-substrate-atom Z verified silent
+G7_structural_threshold,True,b>=2 threshold corresponds to CR267 closure witness
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

@@ -1,0 +1,6 @@
+band_id,z_min,z_max,sealed_rows,exact_ZNA_matches,exact_match_rate,readout_note
+Z_001_082,1,82,136,136,1.0,lead-and-below band
+Z_083_096,83,96,26,26,1.0,actinide-contact band through curium
+Z_001_096,1,96,162,162,1.0,all sealed rows through curium
+Z_097_118,97,118,38,0,0.0,transcurium/superheavy open tail
+Z_001_118,1,118,200,162,0.81,full sealed Phase 5 row set

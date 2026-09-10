@@ -1,0 +1,178 @@
+{
+  "projector": {
+    "Pi80_X1": {},
+    "Pi80_definition": "diag(0,1,...,1)",
+    "Pi80_idempotent_on_basis": true,
+    "Pi80_rank": 80,
+    "Q_X1": {
+      "e0": 1
+    },
+    "Q_commutes_with_Pi80_on_basis": true,
+    "Q_definition": "swap e1/e2, negate e3, fix all other basis vectors including e0",
+    "Q_preserves_basis_norms": true,
+    "X1_basis_vector": {
+      "e0": 1
+    }
+  },
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "trials": [
+    {
+      "Q_h80": {},
+      "checks": {
+        "Q_equivariance": true,
+        "Q_preserves_norm_squared": true,
+        "Q_preserves_null_classification": true,
+        "exchange_negates_odd": true,
+        "exchange_preserves_even": true,
+        "expected_h80": true,
+        "expected_norm_squared": true,
+        "reconstruct_f_a": true,
+        "reconstruct_f_b": true
+      },
+      "classification": "NULL",
+      "f_a": {
+        "e1": 1,
+        "e2": 2
+      },
+      "f_b": {
+        "e1": 1,
+        "e2": 2
+      },
+      "f_even": {
+        "e1": 1,
+        "e2": 2
+      },
+      "f_odd": {},
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "BALANCED"
+    },
+    {
+      "Q_h80": {},
+      "checks": {
+        "Q_equivariance": true,
+        "Q_preserves_norm_squared": true,
+        "Q_preserves_null_classification": true,
+        "exchange_negates_odd": true,
+        "exchange_preserves_even": true,
+        "expected_h80": true,
+        "expected_norm_squared": true,
+        "reconstruct_f_a": true,
+        "reconstruct_f_b": true
+      },
+      "classification": "NULL",
+      "f_a": {
+        "e0": 1
+      },
+      "f_b": {
+        "e0": -1
+      },
+      "f_even": {},
+      "f_odd": {
+        "e0": 1
+      },
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "X1_ONLY"
+    },
+    {
+      "Q_h80": {
+        "e1": 2,
+        "e2": 1
+      },
+      "checks": {
+        "Q_equivariance": true,
+        "Q_preserves_norm_squared": true,
+        "Q_preserves_null_classification": true,
+        "exchange_negates_odd": true,
+        "exchange_preserves_even": true,
+        "expected_h80": true,
+        "expected_norm_squared": true,
+        "reconstruct_f_a": true,
+        "reconstruct_f_b": true
+      },
+      "classification": "NON_NULL",
+      "f_a": {
+        "e1": 1,
+        "e2": 2
+      },
+      "f_b": {
+        "e1": -1,
+        "e2": -2
+      },
+      "f_even": {},
+      "f_odd": {
+        "e1": 1,
+        "e2": 2
+      },
+      "h80": {
+        "e1": 1,
+        "e2": 2
+      },
+      "norm_squared": 5,
+      "trial": "TRANSVERSE"
+    },
+    {
+      "Q_h80": {
+        "e1": 2,
+        "e2": 1
+      },
+      "checks": {
+        "Q_equivariance": true,
+        "Q_preserves_norm_squared": true,
+        "Q_preserves_null_classification": true,
+        "exchange_negates_odd": true,
+        "exchange_preserves_even": true,
+        "expected_h80": true,
+        "expected_norm_squared": true,
+        "reconstruct_f_a": true,
+        "reconstruct_f_b": true
+      },
+      "classification": "NON_NULL",
+      "f_a": {
+        "e0": 1,
+        "e1": 1,
+        "e2": 2
+      },
+      "f_b": {
+        "e0": -1,
+        "e1": -1,
+        "e2": -2
+      },
+      "f_even": {},
+      "f_odd": {
+        "e0": 1,
+        "e1": 1,
+        "e2": 2
+      },
+      "h80": {
+        "e1": 1,
+        "e2": 2
+      },
+      "norm_squared": 5,
+      "trial": "MIXED"
+    },
+    {
+      "Q_h80": {},
+      "checks": {
+        "Q_equivariance": true,
+        "Q_preserves_norm_squared": true,
+        "Q_preserves_null_classification": true,
+        "exchange_negates_odd": true,
+        "exchange_preserves_even": true,
+        "expected_h80": true,
+        "expected_norm_squared": true,
+        "reconstruct_f_a": true,
+        "reconstruct_f_b": true
+      },
+      "classification": "NULL",
+      "f_a": {},
+      "f_b": {},
+      "f_even": {},
+      "f_odd": {},
+      "h80": {},
+      "norm_squared": 0,
+      "trial": "DEGENERATE"
+    }
+  ]
+}

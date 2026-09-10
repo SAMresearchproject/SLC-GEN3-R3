@@ -1,0 +1,54 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "d997e62b72cf732487ac35bf43c6cbea1d6b95d5",
+      "bytes": 6136,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_PRECOMMIT.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_PRECOMMIT.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+      "mode": "100644",
+      "git_blob": "5af010977e7e917023a4c81af364a70643c4ba6c",
+      "bytes": 14461,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md",
+      "mode": "100644",
+      "git_blob": "2375f7e6e306af5497daecdfa94caef17b842900",
+      "bytes": 6001,
+      "category": "Other package files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "ecac646b53efe7f6f63ca28b7bbd6b0fcc98d4ca",
+      "bytes": 7098,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_declared_premises.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_declared_premises.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR090@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

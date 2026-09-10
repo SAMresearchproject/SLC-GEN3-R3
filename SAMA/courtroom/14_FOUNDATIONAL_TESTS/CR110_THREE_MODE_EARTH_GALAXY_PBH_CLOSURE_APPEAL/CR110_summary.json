@@ -1,0 +1,71 @@
+{
+  "cr_id": "CR110",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR109 (PBH) -> CR108 (Planck) -> CR107 (SPARC) -> CR104a (Layer 4)",
+  "test_class": "STRUCTURAL_CLOSURE_APPEAL_THREE_MODE_A_FIELD_ACCUMULATION",
+  "execution_status": "CLEAN",
+  "result_class": "CR110_THREE_MODE_STRUCTURAL_CLOSURE_APPEAL_LOCKED",
+  "appeal_lock_sha256": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+  "upstream_hashes": {
+    "CR107_sparc_anchor.json": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR109_pbh_anchor.json": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "CR104_summary.json": "1487675d79c8fde276ef9505ba63946ccd68835ade87d33115b1e761dc873c9f",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_three_mode_structural_rule_stated_with_zero_free_parameters",
+      "pass": true
+    },
+    {
+      "name": "P2_earth_mode_anchored_to_CR104_PARTIAL_CLOSURE",
+      "pass": true
+    },
+    {
+      "name": "P3_galaxy_mode_anchored_to_CR107_SPARC_reference",
+      "pass": true
+    },
+    {
+      "name": "P4_pbh_mode_anchored_to_CR109_envelope",
+      "pass": true
+    },
+    {
+      "name": "P5_layer_4b_rule_unmodified",
+      "pass": true,
+      "details": "CR104a_appeal_lock referenced unchanged"
+    },
+    {
+      "name": "P6_three_forward_blind_predictions_registered",
+      "pass": true
+    },
+    {
+      "name": "P7_appeal_lock_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "appeal_sha256": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b"
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_prior_CR_verdict_modified",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_free_parameter_introduced_across_any_mode",
+      "pass": true
+    },
+    {
+      "name": "WC3_no_match_reveal_in_this_appeal",
+      "pass": true,
+      "details": "this CR registers forward-blind predictions; quantitative match reveal lives in later CRs"
+    }
+  ],
+  "next_courtroom_step": "CR111 cosmic baryon Omega_b closure appeal",
+  "open_debts": [
+    "Quantitative match reveal of G732c vs SPARC reserved for future CR",
+    "Quantitative compatibility check of CR104a Layer 4 vs CR109 envelope reserved for future CR"
+  ]
+}

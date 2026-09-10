@@ -1,0 +1,42 @@
+# CR015 SN/BAO Independent Ledger Lock
+
+## Verdict
+
+```text
+CR015_PASS_SN_BAO_INDEPENDENT_LEDGER_LOCK
+```
+
+## Courtroom Fields
+
+```text
+execution_status = CLEAN
+scientific_verdict = PASS
+triage_bin = A
+claim_tier = PASS_SN_BAO_INDEPENDENT_LEDGER_LOCK
+```
+
+## Lock Packet
+
+```text
+max_identity_error = 0.000e+00
+max_overlap_pct_abs = 0.240000
+```
+
+## Pass Conditions
+
+| condition | pass |
+|---|---:|
+| no_older_test_verdicts_used | true |
+| free_parameters_introduced_zero | true |
+| independent_ledger_functions_defined_before_overlap | true |
+| same_z_identity_holds | true |
+| overlap_not_formula_source | true |
+| all_bao_sites_have_sn_overlap_rows | true |
+| overlap_max_abs_pct_within_declared_window | true |
+| wrong_controls_do_not_match_packet | true |
+
+## Rule-9 Line
+
+```text
+This test could have falsified the independent-ledger claim if separately computed SN luminosity/flux and BAO ruler/projection ledgers did not reduce to the same A_los(z), or if the BAO-site SN overlap failed without using the overlap as a formula source.
+```

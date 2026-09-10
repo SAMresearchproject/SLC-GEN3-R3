@@ -1,0 +1,351 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "1970784b8e8e22595fdf0d144fe7fa5e4e9e5a99",
+      "bytes": 4219,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/HASHES.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "254ca9ec50720f28e478fd70f78f8803ad62b506",
+      "bytes": 8557,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/_build_external_nuclide_table.py",
+      "mode": "100644",
+      "git_blob": "ab35d0dc7b638e8a13b3ed33e690ba593fba5873",
+      "bytes": 2611,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/_build_external_nuclide_table.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/_build_external_nuclide_table.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/_build_external_nuclide_table.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/_build_external_nuclide_table.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R10_D3_control_scored.csv",
+      "mode": "100644",
+      "git_blob": "7c9ec7bbc3a1639a861802db3bc5f45c34922bc0",
+      "bytes": 22424,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R10_D3_control_scored.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R10_D3_control_scored.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R10_D3_control_scored.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R10_D3_control_scored.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R11_D3_control_scored.csv",
+      "mode": "100644",
+      "git_blob": "49fb80445832aee5d21377dd6bfd0009347be346",
+      "bytes": 23095,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R11_D3_control_scored.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R11_D3_control_scored.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R11_D3_control_scored.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R11_D3_control_scored.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R12_D2_control_scored.csv",
+      "mode": "100644",
+      "git_blob": "9eeebfd895210eec6b26ad195ce0948fa2e0cdc3",
+      "bytes": 23454,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R12_D2_control_scored.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R12_D2_control_scored.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R12_D2_control_scored.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R12_D2_control_scored.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R13_D3_control_scored.csv",
+      "mode": "100644",
+      "git_blob": "f312e86a0fe5b2a713a3f3b3e408fc239b8cad5e",
+      "bytes": 23502,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R13_D3_control_scored.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R13_D3_control_scored.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R13_D3_control_scored.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/R13_D3_control_scored.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/random_boundary_controls.csv",
+      "mode": "100644",
+      "git_blob": "3234592fa5835a10e60d400db950aef9149cbed1",
+      "bytes": 587093,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/random_boundary_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/random_boundary_controls.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/random_boundary_controls.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/random_boundary_controls.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/shuffled_anchor_control.csv",
+      "mode": "100644",
+      "git_blob": "d91c0db6b8e0f00f9eca35f3443963f17de42c3f",
+      "bytes": 184,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/shuffled_anchor_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/shuffled_anchor_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/shuffled_anchor_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/shuffled_anchor_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/smooth_null_control.csv",
+      "mode": "100644",
+      "git_blob": "c6ca3d9525f4eb381e3afb2a6ada4aae108cad46",
+      "bytes": 264,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/smooth_null_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/smooth_null_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/smooth_null_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/controls/smooth_null_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "d349ca21b59a1dba557f8c8f6effc995c192b9ae",
+      "bytes": 68,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/PRECOMMIT_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/final_outputs_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "32c80e69aee0117a86b258152f76cc41563b5318",
+      "bytes": 65,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/final_outputs_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/final_outputs_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/final_outputs_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/final_outputs_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/predictions_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "d4b133ee2cb30a8083edf7bc540918b94556aab6",
+      "bytes": 65,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/predictions_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/predictions_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/predictions_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/predictions_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/run_test8_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "e01963e5041457f1bbeff020e0c55b915e175856",
+      "bytes": 68,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/run_test8_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/run_test8_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/run_test8_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/hashes/run_test8_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/README_INPUT_SCHEMA.md",
+      "mode": "100644",
+      "git_blob": "5b7adf6e58daffa4df2b191e1bc91d453a7d16d0",
+      "bytes": 1088,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/README_INPUT_SCHEMA.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/README_INPUT_SCHEMA.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/README_INPUT_SCHEMA.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/README_INPUT_SCHEMA.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table.csv",
+      "mode": "100644",
+      "git_blob": "a5795c941b3d3947070c7caf963d6407c6319113",
+      "bytes": 268992,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table_SOURCE.txt",
+      "mode": "100644",
+      "git_blob": "cab733a5d678cd4780961734c4abe6d8646e9b8a",
+      "bytes": 1406,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table_SOURCE.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table_SOURCE.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table_SOURCE.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/inputs/external_nuclide_table_SOURCE.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/N_residual_by_Z.png",
+      "mode": "100644",
+      "git_blob": "4863b1b86e8528cad0df47ee2a1c6127e6513fac",
+      "bytes": 77770,
+      "category": "Figures and documents",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/N_residual_by_Z.png",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/N_residual_by_Z.png",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/N_residual_by_Z.png",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/N_residual_by_Z.png"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/abs_residual_by_Z.png",
+      "mode": "100644",
+      "git_blob": "34d942bbdfb601d9cd88fc735b0b41fd63de8bc7",
+      "bytes": 79669,
+      "category": "Figures and documents",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/abs_residual_by_Z.png",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/abs_residual_by_Z.png",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/abs_residual_by_Z.png",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/abs_residual_by_Z.png"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/changepoint_score_scan.png",
+      "mode": "100644",
+      "git_blob": "1ed25acb3f92a3d220e12e1443d3419f67347909",
+      "bytes": 46398,
+      "category": "Figures and documents",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/changepoint_score_scan.png",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/changepoint_score_scan.png",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/changepoint_score_scan.png",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/changepoint_score_scan.png"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/control_comparison.png",
+      "mode": "100644",
+      "git_blob": "ba602a8adb10bef6a2f4a81695a0299303889643",
+      "bytes": 38720,
+      "category": "Figures and documents",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/control_comparison.png",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/control_comparison.png",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/control_comparison.png",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/control_comparison.png"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/nearest_known_delta_by_Z.png",
+      "mode": "100644",
+      "git_blob": "34494a77899141de2bf6998fb753c701373248e6",
+      "bytes": 33494,
+      "category": "Figures and documents",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/nearest_known_delta_by_Z.png",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/nearest_known_delta_by_Z.png",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/nearest_known_delta_by_Z.png",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/plots/nearest_known_delta_by_Z.png"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_changepoint_scan.csv",
+      "mode": "100644",
+      "git_blob": "27d225f780bafd4d54ee674dd9fcfec0c01556a2",
+      "bytes": 2594,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_changepoint_scan.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_changepoint_scan.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_changepoint_scan.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_changepoint_scan.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_control_summary.csv",
+      "mode": "100644",
+      "git_blob": "e3019af0eb71812ab8c68495743ff87f76cb1d9e",
+      "bytes": 742,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_control_summary.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_control_summary.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_control_summary.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_control_summary.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_external_anchors_by_Z.csv",
+      "mode": "100644",
+      "git_blob": "bfa03cb38e9475d0428514ea19db215045bb1240",
+      "bytes": 18904,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_external_anchors_by_Z.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_external_anchors_by_Z.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_external_anchors_by_Z.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_external_anchors_by_Z.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_internal_checks.json",
+      "mode": "100644",
+      "git_blob": "557ebb224cceed135701efbcecd19e6b5d8c765d",
+      "bytes": 729,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_internal_checks.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_internal_checks.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_internal_checks.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_internal_checks.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_sam_predictions.csv",
+      "mode": "100644",
+      "git_blob": "e585afbdb87f6a3bd0be683ddb9283a7cc2e1c46",
+      "bytes": 4345,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_sam_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_sam_predictions.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_sam_predictions.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_sam_predictions.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv",
+      "mode": "100644",
+      "git_blob": "06a950825caf5c53d0623e3da2af08e52ee1c4d8",
+      "bytes": 17327,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md",
+      "mode": "100644",
+      "git_blob": "29d255547236f2e6c62e70798a8823fd9a1dbdb7",
+      "bytes": 1829,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_window_score.json",
+      "mode": "100644",
+      "git_blob": "a834e54f775cb6876d95b4a25b90dbb0e4fb0be7",
+      "bytes": 713,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_window_score.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_window_score.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_window_score.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_window_score.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/run_test8_z96_regime_change.py",
+      "mode": "100644",
+      "git_blob": "6e954082eab8cd83b6324f31674e81f33400b3e7",
+      "bytes": 34753,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/run_test8_z96_regime_change.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/run_test8_z96_regime_change.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/run_test8_z96_regime_change.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST8_Z96_REGIME_CHANGE/run_test8_z96_regime_change.py"
+    }
+  ],
+  "test_keys": [
+    "CR:TEST8@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

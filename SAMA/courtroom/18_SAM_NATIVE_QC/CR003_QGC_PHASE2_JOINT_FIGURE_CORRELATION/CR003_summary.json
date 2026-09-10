@@ -1,0 +1,156 @@
+{
+  "cr_id": "CR003",
+  "branch": "18_SAM_NATIVE_QC",
+  "title": "QGC Phase 2: Joint Figure \ud835\udc9e Correlation End-to-End",
+  "verdict": "PASS",
+  "main_program": {
+    "program_ops": [
+      [
+        "B",
+        "A"
+      ],
+      [
+        "C",
+        "A",
+        "B"
+      ],
+      [
+        "PUBLISH",
+        "A"
+      ],
+      [
+        "PUBLISH",
+        "B"
+      ]
+    ],
+    "final_state": {
+      "site_A": {
+        "face_index": 9,
+        "alpha_h_label": 1,
+        "status": "resolved",
+        "cumulative_writes": 192
+      },
+      "site_B": {
+        "face_index": 4,
+        "alpha_h_label": 1,
+        "status": "resolved",
+        "cumulative_writes": 128
+      }
+    },
+    "budget_per_site": {
+      "site_A_writes": 192,
+      "site_B_writes": 128,
+      "N_max": 61312
+    },
+    "verification_gates": {
+      "V-1_all_per_step_match": true,
+      "V-2_budget_under_N_max": true,
+      "V-3_final_correlation_AB_eq_1_1": true,
+      "V-4_final_faces_unchanged": true,
+      "V-5_final_cumulative_writes_match": true
+    },
+    "main_program_pass": true
+  },
+  "wrong_controls": {
+    "results": [
+      {
+        "id": "WC-1",
+        "description": "skip B on control (no flip; control \u03b1_H stays 0)",
+        "expected_final": [
+          9,
+          0,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "observed_final": [
+          9,
+          0,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "wc_pass": true,
+        "cum_writes_A": 128,
+        "cum_writes_B": 128
+      },
+      {
+        "id": "WC-2",
+        "description": "B(A) AFTER \ud835\udc9e (\ud835\udc9e reads control \u03b1_H=0 before flip)",
+        "expected_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "observed_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "wc_pass": true,
+        "cum_writes_A": 192,
+        "cum_writes_B": 128
+      },
+      {
+        "id": "WC-3",
+        "description": "swap control/target (\ud835\udc9e with control=B, target=A)",
+        "expected_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "observed_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "wc_pass": true,
+        "cum_writes_A": 192,
+        "cum_writes_B": 128
+      },
+      {
+        "id": "WC-4",
+        "description": "apply \ud835\udc9e twice (\ud835\udc9e\u00b2 = identity on joint state)",
+        "expected_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "observed_final": [
+          9,
+          1,
+          "resolved",
+          4,
+          0,
+          "resolved"
+        ],
+        "wc_pass": true,
+        "cum_writes_A": 256,
+        "cum_writes_B": 192
+      }
+    ],
+    "all_pass": true
+  },
+  "substrate_atoms_used": {
+    "S": 8,
+    "S_squared": 64,
+    "N_max": 61312
+  }
+}

@@ -1,0 +1,11 @@
+test_deployment_scope_and_actual_memory_evidence (test_release.ReleaseTests.test_deployment_scope_and_actual_memory_evidence) ... ok
+test_exact_account_cancellation_append_and_history (test_release.ReleaseTests.test_exact_account_cancellation_append_and_history) ... ok
+test_fresh_process_native_checkpoint_and_receipts (test_release.ReleaseTests.test_fresh_process_native_checkpoint_and_receipts) ... ok
+test_owner_word_exact_history_and_r3_logs (test_release.ReleaseTests.test_owner_word_exact_history_and_r3_logs) ... ok
+test_selected_source_and_compatibility (test_release.ReleaseTests.test_selected_source_and_compatibility) ... ok
+test_weighted_policy_from_current_source (test_release.ReleaseTests.test_weighted_policy_from_current_source) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.368s
+
+OK

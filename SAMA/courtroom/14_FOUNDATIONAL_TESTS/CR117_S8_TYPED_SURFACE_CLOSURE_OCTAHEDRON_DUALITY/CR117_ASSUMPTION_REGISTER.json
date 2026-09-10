@@ -1,0 +1,49 @@
+{
+  "record_id": "CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY",
+  "sealed_utc": "2026-07-12T03:12:56Z",
+  "assumptions": [
+    {
+      "id": "A1_current_primitive_base",
+      "statement": "Use CR258 as the controlling current primitive-base source: alpha_H=2 and D=3 are the minimal sufficient integer primitives for the rational sector.",
+      "source": "CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT",
+      "status": "SOURCE_CONTROLLED"
+    },
+    {
+      "id": "A2_h_equals_alpha_H",
+      "statement": "Use h=alpha_H=2 for the binary arity in this theorem.",
+      "source": "CR258 and Volume I/Section 4 binary readout language",
+      "status": "SOURCE_CONTROLLED"
+    },
+    {
+      "id": "A3_no_literal_physical_octahedron_claim",
+      "statement": "The cube-octahedron result is a mathematical/combinatorial realization and candidate SAM geometry only; it does not prove literal physical octahedral substrate atoms.",
+      "source": "Campaign STOP 4 and source audit",
+      "status": "BOUNDARY"
+    },
+    {
+      "id": "A4_cross_polytope_mathematics",
+      "statement": "The D-dimensional cross-polytope has 2D vertices, 2D(D-1) edges, and 2^D facets; in D=3 this is the octahedron.",
+      "source": "Standard combinatorics, computed directly by runner",
+      "status": "MATHEMATICAL_ASSUMPTION_TO_VERIFY"
+    },
+    {
+      "id": "A5_pin_jointed_rigidity_scope",
+      "statement": "Rigidity test is scoped to equal-edge pin-jointed 3D skeletal frameworks, not material strength, wall thickness, manufacturing, or universal structural superiority.",
+      "source": "Campaign section 6",
+      "status": "SCOPE_LIMIT"
+    },
+    {
+      "id": "A6_firewall",
+      "statement": "No SAM Language v0.3, forecast, holdout, queue-maintenance, or language contract material is used for development.",
+      "source": "Campaign firewall and preflight",
+      "status": "FROZEN_FALSE_FIELDS"
+    }
+  ],
+  "non_assumptions": [
+    "2^3 counts all arbitrary separating surfaces",
+    "cube faces equal eight",
+    "octahedron vertices equal eight",
+    "mathematical octahedral duality proves literal physical substrate atoms",
+    "historical S=8 labels should be overwritten"
+  ]
+}

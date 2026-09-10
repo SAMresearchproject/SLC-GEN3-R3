@@ -1,0 +1,7 @@
+geometry,door,escape_scenarios,return_scenarios,escape_median_coherence_gain,return_median_coherence_gain,escape_median_power_per_carrier,return_median_power_per_carrier,escape_coherence_gt_incoherent_expectation,power_populations_comparable,escape_power_gt_return_power
+localized_ledger_cells,discovery,24,0,1.7978612366335915,,0.09650401053415247,,True,False,False
+localized_ledger_cells,validation,12,0,3.4315320486506975,,0.08336551490403596,,True,False,False
+localized_ledger_cells,final,12,0,1.7072070641983368,,0.07697967839515579,,True,False,False
+dispersed_slots,discovery,24,17,0.5742899440898013,1.0,0.031435973944351756,0.008489363277406134,False,True,True
+dispersed_slots,validation,12,12,0.5266661857593189,1.0,0.025479505247762015,0.006045694685260282,False,True,True
+dispersed_slots,final,12,7,0.36939099339609516,1.0,0.030845698252177357,0.052442293946163496,False,True,False

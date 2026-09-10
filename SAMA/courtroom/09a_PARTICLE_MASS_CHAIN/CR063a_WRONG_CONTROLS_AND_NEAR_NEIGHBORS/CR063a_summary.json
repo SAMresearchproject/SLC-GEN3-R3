@@ -1,0 +1,13 @@
+{
+  "cr_id": "CR063a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_WRONG_CONTROLS_AND_OLDER_FREEZE_MISROUTE_QUARANTINE",
+  "triage_bin": "A",
+  "reason": "The old 15-row branch is preserved as historical material, while QP075 is the active 35-row/26-operator source.",
+  "captured_at_utc": "2026-06-13T10:57:11Z",
+  "old_cr062_rows_extracted": 15,
+  "qp075_closure_rows": 35,
+  "qp075_operator_rows": 26,
+  "manifest_sha256": "c6a62b1e6dad7a143b1dff11234c144fc781b865fe7be0fbbca789d482285e06"
+}

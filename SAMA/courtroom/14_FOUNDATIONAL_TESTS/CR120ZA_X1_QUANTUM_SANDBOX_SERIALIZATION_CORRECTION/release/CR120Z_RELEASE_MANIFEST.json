@@ -1,0 +1,71 @@
+{
+  "campaign_id": "CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION",
+  "files": [
+    {
+      "bytes": 4364,
+      "path": "CR120Z_DENSITY_MATRICES.csv",
+      "sha256": "05782e2e19a598e72e162052b3df2e320f70c13002894ce7ea7091ce870c9c1a"
+    },
+    {
+      "bytes": 578,
+      "path": "CR120Z_DIRECT_STATE_METRICS.csv",
+      "sha256": "6923b07545cc362226639e4274fce185f3e62965bd7c78af5be3b5e3ff7948f7"
+    },
+    {
+      "bytes": 658,
+      "path": "CR120Z_EVIDENCE_MATRIX.csv",
+      "sha256": "838a4865516f8846b2fd880b09d24afd5039d27a2d19faed4fb7d304bb59db23"
+    },
+    {
+      "bytes": 212,
+      "path": "CR120Z_NO_SIGNALING_MARGINALS.csv",
+      "sha256": "ce139090238adefaf1d6157b2b3f3d230bb7cb73e10b05a9e4bf0f4651c2b5c2"
+    },
+    {
+      "bytes": 11191,
+      "path": "CR120Z_NOISE_SCAN.csv",
+      "sha256": "d7b5eb5cfe3209d2e0431d1f23ad98c161c41e304568f5eaacb8311c3b2c68df"
+    },
+    {
+      "bytes": 902,
+      "path": "CR120Z_PROVENANCE.json",
+      "sha256": "3134d09d5215e9b631a65b1e116172d87be4dae7302f7d52611af11417b30e98"
+    },
+    {
+      "bytes": 5914,
+      "path": "CR120Z_QUANTUM_SANDBOX.html",
+      "sha256": "facea629d11494218269b8fd406c4b9b34e7bdbe6e202950aff4880fa703bbba"
+    },
+    {
+      "bytes": 2462,
+      "path": "CR120Z_result.md",
+      "sha256": "d9079ccb17547257703d79a764be7aecaf0342e862709960d77f8ff170a1902a"
+    },
+    {
+      "bytes": 3033,
+      "path": "CR120Z_SOURCE_VALIDATION.csv",
+      "sha256": "37b43c475e39e394c4e084227d9956197a2737c04c0d3193815e8af5ba846038"
+    },
+    {
+      "bytes": 2391,
+      "path": "CR120Z_SUMMARY.json",
+      "sha256": "9ffa52b01b220c1dfdcc12c59cb73d3a1b7f1fa7ed4aec46c38677cd3add3128"
+    },
+    {
+      "bytes": 422,
+      "path": "CR120Z_SWAP_METRICS.csv",
+      "sha256": "3742f6e364cd3292b16b5f49ae01b8c1f77dc3d64f3ff786c367150875e0f34d"
+    },
+    {
+      "bytes": 600,
+      "path": "CR120Z_TYPE_BRIDGE.csv",
+      "sha256": "99858dfc7f3fc354078c377658be74309baa2aed94ad12328d5f104fe4dbe9e4"
+    },
+    {
+      "bytes": 1020,
+      "path": "CR120Z_WRONG_CONTROLS.csv",
+      "sha256": "aa9a3c6759c08170b71e998588d88b7f1bb153c4e5ee90409d0bacd8ce15e615"
+    }
+  ],
+  "primary_verdict": "PASS_X1_RESPONSE_INTERFACE_QUANTUM_CAPABLE_SANDBOX__ORDERED_B_THEN_X1_GENERATES_AND_HERALDS_NONSEPARABILITY__PHYSICAL_WELD_OPEN"
+}

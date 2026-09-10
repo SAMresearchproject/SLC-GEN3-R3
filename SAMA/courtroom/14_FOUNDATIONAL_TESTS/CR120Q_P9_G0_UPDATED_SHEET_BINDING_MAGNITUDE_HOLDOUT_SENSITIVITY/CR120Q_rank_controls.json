@@ -1,0 +1,108 @@
+{
+  "all_global_constants_rejected_as_independent_features": true,
+  "global_constant_feature_controls": {
+    "five_row_50p625": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 50.625,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    },
+    "remaining_four_49p5": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 49.5,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    },
+    "sum_12550p5": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 12550.5,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    },
+    "sum_12600": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 12600.0,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    },
+    "sum_16200": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 16200.0,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    },
+    "sum_difference_3600": {
+      "augmented_rank": 8,
+      "base_rank": 8,
+      "constant_value": 3600.0,
+      "exact_scalar_multiple_of_intercept": true,
+      "rank_increased": false
+    }
+  },
+  "record_id": "CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY",
+  "scenario_designs": [
+    {
+      "M_scale_sum": 126.0,
+      "condition_number": 2378.329365064069,
+      "feature_count": 8,
+      "largest_singular_value": 7.019591025530305,
+      "reported_lstsq_rank": 8,
+      "scenario": "BASELINE_REGISTERED_M126",
+      "smallest_singular_value": 0.0029514797776300453,
+      "train_design_rank": 8,
+      "train_rows": 49
+    },
+    {
+      "M_scale_sum": 12600.0,
+      "condition_number": 217801.805492355,
+      "feature_count": 8,
+      "largest_singular_value": 7.006794903625897,
+      "reported_lstsq_rank": 8,
+      "scenario": "SHEET81_AS_SAVED_12600",
+      "smallest_singular_value": 3.217050881551044e-05,
+      "train_design_rank": 8,
+      "train_rows": 49
+    },
+    {
+      "M_scale_sum": 12550.5,
+      "condition_number": 216946.17089368502,
+      "feature_count": 8,
+      "largest_singular_value": 7.006794913700992,
+      "reported_lstsq_rank": 8,
+      "scenario": "SHEET81_P9G0_REMOVED_12550P5",
+      "smallest_singular_value": 3.229738918570122e-05,
+      "train_design_rank": 8,
+      "train_rows": 49
+    },
+    {
+      "M_scale_sum": 16200.0,
+      "condition_number": 280029.9023123227,
+      "feature_count": 8,
+      "largest_singular_value": 7.0067944000276015,
+      "reported_lstsq_rank": 8,
+      "scenario": "SHEET100_P9G0_REMOVED_16200",
+      "smallest_singular_value": 2.502159355900782e-05,
+      "train_design_rank": 8,
+      "train_rows": 49
+    }
+  ],
+  "train_only_refit_prediction_invariance": {
+    "SHEET100_P9G0_REMOVED_16200": {
+      "max_abs_prediction_delta_u_vs_M126": 1.9539925233402755e-14,
+      "rms_prediction_delta_u_vs_M126": 1.3184143832860789e-14
+    },
+    "SHEET81_AS_SAVED_12600": {
+      "max_abs_prediction_delta_u_vs_M126": 4.063416270128073e-14,
+      "rms_prediction_delta_u_vs_M126": 2.4180605864673277e-14
+    },
+    "SHEET81_P9G0_REMOVED_12550P5": {
+      "max_abs_prediction_delta_u_vs_M126": 1.9317880628477724e-14,
+      "rms_prediction_delta_u_vs_M126": 1.1205761537266991e-14
+    }
+  }
+}

@@ -1,0 +1,7 @@
+route_id,expression,value,expected,exact,source_family
+D1_ALPHA_H_D_SQUARED,alpha_H * D^2,18,18,True,CR114+CR116
+D2_R_SQUARED_OVER_S,R^2 / S,18,18,True,CR114+CR269
+D3_N_MINUS_M,N - M,18,18,True,CR119+CR229+CR269
+D4_L_MINUS_N,L - N,18,18,True,CR119+CR229
+D5_HALF_L_MINUS_M,(L - M) / 2,18,18,True,CR119+CR229
+D6_F81_INTERSECTION,|A intersect B|,18,18,True,CR229

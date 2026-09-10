@@ -1,0 +1,28 @@
+{
+  "100L": 16200,
+  "100M": 12600,
+  "100N": 14400,
+  "L": 162,
+  "M": 126,
+  "N": 144,
+  "Theta": 18,
+  "evidence_class": "EXACT_NUMERIC_COMPATIBILITY; projection law requires frozen validation",
+  "identities": {
+    "L=N+Theta": true,
+    "M=N-Theta": true,
+    "N=Theta+M": true,
+    "half_difference": true,
+    "midpoint": true
+  },
+  "observations": {
+    "mean100": "162",
+    "packet_rows": 5,
+    "packet_sum": "50.625",
+    "rows100": 100,
+    "rows105": 105,
+    "rows81": 81,
+    "sum100": "16200",
+    "sum105": "16250.625",
+    "sum81": "12600"
+  }
+}

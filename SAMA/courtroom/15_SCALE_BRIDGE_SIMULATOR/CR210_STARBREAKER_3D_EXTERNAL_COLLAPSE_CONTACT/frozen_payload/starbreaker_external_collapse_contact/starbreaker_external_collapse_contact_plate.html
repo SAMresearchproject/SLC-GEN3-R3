@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Starbreaker // External Collapse Contact</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --ink:#f3f5ec; --muted:#8f9c9b; --panel:#111918d9; --line:#263736;
+    --acid:#d8ff4f; --cyan:#60e7ff; --ember:#ff775a; --void:#050808; --ok:#80ffb5;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; color:var(--ink); background:
+    radial-gradient(circle at 75% 20%,#19302a 0,transparent 28%),
+    radial-gradient(circle at 15% 80%,#251a18 0,transparent 25%), var(--void);
+    font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif; overflow-x:hidden; }
+  body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.22;
+    background-image:linear-gradient(#ffffff08 1px,transparent 1px),linear-gradient(90deg,#ffffff08 1px,transparent 1px);
+    background-size:42px 42px; mask-image:linear-gradient(to bottom,#000,transparent 86%); }
+  .wrap { width:min(1180px,calc(100% - 34px)); margin:auto; padding:28px 0 54px; position:relative; }
+  header { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; border-bottom:1px solid var(--line); padding-bottom:19px; }
+  .eyebrow { font:700 11px/1.2 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:.2em; color:var(--acid); text-transform:uppercase; }
+  h1 { font-size:clamp(36px,7vw,82px); line-height:.88; letter-spacing:-.065em; margin:11px 0 13px; max-width:820px; }
+  h1 span { color:transparent; -webkit-text-stroke:1px #a7b4ae; }
+  .sub { color:var(--muted); max-width:680px; font-size:15px; line-height:1.6; }
+  .seal { min-width:170px; border:1px solid #44615b; padding:14px; background:#0b1211; transform:rotate(1deg); }
+  .seal strong { display:block; color:var(--ok); font:800 13px/1.2 ui-monospace,monospace; }
+  .seal small { color:var(--muted); display:block; margin-top:7px; }
+  .metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:20px 0; }
+  .metric { background:var(--panel); border:1px solid var(--line); padding:16px; min-height:104px; }
+  .metric b { display:block; font-size:clamp(27px,4vw,43px); letter-spacing:-.04em; color:var(--acid); }
+  .metric span { color:var(--muted); font-size:12px; letter-spacing:.05em; }
+  .contact { display:grid; grid-template-columns:1fr 110px 1fr; gap:14px; align-items:stretch; margin:10px 0 20px; }
+  .source,.sam { border:1px solid var(--line); background:linear-gradient(145deg,#111a19,#0a0e0e); padding:23px; min-height:235px; }
+  .source h2,.sam h2 { margin:7px 0 15px; font-size:24px; letter-spacing:-.035em; }
+  .source .arrowline { color:var(--cyan); font:700 18px/1.55 ui-monospace,monospace; }
+  .sam .arrowline { color:var(--ember); font:700 18px/1.55 ui-monospace,monospace; }
+  .source p,.sam p { color:var(--muted); line-height:1.55; margin:12px 0 0; }
+  .bridge { position:relative; display:grid; place-items:center; color:var(--acid); font:800 11px/1.3 ui-monospace,monospace; text-align:center; letter-spacing:.12em; }
+  .bridge::before { content:""; position:absolute; left:0; right:0; top:50%; height:1px; background:var(--acid); box-shadow:0 0 15px var(--acid); }
+  .bridge span { position:relative; background:var(--void); padding:9px 5px; }
+  .chartbox { border:1px solid var(--line); background:#080d0dcc; padding:21px; }
+  .charthead { display:flex; justify-content:space-between; align-items:end; gap:15px; margin-bottom:12px; }
+  .charthead h2 { margin:0; font-size:26px; letter-spacing:-.04em; }
+  .legend { display:flex; gap:15px; color:var(--muted); font-size:12px; flex-wrap:wrap; }
+  .legend i { width:10px; height:10px; display:inline-block; border-radius:50%; margin-right:6px; }
+  svg { display:block; width:100%; height:auto; min-height:290px; }
+  .gridline { stroke:#263533; stroke-width:1; } .axistext { fill:#73827f; font:11px ui-monospace,monospace; }
+  .curve { fill:none; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; filter:drop-shadow(0 0 7px currentColor); }
+  .dot { stroke:#07100e; stroke-width:3; }
+  .verdict { margin-top:20px; border:1px solid #4f6c4c; background:linear-gradient(100deg,#17251a,#0c1311 62%); padding:25px; display:grid; grid-template-columns:auto 1fr; gap:20px; align-items:center; }
+  .glyph { width:86px; aspect-ratio:1; border:1px solid var(--acid); border-radius:50%; display:grid; place-items:center; color:var(--acid); font-size:34px; box-shadow:inset 0 0 25px #d8ff4f1c,0 0 25px #d8ff4f13; }
+  .verdict h2 { margin:0 0 6px; font-size:clamp(23px,4vw,42px); letter-spacing:-.045em; }
+  .verdict p { margin:0; color:#a8b5b1; line-height:1.55; }
+  .boundary { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px; }
+  .note { border:1px solid var(--line); padding:17px; color:var(--muted); background:#0a0f0f; line-height:1.5; font-size:13px; }
+  .note b { color:var(--ink); }
+  footer { display:flex; justify-content:space-between; gap:15px; margin-top:20px; padding-top:17px; border-top:1px solid var(--line); color:#697573; font:11px/1.5 ui-monospace,monospace; }
+  footer a { color:var(--cyan); }
+  @media(max-width:780px) { .metrics {grid-template-columns:1fr 1fr} .contact {grid-template-columns:1fr} .bridge {min-height:60px} .bridge::before {left:50%;right:auto;top:0;bottom:0;width:1px;height:auto} .boundary {grid-template-columns:1fr} header {display:block} .seal {margin-top:16px} }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div>
+      <div class="eyebrow">Basement instrument // single-source gate // v0.1</div>
+      <h1>STARBREAKER<br><span>FIRST CONTACT</span></h1>
+      <div class="sub">One published collapse direction. One frozen 3D ledger ladder. Zero fitting. This plate asks whether Starbreaker's internal collapse response points the same way—not whether the two systems share units or physics.</div>
+    </div>
+    <div class="seal"><strong>DIRECTIONAL CONTACT</strong><small>external physics validation remains open</small></div>
+  </header>
+
+  <section class="metrics">
+    <div class="metric"><b>42/42</b><span>strict p=0→3 ladders</span></div>
+    <div class="metric"><b>42/42</b><span>same-total inward wins</span></div>
+    <div class="metric"><b>2/2</b><span>max of 24 permutations</span></div>
+    <div class="metric"><b>0</b><span>fit parameters</span></div>
+  </section>
+
+  <section class="contact">
+    <article class="source">
+      <div class="eyebrow">Frozen external signature</div>
+      <h2>O'Connor + Ott / 2011</h2>
+      <div class="arrowline">higher bounce compactness<br>→ faster BH formation<br>→ harder to explode</div>
+      <p>Primary GR1D collapse simulations. Direction only; no ξ₂.₅ values or fitted relation imported.</p>
+    </article>
+    <div class="bridge"><span>QUALITATIVE<br>ORDERING<br>ONLY</span></div>
+    <article class="sam">
+      <div class="eyebrow">Frozen Starbreaker response</div>
+      <h2>Complete-ledger 3D</h2>
+      <div class="arrowline">higher inward p packing<br>→ higher remnant fraction<br>→ lower ejecta fraction</div>
+      <p>Both ledger-localized and dispersed-slot geometries. No new simulations after source selection.</p>
+    </article>
+  </section>
+
+  <section class="chartbox">
+    <div class="charthead">
+      <div><div class="eyebrow">Executed means / 21 locked rows per point</div><h2>Remnant fraction climbs at every packing step</h2></div>
+      <div class="legend"><span><i style="background:var(--acid)"></i>localized ledgers</span><span><i style="background:var(--cyan)"></i>dispersed slots</span></div>
+    </div>
+    <svg id="chart" viewBox="0 0 1000 360" role="img" aria-label="Mean Starbreaker remnant fraction versus packing exponent for two 3D geometries"></svg>
+  </section>
+
+  <section class="verdict">
+    <div class="glyph">↗</div>
+    <div><div class="eyebrow">Gate verdict</div><h2>THE COLLAPSE DIRECTION HOLDS.</h2><p>More complete ledgers packed inward produce more internal remnant in every locked comparison. This is unusually clean directional contact—but it is not a physical calibration, black-hole prediction, or proof of the A law.</p></div>
+  </section>
+
+  <section class="boundary">
+    <div class="note"><b>Do not equate the drivers.</b><br>`p` is a symbolic packing exponent. It is not bounce compactness ξ₂.₅ and has no assigned compactness units.</div>
+    <div class="note"><b>Do not equate the outcomes.</b><br>Starbreaker remnant fraction is an internal fate count. It is not black-hole probability, remnant mass, or formation time.</div>
+  </section>
+
+  <footer><span>STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_V0_1<br>read-only evaluation of 168 executed 3D density rows</span><span><a href="https://arxiv.org/abs/1010.5550">primary source: arXiv:1010.5550v2</a><br>DOI 10.1088/0004-637X/730/2/70</span></footer>
+</main>
+<script id="contact-data" type="application/json">{"readout":[{"geometry":"localized_ledger_cells","mean_remnant_ladder":[0.4946040144452843,0.595000139973685,0.7045588156699268,0.7883387923070463],"mean_ladder_strictly_increasing":true,"p0_to_p3_mean_delta":0.293734777861762,"runwise_monotonic_passes":21,"runwise_monotonic_total":21,"runwise_monotonic_fraction":1.0,"same_total_direction_passes":21,"same_total_direction_total":21,"same_total_direction_fraction":1.0,"same_total_mean_advantage":0.2899082472495171,"same_total_min_advantage":0.23236331569664903,"aligned_is_permutation_maximum":true,"permutation_count":24},{"geometry":"dispersed_slots","mean_remnant_ladder":[0.5555345595028134,0.6386299375717366,0.7471897101526731,0.8190455194423448],"mean_ladder_strictly_increasing":true,"p0_to_p3_mean_delta":0.26351095993953144,"runwise_monotonic_passes":21,"runwise_monotonic_total":21,"runwise_monotonic_fraction":1.0,"same_total_direction_passes":21,"same_total_direction_total":21,"same_total_direction_fraction":1.0,"same_total_mean_advantage":0.26801986226589397,"same_total_min_advantage":0.21990740740740733,"aligned_is_permutation_maximum":true,"permutation_count":24}],"source":{"signature_id":"OO2011_HIGHER_BOUNCE_COMPACTNESS_STRONGER_COLLAPSE_DIRECTION","selection_state":"frozen_before_starbreaker_comparison","source_type":"primary_published_general_relativistic_collapse_simulation_study","title":"Black Hole Formation in Failing Core-Collapse Supernovae","authors":["Evan O'Connor","Christian D. Ott"],"journal":"The Astrophysical Journal 730, 70 (2011)","doi":"10.1088/0004-637X/730/2/70","doi_url":"https://doi.org/10.1088/0004-637X/730/2/70","arxiv_id":"1010.5550v2","arxiv_url":"https://arxiv.org/abs/1010.5550","accessed_utc_date":"2026-07-15","source_scope":"Over 100 presupernova models studied with the spherically symmetric general-relativistic 1.5D GR1D code and simplified neutrino leakage/heating physics.","physical_quantity":"xi_M = (M / M_sun) / (R(M_bary = M) / 1000 km); the paper focuses on xi_2.5 at bounce","locked_external_direction":"Higher bounce compactness is associated with faster black-hole formation and progenitors that are harder to explode.","paper_boundary":"The source itself treats compactness as a first-order predictor within a stated EOS and simplified 1.5D setup, not a universal one-parameter law."},"status":"PASS_EXTERNAL_QUALITATIVE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION"}</script>
+<script>
+const data=JSON.parse(document.getElementById('contact-data').textContent);
+const svg=document.getElementById('chart'), NS='http://www.w3.org/2000/svg';
+const W=1000,H=360,pad={l:72,r:35,t:25,b:55}, ymin=.42,ymax=.86;
+const x=p=>pad.l+p*(W-pad.l-pad.r)/3, y=v=>pad.t+(ymax-v)*(H-pad.t-pad.b)/(ymax-ymin);
+const add=(tag,attrs,text)=>{const e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));if(text)e.textContent=text;svg.appendChild(e);return e};
+for(let v=.45;v<=.8501;v+=.1){add('line',{x1:pad.l,x2:W-pad.r,y1:y(v),y2:y(v),class:'gridline'});add('text',{x:pad.l-13,y:y(v)+4,'text-anchor':'end',class:'axistext'},v.toFixed(2));}
+for(let p=0;p<4;p++){add('line',{x1:x(p),x2:x(p),y1:pad.t,y2:H-pad.b,class:'gridline'});add('text',{x:x(p),y:H-24,'text-anchor':'middle',class:'axistext'},'p = '+p);}
+const colors={localized_ledger_cells:'#d8ff4f',dispersed_slots:'#60e7ff'};
+data.readout.forEach(row=>{
+  const pts=row.mean_remnant_ladder.map((v,p)=>[x(p),y(v),v]);
+  add('path',{d:'M '+pts.map(q=>q[0]+','+q[1]).join(' L '),stroke:colors[row.geometry],class:'curve',style:'color:'+colors[row.geometry]});
+  pts.forEach((q,p)=>{add('circle',{cx:q[0],cy:q[1],r:7,fill:colors[row.geometry],class:'dot'});add('text',{x:q[0],y:q[1]-14,'text-anchor':'middle',fill:colors[row.geometry],class:'axistext'},q[2].toFixed(3));});
+});
+</script>
+</body>
+</html>

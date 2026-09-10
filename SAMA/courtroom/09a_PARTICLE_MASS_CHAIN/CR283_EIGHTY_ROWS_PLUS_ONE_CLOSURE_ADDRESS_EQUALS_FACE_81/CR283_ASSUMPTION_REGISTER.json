@@ -1,0 +1,30 @@
+{
+  "record_id": "CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81",
+  "assumptions": [
+    {
+      "id": "A1",
+      "statement": "CR253 promoted rows are the authoritative row list unless source hash verification fails.",
+      "status": "locked_to_source_manifest"
+    },
+    {
+      "id": "A2",
+      "statement": "CR280 supplies semantic type clarification without changing CR253's original BOUNDARY grade.",
+      "status": "source_preserved"
+    },
+    {
+      "id": "A3",
+      "statement": "The closure/contact address is non-row and may not be counted as a particle-bearing row.",
+      "status": "typed_boundary"
+    },
+    {
+      "id": "A4",
+      "statement": "No Higgs mass or Higgs geometry is load-bearing in this CR.",
+      "status": "excluded_input"
+    },
+    {
+      "id": "A5",
+      "statement": "If no source-native 9x9 coordinate rule is found, full punctured-face PASS is unavailable.",
+      "status": "verdict_boundary"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "cr_id": "CR109",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR108 (Planck) -> CR107 (SPARC) -> CR104a (Layer 4)",
+  "test_class": "PUBLIC_PBH_ENVELOPE_INTAKE_NO_MATCH_REVEAL",
+  "execution_status": "CLEAN",
+  "result_class": "CR109_PBH_ABUNDANCE_INTAKE_PASS",
+  "anchor_lock_sha256": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+  "upstream_hashes": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR107_sparc_anchor.json": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_pbh_constraint_envelope_sealed",
+      "pass": true,
+      "details": {
+        "windows": 6,
+        "source": "Primordial Black Holes as Dark Matter (constraint compilation)"
+      }
+    },
+    {
+      "name": "P2_upstream_cr108_anchor_present",
+      "pass": true
+    },
+    {
+      "name": "P3_upstream_cr107_anchor_present",
+      "pass": true
+    },
+    {
+      "name": "P4_upstream_cr104a_lock_present",
+      "pass": true
+    },
+    {
+      "name": "P5_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P6_zero_free_parameters_at_intake",
+      "pass": true
+    },
+    {
+      "name": "P7_no_match_revealed_yet",
+      "pass": true,
+      "details": "match deferred to CR110 three-mode closure appeal"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_sam_prediction_substituted_for_pbh_envelope",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_prior_CR_verdict_modified",
+      "pass": true
+    },
+    {
+      "name": "WC3_anchor_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "anchor_sha256": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86"
+      }
+    }
+  ],
+  "next_courtroom_step": "CR110 three-mode Earth/Galaxy/PBH closure appeal, then CR111 cosmic baryon closure appeal",
+  "open_debts": [
+    "Match reveal of SAM cumulative-A DM reading vs PBH envelope deferred to CR110"
+  ]
+}

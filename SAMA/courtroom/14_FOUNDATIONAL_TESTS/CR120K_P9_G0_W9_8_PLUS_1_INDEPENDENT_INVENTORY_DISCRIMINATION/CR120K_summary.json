@@ -1,0 +1,22 @@
+{
+  "L162_relation": "100 * 162 = 16200",
+  "baseline_M_native_decimal": "16250.625",
+  "baseline_M_native_exact": "130005/8",
+  "derived_w9_duplicated_M_native_decimal": "50.625",
+  "derived_w9_duplicated_M_native_exact": "405/8",
+  "derived_w9_records": 5,
+  "disposition": "PASS_STRUCTURAL_P9_G0_DERIVED_W9_8_PLUS_1_OVERLAY_105_VISIBLE_100_INDEPENDENT_MNATIVE_16200_PHYSICAL_MAPPING_OPEN",
+  "independent_M_native_decimal": "16200",
+  "independent_M_native_exact": 16200,
+  "independent_average_M_native": 162,
+  "independent_records": 100,
+  "mathematical_verdict": "PASS",
+  "numbers_were_known_before_precommit": true,
+  "physical_mapping": "OPEN_NOT_INSTALLED",
+  "qp093a_mutated": false,
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION",
+  "records_deleted": 0,
+  "result_class": "STRUCTURAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "visible_records": 105
+}

@@ -1,0 +1,21 @@
+# CR271 hashes
+
+CR271_PRECOMMIT.md sha256 = 761f48f50618021455d1e2df5b17c0d5d781993e1ff22290b39c94571e93ec44
+CR271_runner.py sha256 = b2b80d5daa884f8e20f185754de8659a9e94a30284672415ba252429f93caf47
+CR271_summary.json sha256 = 573759889306644befcc2a9477ff7560150b14bde1528d09fee1c6b91bdd4291
+CR271_result.md sha256 = f8b4aea71df7b6bedb1a1a5b68ac8c9663232b188048ffd098198a1283c5ac9c
+CR271_evidence_rows.csv sha256 = 6d8df618998dafa5d4ac1b9d234ab6482f3424bb40d36f03d507d8add6179373
+CR271_noble_cipher_set.csv sha256 = d7268178822cb8ea1598b4378b68734e32e6c6717f57fe19292b5c2195cfa18e
+CR271_reactive_cipher_set.csv sha256 = 7c1755d0f67c0e18d5a86c085d84d0d3ebe1f659223480eec6efecf80d2bb20e
+CR271_cipher_silent_set.csv sha256 = 9b4a14586a78acebe9e9887d058d8e147461fd74234227170bb67c468d759d1e
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR248@09a source-count algebra
+  CR262@09a nuclear stability cipher
+  CR266@09a two-mirror reciprocity d_hat derivation
+  CR267@09a tensor 9 closure witness (b>=2 threshold reading)
+  CR269@09a bow primitive (M = 7*Theta identity)
+  CR270@09a source-count measure identification via GKS
+  CR114@09a M = 126 matter horizon

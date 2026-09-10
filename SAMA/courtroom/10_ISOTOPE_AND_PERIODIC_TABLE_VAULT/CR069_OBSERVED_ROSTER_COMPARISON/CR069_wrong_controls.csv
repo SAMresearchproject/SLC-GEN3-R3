@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Simulate Z=1..96 hit rate 161/162,FAIL,True,True,off-by-one detection wired
+WC2,Simulate Z=1..82 sub-band miss,FAIL,True,True,sub-band miss detection wired
+WC3,Simulate IAEA local sha mismatch,DIAGNOSTIC,True,True,iaea sha mismatch detection wired
+WC4,band_summary inconsistent with qp061_summary,FAIL,True,True,cross-check inconsistency detection wired
+WC5,Corrupt CR065 manifest seal,DIAGNOSTIC,True,True,manifest seal mismatch detection wired
+WC6,"Z=97..118 hit rate change (e.g., 1/38)",RECORDED_DEFERRED_TO_CR071,True,True,Z=97..118 is recorded but deferred to CR071; any change is documented

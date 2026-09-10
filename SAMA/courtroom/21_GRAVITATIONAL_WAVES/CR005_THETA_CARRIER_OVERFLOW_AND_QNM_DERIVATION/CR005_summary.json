@@ -1,0 +1,62 @@
+{
+  "artifact": "CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION",
+  "classification": "STRUCTURAL_IDENTIFICATION_CR",
+  "verdict": "PASS",
+  "precommit_hash": "624f0c2655333dd9e6e217f2bed0cbdbd97197281b6f06b462747b7896b13b6b",
+  "substrate_primitives": {
+    "h_hat": 2,
+    "d_hat": 3
+  },
+  "derived_atoms": {
+    "S": 8,
+    "V": 27,
+    "F": 81,
+    "R": 12,
+    "R_sq": 144,
+    "Theta": 18,
+    "L": 162,
+    "M": 126
+  },
+  "bounded_partition_algebra": {
+    "grid_bounds": "i in [0..3], j in [0..2]",
+    "grid_cells": 12,
+    "inside_R": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "overflow_sorted": [
+      18,
+      24,
+      36,
+      72
+    ],
+    "smallest_overflow": 18,
+    "smallest_overflow_position": [
+      1,
+      2
+    ]
+  },
+  "theta_units": {
+    "L_over_Theta": 9,
+    "R_sq_over_Theta": 8,
+    "M_over_Theta": 7,
+    "closure_axiom_S_plus_1": 9,
+    "d_to_d_minus_1": 9,
+    "matches": true
+  },
+  "qnm_derivation": {
+    "omega_R_M_form1_closure": "3/8",
+    "omega_R_M_form2_d_over_S": "3/8",
+    "omega_R_M_form3_Theta_d_over_R2": "3/8",
+    "value_decimal": 0.375,
+    "GR_Berti_2009": 0.37367168,
+    "gap_pct": 0.3554778355159251
+  },
+  "all_claims_passed": true
+}

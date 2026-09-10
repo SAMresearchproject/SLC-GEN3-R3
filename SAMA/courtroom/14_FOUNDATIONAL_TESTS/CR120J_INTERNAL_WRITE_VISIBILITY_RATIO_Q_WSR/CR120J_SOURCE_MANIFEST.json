@@ -1,0 +1,86 @@
+{
+  "external_empirical_sources": [],
+  "precommit_sha256": "3300f2576af51c3d1a168035b07fcdd5d59980eb9b7de55c6e3882de8c87a774",
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "source_scope": "SEALED_INTERNAL_CR120G_I_FIXTURES_ONLY_NO_EMPIRICAL_EXPOSURE",
+  "sources": [
+    {
+      "bytes": 84399,
+      "path": "C:/Users/drwho/.codex/attachments/6054da11-70a1-4550-a751-1143cefd878f/pasted-text.txt",
+      "role": "proposal-only internal q framing; adjusted before precommit",
+      "sha256": "e58516c2f9151412be41635ea3ab09a0e5ee984b83f75a0799a8cb46b622aa01"
+    },
+    {
+      "bytes": 3271,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120G boundary",
+      "sha256": "06c4f480052285a5b1f932b76a6936efae12208a3d27a15f19366c47819964d2"
+    },
+    {
+      "bytes": 4130,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120I candidate",
+      "sha256": "60ce5fcb59d820e6f65957734174fc7922cf0754dbc13f6fdb0e4b2b62bb62a3"
+    },
+    {
+      "bytes": 1179,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_TYPE_SYSTEM.json",
+      "role": "typed write-state-read ontology",
+      "sha256": "dbbbb24ef23fef4cc4f633f0b6ee6f4f10bbf45bd79442437063ea669acbad21"
+    },
+    {
+      "bytes": 7851,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_WRITE_EXECUTION.json",
+      "role": "exact writes and histories",
+      "sha256": "4b19cd16b8ef08f7b03e03b92e528a47a00f858d285c6b4b065921daa7fe9286"
+    },
+    {
+      "bytes": 483,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_RECORD_EQUIVALENCE.json",
+      "role": "complete and incomplete probe controls",
+      "sha256": "8787298fddc86fc08ebc6fc1b6777b8221f273a3e4040eb82d5ee0938420e4d6"
+    },
+    {
+      "bytes": 6254,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_PERSISTENCE_ERASURE.json",
+      "role": "delay and erasure controls",
+      "sha256": "32c492ba65b67d05a0655c1f934d63627a1a633ba6d0bc26b2432f2203f3e65e"
+    },
+    {
+      "bytes": 1859,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_REPRESENTATION_FAMILY.json",
+      "role": "five admissible transformations and Q_MIX_X1",
+      "sha256": "2bc86f544abbc25c5764e787ff93968f6c2cf5f8b135b75d3567f57853ea9ec2"
+    },
+    {
+      "bytes": 1362,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_AUTHORITY_BOUNDARY.json",
+      "role": "installed-authority boundary",
+      "sha256": "2cc46939d662f337568eec8813f6be2e1cf119eb1967e214e6a3131b65c85a72"
+    },
+    {
+      "bytes": 1362,
+      "path": "14_FOUNDATIONAL_TESTS/CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION/CR120I_summary.json",
+      "role": "machine-readable CR120I result",
+      "sha256": "f47eacaec6ef91fcbdc2004368d9531e0ef99237893bb3a0c3b6a80448566ad7"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 2344,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry",
+      "sha256": "873f36e77b97e1e04f8d272af9f15e174ccf2605bec3fe7443be60bdf276935d"
+    },
+    {
+      "bytes": 2954,
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "controlling CR120 frontier",
+      "sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f"
+    }
+  ]
+}

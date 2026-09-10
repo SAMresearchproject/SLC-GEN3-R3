@@ -1,0 +1,87 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "6357faa5a57c5002995bcc950a3f571261edab48",
+      "bytes": 4277,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_PRECOMMIT.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_PRECOMMIT.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_provenance.json",
+      "mode": "100644",
+      "git_blob": "d099742e5dce13a7eff21f55bee8d1b19e60b30a",
+      "bytes": 9288,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_provenance.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_provenance.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_provenance.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_provenance.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_result.md",
+      "mode": "100644",
+      "git_blob": "f4648d5cc2b519248b09cb57a4b60bf076325e9c",
+      "bytes": 1333,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_runner.py",
+      "mode": "100644",
+      "git_blob": "7f0250b7d9815f1b5439ab5d408e0054ed2ea96e",
+      "bytes": 12592,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_summary.json",
+      "mode": "100644",
+      "git_blob": "1fb7f4a7ce4a9624fa71be0a8b5b862cc4a4baa1",
+      "bytes": 3758,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_summary.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_typed_contract.json",
+      "mode": "100644",
+      "git_blob": "18df50b0d8e9fd4fba468627d5256bb7228669be",
+      "bytes": 1069,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_typed_contract.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_typed_contract.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_typed_contract.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/CR279_typed_contract.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "16d00a16b09b1b8c451b31dd3ec93d8552325688",
+      "bytes": 514,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/HASHES.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR279_HIGGS_DIRECT_WELD_PROMOTION/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR279@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

@@ -1,0 +1,14 @@
+check,passed,observed,expected
+upstream_cr220_passed,True,10/10,all passed
+upstream_cr221_passed,True,15/15,all passed
+upstream_cr222_passed,True,18/18,all passed
+source_products_exist,True,checked,all exist
+source_hashes_match_upstream_summaries,True,matched CR220/CR221/CR222 summary hashes,match
+contract_has_four_components,True,4,4
+matter_components_two,True,2,2
+support_components_two,True,2,2
+invariants_all_pass,True,12,12
+wrong_controls_all_fail_correctly,True,6,6
+protocol_roles_complete,True,"['context', 'ledger_checksum', 'packet_integrity', 'signal_path', 'timing_gravity_witness_floor', 'unresolved_support_inventory']",six PR roles
+contract_paths_are_relative,True,relative source paths,relative source paths
+deterministic_byte_identical_regeneration,True,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b

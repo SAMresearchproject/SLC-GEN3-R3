@@ -1,0 +1,10 @@
+{
+  "test_id": "CR205",
+  "source_gate": "G754c_SCALAR_GAUGE_FERMION_LANE_SEPARATION_TEST",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that 9/16 is a D=3 scalar-lane structure and not a universal multiplier for fermion or gauge rows."
+}

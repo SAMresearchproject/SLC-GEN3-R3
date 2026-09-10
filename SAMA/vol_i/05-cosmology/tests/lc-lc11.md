@@ -1,0 +1,135 @@
+# Black-Hole Horizon Thermodynamic Replay
+
+[Back to tests](README.md)
+
+Test identity: `LC:LC11`.
+
+## Boundary
+
+Routes Black-Hole Horizon Thermodynamic Replay as a boundary result in the cosmological road saturation and fate readout chain while preserving the source artifact and its historical status fields.
+
+**Question:** For LC:LC11: Does the saturated road compose with the background expansion to reproduce the recorded fate readout while horizon projection and Home conjecture remain distinct?
+
+**Calculation:** Evaluate the saturated surviving-road fraction, compose it with H0 and compare the horizon-to-floor projection and locked closure boundary.
+
+**Recorded outcome:** The permanent registry identifies LC:LC11 as ‘Black-Hole Horizon Thermodynamic Replay’. The registry exposes no structured status or verdict, so the pinned source artifact remains the detailed outcome authority and this crosswalk adds no verdict.
+
+**Scope of this result:** The numerical fate readout and horizon projection are executed; the completed-surface Home interpretation remains conjectural and unclassified.
+
+**Controls:**
+
+- Typed road/inventory equality.
+- Horizon projection replay.
+
+**Diagnostic comparisons:**
+
+- Interpreting the fate factor as a new local light speed.
+- Treating the Home conjecture as an executed test result.
+
+[Read the original test](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md)
+
+<details>
+<summary>Exact source record</summary>
+
+```json
+{
+  "alternate_source_paths": [],
+  "approval": null,
+  "description": "Black-Hole Horizon Thermodynamic Replay",
+  "family": "LC",
+  "keywords": [
+    "horizon",
+    "thermodynamic",
+    "Black",
+    "Hole",
+    "Replay"
+  ],
+  "qualified_test_id": "LC11",
+  "record_key": "LC:LC11",
+  "related_test_ids": [],
+  "reviewed_and_approved": false,
+  "source_basis": "LAST_CAMPAIGN_RESULT",
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_path": "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md",
+  "source_repo": "The_Courtroom",
+  "source_sha256": "14040b7e063c214014971eb018403554133548d00923bb3be807634c86b229ef",
+  "source_status": null,
+  "source_url": "../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md",
+  "source_verdict": null,
+  "test_id": "LC11",
+  "volume_numbers": [
+    "I"
+  ]
+}
+```
+
+</details>
+
+
+
+<!-- BEGIN FULL COURTROOM DATA -->
+## Full Courtroom data
+
+[Open the primary source record](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md) · [All 11 package files](../../../tests/courtroom/16-the-last-campaign-lc11-black-hole-horizon-thermodynamic-replay/README.md) · [Browse the source directory in CR](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY)
+
+Package: `16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY`. This includes **0 code files** and **2 files categorized as results or reports**, plus all inputs, figures and other tracked files. The full inventory is unabridged.
+
+### Wrong controls and comparison rows
+
+- [LC11_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_wrong_controls.csv)
+
+<details>
+<summary>Results and reports</summary>
+
+- [LC11_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md) — [raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_result.md)
+- [LC11_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json) — [raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_summary.json)
+
+</details>
+
+## Related Courtroom tests
+
+- **depends on:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR)
+- **retest of:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR)
+- **depends on:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE)
+- **retest of:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE)
+- **depends on:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT)
+- **retest of:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT)
+- **depends on:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT)
+- **retest of:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT)
+- **depends on:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER)
+- **retest of:** [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER)
+- **depends on:** [19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY](../../../courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY)
+
+<details>
+<summary>Other tests mentioned in the source package</summary>
+
+These links record mentions, not an inferred dependency or supporting result. Where an identifier has several branch-qualified matches, their paths remain explicit.
+
+- [00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE](../../../courtroom/00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE)
+- [00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION](../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION)
+- [02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION](../../../courtroom/02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION)
+- [04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL](../../../courtroom/04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR010_ISCO_ORBITAL_CONTACT)
+- [05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER](../../../courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR011_DEFERRED_SUPPORT_ZIPPER)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR073_ACTION_PHASE_ANCHOR)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR074_DOUBLE_SLIT_BORN_ROUTE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR074_DOUBLE_SLIT_BORN_ROUTE)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE)
+- [11_QUANTUM_MECHANICS_AND_GRAVITY/CR076_PHASE_INTEGRAL_A_EXPOSURE](../../../courtroom/11_QUANTUM_MECHANICS_AND_GRAVITY/CR076_PHASE_INTEGRAL_A_EXPOSURE)
+- [14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM)
+- [16_THE_LAST_CAMPAIGN](../../../courtroom/16_THE_LAST_CAMPAIGN)
+- [18_SAM_NATIVE_QC/CR003_QGC_PHASE2_JOINT_FIGURE_CORRELATION](../../../courtroom/18_SAM_NATIVE_QC/CR003_QGC_PHASE2_JOINT_FIGURE_CORRELATION)
+- [18_SAM_NATIVE_QC/CR009_CONNECTION_FEE_K1_REVEAL](../../../courtroom/18_SAM_NATIVE_QC/CR009_CONNECTION_FEE_K1_REVEAL)
+- [18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION](../../../courtroom/18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION)
+- [18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM)
+- [19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY](../../../courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY)
+- [20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER](../../../courtroom/20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER)
+- [21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS](../../../courtroom/21_GRAVITATIONAL_WAVES/CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS)
+
+</details>
+
+<!-- END FULL COURTROOM DATA -->

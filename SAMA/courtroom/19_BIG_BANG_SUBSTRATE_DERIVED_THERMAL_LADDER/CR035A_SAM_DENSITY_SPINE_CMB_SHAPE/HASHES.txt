@@ -1,0 +1,67 @@
+# CR035A HASHES
+
+Sealed 2026-06-27. SAM density-spine locked CMB shape test:
+  Omega_m = 1/pi, Omega_b = 2*A_0*(1-chi), Omega_c = Omega_m - Omega_b,
+  H_0 = 68.76, paired with fixed Planck 2018 perturbation parameters
+  (A_s = 2.100e-9, n_s = 0.9649, tau = 0.0544) through CAMB 1.6.6.
+
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Precommit (sealed first; runner must honor)
+0f20f2fde2afb66ed1bbeff8e43e6f183d4159a0d5310d5bdb714daac99a9ced  CR035A_PRECOMMIT.md
+
+# Runner v1 (sealed, HASHED BEFORE EXECUTION; ran the science but aborted
+# before artifact emission due to numpy-bool JSON serialization bug.
+# Per hostile-environment discipline this is recorded as a code-bug FAIL of
+# v1; v1 is preserved as audit-trail evidence, never deleted.)
+21cc8fa86e49acaae137ee3a65ed29d053de7855682e8c30a90b994e4784d1b7  CR035A_runner_v1_aborted_json_bug.py
+
+# Runner v2 (HASHED BEFORE EXECUTION; adds _jsonify helper for numpy
+# scalar -> Python conversion. No peak-finder / chi^2 / Run A / Run B
+# spec change versus the sealed precommit.)
+4b3d07483f331dd5a2dbf28681b69b476a7641e0e57b35c4c9ea8fbe6e222305  CR035A_runner.py
+
+# CR035A artifacts (HASHED IMMEDIATELY AFTER v2 RUNNER EXECUTION)
+# Runner verdict: FAIL.
+#   TT chi^2/dof = 1.3464 (P2 PASS)
+#   TE chi^2/dof = 1.1941 (E_TE PASS)
+#   EE chi^2/dof = 1.1246 (E_EE PASS)
+#   P1a (first peak Delta_ell=0): PASS
+#   P1b (2nd/3rd peak): FAIL (3rd peak Planck noise-feature at ell=661 vs SAM ell=806)
+#   P1c (H2/H1, H3/H1): half-pass (H3/H1 fails because peak finder caught wrong Planck feature)
+#   Run B optimum: A_s +1.32 sigma, n_s +0.77 sigma, tau +0.47 sigma; chi^2/dof = 1.19
+# The FAIL verdict is the runner's strict mapping; the science substance is reported
+# in CR035A_result.md without spec tweaks.
+e9ddae54b4e6000e53bf440356ea4411d99678d14e872889e4e1e3f56d40d11b  CR035A_summary.json
+7bf40b44b7aeebf574bddab43df039df6fe784b30a5673a160b5daf80871138f  CR035A_result.md
+b31d2662395ec1f6ec3753a286427e803816daa034ffe3711c6c915eb04be82a  CR035A_TT_residuals.csv
+8f2d11ad4689780a1021ce020d20c8b5b5fcce503ebc95491dc8823a68354148  CR035A_TE_residuals.csv
+f5e497ad50105762c6ca03e49cb7ba1fe38f898182fd27b52962f6c0e6867e75  CR035A_EE_residuals.csv
+d1f24e01210a52f4916a85b03b2d370087238c74461b095b866a0895b4410ead  CR035A_peaks.csv
+b3214974e73b49eb5f8eb148b50a7adf5d15d0cdd3df3bebd87f7f14f8aeb3b1  CR035A_runB_diagnostic.json
+0e1972e6c31af1f7e7f750f0efbcb8a1caaed4429280c69bf88527e5921a92cf  CR035A_runA_theory_spectra.csv
+
+# External sources (allowed)
+ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TT-full_R3.01.txt
+8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TE-full_R3.01.txt
+c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-EE-full_R3.01.txt
+
+# Engine
+ENGINE:CAMB 1.6.6  (python module camb)
+ENGINE:scipy.optimize.minimize  (L-BFGS-B for Run B diagnostic only)
+
+# Forbidden inputs (declared so any future audit can confirm runner exclusion)
+FORBIDDEN  CR001 / CR001b / CR001c / CR002 / CR003 family files
+FORBIDDEN  CR018b / CR019 family files
+FORBIDDEN  CR025 / CR031b / CR032 / CR033 family files
+FORBIDDEN  CR205 files
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv

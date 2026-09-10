@@ -1,0 +1,7 @@
+candidate,full_packet,max_absolute_error
+sam_inverse_radius,True,0.0
+wrong_half_A,False,0.5
+wrong_double_A,False,1.0
+wrong_inverse_square_preserve_horizon,False,0.2222222222222222
+wrong_constant_horizon_only,False,0.6666666666666667
+wrong_linear_gap,False,0.3333333333333333

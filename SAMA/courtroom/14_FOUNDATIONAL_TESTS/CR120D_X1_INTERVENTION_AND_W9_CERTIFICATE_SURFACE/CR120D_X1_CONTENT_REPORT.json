@@ -1,0 +1,48 @@
+{
+  "aliases_to_x1": [
+    "X",
+    "X1",
+    "X1_AXIS_SELF_CHANNEL"
+  ],
+  "canonical_state_count": 1,
+  "entity_dataclass_frozen": true,
+  "entity_id": "X1_AXIS_SELF_CHANNEL",
+  "independent_perturbability_status": "NO_RUNTIME_INTERVENTION_SURFACE",
+  "mutation_or_intervention_statement_classes": [],
+  "physical_independence_status": "UNRESOLVED_NOT_FALSIFIED",
+  "reason": "The installed type has one canonical immutable entity and no second admissible setting or intervention syntax.",
+  "registered_axis_channel_entities": [
+    "X1_AXIS_SELF_CHANNEL"
+  ],
+  "static_content": {
+    "authority": {
+      "note": "CR267 axis-self / axis-fee channel retained through CR119",
+      "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+      "status": "ACTIVE"
+    },
+    "contextual_roles": [
+      "axis_self_coupling",
+      "axis_fee"
+    ],
+    "derivation_origin": "D^(D-1)-S and axis self-coupling",
+    "layer": "Layer1StructuralCapacity",
+    "metadata": {
+      "lift": "NOT_APPLICABLE",
+      "operator": false
+    },
+    "scalar_value": 1,
+    "semantic_type": "AxisChannel",
+    "sources": [
+      {
+        "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+        "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+        "source_key": "typed_hierarchy"
+      },
+      {
+        "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+        "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+        "source_key": "handoff_contract"
+      }
+    ]
+  }
+}

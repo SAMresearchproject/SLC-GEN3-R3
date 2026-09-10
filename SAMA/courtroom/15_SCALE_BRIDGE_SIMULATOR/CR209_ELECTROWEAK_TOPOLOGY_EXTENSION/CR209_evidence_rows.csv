@@ -1,0 +1,10 @@
+key,value,note
+source_gate_result_class,PASS_G758c_ELECTROWEAK_TOPOLOGY_EXTENSION,G758c upstream simulator result
+target_lane_result,5/5,accepted lanes classified correctly
+fake_parent_rejection,1/1,background/fake parent rejected
+wrong_controls,7/7,wrong controls fired
+observed_lane_count,5,distinct accepted topology lanes
+observed_lanes,charged_vector_missing_route_parent|massless_readout_daughter_not_parent|neutral_vector_visible_pair_parent|resolved_scalar_parent_massless_daughters|resolved_scalar_parent_vector_branches,fixed classifier readout
+target_map,H -> ZZ* -> 4l->resolved_scalar_parent_vector_branches; H -> gamma gamma->resolved_scalar_parent_massless_daughters; Z -> ll->neutral_vector_visible_pair_parent; W -> l nu->charged_vector_missing_route_parent; gamma daughter/readout->massless_readout_daughter_not_parent; background fake parent->reject_fake_parent,lane by lane classification
+payload_fingerprint_sha256,562edc7f992dd3a778799aed1f259ac79ccc475ca99e4d578266ddb8db94d7d3,G758c payload fingerprint
+remaining_boundary,"Full electroweak theorem, couplings, amplitudes, and branching ratios remain open.",not a full electroweak theorem

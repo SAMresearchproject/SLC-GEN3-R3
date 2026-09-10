@@ -1,0 +1,32 @@
+EXTERNAL NUCLIDE TABLE SOURCE
+
+File:     inputs/external_nuclide_table.csv
+SHA-256:  48cc66a72c278db405fc2b7c7a1ef0b82c321c54dba68c1415218ac9c33ca073
+Rows:     3383 isotopes (Z=1..118)
+
+Built by: _build_external_nuclide_table.py (sealed in this CR folder)
+
+Upstream source:
+  C:\VS\quantum_phase\artifacts\qp061\qp061_observed_roster_normalized.csv
+  SHA-256: 6aba747d80c3cd18a8b29961d9dfab62798f0f6214198896d9408338d8fc06dc
+  Extraction date in source: 2023-10-18
+  Source class: NUBASE-style observed isotope roster (normalized from public-domain nuclear data)
+  Path: QP061 / quantum_phase artifact set (predates this CR's seal)
+
+QP061 is the same downstream reveal source used by CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL
+(vault/03_reveal/CR226_reveal_comparison_126.csv) for the Test 5 reveal phase.
+
+Normalization applied:
+  observed_Z      -> Z
+  observed_N      -> N
+  observed_A      -> A (computed Z+N where missing)
+  observed_symbol -> symbol
+  half_life       -> half_life
+  half_life_sec   -> half_life_sec (set to "inf" when is_stable=true and blank)
+  is_stable_or_long_lived -> is_stable
+  isomer_flag     -> blank; isomer_status_unknown=true on every row (QP061 does
+                     not distinguish isomers in its public columns)
+
+Use boundary:
+  Z=119..126 are NOT present in QP061 and have no external comparison rows.
+  Test 8's primary window (Z=85..108) is fully covered.

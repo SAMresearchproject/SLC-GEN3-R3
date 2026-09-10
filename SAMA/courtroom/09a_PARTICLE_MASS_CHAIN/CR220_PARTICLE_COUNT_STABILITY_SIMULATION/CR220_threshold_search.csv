@@ -1,0 +1,13 @@
+feature,operator,threshold,predicted_stable_count_all_126,predicted_stable_count_known_118,true_positive_stable,false_positive_radioactive,false_negative_stable,true_negative_radioactive,accuracy,precision,recall,reference_target,boundary_note
+Z,<=,83,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+N_primary,<=,124,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+A_primary,<=,207,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+total_particle_count,<=,290,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+GR_qA_total_computed,<=,6158.364583333333333333333333333333333333333333333333333333333333333333333333333333333333333333333331,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+G_tensor_computed,<=,769.7955729166666666666666666666666666666666666666666666666666666666666666666666666666666666666666664,83,83,81,2,0,35,0.983051,0.975904,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+radix_cycle,<=,7,84,84,81,3,0,34,0.974576,0.964286,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+selected_depth_index,<=,6,84,84,81,3,0,34,0.974576,0.964286,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+shell_period,<=,5,92,92,81,11,0,26,0.906780,0.880435,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+shell_occupancy,<=,23,108,100,72,28,9,9,0.686441,0.720000,0.888889,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+radix_slot,<=,12,126,118,81,37,0,0,0.686441,0.686441,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only
+residual_twelfths,<=,11,126,118,81,37,0,0,0.686441,0.686441,1.000000,HH001_CLOCK_stable_vs_radioactive_Z001_Z118,single-feature threshold search; target labels used for scoring only

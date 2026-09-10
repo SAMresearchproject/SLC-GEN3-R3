@@ -1,0 +1,22 @@
+check,passed,observed,expected
+upstream_seals_match,True,6,6
+carrier_checksum_remains_162,True,162,162
+support_roster_12_plus_mirror_preserved,True,"{""closure_total"": 162, ""duplicate_mirror_row"": ""QP093A-0303"", ""duplicate_mirror_value"": 81, ""raw_blocked_nonmatter_rows"": 13, ""rule"": ""QP093A-0303 remains blocked non-matter but is not an independent support mode."", ""unique_support_roster_rows"": 12, ""unique_support_roster_sum"": 81}",12 support rows + mirror = 162
+pair_row_is_0262,True,QP093A-0262,QP093A-0262
+triad_row_is_0200,True,QP093A-0200,QP093A-0200
+pair_is_bound_color_pair,True,BOUND_COLOR_PAIR|two_owner_pair_closure,BOUND_COLOR_PAIR|two_owner_pair_closure
+triad_is_ground_baryon_3body,True,GROUND_BARYON_3BODY|three_owner_color_closure,GROUND_BARYON_3BODY|three_owner_color_closure
+pair_signature_is_4_plus_4,True,4+4,4+4
+triad_signature_is_4_plus_4_plus_4,True,4+4+4,4+4+4
+pair_formula_qA_T_W_pass,True,qA=172 T=21.5 W=150.5,qA=172 T=21.5 W=150.5
+triad_formula_qA_T_W_pass,True,qA=1160 T=145 W=1015,qA=1160 T=145 W=1015
+pair_is_neutral_boson,True,neutral|boson_integer_write,neutral|boson_integer_write
+triad_is_positive_fermion,True,positive|fermion_baryon_half_write,positive|fermion_baryon_half_write
+bridge_owner_extends_pair_by_one_4,True,owner=4 delta=1,owner=4 delta=1
+bridge_partition_ratio_3_over_2,True,8->12 ratio=1.5,8->12 ratio=1.5
+cr222g_already_allows_0200_as_target,True,2,2 platform trials
+pair_to_triad_trials_count,True,2,2
+pair_to_triad_trials_emit_when_gated,True,2,2
+protocol_qA_not_pair_or_triad_qA,True,distinct,protocol qA distinct from matter qA
+carrier_tensor_not_pair_or_triad_tensor,True,distinct,carrier tensor distinct from matter tensor splits
+wrong_controls_fail_as_expected,True,11,11

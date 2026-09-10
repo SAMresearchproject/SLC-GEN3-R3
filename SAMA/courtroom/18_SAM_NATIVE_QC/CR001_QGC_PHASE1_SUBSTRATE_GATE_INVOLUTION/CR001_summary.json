@@ -1,0 +1,110 @@
+{
+  "cr_id": "CR001",
+  "branch": "18_SAM_NATIVE_QC",
+  "title": "QGC Phase 1: Substrate Gate Involution End-to-End",
+  "verdict": "PASS",
+  "main_program": {
+    "program_ops": [
+      "G_sub",
+      "B",
+      "G_sub",
+      "B",
+      "MEASURE"
+    ],
+    "initial_state": {
+      "face_index": 9,
+      "alpha_h_label": 0,
+      "status": "resolved",
+      "cumulative_writes": 0
+    },
+    "final_state": {
+      "face_index": 9,
+      "alpha_h_label": 0,
+      "status": "resolved",
+      "cumulative_writes": 320
+    },
+    "budget_consumed": 320,
+    "budget_ceiling_n_max": 61312,
+    "budget_utilization_pct": 0.521921,
+    "verification_gates": {
+      "V-1_V-2_all_per_step_match": true,
+      "V-3_final_budget_eq_5_S_squared": true,
+      "V-4_budget_under_N_max": true,
+      "V-5_final_alpha_h_eq_0": true,
+      "V-6_final_face_eq_9": true
+    },
+    "main_program_pass": true
+  },
+  "wrong_controls": {
+    "results": [
+      {
+        "id": "WC-1",
+        "description": "drop one \ud835\udca2_sub (omit step 3)",
+        "expected_final_face": 12,
+        "observed_final_face": 12,
+        "expected_final_alpha_h": 0,
+        "observed_final_alpha_h": 0,
+        "expected_break_field": "face_index",
+        "wc_pass": true,
+        "budget_consumed": 256
+      },
+      {
+        "id": "WC-2",
+        "description": "extra \ud835\udca2_sub (3 swaps total)",
+        "expected_final_face": 12,
+        "observed_final_face": 12,
+        "expected_final_alpha_h": 0,
+        "observed_final_alpha_h": 0,
+        "expected_break_field": "face_index",
+        "wc_pass": true,
+        "budget_consumed": 384
+      },
+      {
+        "id": "WC-3",
+        "description": "non-residual face (init face=4)",
+        "expected_final_face": 4,
+        "observed_final_face": 4,
+        "expected_final_alpha_h": 0,
+        "observed_final_alpha_h": 0,
+        "expected_break_field": "face_index",
+        "wc_pass": true,
+        "budget_consumed": 320
+      },
+      {
+        "id": "WC-4",
+        "description": "measure-first (before any gates)",
+        "expected_final_face": 9,
+        "observed_final_face": 9,
+        "expected_final_alpha_h": 0,
+        "observed_final_alpha_h": 0,
+        "expected_break_field": "(none-but-MEASURE-out-of-order)",
+        "wc_pass": true,
+        "budget_consumed": 320
+      },
+      {
+        "id": "WC-5",
+        "description": "drop second B (omit step 4)",
+        "expected_final_face": 9,
+        "observed_final_face": 9,
+        "expected_final_alpha_h": 1,
+        "observed_final_alpha_h": 1,
+        "expected_break_field": "alpha_h_label",
+        "wc_pass": true,
+        "budget_consumed": 256
+      }
+    ],
+    "all_pass": true
+  },
+  "substrate_atoms_used": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "S_squared": 64,
+    "N_max": 61312,
+    "residual_pair": [
+      9,
+      12
+    ]
+  }
+}

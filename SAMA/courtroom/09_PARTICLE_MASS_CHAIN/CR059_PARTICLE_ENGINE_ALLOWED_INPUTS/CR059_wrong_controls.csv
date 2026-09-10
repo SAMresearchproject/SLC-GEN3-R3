@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,diagnostic_signal,fail_signal,observed_match,notes
+WC1,Inject PDG mass roster value as construction input,FAIL_or_DIAGNOSTIC,True,True,True,phase1 missing-file detected on injected row; path matches PDG mass roster classifier
+WC2,Inject Yukawa coupling table as construction input,FAIL_or_DIAGNOSTIC,True,True,True,phase1 missing-file detected on injected row; path matches Yukawa-table classifier
+WC3,Inject DS-tier discovery brief as CR061 input,FAIL_or_DIAGNOSTIC,True,True,True,phase1 missing-file detected on injected row; path matches DS-tier classifier
+WC4,Corrupt one sha256 in manifest,DIAGNOSTIC,True,False,True,phase1 detected hash mismatch on corrupted row
+WC5,Inject 10-branch-only artifact (qp049) under 09,FAIL_or_DIAGNOSTIC,True,True,True,phase1 missing-file detected on injected row; phase4 cross-branch violation detected
+WC6,Inject FRZ_DS002 freeze-queue entry as construction input,FAIL_or_DIAGNOSTIC,True,True,True,phase1 missing-file detected on injected row; path matches FRZ-queue classifier

@@ -1,0 +1,11 @@
+{
+  "commit_id": "CR104_GATE_3_PREDICTION_COMMIT",
+  "predictions_file": "CR104_predictions.csv",
+  "prediction_commit_sha256": "86855e29851b3843ff24790465a3ba7a8b4f702d2432d122998d8f4d51e16ed3",
+  "prediction_commit_utc": "2026-06-13T22:57:08Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "subject_gate": "GATE_3",
+  "sam_committed_form": "K(A_H) self-correction; EP_violation = 0 for A < 11/12",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "upstream_CR103a_appeal_lock_sha256": "f247211b34de740039b934bb5938baba1d84c0a4f92718aeecaa189eb21eefa8"
+}

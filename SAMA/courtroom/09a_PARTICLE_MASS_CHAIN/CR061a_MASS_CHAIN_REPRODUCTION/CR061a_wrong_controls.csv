@@ -1,0 +1,4 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Perturb one mass by +5 percent,FAIL,True,True,residual replay tolerance would fail
+WC2,Drop one operator row,FAIL,True,True,26 operator rows required
+WC3,Change free_parameters_used from 0 to 1,FAIL,True,True,free-parameter zero is binding

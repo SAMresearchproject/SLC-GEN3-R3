@@ -1,0 +1,23 @@
+{
+  "test_id": "CR054_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION",
+  "verdict": "CR054_PASS_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "QN_BORN_SURFACE_LETTER_SAFE_CORRECTION_PROTOCOL",
+  "source_keys": [
+    "QN005",
+    "QN006"
+  ],
+  "pass_conditions": {
+    "QN005_no_external_data": true,
+    "QN006_no_external_data": true,
+    "free_parameters_zero": true,
+    "checks_pass": true,
+    "wrong_controls_pass": true,
+    "forbidden_fields_false": true
+  },
+  "top_open_route": "QUBIT-NL-001",
+  "top_open_probability": 0.9654196547077734,
+  "correction_classes": "BOUNDARY_SENSOR_LETTER_READ;CARRIER_ACTIVE_SUPPRESSION;CARRIER_PASSIVE_PRESERVATION;CONTROL_ENVELOPE_ADJUSTMENT;SUPPORT_OUTSIDE_NETWORK_DENOMINATOR;WINDOW_CLOSED_STOP_CORRECTION"
+}

@@ -1,0 +1,69 @@
+{
+  "artifact": "CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL",
+  "boundary": "Predictions are generated from constants only and sealed before reveal sources are read. Reveal cards add downstream names/symbols/masses/comparator labels after the prediction root is frozen.",
+  "card_counts": {
+    "native_png": 126,
+    "native_svg": 126,
+    "revealed_png": 126,
+    "revealed_svg": 126
+  },
+  "checks_passed": 15,
+  "checks_total": 15,
+  "cr_id": "CR226",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T04:15:16+00:00",
+  "outputs": {
+    "checks": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/CR226_checks.csv",
+    "freeze_ledger": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/02_freeze/CR226_FREEZE_LEDGER.json",
+    "hashes": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/HASHES.txt",
+    "prediction_csv": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_predictions_constants_only_126.csv",
+    "prediction_seal": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_seal.json",
+    "result": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/CR226_result.md",
+    "reveal_comparison": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/CR226_reveal_comparison_126.csv",
+    "reveal_seal": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/CR226_reveal_seal.json",
+    "summary": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/CR226_summary.json"
+  },
+  "prediction_counts": {
+    "frontier": 8,
+    "radioactive": 37,
+    "stable": 81
+  },
+  "prediction_seal": {
+    "file_count": 255,
+    "linear_manifest_sha256": "141c1fe06436b568f18e95c8884c939add6762fe62e48fa0de9f7ddd681fde1e",
+    "merkle_root_sha256": "e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897",
+    "path": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_seal.json",
+    "zip": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_vault.zip"
+  },
+  "result_class": "CR226_PASS_VAULTED_CONSTANTS_ONLY_SOB_CARD_GENERATION__PREDICTIONS_SEALED__126_NATIVE_CARDS_FROZEN__126_REVEAL_CARDS_GENERATED__CLOCK_MATCH_126_OF_126",
+  "reveal_seal": {
+    "file_count": 254,
+    "linear_manifest_sha256": "1999a136b3a945a23ce240ec4f203668425e708ae2f8c84e27cef05fbc32df44",
+    "linked_prediction_merkle_root_sha256": "e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897",
+    "merkle_root_sha256": "f02f2253378f291fec25d6b31807fa554bbb03934b19497197b08468087253a6",
+    "path": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/CR226_reveal_seal.json",
+    "zip": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/CR226_reveal_vault.zip"
+  },
+  "z79": {
+    "native": {
+      "A": 197,
+      "GR_decimal": "5861.572916666667",
+      "G_decimal": "732.696614583333",
+      "N": 118,
+      "P_address": "79p+118n+79e",
+      "Z": 79,
+      "clock_prediction": "stable",
+      "quark_address": "276u+315d+79e",
+      "sob_id": "SOB79"
+    },
+    "native_png": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/cards_native_png/SOB079_native.png",
+    "reveal": {
+      "clock_match": "True",
+      "known_name": "Gold",
+      "known_symbol": "Au",
+      "matter_label": "Matter 196.967",
+      "revealed_isotope_anchor": "Au-197"
+    },
+    "reveal_png": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/cards_revealed_png/SOB079_revealed_Gold.png"
+  }
+}

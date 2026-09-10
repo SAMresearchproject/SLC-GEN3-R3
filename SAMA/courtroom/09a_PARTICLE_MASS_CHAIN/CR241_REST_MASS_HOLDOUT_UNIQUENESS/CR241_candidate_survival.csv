@@ -1,0 +1,6 @@
+gate,target,passed,details
+cross_anchor_family_top3,m_p,True,CR240 strict family represented in He-4 top-3
+cross_anchor_family_top3,m_n,True,CR240 strict family represented in He-4 top-3
+cross_anchor_family_top3,H_1,True,CR240 strict family represented in He-4 top-3
+layer1_strong_structure,primary_axes,True,"['NmZ_squared', 'A_to_two_thirds', 'coulomb_ZZminus1_over_A_third']"
+layer3_strong_uniqueness,expression_scan,False,N_hits=30

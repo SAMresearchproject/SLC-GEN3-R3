@@ -1,0 +1,318 @@
+{
+  "test_id": "CR210",
+  "title": "Starbreaker 3D External Collapse Directional Contact Replay",
+  "generated_at_utc": "2026-07-15T01:42:04.954791+00:00",
+  "duration_seconds": 165.166511,
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "result_class": "CR210_PASS_SCOPED_STARBREAKER_3D_EXTERNAL_COLLAPSE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION__OPEN_TIME_RESOLVED_COLLAPSE",
+  "triage_bin": "A",
+  "claim_tier": "SCOPED_QUALITATIVE_DIRECTIONAL_CONTACT",
+  "is_audit_or_retest": true,
+  "confirmation_or_double_check": true,
+  "approval": "approved",
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_203919_CR210_runner.md",
+  "preflight_root_id": "SAM_TEST_PREFLIGHT_V4_2_LOCKED",
+  "question": "Does the latest Starbreaker 3D carrier-density result replay exactly and retain no-fit qualitative contact with the frozen compactness-collapse direction?",
+  "pass_conditions": {
+    "approved_audit_preflight_present": true,
+    "precommit_boundary_exact_before_replay": true,
+    "full_1218_simulation_3d_replay_pass": true,
+    "external_contact_replay_pass": true,
+    "all_58_regression_tests_pass": true,
+    "all_28_precommit_entries_reproduce_exactly": true,
+    "all_42_runwise_ladders_strict": true,
+    "all_42_same_total_comparisons_point_inward": true,
+    "both_aligned_allocations_maximize_remnant_over_24_permutations": true,
+    "zero_fitted_parameters": true,
+    "one_external_signature_only": true,
+    "frozen_payload_copies_close": true
+  },
+  "all_pass_conditions_true": true,
+  "evidence_rows": [
+    {
+      "key": "wrapped_preflight_root",
+      "value": "SAM_TEST_PREFLIGHT_V4_2_LOCKED",
+      "note": "SAM V4.2 locked wrapper"
+    },
+    {
+      "key": "full_3d_replay",
+      "value": "1218/1218",
+      "note": "two geometries, p=0..3, same-total and all 24 permutations"
+    },
+    {
+      "key": "regression_tests",
+      "value": "58/58",
+      "note": "full Starbreaker chain"
+    },
+    {
+      "key": "exact_replay_hashes",
+      "value": "28/28",
+      "note": "post-replay versus precommit"
+    },
+    {
+      "key": "localized_remnant_ladder",
+      "value": "0.494604|0.595000|0.704559|0.788339",
+      "note": "strict p=0,1,2,3 means"
+    },
+    {
+      "key": "dispersed_remnant_ladder",
+      "value": "0.555535|0.638630|0.747190|0.819046",
+      "note": "strict p=0,1,2,3 means"
+    },
+    {
+      "key": "runwise_monotonic_ladders",
+      "value": "42/42",
+      "note": "all locked geometry anchor seed ladders"
+    },
+    {
+      "key": "same_total_inward_wins",
+      "value": "42/42",
+      "note": "inward p=3 versus uniform 56-ledger controls"
+    },
+    {
+      "key": "aligned_radial_permutation_rank",
+      "value": "2/2 maximum of 24",
+      "note": "both 3D geometry families"
+    },
+    {
+      "key": "fitted_parameters",
+      "value": 0,
+      "note": "direction only; no external fit"
+    },
+    {
+      "key": "payload_fingerprint_sha256",
+      "value": "ae60c1b744b2d2ea5ec7fe89aacc491065b83207288fa872f28232ea83d0f77d",
+      "note": "22-file Courtroom snapshot"
+    },
+    {
+      "key": "remaining_boundary",
+      "value": "OPEN_TIME_RESOLVED_COLLAPSE_AND_PHYSICAL_CALIBRATION",
+      "note": "endpoint directional contact only"
+    }
+  ],
+  "run_counts": {
+    "full_3d_simulations": 1218,
+    "regression_tests": 58,
+    "sealed_entries_replayed": 28,
+    "frozen_payload_files": 22,
+    "new_model_parameters": 0,
+    "fitted_parameters": 0
+  },
+  "source_result_classes": {
+    "three_dimensional": "PASS_INTERNAL_3D_GEOMETRY_GATE__EXTERNAL_PHYSICS_VALIDATION_OPEN",
+    "external_contact": "PASS_EXTERNAL_QUALITATIVE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION"
+  },
+  "payload_fingerprint_sha256": "ae60c1b744b2d2ea5ec7fe89aacc491065b83207288fa872f28232ea83d0f77d",
+  "payload_manifest": [
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_STARBREAKER_3D_DENSITY_GEOMETRY_REPORT",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\STARBREAKER_3D_DENSITY_GEOMETRY_REPORT.md",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\STARBREAKER_3D_DENSITY_GEOMETRY_REPORT.md",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\STARBREAKER_3D_DENSITY_GEOMETRY_REPORT.md",
+      "bytes": 6058,
+      "sha256": "5dcfeb6dd3179763dfe9ab9f14123da615bedb03448af16824d8317c6942ffd5"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_density_geometry_summary",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_density_geometry_summary.json",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_density_geometry_summary.json",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_density_geometry_summary.json",
+      "bytes": 34497,
+      "sha256": "523118a315235a760a64ba533d175d0da1cf50b35d345f930a5c5bfcc23c7b74"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_density_runs",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_density_runs.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_density_runs.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_density_runs.csv",
+      "bytes": 88758,
+      "sha256": "fe0236f419b93d6d64f9e32ac7cb978ccd13dee054cb64c0bed7f71b22a70857"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_effect_summary",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_effect_summary.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_effect_summary.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_effect_summary.csv",
+      "bytes": 5837,
+      "sha256": "4e7aab6a24d1ca606cac799d755a6a117ef728184ed74c0df6f74272a7eed396"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_permutation_aggregates",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_permutation_aggregates.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_aggregates.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_aggregates.csv",
+      "bytes": 11715,
+      "sha256": "a762a11d6fa160e3e5d8b1d391af3a44ea5f031f9c6b70109b34befc0b0d6e9d"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_permutation_ranks",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_permutation_ranks.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_ranks.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_ranks.csv",
+      "bytes": 2019,
+      "sha256": "c67f42e92a358a3cb6d8fd492d3fddfe8468b97ab07172878c41609daafefedf"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_permutation_runs",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_permutation_runs.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_runs.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_permutation_runs.csv",
+      "bytes": 430738,
+      "sha256": "e084b8fc846d1ac0e5d7f53e126c75a3224ca166361fd293fb62b46ae21217df"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_same_total_comparison",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_same_total_comparison.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_same_total_comparison.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_same_total_comparison.csv",
+      "bytes": 1697,
+      "sha256": "d4f6a27cad9bc552777a1f18ca8d33d134e761fd7dc86cbf929c7033fc466649"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_shell_volume_allocations",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_shell_volume_allocations.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_shell_volume_allocations.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_shell_volume_allocations.csv",
+      "bytes": 1310,
+      "sha256": "67f94d41568df03294eec64e35fe263f582dc0cca8ce23783c789736fd930b84"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_source_contract",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_source_contract.json",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_source_contract.json",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_source_contract.json",
+      "bytes": 1832,
+      "sha256": "4ba359bbacbcbe57da15edb9638fc22aabec280c9f8bd25855f44bf5615ea8b8"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_uniform_same_total_runs",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_uniform_same_total_runs.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_uniform_same_total_runs.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_uniform_same_total_runs.csv",
+      "bytes": 18744,
+      "sha256": "9fe9dd658df5b154a95f231b0a6b6b6b7b340e6f3b89885346009f138799fa0f"
+    },
+    {
+      "file_id": "payload_starbreaker_3d_density_geometry_starbreaker_3d_wrong_controls",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_3D_DENSITY_GEOMETRY\\outputs\\starbreaker_3d_wrong_controls.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_wrong_controls.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_3d_density_geometry\\starbreaker_3d_wrong_controls.csv",
+      "bytes": 587,
+      "sha256": "0af221dceeb369e772b1f0e615628a3bd7e46dae972b2c4fa9c3eb0bff3bbb27"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_collapse_contact_plate",
+      "role": "presentation_only",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_collapse_contact_plate.html",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_collapse_contact_plate.html",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_collapse_contact_plate.html",
+      "bytes": 12852,
+      "sha256": "2b233f6f8b1efce37f7e32ca33f345f9684aa59f488f10982e90cd723294f49a"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_REPORT",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_REPORT.md",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_REPORT.md",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_REPORT.md",
+      "bytes": 2441,
+      "sha256": "7d493e4202094413945a1bc7e3fe6d19fef8e6f2a99b4f65c98595c4ddf6b26b"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_collapse_contact_summary",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_collapse_contact_summary.json",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_collapse_contact_summary.json",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_collapse_contact_summary.json",
+      "bytes": 8676,
+      "sha256": "99105e9e5a4847552d7071eb24d290645b2cca8f4ce58f1ae43d6cbcd0898756"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_ladders",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_ladders.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_ladders.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_ladders.csv",
+      "bytes": 1245,
+      "sha256": "4177402d2e0e74958258b027640ce00e440057116fb7c94a80b02c6baa2bce59"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_no_fit_controls",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_no_fit_controls.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_no_fit_controls.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_no_fit_controls.csv",
+      "bytes": 808,
+      "sha256": "c61af7e370f09ab4b4c26b8343ae46f88ef8b5533b08cd4a328d7179d735c362"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_permutations",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_permutations.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_permutations.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_permutations.csv",
+      "bytes": 333,
+      "sha256": "1797583060489b55e4950697aa1f4b2c0de44cb7598ad70a5925b936b8d4bb91"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_runwise_ladders",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_runwise_ladders.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_runwise_ladders.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_runwise_ladders.csv",
+      "bytes": 8465,
+      "sha256": "18358f5dc314afec7d7a28399b73a290bdba2d98a599fbc3d46be715bde63be6"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_same_total",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_same_total.csv",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_same_total.csv",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_same_total.csv",
+      "bytes": 4816,
+      "sha256": "98f210cc6a22b8834127e69bb90bf0568c7a19f88eca83329d717ce249b3cc0e"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_contact_source_contract",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_contact_source_contract.json",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_source_contract.json",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_contact_source_contract.json",
+      "bytes": 2737,
+      "sha256": "baa0cea5008eb01fe92670d90f3ca06bdcf4809973790215d5b2cb59664cf5b3"
+    },
+    {
+      "file_id": "payload_starbreaker_external_collapse_contact_starbreaker_external_signature_contract",
+      "role": "frozen_source_evidence",
+      "source_path": "C:\\VS\\The_Basement\\15_SCALE_BRIDGE_SIMULATOR\\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\\outputs\\starbreaker_external_signature_contract.json",
+      "courtroom_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_signature_contract.json",
+      "relative_path": "15_SCALE_BRIDGE_SIMULATOR\\CR210_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT\\frozen_payload\\starbreaker_external_collapse_contact\\starbreaker_external_signature_contract.json",
+      "bytes": 1263,
+      "sha256": "f9399c0d30e0dc320e605fe22ec621d1332463714dca390b38fc141768d8de2a"
+    }
+  ],
+  "preserved_boundaries": [
+    "p is not physical bounce compactness xi_2.5",
+    "A is not assigned compactness units",
+    "Starbreaker remnant fraction is not black-hole probability or mass",
+    "Starbreaker ejecta fraction is not explosion energy or observed ejecta mass",
+    "the endpoint simulator does not test faster time to black-hole formation",
+    "no hydrodynamic or relativistic field equation is solved",
+    "the A packing law is not physically promoted"
+  ],
+  "rule_9_falsification": "CR210 would fail if any wrapped replay or regression failed, any sealed source/output hash drifted, either 3D mean ladder ceased to rise strictly, fewer than 90% of runwise or same-total comparisons pointed toward stronger remnant formation, either aligned allocation lost its maximum-remnant rank, or any external fit parameter entered the simulator.",
+  "next_gate": "Freeze one time-resolved internal collapse observable before comparing formation-time direction; do not reopen this endpoint freeze."
+}

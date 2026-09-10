@@ -1,0 +1,62 @@
+{
+  "record_id": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+  "task": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+  "generated_precommit_utc": "2026-07-12T07:23:00Z",
+  "preflight_report": "artifacts/preflight_filled/PREFLIGHT_20260712_022143_no_script.md",
+  "source_contract": "Appeal/current-status artifact only. Preserve CR282 as sealed BOUNDARY. Re-evaluate verdict impact from CR267 and CR269 provenance without modifying parent records.",
+  "sources": [
+    {
+      "id": "CR282_result",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD/CR282_result.md",
+      "sha256": "626cdd32b046d636c8783526b926ddf32897136b898f686f2e915a4f9ae69d6d",
+      "role": "parent verdict under appeal"
+    },
+    {
+      "id": "CR282_summary",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD/CR282_summary.json",
+      "sha256": "f9542a69450bcc50bbecf312824b726264c79be4adec68a9abd25dc666f23575",
+      "role": "parent machine-readable boundary status"
+    },
+    {
+      "id": "CR267_result",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+      "sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "role": "closure witness and axis-fee provenance"
+    },
+    {
+      "id": "CR267_summary",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_summary.json",
+      "sha256": "e16730393faf89aa1e4d90f25095c9b7bd3b06cd4d33ec434de3e5dc64eb802e",
+      "role": "machine-readable 8+1 and axis-self structure"
+    },
+    {
+      "id": "CR269_result",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md",
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "role": "bow/contact operator provenance"
+    },
+    {
+      "id": "CR269_summary",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_summary.json",
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "role": "machine-readable contact operator and 1/8 release match"
+    },
+    {
+      "id": "CR256_result",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md",
+      "sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "role": "non-row A-operator provenance"
+    },
+    {
+      "id": "CR256_summary",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json",
+      "sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "role": "machine-readable A-operator test summary"
+    }
+  ],
+  "firewall": {
+    "sam_language_inspected": false,
+    "queue_maintenance_performed": false,
+    "forecast_generated": false
+  }
+}

@@ -1,0 +1,46 @@
+# QP035 - Private Half-Write / Information Fixed-Point Selector
+
+## Result
+
+```text
+QP035_FIXED_POINT_SELECTOR_HELD_OPEN_LOCAL_RETURN_CORRECTION_REQUIRED
+```
+
+QP035 applies the Phase 3 fixed-point selector to the open-slot W/I table.
+
+## Top Fixed-Point Rows
+
+| rank | slot | direct delta | half-split delta | complement delta | correction needed | class |
+| ---: | --- | ---: | ---: | ---: | ---: | --- |
+| 1 | c<->t | 0.0003631467765352128 | 0.0001815733882676064 | 0.011364079253901808 | 0.0003631206076198587 | STRONG_WI_SUPPORT_NEEDS_LOCAL_RETURN_CORRECTION |
+| 2 | c<->d | 0.00030451721480244387 | 0.00015225860740122193 | 0.026051697908935426 | 0.00030449104588708975 | STRONG_WI_SUPPORT_NEEDS_LOCAL_RETURN_CORRECTION |
+| 3 | c<->u | 0.0011052693509387371 | 0.0005526346754693686 | 0.03420187855141357 | 0.001105243182023383 | MODERATE_WI_SUPPORT_NEEDS_LOCAL_RETURN_CORRECTION |
+| 4 | b<->d | 0.0011797725571383979 | 0.0005898862785691989 | 0.0364946120281934 | 0.0011797463882230437 | MODERATE_WI_SUPPORT_NEEDS_LOCAL_RETURN_CORRECTION |
+| 5 | s<->t | 0.0011744128209927357 | 0.0005872064104963679 | 0.03878105445695057 | 0.0011743866520773816 | WEAK_WI_SUPPORT_HELD_OPEN |
+| 6 | b<->u | 0.001181265809989698 | 0.000590632904994849 | 0.03888133561682905 | 0.001181239641074344 | WEAK_WI_SUPPORT_HELD_OPEN |
+| 7 | d<->t | 0.0013186777315125052 | 0.0006593388657562526 | 0.04089211177268546 | 0.001318651562597151 | WEAK_WI_SUPPORT_HELD_OPEN |
+| 8 | t<->u | 0.001324650682925889 | 0.0006623253414629445 | 0.04095303665163745 | 0.0013246245140105348 | WEAK_WI_SUPPORT_HELD_OPEN |
+
+## Key Fields
+
+```text
+top_slot = c<->t
+top_fixed_point_class = STRONG_WI_SUPPORT_NEEDS_LOCAL_RETURN_CORRECTION
+direct_fixed_point_promotions = 0
+half_split_contacts = 0
+complement_closure_contacts = 0
+top_local_return_correction_needed = 0.0003631206076198587
+top_direct_delta_in_ultra_units = 13877.028207745512
+```
+
+## Interpretation
+
+The half-write / information split does not by itself close an open particle
+slot. The strongest candidate remains held open and requires a local return
+correction before particle identity can promote.
+
+## Next Frontier
+
+```text
+QP036_PRIVATE_LOCAL_INFORMATION_RETURN_CORRECTION_SELECTOR
+```

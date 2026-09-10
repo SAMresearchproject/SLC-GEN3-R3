@@ -1,0 +1,8 @@
+step,expression,source,value,status
+R,completed WRITE address count,CR113,12,PASS
+D,invariant carrier uniqueness dimension,CR115,3,PASS
+face_states,2^D,CR114,8,PASS
+closed_loop_area,R^2,CR113/CR114,144,PASS
+cells_per_face_state,R^2 / 2^D,CR114,18,PASS
+carrier_address,000 * 18,CR114/HH001,18,PASS
+retained_fano_addresses,7 * 18,CR114/HH001,126,PASS

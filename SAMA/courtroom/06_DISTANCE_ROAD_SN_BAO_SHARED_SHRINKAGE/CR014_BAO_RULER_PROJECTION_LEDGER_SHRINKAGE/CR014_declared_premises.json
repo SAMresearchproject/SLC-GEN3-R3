@@ -1,0 +1,44 @@
+{
+  "test_id": "CR014_BAO_RULER_PROJECTION_LEDGER_SHRINKAGE",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR014_declared_premises.json",
+    "CR014_PRECOMMIT.md",
+    "CR014_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "source_artifact_used_as_data_rows": "C:\\VS\\Stam_model-A-v1.0\\tests\\native_prediction_artifacts\\g717c_windowed_bao_prediction_rows.csv",
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "R": 12.0,
+    "D": 3.0,
+    "A0_formula": "1/(pi*R)",
+    "Omega_b": 0.049299011266100756,
+    "Omega_BB_PBH_trapped": 0.26446190430295646
+  },
+  "frozen_predictions": {
+    "w": "(D/R)*(Omega_b/Omega_BB_PBH_trapped)",
+    "non_F_AP_prediction": "base_predicted*(1+window_value)",
+    "F_AP_prediction": "recomputed_DM_over_rd/recomputed_DH_over_rd"
+  },
+  "wrong_controls": [
+    "no_window",
+    "half_window",
+    "sign_flipped_window",
+    "all_minus_w",
+    "phi_power_window"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "bao_source_rows_present",
+    "sn_inputs_not_loaded",
+    "window_values_follow_declared_symbols",
+    "bao_windowed_prediction_identity",
+    "f_ap_derived_from_dm_dh_rows",
+    "all_primary_rows_under_3sigma",
+    "wrong_controls_do_not_match_packet"
+  ],
+  "rule_9_falsification": "This test could have falsified the BAO ledger claim if the BAO rows did not recompute from their local ruler/projection window packet, if F_AP was not derived from recomputed DM/DH rows, if SN rows were needed, or if wrong controls matched the packet."
+}
+

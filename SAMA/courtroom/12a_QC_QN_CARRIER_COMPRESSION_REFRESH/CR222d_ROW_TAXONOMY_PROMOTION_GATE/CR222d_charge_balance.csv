@@ -1,0 +1,7 @@
+bin,q_sign,observed,expected,passed
+stable_matter_rows,neutral,21,21,True
+stable_matter_rows,positive,21,21,True
+stable_matter_rows,negative,21,21,True
+bound_composite_rows,neutral,7,7,True
+bound_composite_rows,positive,28,28,True
+bound_composite_rows,negative,28,28,True

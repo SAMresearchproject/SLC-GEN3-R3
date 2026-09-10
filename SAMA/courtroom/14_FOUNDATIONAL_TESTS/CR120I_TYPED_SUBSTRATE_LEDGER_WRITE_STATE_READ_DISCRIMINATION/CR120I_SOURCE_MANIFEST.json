@@ -1,0 +1,98 @@
+{
+  "external_empirical_sources": [],
+  "precommit_sha256": "805cb61a8919bc67d215ce8ae6de113cb48dc81d73408a0e5476d0c24ca87a95",
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION",
+  "source_scope": "CONCEPTUAL_PROVENANCE_PLUS_CURRENT_SAM_PREFIX_AND_SEALED_CR120G_H_BOUNDARIES",
+  "sources": [
+    {
+      "bytes": 38161,
+      "path": "C:/Users/drwho/.codex/attachments/682dc86c-22cf-4fbb-8c84-a44d10d8e27b/pasted-text.txt",
+      "role": "proposal-only typed write-state-read framing",
+      "sha256": "babee50f3d824140b9b1c9490c4e4dd104cfe9e3fb693d69563e3e97d4a53bfe"
+    },
+    {
+      "bytes": 13131,
+      "path": "C:/VS/Stam_model-A-v1.0/00_Conceptual_foundation.md",
+      "role": "older conceptual commitment; working draft grade retained",
+      "sha256": "b7400e23ffc96b5f5fbd0dd139cedded21a011d589f4f23553761bcfc9b8e6a6"
+    },
+    {
+      "bytes": 41650,
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "role": "current V4.2 substrate/ledger formal prefix",
+      "sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4"
+    },
+    {
+      "bytes": 1226,
+      "path": "11_QUANTUM_MECHANICS_AND_GRAVITY/CR075_UNRESOLVED_PATH_AND_LEDGER_WRITE/CR075_result.md",
+      "role": "scoped unresolved-to-resolved ledger-write chain",
+      "sha256": "1e5866a9f1b8b4e4eb2c1839c6f112a8ebede25cbefe7be0f4f49e8462549dae"
+    },
+    {
+      "bytes": 1177,
+      "path": "11_QUANTUM_MECHANICS_AND_GRAVITY/CR077_QUANTUM_CLASSICAL_RESOLUTION_CHAIN/CR077_result.md",
+      "role": "scoped resolution and delayed-readout chain",
+      "sha256": "8e80d3cb78557856dafffa46ef2cb7dc6b2961240af4843d2d950587f6a26d8a"
+    },
+    {
+      "bytes": 3271,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120G candidate",
+      "sha256": "06c4f480052285a5b1f932b76a6936efae12208a3d27a15f19366c47819964d2"
+    },
+    {
+      "bytes": 2604,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_MODEL_EXECUTION.json",
+      "role": "CR120G exact rational fixture",
+      "sha256": "674eb90b4622716ba54e0f1883a541d89a1794865688e944c5e3a40fc961c29f"
+    },
+    {
+      "bytes": 4155,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_MIRROR_PROJECTOR_VALIDATION.json",
+      "role": "CR120G Pi80 and bounded-Q controls",
+      "sha256": "6d6dd2ac9359e71c0145b755efefd653015e46ec40dc8c7fc8c55998611dc5ca"
+    },
+    {
+      "bytes": 8204,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_ROLE_DISCRIMINATION.json",
+      "role": "CR120G action/residue/state separation",
+      "sha256": "bad00364dbd2af0fb4db455a13a1fbba0c18a0e51508d79eac5ad2fccee00bae"
+    },
+    {
+      "bytes": 3301,
+      "path": "14_FOUNDATIONAL_TESTS/CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION/CR120H_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120H candidate",
+      "sha256": "75ed72d6160e0853c773c64be763b9ba7df4662c95b4ec021d8fdb92087678b0"
+    },
+    {
+      "bytes": 2824,
+      "path": "14_FOUNDATIONAL_TESTS/CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION/CR120H_result.md",
+      "role": "typed-ledger shape boundary",
+      "sha256": "4046361735677bf4208973cb2a73821254056af04525e381b0cbee40063d1391"
+    },
+    {
+      "bytes": 1078,
+      "path": "14_FOUNDATIONAL_TESTS/CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION/CR120H_summary.json",
+      "role": "machine-readable CR120H boundary",
+      "sha256": "83cb3699f9a6d85e8dae7be894b66cda3f67be7941bec50807a2b5f25968841e"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 2344,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry",
+      "sha256": "873f36e77b97e1e04f8d272af9f15e174ccf2605bec3fe7443be60bdf276935d"
+    },
+    {
+      "bytes": 2954,
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "controlling CR120 frontier",
+      "sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f"
+    }
+  ]
+}

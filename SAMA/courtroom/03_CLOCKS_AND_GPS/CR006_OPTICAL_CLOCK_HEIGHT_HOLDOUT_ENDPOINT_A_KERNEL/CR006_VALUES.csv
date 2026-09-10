@@ -1,0 +1,19 @@
+name,value,unit,classification,source_or_formula
+c,2.997924580000000000E+8,m/s,EXTERNAL_DIMENSIONAL_ANCHOR,SI exact
+mu_earth,3.986004418000000000E+14,m^3/s^2,EXTERNAL_DIMENSIONAL_ANCHOR,standard Earth GM
+a_local,9.796000000000000000E+0,m/s^2,EXTERNAL_GEOMETRY_INPUT,Bothwell et al. Methods
+height_step,1.000000000000000000E-3,m,EXTERNAL_GEOMETRY_INPUT,millimetre gradient observable
+r_lower,6.378880989854540619E+6,m,DERIVED_GEOMETRY,sqrt(mu/a_local)
+r_upper,6.378880990854540619E+6,m,DERIVED_GEOMETRY,r_lower + 0.001 m
+rs,8.870056078235341431E-3,m,SAM_A_KERNEL,2*mu/c^2
+A_lower,1.390534812037245386E-9,dimensionless,SAM_A_KERNEL,rs/r_lower
+A_upper,1.390534811819254987E-9,dimensionless,SAM_A_KERNEL,rs/r_upper
+sam_weak_prediction,1.089951994739255776E-19,fraction per mm,SAM_PREDICTION,(A_lower-A_upper)/2
+sam_exact_prediction,1.089951996254871970E-19,fraction per mm,SAM_PREDICTION,sqrt((1-A_upper)/(1-A_lower))-1
+exact_minus_weak,1.515616194182489015E-28,fraction per mm,INTERNAL_CONSISTENCY,exact-weak
+observed_upper_minus_lower,9.800000000000000000E-20,fraction per mm,EXTERNAL_COMPARATOR,negative of paper final gradient
+observed_sigma,2.300000000000000000E-20,fraction per mm,EXTERNAL_COMPARATOR,paper final total uncertainty
+sigma_input_rounding,5.563250280268092161E-24,fraction per mm,INPUT_UNCERTAINTY,a_local rounding to 4 digits
+sigma_total,2.300000067282072235E-20,fraction per mm,SCORING,sqrt(obs^2+input^2)
+standardized_residual_z,4.780521370557475412E-1,sigma,SCORING,precommitted z
+free_parameters_introduced,0.000000000000000000E+18,count,SAM_PARAMETER_COUNT,precommitted zero

@@ -1,0 +1,129 @@
+{
+  "cr_id": "CR129c",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "UNIVERSAL_3BODY_M_NATIVE_GENERATOR_PROMOTION",
+  "execution_status": "CLEAN",
+  "result_class": "CR129c_3BODY_UNIVERSAL_GENERATOR_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T23:04:43Z",
+  "universal_formula": "M_native(a, b, c) = R * D * (a^2 + b^2 + c^2) = 36 * (a^2 + b^2 + c^2)",
+  "promotion": "From OCTET-only (CR129) to universal-3body (CR129c)",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "R_times_D": 36
+  },
+  "partition_algebra": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "GROUND_BARYON_rows_tested": 44,
+  "GROUND_BARYON_matches": 44,
+  "GROUND_BARYON_violations": 0,
+  "stability_breakdown": {
+    "BOUND_COLOR_CLOSED_STABLE_CANDIDATE": {
+      "matches": 14,
+      "violations": 0
+    },
+    "BOUND_COLOR_CLOSED_HEAVY_CANDIDATE": {
+      "matches": 17,
+      "violations": 0
+    },
+    "REJECTED_FAKE_CLOSURE": {
+      "matches": 13,
+      "violations": 0
+    }
+  },
+  "combined_3body_coverage": {
+    "OCTET_3body_CR129": 76,
+    "GROUND_BARYON_3body_CR129c": 44,
+    "combined_rows": 120,
+    "total_3body_in_CR119": 120,
+    "combined_violations": 0,
+    "coverage_fraction": 1.0
+  },
+  "distinct_triples_in_GROUND_BARYON": 44,
+  "verification_csv_sha256": "ad7ea656ef3da66863c7f0c7e6a6005f9cc58dfac9bf707f3259128e5d0fb53c",
+  "universal_lock_sha256": "d823fabac81e11cff2e97c5ea7c7b47019c6f3c123f40f82e8fb367868263d34",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+    "CR129_verification_csv": "abe8df7fe3d752accbe115728d53d3f8fa2c256c3ca7f1d3dd0bdb56358378df"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_44_GROUND_BARYON_rows_walked",
+      "pass": true,
+      "details": "verifications = 44, parse_failures = 0"
+    },
+    {
+      "name": "P2_all_GROUND_BARYON_rows_match_formula",
+      "pass": true,
+      "details": "matches = 44/44, violations = 0"
+    },
+    {
+      "name": "P3_REJECTED_FAKE_CLOSURE_rows_also_match",
+      "pass": true,
+      "details": "REJECTED_FAKE_CLOSURE: 13 matches, 0 violations"
+    },
+    {
+      "name": "P4_combined_3body_coverage_complete",
+      "pass": true,
+      "details": "OCTET 3-body (CR129): 76 rows.  GROUND_BARYON_3BODY (CR129c): 44 rows.  Combined: 120 of 120 3-body rows in CR119.  Combined violations: 0."
+    },
+    {
+      "name": "P5_partition_algebra_unbroken",
+      "pass": true,
+      "details": "algebra_violations = 0"
+    },
+    {
+      "name": "P6_universal_lock_written",
+      "pass": true,
+      "details": "universal lock sha256 = d823fabac81e11cff2e97c5ea7c7b47019c6f3c123f40f82e8fb367868263d34"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR129_law_lock_unmodified",
+      "pass": true,
+      "details": "CR129 law lock referenced but not modified; CR129c promotes without overriding"
+    },
+    {
+      "name": "WC3_REJECTED_rows_explicitly_included_in_test",
+      "pass": true,
+      "details": "13 REJECTED_FAKE_CLOSURE rows in GROUND_BARYON_3BODY are INCLUDED in this test (not filtered out).  Their matching the formula is the key finding -- it shows M_native generation is upstream of stability filtering."
+    },
+    {
+      "name": "WC4_formula_NOT_promoted_to_other_body_counts",
+      "pass": true,
+      "details": "Universal claim is restricted to 3-body partitions.  CR128 BCP 2-body (M = R*ab + D*|a-b|) remains the 2-body law.  CR130 documents the structural break at n=2 vs n>=3.  CR129c does NOT extend the formula to 1-body, 2-body, or 4-body rows."
+    },
+    {
+      "name": "WC5_law_derived_from_data_not_first_principles",
+      "pass": true,
+      "details": "The universal 3-body claim is derived from 120 in-sample rows.  CR129c_PRED_1 commits the law for forward-blind testing on FUTURE 3-body rows where overfit cannot operate."
+    },
+    {
+      "name": "WC6_other_3body_operator_classes_open",
+      "pass": true,
+      "details": "If any future operator_class with 3-element partitions is added (e.g. a new exotic-state class), the universal claim predicts it will also obey the formula.  One violation triggers an appeal CR; absence of such classes does not falsify."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "S_debit formula for GROUND_BARYON_3BODY rows is open (S_debit values vary substantially across rows; CR129b would address this)",
+    "Why M_native generates valid mass values even on REJECTED_FAKE_CLOSURE rows is a structural question -- the generator/filter separation is observed but not derived",
+    "Forward-blind CR129c_PRED_1 resolves when CR119 gains new 3-body rows in any operator class"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "hits": 8,
+  "sample": [
+    {
+      "file": "src/qp016_private_ledger_commit_to_stable_mode_selector.py",
+      "match": "stable_mode_selector"
+    },
+    {
+      "file": "artifacts/qp016/qp016_summary.json",
+      "match": "STABLE_MODE_SELECTOR"
+    },
+    {
+      "file": "docs/reports/QP016_PRIVATE_LEDGER_COMMIT_TO_STABLE_MODE_SELECTOR.md",
+      "match": "Stable Mode Selector"
+    },
+    {
+      "file": "src/qp020_private_qp_to_particle_bridge_readiness_package.py",
+      "match": "stable mode selector"
+    },
+    {
+      "file": "docs/reports/QP020_PRIVATE_QP_TO_PARTICLE_BRIDGE_READINESS_PACKAGE.md",
+      "match": "stable mode selector"
+    }
+  ]
+}

@@ -1,104 +1,102 @@
-# SLC-GEN2-R4
+# SLC-GEN3-R3
 
-**Substrate Ledger Computer — exact arithmetic, retained histories, and
-target-directed observation policies. Research use only.**
+**Substrate Ledger Computer — computing with exact logarithmic state and retained history.**
 
-R4 computes with native SAM/SLC source states and signed Write histories. It
-retains exact rational and formal-log values, contribution identities,
-alternative histories and all maximizing ties. It can summarize and compose
-paths, restore checkpoints, and choose observations for a declared target using
-exact weighted information and adaptive policies of up to two readings.
+SLC-GEN3-R3 executes native SAM source programs, acquires reusable source relations,
+and retains execution state, learned support, complete histories and exact
+logarithmic accounts in one runtime. A durable checkpoint keeps these together
+for continuation in a fresh process.
 
 Sean Brady is the originator and conceptual director. OpenAI ChatGPT and Codex
 are credited as AI research collaborators. See [NOTICE.md](NOTICE.md).
 
-## Run the research engine
+## Run SLC-GEN3-R3
 
-Use Python 3.11 or later. The release was checked on Python 3.12 with NumPy
-1.26.4. From the repository directory:
+Use Linux and Python 3.11 or later. The release checks use Python 3.12.
 
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements-tested.txt
-python -m slc_gen2_r4 verify
-python -m slc_gen2_r4 run GEN2_RUN examples/word.json --output word-result.json
+python -m slc_gen3_r3 verify
+python -m slc_gen3_r3 run GEN3_EXECUTE examples/r3-word.json --state-dir runs/my-state --output first.json
+python -m slc_gen3_r3 run GEN3_EXECUTE examples/r3-continue.json --state-dir runs/my-state --output continued.json
 ```
 
-The example has action trace `6,8,10,8,6,10,6,4,2,4,4,2,4`, barrier `4`, and
-maximizing occurrences `state:2` and `state:5`. The output retains the entire
-history and its exact summaries. Each CLI calculation saves input, output and
-SHA-256 custody records under `runs/`; failed calls retain a failure record.
-Choose a new output filename for each run: existing output files are not overwritten.
+The second process restores the first process's state and continues its Writes.
+Choose new output filenames for subsequent runs. Each call retains input,
+output and SHA-256 receipts under `runs/`; failures retain their own records.
 
 ```python
-from slc_gen2_r4 import open_runtime
+from slc_gen3_r3 import open_runtime
 
-with open_runtime() as slc:
-    result = slc.execute("GEN2_RUN", {
-        "initial": [0, 0, 0],
-        "program": ["W1+", "W1-"],
-    })
-    print(result["barrier"])
+with open_runtime(state_dir="runs/python-state") as slc:
+    result = slc.execute("GEN3_EXECUTE", {
+        "initial": [0, 0, 0], "program": ["W1+", "W7-"]})
+    print(result["r3"])
+    checkpoint = slc.execute("GEN3_CHECKPOINT", {})
 ```
 
-See [usage and exact inputs](docs/USAGE.md),
-[release scope](docs/DISTRIBUTION_SCOPE.md) and
-[mathematical definitions](docs/MATHEMATICAL_INTERFACE.md).
+[Usage and operation inputs](docs/USAGE.md) · [Distribution scope](docs/DISTRIBUTION_SCOPE.md)
+· [Mathematical interface](docs/MATHEMATICAL_INTERFACE.md)
+· [Current project status](docs/PROJECT_STATUS.md)
 
-## Capabilities
+## What R3 retains
 
-| Capability | Retained behavior |
+| Capability | Behavior |
 |---|---|
-| Signed exact arithmetic | Rational values, prime-coefficient logs, cancellation contribution history and typed references |
-| Native forward and inverse histories | Original states, Write order, compatible alternatives and declared original targets |
-| Path summaries | Exact U, D, V, N and M, every maximizing occurrence, append and adjacent-chunk composition |
-| Observation selection | Declared positive rational weights, exact target entropy/information, explicit report resolutions and ties |
-| Adaptive policies | Horizons 0–2, conditional choices, STOP and original-target custody |
-| Construction boundaries | Information on linked finite assembly histories with a separately declared measure |
-| Sphere and motion | Inherited source-defined fixed-sphere/log/phase records and signed golden packet schedules |
-| Checkpoints | Source-bound reconstruction of arithmetic, history, motion, inverse and policy state |
+| Execution and acquired support | Known source relations execute directly; new support is acquired during native execution. |
+| Exact logarithmic accounts | U accumulates rises, D fall magnitudes, V = U + D, and net L = U − D. M retains every maximizing occurrence relative to the original reference. |
+| Complete source history | Signed state, phase, barriers, events and explicit gaps remain available alongside summaries. |
+| Incremental composition | Append new source history and compose adjacent accounts while retaining source custody. |
+| Actual observation encounters | Apply supplied observations to acquired branches, retaining complete alternatives and choice ties. |
+| Durable state | Restore execution state, acquired knowledge and accounts from one authenticated root. |
+| Inherited operations | GEN2 operation names remain supported by the R3 runtime. `slc_gen2_r4` remains a compatibility entry point. |
 
-The portable interface exports the computational engine. Deployment-specific
-tau and multi-host hardware operations require their separate application and
-infrastructure bindings; the preserved source and exact boundary are documented
-in [distribution scope](docs/DISTRIBUTION_SCOPE.md). The N72 source attachment
-retains its explicit Linux CPU/compiler profile and is not run by the quick start.
+The upstream source is **SLC-GEN3-R3**, build
+`GEN3-UNIFIED-EXECUTION1-20260910`, generation
+`GEN3-UNIFIED-EXECUTION1-20260910-G2`. The portable export has its own release
+binding, documented in [source provenance](provenance/SOURCE_MANIFEST.json).
 
-## Reproduce the release checks
+## SAM project background and research data
+
+The [SAMA collection](SAMA/README.md) supplies the broader project's explanations,
+derivations, tests and data alongside this SLC implementation.
+
+| Research volume | Contents |
+|---|---|
+| [Volume I](SAMA/vol_i/README.md) | Substrate, accumulation, gravity, clocks and cosmology |
+| [Volume II](SAMA/vol_ii/README.md) | Matter, particles, nuclei, binding and carriers |
+| [Volume III](SAMA/vol_iii/README.md) | SAM language, SLC, Writes, history and applications |
+| [Volume IV](SAMA/vol_iv/README.md) | Riemann Hypothesis research, results and corrections |
+
+The collection includes 81 chapters, 23 branches, 1,246 test identities and
+[5,340 copied Courtroom source files](SAMA/courtroom/). Its
+[source manifest](SAMA/maintenance/COURTROOM_MIRROR.json) preserves the originating
+file identities. [Research methods](SAMA/methodology/README.md) explain the
+project's procedures. [Current status](docs/PROJECT_STATUS.md) dates the latest
+engine and research information; earlier source records retain their original results.
+
+## Check the release
 
 ```sh
 python -m unittest discover -s tests -v
+python SAMA/tools/check_structure.py
 ```
 
-The suite compares the portable package with 35 frozen installed R4 integration
-fixtures and the owner-specified 12-event/nonuniform-weight test. It also launches
-separate producer/consumer processes for checkpoint continuation. The larger
-upstream installation record is preserved as provenance, with the distinction
-between upstream qualification and this export's checks kept explicit.
-
-All upstream computational bytes and required sealed foundation files have
-source hashes in [SOURCE_MANIFEST.json](provenance/SOURCE_MANIFEST.json).
-The portable launcher is separately identified; it does not replace the native
-arithmetic or policy-selection implementation.
+[Export validation](provenance/EXPORT_VALIDATION.json) records this distribution's
+checks. Earlier qualification records remain identified as upstream provenance.
 
 ## Copyright, research permission and stewardship
 
-**Copyright © 2026 Sean Brady. All rights reserved, subject to
-[LICENSE.md](LICENSE.md) and independently applicable licences.**
-
-You may run, inspect and privately modify this release for noncommercial
-research, and publish research findings with attribution. Commercial use,
+**Copyright © 2026 Sean Brady.** The SLC software is source-available under
+[LICENSE.md](LICENSE.md). It permits noncommercial research; commercial use,
 commercial R&D, products and paid services require separate written permission.
-This is source-available research software, not an open-source licence.
 
-The [stewardship declaration](STEWARDSHIP.md) preserves the existing commitment
-that at least 90% of the defined net commercialization proceeds received by
-SAM Research Project LC or a successor are intended for public-benefit purposes.
-Commercial permission and operative stewardship agreements are separate from
-the research-use grant.
+The SAMA collection retains its [own licences](SAMA/LICENSE.md),
+[notices](SAMA/NOTICE.md) and [stewardship](SAMA/STEWARDSHIP.md), including the
+originating terms of copied Courtroom files. Its inclusion does not replace
+those grants with the SLC research-use licence.
 
-For ownership, AI assistance, registration and contributor rights, see the
-[rights guide](legal/RIGHTS_AND_COPYRIGHT.md),
-[contribution process](CONTRIBUTING.md), and
-[dependency notices](THIRD_PARTY_NOTICES.md).
+See [SLC stewardship](STEWARDSHIP.md), [rights guide](legal/RIGHTS_AND_COPYRIGHT.md),
+[contribution process](CONTRIBUTING.md) and [dependency notices](THIRD_PARTY_NOTICES.md).

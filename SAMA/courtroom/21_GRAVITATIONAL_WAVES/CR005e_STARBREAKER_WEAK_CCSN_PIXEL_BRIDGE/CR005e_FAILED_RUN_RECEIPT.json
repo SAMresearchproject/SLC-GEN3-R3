@@ -1,0 +1,16 @@
+{
+  "campaign_id": "CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE",
+  "execution_preflight": "artifacts/preflight_filled/PREFLIGHT_20260720_220119_CR005e_runner.md",
+  "execution_preflight_generated_utc": "2026-07-21T03:01:19Z",
+  "failure_recorded_utc": "2026-07-21T03:01:51Z",
+  "runner_sha256": "e32b6ba1916dead08d468fa1db10a3b3f9f15d64b8a5f87ae37586d5b2a9c8b0",
+  "execution_status": "STOPPED_BEFORE_RELEASE",
+  "exception_type": "RuntimeError",
+  "exception_message": "trace-free source changed: REF_0001 9.43617769285563e-09",
+  "failed_gate": "G05_SOURCE_TRACE_NUMERICAL_TOLERANCE",
+  "release_exists": false,
+  "staging_release_exists": false,
+  "scientific_results_opened": false,
+  "same_run_repair_performed": false,
+  "disposition": "CR005e remains failed and immutable. A separately precommitted successor may enforce the exact trace-free algebraic identity before numerical projection; it may not overwrite or rerun CR005e."
+}

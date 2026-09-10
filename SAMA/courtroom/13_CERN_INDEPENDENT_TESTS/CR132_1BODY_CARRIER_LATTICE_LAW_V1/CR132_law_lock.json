@@ -1,0 +1,76 @@
+{
+  "cr_id": "CR132",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class in the six carrier classes (TENSOR_CARRIER, WEAK_VECTOR_CARRIER, NEUTRAL_VECTOR_CARRIER, COLOR_OWNER_CARRIER, ROAD_LIGHT_CARRIER, A_FIELD_CARRIER), M_native equals the locked lattice integer for that class.",
+    "falsifier": "ONE single future carrier row whose M_native deviates from the locked lattice value by any non-zero rational falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR132_PRED_1",
+    "non_falsifying": "Rows of operator_class outside this set.  Addition of a NEW carrier class would warrant a lattice extension via appeal CR, not a v1.0 violation."
+  },
+  "immutability": "Lattice assignments and constants are frozen at CR132 seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "S_debit_zero_checks": 6,
+    "carriers_tested": 6,
+    "massive_carrier_matches": 4,
+    "massless_carrier_matches": 2,
+    "violations": 0
+  },
+  "law_committed_utc": "2026-06-16T00:22:22Z",
+  "law_definition": {
+    "S_debit_universal_rule": "S_debit = 0 for all carriers (CARRIER_ONLY_NOT_MATTER stability, no surface debit by design)",
+    "applies_to": "operator_class in {TENSOR_CARRIER, WEAK_VECTOR_CARRIER, NEUTRAL_VECTOR_CARRIER, COLOR_OWNER_CARRIER, ROAD_LIGHT_CARRIER, A_FIELD_CARRIER}",
+    "constants": {
+      "C1": 1,
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "formula": "M_native = alpha_H^i * D^j  for assigned (i, j) per carrier class",
+    "lattice_assignments": {
+      "A_FIELD_CARRIER": {
+        "M": 0,
+        "structural": "massless (environmental A-field carrier)"
+      },
+      "COLOR_OWNER_CARRIER": {
+        "M": 8,
+        "i": 3,
+        "j": 0,
+        "structural": "alpha_H^3"
+      },
+      "NEUTRAL_VECTOR_CARRIER": {
+        "M": 81,
+        "i": 0,
+        "j": 4,
+        "structural": "D^4"
+      },
+      "ROAD_LIGHT_CARRIER": {
+        "M": 0,
+        "structural": "massless (photon-class transverse vector)"
+      },
+      "TENSOR_CARRIER": {
+        "M": 18,
+        "i": 1,
+        "j": 2,
+        "structural": "alpha_H * D^2"
+      },
+      "WEAK_VECTOR_CARRIER": {
+        "M": 9,
+        "i": 0,
+        "j": 2,
+        "structural": "D^2"
+      }
+    },
+    "name": "ONE_BODY_CARRIER_LATTICE_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "Calibration of structural integers to physical MeV scale (separate constant per spin class needed)",
+      "S_debit formula for hypothetical future carrier rows with non-zero S_debit (would warrant appeal CR)",
+      "SOURCE_SUPPORT_PACKET (n=8, separate operator class) and 'fake_spin' null-control rows (n=9)",
+      "OUTER_BINARY_NEUTRAL (n=24, 1-body fermion_half_write, different family from V4_1 and carriers)"
+    ],
+    "structural_significance": "Each 1-body boson carrier sits at a unique lattice point on the (alpha_H, D) foundation algebra.  The two massive_vector_support carriers (WEAK and NEUTRAL) split within their shared spin class by an additional D^2 factor: M_NEUTRAL = M_WEAK * D^2 = 9 * 9 = 81.  The two massless carriers (ROAD_LIGHT photon and A_FIELD) carry partition = 1 as a placeholder slot with M_native = 0."
+  },
+  "law_version": "v1.0",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42"
+  }
+}

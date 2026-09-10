@@ -1,0 +1,6 @@
+control_id,status,verdict_relevant,description,train_rows,holdout_rows,fit_split,test_split,train_rms_u,train_r2,test_rms_u,test_r2,beats_sam_typed,suppresses_strong,flag_count,flags,pass_condition,pass
+WC1_shuffled_train_B_u_labels,PASS,True,Shuffle CR240 training B_u labels before fitting SAM typed basis.,,,,,,,0.06131921802425791,-2.9401549461027554,,,,,shuffled RMS worsens and R2 drops by at least 0.20,True
+WC2_train_test_boundary_guard,PASS,True,Confirm all coefficients are fit on CR240 train rows and CR241 holdout rows are never fit.,49,20,train_cr240_lane_a_non_anchor,test_cr241_holdout,,,,,,,,,no CR241 holdout row is used in coefficient fitting,True
+WC3_untyped_decimal_basis,COMPLETE,True,Fit an untyped decimal basis to check whether typed structure is unique enough for STRONG.,,,,,,,0.005813830280858115,0.9645803076922601,False,False,,,complete; suppress STRONG if it beats SAM typed basis,True
+WC4_zero_free_typed_candidate,COMPLETE,True,Report the strict zero-free typed candidate without fitting coefficients.,,,,,0.04269306403604855,-0.1889597659008868,0.06398586564326877,-3.2903051680663715,,True,,,complete; suppress STRONG if holdout R2 < 0.95,True
+WC5_disallowed_claim_guard,PASS,True,Machine summary emits no positive promotion or theorem-grade claim tags.,,,,,,,,,,,0,,zero forbidden claim flags,True

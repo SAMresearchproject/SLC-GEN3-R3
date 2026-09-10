@@ -1,0 +1,87 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv",
+      "mode": "100644",
+      "git_blob": "5b0d8a45a36654fe00ab86cfcaabe18fac18cb14",
+      "bytes": 21338,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "b83a4a1d8de5a99b7f987ffd6b7b27fd305bb26e",
+      "bytes": 97,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_alp_window_inventory.csv.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_experimental_window_map.json",
+      "mode": "100644",
+      "git_blob": "9b034f9cae8f7fe876cdf0df1b7d80839a4e61c7",
+      "bytes": 2983,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_experimental_window_map.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_experimental_window_map.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_experimental_window_map.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_experimental_window_map.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_priority_manifest.csv",
+      "mode": "100644",
+      "git_blob": "3300d242eb65120bcdbfe0ec50a28e1a0362eabb",
+      "bytes": 4379,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_priority_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_priority_manifest.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_priority_manifest.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_priority_manifest.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_result.md",
+      "mode": "100644",
+      "git_blob": "f35c53a837f25f94308db2c5fff109ba57919261",
+      "bytes": 11732,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_runner.py",
+      "mode": "100644",
+      "git_blob": "b5262d31fd47c3e8deb70716af37554e4fbdaf52",
+      "bytes": 26558,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_summary.json",
+      "mode": "100644",
+      "git_blob": "290cbdbbcb6a3727b710f264f8f5df3ac5e8255b",
+      "bytes": 5058,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR127_LIGHT_ALP_COVERAGE_MAP_141_ROWS/CR127_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR127@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

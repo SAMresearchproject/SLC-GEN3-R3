@@ -1,0 +1,26 @@
+{
+  "cr_id": "CR115",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM",
+  "execution_status": "CLEAN",
+  "result_class": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+  "all_predictions_passed": true,
+  "all_wrong_controls_rejected": true,
+  "stable_ds": [
+    3
+  ],
+  "carrier_count": 5,
+  "all_g348_carriers_closed_to_stable_sector": true,
+  "hostile_audit_f002_acknowledged": true,
+  "load_bearing_computed_core": "G347 obstruction_dim = 3 - D, recomputed by CR115",
+  "grade": "structural theorem-gate inside SAM; computational topology core plus declared carrier-identity commitments",
+  "lock_sha256": "369b2651f6a14bc608aac4e2e4ba1778f3dff6150d1e766eb990ddf2ab048fe0",
+  "declared_premises_json": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_declared_premises.json",
+  "source_chain_csv": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_source_chain.csv",
+  "carrier_reduction_csv": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_carrier_reduction_table.csv",
+  "dimension_table_csv": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_dimension_obstruction_table.csv",
+  "checks_csv": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_checks.csv",
+  "wrong_controls_csv": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_wrong_controls.csv",
+  "lock_json": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_invariant_carrier_uniqueness_lock.json",
+  "result_md": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_result.md"
+}

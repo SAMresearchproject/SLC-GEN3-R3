@@ -1,0 +1,12 @@
+wrong_control,attempted_binding,observed_failure,expected_failure,passes_as_failure
+0262_used_as_carrier_support,QP093A-0262 counted as support ledger row,QP093A-0262 layer=bound_composite_rows; operator=BOUND_COLOR_PAIR; matter_allowed=yes,PAIR_FACE_IS_MATTER_ROW_NOT_CARRIER_SUPPORT,True
+0262_counted_into_carrier_checksum,carrier checksum 162 + QP093A-0262,carrier checksum must remain 162,CHECKSUM_CATEGORY_FAILURE,True
+0262_treated_as_final_3body_target,QP093A-0262 -> TARGETED_EMITTED_WARNING_PACKET,QP093A-0262 owner_count=2; operator=BOUND_COLOR_PAIR,TWO_OWNER_PAIR_NOT_THREE_OWNER_TRIAD,True
+0200_without_pair_precursor_in_pair_bridge,QP093A-0200 targeted with pair bridge absent,"CR222g may target 0200 directly, but CR222h bridge is not established without QP093A-0262",PAIR_BRIDGE_NOT_ESTABLISHED,True
+carrier_tensor_substituted_for_pair_tensor,use carrier tensor 18 as QP093A-0262 tensor,carrier_tensor=18; pair_T=21.5,CATEGORY_FAILURE,True
+carrier_tensor_substituted_for_triad_tensor,use carrier tensor 18 as QP093A-0200 tensor,carrier_tensor=18; triad_T=145,CATEGORY_FAILURE,True
+protocol_qA_substituted_for_pair_or_triad_qA,use protocol qA=1/24 as matter qA,protocol_qA=1/24; pair_qA=172; triad_qA=1160,CATEGORY_FAILURE,True
+target_emits_without_protocol_gate,G_protocol=0 but pair-to-triad target writes,False,False,True
+target_emits_below_threshold,A_leak=1/48 but pair-to-triad target writes,False,False,True
+0306_omitted_but_pair_bridge_binds,omit p=1 source packet but bind pair-to-triad target,161,161_CORRUPT_NO_BINDING,True
+duplicate_0305_restored_but_pair_bridge_binds,restore duplicate support row but bind pair-to-triad target,163,163_CORRUPT_NO_BINDING,True

@@ -1,0 +1,43 @@
+{
+  "test_id": "CR017_DISTANCE_ROAD_TYPED_BRIDGE_CLOSURE",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR017_declared_premises.json",
+    "CR017_PRECOMMIT.md",
+    "CR017_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "local_dependency_summaries": {
+    "CR012": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR012_NATIVE_TYPED_RULER_ROAD_BRIDGE_DERIVATION\\CR012_summary.json",
+    "CR013": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE\\CR013_summary.json",
+    "CR014": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR014_BAO_RULER_PROJECTION_LEDGER_SHRINKAGE\\CR014_summary.json",
+    "CR015": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR015_SN_BAO_INDEPENDENT_LEDGER_LOCK\\CR015_summary.json",
+    "CR016": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR016_CMB_ACOUSTIC_RULER_PHOTON_ROAD_RATIO\\CR016_summary.json"
+  },
+  "frozen_predictions": {
+    "CR012": "PASS",
+    "CR013": "PASS",
+    "CR014": "PASS",
+    "CR015": "PASS",
+    "CR016": "PASS",
+    "CMB_modal_polarization": "OPEN_NOT_CLAIMED"
+  },
+  "wrong_controls": [
+    "missing_dependency",
+    "external_G_verdict_replaces_local_CR",
+    "smuggle_CMB_modal_closure",
+    "nonzero_new_parameter"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "all_dependency_summaries_exist",
+    "all_dependencies_are_local_cr_tests",
+    "all_dependencies_pass",
+    "cmb_modal_polarization_left_open",
+    "wrong_controls_rejected"
+  ],
+  "rule_9_falsification": "This closure test could have falsified the 06 branch if any local CR dependency failed, if a new parameter appeared, if CMB modal or polarization closure was smuggled into the branch, or if a dependency was replaced by an external G verdict instead of a local courtroom result."
+}
+

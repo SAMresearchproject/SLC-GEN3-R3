@@ -1,0 +1,6 @@
+let witness = RESOLVE(
+    S8_BINARY_SURFACE,
+    B_CONTACT_OPERATOR
+)
+
+return witness

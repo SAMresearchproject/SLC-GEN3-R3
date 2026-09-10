@@ -1,0 +1,10 @@
+{
+  "test_id": "CR203",
+  "source_gate": "G752c_CHLADNI_TO_PARTICLE_ROUTE_CLOSURE_BRIDGE",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that the Chladni bridge uses the QP091 live surface and lab plate only as boundary-route support, not stale QP075 or toy plate direct promotion."
+}

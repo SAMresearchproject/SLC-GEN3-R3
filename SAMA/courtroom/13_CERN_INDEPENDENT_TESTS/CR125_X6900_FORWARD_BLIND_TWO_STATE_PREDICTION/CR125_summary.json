@@ -1,0 +1,95 @@
+{
+  "cr_id": "CR125",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "FORWARD_BLIND_PREDICTION_REGISTRY_X6900_TWO_STATE",
+  "execution_status": "CLEAN",
+  "result_class": "CR125_X6900_FORWARD_BLIND_TWO_STATE_PREDICTION_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T21:42:55Z",
+  "predictions_count": 2,
+  "prediction_masses_MeV": [
+    6804.0,
+    7056.94
+  ],
+  "tolerance_MeV": [
+    50.0,
+    50.0
+  ],
+  "separation_MeV": 252.94,
+  "registry_csv_sha256": "a4f3166c962944d10916f3bc145a04fc27a16a0ff379e911803eb86782ab3bcb",
+  "prediction_commit_sha256": "d8f7e41a55d7d92e4b4cbfb83194f1ef5c19b1fe05fd0db0495ef6a94fbf2a21",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR119_summary_json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR124_summary_json": "82951214172a95c1ca4c2e3bc7683801cb3ea94495a7decdaa5e286d2c7978bc",
+    "CR098b_phase_3_forward_blind_registry_csv": "15ca15585270b6df3babe249f48f371062993a53d3abd03a090813c4902ef193"
+  },
+  "predictions": [
+    {
+      "name": "P1_two_predictions_committed",
+      "pass": true,
+      "details": "prediction count = 2"
+    },
+    {
+      "name": "P2_both_predictions_zero_free_parameters",
+      "pass": true
+    },
+    {
+      "name": "P3_both_predictions_inside_X6900_window",
+      "pass": true,
+      "details": "X(6900) di-J/psi window = 6700-7100 MeV (matches CR124 W124_X6900_DI_JPSI bounds)"
+    },
+    {
+      "name": "P4_predictions_separated_by_more_than_combined_tolerance",
+      "pass": true,
+      "details": "|6804 - 7056.94| = 252.94 MeV vs combined tol 100 MeV (predictions are resolvable)"
+    },
+    {
+      "name": "P5_explicit_falsification_per_prediction",
+      "pass": true
+    },
+    {
+      "name": "P6_explicit_non_falsifying_outcomes_per_prediction",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 particle table read-only; sha recorded"
+    },
+    {
+      "name": "WC2_CR124_crosswalk_unmodified",
+      "pass": true,
+      "details": "CR124 crosswalk read-only; sha recorded"
+    },
+    {
+      "name": "WC3_CR098b_registry_unmodified",
+      "pass": true,
+      "details": "CR098b phase-3 registry untouched; this CR sits beside it, not inside"
+    },
+    {
+      "name": "WC4_no_match_revealed_at_commit_time",
+      "pass": true,
+      "details": "neither QP093A-0192 nor QP093A-0208 carries a known_match label in CR119; both are NATIVE_PARTICLE_IDENTITY_ASSIGNED_NO_KNOWN_LABEL"
+    },
+    {
+      "name": "WC5_no_fitting_to_X6900_central_value",
+      "pass": true,
+      "details": "Neither 6804 nor 7056.94 equals the published X(6900) central (~6900 MeV); masses come from sealed CR119 catalog independent of the LHCb measurement"
+    },
+    {
+      "name": "WC6_quark_content_assignment_NOT_claimed",
+      "pass": true,
+      "details": "predictions are SAM-native three_owner_color_closure composites; mapping to ccbar-ccbar tetraquark or any other quark content is explicitly out of scope of this CR"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future X(6900) substructure reveal must be added as an appeal CR; this CR's CSV is never edited",
+    "Quark-content assignment (tetraquark mapping) is a separate downstream CR",
+    "Width and branching-ratio predictions are future CRs once QP093 chain extends to decay structure"
+  ]
+}

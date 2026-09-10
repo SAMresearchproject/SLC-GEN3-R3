@@ -1,0 +1,10 @@
+wrong_control,attempted_mutation,evidence,result
+WC27_NORMALIZATION_PATCH,renormalize probabilities after comparison instead of using native route-weight denominators,QP014 reports normalization_failures=0; LC09 recomputed open sums with max error 1.1102230246251565e-16 and closed-window zero sums with max error 0.0.,REJECTED
+WC_FINAL_OUTCOME_LEAK,use final ledger outcome/logical identity fields to build the Born surface,QN005 forbidden_fields_used=False; checks and wrong controls all pass.,REJECTED
+WC_THRESHOLD_SWAP,swap A_side/A_share thresholds or use decimal-only thresholds disconnected from R,LC09 recomputes A_side=1/(2R)=0.041666666666666664 and A_share=1/R=0.08333333333333333; QP010/QP014/QP016 summaries match.,REJECTED
+WC_PAIR_FACTOR_DELETE,delete the factor 2 for mixed route pairs or treat pair rows as unstructured,LC09 recomputed 28 primary QP015 pair rows from QP014 probabilities; pair_probability_sum=1.0.,REJECTED
+WC_ALL_COMMITS_STABLE,promote every committed route pair to a stable mode,"QP016 selects 1 stable self-closure mode, 1 boundary candidate, and 26 transient tails.",REJECTED
+WC_A_LEAK_AS_PHASE_AMOUNT,"treat A_leak,total as the phase/action readout instead of a protected-window signal",CR073 keeps action/phase identity separate; QP010-QP014 use A_leak as protected route/write-candidacy window grammar.,REJECTED
+WC_QN019_MEMORY_AS_PROOF,treat absent QN019/QN020 executed folders from prior memory as live evidence,Cross-tree search found QN019_files=0 and QN020_files_excluding_ladder=0; LC09 records the absence instead of using them.,REJECTED
+WC_CR076_OVERPROMOTION,upgrade CR076 BOUNDARY into full phase integral closure,CR076 remains BOUNDARY; integral_form_hits=0.,REJECTED
+WC_ROUTE_IDENTITY_COLLAPSE,collapse protected route identity during syndrome/control handling,"CR075 protected route, syndrome boundary, and ledger commit checks are present; QN005 forbids final ledger fields.",REJECTED

@@ -1,0 +1,6 @@
+layer,input,role,allowed_use,forbidden_use
+carrier_packet,CR222b/CR222d carrier ledger,route + tensor witness + checksum envelope,"validate route, witness, and 162 closure",do not count QP093A-0262 or QP093A-0200 into carrier checksum
+pair_face_precursor,QP093A-0262,neutral two-owner 4+4 face,establish pair-face precursor for the 4+4+4 target,do not treat as final three-owner target or carrier support row
+triad_target,QP093A-0200,positive three-owner 4+4+4 diamond/baryon target,supply matter target qA/T/W after G_matter=1,"do not replace carrier route, mirror, or support roster"
+bridge_relation,4+4 -> 4+4+4,pair face extends by one owner,bridge owner 4; ratio 1.5,do not infer target emission without CR222e/CR222f protocol gate
+protocol_gate,CR222e/CR222f warning condition,allow targeted warning emission,G_protocol=1 and A_leak>=1/24,do not emit from support inventory or pair face alone

@@ -1,0 +1,9 @@
+pattern_class,pattern_regex,total_match_count,manifest_violation_count,engine_surface_hit_count,allowed_mention_count,exemplar_manifest_violation,exemplar_engine_hit_file,exemplar_engine_hit_line,exemplar_engine_hit_text,exemplar_mention_file,exemplar_mention_line,classification,notes
+PDG_mass_roster,"\bPDG\b.{0,60}(mass|table|roster|value)",30,0,0,30,,,,,tests/Substrate/G612c_MULTI_PARTICLE_TIER_FORMULA_TEST/G612c_MULTI_PARTICLE_TIER_FORMULA_TEST.py,429,ALLOWED_MENTION,PDG used as construction input would walk the Forbidden Route
+AME2020,\bAME ?20(20|14)\b,0,0,0,0,,,,,,,CLEAN,"AME atomic mass evaluation - allowed as comparator only, never construction input"
+NIST_mass_roster,"\bNIST\b.{0,40}(mass|nuclide|isotope|roster)",0,0,0,0,,,,,,,CLEAN,NIST mass-roster references; CODATA constant refs are OK separately
+Yukawa_coupling,\bYukawa\b|\b[Yy]_[uds]_?_?coupling\b,33,0,0,33,,,,,C:/VS/memory/OPERATIONAL_MEMORY.md,7326,ALLOWED_MENTION,Yukawa coupling tables forbidden as construction input
+calibration_loop,"\bscipy\.optimize\b|\bcurve_fit\b|\bleast_squares\b|\bminimize\b.{0,40}observed",0,0,0,0,,,,,,,CLEAN,Calibration-loop forbidden in engine
+DS_tier_path,\bDS0\d\d_[A-Z_]+\b|/discovery_briefs/|\\\\discovery_briefs\\\\,5,0,0,5,,,,,C:/VS/memory/OPERATIONAL_MEMORY.md,1852,ALLOWED_MENTION,Discovery-tier paths excluded by tier rule
+DCH_decontam_path,\bDCH_\d+\b|/decontamination[ _]vestibule/|\\\\decontamination vestibule\\\\,235,0,0,235,,,,,C:/VS/memory/OPERATIONAL_MEMORY.md,241,ALLOWED_MENTION,Decontamination-vestibule excluded by tier rule
+FRZ_queue_path,\bFRZ_DS\d+_[A-Z_]+\b,30,0,0,30,,,,,C:/VS/memory/OPERATIONAL_MEMORY.md,1914,ALLOWED_MENTION,Freeze-queue candidates not yet promoted

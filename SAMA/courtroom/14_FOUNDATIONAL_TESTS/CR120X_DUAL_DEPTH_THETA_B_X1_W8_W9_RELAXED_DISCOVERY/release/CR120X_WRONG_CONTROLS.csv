@@ -1,0 +1,21 @@
+control,observed,rejected,reason
+SUBSTITUTE_ROAD_LIGHT_CARRIER_native_payload,undefined,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_ROAD_LIGHT_CARRIER_partition_scalar,126|144|162,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_WEAK_VECTOR_CARRIER_native_payload,14|16|18,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_WEAK_VECTOR_CARRIER_partition_scalar,14|16|18,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_NEUTRAL_VECTOR_CARRIER_native_payload,14/9|16/9|2,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_NEUTRAL_VECTOR_CARRIER_partition_scalar,14/9|16/9|2,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_COLOR_OWNER_CARRIER_native_payload,63/4|18|81/4,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_COLOR_OWNER_CARRIER_partition_scalar,63/4|18|81/4,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_A_FIELD_CARRIER_native_payload,undefined,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+SUBSTITUTE_A_FIELD_CARRIER_partition_scalar,126|144|162,True,alternative carrier does not reproduce the complete 7-8-9 ladder
+A_SCALE_AT_D_0,12,True,route scale does not equal N144
+A_SCALE_AT_D_2,1728,True,route scale does not equal N144
+A_SCALE_AT_D_3,20736,True,route scale does not equal N144
+WRONG_RELEASE_1_OVER_4,36,True,wrong split does not release Theta18
+WRONG_RELEASE_1_OVER_16,9,True,wrong split does not release Theta18
+RESTORE_A_FIELD_AS_ADDITIVE_ROW,163,True,restoration produces wrong closure 163
+MERGE_B_WITH_X1,ContactOperator != AxisChannel,True,typed identity collapse forbidden
+MERGE_THETA_WITH_X1,PrimaryCarrier != AxisChannel,True,normalization contact is not entity identity
+MERGE_A_FIELD_ROW_WITH_A_OPERATOR,historical row proxy != non-row operator,True,typed identity collapse forbidden
+CALL_STATIC_RUNTIME_PHYSICAL_INTERVENTION,CR120D intervention syntax absent,True,fixed runtime output is not a physical intervention

@@ -1,0 +1,109 @@
+{
+  "precommit_sha256": "fac85ca9decf0c724591bd95bf083630c49f95624c00cff5820b67824e1cf810",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "per_galaxy_fitting": false,
+  "catalog_fit_parameters": 0,
+  "empirical_X_inf_input": false,
+  "prior_CR_result_inputs": false,
+  "substrate": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "Theta": 18,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "chi": 0.07073553026306459,
+    "X_inf_SAM": 3.183098861837907,
+    "f_halo_inf_SAM": 0.7609427763893117,
+    "X_inf_SAM_formula": "(R - alpha_H) * Omega_m = 10/pi"
+  },
+  "sample": {
+    "n_raw_galaxies": 175,
+    "n_excluded_lt3": 0,
+    "n_eligible": 175,
+    "n_excluded_zero_measured": 2,
+    "n_in_P1_statistic": 173
+  },
+  "P1": {
+    "median_log10_ratio": -0.00031127541631408397,
+    "abs_median_log10": 0.00031127541631408397,
+    "threshold": 0.05,
+    "margin_abs_median_over_threshold": 0.006225508326281679,
+    "median_linear_ratio": 0.9992835186620003,
+    "linear_lower_bound": 0.8912509381337456,
+    "linear_upper_bound": 1.1220184543019633,
+    "pass_": true
+  },
+  "E2": {
+    "median_linear_ratio": 0.9992835186620003,
+    "median_log10_ratio": -0.00031127541631408397,
+    "abs_median_log10": 0.00031127541631408397,
+    "abs_median_log10_over_threshold": 0.006225508326281679,
+    "mean_log10_ratio": 0.0430096086632136,
+    "std_log10_ratio": 0.38017783112098485,
+    "min_linear_ratio": 0.21172515027393474,
+    "max_linear_ratio": 34.718695905838345,
+    "p25_linear_ratio": 0.6428070434791385,
+    "p75_linear_ratio": 1.5409998721031228
+  },
+  "E3": {
+    "n_galaxies_used": 175,
+    "median_f_halo_outer_raw": 0.760699023482704,
+    "f_halo_inf_SAM_predicted": 0.7609427763893117,
+    "difference": -0.0002437529066077193,
+    "relative_difference": -0.00032043278495579865
+  },
+  "E4": {
+    "R_minus_alpha": 10,
+    "S_plus_alpha": 10,
+    "Theta_minus_S": 10,
+    "all_three_equal_10": true,
+    "X_inf_via_R_alpha_times_Omega_m": 3.183098861837907,
+    "X_inf_via_R_alpha_over_pi": 3.183098861837907,
+    "X_inf_via_10_over_pi": 3.183098861837907,
+    "machine_precision_check": true
+  },
+  "E5": {
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "chi": 0.07073553026306459,
+    "X_cosmic": 5.456719475886702,
+    "X_inf_SAM": 3.183098861837907,
+    "X_cosmic_over_X_inf": 1.714278981814601,
+    "X_cosmic_over_X_inf_check": 1.714278981814601
+  },
+  "WC1": {
+    "n_trials": 1000,
+    "canonical_abs_median_log10": 0.00031127541631408397,
+    "null_mean": 0.3232888689088321,
+    "null_std": 0.22505210438243947,
+    "null_min": 0.00023604555545379819,
+    "null_max": 1.4546560026248803,
+    "null_median": 0.3087758245572334,
+    "n_null_at_least_as_extreme": 1,
+    "canonical_percentile": 0.001,
+    "exact_p_value": 0.001998001998001998
+  },
+  "WC2": {
+    "n_trials": 1000,
+    "canonical_abs_median_log10": 0.00031127541631408397,
+    "null_mean": 0.03738269948472757,
+    "null_std": 0.027588107031386266,
+    "null_min": 1.1482991508211813e-06,
+    "null_max": 0.15962815920987763,
+    "null_median": 0.03174433921395725,
+    "n_null_at_least_as_extreme": 4,
+    "canonical_percentile": 0.004,
+    "exact_p_value": 0.004995004995004995
+  },
+  "external_inputs": {
+    "MassModels_Lelli2016c": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\SPARC_G392\\MassModels_Lelli2016c.mrt"
+  },
+  "forbidden_files_opened": false,
+  "opened_paths_count": 0
+}

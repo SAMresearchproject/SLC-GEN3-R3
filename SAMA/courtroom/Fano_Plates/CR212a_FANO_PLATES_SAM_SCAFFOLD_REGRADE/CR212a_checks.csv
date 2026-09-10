@@ -1,0 +1,16 @@
+check_id,description,passed,evidence
+A01,All declared input sources resolve and hash,True,missing=[]
+A02,CR212 sealed artifacts re-hash to sealed values (CR212 unmodified),True,sealed_files=12 mismatches=[]
+A03,REPLACEMENT_RECORD present in CR212a folder,True,replacement_record=True
+A04,HH001 builder shows PARTICLE = p + e + n_primary formula,True,formula_found=True
+A05,HH001 builder reads Z and qA from CR119 row,True,Z=True qA=True
+A06,HH001 builder emits '-' for frontier Z>=119 on comparator columns,True,frontier_clause=True
+A07,"HH001 builder uses comparator lookups (ATOMIC_MASS, LIGHT_NM, NUCLEAR_SPIN, clock_value)",True,"{""ATOMIC_MASS_lookup"": true, ""LIGHT_NM_lookup"": true, ""NUCLEAR_SPIN_lookup"": true, ""Z_read_from_CR119"": true, ""clock_value_call"": true, ""frontier_dash_emit_clause"": true, ""particle_formula_line_found"": true, ""qA_read_from_CR119"": true}"
+A08,CR119 periodic table presents the eight scaffold columns,True,"{""Z"": true, ""electron_count"": true, ""known_name"": true, ""known_symbol"": true, ""neutron_count_primary"": true, ""proton_count"": true, ""qA_total_primary"": true, ""tensor_carrier_support_primary"": true}"
+A09,CR119 periodic table has at least 126 rows,True,cr119_row_count=126
+A10,Every regraded verdict uses the expanded allowed vocabulary,True,"verdicts=['SAM_SCAFFOLD_PLACEMENT_GRADE', 'SAM_SCAFFOLD_PLACEMENT_GRADE', 'SAM_SCAFFOLD_PLACEMENT_GRADE', 'RETIRED_FALSIFIED', 'SAM_SCAFFOLD_PLACEMENT_GRADE', 'REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND']"
+A11,OPEN_4 remains RETIRED_FALSIFIED in regrade,True,open_4=RETIRED_FALSIFIED
+A12,OPEN_6 unchanged at REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND,True,open_6 cr212=REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND cr212a=REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND
+A13,"OPEN_1, OPEN_2, OPEN_3, OPEN_5 regraded NOT_PROMOTABLE -> SAM_SCAFFOLD_PLACEMENT_GRADE",True,open1=SAM_SCAFFOLD_PLACEMENT_GRADE open2=SAM_SCAFFOLD_PLACEMENT_GRADE open3=SAM_SCAFFOLD_PLACEMENT_GRADE open5=SAM_SCAFFOLD_PLACEMENT_GRADE
+A14,Every PLACEMENT-grade row carries explicit scaffold citation and comparator citation,True,citation coverage on PLACEMENT-grade rows
+A15,Wrong controls all rejected,True,rejected_count=6/6

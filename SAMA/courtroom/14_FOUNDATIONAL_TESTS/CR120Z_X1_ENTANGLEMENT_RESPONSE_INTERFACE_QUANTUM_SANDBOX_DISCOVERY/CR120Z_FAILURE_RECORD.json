@@ -1,0 +1,14 @@
+{
+  "attempt": 1,
+  "campaign_id": "CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY",
+  "failure_class": "IMPLEMENTATION_SERIALIZATION_FAILURE",
+  "scientific_verdict_emitted": false,
+  "release_manifest_emitted": false,
+  "error_type": "TypeError",
+  "error_message": "Object of type bool is not JSON serializable",
+  "failure_location": "write_json(RELEASE / CR120Z_SUMMARY.json, summary)",
+  "sealed_runner_sha256": "a413e57a7f4769694d5de8b3de1ccc4a5bf2f82973216d3346a52fdadd0064ae",
+  "scientific_logic_change_permitted": false,
+  "partial_release_is_authoritative": false,
+  "same_run_repair_performed": false
+}

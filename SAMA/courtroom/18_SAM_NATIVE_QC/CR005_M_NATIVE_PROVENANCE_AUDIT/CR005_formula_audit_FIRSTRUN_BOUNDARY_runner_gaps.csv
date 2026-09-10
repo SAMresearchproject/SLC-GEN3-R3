@@ -1,0 +1,31 @@
+formula_id,source_line,expression,input_name,input_value,classification,provenance
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,p,PARTITION element,substrate_atom,CR238 / LCQC002 partition set
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,R,12,substrate_atom,CR238
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,generation_depth,"0, 1, or 2 (enumeration index)",structural_constant,"enumeration index, not physical input"
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,axis_factor.plus,1.25 = 5/4,structural_constant,(alpha_H+D)/alpha_H^2 = 5/4 typed rational
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,axis_factor.minus,1.5 = 3/2,structural_constant,D/alpha_H = 3/2 typed rational
+F-SINGLE-AXIS,L327-L329,m_native = p * axis_factor[axis] * R**generation_depth,axis_factor.neutral,0.125 = 1/8,structural_constant,1/S typed rational
+F-TRIADIC,L401,m_native = sum(p^2 for p in parts) * R * D,parts,PARTITION elements,substrate_atom,CR238 / LCQC002
+F-TRIADIC,L401,m_native = sum(p^2 for p in parts) * R * D,R,12,substrate_atom,CR238
+F-TRIADIC,L401,m_native = sum(p^2 for p in parts) * R * D,D,3,substrate_atom,CR238
+F-PAIR,L434,m_native = (a * b * R) + (abs(q) * D),"a, b",PARTITION elements,substrate_atom,CR238 / LCQC002
+F-PAIR,L434,m_native = (a * b * R) + (abs(q) * D),q,a - b (derived),substrate_atom,subtraction of substrate atoms
+F-PAIR,L434,m_native = (a * b * R) + (abs(q) * D),R,12,substrate_atom,CR238
+F-PAIR,L434,m_native = (a * b * R) + (abs(q) * D),D,3,substrate_atom,CR238
+F-HIGGS-SCALAR,L456,h_native_mev = (R * R * SEVEN / EIGHT) * THOUSAND,R^2,144,substrate_atom,CR229 matter capacity
+F-HIGGS-SCALAR,L456,h_native_mev = (R * R * SEVEN / EIGHT) * THOUSAND,SEVEN,7 = S-1,substrate_atom,CR238
+F-HIGGS-SCALAR,L456,h_native_mev = (R * R * SEVEN / EIGHT) * THOUSAND,EIGHT,8 = S,substrate_atom,CR238
+F-HIGGS-SCALAR,L456,h_native_mev = (R * R * SEVEN / EIGHT) * THOUSAND,THOUSAND,1000,unit_convention,GeV->MeV scale factor
+F-CARRIER-WEIGHT,L480-L486,"carrier_specs weights = {alpha_H*D^2, 0, D^2, D^4, 8, 0}",alpha_H*D^2,18 = Theta,substrate_atom,CR238
+F-CARRIER-WEIGHT,L480-L486,"carrier_specs weights = {alpha_H*D^2, 0, D^2, D^4, 8, 0}",D^2,9,substrate_atom,CR238
+F-CARRIER-WEIGHT,L480-L486,"carrier_specs weights = {alpha_H*D^2, 0, D^2, D^4, 8, 0}",D^4,81 = F,substrate_atom,CR238
+F-CARRIER-WEIGHT,L480-L486,"carrier_specs weights = {alpha_H*D^2, 0, D^2, D^4, 8, 0}",8,S,substrate_atom,CR238
+F-CARRIER-WEIGHT,L480-L486,"carrier_specs weights = {alpha_H*D^2, 0, D^2, D^4, 8, 0}",0,"no-mass carriers (photon, A-kernel)",structural_constant,CR238 carrier ontology
+F-HIDDEN-SOURCE,L510,support_weight = p * (1 + p/(R*R)),p,PARTITION element,substrate_atom,CR238 / LCQC002
+F-HIDDEN-SOURCE,L510,support_weight = p * (1 + p/(R*R)),R^2,144,substrate_atom,CR229 matter capacity
+F-HIGGS-SURFACE-DEBIT,L230,debit = (D * D / R) * THOUSAND   (closed scalar loop only),D^2/R,0.75 = 3/4,structural_constant,Higgs identity D^2/R per CR114/CR229
+F-HIGGS-SURFACE-DEBIT,L230,debit = (D * D / R) * THOUSAND   (closed scalar loop only),THOUSAND,1000,unit_convention,GeV->MeV scale
+F-QA-SUPPORT,L256,qA = M_observed * (1 + q_abs/(R*R)),R^2,144,substrate_atom,matter capacity
+F-QA-SUPPORT,L256,qA = M_observed * (1 + q_abs/(R*R)),q_abs,abs(q) from row construction,substrate_atom,subtraction of partition atoms
+F-CARRIER-SPLIT,L295-L296,carrier = qA/8; retained = qA*7/8,EIGHT,S = 8,substrate_atom,CR238
+F-CARRIER-SPLIT,L295-L296,carrier = qA/8; retained = qA*7/8,SEVEN,S-1 = 7,substrate_atom,CR238

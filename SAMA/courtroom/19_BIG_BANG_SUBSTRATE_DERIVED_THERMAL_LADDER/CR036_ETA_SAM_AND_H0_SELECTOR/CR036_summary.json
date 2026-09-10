@@ -1,0 +1,92 @@
+{
+  "precommit_sha256": "345a1a8dc180eb6b28141114a82315e3b8d92889537c1219eec4312d59ca33f2",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "verdict_token": "CR036_PASS_SUBSTRATE_DERIVED_ETA_AND_H0_BOTH_WITHIN_1PCT_OF_PLANCK_CMB_SIDE",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "CMB_spectrum_inputs": false,
+  "posterior_table_inputs": false,
+  "forbidden_files_opened": false,
+  "opened_paths_count": 0,
+  "implementation_integrity": "OK",
+  "substrate": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "Theta": 18,
+    "M": 126,
+    "F": 81,
+    "L": 162,
+    "V": 27,
+    "L_over_V": 6,
+    "A_0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_m_SAM": 0.3183098861837907,
+    "Omega_b_SAM": 0.049299011266100756,
+    "Omega_c_SAM": 0.26901087491768993
+  },
+  "dimensional_bridge": {
+    "c_m_s": 299792458.0,
+    "h_J_s": 6.62607015e-34,
+    "hbar_J_s": 1.0545718176461565e-34,
+    "k_B_J_K": 1.380649e-23,
+    "G": 6.6743e-11,
+    "Mpc_m": 3.0856775815e+22,
+    "m_p_kg": 1.67262192369e-27,
+    "T_CMB_K": 2.7255,
+    "N_eff": 3.046,
+    "zeta_3": 1.2020569031595942
+  },
+  "eta": {
+    "eta_SAM_path_A": 6.096089524484198e-10,
+    "eta_SAM_path_B": 6.096089524484197e-10,
+    "eta_SAM": 6.096089524484198e-10,
+    "eta_reference": 6.119e-10,
+    "eta_BBN_consensus": 6.1e-10,
+    "eta_dev_pct": -0.3744153540742369,
+    "eta_dev_BBN_pct": -0.06410615599675244,
+    "STRONG_CONTACT_ETA": true
+  },
+  "conversion": {
+    "n_gamma_per_m3": 410726847.92484504,
+    "H_100_per_s": 3.2407792894352986e-18,
+    "rho_crit_h1_kg_per_m3": 1.8783416169226582e-26,
+    "K_eta_to_omega_b": 2.73415860442632e-08,
+    "K_standard_literature": 2.735e-08,
+    "K_dev_pct": -0.030764006350273765
+  },
+  "H0_cascade": {
+    "omega_b_SAM": 0.022296034745809035,
+    "h_SAM": 0.6725037519502037,
+    "H_0_SAM": 67.25037519502037,
+    "H_0_reference": 67.36,
+    "H0_dev_pct": -0.16274466297451243
+  },
+  "z_eq": {
+    "omega_gamma": 2222599383582.6045,
+    "omega_r": 3760074950337.9673,
+    "omega_m_SAM": 0.14395924177831182,
+    "z_eq_SAM": -0.9999999999999617
+  },
+  "gates": {
+    "P1": "PASS",
+    "P2": "PASS",
+    "I1": "OK",
+    "I1_rel_diff": 1.6961295623012874e-16
+  },
+  "E3_six_identification": {
+    "alpha_H_times_D": true,
+    "R_over_2": true,
+    "Theta_over_D": true,
+    "L_over_V": true,
+    "all_four_equal": true
+  },
+  "E4_A0_dual_form": {
+    "A_0_via_V_over_piAH_L": 0.026525823848649224,
+    "A_0_canonical": 0.026525823848649224,
+    "agreement_ok": true
+  }
+}

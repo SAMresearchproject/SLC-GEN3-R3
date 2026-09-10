@@ -1,0 +1,6 @@
+layer,row,role,allowed_use,forbidden_use
+primary_particle,QP093A-0002,"minus_single_write[p=1,g=0]",negative fermion matter write; qA -> T/W split source,do not use as carrier route or checksum row
+road_light_carrier,QP093A-0301,"ROAD_LIGHT_CARRIER,p=1","preparation, tomography, and warning transmission route",do not promote to matter and do not supply qA/T/W write split
+split_control,QP093A-0018,"neutral_single_write[p=8,g=0]","unit-normalized qA=1, T=1/8, W=7/8 calibration",do not replace the primary negative p=1 particle/carrier pair
+tensor_witness,QP093A-0300,TENSOR_CARRIER=18,predicted timing/gravity/witness floor,do not transmit as photon payload and do not promote to matter
+lab_mapping,QP093A-0002+QP093A-0301,negative fermion write + photon-road carrier,"CP/QC PR experiment route, especially spin-photon style platforms",do not require direct tensor-carrier observation as the transmission payload

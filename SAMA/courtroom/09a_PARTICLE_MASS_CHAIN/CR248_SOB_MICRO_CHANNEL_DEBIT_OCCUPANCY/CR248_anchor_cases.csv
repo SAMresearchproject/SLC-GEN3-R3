@@ -1,0 +1,4 @@
+label,Z,N,A,n_proton,n_balanced_neutron,n_excess_neutron,n_electron,target_u,decomp_u,match_u,target_d,decomp_d,match_d,target_e,decomp_e,match_e,target_Q_mass,decomp_Q_mass,target_Q_mass_float,match_Q_mass,target_Q_sub,decomp_Q_sub,target_Q_sub_float,match_Q_sub,target_dQ,decomp_dQ,target_dQ_float,match_dQ,all_six_match
+C-12,6,6,12,6,6,0,6,18,18,True,18,18,True,6,6,True,7117/16,7117/16,444.8125,True,7117/16,7117/16,444.8125,True,0,0,0.0,True,True
+C-13,6,7,13,6,6,1,6,19,19,True,20,20,True,6,6,True,92521/192,92521/192,481.8802083333333,True,7119/16,7119/16,444.9375,True,7093/192,7093/192,36.942708333333336,True,True
+Au-197,79,118,197,79,79,39,79,276,276,True,315,315,True,79,79,True,1402049/192,1402049/192,7302.338541666667,True,562711/96,562711/96,5861.572916666667,True,92209/64,92209/64,1440.765625,True,True

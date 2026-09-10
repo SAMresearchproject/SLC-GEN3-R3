@@ -1,0 +1,238 @@
+{
+  "all_precommitted_gates_passed": true,
+  "disposition": "PASS_STRUCTURAL_7_8_9_THETA_MIRROR_100_PACKET_BUDGETS_WITH_F81_CONSTRUCTED_ROSTER_SELECTION_AUTHORITY_OPEN",
+  "family_checks": {
+    "degeneracy_180_216": true,
+    "family_12_plus_12": true,
+    "family_pair_checks": true,
+    "family_sums": true
+  },
+  "generated_utc": "2026-07-14T08:31:08.515172+00:00",
+  "precommit_sha256": "0655c5c09e48b443b404ffafc5f9a7bbe4c29e1612e125765077f87f6878cc4a",
+  "reconciliation_checks": {
+    "canonical_lane_105_16250_625": true,
+    "extra_5_230_625": true,
+    "family_24_13464": true,
+    "inserted_5_10044": true,
+    "intersection_76_2556": true,
+    "omitted_29_13694_625": true,
+    "workbook_81_12600": true
+  },
+  "record_id": "CR120L_TYPED_7_8_9_THETA_MIRROR_BUDGET_F81_ROSTER_DISCRIMINATION",
+  "source_assertions": {
+    "cr120k_100_by_162": true,
+    "cr120k_structural_pass": true,
+    "cr214_canonical_lane_counts": true,
+    "cr269_bow_partition": true,
+    "cr269_structural_foundation_pass": true
+  },
+  "source_failures_after": [],
+  "source_failures_before": [],
+  "source_manifest_sha256": "fa49dd42d7c33c0fab386a1e994e2b2b699decbdbcbb2c468fcfa4f4f3c2c8a8",
+  "source_verification_after": {
+    "cr120k_candidate_manifest": {
+      "actual_bytes": 4066,
+      "actual_sha256": "672007802272cdc5d80344669e21c737ec9b622797dd158d56f58e4cba9b994e",
+      "expected_bytes": 4066,
+      "expected_sha256": "672007802272cdc5d80344669e21c737ec9b622797dd158d56f58e4cba9b994e",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_CANDIDATE_MANIFEST.json"
+    },
+    "cr120k_result": {
+      "actual_bytes": 5328,
+      "actual_sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b",
+      "expected_bytes": 5328,
+      "expected_sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_result.md"
+    },
+    "cr120k_summary": {
+      "actual_bytes": 913,
+      "actual_sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67",
+      "expected_bytes": 913,
+      "expected_sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_summary.json"
+    },
+    "cr214_gate_reasons": {
+      "actual_bytes": 40326,
+      "actual_sha256": "825a0f34f913bc2a868d4007acf1bdfade0391c0db26384db61e513b31474b98",
+      "expected_bytes": 40326,
+      "expected_sha256": "825a0f34f913bc2a868d4007acf1bdfade0391c0db26384db61e513b31474b98",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_all_particle_gate_reasons.csv"
+    },
+    "cr214_summary": {
+      "actual_bytes": 3310,
+      "actual_sha256": "fd4bce3f2ba2cea5773b8662297425f6742481081871c9579456d144b3aee00f",
+      "expected_bytes": 3310,
+      "expected_sha256": "fd4bce3f2ba2cea5773b8662297425f6742481081871c9579456d144b3aee00f",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_summary.json"
+    },
+    "cr269_result": {
+      "actual_bytes": 6065,
+      "actual_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "expected_bytes": 6065,
+      "expected_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md"
+    },
+    "cr269_summary": {
+      "actual_bytes": 2993,
+      "actual_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "expected_bytes": 2993,
+      "expected_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json"
+    },
+    "qp093a_catalog": {
+      "actual_bytes": 213474,
+      "actual_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+      "expected_bytes": 213474,
+      "expected_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+      "passed": true,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv"
+    },
+    "qp093a_generator": {
+      "actual_bytes": 43208,
+      "actual_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "expected_bytes": 43208,
+      "expected_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "passed": true,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py"
+    },
+    "task_preflight": {
+      "actual_bytes": 17395,
+      "actual_sha256": "f15ed79c4ef86e6de1ddedc367ec7d06763908597f0fdec2ae264ea2fd95e3f1",
+      "expected_bytes": 17395,
+      "expected_sha256": "f15ed79c4ef86e6de1ddedc367ec7d06763908597f0fdec2ae264ea2fd95e3f1",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_030021_no_script.md"
+    },
+    "updated_particle_rows2_workbook": {
+      "actual_bytes": 93700,
+      "actual_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "expected_bytes": 93700,
+      "expected_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "passed": true,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx"
+    }
+  },
+  "source_verification_before": {
+    "cr120k_candidate_manifest": {
+      "actual_bytes": 4066,
+      "actual_sha256": "672007802272cdc5d80344669e21c737ec9b622797dd158d56f58e4cba9b994e",
+      "expected_bytes": 4066,
+      "expected_sha256": "672007802272cdc5d80344669e21c737ec9b622797dd158d56f58e4cba9b994e",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_CANDIDATE_MANIFEST.json"
+    },
+    "cr120k_result": {
+      "actual_bytes": 5328,
+      "actual_sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b",
+      "expected_bytes": 5328,
+      "expected_sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_result.md"
+    },
+    "cr120k_summary": {
+      "actual_bytes": 913,
+      "actual_sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67",
+      "expected_bytes": 913,
+      "expected_sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_summary.json"
+    },
+    "cr214_gate_reasons": {
+      "actual_bytes": 40326,
+      "actual_sha256": "825a0f34f913bc2a868d4007acf1bdfade0391c0db26384db61e513b31474b98",
+      "expected_bytes": 40326,
+      "expected_sha256": "825a0f34f913bc2a868d4007acf1bdfade0391c0db26384db61e513b31474b98",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_all_particle_gate_reasons.csv"
+    },
+    "cr214_summary": {
+      "actual_bytes": 3310,
+      "actual_sha256": "fd4bce3f2ba2cea5773b8662297425f6742481081871c9579456d144b3aee00f",
+      "expected_bytes": 3310,
+      "expected_sha256": "fd4bce3f2ba2cea5773b8662297425f6742481081871c9579456d144b3aee00f",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT\\CR214_summary.json"
+    },
+    "cr269_result": {
+      "actual_bytes": 6065,
+      "actual_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "expected_bytes": 6065,
+      "expected_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md"
+    },
+    "cr269_summary": {
+      "actual_bytes": 2993,
+      "actual_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "expected_bytes": 2993,
+      "expected_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json"
+    },
+    "qp093a_catalog": {
+      "actual_bytes": 213474,
+      "actual_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+      "expected_bytes": 213474,
+      "expected_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+      "passed": true,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv"
+    },
+    "qp093a_generator": {
+      "actual_bytes": 43208,
+      "actual_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "expected_bytes": 43208,
+      "expected_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "passed": true,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py"
+    },
+    "task_preflight": {
+      "actual_bytes": 17395,
+      "actual_sha256": "f15ed79c4ef86e6de1ddedc367ec7d06763908597f0fdec2ae264ea2fd95e3f1",
+      "expected_bytes": 17395,
+      "expected_sha256": "f15ed79c4ef86e6de1ddedc367ec7d06763908597f0fdec2ae264ea2fd95e3f1",
+      "passed": true,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_030021_no_script.md"
+    },
+    "updated_particle_rows2_workbook": {
+      "actual_bytes": 93700,
+      "actual_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "expected_bytes": 93700,
+      "expected_sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+      "passed": true,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx"
+    }
+  },
+  "validation_gates": {
+    "canonical_ids_and_M_native": true,
+    "conjugate_family": true,
+    "dependency_interventions": true,
+    "mirror_budget": true,
+    "roster_reconciliation": true,
+    "selection_authority_preserved": true,
+    "semantic_overlay_bounded": true,
+    "source_assertions": true,
+    "source_hashes_after": true,
+    "source_hashes_before": true,
+    "workbook_checks": true,
+    "wrong_controls": true
+  },
+  "workbook_checks": {
+    "AF2_rows_formula": true,
+    "AF3_sum_formula": true,
+    "AF4_target_residual_formula": true,
+    "M_native_sum_12600": true,
+    "dimension": "A1:AF82",
+    "row_count_81": true,
+    "sheet_found": true,
+    "target_aware_visible": true,
+    "unique_candidate_ids": true,
+    "workbook_code_executed": false
+  }
+}

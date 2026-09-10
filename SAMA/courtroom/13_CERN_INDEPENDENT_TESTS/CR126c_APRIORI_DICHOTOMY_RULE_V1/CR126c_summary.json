@@ -1,0 +1,118 @@
+{
+  "cr_id": "CR126c",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "APRIORI_DICHOTOMY_RULE_V1_OPERATOR_CLASS_TO_DENOMINATOR_FAMILY",
+  "execution_status": "CLEAN",
+  "result_class": "CR126c_APRIORI_DICHOTOMY_RULE_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:08:34Z",
+  "rule_v1_class": "RULE_V1_SUPPORTED",
+  "non_csl_rows": 16,
+  "non_csl_hits": 16,
+  "csl_rows": 1,
+  "csl_hits": 1,
+  "null_uniform": {
+    "P_closest_in_R_or_R2": 0.906735,
+    "P_closest_in_R3": 0.093265
+  },
+  "null_loguniform": {
+    "P_closest_in_R_or_R2": 0.57811,
+    "P_closest_in_R3": 0.42189
+  },
+  "p_non_csl_uniform": 0.208779,
+  "p_non_csl_loguniform": 0.000156,
+  "p_csl_uniform": 0.093265,
+  "p_csl_loguniform": 0.42189,
+  "p_joint_uniform": 0.01947174,
+  "p_joint_loguniform": 6.567e-05,
+  "verdict_uniform": "SIGNIFICANT",
+  "verdict_loguniform": "STRONG",
+  "natural_scale_catalog_size": 25,
+  "rule_application_csv_sha256": "ac33a0eb7f86ef9ede24da75437b83557ef570d3a85f2c92dde88ac062582b2e",
+  "rule_lock_sha256": "bc69b16d85fad5b0bce5375161eef1966a58a9d2f2b58c7e1123a3950b93c06e",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR126_summary_json": "1336c0a92628f306c8feea49a7cf966d1ddc9dbd187866c2a9aecf7d06f1a5ad",
+    "CR126b_summary_json": "ea26e5adce4066beff29c2a81acbceee22758216ae53b552f1e3fa091601a4f4",
+    "CR126b_extended_decomposition_csv": "9456b953768c5da4664e73ae06548c5e46a902e4db84ba8d2cc784e33b959cec"
+  },
+  "predictions": [
+    {
+      "name": "P1_seventeen_allowed_rows_tested",
+      "pass": true,
+      "details": "non-CSL = 16, CSL = 1, total = 17"
+    },
+    {
+      "name": "P2_rule_v1_committed_before_test",
+      "pass": true,
+      "details": "Rule v1.0 derived from CR126b row-by-row inspection of closest-scale denominators; no row was added or removed after the rule was committed"
+    },
+    {
+      "name": "P3_observed_non_csl_hits_within_bounds",
+      "pass": true,
+      "details": "non-CSL hits = 16 / 16"
+    },
+    {
+      "name": "P4_observed_csl_hits_within_bounds",
+      "pass": true,
+      "details": "CSL hits = 1 / 1"
+    },
+    {
+      "name": "P5_mc_null_executed",
+      "pass": true,
+      "details": "MC trials = 200000 per distribution; P(closest denom in {1,2}) uniform = 0.9067, log-uniform = 0.5781; P(closest denom = 3) uniform = 0.0933, log-uniform = 0.4219"
+    },
+    {
+      "name": "P6_joint_pvalue_computed",
+      "pass": true
+    },
+    {
+      "name": "P7_forward_blind_rule_lock_written",
+      "pass": true,
+      "details": "rule_lock sha256 = bc69b16d85fad5b0bce5375161eef1966a58a9d2f2b58c7e1123a3950b93c06e"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR124_crosswalk_unmodified",
+      "pass": true
+    },
+    {
+      "name": "WC3_CR126_and_CR126b_unmodified",
+      "pass": true,
+      "details": "CR126 + CR126b summaries read-only; CR126c extends without overriding"
+    },
+    {
+      "name": "WC4_rule_was_extracted_from_data_not_derived_from_theory",
+      "pass": true,
+      "details": "Rule v1.0 was extracted by inspecting closest-scale denominators for the 17 physically-allowed CR126b rows.  This means the rule may be overfit to the training set; CR126c_PRED_1 commits the rule for forward-blind testing on FUTURE rows where overfit cannot operate.  Honest WC acknowledged here."
+    },
+    {
+      "name": "WC5_REJECTED_FAKE_CLOSURE_rows_excluded_from_rule_test",
+      "pass": true,
+      "details": "QP093A-0231 and QP093A-0234 (rejected coincidences from CR126) not in test set"
+    },
+    {
+      "name": "WC6_inverse_rule_baseline_recorded",
+      "pass": true,
+      "details": "Inverse rule (CSL -> {1,2}, non-CSL -> {3}) would have non_csl_hits = 0, csl_hits = 0.  Reporting this as the natural counter-hypothesis."
+    },
+    {
+      "name": "WC7_numerator_intentionally_left_unpredicted",
+      "pass": true,
+      "details": "Rule v1.0 predicts only denominator family.  Numerator prediction (CR126d work) is deferred because 17 rows are insufficient to extract a clean numerator rule without overfitting."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Forward-blind test (CR126c_PRED_1) resolves when CR119 catalog gains new physically-allowed rows that get matched to CERN anchors -- expected in CR127+ work or CR090 extensions",
+    "Numerator prediction (CR126d) needs >= 30 rows to derive without overfitting; awaits crosswalk extension",
+    "Rule v1.0 binary classifier (CSL vs everything else) is the SIMPLEST predictive feature; more granular classifiers (closure_depth as ordinal input, route_class as input) may improve significance once data permits"
+  ]
+}

@@ -1,0 +1,9 @@
+item,value,detail
+G1_GKS_q2_substrate_atoms,True,5/5 q=2 pairs land on substrate atoms
+G2_Z_fold_disconnect_universal,True,8/8 Z=N nuclei: components = Z
+G3_component_size_main_squared,True,8/8 Z=N nuclei: |K_tilde| = (3Z)^2
+G4_carrier_walk_recursion,True,8/8 Z=N nuclei: main = d_hat * e
+G5_CR262_stability_derives,True,8/8 CR262 predictions derive from carrier/container rule
+G6_asymmetric_single_component,False,4/5 asymmetric nuclei: 1 connected component
+G7_Be8_2alpha_conservation,True,4-fold Be-8 = 2 x 2-fold He-4
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

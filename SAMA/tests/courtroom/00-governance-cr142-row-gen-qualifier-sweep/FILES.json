@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP",
+  "files": [
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_predictions.csv",
+      "mode": "100644",
+      "git_blob": "fe2f34e907d39955b7df5c235cefae6d6b38f0ef",
+      "bytes": 595,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json",
+      "mode": "100644",
+      "git_blob": "d39286bffe9890d8d9f08eae6b4ed0bcacd5692e",
+      "bytes": 2126,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "ff1274693e44ad05ba294a33ba9db3c11abd4bf3",
+      "bytes": 100,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_manifest.csv",
+      "mode": "100644",
+      "git_blob": "0817b10f5ae9b24e3e5d580d9d46ea79ef66534f",
+      "bytes": 2567,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_qualifier_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_result.md",
+      "mode": "100644",
+      "git_blob": "4aa751eee87186d2ac13ebb482ee158e0b9e43d6",
+      "bytes": 5304,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_result.md",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_result.md"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_runner.py",
+      "mode": "100644",
+      "git_blob": "279e44573a970afa0b2135326d4f8f4a9fa5b2bb",
+      "bytes": 33669,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_runner.py",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_runner.py"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "cc42a680ff9ee1b9c8e9c8dadc7659b508e0354b",
+      "bytes": 2176,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_summary.json",
+      "mode": "100644",
+      "git_blob": "c7117139375cb6ada9712e143d8b56e897072c36",
+      "bytes": 8820,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_summary.json",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_summary.json"
+    },
+    {
+      "path": "00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "8b6c6a4c9a8eefc028a4b947fe2ff238baf42e15",
+      "bytes": 1320,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR142_ROW_GEN_QUALIFIER_SWEEP/CR142_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR142@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

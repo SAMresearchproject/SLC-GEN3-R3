@@ -1,0 +1,76 @@
+# Courtroom test package: CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS)
+
+This index includes every tracked file below `09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**12 files · 221,905 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Precommitments and premises
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_PRECOMMIT.md](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_PRECOMMIT.md) | 8,808 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_PRECOMMIT.md) |
+
+## Code
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS.py](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS.py) | 38,699 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS.py) |
+
+## Wrong controls and comparison rows
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_wrong_controls.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_wrong_controls.csv) | 790 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_wrong_controls.csv) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_hostile_audit_replay_check.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_hostile_audit_replay_check.csv) | 881 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_hostile_audit_replay_check.csv) |
+| [CR060_result.md](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_result.md) | 1,773 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_result.md) |
+| [CR060_summary.json](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_summary.json) | 1,141 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_input_manifest.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_input_manifest.csv) | 163,935 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_input_manifest.csv) |
+| [CR060_manifest_seal_check.json](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_manifest_seal_check.json) | 557 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_manifest_seal_check.json) |
+| [HASHES.txt](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/HASHES.txt) | 1,920 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/HASHES.txt) |
+
+## Data and supporting files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR060_forbidden_selector_scan.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_forbidden_selector_scan.csv) | 537 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_forbidden_selector_scan.csv) |
+| [CR060_provenance_board_check.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_provenance_board_check.csv) | 167 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_provenance_board_check.csv) |
+| [CR060_qp_self_disclosure_check.csv](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_qp_self_disclosure_check.csv) | 2,697 | [Raw](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR060_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS/CR060_qp_self_disclosure_check.csv) |
+
+## Related Courtroom tests
+
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [09_PARTICLE_MASS_CHAIN/CR059_PARTICLE_ENGINE_ALLOWED_INPUTS](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR059_PARTICLE_ENGINE_ALLOWED_INPUTS)
+- [09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION)
+- [09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER](../../../courtroom/09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/09_PARTICLE_MASS_CHAIN) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

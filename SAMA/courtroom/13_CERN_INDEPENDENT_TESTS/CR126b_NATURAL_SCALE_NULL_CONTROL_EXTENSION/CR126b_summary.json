@@ -1,0 +1,167 @@
+{
+  "cr_id": "CR126b",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "NATURAL_SCALE_NULL_CONTROL_EXTENSION_OF_CR126",
+  "execution_status": "CLEAN",
+  "result_class": "CR126b_NATURAL_SCALE_NULL_CONTROL_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T21:57:33Z",
+  "natural_scale_count": 25,
+  "rows_walked_total": 19,
+  "rows_physically_allowed": 17,
+  "rows_rejected_or_coincidence": 2,
+  "tolerances_examined": [
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "observed_hits": {
+    "2pct": 4,
+    "5pct": 10,
+    "10pct": 14,
+    "20pct": 17
+  },
+  "null_coverage_uniform": {
+    "2pct": 0.13705,
+    "5pct": 0.336975,
+    "10pct": 0.61191,
+    "20pct": 0.973975
+  },
+  "null_coverage_loguniform": {
+    "2pct": 0.129095,
+    "5pct": 0.319545,
+    "10pct": 0.58946,
+    "20pct": 0.955515
+  },
+  "pvalues_uniform": {
+    "2pct": 0.195792,
+    "5pct": 0.029455,
+    "10pct": 0.056733,
+    "20pct": 0.638723
+  },
+  "pvalues_loguniform": {
+    "2pct": 0.16792,
+    "5pct": 0.020174,
+    "10pct": 0.038639,
+    "20pct": 0.461358
+  },
+  "verdicts_uniform": {
+    "2pct": "SUGGESTIVE",
+    "5pct": "SIGNIFICANT",
+    "10pct": "SUGGESTIVE",
+    "20pct": "COMPATIBLE_WITH_NULL"
+  },
+  "verdicts_loguniform": {
+    "2pct": "SUGGESTIVE",
+    "5pct": "SIGNIFICANT",
+    "10pct": "SIGNIFICANT",
+    "20pct": "COMPATIBLE_WITH_NULL"
+  },
+  "overall_verdict_class": "STRUCTURAL_SCALE_PATTERN_SUPPORTED",
+  "strongest_tier_tolerance": "5pct",
+  "strongest_tier_pvalues": {
+    "uniform": 0.029455,
+    "loguniform": 0.020174
+  },
+  "natural_scales_pct": {
+    "2negD_over_R3": 0.007234,
+    "2negD_alphaH_over_R3": 0.014468,
+    "2negD_D_over_R3": 0.021701,
+    "2negD_alphaH_D_over_R3": 0.043403,
+    "1_over_R3": 0.05787,
+    "2negD_over_R2": 0.086806,
+    "alphaH_over_R3": 0.115741,
+    "D_over_R3": 0.173611,
+    "2negD_alphaH_over_R2": 0.173611,
+    "alphaH_sq_over_R3": 0.231481,
+    "2negD_D_over_R2": 0.260417,
+    "alphaH_D_over_R3": 0.347222,
+    "D_sq_over_R3": 0.520833,
+    "2negD_alphaH_D_over_R2": 0.520833,
+    "1_over_R2": 0.694444,
+    "2negD_over_R": 1.041667,
+    "alphaH_over_R2": 1.388889,
+    "D_over_R2": 2.083333,
+    "2negD_alphaH_over_R": 2.083333,
+    "alphaH_sq_over_R2": 2.777778,
+    "2negD_D_over_R": 3.125,
+    "alphaH_D_over_R2": 4.166667,
+    "D_sq_over_R2": 6.25,
+    "2negD_alphaH_D_over_R": 6.25,
+    "1_over_R": 8.333333
+  },
+  "decomposition_csv_sha256": "9456b953768c5da4664e73ae06548c5e46a902e4db84ba8d2cc784e33b959cec",
+  "scale_catalog_csv_sha256": "b3d2d02152e035d358453a86a62724452a6e92c628fa55ccff7f883f3628ab55",
+  "null_control_json_sha256": "74168e65eda9021afab07c6c189b8fd5947413f22a1f30d0138c738fc587cbcc",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR090_candidate_anchor_inventory_csv": "df2a13db83e261291ab508bfa632e02ab64bce7f53bd63c7482914946cc05926",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR126_summary_json": "1336c0a92628f306c8feea49a7cf966d1ddc9dbd187866c2a9aecf7d06f1a5ad"
+  },
+  "predictions": [
+    {
+      "name": "P1_loose_and_near_walked",
+      "pass": true,
+      "details": "walked 19 rows (LOOSE + NEAR_ANCHOR from CR124)"
+    },
+    {
+      "name": "P2_natural_scale_catalog_built",
+      "pass": true,
+      "details": "catalog size = 25 natural scales in [5e-5, 0.1]"
+    },
+    {
+      "name": "P3_mc_null_control_executed",
+      "pass": true,
+      "details": "MC trials per distribution = 200000; uniform and log-uniform both run"
+    },
+    {
+      "name": "P4_pvalues_computed_per_tolerance",
+      "pass": true
+    },
+    {
+      "name": "P5_rejected_rows_excluded_from_test",
+      "pass": true,
+      "details": "REJECTED_FAKE_CLOSURE rows (2) excluded from the hypothesis test"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR124_crosswalk_unmodified",
+      "pass": true,
+      "details": "CR124 read-only"
+    },
+    {
+      "name": "WC3_CR126_summary_unmodified",
+      "pass": true,
+      "details": "CR126 summary read-only; CR126b extends rather than overrides"
+    },
+    {
+      "name": "WC4_no_post_hoc_scale_addition_to_fit_data",
+      "pass": true,
+      "details": "natural scale catalog is generated combinatorially from {1, alpha_H, D, alpha_H*D, 2^-D, ...} / {R, R^2, R^3} BEFORE looking at the observed residuals; no scale was added after seeing the data"
+    },
+    {
+      "name": "WC5_both_uniform_and_loguniform_nulls_reported",
+      "pass": true,
+      "details": "uniform null reflects 'random central value'; log-uniform reflects 'random order of magnitude'.  Verdict requires both nulls to agree."
+    },
+    {
+      "name": "WC6_seed_pinned_for_reproducibility",
+      "pass": true,
+      "details": "MC seeds = 42 (uniform), 43 (log-uniform); same output on re-run"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Sample size still small (17 allowed rows); extending walk to ALL 321 rows is a future CR -- but that test loses focus because most rows are in GAP_REGION with no nearest published anchor at meaningful sigma",
+    "p-values computed under independent uniform / log-uniform priors; both reported.  Bayesian posterior given a structural-account prior is a separate downstream CR",
+    "Per-class (operator_class x closure_depth) a-priori scale assignment is CR126c work; CR126b only tests the WEAKER claim 'residual lies in ANY natural scale band'"
+  ]
+}

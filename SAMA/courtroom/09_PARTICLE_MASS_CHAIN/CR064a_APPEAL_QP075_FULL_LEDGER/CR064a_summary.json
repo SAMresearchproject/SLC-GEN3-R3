@@ -1,0 +1,29 @@
+{
+  "cr_id": "CR064a",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "appeal_type": "content_addition_M3_channel",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "APPEAL_PASS_K1_EXTENSION_TO_QP075_FULL_LEDGER_WITH_OPERATOR_BACKBONE",
+  "triage_bin": "A",
+  "reason": "35-row QP075 campaign closure + 26-row operator backbone; 0 free parameters across both surfaces; bridge integrity clean (orphan_ops=0 informational only)",
+  "captured_at_utc": "2026-06-13T08:49:38Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "cr062_scope_recorded": "15 rows (12 PDG point-residual + 3 neutrino upper-bound boundary)",
+  "cr064a_extended_scope": "35 rows (32 PDG-anchored + 3 lattice-anchored)",
+  "operator_backbone": "26 role operators with explicit (k, shift, q, N, k_expression, k_class)",
+  "free_params_total": 0,
+  "immutability": {
+    "cr062_modified": false,
+    "cr064_modified": false,
+    "policy": "CR064a_writes_only_its_own_outputs"
+  },
+  "headline": {
+    "campaign_rows_total": 35,
+    "operator_inventory_total": 26,
+    "pdg_strict_count": 32,
+    "pdg_audit_count": 0,
+    "lattice_boundary_count": 3,
+    "orphan_campaign_rows": 0,
+    "orphan_operators_informational": 0
+  }
+}

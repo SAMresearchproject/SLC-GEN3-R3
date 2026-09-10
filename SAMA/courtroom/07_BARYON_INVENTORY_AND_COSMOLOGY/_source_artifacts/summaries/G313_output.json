@@ -1,0 +1,228 @@
+{
+  "test": "G313_d_chi2_directional_cumulant_derivation",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T08:58:30.579121+00:00",
+  "constants": {
+    "D": 3,
+    "A0": 0.026525823848649224,
+    "chi": 0.0707355302630646
+  },
+  "kernel": [
+    [
+      0.005003515241596928,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.005003515241596928,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.005003515241596928
+    ]
+  ],
+  "trace": 0.015010545724790785,
+  "offdiag_sum": 0.0,
+  "derived_coeff": 3.0,
+  "omega": {
+    "omega_b": 0.049299011266100756,
+    "omega_b_sigma": -0.0016478898320672806,
+    "omega_m_derived": 0.3137609155690572,
+    "omega_m_sigma": 0.6902288922643052,
+    "ratio": 5.364446416084761,
+    "ratio_sigma": 0.0022665028600819138,
+    "k_target": 3.027192735266496
+  },
+  "d_grid": [
+    {
+      "D": 1,
+      "diagonal": 1,
+      "unordered_mixed_pair": 0,
+      "ordered_mixed_pair": 0,
+      "all_pairs": 1,
+      "hardcoded_three": 3
+    },
+    {
+      "D": 2,
+      "diagonal": 2,
+      "unordered_mixed_pair": 1,
+      "ordered_mixed_pair": 2,
+      "all_pairs": 4,
+      "hardcoded_three": 3
+    },
+    {
+      "D": 3,
+      "diagonal": 3,
+      "unordered_mixed_pair": 3,
+      "ordered_mixed_pair": 6,
+      "all_pairs": 9,
+      "hardcoded_three": 3
+    },
+    {
+      "D": 4,
+      "diagonal": 4,
+      "unordered_mixed_pair": 6,
+      "ordered_mixed_pair": 12,
+      "all_pairs": 16,
+      "hardcoded_three": 3
+    },
+    {
+      "D": 5,
+      "diagonal": 5,
+      "unordered_mixed_pair": 10,
+      "ordered_mixed_pair": 20,
+      "all_pairs": 25,
+      "hardcoded_three": 3
+    },
+    {
+      "D": 6,
+      "diagonal": 6,
+      "unordered_mixed_pair": 15,
+      "ordered_mixed_pair": 30,
+      "all_pairs": 36,
+      "hardcoded_three": 3
+    }
+  ],
+  "predictions": [
+    {
+      "id": "P1",
+      "name": "diagonal trace derives D*chi^2",
+      "pass": true,
+      "trace": 0.015010545724790785,
+      "derived_coeff": 3.0
+    },
+    {
+      "id": "P2",
+      "name": "mixed direction cumulants vanish",
+      "pass": true,
+      "offdiag_sum": 0.0
+    },
+    {
+      "id": "P3",
+      "name": "derived D coefficient reproduces G312 closure",
+      "pass": true,
+      "ratio_sigma": 0.0022665028600819138,
+      "omega_m_sigma": 0.6902288922643052
+    },
+    {
+      "id": "P4",
+      "name": "C(D,2) exposed as D=3 false friend",
+      "pass": true,
+      "false_friend_equal_at_D3": true,
+      "false_friend_differs_elsewhere": true
+    },
+    {
+      "id": "P5",
+      "name": "target coefficient near D but not identical to derivation",
+      "pass": true,
+      "k_target": 3.027192735266496,
+      "D": 3
+    },
+    {
+      "id": "P6",
+      "name": "functional k(D)=D rejects hard-coded k=3",
+      "pass": true,
+      "d_grid": [
+        {
+          "D": 1,
+          "diagonal": 1,
+          "unordered_mixed_pair": 0,
+          "ordered_mixed_pair": 0,
+          "all_pairs": 1,
+          "hardcoded_three": 3
+        },
+        {
+          "D": 2,
+          "diagonal": 2,
+          "unordered_mixed_pair": 1,
+          "ordered_mixed_pair": 2,
+          "all_pairs": 4,
+          "hardcoded_three": 3
+        },
+        {
+          "D": 3,
+          "diagonal": 3,
+          "unordered_mixed_pair": 3,
+          "ordered_mixed_pair": 6,
+          "all_pairs": 9,
+          "hardcoded_three": 3
+        },
+        {
+          "D": 4,
+          "diagonal": 4,
+          "unordered_mixed_pair": 6,
+          "ordered_mixed_pair": 12,
+          "all_pairs": 16,
+          "hardcoded_three": 3
+        },
+        {
+          "D": 5,
+          "diagonal": 5,
+          "unordered_mixed_pair": 10,
+          "ordered_mixed_pair": 20,
+          "all_pairs": 25,
+          "hardcoded_three": 3
+        },
+        {
+          "D": 6,
+          "diagonal": 6,
+          "unordered_mixed_pair": 15,
+          "ordered_mixed_pair": 30,
+          "all_pairs": 36,
+          "hardcoded_three": 3
+        }
+      ]
+    }
+  ],
+  "wrong_controls": [
+    {
+      "id": "WC1",
+      "name": "unordered mixed-pair false friend rejected by zero mixed cumulants",
+      "pass": true,
+      "C_D_2_at_D3": 3,
+      "derived_D": 3
+    },
+    {
+      "id": "WC2",
+      "name": "all-pairs correlated D^2 rejected",
+      "pass": true,
+      "D2": 9,
+      "derived_D": 3
+    },
+    {
+      "id": "WC3",
+      "name": "target-fit noninteger coefficient rejected",
+      "pass": true,
+      "k_target": 3.027192735266496
+    },
+    {
+      "id": "WC4",
+      "name": "hard-coded k=3 rejected by D-grid",
+      "pass": true
+    },
+    {
+      "id": "WC5",
+      "name": "moving correction into chi damages Omega_b",
+      "pass": true,
+      "chi_needed": 0.05724117342048607,
+      "omega_b_sigma_if_chi_fit": 1.1915152186914302
+    },
+    {
+      "id": "WC6",
+      "name": "theorem-grade / full-cosmology closure rejected",
+      "pass": true,
+      "theorem_grade": false,
+      "full_cosmology_closed": false
+    }
+  ],
+  "overall": {
+    "verdict": "G313_D_CHI2_TERM_DERIVED_STRUCTURAL_ARGUMENT",
+    "all_predictions_pass": true,
+    "all_wrong_controls_pass": true,
+    "grade": "derived at structural-argument grade, not theorem-grade",
+    "next_target": "derive the local second-order kernel from the path integral rather than from G307/G308 cumulant structure"
+  }
+}

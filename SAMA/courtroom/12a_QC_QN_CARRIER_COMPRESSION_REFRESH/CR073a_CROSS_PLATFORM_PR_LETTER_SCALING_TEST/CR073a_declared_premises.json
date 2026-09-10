@@ -1,0 +1,77 @@
+{
+  "cr_id": "CR073a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Fourth of six CRs (CR070a-CR075a); the load-bearing cross-platform t_fire scaling test (one decisive yes/no on cross-platform generalization)",
+  "test_class": "CROSS_PLATFORM_T_FIRE_SCALING_NV_VS_PHOTONIC_AT_PROVISIONAL_GRADE",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T11:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Apply the t_fire predictor formula (CR068a A_side = 1/24, exponential decoherence) to CR070a NV-diamond rows and CR072a photonic rows. Test whether the SAME constant c0_SAM generalizes across both populations. Compare against the textbook 1/e purity-decay convention as the portable reference, with the data gap (no partner-lab measured t_fire_observed values) documented honestly. Apply the locked load-bearing threshold (>= 8 PASS / < 4 FLOOR) against the 14 photonic rows available from CR072a.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "alphabet_constants_from_CR060a": {
+    "A_side": "1/24 = 0.041666666666666664"
+  },
+  "predictor_formula": {
+    "model": "pure-dephasing exponential decoherence",
+    "form": "A_leak(t) = 1 - exp(-2*t / coherence_time)",
+    "t_fire_definition": "first time A_leak(t) >= A_side",
+    "closed_form": "t_fire = -0.5 * coherence_time * ln(1 - A_side)",
+    "c0_SAM": "0.021027478253004317",
+    "c0_SAM_derivation": "-0.5 * ln(23 / 24) = -0.5 * ln(1 - 1/24)"
+  },
+  "comparison_reference": {
+    "type": "textbook_1_over_e_purity_decay_convention",
+    "c0_textbook": "0.5",
+    "rationale": "Under pure-dephasing exponential decay, t = T2/2 is when purity loss reaches 1 - 1/e (~0.632). This is the most common cross-platform 'alarm' equivalent in standard quantum-optics and quantum-information textbooks.",
+    "data_gap_acknowledged": "No published t_fire_observed values exist for either NV or photonic platforms; the PR letter A_side = 1/24 alarm is SAM-native. Partner-lab measurement is required to lift CR073a from PROVISIONAL_AGAINST_TEXTBOOK_REFERENCE to VERIFIED_AGAINST_PARTNER_LAB."
+  },
+  "load_bearing_thresholds_locked_in_campaign_doc": {
+    "pass_threshold": ">= 8 photonic rows within 0.25 tolerance",
+    "floor_threshold": "< 4 photonic rows within 0.25 tolerance",
+    "precision_indicator": "% of photonic rows within 0.15 (informational, not gating)",
+    "row_count_pre_committed": "<= 12",
+    "row_count_actually_available": 14,
+    "drift_handling": "absolute thresholds (>= 8 PASS, < 4 FLOOR) applied to the 14 available rows without cherry-picking 12; drift named in result_class and aggregate verdict"
+  },
+  "upstream_hash_locked_premises": {
+    "CR070a_contact_analysis_csv_sha256": "14da00c6e9fba8b46eabbea45827ad17020e63250b1c97e3a6ece34152dc6408",
+    "CR070a_summary_json_sha256": "c2570e91edb04a50fa04a0847d30ab16fef2d567f7b551fff522b0c9fddf8b43",
+    "CR072a_contact_analysis_csv_sha256": "811dc8facecf0c15990fd4b57975d89da0bc2f25ef85a45520461f037650ce64",
+    "CR072a_summary_json_sha256": "5a9a9faba57316c305e1d30b4e5d5588dc8d5eb2a4001e2417cd8c991cca910d",
+    "CR068a_warning_simulator_lock_json_sha256": "b4aa631bc96dcfa8a66e8a98080a208901d2e8eb0aa982e92d9134df0f18becd",
+    "CR060a_alphabet_lock_json_sha256": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0"
+  },
+  "predictions": [
+    "P1_predictor_formula_uses_only_CR060a_A_side_and_decoherence_model",
+    "P2_same_c0_applies_to_NV_and_photonic_rows",
+    "P3_NV_preamble_check_no_regression_against_CR070a",
+    "P4_t_fire_pred_is_positive_and_finite_on_every_row",
+    "P5_t_fire_pred_scales_linearly_with_coherence_time",
+    "P6_no_free_parameters_in_predictor",
+    "P7_explicit_data_gap_documented",
+    "P8_load_bearing_threshold_evaluated",
+    "P9_floor_check_evaluated",
+    "P10_precision_indicator_reported_separately",
+    "P11_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_platform_specific_c0_rejected",
+    "WC2_zero_coherence_time_rejected",
+    "WC3_negative_coherence_time_rejected",
+    "WC4_threshold_value_not_mid_run_adjusted",
+    "WC5_textbook_reference_uses_pure_dephasing_only",
+    "WC6_runner_does_not_modify_upstream_locks",
+    "WC7_no_free_parameters",
+    "WC8_row_count_drift_is_documented_not_silently_changed",
+    "WC9_NV_preamble_failure_blocks_pass"
+  ],
+  "free_parameters": 0,
+  "verification_discipline": "CR073a runs the structural test against an internal reference (textbook 1/e convention). The load-bearing tolerance count and floor breach are reported honestly regardless of pass/fail. Partner-lab measurement of actual t_fire_observed values on either platform would lift CR073a to VERIFIED grade."
+}

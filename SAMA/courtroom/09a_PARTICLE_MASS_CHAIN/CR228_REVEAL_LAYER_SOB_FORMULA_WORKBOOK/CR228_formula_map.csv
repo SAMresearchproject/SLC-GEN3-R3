@@ -1,0 +1,6 @@
+sheet,range,purpose,formula_example
+Constants,B2:B17,same constants and CR225 clock rule as CR227,=B13-B4
+SOB_126,A2:AC127,native prediction rows remain formula-derived,"=IF(B2>=Constants!$B$8,""frontier"",IF(AND(...),""stable"",""radioactive""))"
+Reveal_Source_126,A2:J127,post-seal reveal values from CR119/CR220/QP061,"values only, reveal-only"
+Revealed_Cards_126,A2:R127,formula join of native rows to reveal rows,"=INDEX(Reveal_Source_126!$B$2:$B$127,MATCH(B2,Reveal_Source_126!$A$2:$A$127,0))"
+Checks,B2:E18,"formula/result checks for reveal counts, Z79, and clock matches","=COUNTIF(Revealed_Cards_126!K2:K127,""True"")"

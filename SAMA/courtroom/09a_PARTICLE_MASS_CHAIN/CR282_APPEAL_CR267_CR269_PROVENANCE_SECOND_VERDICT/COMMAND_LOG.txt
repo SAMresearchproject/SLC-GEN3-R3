@@ -1,0 +1,5 @@
+2026-07-12T07:21:43Z | preflight | python tools\run_sam_test.py --task "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT" --preflight-only
+2026-07-12T07:23:00Z | source_lock | Created appeal source manifest, verdict rules, and precommit; parent CR282 preservation required.
+2026-07-12T07:24:00Z | precommit_hash | CR282_APPEAL_PRECOMMIT.md sha256=b9c0dca8c6a21d233979a75a86e40fd8ce5c16fb176fd9225590c545c89797aa
+2026-07-12T07:25:00Z | runner_hash | CR282_APPEAL_runner.py sha256=4123ada7865e093f11bc5f13cd124c28f1b63be99ed9521f6b269ca13947f163
+2026-07-12T07:24:55Z | runner_complete | APPEAL_GRANTED_SCOPE_REFINED_CONTACT_AXIS_FEE_BRIDGE_PASS_A_TO_CONTACT_WELD_OPEN

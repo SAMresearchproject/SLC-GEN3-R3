@@ -1,0 +1,51 @@
+{
+  "conditional_rank_assumptions_sourced": {
+    "F81_IS_AN_81_DIMENSIONAL_VECTOR_SPACE": false,
+    "P80_IS_AN_80_DIMENSIONAL_VECTOR_SPACE": false,
+    "RESERVE_CLOSURE_ADDRESS_IS_LINEAR": false,
+    "RESERVE_CLOSURE_ADDRESS_IS_SURJECTIVE": false
+  },
+  "conditional_rank_theorem": {
+    "assumptions": [
+      "F81_IS_AN_81_DIMENSIONAL_VECTOR_SPACE",
+      "P80_IS_AN_80_DIMENSIONAL_VECTOR_SPACE",
+      "RESERVE_CLOSURE_ADDRESS_IS_LINEAR",
+      "RESERVE_CLOSURE_ADDRESS_IS_SURJECTIVE"
+    ],
+    "conclusion": "NULLITY_EQUALS_ONE",
+    "status": "CONDITIONAL_ONLY"
+  },
+  "entity_has_mapping_payload": false,
+  "finding": "The executable surface is a typed structural address/capacity weld, not a sourced linear quotient or particle decoder.",
+  "operator_has_transform_payload": false,
+  "operator_signature": {
+    "arg_types": [
+      "CompletedFace",
+      "AxisChannel"
+    ],
+    "authority": {
+      "note": "P80 is conditional structural-only",
+      "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+      "status": "STRUCTURAL_ONLY"
+    },
+    "result_entity": "P80_PARTICLE_FACE_CONTENT",
+    "result_type": "ParticleFaceContent",
+    "sources": [
+      {
+        "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+        "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+        "source_key": "typed_hierarchy"
+      },
+      {
+        "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+        "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+        "source_key": "handoff_contract"
+      }
+    ],
+    "structural_only": true
+  },
+  "registered_expression": "RESERVE_CLOSURE_ADDRESS(F81_COMPLETED_FACE, X1_AXIS_SELF_CHANNEL) -> P80_PARTICLE_FACE_CONTENT",
+  "row_mapping_fields_found": [],
+  "runtime_computes_transform": false,
+  "runtime_result_selection": "fixed registered result after type and authority checks"
+}

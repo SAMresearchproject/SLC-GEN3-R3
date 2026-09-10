@@ -1,0 +1,53 @@
+{
+  "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+  "task": "Correct the frozen carrier inventory in the trace-corrected Starbreaker-to-weak-CCSN pixel bridge",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "record_class": "CONSTRUCTIVE_FROZEN_INVENTORY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+  "objective": "Execute the trace-corrected weak-CCSN morphology bridge using the audited Starbreaker rule of 18 typed carrier occurrences per ledger instead of the failed fixed-252-per-scenario assertion.",
+  "failed_predecessor": {
+    "campaign_id": "CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED",
+    "runner_sha256": "bd1d39756a3bed21d47901e257295c0e18d5da2fedce91e2fe9330999488076c",
+    "failure": "REF_0003 contains 378 carriers rather than the incorrectly asserted 252",
+    "release_opened": false,
+    "same_run_repair": false
+  },
+  "inventory_correction": {
+    "rule": "carrier_count=18*ledger_count for every scenario",
+    "ledger_counts": [14, 21, 33, 56],
+    "carrier_counts": [252, 378, 594, 1008],
+    "scenarios_per_tier": 24,
+    "scenario_count": 96,
+    "total_carrier_occurrences": 53568,
+    "source": "frozen roster, scenario decomposition, and executed CR005d all-carrier scenario inventory",
+    "fit_parameters": 0
+  },
+  "inherited_contract": {
+    "path": "21_GRAVITATIONAL_WAVES/CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED/CR005f_CONTRACT.json",
+    "sha256": "9a34c4f225fd27d61d71683fb43242ea1010718bf2fbf87293cc37417e58ead7",
+    "inherited_without_change": [
+      "CR005f exact trace-free algebraic projection",
+      "ten CCSN waveforms and round-robin doors",
+      "same-door 96-scenario Starbreaker comparison",
+      "2049 samples and 48 by 64 normalized pixel grid",
+      "13 observer directions and all-pixel Hellinger affinity",
+      "47 shift nulls and all reversal, separable, invariance, zero, hash, and release controls",
+      "evidence ladder and morphology-only claim ceiling"
+    ]
+  },
+  "allowed_code_change": "campaign identifiers, source paths, output prefixes, replacement of fixed 252 by 18*ledger_count, audited histograms, and 53568 aggregate gate only",
+  "source_layers": {
+    "starbreaker": "CR005d continuous post-bounce carrier flow and frozen typed roster",
+    "external": "Princeton 3D CCSN matter-strain archive associated with Radice et al. 2019",
+    "external_url": "https://www.astro.princeton.edu/~burrows/gw.3d/all.3D.strains.tar.gz",
+    "external_catalog_url": "https://www.astro.princeton.edu/~burrows/gw.3d/index.html",
+    "external_archive_sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3"
+  },
+  "verdict_ladder": {
+    "strong": "PASS_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY_BRIDGE__PHYSICAL_SCALE_OPEN",
+    "directional": "PASS_DIRECTIONAL_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY__PHYSICAL_SCALE_OPEN",
+    "boundary": "BOUNDARY_PIXEL_SURFACE_CONSTRUCTED__NO_STABLE_STARBREAKER_CCSN_MORPHOLOGY_MATCH",
+    "fail": "FAIL_STARBREAKER_WEAK_CCSN_PIXEL_CONSTRUCTION"
+  },
+  "claim_ceiling": "Normalized post-bounce source morphology only; no physical strain, luminosity, seconds, hertz, distance reach, detector forecast, or common-mechanism proof.",
+  "same_run_repair_allowed": false
+}

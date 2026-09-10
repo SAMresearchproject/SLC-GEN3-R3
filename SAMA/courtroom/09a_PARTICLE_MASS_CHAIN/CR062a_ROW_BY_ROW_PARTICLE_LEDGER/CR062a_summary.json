@@ -1,0 +1,18 @@
+{
+  "cr_id": "CR062a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_QP075_ROW_BY_ROW_PARTICLE_LEDGER_35_ROWS",
+  "triage_bin": "A",
+  "reason": "QP075 provides a 35-row ledger: 32 PDG-anchored rows and 3 lattice-anchored rows under declared tolerances.",
+  "captured_at_utc": "2026-06-13T10:57:11Z",
+  "ledger_rows": 35,
+  "pdg_rows": 32,
+  "lattice_rows": 3,
+  "pdg_residual_min_pct": -0.3974,
+  "pdg_residual_max_pct": 0.0708,
+  "lattice_residual_min_pct": -1.7715,
+  "lattice_residual_max_pct": 4.1534,
+  "observed_mass_use": "REVEAL_ONLY_RESIDUAL_COLUMN",
+  "manifest_sha256": "c6a62b1e6dad7a143b1dff11234c144fc781b865fe7be0fbbca789d482285e06"
+}

@@ -1,0 +1,41 @@
+{
+  "test_id": "CR009_PHOTON_SPHERE_SHADOW_CONTACT",
+  "verdict": "CR009_PASS_SCOPED_PHOTON_SPHERE_SHADOW_CONTACT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SCOPED_PHOTON_SPHERE_SHADOW_INVARIANT",
+  "sealed_scope_sha256_current": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "cr007_result_sha256_current": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+  "cr008_result_sha256_current": "2f99fca192284ce5275b0d53020185995b109b65e7855172f3af3eb4495a41a7",
+  "sam_row": {
+    "candidate": "sam_schwarzschild_photon_lane",
+    "x_photon": 1.5,
+    "A_photon": 0.6666666666666666,
+    "bcrit_over_rs": 2.5980762113533156,
+    "shadow_diameter_over_rs": 5.196152422706631,
+    "local_minimum": true,
+    "full_packet": true,
+    "max_relative_miss": 1.709300165674279e-16
+  },
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "no_older_test_outputs_used": true,
+    "sealed_scope_predates_test": true,
+    "cr007_typed_premise_present": true,
+    "cr008_typed_boundary_present": true,
+    "external_reference_required": true,
+    "free_parameters_introduced_zero": true,
+    "trace_ascii_clean": true,
+    "sam_photon_sphere_x_exact": true,
+    "sam_photon_sphere_A_exact": true,
+    "sam_shadow_bcrit_exact": true,
+    "sam_shadow_diameter_exact": true,
+    "sam_minimum_is_local": true,
+    "wrong_controls_do_not_match_full_packet": true,
+    "eht_image_overclaim_rejected": true
+  },
+  "rule_9_falsification": "This test could have falsified the claim that the CR007 A=2/3 photon-sphere landmark carries the standard Schwarzschild photon critical-impact/shadow invariant b_crit/r_s=3*sqrt(3)/2, rather than being only an internal A-label or a horizon-preserving but shadow-wrong construction.",
+  "scope_boundary": "photon sphere / shadow invariant only; no full EHT image or Kerr modeling",
+  "deferred_support_status": "supports_CR007_CR008_package_pending_CR010_and_CR011"
+}

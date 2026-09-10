@@ -1,0 +1,19 @@
+{
+  "record_id": "CR284_WATER_ION_SHAPE_SELECTIVITY_CAMPAIGN_INTAKE",
+  "test_id": "CR284",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "campaign_kind": "CONSTRUCTIVE_NEW_WORK",
+  "claim_tier": "CAMPAIGN_INTAKE_SOURCE_CONTRACT",
+  "free_parameters_allowed": 0,
+  "observed_selectivity_targets_allowed_before_reveal": false,
+  "physical_promotion_allowed": false,
+  "sam_carrier_equals_dissolved_ion": false,
+  "A_equals_pressure_or_energy": false,
+  "starbreaker_role": "PROCESS_CONTEXT_ONLY_PENDING_TYPED_PHYSICAL_READOUT",
+  "primary_lane": "SHAPE_SELECTIVITY",
+  "secondary_lane": "ASSISTED_GATE",
+  "expected_scientific_verdict": "PASS",
+  "expected_result_class": "CR284_PASS_SCOPED_WATER_ION_SHAPE_SELECTIVITY_CAMPAIGN_INTAKE__NO_SELECTIVITY_OR_PHYSICAL_PROMOTION",
+  "rule_9_falsification": "This test could have falsified campaign readiness through source drift, reveal leakage, missing baselines, rescue coefficients, sound-only promotion, direct A-to-energy conversion, physical promotion, or an absent humanitarian-release record."
+}

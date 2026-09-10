@@ -1,0 +1,9 @@
+control,passed,observation
+WC01_HALF_CONTACT_RADIUS,True,half-radius census differs from frozen census
+WC02_DOUBLE_CONTACT_RADIUS,True,double-radius census differs from frozen census
+WC03_WRONG_HISTORY_BIT_ORDER,True,reversed bit order differs on asymmetric histories
+WC04_SYNTHETIC_OUTWARD_ROOT,True,tau=0.5000000000000001; speed=0.07599999999999998
+WC05_SYNTHETIC_INWARD_ROOT,True,tau=1.5; speed=-0.076
+WC06_ENDPOINT_EXCHANGE_INVARIANCE,True,max_abs_error=0.000e+00
+WC07_RIGID_ROTATION_INVARIANCE,True,max_abs_error=4.441e-16
+WC08_GLOBAL_TRANSLATION_INVARIANCE,True,max_abs_error=1.088e-14

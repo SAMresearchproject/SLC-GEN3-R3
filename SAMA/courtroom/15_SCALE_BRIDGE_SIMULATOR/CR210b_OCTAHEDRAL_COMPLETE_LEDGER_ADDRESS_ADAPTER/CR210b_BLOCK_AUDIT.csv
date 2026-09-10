@@ -1,0 +1,10 @@
+w9_block,source_kind,w9_role,w9_coordinate,slot_count,edge_channel_count,point_channel_count
+0,carrier,oriented_face,"[-1,-1,-1]",18,12,6
+1,matter,oriented_face,"[1,-1,-1]",18,12,6
+2,matter,oriented_face,"[-1,1,-1]",18,12,6
+3,matter,oriented_face,"[1,1,-1]",18,12,6
+4,matter,oriented_face,"[-1,-1,1]",18,12,6
+5,matter,oriented_face,"[1,-1,1]",18,12,6
+6,matter,oriented_face,"[-1,1,1]",18,12,6
+7,matter,oriented_face,"[1,1,1]",18,12,6
+8,ledger_shadow,closure_cell,,18,12,6

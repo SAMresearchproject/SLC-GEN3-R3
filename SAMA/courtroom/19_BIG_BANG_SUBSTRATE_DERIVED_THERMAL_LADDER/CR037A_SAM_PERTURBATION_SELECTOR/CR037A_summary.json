@@ -1,0 +1,110 @@
+{
+  "precommit_sha256": "1b7da85b860825d7e9b0a8e7d231aef92ec980b020341800da81a09f48ba5d78",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "verdict_token": "CR037A_PASS_SAM_PERTURBATION_TRIPLET_WITHIN_1SIGMA_PLANCK_POSTERIOR",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "CMB_spectrum_inputs": false,
+  "posterior_table_inputs": false,
+  "forbidden_files_opened": false,
+  "opened_paths_count": 0,
+  "substrate": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "Theta": 18,
+    "M": 126,
+    "L": 162,
+    "V": 27,
+    "A_0": 0.026525823848649224,
+    "chi": 0.07073553026306459
+  },
+  "eta": {
+    "eta_SAM_path_A": 6.096089524484198e-10,
+    "eta_SAM_path_B": 6.096089524484197e-10,
+    "machine_precision_rel_diff": 1.6961295623012874e-16
+  },
+  "identities": {
+    "n_s_SAM_path_A": 0.9646322348684677,
+    "n_s_SAM_path_B": 0.9646322348684677,
+    "n_s_SAM": 0.9646322348684677,
+    "n_s_path_rel_diff": 0.0,
+    "A_s_SAM_path_A": 2.1117473567790055e-09,
+    "A_s_SAM_path_B": 2.111747356779005e-09,
+    "A_s_SAM": 2.1117473567790055e-09,
+    "A_s_path_rel_diff": 1.958521718750261e-16,
+    "tau_SAM_path_A": 0.05305164769729845,
+    "tau_SAM_path_B": 0.05305164769729845,
+    "tau_SAM": 0.05305164769729845,
+    "tau_path_rel_diff": 0.0
+  },
+  "references": {
+    "A_s_reference": 2.1e-09,
+    "sigma_As": 3e-11,
+    "n_s_reference": 0.9649,
+    "sigma_ns": 0.0042,
+    "tau_reference": 0.0544,
+    "sigma_tau": 0.0073
+  },
+  "sigma_deviations": {
+    "sigma_dev_As": 0.391578559300178,
+    "sigma_dev_ns": -0.0637536027457763,
+    "sigma_dev_tau": -0.18470579489062308
+  },
+  "gates": {
+    "P1": "PASS",
+    "P2": "PASS",
+    "P3": "PASS"
+  },
+  "strong_contact": {
+    "As": true,
+    "ns": true,
+    "tau": true
+  },
+  "E1_wrong_controls_for_As": [
+    {
+      "label": "eta_SAM (bare)",
+      "value": 6.096089524484198e-10,
+      "sigma_dev": -49.679701585052676
+    },
+    {
+      "label": "eta * sqrt(R) [chosen]",
+      "value": 2.1117473567790055e-09,
+      "sigma_dev": 0.391578559300178
+    },
+    {
+      "label": "eta * sqrt(S)",
+      "value": 1.724234496593221e-09,
+      "sigma_dev": -12.525516780225972
+    },
+    {
+      "label": "eta * sqrt(R/2)",
+      "value": 1.4932308761312023e-09,
+      "sigma_dev": -20.225637462293264
+    },
+    {
+      "label": "eta * sqrt(Theta)",
+      "value": 2.5863517448898312e-09,
+      "sigma_dev": 16.211724829661033
+    },
+    {
+      "label": "eta * D",
+      "value": 1.8288268573452592e-09,
+      "sigma_dev": -9.039104755158032
+    },
+    {
+      "label": "eta * pi",
+      "value": 1.915143006574525e-09,
+      "sigma_dev": -6.161899780849168
+    }
+  ],
+  "E2_tau_alternative": {
+    "tau_alt_formula": "2*A_0*(1+A_0)",
+    "tau_alt_value": 0.05445888635899759,
+    "sigma_dev_tau_alt": 0.008066624520217761,
+    "note": "Reported only; canonical CR037A tau is 2*A_0 = 1/(6*pi)."
+  }
+}

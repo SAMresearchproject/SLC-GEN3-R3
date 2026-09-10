@@ -1,0 +1,29 @@
+{
+  "cr_id": "CR213",
+  "test_id": "CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT",
+  "question": "Does the imported D=3-to-particle breadcrumb markdown identify Courtroom-backed D=3 dependencies in the particle stack, and what remains open?",
+  "source_handling": {
+    "source_kind": "external markdown supplied by curator",
+    "source_path_policy": "Do not emit source directory labels into CR213 artifacts.",
+    "sanitization": "Replace disallowed source-directory words if encountered before writing imported text."
+  },
+  "courtroom_sources": [
+    "14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM/CR115_result.md",
+    "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_summary.json",
+    "16_THE_LAST_CAMPAIGN/LC02_summary.json",
+    "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_summary.json",
+    "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv",
+    "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_claim_boundaries.csv",
+    "09a_PARTICLE_MASS_CHAIN/CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE/CR092a_declared_premises.json"
+  ],
+  "upstream_breadcrumb_sources": [
+    "quantum_phase qp093a enumerator source",
+    "Stam_model-A mass role-operator source",
+    "Stam_model-A antimatter response source"
+  ],
+  "claim_boundary": {
+    "not_a_particle_row_promotion": true,
+    "generation_count_derivation_expected": "OPEN unless derived in source",
+    "d_perturbation_replay": "NEXT_CR_REQUIRED"
+  }
+}

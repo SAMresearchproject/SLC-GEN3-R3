@@ -1,0 +1,10 @@
+{
+  "test_id": "CR206",
+  "source_gate": "G755c_EARTH_GALAXY_PBH_ACCUMULATION_MODE_SELECTOR",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that galaxy halo support is typed as baryon many-nonzero A plus clustered BB-PBH/trapped-A scaffold plus PBH many-nonzero accumulation, distinct from Earth local A."
+}

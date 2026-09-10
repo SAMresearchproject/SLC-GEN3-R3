@@ -1,0 +1,74 @@
+{
+  "cr_id": "CR139",
+  "result_class": "CR139_CR122_REGRADE_LANGUAGE_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "appeal_queue_position": "5 of 7 blocking",
+  "regrade_type": "VERDICT_DOWNGRADE_LANGUAGE_REJECTED_TO_DISFAVORED",
+  "from_verdict": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE_SEALED__TEN_PRIOR_CRS_UNIFIED_NONE_INVALIDATED",
+  "to_verdict": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE_BOUNDARY__REJECTED_DOWNGRADED_TO_DISFAVORED_AT_1_475_SIGMA__MECHANISM_PRESERVED",
+  "statistical_evidence": {
+    "max_sigma_vs_planck": 1.4753,
+    "approx_one_sided_p_value": 0.0701,
+    "approx_two_sided_p_value": 0.1402,
+    "overread_min_percent": 0.6631,
+    "overread_mean_percent": 0.8808,
+    "overread_max_percent": 0.9947,
+    "conventional_rejection_threshold_sigma": 3.0,
+    "conventional_tension_threshold_sigma": 2.0,
+    "conclusion": "1.475 sigma corresponds to a one-sided p-value of approximately 0.07 (two-sided ~0.14), which DISFAVORS direct qA-as-mass but does not REJECT it at conventional thresholds (typically 2-sigma for 'tension' and 3-sigma for 'strong tension')."
+  },
+  "preserved_mechanism": {
+    "carrier_compression_rule": "qA source support -> 1/8 unresolved tensor carrier -> ledger compression -> A readout (admitted route)",
+    "rejected_alternative": "qA -> mass -> baryon/CMB readout (DIRECT_qA_AS_MASS)",
+    "carrier_fraction": "1/8 (the unresolved tensor carrier from the closed-loop split)",
+    "retained_fraction": "7/8 (visible mass identity from the closed-loop write)",
+    "gated_downstream_crs": [
+      "CR016 (CMB acoustic ruler photon road ratio)",
+      "CR018 (A_0 * chi baryon inventory derivation)",
+      "CR019 (effective matter inventory refinement)",
+      "CR020 (CMB boundary + acoustic concept chain)",
+      "CR021 (Planck-lite CMB density + BBN contact)",
+      "CR022 (native A many-nonzero accumulation kernel; 08 branch)",
+      "CR023 (baryon cosmology branch verdict; 07 branch)",
+      "CR023 (BB-PBH / trapped-A inventory; 08 branch)",
+      "CR111 (cosmic baryon Omega_b closure appeal)",
+      "CR114 (cosmic baryon bridge reveal)",
+      "CR117 (SAM/CMB methodological scope boundary)"
+    ],
+    "downstream_verdicts_unchanged": true,
+    "rationale": "The mechanism (carrier compression) is a structural framing of how qA enters inventory readouts; it is conceptually independent of the statistical strength of the rejection claim against direct-qA-as-mass. Even if direct-qA-as-mass is only DISFAVORED at 1.475 sigma rather than REJECTED, the carrier-compression route remains the SAM-native admission gate. The regrade is linguistic and statistical, not mechanistic."
+  },
+  "ingest_dependency": {
+    "cr": "CR-136",
+    "lock_sha256": "2d6db0a619755cae19fd0e2d51ce815c288da47813c0e7f163fe437a355a4d2c",
+    "qp092h_internal_path": "upstream_artifacts/qp092/qp092h_baryon_cmb_carrier_gate/qp092h_summary.json",
+    "qp092h_expected_sha": "5b8139aa90883b8b3ac210fdad44055fc9cbf23c6f4e16dbef58668a8d2bda49"
+  },
+  "restoration_requirements": [
+    {
+      "requirement": "Improved Planck-lite (or successor) precision on Omega_b h^2 such that the 0.66-0.99% overread interval corresponds to >= 3 sigma (conventional 'strong tension' threshold), promoting the disfavoring to a genuine rejection.",
+      "how_to_verify": "Reviewer reads the Planck-lite (or successor) reported sigma on Omega_b h^2 in the current verified data release, computes 0.66-0.99% as a sigma multiple, and confirms it crosses 3 sigma. Source verification (peer-reviewed paper or Planck Collaboration release) required."
+    },
+    {
+      "requirement": "Independent dataset (DES, SPT, ACT, or successor) reaching the same 0.66-0.99% overread interval at >= 3 sigma significance, confirming the disfavoring is not Planck-specific.",
+      "how_to_verify": "Reviewer reads the independent-dataset result, confirms a comparable overread is reported, confirms the sigma significance is >= 3, and confirms the dataset is genuinely independent of Planck (not a re-analysis of the same data)."
+    },
+    {
+      "requirement": "OR a theoretical structural argument internal to SAM that forbids direct-qA-as-mass independent of Planck contact (e.g., from CR-121's 1/8 release mechanism plus a no-double-counting axiom). If structurally forbidden, the 1.475 sigma empirical contact is supporting evidence rather than the sole basis for rejection.",
+      "how_to_verify": "Reviewer reads the structural argument, confirms it does not depend on the Planck-Omega_b comparison, and confirms it explicitly forbids the rejected route at the level of SAM's substrate-write grammar."
+    }
+  ],
+  "restoration_falsifier": "A high-precision dataset (Planck successor, joint Planck+DES, or any independent CMB+LSS combination) reaching the same 0.66-0.99% overread interval at LOWER sigma significance than current Planck-lite (e.g., 1.0 sigma) would BLOCK restoration, because the disfavoring would be weaker rather than stronger. Empirical regression of the disfavoring level is a blocking condition.",
+  "target": {
+    "cr_id": "CR122",
+    "dir_name": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE",
+    "current_result_class": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE_BOUNDARY__REJECTED_DOWNGRADED_TO_DISFAVORED_AT_1_475_SIGMA__MECHANISM_PRESERVED"
+  },
+  "wrong_controls_passed": 8,
+  "wrong_controls_total": 8,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "free_parameters": 0,
+  "falsifier": "Re-executing CR139_runner.py on the post-seal state MUST produce zero new REGRADED entries and zero archive writes; the recomputed lock SHA-256 MUST match the value recorded in CR139_result.md."
+}

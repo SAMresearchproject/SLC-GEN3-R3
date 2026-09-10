@@ -1,0 +1,29 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_SCIENTIFIC_CLASS_ATTESTATION",
+  "artifact_presence_metadata": {
+    "hashes": true,
+    "precommit": true,
+    "provenance": true,
+    "result": true,
+    "runner": true,
+    "summary": true
+  },
+  "attestation_created_utc": "2026-07-11T17:45:56Z",
+  "canonical_scientific_result_status": "PASS",
+  "classification_rule": "SCIENTIFIC_TEST requires scientific branch, scientific objective, PASS/FAIL/BOUNDARY status, and false language firewall fields; firewall-field presence alone is not language/meta evidence.",
+  "cr_path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "existing_artifacts_modified": false,
+  "firewall_fields_false": true,
+  "firewall_metadata_present": true,
+  "language_or_meta_language_test": false,
+  "prior_effective_status": "INELIGIBLE",
+  "prior_exclusion_reason": "LANGUAGE_OR_META_LANGUAGE_TEST",
+  "record_class": "SCIENTIFIC_TEST",
+  "scientific_content_changed": false,
+  "scientific_domain": "PHOTON_ROAD_SHAPIRO_DELAY",
+  "scientific_objective": "binary-pulsar Shapiro road holdout",
+  "source_provenance_path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/CR148_provenance.json",
+  "source_provenance_sha256": "dc4efc809c1f75188d1381e3d6594e47302d78a76fd6d7f5fd341f417a7b6279",
+  "source_summary_path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/CR148_summary.json",
+  "source_summary_sha256": "1b35b4a20d6daf6950e1e816939a6bb525bfc2d0c208f2c798ca59ec796216f2"
+}

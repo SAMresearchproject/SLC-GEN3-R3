@@ -1,0 +1,44 @@
+{
+  "cr_id": "CR005b",
+  "artifact": "CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS",
+  "sam_language_v0_3_consulted_during_development": false,
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "assumptions": [
+    {
+      "id": "A1",
+      "statement": "The damping coefficient is a route-leak rate over unresolved ledger shell inventory, not a propagation rate over writable capacity.",
+      "status": "candidate_assumption",
+      "tested_by": "primary selector and wrong-denominator controls"
+    },
+    {
+      "id": "A2",
+      "statement": "The unresolved damping shell is L - V, where L is the closed ledger and V is the committed write cell.",
+      "status": "candidate_assumption",
+      "tested_by": "exact identities L - V = R^2 - d_hat^2 = 135"
+    },
+    {
+      "id": "A3",
+      "statement": "The numerator is R because damping is route-resolved leak-back rather than d_hat-dimensional propagation.",
+      "status": "candidate_assumption",
+      "tested_by": "wrong-numerator controls d_hat/(L - V) and Theta/(L - V)"
+    },
+    {
+      "id": "A4",
+      "statement": "The Berti 2009 value is an external comparator only and is not used to construct or tune the formula.",
+      "status": "sealed_rule",
+      "tested_by": "runner uses no search and no comparator-derived coefficient"
+    },
+    {
+      "id": "A5",
+      "statement": "No arbitrary fitted constant is permitted. The only constants are sealed SAM atoms and the external comparator.",
+      "status": "sealed_rule",
+      "tested_by": "free_parameter_count == 0"
+    }
+  ],
+  "missing_physics": [
+    "full substrate equation of motion for carrier-tensor perturbations",
+    "higher-mode QNM derivation",
+    "Kerr spin parameter encoding",
+    "complete damping operator for arbitrary substrate modes"
+  ]
+}

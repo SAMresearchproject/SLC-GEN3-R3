@@ -1,0 +1,14 @@
+qga_test,wrong_controls_files,row_count,exemplar_file,status
+QGA053,1,10,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA053_MISSING_PARTNER_AND_CHIRALITY_COMPLETION_SELECTOR/QGA053_wrong_controls.csv,present_with_rows
+QGA054,1,10,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA054_ROW_EXACT_MASS_READOUT_FROM_NATIVE_CHIRAL_PACKET/QGA054_wrong_controls.csv,present_with_rows
+QGA055,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA055_FULL_STRICT_PARTICLE_LEDGER_FROM_NATIVE_ROW_READOUTS/QGA055_wrong_controls.csv,present_with_rows
+QGA056,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA056_NATIVE_PARTICLE_LEDGER_PREDICTOR_SURFACE_AUDIT/QGA056_wrong_controls.csv,present_with_rows
+QGA057,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA057_TOP_AUDIT_STRICTNESS_RESOLUTION_SELECTOR/QGA057_wrong_controls.csv,present_with_rows
+QGA058,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA058_ELECTROWEAK_SIDE_PACKET_FACTOR_DERIVATION/QGA058_consistency_controls.csv,present_with_rows
+QGA059,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA059_ELECTROWEAK_SIDE_PACKET_LOCK_INTEGRATION/QGA059_consistency_controls.csv,present_with_rows
+QGA060,1,12,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA060_PARTICLE_ENGINE_COMPLETION_SURFACE/QGA060_consistency_controls.csv,present_with_rows
+QGA068,1,8,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA068_NEUTRINO_FLAVOR_CHANNEL_SELECTOR/QGA068_wrong_controls.csv,present_with_rows
+QGA069,1,8,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA069_COLOR_EXTERNAL_MAPPING_AND_N_TARGET_SELECTOR/QGA069_wrong_controls.csv,present_with_rows
+QGA070,1,8,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA070_N_TARGET_CB_MASS_READOUT_SELECTOR/QGA070_wrong_controls.csv,present_with_rows
+QGA071,1,8,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA071_TRIADIC_SCREEN_PARTICLE_IDENTITY_SELECTOR/QGA071_wrong_controls.csv,present_with_rows
+QGA072,1,8,C:/VS/Stam_model-A-v1.0/tests/Substrate/QGA072_NEUTRAL_LEPTON_PARTNER_SELECTOR/QGA072_wrong_controls.csv,present_with_rows

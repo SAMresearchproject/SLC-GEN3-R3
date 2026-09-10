@@ -1,0 +1,28 @@
+{
+  "test_id": "CR018_A0_CHI_BARYON_INVENTORY_DERIVATION",
+  "test_type": "courtroom_import_from_G219_G219B_G219C_G305",
+  "free_parameters_introduced": 0,
+  "source_summaries": [
+    "../_source_artifacts/summaries/G219_summary.json",
+    "../_source_artifacts/summaries/G219B_summary.json",
+    "../_source_artifacts/summaries/G219C_output.json",
+    "../_source_artifacts/summaries/G305_output.json"
+  ],
+  "frozen_formula_set": {
+    "A0": "1/(pi*R)",
+    "mu_H": "2^D/D",
+    "chi": "mu_H*A0",
+    "Omega_b": "2*A0*(1-chi)"
+  },
+  "sam_inputs": {
+    "R": 12.0,
+    "D": 3.0
+  },
+  "expected_values": {
+    "A0": 0.026525823848649224,
+    "mu_H": 2.6666666666666665,
+    "chi": 0.0707355302630646,
+    "Omega_b": 0.049299011266100756
+  },
+  "rule_9_falsification": "This test could have falsified: the claim that \u03a9_b follows from native A0/radix structure and horizon quotient \u03c7 without inserting observed baryon density."
+}

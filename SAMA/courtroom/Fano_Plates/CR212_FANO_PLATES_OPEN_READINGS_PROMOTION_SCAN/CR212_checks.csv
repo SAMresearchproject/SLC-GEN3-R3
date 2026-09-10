@@ -1,0 +1,18 @@
+check_id,description,passed,evidence
+C01,All declared input sources resolve and hash,True,missing=[]
+C02,CR210 summary present and result class includes SCOPED theorem,True,cr210.result_class=CR210_PASS_SCOPED_HH001_FANO_ADDRESS_126_TABLE_THEOREM__SAM_ALGEBRA_VERIFIED__OPEN_READINGS_PRESERVED
+C03,CR211 summary present and reference columns flagged,True,"cr211.flagged=['MATTER', 'CLOCK', 'LIGHT', 'ACTION']"
+C04,LC02 H_native = 126 and H_reveal = 125.25 present,True,"lc02.summary_keys=['CR120_caveat_preserved', 'H_native', 'H_reveal', 'H_reveal_decimal', 'all_checks_passed', 'all_sources_exist', 'all_wrong_controls_rejected', 'branch', 'checks_csv', 'checks_passed', 'checks_total', 'claim_grade', 'execution_status', 'lc_id', 'lock_json', 'replay_chain_csv', 'result_class', 'result_md', 'source_chain_csv', 'surface_debit', 'target_visibility_csv', 'test_class', 'wrong_controls_csv', 'wrong_controls_rejected', 'wrong_controls_total']"
+C05,LC05 sealed verdict present,True,"lc05.summary_keys=['artifacts', 'branch_10_legacy_vault', 'checks', 'epistemic_boundary', 'generated_utc', 'locked_primitive_stack', 'pass_condition', 'periodic_table', 'result', 'task_id', 'task_name', 'wrong_controls']"
+C06,Six OPEN readings inventoried,True,open_count=6
+C07,Five corpora inventoried,True,corpus_count=5
+C08,Every OPEN reading received a verdict from the allowed vocabulary,True,"verdicts=['NOT_PROMOTABLE_FROM_EXISTING_DATA', 'NOT_PROMOTABLE_FROM_EXISTING_DATA', 'NOT_PROMOTABLE_FROM_EXISTING_DATA', 'RETIRED_FALSIFIED', 'NOT_PROMOTABLE_FROM_EXISTING_DATA', 'REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND']"
+C09,Every non-NOT_PROMOTABLE verdict carries a sealed-artifact citation,True,verdict_rows citation coverage
+C10,OPEN_4 ACTION reading carries RETIRED_FALSIFIED verdict,True,OPEN_4 verdict=RETIRED_FALSIFIED
+C11,OPEN_6 126 GeV reading carries REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND,True,OPEN_6 verdict=REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND
+C12,No verdict marked COURTROOM_NATIVE_BACKED without dual-corpus backing (defensive: this audit emits 0 such verdicts),True,native_backed_count=0
+C13,QP corpus file count >= 100 (expected ~140+ qp*.py files),True,qp_count=144
+C14,Priority-record G-test token count > 0,True,g_test_token_hits=2483
+C15,SUK gate lineage anchor files exist in QP corpus,True,"suk_files=['qp071_private_heavy_composite_derivation_rule_and_suk_gate_draft.py', 'qp073_private_phase4_final_freeze_post_suk_hco.py']"
+C16,Wrong controls all rejected,True,rejected_count=8/8
+C17,No upstream Courtroom verdict modified (Fano_Plates is write-isolated),True,write_root=Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN

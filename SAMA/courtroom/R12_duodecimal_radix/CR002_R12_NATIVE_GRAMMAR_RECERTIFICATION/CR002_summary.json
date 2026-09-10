@@ -1,0 +1,33 @@
+{
+  "test_id": "CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION",
+  "verdict": "CR002_BOUNDARY_NATIVE_GRAMMAR_RECERTIFIED",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "selected_R": 12,
+  "route_kernel": 12,
+  "partition_top": 12,
+  "selected_unique": true,
+  "pass_conditions": {
+    "no_older_test_outputs_used": true,
+    "trace_ascii_clean": true,
+    "route_kernel_equals_partition_top": true,
+    "unique_full_packet_selector": true,
+    "selected_R_is_12": true,
+    "wrong_controls_do_not_match_full_packet": true
+  },
+  "hygiene": {
+    "older_test_outputs_allowed": false,
+    "older_test_outputs_used_as_inputs": false,
+    "trace_read_for_hash_and_ascii_only": true,
+    "trace_ascii_clean": true
+  },
+  "rule_9": "This test could have falsified: the claim that R=12 is selected by native SAM write/exposure grammar rather than inherited preference or later downstream fit.",
+  "outputs": [
+    "CR002_candidate_rows.csv",
+    "CR002_wrong_controls.csv",
+    "CR002_input_manifest.csv",
+    "CR002_summary.json",
+    "CR002_result.md"
+  ]
+}

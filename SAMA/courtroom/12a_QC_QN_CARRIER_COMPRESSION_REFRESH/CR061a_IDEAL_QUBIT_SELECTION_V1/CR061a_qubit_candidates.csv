@@ -1,0 +1,3 @@
+candidate_id,operator_class,partition,sorted_abc,a,b,c,M_native,S_debit_predicted_MeV,S_debit_predicted_exact,carrier_slot_a_weight,envelope_slot_b_weight,sensor_slot_c_weight,alpha_H_ladder,structural_form
+QP093A-0125,OCTET_COMPOSITE,1+2+4,"(1,2,4)",1,2,4,756,0.464844,119/256,1/4,9/16 (= (9/8)*(1/2)),1/4,True,"(alpha_H^0, alpha_H^1, alpha_H^2)"
+QP093A-0166,OCTET_COMPOSITE,2+4+8,"(2,4,8)",2,4,8,3024,1.859375,119/64,1/4,9/16 (= (9/8)*(1/2)),1/4,True,"(alpha_H^1, alpha_H^2, alpha_H^3)"

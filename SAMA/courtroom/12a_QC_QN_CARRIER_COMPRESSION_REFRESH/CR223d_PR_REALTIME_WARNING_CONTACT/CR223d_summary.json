@@ -1,0 +1,59 @@
+{
+  "a_side": 0.041666666666666664,
+  "alarm_performance": {
+    "FN_samples": 74,
+    "FP_samples": 18,
+    "TNR_per_sample": 0.943217665615142,
+    "TN_samples": 299,
+    "TPR_per_sample": 0.8916544655929722,
+    "TP_samples": 609,
+    "false_alarm_rate": 0.056782334384858024,
+    "latency_max_intervals": 3,
+    "latency_mean_intervals": 0.7,
+    "miss_rate": 0.10834553440702777,
+    "n_above_trials": 100,
+    "n_samples_total": 1000,
+    "n_trials": 100
+  },
+  "checks_passed": 13,
+  "checks_total": 13,
+  "cr_id": "CR223d",
+  "generated_at_utc": "2026-06-21T14:05:51.566737+00:00",
+  "n_trials_test": 100,
+  "n_trials_train": 80,
+  "next_gate": "CR223e_PR_QC_OPERATIONAL_BENEFIT",
+  "p_alarm": 0.75,
+  "packet_checksum_valid": 162,
+  "result_class": "CR223d_REALTIME_WARNING_VALIDATED_IN_SIMULATION",
+  "rng_seeds": {
+    "test": 220260621,
+    "train": 110260621,
+    "wc": 330260621
+  },
+  "sensor_calibration": {
+    "mu": 0.2553706806282723,
+    "scale": 0.003041666666666667,
+    "train_prevalence": 0.69125
+  },
+  "test_id": "CR223d_PR_REALTIME_WARNING_CONTACT",
+  "wc_results": {
+    "WC1_corrupt_161_fired": 0,
+    "WC2_corrupt_163_fired": 0,
+    "WC3_G_protocol_off_fired": 0,
+    "WC5_shuffled_sensor_perf": {
+      "FN_samples": 1,
+      "FP_samples": 73,
+      "TNR_per_sample": 0.17045454545454544,
+      "TN_samples": 15,
+      "TPR_per_sample": 0.9952830188679245,
+      "TP_samples": 211,
+      "false_alarm_rate": 0.8295454545454546,
+      "latency_max_intervals": 4,
+      "latency_mean_intervals": -2.2666666666666666,
+      "miss_rate": 0.004716981132075526,
+      "n_above_trials": 30,
+      "n_samples_total": 300,
+      "n_trials": 30
+    }
+  }
+}

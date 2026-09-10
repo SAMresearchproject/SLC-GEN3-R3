@@ -1,0 +1,105 @@
+{
+  "campaign_id": "CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE",
+  "task": "Build a pixel-to-pixel Starbreaker-to-weak-core-collapse gravitational-wave bridge",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "record_class": "CONSTRUCTIVE_EXTERNAL_WAVEFORM_MORPHOLOGY_BRIDGE",
+  "objective": "Compare the post-bounce Starbreaker unit-carrier quadrupole source directly with public three-dimensional core-collapse supernova matter-strain waveforms on one fixed time-frequency pixel grid, without using a binary-merger chirp or black-hole QNM response as the comparison target.",
+  "source_layers": {
+    "starbreaker": "CR005d continuous post-bounce carrier flow and the frozen 96-scenario typed roster",
+    "external": "Princeton Supernova Theory Group 3D CCSN matter-strain archive associated with Radice et al. 2019",
+    "external_url": "https://www.astro.princeton.edu/~burrows/gw.3d/all.3D.strains.tar.gz",
+    "external_catalog_url": "https://www.astro.princeton.edu/~burrows/gw.3d/index.html",
+    "external_archive_sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3",
+    "external_archive_redistribution": "license not asserted by this campaign; retain as internal source evidence unless separately cleared"
+  },
+  "physical_bridge": {
+    "starbreaker_source": "S_ab=d^2 Q_ab/ds^2 in dimensionless post-bounce phase s",
+    "ccsn_source": "h_plus*D and h_cross*D in centimeters from matter terms",
+    "shared_layer": "both are proportional to a transverse-traceless projection of the second mass-quadrupole derivative, up to missing Starbreaker mass and time scales and the universal gravitational prefactor",
+    "physical_amplitude_claim": false,
+    "detector_claim": false
+  },
+  "waveform_inventory": {
+    "expected_members": [
+      "s9.0.swbj15.horo.3d.gw.dat",
+      "s10.0.swbj15.horo.3d.gw.dat",
+      "s11.0.swbj15.horo.3d.gw.dat",
+      "s12.0.swbj15.horo.3d.gw.dat",
+      "s13.0.swbj15.horo.3d.gw.dat",
+      "s14.0.swbj16.horo.3d.gw.dat",
+      "s15.0.swbj16.horo.3d.gw.dat",
+      "s19.0.swbj15.horo.3d.gw.dat",
+      "s25.0.swh18.horo.3d.gw.dat",
+      "s60.0.swbj15.horo.3d.gw.dat"
+    ],
+    "door_rule": "sort by progenitor mass and assign index modulo 3: 0 discovery, 1 validation, 2 final",
+    "discovery_masses": [9, 12, 15, 60],
+    "validation_masses": [10, 13, 19],
+    "final_masses": [11, 14, 25],
+    "door_use": "each CCSN waveform may match only Starbreaker scenarios in the same frozen door"
+  },
+  "pixel_grid": {
+    "event_alignment": "CCSN t>=0 and Starbreaker s>=0 are both aligned at post-bounce start",
+    "time_mapping": "each complete post-bounce record is mapped linearly to normalized event phase tau in [0,1]; no fitted shift, stretching, dynamic time warping, truncation search, or subwindow search",
+    "samples": 2049,
+    "edge_trim_samples": 3,
+    "demean_each_polarization": true,
+    "stft_window": "Hann, 256 samples",
+    "time_bins": 48,
+    "time_frame_rule": "48 evenly spaced integer window starts from first to last valid start",
+    "frequency_bins": 64,
+    "frequency_rule": "drop DC from the 129-bin real FFT and sum adjacent pairs of the remaining 128 bins",
+    "pixel_value": "plus-polarization power plus cross-polarization power",
+    "normalization": "divide every nonzero map by its total pixel power"
+  },
+  "starbreaker_projection": {
+    "population": "all 252 typed carrier occurrences per scenario",
+    "tensor": "unit-carrier trace-free Q_ab",
+    "source": "second numerical derivative in normalized post-bounce phase",
+    "observer_bank": "13 fixed unoriented Cartesian axis, face-diagonal, and body-diagonal lines of sight",
+    "observer_fitting": "none; the full fixed bank is evaluated and the same bank is used for every null",
+    "polarization_map": "S_plus=(p_a p_b-q_a q_b)S_ab and S_cross=(p_a q_b+q_a p_b)S_ab for deterministic transverse p,q"
+  },
+  "match_metrics": {
+    "primary": "Hellinger affinity A=sum_pixels sqrt(P_pixel*Q_pixel), bounded [0,1]",
+    "residual": "total variation distance TV=0.5*sum_pixels abs(P_pixel-Q_pixel)",
+    "selection": "best same-door Starbreaker scenario and fixed observer view",
+    "selection_control": "the complete best-match search is repeated for every null map"
+  },
+  "nulls_and_controls": {
+    "time_shift_null": "47 nonzero circular shifts of the 48 CCSN time bins, with the full same-door template search repeated",
+    "time_reverse": "reverse CCSN time-bin order and repeat the full search",
+    "frequency_reverse": "reverse CCSN frequency-bin order and repeat the full search",
+    "separable_null": "replace each CCSN map by the normalized outer product of its time and frequency marginals and repeat the full search",
+    "amplitude_control": "multiplying both CCSN polarizations by seven must not change the normalized map",
+    "polarization_control": "a fixed 37-degree polarization-basis rotation must not change combined-power pixels",
+    "zero_control": "zero polarizations must produce a zero-power rejection, not a match"
+  },
+  "evidence_ladder": {
+    "strong": "construction passes; validation and final door median observed affinity each exceed their 95th-percentile time-shift null; and each beats its time-reversed, frequency-reversed, and separable-null median",
+    "directional": "construction passes; at least two of three door medians exceed their 90th-percentile time-shift null and beat time- and frequency-reversed medians",
+    "boundary": "the shared pixel surface is constructed but the morphology evidence does not clear the directional gate",
+    "fail": "a source hash, archive inventory, parser, projection, normalization, invariance, door, or atomic-release gate fails"
+  },
+  "claim_ceiling": {
+    "may_establish": [
+      "a direct same-grid morphology comparison between Starbreaker carrier quadrupole projections and simulated weak CCSN matter-strain waveforms",
+      "whether Starbreaker post-bounce source texture is closer to the observed CCSN pixel ordering than locked chronology-destroying controls",
+      "which Starbreaker scenarios and fixed views provide the closest structural matches"
+    ],
+    "may_not_establish": [
+      "a detected supernova gravitational wave",
+      "physical Starbreaker strain, luminosity, distance reach, source mass, frequency in hertz, or time in seconds",
+      "that a morphological match proves a shared physical mechanism",
+      "that failure rules out gravitational radiation from Starbreaker before a physical mass-time bridge exists",
+      "a universal supernova waveform law or a detector forecast"
+    ]
+  },
+  "verdict_ladder": {
+    "strong": "PASS_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY_BRIDGE__PHYSICAL_SCALE_OPEN",
+    "directional": "PASS_DIRECTIONAL_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY__PHYSICAL_SCALE_OPEN",
+    "boundary": "BOUNDARY_PIXEL_SURFACE_CONSTRUCTED__NO_STABLE_STARBREAKER_CCSN_MORPHOLOGY_MATCH",
+    "fail": "FAIL_STARBREAKER_WEAK_CCSN_PIXEL_CONSTRUCTION"
+  },
+  "same_run_repair_allowed": false
+}

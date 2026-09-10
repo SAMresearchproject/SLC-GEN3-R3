@@ -1,0 +1,27 @@
+CR002@19_FATE_HUBBLE_IN_READOUT_DISTANCE_VIA_CR013_SHRINKAGE
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER
+Sealed by: Sean Brady, 2026-06-26
+Verdict: PASS (P1, P2, P3 all hold to ~1e-16 vs tolerance 1e-12 / 1e-9)
+Headline: H_inf_readout = H_0 * ((pi-1)/pi)^(3/2) = 38.7005 km/s/Mpc at H_0 = 68.76
+         (asymptotic expansion rate in measurable distance; closed form in pi alone;
+          ratio to today's H_0 = 0.5628342189)
+
+Local artifacts (SHA-256):
+  b18c49fc4f3c2d73c87cbf0112072db4483d9678e7a42dc052f6c60cc4b26633  CR002_PRECOMMIT.md
+  8b67fd66d83601ee7297842bacc4e343a7b2fcf598032d90e7bbcc78eb6699a9  CR002_runner.py
+  bb516a777df5777d60cfc2d256be5626cfa96dff0ed1dba7b77b931799e18b74  CR002_result.md
+  e697807dad0e22be031a3423fcfecbef1beeb8f8b871a2d37195ec8be9513308  CR002_summary.json
+  a5d1a624df8bce82a5b606e907ad7c9a583186115332b95797275879b7f934a5  CR002_evidence_rows.csv
+  92677ea07e82847604c9f9f91de4a90ebda286637511c705c012e42ff998391f  CR002_declared_premises.json
+  d68da8fe46c926f5c7175a83fc9515c142f3bd8fcb630774627c1d2a09787140  CR002_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+
+Internal cross-checks (sealed upstream PASS providing input identities):
+  CR013 (branch 06) — line-of-sight shrinkage A_los(z) sealed; saturates at 1/pi
+  bdd4dc29688af099a0ec5b6f47e4cb0e449f0ff36c45037e545bf76bb88879ce  CR018b_PRECOMMIT.md  (BAO-side H_0 anchor)
+  ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da  CR019_PRECOMMIT.md   (CMB compressed via fits)
+  64b17ea78ddcf1ecfeffbcd722abc4f7446aaaeea1140e105acc3cad2c053bb1  CR001c@19_PRECOMMIT.md (CMB compressed via Peebles)

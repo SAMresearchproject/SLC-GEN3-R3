@@ -1,0 +1,76 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv",
+      "mode": "100644",
+      "git_blob": "309319379aef7fc51470cdc566dde17b7fd3b65a",
+      "bytes": 3619,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "60098d6d312087cf8cd227c24975d61b3c6d2ce7",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_phase_2_forward_blind_registry.csv.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_prediction_commit.json",
+      "mode": "100644",
+      "git_blob": "f469423fe455c76130400e8b1cbbd6fc8d69e308",
+      "bytes": 1155,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_prediction_commit.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_prediction_commit.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_prediction_commit.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_prediction_commit.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_result.md",
+      "mode": "100644",
+      "git_blob": "d6fb3ce7c53a73e7d24d171f0c8839f61c818437",
+      "bytes": 3564,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_runner.py",
+      "mode": "100644",
+      "git_blob": "e899b6d6601baf4304346775bf7239ea60ce0922",
+      "bytes": 16068,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_summary.json",
+      "mode": "100644",
+      "git_blob": "8588281340b8f75195a7c0513ac55043af153e4d",
+      "bytes": 3305,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH/CR098a_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR098a@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

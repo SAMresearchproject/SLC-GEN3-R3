@@ -1,0 +1,10 @@
+let surface = S8_BINARY_SURFACE
+let axis = X1_AXIS_SELF_CHANNEL
+
+let witness = RESOLVE(
+    surface,
+    B_CONTACT_OPERATOR,
+    axis
+)
+
+return witness

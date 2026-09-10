@@ -1,0 +1,88 @@
+{
+  "artifact": "CR253_PARTICLE_PROMOTER_80_ROW",
+  "precommit_hash": "a7ecd0a4718c3cda2252d44faceb33f72fdc1214679630a722d354a7d47f5461",
+  "catalog_hash": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+  "verdict": "BOUNDARY",
+  "n_loaded": 299,
+  "n_promoted": 80,
+  "n_matter": 48,
+  "n_anti": 32,
+  "n_conjugate_partners": 32,
+  "n_majorana_exceptions": 16,
+  "class_observed": {
+    "positron_substrate_slot": {
+      "matter": 1,
+      "anti": 1
+    },
+    "electron_like_minus": {
+      "matter": 1,
+      "anti": 1
+    },
+    "neutrino_like": {
+      "matter": 2,
+      "anti": 0
+    },
+    "quark_like_charged": {
+      "matter": 28,
+      "anti": 28
+    },
+    "neutral_higher_partition": {
+      "matter": 14,
+      "anti": 0
+    },
+    "heavier_positron_substrate_slot": {
+      "matter": 1,
+      "anti": 1
+    },
+    "heavier_charged_lepton_minus": {
+      "matter": 1,
+      "anti": 1
+    }
+  },
+  "class_expected": {
+    "electron_like_minus": {
+      "matter": 1,
+      "anti": 1
+    },
+    "positron_substrate_slot": {
+      "matter": 1,
+      "anti": 1
+    },
+    "heavier_charged_lepton_minus": {
+      "matter": 1,
+      "anti": 1
+    },
+    "heavier_positron_substrate_slot": {
+      "matter": 1,
+      "anti": 1
+    },
+    "neutrino_like": {
+      "matter": 2,
+      "anti": 0
+    },
+    "quark_like_charged": {
+      "matter": 28,
+      "anti": 28
+    },
+    "neutral_higher_partition": {
+      "matter": 14,
+      "anti": 0
+    }
+  },
+  "wrong_controls": {
+    "W1_include_composite": 116,
+    "W2_include_depth_2": 105,
+    "W3_drop_bigrade": 80,
+    "W4_allow_I_T_positive": 80,
+    "W5_random_perm_p": 0.0,
+    "W5_null_mean": 41.248
+  },
+  "verdict_conditions": {
+    "exactly_80": true,
+    "48_32_split": true,
+    "32_32_parity": true,
+    "class_breakdown_exact": true,
+    "W1_W4_sensitive": false,
+    "W5_p_lt_05": true
+  }
+}

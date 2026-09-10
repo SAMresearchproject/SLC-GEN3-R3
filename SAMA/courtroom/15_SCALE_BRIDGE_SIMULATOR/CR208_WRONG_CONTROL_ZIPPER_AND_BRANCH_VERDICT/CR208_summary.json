@@ -1,0 +1,95 @@
+{
+  "result_class": "CR208_PASS_SCALE_BRIDGE_SIMULATOR_WRONG_CONTROL_ZIPPER",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "SIMULATOR_BRANCH_VERDICT",
+  "question": "Does the scale bridge survive the full wrong-control zipper without overwriting individual gate verdicts?",
+  "pass_conditions": {
+    "zipper_gate_pass": true,
+    "not_audit_or_retest": true,
+    "no_courtroom_export_performed_upstream": true,
+    "no_free_parameters": true,
+    "all_controls_passed": true,
+    "controls_fire_or_degrade": true,
+    "honest_diagnostic_preserved": true,
+    "failed_controls_zero": true,
+    "families_complete": true,
+    "claim_file_contains_scale_bridge": true,
+    "honest_negatives_file_present": true
+  },
+  "evidence_rows": [
+    {
+      "key": "result_class",
+      "value": "PASS_G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER",
+      "note": "source G-test result"
+    },
+    {
+      "key": "total_controls",
+      "value": 43,
+      "note": "wrong-control zipper size"
+    },
+    {
+      "key": "controls_passed",
+      "value": 43,
+      "note": "all controls passed"
+    },
+    {
+      "key": "controls_fired_or_degraded",
+      "value": 42,
+      "note": "controls actually broke/degraded the wrong route"
+    },
+    {
+      "key": "honest_diagnostics",
+      "value": 1,
+      "note": "diagnostic retained, not hidden"
+    },
+    {
+      "key": "failed_controls",
+      "value": 0,
+      "note": "must be zero"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that the scale bridge survived a full wrong-control zipper with 43/43 controls passed, no failed controls, and individual gate verdicts preserved.",
+  "notes": [
+    "CR204 and CR207 remain BOUNDARY by design while CR208 records the branch-level wrong-control PASS.",
+    "The branch strongest claim is imported from G757c and hash-anchored here."
+  ],
+  "test_id": "CR208",
+  "generated_at_utc": "2026-06-14T04:04:01.957991+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER\\G757c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "adaebad3d64c2988f5fb8a7b137f7cfb367a6104ac5987a085c613ef9b32c51b",
+      "bytes": 2382,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "control_matrix",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER\\G757c_control_fire_matrix.csv",
+      "role": "full_wrong_control_matrix",
+      "sha256": "9ff7852bd25620e70cbb0d91e5f353d32f76d3bbc6b4b99ed645897fed812667",
+      "bytes": 7405,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "strongest_claim",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER\\G757c_strongest_surviving_claim.md",
+      "role": "strongest_surviving_claim",
+      "sha256": "c521e33c80dc3d2208b18f6418f3b2cfd1cbdcdbffe2b49a00dab0d8c8044cf6",
+      "bytes": 853,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "honest_negatives",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER\\G757c_honest_negatives.md",
+      "role": "honest_negatives",
+      "sha256": "e2674e710217b0d41167136a1fe4a1fac48248d998ece9e1167dc0c530e3f8f7",
+      "bytes": 356,
+      "used_as_computed_input": true
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "framework": {
+    "D": 3,
+    "M": 8,
+    "N": 200000,
+    "A0": 0.026525823848649224,
+    "chi_closed_form": 0.07073553026306459,
+    "sigma_mc_theory": 7.908472704635302e-05,
+    "pass_criterion_3sigma_absolute": 0.00023725418113905905,
+    "n_seeds": 10,
+    "chi_grand_mean": 0.07073553026306459,
+    "max_abs_deviation_from_closed_form": 0.00016795267466836183,
+    "empirical_std_across_all_chi_d": 9.008872095379507e-05,
+    "ratio_empirical_to_theory_std": 1.1391418333023065,
+    "pass_per_direction_3sigma": true,
+    "seed_independence_4sigma_per_seed_mean": true,
+    "per_seed_means": [
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646,
+      0.0707355302630646
+    ],
+    "runs": [
+      {
+        "seed": 0,
+        "chi_per_direction": [
+          0.07058800247275969,
+          0.07071545905635244,
+          0.07090312926008165
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 1,
+        "chi_per_direction": [
+          0.07084052831579883,
+          0.07064728768906142,
+          0.07071877478433353
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 2,
+        "chi_per_direction": [
+          0.07076453183047245,
+          0.07074344380051277,
+          0.07069861515820856
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 3,
+        "chi_per_direction": [
+          0.07063694261776045,
+          0.07072845671003829,
+          0.07084119146139506
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 4,
+        "chi_per_direction": [
+          0.07064344144460337,
+          0.07067673135353343,
+          0.070886417991057
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 5,
+        "chi_per_direction": [
+          0.07056757758839623,
+          0.07086201423311624,
+          0.07077699896768132
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 6,
+        "chi_per_direction": [
+          0.0707204989628837,
+          0.07079264920375203,
+          0.07069344262255808
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 7,
+        "chi_per_direction": [
+          0.07065192970823493,
+          0.0707842935692397,
+          0.07077036751171915
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 8,
+        "chi_per_direction": [
+          0.07065285811206964,
+          0.07085339334036543,
+          0.07070033933675872
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      },
+      {
+        "seed": 9,
+        "chi_per_direction": [
+          0.0708039226788877,
+          0.07079450601142144,
+          0.07060816209888467
+        ],
+        "chi_mean_across_directions": 0.0707355302630646,
+        "sigma_mc_theory": 7.908472704635302e-05
+      }
+    ]
+  },
+  "wrong_controls": [
+    {
+      "label": "binary_to_ternary",
+      "D": 3,
+      "M": 27,
+      "A0_factor": 1.0,
+      "expected_convergence": 0.238732414637843,
+      "empirical_mean": 0.23873241463784303,
+      "actual_shift_from_framework_chi": 0.16799688437477844,
+      "envelope_predicted_shift": 0.168,
+      "shift_matches_envelope_within_5pct": true,
+      "sigma_mc_perturbed": 0.00014528792078313682,
+      "bite_in_sigma_perturbed": 1156.3031769553509
+    },
+    {
+      "label": "D_3_to_2",
+      "D": 2,
+      "M": 4,
+      "A0_factor": 1.0,
+      "expected_convergence": 0.05305164769729845,
+      "empirical_mean": 0.05305164769729845,
+      "actual_shift_from_framework_chi": -0.01768388256576614,
+      "envelope_predicted_shift": -0.0177,
+      "shift_matches_envelope_within_5pct": true,
+      "sigma_mc_perturbed": 5.931354528476476e-05,
+      "bite_in_sigma_perturbed": -298.14239699997177
+    },
+    {
+      "label": "D_3_to_4",
+      "D": 4,
+      "M": 16,
+      "A0_factor": 1.0,
+      "expected_convergence": 0.1061032953945969,
+      "empirical_mean": 0.1061032953945969,
+      "actual_shift_from_framework_chi": 0.03536776513153231,
+      "envelope_predicted_shift": 0.0354,
+      "shift_matches_envelope_within_5pct": true,
+      "sigma_mc_perturbed": 0.00010273407401024998,
+      "bite_in_sigma_perturbed": 344.26518632954827
+    },
+    {
+      "label": "A0_plus_10pct",
+      "D": 3,
+      "M": 8,
+      "A0_factor": 1.1,
+      "expected_convergence": 0.07780908328937106,
+      "empirical_mean": 0.07780908328937107,
+      "actual_shift_from_framework_chi": 0.007073553026306481,
+      "envelope_predicted_shift": 0.00707,
+      "shift_matches_envelope_within_5pct": true,
+      "sigma_mc_perturbed": 8.699319975098833e-05,
+      "bite_in_sigma_perturbed": 81.3115628181744
+    },
+    {
+      "label": "A0_minus_10pct",
+      "D": 3,
+      "M": 8,
+      "A0_factor": 0.9,
+      "expected_convergence": 0.06366197723675814,
+      "empirical_mean": 0.06366197723675814,
+      "actual_shift_from_framework_chi": -0.007073553026306453,
+      "envelope_predicted_shift": -0.00707,
+      "shift_matches_envelope_within_5pct": true,
+      "sigma_mc_perturbed": 7.117625434171771e-05,
+      "bite_in_sigma_perturbed": -99.38079899999056
+    }
+  ],
+  "all_wrong_controls_bite_above_50sigma": true,
+  "all_wrong_controls_match_envelope_within_5pct": true,
+  "cross_link_to_1_minus_chi_verdict": {
+    "chi_framework": 0.07073553026306459,
+    "chi_under_ternary": 0.23873241463784303,
+    "omega_b_framework": 0.049299011266100756,
+    "omega_b_under_ternary": 0.04038649974200623,
+    "omega_b_shift": -0.00891251152409453,
+    "planck_omega_b_err": 0.0006,
+    "omega_b_shift_in_planck_sigma": -14.854185873490884,
+    "envelope_predicted_sigma": -15.0,
+    "matches_envelope_within_3sigma": true
+  },
+  "anti_g219b_diagnostic": {
+    "different_seeds_different_results_at_direction_0": true,
+    "n_distinct_direction_0_values_across_seeds": 10,
+    "direction_0_across_seeds": [
+      0.07058800247275969,
+      0.07084052831579883,
+      0.07076453183047245,
+      0.07063694261776045,
+      0.07064344144460337,
+      0.07056757758839623,
+      0.0707204989628837,
+      0.07065192970823493,
+      0.07065285811206964,
+      0.0708039226788877
+    ],
+    "per_direction_within_one_seed_distinct": true,
+    "empirical_std_over_theory_std": 1.1391418333023065,
+    "empirical_std_matches_theory_within_20pct": true
+  },
+  "OVERALL_PASS": true
+}

@@ -1,0 +1,48 @@
+{
+  "artifact": "QP091H_PARTIAL_WIDTH_BRANCHING_LEDGER",
+  "generated_at_utc": "2026-06-14T22:47:03.376778+00:00",
+  "result_class": "PASS_QP091H_RELATIVE_BRANCHING_RANK_LEDGER_EMITTED__BOUNDARY_ABSOLUTE_WIDTH_OPEN",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "test_type": "FORWARD_NATIVE_PARTIAL_WIDTH_BRANCHING_LEDGER",
+  "campaign": "closure_campaign08",
+  "partial_width_candidate_rows": 3,
+  "total_width_candidate_rows": 1,
+  "branching_candidate_rows": 3,
+  "missing_channel_rows": 12,
+  "declared_set_internal_share_sum": "1.000000",
+  "terminal_channel_relative_ledger": {
+    "4e": {
+      "relative_width_rank_index": "1.000000",
+      "declared_set_internal_share": "0.335405",
+      "rank": "1"
+    },
+    "2e2mu": {
+      "relative_width_rank_index": "0.993823",
+      "declared_set_internal_share": "0.333333",
+      "rank": "2"
+    },
+    "4mu": {
+      "relative_width_rank_index": "0.987647",
+      "declared_set_internal_share": "0.331262",
+      "rank": "3"
+    }
+  },
+  "relative_branching_rank_closed": true,
+  "numeric_amplitudes_derived": false,
+  "amplitude_squared_derived": false,
+  "numeric_partial_widths_derived": false,
+  "physical_total_width_derived": false,
+  "physical_branching_ratios_derived": false,
+  "observed_branching_ratios_used": false,
+  "observed_widths_used": false,
+  "forbidden_external_inputs_used": false,
+  "free_parameters_introduced": 0,
+  "full_electroweak_theorem_claimed": false,
+  "checks_passed": 13,
+  "checks_total": 13,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091H closes a relative HZZ4l terminal branching-rank ledger inside the declared three-channel set. It does not close physical partial widths or physical branching ratios because amplitude squared, width clock, absolute coupling normalization, and many target channels remain open or held.",
+  "next_frontier": "QP091I_EXTERNAL_REVEAL_MAP_AFTER_QP091B_H_FREEZE"
+}

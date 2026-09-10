@@ -1,0 +1,85 @@
+{
+  "cr_id": "CR090",
+  "title": "CERN_BLANK_INVENTORY_AND_COVERAGE_MAP",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "INVENTORY_AND_COVERAGE_MAP_NO_ANCHOR_TEST_IN_THIS_CR",
+  "blindness_protocol_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "PENDING_HASH_AT_RUNNER_TIME",
+  "blindness_pillars_relevant_to_CR090": [
+    "PILLAR_3_CROSS_SOURCE_BLINDNESS_MULTI_EXPERIMENT_REDUNDANCY (inventory must list parallel CERN measurements where they exist)",
+    "PILLAR_4_HONEST_NEGATIVE_DISCIPLINE_CR096_MUST_REJECT (inventory must include the seven CR096 classes)"
+  ],
+  "blindness_pillars_deferred_to_later_crs": [
+    "PILLAR_1_STRUCTURAL_BLINDNESS_ZERO_FREE_PARAMETERS (asserted at the QP075 / 09a level)",
+    "PILLAR_2_PROCEDURAL_BLINDNESS_PRE_COMMIT_PREDICTION_HASH (applies to CR091..CR095 runners only)"
+  ],
+  "candidate_inventory_path": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+  "coverage_map_path": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_coverage_map.md",
+  "anchor_class_definitions": {
+    "CR091_precision_electroweak": "W mass, Z mass, W width, Z width, sin^2 theta_W effective, m_top",
+    "CR092_higgs_sector": "Higgs mass, decay branching ratios H to gg / ZZ* / WW* / tau tau / bb / mu mu / Z gamma, signal strengths, self-coupling limits",
+    "CR093_heavy_flavour": "B_s to mu mu BR, B^0 to mu mu BR limit, delta_m_s, delta_m_d, sin 2 beta, gamma CKM, |V_cb|, phi_s, B to K* mu mu angular obs P5'",
+    "CR094_exotic_spectroscopy": "X(3872), Tcc(3875), pentaquark Pc states, Pcs strange pentaquark, Tcs/Zcs tetraquark, doubly-charm baryon Xi_cc++",
+    "CR095_lepton_universality": "R_K, R_K*, R_D, R_D*, R(J/psi), W to e/mu/tau universality"
+  },
+  "honest_negative_classes_for_CR096": {
+    "CLASS_A": {"description": "withdrawn or superseded CERN measurement", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "row identified as withdrawn at source; runner refuses to compute residual"},
+    "CLASS_B": {"description": "Tevatron measurement (CDF, D0) miscoded as CERN anchor", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "experiment not on CERN allow-list (Tevatron is Fermilab); rejection precedes residual computation"},
+    "CLASS_C": {"description": "B-factory measurement (Belle, BaBar, Belle II) miscoded as CERN anchor", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "experiment not on CERN allow-list (KEK/SLAC); rejection precedes residual computation"},
+    "CLASS_D": {"description": "Fermilab muon g-2 result miscoded as CERN anchor", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "experiment not on CERN allow-list (Fermilab); rejection precedes residual computation"},
+    "CLASS_E": {"description": "non-CERN neutrino (KamLAND, Super-K, IceCube, Daya Bay) miscoded as CERN anchor", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "experiment not on CERN allow-list; rejection precedes residual computation"},
+    "CLASS_F": {"description": "PDG world average used as CERN anchor (PDG is context-only)", "rejection_gate": "GATE_A_ADMISSIBILITY", "rationale": "PDG average is not an individual measurement; rejection precedes residual computation"},
+    "CLASS_G": {"description": "perturbed CERN value (real central value shifted by sizing rule below) miscoded as live", "rejection_gate": "GATE_R_RESIDUAL", "rationale": "row passes admissibility (real experiment, real publication) but central value is synthetic; rejection happens at residual stage"}
+  },
+  "class_G_perturbation_sizing_rule": {
+    "purpose": "guarantee CLASS_G row's residual exceeds the per-CR observation band by enough margin to fail Gate R unambiguously, regardless of how the per-CR tolerance is set",
+    "shift_amount_formula": "shift_amount = max(3 * observation_band_in_units_of_observable, 10 * stat_uncertainty, per_observable_floor)",
+    "shift_components": {
+      "3_x_observation_band": "ensures shift exceeds the declared band by 3x (residual will land at least 3 band-widths outside)",
+      "10_x_stat_uncertainty": "ensures shift exceeds the experiment's quoted stat by an order of magnitude (catches loose tolerance settings)",
+      "per_observable_floor": "absolute minimum shift (50 MeV for mass observables; observable-specific for ratios / branching fractions; declared in each target CR precommit) — prevents very-precision observables from getting tiny perturbations"
+    },
+    "class_G_value_computed_at": "each target CR's precommit time, once that CR's observation band is locked, before its anchor envelope is sealed",
+    "worked_example_CMS_W_mass_at_0_05_percent_band": {
+      "real_central_value_MeV": 80360.2,
+      "observation_band_MeV": 40.18,
+      "3_x_band_MeV": 120.54,
+      "10_x_stat_MeV": 21.0,
+      "floor_MeV": 50,
+      "shift_amount_MeV": 120.54,
+      "class_G_central_value_MeV": 80480.7,
+      "residual_against_SAM_prediction_80365_1_MeV": "approximately +0.144 percent",
+      "result": "AGREEMENT_OUTSIDE_DECLARED_BAND (Gate R bites as designed)"
+    },
+    "what_happens_if_class_G_residual_lands_inside_band": "CR097 records that the synthetic perturbation was insufficient and recommends curator tighten CLASS_G sizing on appeal; CR097 does NOT fail 09a, does NOT fail live rows, does NOT auto-fail the branch"
+  },
+  "minimum_inventory_thresholds": {
+    "live_candidates_per_anchor_class_cr": 5,
+    "honest_negative_candidates_total": 7,
+    "observables_with_multi_experiment_cross_source": 3
+  },
+  "citation_field_requirements_per_candidate": [
+    "candidate_id",
+    "observable_name",
+    "experiment",
+    "publication_reference (arxiv_id | cds_record | journal_doi)",
+    "publication_date_utc",
+    "anchor_class",
+    "target_cr",
+    "measurement_central_value (optional at CR090; mandatory at target CR envelope)",
+    "stat_uncertainty",
+    "sys_uncertainty",
+    "units",
+    "sam_prediction_source (09a row id or QP075 operator id)",
+    "cross_source_status (SINGLE | MULTI-COUNTERPART_LISTED)",
+    "citation_verification_status (PENDING | VERIFIED_BY_CURATOR)",
+    "honest_negative_class (NULL or CLASS_A..G)"
+  ],
+  "open_debts_declared_at_CR090": [
+    "Every citation_verification_status starts as PENDING. Curator must promote each to VERIFIED_BY_CURATOR before the target CR's anchor envelope is sealed.",
+    "Per-class tolerance bands are NOT declared in CR090; they are declared in each target CR's own precommit, locked before that CR's runner is invoked.",
+    "Anchor central values and uncertainties may be left blank at CR090 and filled in only when each target CR builds its anchor envelope. CR090 only requires that each row name an observable + experiment + publication + date; the numeric anchor value lives in the per-CR envelope subject to Pillar 2.",
+    "Blindness protocol sha256 is PENDING_HASH_AT_RUNNER_TIME; it must be filled in by the CR090 runner at invocation."
+  ]
+}

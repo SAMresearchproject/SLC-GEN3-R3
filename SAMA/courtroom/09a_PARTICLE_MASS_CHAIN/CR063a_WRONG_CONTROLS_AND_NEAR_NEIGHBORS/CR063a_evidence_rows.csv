@@ -1,0 +1,8 @@
+check,observed,expected,status
+old_cr062_rows_extracted,15,15,PASS
+old_claim_acknowledges_old_scope,True,True,PASS
+old_claim_acknowledges_qp075_35_row_surface,True,True,PASS
+old_claim_acknowledges_26_operator_backbone,True,True,PASS
+qp075_active_closure_rows,35,35,PASS
+qp075_active_operator_rows,26,26,PASS
+qp075_free_parameters,0,0,PASS

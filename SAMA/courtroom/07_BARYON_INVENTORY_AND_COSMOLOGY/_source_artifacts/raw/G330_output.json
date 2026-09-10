@@ -1,0 +1,196 @@
+﻿{
+  "test": "G330_pbh_initial_a_inventory_cmb_boundary",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T16:09:45.243170+00:00",
+  "precheck": "audit/G330_pbh_initial_a_inventory_cmb_boundary_PRECHECK_2026_05_26.md",
+  "sealed_envelope": "audit/SEALED_ENVELOPE_G330_pbh_initial_a_inventory_cmb_boundary_2026_05_26.md",
+  "grade": "branch-selection / boundary established; not CMB theorem",
+  "predictions": {
+    "P1": {
+      "name": "A inventory closes component-wise",
+      "Omega_tot": 1.0,
+      "Omega_m_eff": 0.3137609155690572,
+      "Omega_birth_PBH_trapped": 0.26446190430295646,
+      "Omega_outside_baryon": 0.049299011266100756,
+      "component_sum": 0.3137609155690572,
+      "pass": true
+    },
+    "P2": {
+      "name": "birth PBHs equal trapped/dark component, not all matter plus outside matter",
+      "birth_equals_all_residual": 0.049299011266100756,
+      "outside_component": 0.049299011266100756,
+      "pass": true
+    },
+    "P3": {
+      "name": "PBH-trapped component is dominant but outside component is nonzero",
+      "trapped_fraction_of_matter": 0.8428771436471338,
+      "outside_fraction_of_matter": 0.15712285635286619,
+      "pass": true
+    },
+    "P4": {
+      "name": "PBH dark component is primordial-dominated under G223-style estimate",
+      "M_DM_total_kg": 2.4453328213606473e+52,
+      "M_astro_total_kg": 2.0083547e+50,
+      "f_astro_of_DM": 0.008213011670462506,
+      "f_primordial_of_DM": 0.9917869883295375,
+      "pass": true
+    },
+    "P5": {
+      "name": "PBH separation/geometric opacity cannot be CMB transparency mechanism",
+      "rows": [
+        {
+          "mass_kg": 1000000000000000.0,
+          "mass_msun": 5.028992139685286e-16,
+          "number_density_m3": 2.9189143562596764e-33,
+          "mean_separation_m": 69972310688.84105,
+          "schwarzschild_radius_m": 1.4852320538237332e-12,
+          "separation_over_rs": 4.711203916498919e+22,
+          "horizon_length_m": 5.930725075166058e+21,
+          "geometric_tau_over_horizon": 1.199686148428298e-34
+        },
+        {
+          "mass_kg": 1e+18,
+          "mass_msun": 5.028992139685286e-13,
+          "number_density_m3": 2.9189143562596762e-36,
+          "mean_separation_m": 699723106888.4104,
+          "schwarzschild_radius_m": 1.485232053823733e-09,
+          "separation_over_rs": 4.7112039164989184e+20,
+          "horizon_length_m": 5.930725075166058e+21,
+          "geometric_tau_over_horizon": 1.1996861484282976e-31
+        },
+        {
+          "mass_kg": 5.96541e+31,
+          "mass_msun": 30.0,
+          "number_density_m3": 4.893065784681482e-50,
+          "mean_separation_m": 2.7340491342621892e+16,
+          "schwarzschild_radius_m": 88600.18146200635,
+          "separation_over_rs": 308582791722.002,
+          "horizon_length_m": 5.930725075166058e+21,
+          "geometric_tau_over_horizon": 7.156619746695651e-18
+        },
+        {
+          "mass_kg": 1.9884699999999998e+35,
+          "mass_msun": 99999.99999999999,
+          "number_density_m3": 1.4679197354044449e-53,
+          "mean_separation_m": 4.0841269225343597e+17,
+          "schwarzschild_radius_m": 295333938.2066878,
+          "separation_over_rs": 1382884387.5288408,
+          "horizon_length_m": 5.930725075166058e+21,
+          "geometric_tau_over_horizon": 2.385539915565217e-14
+        },
+        {
+          "mass_kg": 1.98847e+40,
+          "mass_msun": 10000000000.0,
+          "number_density_m3": 1.4679197354044447e-58,
+          "mean_separation_m": 1.8956837918692803e+19,
+          "schwarzschild_radius_m": 29533393820668.785,
+          "separation_over_rs": 641878.0731331311,
+          "horizon_length_m": 5.930725075166058e+21,
+          "geometric_tau_over_horizon": 2.3855399155652172e-09
+        }
+      ],
+      "max_tau_geom": 2.3855399155652172e-09,
+      "min_separation_over_rs": 641878.0731331311,
+      "pass": true
+    },
+    "P6": {
+      "name": "electron opacity changes strongly across recombination",
+      "electron_before": {
+        "x_e": 1.0,
+        "baryon_number_density_m3": 325310930.5844537,
+        "electron_number_density_m3": 325310930.5844537,
+        "mean_free_path_m": 4.620821102091372e+19,
+        "horizon_length_m": 5.930725075166058e+21,
+        "tau_over_horizon": 128.34786164913044
+      },
+      "electron_after": {
+        "x_e": 0.0001,
+        "baryon_number_density_m3": 325310930.5844537,
+        "electron_number_density_m3": 32531.09305844537,
+        "mean_free_path_m": 4.620821102091372e+23,
+        "horizon_length_m": 5.930725075166058e+21,
+        "tau_over_horizon": 0.012834786164913042
+      },
+      "tau_drop_factor": 10000.000000000002,
+      "pass": true
+    },
+    "P7": {
+      "name": "CMB timing rejects first-starlight ignition reading",
+      "z_CMB": 1089.0,
+      "z_first_stars_low": 15.0,
+      "z_first_stars_high": 30.0,
+      "CMB_precedes_first_stars": true,
+      "pass": true
+    },
+    "P8": {
+      "name": "boundary / branch-selection, not theorem-grade CMB or matter-antimatter proof",
+      "surviving_reading": "CMB = transparency of outside/escaped baryonic plasma, not PBH geometric separation",
+      "missing_frontier": [
+        "derive birth-PBH mass function rather than supply it",
+        "derive outside/escaped baryon thermal history from SAM action",
+        "Boltzmann-code CMB spectrum comparison",
+        "derive perturbation spectrum and acoustic peaks",
+        "connect matter-antimatter no-touch ontology to an observational signature"
+      ],
+      "pass": true
+    }
+  },
+  "wrong_controls": {
+    "WC1": {
+      "name": "birth PBHs equal all matter while outside matter also counted",
+      "double_count_value": 0.363059926835158,
+      "expected_matter": 0.3137609155690572,
+      "bites": true,
+      "pass": true
+    },
+    "WC2": {
+      "name": "birth PBHs equal Omega_tot=1",
+      "Omega_birth_PBH": 0.26446190430295646,
+      "Omega_tot": 1.0,
+      "bites": true,
+      "pass": true
+    },
+    "WC3": {
+      "name": "PBH geometric opacity controls CMB transparency",
+      "max_tau_geom": 2.3855399155652172e-09,
+      "bites": true,
+      "pass": true
+    },
+    "WC4": {
+      "name": "CMB is first stellar ignition light",
+      "z_CMB": 1089.0,
+      "z_first_stars_high": 30.0,
+      "bites": true,
+      "pass": true
+    },
+    "WC5": {
+      "name": "no outside baryonic component needed",
+      "Omega_b": 0.049299011266100756,
+      "bites": true,
+      "pass": true
+    },
+    "WC6": {
+      "name": "astrophysical BHs dominate PBH dark component",
+      "f_astro_of_DM": 0.008213011670462506,
+      "bites": true,
+      "pass": true
+    },
+    "WC7": {
+      "name": "supplied PBH masses/halo profile are theorem-grade derivation",
+      "supplied_mass_function_theorem": false,
+      "bites": true,
+      "pass": true
+    },
+    "WC8": {
+      "name": "test proves matter-antimatter theory or baryogenesis closure",
+      "proves_full_theory": false,
+      "bites": true,
+      "pass": true
+    }
+  },
+  "verdict": "G330_PBH_INITIAL_A_INVENTORY_CMB_TRANSPARENCY_BOUNDARY_ESTABLISHED",
+  "prediction_pass_count": 8,
+  "prediction_total": 8,
+  "wrong_control_pass_count": 8,
+  "wrong_control_total": 8
+}

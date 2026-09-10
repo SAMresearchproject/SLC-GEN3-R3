@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_G752c_CHLADNI_TO_PARTICLE_ROUTE_CLOSURE_BRIDGE_QP091_FRESH,source G-test result
+live_surface,C:\VS\quantum_phase\artifacts\qp091,fresh QP091 surface
+lab_plate_campaign,C:\VS\Stam_model-A-v1.0\tests\Substrate\G518_G524_CHLADNI_PLATE_CAMPAIGN,lab plate path
+direct_qp075_live_inputs,0,stale direct inputs rejected
+wrong_controls,6/6,all Chladni controls rejected

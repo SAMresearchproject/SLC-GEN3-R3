@@ -1,0 +1,30 @@
+{
+  "binding_fields_present": [
+    "A",
+    "B_u_base_MeV",
+    "B_u_final_MeV",
+    "B_u_obs_MeV",
+    "N",
+    "Z",
+    "isotope",
+    "op_contribution_MeV",
+    "residual_MeV"
+  ],
+  "existing_metrics": {
+    "MAE_MeV": 4.336237810269826,
+    "RMS_MeV": 6.672483508062074,
+    "n": 118,
+    "within_15": 114,
+    "within_30": 117,
+    "within_5": 82,
+    "within_8": 107
+  },
+  "frontier_rows": 8,
+  "observed_rows": 118,
+  "p189_mapping_fields_present": [],
+  "panel_role": "SEALED_REPRESENTATIVE_ISOTOPE_PER_ELEMENT_BINDING_PANEL",
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "rows": 126,
+  "source": "CR277_element_table.csv",
+  "values_or_coefficients_modified": false
+}

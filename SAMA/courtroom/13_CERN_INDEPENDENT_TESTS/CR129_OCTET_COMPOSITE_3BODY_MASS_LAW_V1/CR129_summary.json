@@ -1,0 +1,146 @@
+{
+  "audit_qualifier": {
+    "applied_utc": "2026-06-17T23:34:33Z",
+    "driving_appeal_cr": "CR-142",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "qualifier_type": "HEADLINE_IN_SAMPLE_DISCLOSURE",
+    "verdict_unchanged": true,
+    "qualifier_summary": "Law extracted inductively from CR-119 catalog; reported in-sample match is GENERATOR CONSISTENCY against training data, not first-principles derivation. Forward-blind falsifier (PRED_1) commits the law to forward-blind testing on future rows. Existing WC3-equivalent wrong control carries the full disclosure; this qualifier surfaces it to the headline level.",
+    "audit_finding_tier": "Tier 2 PASS_WITH_REWORD (headline visibility of in-sample qualifier)",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1/",
+    "pre_qualifier_result_md_sha256": "fdac1eabf889c094d44d6c12bf0b592306f7786f74a52a3c11223120ddf354e9",
+    "pre_qualifier_summary_json_sha256": "505e2aa33eac613928f74852afc9b01b2eebbbb2963cbd563641fcbbca58a78e",
+    "predecessor_appeal_cr": "CR-141 (self-hash repair; pre-qualifier state is the post-CR141 state)"
+  },
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "law_lock_sha256",
+    "old_value": "210e174e5145da6815fe27e7c6985886292a99cfb57f29a003fb3e1be8d95360",
+    "new_value": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1/",
+    "original_result_md_sha256": "836e8fbcfa1209d3dda1bc3947f684d65a613001282472392e397a84e3f2cbf4",
+    "original_summary_json_sha256": "30e12eb8bfc6d404541a9748c2c6357244352dc8823c0e7827a3db3a0cdb4aae"
+  },
+  "cr_id": "CR129",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OCTET_COMPOSITE_3BODY_MASS_LAW_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:50:14Z",
+  "formula_3body": "M_native(a, b, c) = R * D * (a^2 + b^2 + c^2)",
+  "formula_2body_BCP": "M_native(a, b) = R * a * b + D * |a - b|  (per CR128)",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "R_times_D": 36
+  },
+  "partition_algebra": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "total_OCTET_rows": 104,
+  "3_body_rows_tested": 76,
+  "3_body_matches": 76,
+  "3_body_violations": 0,
+  "2_body_rows_tested": 28,
+  "2_body_matches": 28,
+  "2_body_violations": 0,
+  "distinct_3body_triples": 76,
+  "distinct_2body_pairs": 15,
+  "verification_csv_sha256": "abe8df7fe3d752accbe115728d53d3f8fa2c256c3ca7f1d3dd0bdb56358378df",
+  "law_lock_sha256": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_OCTET_rows_walked",
+      "pass": true,
+      "details": "OCTET rows walked = 104 of 104, parse_failures = 0"
+    },
+    {
+      "name": "P2_3body_formula_matches_all_3body_rows",
+      "pass": true,
+      "details": "3-body matches = 76/76, violations = 0"
+    },
+    {
+      "name": "P3_2body_BCP_formula_matches_all_2body_OCTET_rows",
+      "pass": true,
+      "details": "2-body matches = 28/28, violations = 0 (CR128 BCP formula extends to OCTET 2-body)"
+    },
+    {
+      "name": "P4_partition_algebra_unbroken",
+      "pass": true,
+      "details": "algebra_violations = 0"
+    },
+    {
+      "name": "P5_distinct_3body_triples_covered",
+      "pass": true,
+      "details": "distinct 3-body triples observed = 76"
+    },
+    {
+      "name": "P6_forward_blind_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = 041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only; sha recorded"
+    },
+    {
+      "name": "WC2_CR128_law_locks_unmodified",
+      "pass": true,
+      "details": "CR128 + CR128b law locks read-only; CR129 references but does not modify"
+    },
+    {
+      "name": "WC3_law_derived_inductively_not_from_first_principles",
+      "pass": true,
+      "details": "Formula M_native = R*D*(a^2+b^2+c^2) was extracted by inspecting the OCTET 3-body row collection.  In-sample 100% match confirms generator consistency with all rows currently in CR119.  Forward-blind falsifier CR129_PRED_1 commits the formula for testing on FUTURE rows where overfit cannot operate."
+    },
+    {
+      "name": "WC4_S_debit_formula_intentionally_NOT_claimed",
+      "pass": true,
+      "details": "The 3-body OCTET rows show varied S_debit values (from milli-MeV to ~150 MeV for some unsymmetric configurations).  No clean closed form for S_debit is claimed in CR129; reserved for CR129b."
+    },
+    {
+      "name": "WC5_2_body_OCTET_rows_use_CR128_formula_not_3body_one",
+      "pass": true,
+      "details": "OCTET_COMPOSITE rows with 2-element partitions (e.g. (1,9), (1,12), (8,12)) follow the CR128 BCP formula M = R*a*b + D*|a-b|, NOT the 3-body formula.  This is verified in this CR's predictions (P3)."
+    },
+    {
+      "name": "WC6_GROUND_BARYON_3BODY_explicitly_out_of_scope",
+      "pass": true,
+      "details": "GROUND_BARYON_3BODY is a different operator_class with its own 3-body structure.  CR129 does NOT claim that the same formula applies; CR129c will investigate."
+    },
+    {
+      "name": "WC7_symmetry_observation_noted",
+      "pass": true,
+      "details": "The 3-body formula is fully symmetric in (a, b, c) -- no antisymmetric term.  Unlike the 2-body case (where |a-b| is essential), 3-body M_native depends only on the multiset {a, b, c}.  This is observed structurally, not derived."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR129b: derive S_debit formula for 3-body OCTET rows (the 75 observed values are not yet captured by a closed form)",
+    "CR129c: test whether GROUND_BARYON_3BODY (different operator_class) obeys the same formula",
+    "Why the 3-body formula has no antisymmetric term while the 2-body formula does is a structural question -- separate derivation CR",
+    "Forward-blind test CR129_PRED_1 resolves when CR119 gains new 3-body OCTET rows"
+  ]
+}

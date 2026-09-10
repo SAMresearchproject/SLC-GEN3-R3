@@ -1,0 +1,25 @@
+{
+  "cr_id": "CR214",
+  "test_id": "CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT",
+  "task": "Identify the 195 CR119 particle rows outside the matter periodic subset boundary",
+  "classification": "courtroom_table_complement_audit",
+  "source_boundary": {
+    "primary": [
+      "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv",
+      "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_matter_table.csv",
+      "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_periodic_table.csv",
+      "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/source_copies/latest_table_export_summary.json",
+      "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/source_copies/latest_table_counts.csv"
+    ],
+    "last_campaign": [
+      "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv",
+      "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_generator_suite_register.csv"
+    ]
+  },
+  "claim_boundary": [
+    "195 is computed as CR119 particle candidate ids absent from the CR119 matter table.",
+    "Periodic rows are a separate element-family layer and are not subtracted by candidate id.",
+    "A count match may be logged as a lead only; it is not mechanism without row-level mapping."
+  ]
+}
+

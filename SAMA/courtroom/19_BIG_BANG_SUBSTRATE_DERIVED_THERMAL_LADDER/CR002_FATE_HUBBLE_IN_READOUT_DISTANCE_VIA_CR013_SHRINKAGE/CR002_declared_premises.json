@@ -1,0 +1,64 @@
+{
+  "cr_id": "CR002@19",
+  "branch": "19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER",
+  "title": "FATE_HUBBLE_IN_READOUT_DISTANCE_VIA_CR013_SHRINKAGE",
+  "precommit_sha256": "b18c49fc4f3c2d73c87cbf0112072db4483d9678e7a42dc052f6c60cc4b26633",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_zero_catalog_fit": {
+    "A_0_formula": "1/(12*pi)",
+    "A_0_value": 0.02652582384864922,
+    "R_value": 12,
+    "D_value": 3,
+    "Omega_m_formula": "R*A_0 = 1/pi",
+    "Omega_m_value": 0.3183098861837907,
+    "Omega_L_formula": "1 - Omega_m = (pi-1)/pi",
+    "Omega_L_value": 0.6816901138162093,
+    "A_los_max_formula": "lim z->inf of A_0*R*(1-(1+z)^(-D)) = 1/pi",
+    "A_los_max_value": 0.3183098861837907,
+    "CR013_seal_reference": "C:\\VS\\The_Courtroom\\06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE\\CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE\\CR013_summary.json"
+  },
+  "measurement_inputs_external_not_catalog_fit": {
+    "H_0_kms_Mpc": 68.76,
+    "H_0_source": "BAO-side anchor; same as CR018b, CR019, CR001c@19"
+  },
+  "closed_form_derivation_chain": {
+    "step_1_PDF_fate_native": "H_inf_native = H_0 * sqrt(Omega_L) = H_0 * sqrt((pi-1)/pi)",
+    "step_2_CR013_saturation": "1 - A_los_max = (pi-1)/pi",
+    "step_3_apply_shrinkage": "H_readout = H_native * (1 - A_los); at saturation H_inf_readout = H_0 * ((pi-1)/pi)^(3/2)"
+  },
+  "load_bearing_predictions": {
+    "P1": {
+      "name": "H_inf_native three-path closed-form identity",
+      "tolerance_rel": 1e-12,
+      "paths": ["H_0 * sqrt(Omega_L)", "H_0 * sqrt(1 - Omega_m)", "H_0 * sqrt((pi-1)/pi)"]
+    },
+    "P2": {
+      "name": "H_inf_readout two-path closed-form identity",
+      "tolerance_rel": 1e-12,
+      "paths": ["H_inf_native * (1 - A_los_max)", "H_0 * ((pi-1)/pi)^(3/2)"]
+    },
+    "P3": {
+      "name": "CR013 line-of-sight saturation at z->inf",
+      "tolerance_rel": 1e-9,
+      "test": "|A_los(z=1e6) - 1/pi| / (1/pi) <= 1e-9"
+    }
+  },
+  "reported_evidence_not_gates": {
+    "E1_E2": "A_los, c_eff, H(z) native and readout track at z in {0, z_eq_Lambda, z_acc, 1, 5, 10, 100, 1090, 1e6, fate}",
+    "E3": "fate PDF closed-form checkpoint constants z_eq_Lambda, z_acc, q_0",
+    "E4": "LambdaCDM-fit comparison: H_inf_LCDM_native vs H_inf_SAM_native (LCDM has no readout analog)",
+    "E5": "headline ratio H_inf_readout / H_0 = ((pi-1)/pi)^(3/2)"
+  },
+  "no_wrong_controls": "Structural-identity CR; randomized parameters would produce different numbers but would not test the identity. No null distributions.",
+  "verdict_ladder_first": {
+    "PASS": "P1, P2, P3 all hold within tolerance",
+    "FAIL": "any of P1, P2, P3 fails its tolerance",
+    "BOUNDARY": "not applicable (algebra either agrees or it does not)"
+  },
+  "rule_9_falsifier": "The claim that SAM's substrate identities composed with the sealed CR013 line-of-sight shrinkage produce H_inf_readout = H_0 * ((pi-1)/pi)^(3/2) as a consistent closed-form identity.",
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold to machine precision (~1e-16); substrate identities and CR013 shrinkage compose to H_inf_readout = 38.7005 km/s/Mpc at H_0 = 68.76.",
+  "headline": "H_inf_readout = H_0 * ((pi-1)/pi)^(3/2) ~ 38.70 km/s/Mpc; ratio to today's H_0 is 0.5628 (a closed form in pi alone)"
+}

@@ -1,0 +1,22 @@
+control,variant,matches_out_of_16,sensitive
+W1,divisor=2,0,True
+W1,divisor=3,0,True
+W1,divisor=4,0,True
+W1,divisor=6,0,True
+W1,divisor=9,0,True
+W1,divisor=12,0,True
+W1,divisor=18,0,True
+W1,divisor=24,0,True
+W1,divisor=27,0,True
+W1,divisor=36,0,True
+W1,divisor=81,0,True
+W1,divisor=144,0,True
+W2,R_d_minus_1,0,True
+W2,R_d_plus_1,0,True
+W2,R_2d,8,True
+W2,d_plus_1_pow_d,8,True
+W3,p_squared,2,True
+W3,p_times_D,0,True
+W3,constant_p_mean,0,True
+W3,sqrt_p_times_sqrt_p,16,True
+W4,"continuous random divisor (Uniform[2,50], 1000 draws)","0/1000 full, max=0",True

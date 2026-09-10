@@ -1,0 +1,13 @@
+control,observed,rejected,reason
+SUBSTITUTE_STRUCTURAL_OUTPUT_m_3_6,21|24|27,True,"does not reproduce M,N,L simultaneously"
+SUBSTITUTE_STRUCTURAL_OUTPUT_D^2_9,14|16|18,True,"does not reproduce M,N,L simultaneously"
+SUBSTITUTE_STRUCTURAL_OUTPUT_hV_54,7/3|8/3|3,True,"does not reproduce M,N,L simultaneously"
+WRONG_RELEASE_FRACTION_1_OVER_4,36,True,wrong split does not return Theta18
+WRONG_RELEASE_FRACTION_1_OVER_16,9,True,wrong split does not return Theta18
+A_ROUTE_DEPTH_0,12,True,does not give the N=8Theta contact scale
+A_ROUTE_DEPTH_2,1728,True,does not give the N=8Theta contact scale
+A_ROUTE_DEPTH_3,20736,True,does not give the N=8Theta contact scale
+MERGE_THETA_WITH_X1,PrimaryCarrier != AxisChannel,True,same normalized scalar is not typed identity
+USE_THETA_AS_MATTER,carrier_only_not_matter,True,registered type is carrier-only
+USE_18_AS_PHYSICAL_MASS_COEFFICIENT,not evaluated,True,forbidden by precommit
+PROMOTE_CORPUS_COUNT_TO_PROOF,descriptive only,True,prevalence is not physical proof

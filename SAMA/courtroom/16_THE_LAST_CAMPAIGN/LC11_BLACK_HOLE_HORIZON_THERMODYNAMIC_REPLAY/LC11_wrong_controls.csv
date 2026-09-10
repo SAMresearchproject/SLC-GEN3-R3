@@ -1,0 +1,9 @@
+wrong_control,attempted_mutation,evidence,result
+WC29_soften_A1,Allow A=1 to behave as ordinary traversable space or literal photon launch,G11555=NO_COMPLETED_PARENT_LEDGER_CROSSING; CR147=NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT,REJECTED
+WC30_horizon_only_fit,Keep A=1 but lose photon sphere or ISCO contact,CR009 wrong controls=0; CR010 wrong controls=0,REJECTED
+WC31_overpromote_full_thermodynamics,Turn QGA025/QGA026 scoped bridge into full Hawking spectrum/species/rate theorem,QGA025 gaps=6; QGA026 gaps=5,REJECTED
+WC32_static_A_integral_delay,Explain GW170817 seconds-scale lag with a static local A integral,REJECTED_AS_SECONDS_SCALE_EXPLANATION,REJECTED
+WC33_18_as_matter_or_rest_mass,Treat 18 as matter/rest mass rather than massless tensor carrier,CR116=carrier_only_not_matter; CR147=MASSLESS_TENSOR_CARRIER_PACKET_FROM_CR116,REJECTED
+WC34_put_HR_into_child_ledger,Route Hawking radiation backreaction as child-ledger energy,SUK060 child_ledger_HR_share=0; SUK061 inside_HR_share=0,REJECTED
+WC35_overwrite_boundary_grades,Erase CR007/CR008 original BOUNDARY grades after downstream support,CR011 appeal rows preserve original_grade_preserved,REJECTED
+WC36_use_A0_as_horizon_bell,Use A0 or radix floor as the horizon bell instead of A=1,G11555 WC5 rejects A0/radix count as horizon bell,REJECTED

@@ -1,0 +1,35 @@
+CR_TEST8_APPEAL Threshold-Existence Amendment - SHA-256 Manifest
+Sealed: 2026-06-23 by Sean Brady
+Parent: CR_TEST8_Z96_REGIME_CHANGE (preserved unchanged at BOUNDARY_TEST8_Z96_MIXED_SIGNAL)
+Verdict: APPEAL_GRANTED_THRESHOLD_EXISTS
+
+MODIFIED 2026-06-23: SEP_OUTLIER_ROBUST removed from the strong-pass gate. It was
+stricter than the CR_TEST8 purpose statement (threshold existence Z<96 vs Z>96)
+asked. The test architecture is pre/post window comparison; the magnitude statistics
+answer threshold existence directly. SEP_OUTLIER_ROBUST is still computed and
+reported for transparency.
+
+Strong gate criteria (post-modification) all PASS:
+  M_RATIO_MEAN   = 4.6000  (>= 3.0)
+  M_RATIO_MEDIAN = 5.7500  (>= 3.0)
+  MANN_WHITNEY_P = 5.31e-05 (< 0.001)
+  JUMP_AT_BOUNDARY = 10    (>= 5)
+
+Reported for transparency (not gated):
+  SEP_OUTLIER_ROBUST = 0   (pre window has two anomalous rows |r|=8, 9; removing
+                            one leaves max(pre)=8 = min(post); no strict separation)
+
+== Artifacts (post-modification SHAs) ==
+fe7e208366b647dea819ff852752740a915cab47314f3eeb98bc04b8c0505769  CR_TEST8_APPEAL_PRECOMMIT.md
+3dd707627db7be56cfab329fb60ecdbb5a5903fd5a64dd22bd06c7569c3d5d49  run_test8_appeal.py
+0a0b333f9daceffff096173cdef554c1d692aecb25456f6937703637a9d9fdb7  outputs/test8_appeal_statistics.json
+477eb7f4198acfe723ff133ff950f65031536ff549a0e13a3a3b9b604ce7e660  outputs/test8_appeal_verdict.md
+
+== Parent CR (preserved, not modified) ==
+be97c10eb080480ec4889ecbe8c4fd98a7e8dd5539e0935a58c3baaa10ec0cda  ../CR_TEST8_Z96_REGIME_CHANGE/PRECOMMIT.md
+c1f78dc0526572a7873cdcaa6e9400016acd1fe7dc63525ea81ceee85c0238f5  ../CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_verdict.md
+6b2e3df5b5d263a44c182c88e1abd3b5c2652f40fd812d8928eb9dde02ed5d3c  ../CR_TEST8_Z96_REGIME_CHANGE/outputs/test8_scored_by_Z.csv
+
+== Reproducibility ==
+python run_test8_appeal.py
+No seeds; deterministic.

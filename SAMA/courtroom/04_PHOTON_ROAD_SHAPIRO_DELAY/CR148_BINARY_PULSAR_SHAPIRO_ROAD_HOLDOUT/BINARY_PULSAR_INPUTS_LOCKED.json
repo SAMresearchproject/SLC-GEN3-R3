@@ -1,0 +1,167 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "input_lock_utc": "2026-07-11T17:28:47Z",
+  "target_locked_before_reveal": true,
+  "selected_system": "PSR J0737-3039A/B",
+  "source_paper": {
+    "title": "Tests of general relativity from timing the double pulsar",
+    "authors": "Kramer et al.",
+    "year": 2006,
+    "journal_reference": "Science 314:97-102",
+    "arxiv_id": "astro-ph/0609417",
+    "doi": "10.1126/science.1132305",
+    "source_data_version": "arXiv v1 source package submitted 2006-09-14 with Science supporting material"
+  },
+  "physical_constants": {
+    "T_sun_microseconds": {
+      "value": 4.925490947,
+      "unit": "microseconds",
+      "role": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source_line": "ksm+06.tex lines 418 and 438"
+    },
+    "seconds_per_day": {
+      "value": 86400.0,
+      "unit": "s/day",
+      "role": "DERIVATION_INPUT"
+    },
+    "speed_of_light": {
+      "value": 299792458.0,
+      "unit": "m/s",
+      "role": "DERIVATION_INPUT",
+      "status": "SI exact"
+    }
+  },
+  "external_anchors": {
+    "orbital_period_Pb": {
+      "value": 0.10225156248,
+      "uncertainty_parentheses": "5",
+      "unit": "day",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 899"
+    },
+    "eccentricity_e": {
+      "value": 0.0877775,
+      "uncertainty_parentheses": "9",
+      "unit": "dimensionless",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 900"
+    },
+    "projected_semimajor_axis_A_x": {
+      "value": 1.415032,
+      "uncertainty_parentheses": "1",
+      "unit": "light-second",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 901"
+    },
+    "projected_semimajor_axis_B_x": {
+      "value": 1.5161,
+      "uncertainty_parentheses": "16",
+      "unit": "light-second",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 902"
+    },
+    "longitude_of_periastron_omega_A": {
+      "value": 87.0331,
+      "uncertainty_parentheses": "8",
+      "unit": "degree",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 903"
+    },
+    "epoch_of_periastron_T0": {
+      "value": 53155.9074280,
+      "uncertainty_parentheses": "2",
+      "unit": "MJD",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 904"
+    },
+    "periastron_advance_omega_dot_A": {
+      "value": 16.89947,
+      "uncertainty_parentheses": "68",
+      "unit": "deg/year",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 905"
+    },
+    "mass_function_A": {
+      "value": 0.29096571,
+      "uncertainty_parentheses": "87",
+      "unit": "solar_mass",
+      "role": "DERIVATION_INPUT",
+      "source_line": "ksm+06.tex line 918"
+    },
+    "mass_function_B": {
+      "value": 0.3579,
+      "uncertainty_parentheses": "11",
+      "unit": "solar_mass",
+      "role": "DERIVATION_INPUT",
+      "source_line": "ksm+06.tex line 918"
+    },
+    "mass_ratio_R_mA_over_mB": {
+      "value": 1.0714,
+      "uncertainty_parentheses": "11",
+      "unit": "dimensionless",
+      "role": "EXTERNAL_GEOMETRY_ANCHOR",
+      "source_line": "ksm+06.tex line 919"
+    },
+    "total_system_mass": {
+      "value": 2.58708,
+      "uncertainty_parentheses": "16",
+      "unit": "solar_mass",
+      "role": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source_line": "ksm+06.tex line 920"
+    },
+    "pulsar_A_mass": {
+      "value": 1.3381,
+      "uncertainty_parentheses": "7",
+      "unit": "solar_mass",
+      "role": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source_line": "ksm+06.tex line 921"
+    },
+    "companion_B_mass_for_A_pulses": {
+      "value": 1.2489,
+      "uncertainty_parentheses": "7",
+      "unit": "solar_mass",
+      "role": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source_line": "ksm+06.tex line 921"
+    }
+  },
+  "withheld_observational_comparators": {
+    "shapiro_shape_s_observed": {
+      "role": "OBSERVATIONAL_COMPARATOR_WITHHELD",
+      "status": "withheld until target reveal"
+    },
+    "shapiro_shape_observed_over_expected_ratio": {
+      "role": "OBSERVATIONAL_COMPARATOR_WITHHELD",
+      "status": "withheld until target reveal"
+    },
+    "published_uncertainty_for_primary_shape_comparator": {
+      "role": "OBSERVATIONAL_COMPARATOR_WITHHELD",
+      "status": "withheld until target reveal"
+    }
+  },
+  "derivation_outputs_locked_before_reveal": {
+    "orbital_period_seconds": 8834.534998272,
+    "mass_function_A_from_xA_Pb_Tsun": 0.290965571533945,
+    "s_SAM_from_published_mass_function_A_M_total_mB": 0.999906773574375,
+    "s_SAM_from_xA_Pb_M_total_mB": 0.999906614960991,
+    "r_SAM_microseconds_from_mB": 6.1514456437083,
+    "mB_from_M_total_and_R": 1.248952399343439,
+    "mA_from_M_total_and_R": 1.338127600656561
+  },
+  "target_readout_type": "Shapiro shape parameter s = sin(i), with SAM range r = GM_B/c^3 reported as a derived road coefficient",
+  "baseline_convention": {
+    "delay_curve": "DD Shapiro expression written as -2 r ln(q(E)); curve outputs subtract the value at E=0 as the removable additive timing baseline",
+    "parameter_readout": "range and shape parameters are read from the coefficient and geometry, not from a fitted post-reveal baseline"
+  },
+  "uncertainty_treatment_precommitted": {
+    "primary_gate": "independent uncertainty z-test on the published Shapiro shape observed/expected ratio if present; otherwise z-test on s_obs - s_SAM",
+    "pass_threshold": "|z| <= 1.96",
+    "control_sensitivity_floor_before_reveal": "5e-4 in dimensionless shape/ratio space or visibly wrong delay-curve morphology; floor chosen from the source abstract's metadata-level 0.05 percent precision statement without opening the target value"
+  },
+  "observer_geometry_convention": {
+    "timing_model": "Damour-Deruelle eccentric-binary Shapiro delay convention",
+    "q_E": "1 - e cos(E) - s [sin(omega)(cos(E)-e) + sqrt(1-e^2) cos(omega) sin(E)]",
+    "road_delay": "Delta_S(E) = -2 r ln(q_E)"
+  },
+  "target_value_opened": false
+}
+

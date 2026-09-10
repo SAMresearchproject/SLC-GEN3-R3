@@ -1,0 +1,178 @@
+{
+  "precommit_sha256": "6ab6024c6e99ae35540ba93976cda79c3b2569bc4fffcd2371e36fd6ab4bd8ca",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR037C_PARAMETER_FREE_ACT_DR4_INDEPENDENCE",
+  "classification": "EXTERNAL_CATALOG_INDEPENDENCE_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "verdict_reason": "P1 PASS, P2 PASS, polarization not degraded",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "Run_B_optimizer_used": false,
+  "yp2_fitted": false,
+  "yp2_value": 1.0,
+  "act_data_sha256_verified": true,
+  "forbidden_files_opened": false,
+  "opened_paths_count": 4,
+  "pyactlike_imported": false,
+  "regex_pattern_guard_tripped": false,
+  "unexpected_paths_count": 1,
+  "unexpected_paths_sample": [
+    "c:\\users\\drwho\\appdata\\local\\programs\\python\\python312\\lib\\site-packages\\camb\\primat_yp_dh_errormc_2021.dat"
+  ],
+  "engine": "CAMB 1.6.6",
+  "cosmology": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "Omega_c": 0.26901087491768993,
+    "H_0": 67.250375195,
+    "ombh2": 0.022296034745795525,
+    "omch2": 0.12166320703242905,
+    "A_s": 2.1117473568e-09,
+    "n_s": 0.9646322349,
+    "tau": 0.0530516477,
+    "yp2": 1.0
+  },
+  "camb_settings": {
+    "camb_version": "1.6.6",
+    "lmax": 8000,
+    "lens_potential_accuracy": 4,
+    "WantTensors": false,
+    "WantScalars": true,
+    "r_tensor": 0.0,
+    "NonLinear": "NonLinear_none",
+    "omk": 0.0,
+    "TCMB": 2.7255,
+    "nnu": 3.046,
+    "num_massive_neutrinos": 1,
+    "mnu_eV": 0.06,
+    "YHe_used": 0.24585087308813788,
+    "YHe_handling": "CAMB BBN-consistency",
+    "pivot_scalar": 0.05,
+    "CMB_unit": "muK",
+    "spectra_requested": [
+      "lensed_scalar"
+    ],
+    "H0": 67.250375195,
+    "ombh2": 0.022296034745795525,
+    "omch2": 0.12166320703242905,
+    "tau": 0.0530516477,
+    "As": 2.1117473568e-09,
+    "ns": 0.9646322349
+  },
+  "ACT_layout": {
+    "nbin": 260,
+    "nbinw": 130,
+    "nbintt": 40,
+    "nbinte": 45,
+    "nbinee": 45,
+    "lmax_win": 7925,
+    "bmax_win": 520,
+    "bmax": 52,
+    "b0": 5
+  },
+  "chi2": {
+    "TT": {
+      "chi2": 103.969928409526,
+      "dof": 80,
+      "chi2_over_dof": 1.2996241051190751
+    },
+    "TE": {
+      "chi2": 85.45883330176893,
+      "dof": 90,
+      "chi2_over_dof": 0.9495425922418771
+    },
+    "EE": {
+      "chi2": 95.96025847672023,
+      "dof": 90,
+      "chi2_over_dof": 1.0662250941857803
+    },
+    "full": {
+      "chi2": 291.6694921088954,
+      "dof": 260,
+      "chi2_over_dof": 1.1218057388803668
+    }
+  },
+  "E1_per_patch": {
+    "deep_TT": {
+      "chi2": 60.640074363096545,
+      "dof": 40,
+      "chi2_over_dof": 1.5160018590774136
+    },
+    "wide_TT": {
+      "chi2": 43.458899258966596,
+      "dof": 40,
+      "chi2_over_dof": 1.0864724814741649
+    },
+    "deep_TE": {
+      "chi2": 40.46552334605361,
+      "dof": 45,
+      "chi2_over_dof": 0.8992338521345247
+    },
+    "wide_TE": {
+      "chi2": 44.90141697542705,
+      "dof": 45,
+      "chi2_over_dof": 0.9978092661206011
+    },
+    "deep_EE": {
+      "chi2": 39.19885976574031,
+      "dof": 45,
+      "chi2_over_dof": 0.8710857725720069
+    },
+    "wide_EE": {
+      "chi2": 57.09990863153279,
+      "dof": 45,
+      "chi2_over_dof": 1.2688868584785065
+    }
+  },
+  "E4_yp2_sensitivity": {
+    "yp2_0.99": {
+      "chi2_full": 301.73749425423426,
+      "chi2_full_over_dof": 1.160528824054747,
+      "chi2_TE_over_dof": 1.0024429876223082,
+      "chi2_EE_over_dof": 1.1682460502521275
+    },
+    "yp2_1.0": {
+      "chi2_full": 291.6694921088954,
+      "chi2_full_over_dof": 1.1218057388803668,
+      "chi2_TE_over_dof": 0.9495425922418771,
+      "chi2_EE_over_dof": 1.0662250941857803
+    },
+    "yp2_1.01": {
+      "chi2_full": 294.03376873616367,
+      "chi2_full_over_dof": 1.1308991105237065,
+      "chi2_TE_over_dof": 0.9084544073593528,
+      "chi2_EE_over_dof": 1.0729861775734773
+    }
+  },
+  "E5_algebraic": {
+    "n_s_literal": 0.9646322349,
+    "n_s_from_chi": 0.9646322348684677,
+    "rel_diff": 3.26884497116848e-11,
+    "tau_literal": 0.0530516477,
+    "tau_from_A0": 0.05305164769729845,
+    "rel_diff_tau": 5.092309806011399e-11,
+    "A_s_literal": 2.1117473568e-09,
+    "eta_SAM_back_implied": 6.096089524544804e-10
+  },
+  "gates": {
+    "P1_TT_chi2_dof_le_2.0": true,
+    "P2_full_chi2_dof_le_2.0": true,
+    "P3_polarization_not_degraded": true
+  },
+  "external_data_hashes": {
+    "Binning.dat": "fecc173092400f1b53505378a8b0af33f69c4ee2f11fbafdc6d0c1a5e6574738",
+    "cl_cmb_ap.dat": "86a2a3d3cf5bd3b024681ad78fa67d614a9a56ede77ef41716623b45405d6f95",
+    "c_matrix_ap.dat": "3e550bca7f192749e221b9d6db0c323c1a85ca257c398880dea472be43867fea",
+    "coadd_bpwf_15mJy_191127_lmin2.npz": "a4c58bbe02ccb8c132af4a47cf53ec07b261a39b709c598e8b95f6a0d0349225",
+    "coadd_bpwf_100mJy_191127_lmin2.npz": "365de9b3f8b9598c433dbc4f49dc8b996393262d43a526e1a6e257cbb871a270"
+  },
+  "pyactlike_reference_local": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\act_dr4\\pyactlike_like_reference.py"
+}

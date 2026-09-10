@@ -1,0 +1,15 @@
+check,passed,observed,expected
+a_side_locked_1_over_24,True,0.04166666666666666,1/24
+R_D_alphaH_locked,True,"R=12, D=3, alpha_H=2","R=12, D=3, alpha_H=2"
+cr223a_m4_reference_locked,True,0.0289614682,0.0289614682 (CR223a sealed)
+cr223c_time_grid_matches_precommit,True,"[0.0, 0.01, 0.02, 0.025, 0.03, 0.035, 0.04, 0.05, 0.07, 0.1]",CR223c sealed grid
+entry_requirements_count_eight,True,8,8 (all categorical forbidden + allowed checks)
+standard_model_baseline_populated_at_every_grid_time,True,10,10
+baseline_A_leak_increases_monotonically_in_window,True,"0.000000:0.0000000000, 0.010000:0.0148408642, 0.020000:0.0291991194, 0.025000:0.0362012692, 0.030000:0.0430875263, 0.035000:0.0498594352",A_leak_H0 monotone increasing through threshold window
+illustrative_candidate_present_for_format_demonstration,True,found,present as illustrative example
+illustrative_candidate_correctly_flagged_as_failing,True,qualifies=False,False (standard Lindblad bound is not SAM-specific)
+no_unverified_qualifying_candidate_present,True,qualifying with placeholder source: 0,0 (no candidate may qualify with a 'pending_review' placeholder source)
+every_qualifying_candidate_has_dated_derivation_source,True,CR120_qp091t_sealed_chain_sha256_8c9fe94dcd80d7e2b10fd8f9dbc; CR227_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK; CR223a_PR_OBSERVABLE_IDENTITY_LOCK_M3_closed_form,every qualifying candidate's source begins with a CR/QP artifact id
+WC8_no_signature_supported_without_qualifying_candidate,True,qualifying candidates = 3; result class chosen consistently in resolve_result_class(),CP_INDEPENDENT_SIGNATURE_SUPPORTED is unreachable when qualifying == 0
+cross_domain_candidates_flagged_in_result_class,True,result class = CR223f_CP_INDEPENDENT_SIGNATURE_SUPPORTED__CROSS_DOMAIN_MATCHED__SAME_DOMAIN_AWAITING_CR223c,cross-domain qualifying matches must carry CROSS_DOMAIN_PENDING_REVIEW suffix
+wrong_controls_all_documented_as_failures,True,8/8,8

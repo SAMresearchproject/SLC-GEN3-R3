@@ -1,0 +1,48 @@
+{
+  "all_precommitted_gates_passed": true,
+  "all_wrong_controls_detected": true,
+  "checks": {
+    "G10_LCQC008_claim_and_gap_preserved": true,
+    "G11_QP011_distinctions_preserved": true,
+    "G12_CR120_frontier_preserved": true,
+    "G13_same_scalar_entities_remain_distinct": true,
+    "G14_sol_proposal_remains_non_evidence": true,
+    "G1_all_state_norms_one": true,
+    "G2_free_propagation_no_record": true,
+    "G3_single_contact_one_record": true,
+    "G4_two_contacts_two_records": true,
+    "G5_identity_dwell_preserves_record": true,
+    "G6_inverse_contacts_erase_record": true,
+    "G7_binary_instrument_complete": true,
+    "G8_scalar_weight_not_complete_instrument": true,
+    "G9_CR104_meaning_preserved": true
+  },
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "wrong_control_observables": {
+    "WC1": {
+      "I_S_E1_bits": 1.0,
+      "I_S_E2_bits": 0.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 1,
+      "scenario": "WC1_FREE_WITH_CONTACT",
+      "state_norm": 1.0
+    },
+    "WC2": {
+      "I_S_E1_bits": 1.0,
+      "I_S_E2_bits": 1.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 2,
+      "scenario": "WC2_ERASURE_OMITTED",
+      "state_norm": 0.9999999999999998
+    }
+  },
+  "wrong_controls": {
+    "WC1_contact_in_free_control_detected": true,
+    "WC2_omitted_inverse_detected": true,
+    "WC3_half_weight_not_trace_preserving": true,
+    "WC4_unit_weight_not_two_outcome_measurement": true,
+    "WC5_analogy_does_not_install_mapping": true
+  }
+}

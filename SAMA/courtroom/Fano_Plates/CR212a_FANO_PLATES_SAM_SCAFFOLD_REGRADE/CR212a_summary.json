@@ -1,0 +1,64 @@
+{
+  "artifacts": {
+    "checks": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_checks.csv",
+    "cr212_seal_check": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_cr212_seal_check.csv",
+    "hashes": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/HASHES.txt",
+    "input_manifest": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_input_manifest.csv",
+    "precommit": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_PRECOMMIT.md",
+    "regrade_table": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_regrade_table.csv",
+    "replacement_record": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/REPLACEMENT_RECORD.md",
+    "result": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_result.md",
+    "runner": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_runner.py",
+    "sam_scaffold_evidence": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_sam_scaffold_evidence.csv",
+    "summary": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_summary.json",
+    "wrong_controls": "Fano_Plates/CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE/CR212a_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 15,
+    "total": 15
+  },
+  "cr119_scaffold": {
+    "observed_row_count": 126,
+    "required_columns_present": {
+      "Z": true,
+      "electron_count": true,
+      "known_name": true,
+      "known_symbol": true,
+      "neutron_count_primary": true,
+      "proton_count": true,
+      "qA_total_primary": true,
+      "tensor_carrier_support_primary": true
+    },
+    "row_count_min_126": true
+  },
+  "cr212_seal_check": {
+    "files_checked": 12,
+    "mismatches": []
+  },
+  "cr_id": "CR212a",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-19T13:35:27+00:00",
+  "missing_sources": [],
+  "regrade_verdict_counts": {
+    "REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND": 1,
+    "RETIRED_FALSIFIED": 1,
+    "SAM_SCAFFOLD_PLACEMENT_GRADE": 4
+  },
+  "result_class": "CR212a_PASS_SCOPED_PROMOTION_ELIGIBILITY_REGRADE__SAM_SCAFFOLD_PLACEMENT_GRADE_RECOGNIZED__CR212_EMPIRICAL_SCAN_PRESERVED__OPEN_4_RETIRED_FALSIFIED__OPEN_6_REPLAY_GRADE_ONLY",
+  "sam_scaffold_evidence": {
+    "ATOMIC_MASS_lookup": true,
+    "LIGHT_NM_lookup": true,
+    "NUCLEAR_SPIN_lookup": true,
+    "Z_read_from_CR119": true,
+    "clock_value_call": true,
+    "frontier_dash_emit_clause": true,
+    "particle_formula_line_found": true,
+    "qA_read_from_CR119": true
+  },
+  "test_id": "CR212a_FANO_PLATES_SAM_SCAFFOLD_REGRADE",
+  "upstream_provenance": {
+    "cr212_result_class": "CR212_PASS_SCOPED_PROMOTION_ELIGIBILITY_AUDIT__OPEN_6_REPLAY_GRADE_BACKED__OPEN_4_RETIRED_FALSIFIED__OPEN_1_2_3_5_NOT_PROMOTABLE",
+    "regrade_authority": "Sean Brady directive"
+  }
+}

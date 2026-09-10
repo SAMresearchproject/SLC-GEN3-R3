@@ -1,0 +1,51 @@
+{
+  "cr_id": "CR215",
+  "test_id": "CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT",
+  "depends_on": ["CR119", "CR214"],
+  "input_sealed_hashes": {
+    "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545"
+  },
+  "numeric_signature_columns": [
+    "bin",
+    "partition_signature",
+    "closure_depth",
+    "q_sign",
+    "q_abs",
+    "native_charge_axis",
+    "M_native",
+    "surface_sign",
+    "surface_depth",
+    "S_debit_or_credit",
+    "M_observed_candidate",
+    "qA_source_support",
+    "tensor_carrier_support",
+    "retained_write_support"
+  ],
+  "descriptor_columns_excluded_from_signature": [
+    "candidate_id",
+    "route_combination",
+    "operator_class",
+    "route_class",
+    "spin_or_hand_class",
+    "closure_status",
+    "stability_status",
+    "surface_packet_address",
+    "matter_row_allowed",
+    "latest_matter_row_allowed",
+    "promotion_status",
+    "latest_promotion_status",
+    "latest_boundary_subtype",
+    "latest_override_source",
+    "vault_identity",
+    "known_identity_label",
+    "identity_assignment_role",
+    "known_label_used_as_construction_input",
+    "matter_gate_reason",
+    "complement_role",
+    "in_matter_table",
+    "periodic_layer_relation"
+  ],
+  "row_preservation_rule": "annotated_output_must_contain_all_195_rows_in_original_order",
+  "non_destructive_rule": "sealed_CR214_csv_must_not_be_modified",
+  "duplicate_class_label_format": "DUP-<bin>-<seq> for group members; none for singletons"
+}

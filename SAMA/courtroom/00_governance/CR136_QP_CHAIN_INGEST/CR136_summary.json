@@ -1,0 +1,108 @@
+{
+  "cr_id": "CR136",
+  "branch": "00_governance",
+  "test_class": "QP_CHAIN_INGEST_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR136_QP_CHAIN_INGEST_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "last_run_utc": "2026-06-17T23:35:03Z",
+  "ingest_type": "BULK_UPSTREAM_ARTIFACT_INGEST",
+  "verdict_change_on_consumers": false,
+  "free_parameters": 0,
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "external_root": "C:/VS/quantum_phase/artifacts",
+  "internal_root_rel": "upstream_artifacts",
+  "targets_total": 42,
+  "status_counts": {
+    "ALREADY_INGESTED": 42
+  },
+  "wrong_controls_passed": 7,
+  "wrong_controls_total": 7,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "wrong_controls": [
+    {
+      "name": "WC1_external_root_exists",
+      "pass": true,
+      "details": "C:\\VS\\quantum_phase\\artifacts present = True",
+      "load_bearing_deletion": "If the external qp_chain root is missing, ingest cannot proceed; this WC would FAIL."
+    },
+    {
+      "name": "WC2_manifest_covers_all_consuming_CR_references",
+      "pass": true,
+      "details": "required: 42; covered: 42; missing: none",
+      "load_bearing_deletion": "If any consuming-CR reference were not in the manifest, this WC would FAIL."
+    },
+    {
+      "name": "WC3_no_duplicate_internal_paths",
+      "pass": true,
+      "details": "no duplicate destination paths",
+      "load_bearing_deletion": "If two distinct artifacts mapped to the same internal path, the second copy would clobber the first; this WC would FAIL."
+    },
+    {
+      "name": "WC4_internal_copies_match_consumer_recorded_sha",
+      "pass": true,
+      "details": "internal-sha matches consumer-recorded-sha on 42 of 42 cleanly ingested artifacts",
+      "load_bearing_deletion": "If any internal copy's SHA disagreed with what CR-120/121/122 recorded, the chain of custody breaks; this WC would FAIL."
+    },
+    {
+      "name": "WC5_no_anomalies",
+      "pass": true,
+      "details": "anomalous statuses: 0",
+      "load_bearing_deletion": "If any target had a SHA mismatch, was missing, or had internal drift, this WC would FAIL."
+    },
+    {
+      "name": "WC6_audit_verdict_reference_resolves",
+      "pass": true,
+      "details": "AUDIT_VERDICT exists=True; hash matches",
+      "load_bearing_deletion": "If the audit verdict moved/edited, the recorded reference would be unverifiable."
+    },
+    {
+      "name": "WC7_CR122_qp092h_reference_resolves_internally",
+      "pass": true,
+      "details": "qp092h internal copy = upstream_artifacts\\qp092\\qp092h_baryon_cmb_carrier_gate\\qp092h_summary.json; SHA matches CR-122 recorded value = True",
+      "load_bearing_deletion": "If CR-122's qp092h reference does NOT resolve to an internal artifact with the expected SHA, the carrier-compression gate cannot be audited from inside the repo."
+    }
+  ],
+  "predictions": [
+    {
+      "name": "P1_external_root_accessible",
+      "pass": true,
+      "details": "C:\\VS\\quantum_phase\\artifacts exists = True"
+    },
+    {
+      "name": "P2_targets_discovered_from_consuming_CRs",
+      "pass": true,
+      "details": "discovered 42 unique (folder, summary_file) targets across CR-120, CR-121, CR-122 ledgers"
+    },
+    {
+      "name": "P3_all_externals_present",
+      "pass": true,
+      "details": "present: 42/42"
+    },
+    {
+      "name": "P4_external_sha_matches_recorded",
+      "pass": true,
+      "details": "sha-matches-recorded: 42/42"
+    },
+    {
+      "name": "P5_all_targets_ingested_or_already_ingested",
+      "pass": true,
+      "details": "in-clean-state: 42/42 (statuses: ALREADY_INGESTED)"
+    },
+    {
+      "name": "P6_internal_sha_matches_external_sha",
+      "pass": true,
+      "details": "every ingested artifact's internal copy hashes to the same value as its external source"
+    }
+  ],
+  "falsifier": "Re-executing CR136_runner.py on the post-ingest state MUST produce zero new INGESTED entries (only ALREADY_INGESTED), zero SHA mismatches, and the recomputed lock SHA-256 MUST match the value recorded in CR136_result.md.",
+  "cryptographic_chain": {
+    "CR135_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "CR136_source_manifest_csv": "3e403338cab189a50d4cfe1e4362ce4b99036dcd52d991292da59c8f83b6f22d",
+    "CR136_ingest_manifest_csv": "9adfb3746dbbb5e6abb3c11fd07e954779f927d9472c5819b0f574b581ecef4a",
+    "CR136_predictions_csv": "83c1ad764fbaf375d0e0c16cc7fb9a97ab00d09bcff0b5ac93eea2feca03d22f",
+    "CR136_wrong_controls_csv": "bf9d31d84cdafd8e598793cdd75cadbf8df4e903dba80f327d1321c1680a1a7d",
+    "CR136_ingest_lock_json": "2d6db0a619755cae19fd0e2d51ce815c288da47813c0e7f163fe437a355a4d2c"
+  }
+}

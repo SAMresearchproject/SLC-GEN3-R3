@@ -1,0 +1,263 @@
+{
+  "verdict": "BOUNDARY",
+  "verdict_signature": "CR250_BOUNDARY_LOCKED_FIT_CLOSE_BUT_SOME_WC_GATES_NOT_MET",
+  "train_sha256": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+  "test_sha256": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+  "precommit_sha256": "f2552f61ea6621564f94b52794def59d8f253549eb1a65a3dfb4ab9fd56b8626",
+  "locked_c_A": {
+    "fraction": "1/1296",
+    "value_u": 0.0007716049382716049,
+    "value_MeV": 0.7187454493981481,
+    "structural_form": "1/(S*L) = 1/(8*162) = 1/1296"
+  },
+  "baseline_free_fit": {
+    "coef_names": [
+      "c_V",
+      "c_S",
+      "c_C",
+      "c_A",
+      "c_P"
+    ],
+    "coef_u": [
+      0.008634988633245941,
+      0.019626423914081783,
+      0.0007419551766757306,
+      0.0007750371939655975,
+      0.0037517262866473317
+    ],
+    "coef_MeV": [
+      8.04344098633233,
+      18.281898127562034,
+      0.6911268713334322,
+      0.7219425753350996,
+      3.494710909906076
+    ],
+    "train_rms_u": 0.0029264501054877073,
+    "train_rms_MeV": 2.725971014288186,
+    "train_R2": 0.9945784567542855,
+    "train_n": 35,
+    "test_rms_u": 0.0037808045703346146,
+    "test_rms_MeV": 3.5217971596692754,
+    "test_R2": 0.9850208026171603,
+    "test_n": 20
+  },
+  "locked_fit": {
+    "coef_names_4": [
+      "c_V",
+      "c_S",
+      "c_C",
+      "c_P"
+    ],
+    "coef4_u": [
+      0.008636593335367067,
+      0.01961667386520248,
+      0.0007435545330479916,
+      0.0037044850236346966
+    ],
+    "coef4_MeV": [
+      8.0449357568943,
+      18.272816014532655,
+      0.6926166623618611,
+      3.450705952018934
+    ],
+    "c_A_locked_u": 0.0007716049382716049,
+    "c_A_locked_MeV": 0.7187454493981481,
+    "train_rms_u": 0.0029270133847522964,
+    "train_rms_MeV": 2.7264957056011663,
+    "train_R2": 0.9945763694904115,
+    "train_n": 35,
+    "test_rms_u": 0.0037312541431344724,
+    "test_rms_MeV": 3.4756412289599514,
+    "test_R2": 0.9854108581672149,
+    "test_n": 20,
+    "train_ratio_to_baseline": 1.0001924786838268,
+    "test_ratio_to_baseline": 0.9868942109335853
+  },
+  "wrong_controls": [
+    {
+      "label": "WC-A1",
+      "description": "1/L         = 1/162",
+      "c_A_value_u": 0.006172839506172839,
+      "c_A_value_MeV": 5.749963595185185,
+      "c_A_fraction": "1/162",
+      "fit_coef4": [
+        0.0061113232678860095,
+        0.034960024052472616,
+        -0.0017733030948451044,
+        0.07804659865536273
+      ],
+      "train_rms_u": 0.09035113399009333,
+      "train_rms_MeV": 84.16154845873113,
+      "train_R2": -4.167826132973326,
+      "test_rms_u": 0.14197670290947612,
+      "test_rms_MeV": 132.25046144121345,
+      "test_R2": -20.122934770363255,
+      "train_ratio_to_locked": 30.86802898160968,
+      "test_ratio_to_locked": 48.50565550847016,
+      "degrades_by_1p2x_train": true
+    },
+    {
+      "label": "WC-A2",
+      "description": "1/(S*M)     = 1/1008",
+      "c_A_value_u": 0.000992063492063492,
+      "c_A_value_MeV": 0.9241012920833332,
+      "c_A_fraction": "1/1008",
+      "fit_coef4": [
+        0.00853352108771478,
+        0.020242933056519637,
+        0.0006408256502768449,
+        0.006738857008603185
+      ],
+      "train_rms_u": 0.004663340263155633,
+      "train_rms_MeV": 4.343873952707203,
+      "train_R2": 0.9862331402327152,
+      "test_rms_u": 0.008362209804494281,
+      "test_rms_MeV": 7.789349116085123,
+      "test_R2": 0.9267239240256814,
+      "train_ratio_to_locked": 1.5932077001931018,
+      "test_ratio_to_locked": 2.8569086318687766,
+      "degrades_by_1p2x_train": true
+    },
+    {
+      "label": "WC-A3",
+      "description": "1/(S*R^2)   = 1/1152",
+      "c_A_value_u": 0.0008680555555555555,
+      "c_A_value_MeV": 0.8085886305729166,
+      "c_A_fraction": "1/1152",
+      "fit_coef4": [
+        0.008591499227019192,
+        0.019890662261403735,
+        0.0006986106468356156,
+        0.005032022767058407
+      ],
+      "train_rms_u": 0.0033144802327411487,
+      "train_rms_MeV": 3.087418789386049,
+      "train_R2": 0.9930454097900389,
+      "test_rms_u": 0.005513679847942969,
+      "test_rms_MeV": 5.135960260990878,
+      "test_R2": 0.9681431247119914,
+      "train_ratio_to_locked": 1.1323761790797695,
+      "test_ratio_to_locked": 1.8837221164294653,
+      "degrades_by_1p2x_train": false
+    },
+    {
+      "label": "WC-A4",
+      "description": "1/(R*L)     = 1/1944",
+      "c_A_value_u": 0.00051440329218107,
+      "c_A_value_MeV": 0.4791636329320988,
+      "c_A_fraction": "1/1944",
+      "fit_coef4": [
+        0.008756844290961404,
+        0.018886038141999142,
+        0.0008634048962809951,
+        0.00016438437450478656
+      ],
+      "train_rms_u": 0.005251343633718109,
+      "train_rms_MeV": 4.891595624589231,
+      "train_R2": 0.9825425199319036,
+      "test_rms_u": 0.005567570346794391,
+      "test_rms_MeV": 5.186158942847449,
+      "test_R2": 0.9675173456191338,
+      "train_ratio_to_locked": 1.7940962146172463,
+      "test_ratio_to_locked": 1.902133545339273,
+      "degrades_by_1p2x_train": true
+    },
+    {
+      "label": "WC-A5",
+      "description": "2/(S*L)     = 2/1296",
+      "c_A_value_u": 0.0015432098765432098,
+      "c_A_value_MeV": 1.4374908987962962,
+      "c_A_fraction": "1/648",
+      "fit_coef4": [
+        0.00827584046858406,
+        0.021808581034812504,
+        0.00038400344334897727,
+        0.01432478697102441
+      ],
+      "train_rms_u": 0.013180303627476245,
+      "train_rms_MeV": 12.277375097099055,
+      "train_R2": 0.8900256235375604,
+      "test_rms_u": 0.022253455192080194,
+      "test_rms_MeV": 20.728962269890427,
+      "test_R2": 0.48106258043378913,
+      "train_ratio_to_locked": 4.5029871390873915,
+      "test_ratio_to_locked": 7.602785592988817,
+      "degrades_by_1p2x_train": true
+    },
+    {
+      "label": "WC-A6",
+      "description": "(1/2)/(S*L) = 1/2592",
+      "c_A_value_u": 0.00038580246913580245,
+      "c_A_value_MeV": 0.35937272469907405,
+      "c_A_fraction": "1/2592",
+      "fit_coef4": [
+        0.008816969768758572,
+        0.018520720280397477,
+        0.0009233300778974984,
+        -0.0016056659500601703
+      ],
+      "train_rms_u": 0.007139152542326934,
+      "train_rms_MeV": 6.650078489454288,
+      "train_R2": 0.9677348267383762,
+      "test_rms_u": 0.008533356778379322,
+      "test_rms_MeV": 7.948771512906069,
+      "test_R2": 0.9236937883839784,
+      "train_ratio_to_locked": 2.439057019526099,
+      "test_ratio_to_locked": 2.915380169708883,
+      "degrades_by_1p2x_train": true
+    }
+  ],
+  "anchor_cases": [
+    {
+      "label": "C-12",
+      "Z": 6,
+      "N": 6,
+      "A": 12,
+      "B_u_observed_u": 0.0,
+      "B_u_observed_MeV": 0.0,
+      "B_u_free_pred_MeV": -4.864575631097894,
+      "B_u_locked_pred_MeV": -4.862561388200062,
+      "free_residual_MeV": -4.864575631097894,
+      "locked_residual_MeV": -4.862561388200062
+    },
+    {
+      "label": "C-13",
+      "Z": 6,
+      "N": 7,
+      "A": 13,
+      "B_u_observed_u": -0.003354835210000573,
+      "B_u_observed_MeV": -3.125009212706496,
+      "B_u_free_pred_MeV": -7.374312835292438,
+      "B_u_locked_pred_MeV": -7.314620889103143,
+      "free_residual_MeV": -4.249303622585942,
+      "locked_residual_MeV": -4.1896116763966464
+    },
+    {
+      "label": "Au-197",
+      "Z": 79,
+      "N": 118,
+      "A": 197,
+      "B_u_observed_u": 0.03343120499999941,
+      "B_u_observed_MeV": 31.140970294293464,
+      "B_u_free_pred_MeV": 28.460656925135503,
+      "B_u_locked_pred_MeV": 28.393748548268906,
+      "free_residual_MeV": -2.6803133691579624,
+      "locked_residual_MeV": -2.7472217460245587
+    }
+  ],
+  "strong_pass_conditions": {
+    "S1_train_within_1p10x_free": true,
+    "S2_test_within_1p10x_free": true,
+    "S3_train_R2_ge_0p95": true,
+    "S4_test_R2_ge_0p95": true,
+    "S5_all_wcs_degrade_1p2x": false,
+    "S6_train_rms_le_5MeV": true
+  },
+  "fail_conditions": {
+    "F1_train_gt_1p10x": false,
+    "F2_test_gt_1p30x": false,
+    "F3_train_rms_gt_10MeV": false,
+    "F4_2x_or_half_doesnt_degrade": false,
+    "F5_all_alt_typed_fit_comparably": false
+  }
+}

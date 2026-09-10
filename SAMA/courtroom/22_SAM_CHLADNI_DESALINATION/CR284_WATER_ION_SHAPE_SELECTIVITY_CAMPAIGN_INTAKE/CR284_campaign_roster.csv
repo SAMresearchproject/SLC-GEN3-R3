@@ -1,0 +1,7 @@
+﻿stage_id,title,input_state,output_gate,physical_claim_allowed
+CR284,campaign intake and source contract,metadata and frozen local sources,PASS_SCOPED_CAMPAIGN_INTAKE,false
+CR285,construction grammar and scoring-rule lock,no species-level reference targets,FROZEN_CONSTRUCTION_OPERATOR,false
+CR286,blind water-ion construction predictions,frozen operator and species identities,SEALED_UNREVEALED_PREDICTIONS,false
+CR287,blind pore compatibility challenge,frozen predictions and unlabeled pore panel,SEALED_PORE_RANKINGS,false
+CR288,external reveal and baseline score,sealed predictions plus reference values,PREDICTIVE_EDGE_OR_BOUNDARY,false
+CR289,assisted-gate physical handoff,predictive record plus SCD-01 through SCD-04,PHYSICAL_PROTOCOL_NOT_PHYSICAL_RESULT,false

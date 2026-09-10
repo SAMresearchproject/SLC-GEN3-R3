@@ -1,0 +1,72 @@
+{
+  "cr_id": "CR111",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR110 (three-mode) -> CR108 (Planck) -> CR104a (Layer 4)",
+  "test_class": "STRUCTURAL_QUESTION_LOCK_COSMIC_BARYON_OMEGA_B_FORWARD_BLIND",
+  "execution_status": "CLEAN",
+  "result_class": "CR111_COSMIC_BARYON_OMEGA_B_QUESTION_LOCKED_FORWARD_BLIND",
+  "appeal_lock_sha256": "82d6913c614be2bd0def5329511ef2094ea134489d70a1cdb855e22dfe84a409",
+  "upstream_hashes": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_cosmic_baryon_question_sealed_with_planck_anchor",
+      "pass": true
+    },
+    {
+      "name": "P2_question_text_explicit_about_zero_free_parameter_requirement",
+      "pass": true
+    },
+    {
+      "name": "P3_upstream_cr108_anchor_present",
+      "pass": true
+    },
+    {
+      "name": "P4_upstream_cr110_three_mode_present",
+      "pass": true
+    },
+    {
+      "name": "P5_layer_4_chain_present",
+      "pass": true
+    },
+    {
+      "name": "P6_two_forward_blind_predictions_registered",
+      "pass": true
+    },
+    {
+      "name": "P7_appeal_lock_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "appeal_sha256": "82d6913c614be2bd0def5329511ef2094ea134489d70a1cdb855e22dfe84a409"
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_prior_CR_verdict_modified",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_free_parameter_introduced_in_this_appeal",
+      "pass": true
+    },
+    {
+      "name": "WC3_no_quantitative_match_revealed_in_this_appeal",
+      "pass": true,
+      "details": "appeal opens the structural question; quantitative match lives in a future Q-artifact / CR"
+    },
+    {
+      "name": "WC4_explicit_FAIL_condition_stated",
+      "pass": true
+    }
+  ],
+  "next_courtroom_step": "future Q-artifact deriving Omega_b h^2 from {A0, D=3, bounce sub-slot} - or 14 branch zipper update sealing CR107-CR111",
+  "open_debts": [
+    "Quantitative Omega_b h^2 derivation from SAM substrate awaits upstream Q-artifact",
+    "14 branch verdict zipper (CR106) may be updated to include CR107-CR111 in a future seal"
+  ]
+}

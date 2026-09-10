@@ -1,0 +1,101 @@
+{
+  "artifacts": {
+    "checks": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_claim_boundaries.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/HASHES.txt",
+    "layers": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_replay_layers.csv",
+    "periodic_table_invariants": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_periodic_table_invariants.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC05_periodic_isotope_vault_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_summary.json",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC05_PERIODIC_ISOTOPE_VAULT_REPLAY/LC05_wrong_controls.csv"
+  },
+  "branch_10_legacy_vault": {
+    "CR069_Z001_096_exact_matches": 162,
+    "CR069_Z001_096_sealed_rows": 162,
+    "CR069_Z097_118_deferred": true,
+    "CR071_broader_band_rows": 38,
+    "CR071_island_rows": 22
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 56,
+    "total": 56
+  },
+  "epistemic_boundary": [
+    "LC05 passes the periodic/isotope vault replay from the LC01 stack.",
+    "LC05 does not use known periodic labels or IAEA roster values as construction inputs.",
+    "LC05 preserves the CR072 scoped branch claim and the permanent CR071 frontier seal.",
+    "LC05 does not claim full nuclear shell model, binding energy, half-life, decay-channel, or synthesis-pathway derivation."
+  ],
+  "generated_utc": "2026-06-19T08:34:31+00:00",
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": "0.026525823848649222628147293895",
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": "1.125000000000000000000000000000",
+    "carrier_side": "1/8",
+    "carrier_side_decimal": "0.125000000000000000000000000000",
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": "0.562500000000000000000000000000",
+    "retained_side": "7/8",
+    "retained_side_decimal": "0.875000000000000000000000000000",
+    "split_fraction": "1/8",
+    "split_fraction_decimal": "0.125000000000000000000000000000",
+    "surface_debit": "3/4",
+    "surface_debit_decimal": "0.750000000000000000000000000000"
+  },
+  "pass_condition": {
+    "constant_mutation": "forbidden",
+    "formula_mutation": "forbidden",
+    "periodic_label_backfill": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden"
+  },
+  "periodic_table": {
+    "frontier_unknown_z119_z126": 8,
+    "known_downstream": 118,
+    "known_label_used_as_construction_input": {
+      "no": 126
+    },
+    "max_q_split_error": "1E-96",
+    "natural_synthetic_boundary_status_counts": {
+      "KNOWN_LONG_LIVED_HOLE_DOWNSTREAM": 2,
+      "KNOWN_NATURAL_SURFACE_DOWNSTREAM": 80,
+      "KNOWN_RADIOACTIVE_HEAVY_SURFACE_DOWNSTREAM": 14,
+      "KNOWN_SYNTHETIC_FRONTIER_DOWNSTREAM": 22,
+      "SAM_FRONTIER_UNKNOWN_Z119_Z126": 8
+    },
+    "q_split_tolerance": "1E-90",
+    "rows": 126,
+    "shell_capacity_counts": {
+      "18": 36,
+      "2": 2,
+      "32": 64,
+      "8": 24
+    },
+    "shell_period_counts": {
+      "1": 2,
+      "2": 8,
+      "3": 18,
+      "4": 32,
+      "5": 32,
+      "6": 18,
+      "7": 8,
+      "8": 8
+    }
+  },
+  "result": "LC05_PASS_PERIODIC_ISOTOPE_VAULT_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC05",
+  "task_name": "periodic/isotope vault replay",
+  "wrong_controls": {
+    "rejected": 10,
+    "tested": 10
+  }
+}

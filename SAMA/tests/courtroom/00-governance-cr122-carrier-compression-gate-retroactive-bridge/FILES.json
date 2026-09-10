@@ -1,0 +1,76 @@
+{
+  "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE",
+  "files": [
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json",
+      "mode": "100644",
+      "git_blob": "881f448e8f2562a992f83d4c9b16b14ccabff73f",
+      "bytes": 7505,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json"
+    },
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "2e8894c8d88d638643a8d7951651ab7b975a6385",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_carrier_compression_gate_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_gated_cr_table.csv",
+      "mode": "100644",
+      "git_blob": "997bd0432ca9501c2bc64a60a9aa0c6f6d94377d",
+      "bytes": 2663,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_gated_cr_table.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_gated_cr_table.csv",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_gated_cr_table.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_gated_cr_table.csv"
+    },
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_result.md",
+      "mode": "100644",
+      "git_blob": "f8777322c971b442325a742772489507eb030d8a",
+      "bytes": 9689,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_result.md",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_result.md"
+    },
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_runner.py",
+      "mode": "100644",
+      "git_blob": "b6aabf8c1b46f8447c366eeff0ce3d2fc946f295",
+      "bytes": 26929,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_runner.py",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_runner.py"
+    },
+    {
+      "path": "00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_summary.json",
+      "mode": "100644",
+      "git_blob": "458b059c227771b4c81a372151d65493dcbeb287",
+      "bytes": 11750,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_summary.json",
+      "sama_path": "courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE/CR122_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR122@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

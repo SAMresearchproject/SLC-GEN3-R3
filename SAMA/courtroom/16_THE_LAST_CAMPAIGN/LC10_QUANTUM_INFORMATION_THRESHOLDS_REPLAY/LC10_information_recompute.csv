@@ -1,0 +1,10 @@
+quantity,expected,observed,status
+baseline_probability_sum,1,1,PASS
+loaded_weight_sum,17/16,17/16,PASS
+loaded_probability_sum,1,1,PASS
+letter_increment,1/16,1/16,PASS
+P_a_equals_P_c,4/17 = 4/17,4/17 = 4/17,PASS
+P_b_minus_P_a,5/17,5/17,PASS
+P_b_over_P_a,9/4,9/4,PASS
+shift_vector,"(-1/68, 1/34, -1/68)","('-1/68', '1/34', '-1/68')",PASS
+amplitude_ratio,2:3:2,sqrt(4):sqrt(9):sqrt(4),PASS

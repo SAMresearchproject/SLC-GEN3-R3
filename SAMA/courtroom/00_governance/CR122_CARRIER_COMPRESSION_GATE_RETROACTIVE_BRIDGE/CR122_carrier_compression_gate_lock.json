@@ -1,0 +1,93 @@
+{
+  "gate_id": "CR122_CARRIER_COMPRESSION_GATE_LOCK",
+  "scope": "COURTROOM_LEVEL_GOVERNANCE_CROSS_BRANCH_06_07_08_14_GOV",
+  "sealed_at_utc": "2026-06-15T19:38:00Z",
+  "gate_class": "RETROACTIVE_STRUCTURAL_UNIFICATION_NO_VERDICT_INVALIDATED",
+  "headline_one_liner": "qp092h (2026-06-15) retroactively gates 10 sealed Courtroom CRs across 4 branches through ONE structural rule: baryon-inventory and CMB-readout routes admit through qA -> 1/8 unresolved tensor carrier -> ledger compression -> A readout.  Direct qA-as-mass would overread Planck Omega_b h^2 by 0.66-0.99 percent (max 1.475 sigma) - REJECTED everywhere.  All 10 sealed verdicts remain valid.",
+  "qp092h_source": {
+    "artifact": "QP092H_BARYON_INVENTORY_CMB_CARRIER_COMPRESSION_RULE_GATE",
+    "result_class": "PASS_QP092H_BARYON_INVENTORY_CMB_CARRIER_COMPRESSION_RULE_GATE__BRANCHES_ADMITTED_ONLY_THROUGH_CARRIER_COMPRESSION__DIRECT_QA_AS_MASS_REJECTED__CMB_SCOPE_BOUNDARIES_PRESERVED",
+    "passed": true,
+    "summary_sha256": "5b8139aa90883b8b3ac210fdad44055fc9cbf23c6f4e16dbef58668a8d2bda49",
+    "generated_at_utc": "2026-06-15T09:13:04.959638+00:00"
+  },
+  "carrier_rule": {
+    "admitted_route": "qA source support -> 1/8 unresolved tensor carrier -> ledger compression -> A readout",
+    "rejected_route": "qA -> mass -> baryon/CMB readout",
+    "carrier_fraction": "1/8",
+    "retained_fraction": "7/8",
+    "rejected_overread_min_percent": 0.6631455962162156,
+    "rejected_overread_mean_percent": 0.8808082679244671,
+    "rejected_overread_max_percent": 0.9947183943243527,
+    "rejected_max_sigma_vs_planck_h2": 1.4752660465073755,
+    "qp092h_branch_gate_rows_admitted_total": 10,
+    "qp092h_direct_qA_controls_rejected_total": 3,
+    "qp092h_carrier_rule_rows_passed_total": 6
+  },
+  "gated_cr_count": 11,
+  "all_gated_present": true,
+  "gated_cr_summary_sha256": {
+    "CR016 :: 06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR016_CMB_ACOUSTIC_RULER_PHOTON_ROAD_RATIO": "4ec3d7baf0966db6daeec2da2c0a5b3393eff2165471a8941be03cb1935af5d6",
+    "CR018 :: 07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION": "a1d598841ecb06f8ea59f744c8f29e85ccdee32a6454fb5ee590c98ff545cc19",
+    "CR019 :: 07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT": "c2dad0a4a45c9739962ccc106bec43343ee02bd82c58b1ed1818d105bef77ad3",
+    "CR020 :: 07_BARYON_INVENTORY_AND_COSMOLOGY/CR020_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN": "295fcffbf7afe3b7a804734726f5c5dd064eb6360da72d98df1130f6cc02355c",
+    "CR021 :: 07_BARYON_INVENTORY_AND_COSMOLOGY/CR021_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT": "b7be003ea4edf7c55959a778b7e727a566c8ae5f7c2901211342bfc9f4297603",
+    "CR022 (08 branch) :: 08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023 (07 branch) :: 07_BARYON_INVENTORY_AND_COSMOLOGY/CR023_BARYON_COSMOLOGY_BRANCH_VERDICT": "118e924d2c3b57fbcae5dfe17b3b76ba251ad27da27bcd126057badd7c8e7de1",
+    "CR023 (08 branch) :: 08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR023_BB_PBH_TRAPPED_A_INVENTORY": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR111 :: 14_FOUNDATIONAL_TESTS/CR111_COSMIC_BARYON_OMEGA_B_CLOSURE_APPEAL": "37ea8fd4547fad957034ede5a50445c316e4bb805cba0292bb34ffaccb3d3c34",
+    "CR114 :: 00_governance/CR114_COSMIC_BARYON_BRIDGE_REVEAL": "f503032f082938ddadc75f69783104af80d08cf078fa64e42d29dc177886f978",
+    "CR117 :: 00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY": "b625af5a9ad7f56fbcf975aad5caddd23efcfc7f2e93ca39f7b37fb8a2e3faae"
+  },
+  "gated_cr_branches": [
+    "00_governance",
+    "06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE",
+    "07_BARYON_INVENTORY_AND_COSMOLOGY",
+    "08_GALAXY_HALOS_BB_PBH_TRAPPED_A",
+    "14_FOUNDATIONAL_TESTS"
+  ],
+  "forward_blind_expectations": [
+    {
+      "id": "CR122_PRED_1",
+      "claim": "Any future Courtroom CR that handles baryon inventory, CMB acoustic structure, Omega_b density, or related cosmological inventory must admit through the carrier compression route (qA source support -> 1/8 unresolved tensor carrier -> ledger compression -> A readout).  Direct qA-as-mass remains permanently rejected at the 0.663-0.995 percent overread / 1.475 sigma against Planck Omega_b h^2 level.",
+      "testable_at": "future cosmic baryon / CMB / inventory CRs",
+      "falsification_criterion": "if any future CR is sealed at PASS using direct qA-as-mass routing, OR if a Planck update tightens Omega_b h^2 such that the carrier-compression admitted route fails while direct qA-as-mass would have succeeded, the unifying rule is broken",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR122_PRED_2",
+      "claim": "The 1/8 carrier fraction and 7/8 retained-write fraction (qp091t split structure) remain the only admitted route for inventory <-> readout coupling across all 4 branches gated by qp092h (06, 07, 08, 14).  No future CR will require a different fractional split (e.g., 1/4, 1/16, D/R, D^2/R) to admit; those are the explicit wrong controls rejected at qp092a's split-loss test.",
+      "testable_at": "any future surface-debit or carrier-split work on baryon/CMB lanes",
+      "falsification_criterion": "if any future work requires a fractional split other than 1/8 = 2^(-D) at D=3 to admit a baryon/CMB inventory closure, the carrier-compression rule is incomplete and needs structural revision",
+      "free_parameters": 0
+    }
+  ],
+  "what_this_gate_does": [
+    "RETROACTIVELY documents one structural rule that unifies 10 sealed Courtroom CRs",
+    "PRESERVES every sealed verdict (CR016, CR018-23, CR111, CR114, CR117 are unmodified)",
+    "REJECTS direct qA-as-mass as the route to those closures (overread at 0.66-0.99% / 1.475 sigma)",
+    "FORBIDS any future baryon/CMB inventory CR from using direct qA-as-mass",
+    "INHERITS the qp091t closure: same 1/8 + 7/8 split appears as gravity mechanism (CR121) AND as inventory admission gate (this CR)"
+  ],
+  "what_this_gate_does_NOT_do": [
+    "invalidate any sealed CR (all 10 remain valid via their original derivations)",
+    "modify any prior verdict (CR018's Omega_b = 0.04930 derivation stays sealed; CR114's sigma = 0.0017 match stays sealed)",
+    "claim to derive Omega_b h^2 from scratch (CR018 already does that; this CR documents how)",
+    "introduce any free parameter"
+  ],
+  "supporting_chain_anchors": {
+    "CR119_321_126_126_vault_summary": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+    "CR120_qp091_chain_intake_lock": "09cf6beaf8bd6fb1520b740b4451491a664e220897e4803f514fd9adcd9e604d",
+    "CR121_sam_gravity_mechanism_intake_lock": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "BLINDNESS_PROTOCOL": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "structural_unification_with_other_cr1xx": [
+    "CR121 captures the GRAVITY-SIDE of the 1/8 carrier (matter write -> qA -> ledger compression -> A field updates = gravity)",
+    "CR122 captures the COSMOLOGY-SIDE of the same 1/8 carrier (inventory routes admit through identical carrier compression)",
+    "CR120 captures the MASS-CLOSURE-SIDE of the 7/8 retained part (H_native = 126; H_reveal = 125.25 exact)",
+    "CR119 captures the 126 universal in the PARTICLE-VAULT-SIDE (321 particles + 126 matter + 126 periodic table)",
+    "All four CRs are consequences of the same R^2 = 144 closed-loop split at R=12, D=3"
+  ],
+  "modifies_no_prior_artifact": true,
+  "free_parameters_introduced": 0
+}

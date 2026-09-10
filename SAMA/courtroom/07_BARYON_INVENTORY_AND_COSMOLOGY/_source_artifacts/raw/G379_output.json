@@ -1,0 +1,12 @@
+﻿{
+  "test_id": "G379",
+  "test_name": "SAM_CMB_PARAMETER_CARD_FREEZE",
+  "started_utc": "2026-06-01T07:41:22.109353+00:00",
+  "finished_utc": "2026-06-01T07:41:22.113353+00:00",
+  "verdict": "G379_PASS_SAM_CMB_PARAMETER_CARD_FROZEN",
+  "sam_parameter_card_csv": "native_prediction_artifacts\\g379_sam_cmb_parameter_card.csv",
+  "sam_parameter_card_json": "native_prediction_artifacts\\g379_sam_cmb_parameter_card.json",
+  "validation_pass_count": 8,
+  "validation_total": 8,
+  "next_gate": "G380_FIXED_BACKGROUND_CMB_SPECTRUM_SMOKE"
+}

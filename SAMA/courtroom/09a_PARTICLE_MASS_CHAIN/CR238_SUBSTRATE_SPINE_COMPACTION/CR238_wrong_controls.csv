@@ -1,0 +1,10 @@
+wc_id,description,D_is_positive_integer,D_value,kappa,kappa_matches_CR221,expected,observed,broke_as_predicted
+WC1,F=80 face perturbation,False,4*sqrt(5)/3,639/64 - 1917*sqrt(5)/5120,False,BREAK,BREAK,True
+WC2,S=7 split perturbation,False,9*sqrt(2)/4,283/16 - 283*sqrt(2)/288,False,BREAK,BREAK,True
+WC3,S=9 split overshoot,False,9*sqrt(10)/10,91/16 - 91*sqrt(10)/576,False,BREAK,BREAK,True
+WC4,alpha_H = 3 violates binary readout (with L=162 held fixed),,,,,SELF-CONTRADICT,SELF-CONTRADICT,True
+WC5,"kappa exponent variation aH^(S-1), aH^(S+1)",,,,,BREAK both,BREAK both,True
+WC6,g = 1/S instead of 1/S^2,,,,,BREAK,BREAK,True
+WC7,N(Z) floor form vs mod form (Z=1..12),,,,,BREAK at Z with (Z-1) mod R != 0,BREAK,True
+WC8,raw-literal injection sentinel (audit discriminator),,,,,"ARITHMETIC PASSES, AUDIT FLAGS",AUDIT FLAGS,True
+WC9,D=4 substrate attempt at S=8,,,,,AXIOMS DISAGREE,AXIOMS DISAGREE,True

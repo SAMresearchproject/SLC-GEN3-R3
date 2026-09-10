@@ -1,0 +1,109 @@
+{
+  "path": "A0-a_h-D/CR001_foundation_selector_recertification",
+  "files": [
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "448430b45b2e121bfcd4cb8c418dac13c98b9290",
+      "bytes": 2100,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_PRECOMMIT.md",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_PRECOMMIT.md"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_candidate_rows.csv",
+      "mode": "100644",
+      "git_blob": "a63dc132fec8b0bb841ea38b598e964983260ab2",
+      "bytes": 1413,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_candidate_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_candidate_rows.csv",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_candidate_rows.csv",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_candidate_rows.csv"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "7159cf0ea7d42ae28dc65fcc99dbab98d4cca86a",
+      "bytes": 1013,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_declared_premises.json",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_declared_premises.json"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_foundation_selector_recertification.py",
+      "mode": "100644",
+      "git_blob": "1260a7275e88077de44774a4557fc7aa87b77ba2",
+      "bytes": 15782,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_foundation_selector_recertification.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_foundation_selector_recertification.py",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_foundation_selector_recertification.py",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_foundation_selector_recertification.py"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_input_manifest.csv",
+      "mode": "100644",
+      "git_blob": "6f796357e193aff97a7f9b74e321f749aa3430ab",
+      "bytes": 808,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_input_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_input_manifest.csv",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_input_manifest.csv",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_input_manifest.csv"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md",
+      "mode": "100644",
+      "git_blob": "9e8ccd47f4c542688bd0f511f5e9b0d474e479a5",
+      "bytes": 1741,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_result.md"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_summary.json",
+      "mode": "100644",
+      "git_blob": "d7f40b2a68becde23d66d90f2a4340ac9f9d1a05",
+      "bytes": 1431,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_summary.json",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_summary.json",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_summary.json"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/CR001_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "007fc4ae9a565f09c932d52931378f9ba762b619",
+      "bytes": 536,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/CR001_wrong_controls.csv",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/CR001_wrong_controls.csv"
+    },
+    {
+      "path": "A0-a_h-D/CR001_foundation_selector_recertification/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "b0e4f34be257134ccb53a5b9c4d423d29641005b",
+      "bytes": 1661,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/A0-a_h-D/CR001_foundation_selector_recertification/HASHES.txt",
+      "sama_path": "courtroom/A0-a_h-D/CR001_foundation_selector_recertification/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/A0-a_h-D/CR001_foundation_selector_recertification/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR001@A0-a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

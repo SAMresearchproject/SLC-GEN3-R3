@@ -1,0 +1,97 @@
+{
+  "cr_id": "CR252",
+  "title": "Particle Catalog Spine-Refresh",
+  "amendment_applied": "CR252_PRECOMMIT_AMENDMENT.md (V-3/F2 corrected; original sealed FAIL preserved in audit trail)",
+  "started_at_utc": "2026-06-24T22:15:10+00:00",
+  "completed_at_utc": "2026-06-24T22:15:11+00:00",
+  "verdict_class": "PASS",
+  "baseline_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+  "v2_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+  "second_run_sha256_WC1": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+  "bit_identical_to_baseline": true,
+  "verifications": {
+    "V-1_row_count_321": true,
+    "V-2_bin_distribution": {
+      "stable_matter_rows": 63,
+      "unstable_resonance_rows": 25,
+      "antimatter_conjugate_rows": 42,
+      "bound_composite_rows": 169,
+      "carrier_only_rows": 6,
+      "hidden_source_support_rows": 8,
+      "rejected_fake_closures": 8
+    },
+    "V-3_matter_count_matches_baseline": true,
+    "V-3_matter_count_v2": 286,
+    "V-3_matter_count_baseline": 286,
+    "V-4_candidate_id_stability": true,
+    "V-5_audit_completeness": true,
+    "V-6_recheck_derivations": true,
+    "V-7_attribution_for_named": true,
+    "V-8_no_unexplained": true
+  },
+  "pass_conditions": {
+    "P1_verifications": true,
+    "P2_all_classified": true,
+    "P3_wrong_controls": true,
+    "P4_no_unexplained": true,
+    "P5_no_env_drift": true
+  },
+  "fail_conditions": {
+    "F1_row_count": false,
+    "F2_matter_count_drift": false,
+    "F3_id_mismatch": false,
+    "F4_many_unexplained": false,
+    "F5_nondeterministic": false,
+    "F6_wrong_R_not_load_bearing": false,
+    "F7_carrier_promoted": false,
+    "F8_key_rows_missing": false
+  },
+  "aggregate": {
+    "change_class_counts": {
+      "unchanged": 321
+    },
+    "attribution_counts": {},
+    "presence_counts": {
+      "in_both": 321
+    },
+    "total_rows_v2": 321,
+    "total_rows_baseline": 321
+  },
+  "key_rows_WC3": {
+    "QP093A-0306": {
+      "present": "True",
+      "change_class": "unchanged",
+      "max_rel_delta": "0",
+      "deltas": ""
+    },
+    "QP093A-0043": {
+      "present": "True",
+      "change_class": "unchanged",
+      "max_rel_delta": "0",
+      "deltas": ""
+    },
+    "QP093A-0313": {
+      "present": "True",
+      "change_class": "unchanged",
+      "max_rel_delta": "0",
+      "deltas": ""
+    }
+  },
+  "wrong_control_2_wrong_R": {
+    "mode": "analytical",
+    "triadic_2+8+8_R12": "4752",
+    "triadic_2+8+8_R10": "3960",
+    "triadic_difference": "792",
+    "pair_3x6_R12": "225",
+    "pair_3x6_R10": "189",
+    "pair_difference": "36",
+    "material_difference": true
+  },
+  "wrong_control_4_carrier_non_promotion": {
+    "carrier_count": 6,
+    "promoted_count": 0,
+    "non_promotion_preserved": true
+  },
+  "regen_returncode": 0,
+  "appeal_block": null
+}

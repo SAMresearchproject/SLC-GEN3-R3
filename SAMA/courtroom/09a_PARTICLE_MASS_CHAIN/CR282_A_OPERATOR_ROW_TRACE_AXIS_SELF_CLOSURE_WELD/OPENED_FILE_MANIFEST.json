@@ -1,0 +1,32 @@
+{
+  "record_id": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "sealed_utc": "2026-07-12T07:04:57Z",
+  "firewall_note": "Opened/scanned files exclude SAM_LANGUAGE*, *V0_3_GENERALIZATION*, *PROSPECTIVE_HOLDOUT*, *FORECAST_GATE*, and *LANGUAGE_CONTRACT* content paths.",
+  "opened_or_scanned": [
+    {"path": "SAM_PROSPECTIVE_CR_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD_5_5_XHIGH.md", "purpose": "campaign instruction file"},
+    {"path": "artifacts/preflight_filled/PREFLIGHT_20260712_020251_no_script.json", "purpose": "preflight class"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv", "purpose": "row 306 and duplicate row extraction"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_result.md", "purpose": "duplicate audit scope"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv", "purpose": "duplicate group replay"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_result.md", "purpose": "retirement scope"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_summary.json", "purpose": "retirement summary"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_retirement_ledger.csv", "purpose": "retired row ledger"},
+    {"path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/QP102_TENSOR_SUM_LEDGER_CLOSURE_result.md", "purpose": "T13 ledger closure"},
+    {"path": "C:/VS/quantum_phase/artifacts/qp102_tensor_sum_ledger_closure/qp102_summary.json", "purpose": "structured ledger replay"},
+    {"path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/QP103_A_FIELD_LOCATION_result.md", "purpose": "A above ledger"},
+    {"path": "C:/VS/quantum_phase/artifacts/qp103_a_field_location/qp103_summary.json", "purpose": "structured A location replay"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY/CR229_result.md", "purpose": "closed carrier ledger"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md", "purpose": "non-row A operator"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json", "purpose": "structured A operator replay"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_per_row_predictions.csv", "purpose": "32-row transform table"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_wrong_controls.csv", "purpose": "A operator wrong controls"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_result.md", "purpose": "A surface meeting"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_summary.json", "purpose": "structured surface meeting replay"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION/CR257b_d1_predictions.csv", "purpose": "d=1 predictions"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION/CR266_result.md", "purpose": "mirror axis context"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md", "purpose": "axis-self closure witness"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_tensor9_roles.csv", "purpose": "tensor 9 roles"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md", "purpose": "primitive base and P1 support lift"},
+    {"path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md", "purpose": "B/contact competing model"}
+  ]
+}

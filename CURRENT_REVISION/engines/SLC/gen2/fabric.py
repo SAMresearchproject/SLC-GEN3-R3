@@ -48,7 +48,7 @@ def execute(payload=None):
     if not isinstance(payload, dict) or set(payload) - {'output_root', 'contracts'}:
         raise ValueError('GEN2 source batch accepts output_root and optional native source contracts')
     started = time.perf_counter()
-    root = Path(payload.get('output_root') or ROOT / 'SAM_REVIEW/campaigns/SLC_GEN2_BUILD1_EXECUTION1/hardware/production')
+    root = Path(payload.get('output_root') or ROOT / 'SAM_RUNTIME/R3/hardware')
     root.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
     run = root / ('GEN2_' + stamp); run.mkdir()
@@ -66,7 +66,8 @@ def execute(payload=None):
            'source_rows_sha256': sha(run / 'ROWS.npy'), 'plan_sha256': sha(run / 'PLAN.json'),
            'remote_directory': destination})
     calibration, reference = [], None
-    for workers in (4, 14):
+    worker_limit = len(os.environ['SAM_R3_CPU_ORDER'].split(',')) if 'SAM_R3_CPU_ORDER' in os.environ else 14
+    for workers in dict.fromkeys((min(4,worker_limit),worker_limit)):
         value, receipt = evaluate_primary(rows, blocks, workers)
         if reference is None: reference = value
         elif not np.array_equal(reference, value): raise ValueError('H14F source schedules disagree')
@@ -79,12 +80,16 @@ def execute(payload=None):
     write(run / 'H14F.json', {'calibration': calibration, 'selected_schedule': selected, 'compile_seconds': plan['compile_seconds']})
     remote(['python3', '-c', 'import pathlib,sys; pathlib.Path(sys.argv[1]).mkdir(parents=True,exist_ok=False)', destination])
     source_paths = [run / 'PLAN.json', run / 'ROWS.npy', run / 'SOURCE_BINDING.json',
-                    HERE / 'dependencies/J4_RESPONSES.jsonl', HERE / 'remote_hardware.py']
+                    HERE / 'dependencies/J4_RESPONSES.jsonl', HERE / 'remote_hardware.py',
+                    HERE.parent / 'gen3/resources.py', HERE.parent / 'gen3/RESOURCE_PROFILE.json']
     subprocess.run(SCP + [str(p) for p in source_paths] + ['lilhelper@10.77.0.2:' + destination + '/'], check=True)
     # fsync every received input before starting scientific execution.
     sync_script = 'import os,pathlib,sys; p=pathlib.Path(sys.argv[1]); [(lambda f:(os.fsync(f.fileno()),f.close()))(x.open("rb")) for x in p.iterdir() if x.is_file()]; f=os.open(p,os.O_RDONLY|os.O_DIRECTORY); os.fsync(f); os.close(f)'
     remote(['python3', '-c', sync_script, destination])
-    execution = remote(['env', 'RUSTICL_ENABLE=radeonsi', 'OPENBLAS_NUM_THREADS=1', 'OMP_NUM_THREADS=1',
+    execution = remote(['python3', destination + '/resources.py', 'run', '--role', 'cpu',
+                        '--name', 'native-' + stamp.lower(), '--', 'flock', '--exclusive',
+                        '/home/lilhelper/SAM_Research_Project/SAM_TRAINING/780m.lock',
+                        'env', 'RUSTICL_ENABLE=radeonsi', 'OPENBLAS_NUM_THREADS=1', 'OMP_NUM_THREADS=1',
                         'python3', destination + '/remote_hardware.py', 'run', destination], text=True)
     write(run / 'REMOTE_STDOUT.txt', execution.stdout.encode()); write(run / 'REMOTE_STDERR.txt', execution.stderr.encode())
     result = json.loads(execution.stdout)

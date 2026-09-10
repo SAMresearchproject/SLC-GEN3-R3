@@ -1,0 +1,77 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "cr_id": "CR066a",
+  "forward_blind_test": {
+    "claim": "Any qubit platform implementing the Paul Revere protocol at q = 0 (per CR065a) produces a commit-distribution (P_carrier, P_envelope, P_sensor) = (4/17, 9/17, 4/17) within experimental statistics.  Three exact invariants must hold: P_a = P_c; P_b - P_a = 5/17; P_b / P_a = 9/4.",
+    "falsifier": "ONE Paul Revere protocol execution on a SAM-native qubit (CR065a NV center specification) where the distribution clearly disagrees with (4/17, 9/17, 4/17) beyond statistical uncertainty falsifies the 1/alpha_H^4 letter increment claim.",
+    "free_parameters_at_test": 0,
+    "id": "CR066a_PRED_1",
+    "non_falsifying": "Distributions NEAR (4/17, 9/17, 4/17) with experimental noise are CONSISTENT.  Failure to implement the (1/4, 9/16, 1/4) slot loading at Stage 3 of the CR065a protocol means the test was not run, not that the claim is falsified."
+  },
+  "immutability": "Born extension claim (1/alpha_H^4 letter increment), letter signature invariants, and exact probability constraints are frozen at CR066a seal time.  Expert review may identify refinements requiring an appeal CR within 12a.",
+  "in_sample_verification": {
+    "baseline_weights_sum": "1",
+    "exact_P_a_equals_P_c": true,
+    "exact_P_b_minus_P_a_eq_5_17": true,
+    "exact_P_b_over_P_a_eq_9_4": true,
+    "invariant_S1_outer_equal": true,
+    "invariant_S2_middle_opposite": true,
+    "invariant_S3_ratio_2": true,
+    "letter_increment": "1/16",
+    "letter_increment_equals_1_over_alpha_H_4": true,
+    "loaded_weights_sum": "17/16"
+  },
+  "lock_committed_utc": "2026-06-16T02:13:30Z",
+  "lock_definition": {
+    "born_rule_relationship": "Standard Born unity (sum P = 1) is PRESERVED at the measurement stage.  The 1/alpha_H^4 = 1/16 'extension' is the FRACTIONAL SURFACE DEBIT excess at q=0 above the carrier+sensor unit baseline.  It manifests as a specific state-preparation signature that produces a measurable probability shift from baseline (1/4, 1/2, 1/4) to letter-loaded (4/17, 9/17, 4/17).",
+    "exact_probability_baseline": {
+      "P_carrier": "1/4",
+      "P_envelope": "1/2",
+      "P_sensor": "1/4",
+      "interpretation": "Neutral 3-level superposition; no Paul Revere letter loaded"
+    },
+    "exact_probability_constraints_loaded": {
+      "P_carrier": "4/17",
+      "P_carrier_equals_P_sensor": true,
+      "P_envelope": "9/17",
+      "P_envelope_minus_P_carrier": "5/17",
+      "P_envelope_over_P_carrier": "9/4",
+      "P_sensor": "4/17"
+    },
+    "letter_information_quantum": "1/alpha_H^4 = 1/16 = 6.25 % = the MINIMUM letter capacity per Paul Revere row transmission.  This is the SAM-native quantum of letter information.",
+    "letter_signature_invariants": {
+      "S1_outer_slots_equal_shift": "Delta(carrier) = Delta(sensor) = -1/68 EXACTLY",
+      "S2_middle_opposite_alpha_H_times_outer": "Delta(envelope) = -alpha_H * Delta(carrier) = +1/34",
+      "S3_magnitude_ratio": "|Delta(envelope) / Delta(carrier)| = 2 = alpha_H"
+    },
+    "name": "SAM_PAUL_REVERE_BORN_EXTENSION_AND_LETTER_INCREMENT",
+    "out_of_scope": [
+      "Modification of Born rule at measurement (NOT claimed).",
+      "Multi-letter transmissions and capacity scaling (CR067a candidate).",
+      "Connection to standard information-theoretic capacity formulas (Shannon, Holevo) (separate CR).",
+      "Whether 1/alpha_H^4 is the unique 'natural' letter increment vs an empirical fit."
+    ],
+    "scope_q0_only": "The 17/16 surface debit fraction is q=0 specific (per CR129b).  For q>=1 the magnitude coefficient is (4q+D)/(4R), with different slot decomposition.  Paul Revere letter architecture is q=0 specific.  Charged-row protocols would require a separate derivation.",
+    "structural_decomposition": {
+      "components": {
+        "baseline_16_over_16": "1 = (1/4 + 1/2 + 1/4) = (1/alpha_H^2 + 1/alpha_H + 1/alpha_H^2) -- neutral 3-level state with no message",
+        "letter_increment_1_over_16": "1/16 = 1/alpha_H^4 -- the Paul Revere letter content; the MINIMUM letter capacity per row"
+      },
+      "constants": {
+        "D": 3,
+        "R": 12,
+        "alpha_H": 2,
+        "alpha_H_4th": 16
+      },
+      "structural_form": "17/16 = (R + D + alpha_H) / alpha_H^4  (per CR129b q=0 reading)",
+      "summary": "17/16 = 1 + 1/16 = 1 + 1/alpha_H^4 = (Born unity baseline) + (letter information increment)"
+    }
+  },
+  "lock_version": "v1.0",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

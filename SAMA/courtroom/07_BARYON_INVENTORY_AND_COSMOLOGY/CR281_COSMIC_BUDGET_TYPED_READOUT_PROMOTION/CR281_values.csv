@@ -1,0 +1,16 @@
+symbol,typed_output,formula,value,units,role,source
+A0,SubstrateFloor,"1/(pi*R), R=12",0.026525823848649224,,SAM_OUTPUT,CR003@19/CR018
+chi,HorizonQuotient,(S/D)*A0,0.07073553026306459,,SAM_OUTPUT,CR018
+Omega_b,BaryonInventoryFraction,alpha_H*A0*(1-chi),0.049299011266100756,,SAM_OUTPUT,CR018/CR114
+Omega_m,MatterInventoryFraction,R*A0=1/pi,0.3183098861837907,,SAM_OUTPUT,CR003@19/Volume I
+Omega_c,DarkInventoryFraction,Omega_m-Omega_b,0.26901087491768993,,SAM_OUTPUT,CR281 algebra
+Omega_Lambda,SubstrateVacuumFraction,1-Omega_m,0.6816901138162093,,SAM_OUTPUT,Volume I/CR281 algebra
+Omega_m_eff,EffectiveMatterFraction,R*A0-2*A0*(chi+D*chi^2),0.3137609155690572,,SAM_OUTPUT_REFINEMENT,CR019
+eta,BaryonPhotonRatio,(M/(alpha_H^2*Theta))*A0^6,6.096089524484198e-10,,SAM_OUTPUT,CR036@19
+K_eta_to_omega_b,DimensionalConversion,n_b_per_omega_b/n_gamma(T_CMB),2.73415860442632e-08,,DIMENSIONAL_ANCHOR,CR036@19
+omega_b,PhysicalBaryonDensity,eta/K(T_CMB),0.022296034745809035,,SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR,CR036@19
+h_squared,ReducedHubbleParameterSquared,omega_b/Omega_b,0.4522612963871012,,SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR,CR036@19
+H0,HubbleReadout,100*sqrt(h_squared),67.25037519502037,km/s/Mpc,SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR,CR036@19
+T_CMB,CMBTemperatureAnchor,FIRAS,2.7255,K,EXTERNAL_DIMENSIONAL_ANCHOR,CR036@19
+eta_reference,Comparator,Planck-side reference,6.119e-10,,EXTERNAL_COMPARATOR,CR036@19
+H0_reference,Comparator,Planck 2018 central,67.36,km/s/Mpc,EXTERNAL_COMPARATOR,CR036@19

@@ -1,0 +1,13 @@
+validity_check,observed,expected,passed
+header_references_cr222a,CR222a,CR222a,True
+header_hash_matches_cr222a,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b,True
+road_light_route_present,QP093A-0301=1,QP093A-0301=1,True
+tensor_witness_present,QP093A-0300=18,QP093A-0300=18,True
+source_support_roster_complete,"[1, 2, 3, 4, 6, 8, 9, 12]","[1, 2, 3, 4, 6, 8, 9, 12]",True
+source_packet_0306_included,True,True,True
+mirror_0303_excluded_from_unpacked_roster,False,False,True
+carrier_subtotal_36,36,36,True
+source_subtotal_45,45,45,True
+unpacked_total_81,81,81,True
+mirror_total_81,81,81,True
+packet_total_162,162,162,True

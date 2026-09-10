@@ -1,0 +1,12 @@
+{
+  "freeze_time_utc": "2026-06-21T04:15:12+00:00",
+  "phase": "02_freeze",
+  "prediction_file_count": 255,
+  "prediction_linear_manifest_sha256": "141c1fe06436b568f18e95c8884c939add6762fe62e48fa0de9f7ddd681fde1e",
+  "prediction_manifest": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_hash_manifest.csv",
+  "prediction_merkle_root_sha256": "e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897",
+  "prediction_seal": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_seal.json",
+  "prediction_total_bytes": 22086309,
+  "prediction_zip": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_vault.zip",
+  "reveal_sources_read_before_this_freeze": false
+}

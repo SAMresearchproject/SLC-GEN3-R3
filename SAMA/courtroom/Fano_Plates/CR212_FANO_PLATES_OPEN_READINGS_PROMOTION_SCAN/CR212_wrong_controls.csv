@@ -1,0 +1,9 @@
+id,control,rejected,rejection_reason
+WC1,Absence of corpus evidence treated as derivation,True,Promotion scan emits NOT_PROMOTABLE_FROM_EXISTING_DATA explicitly; no negative evidence is upgraded to a positive claim.
+WC2,LC02 H_native=126 used as forward-blind reveal of Higgs mass,True,OPEN_6 verdict is REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND; LC02 target-visibility caveat preserved verbatim.
+WC3,HH001 builder embedded reference column declared Courtroom-native,True,"OPEN_1/2/3 verdicts are NOT_PROMOTABLE_FROM_EXISTING_DATA, citing CR211_external_reference_columns.csv."
+WC4,ACTION-residual = physical nuclear spin used as supporting evidence,True,"OPEN_4 verdict is RETIRED_FALSIFIED at 1/102, citing CR210_result.md and CR211_summary.json."
+WC5,Seven-channel mapping declared closed from Fano algebra alone,True,OPEN_5 verdict is NOT_PROMOTABLE_FROM_EXISTING_DATA. CR113/114/115/116 seal address algebra only; physical labeling remains open per CR210.
+WC6,CR210 or CR211 verdicts modified from this branch,True,CR212 writes only to Fano_Plates/CR212_*; 17_HAUNTED_HOUSE_INTAKE artifacts are read-only.
+WC7,New theorem sealed from this scan,True,"Claim grade declared as SCOPED_AUDIT. No primitive stack mutation, no new closure asserted."
+WC8,Promotion claimed without explicit source citation,True,Each non-NOT_PROMOTABLE verdict carries explicit sealed-artifact citation_paths.

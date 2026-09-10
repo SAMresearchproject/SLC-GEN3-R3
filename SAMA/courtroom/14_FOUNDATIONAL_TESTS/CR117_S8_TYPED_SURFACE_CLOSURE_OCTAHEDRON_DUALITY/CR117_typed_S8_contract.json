@@ -1,0 +1,27 @@
+{
+  "binary_state_type": "BinaryClosureStateMultiplicity",
+  "canonical_symbol": "S",
+  "canonical_type": "S8SurfaceClosureMultiplicity",
+  "canonical_value": 8,
+  "equalities": [
+    "S_state = h^D = 8",
+    "S_cross = 2^D = 8",
+    "S_split = R^2/Theta = 8"
+  ],
+  "geometric_type": "CrossPolytopeFacetCount",
+  "ledger_type": "ReleaseShareMultiplicity",
+  "not_claimed": [
+    "number of arbitrary linear separating surfaces",
+    "proof that physical substrate atoms are literally octahedra",
+    "universal material-strength superiority over a cube"
+  ],
+  "physical_geometry_status": "CANDIDATE_REALIZATION",
+  "source_hierarchy": {
+    "current_controller": "CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT",
+    "preserved_conflict": "CR238 older {F,S} foundational wording retained as sealed historical role language",
+    "primitive_inputs": {
+      "D": 3,
+      "h": 2
+    }
+  }
+}

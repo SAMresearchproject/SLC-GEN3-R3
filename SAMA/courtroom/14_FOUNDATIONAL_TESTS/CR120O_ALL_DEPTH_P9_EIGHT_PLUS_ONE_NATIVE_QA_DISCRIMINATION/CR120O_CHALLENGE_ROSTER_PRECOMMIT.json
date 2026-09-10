@@ -1,0 +1,55 @@
+{
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "g2_single_write_numeric_challenge": [
+    {
+      "role": "plus",
+      "p1_id": "QP093A-0049",
+      "p8_id": "QP093A-0064",
+      "p9_id": "QP093A-0067",
+      "predeclared_typed_issue": "p1 is stable_matter_rows while p8 and p9 are unstable_resonance_rows"
+    },
+    {
+      "role": "minus",
+      "p1_id": "QP093A-0050",
+      "p8_id": "QP093A-0065",
+      "p9_id": "QP093A-0068",
+      "predeclared_typed_issue": "p1 is stable_matter_rows while p8 and p9 are unstable_resonance_rows"
+    },
+    {
+      "role": "neutral",
+      "p1_id": "QP093A-0051",
+      "p8_id": "QP093A-0066",
+      "p9_id": "QP093A-0069",
+      "predeclared_typed_issue": "p1 is stable_matter_rows while p8 and p9 are unstable_resonance_rows"
+    }
+  ],
+  "composite_p9_challenge": {
+    "selector": "route_class in {three_owner_color_closure,two_owner_pair_closure} and token 9 occurs in partition_signature",
+    "expected_count": 51,
+    "expected_route_counts": {
+      "three_owner_color_closure": 36,
+      "two_owner_pair_closure": 15
+    },
+    "candidate_ids": [
+      "QP093A-0121", "QP093A-0128", "QP093A-0134", "QP093A-0139", "QP093A-0143", "QP093A-0146", "QP093A-0148", "QP093A-0149",
+      "QP093A-0156", "QP093A-0162", "QP093A-0167", "QP093A-0171", "QP093A-0174", "QP093A-0176", "QP093A-0177", "QP093A-0183",
+      "QP093A-0188", "QP093A-0192", "QP093A-0195", "QP093A-0197", "QP093A-0198", "QP093A-0203", "QP093A-0207", "QP093A-0210",
+      "QP093A-0212", "QP093A-0213", "QP093A-0217", "QP093A-0220", "QP093A-0222", "QP093A-0223", "QP093A-0226", "QP093A-0228",
+      "QP093A-0229", "QP093A-0231", "QP093A-0232", "QP093A-0233", "QP093A-0241", "QP093A-0249", "QP093A-0257", "QP093A-0265",
+      "QP093A-0273", "QP093A-0281", "QP093A-0283", "QP093A-0284", "QP093A-0285", "QP093A-0286", "QP093A-0287", "QP093A-0288",
+      "QP093A-0289", "QP093A-0290", "QP093A-0297"
+    ],
+    "predeclared_typed_issue": "composite routes have no same-route three-row p1,p8,p9 substitution because replacing one coordinate 9 by coordinates 8 and 1 changes route arity and identity"
+  },
+  "hidden_p9_challenge": {
+    "candidate_id": "QP093A-0312",
+    "route_combination": "hidden_source_support[p=9]",
+    "predeclared_typed_issue": "hidden support is nonlinear in p and matter_row_allowed=no; it is not a native single-write row"
+  },
+  "same_scalar_not_p_coordinate_control": {
+    "candidate_id": "QP093A-0302",
+    "route_combination": "weak_vector_support",
+    "partition_signature": "9",
+    "predeclared_typed_issue": "D^2 carrier scalar 9 is not the QP093A partition coordinate p=9"
+  }
+}

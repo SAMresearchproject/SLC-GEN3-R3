@@ -1,0 +1,5 @@
+wrong_control,passed,observed
+WC-1_determinism,True,first=3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6 second=3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6
+WC-2_wrong_R,True,"{""mode"": ""analytical"", ""triadic_2+8+8_R12"": ""4752"", ""triadic_2+8+8_R10"": ""3960"", ""triadic_difference"": ""792"", ""pair_3x6_R12"": ""225"", ""pair_3x6_R10"": ""189"", ""pair_difference"": ""36"", ""material_difference"": true}"
+WC-3_key_rows,True,"{""QP093A-0306"": {""present"": ""True"", ""change_class"": ""unchanged"", ""max_rel_delta"": ""0"", ""deltas"": """"}, ""QP093A-0043"": {""present"": ""True"", ""change_class"": ""unchanged"", ""max_rel_delta"": ""0"", ""deltas"": """"}, ""QP093A-0313"": {""present"": ""True"", ""change_class"": ""unchanged"", ""max_rel_delta"": ""0"", ""deltas"": """"}}"
+WC-4_carrier_non_promotion,True,"{""carrier_count"": 6, ""promoted_count"": 0, ""non_promotion_preserved"": true}"

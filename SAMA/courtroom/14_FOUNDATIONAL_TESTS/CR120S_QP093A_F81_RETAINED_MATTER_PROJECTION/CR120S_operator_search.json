@@ -1,0 +1,41 @@
+{
+  "record_id": "CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION",
+  "source_set_frozen": true,
+  "operator_contract_requirements": [
+    "canonical candidate universe",
+    "deterministic per-row predicate or constructive geometry mapping",
+    "typed matter antimatter neutral witness and resonance handling",
+    "source path and exact source key for every rule",
+    "no candidate ID whitelist",
+    "no workbook membership",
+    "no target row count or sum"
+  ],
+  "evidence": [
+    {
+      "source": "F81_TYPED_HIERARCHY",
+      "finding": "scalar W9 to V27 to F81 to L162 hierarchy is present",
+      "supports_row_selector": false,
+      "detail": "no canonical QP093A candidate universe, per-row predicate, and geometry mapping contract found"
+    },
+    {
+      "source": "PRIOR_SELECTION_AUTHORITY",
+      "finding": "OPEN_NOT_INSTALLED",
+      "supports_row_selector": false,
+      "detail": "The sheets establish exact sums and an exact set transition; they do not install why these exact 28 removals and 9 insertions define a physical inventory."
+    },
+    {
+      "source": "PRIOR_OPERATOR_BOUNDARY",
+      "finding": "explicit missing independent selector for omissions and insertions",
+      "supports_row_selector": false,
+      "detail": "current roster is a target-aware research overlay"
+    },
+    {
+      "source": "CR120R_HARD_CLOSURE",
+      "finding": "p9,g0 witness exclusion closes the 100-row full ledger",
+      "supports_row_selector": false,
+      "detail": "CR120R is a conservation gate only and does not define F81 membership"
+    }
+  ],
+  "admissible_operator_found": false,
+  "search_disposition": "PROJECTION_RULE_OPEN"
+}

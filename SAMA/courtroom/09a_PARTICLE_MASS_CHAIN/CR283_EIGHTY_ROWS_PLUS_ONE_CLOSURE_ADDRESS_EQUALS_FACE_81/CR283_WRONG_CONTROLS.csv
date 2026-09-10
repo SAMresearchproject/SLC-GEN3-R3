@@ -1,0 +1,13 @@
+control_id,description,observed,rejected
+WC1,add an 81st invented particle,no source row,True
+WC2,restore QP093A-0305,CR216 retires it; CR282 wrong control gives 163,True
+WC3,count closure address as particle,particle count becomes 81 and violates non-row typing,True
+WC4,count support-1 row as reserved address,support role is not closure/contact address,True
+WC5,count photon/road carrier as reserved address,carrier role is not closure/contact address,True
+WC6,grid by CSV order,rejected by coordinate precommit,True
+WC7,manual symmetry optimization,rejected by coordinate precommit,True
+WC8,arithmetic only,numeric compatibility alone capped at 20 percent,True
+WC9,ignore CR282 scope,A_OPERATOR -> B/contact remains OPEN,True
+WC10,merge all ones,"typed occurrence register keeps X1, C1, P1, A1, A_OPERATOR distinct",True
+WC11,force ten octets by candidate id order,candidate id order disallowed,True
+WC12,random-label control,actual pair consistency 1.000000 beats random max 0.093750,True

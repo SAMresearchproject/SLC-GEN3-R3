@@ -1,0 +1,76 @@
+{
+  "all_rejected": true,
+  "controls": [
+    {
+      "id": "WC01_MEAN_INSTEAD_OF_SUM",
+      "reason": "The verdict uses only the frozen sums 12600, 14400, and 16200.",
+      "rejected": true
+    },
+    {
+      "id": "WC02_CARDINALITY_81_AS_NORMALIZATION",
+      "reason": "81 remains WorkbookRowCount; the mirror multiplier is typed separately as 100.",
+      "rejected": true
+    },
+    {
+      "id": "WC03_81_SUBSET_OF_100",
+      "reason": "Direct set comparison gives 28 roster100-only and 9 roster81-only ids.",
+      "rejected": true
+    },
+    {
+      "id": "WC04_HIDE_SET_TRANSITION",
+      "reason": "All 28 removals and 9 insertions are emitted row by row.",
+      "rejected": true
+    },
+    {
+      "id": "WC05_PRIOR_CR_SUBSTITUTION",
+      "reason": "Both rosters were extracted from the current workbooks; no CR120K/L/M result was read.",
+      "rejected": true
+    },
+    {
+      "id": "WC06_DELETE_OR_MERGE_P9",
+      "reason": "The five p9 ids remain explicit and four reappear on the 81-only side.",
+      "rejected": true
+    },
+    {
+      "id": "WC07_PROMOTE_USER_STABILITY",
+      "reason": "The five heavy rows retain canonical unstable status in the reconciliation.",
+      "rejected": true
+    },
+    {
+      "id": "WC08_MIDPOINT_AS_OBSERVED",
+      "reason": "14400 is labeled derived and has no workbook roster.",
+      "rejected": true
+    },
+    {
+      "id": "WC09_BLIND_TARGET_CLAIM",
+      "reason": "Both headline sums and the AF3-12600 target were known before execution.",
+      "rejected": true
+    },
+    {
+      "id": "WC10_ARITHMETIC_AS_PHYSICAL_AUTHORITY",
+      "reason": "Selection and physical mapping remain OPEN_NOT_INSTALLED.",
+      "rejected": true
+    },
+    {
+      "id": "WC11_SOURCE_MUTATION",
+      "reason": "All frozen sources are hash-checked before and after execution.",
+      "rejected": true
+    },
+    {
+      "id": "WC12_EXECUTE_WORKBOOK_CODE",
+      "reason": "Only ZIP/XML stored values and cached formulas were read.",
+      "rejected": true
+    },
+    {
+      "id": "WC13_HIDE_DECIMAL_OR_IDENTITY_DELTAS",
+      "reason": "Set packets and same-id exact checks are fully emitted.",
+      "rejected": true
+    },
+    {
+      "id": "WC14_EXTERNAL_SELECTION",
+      "reason": "No external physics was imported to choose either roster.",
+      "rejected": true
+    }
+  ],
+  "record_id": "CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON"
+}

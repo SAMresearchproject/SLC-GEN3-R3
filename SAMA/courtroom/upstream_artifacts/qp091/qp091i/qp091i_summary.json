@@ -1,0 +1,38 @@
+{
+  "artifact": "QP091I_EXTERNAL_REVEAL_MAP",
+  "generated_at_utc": "2026-06-14T23:03:46.494527+00:00",
+  "result_class": "PASS_QP091I_EXTERNAL_REVEAL_MAP_EMITTED__PRESSURE_HZZ4L_FLAVOR_COUNT_MISMATCH__BOUNDARY_NO_RETRO_TUNING",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "test_type": "POST_FREEZE_EXTERNAL_REVEAL_MAP",
+  "campaign": "closure_campaign08",
+  "freeze_id": "CAMPAIGN08_QP091B_H_NATIVE_ELECTROWEAK_CHAIN_FREEZE",
+  "external_sources": 8,
+  "external_values": 19,
+  "coupling_residual_rows": 4,
+  "width_branching_residual_rows": 6,
+  "angular_target_rows": 5,
+  "pressure_rows": 1,
+  "reveal_pressure_class": "PRESSURE_SIMPLE_FLAVOR_COUNT_MISMATCH",
+  "native_terminal_order": [
+    "4e",
+    "2e2mu",
+    "4mu"
+  ],
+  "external_simple_flavor_count_order": [
+    "2e2mu",
+    "4e=4mu"
+  ],
+  "native_chain_tuned": false,
+  "external_values_used_as_generation_inputs": false,
+  "physical_branching_ratios_derived": false,
+  "numeric_widths_derived": false,
+  "full_electroweak_theorem_claimed": false,
+  "free_parameters_introduced": 0,
+  "checks_passed": 9,
+  "checks_total": 9,
+  "wrong_controls_rejected": 7,
+  "wrong_controls_total": 7,
+  "scientific_reading": "QP091I opens external reveal values after the hard freeze. The strongest new pressure is terminal-flavor composition: the native declared HZZ4l shares are near one-third each, while simple lepton-universal Z-pair flavor counting gives 1:2:1. This does not rewrite QP091H; it marks the next falsification/acceptance/interference target.",
+  "next_frontier": "QP091J_PR_LETTER_OR_QP091I_DIRECT_CATEGORY_YIELD_REVEAL"
+}

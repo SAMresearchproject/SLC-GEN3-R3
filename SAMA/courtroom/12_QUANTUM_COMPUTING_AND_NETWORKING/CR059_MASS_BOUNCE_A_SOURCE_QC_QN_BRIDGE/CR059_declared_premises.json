@@ -1,0 +1,25 @@
+{
+  "test_id": "CR059_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE",
+  "branch": "12_QUANTUM_COMPUTING_AND_NETWORKING",
+  "declared_question": "Can branch 12 import mass/bounce/A-source work as a source-aware QC/QN protocol extension without changing the hardware boundary?",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "free_parameters_introduced": 0,
+  "required_chain": [
+    "unresolved SW",
+    "resolved write/bounce split",
+    "r_bounce",
+    "q_A,i = m_i * (1 + r_bounce,i)",
+    "particle A source",
+    "macro A accumulation",
+    "field-behavior protocol surface"
+  ],
+  "scope_boundaries": [
+    "protocol extension only",
+    "not demonstrated quantum hardware",
+    "not live external network validation",
+    "not full GR derivation",
+    "not full electroweak theorem"
+  ],
+  "rule_9_falsification": "This test could have falsified the branch-12 source-aware extension if the QC/QN stack was not clean, if QP075 was not the active particle surface, if q_A = m * (1 + r_bounce) was not an exact source bridge, if resolved write/bounce topology did not generalize, or if the extension required a new parameter or hardware overclaim."
+}

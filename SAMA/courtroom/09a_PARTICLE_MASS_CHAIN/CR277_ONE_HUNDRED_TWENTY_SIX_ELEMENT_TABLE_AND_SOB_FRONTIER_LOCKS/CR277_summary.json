@@ -1,0 +1,183 @@
+{
+  "cr": "CR277",
+  "verdict": "PASS",
+  "gates": {
+    "G0_regression": true,
+    "G1_coverage": true,
+    "G2_anchors": true,
+    "G3_frontier": true,
+    "G4_ame_parse": true,
+    "G5_hash_guard": true
+  },
+  "metrics": {
+    "g0_max_delta": 4.864068423238166e-05,
+    "g4_max_delta_u": 5.3109999953449005e-06,
+    "n_rows": 126,
+    "n_observed": 118,
+    "n_frontier": 8,
+    "n_op_fired": 21
+  },
+  "whole_set_observed": {
+    "n": 118,
+    "RMS_MeV": 6.672483508062074,
+    "MAE_MeV": 4.336237810269826,
+    "within_5": 82,
+    "within_8": 107,
+    "within_15": 114,
+    "within_30": 117
+  },
+  "by_z_band": {
+    "light": {
+      "n": 7,
+      "RMS_MeV": 19.907368885438697,
+      "MAE_MeV": 13.288422629459603,
+      "within_5": 4,
+      "within_8": 4,
+      "within_15": 4,
+      "within_30": 6
+    },
+    "mid": {
+      "n": 75,
+      "RMS_MeV": 4.1445988648432985,
+      "MAE_MeV": 3.288980243048227,
+      "within_5": 54,
+      "within_8": 72,
+      "within_15": 75,
+      "within_30": 75
+    },
+    "heavy": {
+      "n": 36,
+      "RMS_MeV": 5.752172137166645,
+      "MAE_MeV": 4.777321804916812,
+      "within_5": 24,
+      "within_8": 31,
+      "within_15": 35,
+      "within_30": 36
+    }
+  },
+  "extended_only": {
+    "n": 78,
+    "RMS_MeV": 7.974144218432505,
+    "MAE_MeV": 5.446968407582192,
+    "within_5": 45,
+    "within_8": 67,
+    "within_15": 74,
+    "within_30": 77
+  },
+  "anchors": {
+    "O-16": {
+      "cr277_pred": 5.628716065791236,
+      "cr274_pred": 5.6287,
+      "abs_delta_pred": 1.606579123603069e-05,
+      "ok": true,
+      "cr277_resid": 0.8917138979203809,
+      "cr274_resid": -0.8917000000000002
+    },
+    "Fe-56": {
+      "cr277_pred": 61.83732683550052,
+      "cr274_pred": 61.8373,
+      "abs_delta_pred": 2.683550052040573e-05,
+      "ok": true,
+      "cr277_resid": 1.230163273877345,
+      "cr274_resid": -1.2319999999999993
+    },
+    "Au-197": {
+      "cr277_pred": 27.421477019173885,
+      "cr274_pred": 27.4215,
+      "abs_delta_pred": 2.2980826116736353e-05,
+      "ok": true,
+      "cr277_resid": -3.718274880825465,
+      "cr274_resid": 3.7194999999999965
+    },
+    "Pb-208": {
+      "cr277_pred": 21.74829,
+      "cr274_pred": 21.7483,
+      "abs_delta_pred": 9.999999999621423e-06,
+      "ok": true,
+      "cr277_resid": -0.0002296458266393131,
+      "cr274_resid": 0.0
+    }
+  },
+  "frontier_forecasts": [
+    {
+      "Z": 119,
+      "isotope": "Hl-238",
+      "name": "Harlium",
+      "B_u_final_MeV": -379.2174987954691
+    },
+    {
+      "Z": 120,
+      "isotope": "Bx-240",
+      "name": "Brockium",
+      "B_u_final_MeV": -334.8766608820973
+    },
+    {
+      "Z": 121,
+      "isotope": "Uq-242",
+      "name": "Uniquium",
+      "B_u_final_MeV": -400.64196409738344
+    },
+    {
+      "Z": 122,
+      "isotope": "Lm-244",
+      "name": "Liamium",
+      "B_u_final_MeV": -355.47049923283555
+    },
+    {
+      "Z": 123,
+      "isotope": "Cp-246",
+      "name": "Cooperium",
+      "B_u_final_MeV": -421.63617085238724
+    },
+    {
+      "Z": 124,
+      "isotope": "Ly-248",
+      "name": "Lindesium",
+      "B_u_final_MeV": -375.39781506705833
+    },
+    {
+      "Z": 125,
+      "isotope": "Di-250",
+      "name": "Dorisium",
+      "B_u_final_MeV": -441.66209587356457
+    },
+    {
+      "Z": 126,
+      "isotope": "Jd-252",
+      "name": "Jerroldium",
+      "B_u_final_MeV": -388.33286460617956
+    }
+  ],
+  "ame_stats": {
+    "total_data_lines": 3558,
+    "parsed": 3558,
+    "skipped_parse_error": 0,
+    "skipped_star": 0,
+    "estimated": 1008
+  },
+  "model": {
+    "beta_K": {
+      "vol": 10.814717731372474,
+      "surf": 27.55377102233821,
+      "coul": 0.8330418169113959,
+      "pair": -78.16971798716308,
+      "quadZ_A": 4.251267938620264,
+      "quadN_A": 1.4069774382546392,
+      "quad_cross_A2": -2.852679669191055,
+      "shell_prox": -2.539364333160457,
+      "lightodd": 17.705846519554715,
+      "alpha": 0.7498509965412838,
+      "reonset": 13.611888941654877,
+      "doubmag": -1.558588968261812,
+      "asym": 36.818129859257176
+    },
+    "op_gammas": {
+      "op_82pre": -0.7273238920525138,
+      "op_3d_odd": 6.965431443111167,
+      "op_dm_sat": 7.18003785865981,
+      "op_ms_fill": -0.45314378000587197
+    }
+  },
+  "precommit_hash": "50c429d0df9f449be7278adeff10cecba9a606af39643b39d04c54354a4c10c9",
+  "stewardship_hash": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88"
+}

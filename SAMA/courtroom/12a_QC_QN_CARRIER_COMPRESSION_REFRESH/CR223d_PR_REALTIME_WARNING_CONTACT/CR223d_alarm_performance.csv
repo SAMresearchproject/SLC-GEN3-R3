@@ -1,0 +1,15 @@
+metric,value
+n_trials,100
+n_above_trials,100
+n_samples_total,1000
+TP_samples,609
+TN_samples,299
+FP_samples,18
+FN_samples,74
+TPR_per_sample,0.8916544655929722
+TNR_per_sample,0.943217665615142
+miss_rate,0.10834553440702777
+false_alarm_rate,0.056782334384858024
+latency_mean_intervals,0.7
+latency_max_intervals,3
+latency_intervals,n=100

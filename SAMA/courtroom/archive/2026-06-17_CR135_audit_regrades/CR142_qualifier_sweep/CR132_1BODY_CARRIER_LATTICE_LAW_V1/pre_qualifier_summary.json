@@ -1,0 +1,142 @@
+{
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "law_lock_sha256",
+    "old_value": "f4811aa11df61be7a9fa01d09dc15775f816ab153313dccda022a3b92491ec17",
+    "new_value": "fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR132_1BODY_CARRIER_LATTICE_LAW_V1/",
+    "original_result_md_sha256": "6897acca61d2407e8b1dc5ee36922be15e949ab1f37d8d6839d8c47d928ba078",
+    "original_summary_json_sha256": "4495b9d557717bc67a309c5bccaeb6b159514c589041095b7bc9caed0c721145"
+  },
+  "cr_id": "CR132",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "ONE_BODY_CARRIER_LATTICE_LAW_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR132_1BODY_CARRIER_LATTICE_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T00:22:22Z",
+  "spin_classification": "true 1-body bosons (6 carrier classes, each with 1 row in CR119)",
+  "formula": "M_native = alpha_H^i * D^j per spin class (C1 = 1)",
+  "lattice_assignments": {
+    "TENSOR_CARRIER": {
+      "i": 1,
+      "j": 2,
+      "M": 18,
+      "structural": "alpha_H * D^2"
+    },
+    "WEAK_VECTOR_CARRIER": {
+      "i": 0,
+      "j": 2,
+      "M": 9,
+      "structural": "D^2"
+    },
+    "NEUTRAL_VECTOR_CARRIER": {
+      "i": 0,
+      "j": 4,
+      "M": 81,
+      "structural": "D^4"
+    },
+    "COLOR_OWNER_CARRIER": {
+      "i": 3,
+      "j": 0,
+      "M": 8,
+      "structural": "alpha_H^3"
+    }
+  },
+  "massless_carriers": {
+    "ROAD_LIGHT_CARRIER": {
+      "M": 0,
+      "structural": "photon-class"
+    },
+    "A_FIELD_CARRIER": {
+      "M": 0,
+      "structural": "A-field"
+    }
+  },
+  "C1": 1,
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "rows_tested": 6,
+  "matches": 6,
+  "violations": 0,
+  "S_debit_zero_universal": true,
+  "verification_csv_sha256": "9937d79e790c08d7a7230d1d5f20409ae28542a5aed8d944c3ddbe1716715bee",
+  "law_lock_sha256": "fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_6_carriers_walked",
+      "pass": true,
+      "details": "carrier rows walked = 6 (expected 6)"
+    },
+    {
+      "name": "P2_all_carriers_match_lattice",
+      "pass": true,
+      "details": "massive = 4/4, massless = 2/2, violations = 0"
+    },
+    {
+      "name": "P3_S_debit_zero_for_all_carriers",
+      "pass": true,
+      "details": "S_debit zero on 6/6 carriers (CARRIER_ONLY_NOT_MATTER stability)"
+    },
+    {
+      "name": "P4_M_NEUTRAL_equals_M_WEAK_times_D_squared",
+      "pass": true,
+      "details": "NEUTRAL_VECTOR M = 81 = 9 * 9 = WEAK_VECTOR * D^2 (within shared massive_vector_support spin class)"
+    },
+    {
+      "name": "P5_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_carriers_explicitly_distinct_from_V4_1_fermions",
+      "pass": true,
+      "details": "CR131 locked V4_1_SINGLE_WRITE (90 fermion_half_write rows).  CR132 locks the 6 true 1-body bosons (carriers).  Different spin classes, different operator classes, different generators."
+    },
+    {
+      "name": "WC3_M_native_NOT_calibrated_to_MeV",
+      "pass": true,
+      "details": "Carrier M_native values are structural inventory integers on the (alpha_H, D) lattice, not energy units.  Mapping to physical MeV scale requires a separate calibration constant per spin class and is out of CR132 scope."
+    },
+    {
+      "name": "WC4_C1_equals_1_NOT_9_over_8",
+      "pass": true,
+      "details": "Initial probe tried C1 = 9/8 (from CR129b's middle-slot surcharge).  Three carriers fit (9/8)*X form but COLOR_OWNER did not.  User-directed pivot to C1 = 1 closed all six rows cleanly via the (alpha_H, D) lattice.  Honest forensics recorded; no post-hoc tuning."
+    },
+    {
+      "name": "WC5_massless_carriers_treated_as_M_equals_0_NOT_undefined",
+      "pass": true,
+      "details": "ROAD_LIGHT (photon-class) and A_FIELD have M_native = 0 in CR119, with partition = 1 as a placeholder slot.  CR132 treats this as a valid lattice value (the M=0 point) rather than 'massless undefined'."
+    },
+    {
+      "name": "WC6_SOURCE_SUPPORT_and_fake_spin_rows_explicitly_excluded",
+      "pass": true,
+      "details": "The 8 SOURCE_SUPPORT_PACKET (unresolved_support) and 9 'fake_spin' null-control rows in CR119 are NOT covered by CR132.  They are structural diagnostics, not physical bosons."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR132b: calibration of carrier lattice integers to physical MeV scale (per-spin-class constant)",
+    "CR133+: derive lattice formula for SOURCE_SUPPORT_PACKET (8 rows) and OUTER_BINARY_NEUTRAL (24 rows)",
+    "Forward-blind CR132_PRED_1 resolves when CR119 gains new carrier rows (or a new carrier class)",
+    "First-principles derivation of why each spin class lands at its specific (i, j) lattice point is open"
+  ]
+}

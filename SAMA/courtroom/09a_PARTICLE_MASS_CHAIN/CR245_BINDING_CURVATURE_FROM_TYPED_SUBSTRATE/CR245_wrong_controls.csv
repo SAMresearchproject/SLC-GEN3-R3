@@ -1,0 +1,6 @@
+label,kind,perturbation,metric_name,metric_value,total,pass_condition_met,note
+WC-R10_asym_identity_factor,asym_identity_perturbation,R_=10,nontrivial_rows_breaking_identity,58,58,True,trivial (N=Z) rows: 13 match trivially under any R
+WC-R11_asym_identity_factor,asym_identity_perturbation,R_=11,nontrivial_rows_breaking_identity,58,58,True,trivial (N=Z) rows: 13 match trivially under any R
+WC-R13_asym_identity_factor,asym_identity_perturbation,R_=13,nontrivial_rows_breaking_identity,58,58,True,trivial (N=Z) rows: 13 match trivially under any R
+WC-T1_drop_asym,term_removal,drop SAM asymmetry term,rms_MeV_dropped,12.467211266090864,,True,
+WC-A1_shuffle_B_u,row_shuffle,shuffle B_u labels seed 20260623,rms_MeV_shuffled,35.69121113637,,True,

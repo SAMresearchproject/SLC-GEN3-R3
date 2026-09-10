@@ -1,0 +1,84 @@
+{
+  "all_global_constants_rejected_as_independent_features": true,
+  "all_sources_verified": true,
+  "baseline_reproduction": {
+    "pass": true,
+    "refit_test_abs_delta_u": 0.0,
+    "refit_train_abs_delta_u": 0.0,
+    "zero_free_test_abs_delta_u": 0.0,
+    "zero_free_train_abs_delta_u": 0.0
+  },
+  "binding_data": {
+    "U_TO_MEV": 931.49410242,
+    "holdout_fit_rows": 0,
+    "holdout_rows": 20,
+    "train_rows": 49
+  },
+  "direct_p9_g0_removed_holdout_readouts": [
+    {
+      "delta_MAE_MeV_vs_M126": -718.9440676061694,
+      "delta_RMS_MeV_vs_M126": -752.9185050735613,
+      "direction": "WORSE",
+      "holdout_MAE_MeV": 721.6422968104512,
+      "holdout_RMS_MeV": 756.2768338561639,
+      "material_improvement": false,
+      "scenario": "SHEET81_P9G0_REMOVED_12550P5",
+      "surface": "FROZEN_COEFFICIENT_TRANSFER"
+    },
+    {
+      "delta_MAE_MeV_vs_M126": -720.5944378985888,
+      "delta_RMS_MeV_vs_M126": -754.6479911467976,
+      "direction": "WORSE",
+      "holdout_MAE_MeV": 723.2926671028706,
+      "holdout_RMS_MeV": 758.0063199294002,
+      "material_improvement": false,
+      "scenario": "SHEET100_P9G0_REMOVED_16200",
+      "surface": "FROZEN_COEFFICIENT_TRANSFER"
+    },
+    {
+      "delta_MAE_MeV_vs_M126": -105.11056437484974,
+      "delta_RMS_MeV_vs_M126": -106.10340634924927,
+      "direction": "WORSE",
+      "holdout_MAE_MeV": 161.8642878894724,
+      "holdout_RMS_MeV": 165.70586283419263,
+      "material_improvement": false,
+      "scenario": "SHEET81_P9G0_REMOVED_12550P5",
+      "surface": "FIXED_ZERO_FREE_SURFACE"
+    },
+    {
+      "delta_MAE_MeV_vs_M126": -105.35757336122684,
+      "delta_RMS_MeV_vs_M126": -106.35957644824919,
+      "direction": "WORSE",
+      "holdout_MAE_MeV": 162.1112968758495,
+      "holdout_RMS_MeV": 165.96203293319255,
+      "material_improvement": false,
+      "scenario": "SHEET100_P9G0_REMOVED_16200",
+      "surface": "FIXED_ZERO_FREE_SURFACE"
+    }
+  ],
+  "overall_verdict": "PASS_NO_MEASURED_BINDING_MAGNITUDE_IMPROVEMENT",
+  "precommit_sha256": "d0ce8c4d61eea386e1d3a5f7fe88c80edd50ccba67015b7526d6b9aea6db476e",
+  "record_id": "CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY",
+  "source_count": 19,
+  "source_manifest_sha256": "31ed59a0f6b7cb52e7e448ef97dee60d74500bc63e006e489953c960972c436e",
+  "spreadsheet_reconstruction": {
+    "all_ten_parent_rows_retained_in_both": true,
+    "all_values_are_whole_roster_sums": true,
+    "exact_p9_g0_relation_pass": true,
+    "means_used": false,
+    "roster100_p9_g0_rows": [],
+    "roster100_rows": 100,
+    "roster100_sum_M_native": "16200",
+    "roster81_retained_p9_g0_ids": [
+      "QP093A-0019",
+      "QP093A-0020",
+      "QP093A-0085",
+      "QP093A-0086"
+    ],
+    "roster81_retained_p9_g0_sum": "49.5",
+    "roster81_rows": 81,
+    "roster81_sum_M_native_as_saved": "12600",
+    "roster81_sum_after_specific_p9_g0_removal": "12550.5"
+  },
+  "task": "Measure binding residual improvement from updated p9 g0 spreadsheet assemblies"
+}

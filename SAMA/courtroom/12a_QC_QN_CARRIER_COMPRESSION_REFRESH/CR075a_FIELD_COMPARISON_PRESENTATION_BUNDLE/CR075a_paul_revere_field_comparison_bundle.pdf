@@ -1,0 +1,487 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 2902 >>
+stream
+BT
+/F1 9 Tf
+50 750 Td
+12 TL
+(# Stewardship Intent) Tj
+T*
+() Tj
+T*
+(SAM is private research, and all rights remain reserved. If SAM or related work) Tj
+T*
+(ever produces commercial revenue, the originator intends for that value to) Tj
+T*
+(carry public responsibility with it.) Tj
+T*
+() Tj
+T*
+(Any future commercial licensing, investment, acquisition, productization, or) Tj
+T*
+(revenue-sharing discussion should treat public-benefit participation as part of) Tj
+T*
+(the expected deal structure.) Tj
+T*
+() Tj
+T*
+(Priority causes include:) Tj
+T*
+() Tj
+T*
+(```text) Tj
+T*
+(homeless shelters and housing support) Tj
+T*
+(addiction recovery and rehabilitation) Tj
+T*
+(charitable medical support) Tj
+T*
+(education and opportunity access) Tj
+T*
+(community charities and public-good efforts chosen by Sean Brady) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(This stewardship statement is not marketing. It records the project's intent:) Tj
+T*
+(if anyone profits from this work, part of that upside should help people who) Tj
+T*
+(need help.) Tj
+T*
+() Tj
+T*
+(The work began as an idea, a question, and a long effort to turn imagination) Tj
+T*
+(into something testable. If it becomes valuable in the world, that value should) Tj
+T*
+(not flow only upward. It should also flow outward.) Tj
+T*
+() Tj
+T*
+(---) Tj
+T*
+() Tj
+T*
+(# CR075a Paul Revere Field Comparison Bundle) Tj
+T*
+() Tj
+T*
+(**Status:** presentation bundle generated from sealed CR070a-CR074a artifacts) Tj
+T*
+(**Campaign:** PAUL_REVERE_FIELD_COMPARISON) Tj
+T*
+(**Scope:** stewardship-grade reproducible handoff, not hardware demonstration) Tj
+T*
+() Tj
+T*
+(## One-page readout) Tj
+T*
+() Tj
+T*
+(The Paul Revere field comparison campaign turns the branch-12a PR letter work into a) Tj
+T*
+(reproducible handoff surface. It does not claim a working quantum network, a partner-lab) Tj
+T*
+(agreement, a commercial deployment, or external validation. It claims that the) Tj
+T*
+(prediction/comparison surface is now organized enough for an outside reviewer to rerun,) Tj
+T*
+(inspect, and try to break.) Tj
+T*
+() Tj
+T*
+(The strongest positive result is methodological: CR070a-CR074a preserve predeclared) Tj
+T*
+(formulas, row tables, wrong controls, failures, hashes, and a rerunnable pack. The strongest) Tj
+T*
+(technical result is narrower: the same SAM t_fire formula and constant apply structurally) Tj
+T*
+(across NV-diamond and photonic rows. The load-bearing comparison against textbook 1/e does) Tj
+T*
+(not pass, because the SAM PR alarm threshold and textbook 1/e convention live in different) Tj
+T*
+(measurement regimes.) Tj
+T*
+() Tj
+T*
+(## What the PR letter is) Tj
+T*
+() Tj
+T*
+(The Paul Revere letter is a warning payload: it fires before ledger commit when the) Tj
+T*
+(unresolved quantum-coherence surface crosses the pre-write alarm threshold. In this campaign) Tj
+T*
+(the active threshold is A_side = 1/24, with A_share = 1/12 as the basin/commit sibling. It) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3817 >>
+stream
+BT
+/F1 9 Tf
+50 750 Td
+12 TL
+(is not the same event as particle write fractions such as 1/8 or card-composition fractions) Tj
+T*
+(such as 4/17 and 9/17.) Tj
+T*
+() Tj
+T*
+(## Sealed CR map) Tj
+T*
+() Tj
+T*
+(| CR | Role | Result class | Predictions | Wrong controls | Key readout |) Tj
+T*
+(|---|---|---|---:|---:|---|) Tj
+T*
+(| CR070a | expanded NV-diamond T2 contact | `CR070a_EXPANDED_NV_DIAMOND_T2_TABLE_SEALED__PRE) Tj
+T*
+(DICTIONS_10_OF_12__WRONG_CONTROLS_7_OF_8__ROWS_22__CONSISTENT_17__BOUNDARY_1__VIOLATIONS_4` ) Tj
+T*
+(| 10/12 | 7/8 | Provisional NV-diamond table populated with 22 rows from published-platform ) Tj
+T*
+(T2 literature. 4 violations of T2_grav v1.1 floor detected \(expected: room-temperature Hahn-) Tj
+T*
+(echo NV T... |) Tj
+T*
+(| CR071a | photonic PR mapping framework | `CR071a_PHOTONIC_MAPPING_SEALED__PREDICTIONS_8_OF) Tj
+T*
+(_8__WRONG_CONTROLS_8_OF_8__MAPPING_ROWS_10__FREE_PARAMETERS_0` | 8/8 | 8/8 | CR071a defines ) Tj
+T*
+(10 mapping rows from NV-diamond observables to photonic equivalents using only CR060a alphab) Tj
+T*
+(et ratios. Every mapping row carries a falsifier statement. No mapping... |) Tj
+T*
+(| CR072a | photonic empirical contact table | `CR072a_PHOTONIC_EMPIRICAL_TABLE_SEALED__PREDI) Tj
+T*
+(CTIONS_11_OF_11__WRONG_CONTROLS_7_OF_8__ROWS_14__CONSISTENT_14__BOUNDARY_0__VIOLATIONS_0` | ) Tj
+T*
+(11/11 | 7/8 | Provisional photonic table populated with 14 rows from published-platform tau_) Tj
+T*
+(ent literature. 0 violations of T2_grav v1.1 floor at photonic omega. 0 rows in boundary reg) Tj
+T*
+(ion. 14... |) Tj
+T*
+(| CR073a | cross-platform t_fire scaling | `CR073a_CROSS_PLATFORM_T_FIRE_SCALING_SEALED__PRE) Tj
+T*
+(DICTIONS_11_OF_11__WRONG_CONTROLS_9_OF_9__NV_ROWS_22__PHOTONIC_ROWS_14__PHOTONIC_WITHIN_0_25) Tj
+T*
+(_0_OF_14__PHOTONIC_WITHIN_0_15_0_OF_14__VERDICT_STRUCTURAL_FLOOR_BREACHED_AGAINST_TEXTBOOK_1) Tj
+T*
+(_OVER_E_REFERENCE` | 11/11 | 9/9 | CR073a applied the SAM t_fire predictor \(t_fire_pred = co) Tj
+T*
+(herence_time * c0_SAM, c0_SAM = 0.021280\) to 22 NV-diamond rows from CR070a and 14 photonic ) Tj
+T*
+(rows from CR072a, using the ... |) Tj
+T*
+(| CR074a | reproducibility lock | `CR074a_REPRODUCIBILITY_PACK_SEALED__PREDICTIONS_11_OF_11_) Tj
+T*
+(_WRONG_CONTROLS_9_OF_9__PACK_FILES_50__HASH_MATCHES_40_OF_40__PYTHON_3.12.10__DISCIPLINE_DRI) Tj
+T*
+(FT_NUMPY_AND_MATPLOTLIB_PER_CR_VS_ACTUAL_CAUGHT_AND_RESOLVED` | 11/11 | 9/9 | CR074a sealed ) Tj
+T*
+(the reproducibility lock for the Paul Revere Field Comparison Campaign. CAMPAIGN_REPRODUCIBI) Tj
+T*
+(LITY_PACK.zip emitted with 50 files \(44 CR artifacts + 6 pack-level fil... |) Tj
+T*
+() Tj
+T*
+(## Honest failure and boundary inventory) Tj
+T*
+() Tj
+T*
+(- CR070a: 22 NV rows, 17 consistent, 1 boundary, 4 violations of the T2_grav v1.1 floor.) Tj
+T*
+(- CR070a: all 22 citation rows remain PROVISIONAL_AUTHOR_BEST_EFFORT pending citation) Tj
+T*
+(verification.) Tj
+T*
+(- CR072a: 14 photonic rows are all consistent, but the photonic floor is far below ordinary) Tj
+T*
+(tau_ent values, so it is not a strong stress test of the floor.) Tj
+T*
+(- CR073a: photonic rows within 0.25 tolerance against textbook 1/e = 0/14; the load-bearing) Tj
+T*
+(threshold fails against that proxy.) Tj
+T*
+(- CR073a: the same c0_SAM applies across NV and photonic rows; formula generalization is) Tj
+T*
+(structural, while the textbook proxy comparison exposes a data-gap/regime mismatch.) Tj
+T*
+(- CR074a: the reproducibility pack caught requirements drift: per-CR requirements named) Tj
+T*
+(older numpy/matplotlib pins, while the pack pins the actual versions used.) Tj
+T*
+(- No row in this campaign is partner-lab verified. No hardware demonstration is claimed.) Tj
+T*
+() Tj
+T*
+(## Formula surface) Tj
+T*
+() Tj
+T*
+(```text) Tj
+T*
+(R = 12) Tj
+T*
+(D = 3) Tj
+T*
+(alpha_H = 2) Tj
+T*
+(A_side = 1/24) Tj
+T*
+(A_share = 1/12) Tj
+T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3143 >>
+stream
+BT
+/F1 9 Tf
+50 750 Td
+12 TL
+(c0_SAM = -0.5 * ln\(23/24\)) Tj
+T*
+(t_fire = coherence_time * c0_SAM) Tj
+T*
+(textbook proxy = coherence_time * 0.5) Tj
+T*
+(uniform proxy residual = abs\(c0_SAM - 0.5\) / 0.5) Tj
+T*
+(```) Tj
+T*
+() Tj
+T*
+(CR073a reports c0_SAM = 0.021279807209397945 and c0_textbook = 0.5. The residual is uniform) Tj
+T*
+(because both predictors are linear in coherence time; the difference is in the constants,) Tj
+T*
+(not in row-specific fitting.) Tj
+T*
+() Tj
+T*
+(## Regime map) Tj
+T*
+() Tj
+T*
+(| Lane | Example quantities | Use in this bundle |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| Write/source support | G\(P\), GR\(P\), 7G+G, P address | background support grammar only |) Tj
+T*
+(| Particle/card composition | 4/17, 9/17, card payload fields | do not use as PR thresholds ) Tj
+T*
+(|) Tj
+T*
+(| Pre-write quantum warning | A_side = 1/24, A_share = 1/12, t_fire | active PR letter regim) Tj
+T*
+(e |) Tj
+T*
+(| External comparator/proxy | textbook 1/e, published T2, tau_ent | portable comparison, not) Tj
+T*
+( same ontology |) Tj
+T*
+(| Reveal/partner-lab layer | measured A_leak\(t\), citation verification | next external gate ) Tj
+T*
+(|) Tj
+T*
+() Tj
+T*
+(## Cross-branch 09a connection notes) Tj
+T*
+() Tj
+T*
+(CR220-CR228 are included here as connection context only. They do not directly validate PR) Tj
+T*
+(quantum hardware. Their use is methodological and regime-facing: they show address-first) Tj
+T*
+(construction, formula workbooks, support/reveal separation, and vault/freeze/reveal) Tj
+T*
+(discipline.) Tj
+T*
+() Tj
+T*
+(| 09a CR | Connection that may help CR075a | Boundary |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| CR220 | P-centered rows generate 126 native element-family rows before cards | not a PR ha) Tj
+T*
+(rdware test |) Tj
+T*
+(| CR221 | kappa floor resolves into G\(P\) support grammar | not a single global heavy-element) Tj
+T*
+( constant |) Tj
+T*
+(| CR222 | constants-only generator separates construction from labels | chemistry labels rem) Tj
+T*
+(ain downstream reveal |) Tj
+T*
+(| CR223/CR227/CR228 | workbooks make formula and reveal layers inspectable | reveal workbook) Tj
+T*
+( is not construction input |) Tj
+T*
+(| CR225 | hidden/support selector can sharpen a visible boundary | candidate mechanism, not ) Tj
+T*
+(final physical proof |) Tj
+T*
+(| CR226 | prediction seal e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897 t) Tj
+T*
+(hen reveal seal | model for CR075a external posture, not quantum validation |) Tj
+T*
+() Tj
+T*
+(## Partner-lab verification path) Tj
+T*
+() Tj
+T*
+(1. Reproduce the CR074a pack byte-for-byte using Python 3.12.10 and the pinned requirements.) Tj
+T*
+(2. Verify CR070a and CR072a citation rows against the actual published papers; lift rows) Tj
+T*
+(from PROVISIONAL_AUTHOR_BEST_EFFORT to VERIFIED only after that check.) Tj
+T*
+(3. Measure A_leak\(t\) on an NV-diamond setup under a declared PR-letter protocol and report) Tj
+T*
+(actual A_side = 1/24 crossing time.) Tj
+T*
+(4. Compare measured t_fire to the predeclared SAM predictor without changing A_side, c0_SAM,) Tj
+T*
+(or the tolerance after measurement.) Tj
+T*
+(5. Report failures as results, not as cleanup tasks.) Tj
+T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 1719 >>
+stream
+BT
+/F1 9 Tf
+50 750 Td
+12 TL
+() Tj
+T*
+(## Clear ask) Tj
+T*
+() Tj
+T*
+(The next engaged reader should do one concrete thing first: rerun the CR074a reproducibility) Tj
+T*
+(pack and verify that the result-class strings and hashes match. After that, the lowest-cost) Tj
+T*
+(external step is citation verification for the CR070a NV rows and CR072a photonic rows. The) Tj
+T*
+(harder experimental step is partner-lab measurement of A_leak\(t\) and actual A_side-threshold) Tj
+T*
+(alarm time.) Tj
+T*
+() Tj
+T*
+(## Scope boundaries) Tj
+T*
+() Tj
+T*
+(- This is not a hardware demonstration.) Tj
+T*
+(- This is not a partner-lab agreement.) Tj
+T*
+(- This is not a commercial deployment.) Tj
+T*
+(- This is not external validation of the PR letter.) Tj
+T*
+(- This is not a claim that SAM must be accepted as a theory of everything before the) Tj
+T*
+(campaign can be reviewed.) Tj
+T*
+(- This is a reproducible, falsification-ready handoff bundle with every known failure and) Tj
+T*
+(provisional tag visible.) Tj
+T*
+() Tj
+T*
+(## Source artifact pointers) Tj
+T*
+() Tj
+T*
+(- `CR074a_REPRODUCIBILITY_LOCK/CAMPAIGN_REPRODUCIBILITY_PACK.zip`) Tj
+T*
+(- `CR074a_REPRODUCIBILITY_LOCK/CAMPAIGN_RERUN.md`) Tj
+T*
+(- `Paul_Revere_Next_Steps.md`) Tj
+T*
+(- `CAMPAIGN_PAUL_REVERE_FIELD_COMPARISON.md`) Tj
+T*
+(- `09a_PARTICLE_MASS_CHAIN/CR220` through `CR228` connection context) Tj
+T*
+() Tj
+T*
+(## Bus factor and stewardship) Tj
+T*
+() Tj
+T*
+(Bus factor 1 remains the largest non-physics risk: every result is one author's work until) Tj
+T*
+(an outside reviewer or partner lab reproduces, verifies, or falsifies it. Per) Tj
+T*
+(STEWARDSHIP.md, any commercial value flowing from this work is directed toward humanitarian) Tj
+T*
+(causes.) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000003158 00000 n 
+0000003284 00000 n 
+0000007153 00000 n 
+0000007279 00000 n 
+0000010474 00000 n 
+0000010600 00000 n 
+0000012372 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+12500
+%%EOF

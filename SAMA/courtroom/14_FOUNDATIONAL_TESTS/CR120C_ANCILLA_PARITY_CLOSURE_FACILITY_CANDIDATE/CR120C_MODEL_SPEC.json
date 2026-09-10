@@ -1,0 +1,39 @@
+{
+  "authority": "PROPOSAL_ONLY",
+  "candidate_equation": "m = x XOR b1 XOR b2 XOR ... XOR b8",
+  "candidate_id": "ANCILLA_MEDIATED_WEIGHT_8_PARITY",
+  "competing_candidates": [
+    {
+      "id": "SIGNED_EIGHT_FACE_GAUSS_RESIDUAL",
+      "status": "OPEN_ANALOGY"
+    },
+    {
+      "id": "CONSTRAINT_PENALTY_HAMILTONIAN",
+      "status": "OPEN_ENFORCEMENT_MODEL"
+    },
+    {
+      "id": "STRUCTURAL_NULL_NO_PHYSICAL_MEASUREMENT",
+      "status": "LIVE_WRONG_MODEL_CONTROL"
+    }
+  ],
+  "evidence_status": "NOT_EVIDENCE",
+  "feedback_rule": "if measured parity differs from target, apply one precommitted parity-flipping operation and remeasure",
+  "physical_sequence": [
+    "prepare X1 reference",
+    "entangle eight proposed S8 channels with X1",
+    "measure X1",
+    "project or condition on parity sector",
+    "apply outcome-conditioned feedback only if target-sector enforcement is required",
+    "independently remeasure"
+  ],
+  "postselection_rule": "all rejected trials and total yield remain reported",
+  "record_id": "CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE",
+  "repair_boundary": "sector correction is not original-state recovery or fault localization",
+  "target_parity": 0,
+  "validation_state": "UNVALIDATED_PHYSICAL_IDENTITY",
+  "variable_types": {
+    "b_i": "PROPOSED_GF2_DATA_CHANNEL",
+    "m": "PROPOSED_BINARY_W9_SYNDROME",
+    "x": "PROPOSED_GF2_X1_REFERENCE"
+  }
+}

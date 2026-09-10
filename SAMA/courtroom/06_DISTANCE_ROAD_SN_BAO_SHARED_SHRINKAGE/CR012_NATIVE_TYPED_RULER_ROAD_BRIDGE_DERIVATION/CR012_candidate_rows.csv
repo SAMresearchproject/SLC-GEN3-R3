@@ -1,0 +1,11 @@
+candidate,phi,S_projection,burst_phi_R,r_drag_mpc,lane_roles_separated,matches_packet,candidate_w,uses_phi_power,max_projection_error,r_drag_error_mpc
+primary_typed_bridge,0.0,1.0,1.0,150.92186401518705,True,True,,,,
+primary_typed_bridge,0.08333333333333333,1.003883594264427,1.000000000000028,150.92186401518705,True,True,,,,
+primary_typed_bridge,0.25,1.0116507827932812,1.0000000149011612,150.92186401518705,True,True,,,,
+primary_typed_bridge,0.5,1.0233015655865627,1.00006103515625,150.92186401518705,True,True,,,,
+primary_typed_bridge,1.0,1.0466031311731252,1.25,150.92186401518705,True,True,,,,
+drop_D_over_R,,,,,,False,0.1864125246925012,False,0.13980939351937605,20.160740636353722
+use_Omega_b_over_Omega_m,,,,,,False,0.039280714088216546,False,0.007322417084908661,1.0559043849910381
+use_phi_power_in_projection,,,,,,False,0.0466031311731253,True,0.023290187868991064,0.0
+half_loading,,,,,,False,0.02330156558656265,False,0.02330156558656249,3.360123439392254
+sign_flipped_loading,,,,,,False,-0.0466031311731253,False,0.09320626234625051,13.4404937575691

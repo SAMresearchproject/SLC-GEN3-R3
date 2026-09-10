@@ -1,0 +1,28 @@
+{
+  "test_id": "CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION",
+  "verdict": "CR003_BOUNDARY_A_KERNEL_TYPED_READOUT_RECERTIFIED",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "selected_candidate": "correct_A",
+  "selected_unique": true,
+  "computed": {
+    "r_s": 0.0088701028718461,
+    "A": 1.3922622621010988e-09,
+    "Phi_from_A": -62565145.91115995,
+    "Phi_Newton": -62565145.91115994,
+    "weak_clock_exact": 0.9999999993038688,
+    "weak_clock_first_order": 0.9999999993038688,
+    "many_source_A": 2.297220655470099e-09
+  },
+  "pass_conditions": {
+    "no_older_test_outputs_used": true,
+    "trace_ascii_clean": true,
+    "selected_unique_correct_A": true,
+    "wrong_controls_do_not_match_full_packet": true,
+    "potential_identity_closes": true,
+    "horizon_identity_closes": true,
+    "many_source_identity_closes": true
+  },
+  "rule_9": "This test could have falsified: the claim that A(r)=r_s/r uniquely supplies the native typed weak-field readout packet for horizon, potential, force, clock, and many-source accumulation lanes."
+}

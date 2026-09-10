@@ -1,0 +1,31 @@
+{
+  "test_id": "G382",
+  "test_name": "CMB_PEAK_DAMPING_POLARIZATION_RESIDUALS",
+  "started_utc": "2026-06-01T13:21:22.435123+00:00",
+  "finished_utc": "2026-06-01T13:21:25.199730+00:00",
+  "verdict": "G382_PASS_RESIDUALS_LOCALIZED_PRIMARY_STABLE",
+  "prediction_passes": 12,
+  "prediction_total": 12,
+  "wrong_control_passes": 8,
+  "wrong_control_total": 8,
+  "primary_peak_mean_abs_ell_error": 0.2,
+  "primary_tt_peak_mean_abs_amp_frac": 0.0015698796382597052,
+  "primary_ee_peak_mean_abs_ell_error": 0.5,
+  "primary_ee_peak_mean_abs_amp_frac": 0.0019127289321981286,
+  "primary_te_sign_mismatch_fraction": 0.002004040209319791,
+  "primary_te_zero_crossing_mean_abs_ell_error": 0.36363636363636365,
+  "primary_damping_mean_delta_chi2_per_point": 0.001745657606740653,
+  "primary_pp_proxy_rms_fractional_residual": 0.006649622068477506,
+  "primary_low_l_mean_delta_chi2_per_point": 0.005629622336084349,
+  "artifacts": {
+    "peak_board": "native_prediction_artifacts\\g382_cmb_peak_residual_board.csv",
+    "damping_board": "native_prediction_artifacts\\g382_cmb_damping_tail_board.csv",
+    "polarization_board": "native_prediction_artifacts\\g382_cmb_polarization_phase_board.csv",
+    "low_l_board": "native_prediction_artifacts\\g382_cmb_low_l_sensitivity_board.csv",
+    "lensing_proxy_board": "native_prediction_artifacts\\g382_cmb_lensing_proxy_board.csv",
+    "damage_map": "native_prediction_artifacts\\g382_cmb_channel_damage_map.csv",
+    "checks": "native_prediction_artifacts\\g382_cmb_residual_checks.csv"
+  },
+  "next_gate": "G383_CMB_BOLTZMANN_WRONG_CONTROLS",
+  "scope_boundary": "Residual localization only; no Plik covariance, nuisance model, calibration marginalization, lowE likelihood, full lensing likelihood, native perturbation derivation, or native recombination solver."
+}

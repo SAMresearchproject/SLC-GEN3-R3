@@ -1,0 +1,9 @@
+generated_utc=2026-07-14T08:31:08.515172+00:00
+preflight_command=python tools\run_sam_test.py --task "Run CR120L typed 7 8 9 theta mirror budget and F81 roster discrimination" --preflight-only
+run_command=python tools\run_sam_test.py --task "Run CR120L typed 7 8 9 theta mirror budget and F81 roster discrimination" --script tools\run_cr120l_typed_7_8_9_theta_mirror_budget_f81_roster.py
+precommit_sha256=0655c5c09e48b443b404ffafc5f9a7bbe4c29e1612e125765077f87f6878cc4a
+source_manifest_sha256=fa49dd42d7c33c0fab386a1e994e2b2b699decbdbcbb2c468fcfa4f4f3c2c8a8
+source_failures_before=[]
+source_failures_after=[]
+all_precommitted_gates_passed=true
+disposition=PASS_STRUCTURAL_7_8_9_THETA_MIRROR_100_PACKET_BUDGETS_WITH_F81_CONSTRUCTED_ROSTER_SELECTION_AUTHORITY_OPEN

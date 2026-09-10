@@ -1,0 +1,14 @@
+status,grouping_rule,group_count,group_sizes,note
+NO_SOURCE_NATIVE_TEN_OCTETS,NONE,0,,No single precommitted source field produced exactly ten groups of eight.
+NO_TEN_OCTETS_FOR_FIELD,matter_or_antimatter,2,32;48,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,charged_or_neutral,2,16;64,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,partition_signature,8,10;10;10;10;10;10;10;10,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,route_class,3,16;32;32,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,closure_depth,2,40;40,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,q_sign,3,16;32;32,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,identity_rule,7,2;2;2;2;2;14;56,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,source_rule,3,16;32;32,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,exact_contact_status,5,1;2;4;15;58,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,native_charge_axis,4,16;16;16;32,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,spin_or_hand_class,1,80,not ten groups of eight
+NO_TEN_OCTETS_FOR_FIELD,color_or_owner_closure,2,32;48,not ten groups of eight

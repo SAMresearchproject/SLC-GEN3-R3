@@ -1,0 +1,10 @@
+{
+  "test_id": "CR054_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QN005_summary.json",
+    "../_source_artifacts/summaries/QN006_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qn005-qn006 select the network born surface and letter-safe error-correction protocol."
+}

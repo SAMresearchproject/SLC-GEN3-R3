@@ -1,0 +1,130 @@
+{
+  "precommit_sha256": "0f20f2fde2afb66ed1bbeff8e43e6f183d4159a0d5310d5bdb714daac99a9ced",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "FAIL",
+  "verdict_token": "CR035A_FAIL_SAM_DENSITY_SPINE_BINNED_TT_SHAPE_OUTSIDE_TOLERANCES",
+  "triage_bin": "A",
+  "free_parameters_introduced_RunA": 0,
+  "external_perturbation_disclosed": true,
+  "prior_CR_result_inputs": false,
+  "forbidden_files_opened": false,
+  "opened_paths_count": 1,
+  "engine": "CAMB",
+  "engine_version": "1.6.6",
+  "substrate": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "Omega_c": 0.26901087491768993,
+    "H_0": 68.76,
+    "h": 0.6876000000000001,
+    "ombh2": 0.023308264900782142,
+    "omch2": 0.12718666303322435
+  },
+  "external_perturbations": {
+    "A_s": 2.1e-09,
+    "n_s": 0.9649,
+    "tau": 0.0544,
+    "N_eff": 3.046,
+    "T_CMB": 2.7255,
+    "k_pivot": 0.05
+  },
+  "Planck_files": {
+    "TT": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-TT-full_R3.01.txt",
+    "TE": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-TE-full_R3.01.txt",
+    "EE": "C:\\VS\\Stam_model-A-v1.0\\data\\external_data\\planck_pr3\\COM_PowerSpect_CMB-EE-full_R3.01.txt"
+  },
+  "sample": {
+    "n_TT_bins": 2471,
+    "n_TE_bins": 1967,
+    "n_EE_bins": 1967,
+    "ell_min": 30,
+    "ell_max": 2500
+  },
+  "runA": {
+    "chi2_TT": 3327.0128123221857,
+    "dof_TT": 2471,
+    "chi2_per_dof_TT": 1.3464236391429323,
+    "chi2_TE": 2348.8781943110553,
+    "dof_TE": 1967,
+    "chi2_per_dof_TE": 1.1941424475399365,
+    "chi2_EE": 2212.062392345144,
+    "dof_EE": 1967,
+    "chi2_per_dof_EE": 1.1245868796874143,
+    "P1a_pass": true,
+    "P1b_pass": false,
+    "P1c_pass": false,
+    "P1_pass": false,
+    "P1_first_peak_delta_ell": 0.0,
+    "P1_2nd_3rd_peak_delta_ell": [
+      13.0,
+      145.0
+    ],
+    "P1_height_ratios": [
+      {
+        "theory": 0.44131530425888643,
+        "planck": 0.442982644822761
+      },
+      {
+        "theory": 0.4467351790990907,
+        "planck": 0.31530857247025224
+      }
+    ],
+    "P1_height_ratio_pass_each": [
+      true,
+      false
+    ],
+    "P2_verdict": "PASS",
+    "P2_chi2_TT_over_dof": 1.3464236391429323,
+    "pol_BOUNDARY_triggered": false,
+    "peaks_theory": [
+      {
+        "ell": 219.0,
+        "height": 5636.327923987023
+      },
+      {
+        "ell": 533.0,
+        "height": 2487.3977726771905
+      },
+      {
+        "ell": 806.0,
+        "height": 2517.9459645835486
+      }
+    ],
+    "peaks_planck": [
+      {
+        "ell": 219.0,
+        "height": 5826.3751379619425
+      },
+      {
+        "ell": 520.0,
+        "height": 2580.9830683439604
+      },
+      {
+        "ell": 661.0,
+        "height": 1837.106027426949
+      }
+    ]
+  },
+  "runB": {
+    "A_s_optimized": 2.1395843085475425e-09,
+    "n_s_optimized": 0.968153786841216,
+    "tau_optimized": 0.05098225848336889,
+    "sigma_dev_As": 1.3194769515847449,
+    "sigma_dev_ns": 0.7747111526704815,
+    "sigma_dev_tau": 0.4681837694015216,
+    "chi2_TT_at_optimum": 2935.7801213684647,
+    "dof_TT_at_optimum": 2471,
+    "chi2_per_dof_TT_at_optimum": 1.188093938230864,
+    "within_5sigma_planck_posterior": true,
+    "optimization_chi2_in_band": true,
+    "optimizer_nfev": 16,
+    "optimizer_nit": 2,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  }
+}

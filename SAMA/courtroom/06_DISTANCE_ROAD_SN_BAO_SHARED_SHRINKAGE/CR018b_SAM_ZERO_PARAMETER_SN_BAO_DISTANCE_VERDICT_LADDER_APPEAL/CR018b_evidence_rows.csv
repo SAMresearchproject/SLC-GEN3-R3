@@ -1,0 +1,17 @@
+item,value,pass
+n_sn_after_cuts,1580,True
+n_bao_points,12,True
+Omega_m_SAM,0.3183098861837907,True
+Omega_b_SAM,0.049299011266100756,True
+P1_SN_weighted_mean_residual,-0.009072339564756298,True
+P2_BAO_chi2,21.56313215788319,True
+P2_BAO_chi2_per_n,1.7969276798235991,True
+P3_r_d_SAM_Mpc,147.76904948009863,True
+P3_r_d_rel_dev_pct,0.4616557754426723,True
+E4_sn_best_H0,73.34734919658473,True
+E4_bao_best_H0,64.0,True
+E5_SN_null_canonical_percentile,5.4,True
+E5_SN_null_p_value,0.054945054945054944,True
+E6_BAO_null_canonical_percentile,1.0999999999999999,True
+E6_BAO_null_p_value,0.011988011988011988,True
+verdict,PASS,True

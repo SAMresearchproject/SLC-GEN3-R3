@@ -1,0 +1,20 @@
+{
+  "cr_id": "CR068a",
+  "lock_type": "WARNING_SIMULATOR_STRUCTURAL_LOCK_V1",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "alarm_threshold": 0.041666666666666664,
+  "alarm_threshold_symbolic": "A_side = 1/24",
+  "A_leak_definition": "1 - Tr(rho^2)",
+  "basin_commit_boundary": 0.08333333333333333,
+  "loaded_probabilities": {
+    "carrier_ms0": 0.23529411764705882,
+    "envelope_msplus1": 0.5294117647058824,
+    "sensor_msminus1": 0.23529411764705882
+  },
+  "slot_assignment": {
+    "carrier": "m_s = 0",
+    "envelope": "m_s = +1",
+    "sensor": "m_s = -1"
+  },
+  "free_parameters": 0
+}

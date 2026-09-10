@@ -1,0 +1,687 @@
+# Volume I — test records
+
+[Back to the volume](../README.md)
+
+Use the test folders inside each branch for tests linked to that branch. This index also retains the other recorded tests assigned to this volume.
+
+- [V4 Toe Route Integrity Preflight Stress](g-g000-sam-archive.md) — `G:G000@SAM-ARCHIVE`
+- [A0 First Principles](g-g7-sam-archive.md) — `G:G7@SAM-ARCHIVE`
+- [PPN Parameter Calculation for Model-A](g-g17-sam-archive.md) — `G:G17@SAM-ARCHIVE`
+- [Bekenstein-Hawking Entropy from Direct Ledger Counting](g-g18-sam-archive.md) — `G:G18@SAM-ARCHIVE`
+- [V3 Modified Friedmann](g-g29-sam-archive.md) — `G:G29@SAM-ARCHIVE`
+- [A0 Baseline Rotation Curve](g-g31-sam-archive.md) — `G:G31@SAM-ARCHIVE`
+- [Doughnut Threshold Corrected](g-g42-sam-archive.md) — `G:G42@SAM-ARCHIVE`
+- [Doughnut Contraction Full Sam](g-g43-sam-archive.md) — `G:G43@SAM-ARCHIVE`
+- [Ledger Configuration Volume](g-g58-sam-archive.md) — `G:G58@SAM-ARCHIVE`
+- [Entropy Under the Ledger-Channel Commitment](g-g59-sam-archive.md) — `G:G59@SAM-ARCHIVE`
+- [Pair Structure of Hawking Emission from the Elevator Argument](g-g60-sam-archive.md) — `G:G60@SAM-ARCHIVE`
+- [Kerr Proper A](g-g62-sam-archive.md) — `G:G62@SAM-ARCHIVE`
+- [Stress-Energy and Curvature Verification](g-g65-sam-archive.md) — `G:G65@SAM-ARCHIVE`
+- [Qm Action Derivation](g-g68-sam-archive.md) — `G:G68@SAM-ARCHIVE`
+- [Exact Effective Stress Tensor (closed form)](g-g69-sam-archive.md) — `G:G69@SAM-ARCHIVE`
+- [Smallest covariant action match](g-g70-sam-archive.md) — `G:G70@SAM-ARCHIVE`
+- [Ghost-freedom check on smallest covariant action](g-g71-sam-archive.md) — `G:G71@SAM-ARCHIVE`
+- [Static Aligned Aether Check](g-g72a-sam-archive.md) — `G:G72a@SAM-ARCHIVE`
+- [Tilted Aether Match](g-g72c-sam-archive.md) — `G:G72c@SAM-ARCHIVE`
+- [Multifield Ledger](g-g74-sam-archive.md) — `G:G74@SAM-ARCHIVE`
+- [Structural Decomposition](g-g75-sam-archive.md) — `G:G75@SAM-ARCHIVE`
+- [Cuscuton Embedding](g-g76-sam-archive.md) — `G:G76@SAM-ARCHIVE`
+- [Cuscuton Perturbations](g-g77-sam-archive.md) — `G:G77@SAM-ARCHIVE`
+- [Mimetic Clock](g-g78-sam-archive.md) — `G:G78@SAM-ARCHIVE`
+- [Shell Count Action](g-g79-sam-archive.md) — `G:G79@SAM-ARCHIVE`
+- [Double Lm Perturbations](g-g80-sam-archive.md) — `G:G80@SAM-ARCHIVE`
+- [Kerr Inside Shell W](g-g82-sam-archive.md) — `G:G82@SAM-ARCHIVE`
+- [exact Kerr spheroidal photon-region surface](g-g85-sam-archive.md) — `G:G85@SAM-ARCHIVE`
+- [Sam Tortoise Adjustment](g-g90-sam-archive.md) — `G:G90@SAM-ARCHIVE`
+- [Sn Bao Cmb Chronometer Pipeline](g-g104-sam-archive.md) — `G:G104@SAM-ARCHIVE`
+- [Data Audit](g-g105-sam-archive.md) — `G:G105@SAM-ARCHIVE`
+- [Lmu Dmu Decoherence](g-g107-sam-archive.md) — `G:G107@SAM-ARCHIVE`
+- [Rigorous axial perturbation equation from S[Sigma, g, lambda1, lambda2]](g-g108-sam-archive.md) — `G:G108@SAM-ARCHIVE`
+- [Redux N1 Overtone](g-g113-sam-archive.md) — `G:G113@SAM-ARCHIVE`
+- [Kerr Exact Photon Region Map](g-g116-sam-archive.md) — `G:G116@SAM-ARCHIVE`
+- [Kerr Wave Base Geometry](g-g119-sam-archive.md) — `G:G119@SAM-ARCHIVE`
+- [Gr Kerr Qnm Calibration](g-g120a-sam-archive.md) — `G:G120a@SAM-ARCHIVE`
+- [Beta(D+1, 2) Uniqueness from Bayesian Conjugate-Prior](g-g121-sam-archive.md) — `G:G121@SAM-ARCHIVE`
+- [Counted-Scalar Action Uniqueness](g-g122-sam-archive.md) — `G:G122@SAM-ARCHIVE`
+- [Matter Minimal Coupling](g-g123-sam-archive.md) — `G:G123@SAM-ARCHIVE`
+- [Poisson Process Formalization of the SW-Write Mechanism](g-g124-sam-archive.md) — `G:G124@SAM-ARCHIVE`
+- [Matter as SW Excitation: Neutral Scalar Seed Test](g-g125-sam-archive.md) — `G:G125@SAM-ARCHIVE`
+- [Two-lump charge-sign interaction](g-g129-sam-archive.md) — `G:G129@SAM-ARCHIVE`
+- [Moving two-lump dynamics](g-g130-sam-archive.md) — `G:G130@SAM-ARCHIVE`
+- [Full two-component wavepacket dynamics](g-g131-sam-archive.md) — `G:G131@SAM-ARCHIVE`
+- [Charge-sign wavepacket dynamics with topological winding](g-g132-sam-archive.md) — `G:G132@SAM-ARCHIVE`
+- [Charge sign vs winding sign independence](g-g133-sam-archive.md) — `G:G133@SAM-ARCHIVE`
+- [Charge magnitude quantization](g-g134-sam-archive.md) — `G:G134@SAM-ARCHIVE`
+- [Running-coupling / channel-count test](g-g136-sam-archive.md) — `G:G136@SAM-ARCHIVE`
+- [Real beta-function toy](g-g137-sam-archive.md) — `G:G137@SAM-ARCHIVE`
+- [Structural beta-flow candidates without broad scanning](g-g138-sam-archive.md) — `G:G138@SAM-ARCHIVE`
+- [Mechanism test for `b = 1` and `t = 24`](g-g139-sam-archive.md) — `G:G139@SAM-ARCHIVE`
+- [Counted SW screening process](g-g140-sam-archive.md) — `G:G140@SAM-ARCHIVE`
+- [Label the 24 SW screening writes](g-g141-sam-archive.md) — `G:G141@SAM-ARCHIVE`
+- [Unit inverse-coupling increment](g-g142-sam-archive.md) — `G:G142@SAM-ARCHIVE`
+- [Microscopic screening toy](g-g143-sam-archive.md) — `G:G143@SAM-ARCHIVE`
+- [Derive independent unit-channel summation](g-g144-sam-archive.md) — `G:G144@SAM-ARCHIVE`
+- [Current-coupled radiation test](g-g146-sam-archive.md) — `G:G146@SAM-ARCHIVE`
+- [Cleaned current-coupled radiation test](g-g146b-sam-archive.md) — `G:G146B@SAM-ARCHIVE`
+- [Continuity-preserving current model](g-g147-sam-archive.md) — `G:G147@SAM-ARCHIVE`
+- [Corrected continuity-preserving current model](g-g147b-sam-archive.md) — `G:G147B@SAM-ARCHIVE`
+- [Self-consistent charged wavepacket radiation](g-g148-sam-archive.md) — `G:G148@SAM-ARCHIVE`
+- [Radiation reaction / back-reaction](g-g149-sam-archive.md) — `G:G149@SAM-ARCHIVE`
+- [Packet-current back-reaction](g-g150-sam-archive.md) — `G:G150@SAM-ARCHIVE`
+- [Two spatial packet degrees of freedom with projected transverse field mode](g-g151-sam-archive.md) — `G:G151@SAM-ARCHIVE`
+- [Multi-mode spectral radiation pattern selection](g-g152-sam-archive.md) — `G:G152@SAM-ARCHIVE`
+- [Energy-consistent multi-mode spectral coupling](g-g152b-sam-archive.md) — `G:G152B@SAM-ARCHIVE`
+- [Small-grid transverse field PDE](g-g153-sam-archive.md) — `G:G153@SAM-ARCHIVE`
+- [Two-component transverse vector field with Helmholtz projection](g-g154-sam-archive.md) — `G:G154@SAM-ARCHIVE`
+- [Maxwell-like split system](g-g155-sam-archive.md) — `G:G155@SAM-ARCHIVE`
+- [Packet-derived ρ/current in Maxwell-like split system](g-g156-sam-archive.md) — `G:G156@SAM-ARCHIVE`
+- [Improved packet-current projection](g-g156b-sam-archive.md) — `G:G156B@SAM-ARCHIVE`
+- [Packet-current geometry classification](g-g156c-sam-archive.md) — `G:G156C@SAM-ARCHIVE`
+- [Packet-center backreaction with projected packet-current mode](g-g157-sam-archive.md) — `G:G157@SAM-ARCHIVE`
+- [Multi-mode projected packet back-reaction](g-g158-sam-archive.md) — `G:G158@SAM-ARCHIVE`
+- [Full vector Helmholtz projection inside multi-mode packet back-reaction](g-g158b-sam-archive.md) — `G:G158B@SAM-ARCHIVE`
+- [Canonical couplings from grid-projected packet-current overlaps](g-g160-sam-archive.md) — `G:G160@SAM-ARCHIVE`
+- [Stabilized overlap-derived coupling scale sweep](g-g160b-sam-archive.md) — `G:G160B@SAM-ARCHIVE`
+- [Global coupling scale from α / 24-channel scaffold](g-g161-sam-archive.md) — `G:G161@SAM-ARCHIVE`
+- [Two-face / four-support normalization cross-check](g-g162-sam-archive.md) — `G:G162@SAM-ARCHIVE`
+- [S = 1/2 fatality / robustness test](g-g163-sam-archive.md) — `G:G163@SAM-ARCHIVE`
+- [Single reduced action with S = 1/2](g-g164-sam-archive.md) — `G:G164@SAM-ARCHIVE`
+- [Field-action overlap bridge](g-g165-sam-archive.md) — `G:G165@SAM-ARCHIVE`
+- [Dressed phase rate: stability, predictability, coupling control](g-g168-sam-archive.md) — `G:G168@SAM-ARCHIVE`
+- [Continuum-mode / 1D field lift of dressing coefficient](g-g170-sam-archive.md) — `G:G170@SAM-ARCHIVE`
+- [Absolute current-shape normalization test](g-g171-sam-archive.md) — `G:G171@SAM-ARCHIVE`
+- [sqrt(D/2) higher-dimensional normalization test](g-g172-sam-archive.md) — `G:G172@SAM-ARCHIVE`
+- [Derive sqrt(D/2) from field-action inner-product measure](g-g173-sam-archive.md) — `G:G173@SAM-ARCHIVE`
+- [Klein-Gordon matter-field lift for dressing coefficient](g-g174-sam-archive.md) — `G:G174@SAM-ARCHIVE`
+- [Stationary Klein-Gordon matter-field lift for dressing coefficient](g-g175-sam-archive.md) — `G:G175@SAM-ARCHIVE`
+- [Stationary KG matter field with external V ext](g-g175a-sam-archive.md) — `G:G175A@SAM-ARCHIVE`
+- [Self-stabilized cubic-quintic KG lump](g-g175b-sam-archive.md) — `G:G175B@SAM-ARCHIVE`
+- [Unit inverse-coupling increment from G173-consistent measure](g-g177-sam-archive.md) — `G:G177@SAM-ARCHIVE`
+- [Structural derivation of alpha bare and residual probe](g-g178-sam-archive.md) — `G:G178@SAM-ARCHIVE`
+- [Pair-screening closure of the G177/G178 alpha residual](g-g178b-sam-archive.md) — `G:G178B@SAM-ARCHIVE`
+- [Relativistic dressing of the bare alpha channel](g-g179-sam-archive.md) — `G:G179@SAM-ARCHIVE`
+- [Electron g-2 anomaly from labeled-channel dressing](g-g180-sam-archive.md) — `G:G180@SAM-ARCHIVE`
+- [Rigorous -2 prefactor in -2(N alpha)^2 from G173 measure](g-g182-sam-archive.md) — `G:G182@SAM-ARCHIVE`
+- [Action-Hessian cross-check of -2(N alpha)^2](g-g183-sam-archive.md) — `G:G183@SAM-ARCHIVE`
+- [2(N alpha)^2 from G122 action variation only](g-g183b-sam-archive.md) — `G:G183b@SAM-ARCHIVE`
+- [F5 continuous field action lift from G165](g-g184-sam-archive.md) — `G:G184@SAM-ARCHIVE`
+- [F6 matter PDE coupling](g-g185-sam-archive.md) — `G:G185@SAM-ARCHIVE`
+- [F8 Maxwell recovery](g-g186-sam-archive.md) — `G:G186@SAM-ARCHIVE`
+- [Spin Statistics F2](g-g187-sam-archive.md) — `G:G187@SAM-ARCHIVE`
+- [E0 From Winding F3](g-g188-sam-archive.md) — `G:G188@SAM-ARCHIVE`
+- [F10 photon quantization at hbar omega](g-g189-sam-archive.md) — `G:G189@SAM-ARCHIVE`
+- [BAO with V 3 + A(z)](g-g190-sam-archive.md) — `G:G190@SAM-ARCHIVE`
+- [BAO with LOS-A(z) and covariance](g-g190b-sam-archive.md) — `G:G190b@SAM-ARCHIVE`
+- [F12 cross-branch consistency](g-g191-sam-archive.md) — `G:G191@SAM-ARCHIVE`
+- [F7 symplectic integrator](g-g192-sam-archive.md) — `G:G192@SAM-ARCHIVE`
+- [dirac - Weyl/Dirac PDE lift](g-g193-sam-archive.md) — `G:G193@SAM-ARCHIVE`
+- [Dirac PDE lift on G184 grid (F2 closure)](g-g193b-sam-archive.md) — `G:G193b@SAM-ARCHIVE`
+- [WKB QNM solver](g-g194-sam-archive.md) — `G:G194@SAM-ARCHIVE`
+- [Kerr Qnm Leaver Subhalfpct](g-g194b-sam-archive.md) — `G:G194b@SAM-ARCHIVE`
+- [N1 Overtone Leaver](g-g195-sam-archive.md) — `G:G195@SAM-ARCHIVE`
+- [G122 action derived from G124 Poisson effective action](g-g197-sam-archive.md) — `G:G197@SAM-ARCHIVE`
+- [Poisson SW-write process from causal-set sprinkling (BHS theorem)](g-g198-sam-archive.md) — `G:G198@SAM-ARCHIVE`
+- [Substrate from poset axioms + manifold dimension from Myrheim-Meyer](g-g199-sam-archive.md) — `G:G199@SAM-ARCHIVE`
+- [Callan Symanzik From Labeled Measure](g-g200-sam-archive.md) — `G:G200@SAM-ARCHIVE`
+- [f(Sigma) = 1 from count-shift symmetry](g-g201-sam-archive.md) — `G:G201@SAM-ARCHIVE`
+- [Substrate / projection split as explicit primitive](g-g203-sam-archive.md) — `G:G203@SAM-ARCHIVE`
+- [Presentism Maximal Antichain Now](g-g204-sam-archive.md) — `G:G204@SAM-ARCHIVE`
+- [A-integral as time duration](g-g205-sam-archive.md) — `G:G205@SAM-ARCHIVE`
+- [Tier-2 reattempt: pair-write boundary algebra](g-g206-sam-archive.md) — `G:G206@SAM-ARCHIVE`
+- [The manifold is the projector. Two holograms, paired.](g-g207-sam-archive.md) — `G:G207@SAM-ARCHIVE`
+- [Tier-2 with hologram-pair connectors](g-g208-sam-archive.md) — `G:G208@SAM-ARCHIVE`
+- [Asymmetric Projection Space And Matter](g-g209-sam-archive.md) — `G:G209@SAM-ARCHIVE`
+- [Write String Bridge Compatibility](g-g210-sam-archive.md) — `G:G210@SAM-ARCHIVE`
+- [Hubble = Schwarzschild structural-identity test](g-g211-sam-archive.md) — `G:G211@SAM-ARCHIVE`
+- [PBH-mass-range dark matter consistency](g-g212-sam-archive.md) — `G:G212@SAM-ARCHIVE`
+- [Substrate-availability composition at horizons](g-g213-sam-archive.md) — `G:G213@SAM-ARCHIVE`
+- [Inherited matter-antimatter asymmetry](g-g214-sam-archive.md) — `G:G214@SAM-ARCHIVE`
+- [BH evaporation, no parent-side remnant](g-g215-sam-archive.md) — `G:G215@SAM-ARCHIVE`
+- [A 0 as fundamental coupling (exploratory)](g-g216-sam-archive.md) — `G:G216@SAM-ARCHIVE`
+- [substrate eigenmode mass spectrum at A 0 baseline with BD operator](g-g217b-sam-archive.md) — `G:G217B@SAM-ARCHIVE`
+- [Structural derivation of A 0 = 1/(4 pi D)](g-g218-sam-archive.md) — `G:G218@SAM-ARCHIVE`
+- [Corrected derivation of A 0 = 1/(12 pi)](g-g218b-sam-archive.md) — `G:G218B@SAM-ARCHIVE`
+- [Structural derivation of chi = 2^D/D x A 0 = 2/(9 pi)](g-g219.md) — `G:G219`
+- [Corrected Derivation Of Chi = 2/(9 Pi); Replaces Tautological G219](g-g219b.md) — `G:G219B`
+- [Monte Carlo structural confirmation with wrong controls](g-g219c.md) — `G:G219C`
+- [A Total Equals Sum Pbh Closure](g-g220-sam-archive.md) — `G:G220@SAM-ARCHIVE`
+- [Matter Budget Honest Inputs](g-g220b-sam-archive.md) — `G:G220B@SAM-ARCHIVE`
+- [Pbh Dm Mass Function From Substrate](g-g221-sam-archive.md) — `G:G221@SAM-ARCHIVE`
+- [M Star From Substrate Lagrangian](g-g222-sam-archive.md) — `G:G222@SAM-ARCHIVE`
+- [Pbh Formation Rate Separation](g-g223-sam-archive.md) — `G:G223@SAM-ARCHIVE`
+- [Bridge Equation From Loop Displacement](g-g224-sam-archive.md) — `G:G224@SAM-ARCHIVE`
+- [Substrate's (grad A)^2 effective Lagrangian derived](g-g225-sam-archive.md) — `G:G225@SAM-ARCHIVE`
+- [SW as the unification: structural audit across all regimes](g-g226-sam-archive.md) — `G:G226@SAM-ARCHIVE`
+- [SW unification audit with wrong-controls](g-g226b-sam-archive.md) — `G:G226B@SAM-ARCHIVE`
+- [SW-natural units throughout](g-g227-sam-archive.md) — `G:G227@SAM-ARCHIVE`
+- [Gr Qm Unification Via Sw](g-g228-sam-archive.md) — `G:G228@SAM-ARCHIVE`
+- [Alpha H Joint Compatibility Derivation](g-g229-sam-archive.md) — `G:G229@SAM-ARCHIVE`
+- [alpha H = 2 via genuine multi-route convergence](g-g229b-sam-archive.md) — `G:G229B@SAM-ARCHIVE`
+- [Holographic Emergence Joint Derivation](g-g230-sam-archive.md) — `G:G230@SAM-ARCHIVE`
+- [Operational bridge across regimes](g-g232-sam-archive.md) — `G:G232@SAM-ARCHIVE`
+- [Substrate displacement region](g-g233-sam-archive.md) — `G:G233@SAM-ARCHIVE`
+- [Compactness Threshold](g-g234-sam-archive.md) — `G:G234@SAM-ARCHIVE`
+- [TOV EoS crossover at compactness threshold A 0](g-g234b-sam-archive.md) — `G:G234B@SAM-ARCHIVE`
+- [V 3 SN distance vs LCDM (proper version using G190b formula)](g-g237-sam-archive.md) — `G:G237@SAM-ARCHIVE`
+- [Sw To Ly Conversion](g-g237b-sam-archive.md) — `G:G237B@SAM-ARCHIVE`
+- [Qmgr Unification Stress Battery](g-g250-sam-archive.md) — `G:G250@SAM-ARCHIVE`
+- [Double slit and Hawking radiation as alpha H = 2 pair structure](g-g260-sam-archive.md) — `G:G260@SAM-ARCHIVE`
+- [Matter Budget Cosmology Supernovae](g-g261-sam-archive.md) — `G:G261@SAM-ARCHIVE`
+- [Matter Budget Cmb Acoustic Scale](g-g262-sam-archive.md) — `G:G262@SAM-ARCHIVE`
+- [Matter Budget Bao Desi](g-g263-sam-archive.md) — `G:G263@SAM-ARCHIVE`
+- [SW(z) distance curvature: empirical test (recorded negative)](g-g264-sam-archive.md) — `G:G264@SAM-ARCHIVE`
+- [W Minus 1 From Constant A0 Vacuum](g-g265-sam-archive.md) — `G:G265@SAM-ARCHIVE`
+- [Channel-count audit: is N m = 2 alpha H D derived?](g-g266-sam-archive.md) — `G:G266@SAM-ARCHIVE`
+- [Persistence Forces Phase Space Channels](g-g267-sam-archive.md) — `G:G267@SAM-ARCHIVE`
+- [Conjugate Inscription Pair Audit 2026 05 22](g-g267b-sam-archive.md) — `G:G267b@SAM-ARCHIVE`
+- [Regular Action Inscription Audit 2026 05 22](g-g268-sam-archive.md) — `G:G268@SAM-ARCHIVE`
+- [T1: Dirac constraint analysis of the action (scalar sector)](g-g269-sam-archive.md) — `G:G269@SAM-ARCHIVE`
+- [T1b: coupled scalar-graviton ghost check](g-g270-sam-archive.md) — `G:G270@SAM-ARCHIVE`
+- [T2: alpha H '2'-catalog cross-linking audit (§6.1)](g-g271-sam-archive.md) — `G:G271@SAM-ARCHIVE`
+- [Qm Kinematics From Sw Writes Audit](g-g273-sam-archive.md) — `G:G273@SAM-ARCHIVE`
+- [Sw Write Complex Structure Attack](g-g274-sam-archive.md) — `G:G274@SAM-ARCHIVE`
+- [Imaginary Time Complex Amplitude](g-g275-sam-archive.md) — `G:G275@SAM-ARCHIVE`
+- [A0 2Pi Imaginary Time Or Geometric](g-g276-sam-archive.md) — `G:G276@SAM-ARCHIVE`
+- [Substrate Qm Phase](g-g277-sam-archive.md) — `G:G277@SAM-ARCHIVE`
+- [F Sigma Forward Derivation](g-g279-sam-archive.md) — `G:G279@SAM-ARCHIVE`
+- [F Sigma Cumulant Ratio](g-g280b-sam-archive.md) — `G:G280B@SAM-ARCHIVE`
+- [Color Coupling Cumulant Ratio](g-g281-sam-archive.md) — `G:G281@SAM-ARCHIVE`
+- [Ameter Normalization](g-g282-sam-archive.md) — `G:G282@SAM-ARCHIVE`
+- [Substrate Action From Ameter](g-g283-sam-archive.md) — `G:G283@SAM-ARCHIVE`
+- [Universal Phase Promotion](g-g284-sam-archive.md) — `G:G284@SAM-ARCHIVE`
+- [Substrate Fermat Weak Field Lensing](g-g284b-sam-archive.md) — `G:G284b@SAM-ARCHIVE`
+- [Gate 3 Remaining Three Pieces (Newtonian G, Redshift, Gps)](g-g284c-sam-archive.md) — `G:G284c@SAM-ARCHIVE`
+- [Spatial Phase Substrate Count](g-g285-sam-archive.md) — `G:G285@SAM-ARCHIVE`
+- [Gate 4 Closure (Two Channel Action + Baseline Subtraction)](g-g286b-sam-archive.md) — `G:G286b@SAM-ARCHIVE`
+- [Gate 5 Partial Closure: Interference + Composition](g-g286c-sam-archive.md) — `G:G286c@SAM-ARCHIVE`
+- [Inner Product From Substrate Multi State Resolution](g-g286e-sam-archive.md) — `G:G286e@SAM-ARCHIVE`
+- [Planck Constant](g-g286f-sam-archive.md) — `G:G286f@SAM-ARCHIVE`
+- [Unitarity / Conserved Norm From Substrate Inner Product](g-g286g-sam-archive.md) — `G:G286g@SAM-ARCHIVE`
+- [Hamilton Jacobi Dispersion](g-g287-sam-archive.md) — `G:G287@SAM-ARCHIVE`
+- [Cow Sw Native Holonomy](g-g289-sam-archive.md) — `G:G289@SAM-ARCHIVE`
+- [Su2 U1 Cumulant Ratio Universality](g-g290-sam-archive.md) — `G:G290@SAM-ARCHIVE`
+- [Gate 6 Endpoint Labeled Closed Substrate Phase](g-g291-sam-archive.md) — `G:G291@SAM-ARCHIVE`
+- [Gate 8 Ledger Local Connection From Manifold Writes](g-g293-sam-archive.md) — `G:G293@SAM-ARCHIVE`
+- [Horizon Entropy Selector For Ledger Local Connection](g-g294-sam-archive.md) — `G:G294@SAM-ARCHIVE`
+- [Sw/Write Half Event Closure](g-g295-sam-archive.md) — `G:G295@SAM-ARCHIVE`
+- [Horizon Radius Inside/Outside Selector](g-g296-sam-archive.md) — `G:G296@SAM-ARCHIVE`
+- [Sw Bookended Outside/Inside Write Chain](g-g297-sam-archive.md) — `G:G297@SAM-ARCHIVE`
+- [Hr Biased Write/Escape Chain](g-g298-sam-archive.md) — `G:G298@SAM-ARCHIVE`
+- [Coupling Selector Compatibility](g-g299-sam-archive.md) — `G:G299@SAM-ARCHIVE`
+- [Resolved Write Half Coupling](g-g300-sam-archive.md) — `G:G300@SAM-ARCHIVE`
+- [Conditioned Matter Write Half Chain](g-g301-sam-archive.md) — `G:G301@SAM-ARCHIVE`
+- [Full Write Ledger Resolution Doubling](g-g302-sam-archive.md) — `G:G302@SAM-ARCHIVE`
+- [Sw A Origin Simplification](g-g303-sam-archive.md) — `G:G303@SAM-ARCHIVE`
+- [Dimensional Closure Planck Recovery](g-g304-sam-archive.md) — `G:G304@SAM-ARCHIVE`
+- [Horizon quotient measure under explicit symmetry axioms](g-g305.md) — `G:G305`
+- [Horizon Measure Axiom Provenance](g-g306-sam-archive.md) — `G:G306@SAM-ARCHIVE`
+- [Substrate Gravity Horizon Cell](g-g307-sam-archive.md) — `G:G307@SAM-ARCHIVE`
+- [Rotating Horizon Measure Preservation](g-g308-sam-archive.md) — `G:G308@SAM-ARCHIVE`
+- [Finite Cell Horizon Correction Bound](g-g309-sam-archive.md) — `G:G309@SAM-ARCHIVE`
+- [Omega_m residual localization](g-g310.md) — `G:G310`
+- [Old Test Impact Audit](g-g311-sam-archive.md) — `G:G311@SAM-ARCHIVE`
+- [D chi^2 Omega_m correction candidate](g-g312.md) — `G:G312`
+- [Directional-cumulant derivation of the D chi^2 term](g-g313.md) — `G:G313`
+- [Source Law Allocation Branch](g-g314-sam-archive.md) — `G:G314@SAM-ARCHIVE`
+- [Second Order Kernel Marked Process](g-g315-sam-archive.md) — `G:G315@SAM-ARCHIVE`
+- [Marked Poisson Rare Cell Limit](g-g316-sam-archive.md) — `G:G316@SAM-ARCHIVE`
+- [Bhs G197 Rare Cell Action Bridge](g-g317-sam-archive.md) — `G:G317@SAM-ARCHIVE`
+- [Causal Order Bhs Frontier](g-g318-sam-archive.md) — `G:G318@SAM-ARCHIVE`
+- [Rho Normalization Planck Axis](g-g319-sam-archive.md) — `G:G319@SAM-ARCHIVE`
+- [Planck Axis Granularity Boundary](g-g320-sam-archive.md) — `G:G320@SAM-ARCHIVE`
+- [Qm Gr Substrate Action Bridge](g-g321-sam-archive.md) — `G:G321@SAM-ARCHIVE`
+- [Saturation Completed Write Boundary](g-g322-sam-archive.md) — `G:G322@SAM-ARCHIVE`
+- [Kerr Ledger Hbar Fixed Point](g-g323-sam-archive.md) — `G:G323@SAM-ARCHIVE`
+- [Hbar Action Scale Status](g-g325-sam-archive.md) — `G:G325@SAM-ARCHIVE`
+- [Converter Triad Planck Units](g-g326-sam-archive.md) — `G:G326@SAM-ARCHIVE`
+- [Galaxy Rotation Pbh Dm Grade Boundary](g-g327-sam-archive.md) — `G:G327@SAM-ARCHIVE`
+- [Smbh Kerr Spin Rotation Boundary](g-g328-sam-archive.md) — `G:G328@SAM-ARCHIVE`
+- [Cp Violation Projection Holonomy Boundary](g-g329-sam-archive.md) — `G:G329@SAM-ARCHIVE`
+- [PBH initial-A inventory and CMB transparency boundary](g-g330.md) — `G:G330`
+- [Escaped-baryon write decoupling and CMB boundary](g-g331.md) — `G:G331`
+- [Corrected CMB acoustic branch](g-g332.md) — `G:G332`
+- [Matter Antimatter No Touch Pbh Inventory](g-g333-sam-archive.md) — `G:G333@SAM-ARCHIVE`
+- [No Touch Observational Discriminator](g-g334-sam-archive.md) — `G:G334@SAM-ARCHIVE`
+- [Cosmic Coincidence Algebraic Lock](g-g335-sam-archive.md) — `G:G335@SAM-ARCHIVE`
+- [Perihelion Substrate Metric](g-g336-sam-archive.md) — `G:G336@SAM-ARCHIVE`
+- [Lense Thirring Rotating Substrate](g-g337-sam-archive.md) — `G:G337@SAM-ARCHIVE`
+- [Photon Sphere Isco Substrate Geometry](g-g338-sam-archive.md) — `G:G338@SAM-ARCHIVE`
+- [Strong Field Redshift Substrate Boundary](g-g339-sam-archive.md) — `G:G339@SAM-ARCHIVE`
+- [De Broglie Action Cycle](g-g340-sam-archive.md) — `G:G340@SAM-ARCHIVE`
+- [Schrodinger Substrate Action Limit](g-g341-sam-archive.md) — `G:G341@SAM-ARCHIVE`
+- [Cow Substrate Action Phase](g-g342-sam-archive.md) — `G:G342@SAM-ARCHIVE`
+- [Shapiro Photon Substrate Phase](g-g343-sam-archive.md) — `G:G343@SAM-ARCHIVE`
+- [Coulomb Bohr Alpha Frame](g-g344-sam-archive.md) — `G:G344@SAM-ARCHIVE`
+- [Semf Coulomb Coefficient](g-g345-sam-archive.md) — `G:G345@SAM-ARCHIVE`
+- [Pbh Halo Clustering Target](g-g346-sam-archive.md) — `G:G346@SAM-ARCHIVE`
+- [D=3 Theorem Route Audit](g-g347-sam-archive.md) — `G:G347@SAM-ARCHIVE`
+- [Loop Topology Identity Premise Audit](g-g348-sam-archive.md) — `G:G348@SAM-ARCHIVE`
+- [Worldsheet Identity Reduction Audit](g-g349-sam-archive.md) — `G:G349@SAM-ARCHIVE`
+- [Identity Deformation Quotient Audit](g-g350-sam-archive.md) — `G:G350@SAM-ARCHIVE`
+- [D=3 Route C Proof Wording Audit](g-g351-sam-archive.md) — `G:G351@SAM-ARCHIVE`
+- [Self Contained Holonomy/Topology Separation Audit](g-g352-sam-archive.md) — `G:G352@SAM-ARCHIVE`
+- [No External Reference Identity Provenance Audit](g-g353-sam-archive.md) — `G:G353@SAM-ARCHIVE`
+- [Displacement Response Matter Identity Audit](g-g354-sam-archive.md) — `G:G354@SAM-ARCHIVE`
+- [D=3 Displacement Response Theorem Audit](g-g355-sam-archive.md) — `G:G355@SAM-ARCHIVE`
+- [A0 Foundation Status After D Theorem](g-g356-sam-archive.md) — `G:G356@SAM-ARCHIVE`
+- [A0 Compact Cycle Phase Provenance](g-g357-sam-archive.md) — `G:G357@SAM-ARCHIVE`
+- [Bounce Force / Action Threshold](g-g359-sam-archive.md) — `G:G359@SAM-ARCHIVE`
+- [Horizon Shape / Bounce Multiplier Quarantine](g-g360-sam-archive.md) — `G:G360@SAM-ARCHIVE`
+- [Native Linear Shape Candidate](g-g361-sam-archive.md) — `G:G361@SAM-ARCHIVE`
+- [S1 Denominator Series Stress Test](g-g362-sam-archive.md) — `G:G362@SAM-ARCHIVE`
+- [Asymmetric Side Continuity Bounce](g-g363-sam-archive.md) — `G:G363@SAM-ARCHIVE`
+- [Pair Conservation Bounce Elevator](g-g364-sam-archive.md) — `G:G364@SAM-ARCHIVE`
+- [Horizon Side Bounce Provenance](g-g365-sam-archive.md) — `G:G365@SAM-ARCHIVE`
+- [Sphere Thirds Bounce Ladder](g-g366-sam-archive.md) — `G:G366@SAM-ARCHIVE`
+- [Sigma Shell Thirds Bounce Derivation](g-g367-sam-archive.md) — `G:G367@SAM-ARCHIVE`
+- [Inside Out Pbh Inventory Stress](g-g368-sam-archive.md) — `G:G368@SAM-ARCHIVE`
+- [Cow Substrate Eigenmode Phase](g-g369-sam-archive.md) — `G:G369@SAM-ARCHIVE`
+- [Sam Gravitational Redshift Write Rate](g-g371-sam-archive.md) — `G:G371@SAM-ARCHIVE`
+- [Sam Shapiro A Path Delay](g-g372-sam-archive.md) — `G:G372@SAM-ARCHIVE`
+- [Gps A Clock With Sr Motion Correction](g-g373-sam-archive.md) — `G:G373@SAM-ARCHIVE`
+- [Sam Clock Road Delay Decomposition](g-g374-sam-archive.md) — `G:G374@SAM-ARCHIVE`
+- [Sn A Road Stretch Prior Prediction](g-g375-sam-archive.md) — `G:G375@SAM-ARCHIVE`
+- [Common A Lambda Action Bridge](g-g376-sam-archive.md) — `G:G376@SAM-ARCHIVE`
+- [Species Swap A Exposure Phase Bridge](g-g377-sam-archive.md) — `G:G377@SAM-ARCHIVE`
+- [Cmb Boltzmann Environment Preflight](g-g378-sam-archive.md) — `G:G378@SAM-ARCHIVE`
+- [Sam Cmb Parameter Card Freeze](g-g379.md) — `G:G379`
+- [Fixed Background Cmb Spectrum Smoke](g-g380.md) — `G:G380`
+- [Planck Lite Fixed Sam Densities](g-g381.md) — `G:G381`
+- [Cmb Peak Damping Polarization Residuals](g-g382.md) — `G:G382`
+- [Cmb Boltzmann Wrong Controls](g-g383.md) — `G:G383`
+- [Toe G22B Cmb Spectrum](g-g384.md) — `G:G384`
+- [Pbh Closure Mass Lab Preflight](g-g385-sam-archive.md) — `G:G385@SAM-ARCHIVE`
+- [Post Bb Pbh External Constraint Preflight](g-g386-sam-archive.md) — `G:G386@SAM-ARCHIVE`
+- [Bb A Patch Closure Rate Selector](g-g387-sam-archive.md) — `G:G387@SAM-ARCHIVE`
+- [Pbh Birth Mass Function Gate](g-g388-sam-archive.md) — `G:G388@SAM-ARCHIVE`
+- [Post Bb Survival Population Gate](g-g389-sam-archive.md) — `G:G389@SAM-ARCHIVE`
+- [Present Day Omega Pbh Inventory Fraction](g-g390-sam-archive.md) — `G:G390@SAM-ARCHIVE`
+- [Pbh Halo Inventory Compatibility](g-g391-sam-archive.md) — `G:G391@SAM-ARCHIVE`
+- [Real Sparc Pbh Halo Inventory Test](g-g392-sam-archive.md) — `G:G392@SAM-ARCHIVE`
+- [Pbh Halo Forward Stack Selector](g-g393-sam-archive.md) — `G:G393@SAM-ARCHIVE`
+- [Pbh Radial Organization Profile Test](g-g394-sam-archive.md) — `G:G394@SAM-ARCHIVE`
+- [H0 Density Closure Selector](g-g395-sam-archive.md) — `G:G395@SAM-ARCHIVE`
+- [Toe G23 Bbn Light Element Gate](g-g396.md) — `G:G396`
+- [Frozen Sn Distance Curve Preflight](g-g397-sam-archive.md) — `G:G397@SAM-ARCHIVE`
+- [SN Distance Residual Shape Diagnosis](g-g398-sam-archive.md) — `G:G398@SAM-ARCHIVE`
+- [SN Constant Offset Diagnostic](g-g398b-sam-archive.md) — `G:G398B@SAM-ARCHIVE`
+- [SN Constant Scale Origin Selector](g-g399-sam-archive.md) — `G:G399@SAM-ARCHIVE`
+- [SN Native Curvature After Scale](g-g400-sam-archive.md) — `G:G400@SAM-ARCHIVE`
+- [SN Native Source / Road Coupling](g-g401-sam-archive.md) — `G:G401@SAM-ARCHIVE`
+- [Matter Sagnac Rotation Eigenmode Phase](g-g404-sam-archive.md) — `G:G404@SAM-ARCHIVE`
+- [Debroglie Eigenmode Motion Phase](g-g405-sam-archive.md) — `G:G405@SAM-ARCHIVE`
+- [Photon A Road Fermat Light Bending](g-g407-sam-archive.md) — `G:G407@SAM-ARCHIVE`
+- [Perihelion A Metric Extra Term](g-g408-sam-archive.md) — `G:G408@SAM-ARCHIVE`
+- [Pound Rebka A Clock Photon Redshift](g-g409-sam-archive.md) — `G:G409@SAM-ARCHIVE`
+- [Kepler Circular Orbit From A Potential](g-g410-sam-archive.md) — `G:G410@SAM-ARCHIVE`
+- [Escape Velocity A Boundary](g-g411-sam-archive.md) — `G:G411@SAM-ARCHIVE`
+- [Photon Sphere A Metric Boundary](g-g412-sam-archive.md) — `G:G412@SAM-ARCHIVE`
+- [Isco A Metric Timelike Boundary](g-g413-sam-archive.md) — `G:G413@SAM-ARCHIVE`
+- [A Exposure Action Framework Unification Map](g-g414-sam-archive.md) — `G:G414@SAM-ARCHIVE`
+- [Universal Exposure Law Delta Phi Q](g-g415-sam-archive.md) — `G:G415@SAM-ARCHIVE`
+- [Sw Count Compton Phase Cycle](g-g419-sam-archive.md) — `G:G419@SAM-ARCHIVE`
+- [Sw Axis Action Cell Closure](g-g422-sam-archive.md) — `G:G422@SAM-ARCHIVE`
+- [Integer Phase Closure Nonpredictive Boundary](g-g424-sam-archive.md) — `G:G424@SAM-ARCHIVE`
+- [Pure Dyadic Write Split Ladder Boundary](g-g426-sam-archive.md) — `G:G426@SAM-ARCHIVE`
+- [Finite Channel Split Numerator Scan](g-g427-sam-archive.md) — `G:G427@SAM-ARCHIVE`
+- [Db Numerator Pattern Candidate](g-g428-sam-archive.md) — `G:G428@SAM-ARCHIVE`
+- [Split Depth Pattern Candidate](g-g429-sam-archive.md) — `G:G429@SAM-ARCHIVE`
+- [Half Write Residual Envelope](g-g430-sam-archive.md) — `G:G430@SAM-ARCHIVE`
+- [Half Write Eighth Slot Residuals](g-g431-sam-archive.md) — `G:G431@SAM-ARCHIVE`
+- [Bounce Cost Eighth Slot Correction](g-g432-sam-archive.md) — `G:G432@SAM-ARCHIVE`
+- [Gate8 Write Algebra Q Slot Candidate](g-g433-sam-archive.md) — `G:G433@SAM-ARCHIVE`
+- [Gate8 To Gate7 Number Continuity](g-g434-sam-archive.md) — `G:G434@SAM-ARCHIVE`
+- [Species Assignment Rule Candidate](g-g436-sam-archive.md) — `G:G436@SAM-ARCHIVE`
+- [Baryon Split Holdout Prediction](g-g437-sam-archive.md) — `G:G437@SAM-ARCHIVE`
+- [Heavy Electroweak Top Slot Selector](g-g439-sam-archive.md) — `G:G439@SAM-ARCHIVE`
+- [Weak Mixing From Wz Slot Ratio](g-g441-sam-archive.md) — `G:G441@SAM-ARCHIVE`
+- [Heavy Slot Internal Ratios](g-g442-sam-archive.md) — `G:G442@SAM-ARCHIVE`
+- [Write Sector Q Slot Derivation](g-g444-sam-archive.md) — `G:G444@SAM-ARCHIVE`
+- [Role Operator Kn Selector](g-g446-sam-archive.md) — `G:G446@SAM-ARCHIVE`
+- [Extended Role Operator Kn Selector](g-g447-sam-archive.md) — `G:G447@SAM-ARCHIVE`
+- [Baryon Topology Q Role Selector](g-g450-sam-archive.md) — `G:G450@SAM-ARCHIVE`
+- [Selector Grammar Compression](g-g453-sam-archive.md) — `G:G453@SAM-ARCHIVE`
+- [Gate Write Grammar Provenance](g-g454-sam-archive.md) — `G:G454@SAM-ARCHIVE`
+- [Representation Action Scaffold](g-g455-sam-archive.md) — `G:G455@SAM-ARCHIVE`
+- [Gate Orientation Chiral Scaffold Selector](g-g456-sam-archive.md) — `G:G456@SAM-ARCHIVE`
+- [Electric Charge From Chiral Scaffold](g-g457-sam-archive.md) — `G:G457@SAM-ARCHIVE`
+- [Neutral Electroweak Action Bridge](g-g459-sam-archive.md) — `G:G459@SAM-ARCHIVE`
+- [Charged Current Topology Action Bridge](g-g460-sam-archive.md) — `G:G460@SAM-ARCHIVE`
+- [Muon Lifetime Weak Barrier Scale](g-g462-sam-archive.md) — `G:G462@SAM-ARCHIVE`
+- [Ew Correction A0 Alpha Screening Candidate](g-g463-sam-archive.md) — `G:G463@SAM-ARCHIVE`
+- [Beta Stability Action Threshold](g-g466-sam-archive.md) — `G:G466@SAM-ARCHIVE`
+- [Na62 Rk A0 Alpha Inclusive Screening](g-g467-sam-archive.md) — `G:G467@SAM-ARCHIVE`
+- [A0 Alpha Screening Operator Derivation](g-g468-sam-archive.md) — `G:G468@SAM-ARCHIVE`
+- [Theorem Grade Unification Stack](g-g469-sam-archive.md) — `G:G469@SAM-ARCHIVE`
+- [Sw Split Bounce Action Theorem](g-g470-sam-archive.md) — `G:G470@SAM-ARCHIVE`
+- [Master Formula Derivation Engine](g-g471-sam-archive.md) — `G:G471@SAM-ARCHIVE`
+- [Representation Action Branch Selector](g-g472-sam-archive.md) — `G:G472@SAM-ARCHIVE`
+- [Branch To Role Action Selector](g-g473-sam-archive.md) — `G:G473@SAM-ARCHIVE`
+- [Sam Engine Package Smoke](g-g474-sam-archive.md) — `G:G474@SAM-ARCHIVE`
+- [Engine Dashboard Reaction Readout](g-g475-sam-archive.md) — `G:G475@SAM-ARCHIVE`
+- [Neutrino Spectrum Boundary](g-g480-sam-archive.md) — `G:G480@SAM-ARCHIVE`
+- [Proper Time Eigenphase Unification](g-g481-sam-archive.md) — `G:G481@SAM-ARCHIVE`
+- [Sw Count Action Scale Anchor](g-g482-sam-archive.md) — `G:G482@SAM-ARCHIVE`
+- [Neutrino Mixing Order Operator Boundary](g-g484-sam-archive.md) — `G:G484@SAM-ARCHIVE`
+- [Correction Layer Admission Rule](g-g486-sam-archive.md) — `G:G486@SAM-ARCHIVE`
+- [Correction Layer Expansion Grammar](g-g486b-sam-archive.md) — `G:G486B@SAM-ARCHIVE`
+- [Baryon Self Energy Cross Sector Stress](g-g488-sam-archive.md) — `G:G488@SAM-ARCHIVE`
+- [Baryon Factor Derivation Candidate](g-g489-sam-archive.md) — `G:G489@SAM-ARCHIVE`
+- [Formal Baryon Correction Operator](g-g490-sam-archive.md) — `G:G490@SAM-ARCHIVE`
+- [Correction Operator Grammar](g-g491-sam-archive.md) — `G:G491@SAM-ARCHIVE`
+- [Tau Hadronic Width Inclusive Operator](g-g494-sam-archive.md) — `G:G494@SAM-ARCHIVE`
+- [Neutrino Order Mixing Operator](g-g495-sam-archive.md) — `G:G495@SAM-ARCHIVE`
+- [Radiative Layer Expansion](g-g496-sam-archive.md) — `G:G496@SAM-ARCHIVE`
+- [Cross Sector Holdout No Leak](g-g497-sam-archive.md) — `G:G497@SAM-ARCHIVE`
+- [Theorem Grade Lift Attempt](g-g498-sam-archive.md) — `G:G498@SAM-ARCHIVE`
+- [Baryon Half Write Baseline Em Theorem](g-g499-sam-archive.md) — `G:G499@SAM-ARCHIVE`
+- [Theorem Lift Delta Audit After G500](g-g501-sam-archive.md) — `G:G501@SAM-ARCHIVE`
+- [Neutrino Order Pmns Theorem](g-g504-sam-archive.md) — `G:G504@SAM-ARCHIVE`
+- [External Held Out Prediction Suite](g-g507-sam-archive.md) — `G:G507@SAM-ARCHIVE`
+- [Scoped Non Neutrino Theorem Lift Audit](g-g508-sam-archive.md) — `G:G508@SAM-ARCHIVE`
+- [Sam Native Observable Registry](g-g510a-sam-archive.md) — `G:G510A@SAM-ARCHIVE`
+- [Ledger Write Conservation](g-g510b-sam-archive.md) — `G:G510B@SAM-ARCHIVE`
+- [Resolution Threshold Operator](g-g510c-sam-archive.md) — `G:G510C@SAM-ARCHIVE`
+- [Channel Exclusivity Theorem](g-g510d-sam-archive.md) — `G:G510D@SAM-ARCHIVE`
+- [Horizon Write Direction Theorem](g-g510e-sam-archive.md) — `G:G510E@SAM-ARCHIVE`
+- [A Memory Hysteresis Boundary](g-g510f-sam-archive.md) — `G:G510F@SAM-ARCHIVE`
+- [Closed A Exposure Topology](g-g510g-sam-archive.md) — `G:G510G@SAM-ARCHIVE`
+- [Write Depth Generation Menu](g-g510h-sam-archive.md) — `G:G510H@SAM-ARCHIVE`
+- [Cosmic A Inventory Accounting](g-g510i-sam-archive.md) — `G:G510I@SAM-ARCHIVE`
+- [Species Generation Menu And Correction Completeness](g-g511-sam-archive.md) — `G:G511@SAM-ARCHIVE`
+- [Electroweak Carrier Candidate Test](g-g514-sam-archive.md) — `G:G514@SAM-ARCHIVE`
+- [Baryon Write Inventory Candidate Test](g-g516-sam-archive.md) — `G:G516@SAM-ARCHIVE`
+- [Sam Chladni Plate Coordinate System](g-g518-sam-archive.md) — `G:G518@SAM-ARCHIVE`
+- [Substrate Mode Placement Test](g-g519-sam-archive.md) — `G:G519@SAM-ARCHIVE`
+- [Modal Family Clustering Test](g-g520-sam-archive.md) — `G:G520@SAM-ARCHIVE`
+- [Boundary And Closed Loop Plate Test](g-g521-sam-archive.md) — `G:G521@SAM-ARCHIVE`
+- [Residual Pointer Overlay Test](g-g522-sam-archive.md) — `G:G522@SAM-ARCHIVE`
+- [Chladni Reorganization Stability Test](g-g523-sam-archive.md) — `G:G523@SAM-ARCHIVE`
+- [Chladni To Next Test Routing](g-g524-sam-archive.md) — `G:G524@SAM-ARCHIVE`
+- [A Reorganization Probability Basic Rerun](g-g525-sam-archive.md) — `G:G525@SAM-ARCHIVE`
+- [Non A Reorganization Covariate Factoring](g-g526-sam-archive.md) — `G:G526@SAM-ARCHIVE`
+- [Combined A Nona Reorganization Threshold](g-g527-sam-archive.md) — `G:G527@SAM-ARCHIVE`
+- [Nona Variable Behavior At A 0P85 Split](g-g528-sam-archive.md) — `G:G528@SAM-ARCHIVE`
+- [Nona Variable Behavior At Raw A 0P085 Split](g-g528b-sam-archive.md) — `G:G528B@SAM-ARCHIVE`
+- [Refined Threshold Scan A 0P8 0P9](g-g529-sam-archive.md) — `G:G529@SAM-ARCHIVE`
+- [Corrected Raw A 0P085 Threshold Scan](g-g530-sam-archive.md) — `G:G530@SAM-ARCHIVE`
+- [Raw A Target Bin Scan 0P085 From G528B](g-g531-sam-archive.md) — `G:G531@SAM-ARCHIVE`
+- [Master Formula Tight Raw A Range 0P082 0P086](g-g532-sam-archive.md) — `G:G532@SAM-ARCHIVE`
+- [Component Context A Range 0P082 0P086](g-g533-sam-archive.md) — `G:G533@SAM-ARCHIVE`
+- [A One Over 12 Exact Anchor Audit](g-g534-sam-archive.md) — `G:G534@SAM-ARCHIVE`
+- [12 Share 24 Side Ledger Conservation Audit](g-g535-sam-archive.md) — `G:G535@SAM-ARCHIVE`
+- [Closed Route Candidate Builder](g-g537-sam-archive.md) — `G:G537@SAM-ARCHIVE`
+- [Closed Route Candidate Builder V3](g-g537b-sam-archive.md) — `G:G537b@SAM-ARCHIVE`
+- [Generation Depth Selector](g-g538-sam-archive.md) — `G:G538@SAM-ARCHIVE`
+- [Generation Depth Selector V3](g-g538b-sam-archive.md) — `G:G538b@SAM-ARCHIVE`
+- [Boundary Only Candidate Selector](g-g539-sam-archive.md) — `G:G539@SAM-ARCHIVE`
+- [Boundary Only Candidate Selector V3](g-g539b-sam-archive.md) — `G:G539b@SAM-ARCHIVE`
+- [Orientation Asymmetry Probe](g-g540-sam-archive.md) — `G:G540@SAM-ARCHIVE`
+- [Orientation Asymmetry Probe V3](g-g540b-sam-archive.md) — `G:G540b@SAM-ARCHIVE`
+- [Channel Ownership And Exclusion Test](g-g541-sam-archive.md) — `G:G541@SAM-ARCHIVE`
+- [Channel Ownership And Exclusion Test V3](g-g541b-sam-archive.md) — `G:G541b@SAM-ARCHIVE`
+- [Native Candidate Menu V1](g-g542-sam-archive.md) — `G:G542@SAM-ARCHIVE`
+- [Native Candidate Menu V1 V3](g-g542b-sam-archive.md) — `G:G542b@SAM-ARCHIVE`
+- [Comparison Layer To Standard Model Families](g-g543-sam-archive.md) — `G:G543@SAM-ARCHIVE`
+- [Comparison Layer To Standard Model Families V3](g-g543b-sam-archive.md) — `G:G543b@SAM-ARCHIVE`
+- [First External Contact Audit](g-g545-sam-archive.md) — `G:G545@SAM-ARCHIVE`
+- [First External Contact Audit V3](g-g545b-sam-archive.md) — `G:G545b@SAM-ARCHIVE`
+- [Rule Forced Selector Or Mismatch Decomposition](g-g546-sam-archive.md) — `G:G546@SAM-ARCHIVE`
+- [G510 V3 Delta Audit](g-g546b-sam-archive.md) — `G:G546b@SAM-ARCHIVE`
+- [Native Predictor Sm Contact Replay](g-g551b-sam-archive.md) — `G:G551b@SAM-ARCHIVE`
+- [Native Predictor Cern Gap Replay](g-g552b-sam-archive.md) — `G:G552b@SAM-ARCHIVE`
+- [Predictor Derived Structure Target Matrix](g-g553b-sam-archive.md) — `G:G553b@SAM-ARCHIVE`
+- [V4 Native Polarity Structure Selector](g-g554b-sam-archive.md) — `G:G554b@SAM-ARCHIVE`
+- [V4 Native Carrier Multiplicity Selector](g-g555b-sam-archive.md) — `G:G555b@SAM-ARCHIVE`
+- [V4 Native Decay Coupling Selector Boundary](g-g557b-sam-archive.md) — `G:G557b@SAM-ARCHIVE`
+- [V4 Neutrino Boundary Selector Decision](g-g558b-sam-archive.md) — `G:G558b@SAM-ARCHIVE`
+- [V4 Representation Action Target Matrix](g-g559b-sam-archive.md) — `G:G559b@SAM-ARCHIVE`
+- [V4 Native Action Domain Selector](g-g560b-sam-archive.md) — `G:G560b@SAM-ARCHIVE`
+- [V4 Candidate State Constructor](g-g561b-sam-archive.md) — `G:G561b@SAM-ARCHIVE`
+- [Generator Action Closure Probe](g-g562b-sam-archive.md) — `G:G562b@SAM-ARCHIVE`
+- [R Act Transition Rule Target Matrix](g-g569b-sam-archive.md) — `G:G569b@SAM-ARCHIVE`
+- [R Act Allowed Transition Menu](g-g570b-sam-archive.md) — `G:G570b@SAM-ARCHIVE`
+- [R Act Conservation Guard Test](g-g571b-sam-archive.md) — `G:G571b@SAM-ARCHIVE`
+- [R Act Wrong Control Stress Test](g-g572b-sam-archive.md) — `G:G572b@SAM-ARCHIVE`
+- [G562B Closure Rerun With R Act Rule](g-g573b-sam-archive.md) — `G:G573b@SAM-ARCHIVE`
+- [Return To G563B Orbit Selector Decision](g-g574b-sam-archive.md) — `G:G574b@SAM-ARCHIVE`
+- [Concrete Target Selector Target Matrix](g-g575b-sam-archive.md) — `G:G575b@SAM-ARCHIVE`
+- [A Share Side Candidate Status Test](g-g576b-sam-archive.md) — `G:G576b@SAM-ARCHIVE`
+- [Ownership Collapse Resolution Selector](g-g578b-sam-archive.md) — `G:G578b@SAM-ARCHIVE`
+- [Recurrence Topology Inventory Classifier](g-g579b-sam-archive.md) — `G:G579b@SAM-ARCHIVE`
+- [Concrete Native Target Candidate Menu Freeze](g-g580b-sam-archive.md) — `G:G580b@SAM-ARCHIVE`
+- [Frozen Comparison Map Lock](g-g581b-sam-archive.md) — `G:G581b@SAM-ARCHIVE`
+- [G563B Unlock Decision After Concrete Target Selector](g-g582b-sam-archive.md) — `G:G582b@SAM-ARCHIVE`
+- [V4 Root Executable Coherence After D Route](g-g583b-sam-archive.md) — `G:G583b@SAM-ARCHIVE`
+- [V4 1 Root Executable Coherence After Radix Route Kernel](g-g583c-sam-archive.md) — `G:G583c@SAM-ARCHIVE`
+- [D Route Side Schema Migration](g-g584b-sam-archive.md) — `G:G584b@SAM-ARCHIVE`
+- [V4 1 Route Chain Side Schema Migration](g-g584c-sam-archive.md) — `G:G584c@SAM-ARCHIVE`
+- [A Share Side Status Selector With Route Depth](g-g585b-sam-archive.md) — `G:G585b@SAM-ARCHIVE`
+- [A Share Side Status Selector With Route Depth](g-g585c-sam-archive.md) — `G:G585c@SAM-ARCHIVE`
+- [Two Piece Manifold Reading Lab](g-g587c-sam-archive.md) — `G:G587c@SAM-ARCHIVE`
+- [V4 1 Manifold Refinement Final Audit](g-g588c-sam-archive.md) — `G:G588c@SAM-ARCHIVE`
+- [Share Completion Selector](g-g589c-sam-archive.md) — `G:G589c@SAM-ARCHIVE`
+- [Conjugate Half Closure Pair Selector](g-g590c-sam-archive.md) — `G:G590c@SAM-ARCHIVE`
+- [Conjugate Pair Role Assignment Selector](g-g591c-sam-archive.md) — `G:G591c@SAM-ARCHIVE`
+- [Pair Level Ownership Collapse Selector](g-g592c-sam-archive.md) — `G:G592c@SAM-ARCHIVE`
+- [Closed Topology C A Selector](g-g593c-sam-archive.md) — `G:G593c@SAM-ARCHIVE`
+- [Inventory I A Selector](g-g594c-sam-archive.md) — `G:G594c@SAM-ARCHIVE`
+- [Native Target Candidate Freeze](g-g595c-sam-archive.md) — `G:G595c@SAM-ARCHIVE`
+- [Native Response Operator Definition](g-g596c-sam-archive.md) — `G:G596c@SAM-ARCHIVE`
+- [Target Free Substrate Perturbation Menu](g-g597c-sam-archive.md) — `G:G597c@SAM-ARCHIVE`
+- [Response Application Engine](g-g598c-sam-archive.md) — `G:G598c@SAM-ARCHIVE`
+- [Generated Closure Stability Recurrence Filter](g-g599c-sam-archive.md) — `G:G599c@SAM-ARCHIVE`
+- [Native Prediction Ledger](g-g600c-sam-archive.md) — `G:G600c@SAM-ARCHIVE`
+- [Generated Native Target Freeze](g-g601c-sam-archive.md) — `G:G601c@SAM-ARCHIVE`
+- [Generated Target Delta Audit](g-g602c-sam-archive.md) — `G:G602c@SAM-ARCHIVE`
+- [X C Audit Of Self Conjugate I A](g-g603c-sam-archive.md) — `G:G603c@SAM-ARCHIVE`
+- [Internal Vs External Conj Pair Distinction](g-g604c-sam-archive.md) — `G:G604c@SAM-ARCHIVE`
+- [A Share Split Survival Audit](g-g605c-sam-archive.md) — `G:G605c@SAM-ARCHIVE`
+- [Tier Asymmetry Structural Audit](g-g606c-sam-archive.md) — `G:G606c@SAM-ARCHIVE`
+- [Face Axis Directional Audit](g-g607c-sam-archive.md) — `G:G607c@SAM-ARCHIVE`
+- [X C Audit Of Self Paired Halves Neutral Inheritance](g-g608c-sam-archive.md) — `G:G608c@SAM-ARCHIVE`
+- [Bipartite Write D 3 Count Audit](g-g609c-sam-archive.md) — `G:G609c@SAM-ARCHIVE`
+- [Selector Gap Priority Board](g-g618c-sam-archive.md) — `G:G618c@SAM-ARCHIVE`
+- [Closed Topology Classifier](g-g619c-sam-archive.md) — `G:G619c@SAM-ARCHIVE`
+- [Inventory Classifier](g-g620c-sam-archive.md) — `G:G620c@SAM-ARCHIVE`
+- [Concrete Target Selector](g-g621c-sam-archive.md) — `G:G621c@SAM-ARCHIVE`
+- [Charge Orientation Selector](g-g623c-sam-archive.md) — `G:G623c@SAM-ARCHIVE`
+- [Spin Statistics Selector](g-g624c-sam-archive.md) — `G:G624c@SAM-ARCHIVE`
+- [Representation Selector](g-g625c-sam-archive.md) — `G:G625c@SAM-ARCHIVE`
+- [Neutrino Rank Defect Selector](g-g626c-sam-archive.md) — `G:G626c@SAM-ARCHIVE`
+- [Action Scale Interface Lock](g-g627c-sam-archive.md) — `G:G627c@SAM-ARCHIVE`
+- [Frozen External Comparison Map](g-g628c-sam-archive.md) — `G:G628c@SAM-ARCHIVE`
+- [Charge Axis Source Discovery Or Boundary Lock](g-g632c-sam-archive.md) — `G:G632c@SAM-ARCHIVE`
+- [Current Goalv21 Ledger V1](g-g633c-sam-archive.md) — `G:G633c@SAM-ARCHIVE`
+- [Charge Axis Source Priority Selector](g-g634c-sam-archive.md) — `G:G634c@SAM-ARCHIVE`
+- [Ax001 Write Parity Conjugate Sign Guard](g-g635c-sam-archive.md) — `G:G635c@SAM-ARCHIVE`
+- [Ax001 Target Half Parity Readout](g-g636c-sam-archive.md) — `G:G636c@SAM-ARCHIVE`
+- [Ax007 Phase Neighbor Boundary Or Bridge](g-g637c-sam-archive.md) — `G:G637c@SAM-ARCHIVE`
+- [Charge Axis Campaign Ledger V1](g-g638c-sam-archive.md) — `G:G638c@SAM-ARCHIVE`
+- [Ax001 Manifold Bounce Q Slot Selector](g-g639c-sam-archive.md) — `G:G639c@SAM-ARCHIVE`
+- [Precontact Contact Response Chain](g-g640c-sam-archive.md) — `G:G640c@SAM-ARCHIVE`
+- [Response Q Slot Localization](g-g641c-sam-archive.md) — `G:G641c@SAM-ARCHIVE`
+- [Unresolved Propagation To Ledger Probability Bridge](g-g642c-sam-archive.md) — `G:G642c@SAM-ARCHIVE`
+- [Contact Response Sign Selector Candidate](g-g644c-sam-archive.md) — `G:G644c@SAM-ARCHIVE`
+- [Conjugate Sign Axis Requirement Ledger](g-g645c-sam-archive.md) — `G:G645c@SAM-ARCHIVE`
+- [Temperature Prediction](g-g652c-sam-archive.md) — `G:G652c@SAM-ARCHIVE`
+- [Bounced Write Intersection Geometry](g-g655c-sam-archive.md) — `G:G655c@SAM-ARCHIVE`
+- [Contact Bounce Ordered Noncommutative Seed](g-g656c-sam-archive.md) — `G:G656c@SAM-ARCHIVE`
+- [Ax004 Route Owner Partition Composition Closure Scan](g-g657c-sam-archive.md) — `G:G657c@SAM-ARCHIVE`
+- [Ax003 Route Swap On Ax004 Order Packet](g-g658c-sam-archive.md) — `G:G658c@SAM-ARCHIVE`
+- [Ax007 Phase Tangent Lift On Route Swap Seed](g-g659c-sam-archive.md) — `G:G659c@SAM-ARCHIVE`
+- [Conjugate Reflection Selector On S3 Phase Packet](g-g660c-sam-archive.md) — `G:G660c@SAM-ARCHIVE`
+- [Ax011 Partition Carrier For S3 Packet](g-g661c-sam-archive.md) — `G:G661c@SAM-ARCHIVE`
+- [S3 Packet Action On Ax011 12 Slot Carrier](g-g662c-sam-archive.md) — `G:G662c@SAM-ARCHIVE`
+- [Alpha H Sheet Branch Separation](g-g663c-sam-archive.md) — `G:G663c@SAM-ARCHIVE`
+- [Ax008 Owner Triad Action On S D Axis Lane](g-g664c-sam-archive.md) — `G:G664c@SAM-ARCHIVE`
+- [Color Like Branch Card Away From N Target](g-g665c-sam-archive.md) — `G:G665c@SAM-ARCHIVE`
+- [Native Target Selector For Color Like Branch Card](g-g666c-sam-archive.md) — `G:G666c@SAM-ARCHIVE`
+- [Color Branch Native Descriptor Freeze Gate](g-g667c-sam-archive.md) — `G:G667c@SAM-ARCHIVE`
+- [Color Branch Topology Inventory Classifier](g-g668c-sam-archive.md) — `G:G668c@SAM-ARCHIVE`
+- [Color Branch Ledger Contact Selector](g-g669c-sam-archive.md) — `G:G669c@SAM-ARCHIVE`
+- [Color Branch Concrete Target Selector](g-g670c-sam-archive.md) — `G:G670c@SAM-ARCHIVE`
+- [Color Branch Stability Closure Selector](g-g671c-sam-archive.md) — `G:G671c@SAM-ARCHIVE`
+- [Color Branch Target Id Promotion Selector](g-g672c-sam-archive.md) — `G:G672c@SAM-ARCHIVE`
+- [Color Branch Target Status Ledger](g-g673c-sam-archive.md) — `G:G673c@SAM-ARCHIVE`
+- [Color Branch Property Selector Priority Board](g-g674c-sam-archive.md) — `G:G674c@SAM-ARCHIVE`
+- [Color Branch Owner Triad Property Selector](g-g675c-sam-archive.md) — `G:G675c@SAM-ARCHIVE`
+- [Bb Pbh Seed First Clustering Simulation](g-g677-sam-archive.md) — `G:G677@SAM-ARCHIVE`
+- [Hydrogen First-Star Scaffold Selector](g-g682c-sam-archive.md) — `G:G682c@SAM-ARCHIVE`
+- [Low-Z SAM Ruler Residual Prediction](g-g683c-sam-archive.md) — `G:G683c@SAM-ARCHIVE`
+- [SN Ruler Crossing Flattening Shape](g-g684c-sam-archive.md) — `G:G684c@SAM-ARCHIVE`
+- [Pantheon Ruler Crossing Near z=0.3275](g-g685c-sam-archive.md) — `G:G685c@SAM-ARCHIVE`
+- [Pantheon Straight SAM Ruler Conversion](g-g686c-sam-archive.md) — `G:G686c@SAM-ARCHIVE`
+- [Pantheon Straight Conversion Selector](g-g687c-sam-archive.md) — `G:G687c@SAM-ARCHIVE`
+- [Z/A Effective Light-Speed Ruler](g-g688c-sam-archive.md) — `G:G688c@SAM-ARCHIVE`
+- [BAO Native Ruler Prediction Table](g-g689c-sam-archive.md) — `G:G689c@SAM-ARCHIVE`
+- [BAO Radial Derivative Turn Selector](g-g690c-sam-archive.md) — `G:G690c@SAM-ARCHIVE`
+- [Native SN/BAO Observable-Family Projection](g-g691c-sam-archive.md) — `G:G691c@SAM-ARCHIVE`
+- [Native BAO Scoring From G691c Projection](g-g692c-sam-archive.md) — `G:G692c@SAM-ARCHIVE`
+- [BAO Explicit c eff Native Distance Conversion](g-g693c-sam-archive.md) — `G:G693c@SAM-ARCHIVE`
+- [Native Average Speed Ruler Lanes](g-g694c-sam-archive.md) — `G:G694c@SAM-ARCHIVE`
+- [Native SN/BAO No-Dark-Energy Distance Curves](g-g695c-sam-archive.md) — `G:G695c@SAM-ARCHIVE`
+- [Native Distance z-Limit and EdS Decomposition](g-g696c-sam-archive.md) — `G:G696c@SAM-ARCHIVE`
+- [Native Distance Effective CPL Coordinate](g-g697c-sam-archive.md) — `G:G697c@SAM-ARCHIVE`
+- [Native Distance Coupling / F AP / z Split / DESI Overlay](g-g698c-sam-archive.md) — `G:G698c@SAM-ARCHIVE`
+- [GW170817 Native Multimessenger Engine/Road Split](g-g699c-sam-archive.md) — `G:G699c@SAM-ARCHIVE`
+- [GW170817 Local Source A-Start Residual Split](g-g700c-sam-archive.md) — `G:G700c@SAM-ARCHIVE`
+- [Stage 0 - Blind Source Offset A-Delay Mock](g-g701c-sam-archive.md) — `G:G701c@SAM-ARCHIVE`
+- [High-z Ly-alpha / Pantheon Breaker](g-g702c-sam-archive.md) — `G:G702c@SAM-ARCHIVE`
+- [BB Burst-Relaxation High-z Radial Selector](g-g703c-sam-archive.md) — `G:G703c@SAM-ARCHIVE`
+- [BB Burst / r d / CMB / Chronometer Triangulation](g-g704c-sam-archive.md) — `G:G704c@SAM-ARCHIVE`
+- [Native CMB Acoustic Ruler Derivation Preflight](g-g705c-sam-archive.md) — `G:G705c@SAM-ARCHIVE`
+- [CMB Acoustic-Write Freeze / Photon-Road Release](g-g706c-sam-archive.md) — `G:G706c@SAM-ARCHIVE`
+- [CMB Directional-Write Memory Preflight](g-g707c-sam-archive.md) — `G:G707c@SAM-ARCHIVE`
+- [CMB Directional-Write Memory Comparison](g-g708c-sam-archive.md) — `G:G708c@SAM-ARCHIVE`
+- [Burst/PBH/Baryon Arrival r d Centering](g-g709c-sam-archive.md) — `G:G709c@SAM-ARCHIVE`
+- [Native r d Bridge BAO Lane Reprojection](g-g710c-sam-archive.md) — `G:G710c@SAM-ARCHIVE`
+- [Native BAO Radial/Transverse Projection Selector](g-g711c-sam-archive.md) — `G:G711c@SAM-ARCHIVE`
+- [Native SN/BAO/CMB Distance Closure Freeze](g-g712c-sam-archive.md) — `G:G712c@SAM-ARCHIVE`
+- [BAO Precision-Debt Source Decomposition](g-g713c-sam-archive.md) — `G:G713c@SAM-ARCHIVE`
+- [BAO Compressed-Covariance Mode Attack](g-g714c-sam-archive.md) — `G:G714c@SAM-ARCHIVE`
+- [BAO Precision-Debt Native Window Quantum Selector](g-g715c-sam-archive.md) — `G:G715c@SAM-ARCHIVE`
+- [Native A-Shell Sign-Slot Selector](g-g716c-sam-archive.md) — `G:G716c@SAM-ARCHIVE`
+- [Native Window Operator BAO Application](g-g717c-sam-archive.md) — `G:G717c@SAM-ARCHIVE`
+- [Native SN Source-Window Selector](g-g718c-sam-archive.md) — `G:G718c@SAM-ARCHIVE`
+- [Native SN R12 Harmonic Residual Selector](g-g719c-sam-archive.md) — `G:G719c@SAM-ARCHIVE`
+- [High-Z SN Burst-Release Edge Selector](g-g720c-sam-archive.md) — `G:G720c@SAM-ARCHIVE`
+- [Native SN Distance Stack Freeze](g-g721c-sam-archive.md) — `G:G721c@SAM-ARCHIVE`
+- [Native CMB Baryon-Loading Kernel Pre-CMB Freeze](g-g722c-sam-archive.md) — `G:G722c@SAM-ARCHIVE`
+- [CMB Dispersion Extraction Protocol Freeze](g-g723c-sam-archive.md) — `G:G723c@SAM-ARCHIVE`
+- [CMB Delta b TT Source Extraction](g-g724c-sam-archive.md) — `G:G724c@SAM-ARCHIVE`
+- [CMB Withheld TE/EE Prediction](g-g725c-sam-archive.md) — `G:G725c@SAM-ARCHIVE`
+- [CMB Response Phase Operator Freeze](g-g726c-sam-archive.md) — `G:G726c@SAM-ARCHIVE`
+- [CMB Response-Shifted TE/EE Reveal](g-g727c-sam-archive.md) — `G:G727c@SAM-ARCHIVE`
+- [Native Typed Ruler Road Bridge Derivation](g-g728c-sam-archive.md) — `G:G728c@SAM-ARCHIVE`
+- [SN/BAO Independent-Ledger A los Derivation](g-g729c-sam-archive.md) — `G:G729c@SAM-ARCHIVE`
+- [CMB Acoustic Ratio From Typed Bridge Derivation](g-g730c-sam-archive.md) — `G:G730c@SAM-ARCHIVE`
+- [Distance-Road Typed Bridge Closure Bundle](g-g731c-sam-archive.md) — `G:G731c@SAM-ARCHIVE`
+- [Native Halo Radial-Law Selector Preflight](g-g732c-sam-archive.md) — `G:G732c@SAM-ARCHIVE`
+- [BB-PBH Mass-Normalization Selector](g-g733c-sam-archive.md) — `G:G733c@SAM-ARCHIVE`
+- [Native Baryon Retention Selector](g-g734c-sam-archive.md) — `G:G734c@SAM-ARCHIVE`
+- [Native Concentration Relation Selector](g-g735c-sam-archive.md) — `G:G735c@SAM-ARCHIVE`
+- [Native Halo Scatter Mass-Function Selector](g-g736c-sam-archive.md) — `G:G736c@SAM-ARCHIVE`
+- [Native Halo Lane Assignment Selector](g-g737c-sam-archive.md) — `G:G737c@SAM-ARCHIVE`
+- [Native Halo Formation-History Lane Selector](g-g738c-sam-archive.md) — `G:G738c@SAM-ARCHIVE`
+- [Native Halo Residual-Twelfths Selector](g-g739c-sam-archive.md) — `G:G739c@SAM-ARCHIVE`
+- [Native PBH Clustering Pressure-Family Selector](g-g740c-sam-archive.md) — `G:G740c@SAM-ARCHIVE`
+- [Native Halo Exact Residual Direction Selector](g-g741c-sam-archive.md) — `G:G741c@SAM-ARCHIVE`
+- [Native PBH Clustering Primitive Selector](g-g742c-sam-archive.md) — `G:G742c@SAM-ARCHIVE`
+- [Preflight](g-g743c-sam-archive.md) — `G:G743c@SAM-ARCHIVE`
+- [Native Halo Full Lane Assignment or Mass-Function Selector](g-g743d-sam-archive.md) — `G:G743d@SAM-ARCHIVE`
+- [Q A Source Strength Bridge](g-g744c-sam-archive.md) — `G:G744c@SAM-ARCHIVE`
+- [Higgs Nine Sixteenths Scalar Route](g-g745c-sam-archive.md) — `G:G745c@SAM-ARCHIVE`
+- [Higgs Direct-Weld Result](g-g748c-sam-archive.md) — `G:G748c@SAM-ARCHIVE`
+- [SAM derived thermal ladder CMB and BBN](cr-cr001-19.md) — `CR:CR001@19`
+- [Foundation Selector Recertification](cr-cr001-a0-a.md) — `CR:CR001@A0-a`
+- [Peebles nonequilibrium recombination appeal](cr-cr001b-19.md) — `CR:CR001b@19`
+- [Peebles plus corrected optical depth appeal](cr-cr001c-19.md) — `CR:CR001c@19`
+- [Fate Hubble in readout distance via CR013 shrinkage](cr-cr002-19.md) — `CR:CR002@19`
+- [R12 Native Grammar Recertification](cr-cr002-r12.md) — `CR:CR002@R12`
+- [A-kernel typed readout recertification](cr-cr003-02.md) — `CR:CR003@02`
+- [A horizon to A0 angular dimensional projection identity](cr-cr003-19.md) — `CR:CR003@19`
+- [Weak-field A-kernel external contact](cr-cr004-02.md) — `CR:CR004@02`
+- [Clocks and GPS external contact](cr-cr005-03.md) — `CR:CR005@03`
+- [Starbreaker / Weak-CCSN Pixel Bridge Precommit](cr-cr005e-sam-research.md) — `CR:CR005e@SAM-RESEARCH`
+- [Trace-Corrected Weak-CCSN Pixel Bridge Precommit](cr-cr005f-sam-research.md) — `CR:CR005f@SAM-RESEARCH`
+- [Optical Clock Height Holdout Endpoint A-Kernel](cr-cr006-03.md) — `CR:CR006@03`
+- [Photon road Shapiro external contact](cr-cr006-04.md) — `CR:CR006@04`
+- [Strong-field landmark selector](cr-cr007-05.md) — `CR:CR007@05`
+- [Clock traversal closure (A=1 boundary)](cr-cr008-05.md) — `CR:CR008@05`
+- [Photon sphere shadow contact](cr-cr009-05.md) — `CR:CR009@05`
+- [ISCO orbital contact](cr-cr010-05.md) — `CR:CR010@05`
+- [Deferred-support zipper (05 branch closure)](cr-cr011-05.md) — `CR:CR011@05`
+- [Native typed ruler-road bridge derivation](cr-cr012-06.md) — `CR:CR012@06`
+- [SN luminosity ledger shrinkage](cr-cr013-06.md) — `CR:CR013@06`
+- [BAO ruler projection ledger shrinkage](cr-cr014-06.md) — `CR:CR014@06`
+- [SN/BAO independent ledger lock](cr-cr015-06.md) — `CR:CR015@06`
+- [CMB acoustic ruler photon-road ratio](cr-cr016-06.md) — `CR:CR016@06`
+- [Distance-road typed bridge closure (06 branch)](cr-cr017-06.md) — `CR:CR017@06`
+- [SAM ZERO PARAMETER SN BAO DISTANCE TEST](cr-cr018-06.md) — `CR:CR018@06`
+- [A0 / chi / baryon inventory derivation](cr-cr018-07.md) — `CR:CR018@07`
+- [SAM ZERO PARAMETER SN BAO DISTANCE VERDICT LADDER APPEAL](cr-cr018b-06.md) — `CR:CR018b@06`
+- [SAM ZERO PARAMETER CMB COMPRESSED GEOMETRY TEST](cr-cr019-06.md) — `CR:CR019@06`
+- [Effective matter inventory refinement](cr-cr019-07.md) — `CR:CR019@07`
+- [θ * Substrate-Lift Rule Audit — RESULT](cr-cr019b-06.md) — `CR:CR019b@06`
+- [CMB boundary and acoustic concept chain](cr-cr020-07.md) — `CR:CR020@07`
+- [Planck-lite CMB density and BBN contact](cr-cr021-07.md) — `CR:CR021@07`
+- [Precision-CMB extension (sam_precision_cmb)](cr-cr022-07.md) — `CR:CR022@07`
+- [Native A many-nonzero accumulation root](cr-cr022-08.md) — `CR:CR022@08`
+- [Baryon inventory and cosmology branch verdict](cr-cr023-07.md) — `CR:CR023@07`
+- [BB-PBH trapped-A inventory chain](cr-cr023-08.md) — `CR:CR023@08`
+- [Real SPARC residual + post-BB-only rejection](cr-cr024-08.md) — `CR:CR024@08`
+- [Clustered BB-PBH profile contact (radial law open)](cr-cr025-08.md) — `CR:CR025@08`
+- [Seed-first clustering selector candidate](cr-cr026-08.md) — `CR:CR026@08`
+- [Hydrogen catchup first-star scaffold](cr-cr027-08.md) — `CR:CR027@08`
+- [QP042 baryon scaffold support (private)](cr-cr028-08.md) — `CR:CR028@08`
+- [Native radial law debt ledger](cr-cr029-08.md) — `CR:CR029@08`
+- [Native Radial-Law Debt Ledger Formal Update -- RESULT](cr-cr029b-08.md) — `CR:CR029b@08`
+- [Galaxy halo BB-PBH branch verdict (radial law open)](cr-cr030-08.md) — `CR:CR030@08`
+- [X radial law population test](cr-cr031-08.md) — `CR:CR031@08`
+- [X radial law null-percentile appeal](cr-cr031b-08.md) — `CR:CR031b@08`
+- [SAM-native per-galaxy halo mass derivation](cr-cr032-08.md) — `CR:CR032@08`
+- [X INF SUBSTRATE DERIVATION IDENTITY](cr-cr033-08.md) — `CR:CR033@08`
+- [PEAK FINDER AUDIT](cr-cr035a2-19.md) — `CR:CR035A2@19`
+- [SAM DENSITY SPINE CMB SHAPE](cr-cr035a-19.md) — `CR:CR035A@19`
+- [ETA SAM AND H0 SELECTOR](cr-cr036-19.md) — `CR:CR036@19`
+- [CMB SHAPE WITH H0 SAM](cr-cr036b-19.md) — `CR:CR036B@19`
+- [SAM PERTURBATION SELECTOR](cr-cr037a-19.md) — `CR:CR037A@19`
+- [PARAMETER FREE CMB SHAPE ATTEMPT](cr-cr037b-19.md) — `CR:CR037B@19`
+- [Parameter-Free CMB Shape on ACT DR4 -- RESULT](cr-cr037c-19.md) — `CR:CR037C@19`
+- [Branch 19 Verdict Zipper -- Parameter-Free CMB Shape -- RESULT](cr-cr038-19.md) — `CR:CR038@19`
+- [Cross-branch Phase 2 courtroom certificate](cr-cr113-00.md) — `CR:CR113@00`
+- [Cosmic baryon bridge reveal (CR018 -> CR111_PRED_1)](cr-cr114-00.md) — `CR:CR114@00`
+- [Galaxy/PBH bridge partial reveal](cr-cr115-00.md) — `CR:CR115@00`
+- [SAM halo composition correction](cr-cr116-00.md) — `CR:CR116@00`
+- [SAM/CMB scope boundary documentation](cr-cr117-00.md) — `CR:CR117@00`
+- [Distance-road SN+BAO headline export](cr-cr118-00.md) — `CR:CR118@00`
+- [Carrier-compression gate retroactive bridge (qp092h)](cr-cr122-00.md) — `CR:CR122@00`
+- [Cross-branch Phase 3 courtroom certificate](cr-cr123-00.md) — `CR:CR123@00`
+- [Hostile audit master verdict (2026-06-17)](cr-cr135-00.md) — `CR:CR135@00`
+- [QP_chain ingest v1.0 (42 external artifacts internalized)](cr-cr136-00.md) — `CR:CR136@00`
+- [CR063a@12a verdict regrade (SEALED -> REFUTED) v1.0](cr-cr137-00.md) — `CR:CR137@00`
+- [CR064a@12a verdict regrade (SEALED -> BOUNDARY) v1.0](cr-cr138-00.md) — `CR:CR138@00`
+- [CR122@00_gov verdict language regrade (SEALED -> BOUNDARY) v1.0](cr-cr139-00.md) — `CR:CR139@00`
+- [CR120@09a Higgs claim reword (SEALED -> BOUNDARY) v1.0](cr-cr140-00.md) — `CR:CR140@00`
+- [Row-generator self-hash repair v1.0 (10 CRs)](cr-cr141-00.md) — `CR:CR141@00`
+- [Row-generator in-sample qualifier sweep v1.0 (10 CRs)](cr-cr142-00.md) — `CR:CR142@00`
+- [GW170817 A-release / EM-origin differential](cr-cr147-04.md) — `CR:CR147@04`
+- [Binary-Pulsar Shapiro Road Holdout](cr-cr148-04.md) — `CR:CR148@04`
+- [Cosmic-Budget Typed-Readout Promotion Result](cr-cr281-07.md) — `CR:CR281@07`
+- [The Last Campaign Charter](lc-lc00.md) — `LC:LC00`
+- [Primitive Stack Lock and Replay Register](lc-lc01.md) — `LC:LC01`
+- [Higgs Closed-Form Replay](lc-lc02.md) — `LC:LC02`
+- [qA Ledger Compression / Gravity-As-A Replay](lc-lc03.md) — `LC:LC03`
+- [Particle Mass-Chain Table Replay](lc-lc04.md) — `LC:LC04`
+- [Periodic/Isotope Vault Replay](lc-lc05.md) — `LC:LC05`
+- [Baryon And Matter Inventory Replay](lc-lc06.md) — `LC:LC06`
+- [SN/BAO Distance Road Replay](lc-lc07.md) — `LC:LC07`
+- [Halo/PBH Inventory Replay](lc-lc08.md) — `LC:LC08`
+- [Black-Hole Horizon Thermodynamic Replay](lc-lc11.md) — `LC:LC11`
+
+
+Public Courtroom source recovered by exact file identity: [complete copied test package](../../courtroom/21_GRAVITATIONAL_WAVES/CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE). This preserves code, precommitments, controls and results together.
+
+
+Public Courtroom source recovered by exact file identity: [complete copied test package](../../courtroom/21_GRAVITATIONAL_WAVES/CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED). This preserves code, precommitments, controls and results together.

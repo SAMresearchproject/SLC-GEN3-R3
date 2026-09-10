@@ -1,0 +1,22 @@
+{
+  "artifact": "QC003_PRIVATE_PARTICLE_INFORMED_NATIVE_GATE_CATALOG",
+  "result_class": "QC003_PARTICLE_INFORMED_NATIVE_GATE_CATALOG_SELECTED",
+  "generated_at_utc": "2026-06-09T16:54:13.042302+00:00",
+  "source_scope": "PRIVATE_QUANTUM_PHASE_REPO_ONLY",
+  "test_type": "FORWARD_MODEL_BUILD",
+  "new_forward_work": true,
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "external_quantum_hardware_data_used": false,
+  "new_external_source_intake": false,
+  "free_parameters_introduced": 0,
+  "qc002_result_class": "QC002_CARRIER_ENVELOPE_SEPARATION_LAW_SELECTED",
+  "native_gates": 5,
+  "operation_rows": 20,
+  "call_surface_rows": 5,
+  "check_passes": 8,
+  "check_total": 8,
+  "wrong_control_passes": 6,
+  "wrong_control_total": 6,
+  "next_frontier": "QC004_PRIVATE_PAUL_REVERE_READOUT_PROTOCOL"
+}

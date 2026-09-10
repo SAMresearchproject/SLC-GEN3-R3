@@ -1,0 +1,52 @@
+{
+  "cr_id": "CR064",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_09_BRANCH_K1_VERIFIED",
+  "triage_bin": "A",
+  "reason": "CR061+CR062+CR063 all PASS-tier; CR059+CR060 deferred-support appeals recorded",
+  "captured_at_utc": "2026-06-13T08:00:25Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "prior_cr_chain": [
+    {
+      "cr_id": "CR059",
+      "verdict": "BOUNDARY"
+    },
+    {
+      "cr_id": "CR060",
+      "verdict": "BOUNDARY"
+    },
+    {
+      "cr_id": "CR061",
+      "verdict": "PASS_SCOPED_STRUCTURAL"
+    },
+    {
+      "cr_id": "CR062",
+      "verdict": "PASS_SCOPED_K1_ROW_LEVEL"
+    },
+    {
+      "cr_id": "CR063",
+      "verdict": "PASS_HONEST_NEGATIVES_REJECT"
+    }
+  ],
+  "deferred_support_appeals": [
+    {
+      "upstream_cr": "CR059",
+      "original_verdict": "BOUNDARY",
+      "appeal_verdict": "APPEAL_PASS_DEFERRED_SUPPORT",
+      "supporting_crs": "CR061;CR062;CR063",
+      "rationale": "downstream CR061-CR063 all PASS-tier; CR059/CR060 receive deferred-support upgrade per anti-circularity rule",
+      "original_file_modified": false,
+      "appeal_recorded_in": "CR064_appeal_pass_ledger.csv"
+    },
+    {
+      "upstream_cr": "CR060",
+      "original_verdict": "BOUNDARY",
+      "appeal_verdict": "APPEAL_PASS_DEFERRED_SUPPORT",
+      "supporting_crs": "CR061;CR062;CR063",
+      "rationale": "downstream CR061-CR063 all PASS-tier; CR059/CR060 receive deferred-support upgrade per anti-circularity rule",
+      "original_file_modified": false,
+      "appeal_recorded_in": "CR064_appeal_pass_ledger.csv"
+    }
+  ]
+}

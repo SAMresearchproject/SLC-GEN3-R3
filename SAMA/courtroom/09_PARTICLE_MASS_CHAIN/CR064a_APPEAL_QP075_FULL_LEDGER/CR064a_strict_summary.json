@@ -1,0 +1,166 @@
+{
+  "row_count": 32,
+  "tolerance_pct": 1.0,
+  "rows": [
+    {
+      "symbol": "up quark (u)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "down quark (d)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "strange quark (s)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "charm quark (c)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "bottom quark (b)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "top quark (t)",
+      "residual": 0.016,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "electron (e)",
+      "residual": 0.01,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "muon (mu)",
+      "residual": 0.0266,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "tau (tau)",
+      "residual": 0.0364,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "electron neutrino (nu_e)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "muon neutrino (nu_mu)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "tau neutrino (nu_tau)",
+      "residual": 0.0,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "W boson (W+/-)",
+      "residual": 0.0148,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Z boson (Z)",
+      "residual": 0.0287,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Higgs (H)",
+      "residual": 0.025,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "top quark (t)",
+      "residual": 0.016,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "proton (uud)",
+      "residual": 0.0442,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "neutron (udd)",
+      "residual": 0.0708,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "charged pion (pi+/-)",
+      "residual": 0.0341,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "neutral pion (pi0)",
+      "residual": 0.0379,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "charged kaon (K+/-)",
+      "residual": 0.0174,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "neutral kaon (K0)",
+      "residual": 0.0545,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "deuteron (pn)",
+      "residual": 0.002,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "alpha particle (ppnn)",
+      "residual": 0.0431,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Delta (Delta++/0/-) (uuu, ...)",
+      "residual": 0.0512,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Lambda (uds)",
+      "residual": 0.0448,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Lambda_c (udc)",
+      "residual": 0.3974,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "Lambda_b (udb)",
+      "residual": 0.0299,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "D meson (cq)",
+      "residual": 0.0236,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "B meson (bq)",
+      "residual": 0.0718,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "eta (548) (~d_anti_d)",
+      "residual": 0.0123,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    },
+    {
+      "symbol": "eta prime (958) (~s_anti_s)",
+      "residual": 0.005,
+      "verdict": "APPEAL_PASS_PDG_STRICT"
+    }
+  ]
+}

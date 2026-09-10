@@ -1,0 +1,11 @@
+{
+  "test_id": "CR020_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN",
+  "test_type": "courtroom_import_from_G330_G331_G332",
+  "free_parameters_introduced": 0,
+  "source_summaries": [
+    "../_source_artifacts/summaries/G330_output.json",
+    "../_source_artifacts/summaries/G331_output.json",
+    "../_source_artifacts/summaries/G332_output.json"
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that the CMB branch is conceptually typed as PBH inventory boundary plus escaped-baryon write decoupling plus corrected acoustic consistency, while not claiming theorem-grade CMB closure."
+}

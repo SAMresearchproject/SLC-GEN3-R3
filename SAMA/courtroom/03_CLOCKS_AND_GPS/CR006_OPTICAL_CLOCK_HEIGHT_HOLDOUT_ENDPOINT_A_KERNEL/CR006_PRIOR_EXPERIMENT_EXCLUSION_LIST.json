@@ -1,0 +1,28 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "selection_scope": "active SAM/Courtroom clock, GPS, weak-field redshift, and A-kernel branch artifacts inspected for this campaign",
+  "excluded_external_clock_or_redshift_experiments": [
+    {
+      "name": "Pound-Rebka gravitational redshift scale",
+      "reason": "listed as already used by the branch-02 G284c provenance summary",
+      "source": "02_A_KERNEL_WEAK_FIELD/README.md"
+    },
+    {
+      "name": "Hafele-Keating altitude clock scale",
+      "reason": "listed as already used by the branch-02 G284c provenance summary",
+      "source": "02_A_KERNEL_WEAK_FIELD/README.md"
+    },
+    {
+      "name": "GPS geoid-to-orbit gravitational clock correction and net GPS clock correction",
+      "reason": "used by branch 03 and CR005",
+      "source": "03_CLOCKS_AND_GPS/README.md; 03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT"
+    }
+  ],
+  "selected_experiment_reuse_check": {
+    "selected_title": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+    "selected_doi": "10.1038/s41586-021-04349-7",
+    "found_in_prior_active_sam_work": false,
+    "notes": "The selected paper is cited in external literature but was not found as a used prior SAM/Courtroom experiment in the allowed internal source audit."
+  }
+}
+

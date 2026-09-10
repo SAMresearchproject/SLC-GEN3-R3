@@ -1,0 +1,120 @@
+{
+  "verdict": "BOUNDARY",
+  "verdict_signature": "CR251_BOUNDARY_PARTIAL_ISOLATION",
+  "train_sha256": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+  "test_sha256": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+  "precommit_sha256": "3d3b0951d9e334cb53b2805d21aa6a9330b26e0faaaeff7c53aebf45f07499bc",
+  "substrate_atoms": {
+    "R": 12,
+    "S": 8,
+    "L": 162,
+    "kappa": "7117/768",
+    "g": "1/64",
+    "L_eq_R2_x_9_over_8": "162 = 144 * 9/8 (CR217/CR222/CR229)"
+  },
+  "candidates": {
+    "c_A_1_over_S_L_u": 0.0007716049382716049,
+    "c_A_1_over_S_L_MeV": 0.7187454493981481,
+    "c_A_1_over_S_R2_u": 0.0008680555555555555,
+    "c_A_1_over_S_R2_MeV": 0.8085886305729166,
+    "ratio_SL_to_SR2_u": 0.8888888888888888,
+    "ratio_SR2_to_SL_u": 1.125
+  },
+  "phase_a_orthogonalized": {
+    "n": 55,
+    "dof": 50,
+    "c_A_orth_u": 0.0007338956197111725,
+    "c_A_orth_MeV": 0.6836194415528283,
+    "SE_u": 2.3428243108818443e-05,
+    "SE_MeV": 0.021823270285926386,
+    "rel_SE": 0.03192312704910096,
+    "X_A_perp_norm_sq": 19199.293526106234,
+    "residual_rms_MeV": 2.883142533742179,
+    "t_test_vs_1_over_S_L": {
+      "t": -1.6095666407968308,
+      "abs_t": 1.6095666407968308,
+      "delta_u": -3.77093185604324e-05
+    },
+    "t_test_vs_1_over_S_R2": {
+      "t": -5.72641897308488,
+      "abs_t": 5.72641897308488,
+      "delta_u": -0.000134159935844383
+    },
+    "S1_t_SL_lt_1p96_AND_t_SR2_ge_2p58": true,
+    "F1_t_SL_ge_2p58": false,
+    "F2_SR2_closer_than_SL": false
+  },
+  "phase_b_isobaric": {
+    "status": "INSUFFICIENT_DATA",
+    "n_pairs": 2,
+    "t_test_vs_1_over_S_L": null,
+    "t_test_vs_1_over_S_R2": null,
+    "S3_iso_t_SL_lt_1p96_AND_t_SR2_ge_1p96": null
+  },
+  "phase_c_stress_NmZ_ge_20": {
+    "n": 24,
+    "c_A_orth_u": 0.0008436327769996796,
+    "c_A_orth_MeV": 0.7858389563834086,
+    "SE_u": 9.19242477519184e-05,
+    "SE_MeV": 0.08562689465030693,
+    "t_test_vs_1_over_S_L": {
+      "t": 0.7835564662161901,
+      "abs_t": 0.7835564662161901
+    },
+    "t_test_vs_1_over_S_R2": {
+      "t": -0.2656837467061697,
+      "abs_t": 0.2656837467061697
+    },
+    "S2_stress_t_SL_lt_2p58_AND_t_SR2_ge_1p96": false
+  },
+  "wrong_controls": [
+    {
+      "label": "WC-1_shuffle_B_u",
+      "c_A_orth": -0.00040179295271580766,
+      "SE": 0.0002830275676079258,
+      "n": 55,
+      "abs_t_vs_SL": 4.145878441823394,
+      "pass": true,
+      "description": "shuffled B_u labels; expect c_A near zero"
+    },
+    {
+      "label": "WC-2_N_eq_Z_only",
+      "c_A_orth": null,
+      "SE": Infinity,
+      "n": 6,
+      "pass": true,
+      "description": "N=Z rows only; X_A nearly zero so c_A ill-conditioned"
+    },
+    {
+      "label": "WC-3_random_feature_added",
+      "c_A_orth": 0.0007317076154117274,
+      "SE": 2.5392663304464025e-05,
+      "n": 55,
+      "rel_change_vs_phase_a": 0.002981356259226894,
+      "pass": true,
+      "description": "Random feature added to X_0; c_A_orth should be ~unchanged"
+    },
+    {
+      "label": "WC-4_permute_X_A",
+      "c_A_orth": -3.7012354349147746e-06,
+      "SE": 1.477446011640898e-05,
+      "n": 55,
+      "abs_t": 0.25051578235363514,
+      "pass": true,
+      "description": "X_A permuted across rows; c_A_orth should be near zero"
+    }
+  ],
+  "strong_pass_conditions": {
+    "S1_phase_a": true,
+    "S2_phase_c_stress": false,
+    "S3_phase_b_isobaric": null,
+    "S4_wcs": true
+  },
+  "fail_conditions": {
+    "F1_SL_outside_99pct": false,
+    "F2_SR2_closer_than_SL": false,
+    "F3_stress_reverses": false,
+    "F4_iso_reverses": false,
+    "F5_random_feature_destabilizes": false
+  }
+}

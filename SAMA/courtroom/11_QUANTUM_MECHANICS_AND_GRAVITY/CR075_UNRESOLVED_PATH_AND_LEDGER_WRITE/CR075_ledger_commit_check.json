@@ -1,0 +1,25 @@
+{
+  "hits": 10,
+  "sample": [
+    {
+      "file": "src/qp001_private_phase_functional_bridge.py",
+      "match": "ledger commit"
+    },
+    {
+      "file": "src/qp014_private_born_rule_route_weight_bridge.py",
+      "match": "LEDGER_COMMIT"
+    },
+    {
+      "file": "artifacts/qp014/qp014_summary.json",
+      "match": "LEDGER_COMMIT"
+    },
+    {
+      "file": "docs/reports/QP014_PRIVATE_BORN_RULE_ROUTE_WEIGHT_BRIDGE.md",
+      "match": "LEDGER_COMMIT"
+    },
+    {
+      "file": "src/qp016_private_ledger_commit_to_stable_mode_selector.py",
+      "match": "LEDGER_COMMIT"
+    }
+  ]
+}

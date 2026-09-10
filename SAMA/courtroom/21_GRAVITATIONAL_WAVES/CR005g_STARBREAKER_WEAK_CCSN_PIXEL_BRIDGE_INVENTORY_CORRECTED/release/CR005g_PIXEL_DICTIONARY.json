@@ -1,0 +1,14 @@
+{
+  "amplitude": "removed by unit-total-power normalization",
+  "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+  "external_pixel": "normalized h_plus*D and h_cross*D time-frequency power from a simulated 3D CCSN matter signal",
+  "frequency_axis": "64 bins in cycles per normalized event, not hertz",
+  "match": "Hellinger affinity of all 3072 corresponding pixels",
+  "physical_bridge_still_required": [
+    "carrier mass or energy weight",
+    "Starbreaker phase duration in seconds",
+    "source distance and transverse-traceless observer geometry"
+  ],
+  "starbreaker_pixel": "normalized fixed-view S_plus and S_cross time-frequency power from the unit-carrier second quadrupole derivative",
+  "time_axis": "48 bins across complete normalized post-bounce event phase"
+}

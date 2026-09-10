@@ -1,0 +1,7 @@
+wrong_control,observed,expected_failure,passes_as_failure,interpretation
+replace_bound63_with_native63_mirror,CR220_sha=7b047416848c282ad3c5ea4b6a86a964623d64e9e7ab8baad93ddc2656e0ed3a; CR221_sha=1a774001e30a322aaff3811c7ab376672744a2f7bfcba1b534a515dabb391713,hashes_must_differ,True,count-matched mirror is rejected because CR221 is a distinct bound surface
+flatten_matter_and_support_dimensions,288,288_category_error,True,126 matter rows plus 162 support ledger value is not one physical row count
+count_0303_as_unpacked_mode,13 unpacked-like rows if mirror is inserted into header,not_12,True,"0303 is checksum/mirror, not one of the twelve modes"
+omit_source_packet_p1_0306,161,161,True,missing p=1 source packet corrupts closure
+use_source_mass_lift_values_as_ledger,12019/144,not_81,True,"carrier ledger uses bare support packet p; CR134 mass lift remains validation, not checksum value"
+make_pr_generate_physics,role_inversion,PR_must_consume_upstream_stack,True,"PR is a protocol layer over the contract, not the source of Tier 1 rows"

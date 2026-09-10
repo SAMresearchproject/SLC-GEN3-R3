@@ -1,0 +1,112 @@
+{
+  "precommit_sha256": "bbc3c5b863aa6be12d0d7502c59db6834f6c6ea5a0edc7dbc86b648929028423",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR268_TENSOR_6_HEAVIEST_NEUTRINO_IDENTIFICATION",
+  "classification": "STRUCTURAL_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "tensor 6 = h_hat * d_hat = 6 is a single substrate primitive appearing as the smallest CR262 carrier (-> He-4 stable) and the heaviest neutrino mass eigenstate ratio in CR001@20; three independent paths collapse via h*Theta = (h*d)^2",
+  "three_paths": {
+    "P1_direct": 6,
+    "P2_sqrt_h_Theta": 6,
+    "P3_CR001_alpha_H_D": 6,
+    "collapse_identity_holds": true
+  },
+  "smallest_CR262_carrier": {
+    "carriers": [
+      [
+        "m_3 = h*d",
+        6
+      ],
+      [
+        "D^2 = d^2",
+        9
+      ],
+      [
+        "Theta = h*d^2",
+        18
+      ],
+      [
+        "hV = h*d^3",
+        54
+      ]
+    ],
+    "min_value": 6,
+    "min_equals_tensor_6": true
+  },
+  "CR005ab_multiplicative_chain": {
+    "m_1_sq": 1,
+    "m_2_sq": 2,
+    "m_3_sq": 36,
+    "step_1_factor": "h_hat (mirror choice)",
+    "step_2_factor": "Theta (planar carrier)"
+  },
+  "CR001_neutrino_ratios": {
+    "m_1": 1,
+    "m_2_sq_substrate": 2,
+    "m_3": 6,
+    "formula": "1 : sqrt(alpha_H) : (alpha_H * D) = 1 : sqrt(h_hat) : (h_hat * d_hat)",
+    "collapsed": "1 : sqrt(2) : 6"
+  },
+  "splitting_ratio": {
+    "delta_m2_31": 35,
+    "delta_m2_21": 1,
+    "ratio": 35,
+    "substrate_form": "(h*Theta - 1) / (h - 1) = 35"
+  },
+  "cross_sector_references": [
+    {
+      "cr_id": "CR266@09a",
+      "role": "two-mirror derivation",
+      "note": "\u0125\u00b7d\u0302 = 6 = (mirror choice) * (full 3D)"
+    },
+    {
+      "cr_id": "CR262@09a",
+      "role": "smallest CR262 carrier -> He-4 stable",
+      "note": "m_3 carrier = h*d = 6 predicts He-4 (Z=N=2) stability"
+    },
+    {
+      "cr_id": "CR001@20",
+      "role": "heaviest neutrino mass eigenstate ratio",
+      "note": "m_3 / base_eV = alpha_H * D = h*d = 6"
+    },
+    {
+      "cr_id": "CR005ab@21",
+      "role": "neutrino-Theta identification appeal",
+      "note": "m_3^2 = h*Theta = (h*d)^2 = 36; four-way identity flagged"
+    },
+    {
+      "cr_id": "CR005@21",
+      "role": "Theta carrier QNM derivation",
+      "note": "h*d = 6 cited as upstream substrate atom in QNM ratios"
+    },
+    {
+      "cr_id": "CR036@19",
+      "role": "eta_SAM and H_0 selector",
+      "note": "CR005ab references CR036@19 in four-way identity"
+    }
+  ],
+  "two_mirror_reading": {
+    "tensor_6": "mirror choice * full 3D activation",
+    "tensor_6_sq": "mirror^2 * planar carrier",
+    "ground_m_1_sq": "axis^2 only",
+    "m_2_sq": "mirror choice only",
+    "m_3_sq": "both dofs squared (fully active)"
+  },
+  "gates": {
+    "G1_three_paths_to_tensor6": true,
+    "G2_smallest_CR262_carrier": true,
+    "G3_CR005ab_multiplicative_chain": true,
+    "G4_CR001_ratio_reduction": true,
+    "G5_splitting_ratio_35": true,
+    "G6_cross_sector_enumeration": true,
+    "G7_two_mirror_reading": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. Tensor 6 = h*d is one substrate primitive in two sectors. Three paths (direct, sqrt(h*Theta), CR001 alpha_H*D) collapse via h*Theta = (h*d)^2. CR005ab chain 1 -> 2 -> 36 reads as axis-only -> +mirror-choice -> +planar-carrier. CR001 ratios 1:sqrt(2):6 are 1:sqrt(h_hat):(h_hat*d_hat). Splitting ratio Delta m^2_31 / Delta m^2_21 = 35 exact. Two-mirror reading: tensor 6 = smallest between-mirrors packet activating both mirror and 3D dofs; m_3^2 = mirror^2 * planar carrier. Six sealed cross-references enumerated.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 3
+}

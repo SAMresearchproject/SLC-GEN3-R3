@@ -1,0 +1,13 @@
+control,rejected,observed,reason
+B_EQUALS_X1,True,ContactOperator != AxisChannel,typed entities remain distinct
+X1_SCALAR_AS_AMPLITUDE,True,not used,sandbox map is typed independently of scalar value
+HALF_SLOTS_AS_AMPLITUDES,True,not used,route weights have no Hilbert-space conversion
+W9_AS_ENTANGLEMENT_WITNESS,True,no W9 quantum observable,closure witness is not retyped
+B_ONLY_ENTANGLES,True,0.0,local preparation is separable
+X1_ONLY_ENTANGLES,True,0.0,response without request is separable
+REVERSE_ORDER_ENTANGLES,True,0.0,frozen order is discriminating
+CLASSICAL_CORRELATION_IS_ENTANGLEMENT,True,0.0,classical return is correlated but separable
+PRODUCT_MEASUREMENT_SWAPS_ENTANGLEMENT,True,0.0,product central effect does not entangle remote pair
+FALSE_HERALD_SWAPS_ENTANGLEMENT,True,0.0,unresolved outcomes erase remote entanglement
+REMOTE_SETTING_SIGNALS_LOCALLY,True,1.1102230246251565e-16,local marginal is invariant
+SIMULATION_INSTALLS_OPERATOR,True,registry_mutated=false,sandbox is non-runtime

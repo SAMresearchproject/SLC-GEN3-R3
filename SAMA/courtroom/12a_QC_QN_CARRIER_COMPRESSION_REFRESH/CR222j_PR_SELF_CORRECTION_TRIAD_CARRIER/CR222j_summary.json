@@ -1,0 +1,53 @@
+{
+  "checks_passed": 24,
+  "checks_total": 24,
+  "cr_id": "CR222j",
+  "detection_control": "QP093A-0235",
+  "execution_status": "CLEAN",
+  "followup": {
+    "T": "511",
+    "W": "3577",
+    "candidate_id": "QP093A-0225",
+    "partition_signature": "8+8+8",
+    "qA": "4088"
+  },
+  "generated_at_utc": "2026-06-21T14:47:54.812533+00:00",
+  "next_gate": "CP_QC_PR_AUTONOMOUS_QEC_LAB_PROTOCOL",
+  "outputs": {
+    "checks_csv": "CR222j_checks.csv",
+    "correction_contract_csv": "CR222j_correction_contract.csv",
+    "correction_trials_csv": "CR222j_correction_trials.csv",
+    "platform_context_csv": "CR222j_platform_context.csv",
+    "result_md": "CR222j_result.md",
+    "self_correction_roster_csv": "CR222j_self_correction_roster.csv",
+    "summary_json": "CR222j_summary.json",
+    "upstream_seals_csv": "CR222j_upstream_seals.csv",
+    "wrong_controls_csv": "CR222j_wrong_controls.csv"
+  },
+  "primary": {
+    "T": "9.0625",
+    "W": "63.4375",
+    "candidate_id": "QP093A-0115",
+    "partition_signature": "1+1+1",
+    "qA": "72.5"
+  },
+  "proof_of_concept_pair": "QP093A-0115+QP093A-0301",
+  "protected_separations": {
+    "logical_particle": "three-owner matter row supplies correction-capable manifold",
+    "road_light_carrier": "syndrome and entropy-removal route; not logical payload",
+    "tensor_witness": "clock/witness/failure floor; not correction actuator",
+    "two_owner_control": "detects disagreement but cannot determine repair owner"
+  },
+  "result_class": "CR222j_PASS_PR_SELF_CORRECTION_TRIAD_CARRIER__0115_PLUS_0301_WITH_0225_FOLLOWUP",
+  "self_correction_architecture": "three-owner particle + road-light correction carrier + tensor witness",
+  "sha256": {
+    "CR222j_self_correction_roster.csv": "1c977f579cc6908f2fcdd42ba78dbeb24df0c26f4c52a1d05a415de91009e5e9"
+  },
+  "strong_followup_pair": "QP093A-0225+QP093A-0301",
+  "test_id": "CR222j_PR_SELF_CORRECTION_TRIAD_CARRIER",
+  "threshold_rule": {
+    "operating": "A_leak < 1/24",
+    "warning": "A_leak >= 1/24"
+  },
+  "trial_count": 4
+}

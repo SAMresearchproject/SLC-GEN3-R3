@@ -1,0 +1,17 @@
+check,passed,observed,expected
+a_side_locked,True,0.041666666666666664,1/24
+three_regimes_run,True,"['room_temp_NV', 'cryogenic_NV', 'noisy_NV']",3
+room_temp_NV_crossing_resolved,True,t_fire=0.021928,within grid window
+room_temp_NV_classification_matched_or_shifted,True,MATCHED_MODEL,MATCHED_MODEL or SHIFTED_FROM_MODEL
+room_temp_NV_sensor_balanced_accuracy_>=_0.80,True,0.8946,>= 0.8
+cryogenic_NV_crossing_resolved,True,t_fire=0.049261,within grid window
+cryogenic_NV_classification_matched_or_shifted,True,MATCHED_MODEL,MATCHED_MODEL or SHIFTED_FROM_MODEL
+cryogenic_NV_sensor_balanced_accuracy_>=_0.80,True,0.8552,>= 0.8
+noisy_NV_crossing_resolved,True,t_fire=0.015278,within grid window
+noisy_NV_classification_matched_or_shifted,True,MATCHED_MODEL,MATCHED_MODEL or SHIFTED_FROM_MODEL
+noisy_NV_sensor_balanced_accuracy_>=_0.80,True,0.9471,>= 0.8
+WC3_cryogenic_aligns_with_M3_not_M4,True,|t_cryo - M3| = 0.013825 vs |t_cryo - M4| = 0.020300,M3 closer than M4 in T1 >> T2 regime
+WC4_room_temp_aligns_with_M4_not_M3,True,|t_rt - M4| = 0.007033 vs |t_rt - M3| = 0.013508,M4 closer than M3 in T1 = T2 regime
+zero_wait_does_not_fire,True,0.023709 < 0.041667,< 0.041667
+no_decoherence_does_not_fire,True,0.011918 < 0.041667,< 0.041667
+wrong_controls_all_documented_as_failures,True,6/6,6

@@ -1,0 +1,95 @@
+{
+  "record_id": "CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER",
+  "execution_status": "CLEAN",
+  "mathematical_verdict": "PASS",
+  "scientific_verdict": "STRONG_STRUCTURAL_PASS",
+  "result_class": "STRUCTURAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "precommit_sha256": "3a86ede91e2bdf1e602dcc87077802060b1eb3fb88a25f3fb13db111c9cc5d32",
+  "source_manifest_sha256": "2f70eadcbfbe79be78361db02b8fc2689e30dfcc9cb65e2255761c94fe3f026d",
+  "gates": {
+    "G1_SOURCE_LOCK": true,
+    "G2_PACKET_COMPLETENESS": true,
+    "G3_ROW_LAWS": true,
+    "G4_ADDRESS_LEDGER": true,
+    "G5_P9_PARENT_IDENTITY": true,
+    "G6_EXCLUSION_CLOSURE": true,
+    "G7_UNIQUENESS": true,
+    "G8_CURRENT_WORKBOOK_RECONCILIATION": true,
+    "G9_TYPED_CONTROLS": true
+  },
+  "source_rows": 105,
+  "address_packets": 21,
+  "address_sum": "2889",
+  "full_M_native_exact": "130005/8",
+  "full_M_native_decimal": "16250.625",
+  "excluded_packet": {
+    "p": 9,
+    "g": 0,
+    "rows": 5,
+    "candidate_ids": [
+      "QP093A-0019",
+      "QP093A-0020",
+      "QP093A-0021",
+      "QP093A-0085",
+      "QP093A-0086"
+    ]
+  },
+  "payload_rows": 100,
+  "payload_M_native": "16200",
+  "payload_mean": "162",
+  "unique_L162_removal": {
+    "p": 9,
+    "g": 0,
+    "all_hits": [
+      {
+        "p": 9,
+        "g": 0
+      }
+    ]
+  },
+  "parent_identity_rows": [
+    {
+      "role": "plus",
+      "p1_id": "QP093A-0001",
+      "p8_id": "QP093A-0016",
+      "p9_id": "QP093A-0019",
+      "residual": "0"
+    },
+    {
+      "role": "minus",
+      "p1_id": "QP093A-0002",
+      "p8_id": "QP093A-0017",
+      "p9_id": "QP093A-0020",
+      "residual": "0"
+    },
+    {
+      "role": "neutral",
+      "p1_id": "QP093A-0003",
+      "p8_id": "QP093A-0018",
+      "p9_id": "QP093A-0021",
+      "residual": "0"
+    },
+    {
+      "role": "anti_plus",
+      "p1_id": "QP093A-0073",
+      "p8_id": "QP093A-0083",
+      "p9_id": "QP093A-0085",
+      "residual": "0"
+    },
+    {
+      "role": "anti_minus",
+      "p1_id": "QP093A-0074",
+      "p8_id": "QP093A-0084",
+      "p9_id": "QP093A-0086",
+      "residual": "0"
+    }
+  ],
+  "typed_scalar_9_objects": {
+    "W9_CLOSURE_WITNESS": "ClosureWitness",
+    "C9_CARRIER_ATOM": "CarrierAtom",
+    "P9_BIGRADE_PARTITION": "BigradePartition"
+  },
+  "workbook_reconciled": true,
+  "binding_use": "CONSERVATION_GATE_ONLY_NOT_A_BINDING_COEFFICIENT"
+}

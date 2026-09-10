@@ -1,0 +1,32 @@
+[
+  {
+    "impact": "The target witness form is typed, but no sourced local operator transports W9 or creates W9@site_j.",
+    "model": "W9 closure-witness propagation",
+    "status": "OPEN"
+  },
+  {
+    "impact": "Theta is the strongest carrier candidate, but the accounting rule for carrier-mediated adjacent closure is not sealed.",
+    "model": "Theta18 primary-carrier propagation",
+    "status": "BOUNDARY_CONSERVATION_RULE_OPEN"
+  },
+  {
+    "impact": "B/contact acts through X1 for local resolution, but no sourced adjacency action contract exists.",
+    "model": "B/contact disturbance propagation",
+    "status": "OPEN"
+  },
+  {
+    "impact": "Repeating the existing hierarchy does not establish site-local transmission.",
+    "model": "global L162 replay",
+    "status": "REJECTED"
+  },
+  {
+    "impact": "A-to-B remains OPEN and A is not a ledger row or propagation carrier.",
+    "model": "A-operator insertion",
+    "status": "REJECTED"
+  },
+  {
+    "impact": "A distinct source site and adjacent target site are required.",
+    "model": "same-site identity replay",
+    "status": "REJECTED"
+  }
+]

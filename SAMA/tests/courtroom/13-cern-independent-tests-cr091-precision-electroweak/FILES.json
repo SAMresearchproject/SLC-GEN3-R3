@@ -1,0 +1,109 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "28c59fb30e820eb1657aa20af9b5f3881bf6f870",
+      "bytes": 5665,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_PRECOMMIT.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_PRECOMMIT.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json",
+      "mode": "100644",
+      "git_blob": "7fece0ef1ce4f4a0c6799d236242a2ff633bf032",
+      "bytes": 3437,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "b513e3548d7c1cad6afd608769ee3313309e968e",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_cern_anchor_envelope.json.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_evidence_rows.csv",
+      "mode": "100644",
+      "git_blob": "3c78c03c8b6d6d81cbf91aa84f71be4fec993fa4",
+      "bytes": 3113,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_evidence_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_evidence_rows.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_evidence_rows.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_evidence_rows.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_prediction_commit.json",
+      "mode": "100644",
+      "git_blob": "fd0b71060920964069f22f2b0356fe7238806f3b",
+      "bytes": 373,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_prediction_commit.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_prediction_commit.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_prediction_commit.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_prediction_commit.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_predictions.csv",
+      "mode": "100644",
+      "git_blob": "42baf2dd9d706d81c4627e38a513d7578e2658cf",
+      "bytes": 304,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_predictions.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_predictions.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_predictions.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_result.md",
+      "mode": "100644",
+      "git_blob": "316df8367ec5ade4ce8444aee59269c032d656e2",
+      "bytes": 2629,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_runner.py",
+      "mode": "100644",
+      "git_blob": "928407724ba030f4ca89b05d1200e09e4e613377",
+      "bytes": 14938,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_summary.json",
+      "mode": "100644",
+      "git_blob": "04773c4a529be1e1540e1580c5947993c1b3c515",
+      "bytes": 1493,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR091_PRECISION_ELECTROWEAK/CR091_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR091@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

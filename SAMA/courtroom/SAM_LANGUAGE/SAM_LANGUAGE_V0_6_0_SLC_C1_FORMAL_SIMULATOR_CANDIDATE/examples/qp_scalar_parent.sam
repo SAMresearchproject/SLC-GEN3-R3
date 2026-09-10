@@ -1,0 +1,2 @@
+let parent: QPGlobalProduction = QP_SCALAR_PARENT()
+return parent

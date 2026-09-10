@@ -1,0 +1,66 @@
+{
+  "cr_id": "CR075a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Sixth of six CRs (CR070a-CR075a); reviewer-facing presentation and handoff bundle",
+  "test_class": "FIELD_COMPARISON_PRESENTATION_BUNDLE_MARKDOWN_AND_PDF",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T00:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Compress CR070a-CR074a into a single reviewer-facing markdown source and PDF distribution bundle, with all failures, provisional tags, boundaries, bus-factor risk, partner-lab path, and 09a connection notes visible.",
+  "allowed_inputs": [
+    "CR070a summary and result",
+    "CR071a summary and result",
+    "CR072a summary and result",
+    "CR073a summary and result",
+    "CR074a summary and result",
+    "CAMPAIGN_PAUL_REVERE_FIELD_COMPARISON.md",
+    "Paul_Revere_Next_Steps.md",
+    "STEWARDSHIP.md",
+    "09a CR220-CR228 summaries/results as connection context only"
+  ],
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_side": "1/24",
+    "A_share": "1/12"
+  },
+  "presentation_constraints": {
+    "markdown_source_required": true,
+    "pdf_distribution_required": true,
+    "pdf_page_limit": 30,
+    "stewardship_front_matter_verbatim": true,
+    "no_hardware_demonstration_claim": true,
+    "no_partner_lab_agreement_claim": true,
+    "no_commercial_deployment_claim": true,
+    "zero_free_parameters": true
+  },
+  "predictions": [
+    "P1_markdown_source_emitted",
+    "P2_pdf_distribution_emitted_and_under_30_pages",
+    "P3_stewardship_front_matter_verbatim",
+    "P4_all_CR070a_to_CR074a_result_classes_visible",
+    "P5_failures_and_provisional_status_visible",
+    "P6_bus_factor_1_named",
+    "P7_partner_lab_verification_path_named",
+    "P8_clear_ask_present",
+    "P9_scope_boundaries_present",
+    "P10_formula_surface_visible",
+    "P11_09a_connection_notes_present_with_boundary",
+    "P12_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_missing_stewardship_would_fail",
+    "WC2_missing_result_class_would_fail",
+    "WC3_hidden_failure_would_fail",
+    "WC4_page_limit_enforced",
+    "WC5_scope_overclaim_rejected",
+    "WC6_formula_appendix_required",
+    "WC7_09a_overreach_guard",
+    "WC8_no_free_parameters"
+  ],
+  "free_parameters": 0
+}

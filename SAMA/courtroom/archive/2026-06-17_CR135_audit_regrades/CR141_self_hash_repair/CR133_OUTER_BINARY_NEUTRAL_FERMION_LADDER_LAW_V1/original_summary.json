@@ -1,0 +1,103 @@
+{
+  "cr_id": "CR133",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T00:28:35Z",
+  "spin_classification": "fermion_half_write (1-body neutral fermion -- 'neutrino-class')",
+  "formula": "M_native = partition_value * R^closure_depth / 8 = partition * R^depth / alpha_H^3",
+  "K_coefficient": "1/8 = 2^-D = 1/alpha_H^3 (bare bounce factor, no +1 inhomogeneity)",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "rows_tested": 24,
+  "matches": 24,
+  "violations": 0,
+  "S_debit_zero": 24,
+  "closure_depths_observed": {
+    "0": 8,
+    "1": 8,
+    "2": 8
+  },
+  "verification_csv_sha256": "22f44bf8d682f45f7716c4e02a687d2ee7bce34f686613800ae64feac483da25",
+  "law_lock_sha256": "3adf93b81f23c0c3b943fda9dcde947aeb96ac0e01162813b37a40163f0f8cee",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR131_law_lock_json": "2aef1403da7f764a7e0666d12ea9ba974b09719154ce8f1f5da5d3fd456caceb"
+  },
+  "predictions": [
+    {
+      "name": "P1_all_24_rows_walked",
+      "pass": true,
+      "details": "rows walked = 24 (expected 24)"
+    },
+    {
+      "name": "P2_formula_matches_all_rows",
+      "pass": true,
+      "details": "matches = 24/24, violations = 0"
+    },
+    {
+      "name": "P3_S_debit_zero_universally",
+      "pass": true,
+      "details": "S_debit = 0 on 24/24 rows"
+    },
+    {
+      "name": "P4_three_closure_depths_observed",
+      "pass": true,
+      "details": "depths = {0: 8, 1: 8, 2: 8}"
+    },
+    {
+      "name": "P5_eight_partition_values_observed",
+      "pass": true,
+      "details": "distinct partition values = [1, 2, 3, 4, 6, 8, 9, 12]"
+    },
+    {
+      "name": "P6_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = 3adf93b81f23c0c3b943fda9dcde947aeb96ac0e01162813b37a40163f0f8cee"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR131_law_lock_unmodified",
+      "pass": true,
+      "details": "CR131 V4_1 law lock referenced but not modified"
+    },
+    {
+      "name": "WC3_C1_equals_1_8_NOT_1_or_9_8",
+      "pass": true,
+      "details": "User asked: 'do we get lucky with the same C1=1?'  Answer: NO -- the OUTER_BINARY_NEUTRAL K = 1/8 = 2^-D, not C1 = 1 (which would have given M = partition * R^depth).  Same FORMULA SHAPE as V4_1 (M = ladder_input * R^depth * K) but different K.  Honest report: we got lucky with the architecture, not with the C1 value."
+    },
+    {
+      "name": "WC4_neutral_fermion_K_is_bare_bounce_factor",
+      "pass": true,
+      "details": "Charged fermions (V4_1) take K = (1 + 1/alpha_H^k) with k = 1 or 2 (CR131).  Neutral fermions take K = 1/alpha_H^3 = 2^-D = 1/8.  The neutral case carries the bare bounce factor with NO +1 inhomogeneity term."
+    },
+    {
+      "name": "WC5_law_derived_inductively_forward_blind_committed",
+      "pass": true,
+      "details": "Formula was derived from the 24-row ratio table (M_native/partition = 1/8, 3/2, 18 for depths 0, 1, 2; successive ratios = R).  Forward-blind CR133_PRED_1 commits the law for testing on future rows."
+    },
+    {
+      "name": "WC6_partition_value_used_as_ladder_input_NOT_q_abs",
+      "pass": true,
+      "details": "Unlike V4_1 where q_abs = partition_value and both work as the ladder input, OUTER_BINARY_NEUTRAL has q_abs = 0 universally.  The ladder uses partition_value (the integer label) as the input.  This distinction is documented."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Unification CR could combine CR131 + CR133 into a single 'universal 1-body fermion ladder law' if curator desires",
+    "First-principles derivation of why neutral takes K = 2^-D vs charged takes K = (1 + 1/alpha_H^k) is open",
+    "CR133b: M_observed structure if S_debit becomes non-zero on future OUTER_BINARY rows (currently always 0)",
+    "Forward-blind CR133_PRED_1 resolves when CR119 gains new OUTER_BINARY_NEUTRAL rows"
+  ]
+}

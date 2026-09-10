@@ -1,0 +1,98 @@
+{
+  "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION",
+  "files": [
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "9e1a24174ed051ccb126c94488da11f389cd0fe7",
+      "bytes": 448,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_PRECOMMIT.md",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_PRECOMMIT.md"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "ffd88c0a2177a6c971252ee8bf1d148f1ed02605",
+      "bytes": 466,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_declared_premises.json",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_declared_premises.json"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_evidence_rows.csv",
+      "mode": "100644",
+      "git_blob": "336efa3d4eccde442638cc624e2e782997b90e34",
+      "bytes": 314,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_evidence_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_evidence_rows.csv",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_evidence_rows.csv",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_evidence_rows.csv"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_input_manifest.csv",
+      "mode": "100644",
+      "git_blob": "c9e725710d46e955193efbc18414da1f5e2e1641",
+      "bytes": 669,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_input_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_input_manifest.csv",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_input_manifest.csv",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_input_manifest.csv"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_result.md",
+      "mode": "100644",
+      "git_blob": "dcc0da2228343193bdbb04799097563faca96913",
+      "bytes": 1344,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_result.md",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_result.md",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_result.md"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_runner.py",
+      "mode": "100644",
+      "git_blob": "4be9e6b795107c46a208201452a42686a4bb46a7",
+      "bytes": 3401,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_runner.py",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_runner.py",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_runner.py"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_summary.json",
+      "mode": "100644",
+      "git_blob": "a84a2351839c6ca1b2f209d617ea965315e5e71d",
+      "bytes": 2719,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_summary.json",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_summary.json",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/CR202_summary.json"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "6c1578731fb51db6508a7c30f7cb4fb0bc307d20",
+      "bytes": 1671,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/HASHES.txt",
+      "sama_path": "courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/15_SCALE_BRIDGE_SIMULATOR/CR202_TYPED_READOUT_REPRODUCTION/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR202@15"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

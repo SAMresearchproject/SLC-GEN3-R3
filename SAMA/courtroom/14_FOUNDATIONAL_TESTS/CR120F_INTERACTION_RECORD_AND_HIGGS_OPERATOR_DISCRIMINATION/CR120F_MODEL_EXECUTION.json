@@ -1,0 +1,71 @@
+{
+  "interpretation": {
+    "durability": "PERSISTS_ONLY_UNDER_PRECOMMITTED_IDENTITY_DWELL",
+    "free_propagation": "NO_RECORD_IN_CONSTRUCTED_MODEL",
+    "irreversibility": "NOT_ESTABLISHED_INVERSE_CONTACTS_ERASE_RECORD",
+    "localized_interaction": "DISTINGUISHABLE_RECORDS_GENERATED",
+    "redundancy": "TWO_DISJOINT_FRAGMENTS_IN_CONSTRUCTED_MODEL"
+  },
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "same_scalar_distinctions": [
+    {
+      "entity_id": "X1_AXIS_SELF_CHANNEL",
+      "scalar_value": 1,
+      "semantic_type": "AxisChannel"
+    },
+    {
+      "entity_id": "CONSTRUCTED_IDENTITY_WEIGHT",
+      "scalar_value": 1,
+      "semantic_type": "ChannelCoefficient"
+    },
+    {
+      "entity_id": "NORMALIZED_TOTAL_PROBABILITY",
+      "scalar_value": 1,
+      "semantic_type": "Probability"
+    }
+  ],
+  "scenarios": {
+    "FREE_PROPAGATION": {
+      "I_S_E1_bits": 0.0,
+      "I_S_E2_bits": 0.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 0,
+      "scenario": "FREE_PROPAGATION",
+      "state_norm": 1.0
+    },
+    "IDENTITY_DWELL_16": {
+      "I_S_E1_bits": 1.0,
+      "I_S_E2_bits": 1.0,
+      "distance_from_redundant_state": 0.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 2,
+      "scenario": "IDENTITY_DWELL_16",
+      "state_norm": 0.9999999999999998
+    },
+    "REDUNDANT_RECORD": {
+      "I_S_E1_bits": 1.0,
+      "I_S_E2_bits": 1.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 2,
+      "scenario": "REDUNDANT_RECORD",
+      "state_norm": 0.9999999999999998
+    },
+    "REVERSIBLE_ERASURE": {
+      "I_S_E1_bits": 0.0,
+      "I_S_E2_bits": 0.0,
+      "distance_from_initial_state": 0.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 0,
+      "scenario": "REVERSIBLE_ERASURE",
+      "state_norm": 0.9999999999999998
+    },
+    "SINGLE_WITNESS": {
+      "I_S_E1_bits": 1.0,
+      "I_S_E2_bits": 0.0,
+      "record_threshold_bits": 0.999999999999,
+      "redundancy_count": 1,
+      "scenario": "SINGLE_WITNESS",
+      "state_norm": 0.9999999999999998
+    }
+  }
+}

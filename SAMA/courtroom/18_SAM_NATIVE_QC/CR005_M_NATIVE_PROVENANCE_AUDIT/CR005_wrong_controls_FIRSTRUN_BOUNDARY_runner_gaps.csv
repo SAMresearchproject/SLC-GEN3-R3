@@ -1,0 +1,5 @@
+wrong_control,passed,observed
+WC-1_R_load_bearing,False,"{""qp093a_has_R12"": true, ""CR238_has_R12"": false, ""passed"": false}"
+WC-2_no_proton_input,True,"{""proton_input_matches"": 0, ""passed"": true}"
+WC-3_downstream_allowed,True,"{""downstream_only_matches"": 0, ""input_position_matches"": 0, ""passed"": true}"
+WC-4_audit_surface_complete,True,"{""expected_count"": 9, ""found_count"": 9, ""missing"": [], ""passed"": true}"

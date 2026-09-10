@@ -1,0 +1,31 @@
+{
+  "artifact": "QP091B_ELECTROWEAK_COUPLING_NORMALIZATION_SEARCH",
+  "generated_at_utc": "2026-06-14T21:56:48.242621+00:00",
+  "result_class": "BOUNDARY_QP091B_MISSING_ELECTROWEAK_NORMALIZATION_PRIMITIVE",
+  "passed": false,
+  "execution_status": "CLEAN",
+  "test_type": "FORWARD_NATIVE_COUPLING_NORMALIZATION_SEARCH",
+  "campaign": "closure_campaign08",
+  "relative_dimensionless_candidates_emitted": 6,
+  "absolute_coupling_normalization_closed": false,
+  "free_parameters_introduced": 0,
+  "forbidden_external_inputs_used": false,
+  "observed_couplings_used": false,
+  "observed_branching_or_signal_strength_used": false,
+  "full_electroweak_theorem_claimed": false,
+  "checks_passed": 11,
+  "checks_total": 11,
+  "wrong_controls_rejected": 7,
+  "wrong_controls_total": 7,
+  "normalization_tests_passed": 8,
+  "normalization_tests_total": 9,
+  "missing_primitives_open": 4,
+  "candidate_statuses": [
+    "HZZ_RELATIVE_CONTACT_CANDIDATE",
+    "LEDGER_GUARD_FACTOR_NOT_EW_COUPLING",
+    "RELATIVE_WEIGHT_CANDIDATE",
+    "STRUCTURAL_RATIO_CANDIDATE"
+  ],
+  "scientific_reading": "QP091B begins the electroweak numeric campaign. It emits native dimensionless relative q-slot/contact candidates, but no absolute normalization primitive is present yet to derive g, gprime, e, or the weak mixing angle. Couplings, amplitudes, and branching ratios therefore remain open by construction.",
+  "next_frontier": "QP091C_WEAK_MIXING_NEUTRAL_CURRENT_ROTATION_MAP"
+}

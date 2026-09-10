@@ -1,0 +1,554 @@
+{
+  "checks": [
+    {
+      "check_id": "LC01_CHECK_001",
+      "description": "CR113 result class",
+      "expected": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "observed": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_002",
+      "description": "CR113 R value",
+      "expected": 12,
+      "observed": 12,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_003",
+      "description": "CR114 result class",
+      "expected": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "observed": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_004",
+      "description": "CR114 face state count",
+      "expected": 8,
+      "observed": 8,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_005",
+      "description": "CR114 carrier fraction",
+      "expected": "1/8",
+      "observed": "1/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_006",
+      "description": "CR114 retained fraction",
+      "expected": "7/8",
+      "observed": "7/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_007",
+      "description": "CR114 split loss",
+      "expected": "18",
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_008",
+      "description": "CR114 retained parent",
+      "expected": "126",
+      "observed": "126",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_009",
+      "description": "CR114 observed surface",
+      "expected": "501/4",
+      "observed": "501/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_010",
+      "description": "CR115 result class",
+      "expected": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "observed": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_011",
+      "description": "CR115 stable D set",
+      "expected": [
+        3
+      ],
+      "observed": [
+        3
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_012",
+      "description": "CR116 result class",
+      "expected": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "observed": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_013",
+      "description": "CR116 carrier status",
+      "expected": "carrier_only_not_matter",
+      "observed": "carrier_only_not_matter",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_014",
+      "description": "CR116 tensor identity",
+      "expected": "18",
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_015",
+      "description": "CR104c lock id",
+      "expected": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "observed": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_016",
+      "description": "bounce lift D^2/2^D",
+      "expected": "9/8",
+      "observed": "9/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_017",
+      "description": "resolved half-bounce D^2/2^(D+1)",
+      "expected": "9/16",
+      "observed": "9/16",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_018",
+      "description": "surface debit distinct from carrier side",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_019",
+      "description": "18 carrier loss equals alpha_H*D^2",
+      "expected": "18",
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_020",
+      "description": "lane register count",
+      "expected": 10,
+      "observed": 10,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_021",
+      "description": "wrong controls count",
+      "expected": 30,
+      "observed": 30,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_022",
+      "description": "source files exist",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC01_CHECK_023",
+      "description": "wrong controls are rejected now or registered for lane replay",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    }
+  ],
+  "derived_values": {
+    "observed_higgs_surface": "501/4",
+    "retained_parent": "126",
+    "split_loss": "18",
+    "tensor_identity_alpha_H_D2": "18"
+  },
+  "downstream_lanes": [
+    {
+      "lane": "Higgs closed form",
+      "lc_id": "LC02",
+      "planned_artifacts": "LC02_*",
+      "primary_wrong_controls": "WC17; WC18; WC20",
+      "principal_sources": "CR113; CR114; CR104c; CR116",
+      "required_replay": "R^2*(1-2^-D) - D^2/R = 125.25 from locked stack",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "qA / ledger compression / gravity-as-A update",
+      "lc_id": "LC03",
+      "planned_artifacts": "LC03_*",
+      "primary_wrong_controls": "WC08; WC10; WC11; WC12",
+      "principal_sources": "CR103a; CR116; CR147",
+      "required_replay": "qA remains source strength / ledger sign update, not mass substitution",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "particle mass-chain table",
+      "lc_id": "LC04",
+      "planned_artifacts": "LC04_*",
+      "primary_wrong_controls": "WC20; WC21; WC22",
+      "principal_sources": "CR114; CR116; particle-chain branch",
+      "required_replay": "mass rows replay without changing constants, formulas, rows, or q labels",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "periodic/isotope vault",
+      "lc_id": "LC05",
+      "planned_artifacts": "LC05_*",
+      "primary_wrong_controls": "WC22; WC23",
+      "principal_sources": "CR114; CR116; branch 10 vault",
+      "required_replay": "periodic/isotope rows replay from locked primitive stack without backfill",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "baryon and matter inventory",
+      "lc_id": "LC06",
+      "planned_artifacts": "LC06_*",
+      "primary_wrong_controls": "WC09; WC23",
+      "principal_sources": "CR114; CR116; branch 07",
+      "required_replay": "baryon split and matter inventory preserve carrier/matter distinction",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "SN/BAO distance road",
+      "lc_id": "LC07",
+      "planned_artifacts": "LC07_*",
+      "primary_wrong_controls": "WC24; WC25",
+      "principal_sources": "CR115; branch 06",
+      "required_replay": "distance branch replay without D refit, bin cherry-pick, or target substitution",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "halo/PBH inventory lane",
+      "lc_id": "LC08",
+      "planned_artifacts": "LC08_*",
+      "primary_wrong_controls": "WC26",
+      "principal_sources": "CR113; CR115; branch 08",
+      "required_replay": "halo/PBH inventory replay without config-as-law promotion",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "quantum pair-write / Born-rule lane",
+      "lc_id": "LC09",
+      "planned_artifacts": "LC09_*",
+      "primary_wrong_controls": "WC27",
+      "principal_sources": "branch 11; quantum_phase campaign",
+      "required_replay": "pair-write and Born-rule lane replay without normalization patch",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "quantum information thresholds",
+      "lc_id": "LC10",
+      "planned_artifacts": "LC10_*",
+      "primary_wrong_controls": "WC28",
+      "principal_sources": "branch 12; branch 12a; quantum_phase campaign",
+      "required_replay": "QI thresholds replay without threshold swap",
+      "status": "REGISTERED_PENDING_REPLAY"
+    },
+    {
+      "lane": "black-hole/horizon thermodynamic lane",
+      "lc_id": "LC11",
+      "planned_artifacts": "LC11_*",
+      "primary_wrong_controls": "WC11; WC12; WC29; WC30",
+      "principal_sources": "CR103a; CR113; CR147; branch 05",
+      "required_replay": "A=1, 11/12, horizon, and thermodynamic lane replay without softening A=1",
+      "status": "REGISTERED_PENDING_REPLAY"
+    }
+  ],
+  "executed_at_utc": "2026-06-19T07:37:24Z",
+  "execution_status": "CLEAN",
+  "lc_id": "LC01",
+  "not_claimed": "LC01 does not claim downstream lane replay; LC02-LC11 must run separately.",
+  "primitive_values": {
+    "A0": "1/(12*pi)",
+    "D": "3",
+    "R": "12",
+    "R^2": "144",
+    "alpha_H": "2",
+    "bounce_lift": "9/8",
+    "carrier_side": "1/8",
+    "resolved_half_bounce": "9/16",
+    "retained_side": "7/8",
+    "split_fraction": "1/8",
+    "surface_debit": "3/4"
+  },
+  "result_class": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+  "scope": "primitive stack lock and downstream replay register only",
+  "source_chain": [
+    {
+      "exists": true,
+      "expected_status": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "observed_status": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_summary.json",
+      "purpose": "R=12 completed-WRITE address count theorem",
+      "sha256": "2c2a1a33c9b29d17b002a25d4cd8432691875098a60cd2fa3f1ff5864ea7664e",
+      "source_id": "CR113"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "observed_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_summary.json",
+      "purpose": "1/8 carrier side, 7/8 retained side, 18 split loss, 126 parent",
+      "sha256": "e3b1f4aad262c08d1ab6286fc6a14386cc89c32da9e00666f439e52eed47acfb",
+      "source_id": "CR114"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "observed_status": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "path": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_summary.json",
+      "purpose": "D=3 invariant carrier uniqueness theorem gate",
+      "sha256": "18556fc6e49193cfae7bb1e9107f953e92d545ae648f5518a69298d8c1f70328",
+      "source_id": "CR115"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "observed_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR116_18_GRAVITON_CARRIER_THEOREM\\CR116_summary.json",
+      "purpose": "18 as graviton-channel tensor carrier, not matter/rest mass",
+      "sha256": "e63c5821b7bb75dac6d975494d73b255aea691c773f4780b4523a0e09ab885ca",
+      "source_id": "CR116"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "observed_status": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "path": "14_FOUNDATIONAL_TESTS\\CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL\\CR104c_appeal_lock.json",
+      "purpose": "9/8 bounce lift and 9/16 resolved half-bounce D=3 algebra",
+      "sha256": "06ae7d0f834717cf7832d3eb0044bafe79ab130d0bfcf0390f0bd9693a425115",
+      "source_id": "CR104c"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR103a_BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+      "observed_status": "text source",
+      "path": "14_FOUNDATIONAL_TESTS\\CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL\\CR103a_result.md",
+      "purpose": "A-dependent bounce cost and A-field terminology discipline",
+      "sha256": "fa1367a0005a9aeb3a12059404095e64b80a1698713d803b6058e8390f2d11ac",
+      "source_id": "CR103a"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "control_id": "WC01_PRIMITIVE_MUTATION",
+      "mutation_attempt": "change alpha_H, R, D, A0, split fractions, bounce, or debit after LC01",
+      "rejection_basis": "LC01 primitive lock plus source hashes fix the stack before lane replay",
+      "scope": "global",
+      "status": "REJECTED_BY_LC01"
+    },
+    {
+      "control_id": "WC02_BRANCH_LOCAL_CONSTANT_OVERRIDE",
+      "mutation_attempt": "let a branch define a local R, D, A0, split, bounce, or debit",
+      "rejection_basis": "later LC lanes must read the LC01 primitive table",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC03_TARGET_VALUE_SUBSTITUTION",
+      "mutation_attempt": "feed a measured target value into the primitive selector",
+      "rejection_basis": "source chain fixes primitives before downstream comparisons",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC04_ROW_DELETION",
+      "mutation_attempt": "drop failed rows from a downstream replay",
+      "rejection_basis": "lane artifacts must state input row counts and output row counts",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC05_RETROACTIVE_RELABELING",
+      "mutation_attempt": "rename a failed category after seeing the downstream result",
+      "rejection_basis": "role labels must be fixed before each replay lane compares results",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC06_FORMULA_PATCH",
+      "mutation_attempt": "patch the formula after a lane misses",
+      "rejection_basis": "each LC lane must emit formula manifest before result comparison",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC07_OLD_ROUTE_RESTORE",
+      "mutation_attempt": "restore the old 2*pi route as the R=12 defense",
+      "rejection_basis": "R is sourced to CR113 completed-WRITE address count; A0 is applied only after R is fixed",
+      "scope": "global",
+      "status": "REJECTED_BY_LC01"
+    },
+    {
+      "control_id": "WC08_DIRECT_QA_AS_MASS",
+      "mutation_attempt": "treat qA/source strength as observed mass",
+      "rejection_basis": "qA is registered as source/ledger strength; mass lanes must keep native mass and surface grammar separate",
+      "scope": "qA",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC09_CARRIER_PROMOTED_TO_MATTER",
+      "mutation_attempt": "put 18 into matter algebra as a rest-mass element",
+      "rejection_basis": "CR116 locks 18 as carrier-only tensor channel, not matter/rest mass",
+      "scope": "matter",
+      "status": "REJECTED_BY_LC01"
+    },
+    {
+      "control_id": "WC10_SURFACE_DEBIT_CONFUSION",
+      "mutation_attempt": "confuse carrier side 1/8 with surface debit D^2/R",
+      "rejection_basis": "LC01 exact arithmetic gives 1/8 != 3/4",
+      "scope": "Higgs/qA",
+      "status": "REJECTED_BY_LC01"
+    },
+    {
+      "control_id": "WC11_STATIC_A_FOR_DYNAMIC_RELEASE",
+      "mutation_attempt": "use static int A dr/c as a dynamic GW170817 release model",
+      "rejection_basis": "strong-field lanes must preserve release-point/source-origin distinction",
+      "scope": "GW/strong-field",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC12_A1_AS_NORMAL_LAUNCH_POINT",
+      "mutation_attempt": "treat A=1 as an ordinary photon launch surface",
+      "rejection_basis": "A=1 is zero-depth/no-escape completion, not normal propagation",
+      "scope": "horizon",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC13_BRANCH_REPLAY_WITHOUT_HASH_LOCK",
+      "mutation_attempt": "accept downstream replay without source/hash manifest",
+      "rejection_basis": "LC format requires source, formula, checks, wrong controls, and hashes",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC14_IN_SAMPLE_RESCUE",
+      "mutation_attempt": "tune a lane on the same targets it claims to predict",
+      "rejection_basis": "lane must declare target visibility and selector order",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC15_TOLERANCE_EXPANSION",
+      "mutation_attempt": "expand tolerance after seeing miss size",
+      "rejection_basis": "lane tolerance must be fixed before comparison",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC16_HIDDEN_CORRECTION_TERM",
+      "mutation_attempt": "add an unregistered correction term",
+      "rejection_basis": "lane formula manifest must list every term before execution",
+      "scope": "global",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC17_HIGGS_TARGET_LOCK",
+      "mutation_attempt": "set the Higgs value first and solve backwards",
+      "rejection_basis": "LC02 must compute 125.25 from locked primitives before comparison",
+      "scope": "Higgs",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC18_HIGGS_CARRIER_DEBIT_SWAP",
+      "mutation_attempt": "swap 18 carrier loss, 0.75 surface debit, and 9/16 half-bounce roles",
+      "rejection_basis": "LC01 exact arithmetic keeps all three roles distinct",
+      "scope": "Higgs",
+      "status": "REJECTED_BY_LC01"
+    },
+    {
+      "control_id": "WC19_QA_LEDGER_COMPRESSION_SKIP",
+      "mutation_attempt": "skip ledger compression and compare qA directly as an observed value",
+      "rejection_basis": "LC03 must preserve ledger/source/observed layers",
+      "scope": "qA",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC20_PARTICLE_TABLE_NEAREST_MATCH",
+      "mutation_attempt": "assign each particle to the nearest matching row after comparison",
+      "rejection_basis": "LC04 role map must be fixed before mass comparison",
+      "scope": "particle",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC21_PARTICLE_ROW_SUPPRESSION",
+      "mutation_attempt": "suppress particle rows that fail under the locked stack",
+      "rejection_basis": "LC04 must reconcile all declared rows or fail",
+      "scope": "particle",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC22_PERIODIC_TABLE_DATA_BACKFILL",
+      "mutation_attempt": "backfill isotope constants from observed periodic data",
+      "rejection_basis": "LC05 must declare generator values before comparison",
+      "scope": "periodic/isotope",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC23_BARYON_INVENTORY_RAW_BRANCH",
+      "mutation_attempt": "mix carrier-only rows into matter inventory to close counts",
+      "rejection_basis": "CR116 carrier/matter distinction is load-bearing",
+      "scope": "baryon/matter",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC24_DISTANCE_ROAD_D_REFIT",
+      "mutation_attempt": "refit D in the distance road after CR115 locks D=3",
+      "rejection_basis": "LC07 must use D=3 from LC01 unless explicitly marked failed/mutated",
+      "scope": "distance",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC25_DISTANCE_BIN_CHERRY_PICK",
+      "mutation_attempt": "select only favorable SN/BAO bins",
+      "rejection_basis": "LC07 must state bin set before comparison",
+      "scope": "distance",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC26_HALO_PBH_CONFIG_AS_LAW",
+      "mutation_attempt": "promote a successful config file to a primitive law",
+      "rejection_basis": "LC08 must distinguish generator config from theorem primitive",
+      "scope": "halo/PBH",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC27_QUANTUM_BORN_RULE_NORMALIZATION_PATCH",
+      "mutation_attempt": "patch Born-rule normalization after result comparison",
+      "rejection_basis": "LC09 must predeclare normalization from pair-write machinery",
+      "scope": "quantum",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC28_QI_THRESHOLD_SWAP",
+      "mutation_attempt": "swap QI thresholds after seeing which one passes",
+      "rejection_basis": "LC10 thresholds must be locked before comparison",
+      "scope": "quantum information",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC29_BLACK_HOLE_A1_SOFTENING",
+      "mutation_attempt": "soften A=1 from zero-depth/no-escape into ordinary propagation",
+      "rejection_basis": "LC11 must preserve A=1 completion discipline",
+      "scope": "black-hole/horizon",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    },
+    {
+      "control_id": "WC30_THERMAL_TARGET_FIT",
+      "mutation_attempt": "fit thermodynamic coefficients to Hawking/entropy targets",
+      "rejection_basis": "LC11 must derive thermal terms from locked stack before comparison",
+      "scope": "black-hole/thermodynamic",
+      "status": "REGISTERED_FOR_LANE_REPLAY"
+    }
+  ]
+}

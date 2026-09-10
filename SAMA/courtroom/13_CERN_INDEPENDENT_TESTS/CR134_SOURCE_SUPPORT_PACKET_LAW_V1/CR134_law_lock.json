@@ -1,0 +1,56 @@
+{
+  "cr_id": "CR134",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class == 'SOURCE_SUPPORT_PACKET', M_native = partition + partition^2 / R^2 exactly.",
+    "falsifier": "ONE single future SOURCE_SUPPORT_PACKET row whose M_native deviates from the formula by any non-zero rational falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR134_PRED_1",
+    "non_falsifying": "Rows of other operator_class.  Non-zero S_debit or qA on a future SOURCE_SUPPORT_PACKET row would itself be a separate finding (would warrant extension CR)."
+  },
+  "immutability": "Law v1.0 formula and substrate-support classification are frozen at CR134 seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "S_debit_zero": 8,
+    "formula_matches": 8,
+    "qA_zero": 8,
+    "rows_tested": 8,
+    "violations": 0
+  },
+  "law_committed_utc": "2026-06-16T00:32:19Z",
+  "law_definition": {
+    "S_debit_universal_rule": "S_debit = 0 for all SOURCE_SUPPORT_PACKET rows (no surface debit; hidden support)",
+    "applies_to": "operator_class == 'SOURCE_SUPPORT_PACKET' (hidden source-support rows, spin = unresolved_support)",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "equivalent_factored": "M_native = partition * (1 + partition / R^2) = partition * (R^2 + partition) / R^2",
+    "formula": "M_native = partition + partition^2 / R^2",
+    "name": "SOURCE_SUPPORT_PACKET_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "Calibration to physical MeV scale (substrate-support integers, not energy units)",
+      "First-principles derivation of why support takes the +p^2/R^2 form",
+      "Cross-class relations between SOURCE_SUPPORT_PACKET and other 1-body families"
+    ],
+    "partition_algebra": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "qA_universal_rule": "qA_source_support = 0 for all rows (no qA channel for substrate support)",
+    "structural_components": {
+      "bare_term": "partition (the partition-algebra value)",
+      "self_correction": "partition^2 / R^2 (quadratic in partition, scaled by 1/R^2)"
+    },
+    "structural_significance": "SAM's substrate-support rows carry inventory at the partition-algebra level without participating in matter promotion.  The quadratic self-correction at 1/R^2 order is the substrate's perturbative response to partition value -- small for p = 1 (1/R^2 = 0.694%) and reaching exactly 1 (i.e. 100% of bare value) at p = R = 12.  These rows are HIDDEN_SUPPORT_NOT_MATTER and do not participate in the matter promotion ladder."
+  },
+  "law_version": "v1.0",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42"
+  }
+}

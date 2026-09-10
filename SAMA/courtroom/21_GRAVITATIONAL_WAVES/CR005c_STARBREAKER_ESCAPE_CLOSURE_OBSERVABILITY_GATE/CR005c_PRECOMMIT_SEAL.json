@@ -1,0 +1,15 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "sealed_utc": "2026-07-21T01:27:00Z",
+  "task": "Continue Courtroom gravitational-wave work with latest Starbreaker and SAM advances",
+  "classification": "CONSTRUCTIVE_OBSERVABILITY_AND_SEMANTICS_GATE",
+  "contract_sha256": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+  "precommit_sha256": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+  "source_manifest_sha256": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e",
+  "preflight_path": "artifacts/preflight_filled/PREFLIGHT_20260720_194820_no_script.md",
+  "preflight_sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869",
+  "runner_present_at_seal": false,
+  "results_opened": false,
+  "no_predecessor_rerun": true,
+  "same_run_repair_allowed": false
+}

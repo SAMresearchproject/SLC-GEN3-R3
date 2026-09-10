@@ -1,0 +1,65 @@
+{
+  "cr_id": "CR070a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "First of six CRs (CR070a-CR075a); deepens NV-diamond T2 surface",
+  "test_class": "EXPANDED_NV_DIAMOND_T2_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T08:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Expand the CR069a 8-row T2 contact table to 20-30 NV-diamond rows from a deeper published-literature pass. CR069a's 4 NV-diamond rows are inherited verbatim; additional NV rows are populated PROVISIONAL_AUTHOR_BEST_EFFORT. CR070a is NV-diamond-only; non-NV rows belong to CR072a (photonic) or later campaigns.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "T2_grav_v1_1_formula": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "T2_grav_v1_1_numeric_coefficient_seconds_times_rad_per_s": 61300.408,
+  "prediction": "T2_observed >= T2_grav for any NV-diamond quantum system at its operating omega_drive",
+  "interpretation": {
+    "above_floor_with_margin": "consistent with floor; environmental noise still dominates",
+    "at_floor_within_uncertainty": "would constitute strong validation; not yet expected for current measurements",
+    "below_floor": "would falsify CR064a v1.1; expected to surface for some room-temperature Hahn-echo natural-abundance rows where T2_observed ~ 1-5 us approaches or crosses T2_grav ~ 3.4 us at NV resonant"
+  },
+  "upstream_hash_locked_premises": {
+    "CR069a_PRECOMMIT_md_sha256": "f2ac7349f795438f31857bd243a1907e16cf00c160b256505db4f27731ffc1ea",
+    "CR069a_declared_premises_json_sha256": "89b1dca337838d06977e7942ca7f0e45f42e9f62bba207746951ac910c26030f",
+    "CR069a_published_t2_table_csv_sha256": "ad62e9a6edeb64d0949cdcfdeb21e245233a725b534eb52db3d6e85206827e81",
+    "CR069a_runner_py_sha256": "b3ab6c75614bae55ea08900bf3e0e02bdb6156a2f57d9082b259f21ae5f44615",
+    "CR069a_summary_json_sha256": "1eb5144266cf923409bd1e9b629481219f1cd91c17d523c6c7c94a0275ae6ba5",
+    "CR069a_result_md_sha256": "98875650177a1225cc284705adaeeaa14bbf2391b059a2b4a4851ea63c71f5e5",
+    "CR069a_contact_analysis_csv_sha256": "9b497bbbf13e4e3153bc058530207f007b70d893fa8a90d845f06644b7b303a7"
+  },
+  "inherited_nv_row_ids_from_cr069a": [1, 2, 3, 4],
+  "campaign_row_count_threshold": 15,
+  "campaign_row_count_target_min": 20,
+  "campaign_row_count_target_max": 30,
+  "predictions": [
+    "P1_table_well_formed",
+    "P2_no_current_measurement_violates_T2_grav",
+    "P3_margin_distribution_consistent_with_environmental_dominance",
+    "P4_cryo_DD_NV_closest_to_floor_in_relative_terms",
+    "P5_no_free_parameters_in_contact_analysis",
+    "P6_explicit_verification_path_documented",
+    "P7_contact_table_emitted_with_consistency_classification",
+    "P8_protocol_completes_end_to_end",
+    "P9_row_count_meets_campaign_threshold",
+    "P10_no_regression_against_CR069a_inherited_rows",
+    "P11_sample_diversity",
+    "P12_all_rows_are_NV_diamond"
+  ],
+  "wrong_controls": [
+    "WC1_inverted_formula_falsely_flags_violations",
+    "WC2_zero_omega_breaks_the_formula_gracefully",
+    "WC3_negative_T2_observed_rejected_as_unphysical",
+    "WC4_no_citation_tag_marks_row_as_provisional",
+    "WC5_runner_does_not_modify_upstream_locks",
+    "WC6_no_free_parameters",
+    "WC7_non_NV_row_rejected",
+    "WC8_cr069a_inherited_row_hash_mismatch_detected"
+  ],
+  "free_parameters": 0,
+  "verification_discipline": "Every populated row carries citation_tag and verify_status. Initial population is PROVISIONAL_AUTHOR_BEST_EFFORT. Partner-lab confirmation of each citation lifts the row to VERIFIED. Aggregate verdict scales with verified fraction. Identical discipline as CR069a."
+}

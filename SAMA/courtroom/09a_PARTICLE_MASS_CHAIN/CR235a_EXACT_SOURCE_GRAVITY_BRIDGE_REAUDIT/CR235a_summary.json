@@ -1,0 +1,107 @@
+{
+  "artifact": "CR235a_EXACT_SOURCE_GRAVITY_BRIDGE_REAUDIT",
+  "classification": "AMENDMENT_EXACT_ARITHMETIC_REAUDIT",
+  "arc_position": "Test 6 follow-up (does not modify CR235)",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "precommit_sha256": "e42944abe1cd6c1710de78cc4a992252dfe1cf083eaf905458477a89a49364dc",
+  "source_shas": {
+    "matter_CR219": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+    "sob_test5": "0cd620be2f7ed1cd9ca03d4fb7222061ba990d258a04a7c99bbc7ff020b94616",
+    "reveal_reference": "fbfb17d82fbe7375690ae4b7c5ec0e473d0024284caf2dbd89d5404ded1b7b3a"
+  },
+  "tolerance": "0 (exact Fraction)",
+  "audit_1_matter_identities": {
+    "id1": 126,
+    "id2": 126,
+    "id3": 126,
+    "all": 126,
+    "rows": 126
+  },
+  "audit_2_sob_identities": {
+    "id1": 126,
+    "id2": 126,
+    "id3": 126,
+    "all": 126,
+    "rows": 126
+  },
+  "audit_3_matter_ratio_invariance": {
+    "pairs": 15750,
+    "breaks": 0,
+    "passes_audit": true
+  },
+  "audit_4_sob_ratio_invariance": {
+    "pairs": 15750,
+    "breaks": 0,
+    "passes_audit": true
+  },
+  "audit_5_directional": {
+    "stable_set_size": 81,
+    "joined_rows": 81,
+    "spearman_rho_real": 1.0,
+    "directional_verdict": "PASS_DIRECTIONAL",
+    "passes_directional": true
+  },
+  "wrong_controls": {
+    "WC1_G_eq_qA_over_7": {
+      "matter": {
+        "population": "matter",
+        "nonzero_rows": 126,
+        "breaks": 126,
+        "broke_as_predicted": true
+      },
+      "sob": {
+        "population": "sob",
+        "nonzero_rows": 126,
+        "breaks": 126,
+        "broke_as_predicted": true
+      }
+    },
+    "WC2_W_eq_6qA_over_8": {
+      "matter": {
+        "population": "matter",
+        "nonzero_rows": 126,
+        "breaks": 126,
+        "broke_as_predicted": true
+      },
+      "sob": {
+        "population": "sob",
+        "nonzero_rows": 126,
+        "breaks": 126,
+        "broke_as_predicted": true
+      }
+    },
+    "WC3_shuffle_qA": {
+      "sob": {
+        "population": "sob",
+        "seed": 20260622,
+        "pairs": 15750,
+        "breaks": 15750,
+        "break_rate": 1.0,
+        "broke_as_predicted": true
+      }
+    },
+    "WC4_permutation_null": {
+      "n_perm": 10000,
+      "seed": 20260623,
+      "rho_real": 1.0,
+      "abs_rho_real": 1.0,
+      "p_perm": 0.0,
+      "percentile_rho_real": 1.0,
+      "max_abs_rho_shuffled": 0.38778229448961155,
+      "broke_as_predicted": true
+    },
+    "all_broke_as_predicted": true
+  },
+  "main_audits_pass": true,
+  "wrong_controls_pass": true,
+  "scientific_verdict": "PASS",
+  "execution_status": "CLEAN",
+  "amendment_note": "CR235 stays sealed at FAIL with its original artifacts. CR235a is an independent exact-source amendment.",
+  "K_gates": {
+    "K1_external_anchor": "PASS (directional rank vs external_anchor_A; no unit conversion)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (exact rule + permutation parameters locked in precommit pre-execution)",
+    "K4_typed_inputs": "PASS",
+    "K5_reproduction_on_demand": "PASS (deterministic + seeded WC3, WC4)"
+  }
+}

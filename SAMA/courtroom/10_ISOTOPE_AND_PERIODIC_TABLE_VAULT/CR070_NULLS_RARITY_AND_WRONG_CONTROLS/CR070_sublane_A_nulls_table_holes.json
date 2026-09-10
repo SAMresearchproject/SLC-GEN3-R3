@@ -1,0 +1,16 @@
+{
+  "sealed_row_comparison_exists": true,
+  "table_holes_checked": {
+    "Tc": {
+      "z": 43,
+      "surfaced": true
+    },
+    "Pm": {
+      "z": 61,
+      "surfaced": true
+    }
+  },
+  "all_holes_surfaced": true,
+  "sub_lane_a_verdict": "PASS_SUB_LANE_A_NULLS_TABLE_HOLES_SURFACED",
+  "rule9_line": "This test could have falsified the claim that the vault's structural lane predicts known table holes (Tc Z=43, Pm Z=61) rather than being fit to them."
+}

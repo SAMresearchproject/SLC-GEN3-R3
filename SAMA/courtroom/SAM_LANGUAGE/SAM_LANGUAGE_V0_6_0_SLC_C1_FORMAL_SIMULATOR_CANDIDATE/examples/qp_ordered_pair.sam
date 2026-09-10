@@ -1,0 +1,2 @@
+let pair: QPRelationTemplate = QP_ORDERED_PAIR(QP_P8, QP_P1)
+return pair

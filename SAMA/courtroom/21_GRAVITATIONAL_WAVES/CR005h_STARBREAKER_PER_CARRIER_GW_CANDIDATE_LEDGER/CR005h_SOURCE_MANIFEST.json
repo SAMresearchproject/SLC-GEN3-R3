@@ -1,0 +1,72 @@
+{
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "source_count": 11,
+  "sources": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260720_233232_no_script.md",
+      "role": "execution preflight",
+      "bytes": 17314,
+      "sha256": "1691cbc6d33aae278789374ee62f470771a5446c783b40bf31ac392e262a9ac1"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_runner.py",
+      "role": "sealed continuous-flow and trace-free tensor implementation",
+      "bytes": 53752,
+      "sha256": "520ae3c79c625e696db1949a7824c45881b5f0d271ee2d35738b62a7a8947a80"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_CONTRACT.json",
+      "role": "parent operational contract",
+      "bytes": 6921,
+      "sha256": "96cff6164e55c2024ffcbe7158f8dd4d4783ef408b4941d72f8c6f17084c309e"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_RESULT.md",
+      "role": "parent adjudicated result",
+      "bytes": 3737,
+      "sha256": "18fc6266d31e462013fe80f6b4557759ecd2019e30e9dc09def0573a42f00962"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_SUMMARY.json",
+      "role": "parent machine-readable source summary",
+      "bytes": 9139,
+      "sha256": "e2bc53614bc9576b8d98dbe0ce56969ded07c9db5b0bddb7b8d75bbad4efc5f6"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_CARRIER_TIMING.csv",
+      "role": "sealed per-carrier bind and escape timing authority",
+      "bytes": 4811260,
+      "sha256": "373f1e4ccdb154c80eb6f654ba21f03a7ded955c407062dfc1d0d57ca7db75e1"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION/release/CR005c_RESULT.md",
+      "role": "timing operationalization authority",
+      "bytes": 2638,
+      "sha256": "55e16916063da5cb9be7cce334f202b826bac8f399bf126f4be7c77a6187e08d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz",
+      "role": "frozen typed atom and carrier trajectory roster",
+      "bytes": 62636683,
+      "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/SCENARIO_SELECTION_DECOMPOSITION.csv",
+      "role": "frozen scenario doors and geometry metadata",
+      "bytes": 18469,
+      "sha256": "b1869c7cda4223484c0023fdfb04e54e533f747c457795906030fde90c14007d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_COUNTS.csv",
+      "role": "frozen relation-history population authority",
+      "bytes": 1822925,
+      "sha256": "4d15585ca5b99e0a4ad7eaf11d54e1062a1d5ebd144e5db08eab1391d1664f14"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SCHEMA.json",
+      "role": "frozen typed relation-history schema",
+      "bytes": 851,
+      "sha256": "9dae50c86e9a4d0d40eb8d96d303a4d198df10ed686782593251cb54d536073d"
+    }
+  ]
+}

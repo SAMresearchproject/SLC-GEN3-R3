@@ -1,0 +1,132 @@
+{
+  "test": "G331_escaped_baryon_write_decoupling_cmb",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T16:24:44.236274+00:00",
+  "precheck": "audit/G331_escaped_baryon_write_decoupling_cmb_PRECHECK_2026_05_26.md",
+  "sealed_envelope": "audit/SEALED_ENVELOPE_G331_escaped_baryon_write_decoupling_cmb_2026_05_26.md",
+  "grade": "mechanism boundary / analytic recombination consistency; not CMB theorem",
+  "predictions": {
+    "P1": {
+      "name": "corrected escaped-baryon channel matches physical baryon density",
+      "Omega_b": 0.049299011266100756,
+      "h": 0.6736,
+      "omega_b_h2": 0.022368783502886305,
+      "Planck_omega_b_h2": 0.02237,
+      "relative_residual": -5.4380738207231025e-05,
+      "pass": true
+    },
+    "P2": {
+      "name": "corrected branch gives observed baryon-to-photon ratio",
+      "n_gamma0_m3": 410726848.67982596,
+      "n_b0_m3": 0.2511997264806068,
+      "eta_b": 6.115980177288692e-10,
+      "observed_eta_b": 6.12e-10,
+      "relative_residual": -0.0006568337763573779,
+      "pass": true
+    },
+    "P3": {
+      "name": "Thomson write rate crosses from coupled to free-streaming",
+      "z": 1089.0,
+      "Gamma_over_H_full_ionization": 128.3478616491304,
+      "Gamma_over_H_residual_ionization": 0.01283478616491304,
+      "drop_factor": 10000.0,
+      "pass": true
+    },
+    "P4": {
+      "name": "decoupling threshold ionization is small and plausible",
+      "x_e_threshold": 0.00779132575448541,
+      "pass": true
+    },
+    "P5": {
+      "name": "Saha-level neutralization crosses write-decoupling near last scattering",
+      "z_saha_write_decoupling": 1126.5862125432454,
+      "x_e_cross": 0.0074358819113570715,
+      "z_rec_comparison": 1089.0,
+      "relative_residual": 0.03451442841436679,
+      "pass": true
+    },
+    "P6": {
+      "name": "PBH opacity negligible versus electron write opacity",
+      "max_PBH_geometric_tau": 2.3855399155652172e-09,
+      "electron_full_Gamma_over_H": 128.3478616491304,
+      "electron_to_PBH_opacity_ratio": 53802437264.48834,
+      "pass": true
+    },
+    "P7": {
+      "name": "CMB is not first-star or ignition light",
+      "z_CMB": 1089.0,
+      "z_first_stars_high": 30.0,
+      "pass": true
+    },
+    "P8": {
+      "name": "mechanism boundary, not theorem-grade CMB closure",
+      "surviving_reading": "CMB = last stable photon ledger after escaped-baryon write decoupling",
+      "frontier": [
+        "full recombination history from substrate action",
+        "Boltzmann-code CMB spectrum and acoustic peaks",
+        "perturbation spectrum and initial conditions",
+        "birth-PBH mass function / clustering",
+        "observational no-touch matter-antimatter signature"
+      ],
+      "pass": true
+    }
+  },
+  "wrong_controls": {
+    "WC1": {
+      "name": "raw Omega_b=2*A0 passes corrected physical baryon density",
+      "raw_omega_b_h2": 0.024071493349163198,
+      "relative_residual": 0.0760613924525345,
+      "bites": true,
+      "pass": true
+    },
+    "WC2": {
+      "name": "no outside baryons still gives photon-baryon plasma",
+      "Omega_b_zero_has_plasma": false,
+      "bites": true,
+      "pass": true
+    },
+    "WC3": {
+      "name": "PBH geometric opacity is the CMB shutter",
+      "max_PBH_geometric_tau": 2.3855399155652172e-09,
+      "bites": true,
+      "pass": true
+    },
+    "WC4": {
+      "name": "full ionization after recombination is transparent",
+      "Gamma_over_H_xe_1": 128.3478616491304,
+      "bites": true,
+      "pass": true
+    },
+    "WC5": {
+      "name": "residual ionization before recombination thermalizes photons",
+      "Gamma_over_H_z1500_xe_1e_4": 0.01985377129763322,
+      "bites": true,
+      "pass": true
+    },
+    "WC6": {
+      "name": "first-star ignition redshift is the CMB epoch",
+      "z_CMB": 1089.0,
+      "z_first_stars_high": 30.0,
+      "bites": true,
+      "pass": true
+    },
+    "WC7": {
+      "name": "Saha-level crossing is exact theorem-grade CMB solution",
+      "z_saha_relative_residual": 0.03451442841436679,
+      "has_open_frontier": true,
+      "bites": true,
+      "pass": true
+    },
+    "WC8": {
+      "name": "test proves matter-antimatter theory or baryogenesis",
+      "proves_full_theory": false,
+      "bites": true,
+      "pass": true
+    }
+  },
+  "verdict": "G331_ESCAPED_BARYON_WRITE_DECOUPLING_CMB_BOUNDARY_ESTABLISHED",
+  "prediction_pass_count": 8,
+  "prediction_total": 8,
+  "wrong_control_pass_count": 8,
+  "wrong_control_total": 8
+}

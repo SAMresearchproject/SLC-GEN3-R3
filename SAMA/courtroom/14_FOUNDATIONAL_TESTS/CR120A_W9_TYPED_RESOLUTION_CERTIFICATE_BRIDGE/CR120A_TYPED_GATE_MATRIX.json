@@ -1,0 +1,31 @@
+[
+  {
+    "interpretation": "Active typed transition from Layer1 structural capacity to Layer2 resolution.",
+    "operator": "RESOLVE",
+    "status": "PASS",
+    "transition": "S8_BINARY_SURFACE -> W9_CLOSURE_WITNESS",
+    "typed_inputs": [
+      "BinarySurface",
+      "ContactOperator",
+      "AxisChannel"
+    ],
+    "typed_output": "ClosureWitness"
+  },
+  {
+    "interpretation": "W9 is accepted as the closure certificate required for the next promotion.",
+    "operator": "PROMOTE_VOLUME",
+    "status": "PASS",
+    "transition": "W9_CLOSURE_WITNESS -> V27_VOLUME_CONTAINER",
+    "typed_inputs": [
+      "ClosureWitness",
+      "Dimension"
+    ],
+    "typed_output": "VolumeContainer"
+  },
+  {
+    "interpretation": "The unresolved surface cannot bypass the resolution certificate.",
+    "operator": "PROMOTE_VOLUME",
+    "status": "TYPE_REJECT",
+    "transition": "S8_BINARY_SURFACE -> V27_VOLUME_CONTAINER"
+  }
+]

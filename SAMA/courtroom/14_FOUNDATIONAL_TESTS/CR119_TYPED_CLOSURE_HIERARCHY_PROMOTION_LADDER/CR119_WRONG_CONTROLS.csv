@@ -1,0 +1,14 @@
+control_id,description,observed,rejected
+WC1,Direct unresolved volume: 8*3=24,TYPE_REJECT_UNRESOLVED_SURFACE_NOT_CLOSURE_WITNESS,True
+WC2,B = X1 = 1,operation/channel collapse rejected,True
+WC3,A equals B,CR282 appeal keeps A-to-contact OPEN,True
+WC4,Add X1 as ledger row,closed ledger remains 162; row insertion is non-row violation,True
+WC5,Restore QP093A-0305,retired-row control gives 163,True
+WC6,Treat 81 as ordinary carrier row,F81/SIDE81/C81 roles remain separated,True
+WC7,Treat 27 as carrier,CR262 classifies V27 as container,True
+WC8,Treat 18 as container only,Theta18 carrier/release role preserved,True
+WC9,Collapse all eights,S8/partition-8/factor-8 remain distinct,True
+WC10,Collapse all nines,W9/carrier-9/partition-9 remain distinct,True
+WC11,Force P80 edge active beyond CR283,inherited as STRUCTURAL_ONLY,True
+WC12,Higgs injection,Higgs mass/126.343 geometry excluded,True
+WC13,Numeric hierarchy only,dependency and type hierarchy required,True

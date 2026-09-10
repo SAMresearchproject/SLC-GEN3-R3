@@ -1,0 +1,128 @@
+{
+  "artifact": "CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION",
+  "classification": "STRUCTURAL_ROLE_SEPARATION",
+  "arc_position": "Test 4 of 7 in the Seven-Test Ownership Arc",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "precommit_sha256": "32359203e56028f4db7c0109ad8ce9d855480063db61efb1607f9e2cce0b5b79",
+  "source_file": "C:\\VS\\CR219_promoted_particle_rows_126.csv",
+  "source_sha256": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "identities_computed": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "capacity": 144,
+    "binary": 8,
+    "tensor": 18,
+    "retained": 126,
+    "per_side": 63,
+    "one_side": 81,
+    "mirror": 81,
+    "closed_ledger": 162,
+    "write_rate": 27
+  },
+  "predictions": {
+    "P1_role1_tensor": {
+      "label": "18",
+      "lhs": 18,
+      "rhs_values": {
+        "alpha_H * D^2": 18,
+        "R^2 / 2^D": 18
+      },
+      "matches": {
+        "alpha_H * D^2": true,
+        "R^2 / 2^D": true
+      },
+      "all_match": true
+    },
+    "P2_role2_one_side": {
+      "label": "81",
+      "lhs": 81,
+      "rhs_values": {
+        "D^(D+1)": 81,
+        "per_side + tensor": 81,
+        "63 + 18": 81
+      },
+      "matches": {
+        "D^(D+1)": true,
+        "per_side + tensor": true,
+        "63 + 18": true
+      },
+      "all_match": true
+    },
+    "P3_role3_mirror": {
+      "label": "81",
+      "lhs": 81,
+      "rhs_values": {
+        "D^(D+1)": 81
+      },
+      "matches": {
+        "D^(D+1)": true
+      },
+      "all_match": true
+    },
+    "P4_role4_write_rate": {
+      "label": "27",
+      "lhs": 27,
+      "rhs_values": {
+        "D^3": 27,
+        "one_side*4 / R": 27
+      },
+      "matches": {
+        "D^3": true,
+        "one_side*4 / R": true
+      },
+      "all_match": true
+    },
+    "P5_closed_ledger": true,
+    "P6_cross_identity_18sq_R_27": true,
+    "P7_tensor_rest_zero": true,
+    "P8_row_anchor_ROLE1_0300": true,
+    "P9_row_anchor_ROLE3_0303": true,
+    "P10_row_anchor_ROLE2_support_sum_81": true
+  },
+  "wrong_controls": {
+    "WC1_27_eq_alphaH_Dsq": {
+      "alt_value": 18,
+      "broke": true
+    },
+    "WC2_swap_18_81": {
+      "R2_over_2D_eq_81": false,
+      "Dpow_eq_18": false,
+      "broke": true
+    },
+    "WC3_collapse_sides": {
+      "collapsed_ledger": 81,
+      "broke": true
+    },
+    "WC4_alt_write_cell": {
+      "D2_alphaH": 18,
+      "R2_2D_aH_D": 12,
+      "broke": true
+    },
+    "WC5_alt_cross_identity": {
+      "R2_D": 432,
+      "broke": true
+    },
+    "WC6_nonzero_tensor_rest": {
+      "residue": 9,
+      "broke": true
+    },
+    "all_broke_as_predicted": true
+  },
+  "main_predictions_pass": true,
+  "wrong_controls_pass": true,
+  "scientific_verdict": "PASS",
+  "execution_status": "CLEAN",
+  "K_gates": {
+    "K1_external_anchor": "N/A (structural role-separation)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (roles/identities/anchors/WCs locked in precommit pre-execution)",
+    "K4_typed_inputs": "PASS (R/D/alpha_H + SHA-locked CSV)",
+    "K5_reproduction_on_demand": "PASS (deterministic; sub-second)"
+  }
+}

@@ -1,0 +1,5 @@
+variant_id,variant_name,variant_class,contact_count,port_labels,source_basis,selection_status,physical_coordination_claim
+EV01,OCT6_PRIMARY,PRIMARY_SOURCE_NATIVE,6,-x;+x;-y;+y;-z;+z,CR120U six signed-axis vertices,PRIMARY_FOR_ALL_SPECIES,false
+EV02,TET4_EVEN_CONTROL,GEOMETRY_CONTROL,4,000;011;101;110,CR120U tetrahedral realization not globally excluded,CONTROL_ONLY,false
+EV03,TET4_ODD_CONTROL,GEOMETRY_CONTROL,4,001;010;100;111,CR120U tetrahedral realization not globally excluded,CONTROL_ONLY,false
+EV04,CORE_ONLY_CONTROL,NULL_CONTROL,0,,formula graph without hydration envelope,CONTROL_ONLY,false

@@ -1,0 +1,110 @@
+{
+  "all_wrong_controls_detected": true,
+  "controls": [
+    {
+      "control_id": "WC01",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "merge F81 roster cardinality with P100 packet multiplicity"
+    },
+    {
+      "control_id": "WC02",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "call workbook a canonical QP093A mutation"
+    },
+    {
+      "control_id": "WC03",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "install five manual stable reclassifications"
+    },
+    {
+      "control_id": "WC04",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "claim one row maps one-to-one to one packet"
+    },
+    {
+      "control_id": "WC05",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "remove only 24-row family and claim 12600"
+    },
+    {
+      "control_id": "WC06",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "hide extra omissions or overlay insertions"
+    },
+    {
+      "control_id": "WC07",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "merge 126, 144, and 162"
+    },
+    {
+      "control_id": "WC08",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "substitute Theta 17 or 19 and retain observed budgets"
+    },
+    {
+      "control_id": "WC09",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "treat 14400 as observed inventory"
+    },
+    {
+      "control_id": "WC10",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "label target-aware workbook result blind"
+    },
+    {
+      "control_id": "WC11",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "use Higgs reveal to authorize roster membership"
+    },
+    {
+      "control_id": "WC12",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "promote 81-row roster to physical particle inventory"
+    },
+    {
+      "control_id": "WC13",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "mutate frozen sources or registries"
+    },
+    {
+      "control_id": "WC14",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "hide rounding or semantic residuals"
+    },
+    {
+      "control_id": "WC15",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "passed": true,
+      "wrong_control": "execute workbook-generated Python or external physics"
+    }
+  ]
+}

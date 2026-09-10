@@ -1,0 +1,14 @@
+{
+  "candidate_passes": {
+    "REQ02": 132,
+    "REQ08": 132,
+    "REQ09": 132,
+    "REQ15": 132
+  },
+  "diagnostic_sha256": "712b36f1d82dc40d53ddae078d0846542e29bf3a040614b562f70961bb65d097",
+  "installed_gauge": "canonical positive-first-row only",
+  "passing_cases": 528,
+  "placement_cases": 528,
+  "status": "PASS",
+  "surviving_gauges": 4
+}

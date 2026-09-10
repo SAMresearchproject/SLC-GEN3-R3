@@ -1,0 +1,24 @@
+CR001@19_SAM_DERIVED_THERMAL_LADDER_CMB_AND_BBN
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER
+Sealed by: Sean Brady, 2026-06-27
+Verdict: FAIL  (P1 +6.87%, P2 -6.43% over 5% threshold; P3 +2.87% PASS)
+Cause: Saha first-approximation recombination undershoots z_*; substrate identities unchanged.
+Retest: CR001b@19 with Peebles non-equilibrium recombination at the same gates.
+
+Local artifacts (SHA-256):
+  7aec7240daf98c9a99e010692ec97e9966b3221568977538b1917561c304bdff  CR001_PRECOMMIT.md
+  cca2f28df75b58c5ebf17473b2e0428b49137065e7527bbb42856b0314d444d4  CR001_runner.py
+  87d962542f7d331765a12291af08e1480b40385718707ed6d180cad355e79d95  CR001_result.md
+  8adb92c3d7f61e1314350da4cc4ae6a9ab007f951ece9670836be4f9185b162e  CR001_summary.json
+  387184edca3a1340211b7ea3e7b0c2a83c2da2421b1d638c1d5e71984d6127df  CR001_evidence_rows.csv
+  63d665af7f7e4d7f294fd4d7e9be5f8a6fa79fec18baf7d7d5ed4bfd867368bb  CR001_declared_premises.json
+  88328ebe40bced3a852825afccfe0fd6d76e2169d0bf52bc445b73c7f75b124e  CR001_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+
+Internal cross-checks (same substrate, different recombination model):
+  bdd4dc29688af099a0ec5b6f47e4cb0e449f0ff36c45037e545bf76bb88879ce  CR018b_PRECOMMIT.md (BAO r_d via EH fit)
+  ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da  CR019_PRECOMMIT.md  (CMB compressed via HS/EH fits)

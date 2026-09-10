@@ -1,0 +1,121 @@
+{
+  "cr_id": "CR061a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_IDEAL_QUBIT_SELECTION_3BODY_OCTET_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR061a_IDEAL_QUBIT_SELECTION_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T01:16:20Z",
+  "promoted_3body_standard_pool": 107,
+  "q0_subset": 17,
+  "ideal_candidates_count": 2,
+  "ideal_candidates": [
+    {
+      "partition": "1+2+4",
+      "sorted_abc": "(1,2,4)",
+      "M_native": "756",
+      "S_debit_predicted": "0.464844",
+      "structural_form": "(alpha_H^0, alpha_H^1, alpha_H^2)"
+    },
+    {
+      "partition": "2+4+8",
+      "sorted_abc": "(2,4,8)",
+      "M_native": "3024",
+      "S_debit_predicted": "1.859375",
+      "structural_form": "(alpha_H^1, alpha_H^2, alpha_H^3)"
+    }
+  ],
+  "slot_role_map": {
+    "carrier_slot_a": "weight 1/4, route identity (CR051)",
+    "envelope_slot_b": "weight 9/16, letter content with 9/8 surcharge (CR051)",
+    "sensor_slot_c": "weight 1/4, boundary stress readout (CR054)",
+    "total_weight": "17/16"
+  },
+  "S_debit_formula_used": "S_debit(q=0) = (17/16) * M_native / R^3 (locked in CR129b)",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "screening_csv_sha256": "589717e5d1a247eb599cb5ecf418ab497b50a5c08ee908e2c4e03038873012f1",
+  "candidates_csv_sha256": "c2d4477060563a12e14cb967a9f1ff1d5be933aba88228dcddb991abbeec84b1",
+  "selection_lock_sha256": "3b1dae5922ab80e76a19c2ccac8afa2066e3fa6f2bb6355673abf84fac6d23e7",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR060a_alphabet_csv": "33f5c1f05bb23a69556d9c68f219a2515ddcd394c0310c85b5427e25bc341cdd",
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_107_promoted_3body_rows_walked",
+      "pass": true,
+      "details": "3body_standard promoted rows = 107"
+    },
+    {
+      "name": "P2_seventeen_q0_rows",
+      "pass": true,
+      "details": "q=0 rows = 17"
+    },
+    {
+      "name": "P3_two_ideal_candidates_selected",
+      "pass": true,
+      "details": "q=0 AND all-distinct = 2 (expected 2: (1,2,4) and (2,4,8))"
+    },
+    {
+      "name": "P4_both_candidates_are_alpha_H_ladders",
+      "pass": true,
+      "details": "alpha_H ladder count = 2 / 2"
+    },
+    {
+      "name": "P5_lighter_candidate_is_1_2_4",
+      "pass": true,
+      "details": "lightest candidate: (1,2,4) at M = 756 MeV"
+    },
+    {
+      "name": "P6_selection_lock_written",
+      "pass": true,
+      "details": "selection lock sha256 = 3b1dae5922ab80e76a19c2ccac8afa2066e3fa6f2bb6355673abf84fac6d23e7"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR060a_alphabet_unmodified",
+      "pass": true,
+      "details": "CR060a alphabet read-only; CR061a filters subset without reclassifying."
+    },
+    {
+      "name": "WC2_CR119_catalog_unmodified",
+      "pass": true,
+      "details": "CR119 read-only."
+    },
+    {
+      "name": "WC3_no_hardware_claim",
+      "pass": true,
+      "details": "CR061a is a structural-ideality selection at the protocol layer; no hardware claim made."
+    },
+    {
+      "name": "WC4_other_qubit_candidates_NOT_excluded_as_non_qubits",
+      "pass": true,
+      "details": "Rows that fail one or more filters (q >= 1, repeated slots) are NOT claimed to be non-qubits.  They are claimed to lack STRUCTURAL IDEALITY in the carrier/envelope/sensor mapping.  They may still function as qubits with degraded architectural cleanliness."
+    },
+    {
+      "name": "WC5_alpha_H_ladder_observation_NOT_axiomatic",
+      "pass": true,
+      "details": "The fact that both candidates are pure alpha_H ladders is an OBSERVATION from the filter outcome, not an axiom.  CR061a does not impose 'alpha_H ladder' as a fourth filter; it notes that the structural-ideality filters happen to select only alpha_H-ladder triples."
+    },
+    {
+      "name": "WC6_S_debit_predictions_use_CR129b_locked_formula",
+      "pass": true,
+      "details": "S_debit = (17/16) * M / R^3 is the locked q=0 formula from CR129b.  CR061a uses it directly; predictions are not new claims."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "CR062a: Paul Revere protocol sharpening with the (1/4, 9/16, 1/4) slot weights -- refine CR054's 7 correction rules using the locked ideal qubits.",
+    "CR063a: hardware translation document -- which physical platforms can realize (1,2,4) and (2,4,8)?",
+    "CR064a: coherence-ladder vs threshold-theorem comparison (1/12 = A_share vs ~1% fault tolerance threshold).",
+    "Mass-to-frequency calibration: how do 756 MeV and 3024 MeV translate to physical qubit splitting frequencies?",
+    "First-principles derivation of why structural ideality selects pure alpha_H ladders is open."
+  ]
+}

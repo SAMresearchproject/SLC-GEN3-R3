@@ -1,0 +1,29 @@
+{
+  "bin_counts": {
+    "bound_composite_rows": 63,
+    "stable_matter_rows": 63
+  },
+  "boundary": "Export uses CR119_courtroom_matter_table.csv as the formal 126-row promoted particle surface; it does not filter the 321-row particle table by matter-row flags.",
+  "checks_passed": 11,
+  "checks_total": 11,
+  "cr_id": "CR219",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T00:34:49+00:00",
+  "matter_gate_counts": {
+    "PASS_BOUND_COMPOSITE_MATTER": 63,
+    "PASS_STABLE_SINGLE_WRITE_MATTER": 63
+  },
+  "output": "09a_PARTICLE_MASS_CHAIN/CR219_PROMOTED_PARTICLE_ROWS_EXPORT/CR219_promoted_particle_rows_126.csv",
+  "output_sha256": "a0d981d9552b1344027b39d663e783a6dc24157359204b43f72240d3b217aab1",
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260620_193449_CR219_runner.md",
+  "promotion_counts": {
+    "BOUND_COMPOSITE_ROW_ALLOWED": 49,
+    "BOUND_MATTER_ROW_ALLOWED": 14,
+    "MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE": 63
+  },
+  "result_class": "CR219_PASS_PROMOTED_PARTICLE_ROWS_EXPORT__126_ROWS__CR119_MATTER_GATE_SURFACE__63_STABLE_PLUS_63_BOUND",
+  "row_count": 126,
+  "source": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_matter_table.csv",
+  "test_id": "CR219_PROMOTED_PARTICLE_ROWS_EXPORT",
+  "unique_candidate_ids": 126
+}

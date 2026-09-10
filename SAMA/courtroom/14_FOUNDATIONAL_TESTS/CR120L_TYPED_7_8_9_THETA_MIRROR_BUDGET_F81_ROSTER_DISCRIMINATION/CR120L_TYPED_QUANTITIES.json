@@ -1,0 +1,62 @@
+{
+  "F81_equals_P100": false,
+  "distinct_type_count": 9,
+  "entities": [
+    {
+      "authority": "CR269",
+      "id": "THETA_OUT_18",
+      "type": "CarrierReleaseQuantum",
+      "value": 18
+    },
+    {
+      "authority": "CR269",
+      "id": "BOW_RETAINED_M_126",
+      "type": "ScratchRetainedBudgetUnit",
+      "value": 126
+    },
+    {
+      "authority": "CR269",
+      "id": "R2_SURFACE_144",
+      "type": "MirrorAreaBudgetUnit",
+      "value": 144
+    },
+    {
+      "authority": "CR120K_EXACT_COMPOSITION",
+      "id": "W9_WEIGHT_162",
+      "type": "ClosureWitnessBudgetUnit",
+      "value": 162
+    },
+    {
+      "authority": "USER_RESEARCH_OVERLAY",
+      "id": "F81_ROSTER_CARDINALITY",
+      "type": "WorkbookRowCount",
+      "value": 81
+    },
+    {
+      "authority": "CR120K",
+      "id": "P100_PACKET_MULTIPLICITY",
+      "type": "IndependentPacketCount",
+      "value": 100
+    },
+    {
+      "authority": "USER_RESEARCH_OVERLAY",
+      "id": "L_MINUS_12600",
+      "type": "ConstructedRosterNativeBudget",
+      "value": 12600
+    },
+    {
+      "authority": "DERIVED_ONLY",
+      "id": "L_MID_14400",
+      "type": "DerivedMirrorMidpointBudget",
+      "value": 14400
+    },
+    {
+      "authority": "CR120K",
+      "id": "L_PLUS_16200",
+      "type": "IndependentInventoryNativeBudget",
+      "value": 16200
+    }
+  ],
+  "row_to_packet_bijection_installed": false,
+  "same_scalar_merge_allowed": false
+}

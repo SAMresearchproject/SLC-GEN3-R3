@@ -1,0 +1,31 @@
+{
+  "candidates": {
+    "D2_9": {
+      "branches": 17,
+      "campaigns": 59,
+      "carrier_context_files": 73,
+      "files": 83
+    },
+    "Theta18": {
+      "branches": 17,
+      "campaigns": 76,
+      "carrier_context_files": 86,
+      "files": 120
+    },
+    "hV_54": {
+      "branches": 1,
+      "campaigns": 9,
+      "carrier_context_files": 13,
+      "files": 15
+    },
+    "m3_6": {
+      "branches": 9,
+      "campaigns": 22,
+      "carrier_context_files": 27,
+      "files": 35
+    }
+  },
+  "matched_files": 175,
+  "policy": "DESCRIPTIVE_ONLY_NOT_A_PROOF_GATE",
+  "scanned_result_or_summary_files": 908
+}

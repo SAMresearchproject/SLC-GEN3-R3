@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR136_QP_CHAIN_INGEST",
+  "files": [
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json",
+      "mode": "100644",
+      "git_blob": "f0fa9a057bd86705ce153e05cc222d6ba13825f5",
+      "bytes": 14877,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "d9e9d6d999aff54841ea1951e4d76a5d53665ad5",
+      "bytes": 97,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_manifest.csv",
+      "mode": "100644",
+      "git_blob": "7e452dd61faa7d4959874f37242cef4b66b0cebb",
+      "bytes": 24475,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_ingest_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_predictions.csv",
+      "mode": "100644",
+      "git_blob": "d033a9a7117a090b832d1e1948a7f2db24b69f32",
+      "bytes": 574,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_result.md",
+      "mode": "100644",
+      "git_blob": "355aaf2aefce014f14a739b3de44103e78f15d04",
+      "bytes": 8018,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_result.md",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_result.md"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_runner.py",
+      "mode": "100644",
+      "git_blob": "c72a82ad178de48b660b9f3e88f5ae59f210eb67",
+      "bytes": 29904,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_runner.py",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_runner.py"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "a5f4e90dd2856fbcb2b5fb77a42ffd8e2dd31384",
+      "bytes": 700,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_summary.json",
+      "mode": "100644",
+      "git_blob": "1485d21400769b55d41b4424a2becdaa9d680b81",
+      "bytes": 4774,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_summary.json",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_summary.json"
+    },
+    {
+      "path": "00_governance/CR136_QP_CHAIN_INGEST/CR136_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "eb7c32bd2ed74b6a8a84ffc46c4f02e7b8aa9383",
+      "bytes": 1481,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR136_QP_CHAIN_INGEST/CR136_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR136_QP_CHAIN_INGEST/CR136_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR136@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

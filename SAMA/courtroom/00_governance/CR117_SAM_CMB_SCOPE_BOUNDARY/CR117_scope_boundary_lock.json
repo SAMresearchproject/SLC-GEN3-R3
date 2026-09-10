@@ -1,0 +1,184 @@
+{
+  "lock_id": "CR117_SAM_CMB_SCOPE_BOUNDARY_LOCK",
+  "scope": "COURTROOM_LEVEL_GOVERNANCE_METHODOLOGICAL_HANDOFF",
+  "sealed_at_utc": "2026-06-14T04:04:45Z",
+  "what_this_documents": "the structural boundary between (a) what the SAM substrate framework derives from first principles - THE LAWS - and (b) what is intrinsically observational and requires CMB initial-condition data - THE CONFIGURATION",
+  "philosophical_position": "This is NOT a SAM debt. It is the same clean separation that mainstream cosmology applies (LCDM physics + Planck initial perturbations -> structure formation simulations), but with SAM-substrate laws in place of GR + LCDM in the front half. SAM closes MORE structurally than LCDM (Omega_b, retention, concentration, mass-function lane structure) but the per-galaxy realization of those laws in OUR particular universe still requires the CMB-measured initial conditions.",
+  "user_insight_verbatim": "The model is nuts everywhere else. PBH at the moment of the BB carried enough mass to cluster and bring in hydrogen to begin star formation. Outside matter caught by expansion in theory could have been one giant object to the left or perfectly dispersed objects, that is impossible for the model to predict, the one area we need the CMB data because this information is literally impossible to derive.",
+  "structural_law_ledger": [
+    {
+      "item": "A(r) = r_s(<r)/r many-source halo cumulative kernel",
+      "type": "law",
+      "closure_artifact": "Courtroom 08/CR022",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "rho(r) = rho_0 / (1 + (r/r_c)^2) native R12 cored radial law",
+      "type": "law",
+      "closure_artifact": "G732c PASS upstream",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "r_c = R_outer / 12 (R12 native concentration scale)",
+      "type": "law",
+      "closure_artifact": "G732c + G735c c = R = 12",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "Omega_b ~ 0.04930 cosmic baryon density",
+      "type": "global structural constant",
+      "closure_artifact": "Courtroom 07/CR018 + CR114 bridge (sigma 0.0017)",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "Omega_PBH ~ 0.265 (BB-origin clustered PBH/trapped-A inventory)",
+      "type": "global structural constant",
+      "closure_artifact": "Courtroom 08/CR023 (omega_pbh_matches_g394)",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "Omega_PBH / Omega_H = 5.36 global inventory ratio",
+      "type": "global structural constant",
+      "closure_artifact": "G733c BOUNDARY + CR027 PBH/H ratio",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "f_ret = D/(D+2) = 3/5 = 0.6 baryon retention",
+      "type": "global structural constant",
+      "closure_artifact": "G734c",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "c = R = 12 native concentration relation",
+      "type": "law",
+      "closure_artifact": "G735c PASS (median RMS 40.95 -> 17.54 km/s, 2.31x)",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "R12 scatter mass-function lane surface",
+      "type": "law",
+      "closure_artifact": "G736c PASS_SCOPED (median RMS 17.54 -> 8.47 km/s, 162/175 galaxies improved)",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "Halo formation cycle decomposition (R12 cycle floor + residual)",
+      "type": "law",
+      "closure_artifact": "G738c PASS_SCOPED",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    },
+    {
+      "item": "BB-PBH first scaffold + hydrogen catchup route",
+      "type": "law (formation order)",
+      "closure_artifact": "G682c + QGA038H + CR027",
+      "free_parameters": 0,
+      "cmb_input_required": false
+    }
+  ],
+  "cmb_dependent_ledger": [
+    {
+      "item": "per-galaxy R12 residual lane assignment",
+      "type": "configuration",
+      "why_observational": "depends on which specific baryon perturbation seeded which galaxy in our universe; the substrate kernel is indifferent to that contingent fact",
+      "current_boundary_artifact": "G739c BOUNDARY (35/175 exact) + G742c BOUNDARY (26/175 exact) + G743d BOUNDARY (28/175 exact, this session)",
+      "cmb_data_needed": "Planck angular power spectrum + acoustic peak amplitudes + perturbation spectrum (n_s, sigma_8) for initial baryon distribution"
+    },
+    {
+      "item": "per-galaxy PBH-to-hydrogen mass split (deviation from global k=5.36)",
+      "type": "configuration",
+      "why_observational": "primordial perturbation amplitude at each galaxy's seed location sets the local PBH cluster mass vs hydrogen catchup mass; structurally indeterminate before observation",
+      "current_boundary_artifact": "G733c BOUNDARY + G742c three-channel pressure analysis",
+      "cmb_data_needed": "Planck primordial perturbation spectrum + isocurvature mode bounds"
+    },
+    {
+      "item": "per-galaxy formation-cycle phase (G738c residual)",
+      "type": "configuration",
+      "why_observational": "how far each galaxy has progressed through the PBH-clusters-first / hydrogen-catches-up timeline depends on its individual seed perturbation amplitude and age",
+      "current_boundary_artifact": "G738c BOUNDARY/SCOPED + G739c BOUNDARY + G741c BOUNDARY",
+      "cmb_data_needed": "Planck CMB temperature anisotropy + lensing reconstruction for line-of-sight matter distribution"
+    },
+    {
+      "item": "per-galaxy halo mass function index",
+      "type": "configuration",
+      "why_observational": "Press-Schechter-style mass function emerges from primordial perturbation amplitude statistics; SAM closes the FORM of the relation, CMB sets the AMPLITUDE for our universe",
+      "current_boundary_artifact": "CR029 native radial law debt ledger + G736c scoped pass",
+      "cmb_data_needed": "Planck sigma_8 = 0.8111 +/- 0.0060 + n_s = 0.9649 +/- 0.0042 (already intaken at CR108)"
+    },
+    {
+      "item": "absolute PBH abundance normalization beyond global f_PBH ~ Omega_DM",
+      "type": "configuration",
+      "why_observational": "PBH birth spectrum at BB depends on which inflationary mode peak seeded the formation; SAM gives the global integral, not the spectrum",
+      "current_boundary_artifact": "CR025 PARTIAL + CR029 BOUNDARY + CR115 PARTIAL bridge + CR116 correction",
+      "cmb_data_needed": "Planck isocurvature constraints + primary CMB peak heights to lock primordial PBH spectrum"
+    }
+  ],
+  "explains_why": [
+    "G743d hit BOUNDARY (28/175 exact, this session) despite zero free parameters - it tried to derive a configuration quantity from substrate alone",
+    "G739c-G742c progressive BOUNDARY chain converged because they're all chasing the same configuration quantity",
+    "CR114 closes Omega_b at 1/580 sigma (global structural) but CR115 had to be PARTIAL on per-galaxy halo profile (configuration)",
+    "CR025 / CR029 / CR030 in branch 08 explicitly marked 'native radial organization law / mass function / concentration' as OPEN - this CR names WHY: it is observational, not structural"
+  ],
+  "structural_law_provenance_sha256": {
+    "CR018_07_summary.json": "2810658911d7f7008c280febd53d1f27d93823f9c9e6362c58f06e66cf6c11a5",
+    "CR023_07_summary.json": "ab88db5df8c0c90715c4e2c891fe256a81357a6e140131459ef39ce1b6378872",
+    "CR022_08_summary.json": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_08_summary.json": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_08_summary.json": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_08_summary.json": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR029_08_summary.json": "903735c8668cc091bf3eadf87cbb9a70683bd485f7cde9b4fd84f41bd84b6cb6",
+    "CR030_08_summary.json": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc",
+    "CR114_cosmic_baryon_bridge.json": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "CR115_galaxy_pbh_bridge.json": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c",
+    "CR116_correction_lock.json": "d3f3204be9cbc5bbb9520664bdb937452981e494f38c6154266fffa95a04fd65"
+  },
+  "cmb_dependent_provenance_sha256": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR111_cosmic_baryon_appeal_lock.json": "82d6913c614be2bd0def5329511ef2094ea134489d70a1cdb855e22dfe84a409"
+  },
+  "gtest_provenance_sha256": {
+    "g732c_summary.json": "d76909e81b06f19e3ee4e4d78fbd2ddf0415c6b5ee1481af504dfd226b689428",
+    "g735c_summary.json": "ac542a764b09e96b2df675894e2a69e8ff44d31e56a9610b64b83b4406be6385",
+    "g736c_summary.json": "d3b6165f88aaee6fe8dc17651344cf449aeb8db59bcbf28ef78ba6e6fe0d632a",
+    "g738c_summary.json": "00d799f899b93c07a9bca616db82db1064636e462ddad797a2a14e1797537217",
+    "g739c_summary.json": "25b249ef22b4221bb2c5d5d091dc5622ed3eb072adc62fba0ca705a298bb7462",
+    "g742c_summary.json": "71ef9a60952e23b424ec3fc6057b4f8299e58030eb1c318e94346c24780f2d65",
+    "g743d_summary.json": "da7802cdce83c9c62649201ad18781fd4ef7149eea72ff88f507a043a2f6931c"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "forward_blind_expectations": [
+    {
+      "id": "CR117_PRED_1",
+      "claim": "When a future Courtroom CR intakes the FULL Planck CMB angular power spectrum (TT/TE/EE + lensing) as initial-condition data, and feeds it into the closed SAM laws (G732c radial law, G733c ratio, G734c retention, G735c c=R=12, G736c mass-function lane), the resulting per-galaxy R12 lane prediction will improve substantially over G739c-G743d's 28-35/175 exact residual rates WITHOUT introducing any free parameter, because the previously missing input (the initial baryon perturbation field) is now supplied.",
+      "testable_at": "future Courtroom CMB-IC intake CR + per-galaxy SPARC reveal CR",
+      "falsification_criterion": "if intaking Planck angular power spectrum + sigma_8 + n_s does NOT improve per-galaxy R12 assignment substantially, then either (a) SAM substrate laws are incomplete in the halo regime, or (b) the structural decomposition (G738c cycle / G740c family / G742c lag primitive) is the wrong factoring of the R=12 grid. Either case is a structural lesson, not a fitting problem.",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR117_PRED_2",
+      "claim": "The per-galaxy PBH-cluster vs hydrogen-arrival mass split for each SPARC galaxy is determined by the LOCAL value of the primordial Planck perturbation amplitude integrated along the line of sight to that galaxy. This is in principle measurable from CMB temperature + polarization + lensing maps + SDSS redshifts; in practice it is a complex inverse problem that has not been solved yet.",
+      "testable_at": "future joint Planck + SDSS + SPARC analysis",
+      "falsification_criterion": "if the perturbation-amplitude-along-line-of-sight method does not correlate with G742c three-channel pressures or G733c k_inventory, the SAM-PBH-first / hydrogen-catchup framing has a structural gap",
+      "free_parameters": 0
+    },
+    {
+      "id": "CR117_PRED_3",
+      "claim": "Once CR117_PRED_1 closes, the four-mode structure (Earth EP, galaxy halo, PBH inventory, cosmic baryon Omega_b) is fully closed for our universe: SAM substrate laws (Earth + Omega_b + halo radial law + PBH inventory) + Planck CMB ICs (per-galaxy configuration) = full halo prediction, with zero free parameters across the entire closure.",
+      "testable_at": "future CR117_PRED_1 reveal + per-galaxy SPARC closure",
+      "falsification_criterion": "if any free parameter must be introduced anywhere in the closure beyond the universally accepted Planck-measured perturbation spectrum, the four-mode unification claim is structurally broken",
+      "free_parameters": 0
+    }
+  ],
+  "prior_artifacts_unchanged": true,
+  "free_parameters_introduced": 0,
+  "modifies_no_branch_artifact": true
+}

@@ -1,0 +1,8 @@
+platform_id,scenario,sealed_packet,G_protocol,A_leak,A_side,threshold_reached,packet_checksum,packet_state,warning_allowed,passed
+NV_CENTER_T2,nv_sealed_below_threshold,True,1,1/48,1/24,False,162,SEALED_PACKET,False,True
+NV_CENTER_T2,nv_threshold_exact,True,1,1/24,1/24,True,162,VALID_WARNING_PACKET,True,True
+NV_CENTER_T2,nv_no_protocol_gate,True,0,1/24,1/24,True,162,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_sealed_below_threshold,True,1,1/48,1/24,False,162,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_threshold_exact,True,1,1/24,1/24,True,162,VALID_WARNING_PACKET,True,True
+PHOTONIC_TAU_ENT,photonic_no_protocol_gate,True,0,1/24,1/24,True,162,SEALED_PACKET,False,True
+PHOTONIC_TAU_ENT,photonic_corrupt_threshold,False,1,1/24,1/24,True,corrupt,CORRUPT_PACKET,False,True

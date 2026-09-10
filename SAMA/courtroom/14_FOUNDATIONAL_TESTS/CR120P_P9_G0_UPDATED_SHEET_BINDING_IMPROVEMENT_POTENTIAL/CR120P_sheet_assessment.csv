@@ -1,0 +1,3 @@
+assembly,source_rows,unique_candidate_ids,M_native_sum_as_saved,p9_g0_rows_present,p9_g0_M_native_present,p9_g0_ids_present,declared_parents_retained,complete_p9_g0_removal_as_saved,M_native_sum_after_specific_p9_g0_value_removal,nonzero_M_native_rows_after_removal,as_saved_verdict,after_specific_value_removal_potential
+100_row_16200,100,100,16200,0,0,,10,true,16200,100,YES_POTENTIAL,YES_POTENTIAL
+81_row_12600,81,81,12600,4,49.5,QP093A-0019|QP093A-0020|QP093A-0085|QP093A-0086,10,false,12550.5,77,NO_SAME_MECHANISM_AS_SAVED,YES_POTENTIAL

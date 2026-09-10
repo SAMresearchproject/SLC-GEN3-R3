@@ -1,0 +1,28 @@
+{
+  "cr_id": "CR105",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "META_CONSISTENCY_CHECK_BETWEEN_GATE_2_AND_GATE_3_PARTIAL_CLOSURES",
+  "execution_status": "CLEAN",
+  "result_class": "GATE_CROSS_INTEGRITY_PASS",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "joint_anchor_count": 4,
+  "honest_negative_count": 3,
+  "honest_negative_correctly_gated": 3,
+  "all_joint_within_1_sigma": true,
+  "any_joint_outside_3_sigma": false,
+  "validity_boundary": 0.9166666666666666,
+  "upstream_CR102_verdict": "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_ASTROPHYSICAL_PRECISION",
+  "upstream_CR104_verdict": "PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+  "upstream_CR102_envelope_sha256": "594f7e88d5d00c8974eca72ce29264084a4f5cb8a4f4aceb1f391ac456358029",
+  "upstream_CR104_envelope_sha256": "91d425b692d9477af5b1c98dbb5893d178758376adc5a40a5d38757eb8fb6d9d",
+  "prediction_commit_sha256": "93b3a2b55af5ae59b06d7e5838902cd4914366ff619941994365b8b00607fba4",
+  "prediction_commit_utc": "2026-06-13T23:11:59Z",
+  "anchor_envelope_sha256": "dabdc50b4d78347fe80c9c5df55195dd4d9e88ffdff55e02c3533208655f3f85",
+  "anchor_envelope_open_utc": "2026-06-13T23:11:59Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "Anchor citation_verification_status PENDING; curator promotion required",
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "14 branch seal sha256 sibling pending"
+  ]
+}

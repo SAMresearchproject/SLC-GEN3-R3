@@ -1,0 +1,5 @@
+candidate,status,supporting_contacts,blocking_contacts,reason
+LITERAL_TWO_HALF,REJECTED_BY_FROZEN_RECORD,0,4,B is non-scalar; X1 is scalar one; route has six half-slots; split alone does not close
+TYPED_INTERFACE_RELAY,SUPPORTED_AS_ARCHIVAL_HYPOTHESIS,5,1,"Typed separation, reciprocal route, and return relevance hold; explicit B=request/X1=response weld absent"
+STATIC_RUNTIME_ONLY,PASS_IN_RUNTIME_SCOPE,3,0,One immutable X1 object; fixed singleton W9 result; no intervention syntax
+B_CREATES_X1,UNTESTABLE_IN_CURRENT_RUNTIME,0,1,No sourced X1 intervention surface; physical creation is unresolved rather than falsified

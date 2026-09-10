@@ -1,0 +1,91 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION",
+  "schema": "CR005c_SOURCE_MANIFEST_V1",
+  "source_count": 14,
+  "sources": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260720_194820_no_script.md",
+      "role": "task_specific_preflight",
+      "bytes": 17257,
+      "sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869"
+    },
+    {
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "role": "current_master_formula",
+      "bytes": 41650,
+      "sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4"
+    },
+    {
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "role": "current_action_engine",
+      "bytes": 39001,
+      "sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd"
+    },
+    {
+      "path": "SAM_TESTING_RULES.md",
+      "role": "current_testing_rules",
+      "bytes": 4247,
+      "sha256": "6913e15b270ec16aba4c8985f6f9c2455d99d1debaf57cbf20575ed543e422a5"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/complete_typed_relation_history_runner.py",
+      "role": "parent_spatial_enumeration_definition",
+      "bytes": 57534,
+      "sha256": "80c33b0be2437deb718eab338f2ca3a9086fbe7b781db596ace384e901d33b82"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz",
+      "role": "frozen_three_stage_atom_trajectory_roster",
+      "bytes": 62636683,
+      "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/SCENARIO_SELECTION_DECOMPOSITION.csv",
+      "role": "frozen_scenario_and_typing_roster",
+      "bytes": 18469,
+      "sha256": "b1869c7cda4223484c0023fdfb04e54e533f747c457795906030fde90c14007d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_COUNTS.csv",
+      "role": "frozen_relation_history_census",
+      "bytes": 1822925,
+      "sha256": "4d15585ca5b99e0a4ad7eaf11d54e1062a1d5ebd144e5db08eab1391d1664f14"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SCHEMA.json",
+      "role": "frozen_history_bit_order_and_contact_surface",
+      "bytes": 851,
+      "sha256": "9dae50c86e9a4d0d40eb8d96d303a4d198df10ed686782593251cb54d536073d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SUMMARY.json",
+      "role": "frozen_parent_construction_summary",
+      "bytes": 5669,
+      "sha256": "0212beaa36e331a1fee8ec8f1d635b79e3569fa6e5dab1edf08347221e4c16b1"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_101_REOPENING_RELAY_DECOMPOSITION_V1/REOPENING_RELAY_CONTRACT.json",
+      "role": "frozen_101_population_contract",
+      "bytes": 5101,
+      "sha256": "415f5da194793724b0e30c6b7a616fbff376b33799974d59224683289ddfde00"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_101_REOPENING_RELAY_DECOMPOSITION_V1/release/REOPENING_RELAY_SUMMARY.json",
+      "role": "frozen_101_reopening_summary",
+      "bytes": 3712,
+      "sha256": "6667a9de8cbefc94ffa6c35815ce5fe14b734c23c649f81c05c745d55cdc3b71"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_X1_CARRIER_AXIS_REVERSAL_DISCOVERY_V1/release/AXIS_REVERSAL_SUMMARY.json",
+      "role": "latest_carrier_trajectory_context",
+      "bytes": 6440,
+      "sha256": "166dd8575958ebe72d86cdcaaf1ce16f2f6b225ad9e68e48d57066a01257a3f7"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/GW_SUBSTRATE_FRAMING.md",
+      "role": "timing_hypothesis_context_not_law",
+      "bytes": 10593,
+      "sha256": "a19afc01a749e925d6e1e4f70321217dcaca95fd5981a68e0e52ebdfcb2ed941"
+    }
+  ]
+}

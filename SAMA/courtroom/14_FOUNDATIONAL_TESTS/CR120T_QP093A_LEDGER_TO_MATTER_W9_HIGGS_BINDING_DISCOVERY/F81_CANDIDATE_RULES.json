@@ -1,0 +1,961 @@
+{
+  "domain": "Particle Stability Blocks: count=1 saved-table lane",
+  "domain_rows": 126,
+  "membership_used_for_discovery": true,
+  "recommended_for_freeze_review": "F81_TREE_DEPTH_5",
+  "rules": [
+    {
+      "allowed_features": [
+        "bin",
+        "operator_class",
+        "route_class",
+        "q_sign",
+        "closure_status",
+        "stability_status",
+        "matter_row_allowed",
+        "same_role",
+        "p",
+        "g"
+      ],
+      "discovery_target_aware": true,
+      "family": "source_typed_decision_tree",
+      "max_depth": 5,
+      "rule_id": "F81_TREE_DEPTH_5",
+      "score": {
+        "accuracy": 0.9761904761904762,
+        "conjugate_symmetry_fraction": 1.0,
+        "description_score": 96.36904761904762,
+        "exception_ids_discovery_only": [
+          "QP093A-0021",
+          "QP093A-0054",
+          "QP093A-0064"
+        ],
+        "exceptions": 3,
+        "selected_M_native_sum_reported_after_rule": "14077.125",
+        "selected_rows_reported_after_rule": 84,
+        "tree_nodes": 25,
+        "uses_M_native": false,
+        "uses_candidate_ids": false,
+        "uses_target_count_or_sum": false
+      },
+      "tree": {
+        "false": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 32,
+              "positives": 0,
+              "prediction": false
+            },
+            "leaf": false,
+            "n": 37,
+            "positives": 2,
+            "predicate": {
+              "feature": "same_role",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": false,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 2,
+                "positives": 0,
+                "prediction": false
+              },
+              "leaf": false,
+              "n": 5,
+              "positives": 2,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 3.5
+              },
+              "prediction": false,
+              "true": {
+                "leaf": true,
+                "n": 3,
+                "positives": 2,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 46,
+          "positives": 7,
+          "predicate": {
+            "feature": "bin",
+            "operator": "==",
+            "value": "unstable_resonance_rows"
+          },
+          "prediction": false,
+          "true": {
+            "false": {
+              "false": {
+                "leaf": true,
+                "n": 4,
+                "positives": 4,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 6,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 8.5
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            },
+            "leaf": false,
+            "n": 9,
+            "positives": 5,
+            "predicate": {
+              "feature": "q_sign",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 3,
+              "positives": 0,
+              "prediction": false
+            }
+          }
+        },
+        "leaf": false,
+        "n": 126,
+        "positives": 81,
+        "predicate": {
+          "feature": "g",
+          "operator": "<=",
+          "value": 1.5
+        },
+        "prediction": true,
+        "true": {
+          "false": {
+            "false": {
+              "false": {
+                "false": {
+                  "leaf": true,
+                  "n": 4,
+                  "positives": 0,
+                  "prediction": false
+                },
+                "leaf": false,
+                "n": 5,
+                "positives": 1,
+                "predicate": {
+                  "feature": "q_sign",
+                  "operator": "==",
+                  "value": "neutral"
+                },
+                "prediction": false,
+                "true": {
+                  "leaf": true,
+                  "n": 1,
+                  "positives": 1,
+                  "prediction": true
+                }
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 10.5
+              },
+              "prediction": true,
+              "true": {
+                "false": {
+                  "leaf": true,
+                  "n": 4,
+                  "positives": 4,
+                  "prediction": true
+                },
+                "leaf": false,
+                "n": 5,
+                "positives": 4,
+                "predicate": {
+                  "feature": "q_sign",
+                  "operator": "==",
+                  "value": "neutral"
+                },
+                "prediction": true,
+                "true": {
+                  "leaf": true,
+                  "n": 1,
+                  "positives": 0,
+                  "prediction": false
+                }
+              }
+            },
+            "leaf": false,
+            "n": 20,
+            "positives": 14,
+            "predicate": {
+              "feature": "g",
+              "operator": "<=",
+              "value": 0.5
+            },
+            "prediction": true,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 8,
+                "positives": 8,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 9,
+              "predicate": {
+                "feature": "q_sign",
+                "operator": "==",
+                "value": "neutral"
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 80,
+          "positives": 74,
+          "predicate": {
+            "feature": "p",
+            "operator": "<=",
+            "value": 8.5
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 60,
+            "positives": 60,
+            "prediction": true
+          }
+        }
+      }
+    },
+    {
+      "allowed_features": [
+        "bin",
+        "operator_class",
+        "route_class",
+        "q_sign",
+        "closure_status",
+        "stability_status",
+        "matter_row_allowed",
+        "same_role",
+        "p",
+        "g"
+      ],
+      "discovery_target_aware": true,
+      "family": "source_typed_decision_tree",
+      "max_depth": 6,
+      "rule_id": "F81_TREE_DEPTH_6",
+      "score": {
+        "accuracy": 0.9761904761904762,
+        "conjugate_symmetry_fraction": 1.0,
+        "description_score": 96.36904761904762,
+        "exception_ids_discovery_only": [
+          "QP093A-0021",
+          "QP093A-0054",
+          "QP093A-0064"
+        ],
+        "exceptions": 3,
+        "selected_M_native_sum_reported_after_rule": "14077.125",
+        "selected_rows_reported_after_rule": 84,
+        "tree_nodes": 25,
+        "uses_M_native": false,
+        "uses_candidate_ids": false,
+        "uses_target_count_or_sum": false
+      },
+      "tree": {
+        "false": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 32,
+              "positives": 0,
+              "prediction": false
+            },
+            "leaf": false,
+            "n": 37,
+            "positives": 2,
+            "predicate": {
+              "feature": "same_role",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": false,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 2,
+                "positives": 0,
+                "prediction": false
+              },
+              "leaf": false,
+              "n": 5,
+              "positives": 2,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 3.5
+              },
+              "prediction": false,
+              "true": {
+                "leaf": true,
+                "n": 3,
+                "positives": 2,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 46,
+          "positives": 7,
+          "predicate": {
+            "feature": "bin",
+            "operator": "==",
+            "value": "unstable_resonance_rows"
+          },
+          "prediction": false,
+          "true": {
+            "false": {
+              "false": {
+                "leaf": true,
+                "n": 4,
+                "positives": 4,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 6,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 8.5
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            },
+            "leaf": false,
+            "n": 9,
+            "positives": 5,
+            "predicate": {
+              "feature": "q_sign",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 3,
+              "positives": 0,
+              "prediction": false
+            }
+          }
+        },
+        "leaf": false,
+        "n": 126,
+        "positives": 81,
+        "predicate": {
+          "feature": "g",
+          "operator": "<=",
+          "value": 1.5
+        },
+        "prediction": true,
+        "true": {
+          "false": {
+            "false": {
+              "false": {
+                "false": {
+                  "leaf": true,
+                  "n": 4,
+                  "positives": 0,
+                  "prediction": false
+                },
+                "leaf": false,
+                "n": 5,
+                "positives": 1,
+                "predicate": {
+                  "feature": "q_sign",
+                  "operator": "==",
+                  "value": "neutral"
+                },
+                "prediction": false,
+                "true": {
+                  "leaf": true,
+                  "n": 1,
+                  "positives": 1,
+                  "prediction": true
+                }
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 10.5
+              },
+              "prediction": true,
+              "true": {
+                "false": {
+                  "leaf": true,
+                  "n": 4,
+                  "positives": 4,
+                  "prediction": true
+                },
+                "leaf": false,
+                "n": 5,
+                "positives": 4,
+                "predicate": {
+                  "feature": "q_sign",
+                  "operator": "==",
+                  "value": "neutral"
+                },
+                "prediction": true,
+                "true": {
+                  "leaf": true,
+                  "n": 1,
+                  "positives": 0,
+                  "prediction": false
+                }
+              }
+            },
+            "leaf": false,
+            "n": 20,
+            "positives": 14,
+            "predicate": {
+              "feature": "g",
+              "operator": "<=",
+              "value": 0.5
+            },
+            "prediction": true,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 8,
+                "positives": 8,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 9,
+              "predicate": {
+                "feature": "q_sign",
+                "operator": "==",
+                "value": "neutral"
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 80,
+          "positives": 74,
+          "predicate": {
+            "feature": "p",
+            "operator": "<=",
+            "value": 8.5
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 60,
+            "positives": 60,
+            "prediction": true
+          }
+        }
+      }
+    },
+    {
+      "allowed_features": [
+        "bin",
+        "operator_class",
+        "route_class",
+        "q_sign",
+        "closure_status",
+        "stability_status",
+        "matter_row_allowed",
+        "same_role",
+        "p",
+        "g"
+      ],
+      "discovery_target_aware": true,
+      "family": "source_typed_decision_tree",
+      "max_depth": 4,
+      "rule_id": "F81_TREE_DEPTH_4",
+      "score": {
+        "accuracy": 0.9603174603174603,
+        "conjugate_symmetry_fraction": 1.0,
+        "description_score": 95.78174603174604,
+        "exception_ids_discovery_only": [
+          "QP093A-0021",
+          "QP093A-0045",
+          "QP093A-0048",
+          "QP093A-0054",
+          "QP093A-0064"
+        ],
+        "exceptions": 5,
+        "selected_M_native_sum_reported_after_rule": "14072.625",
+        "selected_rows_reported_after_rule": 84,
+        "tree_nodes": 21,
+        "uses_M_native": false,
+        "uses_candidate_ids": false,
+        "uses_target_count_or_sum": false
+      },
+      "tree": {
+        "false": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 32,
+              "positives": 0,
+              "prediction": false
+            },
+            "leaf": false,
+            "n": 37,
+            "positives": 2,
+            "predicate": {
+              "feature": "same_role",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": false,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 2,
+                "positives": 0,
+                "prediction": false
+              },
+              "leaf": false,
+              "n": 5,
+              "positives": 2,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 3.5
+              },
+              "prediction": false,
+              "true": {
+                "leaf": true,
+                "n": 3,
+                "positives": 2,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 46,
+          "positives": 7,
+          "predicate": {
+            "feature": "bin",
+            "operator": "==",
+            "value": "unstable_resonance_rows"
+          },
+          "prediction": false,
+          "true": {
+            "false": {
+              "false": {
+                "leaf": true,
+                "n": 4,
+                "positives": 4,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 6,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 8.5
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            },
+            "leaf": false,
+            "n": 9,
+            "positives": 5,
+            "predicate": {
+              "feature": "q_sign",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 3,
+              "positives": 0,
+              "prediction": false
+            }
+          }
+        },
+        "leaf": false,
+        "n": 126,
+        "positives": 81,
+        "predicate": {
+          "feature": "g",
+          "operator": "<=",
+          "value": 1.5
+        },
+        "prediction": true,
+        "true": {
+          "false": {
+            "false": {
+              "false": {
+                "leaf": true,
+                "n": 5,
+                "positives": 1,
+                "prediction": false
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 5,
+              "predicate": {
+                "feature": "p",
+                "operator": "<=",
+                "value": 10.5
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 5,
+                "positives": 4,
+                "prediction": true
+              }
+            },
+            "leaf": false,
+            "n": 20,
+            "positives": 14,
+            "predicate": {
+              "feature": "g",
+              "operator": "<=",
+              "value": 0.5
+            },
+            "prediction": true,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 8,
+                "positives": 8,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 10,
+              "positives": 9,
+              "predicate": {
+                "feature": "q_sign",
+                "operator": "==",
+                "value": "neutral"
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 2,
+                "positives": 1,
+                "prediction": true
+              }
+            }
+          },
+          "leaf": false,
+          "n": 80,
+          "positives": 74,
+          "predicate": {
+            "feature": "p",
+            "operator": "<=",
+            "value": 8.5
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 60,
+            "positives": 60,
+            "prediction": true
+          }
+        }
+      }
+    },
+    {
+      "allowed_features": [
+        "bin",
+        "operator_class",
+        "route_class",
+        "q_sign",
+        "closure_status",
+        "stability_status",
+        "matter_row_allowed",
+        "same_role",
+        "p",
+        "g"
+      ],
+      "discovery_target_aware": true,
+      "family": "source_typed_decision_tree",
+      "max_depth": 3,
+      "rule_id": "F81_TREE_DEPTH_3",
+      "score": {
+        "accuracy": 0.9285714285714286,
+        "conjugate_symmetry_fraction": 1.0,
+        "description_score": 94.60714285714286,
+        "exception_ids_discovery_only": [
+          "QP093A-0021",
+          "QP093A-0045",
+          "QP093A-0046",
+          "QP093A-0047",
+          "QP093A-0051",
+          "QP093A-0057",
+          "QP093A-0064",
+          "QP093A-0103",
+          "QP093A-0104"
+        ],
+        "exceptions": 9,
+        "selected_M_native_sum_reported_after_rule": "14774.625",
+        "selected_rows_reported_after_rule": 86,
+        "tree_nodes": 13,
+        "uses_M_native": false,
+        "uses_candidate_ids": false,
+        "uses_target_count_or_sum": false
+      },
+      "tree": {
+        "false": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 32,
+              "positives": 0,
+              "prediction": false
+            },
+            "leaf": false,
+            "n": 37,
+            "positives": 2,
+            "predicate": {
+              "feature": "same_role",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": false,
+            "true": {
+              "leaf": true,
+              "n": 5,
+              "positives": 2,
+              "prediction": false
+            }
+          },
+          "leaf": false,
+          "n": 46,
+          "positives": 7,
+          "predicate": {
+            "feature": "bin",
+            "operator": "==",
+            "value": "unstable_resonance_rows"
+          },
+          "prediction": false,
+          "true": {
+            "false": {
+              "leaf": true,
+              "n": 6,
+              "positives": 5,
+              "prediction": true
+            },
+            "leaf": false,
+            "n": 9,
+            "positives": 5,
+            "predicate": {
+              "feature": "q_sign",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 3,
+              "positives": 0,
+              "prediction": false
+            }
+          }
+        },
+        "leaf": false,
+        "n": 126,
+        "positives": 81,
+        "predicate": {
+          "feature": "g",
+          "operator": "<=",
+          "value": 1.5
+        },
+        "prediction": true,
+        "true": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 10,
+              "positives": 5,
+              "prediction": true
+            },
+            "leaf": false,
+            "n": 20,
+            "positives": 14,
+            "predicate": {
+              "feature": "g",
+              "operator": "<=",
+              "value": 0.5
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 10,
+              "positives": 9,
+              "prediction": true
+            }
+          },
+          "leaf": false,
+          "n": 80,
+          "positives": 74,
+          "predicate": {
+            "feature": "p",
+            "operator": "<=",
+            "value": 8.5
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 60,
+            "positives": 60,
+            "prediction": true
+          }
+        }
+      }
+    },
+    {
+      "allowed_features": [
+        "bin",
+        "operator_class",
+        "route_class",
+        "q_sign",
+        "closure_status",
+        "stability_status",
+        "matter_row_allowed",
+        "same_role",
+        "p",
+        "g"
+      ],
+      "discovery_target_aware": true,
+      "family": "source_typed_decision_tree",
+      "max_depth": 2,
+      "rule_id": "F81_TREE_DEPTH_2",
+      "score": {
+        "accuracy": 0.9047619047619048,
+        "conjugate_symmetry_fraction": 1.0,
+        "description_score": 93.72619047619048,
+        "exception_ids_discovery_only": [
+          "QP093A-0021",
+          "QP093A-0045",
+          "QP093A-0046",
+          "QP093A-0047",
+          "QP093A-0051",
+          "QP093A-0057",
+          "QP093A-0064",
+          "QP093A-0066",
+          "QP093A-0069",
+          "QP093A-0072",
+          "QP093A-0103",
+          "QP093A-0104"
+        ],
+        "exceptions": 12,
+        "selected_M_native_sum_reported_after_rule": "15296.625",
+        "selected_rows_reported_after_rule": 89,
+        "tree_nodes": 7,
+        "uses_M_native": false,
+        "uses_candidate_ids": false,
+        "uses_target_count_or_sum": false
+      },
+      "tree": {
+        "false": {
+          "false": {
+            "leaf": true,
+            "n": 37,
+            "positives": 2,
+            "prediction": false
+          },
+          "leaf": false,
+          "n": 46,
+          "positives": 7,
+          "predicate": {
+            "feature": "bin",
+            "operator": "==",
+            "value": "unstable_resonance_rows"
+          },
+          "prediction": false,
+          "true": {
+            "leaf": true,
+            "n": 9,
+            "positives": 5,
+            "prediction": true
+          }
+        },
+        "leaf": false,
+        "n": 126,
+        "positives": 81,
+        "predicate": {
+          "feature": "g",
+          "operator": "<=",
+          "value": 1.5
+        },
+        "prediction": true,
+        "true": {
+          "false": {
+            "leaf": true,
+            "n": 20,
+            "positives": 14,
+            "prediction": true
+          },
+          "leaf": false,
+          "n": 80,
+          "positives": 74,
+          "predicate": {
+            "feature": "p",
+            "operator": "<=",
+            "value": 8.5
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 60,
+            "positives": 60,
+            "prediction": true
+          }
+        }
+      }
+    }
+  ]
+}

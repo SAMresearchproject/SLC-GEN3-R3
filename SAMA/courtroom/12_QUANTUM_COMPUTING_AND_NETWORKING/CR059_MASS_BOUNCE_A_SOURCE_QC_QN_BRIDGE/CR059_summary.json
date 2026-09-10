@@ -1,0 +1,138 @@
+{
+  "test_id": "CR059_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE",
+  "verdict": "CR059_PASS_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "QC_QN_SOURCE_AWARE_PROTOCOL_EXTENSION",
+  "source_chain": "unresolved SW -> resolved write/bounce split -> r_bounce -> q_A,i = m_i * (1 + r_bounce,i) -> particle A source -> macro A accumulation -> field-behavior protocol surface",
+  "pass_conditions": {
+    "prior_qc_qn_branch_boundary_pass": true,
+    "qc_carrier_control_sensor_available": true,
+    "qn_open_route_matches_primary_carrier": true,
+    "earth_a_surface_available": true,
+    "qp075_particle_surface_active": true,
+    "cr103a_bounce_a_lock_present": true,
+    "cr201_qA_source_bridge_exact": true,
+    "cr209_write_bounce_topology_generalizes": true,
+    "hardware_and_full_theory_boundaries_preserved": true
+  },
+  "evidence_rows": [
+    {
+      "key": "source_chain",
+      "value": "unresolved SW -> resolved write/bounce split -> r_bounce -> q_A,i = m_i * (1 + r_bounce,i) -> particle A source -> macro A accumulation -> field-behavior protocol surface",
+      "note": "branch-12 extension chain"
+    },
+    {
+      "key": "qc_roles",
+      "value": "carrier=QUBIT-NL-001; envelope=QUBIT-CL-001; sensor=QUBIT-UNK-001",
+      "note": "CR051 role split remains the QC carrier surface"
+    },
+    {
+      "key": "qn_open_route",
+      "value": "QUBIT-NL-001 @ p=0.9654196547077734",
+      "note": "CR054 keeps the route open before ledger commit"
+    },
+    {
+      "key": "particle_surface",
+      "value": "35 closure rows; 26 role operators; 0 free parameters",
+      "note": "09a/QP075 is the active downstream mass source"
+    },
+    {
+      "key": "bounce_a_lock",
+      "value": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED (PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF)",
+      "note": "CR103a locks the A-dependent bounce insight as a structural appeal"
+    },
+    {
+      "key": "qA_source_bridge",
+      "value": "particle rows imported=26; q_A source rows=7",
+      "note": "CR201 verifies q_A = m * (1 + r_bounce) with zero new parameters"
+    },
+    {
+      "key": "resolved_topology_lanes",
+      "value": "charged_vector_missing_route_parent|massless_readout_daughter_not_parent|neutral_vector_visible_pair_parent|resolved_scalar_parent_massless_daughters|resolved_scalar_parent_vector_branches",
+      "note": "CR209 preserves resolved-parent/write-bounce lane separation"
+    }
+  ],
+  "opened_protocol_work": [
+    "Source-aware carrier ranking: branch-12 carrier/envelope/sensor rows can now be scored against q_A source load instead of only route grammar.",
+    "A-environment protocol surfaces: Earth-A is already in CR055, and CR103a/CR201 give the bridge for high-A stress envelopes without claiming live hardware results.",
+    "Paul Revere letters become source-pressure letters: boundary stress can be treated as an early q_A/contact-pressure warning before final ledger write.",
+    "Benchmark manifest upgrade path: future lab handoff rows can predeclare mass row, r_bounce class, q_A source row, A environment, carrier, envelope, and sensor before outcome scoring.",
+    "Resolved-event topology routing: CR209 lets QC/QN distinguish unresolved carrier preservation, resolved write, visible daughter write, hidden/source bounce budget, and fake-parent rejection as protocol classes."
+  ],
+  "scope_boundaries": [
+    "protocol extension only",
+    "not demonstrated quantum hardware",
+    "not live external network validation",
+    "not full GR derivation",
+    "not full electroweak theorem",
+    "CR103a is a provisional structural appeal lock until curator sign-off"
+  ],
+  "rule_9_falsification": "This test could have falsified the branch-12 source-aware extension if the QC/QN stack was not clean, if QP075 was not the active particle surface, if q_A = m * (1 + r_bounce) was not an exact source bridge, if resolved write/bounce topology did not generalize, or if the extension required a new parameter or hardware overclaim.",
+  "source_artifacts": [
+    {
+      "source_id": "cr051_qc_carrier",
+      "path": "C:\\VS\\The_Courtroom\\12_QUANTUM_COMPUTING_AND_NETWORKING\\CR051_QC_CARRIER_ENVELOPE_GATE_READOUT\\CR051_summary.json",
+      "role": "qc_carrier_envelope_gate_readout",
+      "sha256": "e3a7aafb8404499168ff583e87fcf4ae6d3d6bc61b03d1a6b0fb7abae2287c77",
+      "bytes": 886
+    },
+    {
+      "source_id": "cr054_qn_born",
+      "path": "C:\\VS\\The_Courtroom\\12_QUANTUM_COMPUTING_AND_NETWORKING\\CR054_QN_BORN_SURFACE_AND_LETTER_SAFE_CORRECTION\\CR054_summary.json",
+      "role": "qn_born_surface_letter_safe_correction",
+      "sha256": "b5046a1fb682b5bb8a59fec6c636a36cbc0df3f8ea00d620244cba3f36ef1a69",
+      "bytes": 852
+    },
+    {
+      "source_id": "cr055_earth_a",
+      "path": "C:\\VS\\The_Courtroom\\12_QUANTUM_COMPUTING_AND_NETWORKING\\CR055_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST\\CR055_summary.json",
+      "role": "earth_a_deployment_benchmark_surface",
+      "sha256": "ee73a1e21e6e3bbf477a8a8dd70eeac1df8c42d3a3292f54e92a64bc3f6bcce6",
+      "bytes": 771
+    },
+    {
+      "source_id": "cr058_branch",
+      "path": "C:\\VS\\The_Courtroom\\12_QUANTUM_COMPUTING_AND_NETWORKING\\CR058_QC_QN_BRANCH_VERDICT\\CR058_summary.json",
+      "role": "prior_qc_qn_branch_verdict",
+      "sha256": "ee55a40f336cf1c08b7057166b9f6703c189656689da0f7d20d4d774bb4f2196",
+      "bytes": 2943
+    },
+    {
+      "source_id": "cr064a_particle",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR064a_PARTICLE_MASS_CHAIN_BRANCH_VERDICT\\CR064a_summary.json",
+      "role": "active_qp075_particle_mass_surface",
+      "sha256": "a2af5df2dd3ac83cd131bb8a09913d806d0ba57db70942f53b232a892f0173e6",
+      "bytes": 2886
+    },
+    {
+      "source_id": "cr103a_bounce_a",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL\\CR103a_summary.json",
+      "role": "bounce_cost_a_dependence_structural_lock",
+      "sha256": "f4b95da7350c5ca36a1c29f89af8cfe808ce0c9915a2fab68317b6bcae978a9d",
+      "bytes": 2158
+    },
+    {
+      "source_id": "cr103a_bounce_a_result",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL\\CR103a_result.md",
+      "role": "bounce_cost_formula_and_user_chain",
+      "sha256": "fa1367a0005a9aeb3a12059404095e64b80a1698713d803b6058e8390f2d11ac",
+      "bytes": 8993
+    },
+    {
+      "source_id": "cr201_source_field",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR201_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\CR201_summary.json",
+      "role": "qA_source_to_field_bridge",
+      "sha256": "5846bb1dcca2cc54cf9e2f6f4c4f069f28d0a217eeb0168d6fb473848d5ca540",
+      "bytes": 3241
+    },
+    {
+      "source_id": "cr209_topology",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR209_ELECTROWEAK_TOPOLOGY_EXTENSION\\CR209_summary.json",
+      "role": "resolved_parent_write_bounce_topology_extension",
+      "sha256": "552dcbd38505ee92c8889654f853ee8e22c4e4b79e72807b95d015eb2ced4f85",
+      "bytes": 6168
+    }
+  ]
+}

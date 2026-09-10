@@ -1,0 +1,97 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "schema": "CR005c_SOURCE_MANIFEST_V1",
+  "source_count": 15,
+  "sources": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260720_194820_no_script.md",
+      "role": "task_specific_preflight",
+      "bytes": 17257,
+      "sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869"
+    },
+    {
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "role": "current_master_formula_context",
+      "bytes": 41650,
+      "sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4"
+    },
+    {
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "role": "current_action_engine_context",
+      "bytes": 39001,
+      "sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd"
+    },
+    {
+      "path": "SAM_TESTING_RULES.md",
+      "role": "constructive_work_guard",
+      "bytes": 4247,
+      "sha256": "6913e15b270ec16aba4c8985f6f9c2455d99d1debaf57cbf20575ed543e422a5"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/GW_SUBSTRATE_FRAMING.md",
+      "role": "gw_escape_before_seal_hypothesis_context_only",
+      "bytes": 10593,
+      "sha256": "a19afc01a749e925d6e1e4f70321217dcaca95fd5981a68e0e52ebdfcb2ed941"
+    },
+    {
+      "path": "C:/VS/The_Basement/15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_LAB/starbreaker.py",
+      "role": "frozen_starbreaker_engine_source",
+      "bytes": 40471,
+      "sha256": "7e1637faf9954dc61a1a89c415a533502f80411a3edbb00e100d63aaa2d07653"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SCHEMA.json",
+      "role": "three_stage_history_semantics",
+      "bytes": 851,
+      "sha256": "9dae50c86e9a4d0d40eb8d96d303a4d198df10ed686782593251cb54d536073d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SUMMARY.json",
+      "role": "frozen_history_counts_and_boundaries",
+      "bytes": 5669,
+      "sha256": "0212beaa36e331a1fee8ec8f1d635b79e3569fa6e5dab1edf08347221e4c16b1"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz",
+      "role": "frozen_three_stage_positions",
+      "bytes": 62636683,
+      "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_101_REOPENING_RELAY_DECOMPOSITION_V1/release/REOPENING_RELAY_101_ENDPOINTS.csv",
+      "role": "frozen_returned_101_relation_roster",
+      "bytes": 3693216,
+      "sha256": "cec0fe210b33c9738db927f4e9255c72f9164cdeffe426f956fbd5cc7bf8fd3f"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_101_REOPENING_RELAY_DECOMPOSITION_V1/release/REOPENING_RELAY_SUMMARY.json",
+      "role": "frozen_101_counts_and_claim_ceiling",
+      "bytes": 3712,
+      "sha256": "6667a9de8cbefc94ffa6c35815ce5fe14b734c23c649f81c05c745d55cdc3b71"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_X1_CARRIER_AXIS_REVERSAL_DISCOVERY_V1/release/AXIS_REVERSAL_OCCURRENCE_LEDGER.csv",
+      "role": "latest_reopening_carrier_trajectory_geometry",
+      "bytes": 2254517,
+      "sha256": "df1e65b13abc3f9e82ebce941d23511408ff2500e9b31bc150ad00156c80ac24"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_X1_CARRIER_AXIS_REVERSAL_DISCOVERY_V1/release/AXIS_REVERSAL_SUMMARY.json",
+      "role": "latest_axis_reversal_boundary",
+      "bytes": 6440,
+      "sha256": "166dd8575958ebe72d86cdcaaf1ce16f2f6b225ad9e68e48d57066a01257a3f7"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_SUBSTRATE_RECORD_RELAY_KINEMATICS_V1/release/SUBSTRATE_RECORD_RELAY_KINEMATICS_RESULT.md",
+      "role": "latest_physical_velocity_and_relay_boundary",
+      "bytes": 2863,
+      "sha256": "3fccd1a2bb28e31a0939c3f28f95845e154ed16751ece7bbcc55a9f7e4eae3df"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_SUBSTRATE_RECORD_RELAY_KINEMATICS_V1/release/SUBSTRATE_RECORD_RELAY_KINEMATICS_SUMMARY.json",
+      "role": "machine_readable_kinematics_boundaries",
+      "bytes": 6839,
+      "sha256": "27f0019438ac591645a10e961ae875c59eaf6020545f36e52895b09a55ec38a7"
+    }
+  ]
+}

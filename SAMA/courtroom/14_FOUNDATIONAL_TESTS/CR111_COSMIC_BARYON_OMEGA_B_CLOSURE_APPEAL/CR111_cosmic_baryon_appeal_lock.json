@@ -1,0 +1,51 @@
+{
+  "lock_id": "CR111_COSMIC_BARYON_OMEGA_B_STRUCTURAL_CLOSURE_APPEAL_LOCK",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "cr_id": "CR111",
+  "sealed_at_utc": "2026-06-14T02:57:37Z",
+  "appeal_target_cr": "CR108 (Planck Omega_b anchor) + CR110 (three-mode rule)",
+  "appeal_target_verdict_unmodified": "CR108_PLANCK_OMEGA_B_INTAKE_PASS",
+  "upstream_sha256": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "cosmic_baryon_question": {
+    "question_text": "Does Omega_b h^2 emerge from the SAM substrate framework as a structural constant (from A0 = 1/(12 pi), D=3, and the R12/R16/R24 bounce sub-slot framework that governs the 09a particle mass closure), or does it require introducing a free cosmological parameter?",
+    "planck_anchor_value": 0.02237,
+    "planck_anchor_uncertainty": 0.00015,
+    "anchor_source": "CR108 Planck 2018 TT,TE,EE+lowE+lensing",
+    "closure_condition_for_PASS": "a future Q-artifact (or G-test) MUST derive Omega_b h^2 from {A0, D=3, bounce sub-slot framework} alone (zero free parameters) and land within 1 sigma of 0.02237",
+    "closure_condition_for_FAIL": "if any future derivation requires introducing a tunable cosmological parameter beyond the bounce framework to hit the Planck anchor, the cosmic-baryon closure is structurally failed at this layer"
+  },
+  "free_parameters_total": 0,
+  "forward_blind_predictions_registered_on_this_appeal": [
+    {
+      "id": "CR111_PRED_1",
+      "claim": "a future Q-artifact deriving Omega_b h^2 from {A0, D=3, bounce sub-slot} alone (zero free parameters) will land within 1 sigma of Planck 2018 0.02237 +/- 0.00015; needing a free parameter is a structural failure",
+      "testable_at": "future SAM cosmology G-tests / Q-artifacts"
+    },
+    {
+      "id": "CR111_PRED_2",
+      "claim": "Omega_b is consistent with the same per-body A-field rule used in CR110 three-mode closure: the cosmic baryon fraction is the ensemble sum over per-body A fields, not a separately tunable parameter",
+      "testable_at": "SAM cosmology framework once CR111_PRED_1 derivation lands"
+    }
+  ],
+  "prior_CR_verdicts_unchanged": [
+    "CR101",
+    "CR102",
+    "CR103",
+    "CR103a",
+    "CR104",
+    "CR104a",
+    "CR104b",
+    "CR104c",
+    "CR105",
+    "CR106",
+    "CR107",
+    "CR108",
+    "CR109",
+    "CR110"
+  ]
+}

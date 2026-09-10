@@ -1,0 +1,179 @@
+{
+  "cr_id": "CR092a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "test_class": "COURTROOM_INTAKE_OF_QP091T_AND_QP091U",
+  "execution_status": "CLEAN",
+  "result_class": "CR092a_PASS_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE__H_NATIVE_126_EXACT__H_REVEAL_125_25_EXACT__QP091T_QP091U_FREEZE_HELD_7_OF_7_WRONG_CONTROLS_REJECTED",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "DERIVED_HZZ4L_SCALAR_PARENT_FROM_R_D_ALPHAH_WITH_ZERO_FREE_PARAMETERS",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "predictions_passed": 12,
+  "predictions_total": 12,
+  "wrong_controls_passed": 4,
+  "wrong_controls_total": 4,
+  "predictions": [
+    {
+      "name": "P1_qp091t_passed_zero_free_parameters",
+      "pass": true,
+      "details": {
+        "qp091t_passed": true,
+        "free_parameters_introduced": 0
+      }
+    },
+    {
+      "name": "P2_qp091t_no_higgs_target_used_as_input",
+      "pass": true,
+      "details": {
+        "higgs_target_used_as_input": false
+      }
+    },
+    {
+      "name": "P3_R2_times_one_minus_2pow_minusD_equals_126_exact",
+      "pass": true,
+      "details": {
+        "R": "12",
+        "D": 3,
+        "alpha_H": "2",
+        "closed_loop_R2": "144",
+        "split_loss_fraction": "1/8",
+        "retained_fraction": "7/8",
+        "H_native_recomputed": "126",
+        "H_native_qp091t_claim": "126"
+      }
+    },
+    {
+      "name": "P4_H_reveal_equals_125_25_exact",
+      "pass": true,
+      "details": {
+        "surface_debit_recomputed": "3/4",
+        "surface_debit_qp091t_claim": "3/4",
+        "H_reveal_recomputed": "501/4",
+        "H_reveal_qp091t_claim": "501/4",
+        "H_reveal_decimal": 125.25
+      }
+    },
+    {
+      "name": "P5_loss_identity_R2_2negD_equals_alphaH_D2_equals_18",
+      "pass": true,
+      "details": {
+        "R2_times_2_neg_D": "18",
+        "alpha_H_times_D2": "18",
+        "qp091t_split_loss_amount": "18"
+      }
+    },
+    {
+      "name": "P6_shell_share_2H_over_R_equals_H_over_alphaH_D_equals_21",
+      "pass": true,
+      "details": {
+        "2H_over_R": "21",
+        "H_over_alphaH_D": "21"
+      }
+    },
+    {
+      "name": "P7_hzz4l_category_1_2_1_reproduces",
+      "pass": true,
+      "details": {
+        "4e": "1/4",
+        "2e2mu": "1/2",
+        "4mu": "1/4",
+        "ratio_check_1_2_1": true
+      }
+    },
+    {
+      "name": "P8_qp091u_freeze_matched_and_complete",
+      "pass": true,
+      "details": {
+        "freeze_hashes_match": true,
+        "frozen_files_total": 11,
+        "sidecars_written": 11
+      }
+    },
+    {
+      "name": "P9_all_seven_wrong_control_variants_rejected",
+      "pass": true,
+      "details": {
+        "wrong_controls_rejected": 7,
+        "wrong_controls_total": 7,
+        "variant_count_rejected": 7,
+        "variant_names": [
+          "WRONG_D_2",
+          "WRONG_D_4",
+          "WRONG_R_10",
+          "WRONG_R_24",
+          "NO_SURFACE_DEBIT",
+          "WRONG_DEBIT_D_OVER_R",
+          "WRONG_DEBIT_D2_OVER_R2"
+        ]
+      }
+    },
+    {
+      "name": "P10_wrong_debit_variants_preserve_parent_but_fail_reveal",
+      "pass": true,
+      "details": {
+        "no_debit_H_native": "126.000000000000000000000000000000",
+        "no_debit_H_reveal": "126.000000000000000000000000000000",
+        "wrong_D_over_R_H_native": "126.000000000000000000000000000000",
+        "wrong_D_over_R_H_reveal": "125.750000000000000000000000000000",
+        "wrong_D2_over_R2_H_native": "126.000000000000000000000000000000",
+        "wrong_D2_over_R2_H_reveal": "125.937500000000000000000000000000"
+      }
+    },
+    {
+      "name": "P11_qp091t_HASHES_sha_matches_qp091u_recorded_and_all_frozen_rows_match",
+      "pass": true,
+      "details": {
+        "qp091t_hashes_recomputed_sha": "ef67f4d99ed9b0001d54472c688d3dec0371cd1f4650fa4567d7958ffce25182",
+        "qp091u_recorded_qp091t_hashes_sha": "ef67f4d99ed9b0001d54472c688d3dec0371cd1f4650fa4567d7958ffce25182",
+        "qp091u_frozen_manifest_rows": 11,
+        "qp091u_frozen_all_match": true
+      }
+    },
+    {
+      "name": "P12_qp091s_qsplit_recorded_as_context_only_not_exact_parent",
+      "pass": true,
+      "details": {
+        "QP091S_qsplit_H_context_GeV": "126.001639700297361188599351135096",
+        "gap_to_126_GeV": "0.001639700297361188599351135096",
+        "interpretation": "non-zero gap confirms 2*pi q-split is near-lock context, not exact parent"
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_source_artifact_missing_or_hash_mismatched",
+      "pass": true,
+      "details": {
+        "all_inputs_present": true
+      }
+    },
+    {
+      "name": "WC2_no_free_parameter_introduced_anywhere",
+      "pass": true,
+      "details": {
+        "qp091t_free_parameters": 0
+      }
+    },
+    {
+      "name": "WC4_H_native_exact_not_within_tolerance",
+      "pass": true,
+      "details": {
+        "H_native_exact": "126"
+      }
+    },
+    {
+      "name": "WC5_H_reveal_exact_not_within_tolerance",
+      "pass": true,
+      "details": {
+        "H_reveal_exact": "501/4",
+        "decimal": 125.25
+      }
+    }
+  ],
+  "intake_lock_sha256": "f809027dd1217c7efd1606ff5ac4e6b3034fe9f8850a75b88649031517e83bb8",
+  "open_debts": [
+    "branch 09a seal sha256 sibling pending curator sign-off",
+    "this CR intake_lock sha256 sibling pending curator sign-off",
+    "no new external CERN reveal opened in this CR; deferred to a future reveal CR"
+  ]
+}

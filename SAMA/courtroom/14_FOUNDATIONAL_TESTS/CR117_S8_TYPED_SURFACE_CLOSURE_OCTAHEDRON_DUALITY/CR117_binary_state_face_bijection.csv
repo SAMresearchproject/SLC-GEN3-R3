@@ -1,0 +1,9 @@
+state,binary_bits,cube_vertex,octahedron_face_id,octahedron_face_vertices,outward_normal_sign,plane,bijection_status
+---,000,"(-1,-1,-1)",oct_face_---,-x;-y;-z,"(-1,-1,-1)",-1*x + -1*y + -1*z = 1,PASS
+--+,001,"(-1,-1,1)",oct_face_--+,-x;-y;+z,"(-1,-1,1)",-1*x + -1*y + 1*z = 1,PASS
+-+-,010,"(-1,1,-1)",oct_face_-+-,-x;+y;-z,"(-1,1,-1)",-1*x + 1*y + -1*z = 1,PASS
+-++,011,"(-1,1,1)",oct_face_-++,-x;+y;+z,"(-1,1,1)",-1*x + 1*y + 1*z = 1,PASS
++--,100,"(1,-1,-1)",oct_face_+--,+x;-y;-z,"(1,-1,-1)",1*x + -1*y + -1*z = 1,PASS
++-+,101,"(1,-1,1)",oct_face_+-+,+x;-y;+z,"(1,-1,1)",1*x + -1*y + 1*z = 1,PASS
+++-,110,"(1,1,-1)",oct_face_++-,+x;+y;-z,"(1,1,-1)",1*x + 1*y + -1*z = 1,PASS
++++,111,"(1,1,1)",oct_face_+++,+x;+y;+z,"(1,1,1)",1*x + 1*y + 1*z = 1,PASS

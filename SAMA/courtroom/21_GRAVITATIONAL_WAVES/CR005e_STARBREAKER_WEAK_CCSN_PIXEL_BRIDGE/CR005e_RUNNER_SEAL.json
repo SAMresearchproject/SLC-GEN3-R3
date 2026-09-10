@@ -1,0 +1,13 @@
+{
+  "campaign_id": "CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE",
+  "sealed_utc": "2026-07-21T03:00:30Z",
+  "runner": "CR005e_runner.py",
+  "runner_bytes": 37987,
+  "runner_sha256": "e32b6ba1916dead08d468fa1db10a3b3f9f15d64b8a5f87ae37586d5b2a9c8b0",
+  "contract_sha256": "910934f43e83d929f9f27f5d98a3359363b94d9a3f7bce92daf4d942725e76bf",
+  "precommit_sha256": "40ecba8151b2c4b0374e4ad3b8a38acd771a0c95d2ea015d59eb77f342565596",
+  "source_manifest_sha256": "f2b4fa6023c34e7481f7c0ada8b71deefe13bd5948b53682e9bf96d1869ff83c",
+  "precommit_seal_sha256": "77e5d7347d2e9325d14c501be775b46f78d408f41b96e458777724dd38399871",
+  "syntax_compile_passed": true,
+  "same_run_repair_allowed": false
+}

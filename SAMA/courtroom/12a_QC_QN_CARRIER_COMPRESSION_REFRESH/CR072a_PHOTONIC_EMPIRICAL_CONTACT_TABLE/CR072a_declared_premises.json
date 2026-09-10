@@ -1,0 +1,62 @@
+{
+  "cr_id": "CR072a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Third of six CRs (CR070a-CR075a); populates the photonic empirical contact table using CR071a mapping",
+  "test_class": "PHOTONIC_EMPIRICAL_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1_AT_PHOTONIC_OMEGA",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T10:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Populate a photonic-platform empirical contact table with 10-20 rows from published literature. Each row carries tau_ent (the photonic T2-equivalent per CR071a M04), photonic omega_drive from operating wavelength, citation tag, conditions, and PROVISIONAL_AUTHOR_BEST_EFFORT verify status. Classify each row against T2_grav v1.1 at the row's photonic omega.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "T2_grav_v1_1_formula": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "speed_of_light_m_per_s": 299792458,
+  "omega_from_wavelength_formula": "omega = 2 * pi * c / lambda",
+  "boundary_margin_tolerance": 2.0,
+  "upstream_hash_locked_premises": {
+    "CR071a_summary_json_sha256": "94073f66f478acbad376ed840a50e644913cc26a3e0299a176d8e6f4f1cfa737",
+    "CR071a_mapping_table_csv_sha256": "b6f3b06182891aeb0fcc1ec072b6ce506900e80eef8a3329e4ad844233fb6859",
+    "CR071a_runner_py_sha256": "fda8055bca32791288dc30861ea527d01d88173a5a0f8620859a54799c447077",
+    "CR070a_summary_json_sha256": "c2570e91edb04a50fa04a0847d30ab16fef2d567f7b551fff522b0c9fddf8b43",
+    "CR069a_summary_json_sha256": "1eb5144266cf923409bd1e9b629481219f1cd91c17d523c6c7c94a0275ae6ba5"
+  },
+  "campaign_row_count_threshold": 10,
+  "campaign_row_count_target_min": 10,
+  "campaign_row_count_target_max": 20,
+  "photonic_wavelength_range_nm": {
+    "min": 400,
+    "max": 2000,
+    "rationale": "covers UV-visible-NIR-telecom; rejects MW/THz/optical-clock-extreme regimes"
+  },
+  "predictions": [
+    "P1_table_well_formed",
+    "P2_no_current_measurement_violates_T2_grav_at_photonic_omega",
+    "P3_margin_distribution_consistent_with_environmental_dominance",
+    "P4_row_count_meets_campaign_threshold",
+    "P5_no_free_parameters_in_contact_analysis",
+    "P6_explicit_verification_path_documented",
+    "P7_contact_table_emitted_with_consistency_classification",
+    "P8_protocol_completes_end_to_end",
+    "P9_all_rows_use_CR071a_T2_equivalent_definition",
+    "P10_omega_values_derived_from_documented_wavelengths",
+    "P11_platform_diversity"
+  ],
+  "wrong_controls": [
+    "WC1_inverted_formula_falsely_flags_violations",
+    "WC2_zero_omega_breaks_the_formula_gracefully",
+    "WC3_negative_tau_ent_rejected_as_unphysical",
+    "WC4_no_citation_tag_marks_row_as_provisional",
+    "WC5_runner_does_not_modify_upstream_locks",
+    "WC6_no_free_parameters",
+    "WC7_non_photonic_row_rejected",
+    "WC8_omega_derivation_consistency"
+  ],
+  "free_parameters": 0,
+  "verification_discipline": "Every populated row carries citation_tag and verify_status. Initial population is PROVISIONAL_AUTHOR_BEST_EFFORT. Partner-lab confirmation of each citation lifts the row to VERIFIED. Identical discipline as CR069a/CR070a."
+}

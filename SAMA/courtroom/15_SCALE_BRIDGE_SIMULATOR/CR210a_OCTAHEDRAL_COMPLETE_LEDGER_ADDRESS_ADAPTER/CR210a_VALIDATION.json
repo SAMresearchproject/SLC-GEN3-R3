@@ -1,0 +1,16 @@
+{
+  "record_id": "CR210a_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "status": "EXECUTION_FAILURE",
+  "structural_verdict": null,
+  "scientific_fail": false,
+  "execution_count": 1,
+  "runner_changed_after_execution": false,
+  "same_run_repair_performed": false,
+  "partial_artifacts_preserved": true,
+  "failure_check": "C05_PARTITION_NONUNIQUENESS",
+  "failure_layer": "expected_value_json_serialization",
+  "outcomes_opened": false,
+  "binding_opened": false,
+  "f81_membership_opened": false,
+  "next_action": "fresh separately preflighted and precommitted successor required"
+}

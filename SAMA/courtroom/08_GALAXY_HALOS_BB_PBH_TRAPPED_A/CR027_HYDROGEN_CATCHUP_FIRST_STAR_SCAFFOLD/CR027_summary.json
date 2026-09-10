@@ -1,0 +1,61 @@
+{
+  "test_id": "CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD",
+  "short_id": "CR027",
+  "question": "Does the source chain select hydrogen/normal baryons as catch-up material inside a BB-PBH/trapped-A first scaffold?",
+  "verdict": "CR027_PASS_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SCOPED_HYDROGEN_CATCHUP_SCAFFOLD",
+  "structural_success": true,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "hydrogen_arrival_selected": true,
+    "pbh_first_hydrogen_catchup_selected": true,
+    "pbh_inventory_exceeds_hydrogen_inventory": true,
+    "seed_first_support_imported": true,
+    "prediction_rows_complete": true,
+    "wrong_controls_complete": true,
+    "full_sfh_overclaim_rejected": true,
+    "free_parameters_introduced_zero": true
+  },
+  "evidence_rows": [
+    {
+      "item": "terminal_arrival",
+      "value": "neutral_hydrogen_protium",
+      "pass": true
+    },
+    {
+      "item": "hot_arrival",
+      "value": "proton_electron_plasma",
+      "pass": true
+    },
+    {
+      "item": "who_catches_up",
+      "value": "hydrogen/normal baryonic matter",
+      "pass": true
+    },
+    {
+      "item": "catching_up_to",
+      "value": "BB-origin PBH/trapped-A clustered mass scaffold",
+      "pass": true
+    },
+    {
+      "item": "g682_selected_route",
+      "value": "bb_pbh_trapped_A_first_scaffold_plus_hydrogen_catchup",
+      "pass": true
+    },
+    {
+      "item": "pbh_to_hydrogen_ratio",
+      "value": 5.364446416084761,
+      "pass": true
+    },
+    {
+      "item": "g677_gap_closed",
+      "value": 0.8191375474184742,
+      "pass": true
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that the current SAM source chain selects BB-origin PBH/trapped-A as first scaffold and hydrogen/normal baryons as catch-up material.",
+  "scope_note": "CR027 is a scoped route selector. It says hydrogen catches up inside PBH/trapped-A wells; it does not claim a full star-formation history."
+}

@@ -1,0 +1,101 @@
+{
+  "cr_id": "CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "test_class": "COURTROOM_INTAKE_OF_QP091T_AND_QP091U",
+  "question": "Does the closed-loop R^2 retention chain (H_native = R^2*(1-2^-D) = 126; H_reveal = H_native - D^2/R = 125.25) survive Courtroom intake against the QP091T derivation and the QP091U freeze-and-wrong-control certificate, with zero free parameters and no Higgs target used as input?",
+  "free_parameters_introduced": 0,
+  "higgs_target_used_as_input": false,
+  "typed_inputs": {
+    "R": {
+      "value": 12,
+      "provenance": "R12 duodecimal radix, closed Courtroom tooth R12_duodecimal_radix -> PASS_NATIVE_RADIX_GRAMMAR_WITH_DOWNSTREAM_ARTIFACT_SUPPORT"
+    },
+    "D": {
+      "value": 3,
+      "provenance": "Displacement-response matter identity, G355 structural-theorem grade inside SAM; substrate work cited in 09a/CR059a allowed inputs"
+    },
+    "alpha_H": {
+      "value": 2,
+      "provenance": "Worldsheet wave-operator factorization from the loop-substrate commitment; structural-argument grade"
+    }
+  },
+  "external_anchors": [
+    {
+      "anchor_id": "CR062_125_25_GeV_REVEAL_ROW",
+      "path": "C:/VS/The_Courtroom/09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER/CR062_row_by_row_ledger.csv",
+      "role": "125.25 GeV HZZ4l reveal reference (already cited in QP091T source manifest)",
+      "scope": "REVEAL_REFERENCE_NOT_INPUT"
+    }
+  ],
+  "source_artifacts": [
+    {
+      "artifact_id": "QP091T_summary",
+      "path": "C:/VS/quantum_phase/artifacts/qp091t/qp091t_summary.json",
+      "role": "exact closed-loop R^2 retention + surface debit derivation summary"
+    },
+    {
+      "artifact_id": "QP091T_HASHES",
+      "path": "C:/VS/quantum_phase/artifacts/qp091t/HASHES.txt",
+      "role": "QP091T full hash manifest"
+    },
+    {
+      "artifact_id": "QP091T_declared_premises",
+      "path": "C:/VS/quantum_phase/artifacts/qp091t/qp091t_declared_premises.json",
+      "role": "QP091T declared premises (records free_parameters_introduced=0 and higgs_target_used_as_input=false)"
+    },
+    {
+      "artifact_id": "QP091U_summary",
+      "path": "C:/VS/quantum_phase/artifacts/qp091u/qp091u_summary.json",
+      "role": "freeze-and-wrong-control survival certificate"
+    },
+    {
+      "artifact_id": "QP091U_freeze_certificate",
+      "path": "C:/VS/quantum_phase/artifacts/qp091u/qp091u_qp091t_freeze_certificate.json",
+      "role": "QP091T freeze certificate; freeze_hashes_match=true"
+    },
+    {
+      "artifact_id": "QP091U_wrong_controls_csv",
+      "path": "C:/VS/quantum_phase/artifacts/qp091u/qp091u_wrong_controls.csv",
+      "role": "seven wrong-control variants, all rejected"
+    }
+  ],
+  "claim_under_test": {
+    "result_class": "PASS_QP091T_CLOSED_LOOP_R2_RETENTION__H_NATIVE_126_EXACT__SURFACE_DEBIT_125_25_EXACT__HZZ4L_CATEGORY_1_2_1__QSPLIT_DEMOTED_TO_CONTEXT",
+    "exact_quantities": {
+      "closed_loop_total_R2": 144,
+      "split_loss_fraction": "1/8 = 2^-D",
+      "retained_fraction": "7/8 = 1 - 2^-D",
+      "split_loss_amount": 18,
+      "split_loss_identity": "R^2 * 2^-D = alpha_H * D^2 = 18",
+      "H_native_GeV": 126,
+      "surface_debit_D2_over_R": 0.75,
+      "H_reveal_GeV": 125.25,
+      "shell_share_2H_over_R": 21,
+      "shell_share_H_over_alphaH_D": 21,
+      "HZZ4l_category_4e_2e2mu_4mu": [0.25, 0.5, 0.25]
+    }
+  },
+  "wrong_control_variants_to_verify_rejected": [
+    "WRONG_D_2",
+    "WRONG_D_4",
+    "WRONG_R_10",
+    "WRONG_R_24",
+    "NO_SURFACE_DEBIT",
+    "WRONG_DEBIT_D_OVER_R",
+    "WRONG_DEBIT_D2_OVER_R2"
+  ],
+  "context_note": {
+    "QP091S_qsplit_context_GeV": "126.001639700297361188599351135096 (near-lock context, not exact parent; demoted by QP091T)"
+  },
+  "scope_boundaries": [
+    "intake only; no new external CERN target opened",
+    "does not modify CR064a 09a branch verdict",
+    "does not modify CR069a Phase-2 verdict zipper",
+    "does not modify any prior 09a CR",
+    "Phase-3-style appended upgrade, not a replacement"
+  ],
+  "open_debts_at_intake": [
+    "branch 09a seal sha256 sibling pending curator sign-off (carries forward from CR091a)",
+    "appeal_lock sha256 sibling pending curator sign-off (this CR)"
+  ]
+}

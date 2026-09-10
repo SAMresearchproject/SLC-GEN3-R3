@@ -1,0 +1,23 @@
+{
+  "artifact": "CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT",
+  "verdict": "PASS",
+  "precommit_hash": "77c58a51d82d8eef075a75c9e37d44a9363df1bf346c35d95dc6d9410a89f447",
+  "primitives": {
+    "alpha_H": "2 (binary readout)",
+    "D": "3 (dimensional readout)"
+  },
+  "n_rational_entries": 33,
+  "n_accumulation_entries": 3,
+  "rational_matches": 33,
+  "accumulation_matches": 3,
+  "rational_misses": [],
+  "minimality_results": {
+    "W1_alpha_only_D_derivable": false,
+    "W2_d_only_alpha_derivable": false,
+    "W3_single_k_both_derivable": false,
+    "W4_pi_irreducible": true
+  },
+  "primitive_base_sealed": "(alpha_H, D) minimal for rational sector; (alpha_H, D, pi) for accumulation",
+  "total_named_quantities": 36,
+  "free_parameters": 0
+}

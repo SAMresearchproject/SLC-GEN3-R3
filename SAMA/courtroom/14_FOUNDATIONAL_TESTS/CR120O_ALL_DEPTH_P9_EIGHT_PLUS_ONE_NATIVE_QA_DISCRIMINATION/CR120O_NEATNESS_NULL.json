@@ -1,0 +1,24 @@
+{
+  "base_rows": 105,
+  "base_sum": "130005/8",
+  "declared_target_hit_families": [
+    "p9_g0"
+  ],
+  "declared_target_hits": 1,
+  "descriptive_rates": {
+    "declared_target": "1/21",
+    "integer_divisible_by_18": "1/21",
+    "integer_sum": "2/21",
+    "same_sum": "1/21"
+  },
+  "families_enumerated": 21,
+  "inferential_p_value_claimed": false,
+  "integer_divisible_by_18_hits": 1,
+  "integer_sum_hits": 2,
+  "p9_g0_remaining_sum": "16200",
+  "reason": "The 16200 target was known before this enumeration.",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "remaining_rows_each": 100,
+  "same_as_p9_g0_sum_hits": 1,
+  "signal": "SUM_ONLY_NO_MEAN_COMPUTED"
+}

@@ -1,0 +1,46 @@
+{
+  "artifact": "SAM_V0_3_SEAL_TIMESTAMP_ATTESTATION",
+  "attestation_created_utc": "2026-07-11T17:05:36Z",
+  "authority_sources": [
+    {
+      "bytes": 7645,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_111718_CR005b_runner.json",
+      "sha256": "8e155c4f6236fa533d44a3a6bbf82e313ca09fbded4044f5aea7944fa191fecb"
+    },
+    {
+      "bytes": 16935,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_111718_CR005b_runner.md",
+      "sha256": "1fae17797dfb021c7059206a85ed6cee43fdfb23c7027df48efdd7d73ea5ff3c"
+    },
+    {
+      "bytes": 1961,
+      "note": "final CR hash ledger used as contemporaneous completion ledger, not as timestamp source",
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/HASHES.txt",
+      "sha256": "d46faae0e7d483b0bb8cf62a7186abf67117b4249fdc6ffebfe0397cea29f5d8"
+    }
+  ],
+  "cr_path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS",
+  "existing_cr_artifacts_modified": false,
+  "filesystem_mtime_used": false,
+  "firewall_metadata": {
+    "metadata_files_checked": [
+      "CR005b_ASSUMPTION_REGISTER.json",
+      "CR005b_provenance.json",
+      "CR005b_SOURCE_MANIFEST.json",
+      "CR005b_summary.json"
+    ],
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_sealed_utc": "2026-07-11T16:17:18Z",
+  "prior_queue_ledger_hash": "e0e08276334fc2b39048e3f9e9e4361606efc71380da6f6c0ebc3049f3eddd51",
+  "prior_queue_maintenance_hash_bundle": "420523ac7157ed122d4ab30eb6ca47c4ca22dc085c227972a0cb7592a582e5f2",
+  "remediation_timestamp_used_as_original_seal": false,
+  "sam_language_v0_3_consulted": false,
+  "scientific_test_rerun": false,
+  "target_scientific_content_opened": false,
+  "timestamp_authority_key": "generated_utc",
+  "timestamp_authority_rank": "b",
+  "timestamp_authority_type": "TOOLS_RUN_SAM_TEST_EXECUTION_RECEIPT"
+}

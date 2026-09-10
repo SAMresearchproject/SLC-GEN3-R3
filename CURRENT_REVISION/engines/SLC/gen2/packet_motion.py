@@ -41,7 +41,7 @@ def annotate_packet(packet, mathematical, *, runtime, source_output_sha256,
             'source_output_sha256': source_output_sha256,
             'native_source_result_preserved': True, 'native_science_reexecuted': False,
             'prescribed_word_order_preserved': True, 'implementation_binding': binding,
-            'histories': [], 'summary': {'source_task_count': len(packet['tasks']),
+            'arithmetic_graphs': {}, 'histories': [], 'summary': {'source_task_count': len(packet['tasks']),
                                         'distinct_source_histories': 0}}
     if packet['domain'] != 'ATOM3D' or packet.get('domain_revision') != 'A3D41-T18-CONTACT-R2':
         body.update(status='NOT_APPLICABLE', reason='NO_REGISTERED_PACKET_CONTACT_SOURCE')
@@ -133,6 +133,8 @@ def annotate_packet(packet, mathematical, *, runtime, source_output_sha256,
                               'native': native, 'T18_trajectory': path,
                               'source_tasks': [reference],
                               'motion': motion.motion_readout(block, **native, log_class=cls)}
+            from .write_arithmetic import intern_history
+            intern_history(histories[key]['motion']['write_foundation'], body['arithmetic_graphs'])
     body['histories'] = list(histories.values())
     body['status'] = 'AVAILABLE'
     body['implementation_binding'].update(motion._binding(cls))

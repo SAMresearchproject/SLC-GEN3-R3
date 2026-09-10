@@ -1,0 +1,6 @@
+step,op,face_A,alpha_h_A,status_A,cum_writes_A,face_B,alpha_h_B,status_B,cum_writes_B
+0,INIT,9,0,resolved,0,4,0,resolved,0
+1,B-A,9,1,resolved,64,4,0,resolved,0
+2,C-A-B,9,1,resolved,128,4,1,resolved,64
+3,PUBLISH-A,9,1,resolved,192,4,1,resolved,64
+4,PUBLISH-B,9,1,resolved,192,4,1,resolved,128

@@ -1,0 +1,7 @@
+key,value,note
+result_class,PASS_G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER,source G-test result
+total_controls,43,wrong-control zipper size
+controls_passed,43,all controls passed
+controls_fired_or_degraded,42,controls actually broke/degraded the wrong route
+honest_diagnostics,1,"diagnostic retained, not hidden"
+failed_controls,0,must be zero

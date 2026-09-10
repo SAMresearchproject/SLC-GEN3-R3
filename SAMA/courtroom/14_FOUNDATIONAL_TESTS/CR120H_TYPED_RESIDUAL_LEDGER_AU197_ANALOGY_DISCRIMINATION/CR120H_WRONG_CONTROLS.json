@@ -1,0 +1,16 @@
+{
+  "WC1_observable": {
+    "reconciliation_residual": "1",
+    "reconstructed_without_kappa": "2"
+  },
+  "WC1_omitted_CR120G_kappa_detected": true,
+  "WC2_AU197_post_program_residual_is_not_operator_contribution": true,
+  "WC3_forced_universal_minus_rule_rejected": true,
+  "WC4_forced_nonzero_AU197_operator_rejected_by_frozen_drive": true,
+  "WC5_observed_as_generator_rejected_as_target_leakage": true,
+  "WC6_CR120G_kappa_not_identical_to_nuclear_operator_contribution": true,
+  "WC7_CR120G_reconciliation_not_identical_to_AU197_residual": true,
+  "cross_domain_scalar_fit_performed": false,
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "unit_stripping_performed": false
+}

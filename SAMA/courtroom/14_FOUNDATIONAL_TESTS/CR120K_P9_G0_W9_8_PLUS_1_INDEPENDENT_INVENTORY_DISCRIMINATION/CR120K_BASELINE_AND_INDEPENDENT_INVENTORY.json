@@ -1,0 +1,34 @@
+{
+  "L162_relation": "100 * 162 = 16200",
+  "antimatter_conjugate_count": 42,
+  "baseline_M_native_decimal": "16250.625",
+  "baseline_M_native_exact": "130005/8",
+  "catalog_row_count": 321,
+  "derived_w9_duplicated_M_native_decimal": "50.625",
+  "derived_w9_duplicated_M_native_exact": "405/8",
+  "derived_w9_record_count": 5,
+  "independent_M_native_decimal": "16200",
+  "independent_M_native_exact": 16200,
+  "independent_average_M_native_decimal": "162",
+  "independent_average_M_native_exact": 162,
+  "independent_record_count": 100,
+  "original_fields_preserved": true,
+  "overlay_extra_fields": [
+    "derived_partition_expression",
+    "derived_entity",
+    "derived_parent_p8_id",
+    "derived_parent_p1_id",
+    "provenance_route",
+    "independent_inventory_role",
+    "independent_content_counted",
+    "overlay_authority"
+  ],
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION",
+  "records_deleted": 0,
+  "selected_bins": [
+    "antimatter_conjugate_rows",
+    "stable_matter_rows"
+  ],
+  "stable_matter_count": 63,
+  "visible_record_count": 105
+}

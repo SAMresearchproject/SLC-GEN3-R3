@@ -1,0 +1,21 @@
+{
+  "alpha_H_times_D": 6,
+  "dimension_D": 3,
+  "half_slot_count": 6,
+  "half_slot_weight": "1/2",
+  "inward_slots": [
+    "1/2 INSIDE",
+    "1/2 WRITE_in",
+    "1/2 SW_in"
+  ],
+  "inward_weight": "3/2",
+  "literal_two_half_matches_sourced_route": false,
+  "literal_two_half_total": "1",
+  "outward_slots": [
+    "1/2 SW_out",
+    "1/2 WRITE_out",
+    "1/2 OUTSIDE"
+  ],
+  "outward_weight": "3/2",
+  "total_weight": "3"
+}

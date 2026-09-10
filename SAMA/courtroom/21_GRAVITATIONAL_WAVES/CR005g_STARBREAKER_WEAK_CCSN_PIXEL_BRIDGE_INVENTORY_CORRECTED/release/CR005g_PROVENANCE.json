@@ -1,0 +1,11 @@
+{
+  "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+  "claim_boundary": "same-grid normalized morphology only",
+  "external_archive": "https://www.astro.princeton.edu/~burrows/gw.3d/all.3D.strains.tar.gz",
+  "external_archive_sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3",
+  "external_catalog": "https://www.astro.princeton.edu/~burrows/gw.3d/index.html",
+  "external_paper": "Radice, Morozova, Burrows, Vartanyan, and Nagakura, ApJL 876 L9 (2019)",
+  "preflight": "artifacts/preflight_filled/PREFLIGHT_20260720_220947_no_script.md",
+  "source_manifest_sha256": "a9319ef7dddc04ab9c870a36a56eda7ddcade9fd46cb77c821d8130914b61651",
+  "upstream": "CR005d continuous Starbreaker flow and unit-carrier quadrupole source"
+}

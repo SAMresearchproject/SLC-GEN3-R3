@@ -1,0 +1,16 @@
+{
+  "A_s_optimized": 2.1395843085475425e-09,
+  "n_s_optimized": 0.968153786841216,
+  "tau_optimized": 0.05098225848336889,
+  "sigma_dev_As": 1.3194769515847449,
+  "sigma_dev_ns": 0.7747111526704815,
+  "sigma_dev_tau": 0.4681837694015216,
+  "chi2_TT_at_optimum": 2935.7801213684647,
+  "dof_TT_at_optimum": 2471,
+  "chi2_per_dof_TT_at_optimum": 1.188093938230864,
+  "within_5sigma_planck_posterior": true,
+  "optimization_chi2_in_band": true,
+  "optimizer_nfev": 16,
+  "optimizer_nit": 2,
+  "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+}

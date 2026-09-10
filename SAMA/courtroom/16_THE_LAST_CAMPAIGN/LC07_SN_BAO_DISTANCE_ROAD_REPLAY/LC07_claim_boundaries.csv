@@ -1,0 +1,8 @@
+boundary,status,text
+LC07 replay scope,LOCKED,LC07 tests the SN/BAO distance-road replay from the LC01 stack and branch-06 artifacts; it is not a new distance fit.
+D status,LOCKED,D=3 is imported from LC01/CR115 and held fixed. LC07 rejects D refit controls instead of optimizing D.
+SN ledger,LOCKED,SN replay uses the 1701-row Pantheon source artifact and A_los(z) row identities; BAO input is not loaded into the SN ledger.
+BAO ledger,LOCKED,BAO replay uses the 19-row primary compilation and local window/projection packet; SN rows are not loaded into the BAO ledger.
+Overlap,LOCKED,"The 0.240000255% cross-overlap is a local witness after independent ledgers are fixed, not the formula source and not a global residual claim."
+CMB acoustic ratio,LOCKED,"CR016 is an acoustic-ratio member of the road; Planck theta is a downstream reference, and modal/polarization closure remains open."
+Target visibility,LOCKED,"Observed SN/BAO/Planck values enter as downstream comparisons, not as primitive selectors or correction terms."

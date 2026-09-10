@@ -1,0 +1,52 @@
+{
+  "before": {
+    "discovery_proposal": {
+      "bytes": 64182,
+      "path": "C:\\Users\\drwho\\.codex\\attachments\\59881436-4536-4f37-b89c-2261e12d1209\\pasted-text.txt",
+      "sha256": "cb6d604997a79519f5a238a1e09e70ee8be8ea0d3a4e78a1aeff187f449167d6"
+    },
+    "qp093a_catalog": {
+      "bytes": 213474,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    "qp093a_declared_premises": {
+      "bytes": 893,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_declared_premises.json",
+      "sha256": "d8c2025feb1439182a255517c40d2d20ef7e06899ae36a9b9f23945e02472cdc"
+    },
+    "qp093a_generator": {
+      "bytes": 43208,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    "qp093a_result": {
+      "bytes": 1323,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5"
+    },
+    "task_preflight": {
+      "bytes": 16976,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_040346_no_script.md",
+      "sha256": "c11cda98d2b1f8e526f1aeedbb79f09cd430baefa21f900403852180a2c52cc0"
+    },
+    "updated_particle_rows2_workbook": {
+      "bytes": 93700,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    "updated_particle_rows_workbook": {
+      "bytes": 77128,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    }
+  },
+  "challenge_roster_precommit_sha256": "f261bb1953b4bca59dfe950a67e6eeb3eaeb3a3ad9e90db3eea2170721cec5ef",
+  "matched_triple_precommit_sha256": "6c6550600852ee33d6d143b76bb9c5173859e51f01ab46f61011ccc8d9be8da6",
+  "precommit_sha256": "ad3dabab84c543f78129a9a9209e377d4b4b8df9af7f8896fa5c9c1508ed6c94",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "signal": "SUMS_NOT_MEANS",
+  "source_manifest_sha256": "544c0a598831a18ca784f210604c013607be0654c6cee9034fc4933e93fa46c2",
+  "workbook_reanalysis": false,
+  "workbook_use": "HASH_LOCKED_CURRENT_SUM_CONTEXT_ONLY"
+}

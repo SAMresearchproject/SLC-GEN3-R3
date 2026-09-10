@@ -1,0 +1,42 @@
+{
+  "artifact": "CR254_COMPACT_MATTER_CHARGED_LAW",
+  "verdict": "PASS",
+  "precommit_hash": "23b94d10bba93c4622b03dead10b8bfb4759649bf1056d5ae489734d3f679c2f",
+  "input_hash": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+  "n_matter_charged": 32,
+  "canonical_matches": 32,
+  "max_residual": 3.3333321880490985e-08,
+  "wrong_controls": {
+    "W1_rational_pool_pairs_full_match": [
+      [
+        "5/4",
+        "3/2"
+      ]
+    ],
+    "W2_dim_exponent": {
+      "R_d_minus_1": 0,
+      "R_d_plus_1": 0,
+      "d_plus_1_pow_d": 16
+    },
+    "W3_surface_scale": {
+      "1_plus_p_over_R": 0,
+      "1_plus_p_over_R3": 0,
+      "1_plus_p_sq_over_R2": 4,
+      "1_minus_p_over_R2": 0
+    },
+    "W4_functional_form": {
+      "additive": 0,
+      "no_p": 4
+    },
+    "W5_continuous_full_matches": 0,
+    "W5_continuous_best_match_count": 0
+  },
+  "verdict_conditions": {
+    "canonical_32_32": true,
+    "W1_canonical_unique": true,
+    "W2_all_le_16": true,
+    "W3_all_le_16": true,
+    "W4_all_le_4": true,
+    "W5_zero_full_match": true
+  }
+}

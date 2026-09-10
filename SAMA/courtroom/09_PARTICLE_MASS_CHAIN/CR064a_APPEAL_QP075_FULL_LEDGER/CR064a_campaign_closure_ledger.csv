@@ -1,0 +1,36 @@
+order,symbol_or_carrier,family,role_operator_or_ladder,predicted_mass_MeV,reference_mass_MeV,reference_label,authority,residual_percent,abs_residual,tolerance_pct,free_parameters_used,grade_class,row_verdict
+1,up quark (u),quark gen-1 plus,V4.1_TP_freeze,2.14509,2.14509,PDG u (current),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+2,down quark (d),quark gen-1 minus,V4.1_TM_freeze,4.64769,4.64769,PDG d (current),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+3,strange quark (s),quark gen-2 minus,V4.1_TM_freeze,92.8098,92.8098,PDG s (current),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+4,charm quark (c),quark gen-2 plus,V4.1_TP_freeze,1278.05,1278.05,PDG c (current),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+5,bottom quark (b),quark gen-3 minus,V4.1_TM_freeze,4181.91,4181.91,PDG b (current),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+6,top quark (t),quark gen-3 plus,V4.1_TP_freeze,172542,172570,PDG t,PDG,-0.0160,0.016,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+7,electron (e),charged lepton,exterior_surface_delay,0.510948,0.510999,PDG e,PDG,-0.0100,0.01,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+8,muon (mu),charged lepton,direction_carrier,105.686,105.658,PDG mu,PDG,0.0266,0.0266,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+9,tau (tau),charged lepton,outside_escape_complement,1776.21,1776.86,PDG tau,PDG,-0.0364,0.0364,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+10,electron neutrino (nu_e),neutral lepton,V4.1_addendum_outer_binary_active,1.91971e-08,1.91971e-08,PDG nu_e (upper),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+11,muon neutrino (nu_mu),neutral lepton,V4.1_addendum_outer_binary_active,3.99058e-06,3.99058e-06,PDG nu_mu (upper),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+12,tau neutrino (nu_tau),neutral lepton,V4.1_addendum_outer_binary_active,6.6345e-05,6.6345e-05,PDG nu_tau (upper),PDG,0.0000,0.0,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+13,W boson (W+/-),gauge vector boson,charged_weak_vector,80365.1,80377,PDG W,PDG,-0.0148,0.0148,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+14,Z boson (Z),gauge vector boson,neutral_weak_vector,91161.5,91187.6,PDG Z,PDG,-0.0287,0.0287,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+15,Higgs (H),scalar boson,higgs_color_complement_scalar,125219,125250,PDG H,PDG,-0.0250,0.025,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+16,top quark (t),heavy fermion,top_heavy_fermion,172542,172570,PDG t,PDG,-0.0160,0.016,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+17,proton (uud),baryon,color_minus_SW_terminal_baryon,938.687,938.272,PDG p,PDG,0.0442,0.0442,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+18,neutron (udd),baryon,weak_plus_SW_beta_bridge,940.23,939.565,PDG n,PDG,0.0708,0.0708,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+19,charged pion (pi+/-),meson,charged_pion_color_power,139.523,139.57,PDG pi+/-,PDG,-0.0341,0.0341,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+20,neutral pion (pi0),meson,neutral_pion_D_b_carrier,135.028,134.977,PDG pi0,PDG,0.0379,0.0379,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+21,charged kaon (K+/-),meson,charged_kaon_D_b_square,493.763,493.677,PDG K+/-,PDG,0.0174,0.0174,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+22,neutral kaon (K0),meson,neutral_kaon_color_complement,497.34,497.611,PDG K0,PDG,-0.0545,0.0545,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+23,deuteron (pn),nuclear composite,u3u2_composite_SW_depth,1875.58,1875.61,PDG D,PDG,-0.0020,0.002,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+24,alpha particle (ppnn),nuclear composite,u3u2_composite_D_depth,3725.77,3727.38,PDG alpha,PDG,-0.0431,0.0431,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+25,"Delta (Delta++/0/-) (uuu, ...)",baryon (isoresonance),isoresonance_rank2_tensor_baryon,1231.37,1232,PDG Delta(1232),PDG,-0.0512,0.0512,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+26,Lambda (uds),baryon (single-heavy strange),octet_occupation_single_heavy_baryon_strange,1116.18,1115.68,PDG Lambda,PDG,0.0448,0.0448,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+27,Lambda_c (udc),baryon (single-heavy charm),octet_occupation_single_heavy_baryon_charm,2277.37,2286.46,PDG Lambda_c,PDG,-0.3974,0.3974,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+28,Lambda_b (udb),baryon (single-heavy bottom),bookend_layer_bottom_baryon,5617.92,5619.6,PDG Lambda_b,PDG,-0.0299,0.0299,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+29,D meson (cq),meson (charm),u3u2_composite_tier_d_meson,1869.21,1869.65,PDG D+/-,PDG,-0.0236,0.0236,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+30,B meson (bq),meson (bottom),top_tower_rank2_bookend_b_meson,5275.55,5279.34,PDG B+/-,PDG,-0.0718,0.0718,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+31,eta (548) (~d_anti_d),meson (light same-flavor),light_same_flavor_pseudoscalar_eta_d,547.794,547.862,PDG eta,PDG,-0.0123,0.0123,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+32,eta prime (958) (~s_anti_s),meson (light strange),light_strange_pseudoscalar_eta_prime,957.732,957.78,PDG eta_prime,PDG,-0.0050,0.005,1.0,0,pdg_strict,APPEAL_PASS_PDG_STRICT
+33,"Xi_bc^+ / Omega_bcc (1b + nc, Sigma-like)",baryon (doubly-heavy bc),combined_bookend_octet_doubly_heavy_bc_baryon_sigma,7231.37,6943,lattice Xi_bc^+ / Omega_bcc,LATTICE,4.1534,4.1534,5.0,0,lattice_boundary,APPEAL_BOUNDARY_LATTICE_WITHIN_BAND
+34,"Xi_bc^0 / Omega_bcs (1b + nc, Lambda-like)",baryon (doubly-heavy bc),combined_bookend_octet_doubly_heavy_bc_baryon_lambda,7243.26,6970,lattice Xi_bc^0 / Omega_bcs,LATTICE,3.9205,3.9205,5.0,0,lattice_boundary,APPEAL_BOUNDARY_LATTICE_WITHIN_BAND
+35,"Omega_bbc (2b + 1c, Lambda-like)",baryon (multi-heavy bc),multi_heavy_bc_baryon_two_bottom_lambda,10029.1,10210,lattice Omega_bbc,LATTICE,-1.7715,1.7715,5.0,0,lattice_boundary,APPEAL_BOUNDARY_LATTICE_WITHIN_BAND

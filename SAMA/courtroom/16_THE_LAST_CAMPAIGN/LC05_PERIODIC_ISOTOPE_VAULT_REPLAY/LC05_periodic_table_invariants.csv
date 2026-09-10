@@ -1,0 +1,17 @@
+invariant,expected,observed,status
+row_count,126,126,PASS
+source_copy_row_count,126,126,PASS
+Z_sequence_1_to_126,1..126,1..126 count=126,PASS
+Z_equals_proton_and_electron_count,Z=proton_count=electron_count,126,PASS
+native_capacity_126,all rows native_element_capacity=126,126,PASS
+scope_and_source_locked,SAM_NATIVE_126_ELEMENT_FAMILY / QP094A / periodic,126,PASS
+closed_element_and_neutral_atom_writes,126 closed element-family and neutral-atom writes,126,PASS
+matter_row_allowed_all,126 yes,{'yes': 126},PASS
+known_label_status_counts,"{'KNOWN_Z_DOWNSTREAM': 118, 'SAM_FRONTIER_UNKNOWN_Z119_Z126': 8}","{'KNOWN_Z_DOWNSTREAM': 118, 'SAM_FRONTIER_UNKNOWN_Z119_Z126': 8}",PASS
+known_labels_not_construction_inputs,{'no': 126},{'no': 126},PASS
+identity_role_counts,"{'downstream_only': 118, 'native_frontier_identity': 8}","{'downstream_only': 118, 'native_frontier_identity': 8}",PASS
+Z119_Z126_frontier_not_promoted,Z119-Z126 are frontier unknown native identities with no known symbol/name,8,PASS
+shell_period_counts,"{'1': 2, '2': 8, '3': 18, '4': 32, '5': 32, '6': 18, '7': 8, '8': 8}","{'1': 2, '2': 8, '3': 18, '4': 32, '5': 32, '6': 18, '7': 8, '8': 8}",PASS
+shell_capacity_counts,"{'2': 2, '8': 24, '18': 36, '32': 64}","{'2': 2, '8': 24, '18': 36, '32': 64}",PASS
+shell_occupancy_within_capacity,1 <= shell_occupancy <= shell_capacity,126,PASS
+qA_support_split_from_LC01,tensor=qA/8 and retained=7qA/8 within 1e-90 exported-decimal tolerance,max_error=1E-96; tolerance=1E-90,PASS

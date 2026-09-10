@@ -1,0 +1,33 @@
+{
+  "artifact": "CR019b_THETA_STAR_LIFT_RULE_AUDIT",
+  "classification": "AUDIT_CR",
+  "verdict": "PASS",
+  "verdict_note": "At least one substrate-lift correction (joint_grid_optimum) closes theta_* without breaking ell_A or r_d.",
+  "precommit_hash": "d83ef6864e095550cb7989a88da88c25b60c2b8bd584b7719efd4568d3b8f32f",
+  "hypothesis_tested": "Does the 09a binding-work lift rule (bigrade lifted, Theta exempt) close the +0.605% theta_* gap when applied to CR019@06's substrate atoms (R, S, d_hat, d_hat^2)?",
+  "canonical_gaps": {
+    "theta_star_pct": 0.6050220034610003,
+    "ellA_pct": -0.602355028838055,
+    "rd_pct": 0.46133404483109974
+  },
+  "candidates_tested": 6,
+  "candidates_closing_theta": [
+    "H1_R_lifted_in_A0",
+    "joint_grid_optimum"
+  ],
+  "candidates_joint_pass": [
+    "joint_grid_optimum"
+  ],
+  "joint_grid_optimum": {
+    "Omega_m": 0.31353523789103377,
+    "Omega_b": 0.051714662818139676,
+    "Om_shift_pct": -1.5000000000000124,
+    "Ob_shift_pct": 4.899999999999965,
+    "theta_star_residual_pct": 0.00044730959859724746,
+    "ellA_residual_pct": -0.0014247090662071451,
+    "rd_residual_pct": 0.20913110156183812,
+    "interpretation": "Joint optimum requires Om shift -1.5% and Ob shift +4.9%. No substrate-lift candidate produces an Ob shift this large simultaneously with a corresponding Om shift."
+  },
+  "structural_finding": "Theta = 18 does not appear explicitly in CR019@06's substrate inputs. The bigrade atoms that DO appear (R, S, d, d^2) admit lift corrections, but no single-atom lift closes the theta_* gap without breaking ell_A or r_d. The 0.605% gap is likely in the Hu-Sugiyama / EH fitting-formula error budget (~1% intrinsic accuracy), not in the substrate layer.",
+  "implication_for_grammar": "The substrate-lift rule from CR249a (bigrade pays, Theta exempt) is correctly applied in this test and ruled out as the mechanism for the theta_* gap. The 09a binding lift rule remains valid for binding work; it just does not generalize to CR019's recombination-layer derivation. A substrate-derived recombination physics (replacing Hu-Sugiyama / EH) would be a separate multi-CR program."
+}

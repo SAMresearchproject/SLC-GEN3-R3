@@ -1,0 +1,10 @@
+criterion_id,criterion_class,value,value_symbolic,units
+CRIT_A_charge_neg7_over_12,CRITERION_A_CHARGE,-0.5833333,-7/12,elementary_charge_e
+CRIT_A_charge_neg5_over_12,CRITERION_A_CHARGE,-0.4166667,-5/12,elementary_charge_e
+CRIT_A_charge_pos5_over_12,CRITERION_A_CHARGE,0.4166667,+5/12,elementary_charge_e
+CRIT_A_charge_pos7_over_12,CRITERION_A_CHARGE,0.5833333,+7/12,elementary_charge_e
+CRIT_A_charge_neg1_over_6,CRITERION_A_CHARGE,-0.1666667,-1/6,elementary_charge_e
+CRIT_A_charge_pos1_over_6,CRITERION_A_CHARGE,0.1666667,+1/6,elementary_charge_e
+CRIT_B_mass_band_low,CRITERION_B_MASS,1.0,mass_low_band,MeV
+CRIT_B_mass_band_high,CRITERION_B_MASS,10000.0,mass_high_band,MeV
+CRIT_C_primary_carrier_required,CRITERION_C_PRIMARY,primary_carrier_not_composite_or_bound_state,primary_required,structural

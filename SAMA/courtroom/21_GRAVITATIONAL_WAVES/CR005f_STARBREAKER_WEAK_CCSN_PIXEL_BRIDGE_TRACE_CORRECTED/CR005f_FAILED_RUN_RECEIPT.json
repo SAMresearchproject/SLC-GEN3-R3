@@ -1,0 +1,24 @@
+{
+  "campaign_id": "CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED",
+  "execution_preflight": "artifacts/preflight_filled/PREFLIGHT_20260720_220835_CR005f_runner.md",
+  "execution_preflight_generated_utc": "2026-07-21T03:08:35Z",
+  "failure_recorded_utc": "2026-07-21T03:09:12Z",
+  "runner_sha256": "bd1d39756a3bed21d47901e257295c0e18d5da2fedce91e2fe9330999488076c",
+  "execution_status": "STOPPED_BEFORE_RELEASE",
+  "exception_type": "RuntimeError",
+  "exception_message": "carrier inventory changed: REF_0003 378",
+  "failed_gate": "G04_FIXED_PER_SCENARIO_CARRIER_ASSUMPTION",
+  "release_exists": false,
+  "staging_release_exists": false,
+  "scientific_results_opened": false,
+  "same_run_repair_performed": false,
+  "audited_inventory": {
+    "scenario_count": 96,
+    "carriers_per_ledger": 18,
+    "ledger_counts": [14, 21, 33, 56],
+    "carrier_counts": [252, 378, 594, 1008],
+    "scenarios_per_count": 24,
+    "total_carrier_occurrences": 53568
+  },
+  "disposition": "CR005f remains failed and immutable. A separately precommitted successor may replace the incorrect fixed-252 assertion with the frozen 18-times-ledger_count rule and 53568 total; it may not overwrite or rerun CR005f."
+}

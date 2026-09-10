@@ -1,0 +1,51 @@
+{
+  "all_consistency_checks_satisfied": true,
+  "authority": "PROPOSAL_ONLY",
+  "checks": {
+    "G0_frozen_sources_match": true,
+    "G0_model_spec_hash_matches": true,
+    "G0_precommit_hash_matches": true,
+    "G10_sam_route_typed_but_physical_semantics_absent": true,
+    "G11_cr120a_input_scope_preserved": true,
+    "G12_cr120_frontier_preserved": true,
+    "G1_complete_512_row_transfer_table": true,
+    "G2_single_flips_invert_w9": true,
+    "G3_two_flips_preserve_w9": true,
+    "G4_x1_flip_inverts_w9": true,
+    "G5_balanced_sectors": true,
+    "G6_feedback_enforces_target_sector_in_ideal_model": true,
+    "G7_postselection_yield_visible": true,
+    "G8_one_bit_does_not_identify_single_fault": true,
+    "G9_wrong_models_distinguishable": true
+  },
+  "controls": {
+    "majority_differs_from_parity": true,
+    "majority_disagreement_rows": 186,
+    "selected_bit_differs_from_parity": true,
+    "selected_bit_disagreement_rows": 256,
+    "structural_null_remains_live": true,
+    "stuck_x1_fails_x1_flip_rule": true,
+    "unrecorded_random_x1_destroys_deterministic_readout": true,
+    "unsigned_sum_not_binary": true
+  },
+  "counts": {
+    "feedback_challenges": 512,
+    "postselection_yield_uniform_ensemble": 0.5,
+    "single_flip_challenges": 4096,
+    "transfer_rows": 512,
+    "two_flip_challenges": 14336,
+    "x1_flip_challenges": 512
+  },
+  "disposition": "RESEARCH_CANDIDATE_ANCILLA_PARITY_MEASUREMENT_PLUS_FEEDBACK_MECHANICALLY_COHERENT_SAM_PHYSICAL_IDENTITY_UNSOURCED",
+  "evidence_status": "NOT_EVIDENCE",
+  "frontier": {
+    "ADJACENT": true,
+    "ADJACENT_LEDGER_STATE": true,
+    "LEDGER_SITE": true,
+    "PROPAGATE_CLOSURE": true
+  },
+  "record_id": "CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE",
+  "result_class": "RESEARCH_CANDIDATE",
+  "scientific_pass_claimed": false,
+  "sealed_utc": "2026-07-13T18:08:17Z"
+}

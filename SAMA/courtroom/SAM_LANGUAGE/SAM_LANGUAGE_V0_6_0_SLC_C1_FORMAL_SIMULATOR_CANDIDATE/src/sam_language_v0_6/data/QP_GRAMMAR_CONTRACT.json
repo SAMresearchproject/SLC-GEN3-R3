@@ -1,0 +1,195 @@
+{
+  "contract_id": "SAM_QP_PARTICLE_GRAMMAR_V1_CANDIDATE",
+  "version": "1.0.0",
+  "integration_mode": "APPEND_ONLY_V0_4_SUCCESSOR_EXTENSION",
+  "base_language": {
+    "path": "SAM_LANGUAGE_V0_4",
+    "release_status": "FROZEN",
+    "release_verdict": "PASS_SAM_LANGUAGE_V0_4_END_TO_END_TYPED_EXECUTION",
+    "frozen_candidate_hash_ledger_sha256": "0ee6649ed0c8f863fd5de5ef54e6ce305e1b1c44a0e24a5a4f57c1ef544742d0",
+    "release_hashes_file_sha256": "a6bf53c7be917b13ad7f4e9c62cb877216376a4a3c222b216a7b3c7d244655c7",
+    "release_record_sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+    "inherited_v0_3_parent_sha256": "81a055c404879611e12c895602f309f97aad5a8d2627414396ef29a321235e39",
+    "mutated": false
+  },
+  "status": "CANDIDATE_PENDING_THEOREM_EXECUTION",
+  "requested_theorem_grade": "THEOREM_GRADE_FINITE_FROZEN_QP_CORPUS",
+  "theorem_scope": "Complete finite typed structural grammar under the frozen QP source axioms",
+  "alphabet": [1, 2, 3, 4, 6, 8, 9, 12],
+  "depths": [0, 1, 2],
+  "routes": ["plus", "minus", "neutral"],
+  "types": [
+    "QPPartitionLabel",
+    "QPDepth",
+    "QPRouteMode",
+    "QPUnaryDirectTemplate",
+    "QPUnaryConjugateTemplate",
+    "QPOrderedPairTemplate",
+    "QPUnorderedTriadCandidate",
+    "QPLocalTriadTemplate",
+    "QPRejectedConstruction",
+    "QPCarrierInfrastructure",
+    "QPHiddenSupport",
+    "QPGlobalScalarParent",
+    "QPNativeAccount",
+    "QPContentAnnotation",
+    "QPRelationGeometry"
+  ],
+  "constructors": {
+    "QP_UNARY_DIRECT": {
+      "count": 72,
+      "domain": "P x {0,1,2} x {plus,minus,neutral}",
+      "formula": {
+        "minus": "3*p*12^g/2",
+        "neutral": "p*12^g/8",
+        "plus": "5*p*12^g/4"
+      },
+      "census_role": "LEGAL_LOCAL_TEMPLATE"
+    },
+    "QP_UNARY_CONJUGATE": {
+      "count": 42,
+      "domain": "charged unary direct except deep packets (8,2),(9,2),(12,2)",
+      "census_role": "LEGAL_LOCAL_TEMPLATE"
+    },
+    "QP_ORDERED_PAIR": {
+      "count": 64,
+      "domain": "P x P",
+      "formula": "12*a*b + 3*abs(a-b)",
+      "census_role": "LEGAL_LOCAL_TEMPLATE",
+      "constituent_payload": false
+    },
+    "QP_UNORDERED_TRIAD": {
+      "candidate_count": 120,
+      "domain": "multiset_3(P)",
+      "formula": "36*(a^2+b^2+c^2)",
+      "local_count": 107,
+      "rejected_count": 13,
+      "constituent_payload": false
+    },
+    "QP_HIDDEN_SUPPORT": {
+      "count": 8,
+      "domain": "P",
+      "formula": "p + p^2/144",
+      "census_role": "INFRASTRUCTURE"
+    },
+    "QP_CARRIER_TERMINAL": {
+      "count": 6,
+      "census_role": "INFRASTRUCTURE",
+      "source_defined": true
+    },
+    "QP_SCALAR_PARENT": {
+      "count": 1,
+      "multiplicity": "GLOBAL_ONCE",
+      "census_role": "GLOBAL",
+      "source_defined": true
+    },
+    "QP_EXPLICIT_CONTROL": {
+      "count": 8,
+      "census_role": "REJECTED",
+      "source_defined": true
+    }
+  },
+  "source_terminals": {
+    "carriers": [
+      ["QP093A-0300", "TENSOR_CARRIER"],
+      ["QP093A-0301", "ROAD_LIGHT_CARRIER"],
+      ["QP093A-0302", "WEAK_VECTOR_CARRIER"],
+      ["QP093A-0303", "NEUTRAL_VECTOR_CARRIER"],
+      ["QP093A-0304", "COLOR_OWNER_CARRIER"],
+      ["QP093A-0305", "A_FIELD_CARRIER"]
+    ],
+    "controls": [
+      "DIRECT_QA_AS_MASS",
+      "PROMOTE_TENSOR_CARRIER",
+      "SKIP_LEDGER_COMPRESSION",
+      "RANDOM_ROUTE_CLOSURE",
+      "NEAREST_KNOWN_PARTICLE_MATCH",
+      "OPEN_COLOR_NO_OWNER",
+      "SURFACE_STACK_DISABLED",
+      "FAKE_PARENT_NO_CLOSED_LOOP"
+    ],
+    "scalar_parent": ["QP093A-0299", "HIGGS_REVEAL_PARENT"]
+  },
+  "triad_admissibility": {
+    "canonical_guard": "M_observed_candidate > 0 and tensor_carrier_support > 0",
+    "guard_status": "FROZEN_120_TRIAD_CORPUS_ADMISSIBILITY",
+    "predicate_uniqueness": false,
+    "coextensive_predicates_to_prove": [
+      "M_observed_candidate > 0 and tensor_carrier_support > 0",
+      "M_observed_candidate > 0",
+      "tensor_carrier_support > 0",
+      "closure_depth > 0 or q_abs > 0"
+    ],
+    "physical_mechanism_claimed": false
+  },
+  "census_partition": {
+    "GLOBAL": 1,
+    "INFRASTRUCTURE": 14,
+    "LEGAL_LOCAL_TEMPLATE": 285,
+    "REJECTED": 21,
+    "TOTAL": 321,
+    "historical_payload_label_for_legal_local_templates": 285
+  },
+  "conditional_annotations": {
+    "CB2250": {
+      "all12_unique": false,
+      "legality_authority": false,
+      "pair_relations_annotated": 64,
+      "status": "CONDITIONAL_CONTENT_ANNOTATION",
+      "tested_two_state_champion": true,
+      "triad_relations_annotated": 107
+    }
+  },
+  "installed_v0_4_operators": [
+    "RESOLVE",
+    "PROMOTE_VOLUME",
+    "PROMOTE_FACE",
+    "MIRROR_CLOSE",
+    "RETAIN_MATTER",
+    "RESERVE_CLOSURE_ADDRESS_STRUCTURAL_ONLY"
+  ],
+  "established_repo_semantics_language_registration_open": [
+    "PHYSICAL_OCCURRENCE_FROM_COMPLETED_WRITE",
+    "ENTITY_LINEAGE",
+    "RECIPROCAL_RELATION_INSTANCE",
+    "RELAY_TO_WRITE"
+  ],
+  "candidate_process_semantics_transition_execution_open": [
+    "STARBREAKER_FORMATION_TRANSITION",
+    "TERMINAL_REMNANT",
+    "REMNANT_ISOTOPE_DECODER",
+    "FORMATION_CONSERVATION_ACCOUNT",
+    "STATE_BINDING_READOUT"
+  ],
+  "physical_assignment_open": [
+    "QP_ALL12_CODEBOOK_UNIQUENESS",
+    "QP_STARBREAKER_DYNAMICAL_INCIDENCE",
+    "QP_PHYSICAL_MASS_OPERATOR",
+    "QP_BINDING_VALIDATION"
+  ],
+  "non_equivalence_guards": [
+    "QPGrammarTemplate != QPEntityInstance",
+    "QPEntityInstance != QPWriteEvent",
+    "LedgerAddress != OccupiedLedgerSlot",
+    "QPOrderedPairTemplate != ConstituentParticle",
+    "QPUnorderedTriadCandidate != ConstituentParticle",
+    "QPCarrierInfrastructure != LocalPayload",
+    "QPHiddenSupport != LocalPayload",
+    "QPNativeAccount != PhysicalMass",
+    "StarbreakerRemnantFraction != PhysicalMass",
+    "FormationRelease != StateBindingWithoutReferenceConditions"
+  ],
+  "forbidden": [
+    "candidate ID used as semantic selector",
+    "CB2250 used as legality authority",
+    "static template-to-slot assignment presented as formation dynamics",
+    "isotope identity or binding used to select a trajectory or incidence graph",
+    "pair or triad relation token counted as an extra constituent particle",
+    "carrier support or scalar promoted to constituent payload",
+    "scalar parent repeated per constituent",
+    "A mutates the QP grammar or internal 162-slot composition",
+    "physical mass width lifetime decay branching or binding used in grammar proof",
+    "mutation of SAM_LANGUAGE_V0_4 or SAM_LANGUAGE_V0_3",
+    "unregistered physical operator execution"
+  ]
+}

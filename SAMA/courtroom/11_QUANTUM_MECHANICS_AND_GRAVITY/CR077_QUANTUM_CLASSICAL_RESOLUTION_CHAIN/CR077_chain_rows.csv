@@ -1,0 +1,5 @@
+stage,input,operator,output,status,boundary
+QGA016,unresolved echo E,P_i = |E_i|^2 / sum |E|^2,"route probabilities 1/7, 4/7, 2/7",QGA016_PASS_UNRESOLVED_ECHO_PROBABILITY_MEASURE,no write yet
+QGA018,QGA016 route probabilities,Gamma_res threshold + X_c ownership,r1 completed_write; r0/r2 withheld or rejected,QGA018_PASS_GAMMA_RES_OPERATOR_BRIDGE,structural bridge
+QGA019,echo E and contact C,"|<C,E>|^2/(<E,E><C,C>)",I_phys(r1)=4/7 crosses 1/2,QGA019_PASS_I_PHYS_CONTACT_OVERLAP_FUNCTIONAL,threshold origin remains upstream
+G678,physical detector/cat/environment contact,interaction -> A-resolution -> ledger write,resolved before human readout,G678_PASS_INTERACTION_CAUSED_LEDGER_RESOLUTION__HUMAN_OBSERVATION_IS_READOUT,QGA021 dependency not recertified

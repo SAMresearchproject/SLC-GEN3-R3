@@ -1,0 +1,25 @@
+{
+  "cr_id": "CR096",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "ADMISSIBILITY_AND_RESIDUAL_RESOLUTION_PROOF",
+  "execution_status": "CLEAN",
+  "result_class": "TWO_GATE_RESOLUTION_PROOF_BUILT",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "anchor_rows_total": 4,
+  "gate_a_rejections": 3,
+  "gate_r_rejections": 1,
+  "gate_declaration_mismatches": 0,
+  "row_label_counts": {
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": 3,
+    "REJECTED_AT_GATE_R_RESIDUAL": 1
+  },
+  "prediction_commit_sha256": "ae7c7833d3d837f0760297f4de9fcf2937766475d05d651daccf9e1bd8940a3c",
+  "prediction_commit_utc": "2026-06-13T21:29:08Z",
+  "anchor_envelope_sha256": "4515d7afe9e19bc61781f2394b6b92bf346171ecc707cdcc40b9ce9bb9fafed9",
+  "anchor_envelope_open_utc": "2026-06-13T21:29:08Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "seal sha256 sibling pending"
+  ]
+}

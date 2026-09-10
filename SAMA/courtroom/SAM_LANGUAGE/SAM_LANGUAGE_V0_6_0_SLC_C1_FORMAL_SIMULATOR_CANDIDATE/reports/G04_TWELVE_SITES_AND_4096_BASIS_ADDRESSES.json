@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "basis_range": true,
+    "dimension": true,
+    "other_arity_rejected": true,
+    "register_size": true,
+    "site_ids": true
+  },
+  "status": "PASS"
+}

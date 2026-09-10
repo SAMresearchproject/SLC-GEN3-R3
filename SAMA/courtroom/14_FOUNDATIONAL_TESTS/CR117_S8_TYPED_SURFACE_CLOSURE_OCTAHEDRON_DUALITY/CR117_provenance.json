@@ -1,0 +1,114 @@
+{
+  "expected_precommit_sha256": "84c1a50c983e8d48c63f7a64ed30c32fc8961140a70efd05a5aa7bf8f81cb638",
+  "forecast_generated": false,
+  "language_or_meta_language_test": false,
+  "no_physical_octahedron_ontology_claim": true,
+  "opened_file_manifest": "OPENED_FILE_MANIFEST.json",
+  "precommit_sha256": "84c1a50c983e8d48c63f7a64ed30c32fc8961140a70efd05a5aa7bf8f81cb638",
+  "primary_verdict": "PASS_S8_TYPED_SURFACE_CLOSURE_UNIFICATION",
+  "prospective_record_class": "SCIENTIFIC_TEST",
+  "queue_maintenance_performed_by_research_agent": false,
+  "record_id": "CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY",
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-12T03:18:19Z",
+  "source_conflicts_preserved": [
+    {
+      "conflict": "CR238 foundational {F,S} direction versus CR258 primitive-base (alpha_H,D)",
+      "resolution": "CR258 controls this CR; CR238 phrase retained as sealed historical alias/conflict."
+    },
+    {
+      "conflict": "surface wording versus arbitrary boundary overclaim",
+      "resolution": "surface language scoped to row/ledger or octahedral dual realization; arbitrary-boundary claim rejected."
+    }
+  ],
+  "source_hashes": [
+    {
+      "expected": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+      "observed": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+      "ok": true,
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md"
+    },
+    {
+      "expected": "4139aee463004ac2cb882e2bda0642752e0bb5dc759eace42df0351fc51686ec",
+      "observed": "4139aee463004ac2cb882e2bda0642752e0bb5dc759eace42df0351fc51686ec",
+      "ok": true,
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_binary_face_state_split_lock.json"
+    },
+    {
+      "expected": "55e0c81a8c417fb79f377f5913035d65a917ada0cca80e5cc9cdf8851fd55895",
+      "observed": "55e0c81a8c417fb79f377f5913035d65a917ada0cca80e5cc9cdf8851fd55895",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md"
+    },
+    {
+      "expected": "7c1b870014b7f45bd1686963c13304375792f443e7a6d156a2ae90c9489174ef",
+      "observed": "7c1b870014b7f45bd1686963c13304375792f443e7a6d156a2ae90c9489174ef",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_result.md"
+    },
+    {
+      "expected": "7dd2114869a509d3a8e17625eb34fe528c83dfc9d63a4ae940acca95f46b6a3e",
+      "observed": "7dd2114869a509d3a8e17625eb34fe528c83dfc9d63a4ae940acca95f46b6a3e",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_result.md"
+    },
+    {
+      "expected": "4e3864f43bdf3368101350faac8473b96b5333aa4bf1e5047b05a295229dbef0",
+      "observed": "4e3864f43bdf3368101350faac8473b96b5333aa4bf1e5047b05a295229dbef0",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_recheck_derivations.md"
+    },
+    {
+      "expected": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1",
+      "observed": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md"
+    },
+    {
+      "expected": "3f0763ebed33744602ceab9adc5fe4ceabf9d644e6480d8316989c1dd54baec0",
+      "observed": "3f0763ebed33744602ceab9adc5fe4ceabf9d644e6480d8316989c1dd54baec0",
+      "ok": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G219B_chi_corrected_derivation/results/G219B_summary.md"
+    },
+    {
+      "expected": "bad0cac0daeb3e9d8b07df1187738e481a3a8f2b3f62928e989eb528f27c4bdb",
+      "observed": "bad0cac0daeb3e9d8b07df1187738e481a3a8f2b3f62928e989eb528f27c4bdb",
+      "ok": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G305_chi_horizon_quotient_measure/G305_output.txt"
+    },
+    {
+      "expected": "38576ddc4d63a9c96d18a2fb6e584bf3302ccd5cc79f1e2264a39201d77501fd",
+      "observed": "38576ddc4d63a9c96d18a2fb6e584bf3302ccd5cc79f1e2264a39201d77501fd",
+      "ok": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G306_horizon_measure_axiom_provenance/G306_output.txt"
+    },
+    {
+      "expected": "9253aebe12f90d7bb53cc4e33e4d31ed703e4aac03404c04f604e4ec485ef32b",
+      "observed": "9253aebe12f90d7bb53cc4e33e4d31ed703e4aac03404c04f604e4ec485ef32b",
+      "ok": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G307_substrate_gravity_horizon_cell/G307_output.txt"
+    },
+    {
+      "expected": "a1ce9da214e5ce0d60ede81d818a12c8d94be1a81a33dc5fd4b5b7da6ef69884",
+      "observed": "a1ce9da214e5ce0d60ede81d818a12c8d94be1a81a33dc5fd4b5b7da6ef69884",
+      "ok": true,
+      "path": "docs/VOLUME_I_APPENDIX_AND_GLOSSARY.md"
+    },
+    {
+      "expected": "c35ff216f493b0d9f6087937c6cb04210273e2d8a15051a678cba93092590b18",
+      "observed": "c35ff216f493b0d9f6087937c6cb04210273e2d8a15051a678cba93092590b18",
+      "ok": true,
+      "path": "docs/SAM_VOLUME_I_SUBSTRATE_READER_v1_1.md"
+    },
+    {
+      "expected": "1727e2b65aeab588b70a98ceff3aeac3ad6fa69bd27772e66a526c6e6e65bb64",
+      "observed": "1727e2b65aeab588b70a98ceff3aeac3ad6fa69bd27772e66a526c6e6e65bb64",
+      "ok": true,
+      "path": "docs/COURTROOM_MANUSCRIPT_SECTION_04_DERIVED_NATIVE_QUANTITIES.md"
+    }
+  ],
+  "source_manifest": "CR117_SOURCE_MANIFEST.json",
+  "source_occurrence_register": "CR117_S8_SOURCE_OCCURRENCE_REGISTER.csv"
+}

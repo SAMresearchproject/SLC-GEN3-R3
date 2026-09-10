@@ -1,0 +1,20 @@
+# CR272 hashes
+
+CR272_PRECOMMIT.md sha256 = 2eaf4f3694de9de902c5a74d8709deff119b002bb95091d0c41d0b9fdfba716b
+CR272_runner.py sha256 = 0f8c20ec5a80b57091bdd01275c1f86c50edc3b81c2d34163e6f1d36b9ea04d9
+CR272_summary.json sha256 = 89dd7967fcb88834860575da6495f05ce72f89342a68ec5ac2f9e94931528441
+CR272_result.md sha256 = b4e47fcdafdd57b151cf611571bcaf7283dc389532c0793b4fe0f082bceade79
+CR272_evidence_rows.csv sha256 = c17df8852e213e01a4b475c651115f6a30a9b1f5624313a96183a62034ea7bd7
+CR272_complete_enumeration.csv sha256 = 0619036eb107f8ac1d022e093e93e91a8f529ab950d7d9fbfc5295d729d77c01
+CR272_forecast_locks.csv sha256 = 707d6bb2c685211ec3a5fb5f57022fa2bf99569ec32c4d7940d119ff8ce8a1b6
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR271@09a e-channel chemistry cipher (FAIL preserved)
+  CR270@09a GKS source-count measure identification
+  CR269@09a bow primitive (M = 7*Theta)
+  CR267@09a tensor 9 closure witness
+  CR266@09a two-mirror reciprocity d_hat derivation
+  CR262@09a carrier/container nuclear cipher
+  CR248@09a source-count algebra

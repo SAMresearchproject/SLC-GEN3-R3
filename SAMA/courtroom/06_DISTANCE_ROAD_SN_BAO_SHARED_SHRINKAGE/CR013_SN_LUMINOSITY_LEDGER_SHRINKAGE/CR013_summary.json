@@ -1,0 +1,30 @@
+{
+  "test_id": "CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE",
+  "verdict": "CR013_PASS_SN_LUMINOSITY_LEDGER_SHRINKAGE",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SN_LUMINOSITY_LEDGER",
+  "source_rows": 1701,
+  "max_A_error": 0.0,
+  "max_c_error_km_s": 0.0,
+  "max_distance_error_mpc": 0.0,
+  "max_mu_error": 7.105427357601002e-15,
+  "low_z_mean_A": 0.0062347071581974845,
+  "high_z_mean_A": 0.2927243984113852,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "no_older_test_verdicts_used": true,
+    "free_parameters_introduced_zero": true,
+    "sn_source_rows_present": true,
+    "bao_inputs_not_loaded": true,
+    "A_los_row_identity": true,
+    "c_eff_row_identity": true,
+    "native_distance_row_identity": true,
+    "native_mu_row_identity": true,
+    "low_z_shrink_near_zero": true,
+    "high_z_shrink_larger_than_low_z": true,
+    "wrong_controls_do_not_match_packet": true
+  },
+  "rule_9_falsification": "This test could have falsified the SN ledger claim if Pantheon SN rows did not recompute from A_los(z), if the luminosity-distance shrink failed row identity, if BAO inputs were needed, or if wrong controls matched the packet."
+}

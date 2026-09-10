@@ -1,0 +1,12 @@
+wrong_control,attempted_mutation,evidence,result
+WC26_HALO_PBH_CONFIG_AS_LAW,promote a successful seed/profile configuration to primitive theorem law,CR029 leaves native radial organization/mass function/concentration open; G677 best-RMS R/6 candidate is comparison only; LC08 promotes no config,REJECTED
+WC02_BRANCH_LOCAL_CONSTANT_OVERRIDE,derive R from halo profile configuration instead of LC01/CR113,R=12 is read from LC01/CR113; R/12 is checked as native candidate and R/6 is not promoted,REJECTED
+WC03_TARGET_VALUE_SUBSTITUTION,use SPARC target residuals or best RMS to select primitives,Observed rotations are comparison targets; G677 ordering board marks observed_rotation_curve as comparison target; QP042 uses no observed baryon masses,REJECTED
+WC04_ROW_DELETION,drop unfavorable SPARC or branch rows,"LC08 keeps 175 G392 residual rows, 175 G394 profile rows, 173 primary seed rows, and all CR022-CR030 summaries",REJECTED
+WC05_RETROACTIVE_RELABELING,silently rewrite the stale governance CR115 halo/PBH interpretation,CR116 supersedes CR115 transparently while CR115 remains unmodified; LC08 records current reading from CR116,REJECTED
+WC_SMOOTH_UNIFORM_PBH_CONFLATION,treat smooth/uniform PBH constraints as a refutation of clustered BB-origin PBH inventory,CR026 uniform control gap closed is 0.000038495994978; CR116 states microlensing smooth-envelope debt remains open for clustered analysis,REJECTED
+WC_POST_BB_ONLY_AS_FULL_HALO,replace BB-origin trapped-A/PBH inventory with the bounded post-BB/window subchannel,CR024/G393 post-BB envelope supplies 2.576714% of dark residual and leaves 97.423286% missing; CR026 post-BB control gap closed is 0.024485,REJECTED
+WC_FULL_NATIVE_RADIAL_LAW_OVERCLAIM,claim the native radial organization/mass function/concentration theorem is closed,"CR025, CR026, CR029, CR030, and G677 all preserve the native radial law/mass function/concentration as open",REJECTED
+WC_CLUSTERED_MICROLENSING_CLOSURE_OVERCLAIM,claim current branch quantitatively closes clustered-PBH-aware microlensing bounds,CR116 explicitly lists clustered-PBH-aware microlensing envelope analysis as an honest open debt,REJECTED
+WC_PRIVATE_QP042_AS_EXTERNAL_HALO_EVIDENCE,treat private QP042 baryon scaffold support as external SPARC halo evidence,CR028 is BOUNDARY private support; QP042 source_scope is PRIVATE_QUANTUM_PHASE_REPO_ONLY,REJECTED
+WC13_REPLAY_WITHOUT_HASH_LOCK,accept LC08 without source hashes or a branch hash link,"LC08 emits source hashes, artifact hashes, and includes branch BRANCH_HASHES.txt",REJECTED

@@ -1,0 +1,67 @@
+{
+  "artifacts": {
+    "checks": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_claim_boundaries.csv",
+    "generator_suite_register": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_generator_suite_register.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/HASHES.txt",
+    "layers": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_particle_replay_layers.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC04_particle_mass_chain_table_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_summary.json",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC04_PARTICLE_MASS_CHAIN_TABLE_REPLAY/LC04_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 65,
+    "total": 65
+  },
+  "epistemic_boundary": [
+    "Particle mass-chain/table replay passes from the LC01 primitive stack.",
+    "LC04 does not promote in-sample generator consistency to first-principles derivation.",
+    "LC04 does not replay periodic/isotope identities; that is LC05.",
+    "LC04 does not promote tensor carrier M=18, qA, or source support into matter rows."
+  ],
+  "generated_utc": "2026-06-19T08:17:59+00:00",
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": 0.026525823848649224,
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": 1.125,
+    "carrier_side": "1/8",
+    "carrier_side_decimal": 0.125,
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": 0.5625,
+    "retained_side": "7/8",
+    "retained_side_decimal": 0.875,
+    "split_fraction": "1/8",
+    "split_fraction_decimal": 0.125,
+    "surface_debit": "3/4",
+    "surface_debit_decimal": 0.75
+  },
+  "particle_table": {
+    "CR119_csv_particle_rows": 321,
+    "CR119_summary_matter_rows": 126,
+    "CR119_summary_particle_rows": 321,
+    "CR119_summary_periodic_rows": 126
+  },
+  "pass_condition": {
+    "constant_mutation": "forbidden",
+    "formula_mutation": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden"
+  },
+  "replay_layers": 13,
+  "result": "LC04_PASS_PARTICLE_MASS_CHAIN_TABLE_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC04",
+  "task_name": "particle mass-chain table replay",
+  "wrong_controls": {
+    "rejected": 11,
+    "tested": 11
+  }
+}

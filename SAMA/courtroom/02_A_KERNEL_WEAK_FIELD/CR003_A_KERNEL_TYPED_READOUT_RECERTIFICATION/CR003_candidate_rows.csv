@@ -1,0 +1,7 @@
+candidate,horizon_A_equals_1,potential_matches_newton,force_matches_newton,clock_first_order_is_A_over_2,many_source_additive,selector_score,full_packet
+correct_A,True,True,True,True,True,5,True
+half_A,False,False,False,True,True,2,False
+inverse_square_A,False,False,False,False,True,1,False
+potential_doubled,True,False,False,True,True,3,False
+horizon_shifted,False,True,True,True,True,4,False
+clock_linear,True,True,True,False,True,4,False

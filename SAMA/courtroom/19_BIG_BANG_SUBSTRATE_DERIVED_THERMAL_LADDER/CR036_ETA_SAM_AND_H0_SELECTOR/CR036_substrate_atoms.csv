@@ -1,0 +1,13 @@
+symbol,value,definition
+R,12,radix
+D,3,dimension
+S,8,split inventory = 2^D
+alpha_H,2,binary readout
+Theta,18,tensor bridge alpha_H*D^2
+F,81,carrier face D^(D+1)
+L,162,closed ledger alpha_H*F
+V,27,resolved write cell D^3
+M,126,matter capacity R^2-Theta
+L/V,6,ledger-to-write-cell reducer = 6
+A_0,0.026525823848649224,1/(12*pi) = V/(pi*alpha_H*L)
+chi,0.07073553026306459,(S/D)*A_0 = 2/(9*pi)

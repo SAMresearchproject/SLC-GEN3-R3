@@ -1,0 +1,20 @@
+{
+  "F81_selected_M_native": "14077.125",
+  "F81_selected_rows": 84,
+  "F81_status": "PARTIAL_SOURCE_TYPED_RULE",
+  "accounting": {
+    "M_native_100": 16200,
+    "M_native_81": 12600,
+    "mean_100": 162,
+    "rows_100": 100,
+    "rows_81": 81
+  },
+  "binding_CR261_test_RMS_baseline": 3.0171130679193108,
+  "binding_CR261_test_RMS_candidate": 4.071613571192475,
+  "binding_CR277_extended_RMS_baseline": 7.9741442248170715,
+  "binding_CR277_extended_RMS_candidate": 8.06744550429221,
+  "binding_status": "NO_FROZEN_BINDING_IMPROVEMENT",
+  "cr": "CR120T",
+  "primary_verdict": "BOUNDARY_DISCOVERY_SUPPORTED_PROJECTION_OR_BINDING_OPEN",
+  "same_run_repair": false
+}

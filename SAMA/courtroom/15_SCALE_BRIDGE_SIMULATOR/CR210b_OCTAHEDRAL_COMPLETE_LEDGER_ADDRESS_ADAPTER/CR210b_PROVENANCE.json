@@ -1,0 +1,15 @@
+{
+  "record_id": "CR210b_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "task": "Execute CR210b as a fresh successor to the frozen CR210a implementation failure, preserving the identical octahedral complete-ledger structural candidate, predictions, controls, source firewall, and verdict ceiling, correcting only expected-value set serialization, with outcomes and binding closed, and stop after one execution",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "parent_freeze": "PSLI_DF_20260715T025638Z",
+  "precommit_sha256": "a898c53609958556ae5a43e6c409bb0e32037c9c2b1042538e067f35d3b97224",
+  "source_manifest_sha256": "ac35e67bfa5905b20051c0e45b27de567116e6928492189932892ab37bf678f3",
+  "declared_premises_sha256": "adb13e002dc394adaa279c59827eee789d71632eb1ccf12922183171f11290cf",
+  "runner_sha256": "a9972c6ada1a4e0843c9fb9788c77330496a8c9cc761f3763ddb873e25a0f3f2",
+  "source_count": 20,
+  "generated_utc": "2026-07-15T03:50:40.304958+00:00",
+  "execution_path": "tools/run_sam_test.py",
+  "execution_count": 1,
+  "outcome_or_binding_sources": 0
+}

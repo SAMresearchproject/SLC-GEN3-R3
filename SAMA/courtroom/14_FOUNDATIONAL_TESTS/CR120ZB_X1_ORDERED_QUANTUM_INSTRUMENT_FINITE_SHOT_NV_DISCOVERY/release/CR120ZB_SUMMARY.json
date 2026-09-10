@@ -1,0 +1,86 @@
+{
+  "calibration_blocks_per_profile": 24,
+  "campaign_id": "CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY",
+  "hard_gates_passed": 8,
+  "hard_gates_total": 9,
+  "hardware_backend_executed": false,
+  "installed_operator": null,
+  "no_signaling_max_trace_distance": 1.6653345369377348e-16,
+  "physical_B_X1_weld": "OPEN",
+  "precommit_seal_pass": true,
+  "primary_verdict": "BOUNDARY_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY__ONE_OR_MORE_FROZEN_GATES_FAILED",
+  "profile_results": {
+    "cryogenic_NV": {
+      "calibration_pass": true,
+      "forward_CHSH_median": 2.733716376622368,
+      "forward_CHSH_violation_blocks": 48,
+      "forward_negativity_median": 0.4708334079004719,
+      "forward_negativity_q05": 0.4623548521692065,
+      "max_control_negativity_q95": 0.01232023415962338,
+      "positive_order_gap_blocks": 48,
+      "profile": "cryogenic_NV",
+      "profile_pass": true,
+      "q05_minus_control_q95": 0.45003461800958316,
+      "validation_blocks": 48
+    },
+    "noisy_NV": {
+      "calibration_pass": true,
+      "forward_CHSH_median": 2.625559339986192,
+      "forward_CHSH_violation_blocks": 48,
+      "forward_negativity_median": 0.44261569827531855,
+      "forward_negativity_q05": 0.4125701188997924,
+      "max_control_negativity_q95": 0.010357970112010714,
+      "positive_order_gap_blocks": 48,
+      "profile": "noisy_NV",
+      "profile_pass": true,
+      "q05_minus_control_q95": 0.40221214878778166,
+      "validation_blocks": 48
+    },
+    "room_temp_NV": {
+      "calibration_pass": true,
+      "forward_CHSH_median": 2.6915251105311304,
+      "forward_CHSH_violation_blocks": 48,
+      "forward_negativity_median": 0.46145248342436884,
+      "forward_negativity_q05": 0.4496197383387412,
+      "max_control_negativity_q95": 0.008809477393462953,
+      "positive_order_gap_blocks": 48,
+      "profile": "room_temp_NV",
+      "profile_pass": true,
+      "q05_minus_control_q95": 0.44081026094527825,
+      "validation_blocks": 48
+    }
+  },
+  "registry_mutated": false,
+  "same_run_repair": false,
+  "scientific_status": "BOUNDARY",
+  "shots_per_observable": 4096,
+  "source_hashes_matched": 13,
+  "source_hashes_total": 13,
+  "supported_meaning": "The ordered B-contact then X1-response quantum target survives finite-shot PSD tomography across all three inherited NV noise profiles and remains separated from matched direct and herald controls.",
+  "swap_results": {
+    "cryogenic_NV": {
+      "false_herald_negativity_q95": 0.0,
+      "product_negativity_q95": 0.011875575644095387,
+      "profile": "cryogenic_NV",
+      "resolved_bell_negativity_q05": 0.4621688905790439,
+      "swap_pass": true
+    },
+    "noisy_NV": {
+      "false_herald_negativity_q95": 0.0,
+      "product_negativity_q95": 0.006171057222815952,
+      "profile": "noisy_NV",
+      "resolved_bell_negativity_q05": 0.44631974759703513,
+      "swap_pass": true
+    },
+    "room_temp_NV": {
+      "false_herald_negativity_q95": 0.0,
+      "product_negativity_q95": 0.011109260629796924,
+      "profile": "room_temp_NV",
+      "resolved_bell_negativity_q05": 0.4536640506258542,
+      "swap_pass": true
+    }
+  },
+  "validation_blocks_per_profile": 48,
+  "wrong_controls_rejected": 12,
+  "wrong_controls_total": 12
+}

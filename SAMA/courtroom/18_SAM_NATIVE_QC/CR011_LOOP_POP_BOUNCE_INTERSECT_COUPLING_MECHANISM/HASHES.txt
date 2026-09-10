@@ -1,0 +1,23 @@
+# CR011 file hashes (precommit + runner + result sealed 2026-07-02)
+
+## CR artifacts (this folder)
+
+1824a4d748523867c6a4191f9a170a4423cc58ad500686b28005de116015be9e  CR011_PRECOMMIT.md
+28bfa24e7677b40b07f027ed386954ec2d56efba8b8f8ba56c8d1e2a47b89441  CR011_runner.py
+7f63fcdf63749346330f1cdb79c180e00052c035dd08c4ef4be54d2e776421b4  CR011_result.md
+1f68dee627cd3aa2d9a9e590602a2444f55d605a36460718e89f560e760d0696  CR011_summary.json
+
+## Frame anchor + LC assignment + stewardship (carried unchanged)
+
+7b0f225821e2aea55e02b0868997fa2acd4ee88b4711ab1b1fb161366e1c5137  SAM_ON_EARTH_v1.md
+3a88142743f3d5487a55dc99e29f51edd097660e3cb27625c79aee3f5f29d4a4  SAM_LC_WORK_ASSIGNMENT_v1.md
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+
+# Verdict: PASS
+# Base-substrate coupling reach d_ref_base = R × λ_spaghettio = 12 × 3.877 μm = 46.52 μm.
+# Mechanism-forced from CR010 §1.5 endpoint elsewhere-propagation + CR266 mirror linear
+# extent R = ĥ²·d̂ = 12 + CR010 §1.2 per-address scale = m_3 Compton wavelength.
+# Zero free parameters. Zero bench-target reference in the derivation.
+# S1 v2 preview at n=0 Home nesting: H_pred(0.15 m) = 8.23e-6, floor = 7.4e-6,
+# ratio 1.11× = F-iii marginal. Full landing awaits CR012 nested-Home projection.
+# Full revision arc (v1.0 → v1.3) preserved in §6 and §10 of the precommit as audit trail.

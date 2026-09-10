@@ -1,0 +1,54 @@
+{
+  "test_id": "CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION",
+  "short_id": "CR022",
+  "question": "Does the current SAM V4.1 kernel explicitly support many nonzero A contributions accumulating into a measurable halo field?",
+  "verdict": "CR022_BOUNDARY_NATIVE_A_MANY_NONZERO_ACCUMULATION_ROOT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "claim_tier": "STRUCTURAL_A_KERNEL_ROOT_FOR_HALO_BRANCH",
+  "structural_success": true,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "sam_many_source_kernel_declared": true,
+    "sam_halo_cumulative_kernel_declared": true,
+    "single_nearzero_can_be_below_threshold": true,
+    "many_nonzeros_accumulate_above_threshold": true,
+    "free_parameters_introduced_zero": true,
+    "external_empirical_overclaim_rejected": true
+  },
+  "evidence_rows": [
+    {
+      "item": "master_many_source_formula",
+      "value": "A(x) = sum_i",
+      "pass": true
+    },
+    {
+      "item": "master_halo_cumulative_formula",
+      "value": "A(r) = r_s(<r)/r",
+      "pass": true
+    },
+    {
+      "item": "action_many_source_formula",
+      "value": "A_L(x) = sum_i",
+      "pass": true
+    },
+    {
+      "item": "action_halo_cumulative_formula",
+      "value": "A_L(r) = r_s(<r)/r",
+      "pass": true
+    },
+    {
+      "item": "single_nonzero_A",
+      "value": 1e-18,
+      "pass": true
+    },
+    {
+      "item": "many_nonzero_sum",
+      "value": 1.0000000000000001e-07,
+      "pass": true
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that the current SAM V4.1 formula/action engine contains a native many-source or halo A accumulation lane rather than requiring a new halo-only equation.",
+  "scope_note": "CR022 is a structural root test. It establishes the branch-local many-source A grammar but does not by itself close a galaxy halo observation."
+}

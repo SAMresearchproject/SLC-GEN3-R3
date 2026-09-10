@@ -1,0 +1,20 @@
+{
+  "cr_id": "CR070",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_ALL_THREE_SUB_LANES",
+  "triage_bin": "A",
+  "reason": "Sub-lanes A + B + C all PASS independently",
+  "captured_at_utc": "2026-06-13T07:53:58Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "sub_lane_verdicts": {
+    "sub_lane_A_nulls": "PASS_SUB_LANE_A_NULLS_TABLE_HOLES_SURFACED",
+    "sub_lane_B_rarity": "PASS_SUB_LANE_B_RARITY_MATCH_RATIO_0.586",
+    "sub_lane_C_wrong_controls": "PASS_SUB_LANE_C_WRONG_CONTROLS_ALL_PRESENT"
+  },
+  "rule9_lines": {
+    "sub_lane_A": "This test could have falsified the claim that the vault's structural lane predicts known table holes (Tc Z=43, Pm Z=61) rather than being fit to them.",
+    "sub_lane_B": "This test could have falsified the claim that internal pressure ordering correlates with natural-abundance ranking beyond chance, rejecting permutation controls.",
+    "sub_lane_C": "This test could have falsified the claim that the vault's 162/162 hit rate at Z=1..96 is not reproducible by a perturbed engine."
+  }
+}

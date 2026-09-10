@@ -1,0 +1,13 @@
+check,passed,observed,expected
+xlsx_written,True,82047,>0
+xlsx_is_valid_zip,True,True,True
+xlsx_has_9_sheets,True,9,9
+sheet_names_present,True,"['Constants', 'Hidden_Set', 'Shells', 'SOB_126', 'Reveal_Source_126', 'Revealed_Cards_126', 'Formula_Map', 'Input_Manifest', 'Checks']",all sheet names in workbook.xml
+formula_count_gt_6000,True,6033,>6000
+reveal_rows_126,True,126,126
+symbol_reveal_count_118_or_more,True,118,>=118
+mass_reveal_count_positive,True,96,>0
+z79_reveal_gold_mass,True,"{'Z': 79, 'known_symbol': 'Au', 'known_name': 'Gold', 'isotope_anchor': 'Au-197', 'reference_clock': 'stable', 'atomic_mass_u': '196.966570', 'matter_label': 'Matter 196.967', 'name_symbol_reveal_status': 'REVEALED', 'mass_reveal_status': 'REVEALED_QP061', 'reveal_source': 'CR119/CR220/QP061_AFTER_PREDICTION_SEAL'}",Au Gold Au-197 Matter 196.967
+z79_matches_cr226_reveal,True,"{'cr226': {'clock_match': 'True', 'known_name': 'Gold', 'known_symbol': 'Au', 'matter_label': 'Matter 196.967', 'revealed_isotope_anchor': 'Au-197'}, 'cr228': {'Z': 79, 'known_symbol': 'Au', 'known_name': 'Gold', 'isotope_anchor': 'Au-197', 'reference_clock': 'stable', 'atomic_mass_u': '196.966570', 'matter_label': 'Matter 196.967', 'name_symbol_reveal_status': 'REVEALED', 'mass_reveal_status': 'REVEALED_QP061', 'reveal_source': 'CR119/CR220/QP061_AFTER_PREDICTION_SEAL'}}",CR226 Z79 reveal
+cr227_prediction_workbook_hash_present,True,4a681da225ff94122c7167c3e852df6d636cd61b925297e39f76be45c160a020,64-char sha256
+reveal_lookup_formulas_present,True,checked,INDEX/MATCH reveal formulas

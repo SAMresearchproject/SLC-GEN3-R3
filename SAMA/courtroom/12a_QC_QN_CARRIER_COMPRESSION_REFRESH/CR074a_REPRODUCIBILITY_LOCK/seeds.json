@@ -1,0 +1,6 @@
+{
+  "cr_id": "CR074a",
+  "stochastic_steps": [],
+  "all_runners_deterministic_from_input_csv": true,
+  "note": "No stochastic operations in CR070a/CR071a/CR072a/CR073a runners. Output is deterministic from input CSVs through numpy/matplotlib (Decimal arithmetic; standard plot generation; dict insertion-order preservation). seeds.json is empty by design."
+}

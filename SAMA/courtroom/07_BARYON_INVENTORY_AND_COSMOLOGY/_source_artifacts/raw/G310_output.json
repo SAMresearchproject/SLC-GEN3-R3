@@ -1,0 +1,100 @@
+﻿{
+  "test": "G310_omega_residual_localization",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T08:44:43.296826+00:00",
+  "predictions": [
+    {
+      "id": "P1",
+      "name": "current chi gives clean Omega_b",
+      "pass": true,
+      "omega_b_current": 0.049299011266100756,
+      "omega_b_sigma": -0.0016478898320672806
+    },
+    {
+      "id": "P2",
+      "name": "current ratio residual matches recorded positive residual",
+      "pass": true,
+      "ratio_current": 5.456719475886702,
+      "ratio_sigma": 1.4306420415898153
+    },
+    {
+      "id": "P3",
+      "name": "ratio target asks for lower Omega_m if Omega_b is held fixed",
+      "pass": true,
+      "omega_m_current": 0.3183098861837907,
+      "omega_m_needed_for_ratio": 0.313753697400845,
+      "omega_m_delta_pct": -1.4313689208870335
+    },
+    {
+      "id": "P4",
+      "name": "fitting chi to the ratio breaks the Omega_b match",
+      "pass": true,
+      "chi_current": 0.0707355302630646,
+      "chi_needed_if_omega_m_fixed": 0.05724117342048607,
+      "chi_delta_needed": -0.013494356842578534,
+      "omega_b_sigma_if_chi_fit": 1.1915152186914302
+    },
+    {
+      "id": "P5",
+      "name": "G309 finite-cell macro correction is far too small",
+      "pass": true,
+      "g309_macro_sigma_max": 1.461e-68,
+      "ratio_sigma": 1.4306420415898153
+    },
+    {
+      "id": "P6",
+      "name": "raw 10/2 partition remains falsified",
+      "pass": true,
+      "raw_10_2_ratio": 5.0,
+      "raw_10_2_sigma": -5.639318885448917
+    }
+  ],
+  "wrong_controls": [
+    {
+      "id": "WC1",
+      "name": "raw 10/2 no-bias partition rejected",
+      "pass": true,
+      "raw_10_2_sigma": -5.639318885448917
+    },
+    {
+      "id": "WC2",
+      "name": "chi fitted to ratio while ignoring Omega_b rejected",
+      "pass": true,
+      "omega_b_sigma_current": -0.0016478898320672806,
+      "omega_b_sigma_if_chi_fit": 1.1915152186914302
+    },
+    {
+      "id": "WC3",
+      "name": "finite-cell correction as residual source rejected",
+      "pass": true,
+      "g309_macro_sigma_max": 1.461e-68
+    },
+    {
+      "id": "WC4",
+      "name": "decorative DM-bias divisor as main residual source rejected",
+      "pass": true,
+      "decorative_dm_shift_sigma_bound": 0.3,
+      "ratio_sigma": 1.4306420415898153
+    },
+    {
+      "id": "WC5",
+      "name": "target-fit Omega_m is not a derivation",
+      "pass": true,
+      "omega_m_target_fit": 0.313753697400845,
+      "omega_m_current": 0.3183098861837907
+    },
+    {
+      "id": "WC6",
+      "name": "large chi deformation rejected",
+      "pass": true,
+      "relative_chi_change_needed": -0.19077197544703745
+    }
+  ],
+  "overall": {
+    "verdict": "G310_RATIO_RESIDUAL_LOCALIZED_TO_OMEGA_M_SIDE",
+    "all_predictions_pass": true,
+    "all_wrong_controls_pass": true,
+    "localized_residual": "Omega_m side",
+    "next_target": "Omega_m / total matter chain, not chi horizon measure"
+  }
+}

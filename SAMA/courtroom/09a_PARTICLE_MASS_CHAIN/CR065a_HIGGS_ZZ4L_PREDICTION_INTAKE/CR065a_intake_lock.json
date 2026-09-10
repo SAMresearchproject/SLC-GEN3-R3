@@ -1,0 +1,152 @@
+{
+  "lock_id": "CR065a_HIGGS_ZZ4L_PREDICTION_INTAKE_LOCK",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "extends_courtroom_anchor": "CR064a (immutable)",
+  "intaken_at_utc": "2026-06-14T02:13:09Z",
+  "upstream_qp_chain": [
+    {
+      "qp_id": "QP084",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp084\\qp084_summary.json",
+      "exists": true,
+      "sha256": "90e89d809e2224fc2c02538ea147b27ab0d5464d11e65af463a918b12dbc5175",
+      "passed": true,
+      "result_class": "PASS_QP084_RESOLVED_HALF_ROUTE_BOUNCE_GEOMETRY_SELECTOR",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": false,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP085",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp085\\qp085_summary.json",
+      "exists": true,
+      "sha256": "9af24a5defb25581358e436a669d5a3dac84a2835f982dbd3010e5337a834825",
+      "passed": true,
+      "result_class": "PASS_QP085_HALF_BOUNCE_HIGGS_LANE_CONTACT_PRECISION_BOUNDARY",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": true,
+      "qp085_reveal_within_chain": true
+    },
+    {
+      "qp_id": "QP086",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp086\\qp086_summary.json",
+      "exists": true,
+      "sha256": "284d64736c69418a24de278c78b0873a32089390757fe2765b29512027d0b512",
+      "passed": true,
+      "result_class": "PASS_QP086_A_DEPENDENT_HIGGS_BOUNCE_COMPENSATION_SELECTOR",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": false,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP087",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp087\\qp087_summary.json",
+      "exists": true,
+      "sha256": "5300f929afca127366251dbe154e8ea75365b0d50f2e2bf5482980e5a08c092a",
+      "passed": true,
+      "result_class": "PASS_QP087_WZH_RESIDUALS_ON_NATIVE_BOUNCE_SUBSLOT_SCALE_PRECISION_BOUNDARY",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": true,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP088",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp088\\qp088_summary.json",
+      "exists": true,
+      "sha256": "adc66ed1c8e64a96e4bf25c505ae207a0dd0db0f3144eefdc6c50b3aef768e48",
+      "passed": true,
+      "result_class": "PASS_QP088_WZH_Q_SLOT_OWNERS_DERIVED_HIGGS_A_SOURCE_SELECTED",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": false,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP089",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp089\\qp089_summary.json",
+      "exists": true,
+      "sha256": "8ab67e691b5572346b22c1ad894e2b3010ee15c03a77aec90496d095405aec4b",
+      "passed": true,
+      "result_class": "PASS_QP089_HIGGS_A_SOURCE_TO_MACRO_ACCUMULATION_DYNAMICS",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": null,
+      "external_reference_used": false,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP090",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp090\\qp090_summary.json",
+      "exists": true,
+      "sha256": "750884277e8302cfd9d56c5ad8ea6eb303c396a6ac12be02aaa2c12010a58bf5",
+      "passed": true,
+      "result_class": "PASS_QP090_HIGGS_ZZ4L_VISIBLE_DAUGHTER_LEDGER_TARGET_SELECTED",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": false,
+      "external_reference_used": null,
+      "qp085_reveal_within_chain": false
+    },
+    {
+      "qp_id": "QP091",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp091\\qp091_summary.json",
+      "exists": true,
+      "sha256": "aa5db648aaf644cda3ce3a9b8c4c384950b4de08f39a264f3fb81fa07abe663f",
+      "passed": true,
+      "result_class": "PASS_QP091_HIGGS_ZZ4L_OBSERVABLE_PREDICTION_FROZEN",
+      "free_parameters_introduced": 0,
+      "external_decay_data_used": false,
+      "external_reference_used": null,
+      "qp085_reveal_within_chain": false
+    }
+  ],
+  "qp091_artifact_hashes": {
+    "qp091_summary.json": "aa5db648aaf644cda3ce3a9b8c4c384950b4de08f39a264f3fb81fa07abe663f",
+    "qp091_observable_prediction_freeze.csv": "6ee7f4f243051f7297bd0417a09200d88d5a6207ef5bfa9eacacafa157fc4626",
+    "qp091_zzstar_branch_prediction_table.csv": "a7084689aaff4f91ae645c36551565418fef122b3f8b491044347492349ca0f4",
+    "qp091_qp092_reveal_map.csv": "1a343ca9b3fc18e65bc55ea233b68d2cd7b3383cff5c951c6197234025fb5983",
+    "qp091_native_mass_budget.csv": "9c29dfeb28ba4361564987faf1323abe43eef6d713f94e24cca1758c86d2707f"
+  },
+  "qp091_frozen_predictions": {
+    "H_visible_parent_ledger_MeV": 125219.0,
+    "H_source_hidden_budget_MeV": 125419.11694535677,
+    "Z_visible_branch_MeV": 91161.5,
+    "two_on_shell_Z_deficit_visible_MeV": 57104.0,
+    "Zstar_ceiling_visible_MeV": 34057.5,
+    "terminal_thresholds_MeV": {
+      "4e": 2.043792,
+      "2e2mu": 212.393896,
+      "4mu": 422.744
+    },
+    "hidden_source_budget_fraction": 0.001595585666927944
+  },
+  "reveal_map": [
+    {
+      "reveal_id": "QP092_REVEAL_01",
+      "future_target": "H006/H007 signal strength",
+      "qp091_status": "HELD_NOT_OPENED",
+      "selection_role": "post-freeze reveal only"
+    },
+    {
+      "reveal_id": "QP092_REVEAL_02",
+      "future_target": "m4l distribution / Higgs mass reconstruction",
+      "qp091_status": "HELD_NOT_OPENED",
+      "selection_role": "test visible parent closure"
+    },
+    {
+      "reveal_id": "QP092_REVEAL_03",
+      "future_target": "m12/m34 or Z/Z* branch distributions",
+      "qp091_status": "HELD_NOT_OPENED",
+      "selection_role": "test native off-shell ceiling"
+    },
+    {
+      "reveal_id": "QP092_REVEAL_04",
+      "future_target": "four-lepton angular correlations",
+      "qp091_status": "HELD_NOT_OPENED",
+      "selection_role": "test structured hidden-bounce/orientation handle"
+    }
+  ],
+  "cern_anchors_NOT_opened_in_this_CR": true,
+  "next_courtroom_step": "CR066a opens REVEAL_02 (m4l), REVEAL_03 (m12/m34), REVEAL_04 (angular). REVEAL_01 (signal strength) remains HELD."
+}

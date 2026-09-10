@@ -1,0 +1,2 @@
+let carrier: QPInfrastructure = QP_CARRIER_TERMINAL(QP_CARRIER_TENSOR_CARRIER)
+return carrier

@@ -1,0 +1,73 @@
+{
+  "cr_id": "CR140",
+  "result_class": "CR140_CR120_HIGGS_CLAIM_REWORD_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "appeal_queue_position": "6 of 7 blocking",
+  "regrade_type": "VERDICT_DOWNGRADE_HIGGS_CLAIM_EXACT_TO_PDG_MATCH",
+  "from_verdict": "CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY",
+  "to_verdict": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED",
+  "forensic_chronology": {
+    "qp091o_p_session": "Earlier same authoring session. Made the 2.27 MeV gap between H_native = R^2*(1-2^-D) = 126 GeV and measured PDG H = 125.25 GeV visible to the author.",
+    "qp091r_at_05_34_utc": "EXPLICITLY enumerated `126 - D^2/R = 125.25` as a 'Wrong Lane Control' alongside other candidate corrections. The 125.25 PDG target was visible at this point. Form was being shortlisted while the target was known.",
+    "qp091s_35_minutes_later": "Promoted the same `126 - D^2/R` expression from 'Wrong Lane Control' to 'Native / Reveal Surface'. No new derivation between qp091r and qp091s; the form simply moved from candidate-to-reject to active-derivation.",
+    "qp091t_at_06_09_utc": "Sealed `H_reveal = H_native - D^2/R` as active_derivation. The C9 wrong control passes only on the technicality that R = 12 and D = 3 are not themselves the Higgs value -- but the FORM of the correction was selected against the visible target.",
+    "implication": "The structural identity H_native = R^2*(1-2^-D) = 126 GeV predates the value match (derives from substrate algebra primitives independent of any Higgs data). The -D^2/R correction is form-selected ex post. 'EXACT' framing overstates by the structural-vs-form-selected gap. 'No H input' is technically true at the numeric level but visibly false at the form-selection level."
+  },
+  "preserved_structural_content": {
+    "H_native_identity": "R^2 * (1 - 2^-D) = 144 * 7/8 = 126 GeV",
+    "H_native_predates_value_match": true,
+    "H_native_derives_from": "Substrate algebra primitives R = 12, D = 3, alpha_H = 2 alone",
+    "H_reveal_formula": "H_native - D^2/R = 126 - 9/12 = 125.25 GeV",
+    "H_reveal_matches_PDG_to_displayed_precision": true,
+    "dozenal_fingerprint": "100_12 -> A6_12 -> A5.3_12",
+    "split_loss_identity": "R^2 * 2^-D = alpha_H * D^2 = 18 (triple identity)",
+    "downstream_consumers": [
+      "CR-121 (gravity mechanism rides on 7/8 + 1/8 split)",
+      "CR-122 (carrier-compression gate rides on 1/8 release)",
+      "CR-119 row enumeration (catalog produces null-conjugate row at native 18)"
+    ],
+    "rationale_for_preservation": "The structural identity (R, D, alpha_H, partition algebra) is genuine. The numerical correctness of the formula is genuine. The downstream structural consequences (gravity mechanism, carrier-compression gate, row-18 self-cancel) are also genuine. The regrade affects the STRENGTH-OF-CLAIM language, not the structural content."
+  },
+  "stripped_language": {
+    "EXACT": "Replaced with 'matches PDG H = 125.25 GeV to displayed precision'. 'EXACT' is reserved for derivations whose form was committed before the value was known.",
+    "zero_free_parameters": "Replaced with 'no fitted scalar parameter introduced; form of the -D^2/R correction was identified ex post against the visible PDG target (see qp091r-s-t chronology)'. The strict 'zero free parameters' claim requires forward-blind form commitment.",
+    "no_H_input": "Replaced with 'no Higgs numeric value loaded as input; H = 125.25 PDG value was visible during form selection (qp091r enumeration). Distinguish (a) numeric value never used as constraint vs (b) form selection during target-aware search.'"
+  },
+  "ingest_dependency": {
+    "cr": "CR-136",
+    "lock_sha256": "2d6db0a619755cae19fd0e2d51ce815c288da47813c0e7f163fe437a355a4d2c",
+    "qp091t_internal_path": "upstream_artifacts/qp091/qp091t/qp091t_summary.json",
+    "qp091t_expected_sha": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7"
+  },
+  "restoration_requirements": [
+    {
+      "requirement": "Forward-blind precommit of the FORM `H = R^2*(1-2^-D) - D^2/R` BEFORE any future high-precision Higgs measurement (HL-LHC, FCC-ee, or successor). The form must be hash-sealed in a Courtroom CR with timestamp predating the measurement release.",
+      "how_to_verify": "Reviewer reads the precommit CR's seal timestamp, confirms it predates the high-precision measurement's public release date, and confirms the form was sealed without further enumeration or modification."
+    },
+    {
+      "requirement": "Successful forward-blind contact with the future high-precision Higgs measurement: the precommitted formula's prediction must match the new measured value within the new measurement's uncertainty band.",
+      "how_to_verify": "Reviewer reads the published high-precision measurement, computes the precommitted formula's prediction, and confirms the prediction lies within the measurement's stated uncertainty (e.g., 1 sigma)."
+    },
+    {
+      "requirement": "Independent structural derivation of why the -D^2/R correction is the unique form among substrate-algebra candidates. Either (a) a derivation chain that arrives at -D^2/R without enumeration of alternatives, or (b) a complete enumeration of all substrate-algebra-grade two-term corrections showing only -D^2/R lands at the closed-loop saturation surface.",
+      "how_to_verify": "Reviewer reads the structural derivation, confirms no step references the 125.25 numeric target, and confirms the chain arrives at -D^2/R from first principles or from an exhaustive enumeration."
+    },
+    {
+      "requirement": "Self-disclosure of the qp091r-s-t form-selection chronology in any future restoration CR. The chronology is part of the audit record and cannot be omitted.",
+      "how_to_verify": "Reviewer confirms the restoration CR cites or reproduces the qp091r-s-t chronology in its scope or methodology section."
+    }
+  ],
+  "restoration_falsifier": "A future high-precision Higgs measurement (HL-LHC, FCC-ee, or successor) deviating from the precommitted H = R^2*(1-2^-D) - D^2/R prediction by more than the new measurement's stated uncertainty (e.g., 1 sigma) BLOCKS restoration. The current ~0.06% match to PDG is within current PDG uncertainty, but HL-LHC will tighten that uncertainty by a factor of ~10. Form survives only if it matches at the new precision.",
+  "target": {
+    "cr_id": "CR120",
+    "dir_name": "CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE",
+    "current_result_class": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED"
+  },
+  "wrong_controls_passed": 8,
+  "wrong_controls_total": 8,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "free_parameters": 0,
+  "falsifier": "Re-executing CR140_runner.py on the post-seal state MUST produce zero new REGRADED entries and zero archive writes; the recomputed lock SHA-256 MUST match."
+}

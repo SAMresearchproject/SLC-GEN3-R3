@@ -1,0 +1,6 @@
+from_state,event,to_state,guard,edit_policy,meaning
+NONE,assemble_packet,DRAFT_PACKET,header_and_required_roles_present; hash_not_final,editable,packet is assembled but not trusted
+DRAFT_PACKET,seal_packet,SEALED_PACKET,all_packet_validity_checks_pass and CR222a_hash_matches and CR222b_packet_hash_recorded,immutable_after_seal,packet is hash-final and auditable
+DRAFT_PACKET,role_or_checksum_failure,CORRUPT_PACKET,any_required_role_or_checksum_fails,repair_by_new_draft,draft packet has structural corruption
+SEALED_PACKET,role_hash_or_checksum_failure,CORRUPT_PACKET,any_sealed_hash_role_or_checksum_fails,new_packet_or_amend_only,sealed packet no longer matches its seal or role contract
+SEALED_PACKET,warning_threshold_reached,VALID_PR_WARNING_PACKET,sealed_packet and tensor_witness_present and route_present and A_leak>=A_side and checksum_intact,immutable_warning_record,packet is allowed to emit a Paul Revere warning

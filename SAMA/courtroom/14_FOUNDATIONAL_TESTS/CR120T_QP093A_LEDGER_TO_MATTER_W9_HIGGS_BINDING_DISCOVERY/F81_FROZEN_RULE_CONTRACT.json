@@ -1,0 +1,306 @@
+{
+  "candidate": {
+    "allowed_features": [
+      "bin",
+      "operator_class",
+      "route_class",
+      "q_sign",
+      "closure_status",
+      "stability_status",
+      "matter_row_allowed",
+      "same_role",
+      "p",
+      "g"
+    ],
+    "discovery_target_aware": true,
+    "family": "source_typed_decision_tree",
+    "max_depth": 5,
+    "rule_id": "F81_TREE_DEPTH_5",
+    "score": {
+      "accuracy": 0.9761904761904762,
+      "conjugate_symmetry_fraction": 1.0,
+      "description_score": 96.36904761904762,
+      "exception_ids_discovery_only": [
+        "QP093A-0021",
+        "QP093A-0054",
+        "QP093A-0064"
+      ],
+      "exceptions": 3,
+      "selected_M_native_sum_reported_after_rule": "14077.125",
+      "selected_rows_reported_after_rule": 84,
+      "tree_nodes": 25,
+      "uses_M_native": false,
+      "uses_candidate_ids": false,
+      "uses_target_count_or_sum": false
+    },
+    "tree": {
+      "false": {
+        "false": {
+          "false": {
+            "leaf": true,
+            "n": 32,
+            "positives": 0,
+            "prediction": false
+          },
+          "leaf": false,
+          "n": 37,
+          "positives": 2,
+          "predicate": {
+            "feature": "same_role",
+            "operator": "==",
+            "value": "neutral"
+          },
+          "prediction": false,
+          "true": {
+            "false": {
+              "leaf": true,
+              "n": 2,
+              "positives": 0,
+              "prediction": false
+            },
+            "leaf": false,
+            "n": 5,
+            "positives": 2,
+            "predicate": {
+              "feature": "p",
+              "operator": "<=",
+              "value": 3.5
+            },
+            "prediction": false,
+            "true": {
+              "leaf": true,
+              "n": 3,
+              "positives": 2,
+              "prediction": true
+            }
+          }
+        },
+        "leaf": false,
+        "n": 46,
+        "positives": 7,
+        "predicate": {
+          "feature": "bin",
+          "operator": "==",
+          "value": "unstable_resonance_rows"
+        },
+        "prediction": false,
+        "true": {
+          "false": {
+            "false": {
+              "leaf": true,
+              "n": 4,
+              "positives": 4,
+              "prediction": true
+            },
+            "leaf": false,
+            "n": 6,
+            "positives": 5,
+            "predicate": {
+              "feature": "p",
+              "operator": "<=",
+              "value": 8.5
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 2,
+              "positives": 1,
+              "prediction": true
+            }
+          },
+          "leaf": false,
+          "n": 9,
+          "positives": 5,
+          "predicate": {
+            "feature": "q_sign",
+            "operator": "==",
+            "value": "neutral"
+          },
+          "prediction": true,
+          "true": {
+            "leaf": true,
+            "n": 3,
+            "positives": 0,
+            "prediction": false
+          }
+        }
+      },
+      "leaf": false,
+      "n": 126,
+      "positives": 81,
+      "predicate": {
+        "feature": "g",
+        "operator": "<=",
+        "value": 1.5
+      },
+      "prediction": true,
+      "true": {
+        "false": {
+          "false": {
+            "false": {
+              "false": {
+                "leaf": true,
+                "n": 4,
+                "positives": 0,
+                "prediction": false
+              },
+              "leaf": false,
+              "n": 5,
+              "positives": 1,
+              "predicate": {
+                "feature": "q_sign",
+                "operator": "==",
+                "value": "neutral"
+              },
+              "prediction": false,
+              "true": {
+                "leaf": true,
+                "n": 1,
+                "positives": 1,
+                "prediction": true
+              }
+            },
+            "leaf": false,
+            "n": 10,
+            "positives": 5,
+            "predicate": {
+              "feature": "p",
+              "operator": "<=",
+              "value": 10.5
+            },
+            "prediction": true,
+            "true": {
+              "false": {
+                "leaf": true,
+                "n": 4,
+                "positives": 4,
+                "prediction": true
+              },
+              "leaf": false,
+              "n": 5,
+              "positives": 4,
+              "predicate": {
+                "feature": "q_sign",
+                "operator": "==",
+                "value": "neutral"
+              },
+              "prediction": true,
+              "true": {
+                "leaf": true,
+                "n": 1,
+                "positives": 0,
+                "prediction": false
+              }
+            }
+          },
+          "leaf": false,
+          "n": 20,
+          "positives": 14,
+          "predicate": {
+            "feature": "g",
+            "operator": "<=",
+            "value": 0.5
+          },
+          "prediction": true,
+          "true": {
+            "false": {
+              "leaf": true,
+              "n": 8,
+              "positives": 8,
+              "prediction": true
+            },
+            "leaf": false,
+            "n": 10,
+            "positives": 9,
+            "predicate": {
+              "feature": "q_sign",
+              "operator": "==",
+              "value": "neutral"
+            },
+            "prediction": true,
+            "true": {
+              "leaf": true,
+              "n": 2,
+              "positives": 1,
+              "prediction": true
+            }
+          }
+        },
+        "leaf": false,
+        "n": 80,
+        "positives": 74,
+        "predicate": {
+          "feature": "p",
+          "operator": "<=",
+          "value": 8.5
+        },
+        "prediction": true,
+        "true": {
+          "leaf": true,
+          "n": 60,
+          "positives": 60,
+          "prediction": true
+        }
+      }
+    }
+  },
+  "contract_id": "CR120T_F81_FROZEN_SOURCE_TYPED_RULE_V1",
+  "discovery_boundary": {
+    "discovery_exceptions_are_recorded_but_must_not_be_used_as_a_whitelist": [
+      "QP093A-0021",
+      "QP093A-0054",
+      "QP093A-0064"
+    ],
+    "membership_was_used_to_train_candidate": true,
+    "post_rule_discovery_readout": {
+      "selected_M_native_sum": "14077.125",
+      "selected_rows": 84
+    },
+    "rule_is_not_independent_evidence_for_the_81_row_roster": true
+  },
+  "domain_rows_at_discovery": 126,
+  "frozen_at_utc": "2026-07-14T17:49:34.603162+00:00",
+  "frozen_input_sha256": {
+    "BINDING_BASELINE.json": "192096bd5e7354c243f015ea73d34fa26361852b14d7e8020e238ae6dfef2a06",
+    "BINDING_DISCOVERY_RESULTS.csv": "76cb63f3175866a8aca1dd2999a4e9aa538e83f6db0916bf059959b0f02be5e8",
+    "BINDING_FEATURE_DEFINITIONS.json": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+    "DISCOVERY_REPORT.json": "e600a27831fe2b82ad5ece146cc353a16eb586cf11809eb4cc363e6b3cd99811",
+    "F81_CANDIDATE_RULES.json": "c6b16102993898762c2ba12a9e33340a2e30c744f6a5e85f513c6a613f2867dd",
+    "F81_CANDIDATE_RULE_SCORECARD.csv": "5645382edcfd0eae7a82eabe93be0144ec4d07da2376fd94a35dae6ae592bf0e",
+    "SOURCE_MANIFEST.json": "b1eee6ab1603c7a3ed5995afb5e1b3061b17f1c8aafce11d7db0f675a7769451"
+  },
+  "selection_domain": "Particle Stability Blocks: count=1 saved-table lane",
+  "selection_inputs_allowed": [
+    "bin",
+    "operator_class",
+    "route_class",
+    "q_sign",
+    "closure_status",
+    "stability_status",
+    "matter_row_allowed",
+    "same_role",
+    "p",
+    "g"
+  ],
+  "selection_inputs_forbidden": [
+    "current_membership",
+    "candidate_id_or_row_number",
+    "target_count_81",
+    "target_sum_12600",
+    "M_native_or_any_value_column",
+    "observed_binding_residuals"
+  ],
+  "status_at_freeze": "PARTIAL_STRUCTURAL_CANDIDATE_NOT_AN_EXACT_F81_OPERATOR",
+  "validation_protocol": {
+    "apply_rule_before_revealing_selected_count_or_M_native_sum": true,
+    "no_exception_patch": true,
+    "no_same_run_repair": true,
+    "shuffle_invariance_required": true,
+    "typed_wrong_controls_required": [
+      "p6_plus_p3_arithmetic_control",
+      "role_swap_control",
+      "missing_conjugate_control",
+      "duplicated_witness_control"
+    ]
+  }
+}

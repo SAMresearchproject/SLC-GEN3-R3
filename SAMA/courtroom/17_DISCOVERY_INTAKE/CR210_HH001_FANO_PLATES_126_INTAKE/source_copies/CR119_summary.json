@@ -1,0 +1,44 @@
+{
+  "artifact": "CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL",
+  "result_class": "PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY",
+  "generated_at_utc": "2026-06-15T16:39:02.380675+00:00",
+  "source_scope": "COURTROOM_INTAKE_OF_LATEST_QUANTUM_PHASE_TABLE_EXPORTS",
+  "preflight_runner_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260615_113902_CR119_runner.md",
+  "latest_source_result": {
+    "particle": "DISCOVERY_QP093A_STABLE_SAM_PARTICLE_COMBINATION_ENUMERATOR__FINITE_CATALOG_EMITTED__KNOWN_LABELS_DOWNSTREAM_ONLY__CARRIER_NOT_PROMOTED__STABILITY_SELECTOR_OPEN",
+    "matter_boundary": "PASS_QP093B_NULL_CONJUGATE_CLOSURE_BOUNDARY__CLOSED_ROUTE_WITH_M_NATIVE_EQUALS_S_DEBIT_18__ZERO_REVEAL_ZERO_QA__MATTER_PROMOTION_REJECTED",
+    "periodic": "DISCOVERY_QP094A_ELEMENT_ISOTOPE_CLOSURE_GENERATOR__FINITE_TWO_LEVEL_CATALOG_EMITTED__126_NATIVE_Z_FAMILIES__KNOWN_LABELS_DOWNSTREAM_ONLY__STABILITY_SELECTOR_OPEN"
+  },
+  "row_counts": {
+    "particle": 321,
+    "matter": 126,
+    "periodic": 126,
+    "vault_identity_assignments": 573
+  },
+  "identity_assignment_counts": {
+    "NATIVE_PARTICLE_IDENTITY_ASSIGNED_NO_KNOWN_LABEL": 319,
+    "NULL_CONJUGATE_REVEALED_ZERO_QA_NO_MATTER_PROMOTION": 1,
+    "REVEALED_KNOWN_DOWNSTREAM_LABEL": 119,
+    "NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL": 126,
+    "SAM_FRONTIER_UNKNOWN_Z119_Z126": 8
+  },
+  "known_labels_by_layer": {
+    "particle": 1,
+    "periodic": 118
+  },
+  "frontier_unknown_z119_z126": 8,
+  "null_conjugate_boundary_preserved": true,
+  "checks_passed": 9,
+  "checks_total": 9,
+  "wrong_controls_passed": 6,
+  "wrong_controls_total": 6,
+  "boundaries": [
+    "known labels are downstream reveal labels only",
+    "particle and matter rows without known labels keep native identities",
+    "Z119-Z126 remain SAM frontier unknown identities",
+    "QP093A-0088 remains a null conjugate closure with zero reveal and no matter promotion",
+    "tensor carrier is not promoted to particle row",
+    "qA is not treated as mass"
+  ],
+  "hash_rows": 17
+}

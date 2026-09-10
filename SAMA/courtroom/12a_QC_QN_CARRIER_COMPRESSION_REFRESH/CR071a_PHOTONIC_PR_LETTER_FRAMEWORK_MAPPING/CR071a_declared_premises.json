@@ -1,0 +1,74 @@
+{
+  "cr_id": "CR071a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Second of six CRs (CR070a-CR075a); defines the photonic PR letter framework mapping from the NV-diamond alphabet",
+  "test_class": "PHOTONIC_PR_LETTER_FRAMEWORK_MAPPING_FROM_NV_DIAMOND_ALPHABET",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T09:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Define the photonic-platform equivalents of the NV-diamond Paul Revere letter framework (A_leak, A_side, A_share, T2-equivalent, t_fire-equivalent, carrier/envelope/sensor/ledger slots) using only CR060a alphabet ratios. CR071a emits a mapping table and a falsifier list. It does NOT populate photonic empirical data (CR072a) and does NOT test cross-platform scaling (CR073a).",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "alphabet_ratios_locked_from_CR060a": {
+    "carrier_slot_weight": "4/17",
+    "envelope_slot_weight": "9/17",
+    "sensor_slot_weight": "4/17",
+    "envelope_carries_9_over_8_surcharge": true,
+    "A_side_warning_threshold": "1/24 = 1/(2*R)",
+    "A_share_basin_commit_boundary": "1/12 = 1/R"
+  },
+  "T2_grav_v1_1_formula_applied_unchanged": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "canonical_photonic_operating_wavelengths": {
+    "telecom_C_band_1550_nm": {
+      "wavelength_m": 1.55e-6,
+      "omega_drive_rad_per_s": 1.215e15,
+      "expected_T2_grav_seconds": 5.04e-11
+    },
+    "telecom_O_band_1310_nm": {
+      "wavelength_m": 1.31e-6,
+      "omega_drive_rad_per_s": 1.438e15,
+      "expected_T2_grav_seconds": 4.26e-11
+    },
+    "free_space_850_nm": {
+      "wavelength_m": 8.5e-7,
+      "omega_drive_rad_per_s": 2.216e15,
+      "expected_T2_grav_seconds": 2.77e-11
+    }
+  },
+  "upstream_hash_locked_premises": {
+    "CR060a_alphabet_lock_json_sha256": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR065a_implementation_lock_json_sha256": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR068a_warning_simulator_lock_json_sha256": "b4aa631bc96dcfa8a66e8a98080a208901d2e8eb0aa982e92d9134df0f18becd",
+    "CR070a_summary_json_sha256": "c2570e91edb04a50fa04a0847d30ab16fef2d567f7b551fff522b0c9fddf8b43"
+  },
+  "qn015_diamond_topology_reference": "quantum_phase/artifacts/qn015/qn015_diamond_topology.csv (4 active vertices: CARRIER, SENSOR, ENVELOPE, LEDGER; 4 support lanes outside denominator)",
+  "qn010_strongest_alignment_candidate": "Qunnect_Cisco_metro_photonic_entanglement_swap",
+  "predictions": [
+    "P1_every_NV_observable_has_one_photonic_equivalent",
+    "P2_every_photonic_equivalent_is_documentable_from_public_sources",
+    "P3_mapping_uses_only_CR060a_alphabet_ratios",
+    "P4_every_mapping_row_has_a_non_empty_specific_falsifier",
+    "P5_no_internal_ambiguity_in_assignment",
+    "P6_T2_grav_formula_unchanged_across_platforms",
+    "P7_QN015_diamond_topology_consistency",
+    "P8_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_mapping_with_a_free_knob_is_rejected",
+    "WC2_mapping_with_empty_falsifier_is_rejected",
+    "WC3_mapping_with_ambiguous_assignment_is_rejected",
+    "WC4_mapping_that_requires_unpublished_photonic_observable_is_rejected",
+    "WC5_runner_does_not_modify_upstream_locks",
+    "WC6_no_free_parameters",
+    "WC7_T2_grav_floor_computed_correctly_at_photonic_omega",
+    "WC8_QN015_role_swap_rejected"
+  ],
+  "free_parameters": 0,
+  "verification_discipline": "CR071a is a framework mapping CR. No empirical data is loaded. PROVISIONAL_AUTHOR_BEST_EFFORT discipline applies to the documentation references for photonic-platform vocabulary (Qunnect/Cisco/RFC9340/NIST). Mapping correctness is structural, not empirical."
+}

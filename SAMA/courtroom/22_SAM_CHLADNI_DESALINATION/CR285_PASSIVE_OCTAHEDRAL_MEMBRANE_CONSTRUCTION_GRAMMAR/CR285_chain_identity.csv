@@ -1,0 +1,2 @@
+﻿chain_type,cell_count_domain,interface_count,incidence_identity,exposed_faces,external_flow_ports,physical_length_status,selected_chain_length
+LINEAR_COMPLETE_FACE_SHARE,C>=1 integer,I=C-1,8C=exposed_faces+2I,6C+2,2,OPEN_NO_UNIT_MAPPING,NONE

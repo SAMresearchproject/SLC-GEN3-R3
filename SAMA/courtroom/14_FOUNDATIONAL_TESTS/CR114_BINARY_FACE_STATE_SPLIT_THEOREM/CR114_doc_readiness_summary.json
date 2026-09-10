@@ -1,0 +1,20 @@
+{
+  "artifact": "CR114_DOC_READINESS_PACKAGE",
+  "generated_at_utc": "2026-06-19T06:09:13Z",
+  "result_class": "DOC_READINESS_PASS_WITH_REVIEW_ITEMS",
+  "execution_status": "CLEAN",
+  "figure_png": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_higgs_tensor_carrier_deterministic_figure.png",
+  "figure_svg": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_higgs_tensor_carrier_deterministic_figure.svg",
+  "figure_png_sha256": "0d9b2acc3b05dc2a32f292f747b5e73d7d736724b41dcdd358f4be2542d3793f",
+  "figure_svg_sha256": "86528e9e7262377ade58c3a51d6e8c825da06ebbc8a2f9c0d8216e04eab89e52",
+  "stale_scan_csv": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_stale_language_scan.csv",
+  "stale_scan_md": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_stale_language_scan.md",
+  "stale_scan_rows": 1885,
+  "review_item_count": 649,
+  "needs_replace_count": 0,
+  "lineage_csv": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_lineage_zipper.csv",
+  "lineage_md": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_lineage_zipper.md",
+  "lineage_json": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_lineage_zipper.json",
+  "lineage_rows": 8,
+  "doc_rule": "When explaining 1/8, cite CR114 first; QP092A is downstream classification of 18 as non-matter tensor-carrier support."
+}

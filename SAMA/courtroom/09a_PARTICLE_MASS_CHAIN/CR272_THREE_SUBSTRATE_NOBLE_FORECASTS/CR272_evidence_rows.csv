@@ -1,0 +1,9 @@
+item,value,detail
+G1_complete_enumeration,True,20 simple substrate atoms + 1 compound (M=126)
+G2_rule_application,True,7 noble + 14 reactive
+G3_CR271_FAIL_preserved,True,CR271 sealed FAIL artifacts referenced in provenance only
+G4_forecast_locks,True,F1 Hf + F2 Hs + F3 Jerroldium frozen-envelope sealed
+G5_structural_readings,True,"F1 heavy-Ar, F2 heavy-Xe, F3 matter-horizon compound"
+G6_QM_agreement_set,True,"4 conventional nobles also substrate-noble: He, Ar, Kr, Xe"
+G7_K1_frozen_envelope,True,3 forecasts sealed for future adjudication
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

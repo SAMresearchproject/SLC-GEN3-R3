@@ -1,0 +1,49 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "lock_type": "target_identity_lock",
+  "locked_utc": "2026-07-11T17:15:00Z",
+  "branch": "03_CLOCKS_AND_GPS",
+  "bare_cr_number": 6,
+  "branch_local_identifier": "CR006",
+  "trailer": "OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "canonical_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "destination_existed_before_creation": false,
+  "selected_experiment": {
+    "title": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+    "doi": "10.1038/s41586-021-04349-7",
+    "publication": "Nature 602, 420-424 (2022)",
+    "clock_species": "87Sr",
+    "apparatus_type": "vertical one-dimensional optical lattice clock with in situ microscopic frequency readout",
+    "primary_source_pdf_sha256": "7D4376361233F17082814D99CC46CD3263C9FEBFDBF273BB9BFBE9699723E2B3"
+  },
+  "deterministic_selection_rule": {
+    "rule_order": [
+      "greatest published precision",
+      "if incomparable, smallest vertical separation",
+      "if still tied, earliest publication date",
+      "if still tied, lexicographic DOI or title order"
+    ],
+    "selected_by": "greatest published precision among eligible primary optical-clock gravitational-redshift/height measurements in the inspected source chain",
+    "precision_anchor": "paper reports a fractional frequency uncertainty of 7.6e-21 in a synchronous comparison between two uncorrelated regions",
+    "not_selected_for_apparent_agreement": true
+  },
+  "eligibility": {
+    "primary_peer_reviewed_optical_clock_redshift_measurement": true,
+    "independent_geometry_available": true,
+    "reported_fractional_frequency_observable_with_uncertainty": true,
+    "not_in_prior_experiment_exclusion_list": true,
+    "primary_paper_accessible": true,
+    "requires_proprietary_calibration_data": false
+  },
+  "stage_2_measurement_reveal_fields_locked_but_not_revealed_here": [
+    "final reported frequency gradient",
+    "reported uncertainty",
+    "sign convention conversion into upper-minus-lower observable"
+  ],
+  "firewall": {
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  }
+}
+

@@ -1,0 +1,17 @@
+{
+  "record_id": "CR210c_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "status": "FAIL",
+  "verdict": "CR210c_FAIL_PRECOMMITTED_STRUCTURAL_CHECK",
+  "source_contract_pass": true,
+  "precommit_seal_pass": true,
+  "checks_passed": 15,
+  "checks_total": 17,
+  "failed_checks": [
+    "C14_BOUNDARY_QUOTIENT",
+    "C15_WRONG_CONTROLS"
+  ],
+  "generated_artifact_count_before_hash_manifest": 25,
+  "outcomes_opened": false,
+  "binding_opened": false,
+  "execution_count": 1
+}

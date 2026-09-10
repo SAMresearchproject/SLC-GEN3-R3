@@ -1,0 +1,16 @@
+item,value,detail
+I1  stable_matter = d̂²·(S−1) = 63,True,
+I2  antimatter_conj = ĥ·d̂·(S−1) = 42,True,
+I3  bound_composite = (R+1)² = 169,True,
+I4  unstable_resonance = (ĥ+d̂)² = 25,True,
+I5  catalog_corrected = 299,True,
+I6  promoter_80 = d̂⁴ − 1 = 80,True,
+I7  promoter_80 = ĥ⁴·(ĥ+d̂) = 80 (alt form),True,
+I8  promoter_charged = 2·ĥ⁵ = 64,True,
+I9  promoter_neutral = ĥ⁴ = 16,True,
+I10 matter_anti_asym = ĥ⁴ = 16 = neutral count,True,
+G2_closure_axiom_holds,True,9 = 8 + 1
+G3_wrong_control_3_2,True,"asymmetric_fail=True; matches=[I1=False,I2=False,I3=False,I4=True]"
+G4_wrong_control_perturbation,True,breaks=4/4
+G5_precommit_hash_verified,True,53ec3c8912e31d109767d080953088b8677cdd27836b75cc818a8c54222eb660
+G6_forbidden_file_guard_not_tripped,True,opened=1; forbidden=0

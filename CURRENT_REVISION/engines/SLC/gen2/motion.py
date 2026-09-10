@@ -16,7 +16,7 @@ from pathlib import Path
 
 from .exact import canonical, canonical_bytes, digest, rational
 from .dependencies import common_reception as common
-from . import golden
+from . import golden, write_foundation
 
 
 PHASE = ((1, 0), (0, 1), (-1, 0), (0, -1))
@@ -248,6 +248,7 @@ def annotate_history(block, native, log_class=None, spec=None, *, _summaries=Tru
                           'physical_size_assigned': False, 'physical_spin_or_orbit_assigned': False},
               'coordinate_records': coordinate_records, 'roles': [], 'relative_records': []}
     if profile is None:
+        result['write_foundation'] = write_foundation.annotate_history(block, native, profile)
         result['unavailable_reason'] = 'NO_REGISTERED_OR_DECLARED_SOURCE_MOTION_PROFILE'
         return canonical(result)
     for role in profile['roles']:
@@ -317,6 +318,7 @@ def annotate_history(block, native, log_class=None, spec=None, *, _summaries=Tru
                        'profile_id': profile['profile_id'], 'original_state': native['initial']}
             role['history_summary'] = summarize(quantity, binding, points, edges, cls,
                                                _work='VALIDATION' if _validation else 'UPDATE')
+    result['write_foundation'] = write_foundation.annotate_history(block, native, profile)
     return canonical(result)
 
 
@@ -399,6 +401,8 @@ def _append_annotation(block, previous, native, cls):
         result['relative_records'].append({'step': step, 'pairs': pairs})
     if any(role['status'] != 'AVAILABLE' for role in result['roles']):
         result['status'] = 'PARTIAL'
+    result['write_foundation'] = write_foundation.append_history(
+        block, previous['write_foundation'], native, count)
     _STATS['incremental_appends'] += 1; _STATS['new_states_annotated'] += added
     _STATS['boundary_states_revalidated'] += 1; _STATS['prior_states_reused'] += count
     return canonical(result)
@@ -442,7 +446,7 @@ def _intent(block, raw, profile):
 
 def _binding(log_class):
     base = Path(__file__).resolve().parent
-    names = ('motion.py', 'golden.py', 'motion_profiles.json', 'history_summary.py', 'quantities.py', 'contracts.py', 'compiler.py',
+    names = ('write_arithmetic.py', 'signed_log.py', 'write_foundation.py', 'WRITE_FOUNDATION.json', 'motion.py', 'golden.py', 'motion_profiles.json', 'history_summary.py', 'quantities.py', 'contracts.py', 'compiler.py',
              'native.py', 'exact.py', 'dependencies/common_reception.py',
              'dependencies/native/t18.py', 'dependencies/J4_RESPONSES.jsonl')
     result = {name: sha256((base / name).read_bytes()).hexdigest() for name in names}
@@ -512,6 +516,7 @@ def _motion_result(block, body, *, blocked=None):
     result['motion_status'] = 'EVENT_UNAVAILABLE' if blocked else 'COMPLETE' if result['complete'] else 'PAUSED'
     if blocked:
         result['unavailable_event'] = blocked
+    write_foundation.annotate_golden(result, body['schedule_records'])
     result['motion_checkpoint'] = _seal(body)
     return canonical(result)
 

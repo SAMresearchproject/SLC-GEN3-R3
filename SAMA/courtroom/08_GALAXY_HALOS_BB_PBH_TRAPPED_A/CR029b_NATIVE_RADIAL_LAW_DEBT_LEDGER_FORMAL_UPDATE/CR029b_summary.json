@@ -1,0 +1,69 @@
+{
+  "precommit_sha256": "04fd7e43cfade5d257af35f04ff8211c050ef72f15987b300619ee7a05986b44",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR029b_NATIVE_RADIAL_LAW_DEBT_LEDGER_FORMAL_UPDATE",
+  "classification": "LEDGER_UPDATE_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "supersedes_for_downstream_citation": "CR029 BOUNDARY (preserved bit-for-bit)",
+  "free_parameters_introduced": 0,
+  "per_galaxy_fitting": false,
+  "catalog_fit_parameters": 0,
+  "empirical_X_inf_input": false,
+  "prior_CR_result_inputs": true,
+  "gates": {
+    "G1_radial_organization_law_closed": true,
+    "G2_mass_function_placement_closed_at_median": true,
+    "G3_X_inf_substrate_identity_closed_retrospectively": true,
+    "G4_open_items_itemized_in_result_md": true,
+    "G5_precommit_hash_verified": true,
+    "G6_forbidden_file_guard_not_tripped": true
+  },
+  "downstream_closures": {
+    "CR031b": {
+      "verdict": "PASS",
+      "P4_WC3_p_value": 0.000999000999000999,
+      "P5_WC4_p_value": 0.000999000999000999,
+      "closes": "native radial organization law at population level"
+    },
+    "CR032": {
+      "verdict": "PASS",
+      "median_linear_ratio": 0.9983106800240439,
+      "X_inf_sealed": 3.18,
+      "n_in_median": 173,
+      "closes": "mass function placement at population median"
+    },
+    "CR033": {
+      "verdict": "PASS",
+      "abs_median_log10": 0.00031127541631408397,
+      "X_inf_SAM_formula": "(R - alpha_H) * Omega_m = 10/pi",
+      "closes": "X_inf substrate identity retrospectively on SPARC"
+    }
+  },
+  "open_items_explicit": {
+    "O1_per_galaxy_scatter": {
+      "std_log_ratio_dex": 0.379077458824331,
+      "scatter_factor": 2.393742655584475,
+      "scope": "closed is POPULATION median, not per-galaxy mass; no RAR claim"
+    },
+    "O2_CR034_prospective_non_SPARC_catalog": {
+      "status": "registered, NOT YET RUN",
+      "candidates": [
+        "THINGS",
+        "LITTLE THINGS"
+      ]
+    },
+    "O3_concentration_selector_formula": {
+      "status": "OPEN",
+      "note": "CR032 provides c_SAM distribution but uses R_outer per galaxy"
+    },
+    "O4_cross_catalog_universality_of_X_r_law": {
+      "status": "OPEN",
+      "note": "CR031b is SPARC-only; CR034 covers this jointly with O2"
+    }
+  },
+  "forbidden_files_opened": false,
+  "opened_paths_count": 4,
+  "verdict_reason": "G1-G6 all PASS; three of four CR029 open items closed at population level by CR031b/CR032/CR033; per-galaxy scatter and prospective catalog explicitly remain open"
+}

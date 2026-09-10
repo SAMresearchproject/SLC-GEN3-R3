@@ -1,0 +1,50 @@
+{
+  "cr_id": "CR002",
+  "branch": "18_SAM_NATIVE_QC",
+  "title": "QGC T2 Prescreening + K1-Frozen Hardware Envelope",
+  "disclaimer": "INTERNAL-CONSISTENCY ONLY. CR002 does NOT validate SAM empirically and does NOT constitute a hardware test. See CR002_PRECOMMIT.md disclaimer block for full framing.",
+  "component_B_verdict": "BOUNDARY",
+  "baseline_ranking": [
+    "mass_density_modulation_BEC",
+    "EM_laser_focal",
+    "MEMS_pressure",
+    "charge_pulse_low_field",
+    "acoustic_phonon",
+    "spontaneous_baseline"
+  ],
+  "expected_ranking": [
+    "mass_density_modulation_BEC",
+    "MEMS_pressure",
+    "EM_laser_focal",
+    "acoustic_phonon",
+    "charge_pulse_low_field",
+    "spontaneous_baseline"
+  ],
+  "baseline_ranking_matches_expected": false,
+  "baseline_scores": {
+    "mass_density_modulation_BEC": -2.3691,
+    "MEMS_pressure": -3.4685,
+    "EM_laser_focal": -2.9148,
+    "acoustic_phonon": -12.0,
+    "charge_pulse_low_field": -6.9168,
+    "spontaneous_baseline": -20.301
+  },
+  "robustness_assessment": {
+    "num_samples": 1000,
+    "pathway_multiplier_range": [
+      0.25,
+      4.0
+    ],
+    "exact_match_fraction": 1.0,
+    "top3_match_fraction": 1.0,
+    "top5_match_fraction": 1.0
+  },
+  "verification_gates": {
+    "V-2_baseline_matches_expected": false,
+    "V-3_ranking_robust_80pct": true,
+    "position_differences": 4,
+    "pair_swaps": 2,
+    "top_candidate_matches": true,
+    "bottom_reference_matches": true
+  }
+}

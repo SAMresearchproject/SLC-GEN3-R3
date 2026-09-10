@@ -1,0 +1,4 @@
+run_id,platform,dimension,time,time_unit,rho_real_flat,rho_imag_flat,T1,T2,notes
+EXAMPLE_QUBIT_001,template_qubit,2,0.0,T2_units,0.5|0.5|0.5|0.5,0|0|0|0,,1.0,equal superposition at t=0
+EXAMPLE_QUBIT_001,template_qubit,2,0.05,T2_units,0.5|0.475614712|0.475614712|0.5,0|0|0|0,,1.0,t=0.05 dephasing
+EXAMPLE_QUTRIT_001,template_qutrit,3,0.0,T2_units,0.235294118|0.352941176|0.235294118|0.352941176|0.529411765|0.352941176|0.235294118|0.352941176|0.235294118,0|0|0|0|0|0|0|0|0,,1.0,(2|0>+3|1>+2|2>)/sqrt(17)

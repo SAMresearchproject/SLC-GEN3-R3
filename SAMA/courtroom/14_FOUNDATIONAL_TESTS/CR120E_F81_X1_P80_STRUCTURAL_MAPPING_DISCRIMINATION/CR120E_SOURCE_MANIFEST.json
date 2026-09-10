@@ -1,0 +1,105 @@
+{
+  "model_spec_sha256": "3b25abd821c10a649be2f147064e4a6ab787a036af63e4a9804c9731a0650850",
+  "precommit_sha256": "c8deb4817f1bfb7ad47a73e8ac0a4a47d81f15f4d71444bc55821c44d5f65a9e",
+  "program_sha256": "68e9f9a4c9835e7d7c7a3d87cfdd1ef923b6101ac4c0aa2fd26cddb749948922",
+  "record_id": "CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION",
+  "sealed_utc": "2026-07-13T19:28:13Z",
+  "sources": [
+    {
+      "exists": true,
+      "expected_sha256": "89390d4992c23afb459ab1bea28c12aee5bc051cb4f65c1009addba3350518da",
+      "hash_match": true,
+      "observed_sha256": "89390d4992c23afb459ab1bea28c12aee5bc051cb4f65c1009addba3350518da",
+      "path": "C:/Users/drwho/.codex/attachments/231c307b-a981-4836-976f-d42aec2b9004/pasted-text.txt",
+      "role": "user Discovery Den proposal"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "8d57a0c71e8140769fd291393c421a1e46c9647eb4eda7a1e1acfdb806a44fff",
+      "hash_match": true,
+      "observed_sha256": "8d57a0c71e8140769fd291393c421a1e46c9647eb4eda7a1e1acfdb806a44fff",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81/CR283_result.md",
+      "role": "controlling 80+1 result"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "b1d5d4c10312117f8d8df11945d00826d5f3f6bfe81e31cc9840ed232120061f",
+      "hash_match": true,
+      "observed_sha256": "b1d5d4c10312117f8d8df11945d00826d5f3f6bfe81e31cc9840ed232120061f",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81/CR283_summary.json",
+      "role": "controlling geometry and count summary"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d8534a9f8fe1aeed59a674ca678698787b537540d7c703617d9851d2cabb371c",
+      "hash_match": true,
+      "observed_sha256": "d8534a9f8fe1aeed59a674ca678698787b537540d7c703617d9851d2cabb371c",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81/CR283_typed_contract.json",
+      "role": "controlling P80-X1-F81 typed contract"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "b6fcb48d424f64ac8fbc7b4ccdcdab87efac919802362d1a5f4ded372762ad23",
+      "hash_match": true,
+      "observed_sha256": "b6fcb48d424f64ac8fbc7b4ccdcdab87efac919802362d1a5f4ded372762ad23",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81/CR283_PARTICLE_ROW_REGISTER.csv",
+      "role": "sealed 80-row structural inventory"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5c5a474025ecb52a55bbb2f0d496e94e22192141a10d6f05df1b9feec0e43a48",
+      "hash_match": true,
+      "observed_sha256": "5c5a474025ecb52a55bbb2f0d496e94e22192141a10d6f05df1b9feec0e43a48",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81/CR283_MODEL_SCORECARD.csv",
+      "role": "prior model discrimination input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "4beb4830fd861a02ade5a22ffd17d372a8b54066b7db157e244d1de5fdc361f6",
+      "hash_match": true,
+      "observed_sha256": "4beb4830fd861a02ade5a22ffd17d372a8b54066b7db157e244d1de5fdc361f6",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR280_CR253_STABLE_MATTER_SURFACE_SEMANTIC_CLARIFICATION/CR280_summary.json",
+      "role": "row semantic clarification"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "hash_match": true,
+      "observed_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "role": "typed closure hierarchy"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d40d2766b3166f9572c695fd68f7f4718e99e4c3db7c2e698baf60d5cdb195c1",
+      "hash_match": true,
+      "observed_sha256": "d40d2766b3166f9572c695fd68f7f4718e99e4c3db7c2e698baf60d5cdb195c1",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/src/sam_language_v0_4/runtime.py",
+      "role": "runtime implementation"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "hash_match": true,
+      "observed_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "entity registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "hash_match": true,
+      "observed_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_OPERATOR_REGISTRY.json",
+      "role": "operator registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "f7924768fd3f210d0e23be8443d816eb8d02a1759d335960c524a61f2be3d441",
+      "hash_match": true,
+      "observed_sha256": "f7924768fd3f210d0e23be8443d816eb8d02a1759d335960c524a61f2be3d441",
+      "path": "14_FOUNDATIONAL_TESTS/CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE/CR120D_result.md",
+      "role": "X1 intervention and certificate boundary input"
+    }
+  ]
+}

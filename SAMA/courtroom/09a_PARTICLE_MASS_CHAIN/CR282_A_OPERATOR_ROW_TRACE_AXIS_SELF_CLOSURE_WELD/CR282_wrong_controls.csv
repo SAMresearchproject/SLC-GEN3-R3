@@ -1,0 +1,11 @@
+control_id,description,observed,rejected
+WC1,restore retired row,162+1=163,True
+WC2,delete A entirely,CR256 transform unavailable,True
+WC3,photon performs A by label substitution,no non-row transform installed,True
+WC4,A is scalar one,"A_OPERATOR, X1, C1, P1 remain distinct",True
+WC5,A is p=1 support,P1 lift=1/144 but QP093A-0305 footprint=0,True
+WC6,axis is ninth surface pixel,CR267 separates grouped 8 and axis self 1,True
+WC7,CR216 QED paragraph load-bearing,"CR216 says descriptive, not load-bearing",True
+WC8,discard descriptor columns,numeric-only cannot recover A-specific trail,True
+WC9,descriptor columns sufficient proof,requires QP102/QP103/CR256 chain,True
+WC10,force A to beat B/contact,CR269 retained as live competitor,True

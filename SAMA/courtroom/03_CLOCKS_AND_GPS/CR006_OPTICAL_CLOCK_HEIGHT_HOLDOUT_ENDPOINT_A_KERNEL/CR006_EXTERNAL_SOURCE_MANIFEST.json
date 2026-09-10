@@ -1,0 +1,43 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "selected_experiment": {
+    "title": "Resolving the gravitational redshift across a millimetre-scale atomic sample",
+    "authors": "Tobias Bothwell, Colin J. Kennedy, Alexander Aeppli, Dhruv Kedar, John M. Robinson, Eric Oelker, Alexander Staron, Jun Ye",
+    "journal": "Nature",
+    "volume": "602",
+    "pages": "420-424",
+    "published": "2022-02-16",
+    "doi": "10.1038/s41586-021-04349-7"
+  },
+  "downloaded_sources": [
+    {
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/sources/Bothwell_2022_Nature_NIST_pub933368.pdf",
+      "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933368",
+      "sha256": "7D4376361233F17082814D99CC46CD3263C9FEBFDBF273BB9BFBE9699723E2B3",
+      "role": "primary peer-reviewed paper PDF via NIST publication record; load-bearing source"
+    },
+    {
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/sources/Bothwell_2022_Nature_peer_review_file.pdf",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-04349-7/MediaObjects/41586_2021_4349_MOESM1_ESM.pdf",
+      "sha256": "B9F05EFDA6E49C077561CBA6455A753D78D7763FF18577462DE56C726D5AAD24",
+      "role": "Nature-hosted supplementary peer review file; not load-bearing for numerical inputs"
+    }
+  ],
+  "web_sources_consulted": [
+    {
+      "url": "https://www.nature.com/articles/s41586-021-04349-7",
+      "role": "publisher DOI page, title, authors, publication metadata, abstract"
+    },
+    {
+      "url": "https://www.nist.gov/publications/resolving-gravitational-redshift-across-millimetre-scale-atomic-sample",
+      "role": "official NIST publication page and local PDF download pointer"
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.12238",
+      "role": "preprint metadata only; not load-bearing"
+    }
+  ],
+  "primary_load_bearing_values_source": "Bothwell_2022_Nature_NIST_pub933368.pdf",
+  "official_supplement_needed_for_load_bearing_values": false
+}
+

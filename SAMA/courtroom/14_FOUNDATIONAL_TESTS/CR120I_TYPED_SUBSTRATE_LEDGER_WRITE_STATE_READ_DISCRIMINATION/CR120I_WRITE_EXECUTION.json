@@ -1,0 +1,364 @@
+{
+  "history_trials": {
+    "identity_delay_persistence": {
+      "delay_steps": 16,
+      "final_snapshot": {
+        "e1": 1
+      },
+      "frames": [
+        {
+          "identity_delay_step": 1,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 2,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 3,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 4,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 5,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 6,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 7,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 8,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 9,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 10,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 11,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 12,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 13,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 14,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 15,
+          "snapshot": {
+            "e1": 1
+          }
+        },
+        {
+          "identity_delay_step": 16,
+          "snapshot": {
+            "e1": 1
+          }
+        }
+      ],
+      "initial_written_snapshot": {
+        "e1": 1
+      },
+      "record_class_preserved": true
+    },
+    "order_boundary": {
+      "H_order_1_frames": [
+        {
+          "snapshot": {},
+          "update_index": 0
+        },
+        {
+          "residue": {},
+          "snapshot": {
+            "e1": 1
+          },
+          "update_index": 1,
+          "write_input": {
+            "e1": 1
+          }
+        },
+        {
+          "residue": {},
+          "snapshot": {
+            "e1": 1,
+            "e2": 1
+          },
+          "update_index": 2,
+          "write_input": {
+            "e2": 1
+          }
+        }
+      ],
+      "H_order_2_frames": [
+        {
+          "snapshot": {},
+          "update_index": 0
+        },
+        {
+          "residue": {},
+          "snapshot": {
+            "e2": 1
+          },
+          "update_index": 1,
+          "write_input": {
+            "e2": 1
+          }
+        },
+        {
+          "residue": {},
+          "snapshot": {
+            "e1": 1,
+            "e2": 1
+          },
+          "update_index": 2,
+          "write_input": {
+            "e1": 1
+          }
+        }
+      ],
+      "final_snapshots_equal": true,
+      "interpretation": "CURRENT_SNAPSHOT_IS_NOT_A_COMPLETE_ORDERED_TRANSCRIPT"
+    },
+    "same_terminal_input_control": {
+      "H_A": {
+        "final_snapshot": {
+          "e1": 1,
+          "e2": 1
+        },
+        "frames": [
+          {
+            "snapshot": {},
+            "update_index": 0
+          },
+          {
+            "residue": {},
+            "snapshot": {
+              "e1": 1
+            },
+            "update_index": 1,
+            "write_input": {
+              "e1": 1
+            }
+          },
+          {
+            "residue": {},
+            "snapshot": {
+              "e1": 1,
+              "e2": 1
+            },
+            "update_index": 2,
+            "write_input": {
+              "e2": 1
+            }
+          }
+        ],
+        "history": [
+          {
+            "e1": 1
+          },
+          {
+            "e2": 1
+          }
+        ]
+      },
+      "H_B": {
+        "final_snapshot": {
+          "e2": 2
+        },
+        "frames": [
+          {
+            "snapshot": {},
+            "update_index": 0
+          },
+          {
+            "residue": {},
+            "snapshot": {
+              "e2": 1
+            },
+            "update_index": 1,
+            "write_input": {
+              "e2": 1
+            }
+          },
+          {
+            "residue": {},
+            "snapshot": {
+              "e2": 2
+            },
+            "update_index": 2,
+            "write_input": {
+              "e2": 1
+            }
+          }
+        ],
+        "history": [
+          {
+            "e2": 1
+          },
+          {
+            "e2": 1
+          }
+        ]
+      },
+      "full_probe_equivalent": false,
+      "scar_distance_squared": 2,
+      "shared_terminal_input": {
+        "e2": 1
+      },
+      "static_terminal_only_outputs_equal": true
+    }
+  },
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION",
+  "residue_state_crossing": {
+    "different_residue_same_record": {
+      "T3_residue": {},
+      "T4_residue": {
+        "e0": 1
+      },
+      "record_classes_equal": true,
+      "residues_equal": false
+    },
+    "equal_residue_different_record": {
+      "T1_residue": {},
+      "T2_residue": {},
+      "record_classes_equal": false,
+      "residues_equal": true
+    },
+    "residue_without_record": {
+      "T5_residue": {
+        "e0": 1
+      },
+      "T5_state": {},
+      "nonzero_residue": true,
+      "reference_record_class": true
+    }
+  },
+  "write_trials": {
+    "T1_RECORD_E1": {
+      "exact_accounting": true,
+      "final_home_snapshot": {
+        "e1": 1
+      },
+      "initial_state": {},
+      "input_reconstructed_from_update_plus_residue": {
+        "e1": 1
+      },
+      "record_class": "DISTINGUISHABLE_FROM_REFERENCE",
+      "write_input": {
+        "e1": 1
+      },
+      "write_residue": {}
+    },
+    "T2_RECORD_E2": {
+      "exact_accounting": true,
+      "final_home_snapshot": {
+        "e2": 1
+      },
+      "initial_state": {},
+      "input_reconstructed_from_update_plus_residue": {
+        "e2": 1
+      },
+      "record_class": "DISTINGUISHABLE_FROM_REFERENCE",
+      "write_input": {
+        "e2": 1
+      },
+      "write_residue": {}
+    },
+    "T3_RECORD_E1_REPEAT": {
+      "exact_accounting": true,
+      "final_home_snapshot": {
+        "e1": 1
+      },
+      "initial_state": {},
+      "input_reconstructed_from_update_plus_residue": {
+        "e1": 1
+      },
+      "record_class": "DISTINGUISHABLE_FROM_REFERENCE",
+      "write_input": {
+        "e1": 1
+      },
+      "write_residue": {}
+    },
+    "T4_X1_PLUS_RECORD_E1": {
+      "exact_accounting": true,
+      "final_home_snapshot": {
+        "e1": 1
+      },
+      "initial_state": {},
+      "input_reconstructed_from_update_plus_residue": {
+        "e0": 1,
+        "e1": 1
+      },
+      "record_class": "DISTINGUISHABLE_FROM_REFERENCE",
+      "write_input": {
+        "e0": 1,
+        "e1": 1
+      },
+      "write_residue": {
+        "e0": 1
+      }
+    },
+    "T5_X1_ONLY": {
+      "exact_accounting": true,
+      "final_home_snapshot": {},
+      "initial_state": {},
+      "input_reconstructed_from_update_plus_residue": {
+        "e0": 1
+      },
+      "record_class": "REFERENCE_NULL",
+      "write_input": {
+        "e0": 1
+      },
+      "write_residue": {
+        "e0": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+wrong_control,attempted_binding,observed_failure,expected_failure,passes_as_failure
+0301_promoted_to_matter,ROAD_LIGHT_CARRIER supplies matter write,QP093A-0301 matter_row_allowed=no,CARRIER_ONLY_NOT_MATTER,True
+0301_used_for_qA_split,ROAD_LIGHT_CARRIER qA -> T/W,qA=0 T=0 W=no,ZERO_MATTER_LEDGER_NO_WRITE_SPLIT,True
+0002_used_as_carrier_route,minus_single_write becomes road-light carrier,QP093A-0002 matter=yes q_sign=negative,MATTER_WRITE_NOT_CARRIER_ROUTE,True
+0300_used_as_photon_payload,tensor carrier transmitted as road-light payload,QP093A-0300 operator=TENSOR_CARRIER,TENSOR_WITNESS_NOT_ROAD_LIGHT_PAYLOAD,True
+0300_promoted_to_matter,tensor witness becomes matter row,QP093A-0300 matter_row_allowed=no,TENSOR_CARRIER_NOT_MATTER,True
+0018_used_as_primary_negative_particle,split control replaces QP093A-0002,QP093A-0018 p=8 q_sign=neutral,CONTROL_IS_NEUTRAL_P8_NOT_NEGATIVE_P1,True
+0018_used_as_carrier,split control becomes photon-road carrier,QP093A-0018 matter_row_allowed=yes,CONTROL_IS_MATTER_ROW_NOT_CARRIER,True
+protocol_qA_substituted_for_particle_qA,use protocol qA=1/24 as QP093A-0002 matter qA,protocol_qA=1/24; particle_qA=1.510416667,CATEGORY_FAILURE,True
+support_inventory_emits_without_G_protocol,support inventory -> warning write,G_protocol=0 leaves SEALED_PACKET not EMITTED_WARNING_PACKET,NO_EMISSION_WITHOUT_PROTOCOL_GATE,True
+target_emits_without_protocol_gate,G_protocol=0 but particle-carrier pair transmits,False,False,True
+target_emits_below_threshold,A_leak=1/48 but particle-carrier pair transmits,False,False,True
+0306_omitted_but_pair_transmits,omit p=1 source packet but transmit particle-carrier warning,161,161_CORRUPT_NO_TRANSMISSION,True
+duplicate_0305_restored_but_pair_transmits,restore duplicate support row but transmit particle-carrier warning,163,163_CORRUPT_NO_TRANSMISSION,True

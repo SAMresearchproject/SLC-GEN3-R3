@@ -1,0 +1,33 @@
+{
+  "cr": "CR276",
+  "verdict": "PASS",
+  "gates": {
+    "G1_all_categorized": true,
+    "G2_pdg_anchored_matches_6": true,
+    "G3_fold_identity_preserved": true,
+    "G4_bow_trace_pair_tagged": true,
+    "G5_identity_class_counts": true,
+    "G6_rejected_reasons_preserved": true,
+    "G7_hash_whitelist": true
+  },
+  "row_counts_by_category": {
+    "SAM_ORPHAN": 114,
+    "PDG_CANDIDATE": 9,
+    "COMPOSITE_UNANCHORED": 171,
+    "REJECTED": 21,
+    "PDG_ANCHORED": 6
+  },
+  "identity_class_counts_cr253": {
+    "positron_substrate_slot": 2,
+    "electron_like_minus": 2,
+    "neutrino_like": 2,
+    "quark_like_charged": 56,
+    "neutral_higher_partition": 14,
+    "heavier_positron_substrate_slot": 2,
+    "heavier_charged_lepton_minus": 2
+  },
+  "precommit_hash": "d9babfc8e319db4fec4d044c6d7ab1d84f2509bc4107b0beb8b36afef8e804db",
+  "stewardship_hash": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "catalog_hash": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+  "forbidden_opens": 0
+}

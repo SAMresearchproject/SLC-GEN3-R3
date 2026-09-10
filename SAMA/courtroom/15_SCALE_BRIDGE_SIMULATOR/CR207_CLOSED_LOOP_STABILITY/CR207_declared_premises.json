@@ -1,0 +1,10 @@
+{
+  "test_id": "CR207",
+  "source_gate": "G756c_SIMULATOR_CLOSED_LOOP_STABILITY_TEST",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "BOUNDARY",
+  "rule_9_falsification": "This test could have falsified the claim that the scale bridge can be replayed as a closed loop with all run traces hashed and no unexpected type violations."
+}

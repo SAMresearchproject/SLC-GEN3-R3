@@ -1,0 +1,120 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS.py",
+      "mode": "100644",
+      "git_blob": "f40b549e9630ad95d064355e74ad7c0770d26c0f",
+      "bytes": 9619,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "f1d4ea813696f92e9ba10e21c24c2c8c7b906031",
+      "bytes": 1207,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "2aeecf0ed287c3f97a5c2905199f029212ef30ac",
+      "bytes": 323,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_declared_premises.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_declared_premises.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_evidence_rows.csv",
+      "mode": "100644",
+      "git_blob": "a6321df4784346e7c72bde5ed142b8d7461f4657",
+      "bytes": 676,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_evidence_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_evidence_rows.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_evidence_rows.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_evidence_rows.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_input_manifest.csv",
+      "mode": "100644",
+      "git_blob": "4807377971f5159281d6b6366b2481c4cc3acfb4",
+      "bytes": 6510,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_input_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_input_manifest.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_input_manifest.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_input_manifest.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_manifest_seal_check.json",
+      "mode": "100644",
+      "git_blob": "0a2ef7fff5a07cd70a641d07c388d3ded63c434e",
+      "bytes": 234,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_manifest_seal_check.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_manifest_seal_check.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_manifest_seal_check.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_manifest_seal_check.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_result.md",
+      "mode": "100644",
+      "git_blob": "0f055dec9117f9f857cefa83d8542c840f5a9c9e",
+      "bytes": 940,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_result.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_result.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_result.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_summary.json",
+      "mode": "100644",
+      "git_blob": "e035500931eb2211dea0a6c52d028d2869c7f4a4",
+      "bytes": 634,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_summary.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_summary.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_summary.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "0ed177e21fa8a694a3de490942ff4322389e2ca5",
+      "bytes": 381,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_wrong_controls.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/CR059a_wrong_controls.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "67e99fec5890b42924c007c875b0facc4edce358",
+      "bytes": 1461,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR059a_PARTICLE_ENGINE_ALLOWED_INPUTS/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR059a@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

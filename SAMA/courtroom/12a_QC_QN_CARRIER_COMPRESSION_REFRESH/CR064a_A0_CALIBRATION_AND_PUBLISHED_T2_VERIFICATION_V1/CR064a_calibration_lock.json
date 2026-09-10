@@ -1,0 +1,57 @@
+{
+  "T2_grav_at_A_0_formula": "T2_grav_at_A_0  =  16 * pi * R^4 / (17 * omega_gate)\n                ~=  61295.49 / omega_gate   seconds (omega in rad/s)",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "calibration_correction": {
+    "corrected_formula_v1_1": "T2_grav_at_A_0 = 16 * pi * R^4 / (17 * omega_gate)",
+    "correction": "T2_grav_at_A_0 = T2_grav_at_horizon / A_0 = T2_grav_at_horizon * pi * R",
+    "name": "A_0_OPERATING_POINT_CALIBRATION",
+    "numerical_coefficient": "61312.061426  seconds * rad/s",
+    "omega_interpretation": "omega_gate = the qubit GATE OPERATING angular frequency (NOT the qubit splitting frequency)",
+    "previous_formula_v1": "T2_grav_at_horizon = 16 * R^3 / (17 * omega)  (CR063a v1.0)",
+    "rationale": "CR063a v1.0 used omega = qubit splitting frequency at horizon (A = 1).  Real quantum computers operate at the SAM accumulation floor A_0 = 1/(pi*R), not at horizon.  The gravitational coupling scales by A_0, giving 1/A_0 = pi*R enhancement of T2_grav.  Additionally, the relevant omega is the gate operating rate (how often the substrate field responds) rather than the qubit's bare electromagnetic splitting frequency.",
+    "structural_input": "A_0 = 1 / (pi * R)  (SAM accumulation floor)"
+  },
+  "constants": {
+    "A_0": 0.026525823848649224,
+    "D": 3,
+    "R": 12,
+    "T2_grav_coefficient": 61312.06142572983,
+    "alpha_H": 2
+  },
+  "cr_id": "CR064a",
+  "forward_blind_test": {
+    "claim": "T2_observed <= T2_grav_at_A_0 = 16 * pi * R^4 / (17 * omega_gate) = 61295.49 / omega_gate seconds, on any qubit platform, with omega_gate as the GATE OPERATING angular frequency.  At-the-limit systems (trapped ions at kHz gates, NV cryogenic with DD) define the maximum achievable T2 in their gate-rate class.",
+    "falsifier": "ONE rigorously-reported peer-reviewed T2 measurement clearly exceeding T2_grav by more than 10x at its gate rate, with non-gravitational decoherence sources fully subtracted, falsifies v1.1.  Specifically: a trapped-ion clock-state T2 measurement clearly above 100 seconds at kHz gate rates would be a hard refutation.",
+    "free_parameters_at_test": 0,
+    "id": "CR064a_PRED_1",
+    "non_falsifying": "T2 improvements achieved by lowering gate rate (which raises T2_grav proportionally) are CONSISTENT with v1.1.  The falsifier requires exceeding T2_grav at the same omega_gate."
+  },
+  "headline_finding": {
+    "at_the_limit_systems": [
+      "Stanford / Berkeley fluxonium",
+      "Quantinuum H1 (171Yb+ clock states)",
+      "IonQ Forte (171Yb+)",
+      "Innsbruck Blatt group (40Ca+)",
+      "Delft NV cryogenic + dynamical decoupling"
+    ],
+    "summary": "With the A_0 correction, predicted T2_grav floor lies above all 10 published T2 measurements across 4 platform classes.  5 platforms are CONSISTENT (T2_observed < 0.5 * T2_grav); 5 state-of-the-art systems sit AT THE LIMIT (ratio 0.5-2.0); 0 clear VIOLATIONS.",
+    "trapped_ion_plateau_prediction": "Trapped-ion platforms approaching T2 ~ 10 seconds at typical clock-state gate rates (~1 kHz) are predicted to PLATEAU there under SAM v1.1.  Pushing T2 substantially above this without explanation by reduced gate rates would falsify the gravitational floor."
+  },
+  "immutability": "T2_grav_at_A_0 formula (16*pi*R^4 / (17*omega_gate)) and trapped-ion plateau prediction are frozen at CR064a seal time.  Future falsification (one platform clearly exceeding T2_grav under rigorous subtraction) or refinement must be in an appeal CR within 12a.",
+  "in_sample_verification": {
+    "consistency_threshold": "ratio T2_observed / T2_grav <= 0.5 -> CONSISTENT; 0.5-2.0 -> AT_THE_LIMIT; > 2.0 -> VIOLATION",
+    "n_AT_THE_LIMIT": 5,
+    "n_CONSISTENT": 5,
+    "n_VIOLATION": 0,
+    "published_measurements_compiled": 10
+  },
+  "lock_committed_utc": "2026-06-16T01:45:29Z",
+  "lock_version": "v1.1",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR063a_hardware_lock_json": "f884d362a980a775c010768932f3eeebf44bd135c57625be7dc94b54e9c24639",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

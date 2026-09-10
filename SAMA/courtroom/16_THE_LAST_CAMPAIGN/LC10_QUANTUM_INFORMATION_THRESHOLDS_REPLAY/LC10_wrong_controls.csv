@@ -1,0 +1,11 @@
+wrong_control,attempted_mutation,evidence,result
+WC28_THRESHOLD_SWAP,replace A_side=1/24 and A_share=1/12 with a hardware fault-tolerance threshold or swap their roles,LC10 recomputes A_side=1/24 and A_share=1/12 from R=12; QP010/QP014/QP016/CR068a match.,REJECTED
+WC_BORN_RULE_MODIFICATION,treat the 17/16 surface-debit sum as measurement probability and claim Born-rule violation,"Loaded weights sum 17/16, but loaded probabilities sum 1; CR066a states standard Born unity is preserved.",REJECTED
+WC_UNIFORM_QUTRIT_REPLACEMENT,"replace (4/17,9/17,4/17) with a uniform 1/3 qutrit state",CR067a/CR067b simulator wrong controls distinguish uniform input from SAM-native loaded probabilities.,REJECTED
+WC_MINI_1_2_1_PACKET,"represent the 1/16 surcharge as (1/64,1/32,1/64)",CR066b layering table marks mini-1:2:1 as REJECTED because it erases the central lift.,REJECTED
+WC_LINEAR_CAPACITY,use N*(1/16) capacity scaling,CR067a rejects linear scaling because it exceeds the 1/8 gravity-channel ceiling.,REJECTED
+WC_PARALLEL_SHARE_CAPACITY,split a constant 1/16 across N letters,CR067a rejects parallel sharing because it dilutes one letter rather than scaling capacity.,REJECTED
+WC_FULL_UNITY_CEILING,let Paul Revere multi-letter capacity saturate at full Born unity,"CR067a ceiling is 2^-D=1/8, not 1; LC10 capacity rows all remain below 1/8.",REJECTED
+WC_CR063A_OLD_PASS_AS_LOAD_BEARING,use the old CR063a hardware translation as a passing threshold derivation,Current CR063a status is CR063a_HARDWARE_TRANSLATION_V1_REFUTED_BY_TRANSMON_T2_CONTACT_RESCUED_BY_CR064a_V1_1; LC10 records it as refuted boundary.,REJECTED
+WC_CR064A_CR069A_EMPIRICAL_OVERPROMOTION,promote provisional T2 tables into validation of QI thresholds,CR064a is CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE; CR069a has 1 violation and 0 verified rows.,REJECTED
+WC_FINAL_LEDGER_LEAK_IN_QN_CORRECTION,use final ledger outcome/logical route identity in correction thresholds,QN006 forbidden_fields_used=False; all correction rows preserve forbidden_fields_used=False.,REJECTED

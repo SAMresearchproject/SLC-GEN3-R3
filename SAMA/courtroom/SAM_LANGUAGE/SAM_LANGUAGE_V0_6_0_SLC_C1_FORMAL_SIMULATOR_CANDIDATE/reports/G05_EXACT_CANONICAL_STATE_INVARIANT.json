@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "canonical_sparse_order": true,
+    "engine_contract_hash": true,
+    "exact_norm": true,
+    "integer_coefficients": true
+  },
+  "status": "PASS"
+}

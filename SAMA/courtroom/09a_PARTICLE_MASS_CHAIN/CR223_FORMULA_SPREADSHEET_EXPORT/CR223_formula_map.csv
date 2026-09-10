@@ -1,0 +1,6 @@
+sheet,range,purpose,formula_example
+Constants,B5:B12,"derive split, capacity, qA/kernel terms",=2^B3; =B2^2*(1-1/B5); =(B7+B8+B9)/B5
+Shells,B2:E9,"derive shell n path, shell capacities, cumulative shell bounds",=2*B2^2; =SUM($C$2:C2)
+Elements_126,A2:AD127,derive 126 rows from Z enumeration and constants,=ROW()-1; =B2*Constants!$B$11+Y2*Constants!$B$12
+Isotope_Candidates,A2:O253,derive floor/ceil ladder candidates and active count,"=IF(C2=""FLOOR_PRIMARY"",""yes"",IF(G2<>0,""yes"",""no""))"
+Checks,B2:E11,formula checks for counts and key row values,"=COUNTIF(Isotope_Candidates!D2:D253,""yes"")"

@@ -1,0 +1,74 @@
+{
+  "definition": "SHA256 of this canonical candidate manifest file",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/COMMAND_LOG.txt",
+      "sha256": "43a1dfb588974066b1f9fa90c3790bcedc2993cac66bf26b49ef23e2a7660b4e"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_PRECOMMIT.md",
+      "sha256": "f8dc4a737907bac9b484c75d5f1c209c5f7a24fe0724746e5752ee61f713d95a"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_PRECOMMIT.sha256.txt",
+      "sha256": "998c23f87b9169c1036310bfc3ce1ff4ec19a8b09cf05b648958a38a92cf4f17"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_SOURCE_MANIFEST.json",
+      "sha256": "638682a53cae419d0e49b60bf9a0ea9e3c603b513a123bf28a7145dc5f3bd45e"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_TYPED_GATE_MATRIX.json",
+      "sha256": "38803bb51e1390bcab931f491c0ba6f54ec041776a69e70e0e3a4ec30c613351"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_VALIDATION_REPORT.json",
+      "sha256": "491b37f76cdcc3dc793c059d458aaa9fa46f250f3ce08b069720476b0849b137"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_WRONG_CONTROLS.json",
+      "sha256": "4c2dba5895e97f80879d23fa4737e2ff74b37ada28759dd048683b18131bdfdb"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_result.md",
+      "sha256": "b131ba0b23189e2b1bbf365ca40db57bca10a8edbd05d4d85f170581c71108e6"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_summary.json",
+      "sha256": "43d0b5b8a611ce7edc318abd425222b0bbbfe16ecc0ecb20ca7f14133799847d"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_axis_as_contact.sam",
+      "sha256": "285d2ce8a0f57c1aa269c442f210fbaea1f2042e79ef3af0e7ac03636be33f50"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_contact_as_axis.sam",
+      "sha256": "d0c0c1db48a258beab64aacfceaa4e39e0b4dd8d8b196a765a9a0bccca6abc46"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_direct_promote.sam",
+      "sha256": "4c56c02e048c1c86cf93f5e00d2320a3c398b1a97a3586b93d321425a08a63a3"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_missing_x1.sam",
+      "sha256": "062ea6e0b5953be4984d2eb4dbe16db48e708265263aee52c805fbe859a99954"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_same_scalar_merge.sam",
+      "sha256": "ed3b01ae7650d32786752c0fbc150aab2cf8ef2766653e6238e02f9ce9061902"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve.sam",
+      "sha256": "82b94620be22e0f5f6ebba2741c9ca58951229639d9aa735e799f5968f27b1c3"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/valid_resolve_promote.sam",
+      "sha256": "6268f412c633e311eabd6dcf85270d96d4941db9cb7b1ffd1d5d780222146138"
+    },
+    {
+      "path": "tools/run_cr120a_w9_typed_resolution_certificate_bridge.py",
+      "sha256": "78cc6822f3948e2887c54cac3216502d7c37573f2a237fc05fa8bddf792fdaad"
+    }
+  ],
+  "record_id": "CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE"
+}

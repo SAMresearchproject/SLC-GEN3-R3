@@ -1,0 +1,51 @@
+{
+  "record_id": "CR210d_OCTAHEDRAL_COMPLETE_LEDGER_BOUNDARY_CLOSURE_APPEAL",
+  "verdict": "CR210d_PASS_EXACT_SOURCE_NATIVE_W9_BY_K18_ADDRESS_FACTORIZATION__SLOT_PARTITION_ROUTE_EDGE_OVERLAP_ORIENTATION_AND_PHYSICAL_INCIDENCE_OPEN",
+  "fresh_checks": [
+    17,
+    17
+  ],
+  "exact_results": {
+    "source_kind_partition": [
+      18,
+      126,
+      18
+    ],
+    "W9_by_K18": [
+      9,
+      18
+    ],
+    "six_fibers": [
+      6,
+      27
+    ],
+    "H27": [
+      27,
+      56
+    ],
+    "boundary_directed": 36,
+    "boundary_pairs": 18,
+    "quotient": [
+      81,
+      81,
+      18,
+      144,
+      126,
+      162
+    ],
+    "typed_residue_permutations": [
+      720,
+      8,
+      36,
+      1
+    ]
+  },
+  "open_boundaries": [
+    "same-kind and cross-kind orientations are count-equivalent",
+    "H27 is candidate combinatorics rather than demonstrated Starbreaker dynamics",
+    "route-edge address is not physical edge identity",
+    "F81 projection is open",
+    "PDG identity is unopened",
+    "binding is unopened"
+  ]
+}

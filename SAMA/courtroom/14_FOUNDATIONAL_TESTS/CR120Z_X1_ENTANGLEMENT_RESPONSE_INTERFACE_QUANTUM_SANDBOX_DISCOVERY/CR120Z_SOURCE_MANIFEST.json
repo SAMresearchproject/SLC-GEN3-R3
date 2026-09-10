@@ -1,0 +1,54 @@
+{
+  "campaign_id": "CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY",
+  "sources": [
+    {
+      "key": "DISCOVERY_PROPOSAL",
+      "path": "C:/Users/drwho/.codex/attachments/98fc5c78-365c-4dcb-8c67-643d2efe06df/pasted-text.txt",
+      "absolute": true,
+      "sha256": "87afd0e650c26cb5e9d3d75fe47782ef4fcc0366711ccd14af39f67b7d15b757",
+      "role": "unvalidated proposal that defines the X1 entanglement-response question"
+    },
+    {
+      "key": "CR120V_RESULT",
+      "path": "14_FOUNDATIONAL_TESTS/CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION/CR120V_result.md",
+      "absolute": false,
+      "sha256": "b0b1e6371ba46527f2ed62a79cdfe11d862c2c7a982a0c4cbbdd0ab820f8506d",
+      "role": "typed B/X1 reciprocal half-relay archive"
+    },
+    {
+      "key": "CR120V_SUMMARY",
+      "path": "14_FOUNDATIONAL_TESTS/CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION/CR120V_summary.json",
+      "absolute": false,
+      "sha256": "adb8f3a50cc92c6be883608509007ab84481bda3ff37c2978de39a000bb35ff7",
+      "role": "machine-readable archival verdict and open weld"
+    },
+    {
+      "key": "STARBREAKER_RELAY_RESULT",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_SUBSTRATE_RECORD_RELAY_KINEMATICS_V1/release/SUBSTRATE_RECORD_RELAY_KINEMATICS_RESULT.md",
+      "absolute": false,
+      "sha256": "3fccd1a2bb28e31a0939c3f28f95845e154ed16751ece7bbcc55a9f7e4eae3df",
+      "role": "current internal typed relay specificity result"
+    },
+    {
+      "key": "STARBREAKER_RELAY_SUMMARY",
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_SUBSTRATE_RECORD_RELAY_KINEMATICS_V1/release/SUBSTRATE_RECORD_RELAY_KINEMATICS_SUMMARY.json",
+      "absolute": false,
+      "sha256": "27f0019438ac591645a10e961ae875c59eaf6020545f36e52895b09a55ec38a7",
+      "role": "machine-readable relay specificity and physical-operator boundary"
+    },
+    {
+      "key": "CR119_TYPED_HIERARCHY",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "absolute": false,
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "role": "canonical distinct B ContactOperator and X1 AxisChannel types"
+    },
+    {
+      "key": "CR120Y_THETA_STATUS",
+      "path": "14_FOUNDATIONAL_TESTS/CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST/release/CR120Y_SUMMARY.json",
+      "absolute": false,
+      "sha256": "be3b1da90f4558836af3a51a7b7d486663551ca3f7858dbe1d7ab28232665886",
+      "role": "current separation of Theta carrier from X1 axis interface"
+    }
+  ]
+}

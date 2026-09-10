@@ -1,0 +1,12 @@
+formula,expression,locked_inputs,replayed_value,source_or_target_use
+A0,1/(pi*R),R=12,0.026525823848649224,"LC01 primitive, no target value"
+A_inf,A0*R,"A0,R",0.3183098861837907,structural saturation
+A_los(z),A0*R*(1-(1+z)^(-D)),"A0,R,D=3",row function,SN and BAO independent ledger function
+w,(D/R)*(Omega_b/Omega_BB_PBH_trapped),"D,R,LC06 baryon inventory",0.0466031311731253,"projection operator, not a fit"
+r_drag,r_star*(1+w),"r_star,w",150.92186401518705,CR012 bridge
+SN native distance,readout_distance*(1-A_los),A_los row,1701 rows,row identity
+SN c_eff,c*(1-A_los),A_los row,1701 rows,row identity
+SN mu_native,mu_obs+5*log10(1-A_los),A_los row,1701 rows,row identity
+BAO non-F_AP prediction,base_predicted*(1+window_value),"w,A0 declared window symbols",19 rows,projection ledger
+BAO F_AP prediction,recomputed_DM_over_rd/recomputed_DH_over_rd,"local recomputed DM,DH rows",derived from local rows,not an independent target fit
+theta100,100*r_star/D_M_photon_road,frozen acoustic write ruler and photon road,1.038976065435997,Planck target downstream comparison only

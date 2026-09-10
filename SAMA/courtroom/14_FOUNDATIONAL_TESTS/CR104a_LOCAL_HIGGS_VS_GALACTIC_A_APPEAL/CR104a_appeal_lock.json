@@ -1,0 +1,80 @@
+{
+  "lock_id": "CR104a_LAYER_4_LOCAL_HIGGS_VS_GALACTIC_A_APPEAL_LOCK",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "cr_id": "CR104a",
+  "sealed_at_utc": "2026-06-13T23:34:30Z",
+  "appeal_target_cr": "CR104",
+  "appeal_target_verdict_unmodified": "PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+  "layer_4_user_insight": {
+    "layer_4a_verbatim_spell_corrected": "Galaxy halos suggest accumulative non-zero A has effects that span the galaxy, however, it is believed that this Higgs is bound to A0+Earth in the form of a SAM general relativity- despite galactic forces the dominant force on the Higgs is localized A, not accumulative.",
+    "layer_4a_verbatim_spell_corrected_sha256": "3ec97aae8af77e31ec75ac4b2b4d444642189cc9c85bde8ed96dbf7bf530d75d",
+    "layer_4a_original_user_text_preserved": "Galaxy halos suggest accumulative non-zero A has effects that span the galaxy, however, it is believed that this higgs is bound to A0+earth in the form of a SAM general relativity- despite galactical forces the dominant force on the higgs is localized A, not accumulative.",
+    "layer_4a_original_user_text_sha256": "ae6b9bfce64eed9223d41e6fbb86b356dc97af154940df47e93e5296fcbbe9c1",
+    "layer_4b_verbatim_spell_corrected": "The Earth creates its 'own' field of A that the Higgs exists in, A does not need to be cumulatively factored - Sun, solar system, galaxy etc.",
+    "layer_4b_verbatim_spell_corrected_sha256": "a920f2748fc8fe98ffe2785bcb47c684df0268ae9dc0d45515220971a3b51c83",
+    "layer_4b_original_user_text_preserved": "The earth creates its 'own' field of A that the higgs exists in, A does not need to be cumulatively factored - Sun, solar system, galaxy etc.",
+    "layer_4b_original_user_text_sha256": "e0247f3b00379de378a93c056f6ee85345c2f1d83355de7cacffa9ac36f88f8d",
+    "layer_4b_refinement_of_4a": "Layer 4a established 'dominant force on Higgs is localized A, not accumulative'. Layer 4b sharpens this: each gravitating body creates its OWN independent A field. The Higgs at any point sits in the field of the body it's bound to (Earth for terrestrial measurements). The Sun's A, the solar system's A, the galaxy's A are NOT cumulatively added to Earth's A from the Higgs perspective. This means the local-A regime is per-gravitating-body, not a hierarchical sum.",
+    "spell_corrections_applied": [
+      "Layer 4a: higgs -> Higgs (twice), earth -> Earth, galactical -> galactic",
+      "Layer 4b: earth -> Earth, higgs -> Higgs"
+    ]
+  },
+  "upstream_verification_chain": {
+    "G732c": "PASS_NATIVE_R12_CORED_HALO_RADIAL_LAW_CANDIDATE - density rho/[1+(r/r_c)^2], r_c = R_outer/12, halo_cumulative_kernel_present = true",
+    "G736c": "halo scatter mass function selector",
+    "G737c": "halo lane assignment selector",
+    "GALAXY_HALO_PBH_BRANCH": "broader SAM branch context",
+    "CR103a_Layer_3": "bounce cost + A-dependence + 11/12 (locked previously)",
+    "CR104": "K(A_H) self-correction PARTIAL CLOSURE at 1e-19 (locked previously)"
+  },
+  "upstream_source_hashes_at_runner_time": {
+    "G732c_RESULT.md (native cored halo law PASS)": "33a445e94883c3c9651cecccbdb1259effe04f04e66de1f214260e30f11ee029",
+    "G736c_RESULT.md (halo scatter mass function)": "0a27a33c56fd4c541f1692a5804a10be47768cb4f938619baca16378eb1778d6",
+    "G737c_RESULT.md (halo lane assignment)": "ff4a55626b9fe8aa0a801f44583b191ca32e93ce1edd69e2fc5800b66001a8b3",
+    "GALAXY_HALO_PBH_BRANCH.md": "13cf6d26261fad79761c2622db6e66646ea42e2db9e00644379de819864e8734",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+    "CR104_summary.json": "1487675d79c8fde276ef9505ba63946ccd68835ade87d33115b1e761dc873c9f",
+    "CR103a_appeal_lock.json": "f247211b34de740039b934bb5938baba1d84c0a4f92718aeecaa189eb21eefa8"
+  },
+  "structural_resolution": {
+    "apparent_tension": "How can SAM predict galactic dark matter halos (G732c PASS) AND simultaneously pass EP tests locally at 1e-19 precision (CR104 PASS)?",
+    "layer_4_resolution": "The Higgs (mass-giving substrate weight) is LOCALLY BOUND to A0 + A_Earth_surface. Galactic-scale cumulative A produces large-scale gravitational structure (halos) without backreacting on local Higgs weight. Local mass measurements see only local A; galactic rotation curves see cumulative A.",
+    "implication_dark_matter": "SAM predicts dark matter halos are A-field cumulative effects, NOT particle distributions. Direct DM detection experiments should never find a DM particle.",
+    "implication_11_over_12": "The 11/12 spaghettification threshold is a LOCAL A threshold, not a cumulative galactic A threshold. LIGO/Virgo merger analysis should see onset at the local matter being disrupted."
+  },
+  "forward_blind_predictions_registered": [
+    {
+      "id": "CR104a_PRED_1",
+      "claim": "Dark matter halos are cumulative A-field structures, not particle distributions; galaxy rotation curves follow G732c cored R=12 law without invoking new particles",
+      "testable_at": "SPARC galaxies, Milky Way rotation curves, lensing statistics"
+    },
+    {
+      "id": "CR104a_PRED_2",
+      "claim": "No local mass measurement (atomic clocks, LHC particle masses, NS rest masses) shows contribution from the local galaxy's cumulative A; EP holds locally to K(A_H) precision (currently 1e-19)",
+      "testable_at": "current and future precision EP tests"
+    },
+    {
+      "id": "CR104a_PRED_3",
+      "claim": "Direct dark matter detection experiments (XENONnT, LZ, PandaX, SuperCDMS) should NEVER find a particle, because SAM predicts dark matter is cumulative A field, not particle; positive direct-detection would falsify SAM halo reading",
+      "testable_at": "ongoing direct detection experiments"
+    },
+    {
+      "id": "CR104a_PRED_4",
+      "claim": "11/12 spaghettification threshold is LOCAL A, not cumulative; LIGO/Virgo waveform analysis should see onset at local A ~ 0.917 at disrupted matter, not at line-of-sight integrated galactic A",
+      "testable_at": "LIGO/Virgo NS-BH merger waveform analysis"
+    }
+  ],
+  "prior_CR_verdicts_unchanged": [
+    "CR101 PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_2_SIGMA_ONLY",
+    "CR102 PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_ASTROPHYSICAL_PRECISION",
+    "CR103 CANDIDATE_4_SIMPLE_READING_DISFAVORED_BY_LHC",
+    "CR103a BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+    "CR104 PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+    "CR105 GATE_CROSS_INTEGRITY_PASS",
+    "CR106 14_BRANCH_COMPLETE_FOUNDATIONAL_TESTS_PARTIAL_CLOSURE_BUNDLE"
+  ],
+  "prediction_commit_sha256": "0127b25c52b093921ddc78c03914b0f72f3680b22272917e4279f3dde34009dd",
+  "prediction_commit_utc": "2026-06-13T23:34:30Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+}

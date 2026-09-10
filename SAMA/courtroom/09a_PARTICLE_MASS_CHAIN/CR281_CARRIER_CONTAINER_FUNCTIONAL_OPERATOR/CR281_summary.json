@@ -1,0 +1,226 @@
+{
+  "artifact": "CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR",
+  "constants": {
+    "L": 162,
+    "L_equals_R_sq_d_sq_over_S": true,
+    "M": 126,
+    "M_retained_fraction": "7/8",
+    "R": 12,
+    "R_sq": 144,
+    "S": 8,
+    "Theta": 18,
+    "Theta_lift_fee": "81/4",
+    "Theta_release_fraction": "1/8",
+    "d": 3,
+    "h": 2
+  },
+  "execution_status": "CLEAN",
+  "external_anchors": [],
+  "external_comparators": [],
+  "external_observational_inputs_used": false,
+  "firewall": {
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false
+  },
+  "firewall_fields_false": true,
+  "forbidden_source_paths_opened": false,
+  "free_parameters_introduced": 0,
+  "generated_utc": "2026-07-11T16:39:53+00:00",
+  "heldout": [
+    {
+      "actual": "RETAINED_SCRATCH",
+      "expected": "RETAINED_SCRATCH",
+      "kind": "partition_scratch",
+      "label": "M",
+      "match": true,
+      "value": 126
+    },
+    {
+      "actual": "DOMAIN_TOTAL",
+      "expected": "DOMAIN_TOTAL",
+      "kind": "bow_domain",
+      "label": "R^2",
+      "match": true,
+      "value": 144
+    },
+    {
+      "actual": "DOMAIN_MULTIPLICITY",
+      "expected": "DOMAIN_MULTIPLICITY",
+      "kind": "copy_count",
+      "label": "S",
+      "match": true,
+      "value": 8
+    },
+    {
+      "actual": "OUT_OF_SOURCE_ATOM_SET",
+      "expected": "OUT_OF_SOURCE_ATOM_SET",
+      "kind": "unrestricted_grade_control",
+      "label": "h^4",
+      "match": true,
+      "value": 16
+    }
+  ],
+  "heldout_match_count": 4,
+  "isotope_stability_used_as_operator_input": false,
+  "pass_conditions": {
+    "P10_artifacts_emitted": true,
+    "P1_source_hashes_verified": true,
+    "P2_firewall_fields_false": true,
+    "P3_outputs_match": true,
+    "P4_fixed_points_match": true,
+    "P5_terminal_closure_match": true,
+    "P6_no_isotope_input": true,
+    "P7_theta_no_fee_explained": true,
+    "P8_wrong_controls": true,
+    "P9_heldout": true
+  },
+  "precommit_sha256": "a31ed176acf9ec2272873c64c64e29c24f387ada879c7aa3e4f5d1923e5f50f3",
+  "queue_maintenance_performed_by_research_agent": false,
+  "roles": [
+    {
+      "actual": "OUTPUT",
+      "address_value_ok": true,
+      "d_exp": 1,
+      "expected": "OUTPUT",
+      "h_exp": 1,
+      "label": "m_3",
+      "match": true,
+      "value": 6,
+      "value_from_address": 6
+    },
+    {
+      "actual": "OUTPUT",
+      "address_value_ok": true,
+      "d_exp": 2,
+      "expected": "OUTPUT",
+      "h_exp": 0,
+      "label": "D^2",
+      "match": true,
+      "value": 9,
+      "value_from_address": 9
+    },
+    {
+      "actual": "OUTPUT",
+      "address_value_ok": true,
+      "d_exp": 2,
+      "expected": "OUTPUT",
+      "h_exp": 1,
+      "label": "Theta",
+      "match": true,
+      "value": 18,
+      "value_from_address": 18
+    },
+    {
+      "actual": "OUTPUT",
+      "address_value_ok": true,
+      "d_exp": 3,
+      "expected": "OUTPUT",
+      "h_exp": 1,
+      "label": "hV",
+      "match": true,
+      "value": 54,
+      "value_from_address": 54
+    },
+    {
+      "actual": "FIXED_POINT",
+      "address_value_ok": true,
+      "d_exp": 1,
+      "expected": "FIXED_POINT",
+      "h_exp": 2,
+      "label": "R",
+      "match": true,
+      "value": 12,
+      "value_from_address": 12
+    },
+    {
+      "actual": "FIXED_POINT",
+      "address_value_ok": true,
+      "d_exp": 3,
+      "expected": "FIXED_POINT",
+      "h_exp": 0,
+      "label": "V",
+      "match": true,
+      "value": 27,
+      "value_from_address": 27
+    },
+    {
+      "actual": "FIXED_POINT",
+      "address_value_ok": true,
+      "d_exp": 4,
+      "expected": "FIXED_POINT",
+      "h_exp": 0,
+      "label": "F",
+      "match": true,
+      "value": 81,
+      "value_from_address": 81
+    },
+    {
+      "actual": "TERMINAL_CLOSURE",
+      "address_value_ok": true,
+      "d_exp": 4,
+      "expected": "TERMINAL_CLOSURE",
+      "h_exp": 1,
+      "label": "L",
+      "match": true,
+      "value": 162,
+      "value_from_address": 162
+    }
+  ],
+  "scientific_branch": "09a_PARTICLE_MASS_CHAIN",
+  "scientific_question": "Can one source-derived operator classify bow outputs/carriers, fixed points/containers, and terminal closure without isotope stability as input?",
+  "scientific_verdict": "PASS",
+  "source_hashes_ok": true,
+  "source_quality_notes": [
+    "CR262 display-cell inconsistencies preserved; structured roles are computed from source-supported atom properties, not isotope stability.",
+    "CR270 is BOUNDARY-grade mechanism support; CR281 verdict is for functional classification.",
+    "Pre-precommit broad locator output from language-tree paths was quarantined and is not input evidence."
+  ],
+  "target_labels_used_as_operator_input": false,
+  "target_roles_all_match": true,
+  "task": "SAM Prospective CR carrier container functional operator",
+  "wrong_controls": [
+    {
+      "best_matches": "not_applicable_monotone_sequence_test",
+      "broke": true,
+      "control": "WC1_RAW_NUMERIC_ORDERING",
+      "evidence": "sorted expected roles = OUTPUT,OUTPUT,FIXED_POINT,OUTPUT,FIXED_POINT,OUTPUT,FIXED_POINT,TERMINAL_CLOSURE"
+    },
+    {
+      "best_matches": 5,
+      "broke": true,
+      "control": "WC2_PARITY_ONLY",
+      "mapping": {
+        "even": "OUTPUT",
+        "odd": "FIXED_POINT"
+      }
+    },
+    {
+      "best_matches": 5,
+      "broke": true,
+      "control": "WC3_PURE_POWER_VS_MIXED_POWER_ONLY",
+      "mapping": {
+        "has_h": "OUTPUT",
+        "pure_d": "FIXED_POINT"
+      }
+    },
+    {
+      "broke": true,
+      "canonical_prediction": "OUT_OF_SOURCE_ATOM_SET",
+      "control": "WC4_UNRESTRICTED_GRADE_PROMOTES_16",
+      "control_prediction": "OUTPUT"
+    },
+    {
+      "broke": true,
+      "control": "WC5_SWAPPED_PRIMITIVE_ADDRESSES",
+      "matches": 1,
+      "mismatches": 7
+    },
+    {
+      "broke": true,
+      "control": "WC6_INVERT_OUTPUT_FIXED_LABELS",
+      "matches": 1,
+      "mismatches": 7
+    }
+  ],
+  "wrong_controls_broke_count": 6
+}

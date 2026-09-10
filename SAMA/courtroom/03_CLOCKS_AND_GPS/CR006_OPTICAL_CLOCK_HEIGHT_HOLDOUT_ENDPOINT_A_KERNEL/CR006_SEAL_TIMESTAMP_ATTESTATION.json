@@ -1,0 +1,49 @@
+{
+  "artifact": "SAM_V0_3_SEAL_TIMESTAMP_ATTESTATION",
+  "attestation_created_utc": "2026-07-11T17:05:36Z",
+  "authority_sources": [
+    {
+      "bytes": 7924,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_115809_CR006_runner.json",
+      "sha256": "a249b1bb379796ebd1e7d45e57b1d90180e728d536555c230d684eef92cf47ad"
+    },
+    {
+      "bytes": 17447,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_115809_CR006_runner.md",
+      "sha256": "70b628d8dcc85afe1c803cb18dfc34755162d56c09bbb59c54ee228c3f8f12ba"
+    },
+    {
+      "bytes": 3144,
+      "note": "final CR hash ledger used as contemporaneous completion ledger, not as timestamp source",
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/HASHES.txt",
+      "sha256": "2457bd7919033ace542645b7960f6e8747e99e2512ead79fed3d53ff745fb3b3"
+    }
+  ],
+  "cr_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "existing_cr_artifacts_modified": false,
+  "filesystem_mtime_used": false,
+  "firewall_metadata": {
+    "metadata_files_checked": [
+      "CR006_EXTERNAL_SOURCE_MANIFEST.json",
+      "CR006_GEOMETRY_LOCK.json",
+      "CR006_INTERNAL_SOURCE_MANIFEST.json",
+      "CR006_OPENED_FILE_MANIFEST.json",
+      "CR006_provenance.json",
+      "CR006_summary.json",
+      "CR006_TARGET_IDENTITY_LOCK.json"
+    ],
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_sealed_utc": "2026-07-11T16:58:09Z",
+  "prior_queue_ledger_hash": "e0e08276334fc2b39048e3f9e9e4361606efc71380da6f6c0ebc3049f3eddd51",
+  "prior_queue_maintenance_hash_bundle": "420523ac7157ed122d4ab30eb6ca47c4ca22dc085c227972a0cb7592a582e5f2",
+  "remediation_timestamp_used_as_original_seal": false,
+  "sam_language_v0_3_consulted": false,
+  "scientific_test_rerun": false,
+  "target_scientific_content_opened": false,
+  "timestamp_authority_key": "generated_utc",
+  "timestamp_authority_rank": "b",
+  "timestamp_authority_type": "TOOLS_RUN_SAM_TEST_EXECUTION_RECEIPT"
+}

@@ -1,0 +1,32 @@
+{
+  "artifact": "QP091A_PRIVATE_COURTROOM_SCALE_BRIDGE_POST_BOUNCE_ALIGNMENT",
+  "generated_at_utc": "2026-06-14T21:49:36.767196+00:00",
+  "result_class": "PASS_QP091A_COURTROOM_SCALE_BRIDGE_POST_BOUNCE_ALIGNMENT_MAP",
+  "passed": true,
+  "test_type": "LOCAL_ALIGNMENT_SEARCH",
+  "courtroom_inputs_modified": false,
+  "courtroom_inputs_read_only": true,
+  "direct_cern_sw_observation_claimed": false,
+  "new_particle_claimed": false,
+  "full_electroweak_theorem_claimed": false,
+  "free_parameters_introduced": 0,
+  "alignment_class": "POST_BOUNCE_INTERSECTION_CANDIDATE_ALIGNMENT",
+  "alignment_rows": 10,
+  "story_rows": 8,
+  "checks_passed": 13,
+  "checks_total": 13,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "alignment_status_counts": {
+    "ALIGNED_BOUNDARY": 2,
+    "ALIGNED": 8
+  },
+  "H_visible_parent_ledger_MeV": 125219.0,
+  "H_source_hidden_budget_MeV": 125419.11694535677,
+  "Zstar_ceiling_visible_MeV": 34057.5,
+  "CR204a_offshell_Zstar_min_MeV": 33902.399999999994,
+  "CR204a_offshell_Zstar_max_MeV": 33922.399999999994,
+  "CR204a_Zstar_margin_to_QP091_ceiling_MeV": 135.10000000000582,
+  "scientific_reading": "Branch-15 topology aligns with the quantum_phase source-pressure -> resolved write/bounce -> post-bounce mass-ledger story. The best candidate read is the H -> ZZ* -> 4l resolved-parent lane as a post-bounce intersection trace, with boundaries preserved.",
+  "next_frontier": "QP091B_HZZ4L_ANGULAR_AND_OFFSHELL_REVEAL_TARGET_MAP"
+}

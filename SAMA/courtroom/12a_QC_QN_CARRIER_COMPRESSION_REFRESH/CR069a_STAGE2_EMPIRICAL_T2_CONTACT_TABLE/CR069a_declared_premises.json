@@ -1,0 +1,56 @@
+{
+  "cr_id": "CR069a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "STAGE2_EMPIRICAL_T2_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-18T00:30:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "epistemic_stance_path": "EPISTEMIC_STANCE.md",
+  "purpose": "Establish empirical contact between the T2_grav v1.1 floor prediction (CR064a) and published quantum-platform T2 measurements. Lift CR064a v1.1 from BOUNDARY toward PASS conditional on citation verification.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "T2_grav_v1_1_formula": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "T2_grav_v1_1_numeric_coefficient_seconds_times_rad_per_s": 61300.408,
+  "prediction": "T2_observed >= T2_grav for any quantum system at its operating omega_drive",
+  "interpretation": {
+    "above_floor_with_margin": "consistent with floor; environmental noise still dominates",
+    "at_floor_within_uncertainty": "would constitute strong validation; not yet expected for current measurements",
+    "below_floor": "would falsify CR064a v1.1"
+  },
+  "upstream_hash_locked_premises": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "c85de54350cb7fa90759e9f2b49afbf0371ccc4b05da318195392bbf4eb53dd9",
+    "CR067a_result_md_sha256": "da44a9cb33bb756d408efad91e86ce7344191f5fa329ffdbb2ff8359b8e9b1cf",
+    "CR067b_result_md_sha256": "8b98dff7e6b02c7f5b301d85c086c34ea7c18dc9ca8f478b7b8aaf278bba3ddb",
+    "CR068a_result_md_sha256": "aed3e4cca2fa5cd4a6e78d003aa617c71eead4ba18d8f2a3324ad9be8f8e9ba9",
+    "CR121_gravity_mechanism_intake_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    "P1_table_well_formed",
+    "P2_no_current_measurement_violates_T2_grav",
+    "P3_margin_distribution_consistent_with_environmental_dominance",
+    "P4_cryo_DD_NV_closest_to_floor_in_relative_terms",
+    "P5_no_free_parameters_in_contact_analysis",
+    "P6_explicit_verification_path_documented",
+    "P7_contact_table_emitted_with_consistency_classification",
+    "P8_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_inverted_formula_falsely_flags_violations",
+    "WC2_zero_omega_breaks_the_formula_gracefully",
+    "WC3_negative_T2_observed_rejected_as_unphysical",
+    "WC4_no_citation_tag_marks_row_as_provisional",
+    "WC5_runner_does_not_modify_upstream_locks",
+    "WC6_no_free_parameters"
+  ],
+  "free_parameters": 0,
+  "verification_discipline": "Every populated row carries citation_tag and verify_status. Initial population is PROVISIONAL_AUTHOR_BEST_EFFORT. Partner-lab confirmation of each citation lifts the row to VERIFIED. Aggregate verdict scales with verified fraction."
+}

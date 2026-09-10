@@ -1,0 +1,44 @@
+{
+  "cr_id": "CR060",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "reason": "selector provenance and forbidden-targets boundary verified clean; no external anchor at this CR",
+  "captured_at_utc": "2026-06-13T07:16:09Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "phases": {
+    "phase_1_seal_and_hash": {
+      "seal_exists": true,
+      "manifest_sha_matches": true,
+      "hashes_verified": 572,
+      "hashes_mismatched": 0,
+      "hashes_missing": 0
+    },
+    "phase_2_qp_self_disclosure": {
+      "qp_tests_checked": 24,
+      "clean": 24,
+      "violations": 0
+    },
+    "phase_3_provenance_boards": {
+      "boards_checked": 2,
+      "violations": 0
+    },
+    "phase_4_hostile_audit": {
+      "files_checked": 15,
+      "verdicts": {
+        "PASS": 7,
+        "BOUNDARY": 8
+      }
+    },
+    "phase_5_forbidden_selector": {
+      "engine_hit_classes": 0,
+      "allowed_mention_classes": 0,
+      "clean_classes": 4
+    },
+    "phase_6_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

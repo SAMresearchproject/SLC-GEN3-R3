@@ -1,0 +1,167 @@
+check,status,value,detail
+LC01 primitive stack passes,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC06 baryon/matter lane passes before LC08,PASS,,LC06_PASS_BARYON_AND_MATTER_INVENTORY_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+LC07 distance lane passes before LC08,PASS,,LC07_PASS_SN_BAO_DISTANCE_ROAD_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+CR113 foundational R theorem passes,PASS,,CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM
+CR113 R equals LC01 R,PASS,12,R source
+CR115 foundational D3 theorem passes,PASS,,CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE
+CR115 stable D list is [3],PASS,[3],D source
+A0 remains downstream primitive normalization,PASS,1/(12*pi),LC01 primitive
+CR022 execution clean,PASS,,BOUNDARY
+CR022 structural success,PASS,,BOUNDARY
+CR022 pass conditions all true,PASS,"{""external_empirical_overclaim_rejected"": true, ""free_parameters_introduced_zero"": true, ""many_nonzeros_accumulate_above_threshold"": true, ""sam_halo_cumulative_kernel_declared"": true, ""sam_many_source_kernel_declared"": true, ""single_nearzero_can_be_below_threshold"": true}",pass_conditions
+CR022 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR022 evidence rows all pass,PASS,6,evidence rows
+CR022 zero free parameters,PASS,0,declared premises
+CR022 is not confirmation audit,PASS,False,declared premises
+CR023 execution clean,PASS,,BOUNDARY
+CR023 structural success,PASS,,BOUNDARY
+CR023 pass conditions all true,PASS,"{""bb_pbh_inventory_dominates_hydrogen_arrival"": true, ""bb_pbh_inventory_matches_halo_lane"": true, ""free_parameters_introduced_zero"": true, ""halo_inventory_reading_declared"": true, ""inventory_sums_to_one"": true, ""post_bb_window_not_enough_for_full_halo"": true}",pass_conditions
+CR023 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR023 evidence rows all pass,PASS,5,evidence rows
+CR023 zero free parameters,PASS,0,declared premises
+CR023 is not confirmation audit,PASS,False,declared premises
+CR024 execution clean,PASS,,PASS
+CR024 structural success,PASS,,PASS
+CR024 pass conditions all true,PASS,"{""free_parameters_introduced_zero"": true, ""large_real_sparc_sample_loaded"": true, ""outer_dark_residual_detected"": true, ""post_bb_only_control_rejected_as_full_halo"": true, ""real_sparc_external_anchor_present"": true, ""wrong_controls_rejected_upstream"": true}",pass_conditions
+CR024 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR024 evidence rows all pass,PASS,5,evidence rows
+CR024 zero free parameters,PASS,0,declared premises
+CR024 is not confirmation audit,PASS,False,declared premises
+CR025 execution clean,PASS,,PASS
+CR025 structural success,PASS,,PASS
+CR025 pass conditions all true,PASS,"{""clustered_profile_improves_baryon_only"": true, ""free_parameters_introduced_zero"": true, ""halo_requires_clustered_overdensity"": true, ""native_radial_selector_debt_preserved"": true, ""real_sparc_sample_fit"": true, ""realistic_clustered_halo_profile_passed"": true, ""wrong_controls_rejected_upstream"": true}",pass_conditions
+CR025 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR025 evidence rows all pass,PASS,6,evidence rows
+CR025 zero free parameters,PASS,0,declared premises
+CR025 is not confirmation audit,PASS,False,declared premises
+CR026 execution clean,PASS,,PASS
+CR026 structural success,PASS,,PASS
+CR026 pass conditions all true,PASS,"{""comparison_candidate_recorded_not_selected_by_target"": true, ""free_parameters_introduced_zero"": true, ""open_mass_normalization_and_native_law_preserved"": true, ""post_bb_window_only_control_rejected"": true, ""seed_first_closes_most_baryon_to_profile_gap"": true, ""seed_first_primary_candidate_native_base12"": true, ""uniform_control_rejected"": true, ""wrong_controls_rejected_upstream"": true}",pass_conditions
+CR026 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR026 evidence rows all pass,PASS,5,evidence rows
+CR026 zero free parameters,PASS,0,declared premises
+CR026 is not confirmation audit,PASS,False,declared premises
+CR027 execution clean,PASS,,PASS
+CR027 structural success,PASS,,PASS
+CR027 pass conditions all true,PASS,"{""free_parameters_introduced_zero"": true, ""full_sfh_overclaim_rejected"": true, ""hydrogen_arrival_selected"": true, ""pbh_first_hydrogen_catchup_selected"": true, ""pbh_inventory_exceeds_hydrogen_inventory"": true, ""prediction_rows_complete"": true, ""seed_first_support_imported"": true, ""wrong_controls_complete"": true}",pass_conditions
+CR027 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR027 evidence rows all pass,PASS,7,evidence rows
+CR027 zero free parameters,PASS,0,declared premises
+CR027 is not confirmation audit,PASS,False,declared premises
+CR028 execution clean,PASS,,BOUNDARY
+CR028 structural success,PASS,,BOUNDARY
+CR028 pass conditions all true,PASS,"{""halo_radial_law_not_claimed"": true, ""no_external_particle_data_used"": true, ""private_baryon_scaffold_artifact_present"": true, ""proton_neutron_scaffold_filled"": true, ""remaining_baryon_boundaries_preserved"": true, ""zero_free_parameters"": true}",pass_conditions
+CR028 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR028 evidence rows all pass,PASS,5,evidence rows
+CR028 zero free parameters,PASS,0,declared premises
+CR028 is not confirmation audit,PASS,False,declared premises
+CR029 execution clean,PASS,,BOUNDARY
+CR029 structural success,PASS,,BOUNDARY
+CR029 pass conditions all true,PASS,"{""expected_boundary_verdict"": true, ""external_sparc_contact_present"": true, ""hydrogen_catchup_support_present"": true, ""native_radial_law_debt_declared"": true, ""no_full_theorem_claim_smuggled"": true, ""seed_first_support_present"": true, ""upstream_chain_present"": true}",pass_conditions
+CR029 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR029 evidence rows all pass,PASS,5,evidence rows
+CR029 zero free parameters,PASS,0,declared premises
+CR029 is not confirmation audit,PASS,False,declared premises
+CR030 execution clean,PASS,,PASS
+CR030 structural success,PASS,,PASS
+CR030 pass conditions all true,PASS,"{""all_execution_clean"": true, ""boundary_debts_preserved"": true, ""branch_does_not_claim_full_native_radial_law"": true, ""courtroom_chain_complete"": true, ""free_parameters_introduced_zero"": true, ""scoped_pass_external_contact_present"": true}",pass_conditions
+CR030 wrong controls did not match packet,PASS,0,wrong_control_full_packet_count
+CR030 evidence rows all pass,PASS,5,evidence rows
+CR030 zero free parameters,PASS,0,declared premises
+CR030 is not confirmation audit,PASS,False,declared premises
+CR022 many-source kernel declared,PASS,,CR022 evidence
+CR022 many nonzeros accumulate above single tiny A,PASS,1e-18 -> 1.0000000000000001e-07,A accumulation
+QGA038G inventory sums to one,PASS,1.0,inventory
+QGA038G matter inventory matches PBH plus hydrogen,PASS,0.3137609155690572,matter inventory
+PBH/trapped-A inventory dominates hydrogen arrival,PASS,5.364446416084761,PBH/H ratio
+Post-BB window subchannel small,PASS,0.02576714268055339,post-BB subchannel
+CR023 halo reading is BB-origin PBH/trapped-A,PASS,BB-origin PBH/trapped-A is the dark halo inventory lane,QGA038G reading
+G392 SPARC galaxies count is 175,PASS,175,G392 residual rows
+G392 SPARC mass points count is 3391,PASS,3391,G392 mass points
+G392 outer dark residual present,PASS,0.760699023482704,median_outer_dark_fraction_v2
+G393 post-BB envelope leaves most residual missing,PASS,97.42328573194466,missing pct
+G393 gap budget matches CR024 post-BB pct,PASS,,G393 gap budget
+G394 profile row count is 175,PASS,175,G394 profile rows
+G394 clustered halo RMS improves baryon RMS,PASS,3.625430524040301 < 40.95236813050122,RMS
+G394 chi2 improvement strong,PASS,150.7662388291606,median_chi2_improvement_factor
+G394 halo requires clustered overdensity,PASS,79090.03192365015,overdensity
+G394 scenarios preserve uniform rejection,PASS,,G394 scenarios
+G394 scenarios preserve clustered compatibility,PASS,,G394 scenarios
+G394 scenarios preserve post-BB as subchannel,PASS,,G394 scenarios
+G677 candidate table includes native R/12 candidate,PASS,"{""candidate_id"": ""base12_outer_radius_over_12"", ""core_denominator"": ""12.0"", ""fraction_of_baryon_to_g394_rms_gap_closed"": ""0.8191375474184742"", ""galaxies_tested"": ""173"", ""mass_scale"": ""1.0"", ""median_baryon_rms_kms"": ""41.087913426981345"", ""median_g394_halo_rms_kms_for_comparison"": ""3.6025234249475164"", ""median_rms_improvement_factor"": ""3.6524042938317947"", ""median_seed_first_red_chi2"": ""6.292355679523673"", ""median_seed_first_rms_kms"": ""10.382222996690356"", ""median_seed_overdensity_vs_cosmic_dm_mean"": ""85189.94032986647"", ""selector_source"": ""native base-12 core fraction: r_core = R_outer / 12"", ""status"": ""PROFILE_BEHAVIOR_CANDIDATE""}",G677 candidate
+G677 native R/12 closes most of the gap,PASS,0.8191375474184742,gap closed
+G677 uniform control rejected,PASS,3.8495994978147876e-05,uniform gap closed
+G677 post-BB-only control rejected,PASS,0.02448481593940179,post-BB gap closed
+"G677 best-RMS R/6 remains comparison, not primitive",PASS,half_string_outer_radius_over_6,best candidate
+G677 wrong controls all rejected,PASS,5,G677 wrong controls
+G677 ordering board keeps seed before baryon infall,PASS,,G677 ordering board
+QGA038F selects neutral hydrogen terminal arrival,PASS,neutral_hydrogen_protium,QGA038F
+QGA038H keeps hydrogen catching up to PBH scaffold,PASS,,QGA038H route
+G682c selects PBH-assisted hydrogen first-star scaffold,PASS,bb_pbh_trapped_A_first_scaffold_plus_hydrogen_catchup,G682c selected route
+G682c keeps full SFH open,PASS,"first-star scaffold selector only; not full star-formation history, cooling-rate, fusion-rate, stellar IMF, or stellar-evolution claim",G682c scope
+QP042 private support uses no external data,PASS,PRIVATE_QUANTUM_PHASE_REPO_ONLY,QP042 source scope
+QP042 uses no observed baryon masses,PASS,False,QP042 observed baryon masses
+QP042 fills ddu and duu scaffolds,PASS,ddu;duu,QP042 filled ids
+QP042 preserves open baryon boundaries,PASS,54,QP042 open rows
+CR029 declares radial-law debt,PASS,native radial organization law / mass function / concentration relation,CR029 open debt
+CR030 branch scoped PASS,PASS,PASS,CR030 verdict
+CR030 pass/boundary counts replay,PASS,"{""boundary"": 4, ""clean"": 8, ""pass"": 4}",support verdict counts
+CR116 correction clean,PASS,,CR116_SAM_HALO_COMPOSITION_CORRECTION_SEALED_PRIOR_READINGS_SUPERSEDED
+CR116 corrected reading is clustered BB-origin PBH,PASS,halo = cumulative nonzero A + CLUSTERED BB-origin PBHs at f_PBH ~ Omega_PBH/Omega_DM,CR116 corrected reading
+CR116 records stale CR115 misread,PASS,"[""CR110_PRED_2 (14 branch) reading: 'f_PBH = 0' is wrong physics"", ""CR098a registry entry for CR110_PRED_2 (13 branch): carries the incorrect reading"", ""CR115 bridge (governance): conclusion 'particle PBH insufficient as halo' misread branch 08""]",CR116 correction list
+CR116 keeps clustered microlensing as open debt,PASS,"[""Clustered-PBH-aware microlensing envelope analysis - natural next future CR to close CR116_CORRECTED_PRED_2 quantitatively"", ""Future CR098b (registry refresh) would import CR116_CORRECTED_PRED_2 cleanly"", ""Curator sign-off promotes PROVISIONAL_DRAFT to SEALED""]",CR116 open debts
+Governance CR115 stale bridge remains source-preserved,PASS,CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL_SEALED,CR115 governance bridge
+Replay layer: LC01 locked primitive stack,PASS,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,No branch-local primitive override.
+Replay layer: R=12 foundational address count,PASS,CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM,R is not read from halo profile fit or a successful config.
+Replay layer: D=3 foundational carrier uniqueness,PASS,CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE,"D is not derived from SPARC, PBH, or halo rows."
+Replay layer: CR022 many-nonzero A root,PASS,BOUNDARY,Structural root only; no standalone halo observation claim.
+Replay layer: CR023 BB-origin PBH/trapped-A inventory,PASS,BOUNDARY,Post-BB/window PBH remains a small subchannel.
+Replay layer: CR024 real SPARC residual and post-BB rejection,PASS,PASS,"Rejects post-BB-only as full halo, not clustered BB-origin PBH."
+Replay layer: CR025 clustered profile contact,PASS,PASS,Compatibility profile is not a full native radial law.
+Replay layer: CR026 seed-first clustering selector,PASS,PASS,Candidate behavior only; mass normalization and native law remain open.
+Replay layer: CR027 hydrogen catch-up scaffold,PASS,PASS,Not a full star-formation history.
+Replay layer: CR028 QP042 private baryon scaffold support,PASS,BOUNDARY,"Private support only, not external halo evidence."
+Replay layer: CR029 radial-law debt isolation,PASS,BOUNDARY,Successful only because it does not convert support into a full theorem.
+Replay layer: CR030 branch zipper,PASS,PASS,Scoped PASS only.
+Replay layer: CR116 halo composition correction,PASS,CR116_SAM_HALO_COMPOSITION_CORRECTION_SEALED_PRIOR_READINGS_SUPERSEDED,Correction is appended transparently; prior files remain unmodified.
+Metric: R_locked,PASS,12,replay metric
+Metric: D_locked,PASS,3,replay metric
+Metric: Omega_substrate_vacuum,PASS,0.6862390844309427,replay metric
+Metric: Omega_BB_PBH_trapped,PASS,0.26446190430295646,replay metric
+Metric: Omega_H_arrival_baryon,PASS,0.049299011266100756,replay metric
+Metric: total_inventory,PASS,1.0,replay metric
+Metric: PBH_to_hydrogen_ratio,PASS,5.364446416084761,replay metric
+Metric: trapped_fraction_of_matter,PASS,0.8428771436471338,replay metric
+Metric: escaped_hydrogen_fraction_of_matter,PASS,0.15712285635286619,replay metric
+Metric: SPARC_galaxies,PASS,175,replay metric
+Metric: SPARC_mass_model_points,PASS,3391,replay metric
+Metric: median_outer_dark_fraction_v2,PASS,0.760699023482704,replay metric
+Metric: post_BB_envelope_supplied_pct_dark_residual,PASS,2.576714268055339,replay metric
+Metric: missing_after_post_BB_envelope_pct_dark_residual,PASS,97.42328573194466,replay metric
+Metric: G394_profile_rows,PASS,175,replay metric
+Metric: median_baryon_rms_kms,PASS,40.95236813050122,replay metric
+Metric: median_halo_rms_kms,PASS,3.625430524040301,replay metric
+Metric: median_chi2_improvement_factor,PASS,150.7662388291606,replay metric
+Metric: median_halo_overdensity_vs_cosmic_dm_mean,PASS,79090.03192365015,replay metric
+Metric: G677_primary_rows,PASS,173,replay metric
+Metric: G677_primary_candidate_id,PASS,base12_outer_radius_over_12,replay metric
+Metric: G677_primary_core_denominator,PASS,12.0,replay metric
+Metric: G677_primary_gap_closed,PASS,0.8191375474184742,replay metric
+Metric: G677_uniform_control_gap_closed,PASS,3.8495994978147876e-05,replay metric
+Metric: G677_post_BB_control_gap_closed,PASS,0.02448481593940179,replay metric
+Metric: G677_best_by_rms_candidate,PASS,half_string_outer_radius_over_6,replay metric
+Metric: QP042_filled_baryon_scaffold_ids,PASS,ddu;duu,replay metric
+Metric: CR030_pass_scoped_count,PASS,4,replay metric
+Metric: CR030_boundary_count,PASS,4,replay metric
+WC26_HALO_PBH_CONFIG_AS_LAW rejected,PASS,,CR029 leaves native radial organization/mass function/concentration open; G677 best-RMS R/6 candidate is comparison only; LC08 promotes no config
+WC02_BRANCH_LOCAL_CONSTANT_OVERRIDE rejected,PASS,,R=12 is read from LC01/CR113; R/12 is checked as native candidate and R/6 is not promoted
+WC03_TARGET_VALUE_SUBSTITUTION rejected,PASS,,Observed rotations are comparison targets; G677 ordering board marks observed_rotation_curve as comparison target; QP042 uses no observed baryon masses
+WC04_ROW_DELETION rejected,PASS,,"LC08 keeps 175 G392 residual rows, 175 G394 profile rows, 173 primary seed rows, and all CR022-CR030 summaries"
+WC05_RETROACTIVE_RELABELING rejected,PASS,,CR116 supersedes CR115 transparently while CR115 remains unmodified; LC08 records current reading from CR116
+WC_SMOOTH_UNIFORM_PBH_CONFLATION rejected,PASS,,CR026 uniform control gap closed is 0.000038495994978; CR116 states microlensing smooth-envelope debt remains open for clustered analysis
+WC_POST_BB_ONLY_AS_FULL_HALO rejected,PASS,,CR024/G393 post-BB envelope supplies 2.576714% of dark residual and leaves 97.423286% missing; CR026 post-BB control gap closed is 0.024485
+WC_FULL_NATIVE_RADIAL_LAW_OVERCLAIM rejected,PASS,,"CR025, CR026, CR029, CR030, and G677 all preserve the native radial law/mass function/concentration as open"
+WC_CLUSTERED_MICROLENSING_CLOSURE_OVERCLAIM rejected,PASS,,CR116 explicitly lists clustered-PBH-aware microlensing envelope analysis as an honest open debt
+WC_PRIVATE_QP042_AS_EXTERNAL_HALO_EVIDENCE rejected,PASS,,CR028 is BOUNDARY private support; QP042 source_scope is PRIVATE_QUANTUM_PHASE_REPO_ONLY
+WC13_REPLAY_WITHOUT_HASH_LOCK rejected,PASS,,"LC08 emits source hashes, artifact hashes, and includes branch BRANCH_HASHES.txt"

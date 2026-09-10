@@ -1,0 +1,202 @@
+{
+  "all_wrong_controls_complete": true,
+  "disallowed_claim_flags": [],
+  "fit_policy": "coefficients fit only on CR240 Lane A non-anchor rows",
+  "input_shas": {
+    "CR240_extended_kernel_predictions": "201287fb2273a42174a4b4a0a69fb5ee5e64f4ae4cdcc8bd4dd198ccec69c964",
+    "CR240_summary": "077845ddbae34ec8d160b86fd58368d0dcdecb02c8ce961505dbc0a94c1c7ca3",
+    "CR241_holdout_predictions": "74a14be8d20aa519434e1cdca75d73139be6a30510b2483e307122c86a2acb68",
+    "CR241_summary": "6c716eecf1d91958824c9193982171e6eb6be4a96f640dbd4ed080b67a6263dd",
+    "CR242_precommit": "595d753c008c9611ce825ec662b619ee98a6494842c100e66442df6d9cc39737"
+  },
+  "kernel_atoms": {
+    "M": 126,
+    "R": 12,
+    "S": 8,
+    "Theta": 18,
+    "V": 27
+  },
+  "models": {
+    "BW_BENCHMARK_FIT": {
+      "features": [
+        "intercept",
+        "bw_volume_A",
+        "bw_surface_A_to_two_thirds",
+        "bw_coulomb_ZZminus1_over_A_third",
+        "bw_asymmetry_NmZ_squared_over_A",
+        "bw_pairing_over_sqrt_A"
+      ],
+      "test": {
+        "mae_u": 0.0029468793088555842,
+        "max_abs_u": 0.0075209875395574055,
+        "model": "BW_BENCHMARK_FIT",
+        "n": 20,
+        "r2": 0.98728468142698,
+        "rms_ratio_to_bw_test": 1.0,
+        "rms_u": 0.0034834018670625907,
+        "split": "test_cr241_holdout"
+      },
+      "train": {
+        "mae_u": 0.0027749782715205265,
+        "max_abs_u": 0.017564618834763228,
+        "model": "BW_BENCHMARK_FIT",
+        "n": 49,
+        "r2": 0.990095520928387,
+        "rms_ratio_to_bw_test": "",
+        "rms_u": 0.003896633544612402,
+        "split": "train_cr240_lane_a_non_anchor"
+      }
+    },
+    "SAM_TYPED_BASIS_FIT": {
+      "features": [
+        "intercept",
+        "sam_volume_A_over_SM",
+        "sam_surface_A23_over_RV",
+        "sam_coulomb_ZZminus1_over_A13_SMV",
+        "sam_asymmetry_NmZ2_over_A_STheta",
+        "sam_pairing_over_MsqrtA",
+        "sam_z_residue_over_RM",
+        "sam_abs_NmZ_over_AR"
+      ],
+      "test": {
+        "mae_u": 0.002896668048967683,
+        "max_abs_u": 0.0077249995262478055,
+        "model": "SAM_TYPED_BASIS_FIT",
+        "n": 20,
+        "r2": 0.9863790848032022,
+        "rms_ratio_to_bw_test": 1.034998026586816,
+        "rms_u": 0.0036053140582186114,
+        "split": "test_cr241_holdout"
+      },
+      "train": {
+        "mae_u": 0.0023983260140804925,
+        "max_abs_u": 0.011147714360613792,
+        "model": "SAM_TYPED_BASIS_FIT",
+        "n": 49,
+        "r2": 0.9937813976247671,
+        "rms_ratio_to_bw_test": "",
+        "rms_u": 0.0030875936547724724,
+        "split": "train_cr240_lane_a_non_anchor"
+      }
+    },
+    "SAM_ZERO_FREE_TYPED_CANDIDATE": {
+      "test": {
+        "mae_u": 0.060927625163892926,
+        "max_abs_u": 0.09551135252157403,
+        "model": "SAM_ZERO_FREE_TYPED_CANDIDATE",
+        "n": 20,
+        "r2": -3.2903051680663715,
+        "rms_ratio_to_bw_test": 18.368786630187294,
+        "rms_u": 0.06398586564326877,
+        "split": "test_cr241_holdout"
+      },
+      "train": {
+        "mae_u": 0.031012207296879406,
+        "max_abs_u": 0.09517288946943783,
+        "model": "SAM_ZERO_FREE_TYPED_CANDIDATE",
+        "n": 49,
+        "r2": -0.1889597659008868,
+        "rms_ratio_to_bw_test": "",
+        "rms_u": 0.04269306403604855,
+        "split": "train_cr240_lane_a_non_anchor"
+      }
+    }
+  },
+  "sam_to_bw_test_rms_ratio": 1.034998026586816,
+  "target_residual": "B_u = A - m_measured",
+  "task": "CR242 SAM binding-curvature derivation",
+  "test_policy": "CR241 holdout rows are out-of-sample only",
+  "test_rows": 20,
+  "train_rows": 49,
+  "verdict": "BOUNDARY_CR242_SAM_TYPED_BINDING_SURFACE_REPRODUCES_BW_STRUCTURE",
+  "verdict_controls_pass": true,
+  "verdict_logic": {
+    "boundary_all": true,
+    "boundary_conditions": {
+      "all_wrong_controls_complete": true,
+      "holdout_fit_guard": true,
+      "no_disallowed_claims": true,
+      "sam_test_r2_ge_0p95": true,
+      "sam_test_rms_le_1p10_bw_test_rms": true,
+      "wrong_controls_pass": true
+    },
+    "fail_any": false,
+    "fail_conditions": {
+      "boundary_conditions_fail": false,
+      "disallowed_claims_present": false,
+      "holdout_fit_guard_fails": false,
+      "wrong_controls_fail": false
+    },
+    "strong_all": false,
+    "strong_conditions": {
+      "all_wrong_controls_complete": true,
+      "holdout_fit_guard": true,
+      "no_disallowed_claims": true,
+      "sam_test_r2_ge_0p98": true,
+      "sam_test_rms_le_bw_test_rms": false,
+      "untyped_control_does_not_beat_sam": true,
+      "wrong_controls_pass": true,
+      "zero_free_does_not_suppress_strong": false,
+      "zero_free_test_r2_ge_0p95": false
+    }
+  },
+  "wrong_controls": [
+    {
+      "control_id": "WC1_shuffled_train_B_u_labels",
+      "description": "Shuffle CR240 training B_u labels before fitting SAM typed basis.",
+      "pass": true,
+      "pass_condition": "shuffled RMS worsens and R2 drops by at least 0.20",
+      "status": "PASS",
+      "test_r2": -2.9401549461027554,
+      "test_rms_u": 0.06131921802425791,
+      "verdict_relevant": true
+    },
+    {
+      "control_id": "WC2_train_test_boundary_guard",
+      "description": "Confirm all coefficients are fit on CR240 train rows and CR241 holdout rows are never fit.",
+      "fit_split": "train_cr240_lane_a_non_anchor",
+      "holdout_rows": 20,
+      "pass": true,
+      "pass_condition": "no CR241 holdout row is used in coefficient fitting",
+      "status": "PASS",
+      "test_split": "test_cr241_holdout",
+      "train_rows": 49,
+      "verdict_relevant": true
+    },
+    {
+      "beats_sam_typed": false,
+      "control_id": "WC3_untyped_decimal_basis",
+      "description": "Fit an untyped decimal basis to check whether typed structure is unique enough for STRONG.",
+      "pass": true,
+      "pass_condition": "complete; suppress STRONG if it beats SAM typed basis",
+      "status": "COMPLETE",
+      "suppresses_strong": false,
+      "test_r2": 0.9645803076922601,
+      "test_rms_u": 0.005813830280858115,
+      "verdict_relevant": true
+    },
+    {
+      "control_id": "WC4_zero_free_typed_candidate",
+      "description": "Report the strict zero-free typed candidate without fitting coefficients.",
+      "pass": true,
+      "pass_condition": "complete; suppress STRONG if holdout R2 < 0.95",
+      "status": "COMPLETE",
+      "suppresses_strong": true,
+      "test_r2": -3.2903051680663715,
+      "test_rms_u": 0.06398586564326877,
+      "train_r2": -0.1889597659008868,
+      "train_rms_u": 0.04269306403604855,
+      "verdict_relevant": true
+    },
+    {
+      "control_id": "WC5_disallowed_claim_guard",
+      "description": "Machine summary emits no positive promotion or theorem-grade claim tags.",
+      "flag_count": 0,
+      "flags": "",
+      "pass": true,
+      "pass_condition": "zero forbidden claim flags",
+      "status": "PASS",
+      "verdict_relevant": true
+    }
+  ]
+}

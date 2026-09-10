@@ -1,0 +1,28 @@
+{
+  "by_decomposition": [
+    {
+      "cases": 132,
+      "decomposition": "1x12",
+      "passes": 132
+    },
+    {
+      "cases": 36,
+      "decomposition": "3x4",
+      "passes": 36
+    },
+    {
+      "cases": 24,
+      "decomposition": "4x3",
+      "passes": 24
+    },
+    {
+      "cases": 12,
+      "decomposition": "6x2",
+      "passes": 12
+    }
+  ],
+  "cases": 204,
+  "diagnostic_sha256": "35800016f7de861a79f89cfd7d6504d22329aa3e31d98ea9f073b331a77af71a",
+  "passes": 204,
+  "status": "PASS"
+}

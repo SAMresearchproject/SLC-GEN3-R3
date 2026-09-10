@@ -1,0 +1,58 @@
+{
+  "row_count": 10,
+  "pass_count": 10,
+  "fail_count": 0,
+  "max_residual_pct": 0.800666,
+  "rows": [
+    {
+      "symbol": "H",
+      "residual_pct": 0.137825,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "e",
+      "residual_pct": 0.264237,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "mu",
+      "residual_pct": 0.800666,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "tau",
+      "residual_pct": 0.34787,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "u",
+      "residual_pct": 0.690448,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "s",
+      "residual_pct": 0.631916,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "c",
+      "residual_pct": 0.396869,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "b",
+      "residual_pct": 0.026028,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "W",
+      "residual_pct": 0.00505,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    },
+    {
+      "symbol": "Z",
+      "residual_pct": 0.028652,
+      "verdict": "PASS_SCOPED_ROW_LEVEL"
+    }
+  ]
+}

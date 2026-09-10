@@ -1,0 +1,42 @@
+{
+  "cr_id": "CR066",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "reason": "vault input boundary verified clean; K1 external anchor reserved for CR069",
+  "captured_at_utc": "2026-06-13T07:19:02Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "phases": {
+    "phase_1_seal_and_hash": {
+      "seal_exists": true,
+      "manifest_sha_matches": true,
+      "verified": 155,
+      "mismatches": 0,
+      "missing": 0
+    },
+    "phase_2_vault_chain": {
+      "checked": 12,
+      "clean": 12,
+      "violations": 0
+    },
+    "phase_3_qp060_boundary": {
+      "status": "boundary_correctly_declared"
+    },
+    "phase_4_qp061_comparator": {
+      "status": "comparator_role_confirmed"
+    },
+    "phase_5_qp068": {
+      "status": "clean_disclosure"
+    },
+    "phase_6_forbidden_input": {
+      "engine_hit_classes": 0,
+      "allowed_mention_classes": 0,
+      "clean_classes": 4
+    },
+    "phase_7_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

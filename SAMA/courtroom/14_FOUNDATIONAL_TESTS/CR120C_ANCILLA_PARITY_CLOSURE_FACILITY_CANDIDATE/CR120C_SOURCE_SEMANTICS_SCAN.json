@@ -1,0 +1,32 @@
+{
+  "finding": "No explicit physical parity/ancilla/measurement/Gauss/Hamiltonian semantics were found in the scoped B-X1-W9 sources.",
+  "hits": [],
+  "scanned_paths": [
+    "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+    "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md",
+    "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_summary.json",
+    "09a_PARTICLE_MASS_CHAIN/CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT/CR282_APPEAL_result.md",
+    "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+    "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+    "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_OPERATOR_REGISTRY.json"
+  ],
+  "searched_terms": [
+    "ancilla",
+    "syndrome",
+    "parity measurement",
+    "projector",
+    "gauss",
+    "hamiltonian",
+    "controlled-not",
+    "cnot",
+    "qubit"
+  ],
+  "typed_compatibility": {
+    "candidate_binary_vector_type_registered": false,
+    "candidate_binary_w9_payload_registered": false,
+    "candidate_feedback_operator_registered": false,
+    "candidate_measurement_semantics_registered": false,
+    "registered_entities": true,
+    "registered_route": true
+  }
+}

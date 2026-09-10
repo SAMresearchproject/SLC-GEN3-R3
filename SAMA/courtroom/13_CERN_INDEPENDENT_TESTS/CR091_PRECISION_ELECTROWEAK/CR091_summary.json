@@ -1,0 +1,33 @@
+{
+  "cr_id": "CR091",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OBSERVATIONAL_COMPARISON_OF_LOCKED_09A_PREDICTIONS_AGAINST_CERN_PRECISION_EW_ANCHORS",
+  "execution_status": "CLEAN",
+  "result_class": "OBSERVATIONAL_COMPARISON_REPORT_BUILT",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "runner_start_utc": "2026-06-13T21:24:58Z",
+  "runner_envelope_open_utc": "2026-06-13T21:24:58Z",
+  "anchor_rows_total": 6,
+  "row_label_counts": {
+    "AGREEMENT_WITHIN_DECLARED_BAND": 5,
+    "AGREEMENT_OUTSIDE_DECLARED_BAND": 1,
+    "INFORMATION_INSUFFICIENT_AT_THIS_CR": 0
+  },
+  "observation_bands_MeV": {
+    "W boson mass": 25.0,
+    "Z boson mass": 5.0,
+    "Top quark mass": 1000.0
+  },
+  "blindness_protocol_cite": "13_CERN_INDEPENDENT_TESTS\\BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "prediction_commit_sha256": "3ddf7b91126e7d4fcae3892b2d2bde87238f5eb9c3d3696370f03502d7d5f23d",
+  "prediction_commit_utc": "2026-06-13T21:24:58Z",
+  "anchor_envelope_sha256": "11f07de3e30131658bd9944a4d29dbb9631c0291be79397cf2b6db9d94f5073f",
+  "anchor_envelope_open_utc": "2026-06-13T21:24:58Z",
+  "temporal_ordering_check": "prediction_commit_utc precedes anchor_envelope_open_utc",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling file not yet written",
+    "Seal sha256 sibling file not yet written",
+    "citation_verification_status PENDING on every anchor row (curator sign-off)"
+  ]
+}

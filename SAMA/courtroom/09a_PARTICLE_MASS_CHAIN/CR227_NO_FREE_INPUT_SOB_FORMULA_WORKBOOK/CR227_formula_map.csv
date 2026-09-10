@@ -1,0 +1,7 @@
+sheet,range,purpose,formula_example
+Constants,B2:B17,sealed constants and derived CR225 clock terms,=2^B3; =B6/B5; =B13-B4
+Hidden_Set,A2:E14,derive H from alpha_H^a * D^b <= R,=Constants!$B$4^A2*Constants!$B$3^B2
+Shells,B2:E9,derive shell path and capacities,=2*B2^2
+SOB_126,A2:AC127,"derive all 126 SOB rows, P addresses, G/GR, and CLOCK prediction","=IF(AND(B2<=Constants!$B$14,B2<>Constants!$B$15,B2<>Constants!$B$16),""stable"",""radioactive"")"
+Card_Payloads_126,A2:Q127,derive card-facing text fields without reveal labels,"=""GR(P)=8G(P)=""&TEXT(SOB_126!X2,""0.000000"")"
+Checks,B2:E16,formula checks for counts and Z79 readout,"=COUNTIF(SOB_126!U2:U127,""stable"")"

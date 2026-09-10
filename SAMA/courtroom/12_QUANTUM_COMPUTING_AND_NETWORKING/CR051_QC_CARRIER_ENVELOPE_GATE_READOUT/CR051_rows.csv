@@ -1,0 +1,5 @@
+source,result_class,primary_letter_carrier,control_envelope,boundary_stress_sensor,lead_ticks,carrier_route,control_envelope_route,boundary_sensor_route,carrier_to_envelope_lead_ratio,native_gates,allowed_pre_write_observables,blocked_pre_write_observables
+QC001,QC001_PARTICLE_INFORMED_PAUL_REVERE_CARRIER_SELECTED,QUBIT-NL-001,QUBIT-CL-001,QUBIT-UNK-001,2019873.9116810742,,,,,,,
+QC002,QC002_CARRIER_ENVELOPE_SEPARATION_LAW_SELECTED,,,,,QUBIT-NL-001,QUBIT-CL-001,QUBIT-UNK-001,107.56674983263241,,,
+QC003,QC003_PARTICLE_INFORMED_NATIVE_GATE_CATALOG_SELECTED,,,,,,,,,5,,
+QC004,QC004_PAUL_REVERE_READOUT_PROTOCOL_SELECTED,,,,,,,,,,6,8

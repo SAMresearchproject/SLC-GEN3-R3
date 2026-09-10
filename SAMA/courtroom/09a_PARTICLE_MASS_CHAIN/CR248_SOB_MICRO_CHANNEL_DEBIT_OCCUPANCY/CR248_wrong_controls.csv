@@ -1,0 +1,7 @@
+label,description,computed,expected,pass,rows_affected,breaks,swap_preserves_combined_uud,note,linear_rms_train_u,linear_rms_train_MeV,null_rms_train_u,null_rms_train_MeV,ratio_null_to_linear,canonical_rms_u,shuffled_rms_u,ratio
+WC-1_disaggregation_balanced,phi_proton + phi_balanced_neutron + phi_electron == CR247 phi_balanced,"{""u"": ""3"", ""d"": ""3"", ""e"": ""1"", ""Q_mass"": ""7117/96"", ""Q_sub"": ""7117/96"", ""dQ"": ""0""}","{""u"": ""3"", ""d"": ""3"", ""e"": ""1"", ""Q_mass"": ""7117/96"", ""Q_sub"": ""7117/96"", ""dQ"": ""0""}",True,,,,,,,,,,,,
+WC-2_disaggregation_excess,phi_excess_neutron == CR247 phi_excess_neutron,"{""u"": ""1"", ""d"": ""2"", ""e"": ""0"", ""Q_mass"": ""7117/192"", ""Q_sub"": ""1/8"", ""dQ"": ""7093/192""}","{""u"": ""1"", ""d"": ""2"", ""e"": ""0"", ""Q_mass"": ""7117/192"", ""Q_sub"": ""1/8"", ""dQ"": ""7093/192""}",True,,,,,,,,,,,,
+WC-3_occupancy_perturbed_n_proton,n_proton = Z + 1 (source u should break by +2),,,True,69,69,,,,,,,,,,
+WC-4_quark_swap_structural_flag,"Swap phi_p quarks (u,d) with phi_n_b: sum (3,3) preserved; structural identification flag only",,,True,,,True,"WC-4 is a structural-identification audit, not a falsifier",,,,,,,,
+WC-5_linear_vs_null,Linear B_u model RMS at least 2x better than null (B_u=0),,,True,,,,,0.026322115320365085,24.518895184139204,0.052689890405527094,49.08032216990463,2.0017346540823637,,,
+WC-6_shuffle_labels,Shuffle B_u labels seed 20260623; refit; expect RMS degrades >= 1.5x,,,True,,,,,,,,,,0.026322115320365085,0.04178701176124637,1.5875248342566257

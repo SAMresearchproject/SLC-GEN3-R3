@@ -1,0 +1,146 @@
+{
+  "cr_id": "CR121",
+  "branch": "11_QUANTUM_MECHANICS_AND_GRAVITY",
+  "test_class": "UPSTREAM_QP092_CHAIN_INTAKE_GRAVITY_MECHANISM_NOT_GRAVITON_PARTICLE",
+  "execution_status": "CLEAN",
+  "result_class": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_SEALED_NOT_GRAVITON_NOT_FULL_QG_THEOREM",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "intake_lock_sha256": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+  "qp092_chain_count": 9,
+  "qp092_chain_all_passed": true,
+  "structural_inputs": {
+    "R_squared_closed_loop": 144,
+    "seven_eighths_visible_retained": 126,
+    "one_eighth_unresolved_tensor_carrier": 18,
+    "split_identity": "144 * 7/8 = 126; 144 * 1/8 = 18",
+    "tensor_carrier_quantity_alpha_H_D2": "alpha_H * D^2 / 18  (from qp092a R^2 (1/8) loss identity)"
+  },
+  "headline_one_liner": "Gravity emerges from matter ledger compression: each closed matter write splits (7/8 retained as mass identity, 1/8 released as unresolved tensor-carrier channel); the 1/8 carrier couples with qA via the qA->A ledger compression rule and updates the macroscopic A field, which IS the gravity field locally. No graviton particle, no free parameter, weak-field gravity readouts recovered.",
+  "qp092_chain_summary_hashes": {
+    "qp092a_split_loss_summary.json": "649e61e0ca47d715e526738bf867f8e57aab1bad6d46974b201fd57c2b4ceaca",
+    "qp092b_summary.json": "74940558dbe739d48fd619bf699792391faaa4c43af7fd3bc8dbbe73d33beb13",
+    "qp092c_summary.json": "4063950dde82ca109dd0608e7d0d702066beb7f7da79489638a1a10aa9344e27",
+    "qp092c_hard_freeze_summary.json": "694884e3e709d0db05536cba8e661fba1f81a53243d5a19c4b8e63abda055820",
+    "qp092d_summary.json": "257ca5644d5b618be7cab458ebee18e15b36684536173bbd74021cf0c9d6ae87",
+    "qp092e_summary.json": "d92ce93c234af576d867ed701635fe24439e84ab877e9a01d09bc91f3d2c6eda",
+    "qp092f_summary.json": "b122cec6fd334a73a59b280bbf137b3a76a7b588e30e609b81dfeb92f5369536",
+    "qp092g_summary.json": "b5ee2482db3c4fda01e26359feb3a65089c136a3e038947730f11d9e51b79841",
+    "qp092h_summary.json": "5b8139aa90883b8b3ac210fdad44055fc9cbf23c6f4e16dbef58668a8d2bda49"
+  },
+  "courtroom_anchors_chain_of_custody_sha256": {
+    "branch_11_sealed_scope_lock :: SEALED_QUANTUM_MECHANICS_AND_GRAVITY_SCOPE_APPROACH_2026_06_13.md": "f80c93f67da67a5c9286aafe845316ee6fa3a614439c4e9e120abb9c3a9207dc",
+    "CR076_phase_integral_A_exposure :: CR076_summary.json": "663ccdfd590b37096e632f450056ef81ed3fa5d019536f3b04d205f536f5512b",
+    "CR103a_bounce_cost_A_dependence :: CR103a_summary.json": "f4b95da7350c5ca36a1c29f89af8cfe808ce0c9915a2fab68317b6bcae978a9d",
+    "CR104a_layer_4_local_higgs :: CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "CR117_sam_cmb_scope_boundary :: CR117_scope_boundary_lock.json": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+    "CR118_distance_road_headline :: CR118_distance_road_headline_export_claim.json": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d",
+    "CR119_particle_matter_periodic :: CR119_summary.json": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "predictions": [
+    {
+      "name": "P1_all_nine_qp092_chain_artifacts_present_and_passed",
+      "pass": true,
+      "details": {
+        "chain_count": 9
+      }
+    },
+    {
+      "name": "P2_R_squared_144_one_eighth_split_identity_recorded",
+      "pass": true
+    },
+    {
+      "name": "P3_mechanism_chain_nine_stages_documented",
+      "pass": true
+    },
+    {
+      "name": "P4_six_hard_boundaries_enforced",
+      "pass": true
+    },
+    {
+      "name": "P5_four_forward_blind_expectations_registered_with_falsifiers",
+      "pass": true
+    },
+    {
+      "name": "P6_courtroom_anchors_chain_of_custody_hashed",
+      "pass": true
+    },
+    {
+      "name": "P7_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P8_zero_free_parameters_introduced",
+      "pass": true
+    },
+    {
+      "name": "P9_intake_lock_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "intake_lock_sha256": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469"
+      }
+    },
+    {
+      "name": "P10_no_prior_artifact_modified",
+      "pass": true
+    },
+    {
+      "name": "P11_CR076_branch_11_state_unchanged",
+      "pass": true
+    },
+    {
+      "name": "P12_CR117_scope_boundary_dovetail_recorded",
+      "pass": true
+    },
+    {
+      "name": "P13_CR119_tensor_carrier_not_promoted_rule_referenced",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_does_not_claim_graviton_particle_discovery",
+      "pass": true,
+      "details": "explicit boundary: this is not a graviton mass, not a particle row, not full QG theorem"
+    },
+    {
+      "name": "WC2_does_not_promote_tensor_carrier_to_matter_row",
+      "pass": true,
+      "details": "CR119 explicitly preserves this boundary; CR121 inherits without modification"
+    },
+    {
+      "name": "WC3_does_not_treat_qA_as_mass",
+      "pass": true,
+      "details": "direct_qA_as_mass REJECTED in qp092a/b/c/d/e/f/g/h"
+    },
+    {
+      "name": "WC4_does_not_introduce_free_parameter",
+      "pass": true
+    },
+    {
+      "name": "WC5_does_not_modify_prior_branch_11_verdict_CR076_BOUNDARY",
+      "pass": true
+    },
+    {
+      "name": "WC6_does_not_overstate_weak_field_recovery_as_strong_field_closure",
+      "pass": true,
+      "details": "scope explicit: weak-field G clock path delay recovered; strong-field not claimed"
+    },
+    {
+      "name": "WC7_each_forward_blind_prediction_has_explicit_falsification_criterion",
+      "pass": true
+    },
+    {
+      "name": "WC8_does_not_claim_full_quantum_gravity_theorem",
+      "pass": true,
+      "details": "branch 11 SEALED scope explicitly distinguishes mechanism from full theorem"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Future CR (CR077-CR087 planned slot) can reveal CR121_PRED_1 against LIGO/Virgo polarization data",
+    "Future CR can reveal CR121_PRED_2 against next-gen optical clock comparisons",
+    "CR121_PRED_3 18 GeV null-search target stays forward-blind",
+    "Strong-field closure beyond CR006/CR009/CR010 remains the branch 11 planned scope"
+  ]
+}

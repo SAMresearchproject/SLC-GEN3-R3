@@ -1,0 +1,53 @@
+{
+  "campaign_id": "CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED",
+  "task": "Correct CR005e numerical trace construction and execute the frozen Starbreaker-to-weak-CCSN pixel bridge",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "record_class": "CONSTRUCTIVE_NUMERICAL_IDENTITY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+  "objective": "Execute the precommitted CR005e weak-CCSN pixel morphology comparison after replacing its over-strict post-differentiation trace tolerance with the exact algebraic trace-free identity. No waveform result from CR005e exists or is available for tuning.",
+  "failed_predecessor": {
+    "campaign_id": "CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE",
+    "runner_sha256": "e32b6ba1916dead08d468fa1db10a3b3f9f15d64b8a5f87ae37586d5b2a9c8b0",
+    "failure": "REF_0001 post-finite-difference relative trace residual 9.43617769285563e-09 exceeded 1e-10",
+    "release_opened": false,
+    "same_run_repair": false
+  },
+  "numerical_correction": {
+    "mathematical_identity": "a trace-free quadrupole source satisfies S_xx+S_yy+S_zz=0",
+    "locked_rule": "after taking the two finite differences, set S_zz=-(S_xx+S_yy) before constructing the observer-projected tensor",
+    "reason": "finite differencing separately stored diagonal components amplified floating-point cancellation; the correction enforces the defining algebraic subspace rather than fitting a tolerance",
+    "fit_parameters": 0,
+    "allowed_code_change": "campaign identifiers, source paths, trace enforcement, trace provenance fields, and output prefixes only",
+    "forbidden_change": "waveform doors, sample count, edge trim, STFT grid, observer bank, match statistic, nulls, evidence ladder, or claim ceiling"
+  },
+  "inherited_contract": {
+    "path": "21_GRAVITATIONAL_WAVES/CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE/CR005e_CONTRACT.json",
+    "sha256": "910934f43e83d929f9f27f5d98a3359363b94d9a3f7bce92daf4d942725e76bf",
+    "inherited_without_change": [
+      "ten Princeton 3D CCSN waveform members and round-robin mass doors",
+      "96 Starbreaker scenarios and same-door template matching",
+      "2049 samples, three-sample edge trim, 48 by 64 pixel grid",
+      "13 fixed observer directions",
+      "Hellinger affinity and total-variation residual",
+      "47 time-shift nulls, time reversal, frequency reversal, separable null",
+      "amplitude, polarization, zero-source, source-hash, and atomic-release controls",
+      "strong, directional, boundary, and fail evidence ladder",
+      "normalized morphology-only physical claim ceiling"
+    ]
+  },
+  "source_layers": {
+    "starbreaker": "CR005d continuous post-bounce carrier flow and the frozen 96-scenario typed roster",
+    "external": "Princeton Supernova Theory Group 3D CCSN matter-strain archive associated with Radice et al. 2019",
+    "external_url": "https://www.astro.princeton.edu/~burrows/gw.3d/all.3D.strains.tar.gz",
+    "external_catalog_url": "https://www.astro.princeton.edu/~burrows/gw.3d/index.html",
+    "external_archive_sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3",
+    "external_archive_redistribution": "license not asserted by this campaign; retain as internal source evidence unless separately cleared"
+  },
+  "verdict_ladder": {
+    "strong": "PASS_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY_BRIDGE__PHYSICAL_SCALE_OPEN",
+    "directional": "PASS_DIRECTIONAL_STARBREAKER_WEAK_CCSN_PIXEL_MORPHOLOGY__PHYSICAL_SCALE_OPEN",
+    "boundary": "BOUNDARY_PIXEL_SURFACE_CONSTRUCTED__NO_STABLE_STARBREAKER_CCSN_MORPHOLOGY_MATCH",
+    "fail": "FAIL_STARBREAKER_WEAK_CCSN_PIXEL_CONSTRUCTION"
+  },
+  "claim_ceiling": "Identical to sealed CR005e: normalized post-bounce source morphology only; no physical strain, luminosity, seconds, hertz, distance reach, detector forecast, or shared-mechanism proof.",
+  "same_run_repair_allowed": false
+}

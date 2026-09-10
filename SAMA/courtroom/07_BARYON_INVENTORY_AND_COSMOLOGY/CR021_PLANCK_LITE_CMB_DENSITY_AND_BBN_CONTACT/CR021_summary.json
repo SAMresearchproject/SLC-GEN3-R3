@@ -1,0 +1,22 @@
+{
+  "test_id": "CR021_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT",
+  "verdict": "CR021_BOUNDARY_PASS_PLANCK_LITE_CMB_DENSITY_AND_BBN_CONTACT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PASS",
+  "triage_bin": "B",
+  "claim_tier": "SCOPED_CMB_DENSITY_BBN_CONTACT_NOT_FULL_CMB_CLOSURE",
+  "primary_high_l_delta_chi2_per_point": 0.0008836165765404745,
+  "wrong_control_high_l_delta_chi2_per_point": 1.472411841957094,
+  "omega_b_h2_primary": 0.022368783502886305,
+  "eta10_primary": 6.126809801440558,
+  "pass_conditions": {
+    "G379_card_frozen": true,
+    "G380_smoke_passed": true,
+    "G381_planck_lite_passed": true,
+    "G381_primary_better_than_wrong_control": true,
+    "G382_residuals_passed": true,
+    "G383_wrong_controls_passed": true,
+    "G384_claim_lock_passed": true,
+    "G396_bbn_scoped_passed": true
+  }
+}

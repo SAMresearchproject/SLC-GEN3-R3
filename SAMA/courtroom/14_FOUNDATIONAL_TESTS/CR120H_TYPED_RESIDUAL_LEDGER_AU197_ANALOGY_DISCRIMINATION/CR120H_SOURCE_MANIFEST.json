@@ -1,0 +1,130 @@
+{
+  "drive_002_nested_sources": [
+    {
+      "actual_sha256": "c46843357aa7fe681c602b3c5e75fa7504f6b0bbec2bcfa5961bdd76d47e854d",
+      "expected_sha256": "c46843357aa7fe681c602b3c5e75fa7504f6b0bbec2bcfa5961bdd76d47e854d",
+      "matches": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR274_GATED_NUCLEAR_READOUT_OPERATORS/CR274_summary.json"
+    },
+    {
+      "actual_sha256": "ec71a6c2f8cf5bed0f1ec64efb7f57a394e6cef8f9ad3fe268d528009a8476e5",
+      "expected_sha256": "ec71a6c2f8cf5bed0f1ec64efb7f57a394e6cef8f9ad3fe268d528009a8476e5",
+      "matches": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR274_GATED_NUCLEAR_READOUT_OPERATORS/CR274_residuals.csv"
+    },
+    {
+      "actual_sha256": "9008ac47d08f4e81c46b4348585d7759bfc2c4674b57df5c12cadfd34ef6fcfc",
+      "expected_sha256": "9008ac47d08f4e81c46b4348585d7759bfc2c4674b57df5c12cadfd34ef6fcfc",
+      "matches": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS/CR277_summary.json"
+    },
+    {
+      "actual_sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1",
+      "expected_sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1",
+      "matches": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS/CR277_element_table.csv"
+    },
+    {
+      "actual_sha256": "1b2425c0c13f1bd874ca220289a0c0d196159022722ed20d8748e10dfc4caad9",
+      "expected_sha256": "1b2425c0c13f1bd874ca220289a0c0d196159022722ed20d8748e10dfc4caad9",
+      "matches": true,
+      "path": "tools/run_native_v42_au197_binding_bu_packet.py"
+    }
+  ],
+  "external_physics_sources": [],
+  "precommit_sha256": "a85fb2c4c8da6eb4ec11948bb9337f545cf77f7c83d478dc561de7e743a9aea7",
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "source_scope": "SEALED_CR120G_AND_AU197_INTERNAL_SURFACES_ONLY",
+  "sources": [
+    {
+      "bytes": 32068,
+      "path": "C:/Users/drwho/.codex/attachments/46816fc7-3e0f-4f35-a705-72aa2857cec0/pasted-text.txt",
+      "role": "staged proposal-only framing; not evidence",
+      "sha256": "12f010fc058bd2109dda8ccf3b05ef495939601c174fd801dc9ba2a549ecafb0"
+    },
+    {
+      "bytes": 3271,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_CANDIDATE_MANIFEST.json",
+      "role": "sealed CR120G candidate manifest",
+      "sha256": "06c4f480052285a5b1f932b76a6936efae12208a3d27a15f19366c47819964d2"
+    },
+    {
+      "bytes": 2604,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_MODEL_EXECUTION.json",
+      "role": "constructed split execution",
+      "sha256": "674eb90b4622716ba54e0f1883a541d89a1794865688e944c5e3a40fc961c29f"
+    },
+    {
+      "bytes": 8204,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_ROLE_DISCRIMINATION.json",
+      "role": "constructed role and authority boundary",
+      "sha256": "bad00364dbd2af0fb4db455a13a1fbba0c18a0e51508d79eac5ad2fccee00bae"
+    },
+    {
+      "bytes": 1137,
+      "path": "14_FOUNDATIONAL_TESTS/CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT/CR120G_summary.json",
+      "role": "machine-readable CR120G disposition",
+      "sha256": "6eab2b1b3612774a9c540e9ed8407c2299f4a3b3666b614f9f0860c07ef27263"
+    },
+    {
+      "bytes": 1227,
+      "path": "SAM_NATIVE_V4_2_DRIVES/DRIVE_002_AU197_BINDING_BU_PACKET/DRIVE_002_AU197_BINDING_BU_RESULT.md",
+      "role": "sealed Au-197 packet result",
+      "sha256": "cdfe69d3e4974d2009901bdfdc689e203489c714f49ea633c74463d242212042"
+    },
+    {
+      "bytes": 2888,
+      "path": "SAM_NATIVE_V4_2_DRIVES/DRIVE_002_AU197_BINDING_BU_PACKET/DRIVE_002_AU197_BINDING_BU_RESULT.json",
+      "role": "machine-readable Au-197 packet",
+      "sha256": "649305dbe5bf8748ff02603431bdc32fddf04ae6af87481308662cb5a1cb05ed"
+    },
+    {
+      "bytes": 273,
+      "path": "SAM_NATIVE_V4_2_DRIVES/DRIVE_002_AU197_BINDING_BU_PACKET/DRIVE_002_AU197_BU_PACKET.csv",
+      "role": "frozen Au-197 quantities",
+      "sha256": "75137d3ae74c02d332b744bb037fd825b2ebd51f3d56a4b04e939198ed588258"
+    },
+    {
+      "bytes": 538,
+      "path": "SAM_NATIVE_V4_2_DRIVES/DRIVE_002_AU197_BINDING_BU_PACKET/DRIVE_002_WRONG_CONTROLS.csv",
+      "role": "frozen Au-197 wrong controls",
+      "sha256": "8d5fff8e6b934c131487bbac2ef2d82289999356953a380d97717445c4ea23ba"
+    },
+    {
+      "bytes": 1288,
+      "path": "SAM_NATIVE_V4_2_DRIVES/DRIVE_002_AU197_BINDING_BU_PACKET/DRIVE_002_SOURCE_MANIFEST.json",
+      "role": "Au-197 source provenance",
+      "sha256": "568217613ac1fb638745a33e05d174009038d2fdf0041f968f5ff46a029dd384"
+    },
+    {
+      "bytes": 21173,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS/CR277_element_table.csv",
+      "role": "full signed operator-contribution control surface",
+      "sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1"
+    },
+    {
+      "bytes": 14325,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/contracts/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "role": "frozen hierarchy handoff contract",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c"
+    },
+    {
+      "bytes": 26226,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry",
+      "sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9"
+    },
+    {
+      "bytes": 2344,
+      "path": "SAM_LANGUAGE_V0_4_2_CANDIDATE/V0_4_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry",
+      "sha256": "873f36e77b97e1e04f8d272af9f15e174ccf2605bec3fe7443be60bdf276935d"
+    },
+    {
+      "bytes": 2954,
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "controlling CR120 frontier",
+      "sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f"
+    }
+  ]
+}

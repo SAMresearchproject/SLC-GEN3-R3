@@ -1,0 +1,14 @@
+candidate_id,bin,operator_class,route_combination,display_partition_signature,has_dot_one_marker,matter_row_allowed,marker_status,used_as_numeric_partition,numeric_partition_source,passed
+QP093A-0301,carrier_only_rows,ROAD_LIGHT_CARRIER,photon_road_carrier,1,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0306,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=1],1,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0307,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=2],2,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0308,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=3],3,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0309,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=4],4,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0310,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=6],6,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0304,carrier_only_rows,COLOR_OWNER_CARRIER,gluon_color_owner_support,8,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0311,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=8],8,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0302,carrier_only_rows,WEAK_VECTOR_CARRIER,weak_vector_support,9,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0312,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=9],9,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0313,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,hidden_source_support[p=12],12,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0300,carrier_only_rows,TENSOR_CARRIER,tensor_carrier_alphaH_D2,18,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True
+QP093A-0303,carrier_only_rows,NEUTRAL_VECTOR_CARRIER,neutral_vector_support,81,False,no,SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE,no,"route_combination p=... or q_abs, never .1 display marker",True

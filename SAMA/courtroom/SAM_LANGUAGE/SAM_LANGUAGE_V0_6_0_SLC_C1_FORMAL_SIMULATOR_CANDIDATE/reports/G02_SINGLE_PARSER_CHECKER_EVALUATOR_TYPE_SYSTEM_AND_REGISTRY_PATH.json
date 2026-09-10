@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "checker_reexport_identity": true,
+    "evaluator_reexport_identity": true,
+    "legacy_sidecar_import_absent": true,
+    "one_mixed_trace": true,
+    "operator_digits_parse": true,
+    "parser_reexport_identity": true,
+    "source_text_dispatch_absent": true
+  },
+  "status": "PASS",
+  "trace": [
+    "RESOLVE",
+    "QP_ORDERED_PAIR",
+    "SLC_ZERO_REGISTER",
+    "SLC_PREPARE_REQUEST"
+  ]
+}

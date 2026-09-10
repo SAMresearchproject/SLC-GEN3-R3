@@ -1,0 +1,153 @@
+{
+  "result_class": "CR204a_PASS_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION_APPEAL",
+  "question": "Can CR204's resolved-SW grammar touch a real H -> ZZ* -> 4l parent/daughter/final-state target without changing CR204?",
+  "pass_conditions": {
+    "original_cr204_remains_boundary": true,
+    "original_cr204_conditions_remain_true": true,
+    "metadata_manifest_exact_allowed_imports": true,
+    "external_hzz4l_topology_envelope_present": true,
+    "external_hzz4l_parent_rows_present": true,
+    "diphoton_only_row_excluded_as_topology_anchor": true,
+    "external_z_daughter_row_present": true,
+    "external_parent_rows_within_declared_band": true,
+    "external_topology_requires_offshell_daughter": true,
+    "two_intermediate_branches_present": true,
+    "four_visible_final_state_grammar_present": true,
+    "sam_vector_reconstruction_closed": true,
+    "hidden_budget_separate": true,
+    "partial_channels_do_not_fake_closure": true,
+    "no_free_parameters": true
+  },
+  "evidence_rows": [
+    {
+      "key": "original_cr204_verdict",
+      "value": "BOUNDARY",
+      "note": "frozen boundary preserved"
+    },
+    {
+      "key": "allowed_import_file_count",
+      "value": 5,
+      "note": "from CR204a metadata manifest"
+    },
+    {
+      "key": "external_hzz4l_parent_rows",
+      "value": 2,
+      "note": "CR092 rows accepted by topology envelope"
+    },
+    {
+      "key": "excluded_parent_context_rows",
+      "value": 1,
+      "note": "diphoton-only context excluded as HZZ4l topology anchor"
+    },
+    {
+      "key": "external_z_daughter_mass_MeV",
+      "value": 91187.6,
+      "note": "CR091 on-shell Z row"
+    },
+    {
+      "key": "offshell_Zstar_min_MeV",
+      "value": 33902.399999999994,
+      "note": "external H - external Z"
+    },
+    {
+      "key": "offshell_Zstar_max_MeV",
+      "value": 33922.399999999994,
+      "note": "external H - external Z"
+    },
+    {
+      "key": "sam_route_event",
+      "value": "G753_EVT_B_SCALAR_FOUR_WRITE_ZZSTAR_4L",
+      "note": "G753 route selected for HZZ*->4l grammar"
+    },
+    {
+      "key": "intermediate_branches",
+      "value": "Z_on_shell_branch|Zstar_off_shell_branch",
+      "note": "two branch topology"
+    },
+    {
+      "key": "final_state_grammar_rows",
+      "value": 2,
+      "note": "4l/terminal-lepton controls present"
+    },
+    {
+      "key": "sam_visible_parent_MeV",
+      "value": 125219.0,
+      "note": "visible invariant parent from CR204"
+    },
+    {
+      "key": "hidden_source_budget_MeV",
+      "value": 125419.11694535677,
+      "note": "tracked separately, not added to visible parent"
+    },
+    {
+      "key": "z_precision_debt_status",
+      "value": "AGREEMENT_OUTSIDE_DECLARED_BAND",
+      "note": "kept separate from parent/daughter topology appeal"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that visible resolved-SW parent closure can be externally supported by the Higgs/ZZ*->4l reconstruction topology while preserving CR204's hidden-budget separation and boundary status.",
+  "notes": [
+    "CR204 is not relabeled; this is a separate promotion appeal artifact.",
+    "Mass is supporting context; topology closure plus wrong-control rejection is the promotion target.",
+    "The CR091 Z precision residual remains a separate debt and is not hidden by this appeal.",
+    "The CR092 CMS diphoton-only row is retained as parent-mass context but excluded as a direct HZZ4l topology anchor.",
+    "CR092 is a provisional CERN comparison artifact; this appeal inherits that citation state."
+  ],
+  "test_id": "CR204a",
+  "generated_at_utc": "2026-06-14T04:36:44.789224+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "metadata_manifest",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR204a_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION\\CR204a_metadata_manifest.csv",
+      "role": "frozen_allowed_import_manifest",
+      "sha256": "332599bd79e84ef74918561c296a7cc9783a0078c68c44b89881883e3a062235",
+      "bytes": 1670,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "topology_anchor",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR204a_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION\\CR204a_topology_anchor_envelope.json",
+      "role": "hzz4l_topology_anchor_envelope",
+      "sha256": "6df535e15366a4c06db65d27303655af26090467c1c79ebc5866ee50a91eeefb",
+      "bytes": 2266,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr204_summary",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR204_RESOLVED_SW_PARENT_RECONSTRUCTION\\CR204_summary.json",
+      "role": "frozen_boundary_summary",
+      "sha256": "8e505b38f7153dfb5ced3bc9f24b9d3f63c82c4034a95942230c6fdf4028572e",
+      "bytes": 3008,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr204_reconstruction_rows",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G753c_RESOLVED_SW_PARENT_RECONSTRUCTION_TEST\\G753c_resolved_sw_parent_reconstruction.csv",
+      "role": "frozen_resolved_sw_reconstruction_rows",
+      "sha256": "e6a7c8a8b775d51902feb08e32dfc6a0e8b12def7e12a2d16232ff080b8a8b00",
+      "bytes": 1252,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr092_evidence_rows",
+      "path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR092_HIGGS_SECTOR\\CR092_evidence_rows.csv",
+      "role": "external_higgs_parent_rows",
+      "sha256": "645ef01cca3a46057014f1f55155534e1c1db7b208b41fd521c32454bff9dc0d",
+      "bytes": 1756,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr091_evidence_rows",
+      "path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR091_PRECISION_ELECTROWEAK\\CR091_evidence_rows.csv",
+      "role": "external_z_daughter_rows",
+      "sha256": "8bca4a0fdbc05c37fd6d450356d50fda9eb763a502d1f264dd47a9b2bbd8a009",
+      "bytes": 3120,
+      "used_as_computed_input": true
+    }
+  ]
+}

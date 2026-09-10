@@ -1,0 +1,17 @@
+{
+  "equivalence_rule": "equal readout for every coordinate probe p0..p80",
+  "full_family_separates_all_unequal_trial_pairs": true,
+  "full_probe_family_size": 81,
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION",
+  "reduced_control_pair": {
+    "left": {},
+    "right": {
+      "e2": 1
+    }
+  },
+  "reduced_family_incorrectly_merges_control_pair": true,
+  "reduced_probe_family": [
+    "p1"
+  ],
+  "unequal_trial_pairs_checked": 5
+}

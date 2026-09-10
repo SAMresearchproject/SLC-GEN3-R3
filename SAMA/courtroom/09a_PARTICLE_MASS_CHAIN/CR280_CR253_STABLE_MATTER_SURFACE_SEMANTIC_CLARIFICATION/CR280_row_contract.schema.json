@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CR280 promoted stable matter row contract",
+  "type": "object",
+  "required": [
+    "original_row_address",
+    "row_type",
+    "surface_type",
+    "matter_antimatter_class",
+    "partition_signature",
+    "q_sign",
+    "closure_depth",
+    "source_rule",
+    "placeholder_id",
+    "exact_contact_status",
+    "conventional_name",
+    "independent_existence_status"
+  ],
+  "properties": {
+    "original_row_address": {
+      "type": "string"
+    },
+    "row_type": {
+      "const": "StructurallyStableMatterRow"
+    },
+    "surface_type": {
+      "const": "TensorCompatibleStableMatterSurface"
+    },
+    "matter_antimatter_class": {
+      "enum": [
+        "matter",
+        "antimatter"
+      ]
+    },
+    "source_rule": {
+      "enum": [
+        "CR254_COMPACT_MATTER_CHARGED_LAW",
+        "CR255_COMPACT_MATTER_NEUTRAL_LAW",
+        "CR256_A_OPERATOR_ANTIMATTER_CONJUGATE"
+      ]
+    },
+    "exact_contact_status": {
+      "enum": [
+        "EXACT_CONTACT",
+        "SECTOR_HINT",
+        "MIRROR",
+        "NEUTRAL_ANCHOR",
+        "SUBSTRATE_CANDIDATE",
+        "INDEPENDENT_EXISTENCE_UNRESOLVED"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+gate,title,status
+G01,Parent custody and sealed source/precommit lineage,PASS
+G02,"Single parser, checker, evaluator, type system, and registry path",PASS
+G03,Formal profile isolation,PASS
+G04,Twelve sites and 4096 basis addresses,PASS
+G05,Exact canonical state invariant,PASS
+G06,"Frozen B, PREPARE_REQUEST, and X1_RESPONSE operators",PASS
+G07,Complete ordered-pair lift,PASS
+G08,Four real request sign-gauge diagnostics,PASS
+G09,Rooted forests and all native decompositions,PASS
+G10,Extra-edge peel and restore,PASS
+G11,Frozen classical limit,PASS
+G12,State/history separation,PASS
+G13,Deterministic API and CLI receipts,PASS
+G14,Atomic rejection and tamper detection,PASS
+G15,Inherited/new regressions and clean wheel,PASS
+G16,Boundary and wrong-control preservation,PASS

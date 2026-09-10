@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD",
+  "files": [
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_predictions.csv",
+      "mode": "100644",
+      "git_blob": "3484053c1390cbc610d97319cfa6cc17922800ca",
+      "bytes": 846,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json",
+      "mode": "100644",
+      "git_blob": "12e4056872321d5e1050f70b552da6a1da7a7139",
+      "bytes": 7201,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "54760d0f1b6ef6ed9ce580637bcb10277838ab65",
+      "bytes": 98,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_manifest.csv",
+      "mode": "100644",
+      "git_blob": "22c112689d459b77c5e96187ec7608f1133079d6",
+      "bytes": 913,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_regrade_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_result.md",
+      "mode": "100644",
+      "git_blob": "5b1645d3d8645c07185486c111abc10a9b0f571a",
+      "bytes": 11284,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_result.md",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_result.md"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_runner.py",
+      "mode": "100644",
+      "git_blob": "24c0e45061572c614a91d65e260364a52d2abc6e",
+      "bytes": 49154,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_runner.py",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_runner.py"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "7bb74a6f4fce06af93b89fdc800fef1dea4d7e99",
+      "bytes": 861,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_summary.json",
+      "mode": "100644",
+      "git_blob": "61fd1b563d096dee7aac0e602722b782ffbdeaed",
+      "bytes": 12648,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_summary.json",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_summary.json"
+    },
+    {
+      "path": "00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "2199ef1c6fee86be35094d2b84bdc9912c738753",
+      "bytes": 2064,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR140_CR120_HIGGS_CLAIM_REWORD/CR140_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR140@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

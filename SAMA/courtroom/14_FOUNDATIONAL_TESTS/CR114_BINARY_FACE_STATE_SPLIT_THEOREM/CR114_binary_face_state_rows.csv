@@ -1,0 +1,13 @@
+row_id,formula,value_fraction,value_decimal,value_base12,readout
+closed_loop_total,R^2,144,144.000000000000000000000000000000,100_12,closed scalar loop before binary split
+binary_face_states,2^D,8,8.000000000000000000000000000000,8_12,D independent binary closure axes
+carrier_fraction,1/2^D,1/8,0.125000000000000000000000000000,0.16_12,one unresolved tensor-carrier face-state
+retained_fraction,(2^D-1)/2^D,7/8,0.875000000000000000000000000000,0.A6_12,seven retained scalar/support face-states
+split_loss,R^2/2^D,18,18.000000000000000000000000000000,16_12,"unresolved tensor-carrier route weight, not matter"
+tensor_identity,alpha_H*D^2,18,18.000000000000000000000000000000,16_12,rank-2/two-sided tensor surface identity
+retained_parent,R^2*(1-2^-D),126,126.000000000000000000000000000000,A6_12,native scalar/H parent
+surface_debit,D^2/R,3/4,0.750000000000000000000000000000,0.9_12,"observed-surface debit, separate from carrier"
+observed_surface,R^2*(1-2^-D)-D^2/R,501/4,125.250000000000000000000000000000,A5.3_12,observed Higgs surface
+plus_polarization_fraction,(1/2^D)/alpha_H,1/16,0.062500000000000000000000000000,0.09_12,plus tensor-polarization support
+cross_polarization_fraction,(1/2^D)/alpha_H,1/16,0.062500000000000000000000000000,0.09_12,cross tensor-polarization support
+A1_boundary_closure,7/8 + 1/16 + 1/16,1,1.000000000000000000000000000000,1_10,strong-boundary A=1 support packet

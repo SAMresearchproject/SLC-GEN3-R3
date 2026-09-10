@@ -1,0 +1,58 @@
+{
+  "test_id": "CR007_STRONG_FIELD_LANDMARK_SELECTOR",
+  "verdict": "CR007_BOUNDARY_STRONG_FIELD_LANDMARK_SELECTOR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "C",
+  "claim_tier": "STRUCTURAL_LANDMARK_ROOT",
+  "structural_success": true,
+  "sealed_scope_sha256_current": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "sam_rows": [
+    {
+      "candidate": "sam_inverse_radius",
+      "landmark": "horizon",
+      "r_over_rs": 1.0,
+      "target_A": 1.0,
+      "candidate_A": 1.0,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "candidate": "sam_inverse_radius",
+      "landmark": "photon_sphere",
+      "r_over_rs": 1.5,
+      "target_A": 0.6666666666666666,
+      "candidate_A": 0.6666666666666666,
+      "absolute_error": 0.0,
+      "pass": true
+    },
+    {
+      "candidate": "sam_inverse_radius",
+      "landmark": "isco",
+      "r_over_rs": 3.0,
+      "target_A": 0.3333333333333333,
+      "candidate_A": 0.3333333333333333,
+      "absolute_error": 0.0,
+      "pass": true
+    }
+  ],
+  "wrong_control_full_packet_count": 0,
+  "mass_spreads": {
+    "horizon_A_spread": 0.0,
+    "photon_sphere_A_spread": 1.1102230246251565e-16,
+    "isco_A_spread": 5.551115123125783e-17
+  },
+  "pass_conditions": {
+    "no_older_test_outputs_used": true,
+    "sealed_scope_predates_test": true,
+    "free_parameters_introduced_zero": true,
+    "trace_ascii_clean": true,
+    "sam_landmark_tuple_exact": true,
+    "landmark_order_preserved": true,
+    "mass_scale_invariance": true,
+    "wrong_controls_do_not_match_full_packet": true,
+    "empirical_overclaim_rejected": true
+  },
+  "rule_9_falsification": "This test could have falsified the claim that SAM's strong-field root A(r)=r_s/r places the horizon, photon sphere, and ISCO at the ordered native A-values 1, 2/3, and 1/3 without a new parameter or a landmark-specific rule.",
+  "deferred_support_status": "eligible_for_CR011_if_CR008_CR010_pass"
+}

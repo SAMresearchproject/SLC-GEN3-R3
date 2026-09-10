@@ -1,0 +1,4 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,PDG row outside 0.5 percent tolerance,FAIL,True,True,all PDG rows fall inside declared tolerance
+WC2,Lattice row outside 5 percent tolerance,FAIL,True,True,all lattice rows fall inside declared tolerance
+WC3,Observed references used as selectors,FAIL,True,True,observed values are comparator/reveal only

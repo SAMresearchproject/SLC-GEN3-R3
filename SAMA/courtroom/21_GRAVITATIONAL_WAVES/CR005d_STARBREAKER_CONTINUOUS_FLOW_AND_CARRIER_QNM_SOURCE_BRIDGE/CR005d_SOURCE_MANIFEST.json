@@ -1,0 +1,91 @@
+{
+  "campaign_id": "CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE",
+  "schema": "CR005d_SOURCE_MANIFEST_V1",
+  "source_count": 14,
+  "sources": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260720_203540_no_script.md",
+      "role": "task_specific_preflight",
+      "bytes": 17368,
+      "sha256": "0e522e30288aa21415675fe7f6b723352a9d8b63baec728f67c4f5757d3a2d6b"
+    },
+    {
+      "path": "SAM_TESTING_RULES.md",
+      "role": "current_testing_rules",
+      "bytes": 4247,
+      "sha256": "6913e15b270ec16aba4c8985f6f9c2455d99d1debaf57cbf20575ed543e422a5"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/complete_typed_relation_history_runner.py",
+      "role": "frozen_spatial_generator_and_typing_definition",
+      "bytes": 57534,
+      "sha256": "80c33b0be2437deb718eab338f2ca3a9086fbe7b781db596ace384e901d33b82"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz",
+      "role": "frozen_three_state_atom_roster",
+      "bytes": 62636683,
+      "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/SCENARIO_SELECTION_DECOMPOSITION.csv",
+      "role": "frozen_scenario_geometry_and_seed_doors",
+      "bytes": 18469,
+      "sha256": "b1869c7cda4223484c0023fdfb04e54e533f747c457795906030fde90c14007d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_COUNTS.csv",
+      "role": "frozen_relation_history_census",
+      "bytes": 1822925,
+      "sha256": "4d15585ca5b99e0a4ad7eaf11d54e1062a1d5ebd144e5db08eab1391d1664f14"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SCHEMA.json",
+      "role": "frozen_bit_order_and_contact_radius",
+      "bytes": 851,
+      "sha256": "9dae50c86e9a4d0d40eb8d96d303a4d198df10ed686782593251cb54d536073d"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/RELATION_HISTORY_SUMMARY.json",
+      "role": "frozen_parent_construction_summary",
+      "bytes": 5669,
+      "sha256": "0212beaa36e331a1fee8ec8f1d635b79e3569fa6e5dab1edf08347221e4c16b1"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION/release/CR005c_RESULT.md",
+      "role": "affine_clock_parent_boundary_and_result",
+      "bytes": 2638,
+      "sha256": "55e16916063da5cb9be7cce334f202b826bac8f399bf126f4be7c77a6187e08d"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION/release/CR005c_SUMMARY.json",
+      "role": "affine_clock_parent_metrics",
+      "bytes": 4852,
+      "sha256": "4b4db4027087db140f029e4d84aa6a75d4f30490dfed262b2496ca15c94da854"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_result.md",
+      "role": "sealed_qnm_real_coefficient_record",
+      "bytes": 13608,
+      "sha256": "d21c4e16b5bd4471f158c4ec19d617c11c133f89937eb33a95c0993397a1e6ec"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005_THETA_CARRIER_OVERFLOW_AND_QNM_DERIVATION/CR005_summary.json",
+      "role": "sealed_qnm_real_coefficient_machine_record",
+      "bytes": 1302,
+      "sha256": "b2f598b3eb746a4075410a8abad5a864f422fbcde44822af0c8a1dd22b3e59f5"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_result.md",
+      "role": "sealed_qnm_damping_coefficient_record",
+      "bytes": 1798,
+      "sha256": "7681c32ba817409f00df4dba3584ed456f33d1badfe04b0237da2070b17833aa"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005b_QNM_DAMPING_SUBSTRATE_DYNAMICS/CR005b_summary.json",
+      "role": "sealed_qnm_damping_machine_record",
+      "bytes": 9531,
+      "sha256": "dadc302d0ad4c35f59316ad388295c94ed44539876b8574772b0ce5c03707a56"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "cr_id": "CR062",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_K1_ROW_LEVEL",
+  "triage_bin": "A",
+  "reason": "all 10 strict rows contact PDG within 1.0% tolerance; 2 audit rows within 2.0% band; 3/3 neutrinos within PDG upper bound",
+  "captured_at_utc": "2026-06-13T07:41:11Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "phases": {
+    "phase_1_seal_and_hash": {
+      "seal_exists": true,
+      "manifest_sha_matches": true,
+      "frozen_table_sha_match": true,
+      "verified": 572
+    },
+    "phase_2_row_extraction": {
+      "rows_extracted": 15
+    },
+    "phase_5_strict_aggregate": {
+      "pass": 10,
+      "of": 10
+    },
+    "phase_6_audit_aggregate": {
+      "boundary_pass": 2,
+      "of": 2
+    },
+    "phase_7_boundary_aggregate": {
+      "within_bound": 3,
+      "of": 3
+    },
+    "phase_8_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY",
+  "files": [
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_predictions.csv",
+      "mode": "100644",
+      "git_blob": "b609c35092a546c7e30d23489491543c3f15bda3",
+      "bytes": 860,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_predictions.csv",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_predictions.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_predictions.csv"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json",
+      "mode": "100644",
+      "git_blob": "ab8bca7527b01a2d6998b46492eb435e04a6ffcb",
+      "bytes": 7511,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "499c2493af6ef4164015a8d82e81f1750b36398c",
+      "bytes": 98,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_manifest.csv",
+      "mode": "100644",
+      "git_blob": "a7eb92baa01619a4bae0dfc9a58e3227bcff2bed",
+      "bytes": 826,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_regrade_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_result.md",
+      "mode": "100644",
+      "git_blob": "629f026d2819e885cd76bf55b20722ded742f9b9",
+      "bytes": 10902,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_result.md",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_result.md"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_runner.py",
+      "mode": "100644",
+      "git_blob": "63fdb1a2ce3bdd2faf3cf9949d8fe09e6eadb887",
+      "bytes": 49350,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_runner.py",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_runner.py"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_source_manifest.csv",
+      "mode": "100644",
+      "git_blob": "082a853647daa0765fc3cc58006ae3001e716f9e",
+      "bytes": 913,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_source_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_source_manifest.csv",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_source_manifest.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_source_manifest.csv"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_summary.json",
+      "mode": "100644",
+      "git_blob": "33eb20c4986c75ef97a6647bc7c40080739c66cd",
+      "bytes": 13078,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_summary.json",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_summary.json"
+    },
+    {
+      "path": "00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "243829eb49cee556d3432a3dc94ef613f576aabb",
+      "bytes": 2139,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_wrong_controls.csv",
+      "sama_path": "courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR138_CR064A_REGRADE_TO_BOUNDARY/CR138_wrong_controls.csv"
+    }
+  ],
+  "test_keys": [
+    "CR:CR138@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

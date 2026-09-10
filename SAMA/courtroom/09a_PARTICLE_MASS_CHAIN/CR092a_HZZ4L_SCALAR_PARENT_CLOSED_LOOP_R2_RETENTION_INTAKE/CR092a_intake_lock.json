@@ -1,0 +1,52 @@
+{
+  "lock_id": "CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE_LOCK",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "test_class": "COURTROOM_INTAKE_OF_QP091T_AND_QP091U",
+  "sealed_at_utc": "2026-06-15T06:31:35Z",
+  "sam_inputs": {
+    "R": "12",
+    "D": 3,
+    "alpha_H": "2"
+  },
+  "free_parameters_introduced": 0,
+  "higgs_target_used_as_input": false,
+  "exact_quantities": {
+    "closed_loop_total_R2": "144",
+    "split_loss_fraction": "1/8",
+    "retained_fraction": "7/8",
+    "split_loss_amount": "18",
+    "alpha_H_D2": "18",
+    "H_native_GeV": "126",
+    "surface_debit_D2_over_R": "3/4",
+    "H_reveal_GeV": "501/4",
+    "shell_share_2H_over_R": "21",
+    "shell_share_H_over_alphaH_D": "21"
+  },
+  "source_artifact_hashes": {
+    "qp091t_summary_sha256": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7",
+    "qp091t_HASHES_sha256": "ef67f4d99ed9b0001d54472c688d3dec0371cd1f4650fa4567d7958ffce25182",
+    "qp091t_declared_premises_sha256": "476d96c06b64ab352c5142b075558528d5904037420a42650a6c552e9604aad4",
+    "qp091u_summary_sha256": "b87d85be2149f4bd51daa70bcfe39f7e14fe033fb6c21d50e441a037f8b27ee1",
+    "qp091u_HASHES_sha256": "9ddefb3dc837f80a4c58e7956788b9ff846a1dfb42ddc1d04c43a0c08a05427b",
+    "qp091u_freeze_certificate_sha256": "a7ee03d2cefd19eabfcef0713622888ebf9bb3796aac5c26890d69d0a0c371a3",
+    "qp091u_wrong_controls_csv_sha256": "64154cf5af11e14f6111a40d2ed2527d0c14c36972850765a4402bde80c35f40"
+  },
+  "wrong_control_variants_recorded_rejected": [
+    "WRONG_D_2",
+    "WRONG_D_4",
+    "WRONG_R_10",
+    "WRONG_R_24",
+    "NO_SURFACE_DEBIT",
+    "WRONG_DEBIT_D_OVER_R",
+    "WRONG_DEBIT_D2_OVER_R2"
+  ],
+  "what_this_does_NOT_do": [
+    "modify any prior 09a CR verdict",
+    "modify CR064a branch verdict",
+    "modify CR069a Phase-2 verdict zipper",
+    "modify CR091a Z residual closure appeal",
+    "open a new external CERN HZZ4l measurement",
+    "introduce a free parameter",
+    "claim QP091S 2*pi q-split is exact"
+  ]
+}

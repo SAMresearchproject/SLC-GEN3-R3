@@ -1,0 +1,121 @@
+{
+  "adoption": {
+    "candidate_rows_changed": false,
+    "candidate_rules_changed": false,
+    "directional_slot_count": 1,
+    "directional_slots": [
+      17
+    ],
+    "ledger_adopted": true,
+    "ledger_rows": 53568,
+    "strong_slot_count": 7,
+    "strong_slots": [
+      16,
+      13,
+      14,
+      15,
+      4,
+      2,
+      3
+    ]
+  },
+  "appealed_campaign_status_preserved": "FAIL",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "control_replay": {
+    "all_pointwise_within_bound": true,
+    "all_power_differences_within_limit": true,
+    "carrier_occurrence_count": 53568,
+    "d3_operator_infinity_norm": 34012224.0,
+    "machine_epsilon": 2.220446049250313e-16,
+    "max_pointwise_difference": 3.2064349411164983e-06,
+    "maximum_observed_to_bound_ratio": 0.00525391600955719,
+    "maximum_power_relative_difference": 1.61685577650364e-09,
+    "minimum_observed_to_bound_ratio": 0.00022215378021727197,
+    "power_relative_limit": 1e-06,
+    "rounding_factor": 512.0,
+    "scenario_count": 96,
+    "synthetic": {
+      "isotropic_derivative_max_abs": 1.6048490536491045e-08,
+      "isotropic_pass": true,
+      "isotropic_quadrupole_relative": 1.3706457094137732e-16,
+      "isotropic_roundoff_bound": 1.879236704553478e-05,
+      "static_constancy_relative": 0.0,
+      "static_derivative_max_abs": 0.0,
+      "static_pass": true,
+      "static_roundoff_bound": 7.733484380878508e-06
+    }
+  },
+  "corrected_authority": {
+    "observed": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__SOURCE_SEPARATION_OPEN",
+    "passed": true,
+    "required": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__SOURCE_SEPARATION_OPEN"
+  },
+  "firewall": {
+    "candidate_rows_recomputed": false,
+    "candidate_thresholds_changed": false,
+    "external_waveform_loaded": false,
+    "physical_luminosity_emitted": false,
+    "physical_strain_emitted": false,
+    "qnm_filter_applied": false,
+    "registry_mutated": false,
+    "wave_messenger_material_claimed": false
+  },
+  "gates": [
+    {
+      "gate": "G01_SOURCE_AND_APPEALED_RELEASE_CUSTODY",
+      "passed": true
+    },
+    {
+      "gate": "G02_EXACT_ORIGINAL_FAILURE_RECORD",
+      "passed": true
+    },
+    {
+      "gate": "G03_CORRECTED_PARENT_AUTHORITY",
+      "passed": true
+    },
+    {
+      "gate": "G04_EXACT_96_SCENARIO_53568_CARRIER_CONTROL_REPLAY",
+      "passed": true
+    },
+    {
+      "gate": "G05_SCALE_AWARE_DISCRETE_LINEARITY",
+      "passed": true
+    },
+    {
+      "gate": "G06_STATIC_QUADRUPOLE_SYMMETRY_AND_ROUNDOFF",
+      "passed": true
+    },
+    {
+      "gate": "G07_ISOTROPIC_QUADRUPOLE_SYMMETRY_AND_ROUNDOFF",
+      "passed": true
+    },
+    {
+      "gate": "G08_BYTE_IDENTICAL_CANDIDATE_LEDGER_INVENTORY",
+      "passed": true
+    },
+    {
+      "gate": "G09_CANDIDATE_MUTATION_AND_PHYSICAL_CLAIM_FIREWALL",
+      "passed": true
+    },
+    {
+      "gate": "G10_ATOMIC_RELEASE_INVENTORY",
+      "passed": true
+    }
+  ],
+  "interpretation": {
+    "adopted_meaning": "Byte-identical CR005h internal source-attribution ledger cleared corrected controls.",
+    "not_claimed": "No carrier is identified as gravitational-wave material; no physical strain, luminosity, seconds, or detector forecast is emitted."
+  },
+  "original_failure_record": {
+    "failed_gates": [
+      "G02_CONTRACT_SCHEMA_AND_PARENT_AUTHORITY",
+      "G05_TRACE_FREE_AND_LINEAR_SOURCE_CONSTRUCTION",
+      "G08_STATIC_AND_ISOTROPIC_ZERO_CONTROLS"
+    ],
+    "matched_frozen_appeal_scope": true
+  },
+  "primary_verdict": "PASS_CR005H_CONTROL_APPEAL__PER_CARRIER_GW_CANDIDATE_LEDGER_ADOPTED_AND_FROZEN",
+  "status": "PASS",
+  "task": "Appeal CR005h numerical controls and adjudicate the frozen per-carrier GW candidate ledger"
+}

@@ -1,0 +1,13 @@
+control,rejected,observed,reason
+POPULATION_ONLY_ENTANGLEMENT,True,2.220446049250313e-16,Bell state and classical return have identical populations
+REVERSE_ORDER_EQUIVALENT,True,room_temp_NV:48/48|cryogenic_NV:48/48|noisy_NV:48/48,matched forward route wins blockwise
+UNEQUAL_DURATION_EXPLAINS_GAP,True,all conditions use two stages,padding freezes resource opportunities
+LOCAL_UNITARY_SUBSTITUTION_ENTANGLES,True,q95<0.05 all profiles,local operations remain separable
+DEPHASED_REQUEST_ENTANGLES,True,q95<0.05 all profiles,coherent request is load-bearing
+CLASSICAL_RETURN_ENTANGLES,True,q95<0.05 all profiles,correlation alone stays separable
+PRODUCT_MEASUREMENT_SWAPS,True,q95<0.05 all profiles,product central measurement is negative control
+FALSE_HERALD_SWAPS,True,q95<0.05 all profiles,unresolved herald stays separable
+REMOTE_SETTING_SIGNALS,True,1.6653345369377348e-16,local reduced state invariant under remote unitaries
+X1_SCALAR_AS_GATE_PARAMETER,True,not used,CNOT analog does not consume X1 scalar value
+SIMULATOR_IS_HARDWARE,True,no live backend available,result class remains simulator contact
+SIMULATION_INSTALLS_SAM_OPERATOR,True,registry_mutated=false,discovery artifacts only

@@ -1,0 +1,10 @@
+task: Investigate what physical interaction or measurement facilitates 8 + 1 closure from attached working note
+execution: exhaustive standard-library finite-model enumeration
+external code execution: none
+transfer_rows: 512
+single_flip_challenges: 4096
+two_flip_challenges: 14336
+x1_flip_challenges: 512
+feedback_challenges: 512
+all_consistency_checks_satisfied: true
+scientific_pass_claimed: false

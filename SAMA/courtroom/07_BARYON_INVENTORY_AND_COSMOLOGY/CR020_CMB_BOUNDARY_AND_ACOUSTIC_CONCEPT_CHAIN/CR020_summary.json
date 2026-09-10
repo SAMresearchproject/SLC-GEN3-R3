@@ -1,0 +1,36 @@
+{
+  "test_id": "CR020_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN",
+  "verdict": "CR020_BOUNDARY_PASS_CMB_BOUNDARY_AND_ACOUSTIC_CONCEPT_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PASS",
+  "triage_bin": "B",
+  "claim_tier": "CMB_BOUNDARY_ACOUSTIC_CONCEPT_CHAIN_NOT_FULL_CMB_THEOREM",
+  "pass_conditions": {
+    "G330_predictions_all_pass": true,
+    "G330_wrong_controls_all_pass": true,
+    "G331_predictions_all_pass": true,
+    "G331_wrong_controls_all_pass": true,
+    "G332_predictions_all_pass": true,
+    "G332_wrong_controls_all_pass": true,
+    "G330_not_theorem_grade": true,
+    "G331_not_theorem_grade": true,
+    "G332_not_theorem_grade": true
+  },
+  "source_verdicts": [
+    {
+      "test": "G330",
+      "verdict": "G330_PBH_INITIAL_A_INVENTORY_CMB_TRANSPARENCY_BOUNDARY_ESTABLISHED",
+      "grade": "branch-selection / boundary established; not CMB theorem"
+    },
+    {
+      "test": "G331",
+      "verdict": "G331_ESCAPED_BARYON_WRITE_DECOUPLING_CMB_BOUNDARY_ESTABLISHED",
+      "grade": "mechanism boundary / analytic recombination consistency; not CMB theorem"
+    },
+    {
+      "test": "G332",
+      "verdict": "G332_CORRECTED_CMB_ACOUSTIC_BRANCH_UPGRADED",
+      "grade": "corrected-branch analytic CMB acoustic consistency; not theorem-grade CMB"
+    }
+  ]
+}

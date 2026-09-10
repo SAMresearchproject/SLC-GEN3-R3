@@ -1,0 +1,76 @@
+{
+  "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL",
+  "files": [
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_appeal_rows_for_CR098a_CR110_PRED_1_and_2.csv",
+      "mode": "100644",
+      "git_blob": "ac938cc9bdd346297d8552f449e0ef144650c682",
+      "bytes": 1657,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_appeal_rows_for_CR098a_CR110_PRED_1_and_2.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_appeal_rows_for_CR098a_CR110_PRED_1_and_2.csv",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_appeal_rows_for_CR098a_CR110_PRED_1_and_2.csv",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_appeal_rows_for_CR098a_CR110_PRED_1_and_2.csv"
+    },
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json",
+      "mode": "100644",
+      "git_blob": "e51c23123273c220363cba528f43167d89c36d5b",
+      "bytes": 5001,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json"
+    },
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "53669f75c7afdf4d70f7a289fc348dbfe9b73eda",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_galaxy_pbh_bridge.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_result.md",
+      "mode": "100644",
+      "git_blob": "25154df23f01505104df1bb00b11948f97c2fb51",
+      "bytes": 5177,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_result.md",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_result.md"
+    },
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_runner.py",
+      "mode": "100644",
+      "git_blob": "6c16e39ab0045fa6ccf9dbdff10fb97d93ccc0de",
+      "bytes": 27627,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_runner.py",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_runner.py"
+    },
+    {
+      "path": "00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_summary.json",
+      "mode": "100644",
+      "git_blob": "488ccb79500f9e6af87c0a4dc39213c229e9d303",
+      "bytes": 5380,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_summary.json",
+      "sama_path": "courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL/CR115_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR115@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

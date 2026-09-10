@@ -1,0 +1,61 @@
+{
+  "clean_wheel": {
+    "api_payload": {
+      "census": 321,
+      "history_hash": "1d19dbe7f77e9acebd0b6df0c4cc5c5fbe16c71b78686a6c0d05f694df744cb4",
+      "id": "SLC_STATE_b98df85fc84d049a_1d19dbe7f77e9ace",
+      "module": "C:\\Users\\drwho\\AppData\\Local\\Temp\\sam_v06_c1_clean_wsla8duz\\venv\\Lib\\site-packages\\sam_language_v0_6\\__init__.py",
+      "slc_support": 2,
+      "source": "PASS",
+      "state_hash": "b98df85fc84d049a9f677e87405fd4ebdb6c1ea2d7171f2cbbf141d6995583fc"
+    },
+    "cli_api_parity": true,
+    "cli_cases": {
+      "census": "PASS",
+      "clock_kernel": "PASS",
+      "core_closure": "PASS",
+      "mixed": "PASS",
+      "qp_triad": "PASS",
+      "qp_unary": "PASS",
+      "rejected_triad": "PASS",
+      "slc_bell": "PASS",
+      "slc_ghz12": "PASS",
+      "validate_contract": "PASS",
+      "verify_inverse": "PASS",
+      "verify_native": "PASS",
+      "verify_source": "PASS"
+    },
+    "console_entry_point_parity": true,
+    "module_loaded_from_venv": true,
+    "pyproject_checks": {
+      "console_entry": true,
+      "package_data_extensions": true,
+      "project_name": true,
+      "project_version": true,
+      "wheel_entry_point": true,
+      "wheel_metadata_name": true,
+      "wheel_metadata_version": true
+    },
+    "repository_path_absent": true,
+    "requires_dist": [],
+    "sidecar_absent": true,
+    "status": "PASS",
+    "tracebacks_found": false,
+    "ui_dependency_absent": true,
+    "wheel_data_missing": [],
+    "wheel_members": 37,
+    "wheel_name": "sam_language_v0_6_0_slc_c1_formal_simulator_candidate-0.6.0-py3-none-any.whl",
+    "wheel_path": "C:\\VS\\The_Courtroom\\SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE\\dist\\sam_language_v0_6_0_slc_c1_formal_simulator_candidate-0.6.0-py3-none-any.whl",
+    "wheel_sha256": "3e3c6ba8bab9dc5ee3ffb5139d2cd426d4148f769621009e32b74b3c82e243c2"
+  },
+  "regression": {
+    "candidate_returncode": 0,
+    "candidate_tests": 183,
+    "inherited_candidate_tests": 154,
+    "new_slc_tests": 29,
+    "parent_returncode": 0,
+    "parent_tests": 154,
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

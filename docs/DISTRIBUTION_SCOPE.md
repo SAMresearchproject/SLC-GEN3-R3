@@ -1,58 +1,54 @@
-# Standalone R4 distribution scope
+# SLC-GEN3-R3 distribution scope
 
-This export preserves the installed SLC-GEN2-R4 computational source and its
-required Q3/Q2/Q1 and sealed V6/ICF1 foundation components. Their historical
-directory names are retained because the authenticated imports use those paths.
+This repository exports the current R3 computational runtime, native GEN2
+components, exact logarithmic accounts, acquired relation/observation seeds,
+and local durable checkpoint storage. Its required Q3/Q2/Q1 and sealed V6/ICF1
+foundation components remain included with their source identities.
 
-The new portable files are CURRENT_REVISION/__init__.py,
-CURRENT_REVISION/runtime.py and slc_gen2_r4/*.py. They resolve the local release,
-verify the export inventory and provide a CLI/receipt wrapper. They do not
-rewrite the upstream mathematical implementations. The portable release has
-its own generation string, `SLC-GEN2-R4-RESEARCH-20260907-1`; the upstream
-generation is retained separately in the source manifest.
+The upstream release is SLC-GEN3-R3, build
+`GEN3-UNIFIED-EXECUTION1-20260910`, generation
+`GEN3-UNIFIED-EXECUTION1-20260910-G2`. The portable entry point has release binding
+`SLC-GEN3-R3-RESEARCH-20260910-1`. `CURRENT_REVISION/runtime.py` verifies the export
+manifest and loads `gen3_runtime.py`; `slc_gen3_r3` supplies the portable CLI and
+receipt wrapper. `slc_gen2_r4` forwards to that same R3 runtime.
 
-## Included computational routes
+The mathematical implementations are copied from their sources. Portable binding,
+CLI and scope checks are identified distribution code. The included source set
+has its own implementation digest; local checkpoints belong to that source set.
 
-Native source compilation, forward programs and inverse DAGs; reconstructive
-custody; exact HD/formal-log operations; typed signed arithmetic; history
-summaries, append and composition; inverse sessions and observation planning;
-adaptive policy planning/apply/resume; construction, site/cycle and readout
-operations; linked boundary information; encounter operations; automatic sphere
-and golden motion; retained T18_WORD; and reuse telemetry.
+## Included routes
 
-The preserved interface catalogue is
-CURRENT_REVISION/engines/SLC/INTERFACE.json. Use docs/USAGE.md for the portable
-entry point. The complete upstream qualification fixture covers 35 integration
-cases; tests/test_release.py compares its exact outputs in this export.
+Native execution and acquired source support; complete forward/inverse histories;
+exact signed arithmetic and logarithmic U/D/V/net/M accounts; account append and
+composition; actual observation encounters; acquired seeds; local authenticated
+checkpoints; inherited motion, construction, readout, boundary and encounter calls.
 
 ## Separate deployments
 
-| Operation group | Distribution boundary |
+| Operation or entry point | Required deployment |
 |---|---|
-| GEN2_TAU_ASSIGNMENT, GEN2_TAU_REPLAY, GEN2_TAU_FEATURE_CATALOG | Require the separately installed PILOT3 application and model binding. Source is preserved; the portable wrapper reports the missing application explicitly. |
-| GEN2_SOURCE_BATCH | Uses the original multi-host CPU/GPU/T500 infrastructure and remote paths. Source is preserved; the portable wrapper does not launch that deployment. |
-| GEN2_DENSE_N72 | Exact source attachment and declared dependencies are included. It retains its original Linux affinity list, C compiler, NumPy and output-custody requirements. The core release tests do not rerun this hardware workload. |
-| CE domain programs | RH, MP, ATOM3D and Starbreaker project deployments are separate from this engine repository. No active research services or trained application checkpoints are exported. |
+| GEN3_REPLICATE | Configured remote replication service; portable wrapper reports this explicitly. |
+| GEN2_SOURCE_BATCH | Original multi-host CPU/GPU/T500 application. |
+| GEN2_TAU_ASSIGNMENT, GEN2_TAU_REPLAY, GEN2_TAU_FEATURE_CATALOG | Separately installed tau application and model. |
+| GEN2_DENSE_N72 | Preserved Linux affinity/compiler/NumPy hardware attachment. The quick start does not launch it. |
+| CE domains and managed project launchers | Separate RH, MP, ATOM3D, Starbreaker and project installations. |
 
-The default examples and release tests run locally and require no SAM account,
-remote host, API key, GPU, T500 disk or research workspace. NumPy is required
-by the preserved foundation. Optional hardware sources are not portable promises
-about an arbitrary machine's CPU layout or OpenCL devices.
+The upstream host-specific GEN3 launcher, resource profile and replication
+scripts are excluded from this portable export. The portable CLI executes
+locally. Linux is required by the durable store's file locking and fsync calls.
+NumPy is required by the inherited foundation. Optional python-flint accelerates
+exact ratios when installed; the standard Fraction backend retains exact values.
 
-## Evidence and source custody
+## Provenance and project information
 
-SOURCE_MANIFEST.json binds every copied file. The large upstream installation
-fixture is gzip-compressed; its manifest records both the compressed digest and
-the digest of the original bytes. Decompression is lossless. The V6 source ZIP
-is unchanged and its original importer verifies every member before use.
+[SOURCE_MANIFEST.json](../provenance/SOURCE_MANIFEST.json) authenticates included
+source files. [Export validation](../provenance/EXPORT_VALIDATION.json) records
+checks run on this distribution. The former R4 source manifest remains in
+[GEN2_R4_SOURCE_MANIFEST.json](../provenance/GEN2_R4_SOURCE_MANIFEST.json).
+Files under `docs/upstream/` retain historical source specifications and statuses;
+they describe their originating installation. This page and the root README
+describe the public distribution.
 
-docs/upstream contains original source specifications and installation narrative.
-Their historical statuses, hardware evidence and source-relative links belong
-to the originating workspace. docs/USAGE.md and this document describe this
-standalone distribution. Upstream test counts are not represented as new
-independent runs; provenance/EXPORT_VALIDATION.json records the export checks.
-
-Sealed source components must not be silently edited. A research modification
-should identify its new source version, update applicable binding contracts and
-retain the predecessor and its evidence. The research licence permits such
-private work; it does not make changed bytes an authenticated original release.
+[SAMA](../SAMA/README.md) is the project's supporting research collection. Its
+four-volume reading structure, source identities, tests and original licences
+remain preserved. [Project status](PROJECT_STATUS.md) records current information.

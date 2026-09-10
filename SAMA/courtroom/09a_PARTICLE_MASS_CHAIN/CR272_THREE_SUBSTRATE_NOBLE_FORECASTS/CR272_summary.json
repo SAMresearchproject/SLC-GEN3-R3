@@ -1,0 +1,99 @@
+{
+  "precommit_sha256": "2eaf4f3694de9de902c5a74d8709deff119b002bb95091d0c41d0b9fdfba716b",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR272_THREE_SUBSTRATE_NOBLE_FORECASTS",
+  "classification": "FORECAST_LOCK_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "CR271 noble-cipher rule (unchanged) applied to complete enumeration of 20 simple substrate atoms + 1 compound (M=126) at Z <= 126. Partition: 7 noble-cipher-type (4 QM-agreement: He, Ar, Kr, Xe; 3 divergent forecast locks: Hf, Hs, Jerroldium) and 14 reactive.",
+  "complete_enumeration": {
+    "simple_substrate_atoms_count": 20,
+    "compound_count": 1,
+    "noble_count": 7,
+    "reactive_count": 14
+  },
+  "forecast_locks": [
+    {
+      "id": "F1",
+      "element": "Hf",
+      "Z": 72,
+      "decomposition": "h^3 * d^2 = S * D^2",
+      "a": 3,
+      "b": 2,
+      "structural_reading": "heavy Ar-type (same b=2, higher a)",
+      "conventional_classification": "transition metal (group 4)",
+      "substrate_prediction": "noble-cipher-type"
+    },
+    {
+      "id": "F2",
+      "element": "Hs",
+      "Z": 108,
+      "decomposition": "h^2 * d^3 = h^2 * V",
+      "a": 2,
+      "b": 3,
+      "structural_reading": "heavy Xe-type (same b=3, higher a)",
+      "conventional_classification": "transition metal (group 8)",
+      "substrate_prediction": "noble-cipher-type"
+    },
+    {
+      "id": "F3",
+      "element": "Jerroldium",
+      "Z": 126,
+      "decomposition": "M = 7 * Theta",
+      "a": "compound",
+      "b": "7*(a=1, b=2)",
+      "structural_reading": "matter-horizon compound of 7 noble-rule Theta units",
+      "conventional_classification": "hypothetical (extended periodic table)",
+      "substrate_prediction": "noble-cipher-type"
+    }
+  ],
+  "qm_agreement_set": [
+    {
+      "element": "He",
+      "Z": 2,
+      "substrate_name": "h_hat",
+      "decomposition": "primitive"
+    },
+    {
+      "element": "Ar",
+      "Z": 18,
+      "substrate_name": "Theta",
+      "decomposition": "h*d^2"
+    },
+    {
+      "element": "Kr",
+      "Z": 36,
+      "substrate_name": "m_3^2",
+      "decomposition": "h^2*d^2"
+    },
+    {
+      "element": "Xe",
+      "Z": 54,
+      "substrate_name": "hV",
+      "decomposition": "h*d^3"
+    }
+  ],
+  "K1_pattern": "future experimental chemistry data on Hf, Hs, and Z=126 synthesis adjudicates; substrate cipher frozen at seal time; conventional QM classification frozen at seal time; whichever survives data wins or both refine",
+  "CR271_fail_preserved": {
+    "cr271_precommit_hash": "761f48f50618021455d1e2df5b17c0d5d781993e1ff22290b39c94571e93ec44",
+    "cr271_verdict": "FAIL",
+    "stays_on_books": true,
+    "modified_by_this_CR": false
+  },
+  "gates": {
+    "G1_complete_enumeration": true,
+    "G2_rule_application": true,
+    "G3_CR271_FAIL_preserved": true,
+    "G4_forecast_locks": true,
+    "G5_structural_readings": true,
+    "G6_QM_agreement_set": true,
+    "G7_K1_frozen_envelope": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "Eight gates PASS. CR271 noble-cipher rule unchanged; complete substrate-atom enumeration (20 simple + 1 compound at Z<=126) produces 7 noble + 14 reactive partition. Four QM-agreement nobles (He, Ar, Kr, Xe) noted. Three divergent forecast locks sealed for K1 reveal-against-frozen-envelope adjudication: F1 Hf (Z=72=h^3*d^2) noble-cipher-type; F2 Hs (Z=108=h^2*d^3) noble-cipher-type; F3 Jerroldium (Z=126=7*Theta) noble-cipher-type. Each forecast has structural reading recorded. CR271 FAIL preserved as upstream context (not modified). PASS verdict means forecasts properly sealed for future experimental adjudication, NOT that forecasts are empirically correct.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 3
+}

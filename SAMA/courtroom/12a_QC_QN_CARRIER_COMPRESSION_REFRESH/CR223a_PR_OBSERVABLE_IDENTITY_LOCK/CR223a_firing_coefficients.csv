@@ -1,0 +1,6 @@
+model_id,model_name,method,formula,expected_coefficient,computed_coefficient,campaign_cited_value,matches_campaign_value
+M1,scalar_exponential_purity_surrogate,closed_form,t_fire/T2 = ln(24/23) / 2,0.0212798072,0.0212798072,0.0212798,True
+M2,two_level_pure_dephasing,closed_form,t_fire/T2 = ln(12/11) / 2,0.0435056885,0.0435056885,0.0435057,True
+M3,loaded_qutrit_equal_pure_dephasing,closed_form,t_fire/T2 = ln(4224/3935) / 2,0.0354358323,0.0354358323,0.0354358,True
+M4_analytic_continuous_root,loaded_qutrit_nv_lindblad_finite_T1_equals_T2_CR068a,numerical_bisection_on_analytic_lindblad_solution,"diag(t) + 2*(rho_0+,rho_0-)^2(t) + 2*rho_+-^2(t) with CR068a operators",0.0289614682,0.0289614682,0.0291460,True
+M4_CR068a_sample_grid,loaded_qutrit_nv_lindblad_CR068a_first_sample_above_threshold,discrete_sample_grid_alarm_in_CR068a_runner,first sample with A_leak >= 1/24 in 200-sample / 100us grid,0.0291460,0.0291460,0.0291460,True

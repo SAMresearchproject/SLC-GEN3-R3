@@ -1,0 +1,11 @@
+{
+  "ci_high_at_cross_idx": 0.05925720949999906,
+  "ci_low_at_cross_idx": 0.029183653273894404,
+  "crossing_classification": "MATCHED_MODEL",
+  "max_grid_step": 0.03,
+  "t_fire_ref_cr223a_m4": 0.0289614682,
+  "t_fire_tomo_test": 0.02741460848559042,
+  "t_fire_tomo_train": 0.02762856766202038,
+  "tomography_first_cross_index_test": 4,
+  "tomography_first_cross_index_train": 4
+}

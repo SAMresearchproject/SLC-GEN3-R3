@@ -1,0 +1,9 @@
+# CR120F command log
+
+Execution path: tools/run_sam_test.py --task <preflighted task> --script tools/run_cr120f_interaction_record_and_higgs_operator_discrimination.py
+External subprocesses: none
+External numerical inputs: none
+Stochastic samples: none
+Generated Python executed: none
+Precommit sha256: 6af604ed697c76a95cbe20c97dafbd9d46177a548c20955ca1dedb08b16a14d9
+Outcome: all precommitted mathematical gates passed; all wrong controls detected; scientific_pass_claimed=false

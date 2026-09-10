@@ -1,0 +1,8 @@
+control,role,R,D,capacity,matches_126,readout
+main_R12_D3,main constants,12,3,126,True,main capacity
+wrong_R10,wrong R control,10,3,87,False,wrong capacity rejected
+wrong_R24,wrong R control,24,3,504,False,wrong capacity rejected
+wrong_D2,wrong D control,12,2,108,False,wrong capacity rejected
+wrong_D4,wrong D control,12,4,135,False,wrong capacity rejected
+no_Z_enumeration,boundary condition,12,3,126,False,constants give the bound; element rows require enumerating Z=1..capacity
+cards_or_known_labels,forbidden construction input,,,,not_used,"known symbols, names, card values, masses, and CLOCK labels are blank in generated rows"

@@ -1,0 +1,86 @@
+{
+  "cr_id": "CR009",
+  "title": "Connection-Fee K1 Reveal",
+  "started_at_utc": "2026-06-24T23:18:47+00:00",
+  "completed_at_utc": "2026-06-24T23:18:47+00:00",
+  "verdict_class": "PASS",
+  "catalog_sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6",
+  "catalog_rows": 321,
+  "derivation_cohort": {
+    "count": 25,
+    "mean_abs_rel_delta": "0",
+    "max_abs_rel_delta": "0",
+    "classification_counts": {
+      "exact_match": 25
+    }
+  },
+  "extension_cohort_n_conn2": {
+    "count": 6,
+    "mean_abs_rel_delta": "0",
+    "max_abs_rel_delta": "0",
+    "classification_counts": {
+      "exact_match": 6
+    }
+  },
+  "pair_cohort": {
+    "count": 30,
+    "mean_abs_rel_delta": "0.00029899694769830633020539640571132931283915102975579744791314936720301400491439456",
+    "max_abs_rel_delta": "0.00048248576666988323844446588825629643925504197626170027984174466853227829779021210",
+    "classification_counts": {
+      "approximate_match": 30
+    }
+  },
+  "pair_mean_actual_ratio": "0.99999999999999999999999999999999999999999999999999999999999999999999999999999997",
+  "pair_mean_drift_from_1": "3E-80",
+  "single_atom_count_in_scope": 63,
+  "single_atom_violations": [],
+  "pass_conditions": {
+    "P1_verifications": true,
+    "P2_derivation_mean": true,
+    "P3_extension_mean": true,
+    "P4_pair_mean": true,
+    "P5_single_atom_integrity": true,
+    "P6_wrong_controls": true
+  },
+  "fail_conditions": {
+    "F1_derivation_drift": false,
+    "F2_extension_no_extension": false,
+    "F3_pair_principle_false": false,
+    "F4_single_atom_broken": false,
+    "F5_WC_R_or_D_not_load_bearing": false,
+    "F6_audit_incomplete": false
+  },
+  "wrong_controls": {
+    "WC-1": {
+      "label": "WC-1_R_perturb_10",
+      "mean_abs_rel_delta_derivation": "0.078063393778564057201828099660916998378298687896211116025357511425622880731239872",
+      "rows_in_derivation": 25,
+      "passed": true
+    },
+    "WC-2": {
+      "label": "WC-2_D_perturb_2",
+      "mean_abs_rel_delta_derivation": "0.078425966877979261880190672760332203056661260995626320703720084525038085409602432",
+      "rows_in_derivation": 25,
+      "passed": true
+    },
+    "WC-3": {
+      "label": "WC-3_offset_q_only",
+      "mean_abs_rel_delta_derivation": "0.23527790063393778564057201828099660916998378298687896211116025357511425622880731",
+      "rows_in_derivation": 25,
+      "passed": true
+    },
+    "WC-4": {
+      "label": "WC-4_offset_q_plus_R",
+      "mean_abs_rel_delta_derivation": "0.70583370190181335692171605484298982750995134896063688633348076072534276868642188",
+      "rows_in_derivation": 25,
+      "passed": true
+    },
+    "WC-5": {
+      "label": "WC-5_pair_mean",
+      "pair_mean_actual_ratio": "0.99999999999999999999999999999999999999999999999999999999999999999999999999999997",
+      "pair_mean_drift_from_1": "3E-80",
+      "rows": 30,
+      "passed": true
+    }
+  }
+}

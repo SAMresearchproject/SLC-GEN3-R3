@@ -1,0 +1,58 @@
+{
+  "binding_formula": "negative fermion write + photon-road carrier + sealed PR protocol gate",
+  "carrier": {
+    "candidate_id": "QP093A-0301",
+    "matter_ledger": "M=qA=T=W=0",
+    "operator_class": "ROAD_LIGHT_CARRIER",
+    "partition_signature": "1"
+  },
+  "checks_passed": 23,
+  "checks_total": 23,
+  "control": {
+    "T": "0.125",
+    "W": "0.875",
+    "candidate_id": "QP093A-0018",
+    "qA": "1"
+  },
+  "cr_id": "CR222i",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T14:40:48.314639+00:00",
+  "next_gate": "CP_QC_PR_LAB_PROTOCOL_PARTICLE_CARRIER_ROUTE",
+  "outputs": {
+    "checks_csv": "CR222i_checks.csv",
+    "experiment_contract_csv": "CR222i_experiment_contract.csv",
+    "particle_carrier_roster_csv": "CR222i_particle_carrier_roster.csv",
+    "particle_carrier_trials_csv": "CR222i_particle_carrier_trials.csv",
+    "platform_context_csv": "CR222i_platform_context.csv",
+    "result_md": "CR222i_result.md",
+    "summary_json": "CR222i_summary.json",
+    "upstream_seals_csv": "CR222i_upstream_seals.csv",
+    "wrong_controls_csv": "CR222i_wrong_controls.csv"
+  },
+  "platforms": [
+    "NV_CENTER_T2",
+    "PHOTONIC_TAU_ENT"
+  ],
+  "primary_pair": "QP093A-0002+QP093A-0301",
+  "primary_particle": {
+    "M_obs": "1.5",
+    "T": "0.188802083",
+    "W": "1.321614583",
+    "candidate_id": "QP093A-0002",
+    "qA": "1.510416667",
+    "route_combination": "minus_single_write[p=1,g=0]"
+  },
+  "protected_separations": {
+    "particle_write": "QP093A-0002 supplies qA -> T/W split",
+    "protocol_event_qA": "1/24",
+    "road_light_carrier": "QP093A-0301 supplies route and remains M=qA=T=W=0",
+    "split_control": "QP093A-0018 supplies qA=1, T=1/8, W=7/8",
+    "tensor_witness": "QP093A-0300 remains witness/floor, not payload"
+  },
+  "result_class": "CR222i_PASS_CP_QC_PR_PARTICLE_CARRIER_PAIR__QP093A_0002_PLUS_QP093A_0301_CONTROL_0018",
+  "sha256": {
+    "CR222i_particle_carrier_roster.csv": "eccba1b1a30e4656661aa2dbd9c02ee0362d8969ff1be84fb35f45103e870b1a"
+  },
+  "test_id": "CR222i_CP_QC_PR_PARTICLE_CARRIER_PAIR",
+  "trial_count": 2
+}

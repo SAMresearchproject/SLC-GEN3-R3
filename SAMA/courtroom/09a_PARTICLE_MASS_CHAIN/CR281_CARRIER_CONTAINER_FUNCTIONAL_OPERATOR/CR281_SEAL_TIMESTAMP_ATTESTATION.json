@@ -1,0 +1,44 @@
+{
+  "artifact": "SAM_V0_3_SEAL_TIMESTAMP_ATTESTATION",
+  "attestation_created_utc": "2026-07-11T17:05:36Z",
+  "authority_sources": [
+    {
+      "bytes": 7951,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_113953_CR281_runner.json",
+      "sha256": "c67cc21ac3d13303f98fd0dcfce09e440b7365222c23938cd0ee7d1f57e9c4c3"
+    },
+    {
+      "bytes": 17760,
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_113953_CR281_runner.md",
+      "sha256": "654fd32b29d84f510e26462b5d212b0d1b8b70d4a16abfddc832ec5afa0b7cc7"
+    },
+    {
+      "bytes": 859,
+      "note": "final CR hash ledger used as contemporaneous completion ledger, not as timestamp source",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/HASHES.txt",
+      "sha256": "a2a48847fe1099a7317a93520dc42ab460e842c8fec383018582cbb94880206f"
+    }
+  ],
+  "cr_path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR",
+  "existing_cr_artifacts_modified": false,
+  "filesystem_mtime_used": false,
+  "firewall_metadata": {
+    "metadata_files_checked": [
+      "CR281_provenance.json",
+      "CR281_summary.json"
+    ],
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_sealed_utc": "2026-07-11T16:39:53Z",
+  "prior_queue_ledger_hash": "e0e08276334fc2b39048e3f9e9e4361606efc71380da6f6c0ebc3049f3eddd51",
+  "prior_queue_maintenance_hash_bundle": "420523ac7157ed122d4ab30eb6ca47c4ca22dc085c227972a0cb7592a582e5f2",
+  "remediation_timestamp_used_as_original_seal": false,
+  "sam_language_v0_3_consulted": false,
+  "scientific_test_rerun": false,
+  "target_scientific_content_opened": false,
+  "timestamp_authority_key": "generated_utc",
+  "timestamp_authority_rank": "b",
+  "timestamp_authority_type": "TOOLS_RUN_SAM_TEST_EXECUTION_RECEIPT"
+}

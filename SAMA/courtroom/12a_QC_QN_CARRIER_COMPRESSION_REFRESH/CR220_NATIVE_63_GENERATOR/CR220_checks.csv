@@ -1,0 +1,11 @@
+check,passed,observed,expected
+native_rows_exactly_63,True,63,63
+depth_counts_24_24_15,True,"{'0': 24, '1': 24, '2': 15}","{'0': 24, '1': 24, '2': 15}"
+addresses_unique_63,True,63,63
+forbidden_depth2_modes_absent,True,,none
+known_labels_absent_from_construction_fields,True,[],[]
+deterministic_byte_identical_regeneration,True,7b047416848c282ad3c5ea4b6a86a964623d64e9e7ab8baad93ddc2656e0ed3a,7b047416848c282ad3c5ea4b6a86a964623d64e9e7ab8baad93ddc2656e0ed3a
+wrong_control_depth2_full_modes_produces_72,True,72,72
+wrong_control_removed_charge_state_breaks_count,True,42,not 63
+wrong_control_duplicate_repair_fails_uniqueness,True,duplicate_repaired_count_63_unique_lt_63,detected
+downstream_cr219_validation_63_signatures_mass_operator,True,63,63

@@ -1,0 +1,8 @@
+name,pass,details,load_bearing_deletion
+WC1_no_anomalous_statuses,True,anomalous: 0,"If any target had MISSING_TARGET or any other anomalous status, this WC would FAIL."
+WC2_no_verdict_drift,True,every target's result_class still contains _SEALED (verdict preserved),"If any target's verdict were altered by this sweep, this WC would FAIL."
+WC3_pre_qualifier_archive_hashes_match,True,every pre_qualifier archive's stored SHAs match the file content,"If any archived pre-state were edited/corrupted, this WC would FAIL."
+WC4_audit_qualifier_blocks_well_formed,True,every audit_qualifier block has all required fields + driving_appeal_cr=CR-142 + verdict_unchanged=True,"If any audit_qualifier block were stripped or fields removed, this WC would FAIL."
+WC5_REPLACEMENT_RECORDs_complete_with_hashes,True,every REPLACEMENT_RECORD present with pre and post SHAs,"If any REPLACEMENT_RECORD lacked the pre or post SHA, the chain of custody would break."
+WC6_audit_verdict_reference_resolves,True,AUDIT_VERDICT exists=True; hash matches,"If audit verdict moved/edited, this WC would FAIL."
+WC7_CR141_audit_header_preserved,True,CR-141 'AUDIT-DRIVEN DEFECT CORRECTION' marker present in every result.md alongside CR-142 qualifier,"If CR-142's edit removed CR-141's header, the audit chain would be broken; this WC would FAIL."

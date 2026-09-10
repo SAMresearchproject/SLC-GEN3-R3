@@ -1,0 +1,10 @@
+{
+  "campaign_id": "CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE",
+  "claim_boundary": "dimensionless structural flow and unit-clock carrier source response; no physical strain or time calibration",
+  "contract_sha256": "96cff6164e55c2024ffcbe7158f8dd4d4783ef408b4941d72f8c6f17084c309e",
+  "precommit_seal_sha256": "7b88c9c1291d130c5a011470390c12536b52a3f2fdbc7582038238b6e36032c0",
+  "precommit_sha256": "4a11b227fa0f1e22ec7a767e67f032cddcad22a4f0e7546a214f150ed46cec09",
+  "runner_sha256": "520ae3c79c625e696db1949a7824c45881b5f0d271ee2d35738b62a7a8947a80",
+  "source_manifest_sha256": "4f4d4b4a8b016c61b880dbee1d24cad8486d6629073565eab8e5b1cccc205fb2",
+  "source_role": "frozen Starbreaker three-state roster plus sealed CR005, CR005b, and CR005c constructive inputs"
+}

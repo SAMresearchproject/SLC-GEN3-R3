@@ -1,0 +1,89 @@
+{
+  "cr_id": "CR031",
+  "branch": "08_GALAXY_HALOS_BB_PBH_TRAPPED_A",
+  "title": "X_RADIAL_LAW_POPULATION_TEST",
+  "precommit_sha256": "01797081265fdc072b233dfed413c38374a8a27f4ef6c02bcf1740623ea42b05",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "question": "Does X(r) = V_dark^2(r) / V_bar^2(r), computed at every measured SPARC radius across all 175 galaxies and binned in r/R_outer, rise monotonically from a baryon-dominated inner regime to a bound-halo plateau matching the sealed CR025 reference, with cross-galaxy convergence at the outer edge, under canonical Lelli mass-to-light ratios and zero per-galaxy fitting?",
+  "predictions": {
+    "P1": {
+      "name": "monotonic rise",
+      "load_bearing": true,
+      "conditions": [
+        "median X(0.8-1.0) - median X(0.0-0.2) > 0",
+        "Spearman rank correlation between bin index and median X > 0",
+        "at least 3 of 4 adjacent bin pairs show rise"
+      ]
+    },
+    "P2": {
+      "name": "outer plateau matches CR025 and stays below cosmic",
+      "load_bearing": false,
+      "conditions": [
+        "median X(0.8-1.0) in [2.5, 4.5]",
+        "median X(0.8-1.0) < 0.85 * 5.364 = 4.5594"
+      ]
+    },
+    "P3": {
+      "name": "cross-galaxy convergence at outer edge",
+      "load_bearing": false,
+      "conditions": [
+        "spread(0.8-1.0) < spread(0.0-0.2) where spread = std-dev of log10(X) across galaxies",
+        "at least 3 of 4 adjacent bin pairs show spread decrease"
+      ]
+    }
+  },
+  "wrong_controls": {
+    "WC1": {
+      "name": "low mass-to-light",
+      "type": "soft",
+      "specification": "Upsilon_disk = 0.3, Upsilon_bul = 0.7",
+      "must_hold": ["P1", "P3"]
+    },
+    "WC2": {
+      "name": "high mass-to-light",
+      "type": "soft",
+      "specification": "Upsilon_disk = 0.7, Upsilon_bul = 0.7",
+      "must_hold": ["P1", "P3"]
+    },
+    "WC3": {
+      "name": "within-galaxy radius shuffle",
+      "type": "hard_kill",
+      "specification": "Within each galaxy, permute (V_obs, V_gas, V_disk, V_bul) across R values; 1000 seeded trials (seeds 0..999)",
+      "must_fail": "P1",
+      "kill_threshold_fraction": 0.95
+    },
+    "WC4": {
+      "name": "galaxy-randomized normalized radius",
+      "type": "hard_kill",
+      "specification": "For each galaxy, replace rho = R/R_outer with uniform(0,1) draw; 1000 seeded trials (seeds 0..999)",
+      "must_fail": "P3",
+      "kill_threshold_fraction": 0.95
+    }
+  },
+  "implementation_discipline": {
+    "primary_statistic": "galaxy-equal: per-galaxy bin medians first, then population median across galaxy-bin medians",
+    "log_spread_positivity": "only positive galaxy-bin X values used for log10 std-dev; nonpositive counts reported per bin",
+    "y_substitute_declared_in_precommit": false,
+    "primary_sample": "all 175 SPARC galaxies; quality flags secondary audit only",
+    "rho_bin_edges": [
+      "[0.0, 0.2)",
+      "[0.2, 0.4)",
+      "[0.4, 0.6)",
+      "[0.6, 0.8)",
+      "[0.8, 1.0]"
+    ],
+    "vbar_squared_formula": "V_bar^2 = V_gas * |V_gas| + Upsilon_disk * V_disk^2 + Upsilon_bul * V_bul^2",
+    "upsilon_disk_canonical": 0.5,
+    "upsilon_bul_canonical": 0.7,
+    "no_per_galaxy_upsilon_adjustment": true,
+    "wc_trial_seeds": "0..999 inclusive, deterministic numpy.random.default_rng"
+  },
+  "verdict_ladder": {
+    "PASS": "P1, P2, P3 all hold under canonical; WC1 and WC2 hold P1 and P3; WC3 fails P1 in >= 95% of trials; WC4 fails P3 in >= 95% of trials",
+    "BOUNDARY": "P1 holds under canonical Upsilon but at least one of P2, P3, WC1, WC2, WC3, WC4 fails against prediction",
+    "FAIL": "P1 fails under canonical Upsilon"
+  },
+  "rule_9_falsifier": "The claim that X(r) rises monotonically with radius across the 175-galaxy SPARC population to a bound-halo plateau matching CR025 sealed reference, with cross-galaxy convergence at the outer edge, under canonical Lelli mass-to-light ratios."
+}

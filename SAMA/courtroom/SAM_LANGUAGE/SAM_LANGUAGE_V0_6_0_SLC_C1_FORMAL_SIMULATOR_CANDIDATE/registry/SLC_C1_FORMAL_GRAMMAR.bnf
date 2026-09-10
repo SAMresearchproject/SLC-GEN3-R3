@@ -1,0 +1,15 @@
+<slc-site> ::= SLC_L0 | SLC_L1 | SLC_L2 | SLC_L3 | SLC_L4 | SLC_L5
+             | SLC_L6 | SLC_L7 | SLC_L8 | SLC_L9 | SLC_L10 | SLC_L11
+             | L0 | L1 | L2 | L3 | L4 | L5 | L6 | L7 | L8 | L9 | L10 | L11
+
+<slc-state-expression> ::= SLC_ZERO_REGISTER()
+                         | SLC_BINARY_FLIP(<slc-state-symbol>, <slc-site>)
+                         | SLC_PREPARE_REQUEST(<slc-state-symbol>, <slc-site>)
+                         | SLC_X1_RESPONSE(<slc-state-symbol>, <slc-site>, <slc-site>)
+
+<slc-inspection-expression> ::= SLC_INSPECT_STATE(<slc-state-symbol>)
+
+<slc-state-symbol> ::= <sam-symbol-with-type-SLCState12>
+
+# All productions above require the slc-c1-formal execution profile.
+# The two SLC_X1_RESPONSE site arguments are ordered and must be distinct.

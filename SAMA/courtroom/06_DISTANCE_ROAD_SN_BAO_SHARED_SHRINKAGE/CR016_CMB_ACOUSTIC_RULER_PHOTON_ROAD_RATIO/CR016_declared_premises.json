@@ -1,0 +1,42 @@
+{
+  "test_id": "CR016_CMB_ACOUSTIC_RULER_PHOTON_ROAD_RATIO",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR016_declared_premises.json",
+    "CR016_PRECOMMIT.md",
+    "CR016_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "r_star_mpc": 144.20161713640252,
+    "D_M_photon_road_mpc": 13879.204914685846,
+    "r_drag_mpc": 150.92186401518705,
+    "wrong_H0_denominator_mpc": 12822.514111428573
+  },
+  "external_reference_downstream_only": {
+    "Planck_theta100": 1.04109,
+    "pass_window_abs_percent": 0.5
+  },
+  "frozen_predictions": {
+    "theta100": "100*r_star/D_M_photon_road",
+    "target_data_used_to_choose_formula": false
+  },
+  "wrong_controls": [
+    "use_drag_ruler",
+    "wrong_H0_denominator",
+    "invert_ratio",
+    "half_ruler",
+    "drag_ruler_and_wrong_H0"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "ratio_identity",
+    "planck_target_not_formula_source",
+    "theta_reference_residual_within_half_percent",
+    "wrong_controls_do_not_match_packet"
+  ],
+  "rule_9_falsification": "This test could have falsified the CMB acoustic-ratio member if the frozen acoustic-write ruler and photon-road denominator did not produce the declared theta ratio, if the Planck target was needed to choose the formula, or if wrong controls matched the ratio."
+}
+

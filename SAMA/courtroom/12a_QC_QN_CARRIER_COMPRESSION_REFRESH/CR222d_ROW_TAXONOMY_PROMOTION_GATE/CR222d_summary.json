@@ -1,0 +1,73 @@
+{
+  "checks_passed": 18,
+  "checks_total": 18,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2
+  },
+  "cr_id": "CR222d",
+  "display_marker_policy": {
+    "current_source_marker_rows": 0,
+    "rule": ".1 display marker is support-row visual metadata only",
+    "used_as_numeric_partition": false
+  },
+  "execution_status": "CLEAN",
+  "formal_rules": {
+    "closed_gate": "G_matter=0 => M_obs=qA=T=W=0",
+    "display_marker": ".1 partition display marker != numeric support p",
+    "open_gate": "G_matter=1 => qA=M_obs*(1+|q|/144); T=qA/8; W=7qA/8",
+    "support_roster": "support_roster=12; duplicate_mirror=QP093A-0303=81; closure=81+81=162",
+    "support_surcharge": "SOURCE_SUPPORT_PACKET M_native=p+p^2/144"
+  },
+  "generated_at_utc": "2026-06-21T09:41:21.858906+00:00",
+  "next_gate": "CR222e_PR_BEHAVIOR_WITH_PROMOTION_GATE",
+  "outputs": {
+    "blocked_support_csv": "CR222d_blocked_support_gate_verification.csv",
+    "charge_balance_csv": "CR222d_charge_balance.csv",
+    "checks_csv": "CR222d_checks.csv",
+    "matter_formula_csv": "CR222d_matter_gate_formula_verification.csv",
+    "result_md": "CR222d_result.md",
+    "source_manifest_csv": "CR222d_source_manifest.csv",
+    "summary_json": "CR222d_summary.json",
+    "support_roster_duplicate_correction_csv": "CR222d_support_roster_duplicate_correction.csv",
+    "support_surcharge_csv": "CR222d_support_surcharge_shape.csv",
+    "taxonomy_csv": "CR222d_taxonomy_counts.csv",
+    "theorem_csv": "CR222d_row_taxonomy_theorem.csv",
+    "visual_partition_markers_csv": "CR222d_visual_partition_markers.csv"
+  },
+  "pr_implication": "support inventory -> promotion/audit gate -> qA -> tensor witness; support inventory alone does not emit matter.",
+  "result_class": "CR222d_PASS_ROW_TAXONOMY_PROMOTION_GATE__SUPPORT_GRAMMAR_NOT_MATTER",
+  "sha256": {
+    "CR222d_row_taxonomy_theorem.csv": "c0f8918974f660ddb0e51e10e3c37f1d59b8bcf0b98b0d02cec1d81ae2a1320a"
+  },
+  "source": {
+    "declared_count_header": "139",
+    "parsed_rows": 139,
+    "path": "C:\\VS\\CR219_promoted_particle_rows_126.csv",
+    "sha256": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f"
+  },
+  "support_roster_correction": {
+    "closure_total": 162,
+    "duplicate_mirror_row": "QP093A-0303",
+    "duplicate_mirror_value": 81,
+    "raw_blocked_nonmatter_rows": 13,
+    "rule": "QP093A-0303 remains blocked non-matter but is not an independent support mode.",
+    "unique_support_roster_rows": 12,
+    "unique_support_roster_sum": 81
+  },
+  "taxonomy": {
+    "blocked_nonmatter_raw": 13,
+    "bound_composite": 63,
+    "carrier_only_raw": 5,
+    "duplicate_mirror_rows": 1,
+    "hidden_source_support": 8,
+    "matter_allowed": 126,
+    "stable_matter": 63,
+    "total": 139,
+    "unique_support_roster": 12
+  },
+  "test_id": "CR222d_ROW_TAXONOMY_PROMOTION_GATE",
+  "theorem": "Charge lift is necessary source-support structure, not sufficient matter structure."
+}

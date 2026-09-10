@@ -1,0 +1,7 @@
+name,expression,value_fraction,value_decimal,target_decimal,relative_error_pct,role_status
+WC1_capacity_denominator,R/R^2,1/12,0.08333333333333333,0.08896232,6.327382948945878,role_rejected
+WC2_closed_ledger_denominator,R/L,2/27,0.07407407407407407,0.08896232,16.735451510174112,role_rejected
+WC3_matter_denominator,R/M,2/21,0.09523809523809523,0.08896232,7.054419486918997,role_rejected
+WC4_dimension_numerator,d_hat/(L - V),1/45,0.022222222222222223,0.08896232,75.02063545305222,role_rejected
+WC5_theta_numerator,Theta/(L - V),2/15,0.13333333333333333,0.08896232,49.876187281686605,role_rejected
+WC6_pi_neighbor,(pi + S)/M,irrational_pi_expression,0.08842533852055391,0.08896232,0.6036055258519404,role_rejected_pi_not_sourced_in_damping_shell_rule

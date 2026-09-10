@@ -1,0 +1,6 @@
+candidate_id,parent_p8_id,parent_p1_id,M_native_p8,M_native_p1,M_native_p9,exact_additivity,residual,all_type_checks_passed,present_in_100,present_in_81,q_sign_in_81,M_native_in_81
+QP093A-0019,QP093A-0016,QP093A-0001,10,1.25,11.25,true,0,true,false,true,positive,11.25
+QP093A-0020,QP093A-0017,QP093A-0002,12,1.5,13.5,true,0,true,false,true,negative,13.5
+QP093A-0021,QP093A-0018,QP093A-0003,1,0.125,1.125,true,0,true,false,false,absent,0
+QP093A-0085,QP093A-0083,QP093A-0073,10,1.25,11.25,true,0,true,false,true,negative,11.25
+QP093A-0086,QP093A-0084,QP093A-0074,12,1.5,13.5,true,0,true,false,true,positive,13.5

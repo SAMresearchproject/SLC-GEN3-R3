@@ -1,0 +1,14 @@
+R,route_kernel_equality,partition_top_equality,half_write_admissible,third_partition_admissible,fourth_partition_admissible,six_contact_route_admissible,twelfth_closure_admissible,side_share_conservation,no_new_prime_axis,radix_wall_rejection,prime_factors,selector_score,full_packet
+2,False,False,True,False,False,False,False,True,True,True,2,4,False
+3,False,False,False,True,False,False,False,True,True,True,3,4,False
+4,False,False,True,False,True,False,False,True,True,True,2,5,False
+5,False,False,False,False,False,False,False,True,False,False,5,1,False
+6,False,False,True,True,False,True,False,True,True,True,2 3,6,False
+7,False,False,False,False,False,False,False,True,False,False,7,1,False
+8,False,False,True,False,True,False,False,True,True,True,2,5,False
+10,False,False,True,False,False,False,False,True,False,False,2 5,2,False
+11,False,False,False,False,False,False,False,True,False,False,11,1,False
+12,True,True,True,True,True,True,True,True,True,True,2 3,10,True
+16,False,False,True,False,True,False,False,True,True,True,2,5,False
+20,False,False,True,False,True,False,False,True,False,False,2 5,3,False
+24,False,False,True,True,True,True,True,True,True,True,2 3,8,False

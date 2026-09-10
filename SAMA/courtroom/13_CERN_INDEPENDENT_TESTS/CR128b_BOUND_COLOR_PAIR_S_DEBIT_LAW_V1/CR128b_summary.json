@@ -1,0 +1,127 @@
+{
+  "audit_qualifier": {
+    "applied_utc": "2026-06-17T23:34:33Z",
+    "driving_appeal_cr": "CR-142",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "qualifier_type": "HEADLINE_IN_SAMPLE_DISCLOSURE",
+    "verdict_unchanged": true,
+    "qualifier_summary": "Law extracted inductively from CR-119 catalog; reported in-sample match is GENERATOR CONSISTENCY against training data, not first-principles derivation. Forward-blind falsifier (PRED_1) commits the law to forward-blind testing on future rows. Existing WC3-equivalent wrong control carries the full disclosure; this qualifier surfaces it to the headline level.",
+    "audit_finding_tier": "Tier 2 PASS_WITH_REWORD (headline visibility of in-sample qualifier)",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR142_qualifier_sweep/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1/",
+    "pre_qualifier_result_md_sha256": "bd985cefbb3def3b436ebf5274d73919f707c99252284d64d492a755e104040d",
+    "pre_qualifier_summary_json_sha256": "64a1776d914db8b333d004e73ec6fb8d3027efc9f9026206b3ac2fd56d5a8eb6",
+    "predecessor_appeal_cr": "CR-141 (self-hash repair; pre-qualifier state is the post-CR141 state)"
+  },
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "law_lock_sha256",
+    "old_value": "9336468a668131f1ed4a1a9d1af61ebf9b019349709a750ee7359f94bdd26964",
+    "new_value": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1/",
+    "original_result_md_sha256": "8dd3042c74952cb4b17ea700fe4db2e122d6913241f0b19ed817027be657fe08",
+    "original_summary_json_sha256": "8cfa8eba2cee3c984c3a2629e52955cf8577411b38f50e0610eb2c02324155d1"
+  },
+  "cr_id": "CR128b",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_ASYMMETRIC_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:39:56Z",
+  "magnitude_formula": "|S_debit(a, b)| = M_native(a, b) * (|a - b| + D) / R^4",
+  "sign_rule": "sign(S_debit) = sign(first - second) in partition signature ordering",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "asymmetric_rows_tested": 30,
+  "symmetric_rows_skipped": 6,
+  "formula_matches": 30,
+  "magnitude_matches": 30,
+  "sign_matches": 30,
+  "violations": 0,
+  "combined_with_CR128_zero_parameter_claim": true,
+  "verification_csv_sha256": "adc84235f09782d4ed135813f6b8dd60975d54236442fbfa56bbb2181d9efe8f",
+  "law_lock_sha256": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128_verification_csv": "0b51ff37925777edc9af0d48e3c279e28dfd5e69feddd6c12d379d2b40415517"
+  },
+  "predictions": [
+    {
+      "name": "P1_30_asymmetric_rows_tested",
+      "pass": true,
+      "details": "asymmetric rows tested = 30 (expected 30)"
+    },
+    {
+      "name": "P2_all_formula_matches",
+      "pass": true,
+      "details": "matches = 30/30, violations = 0"
+    },
+    {
+      "name": "P3_all_magnitude_matches",
+      "pass": true,
+      "details": "magnitude matches = 30/30"
+    },
+    {
+      "name": "P4_all_sign_matches",
+      "pass": true,
+      "details": "sign matches = 30/30"
+    },
+    {
+      "name": "P5_six_symmetric_rows_correctly_skipped",
+      "pass": true,
+      "details": "symmetric rows skipped = 6 (expected 6; out of CR128b scope)"
+    },
+    {
+      "name": "P6_forward_blind_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR128_law_lock_unmodified",
+      "pass": true,
+      "details": "CR128 M_native law lock referenced but unchanged; CR128b extends not overrides"
+    },
+    {
+      "name": "WC3_exact_rational_arithmetic_used",
+      "pass": true,
+      "details": "Verification uses Python Fraction for exact rationals and Decimal at 200-digit precision for parsing CR119's high-precision S_debit strings.  No float round-off contamination."
+    },
+    {
+      "name": "WC4_sign_rule_derived_separately_from_magnitude",
+      "pass": true,
+      "details": "Magnitude formula was pattern-spotted from 8 doublet pairs; sign rule (sign(first - second)) was observed independently.  Both verified together against all 30 rows."
+    },
+    {
+      "name": "WC5_symmetric_pairs_explicitly_out_of_scope",
+      "pass": true,
+      "details": "Symmetric (a, a) rows have a different surface debit structure (M_obs(a,a) ~ (43/4) * a^2 empirically) and are reserved for CR128c."
+    },
+    {
+      "name": "WC6_law_derived_inductively_forward_blind_committed",
+      "pass": true,
+      "details": "Like CR128, the law was derived inductively from in-sample data.  Forward-blind falsifier CR128b_PRED_1 commits the formula for testing on future rows where overfit cannot operate."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR128c: derive M_observed formula for symmetric (a, a) BCP rows (empirical 10.75 a^2 = (43/4) a^2)",
+    "CR129: derive OCTET_COMPOSITE 3-body M_native + S_debit generators -- the BCP antisymmetric (first - second) factor suggests the 3-body case may have an analogous antisymmetric tensor structure",
+    "Forward-blind test CR128b_PRED_1 resolves when CR119 gains new asymmetric BCP rows"
+  ]
+}

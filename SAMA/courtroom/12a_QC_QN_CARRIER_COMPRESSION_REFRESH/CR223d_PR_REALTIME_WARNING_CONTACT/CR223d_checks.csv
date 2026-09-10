@@ -1,0 +1,14 @@
+check,passed,observed,expected
+a_side_locked,True,0.041666666666666664,1/24
+p_alarm_locked_to_precommitted_value,True,0.75,0.75 (precommitted high-confidence; lower than nominal 0.95 to meet latency target with single-observable P_0 sensor)
+packet_checksum_valid_162,True,162,162
+sensor_calibration_converged,True,"mu=0.255371, scale=0.003042","finite mu, scale > 0"
+test_trials_run,True,100,100
+false_alarm_rate_under_target,True,0.0568,<= 0.1
+miss_rate_under_target,True,0.1083,<= 0.15
+alarm_latency_within_one_interval,True,max |alarm - tomo| = 3 intervals,<= 3
+WC1_corrupt_161_blocks,True,0/30,0/30
+WC2_corrupt_163_blocks,True,0/30,0/30
+WC3_G_protocol_off_blocks,True,0/30,0/30
+WC5_shuffled_sensor_degrades_performance,True,shuffled TPR=0.995 TNR=0.170; valid 0.892/0.943,shuffled per-sample TPR/TNR drop by >= 0.05
+all_wcs_pass_as_failures,True,7/7,7

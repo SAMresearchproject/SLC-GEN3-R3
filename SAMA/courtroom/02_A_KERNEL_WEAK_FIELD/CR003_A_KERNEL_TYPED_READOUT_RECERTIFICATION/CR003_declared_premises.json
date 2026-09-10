@@ -1,0 +1,20 @@
+{
+  "test_id": "CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION",
+  "branch_id": "02_A_KERNEL_WEAK_FIELD",
+  "older_test_outputs_allowed": false,
+  "external_data_required": false,
+  "expected_verdict_ceiling": "BOUNDARY",
+  "constants": {
+    "G": 6.67430e-11,
+    "c": 299792458.0
+  },
+  "sample_source": {
+    "M": 5.9722e24,
+    "r": 6371000.0
+  },
+  "many_source_sample": {
+    "r_s_values": [0.00887005624, 0.00443502812, 0.001774011248],
+    "distances": [6371000.0, 12742000.0, 3185500.0]
+  },
+  "rule_9": "This test could have falsified: the claim that A(r)=r_s/r uniquely supplies the native typed weak-field readout packet for horizon, potential, force, clock, and many-source accumulation lanes."
+}

@@ -1,0 +1,30 @@
+{
+  "test_id": "CR051_QC_CARRIER_ENVELOPE_GATE_READOUT",
+  "verdict": "CR051_PASS_QC_CARRIER_ENVELOPE_GATE_READOUT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "QC_CARRIER_ENVELOPE_GATE_READOUT_PROTOCOL",
+  "source_keys": [
+    "QC001",
+    "QC002",
+    "QC003",
+    "QC004"
+  ],
+  "pass_conditions": {
+    "QC001_free_parameters_zero": true,
+    "QC001_no_external_hardware": true,
+    "QC002_checks_pass": true,
+    "QC002_wrong_controls_pass": true,
+    "QC003_native_gates_positive": true,
+    "QC003_checks_pass": true,
+    "QC004_paul_revere_selected": true,
+    "QC004_checks_pass": true,
+    "all_free_parameters_zero": true
+  },
+  "primary_carrier": "QUBIT-NL-001",
+  "control_envelope": "QUBIT-CL-001",
+  "boundary_sensor": "QUBIT-UNK-001",
+  "native_gates": 5,
+  "carrier_to_envelope_lead_ratio": 107.56674983263241
+}

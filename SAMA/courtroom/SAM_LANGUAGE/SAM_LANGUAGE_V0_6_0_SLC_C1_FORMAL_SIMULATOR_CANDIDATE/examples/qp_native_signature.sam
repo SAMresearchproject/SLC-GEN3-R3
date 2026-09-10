@@ -1,0 +1,4 @@
+let unary = QP_UNARY_DIRECT(QP_P8, QP_D2, QP_ROUTE_NEUTRAL)
+let signature: QPNativeSignature = QP_NATIVE_SIGNATURE(unary)
+let retained: QPExactAccount = QP_RETAINED_SUPPORT(signature)
+return retained

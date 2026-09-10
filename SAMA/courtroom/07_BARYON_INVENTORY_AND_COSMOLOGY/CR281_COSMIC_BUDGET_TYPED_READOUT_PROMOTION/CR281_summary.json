@@ -1,0 +1,160 @@
+{
+  "cr_id": "CR281",
+  "record": "COSMIC_BUDGET_TYPED_READOUT_PROMOTION",
+  "generated_utc": "2026-07-11T08:28:34+00:00",
+  "execution_status": "CLEAN",
+  "primary_verdict": "PASS_COSMIC_BUDGET_TYPED_READOUT",
+  "subverdicts": {
+    "STRUCTURAL_INVENTORY_PASS": true,
+    "DIRECTIONAL_REFINEMENT_PASS": true,
+    "PHYSICAL_DENSITY_PASS": true,
+    "HUBBLE_CASCADE_PASS": true
+  },
+  "source_hashes_pass": true,
+  "precommit_sha256": "4db856290eba976ce47f6a9dc9a47c9f1ea81a4197a92ca0d736c9c69d31c93f",
+  "free_parameters_introduced": 0,
+  "Planck_or_observational_comparator_used_as_input": false,
+  "forecasts_generated": false,
+  "structural_checks": [
+    {
+      "name": "A0_matches_CR003",
+      "pass": true
+    },
+    {
+      "name": "A0_matches_CR018",
+      "pass": true
+    },
+    {
+      "name": "chi_matches_CR018",
+      "pass": true
+    },
+    {
+      "name": "Omega_b_matches_CR018",
+      "pass": true
+    },
+    {
+      "name": "Omega_m_clean_spine_is_1_over_pi",
+      "pass": true
+    },
+    {
+      "name": "Omega_m_matches_CR003",
+      "pass": true
+    },
+    {
+      "name": "Omega_m_eff_matches_CR019",
+      "pass": true
+    }
+  ],
+  "physical_checks": [
+    {
+      "name": "eta_matches_CR036",
+      "pass": true
+    },
+    {
+      "name": "K_matches_CR036_computed_K",
+      "pass": true
+    },
+    {
+      "name": "omega_b_matches_CR036",
+      "pass": true
+    },
+    {
+      "name": "h_squared_matches_CR036",
+      "pass": true
+    },
+    {
+      "name": "H0_matches_CR036",
+      "pass": true
+    }
+  ],
+  "boundary_checks": [
+    {
+      "name": "CR117_law_configuration_boundary_preserved",
+      "pass": true
+    },
+    {
+      "name": "CR114_bridge_zero_free_parameters",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_A0_zero_rejected",
+      "pass": true,
+      "details": {
+        "A0_control": 0.0
+      }
+    },
+    {
+      "name": "WC2_remove_one_minus_chi_rejected",
+      "pass": true,
+      "details": {
+        "without_factor": 0.05305164769729845,
+        "canonical": 0.049299011266100756
+      }
+    },
+    {
+      "name": "WC3_noncanonical_R_or_D_rejected",
+      "pass": true,
+      "details": {
+        "R_control": 13,
+        "D_control": 4
+      }
+    },
+    {
+      "name": "WC4_Omega_m_eff_not_clean_Omega_m_spine",
+      "pass": true,
+      "details": {
+        "Omega_m_eff": 0.3137609155690572,
+        "Omega_m": 0.3183098861837907
+      }
+    },
+    {
+      "name": "WC5_Planck_omega_b_comparator_not_input",
+      "pass": true,
+      "details": {
+        "Planck_omega_b_h2": 0.02237,
+        "input_to_derivation": false
+      }
+    },
+    {
+      "name": "WC6_unsourced_K_rejected",
+      "pass": true,
+      "details": {
+        "K_source": "CR036 computed from FIRAS T_CMB plus CODATA/SI constants"
+      }
+    },
+    {
+      "name": "WC7_Omega_b_not_omega_b",
+      "pass": true,
+      "details": {
+        "Omega_b": 0.049299011266100756,
+        "omega_b": 0.022296034745809035
+      }
+    }
+  ],
+  "values": {
+    "A0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_b": 0.049299011266100756,
+    "Omega_m": 0.3183098861837907,
+    "Omega_c": 0.26901087491768993,
+    "Omega_Lambda": 0.6816901138162093,
+    "Omega_m_eff": 0.3137609155690572,
+    "eta": 6.096089524484198e-10,
+    "K_eta_to_omega_b": 2.73415860442632e-08,
+    "omega_b": 0.022296034745809035,
+    "h_squared": 0.4522612963871012,
+    "H0": 67.25037519502037,
+    "T_CMB": 2.7255,
+    "eta_reference": 6.119e-10,
+    "H0_reference": 67.36
+  },
+  "implementation_notes": [
+    "Initial CR281 execution at PREFLIGHT_20260711_032722 failed because the runner checked CR114_summary.json for free_parameters_total. The precommitted source containing that field is CR114_cosmic_baryon_bridge.json; the lookup was corrected without changing the verdict tree."
+  ],
+  "remaining_named_opens": [
+    "CMB spectrum/modal perturbation outputs remain outside this typed budget record",
+    "CR117 law/configuration boundary remains intact"
+  ]
+}

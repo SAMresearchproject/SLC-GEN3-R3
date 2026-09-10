@@ -1,0 +1,7 @@
+control,description,rows_observed,expected_canonical,sensitive
+W1,include bound_composite_rows,116,80,True
+W2,include h_T = 2,105,80,True
+W3,drop bigrade q-rule,80,80,False
+W4,allow I_T > 0,80,80,False
+W5_p,random bin permutation p,0.0000,< 0.05,True
+W5_null_mean,null mean count under permutation,41.25,,

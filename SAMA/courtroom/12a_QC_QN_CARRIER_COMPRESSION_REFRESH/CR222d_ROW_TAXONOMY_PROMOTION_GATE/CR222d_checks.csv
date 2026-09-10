@@ -1,0 +1,19 @@
+check,passed,observed,expected
+uploaded_declared_count_139,True,declared=139; rows=139,139
+taxonomy_counts_match_126_plus_13,True,9,9
+matter_split_63_plus_63,True,stable=63; bound=63,63+63
+stable_charge_balance_21_21_21,True,"['21', '21', '21']","21,21,21"
+bound_charge_balance_7_28_28,True,"['7', '28', '28']","7,28,28"
+matter_allowed_qA_tensor_retained_formulas,True,126,126
+support_blocked_channels_zero_or_closed,True,13,13
+support_blocked_native_positive_still_zeroed,True,12,12 positive-native blocked rows
+hidden_source_surcharge_shape,True,8,8
+hidden_source_support_not_matter,True,8,8
+no_blocked_rows_matter_allowed,True,Counter({'no': 13}),{'no': 13}
+unique_support_roster_count_12,True,12,12
+unique_support_roster_sum_81,True,81,81
+duplicate_mirror_row_count_1,True,1,1
+duplicate_mirror_row_value_81,True,81,81
+support_roster_plus_mirror_closure_162,True,162,162
+dot_one_partition_markers_support_blocked_only,True,Counter({'SUPPORT_ROW_NO_VISUAL_MARKER_IN_CURRENT_SOURCE': 13}),no .1 marker on matter-allowed rows
+theorem_source_path_exists,True,C:\VS\CR219_promoted_particle_rows_126.csv,exists

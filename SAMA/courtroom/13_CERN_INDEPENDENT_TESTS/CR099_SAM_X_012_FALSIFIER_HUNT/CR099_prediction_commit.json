@@ -1,0 +1,9 @@
+{
+  "commit_id": "CR099_FALSIFIER_PREDICTION_COMMIT",
+  "predictions_file": "CR099_predictions.csv",
+  "prediction_commit_sha256": "cd046d9004337217b79e2f3d08ef00993df3ca095018f38e5b0f1995c121bd9e",
+  "prediction_commit_utc": "2026-06-13T21:48:25Z",
+  "anchor_envelope_does_not_yet_exist": "CERN_HAS_NOT_PUBLISHED_AT_THESE_Q_M_COORDINATES",
+  "what_the_seal_locks": "the falsifier criteria - charge set, mass band, primary-carrier requirement",
+  "future_appeal_behavior": "if CERN publishes a match, an APPEAL row records SAM_X_012_FALSIFIED; the original signature is never modified"
+}

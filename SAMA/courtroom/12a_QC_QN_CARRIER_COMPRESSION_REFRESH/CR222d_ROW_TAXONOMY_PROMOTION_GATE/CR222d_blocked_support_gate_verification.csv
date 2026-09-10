@@ -1,0 +1,14 @@
+candidate_id,bin,operator_class,M_native,M_native_positive,M_observed_candidate,qA_source_support,tensor_carrier_support,retained_write_support,channels_closed_or_zero,matter_row_allowed,matter_gate_status,formula,passed
+QP093A-0301,carrier_only_rows,ROAD_LIGHT_CARRIER,0,False,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0306,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,1.006944444,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0307,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,2.027777778,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0308,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,3.0625,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0309,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,4.111111111,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0310,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,6.25,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0304,carrier_only_rows,COLOR_OWNER_CARRIER,8,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0311,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,8.444444444,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0302,carrier_only_rows,WEAK_VECTOR_CARRIER,9,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0312,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,9.5625,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0313,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,13,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0300,carrier_only_rows,TENSOR_CARRIER,18,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True
+QP093A-0303,carrier_only_rows,NEUTRAL_VECTOR_CARRIER,81,True,0,0,0,no,True,no,no,G_matter=0 => M_obs=qA=T=W=0,True

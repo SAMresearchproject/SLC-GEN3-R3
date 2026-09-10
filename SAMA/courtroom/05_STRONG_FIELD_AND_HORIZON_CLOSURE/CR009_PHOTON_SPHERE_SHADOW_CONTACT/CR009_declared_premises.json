@@ -1,0 +1,38 @@
+{
+  "test_id": "CR009_PHOTON_SPHERE_SHADOW_CONTACT",
+  "test_type": "fresh_courtroom_05_subtest",
+  "older_outputs_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sealed_scope_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/SEALED_STRONG_FIELD_SCOPE_APPROACH_2026_06_11.md",
+  "sealed_scope_sha256": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "cr007_result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_result.md",
+  "cr007_result_sha256": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+  "cr008_result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_result.md",
+  "cr008_result_sha256": "2f99fca192284ce5275b0d53020185995b109b65e7855172f3af3eb4495a41a7",
+  "sam_inputs": {
+    "typed_premise_from_CR007": "photon sphere A=2/3 at r/r_s=3/2",
+    "typed_boundary_from_CR008": "A=1 is the closure boundary, not A=2/3",
+    "photon_lane": "b/r_s=x/sqrt(1-1/x)"
+  },
+  "external_reference_invariants": {
+    "schwarzschild_photon_sphere_x": 1.5,
+    "schwarzschild_photon_sphere_A": 0.6666666666666666,
+    "schwarzschild_shadow_bcrit_over_rs": 2.598076211353316,
+    "schwarzschild_shadow_diameter_over_rs": 5.196152422706632
+  },
+  "thresholds": {
+    "exact_absolute_tolerance": 1e-12,
+    "local_minimum_margin": 1e-6,
+    "wrong_control_min_relative_miss": 0.01
+  },
+  "expected_scientific_verdict": "PASS",
+  "expected_claim_tier": "PASS_SCOPED_PHOTON_SPHERE_SHADOW_INVARIANT",
+  "rule_9_falsification": "This test could have falsified the claim that the CR007 A=2/3 photon-sphere landmark carries the standard Schwarzschild photon critical-impact/shadow invariant b_crit/r_s=3*sqrt(3)/2, rather than being only an internal A-label or a horizon-preserving but shadow-wrong construction.",
+  "scope_boundaries": [
+    "not full EHT image modeling",
+    "not Kerr shadow modeling",
+    "not accretion physics",
+    "not full strong-field metric closure",
+    "not full GR"
+  ]
+}

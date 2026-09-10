@@ -1,0 +1,9 @@
+boundary,status,text
+LC04 replay scope,LOCKED,LC04 tests particle mass-chain/table replay only; periodic/isotope vault replay is a separate LC05 lane.
+No fit-number mutation,LOCKED,"LC04 imports alpha_H, R, D, split, bounce, and surface debit from LC01; it does not tune them per row."
+Observed-mass use,LOCKED,"CR061a-CR064a keep observed values as reveal-only residual columns, not construction inputs."
+Known label use,LOCKED,CR119 known particle/periodic labels are downstream reveal-only; nearest-match controls stay rejected.
+Generator suite epistemic grade,LOCKED,CR128-CR134 generator laws are preserved as audited in-sample generator consistency unless their source separately marks forward-blind status.
+Carrier/matter distinction,LOCKED,"M=18 is retained as the tensor carrier alpha_H*D^2, not promoted to the matter catalog."
+qA distinction,LOCKED,qA remains source/debit grammar and never becomes a direct mass value in LC04.
+4-body bridge,LOCKED,"CR130 4-body expression remains a forward-blind conjecture, not an in-sample closure pass."

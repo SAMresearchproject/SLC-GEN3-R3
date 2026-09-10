@@ -1,0 +1,15 @@
+gate_id,description,passed,detail,source
+E01_SOURCE_INTEGRITY,All frozen sources match their SHA-256 values,True,13/13 matched,CR120V_SOURCE_MANIFEST.json
+E02_TYPED_ROUTE,Canonical S8-B-X1-W9 typed route is present,True,"RESOLVE(S8_BINARY_SURFACE, B_CONTACT_OPERATOR, X1_AXIS_SELF_CHANNEL) -> W9_CLOSURE_WITNESS",CR119_LANGUAGE_HANDOFF_CONTRACT.json
+E03_TYPED_SEPARATION,B and X1 are explicitly forbidden from collapsing,True,B_CONTACT_OPERATOR != X1_AXIS_SELF_CHANNEL,CR119_LANGUAGE_HANDOFF_CONTRACT.json
+E04_SCALAR_TYPING,B is non-scalar; X1 is AxisChannel scalar one,True,B_type=NonRowOperator; X1_type=AxisChannel; X1_value=1,CR119_LANGUAGE_HANDOFF_CONTRACT.json
+E05_CANONICAL_S8,S8 is canonical and no W8 node is installed,True,S8_BINARY_SURFACE=8; W8 absent,CR119_LANGUAGE_HANDOFF_CONTRACT.json
+E06_SIX_HALF_SLOT_ROUTE,Both active V4.2 documents contain the six resolved half-slot shell,True,outward=3 slots; inward=3 slots,SAM_NATIVE_MASTER_FORMULA_V4_2.md; SAM_NATIVE_ACTION_ENGINE_V4_2.md
+E07_EXACT_ROUTE_ARITHMETIC,Outward and inward weights each equal 3/2 and total D=3,True,out=3/2; in=3/2; total=3,exact Fraction arithmetic
+E08_STATIC_RUNTIME,Current RESOLVE runtime has fixed singleton W9 output,True,alphabet=1; input-dependent capacity=0 bits in installed runtime,CR120D_RUNTIME_INFORMATION_FLOW.json
+E09_NO_X1_INTERVENTION,Current runtime has no X1 intervention surface,True,"runtime intervention absent; physical independence unresolved, not falsified",CR120D_X1_CONTENT_REPORT.json
+E10_HALF_ALONE_OPEN,Half-write/information split alone does not close the open slot,True,QP035 requires a local return correction,QP035_PRIVATE_HALF_WRITE_INFORMATION_FIXED_POINT_SELECTOR.md
+E11_RETURN_SELECTED,QP036 selects a native local information-return correction,True,residual_stack_minus_R_neutral_route_reservation,QP036_PRIVATE_LOCAL_INFORMATION_RETURN_CORRECTION_SELECTOR.md
+E12_POST_RETURN_PROMOTION,QP037 promotes one identity after the selected return and holds seven open,True,1 promoted; 7 held open,QP037_PRIVATE_PARTICLE_IDENTITY_CLOSURE_FREEZE.md
+E13_HALF_WRITE_GEOMETRY,Half-write split and D=3 half-write geometry are independently recorded,True,CR103a split record; CR104c 9/16 half-write-side structure,CR103a_result.md; CR104c_result.md
+E14_EXPLICIT_INTERFACE_WELD,Authority source explicitly maps B=request and X1=response,False,No explicit authority-bearing weld found,frozen authority source set

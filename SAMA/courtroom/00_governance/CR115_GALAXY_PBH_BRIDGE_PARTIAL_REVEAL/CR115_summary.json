@@ -1,0 +1,142 @@
+{
+  "cr_id": "CR115",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_08_13_14",
+  "lives_in": "00_governance",
+  "test_class": "RETROACTIVE_PARTIAL_BRIDGE_BRANCH_08_TO_CR110_PRED_1_AND_PRED_2",
+  "execution_status": "CLEAN",
+  "result_class": "CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "bridge_sha256": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c",
+  "key_evidence": {
+    "sparc_galaxies": 175,
+    "sparc_points": 3391,
+    "median_outer_dark_fraction": 0.760699023482704,
+    "post_bb_particle_pbh_supplies_pct": 2.576714268055339,
+    "chi2_improvement_factor": 150.7662388291606,
+    "clustered_overdensity_factor": 79090.03192365015,
+    "radial_law_status": "native radial organization law / mass function / concentration relation"
+  },
+  "CR110_PRED_1_status": "BRIDGED_PARTIALLY_RESIDUAL_AND_CLUSTERED_PROFILE_CLOSED_NATIVE_RADIAL_LAW_OPEN",
+  "CR110_PRED_2_status": "BRIDGED_PARTICLE_PBH_INSUFFICIENT_CONSISTENT_WITH_CUMULATIVE_A_READING",
+  "upstream_hashes": {
+    "CR022_kernel_root_sha256": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_inventory_chain_sha256": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_sparc_residual_sha256": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_clustered_profile_sha256": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR030_branch_verdict_sha256": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc",
+    "CR107_sparc_anchor_sha256": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR109_pbh_anchor_sha256": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+    "CR110_three_mode_appeal_sha256": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR098a_registry_csv_sha256": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR098a_prediction_commit_sha256": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe",
+    "CR113_cross_branch_certificate_sha256": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+    "CR114_cosmic_baryon_bridge_sha256": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "BLINDNESS_PROTOCOL_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_branch_08_summaries_present",
+      "pass": true
+    },
+    {
+      "name": "P2_cr110_appeal_present",
+      "pass": true
+    },
+    {
+      "name": "P3_cr107_sparc_anchor_present",
+      "pass": true
+    },
+    {
+      "name": "P4_cr109_pbh_anchor_present",
+      "pass": true
+    },
+    {
+      "name": "P5_cr024_real_sparc_175_galaxies_loaded",
+      "pass": true,
+      "details": {
+        "sparc_galaxies": 175,
+        "sparc_points": 3391
+      }
+    },
+    {
+      "name": "P6_cr024_post_bb_particle_pbh_insufficient_as_full_halo",
+      "pass": true,
+      "details": {
+        "post_bb_supplied_pct_of_dark_residual": 2.576714268055339
+      }
+    },
+    {
+      "name": "P7_cr025_clustered_profile_chi2_improvement_over_100x",
+      "pass": true,
+      "details": {
+        "chi2_improvement_factor": 150.7662388291606
+      }
+    },
+    {
+      "name": "P8_cr025_radial_law_explicitly_recorded_as_open",
+      "pass": true,
+      "details": {
+        "selector_open": "native radial organization law / mass function / concentration relation"
+      }
+    },
+    {
+      "name": "P9_naming_disambiguation_documented",
+      "pass": true,
+      "details": "trapped-A vs particle PBH distinction explicit in bridge"
+    },
+    {
+      "name": "P10_both_appeal_rows_written_to_separate_csv",
+      "pass": true
+    },
+    {
+      "name": "P11_bridge_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "bridge_sha256": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c"
+      }
+    },
+    {
+      "name": "P12_blindness_protocol_present",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_branch_08_CR_modified",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_cr110_appeal_modified",
+      "pass": true
+    },
+    {
+      "name": "WC3_cr098a_registry_csv_not_modified",
+      "pass": true,
+      "details": "appeal rows sit in CR115 dir, not inline in CR098a CSV"
+    },
+    {
+      "name": "WC4_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC5_no_full_closure_claimed_radial_law_explicitly_marked_open",
+      "pass": true,
+      "details": "CR115 explicitly states the bridge is PARTIAL; G732c R12 functional form not tested"
+    },
+    {
+      "name": "WC6_trapped_a_vs_particle_pbh_not_conflated",
+      "pass": true,
+      "details": "naming disambiguation explicit in bridge JSON and appeal-row scope notes"
+    },
+    {
+      "name": "WC7_no_forward_blind_claim_made",
+      "pass": true,
+      "details": "branch 08 CR022-CR030 were sealed BEFORE CR110; bridge is RETROACTIVE"
+    }
+  ],
+  "open_debts": [
+    "G732c r_c = R_outer/12 specific functional form vs SPARC per-galaxy r_c is the natural next reveal CR",
+    "CR110_PRED_3 (Earth-mode K(A_H) continued improvement) - no direct bridge in 08; bridges to 13/14 EP tests",
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED"
+  ]
+}

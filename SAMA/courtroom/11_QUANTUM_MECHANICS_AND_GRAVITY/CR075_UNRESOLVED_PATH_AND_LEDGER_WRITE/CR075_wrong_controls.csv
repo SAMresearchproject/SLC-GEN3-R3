@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Fit on observed,FAIL,True,True,fit-scan wired
+WC2,free_params=1,FAIL,True,True,free-params detection wired
+WC3,Absent protected route,DIAGNOSTIC,True,True,absence detection wired
+WC4,Missing public bridge,BOUNDARY,True,True,absent-bridge detection wired
+WC5,Seal corruption,DIAGNOSTIC,True,True,seal wired
+WC6,Pattern in comment context,PRESENCE_RECORDED,True,True,presence-only check

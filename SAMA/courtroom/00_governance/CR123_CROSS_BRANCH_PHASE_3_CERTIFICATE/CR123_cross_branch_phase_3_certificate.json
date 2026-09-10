@@ -1,0 +1,71 @@
+{
+  "certificate_id": "CR123_COURTROOM_CROSS_BRANCH_PHASE_3_CERTIFICATE",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_PHASE_3",
+  "sealed_at_utc": "2026-06-15T19:43:43Z",
+  "phase_3_summary": "the four CRs that emerged from the qp091 -> qp091t closed form and the qp092a -> qp092h gravity mechanism + carrier compression rule, plus the qp093/qp094 finite catalog work",
+  "phase_3_objects_certified": {
+    "CR119_09a_vault_reveal": {
+      "branch": "09a_PARTICLE_MASS_CHAIN",
+      "verdict": "PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY",
+      "summary_sha256": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+      "row_counts": {
+        "particle": 321,
+        "matter": 126,
+        "periodic": 126,
+        "vault_identity_assignments": 573
+      },
+      "headline": "321 particles + 126 matter + 126 periodic table; tensor carrier NOT promoted; qA NOT mass"
+    },
+    "CR120_09a_qp091_chain": {
+      "branch": "09a_PARTICLE_MASS_CHAIN",
+      "verdict": "CR120_QP091_HIGGS_EW_PRECISION_CHAIN_INTAKE_LOCK (from intake lock)",
+      "lock_sha256": "09cf6beaf8bd6fb1520b740b4451491a664e220897e4803f514fd9adcd9e604d",
+      "headline": "H_reveal = R^2(1-2^-D) - D^2/R = 144*7/8 - 9/12 = 125.25 GeV EXACT; from {R=12, D=3} alone; zero free params; dozenal fingerprint 100_12 -> A6_12 -> A5.3_12"
+    },
+    "CR121_11_gravity_mechanism": {
+      "branch": "11_QUANTUM_MECHANICS_AND_GRAVITY",
+      "intake_id": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_LOCK",
+      "lock_sha256": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+      "headline": "1/8 tensor carrier + qA -> ledger compression -> A field = gravity; NOT a graviton particle; recovers G clock path delay, 2 tensor polarizations at c, A(r)=r_s/r kernel; zero free params"
+    },
+    "CR122_gov_carrier_compression_gate": {
+      "branch": "00_governance",
+      "intake_id": "CR122_CARRIER_COMPRESSION_GATE_LOCK",
+      "lock_sha256": "26b4ea2cf3cc6dd89bd47e392e23d3dd600776e9cc14a081a1b0dc81663ad27a",
+      "headline": "qp092h carrier-compression rule retroactively gates 10 sealed CRs across 5 branches; direct qA-as-mass rejected at 0.66-0.99% overread / 1.475 sigma vs Planck; none invalidated"
+    }
+  },
+  "phase_2_chain_of_custody": {
+    "CR113_phase_2_cross_branch_certificate": "5023841154959148aab6574358be3bd24eeab58f585736b2c28cc387e1cb2f35",
+    "CR114_cosmic_baryon_bridge_sigma_0_0017": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "CR117_sam_cmb_scope_boundary": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+    "CR118_sn_bao_headline_0_240pct": "05b17c8984b1546c9d301e0c89f208472cc45584660c0958b367b0b48abb848d"
+  },
+  "phase_1_anchors": {
+    "CR064a_09a_branch_verdict": "a2af5df2dd3ac83cd131bb8a09913d806d0ba57db70942f53b232a892f0173e6",
+    "CR106_14_branch_verdict": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "CR098_13_particle_registry": "6884850496ee233ed799c886dc114c70e9930b9a6c9b9c7d5df867064751fb1e",
+    "CR069a_09a_phase_2_verdict": "6a4d7d7dfdbf0fbf5f717a11390700ed66424e330f75f0307a9985e3beff4055",
+    "CR112_14_phase_2_verdict": "632917ff7fcf9573e6b016103993fb739fdbcbae6aca1c8d6709202c583a7889",
+    "CR098a_13_phase_2_registry": "f5ea66c9ffb02ef60d5b8fa99ba5e7eb1674b9042099b67e7b3fb90e79145dfe"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "composite_phase_3_sha256": "263bc61b487884ec2af45aa53691c1f83b29859ad5abf7869a76571080f4fec9",
+  "what_this_phase_3_certifies": [
+    "the four Phase 3 CRs (CR119, CR120, CR121, CR122) sealed prior to this certificate",
+    "the four underlying object sha256s reproduce the composite sha256 deterministically",
+    "any future modification to any Phase 3 object invalidates this certificate",
+    "Phase 2 chain of custody (CR113, CR114, CR117, CR118) recorded but unmodified",
+    "Phase 1 anchors (CR064a, CR106, CR098, CR069a, CR112, CR098a) recorded but unmodified"
+  ],
+  "what_this_phase_3_does_NOT_certify": [
+    "the underlying SAM physics is correct (the certificate is provenance, not physics)",
+    "any future revision will continue to satisfy CR122's carrier-compression rule (that is a forward-blind claim, not a proven fact)",
+    "completion of branch 11 quantum-gravity scope (CR121 is mechanism, not full theorem)",
+    "curator sign-off (status remains PROVISIONAL until curator signs)"
+  ],
+  "structural_unification_one_line": "All four Phase 3 CRs are consequences of one R^2 = 144 closed-loop split at R=12, D=3: CR119 = 126 universal (mass + element vault); CR120 = 7/8 retained -> H_reveal = 125.25 GeV exact; CR121 = 1/8 -> gravity (matter sources A via ledger compression); CR122 = 1/8 -> cosmology gate (inventory routes admit through identical carrier compression).",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "modifies_no_branch_artifact": true,
+  "free_parameters_introduced": 0
+}

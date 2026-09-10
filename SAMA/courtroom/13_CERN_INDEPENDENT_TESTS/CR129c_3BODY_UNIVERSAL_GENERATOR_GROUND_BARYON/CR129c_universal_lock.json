@@ -1,0 +1,72 @@
+{
+  "cr_id": "CR129c",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with a 3-element partition (a, b, c) drawn from the SAM partition algebra, regardless of operator_class or stability_status, M_native = R*D*(a^2+b^2+c^2) = 36*(a^2+b^2+c^2) exactly.",
+    "falsifier": "ONE single future 3-body row whose M_native differs from the formula by any non-zero integer.  ONE violation falsifies the universal-3-body claim and demotes the formula to the per-class claims of CR129 and CR129c.",
+    "free_parameters_at_test": 0,
+    "id": "CR129c_PRED_1",
+    "non_falsifying": "Rows with partition size != 3.  Rows containing algebra extensions (separate appeal CR)."
+  },
+  "immutability": "Universal 3-body M_native formula is frozen at CR129c seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "GROUND_BARYON_3BODY_matches": 44,
+    "GROUND_BARYON_3BODY_rows_tested": 44,
+    "GROUND_BARYON_3BODY_violations": 0,
+    "OCTET_COMPOSITE_3body_matches_from_CR129": 76,
+    "by_stability_status": {
+      "BOUND_COLOR_CLOSED_HEAVY_CANDIDATE": {
+        "matches": 17,
+        "violations": 0
+      },
+      "BOUND_COLOR_CLOSED_STABLE_CANDIDATE": {
+        "matches": 14,
+        "violations": 0
+      },
+      "REJECTED_FAKE_CLOSURE": {
+        "matches": 13,
+        "violations": 0
+      }
+    },
+    "combined_3body_matches": 120,
+    "combined_3body_rows_in_CR119": 120,
+    "combined_3body_violations": 0,
+    "coverage_fraction": 1.0,
+    "distinct_triples_observed_in_GROUND_BARYON": 44
+  },
+  "law_definition": {
+    "applies_to": "ANY 3-element partition (a, b, c) drawn from the SAM partition algebra, REGARDLESS of operator_class or stability_status",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "R_times_D": 36,
+      "alpha_H": 2
+    },
+    "formula": "M_native(a, b, c) = R * D * (a^2 + b^2 + c^2) = 36 * (a^2 + b^2 + c^2)",
+    "name": "UNIVERSAL_3BODY_M_NATIVE_GENERATOR",
+    "partition_algebra": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "structural_significance": "The formula holds even on REJECTED_FAKE_CLOSURE rows -- SAM generates every candidate row from the partition algebra via this M_native formula, and stability_status is then assigned DOWNSTREAM by physicality filters (qA support, tensor carrier, retained write).  The M_native formula is the GENERATOR; stability is the FILTER.",
+    "symmetry": "fully symmetric in (a, b, c)"
+  },
+  "promoted_utc": "2026-06-15T23:04:43Z",
+  "promotion_claim": "The 3-body M_native generator M = R*D*(a^2+b^2+c^2) is UNIVERSAL across operator_class.  It holds for OCTET_COMPOSITE 3-body (CR129, 76 rows) AND for GROUND_BARYON_3BODY (CR129c, 44 rows).  Combined: all 120 of the 3-body rows in CR119 obey the same closed form.",
+  "promotion_version": "v1.0",
+  "rejected_fake_closure_observation": {
+    "claim": "REJECTED_FAKE_CLOSURE rows DO obey the M_native formula.",
+    "evidence": "13 of 13 REJECTED_FAKE_CLOSURE rows match the formula.  This confirms the M_native generator operates UPSTREAM of the stability filter.",
+    "structural_interpretation": "SAM's row generator produces every (a,b,c) configuration via M = R*D*Sum a_i^2.  The physicality filter (qA support, color closure, write retention) then promotes or rejects each generated candidate.  REJECTED rows are NOT generator failures -- they are filter rejections of structurally-valid mass values."
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+    "CR129_verification_csv": "abe8df7fe3d752accbe115728d53d3f8fa2c256c3ca7f1d3dd0bdb56358378df"
+  }
+}

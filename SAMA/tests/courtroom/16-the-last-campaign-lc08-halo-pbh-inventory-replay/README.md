@@ -1,0 +1,87 @@
+# Courtroom test package: LC08_HALO_PBH_INVENTORY_REPLAY
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY)
+
+This index includes every tracked file below `16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**11 files · 48,576 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Wrong controls and comparison rows
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC08_seed_candidate_rows.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_seed_candidate_rows.csv) | 1,046 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_seed_candidate_rows.csv) |
+| [LC08_wrong_controls.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_wrong_controls.csv) | 2,546 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_wrong_controls.csv) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC08_result.md](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_result.md) | 2,792 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_result.md) |
+| [LC08_summary.json](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_summary.json) | 5,063 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [HASHES.txt](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/HASHES.txt) | 1,538 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/HASHES.txt) |
+| [LC08_formula_manifest.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_formula_manifest.csv) | 1,337 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_formula_manifest.csv) |
+| [LC08_sources_hashes.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_sources_hashes.csv) | 10,886 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_sources_hashes.csv) |
+
+## Data and supporting files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [LC08_checks.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_checks.csv) | 16,909 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_checks.csv) |
+| [LC08_claim_boundaries.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_claim_boundaries.csv) | 1,099 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_claim_boundaries.csv) |
+| [LC08_halo_replay_metrics.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_halo_replay_metrics.csv) | 1,729 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_halo_replay_metrics.csv) |
+| [LC08_replay_layers.csv](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_replay_layers.csv) | 3,631 | [Raw](../../../courtroom/16_THE_LAST_CAMPAIGN/LC08_HALO_PBH_INVENTORY_REPLAY/LC08_replay_layers.csv) |
+
+## Related Courtroom tests
+
+- **depends on:** [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR033_X_INF_SUBSTRATE_DERIVATION_IDENTITY](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR033_X_INF_SUBSTRATE_DERIVATION_IDENTITY)
+- **retest of:** [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR033_X_INF_SUBSTRATE_DERIVATION_IDENTITY](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR033_X_INF_SUBSTRATE_DERIVATION_IDENTITY)
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE](../../../courtroom/00_governance/CR113_CROSS_BRANCH_PHASE_2_CERTIFICATE)
+- [00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL](../../../courtroom/00_governance/CR115_GALAXY_PBH_BRIDGE_PARTIAL_REVEAL)
+- [00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION](../../../courtroom/00_governance/CR116_SAM_HALO_COMPOSITION_CORRECTION)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR022_PRECISION_CMB_EXTENSION_FROM_sam_precision_cmb](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR022_PRECISION_CMB_EXTENSION_FROM_sam_precision_cmb)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR023_BARYON_COSMOLOGY_BRANCH_VERDICT](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR023_BARYON_COSMOLOGY_BRANCH_VERDICT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR023_BB_PBH_TRAPPED_A_INVENTORY](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR023_BB_PBH_TRAPPED_A_INVENTORY)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR026_SEED_FIRST_CLUSTERING_SELECTOR](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR026_SEED_FIRST_CLUSTERING_SELECTOR)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR028_QP042_BARYON_SCAFFOLD_SUPPORT](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR028_QP042_BARYON_SCAFFOLD_SUPPORT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR029_NATIVE_RADIAL_LAW_DEBT_LEDGER](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR029_NATIVE_RADIAL_LAW_DEBT_LEDGER)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR030_BRANCH_VERDICT_ZIPPER](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR030_BRANCH_VERDICT_ZIPPER)
+- [12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts](../../../courtroom/12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts)
+- [13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098a_FORWARD_BLIND_REGISTRY_PHASE_2_REFRESH)
+- [13_CERN_INDEPENDENT_TESTS/CR098b_FORWARD_BLIND_REGISTRY_PHASE_3_REFRESH](../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR098b_FORWARD_BLIND_REGISTRY_PHASE_3_REFRESH)
+- [14_FOUNDATIONAL_TESTS/CR110_THREE_MODE_EARTH_GALAXY_PBH_CLOSURE_APPEAL](../../../courtroom/14_FOUNDATIONAL_TESTS/CR110_THREE_MODE_EARTH_GALAXY_PBH_CLOSURE_APPEAL)
+- [14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM)
+- [14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM](../../../courtroom/14_FOUNDATIONAL_TESTS/CR116_18_GRAVITON_CARRIER_THEOREM)
+- [16_THE_LAST_CAMPAIGN](../../../courtroom/16_THE_LAST_CAMPAIGN)
+- [16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY)
+- [16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY](../../../courtroom/16_THE_LAST_CAMPAIGN/LC07_SN_BAO_DISTANCE_ROAD_REPLAY)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/16_THE_LAST_CAMPAIGN) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

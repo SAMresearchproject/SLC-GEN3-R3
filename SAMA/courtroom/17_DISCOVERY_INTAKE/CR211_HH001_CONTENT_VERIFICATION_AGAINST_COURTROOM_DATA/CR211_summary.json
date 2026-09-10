@@ -1,0 +1,79 @@
+{
+  "artifacts": {
+    "checks": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_checks.csv",
+    "content_claims": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_content_claims.csv",
+    "external_reference_columns": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_external_reference_columns.csv",
+    "fano_algebra": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_fano_algebra_checks.csv",
+    "hashes": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/HASHES.txt",
+    "input_manifest": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_input_manifest.csv",
+    "precommit": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_PRECOMMIT.md",
+    "result": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_result.md",
+    "row_verification": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_row_verification.csv",
+    "summary": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_summary.json",
+    "wrong_controls": "17_HAUNTED_HOUSE_INTAKE/CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA/CR211_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 35,
+    "total": 35
+  },
+  "courtroom_backed_columns": {
+    "element_matches": 126,
+    "graviton_matches": 126,
+    "gravity_over_8_matches": 126,
+    "label_matches": 126,
+    "particle_matches": 126,
+    "qA_matches": 126,
+    "row_pass_count": 126,
+    "row_total": 126
+  },
+  "cr_id": "CR211",
+  "diagnostics": {
+    "action_residual_known_rows": 102,
+    "action_residual_matches": 1,
+    "binary_v22_closed": 7,
+    "binary_v2_closed": 7,
+    "signature_sum_distinct": 120,
+    "signature_xor_distinct": 101
+  },
+  "execution_status": "CLEAN",
+  "frontier": {
+    "known_label_input_counts": {
+      "no": 126
+    },
+    "z119_z126_count": 8
+  },
+  "generated_at_utc": "2026-06-19T13:10:53+00:00",
+  "hh001_sources": {
+    "declared": 24,
+    "missing": []
+  },
+  "higgs_source_separation": {
+    "H_native": "126",
+    "H_reveal_decimal": "125.250000000000000000000000000000",
+    "lc02_result_class": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK"
+  },
+  "pdf": {
+    "contains_frontier": true,
+    "contains_z126": true,
+    "page_count": 11,
+    "sam_fano_plate_mentions": 11,
+    "text_sha256": "2cecd909f34d6d3a4ff00b79b9981277d2015e100cd22a5e2442e5cbe8f6c626"
+  },
+  "reference_columns_flagged": [
+    "MATTER",
+    "CLOCK",
+    "LIGHT",
+    "ACTION"
+  ],
+  "result_class": "CR211_PASS_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA__COURTROOM_COLUMNS_MATCH__REFERENCE_COLUMNS_FLAGGED__DIAGNOSTICS_PRESERVED",
+  "test_id": "CR211_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA",
+  "theorem_inputs": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "carrier_cells": 18,
+    "face_states": 8,
+    "retained_cells": 126
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "test_id": "CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QN012_summary.json",
+    "../_source_artifacts/summaries/QN013_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qn012-qn013 build the live protocol scorecard/data package and live-data ingestion/scoring protocol."
+}

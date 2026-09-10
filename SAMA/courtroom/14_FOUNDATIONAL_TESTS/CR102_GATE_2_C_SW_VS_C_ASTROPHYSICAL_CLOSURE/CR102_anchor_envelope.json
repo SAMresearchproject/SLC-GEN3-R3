@@ -1,0 +1,123 @@
+{
+  "envelope_id": "CR102_ASTROPHYSICAL_ANCHOR_ENVELOPE",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "target_cr": "CR102_GATE_2_C_SW_VS_C_ASTROPHYSICAL_CLOSURE",
+  "envelope_status": "PROVISIONAL_DRAFT_PRE_CITATION_VERIFICATION",
+  "envelope_sealed_at_utc": "2026-06-13T00:00:00Z",
+  "observable_name": "(v_propagating_quantum - c) / c at observatory-class precision",
+  "live_anchors": [
+    {
+      "row_id": "A1",
+      "experiment": "Fermi-LAT",
+      "source_object": "GRB 090510",
+      "publication_reference": "arXiv:1305.3463 (Vasileiou et al. 2013, PRD 87, 122001)",
+      "publication_date_utc": "2013-06-15",
+      "measurement_central_value": 0.0,
+      "stat_uncertainty": 1.0e-15,
+      "sys_uncertainty": 0.0,
+      "units": "(v_gamma - c)/c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "Linear LIV bound at GRB photon energies ~30 GeV; precision 1e-15 used as conservative effective constraint"
+    },
+    {
+      "row_id": "A2",
+      "experiment": "IceCube",
+      "source_object": "astrophysical neutrino LIV",
+      "publication_reference": "arXiv:1709.03434",
+      "publication_date_utc": "2017-09-11",
+      "measurement_central_value": 0.0,
+      "stat_uncertainty": 1.0e-18,
+      "sys_uncertainty": 0.0,
+      "units": "(v_v - c)/c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null,
+      "note": "Tightest available bound; sets precision floor for CR102 verdict"
+    },
+    {
+      "row_id": "A3",
+      "experiment": "MAGIC",
+      "source_object": "PKS 1222+216 / Mrk 421",
+      "publication_reference": "arXiv:1106.1410",
+      "publication_date_utc": "2011-06-07",
+      "measurement_central_value": 0.0,
+      "stat_uncertainty": 1.0e-11,
+      "sys_uncertainty": 0.0,
+      "units": "(v_gamma - c)/c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A4",
+      "experiment": "HESS",
+      "source_object": "PKS 2155-304",
+      "publication_reference": "arXiv:1101.3650",
+      "publication_date_utc": "2011-01-19",
+      "measurement_central_value": 0.0,
+      "stat_uncertainty": 1.0e-11,
+      "sys_uncertainty": 0.0,
+      "units": "(v_gamma - c)/c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A5",
+      "experiment": "HESS+MAGIC+VERITAS (combined)",
+      "source_object": "Crab pulsar TeV-gamma timing",
+      "publication_reference": "arXiv:1707.04249",
+      "publication_date_utc": "2017-07-13",
+      "measurement_central_value": 0.0,
+      "stat_uncertainty": 1.0e-12,
+      "sys_uncertainty": 0.0,
+      "units": "(v_gamma - c)/c",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "honest_negative_class": null
+    }
+  ],
+  "honest_negative_anchors": [
+    {
+      "row_id": "HN1",
+      "experiment": "OPERA (2011 original, WITHDRAWN)",
+      "publication_reference": "arXiv:1109.4897 v1",
+      "publication_date_utc": "2011-09-22",
+      "measurement_central_value": 24.8e-6,
+      "stat_uncertainty": 4.2e-6,
+      "sys_uncertainty": 0.0,
+      "units": "(v_v - c)/c",
+      "honest_negative_class": "CLASS_A",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rejection_rationale": "withdrawn / fiber-connector artefact"
+    },
+    {
+      "row_id": "HN2",
+      "experiment": "Unpublished preprint claim (no journal reference)",
+      "publication_reference": "NO_PUBLICATION_REFERENCE",
+      "publication_date_utc": "2026-06-13",
+      "measurement_central_value": 1.0e-7,
+      "stat_uncertainty": 1.0e-8,
+      "sys_uncertainty": 0.0,
+      "units": "(v - c)/c",
+      "honest_negative_class": "CLASS_X_UNPUBLISHED",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rejection_rationale": "no peer-reviewed publication reference"
+    },
+    {
+      "row_id": "HN3",
+      "experiment": "Fermi-LAT (synthetic CLASS_G perturbation)",
+      "publication_reference": "SYNTHETIC_PERTURBATION_OF_arXiv:1305.3463",
+      "publication_date_utc": "2026-06-13",
+      "measurement_central_value": 1.0e-13,
+      "stat_uncertainty": 1.0e-15,
+      "sys_uncertainty": 0.0,
+      "units": "(v_gamma - c)/c",
+      "honest_negative_class": "CLASS_G",
+      "expected_rejection_gate": "GATE_R_RESIDUAL",
+      "rejection_rationale": "central value shifted by 100x published precision; residual against SAM's 0 exceeds 100 sigma; passes admissibility (real Fermi-LAT framing) but fails Gate R as designed"
+    }
+  ]
+}

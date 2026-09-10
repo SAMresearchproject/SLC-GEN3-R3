@@ -1,0 +1,10 @@
+taxonomy,observed,expected,passed
+total_rows,139,139,True
+matter_allowed_yes,126,126,True
+nonmatter_blocked_no_raw,13,13,True
+unique_support_roster_rows,12,12,True
+duplicate_mirror_rows,1,1,True
+stable_matter_rows,63,63,True
+bound_composite_rows,63,63,True
+carrier_only_rows,5,5,True
+hidden_source_support_rows,8,8,True

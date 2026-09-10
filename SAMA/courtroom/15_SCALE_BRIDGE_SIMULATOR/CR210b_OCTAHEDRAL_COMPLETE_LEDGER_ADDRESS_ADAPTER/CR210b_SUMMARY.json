@@ -1,0 +1,45 @@
+{
+  "record_id": "CR210b_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "verdict": "CR210b_FAIL_PRECOMMITTED_STRUCTURAL_CHECK",
+  "checks_passed": 15,
+  "checks_total": 17,
+  "exact_source_native": {
+    "ledger_slots": 162,
+    "kind_partition": [
+      18,
+      126,
+      18
+    ],
+    "w9_by_k18": [
+      9,
+      18
+    ],
+    "six_fibers": [
+      6,
+      27
+    ],
+    "fiber_kind_partition": [
+      3,
+      21,
+      3
+    ],
+    "side_kind_partition": [
+      9,
+      63,
+      9
+    ]
+  },
+  "candidate_constructions": {
+    "route_edge_bijection": "12 routes to 12 octahedral edges",
+    "h27_face_poset": "27 nodes, 56 links, connected",
+    "boundary_quotients": "two count-equivalent antipodal candidates"
+  },
+  "decisive_boundaries": [
+    "The 12+6 split is one of 64 valid partitions per block and parity.",
+    "The route-edge map is a deterministic address convention, not a physical identity.",
+    "The H27 adjacency is octahedral combinatorics, not Starbreaker dynamics.",
+    "Counts do not choose cross-kind over same-kind boundary pairing.",
+    "Centered ternary rank is constructed and distinct from the H27 ontology.",
+    "F81 membership, physical identity, outcomes, and binding remain open."
+  ]
+}

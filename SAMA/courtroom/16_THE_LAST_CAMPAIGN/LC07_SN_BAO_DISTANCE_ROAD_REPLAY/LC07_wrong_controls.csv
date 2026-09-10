@@ -1,0 +1,11 @@
+wrong_control,attempted_mutation,evidence,result
+WC24_DISTANCE_ROAD_D_REFIT,refit or optimize D in the distance road after LC01/CR115 lock D=3,LC01 D=3; CR115 stable_ds=[3]; CR013 D2_power control rejects; CR015 BAO_D2 control rejects; LC07 runs no optimizer,REJECTED
+WC25_DISTANCE_BIN_CHERRY_PICK,select favorable SN/BAO bins after seeing the residuals,LC07 replays all 1701 SN rows and all 19 primary BAO rows; BAO rows over 3 sigma=0; all overlap sites contain SN rows,REJECTED
+WC03_TARGET_VALUE_SUBSTITUTION,"choose A_los, w, r_drag, or theta formula from observed target values",CR012 bridge fixed before targets; CR016 Planck target_data_used_to_choose_formula=false; CR118 records SAM fit parameter count 0,REJECTED
+WC_SN_BAO_SHARED_DATA_LEAK,let SN rows determine BAO or BAO rows determine SN,CR013 bao_inputs_not_loaded=true; CR014 sn_inputs_not_loaded=true; CR015 compares only after both ledgers are defined,REJECTED
+WC_OVERLAP_AS_GLOBAL_CLAIM,misrepresent the 0.240% overlap as a global all-z residual,CR015 overlap rows are local z-site witness rows; CR118 WC5 explicitly rejects global-overlap wording,REJECTED
+WC_FULL_COSMOLOGY_OVERCLAIM,"promote branch 06 to full CMB modal, polarization, recombination, or full cosmology closure",CR017 leaves CMB modal/polarization OPEN_NOT_CLAIMED; CR118 WC1 preserves this boundary,REJECTED
+WC_BAO_SAMPLE_OVERSTATE,present the 19-row BAO compilation as a full future-survey catalog,LC07 row count is 19; CR118 WC4 states BAO is a 19-row compilation,REJECTED
+WC06_FORMULA_PATCH_OR_HIDDEN_TERM,"patch A_los, w, or window formulas after comparison","LC07 formula manifest contains every term used; branch candidate controls reject no_shrink, half_A, D2_power, no_window, half_window, sign-flip, and phi-power paths",REJECTED
+WC_OLDER_G_VERDICT_SUBSTITUTION,replace local branch-06 CR dependencies with older external G verdicts,CR017 dependency table contains CR012-CR016 local CR summaries only; external_G_verdict_replaces_local_CR is rejected,REJECTED
+WC13_REPLAY_WITHOUT_HASH_LOCK,accept LC07 without source hashes or artifact manifest,LC07 emits sources_hashes.csv and HASHES.txt over runner plus result artifacts,REJECTED

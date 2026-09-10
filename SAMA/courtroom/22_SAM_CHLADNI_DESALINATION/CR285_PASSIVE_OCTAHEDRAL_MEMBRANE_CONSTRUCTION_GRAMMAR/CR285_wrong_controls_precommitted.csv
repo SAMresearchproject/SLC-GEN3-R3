@@ -1,0 +1,18 @@
+control_id,control_class,control,required_disposition,falsifies_if
+WC01,port_geometry,entry face reused as exit,REJECT,same-face route is admitted
+WC02,port_geometry,one-bit-flip exit face,REJECT,non-complementary route is promoted
+WC03,port_geometry,two-bit-flip exit face,REJECT,non-complementary route is promoted
+WC04,port_geometry,entry and exit share a vertex,REJECT,opposite-port disjointness fails
+WC05,port_geometry,entry and exit share an edge,REJECT,opposite-port disjointness fails
+WC06,shape_rewrite,triad row treated as one literal face,REJECT,CR120U template meaning is overwritten
+WC07,shape_rewrite,tetrahedral reinterpretation,REJECT,the frozen octahedral incidence operator is replaced
+WC08,role_leakage,hidden-support rows assigned to faces,REJECT,an unresolved assignment is required
+WC09,role_leakage,carrier rows assigned to vertices,REJECT,an unresolved assignment is required
+WC10,physical_unit_leakage,M_native treated as pore diameter or length,REJECT,a QP number is promoted to a physical dimension
+WC11,physical_unit_leakage,M_native treated as barrier energy or pressure,REJECT,a QP number is promoted to a physical observable
+WC12,target_leakage,observed hydrated radius or rejection selects the gate,REJECT,an observed target changes construction
+WC13,rescue_rule,weighted compatibility coefficients,REJECT,a fitted weight changes the ordering
+WC14,acoustic_dependency,frequency mode strength power or escape index enters the passive gate,REJECT,the passive system depends on shelved acoustics
+WC15,starbreaker_dependency,A ledger density remnant or collapse selects the gate,REJECT,the membrane grammar depends on untyped process context
+WC16,promotion_error,gate catalog described as species selectivity,REJECT,topology is promoted to a molecular result
+WC17,promotion_error,gate catalog described as a fabricated membrane,REJECT,topology is promoted to hardware

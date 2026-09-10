@@ -1,0 +1,8 @@
+# CR070a Expanded NV-Diamond T2 Contact Table
+# Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.
+#
+# Pinned exact versions for reproducibility (matches CR074a discipline
+# even though CR074a is the formal reproducibility lock).
+
+numpy==1.26.4
+matplotlib==3.8.4

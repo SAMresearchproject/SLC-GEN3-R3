@@ -1,0 +1,13 @@
+2026-07-12T03:09:07Z | python tools\run_sam_test.py --task "SAM_PROSPECTIVE_CR_S8_TYPED_SURFACE_CLOSURE_5_5_XHIGH" --preflight-only | produced constructive-new-work preflight; script allowed; no audit approval required.
+2026-07-12T03:10Z | Read campaign prompt and preflight JSON | confirmed firewall, stop points, required outputs, and one-CR scope.
+2026-07-12T03:10Z | Targeted listings of CR114, CR233, CR238, CR252, CR258 | located required scientific source chain only.
+2026-07-12T03:10Z | Targeted search for G305 under C:/VS/Stam_model-A-v1.0/tests/Substrate | found G305_chi_horizon_quotient_measure.
+2026-07-12T03:10Z | Targeted rg for S=8/binary/Theta terms in named CRs and G outputs | extracted source occurrences for register.
+2026-07-12T03:11Z | Targeted rg for Volume I/Section 4 S=8 terms | extracted manuscript/context occurrences.
+2026-07-12T03:11Z | Narrow rg -l over external substrate tests for explicit S/binary face-state definitions | found G219B, G305, G306, G307 and older superseded/scratch references; active chain limited to corrected/current outputs.
+2026-07-12T03:11Z | Read G306/G307 outputs | included neighboring active horizon-state tests.
+2026-07-12T03:12Z | Read CR258 and CR238 outputs | resolved source hierarchy conflict by taking CR258 as current primitive-base controller and preserving CR238 as sealed historical wording.
+2026-07-12T03:12:56Z | Created CR117 folder and precommit source package | runner not yet written.
+2026-07-12T03:13Z | Get-FileHash CR117_PRECOMMIT.md | sha256 84c1a50c983e8d48c63f7a64ed30c32fc8961140a70efd05a5aa7bf8f81cb638; runner still not written.
+2026-07-12T03:14Z | Get-FileHash CR117_runner.py | sha256 47371345a72e306f932ff815420d91e48f23c848d14446bd76d113dfe0ec5dc1 before wrapper execution.
+2026-07-12T03:18:19Z | CR117_runner.py executed | primary_verdict PASS_S8_TYPED_SURFACE_CLOSURE_UNIFICATION; scientific_result_status PASS.

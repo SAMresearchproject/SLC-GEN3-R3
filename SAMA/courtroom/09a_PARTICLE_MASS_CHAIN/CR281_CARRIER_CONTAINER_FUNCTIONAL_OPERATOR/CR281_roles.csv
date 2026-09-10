@@ -1,0 +1,9 @@
+label,value,h_exp,d_exp,value_from_address,address_value_ok,expected,actual,match
+m_3,6,1,1,6,True,OUTPUT,OUTPUT,True
+D^2,9,0,2,9,True,OUTPUT,OUTPUT,True
+Theta,18,1,2,18,True,OUTPUT,OUTPUT,True
+hV,54,1,3,54,True,OUTPUT,OUTPUT,True
+R,12,2,1,12,True,FIXED_POINT,FIXED_POINT,True
+V,27,0,3,27,True,FIXED_POINT,FIXED_POINT,True
+F,81,0,4,81,True,FIXED_POINT,FIXED_POINT,True
+L,162,1,4,162,True,TERMINAL_CLOSURE,TERMINAL_CLOSURE,True

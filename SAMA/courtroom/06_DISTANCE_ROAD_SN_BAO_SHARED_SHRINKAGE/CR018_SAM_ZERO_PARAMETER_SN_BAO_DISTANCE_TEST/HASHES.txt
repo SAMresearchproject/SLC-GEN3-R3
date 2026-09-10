@@ -1,0 +1,30 @@
+﻿# CR018 HASHES
+
+Sealed 2026-06-27.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Precommit (frozen)
+04f562aa61417995b46091d74b516acf20a425d72dcff672895875a6be6c7e85  CR018_PRECOMMIT.md
+
+# CR018 artifacts (this folder)
+04f562aa61417995b46091d74b516acf20a425d72dcff672895875a6be6c7e85  CR018_PRECOMMIT.md
+113ba695877194741ae94f20f37ea6f15e16931bb4badd2f6d8ae9b31a64fffb  CR018_declared_premises.json
+19b3630ee275ba1585044292eaffb01edb4bbb7ef87c5d8963befe12fe788491  CR018_input_manifest.csv
+747f522ad8dc4201fd540669186585e1fc0fe7c47d03203708bcce015b01ae95  CR018_summary.json
+b1a2a3b0f9251cb092f71de3b17aa4d21bfbd1e62ce0cb716e7154481ac050ef  CR018_result.md
+d1d8ca5965927868dcaa0fad9afc4d142753dc3f3f30b37952ae027c0d3d917a  CR018_runner.py
+e4c0770e1b58394548e65ed5acc76029e3e0f7f605f74aa86005bc83ac88ff23  CR018_evidence_rows.csv
+
+# External sources cited in CR018_input_manifest.csv
+de13b29ff1ae861af51a3c337384a4c8009852a71033cf325d5574b5ec7aa932  EXTERNAL:C:\VS\quantum_phase\data\external\DataRelease\Pantheon+_Data\4_DISTANCES_AND_COVAR\Pantheon+SH0ES.dat
+# Planck2018 r_d = 147.09 Mpc is a literature value (base-LambdaCDM drag); no source file.
+# DESI DR1 BAO 12 distance ratios are hardcoded in CR018_runner.py per the DESI 2024 release.
+

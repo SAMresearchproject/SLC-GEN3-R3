@@ -1,0 +1,28 @@
+CR003@19_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER
+Sealed by: Sean Brady, 2026-06-26
+Verdict: PASS (P1, P2, P3 all hold to 0.0e+00 deviation; identity-exact)
+
+Headline:
+  A_0 = A_horizon / (4*pi*D) at A_horizon=1, D=3 = 1/(12*pi)
+  Omega_m = R*A_0 = alpha_H/(2*pi) = 1/pi (D-invariant under R = 2*alpha_H*D coupling)
+
+Local artifacts (SHA-256):
+  27603dd611afe5ed48fc24709126a58e6553b390a961fe06c4aec59a6ae3b658  CR003_PRECOMMIT.md
+  a54dd2065fb438b82357bdf07d3361d938a439887501f26ce2ff02bbd8e8df93  CR003_runner.py
+  eb81ee8d9f8d395ad982133fe622fa0204109d10b2af688e41d44b748e07ad35  CR003_result.md
+  860ff846ac0dc786176cbb1becb821bb10bfdf971682b6b638b5e095ad8ba9b5  CR003_summary.json
+  df98dd29c1c184b91178b479bfe1d5a096372d4f3f3b1f283a1b511ba4ee5db3  CR003_evidence_rows.csv
+  7c92da4d8c7d0621d40be220ea3cda73eabdcdbdff8c4b17b1eb4c8f2e0c919a  CR003_declared_premises.json
+  d020f960499a44453657408898f7025c9a32c8914c2c4af910a414b5ae4302ea  CR003_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+
+Downstream sealed PASSes consuming A_0 via Omega_m:
+  bdd4dc29688af099a0ec5b6f47e4cb0e449f0ff36c45037e545bf76bb88879ce  CR018b_PRECOMMIT.md  (SN+BAO)
+  ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da  CR019_PRECOMMIT.md   (CMB compressed via fits)
+  64b17ea78ddcf1ecfeffbcd722abc4f7446aaaeea1140e105acc3cad2c053bb1  CR001c@19_PRECOMMIT.md (CMB compressed via Peebles)
+  b18c49fc4f3c2d73c87cbf0112072db4483d9678e7a42dc052f6c60cc4b26633  CR002@19_PRECOMMIT.md  (fate Hubble in readout)

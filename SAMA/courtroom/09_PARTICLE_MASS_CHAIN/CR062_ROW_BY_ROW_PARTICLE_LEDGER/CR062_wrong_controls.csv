@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Perturb e predicted mass by +5%,FAIL,True,True,perturbed_residual=5.00%
+WC2,Perturb d predicted mass by +3%,FAIL,True,True,perturbed_residual=3.00%
+WC3,Assign nu_e an upper-bound-violating predicted mass (10 eV),FAIL,True,True,fake_predicted=1e-05_MeV vs upper_bound=2e-06_MeV
+WC4,Remove a strict row from the frozen table,DIAGNOSTIC,True,True,missing-row diagnostic detection wired (strict row absent from frozen table would yield 0 strict rows count vs expected)
+WC5,Corrupt SOURCE_MANIFEST.csv (CR059 seal mismatches),DIAGNOSTIC,True,True,manifest_sha_mismatch_detection_wired
+WC6,Apply 0% tolerance band to confirm tolerance logic is binding,FAIL,True,True,zero-tolerance correctly catches any non-zero residual

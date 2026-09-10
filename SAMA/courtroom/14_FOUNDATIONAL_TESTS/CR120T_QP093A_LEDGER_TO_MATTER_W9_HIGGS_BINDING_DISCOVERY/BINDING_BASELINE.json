@@ -1,0 +1,148 @@
+{
+  "CR261_split_counts": {
+    "test": 20,
+    "train": 35
+  },
+  "candidate_selection_rows": 35,
+  "controlling_CR274": {
+    "anchors": {
+      "Au-197": 3.7194929808261143,
+      "Fe-56": -1.2320168355005165,
+      "O-16": -0.8917140657912359,
+      "Pb-208": 0.0
+    },
+    "beta_K": {
+      "alpha": 0.7498509965412838,
+      "asym": 36.818129859257176,
+      "coul": 0.8330418169113959,
+      "doubmag": -1.558588968261812,
+      "lightodd": 17.705846519554715,
+      "pair": -78.16971798716308,
+      "quadN_A": 1.4069774382546392,
+      "quadZ_A": 4.251267938620264,
+      "quad_cross_A2": -2.852679669191055,
+      "reonset": 13.611888941654877,
+      "shell_prox": -2.539364333160457,
+      "surf": 27.55377102233821,
+      "vol": 10.814717731372474
+    },
+    "cr": "CR274",
+    "gates": {
+      "G0_cipher_exact": true,
+      "G1_base_RMS_leq_4.5": true,
+      "G2_operators_geq_3_pass": true,
+      "G3_combined_RMS_leq_3.5": true,
+      "G4_within_5MeV_geq_45": true,
+      "G5_anchors_within_10MeV": true,
+      "G6_hash_whitelist": true
+    },
+    "metrics": {
+      "base_5fold_CV_RMS_MeV": 6.114983786681375,
+      "base_RMS_MeV": 3.9101876783724157,
+      "base_outliers_gt_5MeV": 12,
+      "cipher_max_deviation_den": 1,
+      "cipher_max_deviation_num": 0,
+      "combined_RMS_MeV": 2.716039627696933,
+      "n_operators_passed": 4,
+      "n_outliers_gt_5MeV": 5,
+      "within_5MeV_count": 50,
+      "within_5MeV_fraction": 0.9090909090909091
+    },
+    "operators": {
+      "op_3d_odd": {
+        "adopted": true,
+        "family": [
+          "Cu-63",
+          "Mn-55",
+          "Co-59"
+        ],
+        "family_size": 3,
+        "gamma": 6.965431443111167,
+        "mean_improve_MeV": 5.646861267389866
+      },
+      "op_82pre": {
+        "adopted": true,
+        "family": [
+          "Nd-142"
+        ],
+        "family_size": 1,
+        "gamma": -0.7273238920525138,
+        "mean_improve_MeV": 11.63718227284022
+      },
+      "op_dm_sat": {
+        "adopted": true,
+        "family": [
+          "Pb-208"
+        ],
+        "family_size": 1,
+        "gamma": 7.18003785865981,
+        "mean_improve_MeV": 7.18003785865981
+      },
+      "op_ms_fill": {
+        "adopted": true,
+        "family": [
+          "Ag-107",
+          "Sn-120"
+        ],
+        "family_size": 2,
+        "gamma": -0.45314378000587197,
+        "mean_improve_MeV": 4.449270023416119
+      }
+    },
+    "outliers": [
+      {
+        "A": 26,
+        "N": 14,
+        "Z": 12,
+        "final_resid": 5.612225240177084,
+        "isotope": "Mg-26"
+      },
+      {
+        "A": 40,
+        "N": 20,
+        "Z": 20,
+        "final_resid": -6.288323792868162,
+        "isotope": "Ca-40"
+      },
+      {
+        "A": 90,
+        "N": 50,
+        "Z": 40,
+        "final_resid": -5.496222777333543,
+        "isotope": "Zr-90"
+      },
+      {
+        "A": 202,
+        "N": 122,
+        "Z": 80,
+        "final_resid": 5.469273817253164,
+        "isotope": "Hg-202"
+      },
+      {
+        "A": 234,
+        "N": 142,
+        "Z": 92,
+        "final_resid": -7.2539503902268265,
+        "isotope": "U-234"
+      }
+    ],
+    "precommit_hash": "c09616e40e26f7d2df36350b0f3db62c7da81b17e01ce7607a1ed87c8431c3a9",
+    "stewardship_hash": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+    "verdict": "PASS"
+  },
+  "extended_observations_scored": 0,
+  "preserved_dead_ends": {
+    "CR249": "linear connection-fee sum failed",
+    "CR250": "single global rescale did not repair shape"
+  },
+  "test_observations_scored": 0,
+  "train_metrics_frozen_CR274": {
+    "MAE_MeV": 1.96366693791238,
+    "RMS_MeV": 2.5279494454987805,
+    "max_abs_MeV": 6.288323792868162,
+    "mean_residual_MeV": 0.14998062368238024,
+    "n": 35,
+    "within_5": 33,
+    "within_8": 35
+  }
+}

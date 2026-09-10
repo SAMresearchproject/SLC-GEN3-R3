@@ -1,0 +1,13 @@
+candidate_id,operator_class,mode,candidate_value,normalized_M_N_L,exact_7_8_9
+QP093A-0300,TENSOR_CARRIER,native_payload,18,7|8|9,True
+QP093A-0300,TENSOR_CARRIER,partition_scalar,18,7|8|9,True
+QP093A-0301,ROAD_LIGHT_CARRIER,native_payload,0,undefined,False
+QP093A-0301,ROAD_LIGHT_CARRIER,partition_scalar,1,126|144|162,False
+QP093A-0302,WEAK_VECTOR_CARRIER,native_payload,9,14|16|18,False
+QP093A-0302,WEAK_VECTOR_CARRIER,partition_scalar,9,14|16|18,False
+QP093A-0303,NEUTRAL_VECTOR_CARRIER,native_payload,81,14/9|16/9|2,False
+QP093A-0303,NEUTRAL_VECTOR_CARRIER,partition_scalar,81,14/9|16/9|2,False
+QP093A-0304,COLOR_OWNER_CARRIER,native_payload,8,63/4|18|81/4,False
+QP093A-0304,COLOR_OWNER_CARRIER,partition_scalar,8,63/4|18|81/4,False
+QP093A-0305,A_FIELD_CARRIER,native_payload,0,undefined,False
+QP093A-0305,A_FIELD_CARRIER,partition_scalar,1,126|144|162,False

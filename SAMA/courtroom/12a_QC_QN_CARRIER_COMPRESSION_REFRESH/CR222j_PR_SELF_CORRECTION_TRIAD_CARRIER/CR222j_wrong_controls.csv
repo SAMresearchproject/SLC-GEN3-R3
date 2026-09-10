@@ -1,0 +1,12 @@
+wrong_control,attempted_binding,observed_failure,expected_failure,passes_as_failure
+single_write_0002_claims_autonomous_correction,QP093A-0002 + QP093A-0301 as self-correction loop,QP093A-0002 route=single_write signature=1,SINGLE_OWNER_NO_DISAGREEMENT_SYNDROME,True
+two_owner_0235_claims_majority_repair,QP093A-0235 as autonomous correction particle,owner_count=2 class=detection_only_two_owner_disagreement,TWO_OWNER_DETECTION_ONLY_NO_MAJORITY,True
+road_light_0301_carries_logical_state,QP093A-0301 as logical matter payload,matter=no qA=0,CARRIER_ROUTE_NOT_LOGICAL_MATTER,True
+tensor_0300_performs_correction,QP093A-0300 as correction actuator,class=clock_witness_failure_floor matter=no,TENSOR_WITNESS_NOT_CORRECTION_ACTUATOR,True
+below_threshold_emits_warning,A_leak < 1/24 emits PR warning,False,False,True
+threshold_exceeded_does_not_emit,A_leak >= 1/24 but warning suppressed,True,True,True
+protocol_qA_substituted_for_triad_qA,use protocol qA=1/24 as triad matter qA,protocol_qA=1/24; triad_qA=72.5,CATEGORY_FAILURE,True
+0301_promoted_to_matter,road-light carrier promoted to matter,no,no,True
+logical_particle_counted_into_carrier_checksum,carrier checksum + triad particle,carrier checksum must remain 162,CHECKSUM_CATEGORY_FAILURE,True
+0306_omitted_but_correction_warning_emits,omit p=1 source packet but emit correction warning,161,161_CORRUPT_NO_CORRECTION_WARNING,True
+duplicate_0305_restored_but_correction_warning_emits,restore duplicate support row but emit correction warning,163,163_CORRUPT_NO_CORRECTION_WARNING,True

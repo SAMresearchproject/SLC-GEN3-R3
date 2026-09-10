@@ -1,0 +1,119 @@
+{
+  "decomposition_census": [
+    {
+      "decomposition": "1x12",
+      "expected": 1,
+      "observed": 1,
+      "passing": 1,
+      "status": "PASS"
+    },
+    {
+      "decomposition": "3x4",
+      "expected": 5775,
+      "observed": 5775,
+      "passing": 5775,
+      "status": "PASS"
+    },
+    {
+      "decomposition": "4x3",
+      "expected": 15400,
+      "observed": 15400,
+      "passing": 15400,
+      "status": "PASS"
+    },
+    {
+      "decomposition": "6x2",
+      "expected": 10395,
+      "observed": 10395,
+      "passing": 10395,
+      "status": "PASS"
+    },
+    {
+      "decomposition": "12x1",
+      "expected": 1,
+      "observed": 1,
+      "passing": 1,
+      "status": "PASS"
+    }
+  ],
+  "decomposition_sha256": "5adb725993fb3c1e0af2367cf78ac45b69ca5665b8f40dcab686adeb73368997",
+  "induction": [
+    {
+      "component_size": 1,
+      "mode_match": true,
+      "parent_cases": 1,
+      "parent_passes": 1
+    },
+    {
+      "component_size": 2,
+      "mode_match": true,
+      "parent_cases": 2,
+      "parent_passes": 2
+    },
+    {
+      "component_size": 3,
+      "mode_match": true,
+      "parent_cases": 3,
+      "parent_passes": 3
+    },
+    {
+      "component_size": 4,
+      "mode_match": true,
+      "parent_cases": 4,
+      "parent_passes": 4
+    },
+    {
+      "component_size": 5,
+      "mode_match": true,
+      "parent_cases": 5,
+      "parent_passes": 5
+    },
+    {
+      "component_size": 6,
+      "mode_match": true,
+      "parent_cases": 6,
+      "parent_passes": 6
+    },
+    {
+      "component_size": 7,
+      "mode_match": true,
+      "parent_cases": 7,
+      "parent_passes": 7
+    },
+    {
+      "component_size": 8,
+      "mode_match": true,
+      "parent_cases": 8,
+      "parent_passes": 8
+    },
+    {
+      "component_size": 9,
+      "mode_match": true,
+      "parent_cases": 9,
+      "parent_passes": 9
+    },
+    {
+      "component_size": 10,
+      "mode_match": true,
+      "parent_cases": 10,
+      "parent_passes": 10
+    },
+    {
+      "component_size": 11,
+      "mode_match": true,
+      "parent_cases": 11,
+      "parent_passes": 11
+    },
+    {
+      "component_size": 12,
+      "mode_match": true,
+      "parent_cases": 0,
+      "parent_passes": 0
+    }
+  ],
+  "native_decomposition_assignments": 31572,
+  "native_decomposition_passes": 31572,
+  "rooted_forest_parent_cases": 66,
+  "rooted_forest_parent_passes": 66,
+  "status": "PASS"
+}

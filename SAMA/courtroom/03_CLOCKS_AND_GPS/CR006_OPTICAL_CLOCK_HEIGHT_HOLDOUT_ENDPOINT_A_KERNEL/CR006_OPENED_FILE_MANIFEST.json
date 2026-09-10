@@ -1,0 +1,28 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "note": "Initial manifest before runner execution; final validation may append generated artifacts.",
+  "opened_internal_files": [
+    "artifacts/preflight_filled/PREFLIGHT_20260711_114903_no_script.md",
+    "artifacts/preflight_filled/PREFLIGHT_20260711_114903_no_script.json",
+    "COURTROOM_BRANCH_INTAKE_MAP.md",
+    "03_CLOCKS_AND_GPS/README.md",
+    "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_PRECOMMIT.md",
+    "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_result.md",
+    "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_summary.json",
+    "02_A_KERNEL_WEAK_FIELD/README.md",
+    "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_PRECOMMIT.md",
+    "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_result.md",
+    "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_summary.json",
+    "02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION/CR003_result.md",
+    "A0-a_h-D/README.md"
+  ],
+  "opened_external_sources": [
+    "https://www.nature.com/articles/s41586-021-04349-7",
+    "https://www.nist.gov/publications/resolving-gravitational-redshift-across-millimetre-scale-atomic-sample",
+    "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=933368",
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-04349-7/MediaObjects/41586_2021_4349_MOESM1_ESM.pdf",
+    "https://arxiv.org/abs/2109.12238"
+  ],
+  "forbidden_paths_opened_by_research_agent": []
+}
+

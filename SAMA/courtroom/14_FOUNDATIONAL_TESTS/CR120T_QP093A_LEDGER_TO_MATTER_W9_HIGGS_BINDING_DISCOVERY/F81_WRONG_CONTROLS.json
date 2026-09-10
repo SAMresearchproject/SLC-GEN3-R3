@@ -1,0 +1,26 @@
+{
+  "duplicated_witness_control": {
+    "invalid_when_neutral_witness_occurs_twice": true,
+    "pass": true
+  },
+  "missing_conjugate_control": {
+    "invalid_when_one_member_removed": true,
+    "pair": [
+      "QP093A-0001",
+      "QP093A-0073"
+    ],
+    "pass": true
+  },
+  "p6_plus_p3_arithmetic_control": {
+    "both_arithmetic_identities_exact": true,
+    "p6_plus_p3_M_native_exact_roles": 13,
+    "p8_plus_p1_M_native_exact_roles": 13,
+    "pass": true,
+    "source_typed_mechanism": "S8_BINARY_SURFACE + X1_AXIS_SELF_CHANNEL -> W9_CLOSURE_WITNESS only"
+  },
+  "role_swap_control": {
+    "invalid_after_p1_role_swap": true,
+    "pass": true,
+    "valid_neutral_g2_before_swap": true
+  }
+}

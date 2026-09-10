@@ -1,0 +1,13 @@
+# CR120K command log
+
+Recorded UTC: 2026-07-14T07:21:47.156901+00:00
+Execution path: tools/run_sam_test.py --task "Run CR for p9 g0 8 plus 1 W9 provenance and 100 row 16200 independent inventory" --script tools/run_cr120k_p9_g0_w9_8_plus_1_independent_inventory.py
+External subprocesses from candidate runner: none
+External empirical inputs: none
+Numerical fitting: none
+Row deletion: none
+QP093A mutations: none
+Language or registry mutations: none
+Precommit sha256: 8299f529b446b0ed6330182b5c378014e656c4231dc6adfd944e60c757686fb6
+Source manifest sha256: 4cff345cf3790871eddc65063045614ad2a6ff49de5bd7b7d18aa66ff94179f0
+Outcome: PASS; 105 visible, 5 derived W9 witnesses, 100 independent-content records, exact M_native 16200; physical mapping open

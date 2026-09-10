@@ -1,0 +1,94 @@
+{
+  "cr_id": "CR074a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Fifth of six CRs (CR070a-CR075a); reproducibility lock for the four prior CRs",
+  "test_class": "REPRODUCIBILITY_LOCK_CR070a_TO_CR073a_PACK_AND_HASH_VERIFY",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-21T12:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "purpose": "Lock the CR070a-CR073a runner chain for partner-lab reproduction. Verify all expected artifacts present, verify hashes match HASHES.txt entries, capture actual Python/dep versions used (with discipline-drift finding for per-CR pin mismatch), emit the three reproducibility-minimum files (requirements.txt, .python-version, seeds.json), bundle into CAMPAIGN_REPRODUCIBILITY_PACK.zip with CAMPAIGN_RERUN.md and STEWARDSHIP.md.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "reproducibility_minimum_spec_locked_in_campaign_doc": {
+    "pinned_requirements_txt": "exact == versions only; no >=, ~=",
+    "python_version_pin": "exact MAJOR.MINOR.PATCH triple",
+    "stochastic_seeds_json": "seeds for every stochastic step in any runner",
+    "no_Docker": true,
+    "no_containers": true
+  },
+  "actual_environment_captured_at_precommit": {
+    "python_version": "3.12.10",
+    "numpy_version": "2.4.4",
+    "matplotlib_version": "3.10.9",
+    "platform": "Windows 11 (Education 26200)"
+  },
+  "discipline_drift_finding": {
+    "issue": "per-CR requirements.txt files declared numpy==1.26.4 and matplotlib==3.8.4; actual versions used were 2.4.4 and 3.10.9 respectively",
+    "resolution": "pack-level requirements.txt pins ACTUAL versions; per-CR pins preserved as historical artifacts (changing them would require new CRs)",
+    "discipline_grade": "CAUGHT_AND_RESOLVED_AT_PACK_LEVEL"
+  },
+  "stochastic_step_inventory": {
+    "runners_walked": [
+      "CR070a_runner.py",
+      "CR071a_runner.py",
+      "CR072a_runner.py",
+      "CR073a_runner.py"
+    ],
+    "stochastic_calls_found": [],
+    "all_runners_deterministic_from_input_csv": true,
+    "seeds_json_content": "no stochastic steps; deterministic"
+  },
+  "upstream_hash_locked_premises": {
+    "CR070a_HASHES_txt_sha256": "586bd70b36d095624d92b90fbb0f975dd32332e17c6b59b18076c85607df6a6f",
+    "CR071a_HASHES_txt_sha256": "0925b46bd691d4f2dfb4ed211aeb352a3e68cc0985d81d25b4821cec874fc902",
+    "CR072a_HASHES_txt_sha256": "f2a991a43f2a7fc1d73d57ab01b8c5a2174d0592981bce085a70487852f83e84",
+    "CR073a_HASHES_txt_sha256": "28e905caca9accae127481a27aeb5ac45b191e5a6c4bf3f69be7a95f87ffcce4"
+  },
+  "expected_artifact_counts": {
+    "CR070a": 11,
+    "CR071a": 11,
+    "CR072a": 11,
+    "CR073a": 11,
+    "total_CR_artifacts": 44,
+    "pack_level_added_files": [
+      "STEWARDSHIP.md",
+      "CAMPAIGN_RERUN.md",
+      "CAMPAIGN_PAUL_REVERE_FIELD_COMPARISON.md",
+      "requirements.txt",
+      ".python-version",
+      "seeds.json",
+      "PACK_MANIFEST.csv"
+    ]
+  },
+  "predictions": [
+    "P1_all_CR_directories_present_with_expected_artifacts",
+    "P2_every_artifact_hash_matches_HASHES_txt_entry",
+    "P3_pinned_requirements_use_equals_equals",
+    "P4_python_version_pin_is_exact",
+    "P5_seeds_json_documents_all_stochastic_steps",
+    "P6_CAMPAIGN_RERUN_md_exists_and_self_contained",
+    "P7_STEWARDSHIP_md_included_verbatim",
+    "P8_pack_does_not_include_external_non_citation_data",
+    "P9_pack_is_single_file_emission",
+    "P10_discipline_drift_finding_documented",
+    "P11_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_requirements_with_loose_pin_rejected",
+    "WC2_missing_CR_artifact_detected",
+    "WC3_hash_mismatch_in_pack_vs_HASHES_txt_detected",
+    "WC4_missing_STEWARDSHIP_md_rejected",
+    "WC5_no_Docker_requirement",
+    "WC6_runner_does_not_modify_upstream_artifacts",
+    "WC7_no_free_parameters",
+    "WC8_pack_does_not_include_partner_lab_claims",
+    "WC9_per_CR_pin_drift_is_caught_not_silently_corrected"
+  ],
+  "free_parameters": 0
+}

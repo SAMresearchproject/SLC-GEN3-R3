@@ -1,0 +1,109 @@
+{
+  "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1",
+  "files": [
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv",
+      "mode": "100644",
+      "git_blob": "571c17447abb1f1df8cc251ce0964a88e492b15d",
+      "bytes": 45407,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "6212a17698ef174b863eea4c2dd1cebe28c196e6",
+      "bytes": 86,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv.sha256.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet.csv.sha256.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet_lock.json",
+      "mode": "100644",
+      "git_blob": "074917ab5fd029d85396a7e52abde8b1a42ac6ce",
+      "bytes": 7968,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet_lock.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet_lock.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_alphabet_lock.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md",
+      "mode": "100644",
+      "git_blob": "23e60be808b26054dff2eb73bab08c00e1aea419",
+      "bytes": 9858,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_runner.py",
+      "mode": "100644",
+      "git_blob": "6a6a600f3b9c74a25fce9918df700d81c0ac5b5e",
+      "bytes": 33974,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_runner.py",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_runner.py",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_runner.py"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_summary.json",
+      "mode": "100644",
+      "git_blob": "eb14b36658c7e5a34038e7ed32168b8f0d2d506b",
+      "bytes": 7402,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_summary.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_summary.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_summary.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "618e7670b15bdf6b3ef5dd6ba230446dec1a6781",
+      "bytes": 3783,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "4a3edf0a55b77f99a7825699e8dace813eb9d8d4",
+      "bytes": 92,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv.sha256.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_wrong_controls.csv.sha256.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "381a067ba816d69019474392a520c3f7c7d27170",
+      "bytes": 1600,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/HASHES.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR060a@12a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

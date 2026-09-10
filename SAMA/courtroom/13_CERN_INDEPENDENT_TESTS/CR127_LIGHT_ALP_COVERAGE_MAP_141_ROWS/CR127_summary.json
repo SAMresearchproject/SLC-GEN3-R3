@@ -1,0 +1,137 @@
+{
+  "cr_id": "CR127",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "LIGHT_ALP_DARK_SCALAR_COVERAGE_MAP_141_ROWS",
+  "execution_status": "CLEAN",
+  "result_class": "CR127_LIGHT_ALP_COVERAGE_MAP_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:17:33Z",
+  "alp_window_total_rows": 150,
+  "inventory_physically_allowed": 141,
+  "inventory_excluded": 9,
+  "exclusion_breakdown": {
+    "HIDDEN_SUPPORT_NOT_MATTER": 1,
+    "REJECTED_FAKE_CLOSURE": 6,
+    "CARRIER_ONLY_NOT_MATTER": 2
+  },
+  "band_counts": {
+    "L0_10to100MeV": 49,
+    "L1_100to300MeV": 45,
+    "L2_300to1000MeV": 47
+  },
+  "operator_class_counts": {
+    "BOUND_COLOR_PAIR": 36,
+    "OUTER_BINARY_NEUTRAL": 11,
+    "GROUND_BARYON_3BODY": 4,
+    "V4_1_SINGLE_WRITE": 58,
+    "OCTET_COMPOSITE": 32
+  },
+  "stability_status_counts": {
+    "BOUND_PAIR_NEUTRAL_CANDIDATE": 7,
+    "STABLE_NEUTRAL_CANDIDATE": 8,
+    "BOUND_COLOR_CLOSED_STABLE_CANDIDATE": 4,
+    "STABLE_MATTER_CANDIDATE": 30,
+    "ANTIMATTER_STABLE_CONJUGATE": 28,
+    "UNSTABLE_HEAVY_WRITE_CANDIDATE": 3,
+    "BOUND_COLOR_CLOSED_HEAVY_CANDIDATE": 9,
+    "BOUND_PAIR_CHARGED_CANDIDATE": 42,
+    "UNSTABLE_PAIR_HEAVY_CANDIDATE": 10
+  },
+  "priority_class_counts": {
+    "HIGH": 44,
+    "MEDIUM": 54,
+    "LOW": 43
+  },
+  "band_by_priority": {
+    "L0_10to100MeV|HIGH": 29,
+    "L1_100to300MeV|HIGH": 15,
+    "L0_10to100MeV|MEDIUM": 20,
+    "L1_100to300MeV|MEDIUM": 30,
+    "L2_300to1000MeV|MEDIUM": 4,
+    "L2_300to1000MeV|LOW": 43
+  },
+  "structural_clusters_found": 41,
+  "rows_in_clusters": 88,
+  "rows_isolated": 53,
+  "highest_priority_score": 8,
+  "inventory_csv_sha256": "3ae9752151c84aa2c805ee12a235583e8d5c0c47e498ce2a5fba7c87db839879",
+  "priority_manifest_sha256": "e62ba3816afaedc97c0f4751992a9bb7e455a443f15556d6e49e6e8e7458552e",
+  "experimental_window_map_sha256": "6d13c8f41216a16c74ae97b628956b1962a955b778c867bc913d50213d4c6487",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca"
+  },
+  "predictions": [
+    {
+      "name": "P1_150_rows_pulled_from_cr124",
+      "pass": true,
+      "details": "CR124 LIGHT_ALP_WINDOW row count = 150"
+    },
+    {
+      "name": "P2_excluded_classes_documented",
+      "pass": true,
+      "details": "excluded statuses = ['CARRIER_ONLY_NOT_MATTER', 'HIDDEN_SUPPORT_NOT_MATTER', 'REJECTED_FAKE_CLOSURE']"
+    },
+    {
+      "name": "P3_inventory_size_consistent",
+      "pass": true,
+      "details": "inventory=141, excluded=9, sum=150"
+    },
+    {
+      "name": "P4_three_mass_bands_populated",
+      "pass": true,
+      "details": "band counts = {'L0_10to100MeV': 49, 'L1_100to300MeV': 45, 'L2_300to1000MeV': 47}"
+    },
+    {
+      "name": "P5_priority_classes_populated",
+      "pass": true,
+      "details": "HIGH=44, MEDIUM=54, LOW=43"
+    },
+    {
+      "name": "P6_experimental_window_map_has_active_experiments",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR124_crosswalk_unmodified",
+      "pass": true
+    },
+    {
+      "name": "WC3_no_falsifiable_per_row_predictions_committed",
+      "pass": true,
+      "details": "CR127 is a COVERAGE / PRIORITY manifest, not a forward-blind registry.  Mass-only predictions without coupling and channel specification would overpromise.  Per-row forward-blind registry CRs (CR128+) will pick from this manifest and add coupling assumptions + decay-channel commitments before declaring falsifiers."
+    },
+    {
+      "name": "WC4_rejected_fake_closure_filtered",
+      "pass": true,
+      "details": "REJECTED_FAKE_CLOSURE rows (6) excluded from manifest"
+    },
+    {
+      "name": "WC5_carrier_rows_filtered",
+      "pass": true,
+      "details": "CARRIER_ONLY_NOT_MATTER and HIDDEN_SUPPORT_NOT_MATTER rows are not matter particles per CR119; excluding them keeps the manifest focused on testable particle candidates"
+    },
+    {
+      "name": "WC6_priority_score_documented",
+      "pass": true,
+      "details": "score = +3 (band L0/L1) + 2 (>=3 active expts) + 2 (clean neutral status) + 1 (isolated) - 1 (cluster >= 3); HIGH if >=6, MEDIUM 4-5, LOW <=3"
+    },
+    {
+      "name": "WC7_experimental_references_tagged_for_verification",
+      "pass": true,
+      "details": "all experiment references tagged [VERIFY_PRECOMMIT]; promote to verified before any downstream CR cites the manifest as test-ready"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "Per-row forward-blind registry CRs (CR128+) will pick from this manifest and add coupling/channel commitments",
+    "Experimental reference fields tagged [VERIFY_PRECOMMIT] -- promote to verified before any downstream CR cites the manifest as test-ready",
+    "Structural-cluster interpretation (multiplet vs duplicate) is a separate analysis CR"
+  ]
+}

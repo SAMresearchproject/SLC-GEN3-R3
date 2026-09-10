@@ -1,0 +1,52 @@
+{
+  "envelope_id": "CR092_CERN_ANCHOR_ENVELOPE",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "target_cr": "CR092_HIGGS_SECTOR",
+  "envelope_status": "PROVISIONAL_DRAFT_PRE_CITATION_VERIFICATION",
+  "envelope_sealed_at_utc": "2026-06-13T00:00:00Z",
+  "source_inventory": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR090_CERN_BLANK_INVENTORY_AND_COVERAGE_MAP/CR090_candidate_anchor_inventory.csv",
+  "anchors": [
+    {
+      "row_id": "H001",
+      "observable_name": "Higgs boson mass",
+      "experiment": "ATLAS",
+      "publication_reference": "arXiv:2308.04775",
+      "publication_date_utc": "2023-08-01",
+      "measurement_central_value": 125110.0,
+      "stat_uncertainty": 80.0,
+      "sys_uncertainty": 90.0,
+      "units": "MeV",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "H002",
+      "observable_name": "Higgs boson mass",
+      "experiment": "CMS",
+      "publication_reference": "arXiv:2002.06398",
+      "publication_date_utc": "2020-02-01",
+      "measurement_central_value": 125380.0,
+      "stat_uncertainty": 140.0,
+      "sys_uncertainty": 0.0,
+      "units": "MeV",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "H003",
+      "observable_name": "Higgs boson mass",
+      "experiment": "ATLAS+CMS (Run-1 combination)",
+      "publication_reference": "arXiv:1503.07589",
+      "publication_date_utc": "2015-03-01",
+      "measurement_central_value": 125090.0,
+      "stat_uncertainty": 210.0,
+      "sys_uncertainty": 110.0,
+      "units": "MeV",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "SINGLE",
+      "honest_negative_class": null
+    }
+  ]
+}

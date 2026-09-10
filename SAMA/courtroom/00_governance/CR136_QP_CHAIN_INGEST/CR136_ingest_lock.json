@@ -1,0 +1,358 @@
+{
+  "cr_id": "CR136",
+  "result_class": "CR136_QP_CHAIN_INGEST_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "appeal_queue_position": "4 of 7 blocking (unblocks CR-139, CR-140)",
+  "ingest_type": "BULK_UPSTREAM_ARTIFACT_INGEST",
+  "verdict_change_on_consumers": false,
+  "external_root": "C:/VS/quantum_phase/artifacts",
+  "internal_root_rel": "upstream_artifacts",
+  "targets_total": 42,
+  "targets_in_clean_state": 42,
+  "targets_anomalous": 0,
+  "wrong_controls_passed": 7,
+  "wrong_controls_total": 7,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "ingest": [
+    {
+      "folder": "campaign08_qp091b_h_freeze",
+      "summary_file": "campaign08_qp091b_h_freeze_summary.json",
+      "recorded_sha256": "b9237ea09dd625fb1d719227cc60b3933190a553f100cbe2e209fd47dcd6f969",
+      "internal_path_rel": "upstream_artifacts/qp091/campaign08_qp091b_h_freeze/campaign08_qp091b_h_freeze_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091a",
+      "summary_file": "qp091a_summary.json",
+      "recorded_sha256": "55f6dc3fefe3c152471fbd0fe29cea80e9b3b303a9f0cf0b643a929f6e700aaf",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091a/qp091a_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091aa",
+      "summary_file": "qp091aa_summary.json",
+      "recorded_sha256": "eb0296a65a7bc85d4e2981671a4c363d9fec2a7e57186e5bbee6bc3dff7ed7cc",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091aa/qp091aa_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091ab",
+      "summary_file": "qp091ab_summary.json",
+      "recorded_sha256": "d4edaec75cbf4d26abbc55c1ff9812301c342fed78d228ff3aa1086690ca8856",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091ab/qp091ab_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091ac",
+      "summary_file": "qp091ac_summary.json",
+      "recorded_sha256": "8e5b3efcf0bd7414a5c5e5b7ccc84b333350c20ac7dc5420baddecb48d48940a",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091ac/qp091ac_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091ad",
+      "summary_file": "qp091ad_summary.json",
+      "recorded_sha256": "511b25f604fee8f7bf0fe9eb8d64bdb9dff6453645af27d9d59a76ec8b6c7c3b",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091ad/qp091ad_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091b",
+      "summary_file": "qp091b_summary.json",
+      "recorded_sha256": "7d0cc8681f2838135e1461d438a654e0159c6b777769acd686c26cd71689d296",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091b/qp091b_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091c",
+      "summary_file": "qp091c_summary.json",
+      "recorded_sha256": "79261edb19f9c175052d1f52c4db43ef6c7c8cd2e602344e516dac6dacdffb7e",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091c/qp091c_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091d",
+      "summary_file": "qp091d_summary.json",
+      "recorded_sha256": "56f8df7f136b862a392213fd9a109ee6171f165889dac6b94ec87698cb43a62a",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091d/qp091d_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091e",
+      "summary_file": "qp091e_summary.json",
+      "recorded_sha256": "145748c575f8914e175fd895899be5e68593e69dee9aebc6a309e64347360990",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091e/qp091e_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091f",
+      "summary_file": "qp091f_summary.json",
+      "recorded_sha256": "a6ee8c462e1e0a5654a6bd8c9fead862080df7ce30ac81d8ed40fcabcf7f8e75",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091f/qp091f_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091g",
+      "summary_file": "qp091g_summary.json",
+      "recorded_sha256": "39d80afe9437590f4226892e098bd30c976a5e7b2c98768cb97b94313f495261",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091g/qp091g_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091h",
+      "summary_file": "qp091h_summary.json",
+      "recorded_sha256": "71c7073b8c0d5cdea893c80ea5943c06d50374343b5a9201eaad87f8d9e4b37b",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091h/qp091h_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091i",
+      "summary_file": "qp091i_summary.json",
+      "recorded_sha256": "f00e15ce3ddf6aa33b35e555271d4d83179fe6c541a37a07540972eae9b588cd",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091i/qp091i_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091j",
+      "summary_file": "qp091j_summary.json",
+      "recorded_sha256": "66273a055dab03ba1feb9d8bc1c554774e05349ac84856d0f7e32bef6d5277f4",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091j/qp091j_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091k",
+      "summary_file": "qp091k_summary.json",
+      "recorded_sha256": "5833da3056ae52ca0db6c5e69e96180a404fa2d68927242f26163721d2037645",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091k/qp091k_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091l",
+      "summary_file": "qp091l_summary.json",
+      "recorded_sha256": "9c4b27cd2931dac8de06c6d1b01c43c8ddfd669bf3949ae07a9a528080c501ef",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091l/qp091l_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091m",
+      "summary_file": "qp091m_summary.json",
+      "recorded_sha256": "586928b199d7fb67e9a08fd568d6833753e92a8992444a85e118285398ec6d9f",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091m/qp091m_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091n",
+      "summary_file": "qp091n_summary.json",
+      "recorded_sha256": "440a20c78f1ffc2ba77307be326de1f473614c948869a8e599fa634348f18ac6",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091n/qp091n_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091o",
+      "summary_file": "qp091o_summary.json",
+      "recorded_sha256": "0b1c83e2676c9721feb411f702ea46f499d7433a75a39cf1167132d1161ca4f7",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091o/qp091o_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091p",
+      "summary_file": "qp091p_summary.json",
+      "recorded_sha256": "d552a0527d7cd74badbd9a3c5a6a9006e98aece5f65d8836e7d568a69358f631",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091p/qp091p_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091q",
+      "summary_file": "qp091q_summary.json",
+      "recorded_sha256": "eacb7abcef455f8c8697d24b7d365980a9f3b7e49838135b62d9dc13f23e2db5",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091q/qp091q_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091r",
+      "summary_file": "qp091r_summary.json",
+      "recorded_sha256": "82135296db9be3ef4f1d7a9ce5034e6c0d740fe11e3dcf65db1b1cbcdde97b12",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091r/qp091r_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091s",
+      "summary_file": "qp091s_summary.json",
+      "recorded_sha256": "75351305e556b3b7e2bb7eaebcbe2c07a87b6f8fe978c85d7e5ad5693973114f",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091s/qp091s_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091t",
+      "summary_file": "qp091t_summary.json",
+      "recorded_sha256": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091t/qp091t_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091u",
+      "summary_file": "qp091u_summary.json",
+      "recorded_sha256": "b87d85be2149f4bd51daa70bcfe39f7e14fe033fb6c21d50e441a037f8b27ee1",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091u/qp091u_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091v",
+      "summary_file": "qp091v_summary.json",
+      "recorded_sha256": "ad48f50c3a4b4d693ff4eac1d0f1a6074f59db9a417688f7a1fa78251abff9c6",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091v/qp091v_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091w",
+      "summary_file": "qp091w_summary.json",
+      "recorded_sha256": "f63c25d00a096824d69035d8e8217d0d664b905234eddec0e0dff936cce33b11",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091w/qp091w_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091x",
+      "summary_file": "qp091x_summary.json",
+      "recorded_sha256": "8be3c25f44f3facc2ffa99121580de36cc1d36166531e5b62d6ee9e33cbfff62",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091x/qp091x_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091y",
+      "summary_file": "qp091y_summary.json",
+      "recorded_sha256": "1a83c41f9a17b114e11f6e387656adeaa4283cdde2b800af304cd25e1ee276c4",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091y/qp091y_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp091z",
+      "summary_file": "qp091z_summary.json",
+      "recorded_sha256": "af249d9c6cd3828ba45d4b6333924b6803174a304c9aafcdebd8a85d5d5f3d64",
+      "internal_path_rel": "upstream_artifacts/qp091/qp091z/qp091z_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092a",
+      "summary_file": "qp092a_summary.json",
+      "recorded_sha256": "dfb7a745fc2c07b7bcd6ee35b77891a41f25dbd4f879d26fd9adfa060b044908",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092a/qp092a_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092a_split_loss_tensor_carrier",
+      "summary_file": "qp092a_split_loss_summary.json",
+      "recorded_sha256": "649e61e0ca47d715e526738bf867f8e57aab1bad6d46974b201fd57c2b4ceaca",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092a_split_loss_tensor_carrier/qp092a_split_loss_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092b",
+      "summary_file": "qp092b_summary.json",
+      "recorded_sha256": "9c52aee14aeac5e3061312f4e52ca3c4402fabbd48244b11a7009eac735d6f51",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092b/qp092b_summary.json",
+      "consumers": "CR-120",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092b_tensor_carrier_qa_coupling",
+      "summary_file": "qp092b_summary.json",
+      "recorded_sha256": "74940558dbe739d48fd619bf699792391faaa4c43af7fd3bc8dbbe73d33beb13",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092b_tensor_carrier_qa_coupling/qp092b_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092c_hard_freeze",
+      "summary_file": "qp092c_hard_freeze_summary.json",
+      "recorded_sha256": "694884e3e709d0db05536cba8e661fba1f81a53243d5a19c4b8e63abda055820",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092c_hard_freeze/qp092c_hard_freeze_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092c_tensor_carrier_a_kernel",
+      "summary_file": "qp092c_summary.json",
+      "recorded_sha256": "4063950dde82ca109dd0608e7d0d702066beb7f7da79489638a1a10aa9344e27",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092c_tensor_carrier_a_kernel/qp092c_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092d_tensor_carrier_conservation",
+      "summary_file": "qp092d_summary.json",
+      "recorded_sha256": "257ca5644d5b618be7cab458ebee18e15b36684536173bbd74021cf0c9d6ae87",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092d_tensor_carrier_conservation/qp092d_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092e_weak_field_external_readout",
+      "summary_file": "qp092e_summary.json",
+      "recorded_sha256": "d92ce93c234af576d867ed701635fe24439e84ab877e9a01d09bc91f3d2c6eda",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092e_weak_field_external_readout/qp092e_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092f_tensor_carrier_wave_mode",
+      "summary_file": "qp092f_summary.json",
+      "recorded_sha256": "b122cec6fd334a73a59b280bbf137b3a76a7b588e30e609b81dfeb92f5369536",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092f_tensor_carrier_wave_mode/qp092f_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092g_tensor_carrier_bridge_packet",
+      "summary_file": "qp092g_summary.json",
+      "recorded_sha256": "b5ee2482db3c4fda01e26359feb3a65089c136a3e038947730f11d9e51b79841",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092g_tensor_carrier_bridge_packet/qp092g_summary.json",
+      "consumers": "CR-121",
+      "in_clean_state": true
+    },
+    {
+      "folder": "qp092h_baryon_cmb_carrier_gate",
+      "summary_file": "qp092h_summary.json",
+      "recorded_sha256": "5b8139aa90883b8b3ac210fdad44055fc9cbf23c6f4e16dbef58668a8d2bda49",
+      "internal_path_rel": "upstream_artifacts/qp092/qp092h_baryon_cmb_carrier_gate/qp092h_summary.json",
+      "consumers": "CR-121,CR-122",
+      "in_clean_state": true
+    }
+  ],
+  "free_parameters": 0,
+  "falsifier": "Re-executing CR136_runner.py on the post-ingest state MUST produce zero new INGESTED entries (only ALREADY_INGESTED), zero SHA mismatches, and the recomputed lock SHA-256 MUST match the value recorded in CR136_result.md."
+}

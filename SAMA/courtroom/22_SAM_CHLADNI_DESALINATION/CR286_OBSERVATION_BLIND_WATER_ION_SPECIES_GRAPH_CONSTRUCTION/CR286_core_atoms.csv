@@ -1,0 +1,30 @@
+species_id,atom_id,element,atom_role,declared_atom_formal_charge,source_basis
+SP01,O1,O,core_atom,0,H2O identity
+SP01,H1,H,core_atom,0,H2O identity
+SP01,H2,H,core_atom,0,H2O identity
+SP02,Na1,Na,core_atom,1,Na+ identity
+SP03,K1,K,core_atom,1,K+ identity
+SP04,Mg1,Mg,core_atom,2,Mg2+ identity
+SP05,Ca1,Ca,core_atom,2,Ca2+ identity
+SP06,Cl1,Cl,core_atom,-1,Cl- identity
+SP07,S1,S,core_atom,UNASSIGNED,SO4^2- formula connectivity only
+SP07,O1,O,core_atom,UNASSIGNED,SO4^2- formula connectivity only
+SP07,O2,O,core_atom,UNASSIGNED,SO4^2- formula connectivity only
+SP07,O3,O,core_atom,UNASSIGNED,SO4^2- formula connectivity only
+SP07,O4,O,core_atom,UNASSIGNED,SO4^2- formula connectivity only
+SP08,B1,B,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,O1,O,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,O2,O,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,O3,O,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,H1,H,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,H2,H,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP08,H3,H,core_atom,UNASSIGNED,B(OH)3 formula connectivity only
+SP09,B1,B,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,O1,O,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,O2,O,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,O3,O,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,O4,O,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,H1,H,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,H2,H,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,H3,H,core_atom,UNASSIGNED,B(OH)4- formula connectivity only
+SP09,H4,H,core_atom,UNASSIGNED,B(OH)4- formula connectivity only

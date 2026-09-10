@@ -1,0 +1,6 @@
+id,description,expected_final_face,observed_final_face,expected_final_alpha_h,observed_final_alpha_h,expected_break_field,wc_pass,budget_consumed
+WC-1,drop one 𝒢_sub (omit step 3),12,12,0,0,face_index,True,256
+WC-2,extra 𝒢_sub (3 swaps total),12,12,0,0,face_index,True,384
+WC-3,non-residual face (init face=4),4,4,0,0,face_index,True,320
+WC-4,measure-first (before any gates),9,9,0,0,(none-but-MEASURE-out-of-order),True,320
+WC-5,drop second B (omit step 4),9,9,1,1,alpha_h_label,True,256

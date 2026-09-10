@@ -1,0 +1,6 @@
+model_id,model_name,state,channel,free_parameters,note
+M1,scalar_exponential_purity_surrogate,single scalar surrogate (no Hilbert structure),P(t) = exp(-2t/T2),0,not a physical density matrix; useful only as one-line surrogate
+M2,two_level_pure_dephasing,qubit |+> = (|0> + |1>)/sqrt(2),pure dephasing only (no T1),0,incompatible with qutrit slot assignment used by PR
+M3,loaded_qutrit_equal_pure_dephasing,"loaded qutrit (2|0> + 3|+1> + 2|-1>)/sqrt(17); populations (4/17, 9/17, 4/17)",equal pure dephasing on all coherences (no T1),0,pure-dephasing default for PR qutrit; no amplitude damping
+M4,loaded_qutrit_nv_lindblad_finite_T1_equals_T2_CR068a,loaded qutrit (2|0> + 3|+1> + 2|-1>)/sqrt(17),"L_+- = sqrt(Gamma_1)|0><+-|, L_phi = sqrt(gamma_phi/2) S_z, gamma_phi = 1/T2 - 1/(2 T1)",0,CR068a NV simulator convention with T1 = T2 = 1 ms
+M_hardware_default,calibrated_trajectory_rule_for_hardware,"rho_cal(t) reconstructed from independently measured T1, T2, SPAM, pulse parameters",hardware-specific calibrated channel; locked per platform at CR223c,0,canonical hardware prediction; replaces any universal c0*T2 claim

@@ -1,0 +1,5 @@
+layer,source,contract,source_value,status,boundary
+CR073 action/phase anchor,CR073,S_A=E_p*T_A and Delta_phi=S_A/hbar are present; public free-particle action tests are present,PASS_SCOPED_STRUCTURAL_ACTION_PHASE_ANCHOR,PASS,Presence and bridge support only; no phase fit loop is allowed.
+CR074 Born route,CR074/QP014,Born identity plus route-weight identity present; QP014 has zero free parameters and zero normalization failures,PASS_SCOPED_STRUCTURAL_BORN_ROUTE,PASS,"Normalization is row-surface accounting, not a post-hoc probability patch."
+CR075 protected route and ledger write,CR075/QP010-QP016,"Protected route, syndrome boundary, ledger commit, and stable mode selector are present",PASS_SCOPED_STRUCTURAL_LEDGER_WRITE_CHAIN,PASS,Syndrome/control may write support without writing protected route identity.
+CR076 phase integral A exposure,CR076/QP001,A exposure and phase functional are present; explicit integral form remains boundary,BOUNDARY,PASS,LC09 does not upgrade CR076 to full integral closure.

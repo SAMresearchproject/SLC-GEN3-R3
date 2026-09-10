@@ -1,0 +1,13 @@
+matter_id,antimatter_id,route,partition_signature,closure_depth,M_native,matter_observed,antimatter_observed,native_equal,sign_opposite,matter_surface_zero,antimatter_surface_nonzero,observed_different,both_absent_from_workbook,all_pair_checks_passed
+QP093A-0046,QP093A-0103,"plus_single_write[p=12,g=1]",12,1,180,180,195,True,True,True,True,True,True,True
+QP093A-0047,QP093A-0104,"minus_single_write[p=12,g=1]",12,1,216,216,198,True,True,True,True,True,True,True
+QP093A-0049,QP093A-0105,"plus_single_write[p=1,g=2]",1,2,180,180,180.1041666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,True,True,True,True,True,True,True
+QP093A-0050,QP093A-0106,"minus_single_write[p=1,g=2]",1,2,216,216,215.875,True,True,True,True,True,True,True
+QP093A-0052,QP093A-0107,"plus_single_write[p=2,g=2]",2,2,360,360,360.4166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,True,True,True,True,True,True,True
+QP093A-0053,QP093A-0108,"minus_single_write[p=2,g=2]",2,2,432,432,431.5,True,True,True,True,True,True,True
+QP093A-0055,QP093A-0109,"plus_single_write[p=3,g=2]",3,2,540,540,540.9375,True,True,True,True,True,True,True
+QP093A-0056,QP093A-0110,"minus_single_write[p=3,g=2]",3,2,648,648,646.875,True,True,True,True,True,True,True
+QP093A-0058,QP093A-0111,"plus_single_write[p=4,g=2]",4,2,720,720,721.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,True,True,True,True,True,True,True
+QP093A-0059,QP093A-0112,"minus_single_write[p=4,g=2]",4,2,864,864,862,True,True,True,True,True,True,True
+QP093A-0061,QP093A-0113,"plus_single_write[p=6,g=2]",6,2,1080,1080,1083.75,True,True,True,True,True,True,True
+QP093A-0062,QP093A-0114,"minus_single_write[p=6,g=2]",6,2,1296,1296,1291.5,True,True,True,True,True,True,True

@@ -1,0 +1,69 @@
+{
+  "artifact": "QP091M_NATIVE_TREE_ELECTROWEAK_DERIVATION_RESTART",
+  "generated_at_utc": "2026-06-15T00:50:33.275656+00:00",
+  "result_class": "PASS_QP091M_NATIVE_TREE_EW_DERIVATION__COUPLINGS_AMPLITUDE_COEFFICIENTS_WZ_BRANCHING_CANDIDATES__HIGGS_FULL_WIDTH_OPEN",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "normalization_candidate": "v_A = H_visible_direct + H_source_QP084",
+  "v_A_GeV": "250.637787269220810000000000000000",
+  "masses_GeV": {
+    "electron": "0.000510947809454427700000000000",
+    "muon": "0.105686468510508130000000000000",
+    "tau": "1.776213727610332600000000000000",
+    "W": "80.365141536972910000000000000000",
+    "Z": "91.161472686105250000000000000000",
+    "Higgs": "125.218670323864030000000000000000"
+  },
+  "sin2_theta_W": "0.222835842503854406910567969091",
+  "cos_theta_W": "0.881569145045438618480327690495",
+  "g": "0.641285118358065142805844484340",
+  "gprime": "0.343389731314900532793965763114",
+  "g_Z": "0.727435983850151035704426402174",
+  "e": "0.302721791852659743446500858547",
+  "g_HWW_GeV": "51.536969302400329833201489310048",
+  "g_HZZ_GeV": "66.314135572645643395643906627609",
+  "W_tree_branching_candidates": {
+    "W_enu": "0.111111111111111111111111111111",
+    "W_munu": "0.111111111111111111111111111111",
+    "W_taunu": "0.111111111111111111111111111111",
+    "W_hadronic_native_color_sum": "0.666666666666666666666666666667"
+  },
+  "Z_tree_branching_candidates": {
+    "Z_nu_e": "0.067866195746117115484621186209",
+    "Z_nu_mu": "0.067866195746117115484621186209",
+    "Z_nu_tau": "0.067866195746117115484621186209",
+    "Z_ee": "0.034333720959083216641190749929",
+    "Z_mumu": "0.034333720959083216641190749929",
+    "Z_tautau": "0.034333720959083216641190749929",
+    "Z_uu": "0.118560565104659461418454576549",
+    "Z_cc": "0.118560565104659461418454576549",
+    "Z_dd": "0.152093039891693360261885012829",
+    "Z_ss": "0.152093039891693360261885012829",
+    "Z_bb": "0.152093039891693360261885012829"
+  },
+  "H_charged_lepton_internal_branching_candidates": {
+    "H_electronelectron": "0.000000082556340175829715852800",
+    "H_muonmuon": "0.003532110364651330717818373410",
+    "H_tautau": "0.996467807079008493452465773789"
+  },
+  "HZZ4l_projection_only_category_shares": {
+    "4e": "0.251553791305960075469366813820",
+    "2e2mu": "0.500000000000000000000000000000",
+    "4mu": "0.248446208694039924530633186180"
+  },
+  "HZZ4l_cost_adjusted_category_shares": {
+    "4e": "0.249885258420134875571482600933",
+    "2e2mu": "0.500004803387118577747045754799",
+    "4mu": "0.250109938192746546681471644268"
+  },
+  "physical_Higgs_full_branching_ratios_derived": false,
+  "observed_electroweak_constants_used": false,
+  "observed_widths_or_branching_ratios_used": false,
+  "free_parameters_introduced": 0,
+  "checks_passed": 13,
+  "checks_total": 13,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091M reopens the numeric electroweak layer with v_A as the resolved visible/source Higgs pair. This derives a weak mixing angle, g, gprime, g_Z, e, HWW/HZZ coefficients, W/Z tree-level branching candidates, charged-lepton Higgs Yukawa candidates, and corrected HZZ4l category surfaces without importing observed electroweak constants. Full physical Higgs branching ratios remain open because off-shell WW*/ZZ*, loop, gluon, and QCD/running-mass primitives are not closed.",
+  "next_frontier": "QP091N_HIGGS_OFFSHELL_LOOP_AND_GLUON_WIDTH_COMPLETION"
+}

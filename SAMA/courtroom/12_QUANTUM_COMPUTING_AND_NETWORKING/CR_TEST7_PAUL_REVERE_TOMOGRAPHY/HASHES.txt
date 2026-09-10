@@ -1,0 +1,57 @@
+TEST 7 PAUL REVERE TOMOGRAPHY - SHA-256 Manifest
+Sealed: 2026-06-22 by Sean Brady
+Verdict: PASS_TEST7_PR_TOMOGRAPHY_SIMULATION
+  14/14 internal checks pass
+  qubit interpolated crossing 0.04350593846148717 vs analytic 0.043505688494814905 (|diff|=2.5e-07)
+  qutrit interpolated crossing 0.0354360781602973 vs analytic 0.03543583226729687 (|diff|=2.46e-07)
+  threshold ordering t_{1/36} < t_{1/24} < t_{1/18} < t_{1/12} confirmed on both runs
+  population-only rejected; shuffled time rejected; scrambled density changes purity
+
+== Spec + runners ==
+dc3f63b80c3755e6e12d7b7c52a52195beca790d217e65689ef52de68975cdaa  PRECOMMIT.md
+3917d6550acdef40fc20aa1a98e5fab77321dd791893d74162625b3c9773a7da  run_test7_pr_tomography.py
+08a138992791c801332297dc18e3618ce3f95b08fa0ef6124847dc5db56e99ca  run_test7_pr_controls.py
+cb2804b70f007050fa7f179a06f31b3be4c5813b445e9e146b96186d62162c3b  _consolidate_verdict.py
+
+== Inputs / templates ==
+f5d6e50b26b0f542ab88913950a12338be22454a97694ca49d1402e443dabc93  inputs/README_INPUT_SCHEMA.md
+a6c3fe6c98a7094809f002c30c259e72e7292db2c7b5a63d1bb8723789a0d0fb  inputs/density_matrices_template.csv
+ebef50f1e4bc9ea4d573ff669132c01b5fd6180586ccaecf5a393a47e48865aa  inputs/tomography_counts_template.csv
+
+== Sealed outputs ==
+303d582cfdfc20135ea710df0371ae5d3e688cf24b9e85048a50203fc9312efd  outputs/test7_model_predictions.csv
+8bf033e3116f0a5edcc024505e6836f2bba1858071fad5d8752fb315fe7502b4  outputs/test7_density_matrix_reconstruction.csv
+e09f8fa16e062d36a29d938d57e29b6d94023ef56cdbcc4d397c892a3dbcbe3b  outputs/test7_purity_leak_curve.csv
+dfa403a4613eaf07e53805bc38cfdcf0faa7aff01da6af8bf3bf47b967c7d06a  outputs/test7_pr_warning_events.csv
+b2b460040717d9887af3aac119a6f4890a7460ae1c37d3d5208ef6591c0ca6e8  outputs/test7_control_comparison.csv
+c2adf68bd6e680ce407a1e215c92f42e79165f4b5c297eca7d4e211ba21795af  outputs/test7_internal_checks.json
+8dff60b4fa93935514189c07cb4a5fa1a97be1b3cefd39586e43e75f8572c9c2  outputs/test7_verdict.md
+
+== Plots ==
+82fb79c2d545547ebf1fcc0e45fb80ae5ae46935b0050c877976fbc8b695759e  outputs/plots/purity_curve.png
+fce5ea74240fbe5725bf53b20e943199522f1c0a84e223749e062ad1b2927a52  outputs/plots/A_leak_curve.png
+3d50a8d172c481480305062053fd72e64a515e186dba8d2315173f8c91c2aaa9  outputs/plots/threshold_crossing.png
+89c148c646ad5a07b099b168f3b95c7deb714fc7c4587d2cff7f31dbfe3fbbd8  outputs/plots/control_comparison.png
+
+== Controls ==
+baf82e30874014f03cb6b43bdc4afca075f332dd252323003e5cda1d286ca82e  controls/threshold_1_over_12.csv
+8cbe17fa3b9eedcfa884bfdbbe00687d7badc00c172afce65b4e7d36de6a0382  controls/threshold_1_over_18.csv
+1505caf0f7ab4ecae9f52b48ca89343b9041f239f21a8c25e4fae3c60c4a7cc3  controls/threshold_1_over_24_reference.csv
+31614119e18c4a1212d8d83b9517246b9c9fd919e1ac48b761b246141e6085ff  controls/threshold_1_over_36.csv
+2415944bced1c6922af932216d11a425579032718233c9c89f910e7f1ce28fc6  controls/threshold_random.csv
+deb048e55d15967a5b62aef5572a2d08355899daa8ce4c2b7959c0228b791df3  controls/population_only_false_positive.csv
+d8f193b8efddd3b55da2993ba97b32a1d8071433b669761e271023d505782c77  controls/shuffled_time_control.csv
+61035eb7a6691b1dc8ed150ae469053fb695a1776db6ce86aa5a82f1d23dc7b7  controls/scrambled_density_control.csv
+
+== Current-hash pointers ==
+d22a716a18d900a3583a734e06b3c7483fafb3021bbf19a0ba9f07c322172911  hashes/PRECOMMIT_CURRENT_HASH.txt
+e21fe013b177e6913c5a3964ce936ba2756bb7f0ec4a7fb26241ef5cc29d257b  hashes/run_test7_pr_tomography_CURRENT_HASH.txt
+5140f4243074036e06de1b5ce9fc6f9a4c9250cdd7a2615b16c38cea32839cf5  hashes/run_test7_pr_controls_CURRENT_HASH.txt
+40075585c9aed239899568db58b9c583119a6d2b58af9c677f77046c37720bd0  hashes/model_predictions_CURRENT_HASH.txt
+375b6b69f45c3bf022e1c1429230d2e9c836db5cad1730d6e8830e2ac7f6bb1e  hashes/final_outputs_CURRENT_HASH.txt
+
+== Reproducibility ==
+python run_test7_pr_tomography.py --mode simulate
+python run_test7_pr_controls.py --input outputs/test7_purity_leak_curve.csv
+python _consolidate_verdict.py
+Seeds: D random threshold = 20260621; F shuffled time = 20260621

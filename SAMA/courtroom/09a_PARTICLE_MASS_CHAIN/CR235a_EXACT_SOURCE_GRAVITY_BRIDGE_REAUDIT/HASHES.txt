@@ -1,0 +1,38 @@
+CR235a Exact-Source Gravity Bridge Reaudit - SHA-256 Manifest
+Sealed: 2026-06-22 by Sean Brady
+Verdict: PASS (amendment to CR235 FAIL; CR235 preserved)
+  matter identity 126/126 exact
+  matter ratio invariance 15750/15750 exact
+  SOB identity 126/126 exact
+  SOB ratio invariance 15750/15750 exact
+  directional Spearman rho = 1.000000 (PASS_DIRECTIONAL)
+  WC1, WC2, WC3 broke as predicted
+  WC4 permutation null (10000 shuffles, seed 20260623): p_perm = 0/10000, max |rho_shuffled| = 0.387782, percentile_rho_real = 1.000000
+
+== Artifacts ==
+e42944abe1cd6c1710de78cc4a992252dfe1cf083eaf905458477a89a49364dc  CR235a_PRECOMMIT.md
+e189e7cc375c891a1ba7484a25654d93405488049e3c846bbb230d8df5eb58e8  CR235a_result.md
+f79bc7a2cae955ba706c4bedbf883d16d8563e694b1a340ae1c69fe1c97c650c  CR235a_runner.py
+cc30638266f066ab5e00be4eeb3a5248b6f495d6b99756ed215f1c75c6776bda  CR235a_summary.json
+d4953087170b9c3a35ac4bea9c5fb93fa39f2172ede374939afd8a2505f1be7f  CR235a_matter_exact_audit.csv
+8d3a1e9de8df7c348f168415c6289fc22aa2db768e95be0c512a68b3d22a97fc  CR235a_sob_exact_audit.csv
+
+== CR235 preserved (not modified) ==
+0e91dd6759200d3cf2b8b361632631805a71cf5b311a6c465cc8a8457265538e  CR235_PRECOMMIT.md
+c9843e829d22636cd7a3d3690397c4c3a85a22200ab5777a1f2b5b5427064b11  CR235_result.md
+
+== Hash-locked sources ==
+45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f  C:\VS\CR219_promoted_particle_rows_126.csv
+0cd620be2f7ed1cd9ca03d4fb7222061ba990d258a04a7c99bbc7ff020b94616  CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv
+fbfb17d82fbe7375690ae4b7c5ec0e473d0024284caf2dbd89d5404ded1b7b3a  CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv
+
+== Hash-locked upstream CRs ==
+3c1fd16c860a09a3b92fe61de008eb3b5f943e797a63327c47110af51b9829b7  CR230_result.md
+ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da  CR229_result.md
+b316d0fb2e8d5eb83a8be4cad5a53926385004f3130434eebaf2d13b4beda83e  CR222_result.md
+f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543  CR114_result.md
+
+== Reproducibility ==
+Runner: python CR235a_runner.py
+Seeds:  WC3=20260622, WC4=20260623
+N_perm: 10000

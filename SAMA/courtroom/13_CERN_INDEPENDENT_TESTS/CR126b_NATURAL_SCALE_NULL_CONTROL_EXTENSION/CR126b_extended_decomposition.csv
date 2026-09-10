@@ -1,0 +1,20 @@
+candidate_id,anchor_class,operator_class,partition_signature,closure_depth,q_sign,q_abs,stability_status,physically_allowed,nearest_anchor,rel_residual_pct,closest_scale,log10_ratio_obs_scale,in_band_2pct,in_band_5pct,in_band_10pct,in_band_20pct
+QP093A-0070,NEAR_ANCHOR,V4_1_SINGLE_WRITE,12,2,positive,12,UNSTABLE_HEAVY_WRITE_CANDIDATE,True,W boson decay width,1.9074,D_over_R2,-0.0383,False,False,True,True
+QP093A-0073,NEAR_ANCHOR,V4_1_SINGLE_WRITE,1,0,negative,1,ANTIMATTER_STABLE_CONJUGATE,True,X(3872) width,2.5779,alphaH_sq_over_R2,-0.0324,False,False,True,True
+QP093A-0074,NEAR_ANCHOR,V4_1_SINGLE_WRITE,1,0,positive,1,ANTIMATTER_STABLE_CONJUGATE,True,X(3872) width,1.0791,2negD_over_R,0.0153,False,True,True,True
+QP093A-0128,NEAR_ANCHOR,GROUND_BARYON_3BODY,1+2+9,0,negative,1,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Pc(4312)+ pentaquark mass,4.2649,alphaH_D_over_R2,0.0101,False,True,True,True
+QP093A-0139,NEAR_ANCHOR,OCTET_COMPOSITE,1+4+9,3,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Xi_cc++ doubly charm baryon mass,2.5655,alphaH_sq_over_R2,-0.0345,False,False,True,True
+QP093A-0143,NEAR_ANCHOR,OCTET_COMPOSITE,1+6+9,3,negative,5,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Pc(4312)+ pentaquark mass,1.4546,alphaH_over_R2,0.0201,False,True,True,True
+QP093A-0145,NEAR_ANCHOR,OCTET_COMPOSITE,1+8+8,3,negative,5,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Pcs(4459)0 strange pentaquark mass,4.1825,alphaH_D_over_R2,0.0016,True,True,True,True
+QP093A-0170,NEAR_ANCHOR,OCTET_COMPOSITE,2+6+8,3,negative,2,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,X(3872) mass,3.2842,2negD_D_over_R,0.0216,False,False,True,True
+QP093A-0171,NEAR_ANCHOR,OCTET_COMPOSITE,2+6+9,3,negative,4,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Pc(4312)+ pentaquark mass,1.0459,2negD_over_R,0.0018,True,True,True,True
+QP093A-0186,ANCHORED_LOOSE,OCTET_COMPOSITE,3+4+6,3,negative,1,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,W boson decay width,0.2641,2negD_D_over_R2,0.0061,True,True,True,True
+QP093A-0187,NEAR_ANCHOR,GROUND_BARYON_3BODY,3+4+8,0,positive,1,BOUND_COLOR_CLOSED_STABLE_CANDIDATE,True,W boson decay width,2.446,alphaH_sq_over_R2,-0.0552,False,False,False,True
+QP093A-0188,NEAR_ANCHOR,OCTET_COMPOSITE,3+4+9,3,negative,1,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,X(3872) mass,1.4291,alphaH_over_R2,0.0124,False,True,True,True
+QP093A-0190,NEAR_ANCHOR,GROUND_BARYON_3BODY,3+6+6,0,negative,3,BOUND_COLOR_CLOSED_STABLE_CANDIDATE,True,Pc(4312)+ pentaquark mass,1.4402,alphaH_over_R2,0.0158,False,True,True,True
+QP093A-0191,NEAR_ANCHOR,OCTET_COMPOSITE,3+6+8,3,negative,1,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,X(3872) mass,1.3607,alphaH_over_R2,-0.0089,False,True,True,True
+QP093A-0202,NEAR_ANCHOR,OCTET_COMPOSITE,4+4+8,3,positive,2,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,Xi_cc++ doubly charm baryon mass,4.5839,alphaH_D_over_R2,0.0414,False,False,False,True
+QP093A-0225,NEAR_ANCHOR,GROUND_BARYON_3BODY,8+8+8,0,positive,2,BOUND_COLOR_CLOSED_STABLE_CANDIDATE,True,X(3872) mass,4.1416,alphaH_D_over_R2,-0.0026,True,True,True,True
+QP093A-0231,ANCHORED_LOOSE,GROUND_BARYON_3BODY,9+9+9,0,neutral,0,REJECTED_FAKE_CLOSURE,False,W boson decay width,0.6812,1_over_R2,-0.0084,True,True,True,True
+QP093A-0234,ANCHORED_LOOSE,GROUND_BARYON_3BODY,12+12+12,0,neutral,0,REJECTED_FAKE_CLOSURE,False,X(3872) mass,0.4223,alphaH_D_over_R3,0.085,False,False,False,False
+QP093A-0299,ANCHORED_LOOSE,CLOSED_SCALAR_LOOP,12+12,3,neutral,0,UNSTABLE_SCALAR_REVEAL_CANDIDATE,True,Higgs boson mass,0.1037,alphaH_over_R3,-0.0477,False,False,False,True

@@ -1,0 +1,81 @@
+{
+  "artifact": "CR232_MATTER_SUPPORT_PROMOTION_GATE_AUDIT",
+  "classification": "STRUCTURAL_THEOREM_AUDIT",
+  "arc_position": "Test 3 of 7 in the Seven-Test Ownership Arc",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "precommit_sha256": "4b29f49c5818816620ad3b7a49644cf8de3385ac642019b844e173f556696765",
+  "source_file": "C:\\VS\\CR219_promoted_particle_rows_126.csv",
+  "source_sha256": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+  "constants": {
+    "R": 12,
+    "R2": 144,
+    "tolerance": "0.000001"
+  },
+  "row_partition": {
+    "total": 139,
+    "matter_rows": 126,
+    "blocked_rows": 13,
+    "hidden_source_support_rows": 8
+  },
+  "audit_1_matter": {
+    "rule": "qA = M_obs*(1+|q|/R^2); T = qA/8; W = 7*qA/8",
+    "rows_checked": 126,
+    "pass_count": 126,
+    "fail_count": 0,
+    "passes_audit": true
+  },
+  "audit_2_blocked": {
+    "rule": "M_obs = qA = T = W = 0",
+    "rows_checked": 13,
+    "pass_count": 13,
+    "fail_count": 0,
+    "passes_audit": true
+  },
+  "audit_3_surcharge": {
+    "rule": "M_native = p + p^2/R^2",
+    "rows_checked": 8,
+    "pass_count": 8,
+    "fail_count": 0,
+    "passes_audit": true
+  },
+  "wrong_controls": {
+    "WC1_promote_blocked_row": {
+      "candidate_id": "QP093A-0306",
+      "p": 1,
+      "qA_predicted_if_matter": "1.0139371141975308641975308641975308641975308641975308641975308641975308641975308",
+      "qA_uploaded": "0",
+      "distance": "1.0139371141975308641975308641975308641975308641975308641975308641975308641975308",
+      "broke_as_predicted": true
+    },
+    "WC2_wrong_tensor_ratio": {
+      "rule_under_test": "T = qA/7 (wrong; correct is qA/8)",
+      "nonzero_rows_checked": 126,
+      "breaks_count": 126,
+      "broke_all_as_predicted": true
+    },
+    "WC3_wrong_retained_ratio": {
+      "rule_under_test": "W = 6*qA/8 (wrong; correct is 7*qA/8)",
+      "nonzero_rows_checked": 126,
+      "breaks_count": 126,
+      "broke_all_as_predicted": true
+    },
+    "WC4_wrong_surcharge_shape": {
+      "rule_under_test": "M_native = p + p^2/100 (wrong; correct is p + p^2/144)",
+      "nonzero_p_rows_checked": 8,
+      "breaks_count": 8,
+      "broke_all_as_predicted": true
+    },
+    "all_broke_as_predicted": true
+  },
+  "scientific_verdict": "PASS",
+  "execution_status": "CLEAN",
+  "main_audit_passed": true,
+  "wrong_controls_passed": true,
+  "K_gates": {
+    "K1_external_anchor": "N/A (closed-form structural audit)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (theorem + tolerance + WCs locked in precommit before runner ran)",
+    "K4_typed_inputs": "PASS (single SHA-locked CSV + R=12)",
+    "K5_reproduction_on_demand": "PASS (deterministic runner; sub-second runtime)"
+  }
+}

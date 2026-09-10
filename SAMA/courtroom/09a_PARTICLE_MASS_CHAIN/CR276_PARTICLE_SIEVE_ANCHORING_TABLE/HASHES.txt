@@ -1,0 +1,12 @@
+# CR276 hashes
+
+CR276_PRECOMMIT.md sha256 = d9babfc8e319db4fec4d044c6d7ab1d84f2509bc4107b0beb8b36afef8e804db
+CR276_runner.py sha256 = eafd2ce0e78f1d001caa5e86ecfcdcb8f73cb95d6c903c8fd725a904e4393f68
+CR276_summary.json sha256 = 79fab0e0e9757666d216055ee8e4d92a12c9c99266db8bfc8fe5d2b21ffe5932
+CR276_anchoring_table.csv sha256 = 9a8dbacfd4dce0698a0e9688dc2ef88560d3ade4759884752c8d0506ab28fd61
+
+# Input files (hash-locked)
+CR252_particle_catalog_v2.csv sha256 = 3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+CR276_result.md sha256 = 3cfe747dba57b72e5f37064866c31870fd85921a377fd118b4cd60418ffb48e6

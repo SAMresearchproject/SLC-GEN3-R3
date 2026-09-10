@@ -1,0 +1,25 @@
+{
+  "all_precommitted_gates_passed": true,
+  "all_wrong_controls_detected": true,
+  "disposition": "PASS_STRUCTURAL_P9_G0_DERIVED_W9_8_PLUS_1_OVERLAY_105_VISIBLE_100_INDEPENDENT_MNATIVE_16200_PHYSICAL_MAPPING_OPEN",
+  "gates": {
+    "G0_SOURCE_AND_PRECOMMIT_LOCK": true,
+    "G10_WRONG_CONTROLS_AND_SCOPE": true,
+    "G11_AUTHORITY_BOUNDARY": true,
+    "G1_INSTALLED_W9_PROVENANCE": true,
+    "G2_QP093A_BASELINE_LOCK": true,
+    "G3_EXACT_UNLIFTED_P9_FAMILY": true,
+    "G4_TYPED_PARENT_MATCH": true,
+    "G5_EXACT_LINEAR_DERIVATION": true,
+    "G6_DEPENDENCY_INTERVENTION": true,
+    "G7_RECORD_PRESERVATION_AND_COUNT": true,
+    "G8_INDEPENDENT_TOTAL_CONSEQUENCE": true,
+    "G9_NONLINEAR_RESIDUAL_VISIBILITY": true
+  },
+  "mathematical_verdict": "PASS",
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION",
+  "result_class": "STRUCTURAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "source_count": 14,
+  "sources_unchanged": true
+}

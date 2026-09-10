@@ -1,0 +1,16 @@
+{
+  "campaign_id": "CR005f_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_TRACE_CORRECTED",
+  "task": "Correct CR005e numerical trace construction and execute the frozen Starbreaker-to-weak-CCSN pixel bridge",
+  "classification": "CONSTRUCTIVE_NUMERICAL_IDENTITY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+  "sealed_utc": "2026-07-21T03:06:06Z",
+  "preflight_path": "artifacts/preflight_filled/PREFLIGHT_20260720_220235_no_script.md",
+  "preflight_sha256": "1c168899d3fbf3ea158d018852129a77f55390daa5e168215d06fc0395894566",
+  "contract_sha256": "9a34c4f225fd27d61d71683fb43242ea1010718bf2fbf87293cc37417e58ead7",
+  "precommit_sha256": "aa2afd2a4d0b65707de359e1ce13af45acc520bf8afa8748d44ea04d19bb7495",
+  "source_manifest_sha256": "90bb9b6dc0e74223028ba708ff21033af9d8688ecb1d429b70ec107c09726910",
+  "failed_predecessor_runner_sha256": "e32b6ba1916dead08d468fa1db10a3b3f9f15d64b8a5f87ae37586d5b2a9c8b0",
+  "results_opened": false,
+  "runner_present_at_seal": false,
+  "same_run_repair_allowed": false,
+  "predecessor_rerun": false
+}

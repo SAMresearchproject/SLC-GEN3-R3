@@ -1,0 +1,7 @@
+wrong_control,observed_failure,expected_failure,passes_as_failure,interpretation
+omit_0306_p1,161,161,True,missing source packet p=1 corrupts checksum by exactly one
+restore_duplicate_0305_p1,163,163,True,excluded duplicate p=1 support slot overcloses packet by exactly one
+count_0303_inside_12_unpacked_modes,13,13,True,mirror row inserted into unpacked roster creates role/category failure
+use_mass_lift_fields_instead_of_bare_p,12019/144,not_81,True,"CR134 support mass lift is validation, not packet checksum value"
+promote_tensor_row_to_matter,SUPPORT_NOT_MATTER,SUPPORT_NOT_MATTER,True,"tensor witness remains support/alarm floor, not matter"
+treat_road_light_row_as_checksum,0301=1,0301_is_route_not_81_checksum,True,"road-light carrier is the route lane, not the mirror checksum"

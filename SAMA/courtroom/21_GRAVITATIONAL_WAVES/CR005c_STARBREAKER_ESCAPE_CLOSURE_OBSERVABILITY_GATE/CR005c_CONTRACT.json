@@ -1,0 +1,74 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "task": "Continue Courtroom gravitational-wave work with latest Starbreaker and SAM advances",
+  "record_class": "CONSTRUCTIVE_OBSERVABILITY_AND_SEMANTICS_GATE",
+  "question": "Can the frozen Starbreaker trajectories identify tau_Theta_escape < tau_closure as a non-tautological event-ordering result, and can returned 101 carrier relations be distinguished operationally from ending-zero escape histories?",
+  "user_supplied_hypothesis": "tau_Theta_escape < tau_closure",
+  "source_use": "Prior Starbreaker and GW results are inputs and context only; no predecessor verdict is retested.",
+  "frozen_history_dictionary": {
+    "001": "outside at seed, outside at collapse, inside at final",
+    "010": "outside at seed, inside at collapse, outside at final",
+    "011": "outside at seed, inside at collapse, inside at final",
+    "100": "inside at seed, outside at collapse, outside at final",
+    "101": "inside at seed, outside at collapse, inside at final",
+    "110": "inside at seed, inside at collapse, outside at final",
+    "111": "inside at seed, inside at collapse, inside at final"
+  },
+  "operational_candidates": {
+    "stage_coordinate": "lambda_stage in {0,1,2} for seed, collapse, final; this is ordering only, not physical time",
+    "affine_leg_coordinate": "lambda_affine in [0,2] from piecewise-affine interpolation of stored Cartesian endpoints; diagnostic only",
+    "local_release_surface": "pair separation crosses outward through the frozen contact radius 0.076",
+    "local_return_closure": "the same pair crosses inward through 0.076 on the collapse-to-final leg",
+    "event_closure": "must be an independent scenario-level Home/horizon seal observable; it may not be defined as the 101 pair's own return",
+    "physical_escape_time": "requires a physical cadence or solver clock and an independently defined release surface"
+  },
+  "affine_101_probe": {
+    "population": "all frozen history-101 relations in REOPENING_RELAY_101_ENDPOINTS.csv",
+    "positions": "x0,y0,z0; xc,yc,zc; x1,y1,z1 from the frozen atom-stage roster",
+    "surface": 0.076,
+    "method": "solve norm(r_a + s*(r_b-r_a)) = 0.076 on each leg for roots s in [0,1]",
+    "release_coordinate": "seed-to-collapse outward root in lambda [0,1]",
+    "return_coordinate": "collapse-to-final inward root in lambda [1,2]",
+    "inequality_status": "If both roots exist for history 101, release < return is entailed by the history ordering and is not evidence for escape before independent event closure."
+  },
+  "observability_requirements": [
+    "an explicit physical or dimensionless solver cadence",
+    "a scenario-level closure or Home-seal state independent of the tested dyad",
+    "a release-surface signed distance independent of final contact scoring",
+    "a carrier crossing direction and crossing step",
+    "returned 101 and ending-zero 010,100,110 populations on the same clock",
+    "a predeclared comparison of escape step against event-closure step"
+  ],
+  "gates": {
+    "G01": "all frozen source hashes match",
+    "G02": "the atom roster exposes exactly seed, collapse, and final coordinates and no time field",
+    "G03": "the relation schema orders exactly seed, collapse, final and supplies no cadence",
+    "G04": "the current engine has no event-clock, horizon-seal, release-surface, or event-closure state",
+    "G05": "history 101 is reconstructed as returned and ending-zero histories are classified without semantic drift",
+    "G06": "piecewise-affine 101 release and return roots reproduce the stored inside/outside ordering",
+    "G07": "the tested inequality is classified as non-tautological only if closure is independent of the same pair return",
+    "G08": "no physical tau, signal speed, horizon, strain, energy, or GW-emission claim is produced",
+    "G09": "no SAM registry or Starbreaker engine mutation occurs",
+    "G10": "atomic release inventory and provenance close"
+  },
+  "verdict_ladder": {
+    "ready": "PASS_GW_TIMING_BRIDGE_READY__ESCAPE_PRECEDES_INDEPENDENT_EVENT_CLOSURE",
+    "boundary": "BOUNDARY_STAGE_ORDERING_ONLY__PHYSICAL_ESCAPE_BEFORE_CLOSURE_NOT_IDENTIFIABLE__EVENT_CLOCK_REQUIRED",
+    "fail": "FAIL_STARBREAKER_TIMING_OBSERVABILITY_CONSTRUCTION"
+  },
+  "claim_ceiling": {
+    "may_establish": [
+      "the exact information currently stored about relation ordering",
+      "an operational distinction between returned 101 and ending-zero histories",
+      "whether affine crossing coordinates add information beyond the three history bits",
+      "the minimum instrumentation required for a later GW timing bridge"
+    ],
+    "may_not_establish": [
+      "a physical escape time or closure time",
+      "a Home horizon or release surface from the contact radius alone",
+      "gravitational-wave production, strain, amplitude, energy, or detector response",
+      "a B/X1 causal operator or carrier identity"
+    ]
+  },
+  "same_run_repair_allowed": false
+}

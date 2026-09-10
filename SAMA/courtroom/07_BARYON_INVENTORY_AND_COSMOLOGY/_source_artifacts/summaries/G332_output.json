@@ -1,0 +1,226 @@
+{
+  "test": "G332_corrected_cmb_acoustic_branch",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T16:36:40.685363+00:00",
+  "precheck": "audit/G332_corrected_cmb_acoustic_branch_PRECHECK_2026_05_26.md",
+  "sealed_envelope": "audit/SEALED_ENVELOPE_G332_corrected_cmb_acoustic_branch_2026_05_26.md",
+  "grade": "corrected-branch analytic CMB acoustic consistency; not theorem-grade CMB",
+  "constants": {
+    "A0": 0.026525823848649224,
+    "chi": 0.07073553026306459,
+    "Omega_m_old": 0.3183098861837907,
+    "Omega_b_raw": 0.05305164769729845,
+    "Omega_m_corrected": 0.3137609155690572,
+    "Omega_b_corrected": 0.049299011266100756
+  },
+  "predictions": {
+    "P1": {
+      "name": "acoustic machinery self-validates",
+      "R": 1.7496184487946218,
+      "R_sigma": -0.1264241750822114,
+      "theta100": 1.0390795878465087,
+      "theta100_pct": -0.1931064704772309,
+      "pass": true
+    },
+    "P2": {
+      "name": "corrected branch physical densities at H0=67.36",
+      "H0": 67.36,
+      "omega_m": 0.1423649239971207,
+      "omega_b": 0.022368783502886305,
+      "offsets": {
+        "omega_m_pct": -0.4441090929225821,
+        "omega_b_pct": -0.005438073820723102
+      },
+      "pass": true
+    },
+    "P3": {
+      "name": "corrected branch acoustic consistency at H0=67.36",
+      "H0": 67.36,
+      "R": 1.7487492621104774,
+      "theta100": 1.0383504683349778,
+      "lA": 302.5560973288161,
+      "offsets": {
+        "R_sigma": -0.3153778020701188,
+        "theta100_pct": -0.26314071454170884,
+        "lA_sigma": 8.845525875734792,
+        "wm_pct": -0.4441090929225821,
+        "wb_pct": -0.005438073820723102
+      },
+      "pass": true
+    },
+    "P4": {
+      "name": "theta-matching H0 in Planck-side band",
+      "H0_theta": 67.90421009650233,
+      "H0_R": 74.85656591810304,
+      "theta_match": {
+        "h": 0.6790421009650233,
+        "wm": 0.1446745855185091,
+        "wb": 0.022731684118335163,
+        "zstar": 1091.5332759196601,
+        "zdrag": 1021.6479631485919,
+        "DM": 13784.217849890543,
+        "rs_star": 143.5061136134255,
+        "rs_drag": 149.80546509188918,
+        "theta100": 1.0410900000000003,
+        "R": 1.7488700835071342,
+        "lA": 301.7599490524155
+      },
+      "offsets": {
+        "R_sigma": -0.2891122810577684,
+        "theta100_pct": 2.1328089303041168e-14,
+        "lA_sigma": -0.0005660842721984712,
+        "wm_pct": 1.17103882413224,
+        "wb_pct": 1.616826635382933
+      },
+      "pass": true
+    },
+    "P5": {
+      "name": "H0=73 rejected despite acceptable R",
+      "H0": 73.04,
+      "row": {
+        "h": 0.7304,
+        "wm": 0.16738647848318944,
+        "wb": 0.026300241614126304,
+        "zstar": 1088.7473851662226,
+        "zdrag": 1030.3546452652922,
+        "DM": 12822.436311753094,
+        "rs_star": 136.46524201761562,
+        "rs_drag": 141.27134439582503,
+        "theta100": 1.0642692129617448,
+        "R": 1.7498871179386843,
+        "lA": 295.18777911907125
+      },
+      "offsets": {
+        "R_sigma": -0.06801783941644209,
+        "theta100_pct": 2.2264369998506126,
+        "lA_sigma": -73.02467645476378,
+        "wm_pct": 17.053481456775838,
+        "wb_pct": 17.569251739500682
+      },
+      "pass": true
+    },
+    "P6": {
+      "name": "corrected branch repairs old raw-baryon tension",
+      "old67": {
+        "h": 0.6736,
+        "wm": 0.1444289600949792,
+        "wb": 0.024071493349163198,
+        "zstar": 1089.713720873255,
+        "zdrag": 1024.4770799717276,
+        "DM": 13814.696562823508,
+        "rs_star": 142.90822354513617,
+        "rs_drag": 148.7207278822805,
+        "theta100": 1.034465164654532,
+        "R": 1.7512485527091863,
+        "lA": 303.692454896628
+      },
+      "old_offsets": {
+        "R_sigma": 0.22794624112746883,
+        "theta100_pct": -0.6363364690341943,
+        "lA_sigma": 21.471721073644783,
+        "wm_pct": 0.9992727936917469,
+        "wb_pct": 7.606139245253449
+      },
+      "corrected67": {
+        "h": 0.6736,
+        "wm": 0.1423649239971207,
+        "wb": 0.022368783502886305,
+        "zstar": 1091.8539646305617,
+        "zdrag": 1020.6594004850044,
+        "DM": 13894.62233540237,
+        "rs_star": 144.27487609302693,
+        "rs_drag": 150.75534359761483,
+        "theta100": 1.0383504683349778,
+        "R": 1.7487492621104774,
+        "lA": 302.5560973288161
+      },
+      "corrected_offsets": {
+        "R_sigma": -0.3153778020701188,
+        "theta100_pct": -0.26314071454170884,
+        "lA_sigma": 8.845525875734792,
+        "wm_pct": -0.4441090929225821,
+        "wb_pct": -0.005438073820723102
+      },
+      "pass": true
+    },
+    "P7": {
+      "name": "branch upgrades to corrected analytic acoustic consistency",
+      "upgrade": "G331 -> G332 corrected acoustic consistency",
+      "pass": true
+    },
+    "P8": {
+      "name": "not theorem-grade CMB closure",
+      "frontier": [
+        "Boltzmann-code CMB spectrum and acoustic peaks",
+        "full recombination history from substrate action",
+        "perturbation spectrum / initial conditions",
+        "CMB lensing / damping tail / polarization",
+        "PBH mass function and clustering law"
+      ],
+      "pass": true
+    }
+  },
+  "wrong_controls": {
+    "WC1": {
+      "name": "raw Omega_b=2*A0 passes corrected baryon-density test",
+      "raw_wb_pct": 7.606139245253449,
+      "bites": true,
+      "pass": true
+    },
+    "WC2": {
+      "name": "raw Omega_m=12*A0 is current corrected branch",
+      "Omega_m_old": 0.3183098861837907,
+      "Omega_m_corrected": 0.3137609155690572,
+      "difference": 0.004548970614733472,
+      "bites": true,
+      "pass": true
+    },
+    "WC3": {
+      "name": "R alone rescues H0=73",
+      "H0_73_R_sigma": -0.06801783941644209,
+      "H0_73_wm_pct": 17.053481456775838,
+      "H0_73_theta_pct": 2.2264369998506126,
+      "bites": true,
+      "pass": true
+    },
+    "WC4": {
+      "name": "analytic theta/lA is Planck-sigma precision",
+      "Planck_self_lA_sigma": 6.486605362754795,
+      "bites": true,
+      "pass": true
+    },
+    "WC5": {
+      "name": "theta-matched H0 is derived parameter-free H0",
+      "H0_theta": 67.90421009650233,
+      "H0_is_measured_input_not_derived": true,
+      "bites": true,
+      "pass": true
+    },
+    "WC6": {
+      "name": "test derives acoustic peaks / CMB power spectrum",
+      "Boltzmann_code_used": false,
+      "bites": true,
+      "pass": true
+    },
+    "WC7": {
+      "name": "test derives perturbations, PBH mass function, or baryogenesis",
+      "derived_perturbations": false,
+      "derived_PBH_mass_function": false,
+      "derived_baryogenesis": false,
+      "bites": true,
+      "pass": true
+    },
+    "WC8": {
+      "name": "corrected retest erases historical G262",
+      "supersedes_for_current_branch": true,
+      "erases_historical_record": false,
+      "bites": true,
+      "pass": true
+    }
+  },
+  "verdict": "G332_CORRECTED_CMB_ACOUSTIC_BRANCH_UPGRADED",
+  "prediction_pass_count": 8,
+  "prediction_total": 8,
+  "wrong_control_pass_count": 8,
+  "wrong_control_total": 8
+}

@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Simulate Tc row missing,FAIL_SUB_LANE_A,True,True,missing-row detection wired
+WC2,Simulate pressure_alignment MISMATCH > MATCH,FAIL_SUB_LANE_B,True,True,ratio detection wired
+WC3,Simulate QP049 with no wrong_controls,FAIL_SUB_LANE_C,True,True,missing-artifact detection wired
+WC4,Corrupt CR065 manifest seal,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC5,Simulate pressure_alignment_counts missing,DIAGNOSTIC_SUB_LANE_B,True,True,field-missing detection wired
+WC6,Simulate Pm row missing,FAIL_SUB_LANE_A,True,True,second-hole detection wired

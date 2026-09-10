@@ -1,0 +1,90 @@
+{
+  "a_side": 0.041666666666666664,
+  "arms": {
+    "ARM_FIXED_SCHEDULE_1_fires": {
+      "action_count": 500,
+      "fidelity_mean": 0.07665894051220427,
+      "fidelity_std": 0.2602289094706218
+    },
+    "ARM_NONE": {
+      "action_count": 0,
+      "fidelity_mean": 0.01343454571147756,
+      "fidelity_std": 0.11285987399545117
+    },
+    "ARM_PR": {
+      "action_count": 499,
+      "fidelity_mean": 0.06911640088750486,
+      "fidelity_std": 0.248392582403475
+    },
+    "ARM_RATE_MATCHED": {
+      "action_count": 500,
+      "fidelity_mean": 0.08457888678429805,
+      "fidelity_std": 0.27256057688210894
+    },
+    "ARM_SHUFFLED": {
+      "action_count": 499,
+      "fidelity_mean": 0.03458835872227122,
+      "fidelity_std": 0.1791673109041912
+    }
+  },
+  "checks_passed": 9,
+  "checks_total": 9,
+  "cr_id": "CR223e",
+  "effect": {
+    "PR_vs_FIXED_TIME": {
+      "ci_high": -0.0017547140389215965,
+      "ci_low": -0.015238746345296069,
+      "mean_delta": -0.007542539624699428
+    },
+    "PR_vs_NONE": {
+      "ci_high": 0.07491417630002173,
+      "ci_low": 0.03667117102177017,
+      "mean_delta": 0.055681855176027285
+    },
+    "PR_vs_RATE_MATCHED": {
+      "ci_high": 0.0037190114853875972,
+      "ci_low": -0.03476288761639059,
+      "mean_delta": -0.015462485896793197
+    },
+    "PR_vs_SHUFFLED": {
+      "ci_high": 0.051733908272965146,
+      "ci_low": 0.019209164553271534,
+      "mean_delta": 0.03452804216523363
+    },
+    "PR_vs_best_control": {
+      "best_control_arm": "ARM_RATE_MATCHED",
+      "ci_high": 0.005497639249797169,
+      "ci_low": -0.0346162200084783,
+      "mean_delta": -0.015462485896793197
+    },
+    "budget_matched": true,
+    "partial_demonstration": true,
+    "primary_endpoint": "F_logical = Re<psi|rho_final|psi>",
+    "win_condition_passed_vs_best": false,
+    "win_vs_fixed": false,
+    "win_vs_none": true,
+    "win_vs_rate_matched": false,
+    "win_vs_shuffled": true
+  },
+  "generated_at_utc": "2026-06-21T14:31:59.301369+00:00",
+  "n_trials_per_arm": 500,
+  "p_alarm": 0.75,
+  "result_class": "CR223e_QC_BENEFIT_PARTIAL_DEMONSTRATION_IN_SIMULATION",
+  "rng_seeds": {
+    "bootstrap": 850260621,
+    "rate_matched": 630260621,
+    "shuffle": 740260621,
+    "train": 410260621,
+    "trial": 520260621
+  },
+  "sensor_calibration": {
+    "mu": 0.25795497382198956,
+    "scale": 0.001
+  },
+  "t_fixed_refocuses_T2": [
+    0.05
+  ],
+  "t_window_T2": 0.1,
+  "test_id": "CR223e_PR_QC_OPERATIONAL_BENEFIT",
+  "win_delta_f_target": 0.01
+}

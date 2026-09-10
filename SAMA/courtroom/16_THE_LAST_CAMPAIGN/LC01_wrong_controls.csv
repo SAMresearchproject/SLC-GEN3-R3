@@ -1,0 +1,31 @@
+control_id,scope,mutation_attempt,rejection_basis,status
+WC01_PRIMITIVE_MUTATION,global,"change alpha_H, R, D, A0, split fractions, bounce, or debit after LC01",LC01 primitive lock plus source hashes fix the stack before lane replay,REJECTED_BY_LC01
+WC02_BRANCH_LOCAL_CONSTANT_OVERRIDE,global,"let a branch define a local R, D, A0, split, bounce, or debit",later LC lanes must read the LC01 primitive table,REGISTERED_FOR_LANE_REPLAY
+WC03_TARGET_VALUE_SUBSTITUTION,global,feed a measured target value into the primitive selector,source chain fixes primitives before downstream comparisons,REGISTERED_FOR_LANE_REPLAY
+WC04_ROW_DELETION,global,drop failed rows from a downstream replay,lane artifacts must state input row counts and output row counts,REGISTERED_FOR_LANE_REPLAY
+WC05_RETROACTIVE_RELABELING,global,rename a failed category after seeing the downstream result,role labels must be fixed before each replay lane compares results,REGISTERED_FOR_LANE_REPLAY
+WC06_FORMULA_PATCH,global,patch the formula after a lane misses,each LC lane must emit formula manifest before result comparison,REGISTERED_FOR_LANE_REPLAY
+WC07_OLD_ROUTE_RESTORE,global,restore the old 2*pi route as the R=12 defense,R is sourced to CR113 completed-WRITE address count; A0 is applied only after R is fixed,REJECTED_BY_LC01
+WC08_DIRECT_QA_AS_MASS,qA,treat qA/source strength as observed mass,qA is registered as source/ledger strength; mass lanes must keep native mass and surface grammar separate,REGISTERED_FOR_LANE_REPLAY
+WC09_CARRIER_PROMOTED_TO_MATTER,matter,put 18 into matter algebra as a rest-mass element,"CR116 locks 18 as carrier-only tensor channel, not matter/rest mass",REJECTED_BY_LC01
+WC10_SURFACE_DEBIT_CONFUSION,Higgs/qA,confuse carrier side 1/8 with surface debit D^2/R,LC01 exact arithmetic gives 1/8 != 3/4,REJECTED_BY_LC01
+WC11_STATIC_A_FOR_DYNAMIC_RELEASE,GW/strong-field,use static int A dr/c as a dynamic GW170817 release model,strong-field lanes must preserve release-point/source-origin distinction,REGISTERED_FOR_LANE_REPLAY
+WC12_A1_AS_NORMAL_LAUNCH_POINT,horizon,treat A=1 as an ordinary photon launch surface,"A=1 is zero-depth/no-escape completion, not normal propagation",REGISTERED_FOR_LANE_REPLAY
+WC13_BRANCH_REPLAY_WITHOUT_HASH_LOCK,global,accept downstream replay without source/hash manifest,"LC format requires source, formula, checks, wrong controls, and hashes",REGISTERED_FOR_LANE_REPLAY
+WC14_IN_SAMPLE_RESCUE,global,tune a lane on the same targets it claims to predict,lane must declare target visibility and selector order,REGISTERED_FOR_LANE_REPLAY
+WC15_TOLERANCE_EXPANSION,global,expand tolerance after seeing miss size,lane tolerance must be fixed before comparison,REGISTERED_FOR_LANE_REPLAY
+WC16_HIDDEN_CORRECTION_TERM,global,add an unregistered correction term,lane formula manifest must list every term before execution,REGISTERED_FOR_LANE_REPLAY
+WC17_HIGGS_TARGET_LOCK,Higgs,set the Higgs value first and solve backwards,LC02 must compute 125.25 from locked primitives before comparison,REGISTERED_FOR_LANE_REPLAY
+WC18_HIGGS_CARRIER_DEBIT_SWAP,Higgs,"swap 18 carrier loss, 0.75 surface debit, and 9/16 half-bounce roles",LC01 exact arithmetic keeps all three roles distinct,REJECTED_BY_LC01
+WC19_QA_LEDGER_COMPRESSION_SKIP,qA,skip ledger compression and compare qA directly as an observed value,LC03 must preserve ledger/source/observed layers,REGISTERED_FOR_LANE_REPLAY
+WC20_PARTICLE_TABLE_NEAREST_MATCH,particle,assign each particle to the nearest matching row after comparison,LC04 role map must be fixed before mass comparison,REGISTERED_FOR_LANE_REPLAY
+WC21_PARTICLE_ROW_SUPPRESSION,particle,suppress particle rows that fail under the locked stack,LC04 must reconcile all declared rows or fail,REGISTERED_FOR_LANE_REPLAY
+WC22_PERIODIC_TABLE_DATA_BACKFILL,periodic/isotope,backfill isotope constants from observed periodic data,LC05 must declare generator values before comparison,REGISTERED_FOR_LANE_REPLAY
+WC23_BARYON_INVENTORY_RAW_BRANCH,baryon/matter,mix carrier-only rows into matter inventory to close counts,CR116 carrier/matter distinction is load-bearing,REGISTERED_FOR_LANE_REPLAY
+WC24_DISTANCE_ROAD_D_REFIT,distance,refit D in the distance road after CR115 locks D=3,LC07 must use D=3 from LC01 unless explicitly marked failed/mutated,REGISTERED_FOR_LANE_REPLAY
+WC25_DISTANCE_BIN_CHERRY_PICK,distance,select only favorable SN/BAO bins,LC07 must state bin set before comparison,REGISTERED_FOR_LANE_REPLAY
+WC26_HALO_PBH_CONFIG_AS_LAW,halo/PBH,promote a successful config file to a primitive law,LC08 must distinguish generator config from theorem primitive,REGISTERED_FOR_LANE_REPLAY
+WC27_QUANTUM_BORN_RULE_NORMALIZATION_PATCH,quantum,patch Born-rule normalization after result comparison,LC09 must predeclare normalization from pair-write machinery,REGISTERED_FOR_LANE_REPLAY
+WC28_QI_THRESHOLD_SWAP,quantum information,swap QI thresholds after seeing which one passes,LC10 thresholds must be locked before comparison,REGISTERED_FOR_LANE_REPLAY
+WC29_BLACK_HOLE_A1_SOFTENING,black-hole/horizon,soften A=1 from zero-depth/no-escape into ordinary propagation,LC11 must preserve A=1 completion discipline,REGISTERED_FOR_LANE_REPLAY
+WC30_THERMAL_TARGET_FIT,black-hole/thermodynamic,fit thermodynamic coefficients to Hawking/entropy targets,LC11 must derive thermal terms from locked stack before comparison,REGISTERED_FOR_LANE_REPLAY

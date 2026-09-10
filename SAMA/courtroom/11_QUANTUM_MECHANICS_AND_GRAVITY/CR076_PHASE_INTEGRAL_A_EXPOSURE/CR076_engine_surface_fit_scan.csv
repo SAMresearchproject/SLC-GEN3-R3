@@ -1,0 +1,3 @@
+pattern,engine_hit_count,doc_mention_count,classification
+"\bscipy\.optimize\b.{0,80}(A_?exposure|phase)",0,0,CLEAN
+"\bcurve_fit\b.{0,80}observed",0,0,CLEAN

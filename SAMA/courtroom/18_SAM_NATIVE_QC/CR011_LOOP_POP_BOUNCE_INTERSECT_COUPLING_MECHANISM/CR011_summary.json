@@ -1,0 +1,21 @@
+{
+  "cr266_atom_identities": "PASS (9/9)",
+  "cr010_lambda_spaghettio_um": 3.8768,
+  "cr010_lambda_spaghettio_check": "PASS",
+  "cr011_d_ref_base_um": 46.5211,
+  "cr011_d_ref_base_check": "PASS",
+  "informational_A_0": 0.026525823848649224,
+  "informational_bench_distance_m": 0.15,
+  "informational_H_pred_at_0.15m": "8.2267e-06",
+  "informational_CR_NSC_01_floor": "7.4000e-06",
+  "informational_H_pred_over_floor": 1.112,
+  "informational_landing_at_n_0": "F-iii marginal (~1.1x floor)",
+  "alt_candidate_a_loop_scale_um": 3.8768,
+  "alt_candidate_a_H_pred": "6.8556e-07",
+  "alt_candidate_a_status": "INCONSISTENT with CR010 \u00a71.5 elsewhere-propagation",
+  "alt_candidate_c_R2_scale_um": 558.2531,
+  "alt_candidate_c_H_pred": "9.8721e-05",
+  "alt_candidate_c_status": "RULED OUT by Vol II \u00a711C A-operator domain rule (stable charged matter only)",
+  "verdict": "PASS",
+  "verdict_signature": "CR011_PASS_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM_d_ref_base_EQUALS_R_TIMES_LAMBDA_SPAGHETTIO_EQUALS_12_TIMES_3.877_MICRO_METER_EQUALS_46.53_MICRO_METER_MECHANISM_FORCED_FROM_CR010_1.5_ENDPOINT_PROPAGATION_PLUS_CR266_R_12_MIRROR_LINEAR_EXTENT_PLUS_CR010_1.2_PER_ADDRESS_SCALE_NO_FREE_PARAMETERS_NO_BENCH_TARGET_REFERENCE"
+}

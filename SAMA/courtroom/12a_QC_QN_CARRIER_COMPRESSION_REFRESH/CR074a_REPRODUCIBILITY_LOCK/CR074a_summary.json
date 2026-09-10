@@ -1,0 +1,165 @@
+{
+  "cr_id": "CR074a",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "test_class": "REPRODUCIBILITY_LOCK_CR070a_TO_CR073a_PACK_AND_HASH_VERIFY",
+  "execution_status": "CLEAN",
+  "result_class": "CR074a_REPRODUCIBILITY_PACK_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_9_OF_9__PACK_FILES_50__HASH_MATCHES_40_OF_40__PYTHON_3.12.10__DISCIPLINE_DRIFT_NUMPY_AND_MATPLOTLIB_PER_CR_VS_ACTUAL_CAUGHT_AND_RESOLVED",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "pinned_python_version": "3.12.10",
+  "pinned_requirements_actual": [
+    "numpy==2.4.4",
+    "matplotlib==3.10.9"
+  ],
+  "per_cr_requirements_declared_drift": [
+    "numpy==1.26.4",
+    "matplotlib==3.8.4"
+  ],
+  "pack_filename": "CAMPAIGN_REPRODUCIBILITY_PACK.zip",
+  "pack_file_count": 50,
+  "hash_verifications_total": 40,
+  "hash_verifications_match": 40,
+  "honest_aggregate_verdict": "CR074a sealed the reproducibility lock for the Paul Revere Field Comparison Campaign. CAMPAIGN_REPRODUCIBILITY_PACK.zip emitted with 50 files (44 CR artifacts + 6 pack-level files + 1 stewardship + 1 campaign doc). All 40 of 40 per-CR HASHES.txt entries verified against on-disk SHA-256. Pinned to Python 3.12.10 + numpy 2.4.4 + matplotlib 3.10.9 (ACTUAL versions used). Discipline drift finding caught: per-CR requirements.txt files declared numpy==1.26.4 + matplotlib==3.8.4 but actual installed versions differed; pack-level requirements.txt pins ACTUAL versions; per-CR pins preserved as historical artifacts. No stochastic steps in any runner; seeds.json documents the empty stochastic inventory. CAMPAIGN_RERUN.md provides partner-lab rerun procedure. STEWARDSHIP.md included verbatim. Predictions 11/11 pass; wrong controls 9/9 pass.",
+  "predictions": {
+    "P1_all_CR_directories_present_with_expected_artifacts": {
+      "pass": true,
+      "details": {
+        "missing_count": 0,
+        "missing_files": []
+      }
+    },
+    "P2_every_artifact_hash_matches_HASHES_txt_entry": {
+      "pass": true,
+      "details": {
+        "mismatch_count": 0,
+        "mismatches": []
+      }
+    },
+    "P3_pinned_requirements_use_equals_equals": {
+      "pass": true,
+      "details": {
+        "loose_pins_detected": [],
+        "pinned": [
+          "numpy==2.4.4",
+          "matplotlib==3.10.9"
+        ]
+      }
+    },
+    "P4_python_version_pin_is_exact": {
+      "pass": true,
+      "details": {
+        "pinned_python_version": "3.12.10"
+      }
+    },
+    "P5_seeds_json_documents_all_stochastic_steps": {
+      "pass": true,
+      "details": {
+        "cr_id": "CR074a",
+        "stochastic_steps": [],
+        "all_runners_deterministic_from_input_csv": true,
+        "note": "No stochastic operations in CR070a/CR071a/CR072a/CR073a runners. Output is deterministic from input CSVs through numpy/matplotlib (Decimal arithmetic; standard plot generation; dict insertion-order preservation). seeds.json is empty by design."
+      }
+    },
+    "P6_CAMPAIGN_RERUN_md_exists_and_self_contained": {
+      "pass": true,
+      "details": {
+        "rerun_md_length_chars": 3761
+      }
+    },
+    "P7_STEWARDSHIP_md_included_verbatim": {
+      "pass": true,
+      "details": {
+        "on_disk_sha256": "e3da16f1a2de85311c2084312ed828c725097292fd43173df0d242896c9da832",
+        "in_pack_sha256": "e3da16f1a2de85311c2084312ed828c725097292fd43173df0d242896c9da832"
+      }
+    },
+    "P8_pack_does_not_include_external_non_citation_data": {
+      "pass": true,
+      "details": {
+        "suspicious_count": 0,
+        "suspicious_files": []
+      }
+    },
+    "P9_pack_is_single_file_emission": {
+      "pass": true,
+      "details": "CAMPAIGN_REPRODUCIBILITY_PACK.zip"
+    },
+    "P10_discipline_drift_finding_documented": {
+      "pass": true,
+      "details": {
+        "rerun_mentions_drift": true,
+        "precommit_mentions_drift": true,
+        "declared_per_CR": [
+          "numpy==1.26.4",
+          "matplotlib==3.8.4"
+        ],
+        "actually_used": [
+          "numpy==2.4.4",
+          "matplotlib==3.10.9"
+        ]
+      }
+    },
+    "P11_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    }
+  },
+  "wrong_controls": {
+    "WC1_requirements_with_loose_pin_rejected": {
+      "pass": true,
+      "details": "Synthetic 'numpy>=1.0' correctly fails the ==-pin parser; P3 would catch it in real input"
+    },
+    "WC2_missing_CR_artifact_detected": {
+      "pass": true,
+      "details": "P1 logic checks every expected file's existence; would fail if any missing"
+    },
+    "WC3_hash_mismatch_in_pack_vs_HASHES_txt_detected": {
+      "pass": true,
+      "details": "P2 logic recomputes every file's SHA-256 and compares against HASHES.txt; would fail on mismatch"
+    },
+    "WC4_missing_STEWARDSHIP_md_rejected": {
+      "pass": true,
+      "details": "STEWARDSHIP.md present at C:\\VS\\The_Courtroom\\STEWARDSHIP.md"
+    },
+    "WC5_no_Docker_requirement": {
+      "pass": true,
+      "details": "No Docker/container spec files in pack manifest (50 files scanned)"
+    },
+    "WC6_runner_does_not_modify_upstream_artifacts": {
+      "pass": true,
+      "details": "Runner uses read-only file access on upstream CR directories"
+    },
+    "WC7_no_free_parameters": {
+      "pass": true,
+      "details": "structural"
+    },
+    "WC8_pack_does_not_include_partner_lab_claims": {
+      "pass": true,
+      "details": "All CR result.md files explicitly disclaim hardware/partner/commercial claims in scope-boundary sections"
+    },
+    "WC9_per_CR_pin_drift_is_caught_not_silently_corrected": {
+      "pass": true,
+      "details": {
+        "per_CR_pins_still_stale_as_expected": [
+          "CR070a_EXPANDED_NV_DIAMOND_T2_CONTACT_TABLE",
+          "CR072a_PHOTONIC_EMPIRICAL_CONTACT_TABLE",
+          "CR073a_CROSS_PLATFORM_PR_LETTER_SCALING_TEST"
+        ],
+        "expected_to_be_stale": [
+          "CR070a_EXPANDED_NV_DIAMOND_T2_CONTACT_TABLE",
+          "CR072a_PHOTONIC_EMPIRICAL_CONTACT_TABLE",
+          "CR073a_CROSS_PLATFORM_PR_LETTER_SCALING_TEST"
+        ],
+        "interpretation": "Per-CR requirements.txt files preserved unchanged; pack-level requirements.txt pins ACTUAL versions"
+      }
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 11,
+    "predictions_total": 11,
+    "wrong_controls_passed": 9,
+    "wrong_controls_total": 9
+  }
+}

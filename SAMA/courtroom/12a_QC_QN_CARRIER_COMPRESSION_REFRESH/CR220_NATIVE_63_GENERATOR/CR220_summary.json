@@ -1,0 +1,79 @@
+{
+  "charge_order": [
+    "neutral",
+    "positive",
+    "negative"
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2
+  },
+  "cr_id": "CR220",
+  "depth_counts": {
+    "0": 24,
+    "1": 24,
+    "2": 15
+  },
+  "depth_partitions": {
+    "0": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "1": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "2": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ]
+  },
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T07:42:16.328077+00:00",
+  "next_gate": "CR221_BOUND_63_GENERATOR",
+  "outputs": {
+    "checks_csv": "CR220_checks.csv",
+    "native_csv": "Tier1_Native63.csv",
+    "result_md": "CR220_result.md",
+    "summary_json": "CR220_summary.json",
+    "validation_csv": "CR220_validation_against_CR219.csv",
+    "validation_source_csv": "CR220_downstream_validation_CR219_stable63.csv"
+  },
+  "partition_modes": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "result_class": "CR220_PASS_NATIVE_63_GENERATOR__CONSTANTS_ONLY__24_24_15__DOWNSTREAM_CR219_SIGNATURE_MATCH",
+  "roadmap": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH\\SAM_NEXT_MOVES_NATIVE_RESET.md",
+  "row_count": 63,
+  "sha256": {
+    "Tier1_Native63.csv": "7b047416848c282ad3c5ea4b6a86a964623d64e9e7ab8baad93ddc2656e0ed3a"
+  },
+  "source_boundary": "CR219 read after generation as downstream validation only; no imported IDs or labels in construction.",
+  "test_id": "CR220_NATIVE_63_GENERATOR",
+  "validation_source": "09a_PARTICLE_MASS_CHAIN\\CR219_PROMOTED_PARTICLE_ROWS_EXPORT\\CR219_promoted_particle_rows_126.csv"
+}

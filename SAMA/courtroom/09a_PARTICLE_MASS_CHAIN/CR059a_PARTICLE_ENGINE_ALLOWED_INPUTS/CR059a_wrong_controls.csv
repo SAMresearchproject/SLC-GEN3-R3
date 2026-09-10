@@ -1,0 +1,4 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Old 12/15-row table treated as active terminal source,FAIL,True,True,old 09 artifacts appear only as historical_misroute_artifact
+WC2,Missing QP075 terminal source file,FAIL,True,True,all QP075 files present
+WC3,Nonzero free-parameter terminal source,FAIL,True,True,QP075 declares free_parameters_introduced = 0

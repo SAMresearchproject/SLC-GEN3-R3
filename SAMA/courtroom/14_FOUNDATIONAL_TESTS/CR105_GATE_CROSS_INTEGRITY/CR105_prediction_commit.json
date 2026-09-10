@@ -1,0 +1,10 @@
+{
+  "commit_id": "CR105_GATE_CROSS_PREDICTION_COMMIT",
+  "predictions_file": "CR105_predictions.csv",
+  "prediction_commit_sha256": "93b3a2b55af5ae59b06d7e5838902cd4914366ff619941994365b8b00607fba4",
+  "prediction_commit_utc": "2026-06-13T23:11:59Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "joint_commitment": "EP+SR deviation = 0 for A < 11/12",
+  "upstream_CR102_envelope_sha256": "594f7e88d5d00c8974eca72ce29264084a4f5cb8a4f4aceb1f391ac456358029",
+  "upstream_CR104_envelope_sha256": "91d425b692d9477af5b1c98dbb5893d178758376adc5a40a5d38757eb8fb6d9d"
+}

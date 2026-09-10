@@ -1,0 +1,106 @@
+{
+  "annotated_added_column": "numeric_duplicate_class",
+  "annotated_added_column_values_used": [
+    "DUP-carrier_only_rows-01",
+    "DUP-rejected_fake_closures-01",
+    "none"
+  ],
+  "annotated_row_count": 195,
+  "checks": {
+    "annotated_added_exactly_one_column": true,
+    "annotated_has_added_column": true,
+    "annotated_row_count_matches_input": true,
+    "duplicate_class_singleton_label_is_none": true,
+    "input_row_count_is_195": true,
+    "input_sha256_matches_sealed": true
+  },
+  "checks_passed": 6,
+  "checks_total": 6,
+  "cr_id": "CR215",
+  "descriptor_diff_columns": [
+    "route_combination",
+    "operator_class",
+    "spin_or_hand_class"
+  ],
+  "duplicate_group_count": 2,
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-20T05:52:19+00:00",
+  "input_csv": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv",
+  "input_csv_observed_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545",
+  "input_csv_sealed_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545",
+  "input_row_count": 195,
+  "input_sha256_match": true,
+  "non_destructive": {
+    "rule": "sealed_CR214_csv_unmodified",
+    "verified_by_hash_match": true
+  },
+  "numeric_signature_columns": [
+    "bin",
+    "partition_signature",
+    "closure_depth",
+    "q_sign",
+    "q_abs",
+    "native_charge_axis",
+    "M_native",
+    "surface_sign",
+    "surface_depth",
+    "S_debit_or_credit",
+    "M_observed_candidate",
+    "qA_source_support",
+    "tensor_carrier_support",
+    "retained_write_support"
+  ],
+  "per_bin_summary": [
+    {
+      "bin": "antimatter_conjugate_rows",
+      "duplicate_group_count": 0,
+      "rows_in_a_duplicate_group": 0,
+      "singleton_rows": 42,
+      "total_rows": 42
+    },
+    {
+      "bin": "bound_composite_rows",
+      "duplicate_group_count": 0,
+      "rows_in_a_duplicate_group": 0,
+      "singleton_rows": 106,
+      "total_rows": 106
+    },
+    {
+      "bin": "carrier_only_rows",
+      "duplicate_group_count": 1,
+      "rows_in_a_duplicate_group": 2,
+      "singleton_rows": 4,
+      "total_rows": 6
+    },
+    {
+      "bin": "hidden_source_support_rows",
+      "duplicate_group_count": 0,
+      "rows_in_a_duplicate_group": 0,
+      "singleton_rows": 8,
+      "total_rows": 8
+    },
+    {
+      "bin": "rejected_fake_closures",
+      "duplicate_group_count": 1,
+      "rows_in_a_duplicate_group": 8,
+      "singleton_rows": 0,
+      "total_rows": 8
+    },
+    {
+      "bin": "unstable_resonance_rows",
+      "duplicate_group_count": 0,
+      "rows_in_a_duplicate_group": 0,
+      "singleton_rows": 25,
+      "total_rows": 25
+    }
+  ],
+  "result_class": "CR215_FINDING_NUMERIC_DUPLICATE_PRESENT__2_GROUP__10_ROWS__ALL_INPUT_ROWS_PRESERVED__SEALED_INPUT_UNMODIFIED",
+  "row_preservation": {
+    "annotated_rows": 195,
+    "input_rows": 195,
+    "match": true,
+    "rule": "all_input_rows_preserved_in_original_order"
+  },
+  "rows_in_a_duplicate_group": 10,
+  "test_id": "CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT"
+}

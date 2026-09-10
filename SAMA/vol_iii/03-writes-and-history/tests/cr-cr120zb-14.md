@@ -1,0 +1,129 @@
+# X1 Ordered Quantum Instrument Finite-Shot NV Discovery
+
+[Back to tests](README.md)
+
+Test identity: `CR:CR120ZB@14`.
+
+## Boundary
+
+Records the surviving ordered finite-shot B-then-X1 signal across three simulated NV profiles while preserving the 8/9 hard-gate boundary and absence of live-backend execution.
+
+**Question:** Does the ordered B-then-X1 discriminator survive frozen finite-shot NV noise profiles, tomography, and relay controls, and do all frozen hard gates pass?
+
+**Calculation:** Run matched two-stage finite-shot tomography for the ordered instrument and controls under room-temperature, cryogenic, and noisy NV simulator profiles.
+
+**Recorded outcome:** The ordered signal remains positive across all three profiles: 48/48 positive order gaps and 48/48 CHSH>2 blocks per profile, with 2,160 physical reconstructed states and 12/12 wrong controls. Hard gates pass 8/9, so the primary verdict is BOUNDARY_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY__ONE_OR_MORE_FROZEN_GATES_FAILED.
+
+**Scope of this result:** No live backend was available or executed. The NV profiles are simulator contacts, the two-qubit translation is prospective, one frozen hard gate failed, and no physical B/X1 weld or SAM operation was installed.
+
+**Controls:**
+
+- Matched duration and population controls.
+- B alone, X1 alone, reversed order, and classical/product or unresolved-herald controls.
+- Readout correction, linear inversion, and PSD projection fixed.
+
+**Diagnostic comparisons:**
+
+- Choose one favorable NV profile.
+- Treat labels or unmatched duration as the order signal.
+- Identify physical B with H or physical X1 with CNOT.
+- Report simulator contact as live-device execution.
+
+[Read the original test](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md)
+
+<details>
+<summary>Exact source record</summary>
+
+```json
+{
+  "alternate_source_paths": [],
+  "approval": null,
+  "description": "X1 Ordered Quantum Instrument Finite-Shot NV Discovery",
+  "family": "CR",
+  "keywords": [
+    "quantum",
+    "X1",
+    "Ordered",
+    "Instrument",
+    "Finite",
+    "Shot",
+    "Discovery"
+  ],
+  "qualified_test_id": "CR120ZB@14",
+  "record_key": "CR:CR120ZB@14",
+  "related_test_ids": [],
+  "reviewed_and_approved": false,
+  "source_basis": "COURTROOM_RESULT_DISCOVERY",
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_path": "14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md",
+  "source_repo": "The_Courtroom",
+  "source_sha256": "70ee67fc25ede35b5cb37f8d760aedd1b0e065c20d44bfa5508864a956aa99c8",
+  "source_status": null,
+  "source_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md",
+  "source_verdict": null,
+  "test_id": "CR120ZB",
+  "volume_numbers": [
+    "II",
+    "III"
+  ]
+}
+```
+
+</details>
+
+
+
+<!-- BEGIN FULL COURTROOM DATA -->
+## Full Courtroom data
+
+[Open the primary source record](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md) · [All 25 package files](../../../tests/courtroom/14-foundational-tests-cr120zb-x1-ordered-quantum-instrument-finite-shot-nv-discovery/README.md) · [Browse the source directory in CR](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY)
+
+Package: `14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY`. This includes **1 code files** and **5 files categorized as results or reports**, plus all inputs, figures and other tracked files. The full inventory is unabridged.
+
+### Precommitments and premises
+
+- [CR120ZB_CONTRACT.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/CR120ZB_CONTRACT.json)
+- [CR120ZB_PRECOMMIT.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/CR120ZB_PRECOMMIT.md)
+- [CR120ZB_PRECOMMIT_SEAL.txt](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/CR120ZB_PRECOMMIT_SEAL.txt)
+
+### Wrong controls and comparison rows
+
+- [release/CR120ZB_WRONG_CONTROLS.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_WRONG_CONTROLS.csv)
+
+<details>
+<summary>Code files</summary>
+
+- [CR120ZB_runner.py](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/CR120ZB_runner.py) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/CR120ZB_runner.py)
+
+</details>
+
+<details>
+<summary>Results and reports</summary>
+
+- [release/CR120ZB_CONDITION_SUMMARY.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_CONDITION_SUMMARY.csv) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_CONDITION_SUMMARY.csv)
+- [release/CR120ZB_PROFILE_VERDICTS.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_PROFILE_VERDICTS.csv) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_PROFILE_VERDICTS.csv)
+- [release/CR120ZB_SUMMARY.json](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_SUMMARY.json) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_SUMMARY.json)
+- [release/CR120ZB_SWAP_SUMMARY.csv](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_SWAP_SUMMARY.csv) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_SWAP_SUMMARY.csv)
+- [release/CR120ZB_result.md](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md) — [raw](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY/release/CR120ZB_result.md)
+
+</details>
+
+## Related Courtroom tests
+
+- **successor to:** [14_FOUNDATIONAL_TESTS/CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION)
+
+<details>
+<summary>Other tests mentioned in the source package</summary>
+
+These links record mentions, not an inferred dependency or supporting result. Where an identifier has several branch-qualified matches, their paths remain explicit.
+
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223b_PR_QUTRIT_TOMOGRAPHY_ESTIMATOR](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223b_PR_QUTRIT_TOMOGRAPHY_ESTIMATOR)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_HF_HIGH_FIDELITY_SIMULATOR_CONTACT)
+- [12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT](../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT)
+- [14_FOUNDATIONAL_TESTS/CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION)
+- [14_FOUNDATIONAL_TESTS/CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION)
+- [14_FOUNDATIONAL_TESTS/CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY](../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY)
+
+</details>
+
+<!-- END FULL COURTROOM DATA -->

@@ -1,0 +1,8 @@
+candidate,full_packet,low_A_limit_matches_weak_clock,weak_clock_rejected_at_isco,isco_exact_match,photon_sphere_exact_match,redshift_diverges_as_A_to_1,lapse_goes_to_zero_as_A_to_1,outside_traversal_log_diverges,closure_at_A1_not_photon_or_isco,last_near_horizon_redshift,last_near_horizon_lapse,last_traversal_ct_over_rs
+sam_sqrt_lapse_log_road,True,True,True,True,True,True,True,True,True,1000010.0610435781,9.999889390787672e-07,30.324079399856572
+wrong_weak_linear_clock,False,True,True,False,False,False,False,True,False,0.9999999999979998,0.5000000000005,30.324079399856572
+wrong_flat_clock,False,False,True,False,False,False,False,True,False,0.0,1.0,30.324079399856572
+wrong_shift_photon_closure,False,False,True,False,False,False,False,True,False,Infinity,0.0,30.324079399856572
+wrong_shift_isco_closure,False,False,True,False,False,False,False,True,False,Infinity,0.0,30.324079399856572
+wrong_finite_horizon_cap,False,True,True,True,True,False,True,False,True,1000.0,9.999889390787672e-07,10.0
+wrong_no_road_stretch,False,True,True,True,True,True,True,False,True,1000010.0610435781,9.999889390787672e-07,1.999999999999

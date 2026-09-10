@@ -1,0 +1,46 @@
+{
+  "artifact": "QP091K_ORDERED_DAUGHTER_ROUTE_PROJECTION",
+  "generated_at_utc": "2026-06-15T00:09:16.508607+00:00",
+  "result_class": "PASS_QP091K_ORDERED_DAUGHTER_ROUTE_PROJECTION__PRE_PROJECTION_LEDGER_TO_1_2_1_SURFACE__BOUNCE_CONSERVED_NO_RETUNING",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "campaign": "closure_campaign08",
+  "full_bounce_budget": "1.125000",
+  "visible_write_half": "0.562500",
+  "hidden_substrate_half": "0.562500",
+  "pre_projection_shares": {
+    "4e": "0.335405",
+    "2e2mu": "0.333333",
+    "4mu": "0.331262"
+  },
+  "ordered_route_degeneracy": {
+    "4e": 1,
+    "2e2mu": 2,
+    "4mu": 1
+  },
+  "projected_category_shares": {
+    "4e": "0.251554",
+    "2e2mu": "0.500000",
+    "4mu": "0.248446"
+  },
+  "cms_category_shares": {
+    "4e": "0.229102",
+    "2e2mu": "0.538700",
+    "4mu": "0.232198"
+  },
+  "raw_no_projection_p_value_df2": "0.00001674",
+  "projected_route_p_value_df2": "0.63105213",
+  "ideal_1_2_1_p_value_df2": "0.62228691",
+  "projection_changes_bounce_value": false,
+  "projection_changes_counting_level": true,
+  "external_values_used_as_generation_inputs": false,
+  "physical_branching_ratios_derived": false,
+  "full_electroweak_theorem_claimed": false,
+  "free_parameters_introduced": 0,
+  "checks_passed": 10,
+  "checks_total": 10,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091K restarts the HZZ4l category readout from the corrected projection law. QP091H is the collapsed pre-projection pressure ledger. QP091J's direct near-thirds rejection is reclassified as evidence for the ordered daughter-route projection operator. The mixed category doubles because two ordered routes collapse into the same observed label, while the per-route bounce remains 9/16.",
+  "next_frontier": "QP091L_IDENTICAL_LEPTON_INTERFERENCE_AND_ACCEPTANCE_CORRECTION_OR_PR_LETTER"
+}

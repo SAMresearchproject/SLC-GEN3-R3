@@ -1,0 +1,16 @@
+term,value,formula_or_role,status
+R,12,radix/native route constant,declared SAM constant
+D,3,closure depth,declared SAM constant
+alpha_H,2,hidden-source bigrade generator,declared SAM constant
+split,8,2^D carrier split,derived
+R_squared,144,full 12x12 lattice,derived
+native_capacity,126,R^2*(1-2^-D),derived
+tensor_release_T,18,R^2/2^D,derived and CR217 verified
+neutral_vector_carrier_Zc,81,D^(D+1),derived and CR217 verified
+hidden_set,1;2;3;4;6;8;9;12,alpha_H^a*D^b <= R,derived and CR218 verified
+hidden_sum_H,45,sum(hidden_set),derived
+clock_boundary,83,neutral_vector_carrier_Zc + alpha_H,candidate
+hole_seed,43,hidden_sum_H - alpha_H,candidate
+hole_tensor_shift,61,hole_seed + tensor_release_T,candidate
+hole_set,43;61,"{hole_seed, hole_seed + T}",candidate
+stable_count_candidate,81,clock_boundary - hole_count,candidate

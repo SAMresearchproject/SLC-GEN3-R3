@@ -1,0 +1,38 @@
+{
+  "cr_id": "CR065",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "reason": "vault chain of custody verified end-to-end",
+  "captured_at_utc": "2026-06-13T07:05:24Z",
+  "manifest_sha256": "cd7cf11094ae00cfcbdae7c0be5c4577da715c65d1463b187f9596021e8d60d2",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "sealed_vault_commit": "b2a87e893068309352bf864f4d2efc48011ff40f",
+  "iaea_declared_sha256": "8aee5dc431af1e35fcb49746387b83e927b3c300e7787defbda621a08212c795",
+  "phases": {
+    "phase_1_hash_verification": {
+      "verified": 155,
+      "mismatches": 0,
+      "missing": 0
+    },
+    "phase_2_vault_byte_equivalence": {
+      "files_checked": 5,
+      "byte_equivalent": 5,
+      "diverged": 0
+    },
+    "phase_3_external_anchor": {
+      "status": "verified",
+      "iaea_sha_matches": true,
+      "retrieval_within_seal": true
+    },
+    "phase_4_cross_branch": {
+      "status": "match",
+      "match": true
+    },
+    "phase_5_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "control": "PROPAGATE_CLOSURE(L162_FULL_LEDGER) -> L162_FULL_LEDGER",
+    "reason": "Global replay has no source site, target site, carrier, contact, axis, or adjacency.",
+    "status": "REJECTED"
+  },
+  {
+    "control": "PROMOTE_VOLUME(S8_BINARY_SURFACE, D3_DIMENSION) during propagation",
+    "reason": "S8 must resolve through B/contact and X1 before volume promotion.",
+    "status": "REJECTED"
+  },
+  {
+    "control": "PROPAGATE_CLOSURE(..., A_OPERATOR, ...)",
+    "reason": "A-to-B/contact remains OPEN; A cannot substitute for B/contact.",
+    "status": "REJECTED"
+  },
+  {
+    "control": "L162_FULL_LEDGER@site_i -> L162_FULL_LEDGER@site_i",
+    "reason": "Same-site identity replay does not test adjacent propagation.",
+    "status": "REJECTED"
+  },
+  {
+    "control": "L162_FULL_LEDGER@site_i -> L162_FULL_LEDGER@site_j without carrier/accounting",
+    "reason": "Unexplained duplication lacks conservation/accounting and target-resolution contract.",
+    "status": "REJECTED"
+  },
+  {
+    "control": "ADJACENT by CSV order or visual preference",
+    "reason": "Adjacency must be sourced as a typed relation, not invented by ordering.",
+    "status": "REJECTED"
+  }
+]

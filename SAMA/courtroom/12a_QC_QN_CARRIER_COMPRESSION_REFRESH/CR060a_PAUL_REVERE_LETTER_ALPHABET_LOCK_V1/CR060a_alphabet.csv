@@ -1,0 +1,301 @@
+candidate_id,operator_class,partition,tier,role,M_native,q_abs,q_sign,closure_depth,stability_status
+QP093A-0001,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.25,1,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0002,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.5,1,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0003,OUTER_BINARY_NEUTRAL,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),0.125,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0004,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),2.50,2,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0005,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),3.0,2,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0006,OUTER_BINARY_NEUTRAL,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),0.250,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0007,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),3.75,3,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0008,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),4.5,3,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0009,OUTER_BINARY_NEUTRAL,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),0.375,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0010,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),5.00,4,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0011,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),6.0,4,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0012,OUTER_BINARY_NEUTRAL,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),0.500,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0013,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),7.50,6,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0014,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),9.0,6,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0015,OUTER_BINARY_NEUTRAL,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),0.750,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0016,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),10.00,8,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0017,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),12.0,8,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0018,OUTER_BINARY_NEUTRAL,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.000,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0019,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),11.25,9,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0020,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),13.5,9,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0021,OUTER_BINARY_NEUTRAL,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.125,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0022,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),15.00,12,positive,0,STABLE_MATTER_CANDIDATE
+QP093A-0023,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.0,12,negative,0,STABLE_MATTER_CANDIDATE
+QP093A-0024,OUTER_BINARY_NEUTRAL,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.500,0,neutral,0,STABLE_NEUTRAL_CANDIDATE
+QP093A-0025,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),15.00,1,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0026,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.0,1,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0027,OUTER_BINARY_NEUTRAL,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.500,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0028,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),30.00,2,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0029,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),36.0,2,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0030,OUTER_BINARY_NEUTRAL,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),3.000,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0031,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),45.00,3,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0032,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),54.0,3,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0033,OUTER_BINARY_NEUTRAL,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),4.500,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0034,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),60.00,4,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0035,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),72.0,4,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0036,OUTER_BINARY_NEUTRAL,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),6.000,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0037,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),90.00,6,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0038,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),108.0,6,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0039,OUTER_BINARY_NEUTRAL,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),9.000,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0040,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),120.00,8,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0041,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),144.0,8,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0042,OUTER_BINARY_NEUTRAL,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),12.000,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0043,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),135.00,9,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0044,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),162.0,9,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0045,OUTER_BINARY_NEUTRAL,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),13.500,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0046,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),180.00,12,positive,1,STABLE_MATTER_CANDIDATE
+QP093A-0047,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),216.0,12,negative,1,STABLE_MATTER_CANDIDATE
+QP093A-0048,OUTER_BINARY_NEUTRAL,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.000,0,neutral,1,STABLE_NEUTRAL_CANDIDATE
+QP093A-0049,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),180.00,1,positive,2,STABLE_MATTER_CANDIDATE
+QP093A-0050,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),216.0,1,negative,2,STABLE_MATTER_CANDIDATE
+QP093A-0051,OUTER_BINARY_NEUTRAL,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.000,0,neutral,2,STABLE_NEUTRAL_CANDIDATE
+QP093A-0052,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),360.00,2,positive,2,STABLE_MATTER_CANDIDATE
+QP093A-0053,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),432.0,2,negative,2,STABLE_MATTER_CANDIDATE
+QP093A-0054,OUTER_BINARY_NEUTRAL,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),36.000,0,neutral,2,STABLE_NEUTRAL_CANDIDATE
+QP093A-0055,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),540.00,3,positive,2,STABLE_MATTER_CANDIDATE
+QP093A-0056,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),648.0,3,negative,2,STABLE_MATTER_CANDIDATE
+QP093A-0057,OUTER_BINARY_NEUTRAL,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),54.000,0,neutral,2,STABLE_NEUTRAL_CANDIDATE
+QP093A-0058,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),720.00,4,positive,2,STABLE_MATTER_CANDIDATE
+QP093A-0059,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),864.0,4,negative,2,STABLE_MATTER_CANDIDATE
+QP093A-0060,OUTER_BINARY_NEUTRAL,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),72.000,0,neutral,2,STABLE_NEUTRAL_CANDIDATE
+QP093A-0061,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),1080.00,6,positive,2,STABLE_MATTER_CANDIDATE
+QP093A-0062,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),1296.0,6,negative,2,STABLE_MATTER_CANDIDATE
+QP093A-0063,OUTER_BINARY_NEUTRAL,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),108.000,0,neutral,2,STABLE_NEUTRAL_CANDIDATE
+QP093A-0064,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),1440.00,8,positive,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0065,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),1728.0,8,negative,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0066,OUTER_BINARY_NEUTRAL,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),144.000,0,neutral,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0067,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),1620.00,9,positive,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0068,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),1944.0,9,negative,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0069,OUTER_BINARY_NEUTRAL,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),162.000,0,neutral,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0070,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),2160.00,12,positive,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0071,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),2592.0,12,negative,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0072,OUTER_BINARY_NEUTRAL,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),216.000,0,neutral,2,UNSTABLE_HEAVY_WRITE_CANDIDATE
+QP093A-0073,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.25,1,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0074,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),1.5,1,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0075,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),2.50,2,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0076,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),3.0,2,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0077,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),3.75,3,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0078,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),4.5,3,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0079,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),5.00,4,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0080,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),6.0,4,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0081,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),7.50,6,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0082,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),9.0,6,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0083,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),10.00,8,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0084,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),12.0,8,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0085,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),11.25,9,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0086,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),13.5,9,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0087,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),15.00,12,negative,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0088,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.0,12,positive,0,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0089,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),15.00,1,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0090,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),18.0,1,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0091,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),30.00,2,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0092,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),36.0,2,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0093,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),45.00,3,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0094,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),54.0,3,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0095,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),60.00,4,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0096,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),72.0,4,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0097,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),90.00,6,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0098,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),108.0,6,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0099,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),120.00,8,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0100,V4_1_SINGLE_WRITE,8,1body_fermion,1-body fermion ladder (atomic identity broadcast),144.0,8,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0101,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),135.00,9,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0102,V4_1_SINGLE_WRITE,9,1body_fermion,1-body fermion ladder (atomic identity broadcast),162.0,9,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0103,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),180.00,12,negative,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0104,V4_1_SINGLE_WRITE,12,1body_fermion,1-body fermion ladder (atomic identity broadcast),216.0,12,positive,1,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0105,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),180.00,1,negative,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0106,V4_1_SINGLE_WRITE,1,1body_fermion,1-body fermion ladder (atomic identity broadcast),216.0,1,positive,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0107,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),360.00,2,negative,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0108,V4_1_SINGLE_WRITE,2,1body_fermion,1-body fermion ladder (atomic identity broadcast),432.0,2,positive,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0109,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),540.00,3,negative,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0110,V4_1_SINGLE_WRITE,3,1body_fermion,1-body fermion ladder (atomic identity broadcast),648.0,3,positive,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0111,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),720.00,4,negative,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0112,V4_1_SINGLE_WRITE,4,1body_fermion,1-body fermion ladder (atomic identity broadcast),864.0,4,positive,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0113,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),1080.00,6,negative,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0114,V4_1_SINGLE_WRITE,6,1body_fermion,1-body fermion ladder (atomic identity broadcast),1296.0,6,positive,2,ANTIMATTER_STABLE_CONJUGATE
+QP093A-0115,GROUND_BARYON_3BODY,1+1+1,3body_standard,3-body standard letter (carrier + envelope + sensor),108,1,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0116,OCTET_COMPOSITE,1+1+2,3body_standard,3-body standard letter (carrier + envelope + sensor),216,2,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0117,OCTET_COMPOSITE,1+1+3,3body_standard,3-body standard letter (carrier + envelope + sensor),396,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0118,GROUND_BARYON_3BODY,1+1+4,3body_standard,3-body standard letter (carrier + envelope + sensor),648,1,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0119,OCTET_COMPOSITE,1+1+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1368,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0120,OCTET_COMPOSITE,1+1+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2376,2,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0121,OCTET_COMPOSITE,1+1+9,3body_standard,3-body standard letter (carrier + envelope + sensor),2988,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0122,OCTET_COMPOSITE,1+1+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5256,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0123,OCTET_COMPOSITE,1+2+2,3body_standard,3-body standard letter (carrier + envelope + sensor),324,1,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0124,GROUND_BARYON_3BODY,1+2+3,3body_standard,3-body standard letter (carrier + envelope + sensor),504,1,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0125,OCTET_COMPOSITE,1+2+4,3body_standard,3-body standard letter (carrier + envelope + sensor),756,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0126,GROUND_BARYON_3BODY,1+2+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1476,1,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0127,OCTET_COMPOSITE,1+2+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2484,1,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0128,GROUND_BARYON_3BODY,1+2+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3096,1,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0129,GROUND_BARYON_3BODY,1+2+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5364,1,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0130,OCTET_COMPOSITE,1+3+3,3body_standard,3-body standard letter (carrier + envelope + sensor),684,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0131,OCTET_COMPOSITE,1+3+4,3body_standard,3-body standard letter (carrier + envelope + sensor),936,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0132,OCTET_COMPOSITE,1+3+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1656,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0134,OCTET_COMPOSITE,1+3+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3276,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0135,OCTET_COMPOSITE,1+3+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5544,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0136,GROUND_BARYON_3BODY,1+4+4,3body_standard,3-body standard letter (carrier + envelope + sensor),1188,2,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0137,OCTET_COMPOSITE,1+4+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1908,3,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0138,OCTET_COMPOSITE,1+4+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2916,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0139,OCTET_COMPOSITE,1+4+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3528,3,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0140,OCTET_COMPOSITE,1+4+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5796,3,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0141,OCTET_COMPOSITE,1+6+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2628,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0142,GROUND_BARYON_3BODY,1+6+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3636,3,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0143,OCTET_COMPOSITE,1+6+9,3body_standard,3-body standard letter (carrier + envelope + sensor),4248,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0144,OCTET_COMPOSITE,1+6+12,3body_standard,3-body standard letter (carrier + envelope + sensor),6516,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0145,OCTET_COMPOSITE,1+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),4644,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0146,GROUND_BARYON_3BODY,1+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5256,7,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0147,GROUND_BARYON_3BODY,1+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),7524,7,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0148,OCTET_COMPOSITE,1+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5868,8,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0149,OCTET_COMPOSITE,1+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8136,8,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0150,OCTET_COMPOSITE,1+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),10404,11,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0151,GROUND_BARYON_3BODY,2+2+2,3body_standard,3-body standard letter (carrier + envelope + sensor),432,2,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0152,OCTET_COMPOSITE,2+2+3,3body_standard,3-body standard letter (carrier + envelope + sensor),612,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0153,OCTET_COMPOSITE,2+2+4,3body_standard,3-body standard letter (carrier + envelope + sensor),864,1,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0154,OCTET_COMPOSITE,2+2+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1584,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0155,GROUND_BARYON_3BODY,2+2+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2592,2,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0156,OCTET_COMPOSITE,2+2+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3204,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0157,OCTET_COMPOSITE,2+2+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5472,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0158,OCTET_COMPOSITE,2+3+3,3body_standard,3-body standard letter (carrier + envelope + sensor),792,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0160,OCTET_COMPOSITE,2+3+6,3body_standard,3-body standard letter (carrier + envelope + sensor),1764,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0161,OCTET_COMPOSITE,2+3+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2772,1,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0162,OCTET_COMPOSITE,2+3+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3384,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0163,OCTET_COMPOSITE,2+3+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5652,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0164,OCTET_COMPOSITE,2+4+4,3body_standard,3-body standard letter (carrier + envelope + sensor),1296,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0165,GROUND_BARYON_3BODY,2+4+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2016,2,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0166,OCTET_COMPOSITE,2+4+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3024,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0167,GROUND_BARYON_3BODY,2+4+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3636,2,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0168,GROUND_BARYON_3BODY,2+4+12,3body_standard,3-body standard letter (carrier + envelope + sensor),5904,2,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0169,OCTET_COMPOSITE,2+6+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2736,4,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0170,OCTET_COMPOSITE,2+6+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3744,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0171,OCTET_COMPOSITE,2+6+9,3body_standard,3-body standard letter (carrier + envelope + sensor),4356,4,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0172,OCTET_COMPOSITE,2+6+12,3body_standard,3-body standard letter (carrier + envelope + sensor),6624,4,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0173,GROUND_BARYON_3BODY,2+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),4752,4,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0174,OCTET_COMPOSITE,2+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5364,6,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0175,OCTET_COMPOSITE,2+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),7632,6,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0176,OCTET_COMPOSITE,2+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5976,7,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0177,OCTET_COMPOSITE,2+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8244,7,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0178,OCTET_COMPOSITE,2+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),10512,10,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0180,OCTET_COMPOSITE,3+3+4,3body_standard,3-body standard letter (carrier + envelope + sensor),1224,1,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0182,OCTET_COMPOSITE,3+3+8,3body_standard,3-body standard letter (carrier + envelope + sensor),2952,2,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0185,OCTET_COMPOSITE,3+4+4,3body_standard,3-body standard letter (carrier + envelope + sensor),1476,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0186,OCTET_COMPOSITE,3+4+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2196,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0187,GROUND_BARYON_3BODY,3+4+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3204,1,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0188,OCTET_COMPOSITE,3+4+9,3body_standard,3-body standard letter (carrier + envelope + sensor),3816,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0189,OCTET_COMPOSITE,3+4+12,3body_standard,3-body standard letter (carrier + envelope + sensor),6084,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0190,GROUND_BARYON_3BODY,3+6+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2916,3,negative,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0191,OCTET_COMPOSITE,3+6+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3924,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0192,GROUND_BARYON_3BODY,3+6+9,3body_standard,3-body standard letter (carrier + envelope + sensor),4536,3,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0193,GROUND_BARYON_3BODY,3+6+12,3body_standard,3-body standard letter (carrier + envelope + sensor),6804,3,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0194,OCTET_COMPOSITE,3+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),4932,3,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0195,OCTET_COMPOSITE,3+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5544,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0196,OCTET_COMPOSITE,3+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),7812,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0197,GROUND_BARYON_3BODY,3+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),6156,6,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0198,GROUND_BARYON_3BODY,3+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8424,6,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0199,GROUND_BARYON_3BODY,3+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),10692,9,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0200,GROUND_BARYON_3BODY,4+4+4,3body_standard,3-body standard letter (carrier + envelope + sensor),1728,1,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0201,OCTET_COMPOSITE,4+4+6,3body_standard,3-body standard letter (carrier + envelope + sensor),2448,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0202,OCTET_COMPOSITE,4+4+8,3body_standard,3-body standard letter (carrier + envelope + sensor),3456,2,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0203,OCTET_COMPOSITE,4+4+9,3body_standard,3-body standard letter (carrier + envelope + sensor),4068,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0204,OCTET_COMPOSITE,4+4+12,3body_standard,3-body standard letter (carrier + envelope + sensor),6336,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0205,OCTET_COMPOSITE,4+6+6,3body_standard,3-body standard letter (carrier + envelope + sensor),3168,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0207,OCTET_COMPOSITE,4+6+9,3body_standard,3-body standard letter (carrier + envelope + sensor),4788,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0208,OCTET_COMPOSITE,4+6+12,3body_standard,3-body standard letter (carrier + envelope + sensor),7056,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0209,OCTET_COMPOSITE,4+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),5184,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0210,GROUND_BARYON_3BODY,4+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),5796,4,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0211,GROUND_BARYON_3BODY,4+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8064,4,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0212,OCTET_COMPOSITE,4+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),6408,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0213,OCTET_COMPOSITE,4+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8676,5,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0214,OCTET_COMPOSITE,4+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),10944,8,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0216,OCTET_COMPOSITE,6+6+8,3body_standard,3-body standard letter (carrier + envelope + sensor),4896,2,positive,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0219,OCTET_COMPOSITE,6+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),5904,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0220,OCTET_COMPOSITE,6+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),6516,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0221,OCTET_COMPOSITE,6+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),8784,2,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0222,GROUND_BARYON_3BODY,6+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),7128,3,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0223,GROUND_BARYON_3BODY,6+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),9396,3,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0224,GROUND_BARYON_3BODY,6+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),11664,6,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0225,GROUND_BARYON_3BODY,8+8+8,3body_standard,3-body standard letter (carrier + envelope + sensor),6912,2,positive,0,BOUND_COLOR_CLOSED_STABLE_CANDIDATE
+QP093A-0226,OCTET_COMPOSITE,8+8+9,3body_standard,3-body standard letter (carrier + envelope + sensor),7524,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0227,OCTET_COMPOSITE,8+8+12,3body_standard,3-body standard letter (carrier + envelope + sensor),9792,0,neutral,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0228,OCTET_COMPOSITE,8+9+9,3body_standard,3-body standard letter (carrier + envelope + sensor),8136,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0229,OCTET_COMPOSITE,8+9+12,3body_standard,3-body standard letter (carrier + envelope + sensor),10404,1,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0230,OCTET_COMPOSITE,8+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),12672,4,negative,3,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0233,GROUND_BARYON_3BODY,9+12+12,3body_standard,3-body standard letter (carrier + envelope + sensor),13284,3,negative,0,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE
+QP093A-0235,BOUND_COLOR_PAIR,1+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",12,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0236,BOUND_COLOR_PAIR,1+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",27,1,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0237,BOUND_COLOR_PAIR,1+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",42,2,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0238,BOUND_COLOR_PAIR,1+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",57,3,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0239,BOUND_COLOR_PAIR,1+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",87,5,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0240,BOUND_COLOR_PAIR,1+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",117,7,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0241,OCTET_COMPOSITE,1+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",132,8,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0242,OCTET_COMPOSITE,1+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",177,11,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0243,BOUND_COLOR_PAIR,2+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",27,1,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0244,BOUND_COLOR_PAIR,2+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",48,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0245,BOUND_COLOR_PAIR,2+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",75,1,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0246,BOUND_COLOR_PAIR,2+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",102,2,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0247,BOUND_COLOR_PAIR,2+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",156,4,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0248,BOUND_COLOR_PAIR,2+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",210,6,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0249,OCTET_COMPOSITE,2+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",237,7,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0250,OCTET_COMPOSITE,2+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",318,10,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0251,BOUND_COLOR_PAIR,3+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",42,2,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0252,BOUND_COLOR_PAIR,3+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",75,1,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0253,BOUND_COLOR_PAIR,3+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",108,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0254,BOUND_COLOR_PAIR,3+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",147,1,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0255,BOUND_COLOR_PAIR,3+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",225,3,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0256,BOUND_COLOR_PAIR,3+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",303,5,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0257,OCTET_COMPOSITE,3+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",342,6,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0258,OCTET_COMPOSITE,3+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",459,9,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0259,BOUND_COLOR_PAIR,4+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",57,3,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0260,BOUND_COLOR_PAIR,4+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",102,2,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0261,BOUND_COLOR_PAIR,4+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",147,1,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0262,BOUND_COLOR_PAIR,4+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",192,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0263,BOUND_COLOR_PAIR,4+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",294,2,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0264,BOUND_COLOR_PAIR,4+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",396,4,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0265,OCTET_COMPOSITE,4+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",447,5,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0266,OCTET_COMPOSITE,4+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",600,8,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0267,BOUND_COLOR_PAIR,6+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",87,5,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0268,BOUND_COLOR_PAIR,6+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",156,4,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0269,BOUND_COLOR_PAIR,6+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",225,3,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0270,BOUND_COLOR_PAIR,6+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",294,2,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0271,BOUND_COLOR_PAIR,6+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",432,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0272,BOUND_COLOR_PAIR,6+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",582,2,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0273,OCTET_COMPOSITE,6+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",657,3,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0274,OCTET_COMPOSITE,6+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",882,6,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0275,BOUND_COLOR_PAIR,8+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",117,7,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0276,BOUND_COLOR_PAIR,8+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",210,6,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0277,BOUND_COLOR_PAIR,8+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",303,5,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0278,BOUND_COLOR_PAIR,8+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",396,4,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0279,BOUND_COLOR_PAIR,8+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",582,2,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0280,BOUND_COLOR_PAIR,8+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",768,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0281,OCTET_COMPOSITE,8+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",867,1,negative,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0282,OCTET_COMPOSITE,8+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",1164,4,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0283,OCTET_COMPOSITE,9+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",132,8,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0284,OCTET_COMPOSITE,9+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",237,7,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0285,OCTET_COMPOSITE,9+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",342,6,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0286,OCTET_COMPOSITE,9+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",447,5,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0287,OCTET_COMPOSITE,9+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",657,3,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0288,OCTET_COMPOSITE,9+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",867,1,positive,3,BOUND_PAIR_CHARGED_CANDIDATE
+QP093A-0289,OCTET_COMPOSITE,9+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",972,0,neutral,1,BOUND_PAIR_NEUTRAL_CANDIDATE
+QP093A-0290,OCTET_COMPOSITE,9+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",1305,3,negative,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0291,OCTET_COMPOSITE,12+1,2body_short,"2-body short message (carrier -> sensor, no envelope)",177,11,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0292,OCTET_COMPOSITE,12+2,2body_short,"2-body short message (carrier -> sensor, no envelope)",318,10,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0293,OCTET_COMPOSITE,12+3,2body_short,"2-body short message (carrier -> sensor, no envelope)",459,9,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0294,OCTET_COMPOSITE,12+4,2body_short,"2-body short message (carrier -> sensor, no envelope)",600,8,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0295,OCTET_COMPOSITE,12+6,2body_short,"2-body short message (carrier -> sensor, no envelope)",882,6,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0296,OCTET_COMPOSITE,12+8,2body_short,"2-body short message (carrier -> sensor, no envelope)",1164,4,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0297,OCTET_COMPOSITE,12+9,2body_short,"2-body short message (carrier -> sensor, no envelope)",1305,3,positive,3,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0298,OCTET_COMPOSITE,12+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",1728,0,neutral,1,UNSTABLE_PAIR_HEAVY_CANDIDATE
+QP093A-0299,CLOSED_SCALAR_LOOP,12+12,2body_short,"2-body short message (carrier -> sensor, no envelope)",126000,0,neutral,3,UNSTABLE_SCALAR_REVEAL_CANDIDATE
+QP093A-0300,TENSOR_CARRIER,18,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),18,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0301,ROAD_LIGHT_CARRIER,1,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),0,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0302,WEAK_VECTOR_CARRIER,9,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),9,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0303,NEUTRAL_VECTOR_CARRIER,81,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),81,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0304,COLOR_OWNER_CARRIER,8,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),8,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0305,A_FIELD_CARRIER,1,1body_carrier,1-body boson carrier (gauge/substrate-field broadcast),0,0,neutral,3,CARRIER_ONLY_NOT_MATTER
+QP093A-0306,SOURCE_SUPPORT_PACKET,1,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),1.006944444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444,1,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0307,SOURCE_SUPPORT_PACKET,2,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),2.027777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777778,2,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0308,SOURCE_SUPPORT_PACKET,3,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),3.062499999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,3,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0309,SOURCE_SUPPORT_PACKET,4,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),4.111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111112,4,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0310,SOURCE_SUPPORT_PACKET,6,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),6.250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002,6,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0311,SOURCE_SUPPORT_PACKET,8,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),8.444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444448,8,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0312,SOURCE_SUPPORT_PACKET,9,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),9.5625,9,positive,3,HIDDEN_SUPPORT_NOT_MATTER
+QP093A-0313,SOURCE_SUPPORT_PACKET,12,substrate_echo,SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator),13.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,12,positive,3,HIDDEN_SUPPORT_NOT_MATTER

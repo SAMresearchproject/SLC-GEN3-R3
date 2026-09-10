@@ -1,0 +1,56 @@
+{
+  "cr_id": "CR098",
+  "title": "CERN_GAPS_FORWARD_BLIND_PREDICTIONS",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "FORWARD_BLIND_PREDICTION_REGISTRY_AGAINST_UNRESOLVED_CERN_GAPS",
+  "blindness_protocol_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "PENDING_HASH_AT_RUNNER_TIME",
+  "qualitative_difference_from_CR091_CR096": "CR091..CR096 compared 09a predictions against already-public CERN values; CR098 commits SAM predictions BEFORE CERN publishes a matching measurement",
+  "upstream_sources": [
+    {
+      "source_id": "SAM_X_NOVEL_NATIVE_CANDIDATES",
+      "source_path": "C:/VS/Stam_model-A-v1.0/tests/particles/unknown_native_mass_predictions.csv",
+      "auxiliary_path": "C:/VS/Stam_model-A-v1.0/tests/particles/unknown_native_candidates.csv",
+      "campaign": "closure_campaign03_unknown_particle_generation",
+      "row_count": 12,
+      "row_ids": [
+        "SAM-X-001", "SAM-X-002", "SAM-X-003", "SAM-X-004",
+        "SAM-X-005", "SAM-X-006", "SAM-X-007", "SAM-X-008",
+        "SAM-X-009", "SAM-X-010", "SAM-X-011", "SAM-X-012"
+      ],
+      "source_sha256": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "source_id": "SUK055_COMPOSITE_PAIR_MASS_COORDINATES",
+      "source_path": "C:/VS/Stam_model-A-v1.0/tests/Campaigns/SAM_UNIFICATION_KERNEL_GATE/SUK055_composite_candidate_mass_surface.csv",
+      "campaign": "SAM_UNIFICATION_KERNEL_GATE / SUK055_NATIVE_COMPOSITE_CANDIDATE_MASS_READOUT_BITE",
+      "row_count": 12,
+      "row_ids": [
+        "b<->c", "b<->d", "b<->s", "b<->t", "b<->u",
+        "c<->d", "c<->s", "c<->t", "c<->u",
+        "d<->t", "s<->t", "t<->u"
+      ],
+      "source_sha256": "PENDING_PRECOMMIT_VERIFICATION"
+    }
+  ],
+  "forward_blind_principle": {
+    "rule_1": "Every prediction in the registry is sha256-locked at runner time. The hash + utc timestamp is the cryptographic record that SAM committed BEFORE any CERN publication on the matching observable.",
+    "rule_2": "Predictions are not modified after the registry sha256 sibling is written. Period.",
+    "rule_3": "When CERN publishes a measurement that matches a registered gap, an APPEAL_NEW_CERN_MEASUREMENT row is APPENDED. The original prediction row is never overwritten.",
+    "rule_4": "A CERN measurement that contradicts a registered prediction is recorded as such on the appeal row, with the residual, the citation, and the experiment. SAM does NOT retrofit the prediction.",
+    "rule_5": "A CERN measurement that confirms a registered prediction is recorded as such on the appeal row with the same fields. SAM does NOT take credit beyond what the residual shows."
+  },
+  "prediction_status_classes": {
+    "FORWARD_BLIND_UNMEASURED": "no current CERN measurement; no active CERN search known",
+    "FORWARD_BLIND_SEARCH_ACTIVE": "a CERN experiment has an ongoing search program in this mass / charge / channel range",
+    "FORWARD_BLIND_NO_SEARCH_DEFINED": "the prediction sits in a mass / energy band CERN does not currently cover (e.g., sub-eV scalars, ultra-light dark sector)",
+    "FORBIDDEN_PARTITION_NEGATIVE_PREDICTION": "SAM predicts NO particle at this structural shape; if CERN observes one matching the shape, SAM is broken (SAM-X-012 anchor)"
+  },
+  "open_debts_declared_at_CR098": [
+    "Per-row suggested_CERN_search_program is best-fit; curator should verify each program's coverage band before promoting registry to VERIFIED_BY_CURATOR.",
+    "Upstream source sha256 fields PENDING; curator promotes to VERIFIED when source files are independently re-hashed.",
+    "Future CERN publications will be appended via APPEAL_NEW_CERN_MEASUREMENT rows; the original registry rows remain immutable.",
+    "Blindness protocol sha256 written by runner; the broader seal sha256 sibling pending curator sign-off."
+  ]
+}

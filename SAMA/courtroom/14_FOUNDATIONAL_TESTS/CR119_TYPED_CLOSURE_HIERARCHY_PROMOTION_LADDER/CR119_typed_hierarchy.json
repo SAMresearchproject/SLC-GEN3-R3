@@ -1,0 +1,506 @@
+{
+  "classification": "STRUCTURAL_INTEGRATION_CR",
+  "component_findings": {
+    "CARRIER_CONTAINER_PROMOTION": "PASS",
+    "CONTACT_AXIS_RESOLUTION_EDGE": "PASS",
+    "FORMAL_DERIVATION_DAG": "PASS",
+    "FULL_LEDGER_TERMINUS": "PASS",
+    "PARTICLE_FACE_EDGE": "STRUCTURAL_ONLY",
+    "PHYSICAL_PROPAGATION_MECHANISM": "OPEN",
+    "SAME_VALUE_OCCURRENCE_TYPING": "PASS"
+  },
+  "derivation_edges": [
+    {
+      "from": "H2_ARITY",
+      "rule": "h^2*D",
+      "to": "R12_CLOSURE_RADIUS"
+    },
+    {
+      "from": "D3_DIMENSION",
+      "rule": "h^2*D",
+      "to": "R12_CLOSURE_RADIUS"
+    },
+    {
+      "from": "H2_ARITY",
+      "rule": "h^D",
+      "to": "S8_BINARY_SURFACE"
+    },
+    {
+      "from": "D3_DIMENSION",
+      "rule": "h^D",
+      "to": "S8_BINARY_SURFACE"
+    },
+    {
+      "from": "D3_DIMENSION",
+      "rule": "D^(D-1)-S",
+      "to": "X1_AXIS_SELF_CHANNEL"
+    },
+    {
+      "from": "S8_BINARY_SURFACE",
+      "rule": "D^(D-1)-S",
+      "to": "X1_AXIS_SELF_CHANNEL"
+    },
+    {
+      "from": "S8_BINARY_SURFACE",
+      "rule": "S+X",
+      "to": "W9_CLOSURE_WITNESS"
+    },
+    {
+      "from": "X1_AXIS_SELF_CHANNEL",
+      "rule": "S+X",
+      "to": "W9_CLOSURE_WITNESS"
+    },
+    {
+      "from": "B_CONTACT_OPERATOR",
+      "rule": "RESOLVE scope",
+      "to": "W9_CLOSURE_WITNESS"
+    },
+    {
+      "from": "H2_ARITY",
+      "rule": "h*W",
+      "to": "THETA18_PRIMARY_CARRIER"
+    },
+    {
+      "from": "W9_CLOSURE_WITNESS",
+      "rule": "h*W",
+      "to": "THETA18_PRIMARY_CARRIER"
+    },
+    {
+      "from": "D3_DIMENSION",
+      "rule": "D*W",
+      "to": "V27_VOLUME_CONTAINER"
+    },
+    {
+      "from": "W9_CLOSURE_WITNESS",
+      "rule": "D*W",
+      "to": "V27_VOLUME_CONTAINER"
+    },
+    {
+      "from": "D3_DIMENSION",
+      "rule": "D*V",
+      "to": "F81_COMPLETED_FACE"
+    },
+    {
+      "from": "V27_VOLUME_CONTAINER",
+      "rule": "D*V",
+      "to": "F81_COMPLETED_FACE"
+    },
+    {
+      "from": "W9_CLOSURE_WITNESS",
+      "rule": "W^2",
+      "to": "F81_COMPLETED_FACE"
+    },
+    {
+      "from": "R12_CLOSURE_RADIUS",
+      "rule": "R^2",
+      "to": "N144_NATIVE_CLOSURE_BUDGET"
+    },
+    {
+      "from": "S8_BINARY_SURFACE",
+      "rule": "S*Theta",
+      "to": "N144_NATIVE_CLOSURE_BUDGET"
+    },
+    {
+      "from": "THETA18_PRIMARY_CARRIER",
+      "rule": "S*Theta",
+      "to": "N144_NATIVE_CLOSURE_BUDGET"
+    },
+    {
+      "from": "N144_NATIVE_CLOSURE_BUDGET",
+      "rule": "N-Theta",
+      "to": "M126_RETAINED_MATTER_CAPACITY"
+    },
+    {
+      "from": "THETA18_PRIMARY_CARRIER",
+      "rule": "N-Theta",
+      "to": "M126_RETAINED_MATTER_CAPACITY"
+    },
+    {
+      "from": "H2_ARITY",
+      "rule": "h*F",
+      "to": "L162_FULL_LEDGER"
+    },
+    {
+      "from": "F81_COMPLETED_FACE",
+      "rule": "h*F",
+      "to": "L162_FULL_LEDGER"
+    },
+    {
+      "from": "W9_CLOSURE_WITNESS",
+      "rule": "W*Theta",
+      "to": "L162_FULL_LEDGER"
+    },
+    {
+      "from": "THETA18_PRIMARY_CARRIER",
+      "rule": "W*Theta",
+      "to": "L162_FULL_LEDGER"
+    },
+    {
+      "from": "F81_COMPLETED_FACE",
+      "rule": "F-X conditional",
+      "to": "P80_PARTICLE_FACE_CONTENT"
+    },
+    {
+      "from": "X1_AXIS_SELF_CHANNEL",
+      "rule": "F-X conditional",
+      "to": "P80_PARTICLE_FACE_CONTENT"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "H2_ARITY",
+      "layer": "Layer0Primitive",
+      "origin": "primitive",
+      "source_authority": "CR266/CR117",
+      "status": "ACTIVE",
+      "type": "Arity",
+      "value": 2
+    },
+    {
+      "id": "D3_DIMENSION",
+      "layer": "Layer0Primitive",
+      "origin": "derived from mirror surface plus reciprocity axis",
+      "source_authority": "CR266/CR114",
+      "status": "ACTIVE",
+      "type": "Dimension",
+      "value": 3
+    },
+    {
+      "id": "R12_CLOSURE_RADIUS",
+      "layer": "Layer1StructuralCapacity",
+      "origin": "h^2*D",
+      "source_authority": "CR114/CR218/CR262",
+      "status": "ACTIVE",
+      "type": "ClosureRadius",
+      "value": 12
+    },
+    {
+      "id": "S8_BINARY_SURFACE",
+      "layer": "Layer1StructuralCapacity",
+      "origin": "h^D",
+      "source_authority": "CR117/CR267",
+      "status": "ACTIVE",
+      "type": "BinarySurface",
+      "value": 8
+    },
+    {
+      "id": "X1_AXIS_SELF_CHANNEL",
+      "layer": "Layer1StructuralCapacity",
+      "origin": "D^(D-1)-S and axis self-coupling",
+      "source_authority": "CR267/CR282_APPEAL",
+      "status": "ACTIVE",
+      "type": "AxisChannel",
+      "value": 1
+    },
+    {
+      "id": "B_CONTACT_OPERATOR",
+      "layer": "Layer2Resolution",
+      "origin": "operator, not scalar node",
+      "source_authority": "CR269/CR282_APPEAL",
+      "status": "ACTIVE",
+      "type": "ContactOperator",
+      "value": null
+    },
+    {
+      "id": "W9_CLOSURE_WITNESS",
+      "layer": "Layer2Resolution",
+      "origin": "S+X = D^2",
+      "source_authority": "CR267",
+      "status": "ACTIVE",
+      "type": "ClosureWitness",
+      "value": 9
+    },
+    {
+      "id": "THETA18_PRIMARY_CARRIER",
+      "layer": "Layer3CarrierContainer",
+      "origin": "h*W = R^2/S",
+      "source_authority": "CR114/CR262/CR269",
+      "status": "ACTIVE",
+      "type": "PrimaryCarrier",
+      "value": 18
+    },
+    {
+      "id": "V27_VOLUME_CONTAINER",
+      "layer": "Layer3CarrierContainer",
+      "origin": "D*W = D^3",
+      "source_authority": "CR262/CR233",
+      "status": "ACTIVE",
+      "type": "VolumeContainer",
+      "value": 27
+    },
+    {
+      "id": "F81_COMPLETED_FACE",
+      "layer": "Layer3CarrierContainer",
+      "origin": "D*V = W^2 = D^4",
+      "source_authority": "CR233/CR283",
+      "status": "ACTIVE",
+      "type": "CompletedFace",
+      "value": 81
+    },
+    {
+      "id": "P80_PARTICLE_FACE_CONTENT",
+      "layer": "Layer4Payload",
+      "origin": "F-X; inherited structural-only edge",
+      "source_authority": "CR283",
+      "status": "STRUCTURAL_ONLY",
+      "type": "ParticleFaceContent",
+      "value": 80
+    },
+    {
+      "id": "M126_RETAINED_MATTER_CAPACITY",
+      "layer": "Layer4Payload",
+      "origin": "N-Theta = (S-1)*Theta",
+      "source_authority": "CR114/CR229/CR269",
+      "status": "ACTIVE",
+      "type": "MatterCapacity",
+      "value": 126
+    },
+    {
+      "id": "N144_NATIVE_CLOSURE_BUDGET",
+      "layer": "Layer4Payload",
+      "origin": "R^2 = S*Theta",
+      "source_authority": "CR114/CR229/CR269",
+      "status": "ACTIVE",
+      "type": "NativeClosureBudget",
+      "value": 144
+    },
+    {
+      "id": "L162_FULL_LEDGER",
+      "layer": "Layer5TerminalClosure",
+      "origin": "h*F = W*Theta = N*(W/S)",
+      "source_authority": "CR229/CR233/CR267",
+      "status": "ACTIVE",
+      "type": "FullLedger",
+      "value": 162
+    },
+    {
+      "id": "A_OPERATOR",
+      "layer": "OperatorRegistry",
+      "origin": "non-row operator; A-to-contact OPEN",
+      "source_authority": "CR256/CR282",
+      "status": "ACTIVE",
+      "type": "NonRowOperator",
+      "value": null
+    },
+    {
+      "id": "C1_ROAD_LIGHT_CARRIER",
+      "layer": "SameValueOccurrence",
+      "origin": "scalar-one carrier distinct from X1",
+      "source_authority": "CR282/CR216",
+      "status": "ACTIVE",
+      "type": "Carrier",
+      "value": 1
+    },
+    {
+      "id": "P1_LIFT_BEARING_SUPPORT",
+      "layer": "SameValueOccurrence",
+      "origin": "scalar-one support distinct from X1",
+      "source_authority": "CR282",
+      "status": "ACTIVE",
+      "type": "Support",
+      "value": 1
+    }
+  ],
+  "operator_signatures": {
+    "forbidden_signatures": [
+      {
+        "attempt": "S8 * D3 = 24",
+        "expected": "TYPE_REJECT_UNRESOLVED_SURFACE_NOT_CLOSURE_WITNESS",
+        "input_types": [
+          "BinarySurface",
+          "Dimension"
+        ],
+        "operator": "PROMOTE_VOLUME"
+      },
+      {
+        "expected": "TYPE_REJECT_NON_ROW_CHANNEL",
+        "input_types": [
+          "AxisChannel"
+        ],
+        "operator": "INSERT_LEDGER_ROW"
+      },
+      {
+        "expected": "TYPE_REJECT_ROLE_COLLAPSE",
+        "operator": "MERGE_BY_SCALAR_VALUE"
+      }
+    ],
+    "record_id": "CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER",
+    "signatures": [
+      {
+        "input_types": [
+          "BinarySurface",
+          "ContactOperator",
+          "AxisChannel"
+        ],
+        "operator": "RESOLVE",
+        "output_type": "ClosureWitness",
+        "status": "ACTIVE_WITH_CR282_SCOPE"
+      },
+      {
+        "input_types": [
+          "ClosureWitness",
+          "Dimension"
+        ],
+        "operator": "PROMOTE_VOLUME",
+        "output_type": "VolumeContainer",
+        "status": "ACTIVE"
+      },
+      {
+        "input_types": [
+          "VolumeContainer",
+          "Dimension"
+        ],
+        "operator": "PROMOTE_FACE",
+        "output_type": "CompletedFace",
+        "status": "ACTIVE"
+      },
+      {
+        "input_types": [
+          "CompletedFace",
+          "Arity"
+        ],
+        "operator": "MIRROR_CLOSE",
+        "output_type": "FullLedger",
+        "status": "ACTIVE"
+      },
+      {
+        "input_types": [
+          "NativeClosureBudget",
+          "BinarySurface"
+        ],
+        "operator": "RELEASE_CARRIER",
+        "output_type": "PrimaryCarrier",
+        "status": "ACTIVE"
+      },
+      {
+        "input_types": [
+          "NativeClosureBudget",
+          "PrimaryCarrier"
+        ],
+        "operator": "RETAIN_MATTER",
+        "output_type": "MatterCapacity",
+        "status": "ACTIVE"
+      },
+      {
+        "input_types": [
+          "CompletedFace",
+          "AxisChannel"
+        ],
+        "operator": "RESERVE_CLOSURE_ADDRESS",
+        "output_type": "ParticleFaceContent",
+        "status": "CONDITIONAL_INHERIT_CR283"
+      }
+    ]
+  },
+  "prior_CR_result_inputs": true,
+  "prospective_holdout_eligible": false,
+  "record_id": "CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER",
+  "same_value_distinct_occurrences": [
+    {
+      "id": "X1_AXIS_SELF_CHANNEL",
+      "role": "axis self-coupling / axis fee",
+      "source": "CR267",
+      "type": "AxisChannel",
+      "value": 1
+    },
+    {
+      "id": "C1_ROAD_LIGHT_CARRIER",
+      "role": "scalar-one carrier",
+      "source": "CR282/CR216",
+      "type": "Carrier",
+      "value": 1
+    },
+    {
+      "id": "P1_LIFT_BEARING_SUPPORT",
+      "role": "scalar-one support",
+      "source": "CR282",
+      "type": "Support",
+      "value": 1
+    },
+    {
+      "id": "A1_HISTORICAL_ROW_PROXY",
+      "role": "retired row-shaped trace",
+      "source": "CR216/CR282",
+      "type": "RetiredHistoricalRowProxy",
+      "value": 1
+    },
+    {
+      "id": "S8_BINARY_SURFACE",
+      "role": "h^D surface",
+      "source": "CR117/CR267",
+      "type": "BinarySurface",
+      "value": 8
+    },
+    {
+      "id": "S8_HIDDEN_PARTITION",
+      "role": "partition occurrence",
+      "source": "CR218",
+      "type": "BigradePartition",
+      "value": 8
+    },
+    {
+      "id": "S8_CR283_FACTOR",
+      "role": "80 = 8*10",
+      "source": "CR283",
+      "type": "FaceContentFactor",
+      "value": 8
+    },
+    {
+      "id": "W9_CLOSURE_WITNESS",
+      "role": "resolved closure witness",
+      "source": "CR267",
+      "type": "ClosureWitness",
+      "value": 9
+    },
+    {
+      "id": "C9_CARRIER_ATOM",
+      "role": "D2 carrier atom",
+      "source": "CR262",
+      "type": "CarrierAtom",
+      "value": 9
+    },
+    {
+      "id": "P9_BIGRADE_PARTITION",
+      "role": "partition occurrence",
+      "source": "CR218",
+      "type": "BigradePartition",
+      "value": 9
+    },
+    {
+      "id": "R12_CLOSURE_RADIUS",
+      "role": "radix/container",
+      "source": "CR114/CR262",
+      "type": "ClosureRadius",
+      "value": 12
+    },
+    {
+      "id": "P12_BIGRADE_PARTITION",
+      "role": "partition occurrence",
+      "source": "CR218",
+      "type": "BigradePartition",
+      "value": 12
+    },
+    {
+      "id": "F81_COMPLETED_FACE",
+      "role": "face/container",
+      "source": "CR233/CR283",
+      "type": "CompletedFace",
+      "value": 81
+    },
+    {
+      "id": "SIDE81_LEDGER_SIDE",
+      "role": "one side / mirror side",
+      "source": "CR229/CR233",
+      "type": "LedgerSide",
+      "value": 81
+    },
+    {
+      "id": "C81_CONTAINER_ATOM",
+      "role": "face container atom",
+      "source": "CR262",
+      "type": "ContainerAtom",
+      "value": 81
+    }
+  ],
+  "sealed_utc": "2026-07-12T09:02:06Z"
+}

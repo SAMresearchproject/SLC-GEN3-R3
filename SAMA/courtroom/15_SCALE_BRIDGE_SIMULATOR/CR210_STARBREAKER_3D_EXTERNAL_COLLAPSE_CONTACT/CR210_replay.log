@@ -1,0 +1,127 @@
+CR210 approved Starbreaker replay
+generated_at_utc: 2026-07-15T01:39:19.779729+00:00
+preflight: C:\VS\The_Courtroom\artifacts\preflight_filled\PREFLIGHT_20260714_203919_CR210_runner.md
+
+===== full_3d_geometry_replay_1218_simulations =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\run_starbreaker_3d_density_geometry.py --self-test
+returncode: 0
+--- stdout ---
+Starbreaker 3D density geometry gate generated:
+  summary: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_density_geometry_summary.json
+  allocations: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_shell_volume_allocations.csv
+  density_runs: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_density_runs.csv
+  impacts: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_effect_summary.csv
+  uniform_runs: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_uniform_same_total_runs.csv
+  same_total: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_same_total_comparison.csv
+  permutation_runs: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_permutation_runs.csv
+  permutation_aggregates: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_permutation_aggregates.csv
+  ranks: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_permutation_ranks.csv
+  controls: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_wrong_controls.csv
+  source_contract: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\starbreaker_3d_source_contract.json
+  report: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\outputs\STARBREAKER_3D_DENSITY_GEOMETRY_REPORT.md
+
+--- stderr ---
+
+
+===== external_collapse_contact_replay =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\run_starbreaker_external_collapse_contact.py --self-test
+returncode: 0
+--- stdout ---
+Starbreaker external collapse contact generated:
+  summary: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_collapse_contact_summary.json
+  signature: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_signature_contract.json
+  aggregates: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_ladders.csv
+  runwise: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_runwise_ladders.csv
+  same_total: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_same_total.csv
+  permutations: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_permutations.csv
+  controls: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_no_fit_controls.csv
+  source_contract: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_contact_source_contract.json
+  report: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_REPORT.md
+  html: C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\outputs\starbreaker_external_collapse_contact_plate.html
+
+--- stderr ---
+
+
+===== regression_starbreaker_lab =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_LAB\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 8 tests in 0.163s
+
+OK
+
+
+===== regression_mechanism_audit =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_MECHANISM_AUDIT\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 8 tests in 1.138s
+
+OK
+
+
+===== regression_cr120u_sidecar =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_CR120U_INCIDENCE_SIDECAR\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 9 tests in 0.564s
+
+OK
+
+
+===== regression_carrier_density_field =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_CARRIER_DENSITY_FIELD\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 12 tests in 0.008s
+
+OK
+
+
+===== regression_density_coupling_2d =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_CARRIER_DENSITY_COUPLING\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 7 tests in 3.164s
+
+OK
+
+
+===== regression_density_geometry_3d =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_3D_DENSITY_GEOMETRY\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 6 tests in 2.828s
+
+OK
+
+
+===== regression_external_collapse_contact =====
+command: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover -s C:\VS\The_Basement\15_SCALE_BRIDGE_SIMULATOR\STARBREAKER_EXTERNAL_COLLAPSE_CONTACT\tests -q
+returncode: 0
+--- stdout ---
+
+--- stderr ---
+----------------------------------------------------------------------
+Ran 8 tests in 0.016s
+
+OK
+

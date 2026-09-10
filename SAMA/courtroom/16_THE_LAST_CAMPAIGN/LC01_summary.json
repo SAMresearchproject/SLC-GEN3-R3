@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "all_sources_exist": true,
+  "all_wrong_controls_rejected_or_registered": true,
+  "branch": "16_THE_LAST_CAMPAIGN",
+  "checks_csv": "16_THE_LAST_CAMPAIGN\\LC01_checks.csv",
+  "downstream_lanes_registered": 10,
+  "downstream_lanes_replayed": 0,
+  "execution_status": "CLEAN",
+  "lane_register_csv": "16_THE_LAST_CAMPAIGN\\LC01_downstream_lane_register.csv",
+  "lc_id": "LC01",
+  "lock_json": "16_THE_LAST_CAMPAIGN\\LC01_primitive_stack_lock.json",
+  "primitive_stack_csv": "16_THE_LAST_CAMPAIGN\\LC01_primitive_stack_declared.csv",
+  "result_class": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+  "result_md": "16_THE_LAST_CAMPAIGN\\LC01_result.md",
+  "source_chain_csv": "16_THE_LAST_CAMPAIGN\\LC01_source_chain.csv",
+  "test_class": "LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+  "wrong_controls_csv": "16_THE_LAST_CAMPAIGN\\LC01_wrong_controls.csv"
+}

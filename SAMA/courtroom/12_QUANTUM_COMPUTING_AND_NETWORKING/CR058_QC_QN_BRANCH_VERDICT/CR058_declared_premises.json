@@ -1,0 +1,16 @@
+{
+  "test_id": "CR058_QC_QN_BRANCH_VERDICT",
+  "test_type": "branch_verdict_aggregation",
+  "components": [
+    "CR050",
+    "CR051",
+    "CR052",
+    "CR053",
+    "CR054",
+    "CR055",
+    "CR056",
+    "CR057"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This branch verdict could have falsified: the claim that SAM has a coherent private QC/QN protocol and scoring stack while preserving hardware/live-validation boundaries."
+}

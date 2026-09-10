@@ -1,0 +1,6 @@
+label,m_1,m_2,gcd,lcm,expected_atom,ok
+"(h, d) -> m_3",2,3,1,6,6,True
+"(h, d^2) -> Theta",2,9,1,18,18,True
+"(h^2, d) -> R",4,3,1,12,12,True
+"(h, d^3) -> hV",2,27,1,54,54,True
+"(h, d^4) -> L",2,81,1,162,162,True

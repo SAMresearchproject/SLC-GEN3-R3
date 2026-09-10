@@ -1,0 +1,3 @@
+let unary = QP_UNARY_DIRECT(QP_P1, QP_D0, QP_ROUTE_PLUS)
+INSERT_LEDGER_ROW(unary)
+return unary

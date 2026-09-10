@@ -1,0 +1,32 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "98b82102c3e21c18fa0e5e405b1f126732e33805",
+      "bytes": 6135,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_PRECOMMIT.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_PRECOMMIT.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_declared_premises.json",
+      "mode": "100644",
+      "git_blob": "8bbe819f27aabdad2b2771eeb003d77b31c1121b",
+      "bytes": 6275,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_declared_premises.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_declared_premises.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_declared_premises.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR089_CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK/CR089_declared_premises.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR089@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

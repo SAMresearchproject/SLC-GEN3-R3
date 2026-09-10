@@ -1,0 +1,83 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "cr_id": "CR061a",
+  "forward_blind_test": {
+    "claim": "For any FUTURE 3-body standard-letter row added to CR119 that satisfies all three filters (q_abs = 0, all-distinct slots, promoted), the row's S_debit follows S = (17/16) * M_native / R^3 with positive sign (per CR129b lock), and the row qualifies as an IDEAL Paul Revere qubit candidate.",
+    "falsifier": "(a) A row satisfying all three filters but whose S_debit deviates from the (17/16) form falsifies the slot decomposition.  (b) Discovery of a non-ladder (a, b, c) triple all-distinct at q = 0 with promoted status would EXTEND the candidate set without falsifying v1.0; it just shows the alpha_H-ladder structure is not the only path to ideality.",
+    "free_parameters_at_test": 0,
+    "id": "CR061a_PRED_1",
+    "non_falsifying": "Additions to the q >= 1 or repeated-slot subset of 3body_standard.  Hardware demonstrations on either candidate (whether positive or negative results) at this stage of the program."
+  },
+  "immutability": "Selection criteria, slot role map, and the two locked ideal candidates are frozen at CR061a seal time.  Future falsification or extension must be in an appeal CR within 12a.",
+  "in_sample_verification": {
+    "S_debit_predictions_locked": [
+      "119/256",
+      "119/64"
+    ],
+    "alpha_H_ladder_count": 2,
+    "promoted_3body_standard_rows": 107,
+    "q0_distinct_rows": 2,
+    "q0_rows": 17
+  },
+  "lock_committed_utc": "2026-06-16T01:16:20Z",
+  "lock_definition": {
+    "alpha_H_ladder_observation": "Both ideal candidates are pure alpha_H ladders: (alpha_H^k, alpha_H^(k+1), alpha_H^(k+2)) for k in {0, 1}.  The carrier/envelope/sensor slots are successive powers of alpha_H = 2.  This is the cleanest possible partition-algebra structure for a 3-body qubit, and the two candidates form a two-generation hierarchy within the q = 0 family.",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "filter_1_q0_rationale": "Only at q_abs = 0 does the S_debit / M ratio = (17/16) * (1/R^3) decompose exactly as (1/4 + 9/16 + 1/4) -- the carrier/envelope/sensor weight pattern.  For q >= 1, the ratio = (4q + D)/(4R^4) does not admit this slot decomposition, so the architectural cleanliness of the Paul Revere letter is q = 0 specific.",
+    "filter_2_distinct_rationale": "The carrier (slot a), envelope (slot b), and sensor (slot c) must carry distinguishable identities for the architecture separation in CR051 / CR054 to hold.  Rows with a repeated slot collapse two architectural roles into the same identity.",
+    "filter_3_promoted_rationale": "Per CR060a, the alphabet is the promoted subset of CR119.  Rejected rows are wrong-controls for the boundary sensor, not qubit candidates.",
+    "ideal_candidates": [
+      {
+        "M_native_MeV": 756,
+        "S_debit_predicted_MeV": "0.464844",
+        "partition": "1+2+4",
+        "role": "foundational ideal qubit (lightest alpha_H ladder)",
+        "sorted_abc": "(1, 2, 4)",
+        "structural_form": "(alpha_H^0, alpha_H^1, alpha_H^2)"
+      },
+      {
+        "M_native_MeV": 3024,
+        "S_debit_predicted_MeV": "1.859375",
+        "partition": "2+4+8",
+        "role": "extended generation ideal qubit (next alpha_H ladder)",
+        "sorted_abc": "(2, 4, 8)",
+        "structural_form": "(alpha_H^1, alpha_H^2, alpha_H^3)"
+      }
+    ],
+    "name": "PAUL_REVERE_IDEAL_QUBIT_SELECTION_3BODY_OCTET",
+    "out_of_scope": [
+      "Hardware mapping (CR063a candidate).",
+      "Mass-to-frequency calibration for actual qubit splittings.",
+      "Encoding / error-correction schemes over the alphabet.",
+      "Qubit candidates outside the structural-ideality filters (q >= 1 or repeated slots) -- these may still function as qubits with degraded architectural cleanliness."
+    ],
+    "selection_rule": "An IDEAL Paul Revere qubit row is a CR119 3-body standard-letter row that satisfies ALL THREE filters: (F1) q_abs = 0, (F2) all three partition slots are distinct (a < b < c, no repeats), (F3) promoted in CR060a alphabet (stability != REJECTED_FAKE_CLOSURE).",
+    "slot_role_map_at_q0": {
+      "S_debit_at_q0": "(17/16) * M_native / R^3",
+      "carrier_slot_a": {
+        "role_CR051": "route identity",
+        "weight": "1/4"
+      },
+      "envelope_slot_b": {
+        "role_CR051": "letter content (9/8 surcharge)",
+        "weight": "9/16 = (9/8) * (1/2)"
+      },
+      "sensor_slot_c": {
+        "role_CR054": "boundary stress readout",
+        "weight": "1/4"
+      },
+      "total_weight": "17/16"
+    }
+  },
+  "lock_version": "v1.0",
+  "upstream_sha256": {
+    "CR060a_alphabet_csv": "33f5c1f05bb23a69556d9c68f219a2515ddcd394c0310c85b5427e25bc341cdd",
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

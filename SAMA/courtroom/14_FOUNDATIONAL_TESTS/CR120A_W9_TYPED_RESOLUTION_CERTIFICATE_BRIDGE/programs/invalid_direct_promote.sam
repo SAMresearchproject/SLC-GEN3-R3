@@ -1,0 +1,6 @@
+let volume = PROMOTE_VOLUME(
+    S8_BINARY_SURFACE,
+    D3_DIMENSION
+)
+
+return volume

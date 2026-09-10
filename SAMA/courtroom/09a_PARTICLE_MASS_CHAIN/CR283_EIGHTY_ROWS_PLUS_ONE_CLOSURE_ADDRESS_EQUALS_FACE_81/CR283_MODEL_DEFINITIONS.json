@@ -1,0 +1,55 @@
+{
+  "record_id": "CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81",
+  "models": [
+    {
+      "model_id": "M1",
+      "name": "reserved_closure_address_model",
+      "claim": "80 active particle-bearing rows plus one non-row closure/contact address complete F81."
+    },
+    {
+      "model_id": "M2",
+      "name": "missing_81st_particle_model",
+      "claim": "The 81st address is an undiscovered active particle row."
+    },
+    {
+      "model_id": "M3",
+      "name": "retired_A_field_row_model",
+      "claim": "QP093A-0305 should be restored to make 81 rows."
+    },
+    {
+      "model_id": "M4",
+      "name": "pure_coincidence_model",
+      "claim": "80 and 81 are unrelated counts."
+    },
+    {
+      "model_id": "M5",
+      "name": "ten_octet_model",
+      "claim": "80 is explained only as ten source-native S=8 octets."
+    },
+    {
+      "model_id": "M6",
+      "name": "punctured_9x9_face_model",
+      "claim": "Rows naturally occupy 80 of 81 face addresses with one reserved address."
+    },
+    {
+      "model_id": "M7",
+      "name": "carrier_face_only_model",
+      "claim": "81 is only carrier-face capacity and does not attach to particle rows."
+    },
+    {
+      "model_id": "M8",
+      "name": "numeric_collapse_model",
+      "claim": "All scalar-one occurrences are the same entity."
+    }
+  ],
+  "score_weights": {
+    "exact_arithmetic": 0.2,
+    "source_support": 0.2,
+    "row_level_explanatory_power": 0.15,
+    "ledger_compatibility": 0.15,
+    "typed_consistency": 0.15,
+    "wrong_control_rejection": 0.1,
+    "free_parameters_and_unexplained_rows": 0.05
+  },
+  "count_equality_weight_cap": 0.2
+}

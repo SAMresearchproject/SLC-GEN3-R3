@@ -1,0 +1,49 @@
+{
+  "all_roster_arithmetic_uses_M_native_sums": true,
+  "any_depth_p9_deletion_used": false,
+  "binding_model_refit_or_holdout_tuned": false,
+  "current_81_p9_g0_rows": {
+    "M_native_sum": "49.5",
+    "candidate_ids": [
+      "QP093A-0019",
+      "QP093A-0020",
+      "QP093A-0085",
+      "QP093A-0086"
+    ],
+    "negative_M_native_sum": "24.75",
+    "negative_count": 2,
+    "neutral_M_native_sum": "0",
+    "neutral_count": 0,
+    "positive_M_native_sum": "24.75",
+    "positive_count": 2,
+    "row_count": 4
+  },
+  "current_81_p9_g0_value_removal_is_charge_balanced": true,
+  "current_81_relabelled_as_complete_p9_g0_removal": false,
+  "global_total_predictor_control": {
+    "five_row_p9_total": {
+      "constant": "50.625",
+      "exact_scalar_multiple_of_intercept": true,
+      "independent_predictor": false
+    },
+    "roster100_total": {
+      "constant": "16200",
+      "exact_scalar_multiple_of_intercept": true,
+      "independent_predictor": false
+    },
+    "roster81_total": {
+      "constant": "12600",
+      "exact_scalar_multiple_of_intercept": true,
+      "independent_predictor": false
+    },
+    "roster_sum_difference": {
+      "constant": "3600",
+      "exact_scalar_multiple_of_intercept": true,
+      "independent_predictor": false
+    }
+  },
+  "global_total_predictor_rejected": true,
+  "identity_rows_erased_from_source_record": false,
+  "mean_substitution_used": false,
+  "record_id": "CR120P_P9_G0_UPDATED_SHEET_BINDING_IMPROVEMENT_POTENTIAL"
+}

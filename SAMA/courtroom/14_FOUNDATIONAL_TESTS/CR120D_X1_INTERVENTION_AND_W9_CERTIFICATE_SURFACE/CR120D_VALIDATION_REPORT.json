@@ -1,0 +1,33 @@
+{
+  "all_contract_checks_satisfied": true,
+  "checks": {
+    "G0_frozen_sources_match": true,
+    "G0_precommit_hash_matches": true,
+    "G0_query_spec_hash_matches": true,
+    "G10_installed_result_capacity_zero_bits": true,
+    "G11_certificate_ceiling_explicit": true,
+    "G12_same_scalar_entities_remain_distinct": true,
+    "G13_cr120_frontier_preserved": true,
+    "G14_registry_unchanged": true,
+    "G1_one_registered_axis_channel": true,
+    "G2_x1_static_content_exact": true,
+    "G3_no_mutation_or_intervention_surface": true,
+    "G4_resolve_is_type_checked_fixed_result": true,
+    "G5_canonical_execution_returns_fixed_w9": true,
+    "G6_trace_records_typed_route": true,
+    "G7_w9_static_entity_schema_exact": true,
+    "G8_execution_result_schema_exact": true,
+    "G9_dynamic_certificate_fields_absent": true
+  },
+  "disposition": "RUNTIME_BOUNDARY_X1_STATIC_DERIVED_CONTENT_NO_INDEPENDENT_INTERVENTION_SURFACE_W9_TYPED_ROUTE_CERTIFICATE_ONLY",
+  "frontier": {
+    "ADJACENT": true,
+    "ADJACENT_LEDGER_STATE": true,
+    "LEDGER_SITE": true,
+    "PROPAGATE_CLOSURE": true
+  },
+  "record_id": "CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE",
+  "result_class": "RUNTIME_CONTRACT_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "sealed_utc": "2026-07-13T18:30:27Z"
+}

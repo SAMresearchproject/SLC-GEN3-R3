@@ -1,0 +1,177 @@
+{
+  "artifact": "STARBREAKER_EXTERNAL_COLLAPSE_CONTACT_V0_1",
+  "status": "PASS_EXTERNAL_QUALITATIVE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION",
+  "scope": "Read-only comparison of executed 3D Starbreaker rows with one frozen external simulation direction",
+  "config": {
+    "geometries": [
+      "localized_ledger_cells",
+      "dispersed_slots"
+    ],
+    "exponents": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "runwise_monotonic_fraction_min": 0.9,
+    "same_total_direction_fraction_min": 0.9,
+    "require_permutation_maximum": true
+  },
+  "source_contract": {
+    "ordinary_basement_work": true,
+    "courtroom_preflight_invoked": false,
+    "external_source_selected_before_comparison": true,
+    "all_internal_sources_present": true,
+    "internal_sources": [
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_density_geometry_summary.json",
+        "exists": true,
+        "sha256": "523118a315235a760a64ba533d175d0da1cf50b35d345f930a5c5bfcc23c7b74",
+        "use": "executed 3D gate and frozen configuration"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_density_runs.csv",
+        "exists": true,
+        "sha256": "fe0236f419b93d6d64f9e32ac7cb978ccd13dee054cb64c0bed7f71b22a70857",
+        "use": "p=0..3 density rows for both frozen geometries"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_uniform_same_total_runs.csv",
+        "exists": true,
+        "sha256": "9fe9dd658df5b154a95f231b0a6b6b6b7b340e6f3b89885346009f138799fa0f",
+        "use": "same-total allocation control"
+      },
+      {
+        "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_permutation_ranks.csv",
+        "exists": true,
+        "sha256": "c67f42e92a358a3cb6d8fd492d3fddfe8468b97ab07172878c41609daafefedf",
+        "use": "exhaustive radial-permutation position"
+      }
+    ],
+    "external_source": {
+      "signature_id": "OO2011_HIGHER_BOUNCE_COMPACTNESS_STRONGER_COLLAPSE_DIRECTION",
+      "selection_state": "frozen_before_starbreaker_comparison",
+      "source_type": "primary_published_general_relativistic_collapse_simulation_study",
+      "title": "Black Hole Formation in Failing Core-Collapse Supernovae",
+      "authors": [
+        "Evan O'Connor",
+        "Christian D. Ott"
+      ],
+      "journal": "The Astrophysical Journal 730, 70 (2011)",
+      "doi": "10.1088/0004-637X/730/2/70",
+      "doi_url": "https://doi.org/10.1088/0004-637X/730/2/70",
+      "arxiv_id": "1010.5550v2",
+      "arxiv_url": "https://arxiv.org/abs/1010.5550",
+      "accessed_utc_date": "2026-07-15",
+      "source_scope": "Over 100 presupernova models studied with the spherically symmetric general-relativistic 1.5D GR1D code and simplified neutrino leakage/heating physics.",
+      "physical_quantity": "xi_M = (M / M_sun) / (R(M_bary = M) / 1000 km); the paper focuses on xi_2.5 at bounce",
+      "locked_external_direction": "Higher bounce compactness is associated with faster black-hole formation and progenitors that are harder to explode.",
+      "paper_boundary": "The source itself treats compactness as a first-order predictor within a stated EOS and simplified 1.5D setup, not a universal one-parameter law."
+    }
+  },
+  "external_signature": {
+    "signature_id": "OO2011_HIGHER_BOUNCE_COMPACTNESS_STRONGER_COLLAPSE_DIRECTION",
+    "selection_state": "frozen_before_starbreaker_comparison",
+    "source_type": "primary_published_general_relativistic_collapse_simulation_study",
+    "title": "Black Hole Formation in Failing Core-Collapse Supernovae",
+    "authors": [
+      "Evan O'Connor",
+      "Christian D. Ott"
+    ],
+    "journal": "The Astrophysical Journal 730, 70 (2011)",
+    "doi": "10.1088/0004-637X/730/2/70",
+    "doi_url": "https://doi.org/10.1088/0004-637X/730/2/70",
+    "arxiv_id": "1010.5550v2",
+    "arxiv_url": "https://arxiv.org/abs/1010.5550",
+    "accessed_utc_date": "2026-07-15",
+    "source_scope": "Over 100 presupernova models studied with the spherically symmetric general-relativistic 1.5D GR1D code and simplified neutrino leakage/heating physics.",
+    "physical_quantity": "xi_M = (M / M_sun) / (R(M_bary = M) / 1000 km); the paper focuses on xi_2.5 at bounce",
+    "locked_external_direction": "Higher bounce compactness is associated with faster black-hole formation and progenitors that are harder to explode.",
+    "paper_boundary": "The source itself treats compactness as a first-order predictor within a stated EOS and simplified 1.5D setup, not a universal one-parameter law."
+  },
+  "mapping_contract": {
+    "external_driver": "stellar-core bounce compactness xi_2.5",
+    "external_response": "faster black-hole formation and greater difficulty exploding as compactness increases",
+    "starbreaker_driver": "p-indexed inward allocation of additional complete 162-slot ledgers",
+    "starbreaker_response": "internal remnant fraction",
+    "allowed_comparison": "direction and ordering only",
+    "forbidden_identifications": [
+      "p is not xi_2.5",
+      "A is not assigned physical compactness units",
+      "Starbreaker remnant fraction is not black-hole probability",
+      "Starbreaker ejecta fraction is not explosion energy or observed ejecta mass"
+    ]
+  },
+  "geometry_readout": [
+    {
+      "geometry": "localized_ledger_cells",
+      "mean_remnant_ladder": [
+        0.4946040144452843,
+        0.595000139973685,
+        0.7045588156699268,
+        0.7883387923070463
+      ],
+      "mean_ladder_strictly_increasing": true,
+      "p0_to_p3_mean_delta": 0.293734777861762,
+      "runwise_monotonic_passes": 21,
+      "runwise_monotonic_total": 21,
+      "runwise_monotonic_fraction": 1.0,
+      "same_total_direction_passes": 21,
+      "same_total_direction_total": 21,
+      "same_total_direction_fraction": 1.0,
+      "same_total_mean_advantage": 0.2899082472495171,
+      "same_total_min_advantage": 0.23236331569664903,
+      "aligned_is_permutation_maximum": true,
+      "permutation_count": 24
+    },
+    {
+      "geometry": "dispersed_slots",
+      "mean_remnant_ladder": [
+        0.5555345595028134,
+        0.6386299375717366,
+        0.7471897101526731,
+        0.8190455194423448
+      ],
+      "mean_ladder_strictly_increasing": true,
+      "p0_to_p3_mean_delta": 0.26351095993953144,
+      "runwise_monotonic_passes": 21,
+      "runwise_monotonic_total": 21,
+      "runwise_monotonic_fraction": 1.0,
+      "same_total_direction_passes": 21,
+      "same_total_direction_total": 21,
+      "same_total_direction_fraction": 1.0,
+      "same_total_mean_advantage": 0.26801986226589397,
+      "same_total_min_advantage": 0.21990740740740733,
+      "aligned_is_permutation_maximum": true,
+      "permutation_count": 24
+    }
+  ],
+  "run_counts": {
+    "executed_3d_density_rows_read": 168,
+    "matched_p0_to_p3_ladders": 42,
+    "matched_same_total_pairs": 42,
+    "radial_permutation_families": 2,
+    "new_starbreaker_simulations": 0,
+    "fitted_parameters": 0
+  },
+  "invariants": {
+    "source_contract_complete": true,
+    "external_signature_frozen_before_comparison": true,
+    "exactly_one_external_signature": true,
+    "all_no_fit_controls_pass": true,
+    "expected_density_run_count": true,
+    "both_mean_ladders_strictly_increase": true,
+    "runwise_monotonic_stability_pass": true,
+    "same_total_direction_stability_pass": true,
+    "all_same_total_inventories_match": true,
+    "aligned_p3_is_maximum_of_all_radial_permutations": true,
+    "all_pass": true
+  },
+  "verdict": {
+    "label": "PASS_EXTERNAL_QUALITATIVE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION",
+    "plain_language": "Starbreaker's locked 3D density ladder moves in the same qualitative collapse direction as the frozen compactness result: more inward concentration produces more internal remnant and less ejecta.",
+    "strength": "The ordering is strict in both aggregate ladders, all 42 individual anchor/seed ladders, all 42 same-total comparisons, and both exhaustive 24-permutation families.",
+    "limit": "This is directional contact with an external simulation result, not a fit, measurement, physical calibration, black-hole prediction, or validation of the A packing law."
+  },
+  "next_gate": "freeze one genuinely time-resolved internal observable before any further external comparison; the current endpoint simulator cannot test the source paper's faster-time-to-black-hole signature"
+}

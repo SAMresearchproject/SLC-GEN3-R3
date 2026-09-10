@@ -1,0 +1,33 @@
+{
+  "artifacts": {
+    "checks": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_checks.csv",
+    "evidence": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_evidence_matrix.csv",
+    "hashes": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/HASHES.txt",
+    "imported_input": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_imported_breadcrumb_audit.md",
+    "manifest": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_input_manifest.csv",
+    "questions": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_question_readout.csv",
+    "result": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_result.md",
+    "summary": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_summary.json",
+    "wrong_controls": "Fano_Plates/CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT/CR213_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 13,
+    "total": 13
+  },
+  "core_findings": {
+    "cr119_matter_rows": 126,
+    "cr119_particle_rows": 321,
+    "cr119_periodic_rows": 126,
+    "d3_courtroom_backed": true,
+    "generation_count_derivation": "OPEN",
+    "next_test": "D-perturbation replay for enumerator and role operators",
+    "not_126_particle_rows": true
+  },
+  "cr_id": "CR213",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-20T02:57:57+00:00",
+  "result_class": "CR213_PASS_SCOPED_D3_TO_PARTICLE_BREADCRUMB_AUDIT__D3_BACKED__321_126_BOUNDARY_LOCKED__GENERATION_DERIVATION_OPEN",
+  "source_hash": "afcc70f8fa71c613982f8d733f646f771d2053a51ee9b6dd5ea2977777dab030",
+  "test_id": "CR213_D3_TO_PARTICLE_BREADCRUMB_AUDIT"
+}

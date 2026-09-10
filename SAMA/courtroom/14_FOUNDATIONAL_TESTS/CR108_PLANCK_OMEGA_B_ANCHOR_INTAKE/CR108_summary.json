@@ -1,0 +1,69 @@
+{
+  "cr_id": "CR108",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR107 (SPARC intake) -> CR106 (14 branch verdict zipper)",
+  "test_class": "PUBLIC_PLANCK_2018_REFERENCE_INTAKE_NO_MATCH_REVEAL",
+  "execution_status": "CLEAN",
+  "result_class": "CR108_PLANCK_OMEGA_B_INTAKE_PASS",
+  "anchor_lock_sha256": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+  "upstream_hashes": {
+    "CR107_sparc_anchor.json": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR106_14_branch_verdict.json": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_planck_2018_reference_sealed",
+      "pass": true,
+      "details": {
+        "Omega_b_h2": 0.02237,
+        "paper": "Planck 2018 results. VI. Cosmological parameters"
+      }
+    },
+    {
+      "name": "P2_upstream_cr107_anchor_present",
+      "pass": true,
+      "details": {
+        "cr107_anchor_sha256": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c"
+      }
+    },
+    {
+      "name": "P3_cr106_branch_verdict_present",
+      "pass": true
+    },
+    {
+      "name": "P4_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P5_zero_free_parameters_at_intake",
+      "pass": true
+    },
+    {
+      "name": "P6_no_match_revealed_yet",
+      "pass": true,
+      "details": "match deferred to CR111 cosmic baryon closure appeal"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_sam_prediction_value_substituted_for_planck_reference",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_prior_CR_verdict_modified",
+      "pass": true
+    },
+    {
+      "name": "WC3_anchor_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "anchor_sha256": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5"
+      }
+    }
+  ],
+  "next_courtroom_step": "CR109 PBH abundance constraint intake, then CR110 three-mode closure appeal, then CR111 cosmic baryon closure appeal",
+  "open_debts": [
+    "Match reveal of SAM substrate Omega_b prediction deferred to CR111"
+  ]
+}

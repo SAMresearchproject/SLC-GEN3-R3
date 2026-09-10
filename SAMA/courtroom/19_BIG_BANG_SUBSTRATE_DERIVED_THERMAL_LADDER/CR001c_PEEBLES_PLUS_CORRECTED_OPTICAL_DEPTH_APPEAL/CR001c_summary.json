@@ -1,0 +1,120 @@
+{
+  "precommit_sha256": "64b17ea78ddcf1ecfeffbcd722abc4f7446aaaeea1140e105acc3cad2c053bb1",
+  "appeal_of": "CR001b@19",
+  "appeal_basis": "Two arithmetic precommit bugs corrected: Bug A (Peebles Boltzmann factor) and Bug B (tau integrand power of a)",
+  "substrate": {
+    "A_0": 0.026525823848649224,
+    "alpha_H": 2,
+    "D": 3,
+    "R": 12,
+    "S": 8,
+    "Theta": 18,
+    "Omega_m_SAM": 0.3183098861837907,
+    "chi": 0.07073553026306459,
+    "Omega_b_SAM": 0.049299011266100756,
+    "Omega_c_SAM": 0.26901087491768993
+  },
+  "measurement_inputs": {
+    "H0": 68.76,
+    "T_0": 2.7255,
+    "N_eff": 3.046
+  },
+  "planck_reference": {
+    "z_eq": 3402.0,
+    "z_star": 1089.92,
+    "z_drag": 1059.94,
+    "rs_zstar": 144.43,
+    "r_d": 147.09,
+    "DM_zstar": 13869.6,
+    "ell_A": 301.76,
+    "hundred_theta_star": 1.0411
+  },
+  "canonical": {
+    "Omega_m": 0.3183098861837907,
+    "Omega_b": 0.049299011266100756,
+    "Omega_c": 0.26901087491768993,
+    "Omega_gamma": 5.230558316323047e-05,
+    "Omega_r": 8.848895834757732e-05,
+    "Omega_L": 0.6816016248578617,
+    "H0": 68.76,
+    "rho_c_0": 8.880681956293429e-27,
+    "a_eq": 0.0002779962614685621,
+    "z_eq": 3596.1706767469873,
+    "k_eq_per_Mpc": 0.010975788982681985,
+    "a_star": 0.0009310439312973904,
+    "z_star": 1073.0631740185672,
+    "rs_zstar_Mpc": 143.29909817630747,
+    "DM_zstar_Mpc": 13532.742328518672,
+    "theta_star": 0.010589065741266748,
+    "hundred_theta_star": 1.0589065741266748,
+    "ell_A": 296.68270368240917,
+    "a_d": 0.0009462425346548516,
+    "z_d": 1055.8115080186676,
+    "rd_Mpc": 144.80644193482388
+  },
+  "bbn": {
+    "eta": 6.372849308308806e-10,
+    "eta_10": 6.3728493083088065,
+    "T_f_MeV": 1.1499063356355128,
+    "n_p_freeze": 0.3247497804711521,
+    "t_f_s": 0.55830954686706,
+    "t_BBN_s": 247.7929014782426,
+    "delta_t_s": 247.23459193137555,
+    "n_p_bbn": 0.24516094009112516,
+    "Y_p": 0.3937819316323614,
+    "D_H": 2.3561294029618494e-05
+  },
+  "deviations": {
+    "z_eq_pct": 5.707544877924376,
+    "z_star_pct": -1.5466113092183689,
+    "z_drag_pct": -0.3895024229043573,
+    "rs_zstar_pct": -0.7830103328204249,
+    "r_d_pct": -1.5524903563642147,
+    "DM_zstar_pct": -2.4287482802772105,
+    "ell_A_pct": -1.6825610808559193,
+    "hundred_theta_pct": 1.7103615528455345,
+    "Y_p_pct": 60.72731903361691,
+    "D_H_pct": -6.761796479546921,
+    "eta_10_pct": 4.4729394804722435
+  },
+  "P1": {
+    "name": "100*theta_* vs Planck",
+    "deviation": 0.017103615528455345,
+    "threshold": 0.05,
+    "passed": "True"
+  },
+  "P2": {
+    "name": "ell_A vs Planck",
+    "deviation": -0.016825610808559193,
+    "threshold": 0.05,
+    "passed": "True"
+  },
+  "P3": {
+    "name": "r_d vs Planck",
+    "deviation": -0.015524903563642146,
+    "threshold": 0.05,
+    "passed": true
+  },
+  "WC1": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 0.017103615528455345,
+    "null_median": 0.09772628592852559,
+    "null_p1": 0.002012826032434071,
+    "null_p5": 0.00900725693122784,
+    "n_extreme": 77,
+    "canonical_percentile": 7.7,
+    "p_value": 0.07792207792207792
+  },
+  "WC2": {
+    "n_trials": 1000,
+    "canonical_abs_dev": 0.017103615528455345,
+    "null_median": 0.06388734169829992,
+    "null_p1": 0.0011934910392490663,
+    "null_p5": 0.005190776731221578,
+    "n_extreme": 164,
+    "canonical_percentile": 16.400000000000002,
+    "p_value": 0.16483516483516483
+  },
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold under canonical substrate inputs with corrected Peebles + corrected tau"
+}

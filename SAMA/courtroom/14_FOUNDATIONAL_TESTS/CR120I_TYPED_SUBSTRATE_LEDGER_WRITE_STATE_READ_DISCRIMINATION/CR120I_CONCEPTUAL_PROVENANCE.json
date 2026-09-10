@@ -1,0 +1,42 @@
+{
+  "conceptual_source": {
+    "grade": "WORKING_DRAFT_CONCEPTUAL_COMMITMENT_NOT_FORMAL_STATUS_LEDGER",
+    "path": "C:/VS/Stam_model-A-v1.0/00_Conceptual_foundation.md",
+    "phrase_checks": {
+      "complete_moment_state": true,
+      "film_reel_language": true,
+      "future_not_already_written": true,
+      "ledger_is_substrate_whole": true,
+      "ledger_not_separate_device": true,
+      "present_ledger_primary": true,
+      "time_not_fundamental": true,
+      "working_draft_grade": true
+    },
+    "recovered_frame": {
+      "complete_present_moment": "CONCEPTUAL_COMMITMENT_PRESENT",
+      "film_reel_sequence": "CONCEPTUAL_COMMITMENT_PRESENT",
+      "substrate_ledger_identity": "CONCEPTUAL_COMMITMENT_PRESENT",
+      "time_fundamentality": "DENIED_CONCEPTUALLY"
+    }
+  },
+  "current_formal_prefix": {
+    "checks": {
+      "CR075_scoped_chain_pass": true,
+      "CR077_delayed_human_readout": true,
+      "CR077_scoped_chain_pass": true,
+      "L_current_substrate_ledger_state": true,
+      "completed_interaction_is_write": true,
+      "unresolved_not_written": true
+    },
+    "installed_scope": "SUBSTRATE_LEDGER_STATE_AND_WRITE_ROUTE_ARCHITECTURE",
+    "not_installed": [
+      "HomeSnapshotState vector representation",
+      "state mutation W(S,u)",
+      "WriteResidue codomain",
+      "probe-equivalence relation",
+      "inverse or erase operator",
+      "physical time law"
+    ],
+    "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md"
+  }
+}

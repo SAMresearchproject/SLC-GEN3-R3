@@ -1,0 +1,170 @@
+{
+  "cr_id": "CR140",
+  "branch": "00_governance",
+  "test_class": "CR120_HIGGS_CLAIM_REWORD_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR140_CR120_HIGGS_CLAIM_REWORD_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "last_run_utc": "2026-06-17T23:35:03Z",
+  "regrade_type": "VERDICT_DOWNGRADE_HIGGS_CLAIM_EXACT_TO_PDG_MATCH",
+  "verdict_change": true,
+  "free_parameters": 0,
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "from_verdict": "CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY",
+  "to_verdict": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED",
+  "forensic_chronology": {
+    "qp091o_p_session": "Earlier same authoring session. Made the 2.27 MeV gap between H_native = R^2*(1-2^-D) = 126 GeV and measured PDG H = 125.25 GeV visible to the author.",
+    "qp091r_at_05_34_utc": "EXPLICITLY enumerated `126 - D^2/R = 125.25` as a 'Wrong Lane Control' alongside other candidate corrections. The 125.25 PDG target was visible at this point. Form was being shortlisted while the target was known.",
+    "qp091s_35_minutes_later": "Promoted the same `126 - D^2/R` expression from 'Wrong Lane Control' to 'Native / Reveal Surface'. No new derivation between qp091r and qp091s; the form simply moved from candidate-to-reject to active-derivation.",
+    "qp091t_at_06_09_utc": "Sealed `H_reveal = H_native - D^2/R` as active_derivation. The C9 wrong control passes only on the technicality that R = 12 and D = 3 are not themselves the Higgs value -- but the FORM of the correction was selected against the visible target.",
+    "implication": "The structural identity H_native = R^2*(1-2^-D) = 126 GeV predates the value match (derives from substrate algebra primitives independent of any Higgs data). The -D^2/R correction is form-selected ex post. 'EXACT' framing overstates by the structural-vs-form-selected gap. 'No H input' is technically true at the numeric level but visibly false at the form-selection level."
+  },
+  "preserved_structural_content": {
+    "H_native_identity": "R^2 * (1 - 2^-D) = 144 * 7/8 = 126 GeV",
+    "H_native_predates_value_match": true,
+    "H_native_derives_from": "Substrate algebra primitives R = 12, D = 3, alpha_H = 2 alone",
+    "H_reveal_formula": "H_native - D^2/R = 126 - 9/12 = 125.25 GeV",
+    "H_reveal_matches_PDG_to_displayed_precision": true,
+    "dozenal_fingerprint": "100_12 -> A6_12 -> A5.3_12",
+    "split_loss_identity": "R^2 * 2^-D = alpha_H * D^2 = 18 (triple identity)",
+    "downstream_consumers": [
+      "CR-121 (gravity mechanism rides on 7/8 + 1/8 split)",
+      "CR-122 (carrier-compression gate rides on 1/8 release)",
+      "CR-119 row enumeration (catalog produces null-conjugate row at native 18)"
+    ],
+    "rationale_for_preservation": "The structural identity (R, D, alpha_H, partition algebra) is genuine. The numerical correctness of the formula is genuine. The downstream structural consequences (gravity mechanism, carrier-compression gate, row-18 self-cancel) are also genuine. The regrade affects the STRENGTH-OF-CLAIM language, not the structural content."
+  },
+  "stripped_language": {
+    "EXACT": "Replaced with 'matches PDG H = 125.25 GeV to displayed precision'. 'EXACT' is reserved for derivations whose form was committed before the value was known.",
+    "zero_free_parameters": "Replaced with 'no fitted scalar parameter introduced; form of the -D^2/R correction was identified ex post against the visible PDG target (see qp091r-s-t chronology)'. The strict 'zero free parameters' claim requires forward-blind form commitment.",
+    "no_H_input": "Replaced with 'no Higgs numeric value loaded as input; H = 125.25 PDG value was visible during form selection (qp091r enumeration). Distinguish (a) numeric value never used as constraint vs (b) form selection during target-aware search.'"
+  },
+  "ingest_dependency_cr136_lock_sha256": "2d6db0a619755cae19fd0e2d51ce815c288da47813c0e7f163fe437a355a4d2c",
+  "restoration_requirements": [
+    {
+      "requirement": "Forward-blind precommit of the FORM `H = R^2*(1-2^-D) - D^2/R` BEFORE any future high-precision Higgs measurement (HL-LHC, FCC-ee, or successor). The form must be hash-sealed in a Courtroom CR with timestamp predating the measurement release.",
+      "how_to_verify": "Reviewer reads the precommit CR's seal timestamp, confirms it predates the high-precision measurement's public release date, and confirms the form was sealed without further enumeration or modification."
+    },
+    {
+      "requirement": "Successful forward-blind contact with the future high-precision Higgs measurement: the precommitted formula's prediction must match the new measured value within the new measurement's uncertainty band.",
+      "how_to_verify": "Reviewer reads the published high-precision measurement, computes the precommitted formula's prediction, and confirms the prediction lies within the measurement's stated uncertainty (e.g., 1 sigma)."
+    },
+    {
+      "requirement": "Independent structural derivation of why the -D^2/R correction is the unique form among substrate-algebra candidates. Either (a) a derivation chain that arrives at -D^2/R without enumeration of alternatives, or (b) a complete enumeration of all substrate-algebra-grade two-term corrections showing only -D^2/R lands at the closed-loop saturation surface.",
+      "how_to_verify": "Reviewer reads the structural derivation, confirms no step references the 125.25 numeric target, and confirms the chain arrives at -D^2/R from first principles or from an exhaustive enumeration."
+    },
+    {
+      "requirement": "Self-disclosure of the qp091r-s-t form-selection chronology in any future restoration CR. The chronology is part of the audit record and cannot be omitted.",
+      "how_to_verify": "Reviewer confirms the restoration CR cites or reproduces the qp091r-s-t chronology in its scope or methodology section."
+    }
+  ],
+  "restoration_falsifier": "A future high-precision Higgs measurement (HL-LHC, FCC-ee, or successor) deviating from the precommitted H = R^2*(1-2^-D) - D^2/R prediction by more than the new measurement's stated uncertainty (e.g., 1 sigma) BLOCKS restoration. The current ~0.06% match to PDG is within current PDG uncertainty, but HL-LHC will tighten that uncertainty by a factor of ~10. Form survives only if it matches at the new precision.",
+  "target": {
+    "cr_id": "CR120",
+    "dir_name": "CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE",
+    "status": "ALREADY_REGRADED",
+    "from_verdict": "CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY",
+    "to_verdict": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED",
+    "current_result_class": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED",
+    "result_md_sha256": "11b12761115e01cfc6a48635950ec5571cc2752046dcfb9853135e7a2e5ca7f3",
+    "summary_json_sha256": "32a8a3147e2a711ad706f060b65133503ae7b15c92fa5fd927daa6c857687a82",
+    "archived_original_result_sha256": "5f8be2e5c0f37e6413e3785014f06f41754456a0b91ed40ab605b71e8ca235d2",
+    "archived_original_summary_sha256": "2eca623b608b3e367a5b366bc7515801b9bf5b6823a1a90aa992a57e12741388"
+  },
+  "wrong_controls_passed": 8,
+  "wrong_controls_total": 8,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "wrong_controls": [
+    {
+      "name": "WC1_archived_original_was_PASS",
+      "pass": true,
+      "details": "archived result_class = 'CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY'; expected 'CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY'",
+      "load_bearing_deletion": "If archived original had a different verdict, regrade would be operating on wrong starting point."
+    },
+    {
+      "name": "WC2_current_result_class_is_BOUNDARY",
+      "pass": true,
+      "details": "current result_class = 'CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED'; expected 'CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED'",
+      "load_bearing_deletion": "If result_class not updated to BOUNDARY string, this WC would FAIL."
+    },
+    {
+      "name": "WC3_archived_originals_hash_match",
+      "pass": true,
+      "details": "Archived hashes match recorded.",
+      "load_bearing_deletion": "If archived originals edited/corrupted, this WC would FAIL."
+    },
+    {
+      "name": "WC4_audit_regrade_block_well_formed_and_from_neq_to",
+      "pass": true,
+      "details": "audit_regrade present with correct fields and from != to.",
+      "load_bearing_deletion": "If from_verdict == to_verdict or required field stripped, this WC would FAIL."
+    },
+    {
+      "name": "WC5_audit_verdict_reference_resolves",
+      "pass": true,
+      "details": "AUDIT_VERDICT exists=True; hash matches",
+      "load_bearing_deletion": "If audit verdict moved/edited, this WC would FAIL."
+    },
+    {
+      "name": "WC6_qp091t_ingest_dependency_satisfied",
+      "pass": true,
+      "details": "qp091t internal copy exists = True; SHA matches expected = True",
+      "load_bearing_deletion": "If qp091t were not internally ingested per CR-136, CR-140's narrative (form-selection chronology auditable internally) would not hold."
+    },
+    {
+      "name": "WC7_forensic_chronology_documented",
+      "pass": true,
+      "details": "All 5 required forensic_chronology fields present.",
+      "load_bearing_deletion": "If forensic_chronology were stripped, regrade rationale (form-selection ex post) would be unsupported."
+    },
+    {
+      "name": "WC8_preserved_structural_content_documented",
+      "pass": true,
+      "details": "preserved_structural_content block well-formed with H_native predates value match and >= 3 downstream consumers = True",
+      "load_bearing_deletion": "If preserved_structural_content were stripped or H_native were marked as not-predating-value-match, the regrade risks being read as structural refutation."
+    }
+  ],
+  "predictions": [
+    {
+      "name": "P1_CR120_target_exists",
+      "pass": true,
+      "details": "target dir = C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE"
+    },
+    {
+      "name": "P2_archived_original_was_SEALED",
+      "pass": true,
+      "details": "archived result_class = 'CR120_QP091_CHAIN_INTAKE_SEALED__HIGGS_125_25_EXACT_FROM_R_AND_D_ONLY'"
+    },
+    {
+      "name": "P3_regrade_applied_or_already_applied",
+      "pass": true,
+      "details": "status = ALREADY_REGRADED"
+    },
+    {
+      "name": "P4_post_regrade_result_class_is_BOUNDARY_string",
+      "pass": true,
+      "details": "current result_class = 'CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED'"
+    },
+    {
+      "name": "P5_CR136_ingest_dependency_resolved",
+      "pass": true,
+      "details": "qp091t internal copy present with expected SHA"
+    },
+    {
+      "name": "P6_restoration_requirements_documented_with_forward_blind",
+      "pass": true,
+      "details": "REPLACEMENT_RECORD names Forward-blind precommit explicitly as restoration requirement"
+    }
+  ],
+  "falsifier": "Re-executing CR140_runner.py on the post-seal state MUST produce zero new REGRADED entries and zero archive writes; recomputed lock SHA-256 MUST match.",
+  "cryptographic_chain": {
+    "CR135_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "CR136_ingest_lock_sha256": "2d6db0a619755cae19fd0e2d51ce815c288da47813c0e7f163fe437a355a4d2c",
+    "CR140_source_manifest_csv": "1a4fb47071ecafec51fa8f21cdd5ce6c312f1c908a0e94f69508d1294525d119",
+    "CR140_regrade_manifest_csv": "242263894ea80b038ebe8a4549c78334908c3c415cac7d4a9cae7dd52da794b7",
+    "CR140_predictions_csv": "6ef90ad389c65193afd700fdd9ab04e4d05d25917fc0097060f8b66499791885",
+    "CR140_wrong_controls_csv": "5516469161ec8aa666e7469c80bbb1debf7db82223924c4c5c83f54f9b2fa1d4",
+    "CR140_regrade_lock_json": "c869ca31cacb2be961c335e6a1e68e65ff9cb8061009476e6c3a5cf2e1982083"
+  }
+}

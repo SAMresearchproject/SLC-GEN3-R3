@@ -1,0 +1,47 @@
+{
+  "lock_id": "CR100a_GATE_1_PARTIAL_CLOSURE_APPEAL_LOCK",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "appeal_target_cr": "CR100",
+  "appeal_target_unchanged": true,
+  "appeal_target_question_sha256_at_appeal_time": "29f4f30cd2e3423ca3d27d70b97269ed5a4629ea7822bdaa867253216e7b6b0b",
+  "sealed_at_utc": "2026-06-14T01:27:46Z",
+  "what_this_appeal_records": "Upstream Stam_model-A-v1.0 G744c and G745c PASSed, partially closing GATE_1 N_SW functional at the structural level. CR100 question lock is unchanged; this appeal row is appended.",
+  "upstream_evidence_hashes": {
+    "G744c_output.json": "5d3ad959d780012190493e661658dc8280c981237c4b9c8adbb128900fde2c1d",
+    "G745c_output.json": "6957514aa88104d22fb870004b51361a1fe201fb4617beb224c01209c352ca21",
+    "CAMPAIGN_BRIEF.md": "150bd7372de145de6c321682aa58e0f1695a2c68ab91322fdad6bf9457c9af73"
+  },
+  "upstream_verdicts": {
+    "G744c": "G744c_Q_A_SOURCE_STRENGTH_BRIDGE_PASS",
+    "G745c": "G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE_PASS"
+  },
+  "gate_partial_closure_summary": {
+    "GATE_1_N_SW_functional": {
+      "status": "PARTIAL_CLOSURE_BY_UPSTREAM_G744c_G745c",
+      "upstream_evidence": [
+        "G744c PASS: q_A source-strength bridge to macro A; composite binding (deuteron 0.91%, alpha 0.91%) closes via mass-weighted r_bounce with zero new free parameters",
+        "G745c PASS: Higgs sector specifically selects 9/16 = D^2/2^(D+1) scalar route; D=3 structural privilege confirmed; reciprocal control passes"
+      ],
+      "what_is_now_tested": [
+        "SW -> q_A assignment with zero new parameters (G744c P1.1)",
+        "composite additivity via mass-weighted r_bounce (G744c P1.2, P1.3)",
+        "macro-limit universality across species mixes (G744c P1.4, P1.5)",
+        "Higgs lane specifically routes through 9/16 (G745c P2.3)",
+        "9/8 and 9/16 form one D=3 algebra (G745c P2.5)"
+      ],
+      "what_remains_open": [
+        "GATE_2 c_SW vs c structural derivation (already partial-closed at 1e-18 by CR102)",
+        "GATE_3 K(A_H) self-correction (already partial-closed at 1e-19 by CR104)",
+        "Three-mode Earth/Galaxy/PBH consistency (held G746c)",
+        "Cosmic baryon inventory closure (held G747c)",
+        "Gauge boson bounce-cost extension (held G749c; would close 09a/CR091 Z 12-sigma residual)"
+      ]
+    }
+  },
+  "what_this_does_NOT_do": [
+    "modify CR100 verbatim question lock",
+    "modify any prior CR verdict",
+    "modify CR106 14 branch verdict zipper",
+    "claim full closure of GATE_1 (the SW functional form is partially open; held G746c-G749c still pending)"
+  ]
+}

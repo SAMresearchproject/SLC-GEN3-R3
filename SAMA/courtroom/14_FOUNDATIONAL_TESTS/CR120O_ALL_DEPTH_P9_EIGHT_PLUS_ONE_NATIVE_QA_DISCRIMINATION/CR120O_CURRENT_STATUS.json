@@ -1,0 +1,27 @@
+{
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "current_status": "NONCONTROLLING_FOR_INTENDED_CLAIM_EXCEPT_P9_G0_ROWS",
+  "correction_file": "CR120O_SCOPE_CORRECTION.md",
+  "authorized_relation": "[p=9,g=0] = [p=1,g=0] + [p=8,g=0]",
+  "authorized_generation": 0,
+  "authorized_p9_ids": [
+    "QP093A-0019",
+    "QP093A-0020",
+    "QP093A-0021",
+    "QP093A-0085",
+    "QP093A-0086"
+  ],
+  "prohibited_extensions": [
+    "g=1",
+    "g=2",
+    "composite p9",
+    "all-depth model",
+    "universal cross-generation qA law",
+    "W9 identity",
+    "L162 identity",
+    "binding or physical ontology"
+  ],
+  "cr120o_historical_files_mutated": false,
+  "mean_used": false,
+  "registry_mutated": false
+}

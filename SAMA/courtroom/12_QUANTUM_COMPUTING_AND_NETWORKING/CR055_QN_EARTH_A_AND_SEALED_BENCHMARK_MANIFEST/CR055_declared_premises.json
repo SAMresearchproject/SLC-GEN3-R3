@@ -1,0 +1,11 @@
+{
+  "test_id": "CR055_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QN007_summary.json",
+    "../_source_artifacts/summaries/QN008_summary.json",
+    "../_source_artifacts/summaries/QN009_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qn007-qn009 select earth-a deployment surface and freeze sealed benchmark/comparator artifacts."
+}

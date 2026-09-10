@@ -1,0 +1,150 @@
+{
+  "cr_id": "CR060a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_LETTER_ALPHABET_LOCK_V1_TIERED",
+  "execution_status": "CLEAN",
+  "result_class": "CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T01:09:15Z",
+  "alphabet_size_promoted": 300,
+  "wrong_controls_count": 21,
+  "tier_promoted_counts": {
+    "1body_fermion": 114,
+    "3body_standard": 107,
+    "2body_short": 65,
+    "1body_carrier": 6,
+    "substrate_echo": 8
+  },
+  "tier_rejected_counts": {
+    "3body_standard": 13,
+    "null_control": 8
+  },
+  "tier_role_descriptions": {
+    "1body_carrier": "1-body boson carrier (gauge/substrate-field broadcast)",
+    "1body_fermion": "1-body fermion ladder (atomic identity broadcast)",
+    "2body_short": "2-body short message (carrier -> sensor, no envelope)",
+    "3body_standard": "3-body standard letter (carrier + envelope + sensor)",
+    "substrate_echo": "SOURCE_SUPPORT_PACKET substrate echo (heartbeat outside denominator)"
+  },
+  "slot_decomposition_q0": "S_debit(q=0) = (1/4 + 9/16 + 1/4) * M_native / R^3 = (17/16) * M_native / R^3",
+  "slot_role_map": {
+    "outer_slot_a_weight_1_4": "CARRIER (route identity)",
+    "middle_slot_b_weight_9_16": "ENVELOPE (letter content; 9/8 surcharge)",
+    "outer_slot_c_weight_1_4": "SENSOR (boundary stress readout)"
+  },
+  "information_capacity": {
+    "single_symbol_bits": 8.2288,
+    "single_symbol_count": 300,
+    "mixed_tier_packet_bits": 25.1817,
+    "per_tier_bits": {
+      "1body_fermion": 6.8329,
+      "3body_standard": 6.7415,
+      "2body_short": 6.0224,
+      "1body_carrier": 2.585,
+      "substrate_echo": 3.0
+    }
+  },
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "alphabet_csv_sha256": "33f5c1f05bb23a69556d9c68f219a2515ddcd394c0310c85b5427e25bc341cdd",
+  "wrong_controls_csv_sha256": "d672b9a2d360ff242c488c4fd537b1b5e53b8b0fa4101bc045c35ec727afda70",
+  "alphabet_lock_sha256": "05f487835689e39477a4da1476f6796960108fbf56e921859e3a87f25616af17",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR122_carrier_compression_lock_json": "26b4ea2cf3cc6dd89bd47e392e23d3dd600776e9cc14a081a1b0dc81663ad27a",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd",
+    "CR129c_universal_lock_json": "bfd5ab8c325656ffd3c34c88ab90bb0d1c486046241cf6a07c07506441bd8090",
+    "CR130_bridge_lock_json": "0a40209bc4c564a6437e8c1d01df2b294e35c7459340c244e28c3448bf73549c",
+    "CR131_law_lock_json": "2aef1403da7f764a7e0666d12ea9ba974b09719154ce8f1f5da5d3fd456caceb",
+    "CR132_law_lock_json": "fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32",
+    "CR133_law_lock_json": "1e7e08d8764ebdfeb4c4756495c78fb94236f63eea277f9d970db2ad3ddcf1e4",
+    "CR134_law_lock_json": "6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997",
+    "CR051_summary_json": "e3a7aafb8404499168ff583e87fcf4ae6d3d6bc61b03d1a6b0fb7abae2287c77",
+    "CR054_summary_json": "b5046a1fb682b5bb8a59fec6c636a36cbc0df3f8ea00d620244cba3f36ef1a69",
+    "CR058_summary_json": "ee55a40f336cf1c08b7057166b9f6703c189656689da0f7d20d4d774bb4f2196"
+  },
+  "predictions": [
+    {
+      "name": "P1_full_321_catalog_walked",
+      "pass": true,
+      "details": "CR119 rows walked = 321 (expected 321)"
+    },
+    {
+      "name": "P2_300_promoted_symbols",
+      "pass": true,
+      "details": "promoted alphabet size = 300"
+    },
+    {
+      "name": "P3_21_wrong_controls",
+      "pass": true,
+      "details": "wrong-controls = 21 (13 REJECTED + 8 null)"
+    },
+    {
+      "name": "P4_five_tiers_populated",
+      "pass": true,
+      "details": "tiers populated = ['1body_carrier', '1body_fermion', '2body_short', '3body_standard', 'substrate_echo']"
+    },
+    {
+      "name": "P5_3body_standard_tier_canonical_letter",
+      "pass": true,
+      "details": "3body_standard promoted = 107 -- the canonical Paul Revere letter tier with full (carrier, envelope, sensor) slot fit"
+    },
+    {
+      "name": "P6_alphabet_lock_written",
+      "pass": true,
+      "details": "alphabet lock sha256 = 05f487835689e39477a4da1476f6796960108fbf56e921859e3a87f25616af17"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR050_058_sealed_work_unmodified",
+      "pass": true,
+      "details": "12_QUANTUM_COMPUTING_AND_NETWORKING sealed CRs read-only; CR060a extends without overriding."
+    },
+    {
+      "name": "WC2_CR128_134_sealed_laws_unmodified",
+      "pass": true,
+      "details": "13_CERN_INDEPENDENT_TESTS row-generator law locks read-only; cross-linked but not modified."
+    },
+    {
+      "name": "WC3_CR119_catalog_unmodified",
+      "pass": true,
+      "details": "CR119 catalog read-only; tier and promotion assignments derive from existing stability_status field, no relabeling."
+    },
+    {
+      "name": "WC4_no_hardware_claim",
+      "pass": true,
+      "details": "CR060a is a protocol-layer alphabet lock; CR058's scope boundary (no hardware demonstration) is preserved."
+    },
+    {
+      "name": "WC5_alphabet_derivation_inductive_not_axiomatic",
+      "pass": true,
+      "details": "The alphabet tier structure and slot identifications are derived from the CR128-134 row-generator laws plus CR051/054 protocol shapes.  CR060a does NOT axiomatically declare the alphabet; it identifies it from the structural fit."
+    },
+    {
+      "name": "WC6_rejected_rows_excluded_from_alphabet_but_documented",
+      "pass": true,
+      "details": "21 wrong-control rows are excluded from the promoted alphabet but documented in CR060a_wrong_controls.csv as boundary-sensor stress patterns.  They are not lost; they have a structural role as deliberately-malformed letters."
+    },
+    {
+      "name": "WC7_protocol_to_QC_QN_branch_explicit",
+      "pass": true,
+      "details": "Cross-link to CR051 (carrier/envelope/sensor), CR054 (Born surface + letter-safe correction), CR058 (branch verdict) is explicit in the lock JSON.  CR060a opens the 12a refresh lane without closing or contradicting the 12 branch verdict."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "CR061a: 'ideal qubit' selection within the 3-body standard letter tier -- candidate selection criteria (max signal-to-noise, max coherence, hardware mappability).",
+    "CR062a: Paul Revere protocol sharpened with the (1/4, 9/16, 1/4) slot weights -- refine CR054's 7 correction rules with the new algebra.",
+    "CR063a: hardware translation document -- how to build a SAM-native qubit from the alphabet using existing platforms (superconducting / trapped ion / photonic).",
+    "CR064a: coherence-ladder vs threshold-theorem comparison -- 1/12 = A_share threshold vs the ~1% fault-tolerance threshold.",
+    "Information-theoretic optimal encoding over the alphabet (rate-distortion, error correction codes) is a separate downstream CR."
+  ]
+}

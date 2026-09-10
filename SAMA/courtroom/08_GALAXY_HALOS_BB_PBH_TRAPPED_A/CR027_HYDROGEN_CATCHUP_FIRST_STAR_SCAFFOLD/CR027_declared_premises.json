@@ -1,0 +1,35 @@
+{
+  "test_id": "CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD",
+  "short_id": "CR027",
+  "generated_precommit_utc": "2026-06-13T00:55:03.327962+00:00",
+  "test_type": "Fresh Courtroom branch test",
+  "is_confirmation_audit_or_double_check": false,
+  "question": "Does the source chain select hydrogen/normal baryons as catch-up material inside a BB-PBH/trapped-A first scaffold?",
+  "sources": {
+    "qga038f_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\QGA038F_12_OF_12_HYDROGEN_ARRIVAL_SELECTOR\\QGA038F_summary.json",
+      "role": "hydrogen arrival selector"
+    },
+    "qga038g_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\QGA038G_HYDROGEN_ARRIVAL_TO_BB_NORMAL_MATTER_INVENTORY\\QGA038G_summary.json",
+      "role": "hydrogen inventory bridge"
+    },
+    "qga038h_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\QGA038H_BB_PBH_FIRST_CLUSTER_HYDROGEN_CATCHUP_SELECTOR\\QGA038H_summary.json",
+      "role": "PBH first cluster hydrogen catch-up selector"
+    },
+    "g682c_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\G682c_HYDROGEN_FIRST_STAR_SCAFFOLD_SELECTOR\\G682c_summary.json",
+      "role": "first-star scaffold selector"
+    }
+  },
+  "free_parameters_introduced": 0,
+  "expected_success_verdict": "CR027_PASS_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD",
+  "expected_success_scientific_verdict": "PASS",
+  "expected_success_claim_tier": "PASS_SCOPED_HYDROGEN_CATCHUP_SCAFFOLD",
+  "expected_success_triage_bin": "A",
+  "failure_verdict": "CR027_FAIL_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD",
+  "failure_claim_tier": "FAILED_HYDROGEN_CATCHUP_SCAFFOLD",
+  "scope_note": "CR027 is a scoped route selector. It says hydrogen catches up inside PBH/trapped-A wells; it does not claim a full star-formation history.",
+  "rule_9_falsification": "This test could have falsified: the claim that the current SAM source chain selects BB-origin PBH/trapped-A as first scaffold and hydrogen/normal baryons as catch-up material."
+}

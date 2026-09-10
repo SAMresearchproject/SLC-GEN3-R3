@@ -1,0 +1,8 @@
+term,source_component,fraction,decimal,role
+proton_qA,QP093A-0115,145/2,72.5,selected proton write qA support
+electron_qA,QP093A-0002,145/96,1.510416666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,selected electron write qA support
+neutron_qA,QP093A-0003,1/8,0.125,selected neutron write qA support
+charged_pair_qA_per_Z,proton_write + electron_write,7105/96,74.01041666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,GR contribution per Z before neutron contribution
+charged_pair_G_per_Z,(proton_qA + electron_qA) / 8,7105/768,9.251302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333,G contribution per Z before neutron contribution
+neutron_G_unit,neutron_qA / 8,1/64,0.015625,G contribution per neutron
+kappa_floor,(proton_qA + electron_qA + neutron_qA) / 8,7117/768,9.266927083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333,fixed floor kappa for N=Z element rows

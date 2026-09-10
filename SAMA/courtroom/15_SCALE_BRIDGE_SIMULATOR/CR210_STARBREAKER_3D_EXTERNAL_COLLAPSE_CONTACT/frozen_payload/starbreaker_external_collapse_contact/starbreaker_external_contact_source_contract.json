@@ -1,0 +1,52 @@
+{
+  "ordinary_basement_work": true,
+  "courtroom_preflight_invoked": false,
+  "external_source_selected_before_comparison": true,
+  "all_internal_sources_present": true,
+  "internal_sources": [
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_density_geometry_summary.json",
+      "exists": true,
+      "sha256": "523118a315235a760a64ba533d175d0da1cf50b35d345f930a5c5bfcc23c7b74",
+      "use": "executed 3D gate and frozen configuration"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_density_runs.csv",
+      "exists": true,
+      "sha256": "fe0236f419b93d6d64f9e32ac7cb978ccd13dee054cb64c0bed7f71b22a70857",
+      "use": "p=0..3 density rows for both frozen geometries"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_uniform_same_total_runs.csv",
+      "exists": true,
+      "sha256": "9fe9dd658df5b154a95f231b0a6b6b6b7b340e6f3b89885346009f138799fa0f",
+      "use": "same-total allocation control"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_3D_DENSITY_GEOMETRY/outputs/starbreaker_3d_permutation_ranks.csv",
+      "exists": true,
+      "sha256": "c67f42e92a358a3cb6d8fd492d3fddfe8468b97ab07172878c41609daafefedf",
+      "use": "exhaustive radial-permutation position"
+    }
+  ],
+  "external_source": {
+    "signature_id": "OO2011_HIGHER_BOUNCE_COMPACTNESS_STRONGER_COLLAPSE_DIRECTION",
+    "selection_state": "frozen_before_starbreaker_comparison",
+    "source_type": "primary_published_general_relativistic_collapse_simulation_study",
+    "title": "Black Hole Formation in Failing Core-Collapse Supernovae",
+    "authors": [
+      "Evan O'Connor",
+      "Christian D. Ott"
+    ],
+    "journal": "The Astrophysical Journal 730, 70 (2011)",
+    "doi": "10.1088/0004-637X/730/2/70",
+    "doi_url": "https://doi.org/10.1088/0004-637X/730/2/70",
+    "arxiv_id": "1010.5550v2",
+    "arxiv_url": "https://arxiv.org/abs/1010.5550",
+    "accessed_utc_date": "2026-07-15",
+    "source_scope": "Over 100 presupernova models studied with the spherically symmetric general-relativistic 1.5D GR1D code and simplified neutrino leakage/heating physics.",
+    "physical_quantity": "xi_M = (M / M_sun) / (R(M_bary = M) / 1000 km); the paper focuses on xi_2.5 at bounce",
+    "locked_external_direction": "Higher bounce compactness is associated with faster black-hole formation and progenitors that are harder to explode.",
+    "paper_boundary": "The source itself treats compactness as a first-order predictor within a stated EOS and simplified 1.5D setup, not a universal one-parameter law."
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT",
+  "files": [
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_INPUTS.yaml",
+      "mode": "100644",
+      "git_blob": "2eff66b8587b33c288b0d423ff0c6b2eea81eef4",
+      "bytes": 2210,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_INPUTS.yaml",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_INPUTS.yaml",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_INPUTS.yaml",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_INPUTS.yaml"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "7d78dbdc7cd7f83f66ebcc64aa30848f9c12f419",
+      "bytes": 1613,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_PRECOMMIT.md",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_PRECOMMIT.md"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_calibrations.csv",
+      "mode": "100644",
+      "git_blob": "221d883ba88ccf99ebd0af53bde033775fa3bc71",
+      "bytes": 923,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_calibrations.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_calibrations.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_calibrations.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_calibrations.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_checks.csv",
+      "mode": "100644",
+      "git_blob": "9b399849f3586a09b3a4a9fb1c9e94a6adb91d33",
+      "bytes": 1250,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_checks.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_checks.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_checks.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_checks.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_crossing_summary.json",
+      "mode": "100644",
+      "git_blob": "4ce4ce29002312fd928cfbaf6ae1a641f10cca20",
+      "bytes": 380,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_crossing_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_crossing_summary.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_crossing_summary.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_crossing_summary.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_result.md",
+      "mode": "100644",
+      "git_blob": "6a0e26f1503c343f235f0606f5427a21142df37a",
+      "bytes": 1777,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_result.md",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_result.md",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_result.md"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_runner.py",
+      "mode": "100644",
+      "git_blob": "512039f2d2aa684f07dccbb3027b22bd3254103a",
+      "bytes": 48222,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_runner.py",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_runner.py",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_runner.py"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_test.csv",
+      "mode": "100644",
+      "git_blob": "624f7e2593a3a1f0707b606283aa9c8de1d0e4e4",
+      "bytes": 55861,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_test.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_test.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_test.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_test.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_train.csv",
+      "mode": "100644",
+      "git_blob": "559ba911331a6f5b76e881097591c85f3bd9eb1c",
+      "bytes": 55866,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_train.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_train.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_train.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_sensor_proxy_train.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_summary.json",
+      "mode": "100644",
+      "git_blob": "decb88c408b77a6d3eb1fb72ee7f088de573835e",
+      "bytes": 2732,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_summary.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_summary.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_summary.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_tomography_trajectory.csv",
+      "mode": "100644",
+      "git_blob": "3c4a6285b5d7c20be0a65aa0812a2fb6db8a48b1",
+      "bytes": 1234,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_tomography_trajectory.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_tomography_trajectory.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_tomography_trajectory.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_tomography_trajectory.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "e2b06cd2edf6c45528a05c6c842a26944bbda0df",
+      "bytes": 3710,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_wrong_controls.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/CR223c_wrong_controls.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "43e631be07afd9596e74ab7f58210ffcfe49d82e",
+      "bytes": 1150,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/HASHES.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/HASHES.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/README.md",
+      "mode": "100644",
+      "git_blob": "e7ff6dca8a6b7bb48eaf6a0731b192862711016e",
+      "bytes": 645,
+      "category": "Other package files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/README.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/README.md",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/README.md",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/README.md"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "668de73f0b99c7e6daa83438090b16e47950c9a7",
+      "bytes": 35,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/HASHES.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/HASHES.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/RAW_MANIFEST.csv",
+      "mode": "100644",
+      "git_blob": "5fd1546d17b905769ce8a9d12e3944c3bdadf520",
+      "bytes": 276,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/RAW_MANIFEST.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/RAW_MANIFEST.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/RAW_MANIFEST.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/raw/RAW_MANIFEST.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/requirements.txt",
+      "mode": "100644",
+      "git_blob": "cc3e94d2c256eecdc0636cd2d56ff18860455913",
+      "bytes": 12,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/requirements.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/requirements.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/requirements.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR223c_PR_RAW_TOMOGRAPHY_SENSOR_PROXY_CONTACT/requirements.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR223c@12a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

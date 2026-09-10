@@ -1,0 +1,77 @@
+{
+  "binding_formula": "sealed carrier packet + 4+4 pair face + 4+4+4 triad target + protocol trigger",
+  "bridge": {
+    "bridge_owner": "4",
+    "bridge_rule": "4+4 pair face extends by one 4 owner into 4+4+4 diamond target",
+    "delta_T": "123.5",
+    "delta_W": "864.5",
+    "delta_owner_count": "1",
+    "delta_qA": "988",
+    "pair_T": "21.5",
+    "pair_W": "150.5",
+    "pair_candidate_id": "QP093A-0262",
+    "pair_owner_count": "2",
+    "pair_qA": "172",
+    "pair_signature": "4+4",
+    "pair_sum": "8",
+    "pair_to_triad_ratio": "1.5",
+    "triad_T": "145",
+    "triad_W": "1015",
+    "triad_candidate_id": "QP093A-0200",
+    "triad_owner_count": "3",
+    "triad_qA": "1160",
+    "triad_signature": "4+4+4",
+    "triad_sum": "12"
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "cr_id": "CR222h",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T14:32:13.280512+00:00",
+  "next_gate": "PAIR_FACE_TARGET_SELECTION_OR_PLATFORM_LAB_PROTOCOL",
+  "outputs": {
+    "binding_contract_csv": "CR222h_binding_contract.csv",
+    "checks_csv": "CR222h_checks.csv",
+    "pair_to_triad_trials_csv": "CR222h_pair_to_triad_trials.csv",
+    "pair_triad_roster_csv": "CR222h_pair_triad_roster.csv",
+    "result_md": "CR222h_result.md",
+    "summary_json": "CR222h_summary.json",
+    "upstream_seals_csv": "CR222h_upstream_seals.csv",
+    "wrong_controls_csv": "CR222h_wrong_controls.csv"
+  },
+  "pair": {
+    "T": "21.5",
+    "W": "150.5",
+    "candidate_id": "QP093A-0262",
+    "operator_class": "BOUND_COLOR_PAIR",
+    "partition_signature": "4+4",
+    "qA": "172",
+    "q_sign": "neutral"
+  },
+  "platforms": [
+    "NV_CENTER_T2",
+    "PHOTONIC_TAU_ENT"
+  ],
+  "protected_separations": {
+    "carrier_checksum": "162; pair and triad rows excluded",
+    "carrier_tensor_witness": "QP093A-0300=18",
+    "pair_matter_qA_T_W": "172 / 21.5 / 150.5",
+    "protocol_event_qA": "1/24",
+    "triad_matter_qA_T_W": "1160 / 145 / 1015"
+  },
+  "result_class": "CR222h_PASS_PAIR_TO_TRIAD_BINDING__QP093A_0262_TO_QP093A_0200_WITH_SEALED_PR_CARRIER",
+  "sha256": {
+    "CR222h_pair_triad_roster.csv": "02b89ffe270a25067acfdb7b1b79fbac8de67f74ee336d6f629e2baef8be3d68"
+  },
+  "test_id": "CR222h_PAIR_TO_TRIAD_BINDING_0262_TO_0200",
+  "triad": {
+    "T": "145",
+    "W": "1015",
+    "candidate_id": "QP093A-0200",
+    "operator_class": "GROUND_BARYON_3BODY",
+    "partition_signature": "4+4+4",
+    "qA": "1160",
+    "q_sign": "positive"
+  },
+  "trial_count": 2
+}

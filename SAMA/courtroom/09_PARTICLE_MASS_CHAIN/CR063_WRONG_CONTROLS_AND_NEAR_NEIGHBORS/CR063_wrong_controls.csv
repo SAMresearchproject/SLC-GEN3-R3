@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Simulate qp040 missing from manifest,DIAGNOSTIC,True,True,missing-file diagnostic detection wired
+WC2,Simulate QGA wrong_controls.csv with 0 rows,DIAGNOSTIC,True,True,empty-file diagnostic detection wired
+WC3,Simulate hostile audit verdict FAIL,FAIL_RETROACTIVE,True,True,audit verdict FAIL would invalidate CR061 + CR062
+WC4,Simulate inter-row gap < strict tolerance,INSUFFICIENT_NEIGHBOR_CHECK,True,True,gap-below-tolerance would mark near-neighbor check insufficient
+WC5,Corrupt SOURCE_MANIFEST.csv (seal mismatch),DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,Simulate perturbation reproduces engine output,FAIL_RETROACTIVE,True,True,"if a perturbation reproduced engine output, FAIL_RETROACTIVE would trigger"

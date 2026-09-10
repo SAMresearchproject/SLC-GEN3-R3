@@ -1,0 +1,5 @@
+audit_check,expected,observed,passed
+valid_packet_162_allows_emission,alarms fire on above-threshold samples,"TP_samples=609, FN_samples=74",True
+corrupt_packet_161_blocks_emission,0 fires across 30 trials,0 fires,True
+corrupt_packet_163_blocks_emission,0 fires across 30 trials,0 fires,True
+G_protocol_0_blocks_emission,0 fires across 30 trials,0 fires,True

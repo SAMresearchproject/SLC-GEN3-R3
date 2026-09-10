@@ -1,0 +1,99 @@
+{
+  "artifact": "CR_TEST8_APPEAL_THRESHOLD_EXISTENCE",
+  "classification": "APPEAL_THRESHOLD_EXISTENCE_AMENDMENT",
+  "parent_cr": "CR_TEST8_Z96_REGIME_CHANGE",
+  "parent_cr_precommit_sha": "be97c10eb080480ec4889ecbe8c4fd98a7e8dd5539e0935a58c3baaa10ec0cda",
+  "parent_cr_verdict_sha": "c1f78dc0526572a7873cdcaa6e9400016acd1fe7dc63525ea81ceee85c0238f5",
+  "appeal_precommit_sha": "2adbcaa6f4394030099dd72d2c3e912fa40c9be52d403eecfcdab0be4b52465a",
+  "source_csv": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR_TEST8_Z96_REGIME_CHANGE\\outputs\\test8_scored_by_Z.csv",
+  "source_sha256": "6b2e3df5b5d263a44c182c88e1abd3b5c2652f40fd812d8928eb9dde02ed5d3c",
+  "windows": {
+    "pre": [
+      85,
+      96
+    ],
+    "post": [
+      97,
+      108
+    ]
+  },
+  "pre_residuals_sorted": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    4.0,
+    8.0,
+    9.0
+  ],
+  "post_residuals_sorted": [
+    8.0,
+    9.0,
+    10.0,
+    10.0,
+    11.0,
+    11.0,
+    12.0,
+    13.0,
+    13.0,
+    17.0,
+    22.0,
+    25.0
+  ],
+  "statistics": {
+    "pre_mean": 2.9166666666666665,
+    "post_mean": 13.416666666666666,
+    "pre_median": 2.0,
+    "post_median": 11.5,
+    "M_RATIO_MEAN": 4.6,
+    "M_RATIO_MEDIAN": 5.75,
+    "SEP_STRICT": -1.0,
+    "SEP_OUTLIER_ROBUST": 0.0,
+    "largest_pre_outlier_Z": 85,
+    "largest_pre_outlier_value": 9.0,
+    "r96": 1.0,
+    "r97": 11.0,
+    "JUMP_AT_BOUNDARY": 10.0,
+    "MANN_WHITNEY": {
+      "n_pre": 12,
+      "n_post": 12,
+      "rank_sum_pre": 80.0,
+      "rank_sum_post": 220.0,
+      "U1": 2.0,
+      "U2": 142.0,
+      "U": 2.0,
+      "z": -4.04145188432738,
+      "p_two_sided": 5.312128159395968e-05
+    }
+  },
+  "strong_criteria": {
+    "M_RATIO_MEAN_ge_3.0": true,
+    "M_RATIO_MEDIAN_ge_3.0": true,
+    "MANN_WHITNEY_P_lt_0.001": true,
+    "JUMP_AT_BOUNDARY_ge_5": true
+  },
+  "weak_criteria": {
+    "M_RATIO_MEAN_ge_2.0": true,
+    "MANN_WHITNEY_P_lt_0.01": true
+  },
+  "sep_outlier_robust_reported_not_gated": {
+    "value": 0.0,
+    "positive": false,
+    "note": "REPORTED FOR TRANSPARENCY; NOT A STRONG-PASS GATE (see modification header)"
+  },
+  "appeal_verdict": "APPEAL_GRANTED_THRESHOLD_EXISTS",
+  "K_gates": {
+    "K1_external_anchor": "PASS (same external source as CR_TEST8)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "DEGRADED (appeal precommit authored knowing CR_TEST8 residuals; honestly disclosed)",
+    "K4_typed_inputs": "PASS",
+    "K5_reproduction_on_demand": "PASS"
+  },
+  "execution_status": "CLEAN",
+  "amendment_note": "CR_TEST8 stays sealed at BOUNDARY_TEST8_Z96_MIXED_SIGNAL. CR_TEST8_APPEAL is the threshold-existence amendment."
+}

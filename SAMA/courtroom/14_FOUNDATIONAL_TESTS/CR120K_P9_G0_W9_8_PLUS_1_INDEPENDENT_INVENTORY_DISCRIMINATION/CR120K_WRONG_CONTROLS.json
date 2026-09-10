@@ -1,0 +1,56 @@
+{
+  "all_detected": true,
+  "controls": [
+    {
+      "control_id": "DELETE_FIVE_ROWS",
+      "detected": true,
+      "evidence": "overlay retains 105 records and marks five as derived instead of deleting them"
+    },
+    {
+      "control_id": "TOTAL_TARGET_SELECTOR",
+      "detected": true,
+      "evidence": "row selection is exact p9,g0 plus typed provenance and parent matching; totals are consequences"
+    },
+    {
+      "control_id": "COPY_8_PLUS_1_WITHOUT_PROVENANCE",
+      "detected": true,
+      "evidence": "every derived row carries distinct parent IDs and the exact RESOLVE route"
+    },
+    {
+      "control_id": "FORCE_QA_ADDITIVITY",
+      "detected": true,
+      "evidence": "nonzero qA residuals are emitted and not overwritten"
+    },
+    {
+      "control_id": "W6_PLUS_X3",
+      "detected": true,
+      "evidence": "only the sourced S8/X1/W9 route is admitted; no 6+3 provenance is installed"
+    },
+    {
+      "control_id": "RECLASSIFY_G1_OR_G2_AS_BARE_W9",
+      "detected": true,
+      "evidence": "8 lifted p9 rows remain outside the exact g0 selector"
+    },
+    {
+      "control_id": "MERGE_PARENT_IDENTITIES",
+      "detected": true,
+      "evidence": "p9, p8, and p1 candidate IDs remain distinct"
+    },
+    {
+      "control_id": "COUNT_126_PROMOTED_SURFACE",
+      "detected": true,
+      "evidence": "the CR is scoped to the QP093A 63+42 lane, not the separate 126-row promoted surface"
+    },
+    {
+      "control_id": "HIDE_CONJUGATE_OR_NEUTRAL_CONTROLS",
+      "detected": true,
+      "evidence": "plus, minus, neutral, anti-plus, and anti-minus records are all emitted"
+    },
+    {
+      "control_id": "PROMOTE_TO_PHYSICAL_PARTICLE_LAW",
+      "detected": true,
+      "evidence": "result class remains structural research boundary with scientific_pass_claimed=false"
+    }
+  ],
+  "record_id": "CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION"
+}

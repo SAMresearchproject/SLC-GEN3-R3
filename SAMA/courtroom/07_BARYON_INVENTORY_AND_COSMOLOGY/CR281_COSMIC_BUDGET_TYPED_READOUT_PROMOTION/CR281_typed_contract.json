@@ -1,0 +1,130 @@
+{
+  "cr_id": "CR281",
+  "primary_verdict": "PASS_COSMIC_BUDGET_TYPED_READOUT",
+  "subverdicts": {
+    "STRUCTURAL_INVENTORY_PASS": true,
+    "DIRECTIONAL_REFINEMENT_PASS": true,
+    "PHYSICAL_DENSITY_PASS": true,
+    "HUBBLE_CASCADE_PASS": true
+  },
+  "typed_outputs": [
+    {
+      "type": "SubstrateFloor",
+      "symbol": "A0",
+      "formula": "1/(pi*R), R=12",
+      "value": 0.026525823848649224,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR003@19/CR018"
+    },
+    {
+      "type": "HorizonQuotient",
+      "symbol": "chi",
+      "formula": "(S/D)*A0",
+      "value": 0.07073553026306459,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR018"
+    },
+    {
+      "type": "BaryonInventoryFraction",
+      "symbol": "Omega_b",
+      "formula": "alpha_H*A0*(1-chi)",
+      "value": 0.049299011266100756,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR018/CR114"
+    },
+    {
+      "type": "MatterInventoryFraction",
+      "symbol": "Omega_m",
+      "formula": "R*A0=1/pi",
+      "value": 0.3183098861837907,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR003@19/Volume I"
+    },
+    {
+      "type": "DarkInventoryFraction",
+      "symbol": "Omega_c",
+      "formula": "Omega_m-Omega_b",
+      "value": 0.26901087491768993,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR281 algebra"
+    },
+    {
+      "type": "SubstrateVacuumFraction",
+      "symbol": "Omega_Lambda",
+      "formula": "1-Omega_m",
+      "value": 0.6816901138162093,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "Volume I/CR281 algebra"
+    },
+    {
+      "type": "EffectiveMatterFraction",
+      "symbol": "Omega_m_eff",
+      "formula": "R*A0-2*A0*(chi+D*chi^2)",
+      "value": 0.3137609155690572,
+      "units": "",
+      "role": "SAM_OUTPUT_REFINEMENT",
+      "source": "CR019"
+    },
+    {
+      "type": "BaryonPhotonRatio",
+      "symbol": "eta",
+      "formula": "(M/(alpha_H^2*Theta))*A0^6",
+      "value": 6.096089524484198e-10,
+      "units": "",
+      "role": "SAM_OUTPUT",
+      "source": "CR036@19"
+    },
+    {
+      "type": "DimensionalConversion",
+      "symbol": "K_eta_to_omega_b",
+      "formula": "n_b_per_omega_b/n_gamma(T_CMB)",
+      "value": 2.73415860442632e-08,
+      "units": "",
+      "role": "DIMENSIONAL_ANCHOR",
+      "source": "CR036@19"
+    },
+    {
+      "type": "PhysicalBaryonDensity",
+      "symbol": "omega_b",
+      "formula": "eta/K(T_CMB)",
+      "value": 0.022296034745809035,
+      "units": "",
+      "role": "SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR",
+      "source": "CR036@19"
+    },
+    {
+      "type": "ReducedHubbleParameterSquared",
+      "symbol": "h_squared",
+      "formula": "omega_b/Omega_b",
+      "value": 0.4522612963871012,
+      "units": "",
+      "role": "SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR",
+      "source": "CR036@19"
+    },
+    {
+      "type": "HubbleReadout",
+      "symbol": "H0",
+      "formula": "100*sqrt(h_squared)",
+      "value": 67.25037519502037,
+      "units": "km/s/Mpc",
+      "role": "SAM_OUTPUT_WITH_EXTERNAL_T_CMB_ANCHOR",
+      "source": "CR036@19"
+    },
+    {
+      "type": "CMBTemperatureAnchor",
+      "symbol": "T_CMB",
+      "formula": "FIRAS",
+      "value": 2.7255,
+      "units": "K",
+      "role": "EXTERNAL_DIMENSIONAL_ANCHOR",
+      "source": "CR036@19"
+    }
+  ],
+  "registration_recommendation": "register as cosmic-budget typed readout in SAM Language v0.3; keep Omega_m clean spine separate from Omega_m_eff refinement"
+}

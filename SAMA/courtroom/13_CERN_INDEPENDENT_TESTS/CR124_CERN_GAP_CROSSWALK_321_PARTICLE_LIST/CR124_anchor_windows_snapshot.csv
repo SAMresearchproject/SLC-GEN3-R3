@@ -1,0 +1,30 @@
+source,id,label,experiment,M_MeV,anchor_class,is_wrong_control,reference
+CR090,EW001,W boson mass,ATLAS,80366.5,CR091_precision_electroweak,False,arXiv:2403.15085 [VERIFY_PRECOMMIT]
+CR090,EW002,W boson mass,CMS,80360.2,CR091_precision_electroweak,False,arXiv:2412.13872 [VERIFY_PRECOMMIT]
+CR090,EW003,W boson mass,LHCb,80354.0,CR091_precision_electroweak,False,arXiv:2109.01113 [VERIFY_PRECOMMIT]
+CR090,EW004,Z boson mass,LEP combined (legacy CERN),91187.6,CR091_precision_electroweak,False,Phys.Rept.427:257 [VERIFY_PRECOMMIT]
+CR090,EW005,W boson decay width,ATLAS,2202.0,CR091_precision_electroweak,False,arXiv:2403.15085 [VERIFY_PRECOMMIT]
+CR090,EW006,W boson decay width,LEP combined,2085.0,CR091_precision_electroweak,False,EPJC 47:547 [VERIFY_PRECOMMIT]
+CR090,EW007,Top quark mass,ATLAS,172690.0,CR091_precision_electroweak,False,arXiv:1810.01772 [VERIFY_PRECOMMIT]
+CR090,EW008,Top quark mass,CMS,171770.0,CR091_precision_electroweak,False,arXiv:2302.01967 [VERIFY_PRECOMMIT]
+CR090,H001,Higgs boson mass,ATLAS,125110.0,CR092_higgs_sector,False,arXiv:2308.04775 [VERIFY_PRECOMMIT]
+CR090,H002,Higgs boson mass,CMS,125380.0,CR092_higgs_sector,False,arXiv:2002.06398 [VERIFY_PRECOMMIT]
+CR090,H003,Higgs boson mass (ATLAS+CMS combination),ATLAS+CMS,125090.0,CR092_higgs_sector,False,arXiv:1503.07589 [VERIFY_PRECOMMIT]
+CR090,EXO001,X(3872) mass,LHCb,3871.65,CR094_exotic_spectroscopy,False,arXiv:2005.13419 [VERIFY_PRECOMMIT]
+CR090,EXO002,X(3872) width,LHCb,1.39,CR094_exotic_spectroscopy,False,arXiv:2005.13419 [VERIFY_PRECOMMIT]
+CR090,EXO003,Tcc+(3875) mass relative to D*+ D0 threshold,LHCb,-0.273,CR094_exotic_spectroscopy,False,arXiv:2109.01038 [VERIFY_PRECOMMIT]
+CR090,EXO004,Pc(4312)+ pentaquark mass,LHCb,4311.9,CR094_exotic_spectroscopy,False,arXiv:1904.03947 [VERIFY_PRECOMMIT]
+CR090,EXO005,Pc(4440)+ pentaquark mass,LHCb,4440.3,CR094_exotic_spectroscopy,False,arXiv:1904.03947 [VERIFY_PRECOMMIT]
+CR090,EXO006,Pc(4457)+ pentaquark mass,LHCb,4457.3,CR094_exotic_spectroscopy,False,arXiv:1904.03947 [VERIFY_PRECOMMIT]
+CR090,EXO007,Pcs(4459)0 strange pentaquark mass,LHCb,4458.8,CR094_exotic_spectroscopy,False,arXiv:2012.10380 [VERIFY_PRECOMMIT]
+CR090,EXO008,Xi_cc++ doubly charm baryon mass,LHCb,3621.55,CR094_exotic_spectroscopy,False,arXiv:1707.01621 [VERIFY_PRECOMMIT]
+CR090,HN001,CDF II W boson mass (Tevatron),CDF,80433.5,WRONG_CONTROL,True,arXiv:2204.04204
+CR090,HN005,PDG world-average W boson mass (used as anchor),PDG,80369.2,WRONG_CONTROL,True,PDG 2024 Particle Data Group review
+CR090,HN006,Withdrawn early-Run-1 ATLAS Higgs mass (superseded),ATLAS (withdrawn),125360.0,WRONG_CONTROL,True,CERN-PH-EP-2014-122 [VERIFY_PRECOMMIT]
+CR090,HN007,Perturbed CMS Higgs mass (shifted by 10x stat unc),CMS_PERTURBED,126780.0,WRONG_CONTROL,True,SYNTHETIC_PERTURBATION_NOT_PUBLISHED
+CR124_NEW,W95_DIPHOTON_EXCESS,~95 GeV diphoton / ditau excess,"ATLAS, CMS",95000.0,CR124_2026_OPEN_WINDOW,False,ATLAS-CONF-2023-035; CMS HIG-20-002; CMS-PAS-HIG-23-004 [VERIFY_PRECOMMIT]
+CR124_NEW,X6900_DI_JPSI,X(6900) di-J/psi tetraquark,"LHCb, CMS, ATLAS",6900.0,CR124_2026_OPEN_WINDOW,False,"LHCb Sci.Bull.65:1983 (2020); CMS, ATLAS reconfirmations 2023-2024 [VERIFY_PRECOMMIT]"
+CR124_NEW,TCC_3875_LINESHAPE,Tcc+(3875) lineshape refinement,LHCb,3875.0,CR124_2026_OPEN_WINDOW,False,LHCb Nature Phys.18:751 (2022); Nature Comm.13:3351 [VERIFY_PRECOMMIT]
+CR124_NEW,LIGHT_ALP_WINDOW,Light scalar / ALP search band,"NA62, NA64, FASER, SHiP-precursor",505.0,CR124_2026_OPEN_WINDOW,False,Multi-experiment ALP review; PDG 2024 BSM section [VERIFY_PRECOMMIT]
+CR124_NEW,DARK_PHOTON_WINDOW,Dark photon A' search band,"LHCb, BaBar, NA64, FASER",5005.0,CR124_2026_OPEN_WINDOW,False,LHCb PRL124.041801; FASER PRL133.021802 [VERIFY_PRECOMMIT]
+CR124_NEW,HEAVY_NEUTRAL_LEPTON,Heavy neutral lepton (HNL / sterile nu),"ATLAS, CMS, LHCb",5050.0,CR124_2026_OPEN_WINDOW,False,ATLAS JHEP 10 (2019) 265; CMS JHEP 02 (2023) 197 [VERIFY_PRECOMMIT]

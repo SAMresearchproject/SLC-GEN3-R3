@@ -1,0 +1,11 @@
+lc_id,lane,status,required_replay,principal_sources,primary_wrong_controls,planned_artifacts
+LC02,Higgs closed form,REGISTERED_PENDING_REPLAY,R^2*(1-2^-D) - D^2/R = 125.25 from locked stack,CR113; CR114; CR104c; CR116,WC17; WC18; WC20,LC02_*
+LC03,qA / ledger compression / gravity-as-A update,REGISTERED_PENDING_REPLAY,"qA remains source strength / ledger sign update, not mass substitution",CR103a; CR116; CR147,WC08; WC10; WC11; WC12,LC03_*
+LC04,particle mass-chain table,REGISTERED_PENDING_REPLAY,"mass rows replay without changing constants, formulas, rows, or q labels",CR114; CR116; particle-chain branch,WC20; WC21; WC22,LC04_*
+LC05,periodic/isotope vault,REGISTERED_PENDING_REPLAY,periodic/isotope rows replay from locked primitive stack without backfill,CR114; CR116; branch 10 vault,WC22; WC23,LC05_*
+LC06,baryon and matter inventory,REGISTERED_PENDING_REPLAY,baryon split and matter inventory preserve carrier/matter distinction,CR114; CR116; branch 07,WC09; WC23,LC06_*
+LC07,SN/BAO distance road,REGISTERED_PENDING_REPLAY,"distance branch replay without D refit, bin cherry-pick, or target substitution",CR115; branch 06,WC24; WC25,LC07_*
+LC08,halo/PBH inventory lane,REGISTERED_PENDING_REPLAY,halo/PBH inventory replay without config-as-law promotion,CR113; CR115; branch 08,WC26,LC08_*
+LC09,quantum pair-write / Born-rule lane,REGISTERED_PENDING_REPLAY,pair-write and Born-rule lane replay without normalization patch,branch 11; quantum_phase campaign,WC27,LC09_*
+LC10,quantum information thresholds,REGISTERED_PENDING_REPLAY,QI thresholds replay without threshold swap,branch 12; branch 12a; quantum_phase campaign,WC28,LC10_*
+LC11,black-hole/horizon thermodynamic lane,REGISTERED_PENDING_REPLAY,"A=1, 11/12, horizon, and thermodynamic lane replay without softening A=1",CR103a; CR113; CR147; branch 05,WC11; WC12; WC29; WC30,LC11_*

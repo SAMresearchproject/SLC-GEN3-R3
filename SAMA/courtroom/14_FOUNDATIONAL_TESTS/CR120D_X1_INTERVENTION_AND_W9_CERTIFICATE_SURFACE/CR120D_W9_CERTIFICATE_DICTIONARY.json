@@ -1,0 +1,68 @@
+{
+  "absent_dynamic_fields": [
+    "outcome_alphabet",
+    "closure_boolean",
+    "closure_predicate",
+    "sector_label",
+    "residual",
+    "uncertainty",
+    "soundness",
+    "completeness",
+    "fault_location",
+    "repair_instruction",
+    "input_preimage",
+    "measurement_backaction",
+    "x1_intervention_id"
+  ],
+  "levels": [
+    {
+      "certifies": "The registered result entity is W9_CLOSURE_WITNESS, scalar label 9, semantic type ClosureWitness, ACTIVE authority.",
+      "level": "STATIC_ENTITY_IDENTITY",
+      "status": "SUPPORTED",
+      "surface": "W9 entity"
+    },
+    {
+      "certifies": "The registry assigns the contextual role resolved_closure_witness.",
+      "level": "STATIC_SEMANTIC_ROLE",
+      "status": "SUPPORTED",
+      "surface": "W9 entity"
+    },
+    {
+      "certifies": "RESOLVE accepted BinarySurface, ContactOperator, AxisChannel inputs under ACTIVE authority and selected its fixed W9 result.",
+      "level": "TYPED_ROUTE_AUTHORIZATION",
+      "status": "SUPPORTED",
+      "surface": "execution record"
+    },
+    {
+      "certifies": "The execution packet records operator, canonical input identities, result identity, authority, and source trace.",
+      "level": "EXECUTION_TRACE_AND_PROVENANCE",
+      "status": "SUPPORTED_IN_EXECUTION_RECORD_NOT_W9_ENTITY",
+      "surface": "execution record"
+    },
+    {
+      "certifies": "Nothing beyond the static registered role; no independently evaluated true/false closure proposition is emitted.",
+      "level": "DYNAMIC_CLOSURE_PREDICATE",
+      "status": "NOT_DEFINED",
+      "surface": "absent"
+    },
+    {
+      "certifies": "No parity bit, sector label, or alternative outcome alphabet is emitted.",
+      "level": "PARITY_OR_SECTOR_OUTCOME",
+      "status": "NOT_DEFINED",
+      "surface": "absent"
+    },
+    {
+      "certifies": "No fault identity or location.",
+      "level": "FAULT_LOCALIZATION",
+      "status": "NOT_DEFINED",
+      "surface": "absent"
+    },
+    {
+      "certifies": "No correction, inverse, or repair operation.",
+      "level": "REPAIR_INSTRUCTION",
+      "status": "NOT_DEFINED",
+      "surface": "absent"
+    }
+  ],
+  "record_id": "CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE"
+}

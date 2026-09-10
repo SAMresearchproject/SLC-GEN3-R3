@@ -1,0 +1,9 @@
+label,Z,N,u,d,e,H,K_tilde,components,main_carrier,K_eq_main_sq,main_eq_d_times_e,is_carrier,is_container,cr262_predicts_stable,cr262_predicts_unstable
+H-2,1,1,3,3,1,9,9,1,3,True,True,False,False,False,False
+He-4,2,2,6,6,2,72,36,2,6,True,True,True,False,True,False
+Li-6,3,3,9,9,3,243,81,3,9,True,True,True,False,True,False
+Be-8,4,4,12,12,4,576,144,4,12,True,True,False,True,False,True
+C-12,6,6,18,18,6,1944,324,6,18,True,True,True,False,True,False
+F-18,9,9,27,27,9,6561,729,9,27,True,True,False,True,False,True
+Ar-36,18,18,54,54,18,52488,2916,18,54,True,True,True,False,True,False
+Co-54,27,27,81,81,27,177147,6561,27,81,True,True,False,True,False,True

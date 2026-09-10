@@ -1,0 +1,52 @@
+{
+  "axis_assignment": {
+    "x": "a",
+    "y": "b",
+    "z": "c"
+  },
+  "counts": {
+    "E": 12,
+    "Euler": 2,
+    "F": 8,
+    "V": 6
+  },
+  "edge_rule": "connect vertices from different axes; same-axis signed pair is opposite/non-edge",
+  "face_rule": "choose one signed vertex from each axis; eight binary sign states",
+  "incidence": {
+    "edges_per_face": 3,
+    "faces_per_edge": 2,
+    "rigidity_rank": 12,
+    "vertex_degree": 4
+  },
+  "independent_convergences": {
+    "carrier_row_count": 6,
+    "geometry_counts_not_constructed_from_these_rows": true,
+    "hidden_support_row_count": 8
+  },
+  "input_type": "QP093A unordered triad motif (a<=b<=c)",
+  "not_claimed": [
+    "literal physical octahedral atoms are proven",
+    "tetrahedral geometry is globally impossible",
+    "a numeric QP row value is already a binding coefficient",
+    "the 81-row projection selects the geometry"
+  ],
+  "open_assignments": [
+    "six carrier roles to six signed-axis vertices",
+    "eight hidden rows to eight oriented faces",
+    "whether M2 is per-edge or compressed pair budget",
+    "whether M3 is per-face or compressed cell budget"
+  ],
+  "operator_id": "QP093A_TRIAD_THREE_AXIS_CROSS_POLYTOPE_CELL",
+  "primary_verdict": "PASS_QP093A_TRIAD_TO_OCTAHEDRAL_CELL_INCIDENCE_OPERATOR",
+  "record_id": "CR120U_QP093A_TYPED_MOTIF_OCTAHEDRAL_INCIDENCE_DISCOVERY",
+  "source_coverage": {
+    "allowed_cells": 107,
+    "cell_templates": 120,
+    "edge_instances": 1440,
+    "face_instances": 960,
+    "surface_rejected_cells": 13,
+    "vertex_instances": 720
+  },
+  "status": "PASS",
+  "vertex_rule": "two signed instances per axis; preserve axis identity when labels repeat"
+}

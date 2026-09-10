@@ -1,0 +1,52 @@
+{
+  "artifact": "CMBP010_NATIVE_PERTURBATION_VISIBILITY_PACKET",
+  "channel_bindings_typed": true,
+  "checks": {
+    "H0_preserved": true,
+    "Omega_b_preserved": true,
+    "Omega_m_eff_preserved": true,
+    "channel_binding_count": 5,
+    "cmbp009_selected_native_packet": true,
+    "comparison_performed": false,
+    "fixed_density_packet_preserved": true,
+    "free_parameters_introduced": 0,
+    "imported_As_exposed": true,
+    "imported_ns_exposed": true,
+    "imported_tau_exposed": true,
+    "native_open_slots_count": 5,
+    "new_external_data_intake": false,
+    "preflight_exists": true,
+    "target_data_read": false
+  },
+  "comparison_performed": false,
+  "confirmation_or_double_check": false,
+  "fixed_density_packet_preserved": true,
+  "free_parameters_introduced": 0,
+  "imported_perturbation_visibility_defaults_exposed": true,
+  "interpretation": "CMBP010 freezes the perturbation/visibility interface selected by CMBP009. A_s, n_s, and tau_reio remain imported transport primitives for now, but they are isolated as named native replacement slots for CMBP011-CMBP013.",
+  "is_audit_or_retest": false,
+  "native_open_slots": [
+    "native_A_s_route",
+    "native_n_s_route",
+    "native_tau_visibility_route",
+    "native_visibility_kernel",
+    "native_lensing_growth_bridge"
+  ],
+  "native_open_slots_frozen": true,
+  "new_external_data_intake": false,
+  "next_frontier": "CMBP011_NATIVE_A_S_ROUTE",
+  "outputs": {
+    "channel_binding_csv": "artifacts\\cmbp010\\cmbp010_channel_binding.csv",
+    "checks_json": "artifacts\\cmbp010\\cmbp010_checks.json",
+    "imported_transport_packet_csv": "artifacts\\cmbp010\\cmbp010_imported_transport_packet.csv",
+    "native_open_slots_csv": "artifacts\\cmbp010\\cmbp010_native_open_slots.csv",
+    "report": "reports\\CMBP010_NATIVE_PERTURBATION_VISIBILITY_PACKET.md",
+    "sealed_summary_json": "sealed_results\\CMBP010_summary.json",
+    "source_manifest_json": "artifacts\\cmbp010\\cmbp010_source_manifest.json",
+    "visibility_packet_json": "artifacts\\cmbp010\\cmbp010_visibility_packet.json"
+  },
+  "result_class": "CMBP010_PERTURBATION_VISIBILITY_PACKET_FROZEN",
+  "target_data_read": false,
+  "test_type": "FORWARD_NATIVE_INTERFACE_PACKET_FREEZE",
+  "visibility_packet_sha256": "1ba2fa07006a35fb5a61a219d1c65ba0772196605367870fbe9d302f19440c21"
+}

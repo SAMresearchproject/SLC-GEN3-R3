@@ -1,0 +1,34 @@
+{
+  "test_id": "CR210",
+  "title": "Starbreaker 3D External Collapse Directional Contact Replay",
+  "classification": "CONFIRMATION_OR_AUDIT_REQUIRES_PERMISSION",
+  "user_approval": "approved",
+  "approval_single_use_scope": "Rerun latest Starbreaker 3D and external collapse contact tests then hard-freeze the scoped result",
+  "is_audit_or_retest": true,
+  "confirmation_or_double_check": true,
+  "source_system": "C:\\VS\\The_Basement",
+  "courtroom_does_not_replace_source": true,
+  "external_signature_count": 1,
+  "external_signature": "O'Connor and Ott 2011 higher bounce compactness to stronger collapse direction",
+  "allowed_comparison": "qualitative direction and ordering only",
+  "free_parameters_introduced": 0,
+  "fitted_parameters": 0,
+  "authoritative_evidence": [
+    "JSON summaries",
+    "CSV run and control rows",
+    "wrapped replay logs",
+    "SHA-256 manifests"
+  ],
+  "presentation_only": [
+    "starbreaker_external_collapse_contact_plate.html"
+  ],
+  "preserved_boundaries": [
+    "p is not physical bounce compactness xi_2.5",
+    "A is not assigned compactness units",
+    "Starbreaker remnant fraction is not black-hole probability or mass",
+    "Starbreaker ejecta fraction is not explosion energy or observed ejecta mass",
+    "the endpoint simulator does not test faster time to black-hole formation",
+    "no hydrodynamic or relativistic field equation is solved",
+    "the A packing law is not physically promoted"
+  ]
+}

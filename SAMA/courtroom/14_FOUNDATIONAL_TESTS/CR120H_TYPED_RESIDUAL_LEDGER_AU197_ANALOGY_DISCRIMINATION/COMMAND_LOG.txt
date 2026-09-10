@@ -1,0 +1,11 @@
+# CR120H command log
+
+Recorded UTC: 2026-07-14T01:02:21.430306+00:00
+Execution path: tools/run_sam_test.py --task "next up" --script tools/run_cr120h_typed_residual_ledger_au197_analogy_discrimination.py
+External subprocesses from candidate runner: none
+External physics inputs: none
+Numerical fitting: none
+Cross-domain scalar normalization: none
+Registry mutations: none
+Precommit sha256: a85fb2c4c8da6eb4ec11948bb9337f545cf77f7c83d478dc561de7e743a9aea7
+Outcome: shared typed ledger shape supported; Au-197 operator slot null; cross-domain identity rejected; mapping open

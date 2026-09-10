@@ -1,0 +1,23 @@
+field,tier,provenance,construction_input,note
+sob_id,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+card_title_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+isotope_anchor_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+element_Z,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+matter_face_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+clock_face_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+light_face_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+action_face_native,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+P_subscript,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+P_address,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+quark_address,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+A,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+N,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+G_decimal,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+GR_decimal,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+retained_7G_decimal,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+bottom_A_line,T0-T6,SAM_CONSTANTS_GENERATED,yes,"generated without cards, known labels, masses, or CLOCK reference"
+card_title_reveal_name,T7,DOWNSTREAM_REVEAL_PLACEHOLDER,no,blank in zero-free-parameter output
+card_title_reveal_symbol,T7,DOWNSTREAM_REVEAL_PLACEHOLDER,no,blank in zero-free-parameter output
+isotope_anchor_reveal,T7,DOWNSTREAM_REVEAL_PLACEHOLDER,no,blank in zero-free-parameter output
+matter_reference_mass,T7,DOWNSTREAM_REVEAL_PLACEHOLDER,no,blank in zero-free-parameter output
+clock_reference_label,T7,DOWNSTREAM_REVEAL_PLACEHOLDER,no,blank in zero-free-parameter output

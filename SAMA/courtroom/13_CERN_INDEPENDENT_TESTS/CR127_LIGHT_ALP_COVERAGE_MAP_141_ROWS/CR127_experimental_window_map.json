@@ -1,0 +1,104 @@
+{
+  "L0_10to100MeV": {
+    "mass_lo_MeV": 10.0,
+    "mass_hi_MeV": 100.0,
+    "active_experiments": [
+      {
+        "name": "NA64",
+        "channel": "e- beam dump -> A' / ALP",
+        "reach_MeV": "10-300",
+        "reference": "JHEP 03 (2024) 035 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BaBar (legacy)",
+        "channel": "e+e- -> gamma + invisible",
+        "reach_MeV": "10-8000",
+        "reference": "PRL 119 (2017) 131804 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BESIII",
+        "channel": "J/psi -> gamma + invisible",
+        "reach_MeV": "10-3000",
+        "reference": "PRD 106 (2022) 072007 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "MEG II",
+        "channel": "mu -> e + ALP (mu+ at rest)",
+        "reach_MeV": "0-50",
+        "reference": "Eur.Phys.J.C 84 (2024) 216 [VERIFY_PRECOMMIT]"
+      }
+    ]
+  },
+  "L1_100to300MeV": {
+    "mass_lo_MeV": 100.0,
+    "mass_hi_MeV": 300.0,
+    "active_experiments": [
+      {
+        "name": "NA62",
+        "channel": "K+ -> pi+ + invisible (missing-mass)",
+        "reach_MeV": "0-260",
+        "reference": "JHEP 02 (2021) 201 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "NA64",
+        "channel": "e- beam dump",
+        "reach_MeV": "10-300",
+        "reference": "JHEP 03 (2024) 035 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BaBar (legacy)",
+        "channel": "e+e- -> gamma + invisible",
+        "reach_MeV": "10-8000",
+        "reference": "PRL 119 (2017) 131804 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BESIII",
+        "channel": "J/psi -> gamma + invisible / hadronic",
+        "reach_MeV": "10-3000",
+        "reference": "PRD 106 (2022) 072007 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "FASER",
+        "channel": "forward LHC long-lived particle",
+        "reach_MeV": "100-5000",
+        "reference": "PRD 109 (2024) L031101 [VERIFY_PRECOMMIT]"
+      }
+    ]
+  },
+  "L2_300to1000MeV": {
+    "mass_lo_MeV": 300.0,
+    "mass_hi_MeV": 1000.0,
+    "active_experiments": [
+      {
+        "name": "KLOE-2",
+        "channel": "phi -> eta + ALP",
+        "reach_MeV": "300-700",
+        "reference": "PLB 750 (2015) 633 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BESIII",
+        "channel": "J/psi -> gamma + X (hadronic)",
+        "reach_MeV": "10-3000",
+        "reference": "PRD 106 (2022) 072007 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "BaBar (legacy)",
+        "channel": "e+e- -> gamma + invisible",
+        "reach_MeV": "10-8000",
+        "reference": "PRL 119 (2017) 131804 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "PADME",
+        "channel": "e+ beam dump -> A' gamma",
+        "reach_MeV": "300-700",
+        "reference": "Eur.Phys.J.C 82 (2022) 17 [VERIFY_PRECOMMIT]"
+      },
+      {
+        "name": "FASER",
+        "channel": "forward LHC long-lived particle",
+        "reach_MeV": "100-5000",
+        "reference": "PRD 109 (2024) L031101 [VERIFY_PRECOMMIT]"
+      }
+    ]
+  }
+}

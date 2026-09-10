@@ -1,0 +1,50 @@
+{
+  "precommit_sha256": "7707b655f264297f6c48d71b94e09237bbd63df410b6107d21b77fe3d778a254",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR270_SOURCE_COUNT_MEASURE_GKS_IDENTIFICATION",
+  "classification": "STRUCTURAL_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "external_citation": "Gadde, A., Krishna, V., Sharma, T., 'Towards a classification of holographic multi-partite entanglement measures,' JHEP, arXiv:2304.06082v3 [hep-th] (2023)",
+  "structural_claim": "CR248 source counts (u, d, e) are the orders (m_u, m_d, m_e) of a q=3 measure in the GKS classification framework. The disconnect structure derives: Z=N nuclei have Z disconnected components, each with (3Z)^2 replicas; carrier walk recursion main = d_hat * e; CR262 stability cipher derives from carrier vs container split",
+  "five_universal_rules": [
+    "R1: Z=N nuclei have Z disconnected components in q=3 measure",
+    "R2: |K_tilde| per component = (3Z)^2 = main^2",
+    "R3: Carrier walk recursion main = d_hat * e_channel",
+    "R4: Containers are pure d_hat^k for k >= 3; carriers otherwise",
+    "R5: Z=N stable iff main = 3Z is a carrier atom"
+  ],
+  "cr262_derivation": {
+    "stable_from_carrier": [
+      "He-4 from m_3 carrier",
+      "Li-6 from D^2 carrier",
+      "C-12 from Theta carrier",
+      "Ar-36 from hV carrier"
+    ],
+    "unstable_from_container": [
+      "Be-8 from R container",
+      "F-18 from V container",
+      "Co-54 from F container",
+      "no stable Xe-108 (beyond ladder)"
+    ]
+  },
+  "z_fold_derivation": "C-12 (Z=6) has 6 disconnected components = source-level origin of carbon's 6-fold hexagonal chemistry. He-4 (Z=2) has 2-fold dimer structure. Li-6 (Z=3) has 3-fold (trigonal). Ar-36 (Z=18) has 18-fold structure.",
+  "be8_decay_derivation": "Be-8 has 4 disconnected components; decays to 2 alpha = 2 x He-4 (each 2-fold). 4 = 2 x 2 conservation of Z-fold component count.",
+  "asymmetric_reading": "Asymmetric (Z != N) nuclei typically have pairwise (near-)coprime (u, d, e), fitting GKS special symmetric class strictly with 1 connected component. CR245 asymmetry (N-Z)^2/A is the energy cost of leaving the Z-fold regime.",
+  "gates": {
+    "G1_GKS_q2_substrate_atoms": true,
+    "G2_Z_fold_disconnect_universal": true,
+    "G3_component_size_main_squared": true,
+    "G4_carrier_walk_recursion": true,
+    "G5_CR262_stability_derives": true,
+    "G6_asymmetric_single_component": false,
+    "G7_Be8_2alpha_conservation": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "verdict BOUNDARY; see gates",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 4
+}

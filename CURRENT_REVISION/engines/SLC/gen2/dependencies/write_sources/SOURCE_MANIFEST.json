@@ -1,0 +1,45 @@
+{
+  "authority": [
+    "H001081",
+    "H001083",
+    "H001085"
+  ],
+  "schema": "SLC_R41_INTEGRATED_SOURCES_V1",
+  "sources": [
+    {
+      "path": "Notepad/AN0003_WRITE_TIME_QUARTER_PHASE_GOLDEN_SPHERE_AND_CMB_SCALE.md",
+      "sha256": "0dbd1cd892ca2c9c9f80947858a5fd3b192e49f71c8ebd972feb9f4c88e21687",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/AN0003_WRITE_TIME_QUARTER_PHASE_GOLDEN_SPHERE_AND_CMB_SCALE.md"
+    },
+    {
+      "path": "Notepad/AN0004_LOCAL_ACTION_DENSITY_AND_WRITE_ACTIVATION_MAP.md",
+      "sha256": "a521ab3f9e9cafa385886743a86031dcd7d4ae67b8d6ebcf68bb44fa86cc4a46",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/AN0004_LOCAL_ACTION_DENSITY_AND_WRITE_ACTIVATION_MAP.md"
+    },
+    {
+      "path": "Notepad/AN0005_CEFF_SUBSTRATE_RATE_AND_SECONDS_PER_WRITE.md",
+      "sha256": "b025052c9af69b75bb363cc5a3a4379903c1590040a1bd4a2337ed7c8c9de5a2",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/AN0005_CEFF_SUBSTRATE_RATE_AND_SECONDS_PER_WRITE.md"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/RH_LOCAL_ACTION_ACTIVATION1/work/core1/ATLAS.json",
+      "sha256": "2fe71b4de4e795de4f96838a289cabe0ca44175417c55fc60464e775811b11f3",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/ATLAS.json"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/RH_LOCAL_ACTION_ACTIVATION1/source.py",
+      "sha256": "cef60b620e8fa3e587df5186b38c25b1dad3e94e9975eeb2a9cec5d037df34ac",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/source.py"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/RH_MINIMUM_WRITE_ADVANCE1/inputs/THERMAL_LADDER/CR036_ETA_SAM_AND_H0_SELECTOR/CR036_summary.json",
+      "sha256": "1c26df9c83891c79e3b3f6b12662898e9000cc9c8083a2844466e83837b04e35",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/CR036_summary.json"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/RH_PHYSICAL_WRITE_CLOCK1/RESULT.json",
+      "sha256": "a4dac5bb9836110e90e66154919d8eea94ac9ded3ca3447a2fd43f29efb54a2e",
+      "snapshot": "SAM_REVIEW/campaigns/SLC_GEN2_R4_1_BUILD1/inputs/RESULT.json"
+    }
+  ]
+}

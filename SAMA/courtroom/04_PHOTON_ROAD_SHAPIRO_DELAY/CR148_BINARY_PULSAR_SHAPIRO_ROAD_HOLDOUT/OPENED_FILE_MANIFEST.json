@@ -1,0 +1,70 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "manifest_utc": "2026-07-11T17:28:47Z",
+  "opened_files": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260711_122410_no_script.md",
+      "purpose": "filled task preflight report",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "tools/run_sam_test.py",
+      "purpose": "Courtroom runner invocation behavior",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/README.md",
+      "purpose": "active Branch 04 formula/scope",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR006_PHOTON_ROAD_SHAPIRO_EXTERNAL_CONTACT/CR006_result.md",
+      "purpose": "prior Branch 04 Shapiro scope and prior-use exclusion",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR006_PHOTON_ROAD_SHAPIRO_EXTERNAL_CONTACT/CR006_PRECOMMIT.md",
+      "purpose": "prior Branch 04 formula pattern",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL/CR147_result.md",
+      "purpose": "prior Branch 04 scope and prior-use exclusion",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "purpose": "A-kernel and photon road formula snippets",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "purpose": "road branch and action typing snippets",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "SAM_TESTING_RULES.md",
+      "purpose": "testing discipline source",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-src/ksm+06.tex",
+      "purpose": "non-target anchors lines 899-905 and 918-921 before reveal",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-src/ksm+06.tex",
+      "purpose": "target reveal lines 907-908 and 950-951 after precommit and runner seal",
+      "forbidden_source_path": false
+    },
+    {
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/BINARY_PULSAR_TARGET_REVEAL.json",
+      "purpose": "machine-readable target reveal",
+      "forbidden_source_path": false
+    }
+  ],
+  "forbidden_source_paths_opened": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_incidental_exposure_detected": false
+}

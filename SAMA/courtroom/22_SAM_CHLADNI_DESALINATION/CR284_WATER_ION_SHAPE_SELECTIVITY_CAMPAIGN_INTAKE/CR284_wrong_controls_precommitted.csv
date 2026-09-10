@@ -1,0 +1,15 @@
+control_id,control_class,control,required_disposition,falsifies_if
+WC01,simple_baseline,bare-ion radius ranking,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC02,simple_baseline,hydrated-radius ranking,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC03,simple_baseline,formal-charge ranking,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC04,simple_baseline,charge-density proxy,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC05,simple_baseline,conventional coordination-number ranking,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC06,simple_baseline,pore-diameter-only ranking,COMPARE_NOT_SUPPRESS,SAM does not beat it on held-out rankings
+WC07,randomization,randomized shape assignments,REJECT_AS_EXPLANATION,random assignments perform equivalently
+WC08,leakage,observed rejection selects geometry,REJECT,any observed label enters construction or tie-break rules
+WC09,rescue_rule,new support rule per species or pore,REJECT,post-reveal rules are needed to retain the ranking
+WC10,rescue_rule,free coefficient per species or pore,REJECT,a fitted coefficient is needed to retain the ranking
+WC11,category_error,dimensionless A treated directly as pressure energy or flow,REJECT,the process bridge depends on an untyped conversion
+WC12,physical_artifact,sound-only conductivity drop treated as desalination,REJECT,no-gate sound is promoted before mass and artifact closure
+WC13,promotion_error,simulator result treated as physical membrane evidence,REJECT,model output is described as measured desalination
+WC14,role_conflation,SAM carrier role treated as a dissolved ion,REJECT,the bridge depends on type conflation

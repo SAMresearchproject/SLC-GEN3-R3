@@ -1,0 +1,563 @@
+# Volume II — test records
+
+[Back to the volume](../README.md)
+
+Use the test folders inside each branch for tests linked to that branch. This index also retains the other recorded tests assigned to this volume.
+
+- [Source-native N100-to-F81 compiler audit](g-g1-sam-research.md) — `G:G1@SAM-RESEARCH`
+- [Bell / CHSH and Path Integral Under SAM Born Rule](g-g67-sam-archive.md) — `G:G67@SAM-ARCHIVE`
+- [Greybody scattering - CR087 OPEN DEBTS load-bearing source](g-g103-11.md) — `G:G103@11`
+- [Dynamical gauge field from SW phase-current](g-g128-sam-archive.md) — `G:G128@SAM-ARCHIVE`
+- [Constrained Gauss-law gauge dynamics](g-g128b-sam-archive.md) — `G:G128B@SAM-ARCHIVE`
+- [Moving two-lump damping/mass sweep](g-g130b-sam-archive.md) — `G:G130B@SAM-ARCHIVE`
+- [Photon-like massless gauge excitation](g-g145-sam-archive.md) — `G:G145@SAM-ARCHIVE`
+- [Variational/symplectic field-particle Hamiltonian toy](g-g159-sam-archive.md) — `G:G159@SAM-ARCHIVE`
+- [Matter/Gauge Claims And Status Consolidation](g-g166-sam-archive.md) — `G:G166@SAM-ARCHIVE`
+- [Unified reduced action: L A + L psi + L gauge + L int](g-g167-sam-archive.md) — `G:G167@SAM-ARCHIVE`
+- [Analytic derivation of the gauge-dressing kappa](g-g169-sam-archive.md) — `G:G169@SAM-ARCHIVE`
+- [Fully coupled (psi, A) Klein-Gordon + gauge PDE evolution](g-g176-sam-archive.md) — `G:G176@SAM-ARCHIVE`
+- [Qed Multiloop Check](g-g200b-sam-archive.md) — `G:G200B@SAM-ARCHIVE`
+- [Non Abelian Gauge Probe Su5](g-g202-sam-archive.md) — `G:G202@SAM-ARCHIVE`
+- [PBH-mass-range dark matter consistency](g-g212-sam-archive.md) — `G:G212@SAM-ARCHIVE`
+- [Substrate Eigenmode Mass Spectrum](g-g217-sam-archive.md) — `G:G217@SAM-ARCHIVE`
+- [substrate eigenmode mass spectrum at A 0 baseline with BD operator](g-g217b-sam-archive.md) — `G:G217B@SAM-ARCHIVE`
+- [Pbh Dm Mass Function From Substrate](g-g221-sam-archive.md) — `G:G221@SAM-ARCHIVE`
+- [Higgs As Substrate Information Field](g-g231-sam-archive.md) — `G:G231@SAM-ARCHIVE`
+- [Higgs Substrate Quantitative](g-g231b-sam-archive.md) — `G:G231B@SAM-ARCHIVE`
+- [Free Particle Action Count](g-g286-sam-archive.md) — `G:G286@SAM-ARCHIVE`
+- [Born Rule Derivation From Substrate Path Measure](g-g286d-sam-archive.md) — `G:G286d@SAM-ARCHIVE`
+- [Mass Shell From Substrate Constraint](g-g288-sam-archive.md) — `G:G288@SAM-ARCHIVE`
+- [Gate 8 Substrate Gauge Algebra From G291 Loop Object](g-g292-sam-archive.md) — `G:G292@SAM-ARCHIVE`
+- [Full Cycle Action Quantum](g-g324-sam-archive.md) — `G:G324@SAM-ARCHIVE`
+- [Action Scale Anchor Scale Gauge](g-g358-sam-archive.md) — `G:G358@SAM-ARCHIVE`
+- [Atom Interferometer Eigenmode Phase](g-g370-sam-archive.md) — `G:G370@SAM-ARCHIVE`
+- [Sn A Road Logmass Boundary](g-g375b-sam-archive.md) — `G:G375b@SAM-ARCHIVE`
+- [Pbh Closure Mass Lab Preflight](g-g385-sam-archive.md) — `G:G385@SAM-ARCHIVE`
+- [Pbh Birth Mass Function Gate](g-g388-sam-archive.md) — `G:G388@SAM-ARCHIVE`
+- [A horizon boundary clock road divergence](g-g402-11.md) — `G:G402@11`
+- [Neutron Quantum Bouncer A Potential](g-g403-sam-archive.md) — `G:G403@SAM-ARCHIVE`
+- [Quantum-phase public bridge test](g-g406-11.md) — `G:G406@11`
+- [Mass Eigenmode Inversion](g-g416-sam-archive.md) — `G:G416@SAM-ARCHIVE`
+- [Compton Eigenmode Mass Bridge](g-g417-sam-archive.md) — `G:G417@SAM-ARCHIVE`
+- [Mass Ratio Eigenmode Ratio](g-g418-sam-archive.md) — `G:G418@SAM-ARCHIVE`
+- [Sw Mass Unit Vs Rest Action Eigenmode](g-g420-sam-archive.md) — `G:G420@SAM-ARCHIVE`
+- [Born rule public bridge](g-g421-11.md) — `G:G421@11`
+- [Sw Action Quantum Count Boundary](g-g423-sam-archive.md) — `G:G423@SAM-ARCHIVE`
+- [Sw Higgs Write Split Conservation](g-g425-sam-archive.md) — `G:G425@SAM-ARCHIVE`
+- [Bounce Cost Mass Proportionality](g-g435-sam-archive.md) — `G:G435@SAM-ARCHIVE`
+- [Mass Extension Slot Scan](g-g438-sam-archive.md) — `G:G438@SAM-ARCHIVE`
+- [Composite Meson Slot Selector](g-g440-sam-archive.md) — `G:G440@SAM-ARCHIVE`
+- [Charged Lepton Internal Ratios](g-g443-sam-archive.md) — `G:G443@SAM-ARCHIVE`
+- [Mass Depth N0 Binary Write Tree](g-g445-sam-archive.md) — `G:G445@SAM-ARCHIVE`
+- [Lepton Role Identity Boundary](g-g448-sam-archive.md) — `G:G448@SAM-ARCHIVE`
+- [Lepton Decay Topology Role Selector](g-g449-sam-archive.md) — `G:G449@SAM-ARCHIVE`
+- [Baryon Topology To Mass Split Chain](g-g451-sam-archive.md) — `G:G451@SAM-ARCHIVE`
+- [Integrated Nonmass Species Selector](g-g452-sam-archive.md) — `G:G452@SAM-ARCHIVE`
+- [Gauge Boson Charges From Q Readout](g-g458-sam-archive.md) — `G:G458@SAM-ARCHIVE`
+- [Lepton Decay Action Barrier Scaffold](g-g461-sam-archive.md) — `G:G461@SAM-ARCHIVE`
+- [Tau Leptonic Branching Weak Barrier](g-g464-sam-archive.md) — `G:G464@SAM-ARCHIVE`
+- [Pion Kaon Leptonic Helicity Suppression](g-g465-sam-archive.md) — `G:G465@SAM-ARCHIVE`
+- [Cern Particle Predictor Structural Status](g-g476-sam-archive.md) — `G:G476@SAM-ARCHIVE`
+- [Heavy Quark Structural Selector](g-g477-sam-archive.md) — `G:G477@SAM-ARCHIVE`
+- [Light Quark Running Boundary](g-g478-sam-archive.md) — `G:G478@SAM-ARCHIVE`
+- [Light Quark Qcd Running Candidate](g-g479-sam-archive.md) — `G:G479@SAM-ARCHIVE`
+- [Light Quark Flavor Running Selector](g-g483-sam-archive.md) — `G:G483@SAM-ARCHIVE`
+- [Baryon Self Energy Qcd Em Split Candidate](g-g487-sam-archive.md) — `G:G487@SAM-ARCHIVE`
+- [Qcd Running Operator Light Quarks](g-g492-sam-archive.md) — `G:G492@SAM-ARCHIVE`
+- [Meson Self Energy Operator](g-g493-sam-archive.md) — `G:G493@SAM-ARCHIVE`
+- [Qcd Running Qload Theorem](g-g500-sam-archive.md) — `G:G500@SAM-ARCHIVE`
+- [Meson Hadronic Qload Theorem](g-g502-sam-archive.md) — `G:G502@SAM-ARCHIVE`
+- [Tau Hadronic Width Qcd Theorem](g-g503-sam-archive.md) — `G:G503@SAM-ARCHIVE`
+- [radiative QED inclusive screen theorem; upstream of S = 1 - A_0 - alpha_em](g-g505-09.md) — `G:G505@09`
+- [correction theorem delta audit](g-g506-09.md) — `G:G506@09`
+- [Ledger / particle bridge public](g-g509-11.md) — `G:G509@11`
+- [particle stack latest-formula audit PASS gate (FAILURE_LOG entry)](g-g510-09.md) — `G:G510@09`
+- [Native Particle Candidate Engine Scoring](g-g512-sam-archive.md) — `G:G512@SAM-ARCHIVE`
+- [Charged Lepton Generation Candidate Test](g-g513-sam-archive.md) — `G:G513@SAM-ARCHIVE`
+- [Meson Closed Exposure Candidate Test](g-g515-sam-archive.md) — `G:G515@SAM-ARCHIVE`
+- [Composite Binding Inventory Candidate Test](g-g517-sam-archive.md) — `G:G517@SAM-ARCHIVE`
+- [Particle Route Menu From 12 Share 24 Side Ledger](g-g536-sam-archive.md) — `G:G536@SAM-ARCHIVE`
+- [Particle Route Menu From 12 Share 24 Side Ledger V3](g-g536b-sam-archive.md) — `G:G536b@SAM-ARCHIVE`
+- [Mass Like Ledger Cost Probe](g-g544-sam-archive.md) — `G:G544@SAM-ARCHIVE`
+- [Mass Like Ledger Cost Probe V3](g-g544b-sam-archive.md) — `G:G544b@SAM-ARCHIVE`
+- [V3 Route Field Particle Family Selector](g-g547b-sam-archive.md) — `G:G547b@SAM-ARCHIVE`
+- [Particle Structure Engine V1](g-g548b-sam-archive.md) — `G:G548b@SAM-ARCHIVE`
+- [Particle Structure Engine Behavior Acceptance](g-g549b-sam-archive.md) — `G:G549b@SAM-ARCHIVE`
+- [Native Particle Slot Filler V1](g-g550b-sam-archive.md) — `G:G550b@SAM-ARCHIVE`
+- [V4 Native Mass Readout Selector Boundary](g-g556b-sam-archive.md) — `G:G556b@SAM-ARCHIVE`
+- [Route compatibility horizon selector](g-g577b-11.md) — `G:G577b@11`
+- [Horizon normal side pair compatibility](g-g586b-11.md) — `G:G586b@11`
+- [Horizon normal side pair compatibility (c version)](g-g586c-11.md) — `G:G586c@11`
+- [electron mass composition](g-g611c-09.md) — `G:G611c@09`
+- [multi-particle tier formula](g-g612c-09.md) — `G:G612c@09`
+- [muon mass composition](g-g613c-09.md) — `G:G613c@09`
+- [tau mass composition](g-g614c-09.md) — `G:G614c@09`
+- [quark sector mass composition scan](g-g615c-09.md) — `G:G615c@09`
+- [freeze: 8 rows (7 strict + 1 audit), 0 free parameters; load-bearing](g-g616c-09.md) — `G:G616c@09`
+- [Particle Branch Reopen Preflight](g-g617c-sam-archive.md) — `G:G617c@SAM-ARCHIVE`
+- [Mass Readout Selector](g-g622c-sam-archive.md) — `G:G622c@SAM-ARCHIVE`
+- [Particle Prediction Ledger V1](g-g629c-sam-archive.md) — `G:G629c@SAM-ARCHIVE`
+- [Identity Binding Vs Charge Axis Priority](g-g630c-sam-archive.md) — `G:G630c@SAM-ARCHIVE`
+- [Generation Identity Binding Selector](g-g631c-sam-archive.md) — `G:G631c@SAM-ARCHIVE`
+- [Rest Mass As Standing Sw Motion](g-g643c-sam-archive.md) — `G:G643c@SAM-ARCHIVE`
+- [Particle Assembly Ledger V2](g-g653c-sam-archive.md) — `G:G653c@SAM-ARCHIVE`
+- [Knowledge Mode Particle Property Bridge](g-g654c-sam-archive.md) — `G:G654c@SAM-ARCHIVE`
+- [color branch owner triad value readout](g-g676c-09.md) — `G:G676c@09`
+- [Stable mode selector public](g-g678-11.md) — `G:G678@11`
+- [Native action engine public](g-g679c-11.md) — `G:G679c@11`
+- [Master formula support velocity sync](g-g680c-11.md) — `G:G680c@11`
+- [Master formula support velocity sync](g-g681c-11.md) — `G:G681c@11`
+- [BAO Precision-Debt Native Window Quantum Selector](g-g715c-sam-archive.md) — `G:G715c@SAM-ARCHIVE`
+- [BB-PBH Mass-Normalization Selector](g-g733c-sam-archive.md) — `G:G733c@SAM-ARCHIVE`
+- [Native Halo Scatter Mass-Function Selector](g-g736c-sam-archive.md) — `G:G736c@SAM-ARCHIVE`
+- [Preflight](g-g743c-sam-archive.md) — `G:G743c@SAM-ARCHIVE`
+- [Native Halo Full Lane Assignment or Mass-Function Selector](g-g743d-sam-archive.md) — `G:G743d@SAM-ARCHIVE`
+- [Higgs Nine Sixteenths Scalar Route](g-g745c-sam-archive.md) — `G:G745c@SAM-ARCHIVE`
+- [Higgs Direct-Weld Result](g-g748c-sam-archive.md) — `G:G748c@SAM-ARCHIVE`
+- [magic-bell A=1 no-crossing theorem (load-bearing for CR081)](g-g11555-11.md) — `G:G11555@11`
+- [Phase Functional Bridge](qp-qp001.md) — `QP:QP001`
+- [Gamma Res Phase Write Selector](qp-qp002.md) — `QP:QP002`
+- [Interference / Bounce Phase Coupling](qp-qp003.md) — `QP:QP003`
+- [Phase To Particle Role Operator Bridge](qp-qp004.md) — `QP:QP004`
+- [Native Composite Interaction Strength Law](qp-qp005.md) — `QP:QP005`
+- [Heavy Composite Slot Priority Table](qp-qp006.md) — `QP:QP006`
+- [Role Operator Mass Closure Trial](qp-qp007.md) — `QP:QP007`
+- [Heavy Role Shift Selector](qp-qp008.md) — `QP:QP008`
+- [Heavy Composite Sealed Envelope](qp-qp009.md) — `QP:QP009`
+- [Protected Route Boundary Law](qp-qp010.md) — `QP:QP010`
+- [Decoherence Ledger Leakage Model](qp-qp011.md) — `QP:QP011`
+- [Syndrome Write Without Logical Route Collapse](qp-qp012.md) — `QP:QP012`
+- [Pre-Resolution Syndrome Letter](qp-qp012b.md) — `QP:QP012B`
+- [A-Contact Suppression Table](qp-qp013.md) — `QP:QP013`
+- [Born Rule Route-Weight Bridge](qp-qp014.md) — `QP:QP014`
+- [Interference To Ledger Commit Bridge](qp-qp015.md) — `QP:QP015`
+- [Ledger Commit To Stable Mode Selector](qp-qp016.md) — `QP:QP016`
+- [Stable Mode To Role Operator Bridge](qp-qp017.md) — `QP:QP017`
+- [Role Bridge To Particle Slot Selector](qp-qp018.md) — `QP:QP018`
+- [Particle Slot To Native Mass Surface Bridge](qp-qp019.md) — `QP:QP019`
+- [QP To Particle Bridge Readiness Package](qp-qp020.md) — `QP:QP020`
+- [Charged Lane Bridge](qp-qp021.md) — `QP:QP021`
+- [Route-Role Topology Inventory](qp-qp022a.md) — `QP:QP022A`
+- [CL Hub Origin Rule](qp-qp022b.md) — `QP:QP022B`
+- [Lane Separation Rule](qp-qp022c.md) — `QP:QP022C`
+- [Derived-Topology Replay](qp-qp022d.md) — `QP:QP022D`
+- [Derived Role To Particle Table Freeze](qp-qp023.md) — `QP:QP023`
+- [Open Slot Promotion Selector](qp-qp024.md) — `QP:QP024`
+- [Sub-A-Side Reinforcement Selector](qp-qp025.md) — `QP:QP025`
+- [Stable Lane Residual Closure Selector](qp-qp026.md) — `QP:QP026`
+- [Route Exposure Residual Crumb Selector](qp-qp027.md) — `QP:QP027`
+- [Ultra Residual Floor Selector](qp-qp028.md) — `QP:QP028`
+- [Sealed Boundary Inventory Floor Import](qp-qp029.md) — `QP:QP029`
+- [Boundary Floor to Ledger Cell Role Selector](qp-qp030.md) — `QP:QP030`
+- [Boundary Floor Open Slot Propagation Selector](qp-qp031.md) — `QP:QP031`
+- [Ultra Residual W/I Mismatch Selector](qp-qp032.md) — `QP:QP032`
+- [Slot W/I Self-Support Table](qp-qp033.md) — `QP:QP033`
+- [Lane Support vs Particle Identity Separator](qp-qp034.md) — `QP:QP034`
+- [Half-Write / Information Fixed-Point Selector](qp-qp035.md) — `QP:QP035`
+- [Local Information-Return Correction Selector](qp-qp036.md) — `QP:QP036`
+- [Particle Identity Closure Freeze](qp-qp037.md) — `QP:QP037`
+- [Composite Stability / Quantum Spaghettification Boundary](qp-qp038.md) — `QP:QP038`
+- [W/I Identity to Composite Return Channel Selector](qp-qp039.md) — `QP:QP039`
+- [Native Binding Residue Operator](qp-qp040.md) — `QP:QP040`
+- [Meson Scaffold Fill Pass](qp-qp041.md) — `QP:QP041`
+- [High-Priority Meson Role-Scale Selector](qp-qp041b.md) — `QP:QP041B`
+- [Meson Binding Readout Selector](qp-qp041c.md) — `QP:QP041C`
+- [Baryon Scaffold Fill Pass](qp-qp042.md) — `QP:QP042`
+- [Unknown Mode Carrier Assignment](qp-qp043.md) — `QP:QP043`
+- [Phase 4 Table Refresh](qp-qp044.md) — `QP:QP044`
+- [A-share Microcell Coarse-Grain Selector](qp-qp045.md) — `QP:QP045`
+- [Partition Geometry Lane Selector](qp-qp046.md) — `QP:QP046`
+- [Nuclear Binding and Isotope A-road Selector](qp-qp047.md) — `QP:QP047`
+- [Phase 4 Freeze and Visual Package](qp-qp048.md) — `QP:QP048`
+- [Isotope Seed Identity Selector](qp-qp049.md) — `QP:QP049`
+- [Symmetric Isotope Seed Mass Readout](qp-qp050.md) — `QP:QP050`
+- [Neutron Excess Binding Depth Selector](qp-qp051.md) — `QP:QP051`
+- [Numeric DeltaN and Binding Mass Selector](qp-qp052.md) — `QP:QP052`
+- [Isotope Roster Stability Selector](qp-qp053.md) — `QP:QP053`
+- [Isotope Neighbor Ladder Selector](qp-qp054.md) — `QP:QP054`
+- [Phase 5 Isotope Freeze](qp-qp055.md) — `QP:QP055`
+- [Residual Stability Decay Pressure Selector](qp-qp056.md) — `QP:QP056`
+- [Decay Direction Chain Selector](qp-qp057.md) — `QP:QP057`
+- [Phase 5 Pressure Extension Freeze](qp-qp058.md) — `QP:QP058`
+- [Phase 5 Visual Package](qp-qp059.md) — `QP:QP059`
+- [Sealed Comparison Protocol](qp-qp060.md) — `QP:QP060`
+- [Approved Sealed Isotope Comparison](qp-qp061.md) — `QP:QP061`
+- [Full Lattice Meson Binding Readout Selector](qp-qp062-sam-archive.md) — `QP:QP062@SAM-ARCHIVE`
+- [Phase4 Freeze Refresh Post Qp062](qp-qp063-sam-archive.md) — `QP:QP063@SAM-ARCHIVE`
+- [Gauge Boson Surface Extension](qp-qp064-sam-archive.md) — `QP:QP064@SAM-ARCHIVE`
+- [Same Flavor Quarkonium Frontier Coordinates](qp-qp065-sam-archive.md) — `QP:QP065@SAM-ARCHIVE`
+- [Phase4 Final Freeze With Parent Linkage](qp-qp066-sam-archive.md) — `QP:QP066@SAM-ARCHIVE`
+- [Heavy Composite Role Operator Enumerator](qp-qp067-sam-archive.md) — `QP:QP067@SAM-ARCHIVE`
+- [High Z Sealed Miss Structure Readout](qp-qp068-sam-archive.md) — `QP:QP068@SAM-ARCHIVE`
+- [Heavy Role Operator Group Invariant Search](qp-qp069-sam-archive.md) — `QP:QP069@SAM-ARCHIVE`
+- [Heavy Role Operator Structural Reading Proposal](qp-qp070-sam-archive.md) — `QP:QP070@SAM-ARCHIVE`
+- [Heavy Composite Derivation Rule And Suk Gate Draft](qp-qp071-sam-archive.md) — `QP:QP071@SAM-ARCHIVE`
+- [Heavy Composite Fill Pass](qp-qp072-sam-archive.md) — `QP:QP072@SAM-ARCHIVE`
+- [Phase4 Final Freeze Post Suk Hco](qp-qp073-sam-archive.md) — `QP:QP073@SAM-ARCHIVE`
+- [Doubly Heavy Bc Baryon Structural Reading Proposal](qp-qp074-sam-archive.md) — `QP:QP074@SAM-ARCHIVE`
+- [Campaign Closure Table](qp-qp075-sam-archive.md) — `QP:QP075@SAM-ARCHIVE`
+- [Campaign - Expanding QP075 Without Peeking](qp-qp076-sam-archive.md) — `QP:QP076@SAM-ARCHIVE`
+- [Frontier Candidate Intake Ledger](qp-qp077-sam-archive.md) — `QP:QP077@SAM-ARCHIVE`
+- [Native Operator Completion Selector](qp-qp078-sam-archive.md) — `QP:QP078@SAM-ARCHIVE`
+- [Frontier Mass Readout Replay](qp-qp079-sam-archive.md) — `QP:QP079@SAM-ARCHIVE`
+- [Frontier Boundary Press Selector](qp-qp079b-sam-archive.md) — `QP:QP079B@SAM-ARCHIVE`
+- [Frontier Stability / Existence Selector](qp-qp080-sam-archive.md) — `QP:QP080@SAM-ARCHIVE`
+- [Frontier Decay Route / Channel Selector](qp-qp081-sam-archive.md) — `QP:QP081@SAM-ARCHIVE`
+- [Decay Product Branch Triage Selector](qp-qp082-sam-archive.md) — `QP:QP082@SAM-ARCHIVE`
+- [Frontier Integration Zipper and Family Boundary Freeze](qp-qp083-sam-archive.md) — `QP:QP083@SAM-ARCHIVE`
+- [Native Heavy-Meson Isospin + Strange Extension](qp-qp083d-sam-archive.md) — `QP:QP083d@SAM-ARCHIVE`
+- [Native Doubly-Heavy B c Meson Investigation](qp-qp083e-sam-archive.md) — `QP:QP083e@SAM-ARCHIVE`
+- [Resolved Half-Route Bounce Geometry Selector](qp-qp084-sam-archive.md) — `QP:QP084@SAM-ARCHIVE`
+- [Local-A Half-Bounce Higgs Reveal](qp-qp085-sam-archive.md) — `QP:QP085@SAM-ARCHIVE`
+- [A-Dependent Higgs/Bounce Compensation Selector](qp-qp086-sam-archive.md) — `QP:QP086@SAM-ARCHIVE`
+- [W/Z/H Residual Bounce-Subslot Extension Selector](qp-qp087-sam-archive.md) — `QP:QP087@SAM-ARCHIVE`
+- [W/Z/H Q-Slot Owner + Higgs-A Source Selector](qp-qp088-sam-archive.md) — `QP:QP088@SAM-ARCHIVE`
+- [Higgs-A Source To Macro Accumulation Dynamics](qp-qp089-sam-archive.md) — `QP:QP089@SAM-ARCHIVE`
+- [Higgs ZZ* 4-Lepton Visible-Daughter Ledger Selector](qp-qp090-sam-archive.md) — `QP:QP090@SAM-ARCHIVE`
+- [Higgs ZZ* 4-Lepton Observable Prediction Freeze](qp-qp091-sam-archive.md) — `QP:QP091@SAM-ARCHIVE`
+- [Courtroom Scale Bridge Post Bounce Alignment](qp-qp091a.md) — `QP:QP091a`
+- [Surface Debit Fine Structure Factor Isolation](qp-qp091aa.md) — `QP:QP091aa`
+- [Surface Debit Residual Exact Law Isolation](qp-qp091ab.md) — `QP:QP091ab`
+- [Epsilon Residual Cartography](qp-qp091ac.md) — `QP:QP091ac`
+- [Reference Spread Boundary Test](qp-qp091ad.md) — `QP:QP091ad`
+- [Electroweak Coupling Normalization Search](qp-qp091b.md) — `QP:QP091b`
+- [Weak Mixing Neutral Current Rotation Map](qp-qp091c.md) — `QP:QP091c`
+- [Vertex Weight Builder](qp-qp091d.md) — `QP:QP091d`
+- [Amplitude Skeleton Engine](qp-qp091e.md) — `QP:QP091e`
+- [Terminal Phase Space Integrator](qp-qp091f.md) — `QP:QP091f`
+- [Hzz4L Full Candidate Amplitude](qp-qp091g.md) — `QP:QP091g`
+- [Partial Width Branching Ledger](qp-qp091h.md) — `QP:QP091h`
+- [External Reveal Map](qp-qp091i.md) — `QP:QP091i`
+- [Direct Category Yield Reveal](qp-qp091j.md) — `QP:QP091j`
+- [Ordered Daughter Route Projection](qp-qp091k.md) — `QP:QP091k`
+- [Precision Audit Direct Generator Rebuild](qp-qp091l.md) — `QP:QP091l`
+- [Native Tree Electroweak Derivation Restart](qp-qp091m.md) — `QP:QP091m`
+- [Hzz4L Half Ledger H Inference Controls](qp-qp091n.md) — `QP:QP091n`
+- [Scalar Hzz4L Native 2A0 R3 Correction Discovery](qp-qp091o.md) — `QP:QP091o`
+- [Earth Surface A Higgs Diagnostic](qp-qp091p.md) — `QP:QP091p`
+- [A0 Scalar Parent Category Split Reset](qp-qp091q.md) — `QP:QP091q`
+- [Clean 126 Bounce Subtraction Lock](qp-qp091r.md) — `QP:QP091r`
+- [Closed Loop Split Source Qa Lock](qp-qp091s.md) — `QP:QP091s`
+- [Closed Loop R2 Retention Surface Debit Derivation](qp-qp091t.md) — `QP:QP091t`
+- [Freeze And Wrong Control Break Qp091T](qp-qp091u.md) — `QP:QP091u`
+- [Particle Surface Debit Sub Operator Isolation](qp-qp091v.md) — `QP:QP091v`
+- [Surface Debit Magnitude Packet Isolation](qp-qp091w.md) — `QP:QP091w`
+- [Surface Debit Numeric Coefficient Isolation](qp-qp091x.md) — `QP:QP091x`
+- [Surface Debit R Power Exponent Selector](qp-qp091y.md) — `QP:QP091y`
+- [Surface Debit Native Menu Value Selector](qp-qp091z.md) — `QP:QP091z`
+- [Superheavy Source-Pressure Island Oracle](qp-qp092-sam-archive.md) — `QP:QP092@SAM-ARCHIVE`
+- [Particle Row Native Route Surface Debit Grammar Scan](qp-qp092a.md) — `QP:QP092a`
+- [Particle S Debit Cluster Grammar Discovery](qp-qp092b.md) — `QP:QP092b`
+- [Hard Freeze And Engine Room Rule Update](qp-qp092c.md) — `QP:QP092c`
+- [Tensor Carrier Conservation Source Ledger Closure](qp-qp092d.md) — `QP:QP092d`
+- [Weak Field External Readout From Tensor Carrier A Kernel](qp-qp092e.md) — `QP:QP092e`
+- [Tensor Carrier Wave Propagation Mode](qp-qp092f.md) — `QP:QP092f`
+- [Tensor Carrier Weak Strong Quantum Bridge Packet](qp-qp092g.md) — `QP:QP092g`
+- [Baryon Inventory Cmb Carrier Compression Rule Gate](qp-qp092h.md) — `QP:QP092h`
+- [321-Row Structural Bucket Map](qp-qp093a.md) — `QP:QP093A`
+- [Null Conjugate Closure Boundary](qp-qp093b-sam-archive.md) — `QP:QP093b@SAM-ARCHIVE`
+- [Element Isotope Closure Generator](qp-qp094a-sam-archive.md) — `QP:QP094a@SAM-ARCHIVE`
+- [D6 Mev String Strict Controls](qp-qp095-sam-archive.md) — `QP:QP095@SAM-ARCHIVE`
+- [D6 R2 Family Separation](qp-qp096-sam-archive.md) — `QP:QP096@SAM-ARCHIVE`
+- [126 Tensor Connectivity Audit](qp-qp097-sam-archive.md) — `QP:QP097@SAM-ARCHIVE`
+- [Closure Depth Charge Bin Discriminator](qp-qp098-sam-archive.md) — `QP:QP098@SAM-ARCHIVE`
+- [Identity Separation](qp-qp099-sam-archive.md) — `QP:QP099@SAM-ARCHIVE`
+- [Boson Identity Full 286](qp-qp100a-sam-archive.md) — `QP:QP100a@SAM-ARCHIVE`
+- [Neutral Fermion Half Rule Gap](qp-qp100b-sam-archive.md) — `QP:QP100b@SAM-ARCHIVE`
+- [Tensor Carriers Added Audit](qp-qp101-sam-archive.md) — `QP:QP101@SAM-ARCHIVE`
+- [V3 Catalog Audit](qp-qp101b-sam-archive.md) — `QP:QP101b@SAM-ARCHIVE`
+- [Tensor Sum Ledger Closure](qp-qp102-sam-archive.md) — `QP:QP102@SAM-ARCHIVE`
+- [A Field Location](qp-qp103-sam-archive.md) — `QP:QP103@SAM-ARCHIVE`
+- [Corrected 299 Catalog Propagation Audit](qp-qp104-sam-archive.md) — `QP:QP104@SAM-ARCHIVE`
+- [Stable Rows Unchanged Check](qp-qp105-sam-archive.md) — `QP:QP105@SAM-ARCHIVE`
+- [80 Row Matter Sector Restart](qp-qp106-sam-archive.md) — `QP:QP106@SAM-ARCHIVE`
+- [Quark Like Distribution](qp-qp107-sam-archive.md) — `QP:QP107@SAM-ARCHIVE`
+- [Compact Substrate Laws 80 Rows](qp-qp108-sam-archive.md) — `QP:QP108@SAM-ARCHIVE`
+- [A Field Conjugate Route Test](qp-qp109-sam-archive.md) — `QP:QP109@SAM-ARCHIVE`
+- [R D Plus 1 Extension H T 2](qp-qp110-sam-archive.md) — `QP:QP110@SAM-ARCHIVE`
+- [Fold Identity M 126](qp-qp111-sam-archive.md) — `QP:QP111@SAM-ARCHIVE`
+- [A Operator Theta Bridge Correspondence](qp-qp112-sam-archive.md) — `QP:QP112@SAM-ARCHIVE`
+- [NEUTRINO MASS SPECTRUM AND SPLITTINGS](cr-cr001-20.md) — `CR:CR001@20`
+- [NEUTRINO ORDERING FROM SUBSTRATE STRUCTURE](cr-cr002-20.md) — `CR:CR002@20`
+- [QP carrier support](cr-cr050-12.md) — `CR:CR050@12`
+- [QC carrier/envelope/gate/readout protocol](cr-cr051-12.md) — `CR:CR051@12`
+- [QC material/isotope support](cr-cr052-12.md) — `CR:CR052@12`
+- [QN network grammar / link / relay / routing](cr-cr053-12.md) — `CR:CR053@12`
+- [QN Born surface and letter-safe correction](cr-cr054-12.md) — `CR:CR054@12`
+- [QN Earth-A and sealed benchmark manifest](cr-cr055-12.md) — `CR:CR055@12`
+- [QN external benchmark and experimental protocol](cr-cr056-12.md) — `CR:CR056@12`
+- [QN live scorecard and ingestion protocol](cr-cr057-12.md) — `CR:CR057@12`
+- [QC/QN branch verdict](cr-cr058-12.md) — `CR:CR058@12`
+- [Particle Engine Allowed Inputs](cr-cr059-09.md) — `CR:CR059@09`
+- [Mass-bounce A-source QC/QN bridge](cr-cr059-12.md) — `CR:CR059@12`
+- [Particle engine allowed inputs (QP075 source lock)](cr-cr059a-09a.md) — `CR:CR059a@09a`
+- [Selector Provenance and Forbidden Targets](cr-cr060-09.md) — `CR:CR060@09`
+- [Selector provenance and forbidden targets](cr-cr060a-09a.md) — `CR:CR060a@09a`
+- [Paul Revere letter alphabet lock v1.0](cr-cr060a-12a.md) — `CR:CR060a@12a`
+- [Mass Chain Reproduction](cr-cr061-09.md) — `CR:CR061@09`
+- [Mass-chain reproduction](cr-cr061a-09a.md) — `CR:CR061a@09a`
+- [Ideal qubit selection within 3-body standard letter tier v1.0](cr-cr061a-12a.md) — `CR:CR061a@12a`
+- [Row-by-Row Particle Ledger (K1 Anchor)](cr-cr062-09.md) — `CR:CR062@09`
+- [Row-by-row particle ledger (35 rows)](cr-cr062a-09a.md) — `CR:CR062a@09a`
+- [Wrong Controls and Near Neighbors](cr-cr063-09.md) — `CR:CR063@09`
+- [Wrong controls and older freeze misroute quarantine](cr-cr063a-09a.md) — `CR:CR063a@09a`
+- [Hardware translation document v1.0 (T2_grav prediction)](cr-cr063a-12a.md) — `CR:CR063a@12a`
+- [Particle Mass Chain Branch Verdict (Zipper)](cr-cr064-09.md) — `CR:CR064@09`
+- [Appeal - QP075 Full Ledger Extension](cr-cr064a-09.md) — `CR:CR064a@09`
+- [Particle mass-chain branch verdict (Phase 1 zipper)](cr-cr064a-09a.md) — `CR:CR064a@09a`
+- [A_0 calibration + published T2 verification v1.0](cr-cr064a-12a.md) — `CR:CR064a@12a`
+- [Vault protocol and hash chain](cr-cr065-10.md) — `CR:CR065@10`
+- [Higgs ZZ4L prediction intake (QP084-QP091)](cr-cr065a-09a.md) — `CR:CR065a@09a`
+- [Paul Revere implementation spec v1.0](cr-cr065a-12a.md) — `CR:CR065a@12a`
+- [Allowed inputs and forbidden targets (input boundary gate)](cr-cr066-10.md) — `CR:CR066@10`
+- [Higgs ZZ4L CERN reveal map](cr-cr066a-09a.md) — `CR:CR066a@09a`
+- [Born extension and 1/alpha_H^4 letter increment v1.0](cr-cr066a-12a.md) — `CR:CR066a@12a`
+- [Slot vs contact-level layering of 1/alpha_H^4 letter increment v1.0](cr-cr066b-12a.md) — `CR:CR066b@12a`
+- [Periodic structure derivation](cr-cr067-10.md) — `CR:CR067@10`
+- [WZH bounce sub-slot intake (QP087-QP088)](cr-cr067a-09a.md) — `CR:CR067a@09a`
+- [Multi-Letter Capacity Scaling and the Gravity Channel Ceiling v1.0](cr-cr067a-12a.md) — `CR:CR067a@12a`
+- [Paul Revere NV simulator v1.0 cryo+DD](cr-cr067b-12a.md) — `CR:CR067b@12a`
+- [Isotope manifest reproduction](cr-cr068-10.md) — `CR:CR068@10`
+- [Quark lineage 9/8 reciprocal control](cr-cr068a-09a.md) — `CR:CR068a@09a`
+- [Paul Revere warning-only simulator v1.0](cr-cr068a-12a.md) — `CR:CR068a@12a`
+- [Observed roster comparison (K1 anchor)](cr-cr069-10.md) — `CR:CR069@10`
+- [09a Phase 2 branch verdict zipper](cr-cr069a-09a.md) — `CR:CR069a@09a`
+- [Stage 2 empirical T2 contact table](cr-cr069a-12a.md) — `CR:CR069a@12a`
+- [Nulls / rarity / wrong controls (3 sub-lanes)](cr-cr070-10.md) — `CR:CR070@10`
+- [Expanded NV-diamond T2 contact table](cr-cr070a-12a.md) — `CR:CR070a@12a`
+- [Superheavy miss-band target map (PERMANENT FRONTIER SEAL)](cr-cr071-10.md) — `CR:CR071@10`
+- [Photonic PR letter framework mapping](cr-cr071a-12a.md) — `CR:CR071a@12a`
+- [Isotope/periodic branch verdict (10 branch)](cr-cr072-10.md) — `CR:CR072@10`
+- [Photonic empirical contact table](cr-cr072a-12a.md) — `CR:CR072a@12a`
+- [Action phase anchor](cr-cr073-11.md) — `CR:CR073@11`
+- [Cross-platform PR letter scaling test](cr-cr073a-12a.md) — `CR:CR073a@12a`
+- [Double-slit / Born route](cr-cr074-11.md) — `CR:CR074@11`
+- [Reproducibility lock](cr-cr074a-12a.md) — `CR:CR074a@12a`
+- [Unresolved path and ledger write](cr-cr075-11.md) — `CR:CR075@11`
+- [Field comparison presentation bundle](cr-cr075a-12a.md) — `CR:CR075a@12a`
+- [Phase integral / A exposure](cr-cr076-11.md) — `CR:CR076@11`
+- [Quantum-to-classical resolution chain](cr-cr077-11.md) — `CR:CR077@11`
+- [CERN allowed inputs and source lock](cr-cr089-13.md) — `CR:CR089@13`
+- [CERN blank inventory and coverage map](cr-cr090-13.md) — `CR:CR090@13`
+- [Precision electroweak observational comparison](cr-cr091-13.md) — `CR:CR091@13`
+- [Z 12-sigma residual closure appeal](cr-cr091a-09a.md) — `CR:CR091a@09a`
+- [Higgs sector mass-slice observational comparison](cr-cr092-13.md) — `CR:CR092@13`
+- [HZZ4L scalar-parent closed-loop R^2 retention intake](cr-cr092a-09a.md) — `CR:CR092a@09a`
+- [Wrong controls and honest negatives](cr-cr096-13.md) — `CR:CR096@13`
+- [CERN gaps forward-blind prediction registry](cr-cr098-13.md) — `CR:CR098@13`
+- [Forward-blind registry Phase 2 refresh](cr-cr098a-13.md) — `CR:CR098a@13`
+- [Forward-blind registry Phase 3 refresh](cr-cr098b-13.md) — `CR:CR098b@13`
+- [SAM-X-012 falsifier hunt](cr-cr099-13.md) — `CR:CR099@13`
+- [SW primitive open-question roadmap](cr-cr100-13.md) — `CR:CR100@13`
+- [GATE_1 partial closure appeal (G744c / G745c lock)](cr-cr100a-13.md) — `CR:CR100a@13`
+- [GATE_2 c_SW vs c partial closure (2-sigma)](cr-cr101-13.md) — `CR:CR101@13`
+- [GATE_2 astrophysical closure (c_SW = c)](cr-cr102-14.md) — `CR:CR102@14`
+- [GATE_1 N_SW multiplicity scaling (simplest reading disfavored)](cr-cr103-14.md) — `CR:CR103@14`
+- [Bounce-cost A-dependence and 11/12 spaghettification appeal](cr-cr103a-14.md) — `CR:CR103a@14`
+- [Corrected-structure closure appeal (G744c verification)](cr-cr103b-14.md) — `CR:CR103b@14`
+- [GATE_3 K(A_H) self-correction (EP tests)](cr-cr104-14.md) — `CR:CR104@14`
+- [Local Higgs vs galactic A appeal (Layer 4)](cr-cr104a-14.md) — `CR:CR104a@14`
+- [9/8 bounce derivation question lock](cr-cr104b-14.md) — `CR:CR104b@14`
+- [9/16 + 9/8 unification appeal](cr-cr104c-14.md) — `CR:CR104c@14`
+- [GATE-cross integrity (joint GATE_2 + GATE_3)](cr-cr105-14.md) — `CR:CR105@14`
+- [14 Phase 1 branch verdict zipper](cr-cr106-14.md) — `CR:CR106@14`
+- [SPARC galaxy rotation curve intake](cr-cr107-14.md) — `CR:CR107@14`
+- [Planck Omega_b anchor intake](cr-cr108-14.md) — `CR:CR108@14`
+- [PBH abundance constraint intake](cr-cr109-14.md) — `CR:CR109@14`
+- [Three-mode Earth/Galaxy/PBH closure appeal](cr-cr110-14.md) — `CR:CR110@14`
+- [Cosmic baryon Omega_b closure appeal](cr-cr111-14.md) — `CR:CR111@14`
+- [14 Phase 2 branch verdict zipper](cr-cr112-14.md) — `CR:CR112@14`
+- [Cross-branch Phase 2 courtroom certificate](cr-cr113-00.md) — `CR:CR113@00`
+- [A4 completed-WRITE address-count theorem (R=12)](cr-cr113-14.md) — `CR:CR113@14`
+- [Cosmic baryon bridge reveal (CR018 -> CR111_PRED_1)](cr-cr114-00.md) — `CR:CR114@00`
+- [Binary face-state split theorem (alpha_H=2)](cr-cr114-14.md) — `CR:CR114@14`
+- [Galaxy/PBH bridge partial reveal](cr-cr115-00.md) — `CR:CR115@00`
+- [D=3 invariant-carrier uniqueness theorem](cr-cr115-14.md) — `CR:CR115@14`
+- [SAM halo composition correction](cr-cr116-00.md) — `CR:CR116@00`
+- [18 graviton-channel carrier theorem](cr-cr116-14.md) — `CR:CR116@14`
+- [SAM/CMB scope boundary documentation](cr-cr117-00.md) — `CR:CR117@00`
+- [S8 Typed Surface Closure Octahedron Duality](cr-cr117-14.md) — `CR:CR117@14`
+- [Distance-road SN+BAO headline export](cr-cr118-00.md) — `CR:CR118@00`
+- [Particle/matter/periodic vault reveal (321-particle catalog)](cr-cr119-09a.md) — `CR:CR119@09a`
+- [Typed Closure Hierarchy Promotion Ladder](cr-cr119-14.md) — `CR:CR119@14`
+- [Particle/Matter/Periodic Vault Reveal](cr-cr119-17.md) — `CR:CR119@17`
+- [QP091 Higgs EW precision iterative refinement intake](cr-cr120-09a.md) — `CR:CR120@09a`
+- [Local Closure Propagation Adjacent Ledger Site](cr-cr120-14.md) — `CR:CR120@14`
+- [W9 Typed Resolution Certificate Bridge](cr-cr120a-14.md) — `CR:CR120A@14`
+- [Higgs appeal by composition (deferred-support PASS)](cr-cr120b-09a.md) — `CR:CR120b@09a`
+- [Research Candidate Result](cr-cr120c-14.md) — `CR:CR120C@14`
+- [Runtime Contract Result](cr-cr120d-14.md) — `CR:CR120D@14`
+- [Structural Mapping Discrimination Result](cr-cr120e-14.md) — `CR:CR120E@14`
+- [Interaction, Record, and Higgs-Operator Discrimination](cr-cr120f-14.md) — `CR:CR120F@14`
+- [Internal Split, Residue, Mirror-Odd X1 Complement](cr-cr120g-14.md) — `CR:CR120G@14`
+- [Typed Residual Ledger / Au-197 Analogy Discrimination](cr-cr120h-14.md) — `CR:CR120H@14`
+- [Typed Substrate-Ledger Write-State-Read Discrimination](cr-cr120i-14.md) — `CR:CR120I@14`
+- [Internal Write-Visibility Ratio q WSR](cr-cr120j-14.md) — `CR:CR120J@14`
+- [p=9,g=0 W9 8+1 Independent-Inventory Discrimination](cr-cr120k-14.md) — `CR:CR120K@14`
+- [Typed 7-8-9 Theta Mirror Budget and F81 Roster Discrimination](cr-cr120l-14.md) — `CR:CR120L@14`
+- [Eight-Plus-One Binding-Transfer Source Gate](cr-cr120m-14.md) — `CR:CR120M@14`
+- [Fresh QP093A Updated-Sheet 100/81 Roster Comparison](cr-cr120n-14.md) — `CR:CR120N@14`
+- [All-Depth p9 Eight-Plus-One Native/qA Discrimination](cr-cr120o-14.md) — `CR:CR120O@14`
+- [P9 G0 Updated Sheet Binding Improvement Potential](cr-cr120p-14.md) — `CR:CR120P@14`
+- [P9 G0 Updated Sheet Binding Magnitude Holdout Sensitivity](cr-cr120q-14.md) — `CR:CR120Q@14`
+- [QP093A p9,g0 Witness-Packet Exclusion and 100-Row L162 Native Ledger](cr-cr120r-14.md) — `CR:CR120R@14`
+- [QP093A F81 Retained-Matter Projection](cr-cr120s-14.md) — `CR:CR120S@14`
+- [Qp093A Ledger To Matter W9 Higgs Binding Discovery](cr-cr120t-14.md) — `CR:CR120T@14`
+- [Qp093A Typed Motif Octahedral Incidence Discovery](cr-cr120u-14.md) — `CR:CR120U@14`
+- [B/X1 typed half-relay archival discrimination](cr-cr120v-14.md) — `CR:CR120V@14`
+- [A-field-carrier / X1 typed-weld discovery result](cr-cr120w-14.md) — `CR:CR120W@14`
+- [dual-depth Θ / B / X1 / W8-to-W9 relaxed discovery result](cr-cr120x-14.md) — `CR:CR120X@14`
+- [Θ18 Model-Wide Primary-Carrier Stress Test](cr-cr120y-14.md) — `CR:CR120Y@14`
+- [X1 Entanglement-Response Quantum Sandbox](cr-cr120z-14.md) — `CR:CR120Z@14`
+- [X1 Ordered Quantum Instrument Finite-Shot NV Discovery](cr-cr120zb-14.md) — `CR:CR120ZB@14`
+- [SAM gravity mechanism intake (NOT_GRAVITON / NOT_FULL_QG)](cr-cr121-11.md) — `CR:CR121@11`
+- [Carrier-compression gate retroactive bridge (qp092h)](cr-cr122-00.md) — `CR:CR122@00`
+- [Cross-branch Phase 3 courtroom certificate](cr-cr123-00.md) — `CR:CR123@00`
+- [CERN gap crosswalk (321-row particle catalog)](cr-cr124-13.md) — `CR:CR124@13`
+- [X(6900) forward-blind two-state prediction](cr-cr125-13.md) — `CR:CR125@13`
+- [Precision frontier - structural residual on 4 LOOSE rows](cr-cr126-13.md) — `CR:CR126@13`
+- [Natural-scale null control on 17 allowed rows](cr-cr126b-13.md) — `CR:CR126b@13`
+- [A-priori dichotomy rule v1.0](cr-cr126c-13.md) — `CR:CR126c@13`
+- [Light-ALP coverage map (141 rows / 10-1000 MeV)](cr-cr127-13.md) — `CR:CR127@13`
+- [BOUND_COLOR_PAIR mass law v1.0](cr-cr128-13.md) — `CR:CR128@13`
+- [BOUND_COLOR_PAIR S_debit law v1.0](cr-cr128b-13.md) — `CR:CR128b@13`
+- [OCTET_COMPOSITE 3-body mass law v1.0](cr-cr129-13.md) — `CR:CR129@13`
+- [3-body S_debit magnitude law v1.0](cr-cr129b-13.md) — `CR:CR129b@13`
+- [3-body universal generator (GROUND_BARYON extension)](cr-cr129c-13.md) — `CR:CR129c@13`
+- [2-body / 3-body structural bridge + 4-body conjecture](cr-cr130-13.md) — `CR:CR130@13`
+- [V4_1 single-write fermion ladder law v1.0](cr-cr131-13.md) — `CR:CR131@13`
+- [1-body carrier lattice law v1.0](cr-cr132-13.md) — `CR:CR132@13`
+- [OUTER_BINARY_NEUTRAL fermion ladder law v1.0](cr-cr133-13.md) — `CR:CR133@13`
+- [SOURCE_SUPPORT_PACKET law v1.0](cr-cr134-13.md) — `CR:CR134@13`
+- [Hostile audit master verdict (2026-06-17)](cr-cr135-00.md) — `CR:CR135@00`
+- [QP_chain ingest v1.0 (42 external artifacts internalized)](cr-cr136-00.md) — `CR:CR136@00`
+- [CR063a@12a verdict regrade (SEALED -> REFUTED) v1.0](cr-cr137-00.md) — `CR:CR137@00`
+- [CR064a@12a verdict regrade (SEALED -> BOUNDARY) v1.0](cr-cr138-00.md) — `CR:CR138@00`
+- [CR122@00_gov verdict language regrade (SEALED -> BOUNDARY) v1.0](cr-cr139-00.md) — `CR:CR139@00`
+- [CR120@09a Higgs claim reword (SEALED -> BOUNDARY) v1.0](cr-cr140-00.md) — `CR:CR140@00`
+- [Row-generator self-hash repair v1.0 (10 CRs)](cr-cr141-00.md) — `CR:CR141@00`
+- [Row-generator in-sample qualifier sweep v1.0 (10 CRs)](cr-cr142-00.md) — `CR:CR142@00`
+- [Source-to-field simulator bridge](cr-cr201-15.md) — `CR:CR201@15`
+- [Typed readout reproduction](cr-cr202-15.md) — `CR:CR202@15`
+- [Chladni-to-particle route bridge (QP091 fresh)](cr-cr203-15.md) — `CR:CR203@15`
+- [Resolved-SW parent reconstruction](cr-cr204-15.md) — `CR:CR204@15`
+- [External resolved-parent reconstruction](cr-cr204a-15.md) — `CR:CR204a@15`
+- [Scalar/gauge/fermion lane separation](cr-cr205-15.md) — `CR:CR205@15`
+- [Earth/galaxy/PBH accumulation mode selector](cr-cr206-15.md) — `CR:CR206@15`
+- [Closed-loop stability](cr-cr207-15.md) — `CR:CR207@15`
+- [External chain replay stability](cr-cr207a-15.md) — `CR:CR207a@15`
+- [Wrong-control zipper and branch verdict](cr-cr208-15.md) — `CR:CR208@15`
+- [Resolved-SW external promotion zipper](cr-cr208a-15.md) — `CR:CR208a@15`
+- [Electroweak topology extension (full EW theorem open)](cr-cr209-15.md) — `CR:CR209@15`
+- [Starbreaker 3D External Collapse Directional Contact Replay](cr-cr210-15.md) — `CR:CR210@15`
+- [HH001 Fano plates 126 intake](cr-cr210-17.md) — `CR:CR210@17`
+- [Octahedral Complete Ledger Address Adapter](cr-cr210a-15.md) — `CR:CR210a@15`
+- [OCTAHEDRAL COMPLETE LEDGER ADDRESS ADAPTER Result](cr-cr210b-15.md) — `CR:CR210b@15`
+- [OCTAHEDRAL COMPLETE LEDGER ADDRESS ADAPTER Result](cr-cr210c-15.md) — `CR:CR210c@15`
+- [Octahedral Complete Ledger Boundary Closure Appeal](cr-cr210d-15.md) — `CR:CR210d@15`
+- [Starbreaker Particle Ledger Interface](cr-cr211-15.md) — `CR:CR211@15`
+- [HH001 content verification against Courtroom data](cr-cr211-17.md) — `CR:CR211@17`
+- [Fano Plates Open Readings Promotion Scan](cr-cr212-fano.md) — `CR:CR212@Fano`
+- [Fano Plates SAM Scaffold Regrade](cr-cr212a-fano.md) — `CR:CR212a@Fano`
+- [D3 to Particle Breadcrumb Audit](cr-cr213-fano.md) — `CR:CR213@Fano`
+- [CR119 particle-complement pattern audit](cr-cr214-09a.md) — `CR:CR214@09a`
+- [CR214 carrier numeric-duplicate audit](cr-cr215-09a.md) — `CR:CR215@09a`
+- [Carrier duplicate retirement](cr-cr216-09a.md) — `CR:CR216@09a`
+- [Dedup structural identity audit](cr-cr217-09a.md) — `CR:CR217@09a`
+- [Hidden-source bigrade derivation](cr-cr218-09a.md) — `CR:CR218@09a`
+- [Promoted particle rows export](cr-cr219-09a.md) — `CR:CR219@09a`
+- [Particle-count stability simulation](cr-cr220-09a.md) — `CR:CR220@09a`
+- [Native 63 generator](cr-cr220-12a.md) — `CR:CR220@12a`
+- [Kappa derivation from P to G/GR](cr-cr221-09a.md) — `CR:CR221@09a`
+- [Bound 63 generator](cr-cr221-12a.md) — `CR:CR221@12a`
+- [Constants-only element generator](cr-cr222-09a.md) — `CR:CR222@09a`
+- [Carrier ledger 12 plus 1](cr-cr222-12a.md) — `CR:CR222@12a`
+- [Native stack contract](cr-cr222a-12a.md) — `CR:CR222a@12a`
+- [Paul Revere packet contract](cr-cr222b-12a.md) — `CR:CR222b@12a`
+- [PR packet audit states](cr-cr222c-12a.md) — `CR:CR222c@12a`
+- [Row taxonomy promotion gate](cr-cr222d-12a.md) — `CR:CR222d@12a`
+- [PR warning emission gate](cr-cr222e-12a.md) — `CR:CR222e@12a`
+- [PR platform adapter contract](cr-cr222f-12a.md) — `CR:CR222f@12a`
+- [PR target binding 3-body diamond](cr-cr222g-12a.md) — `CR:CR222g@12a`
+- [Pair-to-triad binding 0262 to 0200](cr-cr222h-12a.md) — `CR:CR222h@12a`
+- [CP/QC PR particle-carrier pair](cr-cr222i-12a.md) — `CR:CR222i@12a`
+- [PR self-correction triad carrier](cr-cr222j-12a.md) — `CR:CR222j@12a`
+- [Formula spreadsheet export](cr-cr223-09a.md) — `CR:CR223@09a`
+- [PR observable identity lock](cr-cr223a-12a.md) — `CR:CR223a@12a`
+- [PR qutrit tomography purity estimator](cr-cr223b-12a.md) — `CR:CR223b@12a`
+- [PR Raw Tomography & Sensor-Proxy Contact Result](cr-cr223c-12a.md) — `CR:CR223c@12a`
+- [PR realtime warning contact](cr-cr223d-12a.md) — `CR:CR223d@12a`
+- [PR QC operational benefit](cr-cr223e-12a.md) — `CR:CR223e@12a`
+- [Tensor carrier physical discriminant](cr-cr223f-12a.md) — `CR:CR223f@12a`
+- [Zero-free-parameter SOB row engine](cr-cr224-09a.md) — `CR:CR224@09a`
+- [Carrier/hidden CLOCK selector candidate](cr-cr225-09a.md) — `CR:CR225@09a`
+- [Vaulted SOB card generation freeze reveal](cr-cr226-09a.md) — `CR:CR226@09a`
+- [No-free-input SOB formula workbook](cr-cr227-09a.md) — `CR:CR227@09a`
+- [Reveal-layer SOB formula workbook](cr-cr228-09a.md) — `CR:CR228@09a`
+- [Carrier-tensor inclusion-exclusion identity (substrate IS closed carrier-tensor ledger)](cr-cr229-09a.md) — `CR:CR229@09a`
+- [Raw-generator test (substrate structural numbers from R/D/alpha_H alone)](cr-cr230-09a.md) — `CR:CR230@09a`
+- [Partition-shuffle null test (Test 2 of 7)](cr-cr231-09a.md) — `CR:CR231@09a`
+- [Matter/support promotion gate audit (Test 3 of 7)](cr-cr232-09a.md) — `CR:CR232@09a`
+- [18/81/27 tensor-substrate role-separation test (Test 4 of 7)](cr-cr233-09a.md) — `CR:CR233@09a`
+- [Blind SOB element engine (Test 5 of 7; actual folder CR_TEST5)](cr-cr234-09a.md) — `CR:CR234@09a`
+- [qA/8 gravity bridge test (Test 6 of 7)](cr-cr235-09a.md) — `CR:CR235@09a`
+- [Exact-source gravity bridge reaudit (Test 6 follow-up amendment)](cr-cr235a-09a.md) — `CR:CR235a@09a`
+- [Paul Revere quantum warning / tomography (Test 7 of 7; actual folder CR_TEST7)](cr-cr236-12.md) — `CR:CR236@12`
+- [Substrate spine compaction + primitive typing audit](cr-cr238-09a.md) — `CR:CR238@09a`
+- [Native mass / gravity direct-bridge test](cr-cr239-09a.md) — `CR:CR239@09a`
+- [Rest-mass channel identification + binding-energy axis](cr-cr240-09a.md) — `CR:CR240@09a`
+- [Rest-mass holdout and structural-uniqueness test](cr-cr241-09a.md) — `CR:CR241@09a`
+- [SAM binding-curvature derivation against Bethe-Weizsacker](cr-cr242-09a.md) — `CR:CR242@09a`
+- [Mass-lift channel typing audit (typed channel table)](cr-cr243-09a.md) — `CR:CR243@09a`
+- [Unequal-pair typed forms (ordinary + OCTET-involved lanes)](cr-cr244-09a.md) — `CR:CR244@09a`
+- [Binding-curvature from typed substrate (asymmetry-term identity + BW coefficient typing)](cr-cr245-09a.md) — `CR:CR245@09a`
+- [SOB inverse second-layer decomposition (n_balanced=Z + n_excess=N-Z; six identities EXACT)](cr-cr247-09a.md) — `CR:CR247@09a`
+- [SOB micro-channel debit occupancy map (4-particle decomp + linear B_u closure attempt)](cr-cr248-09a.md) — `CR:CR248@09a`
+- [A-kernel binding geometry (V/S/C/asym/pair shapes + typed-coefficient search; first within-1% typed coefficient)](cr-cr249-09a.md) — `CR:CR249@09a`
+- [c_A lock-and-refit test (1/(S*L) structural reality + carrier-bounce 9/8 alternative)](cr-cr250-09a.md) — `CR:CR250@09a`
+- [Bounce-aware asymmetry coefficient isolation (Frisch-Waugh-Lovell orthogonalized + stress lane + isobaric)](cr-cr251-09a.md) — `CR:CR251@09a`
+- [Particle Catalog Spine-Refresh — Result](cr-cr252-09a.md) — `CR:CR252@09a`
+- [Particle Promoter (80-Row Stable Matter Set) — RESULT](cr-cr253-09a.md) — `CR:CR253@09a`
+- [Compact Matter Charged-Row Law — RESULT](cr-cr254-09a.md) — `CR:CR254@09a`
+- [Compact Matter Neutral-Row Law — RESULT](cr-cr255-09a.md) — `CR:CR255@09a`
+- [A-Operator Antimatter Conjugate Transform — RESULT](cr-cr256-09a.md) — `CR:CR256@09a`
+- [A Meets Θ at d=1 — RESULT](cr-cr257-09a.md) — `CR:CR257@09a`
+- [A Meets Θ at d=1 — W4 Correction Re-Run — RESULT](cr-cr257b-09a.md) — `CR:CR257b@09a`
+- [Substrate Primitive Closure Audit — RESULT](cr-cr258-09a.md) — `CR:CR258@09a`
+- [Chessboard Bin Structural Identification -- RESULT](cr-cr259-09a.md) — `CR:CR259@09a`
+- [Pair-Write Binding Extension — RESULT](cr-cr261-09a.md) — `CR:CR261@09a`
+- [Substrate Carrier/Container Stability Cipher -- RESULT](cr-cr262-09a.md) — `CR:CR262@09a`
+- [Genuine Multientropy / Dihedral-Invariant Framework Foundation -- RESULT](cr-cr263-09a.md) — `CR:CR263@09a`
+- [Element State Specification (Lifshitz-RK) -- RESULT](cr-cr264-09a.md) — `CR:CR264@09a`
+- [Two-Mirror Reciprocity Derivation of d-hat = 3 -- RESULT](cr-cr266-09a.md) — `CR:CR266@09a`
+- [Tensor 9 as Closure Witness -- RESULT](cr-cr267-09a.md) — `CR:CR267@09a`
+- [Tensor 6 as Heaviest Neutrino Mass Eigenstate -- RESULT](cr-cr268-09a.md) — `CR:CR268@09a`
+- [Bow Primitive B as Formal Contact Operator on R^2 -- RESULT](cr-cr269-09a.md) — `CR:CR269@09a`
+- [Source-Count Measure Identification via GKS Framework -- RESULT](cr-cr270-09a.md) — `CR:CR270@09a`
+- [E-Channel Chemistry Cipher -- RESULT](cr-cr271-09a.md) — `CR:CR271@09a`
+- [Three Substrate-Predicted Nobles: Forecast Locks -- RESULT](cr-cr272-09a.md) — `CR:CR272@09a`
+- [Jerroldium-252 Five-Way Convergence -- RESULT](cr-cr273-09a.md) — `CR:CR273@09a`
+- [Gated Nuclear-Readout Operators for CR261 Binding Closure](cr-cr274-09a.md) — `CR:CR274@09a`
+- [Particle Sieve Anchoring Table — RESULT](cr-cr276-09a.md) — `CR:CR276@09a`
+- [126-Element Table and Frontier Forecast Locks](cr-cr277-09a.md) — `CR:CR277@09a`
+- [Neutron Rule Consolidation](cr-cr278-09a.md) — `CR:CR278@09a`
+- [Higgs Direct-Weld Promotion Result](cr-cr279-13.md) — `CR:CR279@13`
+- [CR253 Stable-Matter Surface Semantic Clarification Result](cr-cr280-09a.md) — `CR:CR280@09a`
+- [Carrier/Container Functional Operator -- Result](cr-cr281-09a.md) — `CR:CR281@09a`
+- [A Operator Row Trace Axis Self Closure Weld](cr-cr282-09a.md) — `CR:CR282@09a`
+- [Eighty Rows Plus One Closure Address Equals Face 81](cr-cr283-09a.md) — `CR:CR283@09a`
+- [Water-Ion Shape Selectivity Campaign Intake Result](cr-cr284-22.md) — `CR:CR284@22`
+- [Passive Octahedral Membrane Construction Grammar Result](cr-cr285-22.md) — `CR:CR285@22`
+- [Observation-Blind Water-Ion Species Graph Result](cr-cr286-22.md) — `CR:CR286@22`
+- [Blind Gate Compatibility and Degeneracy Result](cr-cr287-22.md) — `CR:CR287@22`
+- [Z=96 regime-change / N-Z stability collapse (Test 8 extension; actual folder CR_TEST8)](cr-test8-09a.md) — `CR:TEST8@09a`
+- [Z=96 threshold-existence appeal amendment (CR_TEST8 follow-up)](cr-test8a-09a.md) — `CR:TEST8a@09a`
+- [The Last Campaign Charter](lc-lc00.md) — `LC:LC00`
+- [Primitive Stack Lock and Replay Register](lc-lc01.md) — `LC:LC01`
+- [Higgs Closed-Form Replay](lc-lc02.md) — `LC:LC02`
+- [qA Ledger Compression / Gravity-As-A Replay](lc-lc03.md) — `LC:LC03`
+- [Particle Mass-Chain Table Replay](lc-lc04.md) — `LC:LC04`
+- [Periodic/Isotope Vault Replay](lc-lc05.md) — `LC:LC05`
+- [Baryon And Matter Inventory Replay](lc-lc06.md) — `LC:LC06`
+- [Quantum Pair-Write / Born-Rule Lane Replay](lc-lc09.md) — `LC:LC09`
+- [Quantum Information Thresholds Replay](lc-lc10.md) — `LC:LC10`

@@ -1,0 +1,37 @@
+{
+  "cr_id": "CR001b@19",
+  "branch": "19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER",
+  "title": "PEEBLES_NONEQUILIBRIUM_RECOMBINATION_APPEAL",
+  "precommit_sha256": "38259de487a8b3a31df787c7c5d5bed5e442c134472b74e3f5ad0a98d7ff991b",
+  "appeal_of": "CR001@19",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_zero_catalog_fit": {
+    "A_0_value": 0.02652582384864922,
+    "Omega_m_value": 0.3183098861837907,
+    "chi_value": 0.07073553026306459,
+    "Omega_b_value": 0.04929890833649833,
+    "Omega_c_value": 0.26901097784729237
+  },
+  "measurement_inputs_external_not_catalog_fit": {
+    "H_0_kms_Mpc": 68.76,
+    "T_0_K": 2.7255,
+    "N_eff": 3.046
+  },
+  "recombination_model": "Peebles (1968) effective-three-level atom; H-only; implemented with textbook-corrected Boltzmann factor exp(-13.6 eV / kT) in beta_eff (DEPARTURE from precommit text which specified exp(-3.4 eV / kT); precommit-exact form produces no recombination)",
+  "drag_epoch_model": "baryon-drag optical depth integral with the same buggy 1/(a^2 * H) integrand as precommit-specified",
+  "bbn_model": "schematic Wagoner two-state weak freeze-out (identical to CR001@19)",
+  "precommit_bugs_identified": {
+    "Bug_A": "Precommit Peebles RHS uses exp(-3.4 eV / kT) in beta_2; standard Peebles requires multiplying by an additional exp(-h*nu_alpha / kT) factor (Lyman-alpha 10.2 eV) on the ionization term, combining to exp(-13.6 eV / kT). Without this, equilibrium is Saha-n=2 which sits at x_e ~ 1 forever (no recombination). Runner DEPARTED from precommit and used the textbook-correct form.",
+    "Bug_B": "Precommit tau integrand has 1/(a^2 * H); standard derivation from tau = integral(n_e sigma_T c dt) with dt = da/(a*H) gives 1/(a * H). Runner HONORED the precommit specification per the appeal discipline, producing the FAIL documented in P1, P2, P3."
+  },
+  "load_bearing_predictions": {
+    "P1": {"name": "Acoustic angular scale 100*theta_* within 5% of Planck", "passed": false, "deviation_pct": 142.254},
+    "P2": {"name": "Acoustic peak multipole ell_A within 5% of Planck", "passed": false, "deviation_pct": -58.721},
+    "P3": {"name": "Drag sound horizon r_d within 5% of Planck", "passed": false, "deviation_pct": 65.977}
+  },
+  "verdict": "FAIL",
+  "verdict_reason": "All three gates fail by 12-29x the threshold. Root cause identified as Bug B in the precommit-specified tau integrand. Substrate identities not implicated.",
+  "retest_plan": "CR001c@19 will correct both Bug A (in the precommit text) and Bug B (in the precommit text and runner). Same substrate, same gates."
+}

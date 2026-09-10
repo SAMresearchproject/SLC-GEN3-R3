@@ -1,0 +1,144 @@
+{
+  "result_class": "CR209_PASS_ELECTROWEAK_TOPOLOGY_EXTENSION__BOUNDARY_FULL_EW_THEOREM_OPEN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "ELECTROWEAK_TOPOLOGY_EXTENSION",
+  "question": "Can the same resolved-parent/write-bounce grammar distinguish H, Z, W, and gamma lanes without changing rules?",
+  "pass_conditions": {
+    "source_gate_pass": true,
+    "forward_not_audit": true,
+    "no_free_parameters": true,
+    "five_target_lanes_classified": true,
+    "fake_parent_rejected": true,
+    "wrong_controls_pass": true,
+    "higgs_lanes_distinguished": true,
+    "vector_lanes_distinguished": true,
+    "gamma_not_parent": true,
+    "cr204a_external_topology_bridge_preserved": true,
+    "cr208a_full_ew_boundary_preserved": true,
+    "source_manifest_hashes_present": true
+  },
+  "evidence_rows": [
+    {
+      "key": "source_gate_result_class",
+      "value": "PASS_G758c_ELECTROWEAK_TOPOLOGY_EXTENSION",
+      "note": "G758c upstream simulator result"
+    },
+    {
+      "key": "target_lane_result",
+      "value": "5/5",
+      "note": "accepted lanes classified correctly"
+    },
+    {
+      "key": "fake_parent_rejection",
+      "value": "1/1",
+      "note": "background/fake parent rejected"
+    },
+    {
+      "key": "wrong_controls",
+      "value": "7/7",
+      "note": "wrong controls fired"
+    },
+    {
+      "key": "observed_lane_count",
+      "value": 5,
+      "note": "distinct accepted topology lanes"
+    },
+    {
+      "key": "observed_lanes",
+      "value": "charged_vector_missing_route_parent|massless_readout_daughter_not_parent|neutral_vector_visible_pair_parent|resolved_scalar_parent_massless_daughters|resolved_scalar_parent_vector_branches",
+      "note": "fixed classifier readout"
+    },
+    {
+      "key": "target_map",
+      "value": "H -> ZZ* -> 4l->resolved_scalar_parent_vector_branches; H -> gamma gamma->resolved_scalar_parent_massless_daughters; Z -> ll->neutral_vector_visible_pair_parent; W -> l nu->charged_vector_missing_route_parent; gamma daughter/readout->massless_readout_daughter_not_parent; background fake parent->reject_fake_parent",
+      "note": "lane by lane classification"
+    },
+    {
+      "key": "payload_fingerprint_sha256",
+      "value": "562edc7f992dd3a778799aed1f259ac79ccc475ca99e4d578266ddb8db94d7d3",
+      "note": "G758c payload fingerprint"
+    },
+    {
+      "key": "remaining_boundary",
+      "value": "Full electroweak theorem, couplings, amplitudes, and branching ratios remain open.",
+      "note": "not a full electroweak theorem"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that the scale-bridge simulator's resolved-parent/write-bounce grammar generalizes beyond H -> ZZ* -> 4l into H, Z, W, gamma, and fake-parent lane separation without changing rules or adding parameters.",
+  "notes": [
+    "CR204 and CR207 remain BOUNDARY.",
+    "CR204a and CR208a are preserved as the external topology bridge and promotion zipper.",
+    "CR209 is a topology-grammar PASS, not a full electroweak coupling, amplitude, or branching-ratio theorem."
+  ],
+  "test_id": "CR209",
+  "generated_at_utc": "2026-06-14T04:59:20.785292+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "premises",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR209_ELECTROWEAK_TOPOLOGY_EXTENSION\\CR209_declared_premises.json",
+      "role": "declared_premises",
+      "sha256": "eaa81f071cb5c48aac25f4ebead5b0a09c4a1e139b80c5678da2259623350e71",
+      "bytes": 901,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "g758_summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G758c_ELECTROWEAK_TOPOLOGY_EXTENSION\\G758c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "7b476cff1f6a44b5691795a8eef3cc360c2b93b1776b800231c2c5149a7f61ab",
+      "bytes": 1709,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "g758_classifications",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G758c_ELECTROWEAK_TOPOLOGY_EXTENSION\\G758c_lane_classification_results.csv",
+      "role": "lane_classification_results",
+      "sha256": "a1818ce1c1fec5b6c0aa82d3605125b214d33c10169ae8d115ff0960b6949092",
+      "bytes": 1553,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "g758_wrong_controls",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G758c_ELECTROWEAK_TOPOLOGY_EXTENSION\\G758c_wrong_controls.csv",
+      "role": "wrong_controls",
+      "sha256": "b5d71f20deced252931d353c67042406850b6c413b5c600970272fcf5fa5e21b",
+      "bytes": 1157,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "g758_source_manifest",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G758c_ELECTROWEAK_TOPOLOGY_EXTENSION\\G758c_source_manifest.csv",
+      "role": "source_manifest",
+      "sha256": "f4c4772eda232709d04852f81757c09e38f320467ebf1368dd201d14e139af8a",
+      "bytes": 1865,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "g758_hashes",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G758c_ELECTROWEAK_TOPOLOGY_EXTENSION\\HASHES.txt",
+      "role": "source_hashes",
+      "sha256": "a28c13b926801a729bd2484cdb8f4d179ee08cbcdabd3fbb28711bb5f7b0ba11",
+      "bytes": 2548,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr204a_summary",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR204a_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION\\CR204a_summary.json",
+      "role": "external_topology_bridge",
+      "sha256": "50bd638c8813691d3f05d5426cc6e5af60fbceef588678ab48315a4632e71800",
+      "bytes": 6232,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "cr208a_summary",
+      "path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR208a_RESOLVED_SW_EXTERNAL_PROMOTION_ZIPPER\\CR208a_summary.json",
+      "role": "promotion_zipper",
+      "sha256": "60456762dbd479c071a08872961666d4f0daf8f73fe255a3379094ae3ef63901",
+      "bytes": 6660,
+      "used_as_computed_input": true
+    }
+  ]
+}

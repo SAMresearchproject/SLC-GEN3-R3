@@ -1,0 +1,8 @@
+line,channel_a,code_a,channel_b,code_b,channel_c,code_c,xor_result,status
+mass-source rule,PARTICLE,100,GRAVITY,110,MATTER,010,000,PASS
+binding and decay over time,MATTER,010,CLOCK,011,ELEMENT,001,000,PASS
+atomic spectra,PARTICLE,100,LIGHT,101,ELEMENT,001,000,PASS
+Schrodinger evolution,PARTICLE,100,ACTION,111,CLOCK,011,000,PASS
+QED matter-light coupling,MATTER,010,ACTION,111,LIGHT,101,000,PASS
+nuclear binding to gravity,ELEMENT,001,ACTION,111,GRAVITY,110,000,PASS
+Schwarzschild GR triple,GRAVITY,110,CLOCK,011,LIGHT,101,000,PASS

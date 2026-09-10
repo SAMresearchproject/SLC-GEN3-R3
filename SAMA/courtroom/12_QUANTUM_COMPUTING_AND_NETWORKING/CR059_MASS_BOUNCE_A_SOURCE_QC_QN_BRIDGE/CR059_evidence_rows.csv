@@ -1,0 +1,8 @@
+key,value,note
+source_chain,"unresolved SW -> resolved write/bounce split -> r_bounce -> q_A,i = m_i * (1 + r_bounce,i) -> particle A source -> macro A accumulation -> field-behavior protocol surface",branch-12 extension chain
+qc_roles,carrier=QUBIT-NL-001; envelope=QUBIT-CL-001; sensor=QUBIT-UNK-001,CR051 role split remains the QC carrier surface
+qn_open_route,QUBIT-NL-001 @ p=0.9654196547077734,CR054 keeps the route open before ledger commit
+particle_surface,35 closure rows; 26 role operators; 0 free parameters,09a/QP075 is the active downstream mass source
+bounce_a_lock,BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED (PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF),CR103a locks the A-dependent bounce insight as a structural appeal
+qA_source_bridge,particle rows imported=26; q_A source rows=7,CR201 verifies q_A = m * (1 + r_bounce) with zero new parameters
+resolved_topology_lanes,charged_vector_missing_route_parent|massless_readout_daughter_not_parent|neutral_vector_visible_pair_parent|resolved_scalar_parent_massless_daughters|resolved_scalar_parent_vector_branches,CR209 preserves resolved-parent/write-bounce lane separation

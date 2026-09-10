@@ -1,0 +1,38 @@
+{
+  "cr_id": "CR279",
+  "primary_verdict": "PASS_HIGGS_DIRECT_WELD_PROMOTION",
+  "typed_outputs": [
+    {
+      "type": "ResolvedHiggsASourceOntology",
+      "source": "G439 + G444 + G748c",
+      "status": "resolved"
+    },
+    {
+      "type": "HiggsQSlotRole",
+      "q": 3,
+      "formula": "q_H = 3",
+      "source": "G439/G444"
+    },
+    {
+      "type": "HiggsBounceRatio",
+      "exact": "1/(64*pi)",
+      "decimal": 0.0049735919716217296,
+      "source": "CR120/G744c/G748c"
+    },
+    {
+      "type": "HiggsASourceReadout",
+      "symbol": "q_A,H",
+      "formula": "q_A,H = m_H_native * (1 + 1/(64*pi))",
+      "m_H_native_MeV": 125077.36096514532,
+      "q_A_H_MeV": 125699.4447234732,
+      "mass_input_source": "G745c scalar formula output, not measured Higgs target"
+    },
+    {
+      "type": "HiggsASourceRatio",
+      "symbol": "q_A,H/m_H",
+      "exact": "1 + 1/(64*pi)",
+      "decimal": 1.0049735919716218
+    }
+  ],
+  "registration_recommendation": "register as Higgs A-source typed promotion in SAM Language v0.3; do not use as formula search"
+}

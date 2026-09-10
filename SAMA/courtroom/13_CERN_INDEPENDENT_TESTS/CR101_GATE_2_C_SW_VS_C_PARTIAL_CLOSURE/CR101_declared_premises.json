@@ -1,0 +1,157 @@
+{
+  "cr_id": "CR101",
+  "title": "GATE_2_C_SW_VS_C_PARTIAL_CLOSURE",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "FIRST_GATE_PARTIAL_CLOSURE_TEST_AGAINST_CERN_CLASS_DATA",
+  "blindness_protocol_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "PENDING_HASH_AT_RUNNER_TIME",
+  "upstream_question_lock_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR100_SW_PRIMITIVE_OPEN_QUESTION_ROADMAP/CR100_question_lock.json",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "subject_gate": {
+    "gate_id": "GATE_2",
+    "name": "c_SW relation to c",
+    "verbatim_from_CR100_upstream": "define c_SW relation to c or converter triad",
+    "candidates_enumerated_at_CR100_seal": [
+      "c_SW = c (identity)",
+      "c_SW = c * dimensionless_substrate_factor",
+      "c_SW related to c via converter triad in A0 / R / D"
+    ]
+  },
+  "sam_commitment": {
+    "selected_candidate": "c_SW = c (identity)",
+    "candidate_index_in_CR100_enumeration": 1,
+    "expressed_as_prediction": "(v_substrate - c) / c = 0",
+    "free_parameters_introduced": 0,
+    "rationale_for_selection": "Simplest candidate consistent with PR section 2.4 partition-algebra commitment and the candidate equation L_SW with c_SW as a free parameter. SAM commits the identity reading as the testable form."
+  },
+  "live_cern_class_anchors": [
+    {
+      "row_id": "A1",
+      "experiment": "ICARUS",
+      "observable": "(v_v - c) / c at ~17 GeV neutrino, 730 km CNGS baseline",
+      "central_value": 0.4e-6,
+      "uncertainty": 2.8e-6,
+      "uncertainty_type": "combined_stat_sys",
+      "publication_reference": "arXiv:1208.2629 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2012-08-15",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A2",
+      "experiment": "OPERA",
+      "observable": "(v_v - c) / c at ~17 GeV neutrino, 730 km CNGS baseline (corrected 2012 analysis after fiber-connector anomaly fix)",
+      "central_value": 2.7e-6,
+      "uncertainty": 3.1e-6,
+      "uncertainty_type": "combined_stat_sys",
+      "publication_reference": "arXiv:1212.1276 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2012-12-01",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A3",
+      "experiment": "BOREXINO",
+      "observable": "(v_v - c) / c at ~17 GeV neutrino, 730 km CNGS baseline",
+      "central_value": 2.7e-6,
+      "uncertainty": 1.9e-6,
+      "uncertainty_type": "combined_stat_sys",
+      "publication_reference": "arXiv:1207.6860 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2012-07-27",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    },
+    {
+      "row_id": "A4",
+      "experiment": "LVD",
+      "observable": "(v_v - c) / c at ~17 GeV neutrino, 730 km CNGS baseline",
+      "central_value": 0.3e-6,
+      "uncertainty": 3.3e-6,
+      "uncertainty_type": "combined_stat_sys",
+      "publication_reference": "arXiv:1208.1392 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2012-08-06",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_COUNTERPART_LISTED",
+      "honest_negative_class": null
+    }
+  ],
+  "honest_negative_anchors": [
+    {
+      "row_id": "HN1",
+      "experiment": "OPERA (2011 original)",
+      "observable": "(v_v - c) / c at ~17 GeV neutrino, 730 km",
+      "central_value": 24.8e-6,
+      "uncertainty": 4.2e-6,
+      "publication_reference": "arXiv:1109.4897 v1 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2011-09-22",
+      "honest_negative_class": "CLASS_A",
+      "rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "withdrawn / superseded after fiber-connector anomaly was identified in 2012; the 2011 v=c+25 ppm claim was an instrumental artefact, not a physical measurement"
+    },
+    {
+      "row_id": "HN2",
+      "experiment": "Fermilab (synthetic Tevatron-coded timing)",
+      "observable": "synthetic timing measurement attributed to Fermilab",
+      "central_value": 5.0e-6,
+      "uncertainty": 1.0e-6,
+      "publication_reference": "SYNTHETIC_NOT_PUBLISHED",
+      "publication_date_utc": "2026-06-13",
+      "honest_negative_class": "CLASS_B",
+      "rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "Fermilab is not on CERN allow-list (Tevatron / Fermilab class)"
+    },
+    {
+      "row_id": "HN3",
+      "experiment": "Fermi-LAT GRB 090510",
+      "observable": "(v_g - c) / c photon dispersion bound at GRB energies",
+      "central_value": 0.0,
+      "uncertainty": 1.0e-15,
+      "publication_reference": "Vasileiou et al. 2013 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2013-08-01",
+      "honest_negative_class": "CLASS_E",
+      "rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "Fermi-LAT is NASA orbital telescope; astrophysical not CERN; would provide the strongest bound (1e-15) if admissible, but the 13 branch is CERN-restricted",
+      "informational_note": "If this row were admitted, SAM's c_SW = c would be supported at 1e-15 precision. The 13 branch scope restricts it to context-only. A future 14_FOUNDATIONAL_TESTS branch could include it as a live anchor."
+    }
+  ],
+  "observation_band_construction": {
+    "rule": "max(|mean_i| + 1*sigma_i) across live anchors A1..A4",
+    "rationale": "Use the loosest single-anchor 1-sigma envelope; SAM's commitment (v - c)/c = 0 must lie inside each individual anchor's 1-sigma band for the row label AGREEMENT_WITHIN_ANCHOR_1_SIGMA"
+  },
+  "row_label_classes": {
+    "AGREEMENT_WITHIN_ANCHOR_1_SIGMA": "SAM commitment (0) lies inside the anchor's 1-sigma band around its mean",
+    "AGREEMENT_WITHIN_ANCHOR_2_SIGMA": "SAM commitment lies between 1-sigma and 2-sigma",
+    "AGREEMENT_OUTSIDE_ANCHOR_2_SIGMA": "SAM commitment falls outside 2-sigma; flagged for review",
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": "honest-negative rejection; residual not computed",
+    "REJECTED_AT_GATE_R_RESIDUAL": "anchor passes admissibility but residual exceeds the declared band (n/a for CR101 since the synthetic CLASS_G is not used here)"
+  },
+  "possible_partial_closure_verdicts": {
+    "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_WITH_CERN_BOUNDS": "all four live anchors label AGREEMENT_WITHIN_ANCHOR_1_SIGMA",
+    "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_2_SIGMA_ONLY": "one or more live anchors at 2-sigma only",
+    "GATE_2_IDENTITY_DISFAVORED_BY_CERN_DATA": "any live anchor outside 2-sigma OR cross-source disagreement on the sign of any deviation"
+  },
+  "what_CR101_does_and_does_not_claim": {
+    "claims": [
+      "SAM's c_SW = c commitment is consistent with the strongest CERN-class bounds on substrate propagation speed available at seal time, at the O(1e-6) CERN-class precision floor.",
+      "The four-pillar blindness procedure was applied: prediction was hashed and committed BEFORE the anchor envelope was opened.",
+      "GATE_2 candidate #1 is the simplest of three candidates and is recorded as partially closed at CERN precision."
+    ],
+    "does_not_claim": [
+      "definitive closure of GATE_2 (would require lab measurement of substrate propagation speed)",
+      "c_SW = c to better than CERN precision (astrophysical bounds reach 1e-15 - 1e-18 but are outside the 13 branch scope)",
+      "exclusion of GATE_2 candidates (b) or (c) - they remain in the CR100 sealed enumeration",
+      "any modification of CR100's sealed open-gate list - CR101 is a probe, not a rewrite"
+    ]
+  },
+  "open_debts_declared_at_CR101": [
+    "Anchor citation_verification_status PENDING for all four live anchors and three honest-negatives; curator promotion required before sealed-scope status",
+    "BLINDNESS_PROTOCOL sha256 sibling not yet written by curator",
+    "Branch seal sha256 sibling not yet written by curator",
+    "If a future CERN-class measurement (e.g., a CNGS successor or LHCb dedicated timing analysis) reports v_v != c at >= 3-sigma, CR101a appeal row records the disfavoring of c_SW = c",
+    "Astrophysical photon-dispersion bounds (Fermi, MAGIC, HESS, IceCube) are stronger by 9-12 orders of magnitude; they could constitute a future 14_FOUNDATIONAL_TESTS branch's live anchors"
+  ]
+}

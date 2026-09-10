@@ -1,0 +1,7 @@
+key,value,note
+result_class,PASS_G755c_EARTH_GALAXY_PBH_ACCUMULATION_MODE_SELECTOR,source G-test result
+earth_A_local_forward,0.026530964987239263,local compact lane
+baryon_many_nonzero_A_cumulative,1.914163e-07,many stellar nonzeros
+Omega_BB_PBH_trapped,0.26446190430295646,clustered BB-PBH/trapped-A inventory
+pbh_cumulative_nonzero_proxy_median,0.2039506172839506,PBH many-nonzero lane
+wrong_controls,8/8,uniform/PBH-only/baryon-only controls rejected

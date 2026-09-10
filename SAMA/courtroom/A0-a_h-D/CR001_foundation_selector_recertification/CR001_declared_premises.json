@@ -1,0 +1,31 @@
+{
+  "test_id": "CR001",
+  "uses_older_g_tests": false,
+  "candidate_generation": {
+    "integer_scan_start": 1,
+    "integer_scan_stop_exclusive": 8,
+    "note": "Small positive integers are generated as candidates; older test results are not read."
+  },
+  "selectors": {
+    "exchange_count": {
+      "premise": "minimal nontrivial fixed-point-free exchange/involution"
+    },
+    "identity_support_dimension": {
+      "premise": "closed loop response needs over-under twist freedom and no extra untie freedom"
+    },
+    "compact_phase_cycle": {
+      "premise": "primitive positive return of the unitary phase exp(i theta)"
+    },
+    "floor": {
+      "premise": "inverse product of selected exchange count, selected identity support dimension, and primitive phase cycle"
+    }
+  },
+  "wrong_controls": [
+    "identity_only_exchange",
+    "nonminimal_exchange_allowed",
+    "extra_dimension_untie_allowed",
+    "half_phase_as_full_cycle",
+    "double_phase_as_primitive_cycle",
+    "scrambled_dimension"
+  ]
+}

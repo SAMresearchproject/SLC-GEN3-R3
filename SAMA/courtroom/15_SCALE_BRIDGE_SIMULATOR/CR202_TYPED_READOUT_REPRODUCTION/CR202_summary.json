@@ -1,0 +1,78 @@
+{
+  "result_class": "CR202_PASS_TYPED_READOUT_REPRODUCTION",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "SIMULATOR_TYPED_READOUT",
+  "question": "Can field readouts stay typed across mass ledger, q_A direct, force, and clock lanes?",
+  "pass_conditions": {
+    "readout_gate_pass": true,
+    "not_audit_or_retest": true,
+    "no_free_parameters": true,
+    "readout_rows_present": true,
+    "all_recompute_errors_zero": true,
+    "typed_lanes_separated": true,
+    "species_mix_spread_within_tolerance": true,
+    "wrong_controls_passed": true
+  },
+  "evidence_rows": [
+    {
+      "key": "result_class",
+      "value": "PASS_G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES",
+      "note": "source G-test result"
+    },
+    {
+      "key": "readout_rows",
+      "value": 6,
+      "note": "typed readout rows"
+    },
+    {
+      "key": "max_recompute_error",
+      "value": 0.0,
+      "note": "mass/q_A/force/clock recomputation"
+    },
+    {
+      "key": "typed_lane_status_rows",
+      "value": 6,
+      "note": "rows explicitly reporting separated lanes"
+    },
+    {
+      "key": "wrong_controls",
+      "value": "5/5",
+      "note": "all lane-mixing controls passed"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that typed field readouts reproduce mass-ledger A, q_A-direct A, force, and clock lanes without lane mixing or species retuning.",
+  "notes": [
+    "Courtroom export reads frozen G751c artifacts and does not tune by species."
+  ],
+  "test_id": "CR202",
+  "generated_at_utc": "2026-06-14T04:04:01.607835+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES\\G751c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "14e4f552418d6a36fd5a0ee1fbd9fbad25cc9562dc354ad80a875481e343103a",
+      "bytes": 1283,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "readouts",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES\\G751c_source_to_field_readout_table.csv",
+      "role": "typed_readout_rows",
+      "sha256": "adcc41d17030ecfe4f939422356b738a1c8bf7381402f95d3d1bc41034fca6db",
+      "bytes": 2421,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "wrong_controls",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES\\G751c_wrong_controls.csv",
+      "role": "wrong_controls",
+      "sha256": "5dd352fb65913993eb920138b03af4fb28c84c0823e0a981e28cbaff9152756a",
+      "bytes": 858,
+      "used_as_computed_input": true
+    }
+  ]
+}

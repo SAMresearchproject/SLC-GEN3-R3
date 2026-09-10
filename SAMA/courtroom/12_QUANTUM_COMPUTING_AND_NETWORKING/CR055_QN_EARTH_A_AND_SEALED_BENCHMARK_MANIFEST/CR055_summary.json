@@ -1,0 +1,26 @@
+{
+  "test_id": "CR055_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST",
+  "verdict": "CR055_PASS_QN_EARTH_A_AND_SEALED_BENCHMARK_MANIFEST",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "QN_DEPLOYMENT_SURFACE_SEALED_BENCHMARK_COMPARATOR_SCHEMA",
+  "source_keys": [
+    "QN007",
+    "QN008",
+    "QN009"
+  ],
+  "pass_conditions": {
+    "QN007_no_external_data": true,
+    "QN008_no_external_data": true,
+    "QN009_no_external_data": true,
+    "free_parameters_zero": true,
+    "all_checks_pass": true,
+    "all_wrong_controls_pass": true,
+    "sealed_hashes_present": true,
+    "all_qn008_inputs_external_frozen": true
+  },
+  "earth_surface_A": 1.390657777567e-09,
+  "benchmark_manifest_rows": 8,
+  "scoring_rule_rows": 8
+}

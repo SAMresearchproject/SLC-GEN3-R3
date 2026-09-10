@@ -1,0 +1,35 @@
+{
+  "charged_or_neutral": {
+    "charged": 64,
+    "neutral": 16
+  },
+  "experimentally_identified_particle": false,
+  "formal_p80_inventory_link": true,
+  "matter_or_antimatter": {
+    "antimatter": 32,
+    "matter": 48
+  },
+  "row_columns": [
+    "row_entity_id",
+    "source_candidate_id",
+    "source_path",
+    "source_hash",
+    "source_row_number",
+    "active_status",
+    "matter_or_antimatter",
+    "charged_or_neutral",
+    "carrier_only",
+    "support_only",
+    "particle_promoted",
+    "pair_id",
+    "partition_signature",
+    "route_class",
+    "closure_depth",
+    "native_mass",
+    "observed_candidate_mass",
+    "provenance_status"
+  ],
+  "row_count": 80,
+  "row_semantic_type": "StructurallyStableMatterRow",
+  "unique_row_entity_ids": 80
+}

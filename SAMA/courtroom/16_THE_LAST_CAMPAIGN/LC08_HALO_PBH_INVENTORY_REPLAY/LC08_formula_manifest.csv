@@ -1,0 +1,10 @@
+formula_or_rule,expression,locked_inputs,replayed_value,source_or_target_use
+R lock,completed-WRITE address count,CR113 foundational theorem,12,"primitive lock, not branch-local halo fit"
+D lock,invariant carrier uniqueness,CR115 foundational theorem,3,"primitive lock, not SPARC or PBH fit"
+many-source A accumulation,A_total = sum_i A_i; halo A(r)=r_s(<r)/r,SAM kernel root,1.0000000000000001e-07,structural root only; not observational closure
+inventory closure,Omega_substrate_vacuum + Omega_BB_PBH_trapped + Omega_H_arrival = 1,QGA038G inventory bridge,1.0,"inventory arithmetic, not fitted halo parameter"
+PBH/H inventory ratio,Omega_BB_PBH_trapped / Omega_H_arrival_baryon,QGA038G,5.364446416084761,route selector support
+SPARC dark residual,observed v^2 - baryon v^2 residual from fixed baryon treatment,G392/G393,76.0699023482704,external comparison; post-BB-only control rejected
+clustered profile contact,v_total^2 = v_baryon^2 + v_BB_PBH_halo^2,G394 profile rows,3.625430524040301,scoped profile contact; native radial law open
+native seed-first candidate,r_core = R_outer / R,R=12 and G677 seed-first ordering,0.8191375474184742,"candidate behavior, not theorem-grade mass function"
+comparison candidate,r_core = R_outer / 6,comparison/control table,0.8625828787369356,better RMS comparison is not promoted to primitive law

@@ -1,0 +1,16 @@
+{
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "external_waveform_used": false,
+  "fitted_parameter_count": 0,
+  "precommit_seal_sha256": "8b2ac289e6dd31c950f3a46bf9b445fe6f264d050c857131c84f16e736ae2684",
+  "precommit_sha256": "b745d87add097ebea088d02cd4aa04337224252adbc7ea3b4bf070c795292ee4",
+  "qnm_filter_used": false,
+  "registry_mutated": false,
+  "runner_seal_sha256": "6ec824161e7d49a11538d790c9e4c7a42f150d913a3d7fb96be10e1f66a83590",
+  "runner_sha256": "ccd71d9bfe9c9677d36e35e060cf150cc725814dff3e7b98623fc6bacef52fab",
+  "source_count": 11,
+  "source_hashes_matched_pre_and_post": true,
+  "source_manifest_sha256": "72ffd4e493b39686d05ed301428e5ef84152b9142a630bfa082780a54b81931a",
+  "task": "Build a per-carrier Starbreaker gravitational-wave candidate ledger"
+}

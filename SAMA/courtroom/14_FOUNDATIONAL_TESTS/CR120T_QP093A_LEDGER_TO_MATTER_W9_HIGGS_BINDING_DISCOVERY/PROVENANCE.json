@@ -1,0 +1,20 @@
+{
+  "CR120R_preserved": true,
+  "CR120S_preserved": true,
+  "binding_contract_sha256": "8194cff8f6c70b1e0f4ff3fb3b9dbe6b68a28adb3761fb8c2f10a9b6e4023b47",
+  "discovery_precommit_sha256": "9fde0cc6781ddd35e418ca14bbfbb3d44b2e10435bf7f5be587e48150107337c",
+  "f81_contract_sha256": "c209c1250c51a1f54f68724396b6826247bf4d8aafd9bb36fd35ee6efc7f9877",
+  "preflight": "artifacts/preflight_filled/PREFLIGHT_20260714_122508_no_script.md",
+  "primary_verdict": "BOUNDARY_DISCOVERY_SUPPORTED_PROJECTION_OR_BINDING_OPEN",
+  "source_lineage_note_sha256": "53bd7250691d1fb46e9c61f6394f7eac219ff3fc44f32c97e66989ffb90518c3",
+  "source_manifest_sha256": "b1eee6ab1603c7a3ed5995afb5e1b3061b17f1c8aafce11d7db0f675a7769451",
+  "task": "Execute SAM_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY.md exactly as written",
+  "validation_firewall": {
+    "F81_selection_value_blind": true,
+    "binding_test_or_extended_used_for_fit": false,
+    "same_run_repair": false,
+    "workbook2_membership_parsed": false
+  },
+  "validation_precommit_sha256": "dfb835dcf947e94a1893e8900e85236cdac480422ac972c37a1fb265bc7a7eb6",
+  "workbook_method": "read-only OOXML ZIP/XML; original workbooks unmodified"
+}

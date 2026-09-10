@@ -456,5 +456,7 @@ def _dispatch_base(operation, payload):
 def dispatch(operation, payload):
     from .motion_adapters import construction_geometry
     from .boundary_information import register_ordinary
-    return register_ordinary(operation, payload,
-                             construction_geometry(operation, payload, _dispatch_base(operation, payload)))
+    from .write_foundation import annotate_construction
+    result = register_ordinary(operation, payload,
+                               construction_geometry(operation, payload, _dispatch_base(operation, payload)))
+    return annotate_construction(operation, payload, result)

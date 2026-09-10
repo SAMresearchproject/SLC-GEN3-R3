@@ -1,0 +1,50 @@
+{
+  "artifact": "bao002_sound_horizon_packet.json",
+  "route_status": "CONDITIONAL_IMPORTED_RECOMBINATION_TRANSPORT_FROZEN",
+  "source_density_status": "SAM_NATIVE_A0_CHI_DENSITY_PACKET_FROZEN",
+  "r_d_symbol": "r_d",
+  "r_d_definition": "CAMB rdrag from fixed SAM density lane",
+  "r_d_Mpc": 147.09353447852072,
+  "z_drag": 1059.9472372132136,
+  "r_star_Mpc": 144.43237491290824,
+  "z_star": 1089.9407566858345,
+  "theta_star_100": 1.0411066266105615,
+  "fixed_sam_inputs": {
+    "Omega_b": 0.049299011266101,
+    "Omega_m_eff": 0.313760915569057,
+    "H0": 67.36,
+    "omega_b": 0.022368783502886,
+    "omega_m": 0.142364923997121
+  },
+  "adapter_derived": {
+    "H0": 67.36,
+    "h": 0.6736,
+    "Omega_b": 0.049299011266101,
+    "Omega_m_eff": 0.313760915569057,
+    "Omega_lambda_flat": 0.686239084430943,
+    "omega_b": 0.022368783502886,
+    "omega_m": 0.142364923997121,
+    "omega_cdm": 0.119996140494235
+  },
+  "solver_defaults": {
+    "T_cmb": 2.7255,
+    "N_eff": 3.046,
+    "A_s": 2.100549e-09,
+    "n_s": 0.9649,
+    "tau_reio": 0.0544,
+    "l_max": 2500
+  },
+  "solver_environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "camb_available": true,
+    "camb_version": "1.6.6"
+  },
+  "firewall": {
+    "BAO_target_data_read": false,
+    "Planck_target_data_read_by_this_gate": false,
+    "free_parameters_introduced": 0,
+    "new_external_data_intake": false,
+    "r_d_selected_from_BAO_residual": false
+  }
+}

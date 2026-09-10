@@ -1,0 +1,251 @@
+{
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "campaign_id": "CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE",
+  "carrier_matter_history_totals": {
+    "001": 93977,
+    "010": 7308328,
+    "011": 204764,
+    "100": 70071,
+    "101": 5199,
+    "110": 3131940,
+    "111": 583782
+  },
+  "carrier_source": {
+    "coarse_intervals": 162,
+    "coherence_cells": 3,
+    "comparable_power_cells": 3,
+    "door_results": [
+      {
+        "door": "discovery",
+        "escape_coherence_gt_incoherent_expectation": true,
+        "escape_median_coherence_gain": 1.7978612366335915,
+        "escape_median_power_per_carrier": 0.09650401053415247,
+        "escape_power_gt_return_power": false,
+        "escape_scenarios": 24,
+        "geometry": "localized_ledger_cells",
+        "power_populations_comparable": false,
+        "return_median_coherence_gain": null,
+        "return_median_power_per_carrier": null,
+        "return_scenarios": 0
+      },
+      {
+        "door": "validation",
+        "escape_coherence_gt_incoherent_expectation": true,
+        "escape_median_coherence_gain": 3.4315320486506975,
+        "escape_median_power_per_carrier": 0.08336551490403596,
+        "escape_power_gt_return_power": false,
+        "escape_scenarios": 12,
+        "geometry": "localized_ledger_cells",
+        "power_populations_comparable": false,
+        "return_median_coherence_gain": null,
+        "return_median_power_per_carrier": null,
+        "return_scenarios": 0
+      },
+      {
+        "door": "final",
+        "escape_coherence_gt_incoherent_expectation": true,
+        "escape_median_coherence_gain": 1.7072070641983368,
+        "escape_median_power_per_carrier": 0.07697967839515579,
+        "escape_power_gt_return_power": false,
+        "escape_scenarios": 12,
+        "geometry": "localized_ledger_cells",
+        "power_populations_comparable": false,
+        "return_median_coherence_gain": null,
+        "return_median_power_per_carrier": null,
+        "return_scenarios": 0
+      },
+      {
+        "door": "discovery",
+        "escape_coherence_gt_incoherent_expectation": false,
+        "escape_median_coherence_gain": 0.5742899440898013,
+        "escape_median_power_per_carrier": 0.031435973944351756,
+        "escape_power_gt_return_power": true,
+        "escape_scenarios": 24,
+        "geometry": "dispersed_slots",
+        "power_populations_comparable": true,
+        "return_median_coherence_gain": 1.0,
+        "return_median_power_per_carrier": 0.008489363277406134,
+        "return_scenarios": 17
+      },
+      {
+        "door": "validation",
+        "escape_coherence_gt_incoherent_expectation": false,
+        "escape_median_coherence_gain": 0.5266661857593189,
+        "escape_median_power_per_carrier": 0.025479505247762015,
+        "escape_power_gt_return_power": true,
+        "escape_scenarios": 12,
+        "geometry": "dispersed_slots",
+        "power_populations_comparable": true,
+        "return_median_coherence_gain": 1.0,
+        "return_median_power_per_carrier": 0.006045694685260282,
+        "return_scenarios": 12
+      },
+      {
+        "door": "final",
+        "escape_coherence_gt_incoherent_expectation": false,
+        "escape_median_coherence_gain": 0.36939099339609516,
+        "escape_median_power_per_carrier": 0.030845698252177357,
+        "escape_power_gt_return_power": false,
+        "escape_scenarios": 12,
+        "geometry": "dispersed_slots",
+        "power_populations_comparable": true,
+        "return_median_coherence_gain": 1.0,
+        "return_median_power_per_carrier": 0.052442293946163496,
+        "return_scenarios": 7
+      }
+    ],
+    "escape_power_gt_return_cells": 2,
+    "fine_intervals": 324,
+    "geometry_escape_coherence_medians": [
+      2.0150205794920706,
+      0.48307279368238704
+    ],
+    "max_trace_relative_error": 2.5997906629060057e-15,
+    "median_power_convergence_relative_error": 0.019361866885052904,
+    "median_response_convergence_relative_error": 0.0029729547468950466,
+    "omega_I_M": "4/45",
+    "omega_R_M": "3/8",
+    "physical_strain": null,
+    "source_strong": false,
+    "tensor": "unit-carrier trace-free quadrupole",
+    "unit_clock_response_only": true
+  },
+  "completed_utc": "2026-07-21T01:58:55.321291+00:00",
+  "continuous_flow": {
+    "bounce": "velocity-changing impulse at t=1",
+    "clock": "dimensionless Starbreaker structural phase t in [0,2]",
+    "collapse": "exponential radial contraction",
+    "collapse_radial_max_error": 1.6249327560085716e-16,
+    "endpoint_max_abs_error": 2.19086127917449e-14,
+    "physical_seconds": null,
+    "release": "linear radius plus shortest-branch theta/phi flow"
+  },
+  "controls_passed": 10,
+  "controls_total": 10,
+  "gates_passed": 14,
+  "gates_total": 14,
+  "physical_claim_firewall": {
+    "distance_or_detector_forecast_emitted": false,
+    "fitted_parameter_count": 0,
+    "luminosity_emitted": false,
+    "physical_seconds_emitted": false,
+    "physical_strain_emitted": false,
+    "sam_registry_mutated": false,
+    "signal_speed_emitted": false
+  },
+  "preflight": {
+    "preflight_sha256": "0e522e30288aa21415675fe7f6b723352a9d8b63baec728f67c4f5757d3a2d6b",
+    "task": "Build prospective time-resolved Starbreaker source dynamics and carrier-to-wave bridge"
+  },
+  "primary_verdict": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__SOURCE_SEPARATION_OPEN",
+  "record_class": "CONSTRUCTIVE_CONTINUOUS_DYNAMICS_AND_SOURCE_BRIDGE",
+  "roster": {
+    "atoms": 482112,
+    "continuous_roots": 10515538,
+    "direction_failures": 0,
+    "multiple_directional_brackets": 45,
+    "root_failures": 0,
+    "scenarios": 96
+  },
+  "same_run_repair": false,
+  "source_count": 14,
+  "source_hashes_matched": 14,
+  "started_utc": "2026-07-21T01:54:47.871652+00:00",
+  "status": "PASS",
+  "timing": {
+    "directional_cells": 6,
+    "door_results": [
+      {
+        "door": "discovery",
+        "geometry": "localized_ledger_cells",
+        "inequality_count": 704,
+        "inequality_fraction": 0.7594390507011867,
+        "median_margin": 0.04545876521248715,
+        "primary_carriers": 927,
+        "q10_margin": -0.0559627715751901,
+        "q90_margin": 0.29585349784604764
+      },
+      {
+        "door": "validation",
+        "geometry": "localized_ledger_cells",
+        "inequality_count": 265,
+        "inequality_fraction": 0.693717277486911,
+        "median_margin": 0.021479124764113067,
+        "primary_carriers": 382,
+        "q10_margin": -0.08130805460052386,
+        "q90_margin": 0.13535427966478722
+      },
+      {
+        "door": "final",
+        "geometry": "localized_ledger_cells",
+        "inequality_count": 328,
+        "inequality_fraction": 0.780952380952381,
+        "median_margin": 0.03637120591110943,
+        "primary_carriers": 420,
+        "q10_margin": -0.04918763585411909,
+        "q90_margin": 0.18860928526287365
+      },
+      {
+        "door": "discovery",
+        "geometry": "dispersed_slots",
+        "inequality_count": 137,
+        "inequality_fraction": 0.9383561643835616,
+        "median_margin": 0.06761421807783563,
+        "primary_carriers": 146,
+        "q10_margin": 0.00392073023063233,
+        "q90_margin": 0.656653235742084
+      },
+      {
+        "door": "validation",
+        "geometry": "dispersed_slots",
+        "inequality_count": 68,
+        "inequality_fraction": 0.8831168831168831,
+        "median_margin": 0.061437581076603465,
+        "primary_carriers": 77,
+        "q10_margin": -0.0005756424340631836,
+        "q90_margin": 0.4878580736323898
+      },
+      {
+        "door": "final",
+        "geometry": "dispersed_slots",
+        "inequality_count": 39,
+        "inequality_fraction": 0.9512195121951219,
+        "median_margin": 0.06453966541462819,
+        "primary_carriers": 41,
+        "q10_margin": 0.010829283315700877,
+        "q90_margin": 0.5055502807163066
+      }
+    ],
+    "geometry_results": [
+      {
+        "geometry": "localized_ledger_cells",
+        "inequality_count": 1297,
+        "inequality_fraction": 0.7501445922498554,
+        "median_margin": 0.03658368982306115,
+        "primary_carriers": 1729,
+        "q10_margin": -0.05729132751303609,
+        "q90_margin": 0.23273494980254555
+      },
+      {
+        "geometry": "dispersed_slots",
+        "inequality_count": 244,
+        "inequality_fraction": 0.9242424242424242,
+        "median_margin": 0.06479146556630155,
+        "primary_carriers": 264,
+        "q10_margin": 0.0030783789375220753,
+        "q90_margin": 0.5437872754134306
+      }
+    ],
+    "primary_result": {
+      "inequality_count": 1541,
+      "inequality_fraction": 0.7732062217762168,
+      "median_margin": 0.04020605301428759,
+      "primary_carriers": 1993,
+      "q10_margin": -0.052292133671971885,
+      "q90_margin": 0.272588861445297
+    },
+    "strong_cells": 6,
+    "timing_directional": true,
+    "timing_strong": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "test_id": "CR010_ISCO_ORBITAL_CONTACT",
+  "test_type": "fresh_courtroom_05_subtest",
+  "older_outputs_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sealed_scope_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/SEALED_STRONG_FIELD_SCOPE_APPROACH_2026_06_11.md",
+  "sealed_scope_sha256": "e4204bfd5eac5d5294dc0180db271681b8e6bd83ed0e45b4d66516acd8b8f790",
+  "cr007_result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_result.md",
+  "cr007_result_sha256": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+  "cr008_result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR008_CLOCK_TRAVERSAL_CLOSURE/CR008_result.md",
+  "cr008_result_sha256": "2f99fca192284ce5275b0d53020185995b109b65e7855172f3af3eb4495a41a7",
+  "cr009_result_file": "05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR009_PHOTON_SPHERE_SHADOW_CONTACT/CR009_result.md",
+  "cr009_result_sha256": "f7eee711fa191553187e739f9144b66c581c0b86b47a092165ea3486b41f41b5",
+  "sam_inputs": {
+    "typed_premise_from_CR007": "ISCO A = 1/3 at r/r_s=3",
+    "typed_boundary_from_CR008": "A=1 is the closure boundary, not A=1/3",
+    "typed_photon_contact_from_CR009": "photon sphere A=2/3 at r/r_s=3/2 remains distinct from ISCO",
+    "timelike_orbit_lane": "E/c^2=(1-1/x)/sqrt(1-3/(2x)); L/(m c r_s)=x/sqrt(2x-3); Omega r_s/c=1/sqrt(2*x^3)"
+  },
+  "external_reference_invariants": {
+    "schwarzschild_isco_x": 3.0,
+    "schwarzschild_isco_A": 0.3333333333333333,
+    "schwarzschild_isco_energy_over_c2": 0.9428090415820634,
+    "schwarzschild_isco_angular_momentum_over_m_c_rs": 1.7320508075688772,
+    "schwarzschild_isco_omega_rs_over_c": 0.13608276348795434
+  },
+  "thresholds": {
+    "exact_absolute_tolerance": 1e-12,
+    "local_minimum_margin": 1e-9,
+    "wrong_control_min_relative_miss": 0.01,
+    "stability_derivative_epsilon": 0.001
+  },
+  "expected_scientific_verdict": "PASS",
+  "expected_claim_tier": "PASS_SCOPED_ISCO_ORBITAL_CONTACT",
+  "rule_9_falsification": "This test could have falsified the claim that the CR007 A = 1/3 ISCO landmark naturally indexes the standard strong-field timelike circular-orbit ISCO contact r/r_s=3 with E/c^2=sqrt(8/9), L/(m c r_s)=sqrt(3), and Omega r_s/c=1/sqrt(54), rather than being only an internal A-label or an orbit-wrong construction that preserves a nearby landmark.",
+  "courtroom_readout": "SAM A-kernel ISCO landmark contact: A = 1/3 at r/r_s=3, with declared orbital invariants, wrong-control rejection, and hashes for CR011."
+}

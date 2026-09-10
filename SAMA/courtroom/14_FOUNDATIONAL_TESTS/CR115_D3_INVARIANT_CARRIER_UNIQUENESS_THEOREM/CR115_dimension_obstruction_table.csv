@@ -1,0 +1,8 @@
+D,obstruction_dim,stable_loop_link_identity,reading
+1,2,False,overconstrained
+2,1,False,overconstrained
+3,0,True,stable_point_obstruction
+4,-1,False,unwinds_or_slides
+5,-2,False,unwinds_or_slides
+6,-3,False,unwinds_or_slides
+7,-4,False,unwinds_or_slides

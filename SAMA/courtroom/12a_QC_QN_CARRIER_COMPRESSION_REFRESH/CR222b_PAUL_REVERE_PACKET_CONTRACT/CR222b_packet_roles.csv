@@ -1,0 +1,9 @@
+packet_section,packet_role,qp093a_reference,native_expression,role_description,allowed_use,forbidden_use
+header,upstream_contract_reference,CR222a,matter_total=126; support_total=162,packet declares sealed upstream contract and hash,reference upstream stack,regenerate physics rows
+route_lane,signal_path,QP093A-0301,0301=1; native_mass=0,road-light carrier is the route the letter travels through,signal path,"not checksum, not payload, not matter"
+support_inventory,carrier_side_support,QP093A-0300+QP093A-0301+QP093A-0302+QP093A-0304,0300+0301+0302+0304 = 18+1+9+8 = 36,carrier-side support subtotal,packet support accounting,do not include 0303 mirror inside this subtotal
+support_inventory,source_packet_support,QP093A-0306+QP093A-0307+QP093A-0308+QP093A-0309+QP093A-0310+QP093A-0311+QP093A-0312+QP093A-0313,0306+0307+0308+0309+0310+0311+0312+0313 = 1+2+3+4+6+8+9+12 = 45,unresolved support inventory,packet support roster,do not omit 0306:p=1
+support_inventory,unpacked_support_total,12_unpacked_modes,36+45=81=D^4,packet support inventory checksum input,left side of packet checksum,not full packet validity without mirror
+tensor_witness,timing_gravity_witness_floor,QP093A-0300,0300=18=R^2/8=alpha_H*D^2,tensor carrier witnesses route/alarm condition,alarm clock / witness pressure,"not payload, not matter, not massive-graviton claim"
+mirror_checksum,ledger_checksum,QP093A-0303,0303=81=D^4,mirror/checksum row outside the 12 unpacked modes,right side of packet checksum,not an unpacked support mode and not particle payload
+packet_validity,valid_packet_closure,unpacked_81+0303_81,sum(unpacked)=81; 0303=81; total=162,self-validating Paul Revere packet closure,packet validity check,do not flatten with matter row count

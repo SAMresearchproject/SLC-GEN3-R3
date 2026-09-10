@@ -1,0 +1,10 @@
+{
+  "cr_id": "CR074",
+  "branch": "11_QUANTUM_MECHANICS_AND_GRAVITY",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL_BORN_ROUTE",
+  "triage_bin": "A",
+  "reason": "Born+route_weight identities present (b=2, rw=9); qp014 0 free params; G421 present; engine clean",
+  "captured_at_utc": "2026-06-13T09:12:54Z",
+  "seal_sha256": "f80c93f67da67a5c9286aafe845316ee6fa3a614439c4e9e120abb9c3a9207dc"
+}

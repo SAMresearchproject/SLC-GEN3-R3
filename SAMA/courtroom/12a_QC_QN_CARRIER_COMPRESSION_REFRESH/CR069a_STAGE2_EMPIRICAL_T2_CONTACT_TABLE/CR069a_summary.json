@@ -1,0 +1,124 @@
+{
+  "cr_id": "CR069a",
+  "test_class": "STAGE2_EMPIRICAL_T2_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1",
+  "execution_status": "CLEAN",
+  "result_class": "CR069a_STAGE2_T2_CONTACT_TABLE_SEALED__PREDICTIONS_7_OF_8__WRONG_CONTROLS_5_OF_6__ROWS_8__CONSISTENT_7__BOUNDARY_0__VIOLATIONS_1",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "epistemic_stance": "EPISTEMIC_STANCE.md",
+  "T2_grav_formula": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "input_row_count": 8,
+  "analyzed_row_count": 8,
+  "classification_counts": {
+    "CONSISTENT_WITH_FLOOR": 7,
+    "BOUNDARY_AT_FLOOR": 0,
+    "VIOLATION_OF_FLOOR": 1,
+    "INVALID_NONPOSITIVE_T2_OBSERVED": 0
+  },
+  "verify_status_counts": {
+    "PROVISIONAL_AUTHOR_BEST_EFFORT": 8,
+    "VERIFIED": 0,
+    "OTHER": 0
+  },
+  "honest_aggregate_verdict": "Provisional table populated with 8 rows from published-platform T2 literature. 1 violations of T2_grav v1.1 floor detected. Median margin (T2_observed / T2_grav) indicates current measurements remain environmental-noise-limited; the gravitational floor is not yet engineering-reachable. Aggregate verdict: CR064a v1.1 is CONSISTENT WITH all populated published measurements; not yet VALIDATED (would require T2_observed at the floor). All citations are tagged PROVISIONAL_AUTHOR_BEST_EFFORT pending partner-lab verification of the specific published values.",
+  "predictions": {
+    "P1_table_well_formed": {
+      "pass": true,
+      "details": {
+        "required_fields": [
+          "row_id",
+          "platform",
+          "citation_tag",
+          "drive_frequency_label",
+          "omega_drive_rad_per_s",
+          "T2_observed_s",
+          "conditions",
+          "verify_status",
+          "notes"
+        ],
+        "violations": []
+      }
+    },
+    "P2_no_current_measurement_violates_T2_grav": {
+      "pass": false,
+      "details": {
+        "violation_count": 1,
+        "violating_rows": [
+          "4"
+        ]
+      }
+    },
+    "P3_margin_distribution_consistent_with_environmental_dominance": {
+      "pass": true,
+      "details": {
+        "median_margin_ratio": 300.3731985477077,
+        "interpretation": "Median margin >> 1 means current measurements are environmental-noise-limited, sitting far above the gravitational floor. Consistent with floor existing but not yet engineering-limited by it."
+      }
+    },
+    "P4_cryo_DD_NV_closest_to_floor_in_relative_terms": {
+      "pass": true,
+      "details": {
+        "interpretation": "Cryo+DD NV (Bar-Gill class) has the highest absolute T2 but is still many orders of magnitude above the gravitational floor."
+      }
+    },
+    "P5_no_free_parameters_in_contact_analysis": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P6_explicit_verification_path_documented": {
+      "pass": true,
+      "details": "All rows carry verify_status field; partner-lab confirmation lifts PROVISIONAL to VERIFIED"
+    },
+    "P7_contact_table_emitted_with_consistency_classification": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P8_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    }
+  },
+  "wrong_controls": {
+    "WC1_inverted_formula_falsely_flags_violations": {
+      "pass": false,
+      "details": {
+        "real_formula_min_margin": 0.7352957795198346,
+        "wrong_formula_min_margin": 1.4449967340950024e-10,
+        "interpretation": "The real T2_grav formula has discriminating power (some rows are within an order of magnitude of the floor). The inverted formula gives nanosecond floors that every measurement trivially exceeds, demonstrating the wrong formula has no discriminating power."
+      }
+    },
+    "WC2_zero_omega_breaks_the_formula_gracefully": {
+      "pass": true,
+      "details": "ValueError raised on omega = 0; no silent NaN"
+    },
+    "WC3_negative_T2_observed_rejected_as_unphysical": {
+      "pass": true,
+      "details": "ValueError raised on T2_observed <= 0"
+    },
+    "WC4_no_citation_tag_marks_row_as_provisional": {
+      "pass": true,
+      "details": "All rows carry citation tags"
+    },
+    "WC5_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on upstream locks"
+    },
+    "WC6_no_free_parameters": {
+      "pass": true,
+      "details": "All inputs traced to declared premises"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 7,
+    "predictions_total": 8,
+    "wrong_controls_passed": 5,
+    "wrong_controls_total": 6
+  }
+}

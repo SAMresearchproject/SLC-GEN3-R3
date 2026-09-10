@@ -1,0 +1,55 @@
+{
+  "P80": {
+    "authority": "STRUCTURAL_ONLY",
+    "populated": false
+  },
+  "candidate_authority": "CONSTRUCTED_RESEARCH_BOUNDARY_ONLY",
+  "candidate_entities_absent": [
+    "CANCELED_NONEMPTY",
+    "INTERNAL_WRITE_VISIBILITY_RATIO",
+    "NULL_HISTORY",
+    "Q_WSR"
+  ],
+  "candidate_operators_absent": [
+    "COMPUTE_Q_WSR",
+    "MAP_Q_WSR_TO_PHYSICS",
+    "NORMALIZE_WRITE_VISIBILITY"
+  ],
+  "candidate_semantic_type": "InternalWriteVisibilityRatio",
+  "cr120_frontier": {
+    "ADJACENT": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "ADJACENT_LEDGER_STATE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "LEDGER_SITE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    },
+    "PROPAGATE_CLOSURE": {
+      "entity_absent": true,
+      "operator_absent": true,
+      "recorded_in_CR120": true,
+      "status": "MISSING_PRESERVED"
+    }
+  },
+  "physical_exposure": {
+    "GPS": "NOT_PERFORMED",
+    "clock": "NOT_PERFORMED",
+    "cosmological": "NOT_PERFORMED",
+    "particle": "NOT_PERFORMED",
+    "physical_time": "NOT_IDENTIFIED",
+    "supernova": "NOT_PERFORMED",
+    "thermodynamic": "NOT_PERFORMED"
+  },
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR"
+}

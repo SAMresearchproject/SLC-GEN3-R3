@@ -1,0 +1,81 @@
+# CR036B HASHES
+
+Sealed 2026-06-27. CR035A2 pipeline rerun with H_0 = H_0_SAM = 67.2503751950
+(sealed from CR036). Same SAM density spine + same fixed Planck perturbations
++ same CAMB engine + same Planck PR3 data files + same peak finder + same
+verdict tree as CR035A2; only H_0 changes.
+
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Precommit (sealed first; runner must honor)
+ab2fea4b0822412cc5ca9978bab89822ea6fccffa76f94527bff05aaa660305e  CR036B_PRECOMMIT.md
+
+# CR036 provenance (provenance only; the CR036B runner does NOT open these files)
+PROVENANCE  345a1a8dc180eb6b28141114a82315e3b8d92889537c1219eec4312d59ca33f2  CR036/CR036_PRECOMMIT.md
+PROVENANCE  fe4e570215b2ee0d77b25f88fd4f019fefb1d7dbba4fdab895f7088323490289  CR036/CR036_runner.py
+PROVENANCE  97f3b07bba6e842a8474b62d5ab3b99fdcc8a3261536086d402c51b73ddae3af  CR036/CR036_summary.json
+PROVENANCE  fe1c9ee9c6a4ccf3c6f3d7d6e68ca34f93620c2650811f6b519ce636e1c247a6  CR036/CR036_result.md
+CANONICAL_VALUE  H_0_SAM = 67.2503751950 km/s/Mpc  (copied from CR036_summary.json)
+
+# Runner (HASHED BEFORE EXECUTION; frozen-at-launch evidence)
+704ceaa2f95b5963a190d3a5dbd71cd370dec80a357147c7278f86106ed29d31  CR036B_runner.py
+
+# CR036B artifacts (HASHED IMMEDIATELY AFTER RUNNER EXECUTION)
+# Runner verdict: PASS.
+#   TT chi^2/dof = 1.0413 (CR035A2 was 1.3464; TT shape match TIGHTENED with H_0_SAM)
+#   TE chi^2/dof = 1.0443 (CR035A2 was 1.1941)
+#   EE chi^2/dof = 1.0430 (CR035A2 was 1.1246)
+#   All three pol-spectra chi^2/dof land near 1.04 — at the noise floor for
+#   the symmetric-Gaussian binned bandpower comparison.
+#   Peaks: P1 theory=220 Planck=219 (delta=1); P2 535 vs 520 (delta=15);
+#          P3 812 vs 814 (delta=2; corrected from CR035A2's delta=8).
+#   P1a PASS, P1b FAIL (2nd-peak delta=15), P1c PASS -> P1 PASS (2 of 3).
+#   P2 PASS (1.04 well under 2.0).
+#   Run B optimum barely moved: A_s +0.31 sigma, n_s +0.19 sigma, tau -0.11 sigma.
+#   -> CR036B PASS.
+4fb9b97a928a96d47a3cbe0e05c1f287a9ff7e294a583acc8a27571f71805b61  CR036B_summary.json
+343781dc48ceba2cf18685eeecea9c49b1c3d7453ea49f8ca8399736ce070b4d  CR036B_result.md
+7d4284d8e4950c0f789c7c50d0263ce38f3d244d2e2a8503695f37d0adc81567  CR036B_TT_residuals.csv
+e1e98d5b2937762b9689a360bb92e0018e0564067a1b0c57f246fbcf730ec3b3  CR036B_TE_residuals.csv
+f03313b033081cbf09c187c4b4dda77322cba5f3c4920c2d5d4b4ff0b331ed9b  CR036B_EE_residuals.csv
+189516260fbf5b20d7f5d00c504b17cd5fb6b261407f50eecc7a44aaf879943b  CR036B_peaks.csv
+e1eeba45c69a0c7d0bfef40471d7e3c49984d48de0aa278f98712ccc43868d18  CR036B_runB_diagnostic.json
+ff46045bca30022d00fbea00fafec7c642e3d9721a851486db7e55c97201ac58  CR036B_runA_theory_spectra.csv
+
+# External sources (allowed; same as CR035A2; same SHA-256 expected)
+ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TT-full_R3.01.txt
+8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TE-full_R3.01.txt
+c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-EE-full_R3.01.txt
+
+# Engine
+ENGINE:CAMB 1.6.6  (python module camb)
+ENGINE:scipy.optimize.minimize  (L-BFGS-B for Run B diagnostic only)
+ENGINE:scipy.signal.find_peaks + scipy.ndimage.gaussian_filter1d
+
+# Frozen external numeric constants (in-code literals; no file read)
+A_S      = 2.100e-9            (Planck 2018 base posterior centroid)
+N_S      = 0.9649              (Planck 2018 base posterior centroid)
+TAU      = 0.0544              (Planck 2018 base posterior centroid)
+N_EFF    = 3.046               (standard)
+T_CMB    = 2.7255 K            (FIRAS)
+K_PIVOT  = 0.05 Mpc^-1         (Planck pivot scale)
+H_0_SAM  = 67.2503751950 km/s/Mpc  (sealed from CR036; numeric literal)
+
+# Forbidden inputs (expanded vs CR035A2 to include CR036 family)
+FORBIDDEN  CR036 family files (PRECOMMIT, runner, summary, result, evidence, substrate_atoms)
+FORBIDDEN  CR035A2 family files
+FORBIDDEN  CR035A family files
+FORBIDDEN  CR001 / CR001b / CR001c / CR002 / CR003 family files
+FORBIDDEN  CR018b / CR019 family files
+FORBIDDEN  CR025 / CR031b / CR032 / CR033 family files
+FORBIDDEN  CR205 files
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv

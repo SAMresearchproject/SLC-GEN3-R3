@@ -1,0 +1,471 @@
+{
+  "branch": "16_THE_LAST_CAMPAIGN",
+  "checks": [
+    {
+      "check_id": "LC02_CHECK_001",
+      "description": "LC01 result class",
+      "expected": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "observed": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_002",
+      "description": "LC02 lane registered in LC01",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_003",
+      "description": "R locked",
+      "expected": "12",
+      "observed": "12",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_004",
+      "description": "D locked",
+      "expected": "3",
+      "observed": "3",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_005",
+      "description": "alpha_H locked",
+      "expected": "2",
+      "observed": "2",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_006",
+      "description": "R^2",
+      "expected": 144,
+      "observed": 144,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_007",
+      "description": "2^D face states",
+      "expected": 8,
+      "observed": 8,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_008",
+      "description": "carrier fraction",
+      "expected": "1/8",
+      "observed": "1/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_009",
+      "description": "retained fraction",
+      "expected": "7/8",
+      "observed": "7/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_010",
+      "description": "split loss",
+      "expected": 18,
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_011",
+      "description": "tensor identity alpha_H*D^2",
+      "expected": "18",
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_012",
+      "description": "H_native exact",
+      "expected": 126,
+      "observed": "126",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_013",
+      "description": "surface debit exact",
+      "expected": "3/4",
+      "observed": "3/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_014",
+      "description": "H_reveal exact",
+      "expected": "501/4",
+      "observed": "501/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_015",
+      "description": "CR114 observed surface matches",
+      "expected": "501/4",
+      "observed": "501/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_016",
+      "description": "CR092a H_reveal matches",
+      "expected": "501/4",
+      "observed": "501/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_017",
+      "description": "QP091T H_reveal matches",
+      "expected": "125.250000000000000000000000000000",
+      "observed": "125.250000000000000000000000000000",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_018",
+      "description": "QP091U wrong controls rejected",
+      "expected": 7,
+      "observed": 7,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_019",
+      "description": "CR120 caveat preserved",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_020",
+      "description": "2*pi q-split route remains non-exact",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_021",
+      "description": "HZZ4l categories sum to one",
+      "expected": 1,
+      "observed": "1",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_022",
+      "description": "HZZ4l categories have 1:2:1 shape",
+      "expected": [
+        "1/4",
+        "1/2",
+        "1/4"
+      ],
+      "observed": [
+        "1/4",
+        "1/2",
+        "1/4"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_023",
+      "description": "all source files exist",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_024",
+      "description": "all LC02 wrong controls rejected",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC02_CHECK_025",
+      "description": "no downstream formula mutation",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    }
+  ],
+  "claim_grade": "DOWNSTREAM_REPLAY_PASS_NOT_NEW_FORWARD_BLIND_EMPIRICAL_DISCOVERY",
+  "closed_form": {
+    "H_native": "R^2*(1-2^-D)",
+    "H_reveal": "R^2*(1-2^-D)-D^2/R",
+    "values": {
+      "D": 3,
+      "H_native": "126",
+      "H_reveal": "501/4",
+      "R": 12,
+      "R2": 144,
+      "alpha_H": 2,
+      "carrier_fraction": "1/8",
+      "retained_fraction": "7/8",
+      "split_loss": "18",
+      "surface_debit": "3/4",
+      "tensor_identity": "18"
+    }
+  },
+  "executed_at_utc": "2026-06-19T07:51:10Z",
+  "execution_status": "CLEAN",
+  "lc_id": "LC02",
+  "result_class": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "scope": "Replay Higgs closed form from LC01 locked primitives. Preserve target-visible caveat for older CR120 history.",
+  "source_chain": [
+    {
+      "exists": true,
+      "expected_status": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "observed_status": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "path": "16_THE_LAST_CAMPAIGN\\LC01_primitive_stack_lock.json",
+      "purpose": "Locked primitive stack and LC02 lane registration.",
+      "sha256": "7b0877f75e84be7cd809fc083ed737fc1552484a9c525b2f9e307e6eac4bfb30",
+      "source_id": "LC01_LOCK"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "observed_status": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_summary.json",
+      "purpose": "R=12 completed-WRITE address count.",
+      "sha256": "2c2a1a33c9b29d17b002a25d4cd8432691875098a60cd2fa3f1ff5864ea7664e",
+      "source_id": "CR113"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "observed_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_summary.json",
+      "purpose": "1/8 carrier split, 7/8 retained parent, 0.75 surface debit.",
+      "sha256": "e3b1f4aad262c08d1ab6286fc6a14386cc89c32da9e00666f439e52eed47acfb",
+      "source_id": "CR114"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "observed_status": "CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE",
+      "path": "14_FOUNDATIONAL_TESTS\\CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM\\CR115_summary.json",
+      "purpose": "D=3 invariant carrier uniqueness.",
+      "sha256": "18556fc6e49193cfae7bb1e9107f953e92d545ae648f5518a69298d8c1f70328",
+      "source_id": "CR115"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "observed_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR116_18_GRAVITON_CARRIER_THEOREM\\CR116_summary.json",
+      "purpose": "18 typed as carrier-only tensor channel, not matter/debit.",
+      "sha256": "e63c5821b7bb75dac6d975494d73b255aea691c773f4780b4523a0e09ab885ca",
+      "source_id": "CR116"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "observed_status": "CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL_LOCK",
+      "path": "14_FOUNDATIONAL_TESTS\\CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL\\CR104c_appeal_lock.json",
+      "purpose": "9/8 and 9/16 D=3 bounce algebra.",
+      "sha256": "06ae7d0f834717cf7832d3eb0044bafe79ab130d0bfcf0390f0bd9693a425115",
+      "source_id": "CR104c"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR092a_PASS",
+      "observed_status": "PASS",
+      "path": "09a_PARTICLE_MASS_CHAIN\\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\\CR092a_summary.json",
+      "purpose": "Earlier Courtroom intake of QP091T/QP091U exact closed form.",
+      "sha256": "21ec0af7a2854d367abe96df621c6c9b5ec01a84630e2211d7c3f904ae2d346e",
+      "source_id": "CR092a"
+    },
+    {
+      "exists": true,
+      "expected_status": "BOUNDARY_WITH_PROVENANCE_FIX",
+      "observed_status": "BOUNDARY_WITH_PROVENANCE_FIX",
+      "path": "09a_PARTICLE_MASS_CHAIN\\CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE\\CR120_summary.json",
+      "purpose": "Public Higgs bridge with preserved audit caveat and provenance repair.",
+      "sha256": "887f9ca58dde323f1c0a53cd1c05e3f3a6be6cf1315f3b32c9419799cb726179",
+      "source_id": "CR120"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP091T_CLOSED_LOOP_R2_RETENTION",
+      "observed_status": "PASS_QP091T_CLOSED_LOOP_R2_RETENTION__H_NATIVE_126_EXACT__SURFACE_DEBIT_125_25_EXACT__HZZ4L_CATEGORY_1_2_1__QSPLIT_DEMOTED_TO_CONTEXT",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp091t\\qp091t_summary.json",
+      "purpose": "Closed-loop R2 retention and surface-debit derivation.",
+      "sha256": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7",
+      "source_id": "QP091T"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP091U_QP091T_HARD_FREEZE",
+      "observed_status": "PASS_QP091U_QP091T_HARD_FREEZE__WRONG_CONTROLS_D2_D4_R10_R24_NO_DEBIT_D_OVER_R_D2_OVER_R2_REJECTED",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp091u\\qp091u_summary.json",
+      "purpose": "QP091T hard freeze and seven wrong-control rejections.",
+      "sha256": "b87d85be2149f4bd51daa70bcfe39f7e14fe033fb6c21d50e441a037f8b27ee1",
+      "source_id": "QP091U"
+    }
+  ],
+  "target_visibility": [
+    {
+      "details": "R, D, alpha_H, split fractions, carrier, bounce, and surface debit are read from LC01/CR113/CR114/CR115/CR116.",
+      "item": "LC02_selector_inputs",
+      "status": "LOCKED_PRIMITIVES_ONLY"
+    },
+    {
+      "details": "CR062/PDG 125.25 appears in CR092a/QP091T history but is not an LC02 formula input.",
+      "item": "external_Higgs_target",
+      "status": "COMPARISON_ANCHOR_ONLY"
+    },
+    {
+      "details": "CR120 remains boundary/downgraded for the older qp091 target-visible form-selection history.",
+      "item": "CR120_historical_caveat",
+      "status": "PRESERVED"
+    },
+    {
+      "details": "LC02 establishes that the Higgs closed form replays from the locked stack; it does not relabel the old CR120 chronology as forward-blind.",
+      "item": "LC02_claim_grade",
+      "status": "DOWNSTREAM_REPLAY_PASS"
+    }
+  ],
+  "test_class": "HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "wrong_controls": [
+    {
+      "H_native": "not computed",
+      "H_reveal": "target assertion, not replay",
+      "control_id": "WC17_HIGGS_TARGET_LOCK",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Set H_reveal to the target first and call the selector done.",
+      "reason": "LC02 uses LC01 primitives before comparison; target assertion is not a replay formula.",
+      "rejected": true,
+      "surface_debit": "not computed",
+      "wrong_formula": "H_reveal := target"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "108",
+      "control_id": "WC18A_CARRIER_LOSS_AS_SURFACE_DEBIT",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Replace the surface debit with the 18 carrier loss.",
+      "reason": "Carrier loss is upstream split support, not the observed-surface debit.",
+      "rejected": true,
+      "surface_debit": "18",
+      "wrong_formula": "H = H_native - 18"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "2007/16",
+      "control_id": "WC18B_HALF_BOUNCE_AS_SURFACE_DEBIT",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Replace the surface debit with resolved half-bounce 9/16.",
+      "reason": "9/16 is the resolved half-bounce algebra, not the Higgs surface debit.",
+      "rejected": true,
+      "surface_debit": "9/16",
+      "wrong_formula": "H = H_native - D^2/2^(D+1)"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "999/8",
+      "control_id": "WC18C_BOUNCE_LIFT_AS_SURFACE_DEBIT",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Replace the surface debit with bounce lift 9/8.",
+      "reason": "9/8 is the bounce lift lane, not the observed-surface debit.",
+      "rejected": true,
+      "surface_debit": "9/8",
+      "wrong_formula": "H = H_native - D^2/2^D"
+    },
+    {
+      "H_native": "route not fixed",
+      "H_reveal": "not a closed-form replay",
+      "control_id": "WC20_NEAREST_PARTICLE_ROW_SELECTION",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Pick the nearest particle row after seeing the target.",
+      "reason": "LC02 fixes the CLOSED_SCALAR_LOOP route before comparison; no nearest-row search is run.",
+      "rejected": true,
+      "surface_debit": "route not fixed",
+      "wrong_formula": "post-hoc nearest-row assignment"
+    },
+    {
+      "H_native": "108",
+      "H_reveal": "323/3",
+      "control_id": "WC_QP091U_WRONG_D_2",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use D=2 while keeping R=12.",
+      "reason": "D=2 fails both parent and reveal.",
+      "rejected": true,
+      "surface_debit": "1/3",
+      "wrong_formula": "R^2*(1-2^-2) - 2^2/R"
+    },
+    {
+      "H_native": "135",
+      "H_reveal": "401/3",
+      "control_id": "WC_QP091U_WRONG_D_4",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use D=4 while keeping R=12.",
+      "reason": "D=4 fails both parent and reveal.",
+      "rejected": true,
+      "surface_debit": "4/3",
+      "wrong_formula": "R^2*(1-2^-4) - 4^2/R"
+    },
+    {
+      "H_native": "175/2",
+      "H_reveal": "433/5",
+      "control_id": "WC_QP091U_WRONG_R_10",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use R=10 while keeping D=3.",
+      "reason": "R=10 fails both parent and reveal.",
+      "rejected": true,
+      "surface_debit": "9/10",
+      "wrong_formula": "10^2*(1-2^-3) - D^2/10"
+    },
+    {
+      "H_native": "504",
+      "H_reveal": "4029/8",
+      "control_id": "WC_QP091U_WRONG_R_24",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use R=24 while keeping D=3.",
+      "reason": "R=24 fails both parent and reveal.",
+      "rejected": true,
+      "surface_debit": "3/8",
+      "wrong_formula": "24^2*(1-2^-3) - D^2/24"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "126",
+      "control_id": "WC_QP091U_NO_SURFACE_DEBIT",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Keep H_native but drop the observed-surface debit.",
+      "reason": "No debit preserves the parent but fails the reveal surface.",
+      "rejected": true,
+      "surface_debit": 0,
+      "wrong_formula": "H = H_native"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "503/4",
+      "control_id": "WC_QP091U_DEBIT_D_OVER_R",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use D/R as the surface debit.",
+      "reason": "D/R preserves the parent but fails the reveal surface.",
+      "rejected": true,
+      "surface_debit": "1/4",
+      "wrong_formula": "H = H_native - D/R"
+    },
+    {
+      "H_native": "126",
+      "H_reveal": "2015/16",
+      "control_id": "WC_QP091U_DEBIT_D2_OVER_R2",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Use D^2/R^2 as the surface debit.",
+      "reason": "D^2/R^2 preserves the parent but fails the reveal surface.",
+      "rejected": true,
+      "surface_debit": "1/16",
+      "wrong_formula": "H = H_native - D^2/R^2"
+    },
+    {
+      "H_native": "126.001639700297361188599351135096",
+      "H_reveal": "125.251639700297361188599351135096",
+      "control_id": "WC_OLD_2PI_QSPLIT_ROUTE_RESTORE",
+      "correct_H_reveal": "501/4",
+      "hypothesis": "Restore the old 2*pi q-split near-lock as the exact parent route.",
+      "reason": "QP091S/QP091T keep 2*pi q-split as near-lock context only; it misses the exact reveal by the recorded gap.",
+      "rejected": true,
+      "surface_debit": "3/4",
+      "wrong_formula": "H_qsplit - D^2/R"
+    }
+  ]
+}

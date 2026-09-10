@@ -1,0 +1,67 @@
+{
+  "cardinality_perturbation_does_not_mutate_packet_count": true,
+  "interventions": [
+    {
+      "Theta": "18",
+      "budget_7_at_100": "12600",
+      "budget_8_at_100": "14400",
+      "budget_9_at_100": "16200",
+      "intervention": "theta_baseline",
+      "unit_7": "126",
+      "unit_8": "144",
+      "unit_9": "162"
+    },
+    {
+      "Theta": "19",
+      "budget_7_at_100": "13300",
+      "budget_8_at_100": "15200",
+      "budget_9_at_100": "17100",
+      "intervention": "theta_plus_one",
+      "unit_7": "133",
+      "unit_8": "152",
+      "unit_9": "171"
+    },
+    {
+      "intervention": "packet_multiplicity_99",
+      "lower_budget": 12474,
+      "mid_budget": 14256,
+      "packet_multiplicity": 99,
+      "upper_budget": 16038
+    },
+    {
+      "intervention": "packet_multiplicity_100",
+      "lower_budget": 12600,
+      "mid_budget": 14400,
+      "packet_multiplicity": 100,
+      "upper_budget": 16200
+    },
+    {
+      "intervention": "packet_multiplicity_101",
+      "lower_budget": 12726,
+      "mid_budget": 14544,
+      "packet_multiplicity": 101,
+      "upper_budget": 16362
+    },
+    {
+      "intervention": "roster_cardinality_80",
+      "matches_workbook": false,
+      "packet_multiplicity_unchanged": 100,
+      "roster_cardinality": 80
+    },
+    {
+      "intervention": "roster_cardinality_81",
+      "matches_workbook": true,
+      "packet_multiplicity_unchanged": 100,
+      "roster_cardinality": 81
+    },
+    {
+      "intervention": "roster_cardinality_82",
+      "matches_workbook": false,
+      "packet_multiplicity_unchanged": 100,
+      "roster_cardinality": 82
+    }
+  ],
+  "packet_perturbation_changes_budgets": true,
+  "source_rows_mutated": false,
+  "theta_perturbation_changes_budgets": true
+}

@@ -1,0 +1,11 @@
+{
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "sealed_at_utc": "2026-07-21T05:01:10.4671815Z",
+  "runner": "CR005i_runner.py",
+  "runner_bytes": 31877,
+  "runner_sha256": "e5dd6b104757555a8ff78ecf74e112ff942952017007d683c3c4d1f2d773dab3",
+  "syntax_check": "PASS",
+  "appeal_results_opened_before_runner_seal": false,
+  "same_run_repair_allowed": false,
+  "candidate_ledger_may_change": false
+}

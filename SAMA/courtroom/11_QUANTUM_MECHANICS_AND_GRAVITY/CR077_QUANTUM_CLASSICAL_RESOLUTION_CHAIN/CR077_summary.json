@@ -1,0 +1,62 @@
+{
+  "artifacts": {
+    "chain_rows": "CR077_chain_rows.csv",
+    "checks": "CR077_checks.csv",
+    "claim_boundaries": "CR077_claim_boundaries.csv",
+    "hashes": "HASHES.txt",
+    "result": "CR077_result.md",
+    "source_manifest": "CR077_source_manifest.csv",
+    "summary": "CR077_summary.json",
+    "wrong_controls": "CR077_wrong_controls.csv"
+  },
+  "branch": "11_QUANTUM_MECHANICS_AND_GRAVITY",
+  "captured_at_utc": "2026-07-11T02:01:34Z",
+  "chain": {
+    "gamma_res": "1/2",
+    "human_role": "delayed local readout",
+    "i_phys_selected": "4/7",
+    "route_probabilities": [
+      "1/7",
+      "4/7",
+      "2/7"
+    ],
+    "selected_route": "r1"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 27,
+    "total": 27
+  },
+  "claim_boundaries": [
+    {
+      "boundary_id": "B1",
+      "status": "OPEN",
+      "text": "No eta/hbar, Planck-cell, Bell-closure, Hilbert-space, or full quantum-gravity derivation is claimed."
+    },
+    {
+      "boundary_id": "B2",
+      "status": "OPEN",
+      "text": "QGA021 is an imported threshold-origin dependency in G678; CR077 does not promote it."
+    },
+    {
+      "boundary_id": "B3",
+      "status": "PRESERVED",
+      "text": "Human observation remains a delayed readout, not the physical resolution cause."
+    },
+    {
+      "boundary_id": "B4",
+      "status": "PRESERVED",
+      "text": "The chain recertifies upstream artifacts and does not overwrite their result files."
+    }
+  ],
+  "cr_id": "CR077",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "CR077_PASS_SCOPED_STRUCTURAL_QUANTUM_CLASSICAL_RESOLUTION_CHAIN",
+  "source_commit_expected": "822f8f4241c1b0b7fb272eb30c1022dd860ea18c",
+  "source_commit_observed": "822f8f4241c1b0b7fb272eb30c1022dd860ea18c",
+  "source_repo": "C:\\VS\\Stam_model-A-v1.0",
+  "wrong_controls": {
+    "rejected": 5,
+    "tested": 5
+  }
+}

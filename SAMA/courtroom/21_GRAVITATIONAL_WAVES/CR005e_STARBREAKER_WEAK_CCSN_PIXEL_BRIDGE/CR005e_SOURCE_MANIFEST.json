@@ -1,0 +1,54 @@
+{
+  "campaign_id": "CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE",
+  "source_count": 8,
+  "sources": [
+    {
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260720_214836_no_script.md",
+      "role": "task-scoped Courtroom preflight",
+      "bytes": 16827,
+      "sha256": "d3fbabdf4493cddafe717214640cdf5bbb26eedecc9eba4a69fff4d922fc632e"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_runner.py",
+      "role": "sealed continuous-flow and quadrupole construction implementation",
+      "bytes": 53752,
+      "sha256": "520ae3c79c625e696db1949a7824c45881b5f0d271ee2d35738b62a7a8947a80"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_CONTRACT.json",
+      "role": "upstream continuous-source claim boundary",
+      "bytes": 6921,
+      "sha256": "96cff6164e55c2024ffcbe7158f8dd4d4783ef408b4941d72f8c6f17084c309e"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_RESULT.md",
+      "role": "upstream executed result",
+      "bytes": 3737,
+      "sha256": "18fc6266d31e462013fe80f6b4557759ecd2019e30e9dc09def0573a42f00962"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_SUMMARY.json",
+      "role": "upstream executed summary",
+      "bytes": 9139,
+      "sha256": "e2bc53614bc9576b8d98dbe0ce56969ded07c9db5b0bddb7b8d75bbad4efc5f6"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz",
+      "role": "frozen 96-scenario typed Starbreaker trajectory roster",
+      "bytes": 62636683,
+      "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"
+    },
+    {
+      "path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/SCENARIO_SELECTION_DECOMPOSITION.csv",
+      "role": "frozen Starbreaker scenario metadata and geometry doors",
+      "bytes": 18469,
+      "sha256": "b1869c7cda4223484c0023fdfb04e54e533f747c457795906030fde90c14007d"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR005e_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE/inputs/all.3D.strains.tar.gz",
+      "role": "public Princeton 3D CCSN matter-strain waveform archive",
+      "bytes": 15194987,
+      "sha256": "8fa6e9ba96cd4aad3de96bd52de7c16c0476dabd7bde7af94220fc626d5779e3"
+    }
+  ]
+}

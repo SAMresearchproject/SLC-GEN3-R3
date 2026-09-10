@@ -1,0 +1,12 @@
+wrong_control,attempted_mutation,evidence,result
+WC20_PARTICLE_TABLE_NEAREST_MATCH,assign particle identity by nearest known label or nearest known mass,CR119 source table keeps 1 fake_nearest_known_match row(s) rejected; known labels are reveal-only,REJECTED
+WC21_PARTICLE_ROW_SUPPRESSION,delete awkward particle/matter rows or replay only successful rows,CR062a retains 35/35 ledger rows; CR119 exports 321/321 particle rows; CR129c keeps rejected fake-closure controls outside pass set,REJECTED
+WC22_PERIODIC_TABLE_DATA_BACKFILL,use periodic/isotope known labels to backfill particle construction,CR119 reports periodic rows as vault reveal; LC04 defers periodic/isotope replay to LC05 and uses no periodic target labels,REJECTED
+WC_QA_AS_MASS,treat qA or surface debit as a direct particle mass,CR119 keeps 1 fake_direct_qA_as_mass row(s) rejected; LC03 qA bridge remains debit/source grammar only,REJECTED
+WC_CARRIER_PROMOTED_TO_MATTER,promote tensor carrier M=18 into the matter set,CR116/CR119/CR132 keep tensor carrier as carrier/support; matter catalog remains 126 rows,REJECTED
+WC_FORMULA_MUTATION,change formulas between particle classes to force closure,CR128-CR134 replay class-specific declared formulas with violations zero in their scopes,REJECTED
+WC_CONSTANT_MUTATION,"alter alpha_H, R, D, split, bounce, or surface debit after LC01","All LC04 laws are read against LC01 locked primitive stack: alpha_H=2, R=12, D=3, split=1/8, surface_debit=0.75",REJECTED
+WC_Q_LABEL_RELABEL,"relabel q_abs, q_sign, or partition values after viewing observed rows",CR129b/CR131/CR133 replay q and partition rules as fixed row grammar; no q-label relabeling is introduced in LC04,REJECTED
+WC_INSAMPLE_OVERCLAIM,upgrade generator consistency tests into first-principles derivations,LC04 preserves the CR142 qualifier: generator rows are in-sample consistency unless separately forward-blind,REJECTED
+WC_4BODY_CONJECTURE_AS_PASS,count the CR130 4-body conjecture as an already-passed particle branch,"LC04 records the 4-body term as forward-blind conjecture only, not an in-sample pass",REJECTED
+WC_SOURCE_SUPPORT_AS_MATTER,promote CR134 hidden source-support packets to matter rows,CR134 source support rows remain qA=0 hidden support with S_debit=0; not matter,REJECTED

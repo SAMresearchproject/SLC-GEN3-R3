@@ -1,0 +1,53 @@
+{
+  "exact_arithmetic": {
+    "F": 81,
+    "L": 162,
+    "S": 8,
+    "V": 27,
+    "W": 9,
+    "X": 1,
+    "checks": {
+      "F = V * D": true,
+      "L = F * h": true,
+      "N = S * Theta": true,
+      "Theta = h * W": true,
+      "V = W * D": true,
+      "W = S + X": true
+    }
+  },
+  "handoff_contract": "CR120_LANGUAGE_HANDOFF_CONTRACT.json",
+  "language_candidate": "SAM_LANGUAGE_V0_4_1_CANDIDATE",
+  "primary_verdict": "BOUNDARY_CLOSURE_HIERARCHY_PASS_ADJACENCY_OR_LOCALITY_UNSOURCED",
+  "record_id": "CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE",
+  "scientific_result_status": "BOUNDARY",
+  "sealed_utc": "2026-07-12T10:25:30Z",
+  "secondary_boundary": "BOUNDARY_THETA_CONTACT_PROPAGATION_CANDIDATE_CONSERVATION_RULE_OPEN",
+  "source_drive": "SAM_LANGUAGE_V0_4_1_DRIVE_001_CLOSURE_PROPAGATION",
+  "statuses": {
+    "a_to_b_open_preserved": true,
+    "adjacent_state_contract_absent": true,
+    "b_acts_through_x1_preserved": true,
+    "branch_qualified_provenance": true,
+    "exact_arithmetic_pass": true,
+    "explain_identifies_missing_operator": true,
+    "no_raw_tracebacks": true,
+    "p80_structural_only_preserved": true,
+    "readme_pdf_available": true,
+    "readme_pdf_names_target_contract": true,
+    "sealed_prefix_executes": true,
+    "target_rejects_missing_operator": true,
+    "v0_4_1_regressions_pass": true
+  },
+  "stop_point": {
+    "conservation_accounting_status": "OPEN",
+    "missing_entity": "ADJACENT_LEDGER_STATE",
+    "missing_operator": "PROPAGATE_CLOSURE",
+    "missing_type_or_relation": [
+      "LEDGER_SITE",
+      "ADJACENT"
+    ],
+    "stage": "operator_resolution_and_site_contract",
+    "transport_object_status": "OPEN"
+  },
+  "task": "SAM_PROSPECTIVE_CR_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE"
+}

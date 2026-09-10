@@ -1,0 +1,41 @@
+{
+  "artifact": "CR227_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK",
+  "boundary": "Workbook contains formula-derived SOB rows and card payloads from SAM constants only; reveal fields are blank.",
+  "checks_passed": 14,
+  "checks_total": 14,
+  "cr_id": "CR227",
+  "execution_status": "CLEAN",
+  "formula_count": 5529,
+  "generated_at_utc": "2026-06-21T04:23:54+00:00",
+  "prediction_counts": {
+    "frontier": 8,
+    "radioactive": 37,
+    "stable": 81
+  },
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260620_232354_CR227_runner.md",
+  "result_class": "CR227_PASS_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK__126_ROWS__CLOCK_FORMULA_INCLUDED__FORMULA_CELLS_GT_5000__NO_REVEAL_INPUTS",
+  "rows": {
+    "card_payload_formula_rows": 126,
+    "sob_formula_rows": 126
+  },
+  "sheets": [
+    "Constants",
+    "Hidden_Set",
+    "Shells",
+    "SOB_126",
+    "Card_Payloads_126",
+    "Formula_Map",
+    "Checks"
+  ],
+  "workbook": "09a_PARTICLE_MASS_CHAIN/CR227_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK/CR227_no_free_input_sob_formula_workbook.xlsx",
+  "z79": {
+    "A": 197,
+    "GR_decimal": "5861.572916666666667",
+    "G_decimal": "732.696614583333333",
+    "N": 118,
+    "P_address": "79p+118n+79e",
+    "Z": 79,
+    "clock_prediction": "stable",
+    "quark_address": "276u+315d+79e"
+  }
+}

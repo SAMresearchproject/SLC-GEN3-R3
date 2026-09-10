@@ -1,0 +1,18 @@
+{
+  "rows_scored": 126,
+  "N_match_count": 126,
+  "A_match_count": 126,
+  "clock_match_count": 126,
+  "clock_closed_pred_count": 81,
+  "clock_hole_pred_count": 2,
+  "radioactive_open_pred_count": 35,
+  "frontier_pred_count": 8,
+  "stable_clock_holes": [
+    43,
+    61
+  ],
+  "measured_mass_used_as_input": false,
+  "measured_mass_scored_as_derived": false,
+  "reveal_csv": "reveal_reference.csv",
+  "reveal_csv_sha256": "fbfb17d82fbe7375690ae4b7c5ec0e473d0024284caf2dbd89d5404ded1b7b3a"
+}

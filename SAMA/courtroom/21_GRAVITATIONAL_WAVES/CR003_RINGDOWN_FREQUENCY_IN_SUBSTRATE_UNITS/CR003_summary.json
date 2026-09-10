@@ -1,0 +1,59 @@
+{
+  "artifact": "CR003_RINGDOWN_FREQUENCY_IN_SUBSTRATE_UNITS",
+  "mode": "EXPLORATORY",
+  "verdict": "PASS",
+  "precommit_hash": "ec90b9924a12ae760bd3cefb550ad602be442114b8a26c36b0fb9c37f5998cd3",
+  "target": {
+    "omega_R_times_M": 0.37367168,
+    "omega_I_times_M": 0.08896232,
+    "Q_GR": 2.1001682510078425,
+    "source": "Berti, Cardoso, Starinets 2009 Living Rev Rel 12 2"
+  },
+  "gates": {
+    "PASS_pct": 0.5,
+    "BOUNDARY_pct": 5.0
+  },
+  "search_space": {
+    "candidate_count": 22627,
+    "forms": [
+      "a/b",
+      "a/(b+c)",
+      "a/(b-c)",
+      "(a+b)/c",
+      "(a-b)/c",
+      "(a*b)/c",
+      "a/(b*c)",
+      "(a*b)/(c*d)"
+    ],
+    "atoms": [
+      "h",
+      "d",
+      "S",
+      "V",
+      "F",
+      "R",
+      "R2",
+      "Theta",
+      "L",
+      "M",
+      "PI"
+    ]
+  },
+  "best_R": {
+    "expression": "d/S",
+    "value": 0.375,
+    "err_pct": 0.35547783551592504,
+    "status": "PASS"
+  },
+  "best_I": {
+    "expression": "R/(L-V)",
+    "value": 0.08888888888888889,
+    "err_pct": 0.08254181220892759,
+    "status": "PASS"
+  },
+  "Q_cross_check": {
+    "Q_SAM": 2.109375,
+    "Q_GR": 2.1001682510078425,
+    "err_pct": 0.43838149575584046
+  }
+}

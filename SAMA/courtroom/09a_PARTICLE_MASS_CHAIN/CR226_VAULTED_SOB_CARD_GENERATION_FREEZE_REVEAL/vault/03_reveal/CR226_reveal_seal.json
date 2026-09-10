@@ -1,0 +1,19 @@
+{
+  "atomic_mass_revealed_count": {
+    "NO_MATCHING_MASS_REVEAL": 30,
+    "REVEALED_QP061": 96
+  },
+  "file_count": 254,
+  "linear_manifest_sha256": "1999a136b3a945a23ce240ec4f203668425e708ae2f8c84e27cef05fbc32df44",
+  "manifest": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/03_reveal/CR226_reveal_hash_manifest.csv",
+  "merkle_root_sha256": "f02f2253378f291fec25d6b31807fa554bbb03934b19497197b08468087253a6",
+  "name_symbol_revealed_count": {
+    "NO_REVEAL_LABEL": 8,
+    "REVEALED": 118
+  },
+  "phase": "03_reveal",
+  "prediction_merkle_root_sha256": "e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897",
+  "reveal_sources_read_after_freeze": true,
+  "root_name": "CR226_REVEAL_SEAL",
+  "total_bytes": 24699243
+}

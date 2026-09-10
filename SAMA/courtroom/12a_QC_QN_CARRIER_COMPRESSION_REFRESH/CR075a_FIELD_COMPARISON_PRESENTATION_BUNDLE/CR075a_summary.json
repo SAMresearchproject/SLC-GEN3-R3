@@ -1,0 +1,175 @@
+{
+  "bundle_outputs": {
+    "markdown": "CR075a_paul_revere_field_comparison_bundle.md",
+    "pdf": "CR075a_paul_revere_field_comparison_bundle.pdf",
+    "pdf_pages": 4
+  },
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "cr_id": "CR075a",
+  "execution_status": "CLEAN",
+  "free_parameters": 0,
+  "honest_aggregate_verdict": "CR075a generated a markdown source and PDF distribution bundle from CR070a-CR074a. The bundle opens with STEWARDSHIP.md, names all failures and PROVISIONAL tags, preserves scope boundaries, names bus-factor-1 risk, and gives the partner-lab verification path. 09a CR220-CR228 are included only as connection context for address/reveal discipline and regime separation, not as PR hardware validation.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "nine_a_connection_context": {
+    "CR220": "CR220_PASS_PARTICLE_COUNT_STABILITY_SIMULATION__126_NATIVE_ELEMENT_FAMILIES__P_TO_G_AND_GR_REPRODUCES_CR119__Z_LE_83_PRODUCES_83_WITH_43_61_HOLES__REFERENCE_PATCH_PRODUCES_81__SAM_CLOCK_SELECTOR_REMAINS_OPEN",
+    "CR221": "CR221_PASS_KAPPA_DERIVATION_FROM_P_TO_G_GR__KAPPA_FLOOR_7117_OVER_768__G_EQUALS_Z_KAPPA_FLOOR_PLUS_N_MINUS_Z_OVER_64__KAPPA_EFF_IS_ELEMENT_QUOTIENT_NOT_SINGLE_GLOBAL_HEAVY_ELEMENT_CONSTANT",
+    "CR222": "CR222_PASS_CONSTANTS_ONLY_ELEMENT_GENERATOR__126_NATIVE_ELEMENT_ROWS__214_ISOTOPE_LADDER_ROWS__MATCHES_CR220_CR119_126_OF_126__NO_CARDS_NO_KNOWN_LABELS_NO_CLOCK_INPUTS",
+    "CR223": "CR223_PASS_FORMULA_SPREADSHEET_EXPORT__XLSX_WITH_CONSTANTS_SHELLS_ELEMENTS_ISOTOPE_CANDIDATES_CHECKS__FORMULA_CELLS_GT_4000__NO_CARDS_NO_LABELS",
+    "CR224": "CR224_PASS_ZERO_FREE_PARAMETER_SOB_ROW_ENGINE__126_NATIVE_CARD_ROWS__NATIVE_PNG_FIELDS_COMPLETE__DOWNSTREAM_REVEAL_FIELDS_BOUNDARIED__MATCHES_CR222_126_OF_126",
+    "CR225": "CR225_PASS_CARRIER_HIDDEN_CLOCK_SELECTOR_CANDIDATE__BOUNDARY_83_AND_HOLES_43_61_NATIVE_FORMULA__HH001_MATCH_81_OF_81__MECHANISM_CANDIDATE_NOT_FINAL_PHYSICAL_PROOF",
+    "CR226": "CR226_PASS_VAULTED_CONSTANTS_ONLY_SOB_CARD_GENERATION__PREDICTIONS_SEALED__126_NATIVE_CARDS_FROZEN__126_REVEAL_CARDS_GENERATED__CLOCK_MATCH_126_OF_126",
+    "CR227": "CR227_PASS_NO_FREE_INPUT_SOB_FORMULA_WORKBOOK__126_ROWS__CLOCK_FORMULA_INCLUDED__FORMULA_CELLS_GT_5000__NO_REVEAL_INPUTS",
+    "CR228": "CR228_PASS_REVEAL_LAYER_SOB_FORMULA_WORKBOOK__126_FORMULA_ROWS__REVEAL_FIELDS_POPULATED__Z79_GOLD_MASS_PRESENT__PREDICTION_SEAL_REFERENCED"
+  },
+  "predictions": {
+    "P10_formula_surface_visible": {
+      "details": {
+        "missing": []
+      },
+      "pass": true
+    },
+    "P11_09a_connection_notes_present_with_boundary": {
+      "details": {
+        "missing": []
+      },
+      "pass": true
+    },
+    "P12_protocol_completes_end_to_end": {
+      "details": "structural",
+      "pass": true
+    },
+    "P1_markdown_source_emitted": {
+      "details": {
+        "bytes": 9925
+      },
+      "pass": true
+    },
+    "P2_pdf_distribution_emitted_and_under_30_pages": {
+      "details": {
+        "limit": 30,
+        "pages": 4
+      },
+      "pass": true
+    },
+    "P3_stewardship_front_matter_verbatim": {
+      "details": {
+        "stewardship_bytes": 1017
+      },
+      "pass": true
+    },
+    "P4_all_CR070a_to_CR074a_result_classes_visible": {
+      "details": {
+        "result_classes_checked": 5
+      },
+      "pass": true
+    },
+    "P5_failures_and_provisional_status_visible": {
+      "details": {
+        "missing": []
+      },
+      "pass": true
+    },
+    "P6_bus_factor_1_named": {
+      "details": "bus factor phrase scan",
+      "pass": true
+    },
+    "P7_partner_lab_verification_path_named": {
+      "details": "citation verification plus A_leak(t)/t_fire scan",
+      "pass": true
+    },
+    "P8_clear_ask_present": {
+      "details": "clear ask section scan",
+      "pass": true
+    },
+    "P9_scope_boundaries_present": {
+      "details": {
+        "missing": []
+      },
+      "pass": true
+    }
+  },
+  "result_class": "CR075a_PASS_FIELD_COMPARISON_PRESENTATION_BUNDLE__MARKDOWN_AND_PDF__PDF_PAGES_4__PREDICTIONS_12_OF_12__WRONG_CONTROLS_8_OF_8__FAILURES_VISIBLE__NO_HARDWARE_PARTNER_COMMERCIAL_CLAIMS",
+  "source_crs": {
+    "CR070a": "CR070a_EXPANDED_NV_DIAMOND_T2_TABLE_SEALED__PREDICTIONS_10_OF_12__WRONG_CONTROLS_7_OF_8__ROWS_22__CONSISTENT_17__BOUNDARY_1__VIOLATIONS_4",
+    "CR071a": "CR071a_PHOTONIC_MAPPING_SEALED__PREDICTIONS_8_OF_8__WRONG_CONTROLS_8_OF_8__MAPPING_ROWS_10__FREE_PARAMETERS_0",
+    "CR072a": "CR072a_PHOTONIC_EMPIRICAL_TABLE_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_7_OF_8__ROWS_14__CONSISTENT_14__BOUNDARY_0__VIOLATIONS_0",
+    "CR073a": "CR073a_CROSS_PLATFORM_T_FIRE_SCALING_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_9_OF_9__NV_ROWS_22__PHOTONIC_ROWS_14__PHOTONIC_WITHIN_0_25_0_OF_14__PHOTONIC_WITHIN_0_15_0_OF_14__VERDICT_STRUCTURAL_FLOOR_BREACHED_AGAINST_TEXTBOOK_1_OVER_E_REFERENCE",
+    "CR074a": "CR074a_REPRODUCIBILITY_PACK_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_9_OF_9__PACK_FILES_50__HASH_MATCHES_40_OF_40__PYTHON_3.12.10__DISCIPLINE_DRIFT_NUMPY_AND_MATPLOTLIB_PER_CR_VS_ACTUAL_CAUGHT_AND_RESOLVED"
+  },
+  "stewardship_intent": "STEWARDSHIP.md",
+  "summary_counts": {
+    "predictions_passed": 12,
+    "predictions_total": 12,
+    "wrong_controls_passed": 8,
+    "wrong_controls_total": 8
+  },
+  "test_class": "FIELD_COMPARISON_PRESENTATION_BUNDLE_MARKDOWN_AND_PDF",
+  "wrong_controls": {
+    "WC1_missing_stewardship_would_fail": {
+      "details": "P3 would fail if front matter were removed",
+      "pass": true
+    },
+    "WC2_missing_result_class_would_fail": {
+      "details": "P4 checks all CR070a-CR074a result classes",
+      "pass": true
+    },
+    "WC3_hidden_failure_would_fail": {
+      "details": {
+        "required_failure_phrases": [
+          "4 violations",
+          "0/14",
+          "load-bearing",
+          "PROVISIONAL_AUTHOR_BEST_EFFORT",
+          "requirements drift"
+        ]
+      },
+      "pass": true
+    },
+    "WC4_page_limit_enforced": {
+      "details": {
+        "limit": 30,
+        "pages": 4
+      },
+      "pass": true
+    },
+    "WC5_scope_overclaim_rejected": {
+      "details": {
+        "required_boundary_phrases": [
+          "This is not a hardware demonstration.",
+          "This is not a partner-lab agreement.",
+          "This is not a commercial deployment.",
+          "This is not external validation of the PR letter."
+        ]
+      },
+      "pass": true
+    },
+    "WC6_formula_appendix_required": {
+      "details": {
+        "required_formula_phrases": [
+          "A_side = 1/24",
+          "A_share = 1/12",
+          "c0_SAM = -0.5 * ln(23/24)",
+          "t_fire = coherence_time * c0_SAM",
+          "textbook proxy = coherence_time * 0.5"
+        ]
+      },
+      "pass": true
+    },
+    "WC7_09a_overreach_guard": {
+      "details": {
+        "required_09a_boundary_phrases": [
+          "CR220-CR228 are included here as connection context only.",
+          "not directly validate PR quantum hardware"
+        ]
+      },
+      "pass": true
+    },
+    "WC8_no_free_parameters": {
+      "details": {
+        "free_parameters": 0
+      },
+      "pass": true
+    }
+  }
+}

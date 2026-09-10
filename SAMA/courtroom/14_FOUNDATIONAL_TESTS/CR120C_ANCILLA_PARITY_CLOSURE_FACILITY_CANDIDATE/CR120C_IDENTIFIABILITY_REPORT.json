@@ -1,0 +1,12 @@
+{
+  "candidate_w9_information_bits": 1,
+  "feedback_scope": "A fixed parity-flipping action enforces target parity; it does not recover the pre-error state.",
+  "finding": "W9-as-one-bit can certify a parity sector but cannot localize an arbitrary single-channel fault.",
+  "minimum_bits_to_identify_eight_single_fault_locations": 3,
+  "minimum_bits_to_identify_no_fault_plus_eight_locations": 4,
+  "observed_single_fault_syndromes": [
+    1
+  ],
+  "patterns_per_syndrome_fixed_x1": 128,
+  "single_fault_locations": 8
+}

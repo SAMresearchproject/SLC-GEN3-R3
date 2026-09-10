@@ -1,0 +1,7 @@
+wc_id,perturbation,mu_Q,n_rows,rms_eps
+WC1,substrate-as-rest-mass kernel,192/7117,49,0.1894799227513847
+WC2,He-4 anchor swap,,,
+WC3,"random per-nucleon scale, seed=20260623",,49,0.05106629813788388
+WC4,"constant per-nucleon scale m=A·c, c∈{0.5,1.5,2.0}",,,
+WC5,Z·m_p + N·m_n no-binding kernel,,49,
+WC6,"random axis-label shuffle, seed=20260624",,,

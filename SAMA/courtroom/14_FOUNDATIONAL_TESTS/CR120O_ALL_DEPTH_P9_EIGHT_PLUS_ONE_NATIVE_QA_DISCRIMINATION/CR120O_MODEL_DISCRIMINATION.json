@@ -1,0 +1,47 @@
+{
+  "all_eligible_depth_8_plus_1": {
+    "g2_numeric_challenges_passed": 3,
+    "g2_typed_challenges_eligible": 0,
+    "generator_complete_qA_law_passed": 10,
+    "native_exact_passed": 10,
+    "status": "STRUCTURAL_LINEAR_REDUCIBILITY_SUPPORTED_WITH_TYPED_BOUNDARY",
+    "typed_primary_generations": [
+      0,
+      1
+    ],
+    "typed_primary_triples": 10
+  },
+  "base_depth_only_8_plus_1": {
+    "g0_passed": true,
+    "g1_untouched_passed": true,
+    "independent_depth_rule_in_frozen_sources": false,
+    "status": "UNSUPPORTED_AS_G0_ONLY_EXCEPTION"
+  },
+  "binding_claim": false,
+  "composite_p9": {
+    "challenge_rows": 51,
+    "lawful_same_route_matches": 0,
+    "status": "UNMATCHED_ROUTE_CHANGING_BOUNDARY"
+  },
+  "identity_mutation": false,
+  "independent_discriminator": {
+    "present_in_frozen_sources": false,
+    "status": "MISSING"
+  },
+  "physical_particle_claim": false,
+  "primitive_nine": {
+    "falsified_by_internal_algebra": false,
+    "historical_premise_preserved": true,
+    "status": "FROZEN_CONTROL_NOT_FALSIFIED"
+  },
+  "proposal_promotion": "BLOCKED_NO_INDEPENDENT_DISCRIMINATOR",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "same_scalar_mergers": false,
+  "sum_context": {
+    "lower": 12600,
+    "mean_signal_used": false,
+    "middle_derived": 14400,
+    "selection_authority": "NONE",
+    "upper": 16200
+  }
+}

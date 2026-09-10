@@ -1,0 +1,13 @@
+check,passed,observed,expected
+verification_inputs_exist,True,True,True
+native_capacity_126,True,126,126
+shell_capacities_sum_126,True,126,126
+shell_capacities_expected,True,"[2, 8, 18, 32, 32, 18, 8, 8]","[2, 8, 18, 32, 32, 18, 8, 8]"
+element_rows_126,True,126,126
+isotope_rows_214,True,214,214
+all_verification_rows_match,True,126,126
+closed_shell_rows_8,True,8,8
+frontier_tail_rows_8,True,8,8
+no_known_symbols_names_or_clock_generated,True,True,True
+no_card_source_generated,True,True,True
+wrong_controls_rejected_capacity,True,"[{'control': 'wrong_R10', 'role': 'wrong R control', 'R': '10', 'D': '3', 'capacity': 87, 'matches_126': 'False', 'readout': 'wrong capacity rejected'}, {'control': 'wrong_R24', 'role': 'wrong R control', 'R': '24', 'D': '3', 'capacity': 504, 'matches_126': 'False', 'readout': 'wrong capacity rejected'}, {'control': 'wrong_D2', 'role': 'wrong D control', 'R': '12', 'D': '2', 'capacity': 108, 'matches_126': 'False', 'readout': 'wrong capacity rejected'}, {'control': 'wrong_D4', 'role': 'wrong D control', 'R': '12', 'D': '4', 'capacity': 135, 'matches_126': 'False', 'readout': 'wrong capacity rejected'}]",all wrong controls false

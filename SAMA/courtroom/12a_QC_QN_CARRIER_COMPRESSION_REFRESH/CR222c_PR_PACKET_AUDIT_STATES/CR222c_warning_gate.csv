@@ -1,0 +1,5 @@
+scenario,sealed_packet,route_present,tensor_witness_present,checksum_intact,A_leak,A_side,threshold_rule,threshold_reached,t_fire_expression,t_fire_over_T2_decimal,observed_state,expected_state,passed
+sealed_no_warning,True,True,True,True,0,1/24,A_leak >= A_side,False,T2*(-1/2*ln(23/24)),0.021279807209397945,SEALED_PACKET,SEALED_PACKET,True
+sealed_threshold_exact,True,True,True,True,1/24,1/24,A_leak >= A_side,True,T2*(-1/2*ln(23/24)),0.021279807209397945,VALID_PR_WARNING_PACKET,VALID_PR_WARNING_PACKET,True
+sealed_above_threshold,True,True,True,True,1/12,1/24,A_leak >= A_side,True,T2*(-1/2*ln(23/24)),0.021279807209397945,VALID_PR_WARNING_PACKET,VALID_PR_WARNING_PACKET,True
+corrupt_threshold_reached,False,True,True,False,1/24,1/24,A_leak >= A_side,True,T2*(-1/2*ln(23/24)),0.021279807209397945,CORRUPT_PACKET,CORRUPT_PACKET,True

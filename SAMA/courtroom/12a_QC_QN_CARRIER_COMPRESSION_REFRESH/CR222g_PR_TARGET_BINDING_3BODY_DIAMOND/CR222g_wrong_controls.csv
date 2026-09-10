@@ -1,0 +1,11 @@
+wrong_control,attempted_binding,observed_failure,expected_failure,passes_as_failure
+carrier_packet_emits_without_target,carrier packet alone -> target write,no 3-body target address bound,NO_TARGET_NO_TARGETED_WRITE,True
+support_row_used_as_3body_target,QP093A-0303 mirror row as target particle,"QP093A-0303 is duplicate mirror closure row, not matter target",MIRROR_NOT_TARGET_MATTER,True
+3body_target_counted_inside_carrier_checksum,carrier checksum + 3-body row,carrier checksum must remain 162,CHECKSUM_CATEGORY_FAILURE,True
+target_emits_without_protocol_gate,G_protocol=0 but target writes,False,False,True
+target_emits_below_threshold,A_leak=1/48 but target writes,False,False,True
+protocol_qA_substituted_for_target_qA,use protocol qA=1/24 as target matter qA,protocol_qA=1/24; target_qA=72.5,CATEGORY_FAILURE,True
+carrier_tensor_substituted_for_target_tensor,use carrier tensor 18 as target tensor split,carrier_tensor=18; target_T=9.0625,CATEGORY_FAILURE,True
+support_inventory_emits_without_G_protocol,support inventory -> target warning write,G_protocol=0 leaves SEALED_PACKET not EMITTED_WARNING_PACKET,NO_EMISSION_WITHOUT_PROTOCOL_GATE,True
+0306_omitted_but_target_binds,omit p=1 source packet but bind target,161,161_CORRUPT_NO_BINDING,True
+duplicate_0305_restored_but_target_binds,restore duplicate support row but bind target,163,163_CORRUPT_NO_BINDING,True

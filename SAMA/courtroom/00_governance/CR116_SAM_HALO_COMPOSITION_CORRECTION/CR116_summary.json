@@ -1,0 +1,141 @@
+{
+  "cr_id": "CR116",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_GOVERNANCE_HONEST_CORRECTION",
+  "lives_in": "00_governance",
+  "test_class": "USER_CAUGHT_MISREAD_CORRECTION_OF_SAM_HALO_PHYSICS",
+  "execution_status": "CLEAN",
+  "result_class": "CR116_SAM_HALO_COMPOSITION_CORRECTION_SEALED_PRIOR_READINGS_SUPERSEDED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "correction_sha256": "d3f3204be9cbc5bbb9520664bdb937452981e494f38c6154266fffa95a04fd65",
+  "what_was_corrected": [
+    "CR110_PRED_2 (14 branch) reading: 'f_PBH = 0' is wrong physics",
+    "CR098a registry entry for CR110_PRED_2 (13 branch): carries the incorrect reading",
+    "CR115 bridge (governance): conclusion 'particle PBH insufficient as halo' misread branch 08"
+  ],
+  "corrected_reading": "halo = cumulative nonzero A + CLUSTERED BB-origin PBHs at f_PBH ~ Omega_PBH/Omega_DM",
+  "branch_08_evidence": {
+    "CR023_omega_pbh_at_dark_matter_scale": 0.26446190430295646,
+    "CR026_uniform_control_gap_closed_fraction": 3.8495994978147876e-05,
+    "CR026_post_bb_only_control_gap_closed_fraction": 0.02448481593940179,
+    "CR026_clustered_primary_candidate_gap_closed_fraction": 0.8191375474184742,
+    "CR027_BB_origin_PBH_clustered_mass_scaffold_is_first": true,
+    "CR027_PBH_to_hydrogen_ratio": 5.364446416084761
+  },
+  "upstream_hashes": {
+    "CR022_summary.json": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_summary.json": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_summary.json": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_summary.json": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR026_summary.json": "0d9d072cdc1ce8dec7940085d51b87331c80edb2629cfc5609edf6ac055ae3c2",
+    "CR027_summary.json": "dceb3afae107c12057acdedfb611b82ab37864f6a561617651e508c73fb4bc0f",
+    "CR030_summary.json": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc",
+    "CR109_pbh_anchor.json": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR098a_phase_2_forward_blind_registry.csv": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR115_galaxy_pbh_bridge.json": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_misread_explicitly_documented",
+      "pass": true
+    },
+    {
+      "name": "P2_branch_08_corrected_reading_supported_by_CR023_omega_pbh",
+      "pass": true,
+      "details": {
+        "omega_pbh": 0.26446190430295646
+      }
+    },
+    {
+      "name": "P3_CR026_uniform_control_rejected_supports_clustered_reading",
+      "pass": true,
+      "details": {
+        "uniform_gap_closed": 3.8495994978147876e-05
+      }
+    },
+    {
+      "name": "P4_CR026_post_bb_only_rejected_distinguishes_from_BB_origin",
+      "pass": true,
+      "details": {
+        "post_bb_gap_closed": 0.02448481593940179
+      }
+    },
+    {
+      "name": "P5_CR026_clustered_primary_gap_closed_dominant",
+      "pass": true,
+      "details": {
+        "primary_gap_closed": 0.8191375474184742,
+        "primary_candidate_id": "base12_outer_radius_over_12"
+      }
+    },
+    {
+      "name": "P6_CR027_BB_origin_PBH_clustered_scaffold_recorded",
+      "pass": true,
+      "details": {
+        "catching_up_to": "BB-origin PBH/trapped-A clustered mass scaffold"
+      }
+    },
+    {
+      "name": "P7_microlensing_clustered_vs_smooth_distinction_documented",
+      "pass": true
+    },
+    {
+      "name": "P8_corrected_forward_blind_reading_registered_with_falsifiers",
+      "pass": true
+    },
+    {
+      "name": "P9_no_prior_artifact_modified",
+      "pass": true
+    },
+    {
+      "name": "P10_correction_lock_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "correction_sha256": "d3f3204be9cbc5bbb9520664bdb937452981e494f38c6154266fffa95a04fd65"
+      }
+    },
+    {
+      "name": "P11_three_appeal_rows_written_separately_not_inline",
+      "pass": true
+    },
+    {
+      "name": "P12_provenance_of_user_catch_recorded",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR110_appeal_lock_unmodified",
+      "pass": true
+    },
+    {
+      "name": "WC2_CR098a_registry_csv_unmodified",
+      "pass": true,
+      "details": "registry stays on public record with its original (incorrect) text; supersession is registered separately"
+    },
+    {
+      "name": "WC3_CR115_bridge_unmodified",
+      "pass": true
+    },
+    {
+      "name": "WC4_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC5_no_silent_overwriting_of_prior_session_artifacts",
+      "pass": true,
+      "details": "correction is APPENDED transparently; no prior file edited"
+    },
+    {
+      "name": "WC6_correction_does_not_claim_branch_08_validates_clustered_PBH_at_full_DM_against_microlensing_quantitatively",
+      "pass": true,
+      "details": "honest open debt: a clustered-PBH-aware microlensing analysis is the natural future test, NOT something CR116 closes"
+    }
+  ],
+  "open_debts": [
+    "Clustered-PBH-aware microlensing envelope analysis - natural next future CR to close CR116_CORRECTED_PRED_2 quantitatively",
+    "Future CR098b (registry refresh) would import CR116_CORRECTED_PRED_2 cleanly",
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED"
+  ]
+}

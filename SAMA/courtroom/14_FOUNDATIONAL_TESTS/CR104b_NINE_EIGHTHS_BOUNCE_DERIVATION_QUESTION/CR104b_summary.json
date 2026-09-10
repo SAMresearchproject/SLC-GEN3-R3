@@ -1,0 +1,21 @@
+{
+  "cr_id": "CR104b",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "APPEAL_FORWARD_RESEARCH_QUESTION_LOCK_FOR_UPSTREAM_DERIVATION",
+  "execution_status": "CLEAN",
+  "result_class": "NINE_EIGHTHS_BOUNCE_DERIVATION_QUESTION_LOCKED_PENDING_UPSTREAM_CLOSURE",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "user_question_sha256": "9ea6aff474196e2a31292135b091fdf03e34a45cabaf02c7fb2a848b5a8356a2",
+  "candidate_derivation_count": 4,
+  "upstream_verification_count": 6,
+  "prediction_commit_sha256": "6e78e015068b766e25b020e66d2be3ef5dc298490c6335eceaddf0ed9da06f5c",
+  "prediction_commit_utc": "2026-06-13T23:36:57Z",
+  "question_lock_sha256": "246ae72e71fc2487791f6e20a814adb7d9610bfb5fa6e12b095d9232a9a4ae59",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "Upstream SAM has not yet derived 9/8 from D=3 half-write geometry; this CR locks the target",
+    "DS014_reciprocal_control.py outcome not re-verified by Courtroom; pending upstream confirmation",
+    "BLINDNESS_PROTOCOL sha256 sibling pending curator sign-off",
+    "14 branch seal sha256 sibling pending curator sign-off"
+  ]
+}

@@ -1,0 +1,12 @@
+control,passed,observation
+WC00_EXACT_TRACE_FREE_ALGEBRAIC_PROJECTION,True,preprojection_max=5.379e-08; enforced_max=0.000e+00
+WC01_AMPLITUDE_NORMALIZATION_INVARIANCE,True,max_abs_error=6.939e-18
+WC02_POLARIZATION_BASIS_INVARIANCE,True,max_abs_error=6.939e-18
+WC03_ZERO_SOURCE_REJECTED,True,zero source is not normalized into a match
+WC04_FULL_BANK_REPEATED_FOR_TIME_SHIFTS,True,47 null searches per waveform
+WC05_TIME_REVERSAL_REPORTED,True,10/10 finite
+WC06_FREQUENCY_REVERSAL_REPORTED,True,10/10 finite
+WC07_SEPARABLE_TEXTURE_NULL_REPORTED,True,10/10 finite
+WC08_SAME_DOOR_ONLY,True,10/10 matches retain door
+WC09_NO_QNM_KERNEL_IN_TARGET,True,direct quadrupole-source pixel comparison
+WC10_NO_PHYSICAL_SCALE_PROMOTION,True,normalized morphology only

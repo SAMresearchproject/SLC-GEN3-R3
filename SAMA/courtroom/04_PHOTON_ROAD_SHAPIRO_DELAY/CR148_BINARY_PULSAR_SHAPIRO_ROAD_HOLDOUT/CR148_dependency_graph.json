@@ -1,0 +1,28 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "nodes": [
+    {"id": "Branch04_README", "type": "internal_formula_scope"},
+    {"id": "CR006", "type": "prior_branch_result"},
+    {"id": "CR147", "type": "prior_branch_result"},
+    {"id": "SAM_NATIVE_MASTER_FORMULA_V4_2", "type": "internal_formula"},
+    {"id": "Kramer2006", "type": "external_primary_source"},
+    {"id": "BINARY_PULSAR_INPUTS_LOCKED", "type": "input_lock"},
+    {"id": "CR148_runner", "type": "sealed_runner"},
+    {"id": "BINARY_PULSAR_TARGET_REVEAL", "type": "target_reveal"},
+    {"id": "CR148_result", "type": "scientific_result"}
+  ],
+  "edges": [
+    {"from": "Branch04_README", "to": "CR148_runner", "relation": "formula_scope"},
+    {"from": "CR006", "to": "CR148_runner", "relation": "photon_road_prior_scope_not_target"},
+    {"from": "CR147", "to": "CR148_runner", "relation": "branch_prior_scope_not_target"},
+    {"from": "SAM_NATIVE_MASTER_FORMULA_V4_2", "to": "CR148_runner", "relation": "A_kernel_formula"},
+    {"from": "Kramer2006", "to": "BINARY_PULSAR_INPUTS_LOCKED", "relation": "non_target_anchors"},
+    {"from": "BINARY_PULSAR_INPUTS_LOCKED", "to": "CR148_runner", "relation": "locked_inputs"},
+    {"from": "BINARY_PULSAR_TARGET_REVEAL", "to": "CR148_runner", "relation": "withheld_comparator"},
+    {"from": "CR148_runner", "to": "CR148_result", "relation": "computed_result"}
+  ],
+  "forbidden_language_dependency": false,
+  "forecast_dependency": false,
+  "queue_maintenance_dependency": false
+}
+

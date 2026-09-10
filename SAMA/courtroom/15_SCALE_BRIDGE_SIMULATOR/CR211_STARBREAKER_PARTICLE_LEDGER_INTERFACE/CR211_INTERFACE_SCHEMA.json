@@ -1,0 +1,8 @@
+{
+  "schema_id": "CR211_TYPED_LEDGER_INTERFACE_V1",
+  "ledger_instance_fields": ["ledger_instance_id", "starbreaker_cell_id", "slot_count", "carrier_slots", "matter_slots", "shadow_slots", "w9_blocks", "k18_slots_per_block", "h27_addresses", "A_local", "measurable_volume", "slot_ledger_count", "ledger_density", "qp_grammar_hash", "cr210d_adapter_hash"],
+  "qp_template_fields": ["qp_template_id", "qp_source_row_id", "qp_template_class", "qp_partition_labels", "charge_orientation", "closure_depth", "native_signature_id", "payload_status", "source_disposition", "source_stability", "source_closure"],
+  "address_join_fields": ["ledger_instance_id", "starbreaker_cell_id", "slot_index", "w9_block", "k18_channel", "dimension", "side", "route", "h27_rank", "h27_address", "qp_template_id", "qp_source_row_id", "qp_template_class", "qp_partition_labels", "decoded_content_points", "relation_geometry", "native_signature_id", "payload_status", "binding_role", "authority", "source_hashes"],
+  "pre_identity_null_fields": ["qp_template_id", "qp_source_row_id", "qp_template_class", "qp_partition_labels", "decoded_content_points", "relation_geometry", "native_signature_id", "payload_status"],
+  "physical_incidence_status": "OPEN"
+}

@@ -1,0 +1,174 @@
+{
+  "cr_id": "CR103",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "MULTIPLICITY_SCALING_EXPONENT_TEST_FOR_GATE_1_SIMPLEST_READING",
+  "execution_status": "CLEAN",
+  "result_class": "CANDIDATE_4_SIMPLE_READING_DISFAVORED_BY_LHC",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "subject_gate": "GATE_1",
+  "sam_committed_candidate": "paired source/recoil count (simplest reading)",
+  "alpha_SAM": 1.0,
+  "median_alpha_observed_cross_source": 0.16576061102219172,
+  "alpha_pairs_count": 15,
+  "alpha_SAM_minus_median_alpha_obs": 0.8342393889778082,
+  "live_anchor_count": 7,
+  "honest_negative_count": 3,
+  "honest_negative_correctly_gated_count": 3,
+  "row_label_counts": {
+    "NORMALIZATION_ANCHOR_BY_CONSTRUCTION": 1,
+    "AGREEMENT_OUTSIDE_ANCHOR_3_SIGMA": 6,
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": 2,
+    "REJECTED_AT_GATE_R_RESIDUAL": 1
+  },
+  "alpha_pairs": [
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A2",
+      "high_experiment": "ATLAS",
+      "high_sqrt_s_TeV": 7.0,
+      "alpha_obs": 0.20737770911537895
+    },
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A4",
+      "high_experiment": "CMS",
+      "high_sqrt_s_TeV": 7.0,
+      "alpha_obs": 0.20317869343876205
+    },
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A6",
+      "high_experiment": "ALICE",
+      "high_sqrt_s_TeV": 7.0,
+      "alpha_obs": 0.2213897404675035
+    },
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A3",
+      "high_experiment": "ATLAS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.19540388694804342
+    },
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A5",
+      "high_experiment": "CMS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.13680025305681098
+    },
+    {
+      "low_anchor": "A1",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 0.9,
+      "high_anchor": "A7",
+      "high_experiment": "ALICE",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.19772990916560162
+    },
+    {
+      "low_anchor": "A2",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A3",
+      "high_experiment": "ATLAS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.15572699762857142
+    },
+    {
+      "low_anchor": "A2",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A5",
+      "high_experiment": "CMS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": -0.0970677527771885
+    },
+    {
+      "low_anchor": "A2",
+      "low_experiment": "ATLAS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A7",
+      "high_experiment": "ALICE",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.16576061102219172
+    },
+    {
+      "low_anchor": "A4",
+      "low_experiment": "CMS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A3",
+      "high_experiment": "ATLAS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.1696410075348111
+    },
+    {
+      "low_anchor": "A4",
+      "low_experiment": "CMS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A5",
+      "high_experiment": "CMS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": -0.08315374287094887
+    },
+    {
+      "low_anchor": "A4",
+      "low_experiment": "CMS",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A7",
+      "high_experiment": "ALICE",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.17967462092843134
+    },
+    {
+      "low_anchor": "A6",
+      "low_experiment": "ALICE",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A3",
+      "high_experiment": "ATLAS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.10929622478680895
+    },
+    {
+      "low_anchor": "A6",
+      "low_experiment": "ALICE",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A5",
+      "high_experiment": "CMS",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": -0.14349852561895118
+    },
+    {
+      "low_anchor": "A6",
+      "low_experiment": "ALICE",
+      "low_sqrt_s_TeV": 7.0,
+      "high_anchor": "A7",
+      "high_experiment": "ALICE",
+      "high_sqrt_s_TeV": 13.0,
+      "alpha_obs": 0.11932983818042897
+    }
+  ],
+  "normalization_anchor": "ATLAS at sqrt(s)=0.9 TeV (A1)",
+  "prediction_commit_sha256": "509ac7b6cfbc80daff75160985ac97bc8c4b81f6e5cfa2513dee17875cb39926",
+  "prediction_commit_utc": "2026-06-13T22:28:23Z",
+  "anchor_envelope_sha256": "305d694e3a5f06b0b649947da89dc0187c034e17dc8f33100ebf2434040d5b80",
+  "anchor_envelope_open_utc": "2026-06-13T22:28:23Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "open_debts": [
+    "Anchor citation_verification_status PENDING; curator promotion required",
+    "BLINDNESS_PROTOCOL.md sha256 sibling pending",
+    "14 branch seal sha256 sibling pending",
+    "Single-normalization parameter K is a fit; the exponent alpha_SAM is structural",
+    "Upstream SAM derivation of N_SW -> multiplicity mapping is the next required step on the GATE_1 closure roadmap"
+  ]
+}

@@ -1,0 +1,10 @@
+TASK: CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION
+TASK_NAME: Execute attached proposal using fresh QP093A 100-row and 81-row spreadsheet sums
+CLASSIFICATION: CONSTRUCTIVE_NEW_WORK
+SIGNAL: NATIVE_AND_QA_RESIDUALS; SUM_CONTEXT_ONLY; NO_MEAN
+WORKBOOK_REANALYSIS: no
+PRIOR_CR_AS_ROSTER_SOURCE: no
+EXECUTION: python tools/run_sam_test.py --task "Execute attached proposal using fresh QP093A 100-row and 81-row spreadsheet sums" --script tools/run_cr120o_all_depth_p9_eight_plus_one_native_qa_discrimination.py
+RUN_UTC: 2026-07-14T09:17:00.877356Z
+PYTHON: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe
+ARGV: ['tools\\run_cr120o_all_depth_p9_eight_plus_one_native_qa_discrimination.py']

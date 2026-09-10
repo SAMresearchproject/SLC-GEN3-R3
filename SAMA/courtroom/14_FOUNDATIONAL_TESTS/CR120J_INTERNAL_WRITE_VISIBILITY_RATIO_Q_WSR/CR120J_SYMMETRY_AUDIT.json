@@ -1,0 +1,713 @@
+{
+  "admissible_family": [
+    {
+      "commutes_with_Pi80": true,
+      "fixes_X1": true,
+      "history_results": [
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_EMPTY",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "NULL_HISTORY",
+          "status_before": "NULL_HISTORY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E1",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E2",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIX",
+          "q_after": "1/2",
+          "q_before": "1/2",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_X1",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_REPEAT",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_CANCEL",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "CANCELED_NONEMPTY",
+          "status_before": "CANCELED_NONEMPTY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIXED_4_1",
+          "q_after": "4/5",
+          "q_before": "4/5",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_RESIDUE_ACCUM",
+          "q_after": "1/3",
+          "q_before": "1/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_STATE_CANCEL_WITH_RESIDUE",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_A",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_B",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        }
+      ],
+      "transformation": "Q_ID"
+    },
+    {
+      "commutes_with_Pi80": true,
+      "fixes_X1": true,
+      "history_results": [
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_EMPTY",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "NULL_HISTORY",
+          "status_before": "NULL_HISTORY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E1",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E2",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIX",
+          "q_after": "1/2",
+          "q_before": "1/2",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_X1",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_REPEAT",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_CANCEL",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "CANCELED_NONEMPTY",
+          "status_before": "CANCELED_NONEMPTY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIXED_4_1",
+          "q_after": "4/5",
+          "q_before": "4/5",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_RESIDUE_ACCUM",
+          "q_after": "1/3",
+          "q_before": "1/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_STATE_CANCEL_WITH_RESIDUE",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_A",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_B",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        }
+      ],
+      "transformation": "Q_12"
+    },
+    {
+      "commutes_with_Pi80": true,
+      "fixes_X1": true,
+      "history_results": [
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_EMPTY",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "NULL_HISTORY",
+          "status_before": "NULL_HISTORY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E1",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E2",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIX",
+          "q_after": "1/2",
+          "q_before": "1/2",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_X1",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_REPEAT",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_CANCEL",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "CANCELED_NONEMPTY",
+          "status_before": "CANCELED_NONEMPTY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIXED_4_1",
+          "q_after": "4/5",
+          "q_before": "4/5",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_RESIDUE_ACCUM",
+          "q_after": "1/3",
+          "q_before": "1/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_STATE_CANCEL_WITH_RESIDUE",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_A",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_B",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        }
+      ],
+      "transformation": "Q_123"
+    },
+    {
+      "commutes_with_Pi80": true,
+      "fixes_X1": true,
+      "history_results": [
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_EMPTY",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "NULL_HISTORY",
+          "status_before": "NULL_HISTORY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E1",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E2",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIX",
+          "q_after": "1/2",
+          "q_before": "1/2",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_X1",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_REPEAT",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_CANCEL",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "CANCELED_NONEMPTY",
+          "status_before": "CANCELED_NONEMPTY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIXED_4_1",
+          "q_after": "4/5",
+          "q_before": "4/5",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_RESIDUE_ACCUM",
+          "q_after": "1/3",
+          "q_before": "1/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_STATE_CANCEL_WITH_RESIDUE",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_A",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_B",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        }
+      ],
+      "transformation": "Q_SIGN_13"
+    },
+    {
+      "commutes_with_Pi80": true,
+      "fixes_X1": true,
+      "history_results": [
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_EMPTY",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "NULL_HISTORY",
+          "status_before": "NULL_HISTORY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E1",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_E2",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIX",
+          "q_after": "1/2",
+          "q_before": "1/2",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_X1",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_REPEAT",
+          "q_after": 1,
+          "q_before": 1,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_CANCEL",
+          "q_after": null,
+          "q_before": null,
+          "status_after": "CANCELED_NONEMPTY",
+          "status_before": "CANCELED_NONEMPTY"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_MIXED_4_1",
+          "q_after": "4/5",
+          "q_before": "4/5",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_RESIDUE_ACCUM",
+          "q_after": "1/3",
+          "q_before": "1/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_STATE_CANCEL_WITH_RESIDUE",
+          "q_after": 0,
+          "q_before": 0,
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_A",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        },
+        {
+          "A_preserved": true,
+          "B_preserved": true,
+          "all_preserved": true,
+          "covariant_probe_readout": true,
+          "history": "H_ORDER_MIX_B",
+          "q_after": "2/3",
+          "q_before": "2/3",
+          "status_after": "DEFINED",
+          "status_before": "DEFINED"
+        }
+      ],
+      "transformation": "Q_FAR"
+    }
+  ],
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR",
+  "scope": "FINITE_SIGNED_PERMUTATION_AUDIT_NOT_GENERAL_BASIS_INVARIANCE",
+  "wrong_transformation": {
+    "H_X1_q_after_raw_inadmissible_transform": 1,
+    "H_X1_q_before": 0,
+    "commutes_with_Pi80": false,
+    "fixes_X1": false,
+    "probes_retuned": false,
+    "projector_retuned": false,
+    "q_changed": true,
+    "scales_retuned": false,
+    "status": "REJECTED_INADMISSIBLE_TRANSFORMATION",
+    "transformation": "Q_MIX_X1"
+  }
+}

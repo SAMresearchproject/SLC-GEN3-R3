@@ -1,0 +1,147 @@
+{
+  "precommit_sha256": "761f48f50618021455d1e2df5b17c0d5d781993e1ff22290b39c94571e93ec44",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR271_E_CHANNEL_CHEMISTRY_CIPHER",
+  "classification": "STRUCTURAL_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "FAIL",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "external_data_inputs": false,
+  "structural_claim": "CR248 e-channel = Z = electron count is the substrate's chemistry cipher. Noble-cipher-type iff Z = h^a * d^b with (a=1, b=0) or (a>=1 AND b>=2). Reactive-cipher-type iff substrate atom violating noble rule. Silent for off-substrate-atom Z.",
+  "noble_cipher_set": [
+    {
+      "label": "He",
+      "Z": 2,
+      "expr": "h^1",
+      "a": 1,
+      "b": 0
+    },
+    {
+      "label": "Ar",
+      "Z": 18,
+      "expr": "h*d^2 = Theta",
+      "a": 1,
+      "b": 2
+    },
+    {
+      "label": "Kr",
+      "Z": 36,
+      "expr": "h^2*d^2 = m_3^2",
+      "a": 2,
+      "b": 2
+    },
+    {
+      "label": "Xe",
+      "Z": 54,
+      "expr": "h*d^3 = hV",
+      "a": 1,
+      "b": 3
+    },
+    {
+      "label": "Jerroldium",
+      "Z": 126,
+      "expr": "7*Theta = M",
+      "a": 1,
+      "b": 2
+    }
+  ],
+  "reactive_cipher_set": [
+    {
+      "label": "Li",
+      "Z": 3,
+      "expr": "d",
+      "a": 0,
+      "b": 1
+    },
+    {
+      "label": "Be",
+      "Z": 4,
+      "expr": "h^2",
+      "a": 2,
+      "b": 0
+    },
+    {
+      "label": "C",
+      "Z": 6,
+      "expr": "h*d = m_3",
+      "a": 1,
+      "b": 1
+    },
+    {
+      "label": "O",
+      "Z": 8,
+      "expr": "h^3 = S",
+      "a": 3,
+      "b": 0
+    },
+    {
+      "label": "F",
+      "Z": 9,
+      "expr": "d^2 = D^2",
+      "a": 0,
+      "b": 2
+    },
+    {
+      "label": "Mg",
+      "Z": 12,
+      "expr": "h^2*d = R",
+      "a": 2,
+      "b": 1
+    },
+    {
+      "label": "S-elem",
+      "Z": 16,
+      "expr": "h^4",
+      "a": 4,
+      "b": 0
+    },
+    {
+      "label": "Co",
+      "Z": 27,
+      "expr": "d^3 = V",
+      "a": 0,
+      "b": 3
+    },
+    {
+      "label": "Tl",
+      "Z": 81,
+      "expr": "d^4 = F",
+      "a": 0,
+      "b": 4
+    }
+  ],
+  "jerroldium_forecast": {
+    "Z": 126,
+    "decomposition": "M = 7 * Theta",
+    "theta_components": 7,
+    "each_theta": "(a=1, b=2) satisfies noble rule",
+    "prediction": "noble-cipher-type",
+    "falsifiable_by": "future Z=126 synthesis + chemistry characterization"
+  },
+  "channel_separation": {
+    "chemistry_cipher_input": "e = Z (electron count)",
+    "nuclear_cipher_input": "main = 3Z (CR262 main carrier identification)",
+    "chemistry_rule": "noble iff (a=1,b=0) or (a>=1,b>=2)",
+    "nuclear_rule": "stable iff 3Z is carrier atom (not container)",
+    "independence": "CR248 (u,d,e) carries two ciphers via different functions of Z"
+  },
+  "structural_threshold": {
+    "b_threshold": 2,
+    "interpretation": "d^2 = D^2 = closure witness (CR267)",
+    "meaning": "noble closure requires planar carrier d^2 paired with mirror factor h, OR primitive h alone (He exception)"
+  },
+  "gates": {
+    "G1_noble_cipher_set": true,
+    "G2_reactive_cipher_set": true,
+    "G3_partition_consistency": false,
+    "G4_jerroldium_forecast_lock": true,
+    "G5_channel_separation": true,
+    "G6_cipher_silence": true,
+    "G7_structural_threshold": true,
+    "G8_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "verdict FAIL; see gates",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 4
+}

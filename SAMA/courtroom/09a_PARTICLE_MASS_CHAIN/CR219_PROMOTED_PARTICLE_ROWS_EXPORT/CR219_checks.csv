@@ -1,0 +1,12 @@
+check,passed,observed,expected
+source_matter_exists,True,True,True
+source_particle_exists,True,True,True
+export_rows_126,True,126,126
+unique_candidate_ids_126,True,126,126
+all_exported_ids_in_particle_table,True,0,0
+all_matter_row_allowed_yes,True,{'yes': 126},{'yes': 126}
+all_latest_matter_row_allowed_yes,True,{'yes': 126},{'yes': 126}
+bin_split_63_63,True,"{'stable_matter_rows': 63, 'bound_composite_rows': 63}","{'stable_matter_rows': 63, 'bound_composite_rows': 63}"
+matter_gate_split_63_63,True,"{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}","{'PASS_STABLE_SINGLE_WRITE_MATTER': 63, 'PASS_BOUND_COMPOSITE_MATTER': 63}"
+known_labels_not_construction_inputs,True,{'no': 126},{'no': 126}
+export_bytes_nonzero,True,121065,>0

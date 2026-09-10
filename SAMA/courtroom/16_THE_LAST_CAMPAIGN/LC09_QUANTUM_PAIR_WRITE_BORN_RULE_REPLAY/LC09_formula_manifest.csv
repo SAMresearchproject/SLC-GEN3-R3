@@ -1,0 +1,7 @@
+formula_or_rule,expression,locked_inputs,replayed_value,source_or_target_use
+R-derived thresholds,A_side=1/(2R); A_share=1/R,LC01 R=12,"{""A_share"": 0.08333333333333333, ""A_side"": 0.041666666666666664}","native threshold derivation, not threshold swap"
+protected route leakage,A_leak(N)=N*Gamma_leak; protected if A_leak<A_side; write-candidate at A_side; resolution-accessible at A_share,QP010,A_leak(N)=N*Gamma_leak; protected if A_leak<A_SIDE; write-candidate at A_SIDE; resolution-accessible at A_SHARE,route-window grammar
+Born route weight,latent_weight_i=route_capacity_prior_i*coherence_survival_i; P_i=weight_i/sum(weight_all),QP014 row surface,latent_weight_i = route_capacity_prior_i * coherence_survival_i; write_weight_i = latent_weight_i * write_access_i; P_i = weight_i / sum(weight_all),native normalization before ledger resolution
+pair-write probability,P_ij=P_i^2 for self-pairs; P_ij=2*P_i*P_j for mixed pairs,QP015,"P_ij = P_i^2 for self-pairs, P_ij = 2*P_i*P_j for mixed pairs; commit_weight_ij = P_ij*bounce_kernel_ij*ledger_kernel_ij",pair-write/interference bridge
+stable mode selector,latest P_commit>=A_share and persistence rows>=A_side,QP016,stable self-closure requires latest P_commit >= A_SHARE and persistence across structured commit rows >= A_SIDE; mixed P_commit >= A_SIDE is boundary reorganization candidate,stable mode selection
+action/phase anchor,S_A=E_p*T_A; Delta_phi=S_A/hbar,CR073,present in CR073 identity checks,phase/action bridge only

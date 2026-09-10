@@ -1,0 +1,153 @@
+{
+  "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION",
+  "files": [
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_MASS_CHAIN_REPRODUCTION.py",
+      "mode": "100644",
+      "git_blob": "a56db5efe7a62873d2a26c721070b805f06a8fa8",
+      "bytes": 34656,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_MASS_CHAIN_REPRODUCTION.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_MASS_CHAIN_REPRODUCTION.py",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_MASS_CHAIN_REPRODUCTION.py",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_MASS_CHAIN_REPRODUCTION.py"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "eb7bbeba7f7e32317f2ade5c61079de896abea3f",
+      "bytes": 7388,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_PRECOMMIT.md",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_PRECOMMIT.md"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_g616c_cross_check.json",
+      "mode": "100644",
+      "git_blob": "532dc99bb4a4fd81e7a8eb102dd25a4ad4b970ac",
+      "bytes": 621,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_g616c_cross_check.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_g616c_cross_check.json",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_g616c_cross_check.json",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_g616c_cross_check.json"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_input_manifest.csv",
+      "mode": "100644",
+      "git_blob": "4b3092f87032e4bceaf4d5618a14257c1994e795",
+      "bytes": 163935,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_input_manifest.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_input_manifest.csv",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_input_manifest.csv",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_input_manifest.csv"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_manifest_seal_check.json",
+      "mode": "100644",
+      "git_blob": "684c308ab810a505f8f40a3a2a9ed468f7113bdc",
+      "bytes": 465,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_manifest_seal_check.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_manifest_seal_check.json",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_manifest_seal_check.json",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_manifest_seal_check.json"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_phase4_freeze_check.csv",
+      "mode": "100644",
+      "git_blob": "c0f35463f52880a0d49b10b4a340b102cbed6fcd",
+      "bytes": 905,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_phase4_freeze_check.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_phase4_freeze_check.csv",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_phase4_freeze_check.csv",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_phase4_freeze_check.csv"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp071_suk_gate_bridge.json",
+      "mode": "100644",
+      "git_blob": "afc3e3a3bb0d9e6586c622ab271532f2cedf5440",
+      "bytes": 405,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp071_suk_gate_bridge.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp071_suk_gate_bridge.json",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp071_suk_gate_bridge.json",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp071_suk_gate_bridge.json"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp_arm_bridge_graph.csv",
+      "mode": "100644",
+      "git_blob": "87d314922659573d58f0a5ebcd65b1eb5223645b",
+      "bytes": 2813,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp_arm_bridge_graph.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp_arm_bridge_graph.csv",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp_arm_bridge_graph.csv",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_qp_arm_bridge_graph.csv"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_result.md",
+      "mode": "100644",
+      "git_blob": "aa9c03c25677be52e34bd6af8e1fa530204dcffa",
+      "bytes": 2296,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_result.md",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_result.md",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_result.md"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_suk_qga_arm_artifacts.csv",
+      "mode": "100644",
+      "git_blob": "717242804366bdf831fd75bb344775d032022367",
+      "bytes": 3549,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_suk_qga_arm_artifacts.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_suk_qga_arm_artifacts.csv",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_suk_qga_arm_artifacts.csv",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_suk_qga_arm_artifacts.csv"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_summary.json",
+      "mode": "100644",
+      "git_blob": "d8cb0294366a9e656a675792b57c62374a0751e9",
+      "bytes": 1022,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_summary.json",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_summary.json",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_summary.json"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_wrong_reproduction.csv",
+      "mode": "100644",
+      "git_blob": "bd582725863d8b843bad4ec3b8df7ba6eced9f59",
+      "bytes": 578,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_wrong_reproduction.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_wrong_reproduction.csv",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_wrong_reproduction.csv",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/CR061_wrong_reproduction.csv"
+    },
+    {
+      "path": "09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "2f3e643c4f31c0fd69fe09b76b941dfce3e58f3e",
+      "bytes": 1850,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/HASHES.txt",
+      "sama_path": "courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09_PARTICLE_MASS_CHAIN/CR061_MASS_CHAIN_REPRODUCTION/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR061@09"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

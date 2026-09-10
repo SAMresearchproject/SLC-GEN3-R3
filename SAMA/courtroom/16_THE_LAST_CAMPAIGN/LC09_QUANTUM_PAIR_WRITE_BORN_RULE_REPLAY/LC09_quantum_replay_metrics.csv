@@ -1,0 +1,11 @@
+metric,replayed,source,status
+A_side,0.041666666666666664,LC01 R=12,PASS
+A_share,0.08333333333333333,LC01 R=12,PASS
+QP014 route weight rows,49,qp014_route_weight_table.csv,PASS
+QP014 max open normalization error,1.1102230246251565e-16,qp014_probability_surface_table.csv,PASS
+QP014 max closed probability error,0.0,qp014_probability_surface_table.csv,PASS
+QP015 bridge rows,1176,qp015_interference_commit_bridge_table.csv,PASS
+QP015 primary pair probability sum,1.0,LC09 recompute,PASS
+QP016 stable selected modes,1,qp016_stable_mode_selector_table.csv,PASS
+QN005 network route rows,49,network_route_weight_surface.csv,PASS
+QN005 forbidden final-ledger fields used,False,QN005 surfaces,PASS

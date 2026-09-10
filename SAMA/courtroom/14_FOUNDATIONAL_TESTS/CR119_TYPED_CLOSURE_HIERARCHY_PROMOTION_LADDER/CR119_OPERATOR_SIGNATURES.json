@@ -1,0 +1,64 @@
+{
+  "record_id": "CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER",
+  "signatures": [
+    {
+      "operator": "RESOLVE",
+      "input_types": ["BinarySurface", "ContactOperator", "AxisChannel"],
+      "output_type": "ClosureWitness",
+      "status": "ACTIVE_WITH_CR282_SCOPE"
+    },
+    {
+      "operator": "PROMOTE_VOLUME",
+      "input_types": ["ClosureWitness", "Dimension"],
+      "output_type": "VolumeContainer",
+      "status": "ACTIVE"
+    },
+    {
+      "operator": "PROMOTE_FACE",
+      "input_types": ["VolumeContainer", "Dimension"],
+      "output_type": "CompletedFace",
+      "status": "ACTIVE"
+    },
+    {
+      "operator": "MIRROR_CLOSE",
+      "input_types": ["CompletedFace", "Arity"],
+      "output_type": "FullLedger",
+      "status": "ACTIVE"
+    },
+    {
+      "operator": "RELEASE_CARRIER",
+      "input_types": ["NativeClosureBudget", "BinarySurface"],
+      "output_type": "PrimaryCarrier",
+      "status": "ACTIVE"
+    },
+    {
+      "operator": "RETAIN_MATTER",
+      "input_types": ["NativeClosureBudget", "PrimaryCarrier"],
+      "output_type": "MatterCapacity",
+      "status": "ACTIVE"
+    },
+    {
+      "operator": "RESERVE_CLOSURE_ADDRESS",
+      "input_types": ["CompletedFace", "AxisChannel"],
+      "output_type": "ParticleFaceContent",
+      "status": "CONDITIONAL_INHERIT_CR283"
+    }
+  ],
+  "forbidden_signatures": [
+    {
+      "operator": "PROMOTE_VOLUME",
+      "input_types": ["BinarySurface", "Dimension"],
+      "attempt": "S8 * D3 = 24",
+      "expected": "TYPE_REJECT_UNRESOLVED_SURFACE_NOT_CLOSURE_WITNESS"
+    },
+    {
+      "operator": "INSERT_LEDGER_ROW",
+      "input_types": ["AxisChannel"],
+      "expected": "TYPE_REJECT_NON_ROW_CHANNEL"
+    },
+    {
+      "operator": "MERGE_BY_SCALAR_VALUE",
+      "expected": "TYPE_REJECT_ROLE_COLLAPSE"
+    }
+  ]
+}

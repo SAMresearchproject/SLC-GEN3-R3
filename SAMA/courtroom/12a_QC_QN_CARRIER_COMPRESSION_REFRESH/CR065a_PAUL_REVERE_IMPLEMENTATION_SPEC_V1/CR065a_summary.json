@@ -1,0 +1,134 @@
+{
+  "cr_id": "CR065a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_LETTER_IMPLEMENTATION_SPECIFICATION_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR065a_PAUL_REVERE_IMPLEMENTATION_SPEC_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T02:02:15Z",
+  "winner_pairing": "(1,2,4) x NV_center",
+  "winner_score": "14 / 15",
+  "winner_rationale": "3 native sublevels (ms = 0/+1/-1); PL = direct photon-counting sensor; cryo+DD T2 ~ 1s AT SAM floor; room-temp accessible to many academic groups; mass-scale mapping open but slot-ratio testable",
+  "runner_up": "(2,4,8) x NV_center (13/15)",
+  "platforms_evaluated": [
+    "NV_center",
+    "SC_transmon",
+    "photonic",
+    "trapped_ion"
+  ],
+  "qubits_evaluated": [
+    "(1,2,4)",
+    "(2,4,8)"
+  ],
+  "selection_criteria": {
+    "slot_count_match": "Does platform provide 3 distinguishable physical levels for carrier/envelope/sensor? (0=no, 3=native 3-level structure)",
+    "sensor_cleanliness": "Is readout a direct boundary-stress reader (vs indirect inference)? (0=indirect only, 3=direct photon/event counting)",
+    "T2_headroom": "Margin between current T2 and T2_grav_at_A_0; 3 = comfortably below, 1 = at the limit",
+    "practical_accessibility": "Can a partner group realistically access and operate this hardware? (0=exotic, 3=multiple academic and industry groups)",
+    "mass_scale_match": "Does platform's natural energy scale plausibly correspond to candidate's M_native scale? (1 = mapping open, 3 = natural fit)"
+  },
+  "winning_implementation": "(1, 2, 4) ideal qubit realized on NV center in diamond",
+  "physical_state_normalization": "Quantum probabilities (4/17, 9/17, 4/17); amplitudes (sqrt(4/17), sqrt(9/17), sqrt(4/17))",
+  "protocol_stages": 6,
+  "falsification_conditions": 3,
+  "document_chapter_status": "Drafted as section for the 30-50 page technical document",
+  "expert_review_tag": "[EXPERT_REVIEW_REQUIRED]",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224
+  },
+  "scoring_csv_sha256": "d97aa46ff74d1226d4bc8b6ff293187c62ea50157f76e0f515c26ffb45de369f",
+  "hardware_spec_sha256": "4f16b8c9c8fa1956ec36853e1f7cea71960e82a5ad2c3dd69eb7db4652ab9fcc",
+  "protocol_md_sha256": "73848ee7e7bb14fa94dbaea83072232f3ca4464bf005919411bfee44b641ed24",
+  "implementation_lock_sha256": "c5eea33ef58cd5eedaf43aa1779ebe09c453abcffd86a5c28f944fdd7e79f99f",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR063a_hardware_lock_json": "f884d362a980a775c010768932f3eeebf44bd135c57625be7dc94b54e9c24639",
+    "CR064a_calibration_lock_json": "96b549a8de5a387408d18df416ab66b1d487cebc32cbff9c46465016871eee79",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_8_pairings_scored",
+      "pass": true,
+      "details": "pairings scored: 8 (expected 8: 2 qubits x 4 platforms)"
+    },
+    {
+      "name": "P2_winner_identified",
+      "pass": true,
+      "details": "winner: (1,2,4) x NV_center (score 14/15)"
+    },
+    {
+      "name": "P3_NV_center_is_top_choice",
+      "pass": true,
+      "details": "NV center wins on 3-level structure + PL sensor + accessibility"
+    },
+    {
+      "name": "P4_1_2_4_is_preferred_qubit",
+      "pass": true,
+      "details": "(1,2,4) foundational ideal qubit is preferred (lower mass, smaller index ladder)"
+    },
+    {
+      "name": "P5_hardware_spec_complete",
+      "pass": true,
+      "details": "hardware spec written, sha256 = 4f16b8c9c8fa1956ec36853e1f7cea71960e82a5ad2c3dd69eb7db4652ab9fcc"
+    },
+    {
+      "name": "P6_protocol_writeup_complete",
+      "pass": true,
+      "details": "protocol writeup ready as document chapter, sha256 = 73848ee7e7bb14fa94dbaea83072232f3ca4464bf005919411bfee44b641ed24"
+    },
+    {
+      "name": "P7_implementation_lock_written",
+      "pass": true,
+      "details": "implementation lock sha256 = c5eea33ef58cd5eedaf43aa1779ebe09c453abcffd86a5c28f944fdd7e79f99f"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_hardware_demonstration_claimed",
+      "pass": true,
+      "details": "CR065a is implementation SPECIFICATION, not demonstration.  All hardware claims are structural fit per training-cutoff literature."
+    },
+    {
+      "name": "WC2_runner_up_pairings_NOT_excluded",
+      "pass": true,
+      "details": "(1,2,4) x photonic (12/15), (2,4,8) x NV center (13/15), and (2,4,8) x trapped ion (12/15) all remain VIABLE.  CR065a identifies the BEST pairing on the scoring criteria, not the only realizable one."
+    },
+    {
+      "name": "WC3_expert_review_tags_explicit",
+      "pass": true,
+      "details": "All NV-specific parameters and procedures tagged [EXPERT_REVIEW_REQUIRED].  Sean's external contact is the intended reviewer.  Promotion from PROVISIONAL_DRAFT to SEALED requires expert sign-off."
+    },
+    {
+      "name": "WC4_quantum_normalization_vs_SAM_slot_weights_clarified",
+      "pass": true,
+      "details": "SAM slot weights (1/4, 9/16, 1/4) sum to 17/16 (surface debit fractions).  Physical quantum probabilities are (4/17, 9/17, 4/17) after normalization.  This distinction is explicit in the protocol writeup."
+    },
+    {
+      "name": "WC5_falsification_conditions_concrete_and_testable",
+      "pass": true,
+      "details": "Three explicit falsification conditions (F1, F2, F3) with statistical thresholds.  Each is testable on the NV platform; any one triggers CR065a v1.0 refinement."
+    },
+    {
+      "name": "WC6_alternative_platforms_documented",
+      "pass": true,
+      "details": "Scoring table includes all 8 pairings.  Runner-up paths are scored, not dismissed.  If NV center proves unworkable in expert review, alternatives are pre-identified."
+    },
+    {
+      "name": "WC7_protocol_writeup_is_document_chapter_ready",
+      "pass": true,
+      "details": "CR065a_paul_revere_protocol.md is structured as a chapter for the 30-50 page technical document.  Stages, falsification conditions, and honest scope are section-organized."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off requires [EXPERT_REVIEW_REQUIRED] tags resolved by Sean's qubit-engineering contact.",
+    "CR066a candidate: derive the structural significance of the 17/16 sum vs the unit-normalized physical state.  Why does SAM's surface debit sum to 17/16 in slot weights?",
+    "CR067a candidate: Multi-qubit operations protocol (CNOT, Toffoli) on the NV platform within Paul Revere architecture.",
+    "Outreach: Hanson group (Delft) is the obvious initial contact for NV cryo+DD T2 measurements.",
+    "Document chapter integration: CR060a, CR061a, CR063a, CR064a, CR065a now form Sections 1-5 of the technical document; CR066a-CR069a will form Sections 6-9."
+  ]
+}

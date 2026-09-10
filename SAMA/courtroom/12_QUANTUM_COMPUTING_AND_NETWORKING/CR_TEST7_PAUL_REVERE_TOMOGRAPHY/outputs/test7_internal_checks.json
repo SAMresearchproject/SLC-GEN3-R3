@@ -1,0 +1,16 @@
+{
+  "A_side_equals_1_over_24": true,
+  "purity_threshold_equals_23_over_24": true,
+  "qubit_analytic_value_correct": true,
+  "qutrit_analytic_value_correct": true,
+  "qubit_sim_crossing_matches_analytic": true,
+  "qutrit_sim_crossing_matches_analytic": true,
+  "density_matrices_valid_or_flagged": true,
+  "purity_in_allowed_range": true,
+  "A_leak_in_allowed_range": true,
+  "first_crossing_detected_if_present": true,
+  "population_only_control_rejected": true,
+  "wrong_threshold_ordering_passed": true,
+  "shuffled_time_control_rejected": true,
+  "scrambled_density_control_changes_purity": true
+}

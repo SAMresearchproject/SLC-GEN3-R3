@@ -1,0 +1,180 @@
+{
+  "cr_id": "CR072a",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "test_class": "PHOTONIC_EMPIRICAL_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1_AT_PHOTONIC_OMEGA",
+  "execution_status": "CLEAN",
+  "result_class": "CR072a_PHOTONIC_EMPIRICAL_TABLE_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_7_OF_8__ROWS_14__CONSISTENT_14__BOUNDARY_0__VIOLATIONS_0",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "T2_grav_formula": "T2_grav(omega) = 16*pi*R^4/(17*omega)",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "input_row_count": 14,
+  "analyzed_row_count": 14,
+  "classification_counts": {
+    "CONSISTENT_WITH_FLOOR": 14,
+    "BOUNDARY_AT_FLOOR": 0,
+    "VIOLATION_OF_FLOOR": 0,
+    "INVALID_NONPOSITIVE_TAU_ENT": 0
+  },
+  "verify_status_counts": {
+    "PROVISIONAL_AUTHOR_BEST_EFFORT": 14,
+    "VERIFIED": 0,
+    "OTHER": 0
+  },
+  "honest_aggregate_verdict": "Provisional photonic table populated with 14 rows from published-platform tau_ent literature. 0 violations of T2_grav v1.1 floor at photonic omega. 0 rows in boundary region. 14 rows consistent with the floor. Photonic T2_grav at typical telecom 1550 nm is ~50 ps, far below typical published entanglement coherence times (microseconds to seconds). Aggregate verdict: CR064a v1.1 is CONSISTENT WITH all populated photonic measurements; cross-platform scaling test (CR073a) is the load-bearing follow-up. All citations are tagged PROVISIONAL_AUTHOR_BEST_EFFORT pending partner-lab verification.",
+  "predictions": {
+    "P1_table_well_formed": {
+      "pass": true,
+      "details": {
+        "required_fields": [
+          "row_id",
+          "platform",
+          "citation_tag",
+          "operating_wavelength_nm",
+          "omega_drive_rad_per_s",
+          "tau_ent_observed_s",
+          "conditions",
+          "link_class",
+          "verify_status",
+          "notes"
+        ],
+        "violations": []
+      }
+    },
+    "P2_no_current_measurement_violates_T2_grav_at_photonic_omega": {
+      "pass": true,
+      "details": {
+        "violation_count": 0,
+        "violating_rows": []
+      }
+    },
+    "P3_margin_distribution_consistent_with_environmental_dominance": {
+      "pass": true,
+      "details": {
+        "median_margin_ratio": 2958634.822933466,
+        "interpretation": "Median margin >> 1 means photonic measurements are environmental/source-noise-limited; gravitational floor is not yet engineering-limited at photonic frequencies."
+      }
+    },
+    "P4_row_count_meets_campaign_threshold": {
+      "pass": true,
+      "details": {
+        "row_count": 14,
+        "threshold": 10,
+        "target_range": [
+          10,
+          20
+        ]
+      }
+    },
+    "P5_no_free_parameters_in_contact_analysis": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P6_explicit_verification_path_documented": {
+      "pass": true,
+      "details": "All rows carry verify_status; partner-lab confirmation lifts PROVISIONAL to VERIFIED"
+    },
+    "P7_contact_table_emitted_with_consistency_classification": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P8_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P9_all_rows_use_CR071a_T2_equivalent_definition": {
+      "pass": true,
+      "details": "Every row's tau_ent column is read explicitly as the photonic T2-equivalent per CR071a mapping M04"
+    },
+    "P10_omega_values_derived_from_documented_wavelengths": {
+      "pass": true,
+      "details": {
+        "max_consistency_tolerance": 0.001,
+        "violations": []
+      }
+    },
+    "P11_platform_diversity": {
+      "pass": true,
+      "details": {
+        "observed_platform_categories": [
+          "TF_QKD",
+          "color_center_photonic_memory",
+          "ensemble_quantum_memory",
+          "fiber_entanglement_distribution",
+          "free_space_satellite",
+          "industry_metro_demo",
+          "laser_stabilized_coherent",
+          "single_atom_node"
+        ],
+        "category_count": 8,
+        "threshold": 3,
+        "observed_link_classes": [
+          "421_km_secure_QKD",
+          "SiV_nanophotonic_cryo_memory",
+          "field_trial_QKD_network",
+          "heralded_entanglement_review",
+          "industry_metro_link_stability",
+          "industry_metro_polarization_entanglement",
+          "laser_stabilized_distribution",
+          "long_distance_entanglement",
+          "metro_to_intercity_fiber",
+          "satellite_ground_link",
+          "single_atom_optical_cavity",
+          "twin_field_600_km",
+          "two_node_memory_entanglement",
+          "two_trapped_atom_33m"
+        ]
+      }
+    }
+  },
+  "wrong_controls": {
+    "WC1_inverted_formula_falsely_flags_violations": {
+      "pass": false,
+      "details": {
+        "real_formula_min_margin": 19816.655511930327,
+        "wrong_formula_min_margin": 4.3960567028148756e-16,
+        "interpretation": "Inherited CR069a/CR070a check logic: at photonic omegas the real formula's minimum margin is very large (no rows near the floor); the inverted formula's minimum margin is near zero. The literal check fails because the real min margin is not <<< wrong min margin. This matches the CR069a/CR070a inherited pattern; the substantive check is whether wrong formula would mark any row as violation (it doesn't, because wrong floor is tiny)."
+      }
+    },
+    "WC2_zero_omega_breaks_the_formula_gracefully": {
+      "pass": true,
+      "details": "ValueError raised on omega = 0"
+    },
+    "WC3_negative_tau_ent_rejected_as_unphysical": {
+      "pass": true,
+      "details": "ValueError raised on tau_ent <= 0"
+    },
+    "WC4_no_citation_tag_marks_row_as_provisional": {
+      "pass": true,
+      "details": "All rows carry citation tags"
+    },
+    "WC5_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Read-only on CR071a, CR064a, CR069a, CR070a"
+    },
+    "WC6_no_free_parameters": {
+      "pass": true,
+      "details": "All inputs traced"
+    },
+    "WC7_non_photonic_row_rejected": {
+      "pass": true,
+      "details": "Out-of-range wavelength row correctly rejected"
+    },
+    "WC8_omega_derivation_consistency": {
+      "pass": true,
+      "details": "Synthetic row with deliberately-wrong omega correctly flagged: relative_error=8.229e+04"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 11,
+    "predictions_total": 11,
+    "wrong_controls_passed": 7,
+    "wrong_controls_total": 8
+  }
+}

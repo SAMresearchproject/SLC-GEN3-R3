@@ -1,0 +1,64 @@
+{
+  "cr_id": "CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "branch": "03_CLOCKS_AND_GPS",
+  "internal_sources": [
+    {
+      "path": "COURTROOM_BRANCH_INTAKE_MAP.md",
+      "role": "branch map and branch-local identity convention",
+      "opened": true
+    },
+    {
+      "path": "03_CLOCKS_AND_GPS/README.md",
+      "role": "active clock/GPS branch index and endpoint clock formula set",
+      "opened": true
+    },
+    {
+      "path": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_PRECOMMIT.md",
+      "role": "prior branch-local clock precommit and exact/weak formula chain",
+      "opened": true
+    },
+    {
+      "path": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_result.md",
+      "role": "prior branch-local result and exclusion anchor",
+      "opened": true
+    },
+    {
+      "path": "03_CLOCKS_AND_GPS/CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT/CR005_summary.json",
+      "role": "prior branch-local machine-readable result and exclusion anchor",
+      "opened": true
+    },
+    {
+      "path": "02_A_KERNEL_WEAK_FIELD/README.md",
+      "role": "active A-kernel branch index, A(r), r_s, half-factor, prior redshift anchors",
+      "opened": true
+    },
+    {
+      "path": "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_PRECOMMIT.md",
+      "role": "active external-contact A-kernel precommit",
+      "opened": true
+    },
+    {
+      "path": "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_result.md",
+      "role": "active external-contact A-kernel result",
+      "opened": true
+    },
+    {
+      "path": "02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT/CR004_summary.json",
+      "role": "active external-contact A-kernel summary",
+      "opened": true
+    },
+    {
+      "path": "02_A_KERNEL_WEAK_FIELD/CR003_A_KERNEL_TYPED_READOUT_RECERTIFICATION/CR003_result.md",
+      "role": "typed A-kernel clock readout source",
+      "opened": true
+    },
+    {
+      "path": "A0-a_h-D/README.md",
+      "role": "A0 foundation and common floor status",
+      "opened": true
+    }
+  ],
+  "forbidden_path_access_by_research_agent": false,
+  "repository_root_recursive_search_by_research_agent": false
+}
+

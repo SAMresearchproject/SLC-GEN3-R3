@@ -1,0 +1,21 @@
+# CR269 hashes
+
+CR269_PRECOMMIT.md sha256 = b939b6452ba1e65d9b2139db16779e3fc08f316ec48e4e988e26aba4e6991daa
+CR269_runner.py sha256 = 5f4dda104921f903bbde7113e00da93e8b266e4e3200841355a7ed35fd86c12d
+CR269_summary.json sha256 = 1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88
+CR269_result.md sha256 = c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea
+CR269_evidence_rows.csv sha256 = 4df4e3e08b46c3d36e010e0e2303b928a19c8e655ce7365d9637c77199ec7bd5
+CR269_partition_table.csv sha256 = 63c283cfabdd10053c035448a213856f17df4589dbdf6523391ddf28912f07d9
+CR269_fixed_points_and_outputs.csv sha256 = 5ec9b48d318444c7c8d572495bf7aefa73cb0bb73fbb15f247d4f46f244fdff3
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR266@09a two-mirror reciprocity d_hat derivation
+  CR267@09a tensor 9 closure witness
+  CR268@09a tensor 6 heaviest neutrino identification
+  CR262@09a carrier/container cipher
+  CR264@09a Lifshitz-RK element state (C-12 anchor)
+  CR114@09a Higgs reveal identity
+  CR229@09a R^2 = M + Theta ledger
+  Violin.md (c:/VS/Discovery/Violin.md) -- bow source

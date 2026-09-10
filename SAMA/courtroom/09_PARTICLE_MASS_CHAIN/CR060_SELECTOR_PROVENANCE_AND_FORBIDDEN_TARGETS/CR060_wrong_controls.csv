@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Inject qpNNN_summary.json with external_data_used=true (no reveal-only marker),FAIL,True,True,external_data_used_construction_violation
+WC2,Inject engine line with scipy.optimize.curve_fit against observed mass,FAIL,True,True,engine_surface_calibration_detected
+WC3,Inject provenance board row tagging old_sheet as ACTIVE_PROOF,FAIL,True,True,promoted_quarantined_detected
+WC4,Inject hostile audit result file ending in FAIL/BLOCKER_FOUND,FAIL,True,True,audit_verdict_classified_as_FAIL
+WC5,Corrupt SOURCE_MANIFEST.csv so CR059 seal mismatches,DIAGNOSTIC,True,True,manifest_sha_mismatch_detected
+WC6,Inject engine line importing yukawa_couplings as construction input,FAIL,True,True,engine_surface_yukawa_import_detected

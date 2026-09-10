@@ -1,0 +1,130 @@
+{
+  "affine_101": {
+    "all_release_before_same_pair_return": true,
+    "complete": true,
+    "distance_max_abs_error": 4.371503159461554e-16,
+    "history_failures": 0,
+    "inequality_status": "ENTAILED_BY_101_STAGE_ORDER__NOT_INDEPENDENT_EVENT_CLOSURE",
+    "missing_position_count": 0,
+    "open_interval_median": 0.6174867475553589,
+    "release_max": 0.9995055926874558,
+    "release_median": 0.5662823377360122,
+    "release_min": 0.00026764749811776414,
+    "return_max": 1.9996871655019413,
+    "return_median": 1.1328592112891767,
+    "return_min": 1.00001591026734,
+    "root_failures": 0
+  },
+  "atom_count": 482112,
+  "axis_time_fields": [],
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "construction_pass": true,
+  "ending_zero_relation_count": 59191245,
+  "endpoint_time_fields": [],
+  "engine_mutated": false,
+  "engine_observability": {
+    "event_identifiers_present": [],
+    "event_state_fields_present": [],
+    "evolve_star_args": [
+      "config"
+    ],
+    "explicit_clock_present": false,
+    "independent_event_closure_present": false,
+    "required_endpoint_positions_present": true,
+    "star_atom_fields": [
+      "atom_id",
+      "binding",
+      "carrier_exposure",
+      "cluster_id",
+      "dimension",
+      "fate",
+      "kind",
+      "ledger_slot",
+      "node_affinity",
+      "route",
+      "shell",
+      "shell_index",
+      "shock",
+      "side",
+      "x0",
+      "x1",
+      "xc",
+      "y0",
+      "y1",
+      "yc"
+    ],
+    "time_fields_present": [],
+    "time_identifiers_present": []
+  },
+  "history_101_relation_count": 8340,
+  "history_101_selected_count": 4886,
+  "history_counts": {
+    "001": 532911,
+    "010": 40784995,
+    "011": 1164692,
+    "100": 142329,
+    "101": 8340,
+    "110": 18263921,
+    "111": 3355840
+  },
+  "physical_claims": {
+    "gw_emission": null,
+    "home_horizon": null,
+    "release_surface": null,
+    "signal_speed": null,
+    "tau_closure": null,
+    "tau_theta_escape": null
+  },
+  "precommit": {
+    "observed": {
+      "contract": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+      "precommit": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+      "precommit_seal": "d923823498a156f15c685fc6f4cb15c178de14172d6adb3dbaae7c77578749a9",
+      "source_manifest": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e"
+    },
+    "runner_seal": {
+      "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+      "contract_sha256": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+      "precommit_sha256": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+      "runner": "cr005c_observability_runner.py",
+      "runner_bytes": 31804,
+      "runner_sha256": "786862b8129d1219fb1ebec44c5d5ff0424a07feb4bc1d42daa80b99b923fe53",
+      "same_run_repair_allowed": false,
+      "sealed_utc": "2026-07-21T01:40:00Z",
+      "source_manifest_sha256": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e"
+    },
+    "seal": {
+      "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+      "classification": "CONSTRUCTIVE_OBSERVABILITY_AND_SEMANTICS_GATE",
+      "contract_sha256": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+      "no_predecessor_rerun": true,
+      "precommit_sha256": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+      "preflight_path": "artifacts/preflight_filled/PREFLIGHT_20260720_194820_no_script.md",
+      "preflight_sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869",
+      "results_opened": false,
+      "runner_present_at_seal": false,
+      "same_run_repair_allowed": false,
+      "sealed_utc": "2026-07-21T01:27:00Z",
+      "source_manifest_sha256": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e",
+      "task": "Continue Courtroom gravitational-wave work with latest Starbreaker and SAM advances"
+    }
+  },
+  "readiness": {
+    "affine_101_local_crossings_available": true,
+    "escape_before_independent_closure_testable": false,
+    "explicit_clock_available": false,
+    "gw_timing_bridge_ready": false,
+    "independent_event_closure_available": false,
+    "independent_release_surface_available": false,
+    "returned_101_vs_ending_zero_stage_distinction_available": true
+  },
+  "record_class": "CONSTRUCTIVE_OBSERVABILITY_AND_SEMANTICS_GATE",
+  "registry_mutated": false,
+  "roster_time_fields": [],
+  "same_run_repair": false,
+  "scenario_count": 96,
+  "source_count": 15,
+  "source_hashes_matched": 15,
+  "task": "Continue Courtroom gravitational-wave work with latest Starbreaker and SAM advances",
+  "verdict": "BOUNDARY_STAGE_ORDERING_ONLY__PHYSICAL_ESCAPE_BEFORE_CLOSURE_NOT_IDENTIFIABLE__EVENT_CLOCK_REQUIRED"
+}

@@ -1,0 +1,19 @@
+# CR266 hashes
+
+CR266_PRECOMMIT.md sha256 = 2967eec865f95c0b73a966ed5da8b011d0515eccef027fdd2db82862dc7096a2
+CR266_runner.py sha256 = 3c288b9562b833dbe537a33ca0a0a0e7048d3f7a9ec6c3ddf9181b758664cbdf
+CR266_summary.json sha256 = 8bc5bc44b8d6eef2a0b1c2a75e7a5e4eac6dd2107c0e4f03c91c6020d20929c6
+CR266_result.md sha256 = cfed8bffb08d88b1d3e8fe4435ffff8f402dd880f5bb8662d274b4d85d37c8d9
+CR266_evidence_rows.csv sha256 = 5eeeaa715d9bb034a240c38eafc0cbad931d1ec38adfbc022817e379cb300962
+CR266_atom_reconstruction.csv sha256 = 782cccf115db48efe5132ce2293c5532dbd4df34495a85d9f6b9f670dba43572
+CR266_nucleus_reciprocity.csv sha256 = dc16f20e25f4de3cc937963b2bcaf629012cfeb44d4d64ee367ab24329ec91f1
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+Upstream CRs cited:
+  CR229@09a closed-ledger
+  CR245@09a asymmetry term
+  CR248@09a source counts
+  CR262@09a carrier/container cipher
+  CR263@09a multientropy framework
+  CR264@09a Lifshitz-RK element state

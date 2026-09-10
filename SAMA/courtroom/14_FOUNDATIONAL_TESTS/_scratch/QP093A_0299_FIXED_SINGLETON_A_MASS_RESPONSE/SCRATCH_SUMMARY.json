@@ -1,0 +1,50 @@
+{
+  "boundary": "The arithmetic does not choose power-D over road-measure geometry, derive finite-A K, or prove that observable pole or gravitational mass varies with A.",
+  "checks": {
+    "A4_weight_monotonic": true,
+    "D_plus_one_factorization_exact": true,
+    "G748_source_strength_ratio_constant": true,
+    "K_mass_holds_observable_factor_one": true,
+    "all_source_hashes_exact": true,
+    "fixed_bounce_intersection_holds_one": true,
+    "fixed_physical_size_ratio": true,
+    "fixed_singleton_count": true,
+    "linear_bounce_intersection_holds_one": true,
+    "literal_observable_mass_not_invariant": true,
+    "power_D_energy_per_slot_is_linear_A": true,
+    "precommit_hash_exact": true,
+    "road_measure_boundary_left_undefined": true,
+    "source_contract_complete": true
+  },
+  "component_verdicts": [
+    "SCRATCH_EXISTING_A4_WEIGHT_LAW_REPRODUCED",
+    "SCRATCH_D_PLUS_ONE_POWER_DECOMPOSITION_EXACT",
+    "BOUNDARY_INTERNAL_WEIGHT_VS_OBSERVABLE_MASS_OPEN",
+    "BOUNDARY_POWER_D_VS_ROAD_MEASURE_GEOMETRY_OPEN",
+    "BOUNDARY_FINITE_A_K_FUNCTION_OPEN"
+  ],
+  "constants": {
+    "A0": 0.026525823848649224,
+    "D": 3,
+    "G748_baseline_MeV": 125077.36096514532,
+    "Higgs_count": 1,
+    "Higgs_size_ratio": 1.0,
+    "QP093A_0299_native_budget_separate_lane": 126000.0,
+    "qA_over_mass_fixed": 1.0049735919716218,
+    "r_bounce_H_fixed": 0.0049735919716217296
+  },
+  "frozen_laws": {
+    "internal_weight": "W_H(A)/W_H(A0)=(A/A0)^4",
+    "linear_bounce_intersection_correction_required": "K_intersection(A)=(A0/A)^5",
+    "observable_budget_correction_required": "K_mass(A)=(A0/A)^4",
+    "power_D_energy_per_slot_consequence": "epsilon_power(A)/epsilon_power(A0)=A/A0",
+    "power_D_slot_density_candidate": "n_power(A)/n_power(A0)=(A/A0)^3",
+    "road_measure_slot_density_competitor": "n_road(A)=((1-A0)/(1-A))^3"
+  },
+  "generated_utc": "2026-07-15T01:15:21.916248+00:00",
+  "primary_disposition": "SCRATCH_FIXED_SINGLETON_A4_WEIGHT_RECONCILIATION_SUPPORTED__OPERATOR_OPEN",
+  "row_count": 6,
+  "scientific_status": "EXPLORATORY_SCRATCH_NOT_A_CR_VERDICT",
+  "selection_statement": "No observed Higgs target, binding result, F81 membership, Starbreaker outcome, or QP093A-0299 target-aware correction selected any law.",
+  "supported_meaning": "With count and size fixed, the existing A^(D+1) weight law factorizes exactly into an A^D slot-density candidate and one linear A excitation factor per slot."
+}

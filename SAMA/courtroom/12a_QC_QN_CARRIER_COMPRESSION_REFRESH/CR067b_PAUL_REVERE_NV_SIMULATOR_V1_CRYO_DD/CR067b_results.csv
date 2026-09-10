@@ -1,0 +1,8 @@
+stage,t_seconds,purity,P_carrier_ms0,P_envelope_msplus1,P_sensor_msminus1,notes
+01_initialize,0.000000000e+00,1.000000000e+00,1.000000000e+00,0.000000000e+00,0.000000000e+00,"post 532 nm laser polarization"
+02_load,0.000000000e+00,1.000000000e+00,2.352941176e-01,5.294117647e-01,2.352941176e-01,"SAM-native loaded state per CR066a"
+02b_loaded_snapshot,0.000000000e+00,1.000000000e+00,2.352941176e-01,5.294117647e-01,2.352941176e-01,"reference loaded state populations"
+03_open_window_end,1.000000000e-04,9.998491597e-01,2.353705844e-01,5.293588262e-01,2.352705894e-01,"after open window with Lindblad"
+04a_post_drift_injection,1.000000000e-04,8.100483554e-01,2.353705844e-01,4.645560748e-01,2.352705894e-01,"drift_angle_rad=0.5"
+04b_post_correction,1.000000000e-04,9.998491597e-01,2.353705844e-01,5.293588262e-01,2.352705894e-01,"letter-preserving drift gate applied"
+06_delayed_read,1.000000000e-04,9.998491597e-01,2.353705844e-01,5.293588262e-01,2.352705894e-01,"final state after delayed-read gate fires"

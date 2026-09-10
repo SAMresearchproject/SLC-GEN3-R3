@@ -1,0 +1,5 @@
+label,c_A_orth,SE,n,abs_t_vs_SL,pass,description,rel_change_vs_phase_a,abs_t
+WC-1_shuffle_B_u,-0.00040179295271580766,0.0002830275676079258,55,4.145878441823394,True,shuffled B_u labels; expect c_A near zero,,
+WC-2_N_eq_Z_only,,inf,6,,True,N=Z rows only; X_A nearly zero so c_A ill-conditioned,,
+WC-3_random_feature_added,0.0007317076154117274,2.5392663304464025e-05,55,,True,Random feature added to X_0; c_A_orth should be ~unchanged,0.002981356259226894,
+WC-4_permute_X_A,-3.7012354349147746e-06,1.477446011640898e-05,55,,True,X_A permuted across rows; c_A_orth should be near zero,,0.25051578235363514

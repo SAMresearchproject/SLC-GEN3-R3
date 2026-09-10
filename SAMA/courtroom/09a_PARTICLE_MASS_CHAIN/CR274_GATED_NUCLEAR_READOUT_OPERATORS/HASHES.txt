@@ -1,0 +1,13 @@
+# CR274 hashes
+
+CR274_PRECOMMIT.md sha256 = c09616e40e26f7d2df36350b0f3db62c7da81b17e01ce7607a1ed87c8431c3a9
+CR274_runner.py sha256 = dc70c7ff960fe2c70399453cd99f2633e683efea92463288d17b619dff50a2d8
+CR274_summary.json sha256 = c46843357aa7fe681c602b3c5e75fa7504f6b0bbec2bcfa5961bdd76d47e854d
+CR274_residuals.csv sha256 = ec71a6c2f8cf5bed0f1ec64efb7f57a394e6cef8f9ad3fe268d528009a8476e5
+CR274_operators.csv sha256 = 4f1fea9f29a9d9d726f8d133a1bf2984f0b4c6fbdc480cc0c55c2c3dc4a9ae50
+
+# Input files (hash-locked)
+CR261_bw_fit_per_row.csv sha256 = 3212a36064244e6addc30e465af6577d68df7997715f6c68ff9bb983b0d8eef2
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+CR274_result.md sha256 = a62287e42a76f3b4ac1612110a66c80794318505c84235654865c188f03c9b15

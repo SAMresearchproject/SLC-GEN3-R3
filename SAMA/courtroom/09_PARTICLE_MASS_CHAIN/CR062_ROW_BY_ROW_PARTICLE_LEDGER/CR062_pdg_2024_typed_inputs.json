@@ -1,0 +1,115 @@
+{
+  "pdg_review": "PDG 2024",
+  "url": "https://pdg.lbl.gov/2024/",
+  "captured_at_cr062_precommit": "2026-06-13",
+  "values": {
+    "e": {
+      "observed_MeV": 0.51099895,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 pole"
+    },
+    "mu": {
+      "observed_MeV": 105.6583755,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 pole"
+    },
+    "tau": {
+      "observed_MeV": 1776.86,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 pole"
+    },
+    "u": {
+      "observed_MeV": 2.16,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 MS-bar 2 GeV"
+    },
+    "d": {
+      "observed_MeV": 4.67,
+      "tolerance_pct": 2.0,
+      "grade_hint": "audit",
+      "source": "PDG 2024 MS-bar 2 GeV"
+    },
+    "s": {
+      "observed_MeV": 93.4,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 MS-bar 2 GeV"
+    },
+    "c": {
+      "observed_MeV": 1273.0,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 MS-bar at m_c"
+    },
+    "b": {
+      "observed_MeV": 4183.0,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 MS-bar at m_b"
+    },
+    "t": {
+      "observed_MeV": 172690.0,
+      "tolerance_pct": 2.0,
+      "grade_hint": "audit",
+      "source": "PDG 2024 pole"
+    },
+    "H": {
+      "observed_MeV": 125250.0,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 125.25 GeV"
+    },
+    "W": {
+      "observed_MeV": 80369.2,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 W boson"
+    },
+    "Z": {
+      "observed_MeV": 91187.6,
+      "tolerance_pct": 1.0,
+      "grade_hint": "strict",
+      "source": "PDG 2024 Z boson"
+    },
+    "nu_e": {
+      "upper_bound_MeV": 2e-06,
+      "grade_hint": "boundary",
+      "source": "KATRIN 2022 < 2 eV"
+    },
+    "nu_mu": {
+      "upper_bound_MeV": 0.19,
+      "grade_hint": "boundary",
+      "source": "PDG 2024 < 0.19 MeV"
+    },
+    "nu_tau": {
+      "upper_bound_MeV": 18.2,
+      "grade_hint": "boundary",
+      "source": "LEP / OPAL < 18.2 MeV"
+    }
+  },
+  "strict_rows": [
+    "H",
+    "W",
+    "Z",
+    "b",
+    "c",
+    "e",
+    "mu",
+    "s",
+    "tau",
+    "u"
+  ],
+  "audit_rows": [
+    "d",
+    "t"
+  ],
+  "boundary_rows": [
+    "nu_e",
+    "nu_mu",
+    "nu_tau"
+  ]
+}

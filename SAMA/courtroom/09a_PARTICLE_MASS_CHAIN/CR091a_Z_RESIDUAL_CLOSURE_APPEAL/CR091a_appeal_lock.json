@@ -1,0 +1,34 @@
+{
+  "lock_id": "CR091a_Z_RESIDUAL_CLOSURE_APPEAL_LOCK",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "appeal_target_cr": "CR091 (in 13_CERN_INDEPENDENT_TESTS)",
+  "appeal_target_unchanged": true,
+  "appealed_residual_row": "EW004 (Z mass at LEP)",
+  "sealed_at_utc": "2026-06-14T02:38:47Z",
+  "what_this_appeal_records": "The 26.1 MeV LEP Z residual (originally 12.4 sigma below LEP) sits at q_subslot = -2/12 = -1/6 in the native R12/R16/R24 bounce sub-slot grid per QP087 PASS. Applying this structural correction with zero free parameters closes the residual to within LEP uncertainty.",
+  "structural_closure": {
+    "z_pred_QP075_MeV": 91161.5,
+    "z_observed_LEP_MeV": 91187.6,
+    "z_residual_before_MeV": -26.10000000000582,
+    "q_subslot_grid": -0.16666666666666666,
+    "G435_r_unit": 0.0016578639905405765,
+    "r_correction": 0.00027631066509009605,
+    "z_corrected_MeV": 91186.6888946956,
+    "z_residual_after_MeV": -0.9111053044034634,
+    "original_sigma": 12.4285714285742,
+    "final_sigma": 0.433859668763554,
+    "lep_uncertainty_MeV": 2.1
+  },
+  "upstream_evidence_hashes": {
+    "CR067a_wzh_anchor.json": "2e18cfe53ecb0f3033c179641814e8d30371a4ae32604defe38e880b5ae3258e",
+    "CR091_summary.json": "00a2f5781d05389f2cc8323c99eee4a1d3e12118d9cabdc668e0540b08b5b239",
+    "CR091_evidence_rows.csv": "8bca4a0fdbc05c37fd6d450356d50fda9eb763a502d1f264dd47a9b2bbd8a009"
+  },
+  "what_this_does_NOT_do": [
+    "modify CR091 verdict",
+    "modify the QP087 PASS",
+    "modify any 09a CR verdict",
+    "claim a new measurement; LEP value is unchanged",
+    "introduce a free parameter"
+  ]
+}

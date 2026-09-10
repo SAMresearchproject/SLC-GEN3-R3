@@ -5,13 +5,13 @@ from CURRENT_REVISION.engines.SLC.slcq3_rz_current import (
 )
 from CURRENT_REVISION.engines.SLC.native.runtime import Q3Runtime
 
-if __package__ and __package__.startswith('CURRENT_REVISION.'):
+if __package__:
     from . import gen2
 else:
     import gen2
 
-VERSION = 'SLC-GEN2-R4'
-BUILD = 'GEN2-REUSE-INFO1-20260907'
+VERSION = 'SLC-GEN3-R3'
+BUILD = 'GEN3-UNIFIED-EXECUTION1-20260910'
 if __package__ and __package__.startswith('CURRENT_REVISION.'):
     from CURRENT_REVISION.runtime import current_generation
     __current_generation__ = current_generation()
@@ -20,6 +20,11 @@ if __package__ and __package__.startswith('CURRENT_REVISION.'):
 class GEN2Runtime(Q3Runtime):
     def __init__(self, model=None, *, cache_size=128, installed=False):
         super().__init__(model, cache_size=cache_size)
+        self.installed = False
+        self.generation = None
+        from importlib import import_module
+        import_module(gen2.__name__ + '.write_arithmetic').bind(self.exact_information())
+        self.foundation = import_module(gen2.__name__ + '.write_foundation').foundation()
         self.installed = installed
         self.generation = None
         if installed:
@@ -84,7 +89,7 @@ class GEN2Runtime(Q3Runtime):
                 raise ValueError('Reuse statistics accept only an optional boolean reset')
             rows = {}
             for name in ('signed_log', 'history_summary', 'motion', 'observation',
-                         'observation_policy', 'boundary_information'):
+                         'observation_policy', 'boundary_information', 'write_arithmetic'):
                 module = import_module(gen2.__name__ + '.' + name)
                 method = getattr(module, 'reuse_stats', None)
                 if method is not None:
@@ -169,8 +174,8 @@ SLCQ3RZRuntime = GEN2Runtime
 
 
 def open_runtime(model=None, *, cache_size=128):
-    return GEN2Runtime(model, cache_size=cache_size,
-                       installed=bool(__package__ and __package__.startswith('CURRENT_REVISION.')))
+    from .gen3_runtime import open_runtime as unified_runtime
+    return unified_runtime(model, cache_size=cache_size)
 
 
 def derive_r3_graph(query, candidate, *, model=None):

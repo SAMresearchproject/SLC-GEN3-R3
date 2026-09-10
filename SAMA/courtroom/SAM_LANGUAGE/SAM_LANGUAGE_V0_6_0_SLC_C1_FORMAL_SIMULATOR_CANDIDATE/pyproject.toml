@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sam-language-v0-6-0-slc-c1-formal-simulator-candidate"
+version = "0.6.0"
+description = "SAM Language v0.6 exact real-sector SLC C1 simulator candidate"
+requires-python = ">=3.10"
+
+[project.scripts]
+sam = "sam_language_v0_6.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sam_language_v0_6 = ["data/*.json", "data/*.csv", "data/*.bnf", "data/*.md"]
+
+[tool.sam_language]
+parent = "SAM Language v0.5.0 direct QP particle grammar candidate"
+parent_hash = "726011b38d27a9b5403a7df66d8d4d5ac7c49960bc331d65f57c66de7a7ecaf0"
+status = "exact-slc-c1-formal-simulator-candidate"
+

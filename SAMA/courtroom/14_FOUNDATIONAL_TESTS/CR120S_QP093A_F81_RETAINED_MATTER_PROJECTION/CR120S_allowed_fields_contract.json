@@ -1,0 +1,56 @@
+{
+  "record_id": "CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION",
+  "allowed_selector_inputs": {
+    "row_type": [
+      "operator_class",
+      "route_class",
+      "spin_or_hand_class",
+      "color_or_owner_closure"
+    ],
+    "depth": [
+      "closure_depth",
+      "surface_depth"
+    ],
+    "charge_conjugation": [
+      "q_sign",
+      "native_charge_axis",
+      "route_class"
+    ],
+    "partition_role": [
+      "typed_partition_role",
+      "partition_signature_with_semantic_type"
+    ],
+    "closure_or_resonance": [
+      "canonical_closure_status",
+      "canonical_stability_status"
+    ],
+    "geometry": [
+      "source_derived_finite_shape_mapping"
+    ]
+  },
+  "forbidden_selector_inputs": [
+    "M_native",
+    "M_observed_candidate",
+    "qA_source_support",
+    "tensor_carrier_support",
+    "retained_write_support",
+    "S_debit_or_credit",
+    "target_row_count_81",
+    "target_sum_12600",
+    "100M",
+    "7Theta",
+    "current_workbook_membership",
+    "row_order",
+    "sheet_name",
+    "candidate_id_whitelist",
+    "direct_roster_enumeration",
+    "workbook_only_user_reclassification",
+    "observed_binding_residual",
+    "CR120R_p9g0_exclusion_as_automatic_F81_membership"
+  ],
+  "candidate_operator_contract": "NONE_FOUND",
+  "M_native_reveal_authorized": false,
+  "workbook_parsed": false,
+  "M_native_column_opened": false,
+  "selected_roster_emitted": false
+}

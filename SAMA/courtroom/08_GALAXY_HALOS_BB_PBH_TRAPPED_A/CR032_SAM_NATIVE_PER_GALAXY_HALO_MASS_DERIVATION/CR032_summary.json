@@ -1,0 +1,80 @@
+{
+  "precommit_sha256": "a0af5e891c5e8f2448e26ead9c9aa80686529f3eb8328db2e7c2b615d898533e",
+  "substrate": {
+    "X_inf_sealed": 3.18,
+    "f_halo_inf": 0.7607655502392345,
+    "X_inf_source": "CR025 outer dark-fraction median; confirmed CR031b"
+  },
+  "measurement_inputs": {
+    "Upsilon_disk": 0.5,
+    "Upsilon_bul": 0.7,
+    "G_kpc_kms2_per_Msun": 4.30091e-06
+  },
+  "n_galaxies_loaded": 175,
+  "n_galaxies_analyzed": 175,
+  "n_in_median": 173,
+  "n_excluded_zero": 2,
+  "P1": {
+    "median_log_ratio": -0.0007342827377475646,
+    "abs_median_log_ratio": 0.0007342827377475646,
+    "threshold": 0.05,
+    "median_linear_ratio": 0.9983106800240439,
+    "linear_bound_low": 0.8912509381337456,
+    "linear_bound_high": 1.1220184543019633,
+    "passed": true
+  },
+  "E1": {
+    "mean_log_ratio": 0.042586601341780106,
+    "std_log_ratio": 0.379077458824331,
+    "scatter_factor": 2.393742655584475
+  },
+  "E2_c_SAM_distribution": {
+    "n": 173,
+    "min": 1.0,
+    "q25": 1.0,
+    "median": 1.062822308006685,
+    "q75": 4.703617070665145,
+    "max": 216.53853532488174
+  },
+  "E3_rho_half_distribution": {
+    "n": 173,
+    "median": 0.9408910524991636
+  },
+  "E4_configuration_classes": {
+    "late_saturating_halo": 94,
+    "early_saturating_halo": 58,
+    "intermediate": 3,
+    "baryon_dominated_inner_closure": 3,
+    "rising_edge_halo": 15,
+    "disturbed_or_non_closed": 2
+  },
+  "E5_f_halo_inf_identity": {
+    "f_halo_inf": 0.7607655502392345,
+    "CR025_sealed_dark_fraction": 0.7607,
+    "difference": 6.555023923449088e-05
+  },
+  "WC1_random_X_inf": {
+    "n_trials": 1000,
+    "canonical_abs_median_log_ratio": 0.0007342827377475646,
+    "null_median": 0.3087758245572334,
+    "null_p1": 0.0052310015550561095,
+    "null_p5": 0.04359153372702743,
+    "null_p10": 0.07206843034992146,
+    "n_extreme": 1,
+    "canonical_percentile": 0.1,
+    "permutation_p_value": 0.001998001998001998
+  },
+  "WC2_galaxy_V_bar_permutation": {
+    "n_trials": 1000,
+    "canonical_abs_median_log_ratio": 0.0007342827377475646,
+    "null_median": 0.03143866114239062,
+    "null_p1": 0.0008053871903296928,
+    "null_p5": 0.0029719444272056903,
+    "null_p10": 0.006633693682179454,
+    "n_extreme": 7,
+    "canonical_percentile": 0.7000000000000001,
+    "permutation_p_value": 0.007992007992007992
+  },
+  "verdict": "PASS",
+  "verdict_reason": "P1 holds: |median log10(ratio)| = 0.00073 <= 0.05"
+}

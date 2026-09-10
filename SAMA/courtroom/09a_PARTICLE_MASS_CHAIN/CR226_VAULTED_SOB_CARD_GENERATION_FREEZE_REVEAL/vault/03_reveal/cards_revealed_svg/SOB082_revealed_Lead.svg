@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<rect width="900" height="1200" fill="#fffaf0"/>
+<rect x="18" y="18" width="864" height="1164" fill="none" stroke="#c08a2b" stroke-width="3"/>
+<rect x="34" y="34" width="832" height="1132" fill="none" stroke="#c08a2b" stroke-width="1"/>
+<text x="450" y="105" text-anchor="middle" font-family="Georgia,serif" font-size="68" fill="#0b2b43">SOB82 - Lead</text>
+<text x="450" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="25" fill="#0b2b43">SAM substrate order block | isotope anchor Pb-205</text>
+<rect x="235" y="168" width="430" height="56" fill="none" stroke="#c08a2b" stroke-width="2"/>
+<text x="450" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#b77b12">SUBSTRATE ORDER BLOCK</text>
+<g stroke="black" stroke-width="4">
+<line x1="450" y1="315" x2="250" y2="995"/><line x1="450" y1="315" x2="650" y2="995"/>
+<line x1="145" y1="540" x2="755" y2="540"/><line x1="145" y1="540" x2="250" y2="995"/>
+<line x1="755" y1="540" x2="650" y2="995"/><line x1="250" y1="995" x2="650" y2="995"/>
+<line x1="145" y1="540" x2="650" y2="995"/><line x1="755" y1="540" x2="250" y2="995"/>
+</g>
+<circle cx="450" cy="560" r="165" fill="none" stroke="#b7d8f6" stroke-width="2"/>
+<circle cx="450" cy="560" r="135" fill="none" stroke="#d4e6f7" stroke-width="1"/>
+<polygon points="450,355 505.8,483.1 644.9,496.6 540.4,589.4 572.9,725.3 450,655 327.1,725.3 359.6,589.4 255.1,496.6 394.2,483.1" fill="none" stroke="#1667ff" stroke-width="2"/>
+<circle cx="450" cy="560" r="142" fill="#fffaf0" stroke="#b77b12" stroke-width="4"/>
+<text x="450" y="476" text-anchor="middle" font-family="Georgia,serif" font-size="48" fill="#b77b12">P_82,205</text>
+<text x="450" y="532" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#0b2b43">Particle Source Address</text>
+<text x="450" y="588" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#0b2b43">82p+123n+82e</text>
+<text x="450" y="628" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#0b2b43">287u+328d+82e</text>
+<g font-family="Georgia,serif" text-anchor="middle">
+<circle cx="450" cy="315" r="74" fill="#fffaf0" stroke="#b77b12" stroke-width="4"/>
+<text x="450" y="277" font-size="34" fill="#b77b12">Pb</text><text x="450" y="319" font-size="23" fill="#0b2b43">Element</text><text x="450" y="351" font-size="22" fill="#b77b12">Z = 82</text>
+<circle cx="145" cy="540" r="76" fill="#fffaf0" stroke="#06615e" stroke-width="4"/>
+<text x="145" y="502" font-size="34" fill="#06615e">M</text><text x="145" y="544" font-size="23" fill="#0b2b43">Matter</text><text x="145" y="576" font-size="18" fill="#06615e">Matter 204.974</text>
+<circle cx="755" cy="540" r="76" fill="#fffaf0" stroke="#06615e" stroke-width="4"/>
+<text x="755" y="502" font-size="34" fill="#06615e">Ck</text><text x="755" y="544" font-size="23" fill="#0b2b43">Clock</text><text x="755" y="576" font-size="21" fill="#06615e">stable</text>
+<circle cx="250" cy="995" r="76" fill="#fffaf0" stroke="#06615e" stroke-width="4"/>
+<text x="250" y="957" font-size="34" fill="#06615e">L</text><text x="250" y="999" font-size="23" fill="#0b2b43">Light</text><text x="250" y="1031" font-size="21" fill="#06615e">shell</text>
+<circle cx="650" cy="995" r="76" fill="#fffaf0" stroke="#06615e" stroke-width="4"/>
+<text x="650" y="957" font-size="34" fill="#06615e">Ac</text><text x="650" y="999" font-size="23" fill="#0b2b43">Action</text><text x="650" y="1031" font-size="21" fill="#06615e">closure</text>
+</g>
+<rect x="190" y="742" width="520" height="166" fill="#fffaf0"/>
+<text x="450" y="768" text-anchor="middle" font-family="Georgia,serif" font-size="24" font-style="italic" fill="#1667ff">carrier/furite kernel</text>
+<text x="450" y="812" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#0b2b43">G(P) = 760.528646</text>
+<text x="450" y="846" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#0b2b43">GR(P) = 8G(P) = 6084.229167</text>
+<text x="450" y="880" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#0b2b43">GR(P) = 7G(P) + G(P)</text>
+<rect x="230" y="1072" width="440" height="64" fill="none" stroke="#c08a2b" stroke-width="3"/>
+<text x="450" y="1114" text-anchor="middle" font-family="Georgia,serif" font-size="31" fill="#0b2b43">A=Z+N=82+123=205</text>
+<text x="450" y="1156" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#555">reveal after sealed prediction | clock match True</text>
+</svg>

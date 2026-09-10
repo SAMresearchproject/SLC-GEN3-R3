@@ -1,0 +1,12 @@
+{
+  "qp061_summary_exists": true,
+  "pressure_alignment_counts": {
+    "MATCH": 95,
+    "MISMATCH": 67,
+    "NO_OBSERVED_ROW": 38
+  },
+  "match_ratio": 0.5864197530864198,
+  "ratio_exceeds_chance": true,
+  "sub_lane_b_verdict": "PASS_SUB_LANE_B_RARITY_MATCH_RATIO_0.586",
+  "rule9_line": "This test could have falsified the claim that internal pressure ordering correlates with natural-abundance ranking beyond chance, rejecting permutation controls."
+}

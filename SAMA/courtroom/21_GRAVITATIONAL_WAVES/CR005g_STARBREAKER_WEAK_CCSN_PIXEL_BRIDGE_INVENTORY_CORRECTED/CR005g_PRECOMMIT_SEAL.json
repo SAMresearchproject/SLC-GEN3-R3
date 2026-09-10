@@ -1,0 +1,16 @@
+{
+  "campaign_id": "CR005g_STARBREAKER_WEAK_CCSN_PIXEL_BRIDGE_INVENTORY_CORRECTED",
+  "task": "Correct the frozen carrier inventory in the trace-corrected Starbreaker-to-weak-CCSN pixel bridge",
+  "classification": "CONSTRUCTIVE_FROZEN_INVENTORY_CORRECTION_AND_EXTERNAL_WAVEFORM_BRIDGE",
+  "sealed_utc": "2026-07-21T03:12:19Z",
+  "preflight_path": "artifacts/preflight_filled/PREFLIGHT_20260720_220947_no_script.md",
+  "preflight_sha256": "88c5eeabc5627dc1543a7fef7caeddb5378cdfe04c75d24618e3560ac45f0838",
+  "contract_sha256": "109230a07d1b2359a23e99b3a335c08fddba647ce20e88adbb715d9aee22fea9",
+  "precommit_sha256": "83e9f147c670af22574d81c923984d526c975dc66167ca9d02d761b53a58d0fa",
+  "source_manifest_sha256": "a9319ef7dddc04ab9c870a36a56eda7ddcade9fd46cb77c821d8130914b61651",
+  "failed_predecessor_runner_sha256": "bd1d39756a3bed21d47901e257295c0e18d5da2fedce91e2fe9330999488076c",
+  "results_opened": false,
+  "runner_present_at_seal": false,
+  "same_run_repair_allowed": false,
+  "predecessor_rerun": false
+}

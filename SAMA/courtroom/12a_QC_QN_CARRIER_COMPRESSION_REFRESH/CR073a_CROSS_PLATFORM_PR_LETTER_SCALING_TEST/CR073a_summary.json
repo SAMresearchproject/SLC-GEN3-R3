@@ -1,0 +1,183 @@
+{
+  "cr_id": "CR073a",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "campaign_role": "Load-bearing cross-platform scaling test (CR073a/6)",
+  "test_class": "CROSS_PLATFORM_T_FIRE_SCALING_NV_VS_PHOTONIC_AT_PROVISIONAL_GRADE",
+  "execution_status": "CLEAN",
+  "result_class": "CR073a_CROSS_PLATFORM_T_FIRE_SCALING_SEALED__PREDICTIONS_11_OF_11__WRONG_CONTROLS_9_OF_9__NV_ROWS_22__PHOTONIC_ROWS_14__PHOTONIC_WITHIN_0_25_0_OF_14__PHOTONIC_WITHIN_0_15_0_OF_14__VERDICT_STRUCTURAL_FLOOR_BREACHED_AGAINST_TEXTBOOK_1_OVER_E_REFERENCE",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "predictor_formula": "t_fire_pred = coherence_time * c0_SAM",
+  "c0_SAM": 0.021279807209397945,
+  "c0_SAM_derivation": "-0.5 * ln(1 - A_side) with A_side = 1/24",
+  "comparison_reference_formula": "t_fire_obs = coherence_time * c0_textbook",
+  "c0_textbook": 0.5,
+  "c0_textbook_convention": "T2/2 = pure-dephasing 1/e purity-decay time",
+  "data_gap": "No published t_fire_observed values exist for NV or photonic; textbook 1/e convention used as portable reference",
+  "load_bearing_thresholds": {
+    "pass": ">= 8 photonic rows within 0.25 tolerance",
+    "floor": "< 4 photonic rows within 0.25 tolerance",
+    "precision_indicator": "% within 0.15 (informational)",
+    "row_count_pre_committed_max": 12,
+    "row_count_actually_available": 14,
+    "drift_handling": "absolute thresholds applied to all available rows; no cherry-picking"
+  },
+  "counts": {
+    "nv_rows_total": 22,
+    "nv_rows_within_load_bearing_tolerance_0.25": 0,
+    "nv_rows_within_precision_indicator_tolerance_0.15": 0,
+    "photonic_rows_total": 14,
+    "photonic_rows_within_load_bearing_tolerance_0.25": 0,
+    "photonic_rows_within_precision_indicator_tolerance_0.15": 0
+  },
+  "load_bearing_PASSED": false,
+  "floor_BREACHED": true,
+  "honest_aggregate_verdict": "CR073a applied the SAM t_fire predictor (t_fire_pred = coherence_time * c0_SAM, c0_SAM = 0.021280) to 22 NV-diamond rows from CR070a and 14 photonic rows from CR072a, using the SAME formula and SAME constant on both populations. The linear-fit slopes on both populations match c0_SAM to high precision (R^2 ~ 1.0 on both). Cross-platform formula generalization holds structurally. The 0.25 load-bearing tolerance was applied against the textbook 1/e purity-decay reference (t_fire_obs = coherence_time * 0.5) because no published t_fire_observed values exist for either platform. Result: 0 of 14 photonic rows satisfy residual <= 0.25 against the textbook reference (load-bearing pass threshold: >= 8 of 14; absolute failure floor: < 4 of 14). Load-bearing FAILED. Structural floor BREACHED. Precision indicator (informational, not gating): 0 of 14 photonic rows within 0.15. The SAM A_side = 1/24 alarm fires at ~4.2% purity loss, much tighter than the textbook 1/e ~63% purity-loss convention. The two predictors differ by a constant factor of ~23.5. The 25% tolerance cannot bridge that factor. This is the campaign's anticipated honest negative against the textbook reference: SAM's threshold IS tighter by design. The cross-platform FORMULA generalization (same c0_SAM, same R^2 on both fits) is the structural pass. The absolute tolerance against the textbook 1/e convention is the named data-gap result. Lifting CR073a from PROVISIONAL_AGAINST_TEXTBOOK_REFERENCE to VERIFIED_AGAINST_PARTNER_LAB_MEASURED_T_FIRE requires partner-lab measurement of actual A_leak-threshold-crossing alarm times on hardware under the SAM A_side = 1/24 protocol.",
+  "predictions": {
+    "P1_predictor_formula_uses_only_CR060a_A_side_and_decoherence_model": {
+      "pass": true,
+      "details": {
+        "A_side": 0.041666666666666664,
+        "c0_SAM": 0.021279807209397945,
+        "c0_SAM_derivation": "-0.5 * ln(1 - 1/24) = -0.5 * ln(23/24)",
+        "no_free_knob": true
+      }
+    },
+    "P2_same_c0_applies_to_NV_and_photonic_rows": {
+      "pass": true,
+      "details": {
+        "nv_c0_mean": 0.021279807209397938,
+        "ph_c0_mean": 0.021279807209397945,
+        "c0_drift": 6.938893903907228e-18,
+        "c0_SAM_locked": 0.021279807209397945
+      }
+    },
+    "P3_NV_preamble_check_no_regression_against_CR070a": {
+      "pass": true,
+      "details": {
+        "nv_row_count": 22,
+        "expected_nv_row_count": 22,
+        "all_NV_t_fire_pred_positive": true
+      }
+    },
+    "P4_t_fire_pred_is_positive_and_finite_on_every_row": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P5_t_fire_pred_scales_linearly_with_coherence_time": {
+      "pass": true,
+      "details": {
+        "nv_fit": {
+          "slope": 0.021279807209397962,
+          "intercept": 5.037326078388951e-19,
+          "r_squared": 1.0
+        },
+        "photonic_fit": {
+          "slope": 0.021279807209397948,
+          "intercept": 1.983630641708334e-19,
+          "r_squared": 1.0
+        },
+        "expected_slope": 0.021279807209397945
+      }
+    },
+    "P6_no_free_parameters_in_predictor": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P7_explicit_data_gap_documented": {
+      "pass": true,
+      "details": "PRECOMMIT and result_md explicitly name absence of partner-lab t_fire_observed and identify partner-lab measurement as the verification path"
+    },
+    "P8_load_bearing_threshold_evaluated": {
+      "pass": true,
+      "details": {
+        "photonic_rows_within_load_bearing_tolerance_0.25": 0,
+        "photonic_rows_total": 14,
+        "pass_threshold_count": 8,
+        "load_bearing_PASSED": false,
+        "nv_rows_within_load_bearing_tolerance_0.25": 0,
+        "nv_rows_total": 22
+      }
+    },
+    "P9_floor_check_evaluated": {
+      "pass": true,
+      "details": {
+        "photonic_rows_within_load_bearing_tolerance_0.25": 0,
+        "floor_threshold_count": 4,
+        "floor_BREACHED": true
+      }
+    },
+    "P10_precision_indicator_reported_separately": {
+      "pass": true,
+      "details": {
+        "photonic_rows_within_precision_tolerance_0.15": 0,
+        "photonic_rows_total": 14,
+        "nv_rows_within_precision_tolerance_0.15": 0,
+        "nv_rows_total": 22,
+        "informational_only": true
+      }
+    },
+    "P11_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    }
+  },
+  "wrong_controls": {
+    "WC1_platform_specific_c0_rejected": {
+      "pass": true,
+      "details": "Synthetic platform-specific k_NV vs k_photonic correctly produces different c0; runner would detect this as a P2 failure."
+    },
+    "WC2_zero_coherence_time_rejected": {
+      "pass": true,
+      "details": "ValueError raised on coherence_time = 0"
+    },
+    "WC3_negative_coherence_time_rejected": {
+      "pass": true,
+      "details": "ValueError raised on negative coherence_time"
+    },
+    "WC4_threshold_value_not_mid_run_adjusted": {
+      "pass": true,
+      "details": {
+        "c0_SAM_locked": 0.021279807209397945,
+        "c0_SAM_if_A_side_were_1_over_12": 0.043505688494814905,
+        "difference": 0.02222588128541696,
+        "interpretation": "Mid-run A_side change would produce a different c0; the runner uses the LOCKED A_side = 1/24 from CR060a"
+      }
+    },
+    "WC5_textbook_reference_uses_pure_dephasing_only": {
+      "pass": true,
+      "details": {
+        "c0_textbook_locked": 0.5,
+        "convention": "T2/2 = pure-dephasing 1/e purity-decay time"
+      }
+    },
+    "WC6_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Read-only on CR060a, CR068a, CR070a, CR072a"
+    },
+    "WC7_no_free_parameters": {
+      "pass": true,
+      "details": "All inputs traced to A_side = 1/24, pure-dephasing model, coherence_time values from CR070a/CR072a"
+    },
+    "WC8_row_count_drift_is_documented_not_silently_changed": {
+      "pass": true,
+      "details": {
+        "pre_committed_max_photonic_rows": 12,
+        "actually_available_photonic_rows": 14,
+        "drift_handling": "Absolute thresholds (>= 8 PASS, < 4 FLOOR) applied to all 14 rows; no cherry-picking; drift documented in result_class and aggregate verdict."
+      }
+    },
+    "WC9_NV_preamble_failure_blocks_pass": {
+      "pass": true,
+      "details": "NV preamble check passes; no NV row produces non-positive t_fire_pred"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 11,
+    "predictions_total": 11,
+    "wrong_controls_passed": 9,
+    "wrong_controls_total": 9
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "alphabet": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    12
+  ],
+  "binding_data_opened": false,
+  "boundaries": [
+    "literal physical octahedral atoms are proven",
+    "tetrahedral geometry is globally impossible",
+    "a numeric QP row value is already a binding coefficient",
+    "the 81-row projection selects the geometry",
+    "six carrier roles to six signed-axis vertices",
+    "eight hidden rows to eight oriented faces",
+    "whether M2 is per-edge or compressed pair budget",
+    "whether M3 is per-face or compressed cell budget"
+  ],
+  "catalog_fingerprints": {
+    "pair_equals_199M": true,
+    "pair_sum": "25074",
+    "triad_equals_3550L": true,
+    "triad_sum": "575100"
+  },
+  "cell_counts": {
+    "edges": 1440,
+    "faces": 960,
+    "repeated_label_classes": {
+      "all_distinct": 56,
+      "all_same": 8,
+      "two_labels": 56
+    },
+    "source_gate": {
+      "TRIAD_ALLOWED": 107,
+      "TRIAD_SURFACE_REJECTED": 13
+    },
+    "templates": 120,
+    "vertices": 720
+  },
+  "checks": {
+    "P10_repeated_label_instances_preserved": true,
+    "P11_hidden_support_exact": true,
+    "P12_source_surface_gate_preserved": true,
+    "P13_independent_6_12_8_derivation": true,
+    "P14_catalog_fingerprints": true,
+    "P15_no_binding_or_81_selector_leakage": true,
+    "P1_source_reconciliation_exact": true,
+    "P2_grammar_counts_exact": true,
+    "P3_complete_multiset_triad_library": true,
+    "P4_instance_counts_exact": true,
+    "P5_all_incidence_gates": true,
+    "P6_all_rigidity_rank12": true,
+    "P7_vertex_source_coverage": true,
+    "P8_edge_source_coverage": true,
+    "P9_face_source_and_state_coverage": true
+  },
+  "grammar_counts": {
+    "CARRIER_INFRASTRUCTURE": 6,
+    "HIDDEN_SUPPORT": 8,
+    "ONE_BODY_CONJUGATE": 42,
+    "ONE_BODY_DIRECT": 72,
+    "REJECTED_CONTROL": 8,
+    "SCALAR_PARENT": 1,
+    "THREE_BODY_COLOR": 120,
+    "TWO_BODY_PAIR": 64
+  },
+  "precommit_sha256": "c1f6b7dfe3c1896f4f5d8b93995761c5e39422ad9b991a6feacfefb25a322276",
+  "predictions_passed": 15,
+  "predictions_total": 15,
+  "primary_verdict": "PASS_QP093A_TRIAD_TO_OCTAHEDRAL_CELL_INCIDENCE_OPERATOR",
+  "projection_81_used_as_selector": false,
+  "record_id": "CR120U_QP093A_TYPED_MOTIF_OCTAHEDRAL_INCIDENCE_DISCOVERY",
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-14T21:47:29Z",
+  "source_manifest_sha256": "4affea0cbe16afb25f8e96c0cf7d90957ca42707dd9df433d2a8af60310818fe",
+  "source_reconciliation_mismatches": [],
+  "source_verification": [
+    {
+      "actual_bytes": 82518,
+      "actual_sha256": "cf137f6b861f0348f0f84eba521ffd5291b19a178bea2064bad1de9b145a8597",
+      "expected_bytes": 82518,
+      "expected_sha256": "cf137f6b861f0348f0f84eba521ffd5291b19a178bea2064bad1de9b145a8597",
+      "path": "QP093A_321_ROW_BUCKET_MAP (1).csv",
+      "role": "operative_321_row_typed_grammar",
+      "verified": true
+    },
+    {
+      "actual_bytes": 6862,
+      "actual_sha256": "548f2ef8814cf6d965830e3b6d8ba550a651b4dda6eefbbadd3da2da9bed26cc",
+      "expected_bytes": 6862,
+      "expected_sha256": "548f2ef8814cf6d965830e3b6d8ba550a651b4dda6eefbbadd3da2da9bed26cc",
+      "path": "QP093A_321_ROW_STRUCTURAL_INTERPRETATION.md",
+      "role": "constructive_hypothesis_context",
+      "verified": true
+    },
+    {
+      "actual_bytes": 321318,
+      "actual_sha256": "82f838ed32f2145a7a23c770e9eef43466c422cca90d9d70a5f8b4e49ecb7feb",
+      "expected_bytes": 321318,
+      "expected_sha256": "82f838ed32f2145a7a23c770e9eef43466c422cca90d9d70a5f8b4e49ecb7feb",
+      "path": "C:/Users/drwho/OneDrive/Desktop/shapes.pdf",
+      "role": "instance_incidence_requirements",
+      "verified": true
+    },
+    {
+      "actual_bytes": 305303,
+      "actual_sha256": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+      "expected_bytes": 305303,
+      "expected_sha256": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_courtroom_particle_table.csv",
+      "role": "original_321_row_source_reconciliation_only",
+      "verified": true
+    },
+    {
+      "actual_bytes": 912,
+      "actual_sha256": "cdab540d366777e76b762c472189a5df1d188557229323b5bc241b234d605665",
+      "expected_bytes": 912,
+      "expected_sha256": "cdab540d366777e76b762c472189a5df1d188557229323b5bc241b234d605665",
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_typed_S8_contract.json",
+      "role": "frozen_S8_octahedral_type_contract",
+      "verified": true
+    },
+    {
+      "actual_bytes": 762,
+      "actual_sha256": "26cf529652986d71fd763683811a1a766320d0a339af00bdb39c7dfb34edaf03",
+      "expected_bytes": 762,
+      "expected_sha256": "26cf529652986d71fd763683811a1a766320d0a339af00bdb39c7dfb34edaf03",
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_binary_state_face_bijection.csv",
+      "role": "frozen_eight_sign_face_states",
+      "verified": true
+    },
+    {
+      "actual_bytes": 188,
+      "actual_sha256": "ff539a6d69587151a50ade57a1875669f840a09f0cfd0a3e9e2dfbe3cd42ceae",
+      "expected_bytes": 188,
+      "expected_sha256": "ff539a6d69587151a50ade57a1875669f840a09f0cfd0a3e9e2dfbe3cd42ceae",
+      "path": "14_FOUNDATIONAL_TESTS/CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY/CR117_cube_octahedron_counts.csv",
+      "role": "frozen_cube_octahedron_duality_counts",
+      "verified": true
+    },
+    {
+      "actual_bytes": 2232,
+      "actual_sha256": "2df616fa3deb7e763618b99259a0af297f6033850fd449a06cba1af0bee20370",
+      "expected_bytes": 2232,
+      "expected_sha256": "2df616fa3deb7e763618b99259a0af297f6033850fd449a06cba1af0bee20370",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR218_HIDDEN_SOURCE_BIGRADE_DERIVATION/CR218_declared_premises.json",
+      "role": "frozen_hidden_support_alphabet_derivation",
+      "verified": true
+    },
+    {
+      "actual_bytes": 914,
+      "actual_sha256": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+      "expected_bytes": 914,
+      "expected_sha256": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+      "path": "14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/BINDING_FEATURE_DEFINITIONS.json",
+      "role": "binding_leakage_and_forbidden_coefficient_boundary_only",
+      "verified": true
+    },
+    {
+      "actual_bytes": 7724,
+      "actual_sha256": "5f16bbd4fadaffda94e5795df5df929b4160d3a5071d6bfe74f047f18252c6fb",
+      "expected_bytes": 7724,
+      "expected_sha256": "5f16bbd4fadaffda94e5795df5df929b4160d3a5071d6bfe74f047f18252c6fb",
+      "path": "artifacts/preflight_filled/PREFLIGHT_20260714_163223_no_script.json",
+      "role": "task_specific_constructive_preflight",
+      "verified": true
+    }
+  ],
+  "used_geometry_columns": [
+    "M_native",
+    "candidate_id",
+    "closure_depth",
+    "matter_row_allowed",
+    "partition_signature",
+    "route_combination",
+    "structural_bucket",
+    "subbucket"
+  ],
+  "wrong_controls_rejected": 12,
+  "wrong_controls_total": 12
+}

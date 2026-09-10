@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-26",
+  "inputs": {
+    "A0": "1/(12*pi)",
+    "D": 3,
+    "alpha_H": 2,
+    "csv": "C:\\Users\\drwho\\Downloads\\sam_all_formula_candidates_raw.csv",
+    "csv_contains_new_sheet_rows": false,
+    "csv_encoding": "cp1252",
+    "csv_rows": 54,
+    "csv_title": "A / SW Non-Circular Derivation Workup"
+  },
+  "interpretation": {
+    "remaining_physics_burden": "The physical substrate still owes a derivation of the binary horizon state space, counting measure, direction-allocation observable, and relabeling symmetry from the rotating-horizon G197 dynamics.",
+    "theorem_inside_axioms": "Given binary horizon state count, direction-additive allocation, and S_D direction relabeling symmetry, mu_H=2^D/D is unique."
+  },
+  "overall": {
+    "all_predictions_pass": true,
+    "all_wrong_controls_pass": true,
+    "verdict": "G305_CHI_DIRECTION_QUOTIENT_MEASURE_DERIVED_UNDER_SYMMETRY_AXIOMS"
+  },
+  "predictions": {
+    "P1": {
+      "D": 3,
+      "name": "binary horizon state count",
+      "pass": true,
+      "state_count": 8,
+      "state_space": "H_D={0,1}^D",
+      "target": 8
+    },
+    "P2": {
+      "S_D_transitive_on_directions": true,
+      "name": "direction relabeling symmetry forces equal direction measures",
+      "pass": true,
+      "solution": {
+        "mu_0": "8/3",
+        "mu_1": "8/3",
+        "mu_2": "8/3"
+      }
+    },
+    "P3": {
+      "general_additivity_residual": "0",
+      "general_formula": "2^D/D",
+      "mu_H": "8/3",
+      "name": "additivity plus direction symmetry uniquely gives 2^D/D",
+      "pass": true
+    },
+    "P4": {
+      "A0": "1/(12*pi)",
+      "chi_H": "2/(9*pi)",
+      "name": "chi_H equals 2/(9*pi)",
+      "numeric": 0.07073553026306459,
+      "pass": true,
+      "residual": "0",
+      "target": "2/(9*pi)"
+    },
+    "P5": {
+      "mu_H": "8/3",
+      "name": "direction allocation is not S_D orbit quotient of states",
+      "orbit_count": 4,
+      "orbit_count_expected": 4,
+      "pass": true
+    },
+    "P6": {
+      "active_incidence_per_direction": 4,
+      "active_incidence_total": 12,
+      "mu_H": "8/3",
+      "name": "active-incidence count is a different observable",
+      "pass": true,
+      "state_count": 8
+    },
+    "P7": {
+      "contains_H_D_2D_muH_rows": false,
+      "csv_encoding": "cp1252",
+      "csv_path": "C:\\Users\\drwho\\Downloads\\sam_all_formula_candidates_raw.csv",
+      "csv_rows": 54,
+      "csv_title": "A / SW Non-Circular Derivation Workup",
+      "name": "disk CSV is not the newly described multi-sheet measure export",
+      "pass": true
+    }
+  },
+  "run_timesamp_utc": "2026-05-25T08:01:43.779453+00:00",
+  "test": "G305_chi_horizon_quotient_measure",
+  "wrong_controls": {
+    "WC1": {
+      "allocation_residual": "-2",
+      "candidate": "2",
+      "name": "2D/D shortcut",
+      "pass": true
+    },
+    "WC2": {
+      "allocation_residual": "16",
+      "candidate": "8",
+      "name": "no quotient 2^D",
+      "pass": true
+    },
+    "WC3": {
+      "binary_state_count": 8,
+      "candidate": "9",
+      "name": "ternary state count 3^D/D",
+      "pass": true,
+      "ternary_state_count": 27
+    },
+    "WC4": {
+      "allocation_residual": "4",
+      "candidate": "4",
+      "name": "active-incidence per-direction count 2^(D-1)",
+      "pass": true
+    },
+    "WC5": {
+      "candidate": "4",
+      "mu_H": "8/3",
+      "name": "S_D orbit-count quotient D+1",
+      "pass": true
+    },
+    "WC6": {
+      "allocation_residual": "4",
+      "candidate": "4",
+      "name": "2^D/(D-1)",
+      "pass": true
+    },
+    "WC7": {
+      "candidate": "8/3",
+      "expected_behavior": "rejected as derivation because it uses target chi",
+      "name": "target-defined mu_H = chi_target/A0",
+      "numeric_status": "matches but is circular",
+      "pass": true
+    }
+  }
+}

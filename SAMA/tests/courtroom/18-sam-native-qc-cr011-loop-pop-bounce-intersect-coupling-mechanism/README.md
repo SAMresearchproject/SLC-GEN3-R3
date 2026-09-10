@@ -1,0 +1,76 @@
+# Courtroom test package: CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM)
+
+This index includes every tracked file below `18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**6 files · 47,585 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Precommitments and premises
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR011_PRECOMMIT.md](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_PRECOMMIT.md) | 21,465 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_PRECOMMIT.md) |
+
+## Code
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR011_runner.py](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_runner.py) | 5,112 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_runner.py) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR011_result.md](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_result.md) | 10,030 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_result.md) |
+| [CR011_summary.json](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_summary.json) | 1,235 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [HASHES.txt](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/HASHES.txt) | 1,390 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/HASHES.txt) |
+
+## Other package files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR011_CORRECTION_NOTE.md](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_CORRECTION_NOTE.md) | 8,353 | [Raw](../../../courtroom/18_SAM_NATIVE_QC/CR011_LOOP_POP_BOUNCE_INTERSECT_COUPLING_MECHANISM/CR011_CORRECTION_NOTE.md) |
+
+## Related Courtroom tests
+
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT)
+- [09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR229_CARRIER_TENSOR_INCLUSION_EXCLUSION_IDENTITY)
+- [09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW)
+- [09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE)
+- [09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION)
+- [09a_PARTICLE_MASS_CHAIN/CR259_CHESSBOARD_BIN_STRUCTURAL_IDENTIFICATION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR259_CHESSBOARD_BIN_STRUCTURAL_IDENTIFICATION)
+- [09a_PARTICLE_MASS_CHAIN/CR262_SUBSTRATE_CHAIN_STEP_CIPHER_LIGHT_ANCHOR](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR262_SUBSTRATE_CHAIN_STEP_CIPHER_LIGHT_ANCHOR)
+- [09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR266_TWO_MIRROR_RECIPROCITY_D_DERIVATION)
+- [09a_PARTICLE_MASS_CHAIN/CR268_TENSOR_6_HEAVIEST_NEUTRINO_IDENTIFICATION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR268_TENSOR_6_HEAVIEST_NEUTRINO_IDENTIFICATION)
+- [09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR)
+- [18_SAM_NATIVE_QC/CR001_QGC_PHASE1_SUBSTRATE_GATE_INVOLUTION](../../../courtroom/18_SAM_NATIVE_QC/CR001_QGC_PHASE1_SUBSTRATE_GATE_INVOLUTION)
+- [18_SAM_NATIVE_QC/CR004_QGC_PHASE2_DISTANCE_COUPLING](../../../courtroom/18_SAM_NATIVE_QC/CR004_QGC_PHASE2_DISTANCE_COUPLING)
+- [18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION](../../../courtroom/18_SAM_NATIVE_QC/CR010_SUBSTRATE_SPAGHETTIO_LATTICE_FOUNDATION)
+- [18_SAM_NATIVE_QC/CR012_NESTED_HOME_DISTANCE_AS_INFORMATION_FOUNDATION](../../../courtroom/18_SAM_NATIVE_QC/CR012_NESTED_HOME_DISTANCE_AS_INFORMATION_FOUNDATION)
+- [18_SAM_NATIVE_QC/CR013_CLEANROOM_DREF_REDERIVATION](../../../courtroom/18_SAM_NATIVE_QC/CR013_CLEANROOM_DREF_REDERIVATION)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/18_SAM_NATIVE_QC) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

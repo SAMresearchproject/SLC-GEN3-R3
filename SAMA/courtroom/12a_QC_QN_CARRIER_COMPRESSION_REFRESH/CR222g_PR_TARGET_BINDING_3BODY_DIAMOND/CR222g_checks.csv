@@ -1,0 +1,15 @@
+check,passed,observed,expected
+upstream_seals_match,True,5,5
+carrier_checksum_remains_162,True,162,162
+support_roster_12_plus_mirror_preserved,True,"{""closure_total"": 162, ""duplicate_mirror_row"": ""QP093A-0303"", ""duplicate_mirror_value"": 81, ""raw_blocked_nonmatter_rows"": 13, ""rule"": ""QP093A-0303 remains blocked non-matter but is not an independent support mode."", ""unique_support_roster_rows"": 12, ""unique_support_roster_sum"": 81}",12 support rows + mirror = 162
+ground_baryon_3body_targets_found_14,True,14,14
+symmetric_diamond_anchor_count_4,True,4,4
+all_3body_targets_matter_allowed,True,Counter({'yes': 14}),{'yes': 14}
+all_3body_targets_qA_T_W_formula_pass,True,14,14
+target_qA_positive,True,72.5,>0
+target_binding_trials_count,True,28,28
+target_binding_trials_all_emit_when_gated,True,28,28
+diamond_anchor_trials_emit,True,8,8
+protocol_qA_not_target_qA,True,distinct,protocol_event_qA distinct from target qA
+carrier_tensor_not_target_tensor,True,distinct,carrier tensor distinct from target tensor split
+wrong_controls_fail_as_expected,True,10,10

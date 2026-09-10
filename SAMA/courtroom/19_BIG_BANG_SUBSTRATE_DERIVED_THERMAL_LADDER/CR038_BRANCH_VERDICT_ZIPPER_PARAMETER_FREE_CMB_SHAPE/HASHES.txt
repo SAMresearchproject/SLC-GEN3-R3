@@ -1,0 +1,18 @@
+# CR038 hashes
+
+CR038_PRECOMMIT.md sha256 = 13789eabc06abba59d5fc2668b4f04a97080e808a6415b1f8717f48bbb420e89
+CR038_runner.py sha256 = 0c7fd1841637e407da6cc0cf4a9346ce311a824baf8f8e19570940d54d6009e3
+CR038_summary.json sha256 = 46543547b53b261ae607f8a2af1e404bbbf54f053aa93782ef617ddca69426ff
+CR038_result.md sha256 = 96372a29674c65737e1d82db63a69b0783a479d456a3148e12fcd080b4843b4c
+CR038_evidence_rows.csv sha256 = a762cbb61a591a754b60e75352c1e819d8be44e1ab858e6f414bbeb6608a1673
+
+stewardship sha256 = d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88
+
+# Upstream chain CRs (provenance only; preserved unchanged)
+CR035A   preserved FAIL audit trail; not modified
+CR035A2  precommit = 6310c00f6f74de36475c0edbf7331f0f41960098983ee90adff5449063ae0697
+CR036    precommit = 345a1a8dc180eb6b28141114a82315e3b8d92889537c1219eec4312d59ca33f2
+CR036B   precommit = ab2fea4b0822412cc5ca9978bab89822ea6fccffa76f94527bff05aaa660305e
+CR037A   precommit = 1b7da85b860825d7e9b0a8e7d231aef92ec980b020341800da81a09f48ba5d78
+CR037B   precommit = 5b7bd931eb28a6123e848b37867735d627b0f59d4f09433c5bd64261cf0c149b
+CR037C   precommit = 6ab6024c6e99ae35540ba93976cda79c3b2569bc4fffcd2371e36fd6ab4bd8ca

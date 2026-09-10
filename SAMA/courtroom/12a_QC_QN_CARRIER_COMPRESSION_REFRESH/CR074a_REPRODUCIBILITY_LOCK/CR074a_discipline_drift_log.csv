@@ -1,0 +1,4 @@
+item,declared_in_per_CR,actually_used,pack_level_pin,resolution
+python,(not declared per CR),3.12.10,3.12.10,pinned to actual at pack level
+numpy,numpy==1.26.4,numpy==2.4.4,numpy==2.4.4,pinned to actual at pack level; per-CR preserved as historical
+matplotlib,matplotlib==3.8.4,matplotlib==3.10.9,matplotlib==3.10.9,pinned to actual at pack level; per-CR preserved as historical

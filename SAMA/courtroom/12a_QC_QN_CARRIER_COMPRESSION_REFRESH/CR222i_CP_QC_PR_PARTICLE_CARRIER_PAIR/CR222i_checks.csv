@@ -1,0 +1,24 @@
+check,passed,observed,expected
+upstream_seals_match,True,6,6
+carrier_packet_checksum_remains_162,True,162,162
+support_roster_12_plus_mirror_preserved,True,"{""closure_total"": 162, ""duplicate_mirror_row"": ""QP093A-0303"", ""duplicate_mirror_value"": 81, ""raw_blocked_nonmatter_rows"": 13, ""rule"": ""QP093A-0303 remains blocked non-matter but is not an independent support mode."", ""unique_support_roster_rows"": 12, ""unique_support_roster_sum"": 81}",12 support rows + mirror = 162
+primary_particle_is_0002,True,QP093A-0002,QP093A-0002
+primary_particle_is_negative_p1_fermion,True,p=1 q=negative spin=fermion_half_write,p=1 q=negative fermion_half_write
+primary_particle_matter_gate_passes,True,yes|PASS_STABLE_SINGLE_WRITE_MATTER,yes|PASS_STABLE_SINGLE_WRITE_MATTER
+primary_particle_qA_T_W_formula_pass,True,qA=1.510416667 T=0.188802083 W=1.321614583,qA=1.510416667 T=0.188802083 W=1.321614583
+road_light_carrier_is_0301,True,QP093A-0301,QP093A-0301
+road_light_carrier_is_p1_transverse_neutral,True,p=1 q=neutral spin=transverse_vector,p=1 neutral transverse_vector
+road_light_carrier_matter_blocked,True,no|REJECT_MATTER_PROMOTION_CARRIER_ONLY,no|REJECT_MATTER_PROMOTION_CARRIER_ONLY
+road_light_carrier_zero_matter_ledger,True,M=0 qA=0 T=0 W=no,M=qA=T=W=0
+primary_pair_shares_minimal_partition_p1,True,1+1,1+1
+role_separation_one_matter_one_carrier,True,yes / no,yes / no
+split_control_is_0018,True,QP093A-0018,QP093A-0018
+split_control_unit_normalized,True,qA=1 T=0.125 W=0.875,qA=1 T=0.125 W=0.875
+split_control_not_primary_pair,True,p=8 q=neutral,p=8 neutral
+tensor_witness_is_0300,True,QP093A-0300|TENSOR_CARRIER,QP093A-0300|TENSOR_CARRIER
+tensor_witness_blocked_from_matter,True,matter=no native=18,matter=no native=18
+platform_context_passes,True,4,4
+particle_carrier_trials_count,True,2,2
+particle_carrier_trials_ready_when_gated,True,2,2
+protocol_qA_not_particle_qA,True,distinct,protocol event qA distinct from particle qA
+wrong_controls_fail_as_expected,True,13,13

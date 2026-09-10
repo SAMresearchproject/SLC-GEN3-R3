@@ -1,0 +1,119 @@
+{
+  "cr_id": "CR001@19",
+  "branch": "19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER",
+  "title": "SAM_DERIVED_THERMAL_LADDER_CMB_AND_BBN",
+  "precommit_sha256": "7aec7240daf98c9a99e010692ec97e9966b3221568977538b1917561c304bdff",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_zero_catalog_fit": {
+    "A_0_formula": "1/(12*pi)",
+    "A_0_value": 0.02652582384864922,
+    "alpha_H": 2,
+    "D": 3,
+    "R_formula": "2*alpha_H*D",
+    "R_value": 12,
+    "S_formula": "2^D",
+    "S_value": 8,
+    "Theta_formula": "alpha_H*D^2",
+    "Theta_value": 18,
+    "Omega_m_formula": "R*A_0 = 1/pi",
+    "Omega_m_value": 0.3183098861837907,
+    "chi_formula": "(S/D)*A_0 = 2/(9*pi)",
+    "chi_value": 0.07073553026306459,
+    "Omega_b_formula": "2*A_0*(1-chi)",
+    "Omega_b_value": 0.04929890833649833,
+    "Omega_c_formula": "Omega_m - Omega_b",
+    "Omega_c_value": 0.26901097784729237
+  },
+  "measurement_inputs_external_not_catalog_fit": {
+    "H_0_kms_Mpc": 68.76,
+    "H_0_source": "BAO-side anchor; same as CR018b, CR019",
+    "T_0_K": 2.7255,
+    "T_0_source": "FIRAS",
+    "N_eff": 3.046,
+    "N_eff_source": "standard-model neutrino background"
+  },
+  "recombination_model": "Saha equilibrium ionization (single-fluid hydrogen) + Thomson optical depth integral; first clean approximation per PDF section 4",
+  "drag_epoch_model": "baryon-drag optical depth integral (tau_d with R_b denominator) per PDF section 6",
+  "bbn_model": "schematic Wagoner two-state weak freeze-out + neutron decay through delta_t to deuterium bottleneck; reported as evidence only",
+  "planck_2018_reference_values": {
+    "z_eq": 3402.0,
+    "z_star": 1089.92,
+    "z_drag": 1059.94,
+    "rs_zstar_Mpc": 144.43,
+    "r_d_Mpc": 147.09,
+    "DM_zstar_Mpc": 13869.6,
+    "ell_A": 301.76,
+    "hundred_theta_star": 1.04110,
+    "source": "Planck 2018 base-LCDM TT,TE,EE+lowE+lensing"
+  },
+  "bbn_observational_references": {
+    "Y_p": 0.245,
+    "Y_p_source": "Aver et al 2015; Planck BBN consistency",
+    "D_H": 2.527e-5,
+    "D_H_source": "Cooke et al 2018",
+    "eta_10": 6.10,
+    "eta_10_source": "Planck CMB-inferred"
+  },
+  "load_bearing_predictions": {
+    "P1": {
+      "name": "Acoustic angular scale 100*theta_* within 5% of Planck",
+      "formula": "|100*theta_*^SAM - 1.04110| / 1.04110 <= 0.05"
+    },
+    "P2": {
+      "name": "Acoustic peak multipole ell_A within 5% of Planck",
+      "formula": "|ell_A^SAM - 301.76| / 301.76 <= 0.05"
+    },
+    "P3": {
+      "name": "Drag sound horizon r_d within 5% of Planck",
+      "formula": "|r_d^SAM - 147.09| / 147.09 <= 0.05"
+    }
+  },
+  "reported_evidence_not_gates": {
+    "E1": "z_eq from Omega_m/Omega_r equality",
+    "E2": "z_* DERIVED via Saha + Thomson tau(a_*)=1",
+    "E3": "z_drag DERIVED via baryon-drag tau_d(a_d)=1",
+    "E4": "r_s(z_*) sound horizon at last scattering",
+    "E5": "D_M(z_*) comoving distance to last scattering",
+    "E6": "k_eq matter-radiation equality horizon turnover",
+    "E7": "eta_10 baryon-to-photon ratio (substrate identity)",
+    "E8": "T_f schematic weak freeze-out temperature",
+    "E9": "(n/p)_freeze frozen ratio at T_f",
+    "E10": "(n/p)_BBN after neutron decay window",
+    "E11": "Y_p schematic primordial helium fraction",
+    "E12": "D/H from eta^-1.6 scaling vs Planck-CMB reference"
+  },
+  "reported_null_distributions_not_gates": {
+    "WC1": {
+      "description": "1000 random Omega_m in [0.05, 0.95]; seeds 0..999",
+      "metric": "|100*theta_*^random - 1.04110| / 1.04110",
+      "extreme_direction": "smaller is better (closer to Planck)",
+      "report": "null distribution stats, canonical percentile, one-sided p-value"
+    },
+    "WC2": {
+      "description": "1000 random (Omega_m in [0.05, 0.95], Omega_b in [0.005, 0.15]); seeds 10000..10999",
+      "metric": "|100*theta_*^random - 1.04110| / 1.04110",
+      "extreme_direction": "smaller is better",
+      "report": "null distribution stats, canonical percentile, one-sided p-value"
+    }
+  },
+  "verdict_ladder_first": {
+    "PASS": "P1, P2, and P3 all hold under canonical substrate inputs",
+    "FAIL": "at least one of P1, P2, P3 fails",
+    "BOUNDARY": "Reserved for marginal P1/P2/P3 (within 20% of threshold) with explicit scope caveat"
+  },
+  "implementation_discipline": {
+    "no_catalog_data_file_read": true,
+    "planck_reference_hard_coded_constants": true,
+    "saha_solved_as_quadratic_with_clipping": true,
+    "optical_depth_integration": "cumulative_trapezoid on logspace(-7, 0, 4000) a-grid",
+    "root_finding": "log-a linear interpolation at tau=1 crossing",
+    "trial_seeds": "WC1: 0..999, WC2: 10000..10999",
+    "p_value_formula": "(n_extreme + 1) / (n_trials + 1) one-sided exact permutation"
+  },
+  "rule_9_falsifier": "The claim that SAM's substrate-only spine, with Omega_m = 1/pi and Omega_b = 2*A_0*(1-chi) sealed and z_* / z_d DERIVED from Saha + Thomson and baryon-drag optical depth integrals, reproduces the Planck 2018 base-LCDM compressed CMB acoustic geometry to within 5% on 100*theta_*, ell_A, and r_d.",
+  "verdict": "FAIL",
+  "verdict_reason": "P1 (100*theta_* +6.87%) and P2 (ell_A -6.43%) exceeded 5% threshold. P3 (r_d +2.87%) passed. Failure attributed to Saha 'first clean approximation' undershoot of z_*; substrate identities unchanged.",
+  "retest_plan": "CR001b@19 with Peebles non-equilibrium recombination at the same 5% gates."
+}

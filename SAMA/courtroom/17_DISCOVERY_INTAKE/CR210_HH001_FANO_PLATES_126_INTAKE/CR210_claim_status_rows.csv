@@ -1,0 +1,10 @@
+claim,status,evidence,courtroom_reading
+SAM Fano address partition theorem,PASS_SCOPED_THEOREM,"CR113 R=12, CR115 D=3, CR114 2^D=8, R^2=144, 144/8=18, 7*18=126",HH001 verifies the locked SAM address algebra as a 126-row Fano plate surface
+F_2^3 Fano address algebra,PASS_SCOPED_THEOREM_COMPONENT,7 nonzero addresses; 7 Fano lines XOR to 000,the address scaffold is theorem-grade when bound to CR113/CR114/CR115
+126-row SIS / Fano plate artifact,PASS_SCOPED_THEOREM_SURFACE,126 CSV rows; PDF pages=11; source files hashed,artifact verifies the 126 retained-address surface
+GRAVITY = CR119 qA; GRAVITON = qA/8,PASS_SCOPED_BRIDGE,qA matches=126/126; qA/8 matches=126/126,"downstream rendering of CR119, not a new independent proof"
+ACTION residual equals physical nuclear spin,FALSIFIED_PRESERVED,matches=1/102 (0.980%),must not be promoted
+per-element XOR closure of channel magnitudes,FALSIFIED_OR_DIAGNOSTIC_PRESERVED,binary_v2 closed=7/102; binary_v22 closed=7/102,XOR closure did not survive the HH001 diagnostics
+six-channel signature uniqueness,DIAGNOSTIC_OPEN,XOR distinct=101/126; SUM distinct=120/126,"may inform next test, but is not the seven-channel physical mapping"
+seven-channel physical mapping is forced,OPEN_REQUIRES_CR_TEST,HH001 note flags possible Procrustean fit of 4 A-readouts plus 3 catalog layers,candidate reading only
+126 GeV conversion,OPEN_HIDDEN_PARAMETER_RISK,HH001 note flags GeV conversion as possible hidden parameter,requires derivation audit before any manuscript use

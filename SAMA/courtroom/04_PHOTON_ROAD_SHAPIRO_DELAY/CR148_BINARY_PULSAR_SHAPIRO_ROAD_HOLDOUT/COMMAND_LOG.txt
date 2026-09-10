@@ -1,0 +1,47 @@
+CR148 command log
+
+2026-07-11T17:24:10Z
+python tools\run_sam_test.py --task "SAM prospective CR binary pulsar Shapiro road holdout" --preflight-only
+result: wrote artifacts/preflight_filled/PREFLIGHT_20260711_122410_no_script.md and .json
+
+2026-07-11T17:24-17:29Z
+Read task preflight report, targeted Branch 04 CR listings, run_sam_test.py header, CR006 result/precommit, CR147 result, Branch 04 README, and V4.2 formula/action/testing snippets.
+result: active A(r)=r_s/r photon-road formula confirmed; existing Branch 04 CRs are CR006 and CR147; no Branch 04 selected-system prior-use hit.
+
+2026-07-11T17:26-17:28Z
+External metadata search/open for primary and candidate binary-pulsar Shapiro papers.
+result: selected PSR J0737-3039A/B from metadata before target reveal.
+
+2026-07-11T17:27Z
+Invoke-WebRequest https://arxiv.org/e-print/astro-ph/0609417
+Invoke-WebRequest https://arxiv.org/pdf/astro-ph/0609417
+result: downloaded source package and PDF; hashes recorded in CR148_SOURCE_MANIFEST.json.
+
+2026-07-11T17:27Z
+tar -xzf external_sources/astro-ph-0609417-eprint.tar.gz
+result: extracted ksm+06.tex for line-specific non-target anchor extraction.
+
+2026-07-11T17:27-17:28Z
+Line-specific extraction from ksm+06.tex lines 899-905 and 918-921.
+result: locked non-target orbital and mass anchors; target Shapiro rows not opened.
+
+2026-07-11T17:28:47Z
+Pre-reveal locked-input calculation from non-target anchors.
+result: s_SAM=0.999906773574375 and r_SAM=6.1514456437083 microseconds.
+
+
+2026-07-11T17:29Z
+Created CR148_runner.py after input lock and precommit seal; wrote CR148_runner.py.sha256 before target reveal.
+result: runner sealed before target reveal.
+
+2026-07-11T17:34:15Z
+Target reveal from ksm+06.tex lines 907-908 and 950-951 after runner seal.
+result: wrote and hashed BINARY_PULSAR_TARGET_REVEAL.json.
+
+2026-07-11T17:34:52Z
+python tools\run_sam_test.py --task "Binary-pulsar Shapiro road holdout" --script "04_PHOTON_ROAD_SHAPIRO_DELAY\CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT\CR148_runner.py"
+result: sealed runner produced PASS scientific values and hashes_verified=true, but returned exit 1 due validation boolean aggregation bug.
+
+2026-07-11T17:35Z
+Preserved failed execution outputs under FAILED_RUN_20260711_173452_VALIDATION_BOOLEAN_BUG and wrote CR148_VALIDATION_BOOLEAN_BUG_CORRECTION.md.
+result: corrected CR148_VALIDATION.md failure listing to NONE without changing scientific inputs, target comparator, geometry, controls, prediction, residual, result verdict, summary status, or provenance source fields.

@@ -1,0 +1,16 @@
+{
+  "formula": "residual_obs_minus_final_MeV = B_u_obs_MeV - (B_u_base_MeV - operator_debit_MeV)",
+  "hash_ledger_reconciled": true,
+  "packet_mutated": false,
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "replay_performed": false,
+  "source_manifest_reconciled": true,
+  "source_result_status": "PASS_NATIVE_V4_2_AU197_BINDING_BU_PACKET",
+  "values": {
+    "B_u_base_MeV": "27.421477",
+    "B_u_final_MeV": "27.421477",
+    "B_u_obs_MeV": "31.139752",
+    "operator_debit_MeV": "0.000000",
+    "residual_obs_minus_final_MeV": "3.718275"
+  }
+}

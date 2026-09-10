@@ -1,0 +1,66 @@
+{
+  "A_side": "1/24",
+  "adapter_scope": "sealed PR packet -> platform observables; no new physics",
+  "checks_passed": 16,
+  "checks_total": 16,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2
+  },
+  "cr_id": "CR222f",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T09:59:56.671607+00:00",
+  "next_gate": "PLATFORM_OBSERVATION_SELECTION_OR_LAB_PROTOCOL_DRAFT",
+  "outputs": {
+    "adapter_contract_csv": "CR222f_platform_adapter_contract.csv",
+    "checks_csv": "CR222f_checks.csv",
+    "platform_observable_scenarios_csv": "CR222f_platform_observable_scenarios.csv",
+    "platform_outputs_csv": "CR222f_platform_outputs.csv",
+    "result_md": "CR222f_result.md",
+    "summary_json": "CR222f_summary.json",
+    "upstream_seals_csv": "CR222f_upstream_seals.csv",
+    "wrong_controls_csv": "CR222f_wrong_controls.csv"
+  },
+  "outputs_semantics": {
+    "emitted": "EMITTED_WARNING_PACKET only after warning_allowed and qA>0",
+    "packet_state": "DRAFT/SEALED/CORRUPT/VALID_WARNING",
+    "tensor_witness": "T=qA/8 only after valid warning condition",
+    "warning_allowed": "sealed_packet and G_protocol=1 and A_leak(t)>=1/24"
+  },
+  "platforms": [
+    "NV_CENTER_T2",
+    "PHOTONIC_TAU_ENT"
+  ],
+  "result_class": "CR222f_PASS_PR_PLATFORM_ADAPTER_CONTRACT__NV_PHOTONIC_NO_NEW_PHYSICS",
+  "sha256": {
+    "CR222f_platform_adapter_contract.csv": "79b809caa041f42a324203396e6531a5a3b2b48167038b59831bd40169179ba8"
+  },
+  "support_roster_correction": {
+    "closure_total": 162,
+    "duplicate_mirror_row": "QP093A-0303",
+    "duplicate_mirror_value": 81,
+    "raw_blocked_nonmatter_rows": 13,
+    "rule": "QP093A-0303 remains blocked non-matter but is not an independent support mode.",
+    "unique_support_roster_rows": 12,
+    "unique_support_roster_sum": 81
+  },
+  "t_fire": {
+    "NV_CENTER_T2": "T2*(-1/2*ln(23/24))",
+    "PHOTONIC_TAU_ENT": "tau_ent*(-1/2*ln(23/24))",
+    "coefficient_decimal": "0.021279807209397945"
+  },
+  "test_id": "CR222f_PR_PLATFORM_ADAPTER_CONTRACT",
+  "wrong_controls": [
+    "support_inventory_emits_without_G_protocol",
+    "A_side_replaced_by_one_over_e",
+    "0303_counted_as_payload",
+    "0306_omitted",
+    "duplicate_0305_restored",
+    "tensor_treated_as_matter",
+    "one_eighth_used_as_prewrite_leak_threshold",
+    "one_sixteenth_used_as_prewrite_leak_threshold",
+    "inverse_log_sign_used_for_t_fire"
+  ]
+}

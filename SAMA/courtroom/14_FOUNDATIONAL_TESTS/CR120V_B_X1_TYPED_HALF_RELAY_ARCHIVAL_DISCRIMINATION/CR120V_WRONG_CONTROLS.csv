@@ -1,0 +1,9 @@
+control_id,attempt,rejected,evidence
+WC01,Alias W8 to S8,True,No W8 node; S8_BINARY_SURFACE is canonical
+WC02,Merge B and X1,True,Forbidden collapse in CR119 handoff
+WC03,Assign scalar 1/2 to B,True,B is NonRowOperator with no scalar value
+WC04,Replace X1 scalar 1 with 1/2,True,X1 AxisChannel value is 1
+WC05,Collapse six half-slots to two,True,Three outward plus three inward half-slots
+WC06,Treat half-write alone as closure,True,QP035 held open pending local return
+WC07,Treat fixed W9 output as a physical null,True,CR120D runtime boundary is not a physical falsification
+WC08,Claim QP036 welds B=request and X1=response,True,QP036 names neither B_CONTACT_OPERATOR nor X1_AXIS_SELF_CHANNEL

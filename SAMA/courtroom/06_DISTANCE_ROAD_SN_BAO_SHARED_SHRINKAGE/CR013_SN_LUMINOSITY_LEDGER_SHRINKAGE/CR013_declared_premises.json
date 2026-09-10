@@ -1,0 +1,46 @@
+{
+  "test_id": "CR013_SN_LUMINOSITY_LEDGER_SHRINKAGE",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR013_declared_premises.json",
+    "CR013_PRECOMMIT.md",
+    "CR013_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "source_artifact_used_as_data_rows": "C:\\VS\\Stam_model-A-v1.0\\tests\\native_prediction_artifacts\\g688c_z_a_effective_light_speed_rows.csv",
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "R": 12.0,
+    "D": 3.0,
+    "A0_formula": "1/(pi*R)",
+    "c_km_s": 299792.458
+  },
+  "frozen_predictions": {
+    "A_los": "A0*R*(1-(1+z)^(-D))",
+    "c_eff": "c*(1-A_los)",
+    "native_distance": "readout_distance*(1-A_los)",
+    "mu_native": "mu_obs+5*log10(1-A_los)"
+  },
+  "wrong_controls": [
+    "no_shrink",
+    "half_A",
+    "constant_median_A",
+    "D2_power",
+    "linear_z_clipped"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "sn_source_rows_present",
+    "bao_inputs_not_loaded",
+    "A_los_row_identity",
+    "c_eff_row_identity",
+    "native_distance_row_identity",
+    "native_mu_row_identity",
+    "low_z_shrink_near_zero",
+    "high_z_shrink_larger_than_low_z",
+    "wrong_controls_do_not_match_packet"
+  ],
+  "rule_9_falsification": "This test could have falsified the SN ledger claim if Pantheon SN rows did not recompute from A_los(z), if the luminosity-distance shrink failed row identity, if BAO inputs were needed, or if wrong controls matched the packet."
+}
+

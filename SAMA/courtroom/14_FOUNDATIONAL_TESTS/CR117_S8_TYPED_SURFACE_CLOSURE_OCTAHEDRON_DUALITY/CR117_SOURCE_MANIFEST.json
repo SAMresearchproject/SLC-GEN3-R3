@@ -1,0 +1,118 @@
+{
+  "record_id": "CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY",
+  "sealed_utc": "2026-07-12T03:12:56Z",
+  "firewall": {
+    "language_or_meta_language_test": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "queue_maintenance_performed_by_research_agent": false,
+    "forecast_generated": false,
+    "forbidden_path_patterns": [
+      "SAM_LANGUAGE*",
+      "*V0_3_GENERALIZATION*",
+      "*PROSPECTIVE_HOLDOUT*",
+      "*FORECAST_GATE*",
+      "*LANGUAGE_CONTRACT*"
+    ]
+  },
+  "sources": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_result.md",
+      "sha256": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-19T05:50:40Z",
+      "used_for": ["binary_face_state_count", "carrier_fraction", "surface_debit_boundary"]
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR114_BINARY_FACE_STATE_SPLIT_THEOREM/CR114_binary_face_state_split_lock.json",
+      "sha256": "4139aee463004ac2cb882e2bda0642752e0bb5dc759eace42df0351fc51686ec",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-19T05:50:40Z",
+      "used_for": ["locked_binary_face_state_theorem"]
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR233_TENSOR_SUBSTRATE_ROLE_SEPARATION/CR233_result.md",
+      "sha256": "55e0c81a8c417fb79f377f5913035d65a917ada0cca80e5cc9cdf8851fd55895",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-07-12T02:32:21Z",
+      "used_for": ["binary_equals_2_to_D", "tensor_equals_R_sq_over_2_to_D"]
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION/CR238_result.md",
+      "sha256": "7c1b870014b7f45bd1686963c13304375792f443e7a6d156a2ae90c9489174ef",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-23T10:34:14Z",
+      "used_for": ["historical_F_S_foundational_wording", "release_share_alias", "source_conflict"]
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_result.md",
+      "sha256": "7dd2114869a509d3a8e17625eb34fe528c83dfc9d63a4ae940acca95f46b6a3e",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-24T22:15:11Z",
+      "used_for": ["hidden_support_row_count"]
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR252_PARTICLE_CATALOG_SPINE_REFRESH/CR252_recheck_derivations.md",
+      "sha256": "4e3864f43bdf3368101350faac8473b96b5333aa4bf1e5047b05a295229dbef0",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-24T22:15:10Z",
+      "used_for": ["neutral_axis_factor_1_over_S"]
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR258_SUBSTRATE_PRIMITIVE_CLOSURE_AUDIT/CR258_result.md",
+      "sha256": "de9706f7fac9942c235d2fd08803e5d438dfc412c1c1eadc652ff0834e63add1",
+      "status": "SEALED_HASHED",
+      "last_write_utc": "2026-06-28T16:37:58Z",
+      "used_for": ["current_controlling_primitive_base", "S_equals_alpha_H_to_D"]
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G219B_chi_corrected_derivation/results/G219B_summary.md",
+      "sha256": "3f0763ebed33744602ceab9adc5fe4ceabf9d644e6480d8316989c1dd54baec0",
+      "status": "SEALED_RESULT_SUMMARY",
+      "last_write_utc": "2026-05-16T06:36:32Z",
+      "used_for": ["binary_face_state_count", "G219_supersession"]
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G305_chi_horizon_quotient_measure/G305_output.txt",
+      "sha256": "bad0cac0daeb3e9d8b07df1187738e481a3a8f2b3f62928e989eb528f27c4bdb",
+      "status": "SEALED_ENVELOPE_RESULT",
+      "last_write_utc": "2026-05-25T08:01:43Z",
+      "used_for": ["H_D_binary_state_count", "direction_allocation"]
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G306_horizon_measure_axiom_provenance/G306_output.txt",
+      "sha256": "38576ddc4d63a9c96d18a2fb6e584bf3302ccd5cc79f1e2264a39201d77501fd",
+      "status": "SEALED_ENVELOPE_RESULT",
+      "last_write_utc": "2026-05-25T08:10:30Z",
+      "used_for": ["binary_state_axiom_provenance"]
+    },
+    {
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G307_substrate_gravity_horizon_cell/G307_output.txt",
+      "sha256": "9253aebe12f90d7bb53cc4e33e4d31ed703e4aac03404c04f604e4ec485ef32b",
+      "status": "SEALED_ENVELOPE_RESULT",
+      "last_write_utc": "2026-05-25T08:25:38Z",
+      "used_for": ["local_horizon_cell_state_count"]
+    },
+    {
+      "path": "docs/VOLUME_I_APPENDIX_AND_GLOSSARY.md",
+      "sha256": "a1ce9da214e5ce0d60ede81d818a12c8d94be1a81a33dc5fd4b5b7da6ef69884",
+      "status": "MANUSCRIPT_CONTEXT",
+      "last_write_utc": "2026-06-26T14:32:05Z",
+      "used_for": ["appendix_S_equals_2_to_D", "tensor_release_glossary"]
+    },
+    {
+      "path": "docs/SAM_VOLUME_I_SUBSTRATE_READER_v1_1.md",
+      "sha256": "c35ff216f493b0d9f6087937c6cb04210273e2d8a15051a678cba93092590b18",
+      "status": "MANUSCRIPT_CONTEXT",
+      "last_write_utc": "2026-06-26T21:16:01Z",
+      "used_for": ["row_support_surface_alias", "horizon_count", "split_atom_alias"]
+    },
+    {
+      "path": "docs/COURTROOM_MANUSCRIPT_SECTION_04_DERIVED_NATIVE_QUANTITIES.md",
+      "sha256": "1727e2b65aeab588b70a98ceff3aeac3ad6fa69bd27772e66a526c6e6e65bb64",
+      "status": "MANUSCRIPT_CONTEXT",
+      "last_write_utc": "2026-06-28T19:35:48Z",
+      "used_for": ["current_Section_4_chain", "split_inventory", "row_split"]
+    }
+  ]
+}

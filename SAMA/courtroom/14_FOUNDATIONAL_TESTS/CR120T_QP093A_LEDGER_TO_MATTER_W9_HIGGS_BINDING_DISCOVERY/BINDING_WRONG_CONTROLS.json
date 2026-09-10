@@ -1,0 +1,66 @@
+{
+  "WC01_remove_every_scalar_9": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC02_every_p9_is_W9": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC03_p6_plus_p3_is_typed_S8_X1": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC04_W9_extra_constituent": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC05_repeat_0066_per_isotope": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC06_repeat_0299_per_isotope": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC07_forbidden_fitted_coefficients": {
+    "pass": true,
+    "used": []
+  },
+  "WC08_target_total_selector": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC09_ID_whitelist": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC10_zero_0299_without_authority": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC11_local_Theta_fee": {
+    "pass": true,
+    "value": 0
+  },
+  "WC12_qA_as_binding_energy": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC13_validation_family_fit": {
+    "pass": true,
+    "performed": false
+  },
+  "WC14_same_run_repair": {
+    "pass": true,
+    "performed": false
+  },
+  "WC15_physical_identity_from_equal_scalar": {
+    "accepted": false,
+    "pass": true
+  },
+  "WC16_grid_as_ontology_proof": {
+    "accepted": false,
+    "pass": true
+  }
+}

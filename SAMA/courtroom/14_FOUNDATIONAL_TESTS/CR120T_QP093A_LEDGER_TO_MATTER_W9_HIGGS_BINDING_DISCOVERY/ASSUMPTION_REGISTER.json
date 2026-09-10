@@ -1,0 +1,30 @@
+{
+  "record_id": "CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY",
+  "assumptions": [
+    {
+      "id": "A1_WORKBOOK_OVERLAY",
+      "statement": "The two workbooks are target-aware research overlays, not canonical QP093A row authority.",
+      "status": "DECLARED"
+    },
+    {
+      "id": "A2_WB1_CAPTURE",
+      "statement": "A saved Excel SaveCopyAs capture is logically equivalent to the open saved first workbook only if cell reconciliation passes.",
+      "status": "TO_TEST"
+    },
+    {
+      "id": "A3_F81_DISCOVERY",
+      "statement": "The 81 membership may be used to infer candidate rules during discovery but cannot validate them.",
+      "status": "DECLARED"
+    },
+    {
+      "id": "A4_TYPED_SHADOW",
+      "statement": "QP p8+p1=p9 is an arithmetic shadow of the typed S8+X1->W9 relation only if source roles privilege it over p6+p3.",
+      "status": "TO_TEST"
+    },
+    {
+      "id": "A5_BINDING_SCOPE",
+      "statement": "Typed witness and reveal exclusions can close accounting debt even when the existing CR274 model contains no repeated QP constituent fee to remove.",
+      "status": "TO_TEST"
+    }
+  ]
+}

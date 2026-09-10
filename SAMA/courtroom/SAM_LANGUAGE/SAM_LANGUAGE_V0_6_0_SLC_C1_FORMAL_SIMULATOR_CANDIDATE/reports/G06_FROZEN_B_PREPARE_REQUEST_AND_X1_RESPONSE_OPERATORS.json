@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "binary_flip": true,
+    "binary_is_not_prepare": true,
+    "frozen_operator_source_hash": true,
+    "frozen_request_matrix_shape": true,
+    "frozen_response_shape": true,
+    "prepare_column_one": true,
+    "prepare_column_zero": true,
+    "prepare_involution": true,
+    "response_involution": true,
+    "response_mapping": true
+  },
+  "status": "PASS"
+}

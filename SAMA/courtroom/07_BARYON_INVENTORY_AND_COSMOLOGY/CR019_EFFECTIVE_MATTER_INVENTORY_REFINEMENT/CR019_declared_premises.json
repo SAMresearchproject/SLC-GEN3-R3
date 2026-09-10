@@ -1,0 +1,11 @@
+{
+  "test_id": "CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT",
+  "test_type": "courtroom_import_from_G310_G312_G313",
+  "free_parameters_introduced": 0,
+  "source_summaries": [
+    "../_source_artifacts/summaries/G310_output.json",
+    "../_source_artifacts/summaries/G312_output.json",
+    "../_source_artifacts/summaries/G313_output.json"
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that \u03a9_m_eff is sharpened through the D\u00b7\u03c7\u00b2 directional-cumulant correction while \u03a9_b remains fixed."
+}

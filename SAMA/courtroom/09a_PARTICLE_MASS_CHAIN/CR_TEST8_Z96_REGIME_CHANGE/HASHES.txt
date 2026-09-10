@@ -1,0 +1,62 @@
+TEST 8 Z=96 REGIME-CHANGE / N-Z STABILITY COLLAPSE - SHA-256 Manifest
+Sealed: 2026-06-22 by Sean Brady
+Verdict: BOUNDARY_TEST8_Z96_MIXED_SIGNAL
+  J_96 = 9.5 (strong threshold met >= 5)
+  C_96 = 0.5833... (strong threshold met >= 0.50)
+  K_96 = 1.0 (strong threshold met >= 0.50)
+  pre median |r_N| = 2.0, post median |r_N| = 11.5; post >= 2*max(pre,1) = 4 (strong met)
+  p_random_boundary = 0.608048 (FAILS strong <=0.001 AND moderate <=0.01)
+  SAM b=96 ranks #15 of 29 in scan b=84..112; best b=108 (J=12.0)
+  Controls degraded 7/7
+  Audit rows 8/8 PASS; internal checks 21/21 PASS
+  Honest interpretation per the precommit: positive signal present but not statistically privileged at exactly Z=96.
+
+== Spec + runners ==
+be97c10eb080480ec4889ecbe8c4fd98a7e8dd5539e0935a58c3baaa10ec0cda  PRECOMMIT.md
+72fcd3ecd81c0e09a4c5927a9924488cfdfb4ded050a0d557d06eab25f596bfe  run_test8_z96_regime_change.py
+a9a9cee02bc51bc45cf548335ad26696ecaf607a1092e9f76632f828c394037e  _build_external_nuclide_table.py
+
+== Inputs ==
+2228f97913aabf6ecb2fced12f2b53560a604f4254c553b8be47ddbdf2c96d85  inputs/README_INPUT_SCHEMA.md
+144d8dde01b1da402355e00e6e020bf9db99774e5c73c2e2a1dbb366e16fae30  inputs/external_nuclide_table_SOURCE.txt
+48cc66a72c278db405fc2b7c7a1ef0b82c321c54dba68c1415218ac9c33ca073  inputs/external_nuclide_table.csv
+
+== Sealed outputs ==
+0b43bf328ff7eabbf9568b806ea6c7fde85fddfca7a645c63db98f7d8430ba5e  outputs/test8_sam_predictions.csv
+c1f68e00ff84ce8f0e9f4a043f902fc6509a48b6345f3ec79607de60fe79d69a  outputs/test8_external_anchors_by_Z.csv
+6b2e3df5b5d263a44c182c88e1abd3b5c2652f40fd812d8928eb9dde02ed5d3c  outputs/test8_scored_by_Z.csv
+5f0b147b60f4a5a628748687bdb7d5e2be76db6337eb2597db07536be14d8fb2  outputs/test8_window_score.json
+ee65d3deb65057a79b849e616bd1a122953a5df80db8c9ae28b436cc036c060e  outputs/test8_changepoint_scan.csv
+fac0f970574f0ec15323fec0e8982699db6473e543aa8d5fa177b151879d549c  outputs/test8_control_summary.csv
+4d03bef5e878cb551eb92fc0d9166c4504aae757382e258aaaf02795b3abe76c  outputs/test8_internal_checks.json
+c1f78dc0526572a7873cdcaa6e9400016acd1fe7dc63525ea81ceee85c0238f5  outputs/test8_verdict.md
+
+== Plots ==
+b915ddf4854e7e98050672d2ab5acba9a1657b955078713c96399338088c2221  outputs/plots/N_residual_by_Z.png
+f5b135789283cd7f99a85fab2753c19843fb06b45dc3ddeef1b4e7d210438d57  outputs/plots/abs_residual_by_Z.png
+6e60456e5c510522064faf10d9c2197f508fb0bfbd43205e1b763533047087ac  outputs/plots/nearest_known_delta_by_Z.png
+1afe54c6dab8dd9b70e911fd46347bf464b848c01e041c5af493784826b0cf55  outputs/plots/changepoint_score_scan.png
+5993622e4cb30caf1e4af0e5c5d75481aac1a8a87f00f4683e9ea3bb6d087b89  outputs/plots/control_comparison.png
+
+== Controls ==
+8d1db9ac3962ef031ff19cedfb40eac42cb3697cc5bb85701f70b6ebc979be80  controls/random_boundary_controls.csv
+e425587cfe7699d28688edc4e0f5baac22cb10d4eab30c69c0def334cbdb2aa8  controls/R10_D3_control_scored.csv
+a44df839144044eab0b3e3caaede9678b019dfff7df1b03a9264de7cfb94ccef  controls/R11_D3_control_scored.csv
+fd82c4a62a1a08f34311d9545779b5cfd7d6b04eb1e07f05f84c2616b8706810  controls/R13_D3_control_scored.csv
+73431e3b404d6a4d86347f89aa76032a37e8d6782f4ba3d3027af05aef007de5  controls/R12_D2_control_scored.csv
+570c7f5440a207e023876f42f30cd0e8fcebf8e083da290130b4e3409d5aa819  controls/shuffled_anchor_control.csv
+5a9a52dd67f753b675d66ebf34baeba89c1ff1afdf2e998fb7fc2f7725983f5c  controls/smooth_null_control.csv
+
+== Current-hash pointers ==
+f161d9ed81a92ee2cae8064f7befce37380826062543f8152792331a2f7d4690  hashes/PRECOMMIT_CURRENT_HASH.txt
+bca437168323cd5dcb8bff382381354035291b4bdb462deafcacd4d6282e4377  hashes/run_test8_CURRENT_HASH.txt
+ac3f8d5f49eb4c9b1c3e6f5feb20b1208cf3c8408b7520adf8c4195912582cff  hashes/predictions_CURRENT_HASH.txt
+12d4f17daf3ff2462bdf4133a3ec0a7277d7d71ee34509388f92533ceb0f050e  hashes/final_outputs_CURRENT_HASH.txt
+
+== External source lineage ==
+6aba747d80c3cd18a8b29961d9dfab62798f0f6214198896d9408338d8fc06dc  C:\VS\quantum_phase\artifacts\qp061\qp061_observed_roster_normalized.csv (QP061 root)
+
+== Reproducibility ==
+python _build_external_nuclide_table.py
+python run_test8_z96_regime_change.py --mode full
+Seeds: random boundary control = 20260621; shuffled anchor = 20260621; N_RANDOM_BOUNDARIES = 10000

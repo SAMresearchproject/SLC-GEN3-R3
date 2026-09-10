@@ -1,0 +1,5 @@
+candidate_id,M_sam_MeV,partition_signature,operator_class,closure_depth,q_sign,q_abs,stability_status,physically_allowed,nearest_anchor_id,nearest_anchor_label,M_anchor_MeV,anchor_sigma_MeV,residual_MeV,rel_residual_pct,sigmas_from_central,closest_structural_scale,closest_scale_value_pct,obs_over_scale_ratio,verdict
+QP093A-0186,2196.1853298611113,3+4+6,OCTET_COMPOSITE,3,negative,1,BOUND_COLOR_CLOSED_HEAVY_CANDIDATE,True,EW005,W boson decay width (ATLAS),2202.0,47.0,5.814670138888687,0.264063,0.124,2_neg_D_times_D_over_R2,0.260417,1.014,DATA_SCATTER_CONSISTENT
+QP093A-0231,2187.0,9+9+9,GROUND_BARYON_3BODY,0,neutral,0,REJECTED_FAKE_CLOSURE,False,EW005,W boson decay width (ATLAS),2202.0,47.0,15.0,0.681199,0.319,,0.0,0.0,COINCIDENCE_ON_REJECTED_ROW
+QP093A-0234,3888.0,12+12+12,GROUND_BARYON_3BODY,0,neutral,0,REJECTED_FAKE_CLOSURE,False,EXO001,X(3872) mass (LHCb),3871.65,0.012,-16.34999999999991,0.422301,1362.5,,0.0,0.0,COINCIDENCE_ON_REJECTED_ROW
+QP093A-0299,125250.0,12+12,CLOSED_SCALAR_LOOP,3,neutral,0,UNSTABLE_SCALAR_REVEAL_CANDIDATE,True,H002,Higgs boson mass (CMS),125380.0,140.0,130.0,0.103685,0.929,alphaH_over_R3,0.115741,0.8958,DATA_SCATTER_CONSISTENT

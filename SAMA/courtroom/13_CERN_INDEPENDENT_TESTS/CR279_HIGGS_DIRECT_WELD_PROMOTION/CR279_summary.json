@@ -1,0 +1,146 @@
+{
+  "cr_id": "CR279",
+  "record": "HIGGS_DIRECT_WELD_PROMOTION",
+  "generated_utc": "2026-07-11T08:21:53+00:00",
+  "execution_status": "CLEAN",
+  "primary_verdict": "PASS_HIGGS_DIRECT_WELD_PROMOTION",
+  "source_hashes_pass": true,
+  "precommit_sha256": "3e03008ebebf1a1597646b92124b1fef4febda560cc978a874dcefe6ece23ec7",
+  "canonical_checks_pass": true,
+  "wrong_controls_pass": true,
+  "typed_outputs_count": 5,
+  "measured_Higgs_mass_used": false,
+  "residual_used_to_choose_candidate": false,
+  "modified_prior_tests_or_CRs": false,
+  "direct_weld": {
+    "q_H": 3,
+    "r_bounce_H_exact": "1/(64*pi)",
+    "r_bounce_H_decimal": 0.0049735919716217296,
+    "m_H_native_MeV": 125077.36096514532,
+    "q_A_H_MeV": 125699.4447234732,
+    "q_A_H_over_m_H_exact": "1 + 1/(64*pi)",
+    "q_A_H_over_m_H_decimal": 1.0049735919716218
+  },
+  "canonical_checks": [
+    {
+      "name": "source_verdict_is_G748c_PASS_DIRECT_WELD",
+      "pass": true
+    },
+    {
+      "name": "q_H_equals_3",
+      "pass": true
+    },
+    {
+      "name": "r_bounce_matches_1_over_64pi",
+      "pass": true,
+      "details": {
+        "source": 0.0049735919716217296,
+        "computed": 0.0049735919716217296
+      }
+    },
+    {
+      "name": "q_A_ratio_matches_1_plus_1_over_64pi",
+      "pass": true,
+      "details": {
+        "source": 1.0049735919716218,
+        "computed": 1.0049735919716218
+      }
+    },
+    {
+      "name": "measured_Higgs_mass_used_false",
+      "pass": true
+    },
+    {
+      "name": "residual_used_to_choose_candidate_false",
+      "pass": true
+    },
+    {
+      "name": "modified_prior_tests_or_CRs_false",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_q_equals_q_A_rejected",
+      "pass": true,
+      "details": {
+        "q_A_H_MeV": 125699.4447234732,
+        "q_H": 3,
+        "reason": "q is a slot integer; q_A is source strength."
+      }
+    },
+    {
+      "name": "WC2_identity_no_bounce_rejected",
+      "pass": true,
+      "details": {
+        "direct_weld_q_A_MeV": 125699.4447234732,
+        "identity_q_A_MeV": 125077.36096514532
+      }
+    },
+    {
+      "name": "WC3_post_multiplier_9_16_rejected",
+      "pass": true,
+      "details": {
+        "source": "G745c higgs_post_multiplier_check"
+      }
+    },
+    {
+      "name": "WC4_wrong_q_role_substitution_rejected",
+      "pass": true,
+      "details": {
+        "illegal_controls": [
+          {
+            "legal_for_Higgs": false,
+            "q": 4,
+            "r_bounce_if_illegally_substituted": 0.006631455962162306,
+            "role": "W_boson"
+          },
+          {
+            "legal_for_Higgs": false,
+            "q": -1,
+            "r_bounce_if_illegally_substituted": -0.0016578639905405765,
+            "role": "Z_boson"
+          },
+          {
+            "legal_for_Higgs": false,
+            "q": -14,
+            "r_bounce_if_illegally_substituted": -0.023210095867568073,
+            "role": "top"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WC5_measured_target_selector_rejected",
+      "pass": true,
+      "details": {
+        "calculation_inputs": [
+          "q_H=3",
+          "A_half",
+          "D=3",
+          "m_H_native_MeV from G745c"
+        ],
+        "used_measured_Higgs_mass_in_calculation": false,
+        "used_residual_to_choose_candidate": false
+      }
+    },
+    {
+      "name": "WC6_D2_over_R_as_origin_rejected",
+      "pass": true,
+      "details": {
+        "forbidden_origin": "-D^2/R",
+        "used_origin": "q-slot bounce route"
+      }
+    },
+    {
+      "name": "WC7_new_Higgs_operator_rejected",
+      "pass": true,
+      "details": {
+        "new_coefficients": [],
+        "new_normalizations": [],
+        "new_primitives": [],
+        "repairs": []
+      }
+    }
+  ]
+}

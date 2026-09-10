@@ -1,0 +1,28 @@
+CR001b@19_PEEBLES_NONEQUILIBRIUM_RECOMBINATION_APPEAL
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER
+Sealed by: Sean Brady, 2026-06-27
+Verdict: FAIL (P1 +142%, P2 -59%, P3 +66% over 5% threshold)
+Cause: Bug B in precommit tau integrand (1/(a^2*H) vs correct 1/(a*H)).
+       Bug A in precommit Peebles RHS Boltzmann factor was caught and
+       corrected during implementation; precommit-exact form produces no
+       recombination. Substrate identities not implicated.
+Retest: CR001c@19 corrects both bugs in the precommit text and runner.
+
+Local artifacts (SHA-256):
+  38259de487a8b3a31df787c7c5d5bed5e442c134472b74e3f5ad0a98d7ff991b  CR001b_PRECOMMIT.md
+  3b7725406e9fd414e7ca0ac27f26b8938c926d3205d0e5e449f31469f82e7356  CR001b_runner.py
+  37702c9a78ecda7446ffc42a0441dc392f139453155586a68a331be15ab3f7b7  CR001b_result.md
+  eb703432ef3e33dcfeaece394678c18779eed91f1fa4f172958a3b490bad2c8c  CR001b_summary.json
+  1b61b613a62b5b5ae6f50d8439683fd7325d70cbdd39b5a25033f6ca5a8be9ec  CR001b_evidence_rows.csv
+  8c015dd6a06131e6ed6f8c3a99fd23b800c5dc164c97f69d7f59e271529ebbc9  CR001b_declared_premises.json
+  16634e0392003514bde8aaa47fc51a266231df39760a429bfca3e852c5a4f10e  CR001b_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+
+Internal cross-checks (same substrate, different recombination/tau model):
+  7aec7240daf98c9a99e010692ec97e9966b3221568977538b1917561c304bdff  CR001@19_PRECOMMIT.md  (Saha + same buggy tau)
+  bdd4dc29688af099a0ec5b6f47e4cb0e449f0ff36c45037e545bf76bb88879ce  CR018b_PRECOMMIT.md     (BAO r_d via EH fit)
+  ef52480d1bbbac21103a8937a864e5cd2992b0d6046efbe15d1732961eb529da  CR019_PRECOMMIT.md       (CMB compressed via HS/EH fits)

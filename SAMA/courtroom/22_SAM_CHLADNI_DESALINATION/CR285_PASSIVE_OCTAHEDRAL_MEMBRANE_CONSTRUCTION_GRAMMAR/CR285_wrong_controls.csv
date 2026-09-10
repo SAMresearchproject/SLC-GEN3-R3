@@ -1,0 +1,18 @@
+﻿control_id,control_class,control,required_disposition,falsifies_if,result,rejected
+WC01,port_geometry,entry face reused as exit,REJECT,same-face route is admitted,REJECTED_BY_FROZEN_GRAMMAR,true
+WC02,port_geometry,one-bit-flip exit face,REJECT,non-complementary route is promoted,REJECTED_BY_FROZEN_GRAMMAR,true
+WC03,port_geometry,two-bit-flip exit face,REJECT,non-complementary route is promoted,REJECTED_BY_FROZEN_GRAMMAR,true
+WC04,port_geometry,entry and exit share a vertex,REJECT,opposite-port disjointness fails,REJECTED_BY_FROZEN_GRAMMAR,true
+WC05,port_geometry,entry and exit share an edge,REJECT,opposite-port disjointness fails,REJECTED_BY_FROZEN_GRAMMAR,true
+WC06,shape_rewrite,triad row treated as one literal face,REJECT,CR120U template meaning is overwritten,REJECTED_BY_FROZEN_GRAMMAR,true
+WC07,shape_rewrite,tetrahedral reinterpretation,REJECT,the frozen octahedral incidence operator is replaced,REJECTED_BY_FROZEN_GRAMMAR,true
+WC08,role_leakage,hidden-support rows assigned to faces,REJECT,an unresolved assignment is required,REJECTED_BY_FROZEN_GRAMMAR,true
+WC09,role_leakage,carrier rows assigned to vertices,REJECT,an unresolved assignment is required,REJECTED_BY_FROZEN_GRAMMAR,true
+WC10,physical_unit_leakage,M_native treated as pore diameter or length,REJECT,a QP number is promoted to a physical dimension,REJECTED_BY_FROZEN_GRAMMAR,true
+WC11,physical_unit_leakage,M_native treated as barrier energy or pressure,REJECT,a QP number is promoted to a physical observable,REJECTED_BY_FROZEN_GRAMMAR,true
+WC12,target_leakage,observed hydrated radius or rejection selects the gate,REJECT,an observed target changes construction,REJECTED_BY_FROZEN_GRAMMAR,true
+WC13,rescue_rule,weighted compatibility coefficients,REJECT,a fitted weight changes the ordering,REJECTED_BY_FROZEN_GRAMMAR,true
+WC14,acoustic_dependency,frequency mode strength power or escape index enters the passive gate,REJECT,the passive system depends on shelved acoustics,REJECTED_BY_FROZEN_GRAMMAR,true
+WC15,starbreaker_dependency,A ledger density remnant or collapse selects the gate,REJECT,the membrane grammar depends on untyped process context,REJECTED_BY_FROZEN_GRAMMAR,true
+WC16,promotion_error,gate catalog described as species selectivity,REJECT,topology is promoted to a molecular result,REJECTED_BY_FROZEN_GRAMMAR,true
+WC17,promotion_error,gate catalog described as a fabricated membrane,REJECT,topology is promoted to hardware,REJECTED_BY_FROZEN_GRAMMAR,true

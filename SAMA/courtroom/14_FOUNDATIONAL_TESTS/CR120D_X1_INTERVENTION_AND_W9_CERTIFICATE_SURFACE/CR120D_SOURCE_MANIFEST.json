@@ -1,0 +1,88 @@
+{
+  "precommit_sha256": "f0e732e388ea285e39672452fb66201c89d3eaa4f7c2e972b570537c9d26d9e3",
+  "query_spec_sha256": "595115ca931debb65e87571e9196e567145197603b13dee65c8fa2dfa69540a4",
+  "record_id": "CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE",
+  "sealed_utc": "2026-07-13T18:30:27Z",
+  "sources": [
+    {
+      "exists": true,
+      "expected_sha256": "0a991d90dbaa02da7eee1a8a28880a0a84bbccaf60da44a24b43706706b8e77b",
+      "hash_match": true,
+      "observed_sha256": "0a991d90dbaa02da7eee1a8a28880a0a84bbccaf60da44a24b43706706b8e77b",
+      "path": "C:/Users/drwho/.codex/attachments/ed5abe22-8200-4c41-b84d-6abf87b9735c/pasted-text.txt",
+      "role": "user Discovery Den proposal"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "b131ba0b23189e2b1bbf365ca40db57bca10a8edbd05d4d85f170581c71108e6",
+      "hash_match": true,
+      "observed_sha256": "b131ba0b23189e2b1bbf365ca40db57bca10a8edbd05d4d85f170581c71108e6",
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_result.md",
+      "role": "typed bridge input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ab2d3a97bc69da7ccc1efc0bf0bcabe5893fbac4b8f5aac2c255ad0dea4f3911",
+      "hash_match": true,
+      "observed_sha256": "ab2d3a97bc69da7ccc1efc0bf0bcabe5893fbac4b8f5aac2c255ad0dea4f3911",
+      "path": "14_FOUNDATIONAL_TESTS/CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE/CR120C_result.md",
+      "role": "parity facility research input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "968e7e4ec7bb9ca51d3caa49b18245a018e30fed3ffd6831548bc5206b358efc",
+      "hash_match": true,
+      "observed_sha256": "968e7e4ec7bb9ca51d3caa49b18245a018e30fed3ffd6831548bc5206b358efc",
+      "path": "14_FOUNDATIONAL_TESTS/CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE/CR120C_VALIDATION_REPORT.json",
+      "role": "parity model consistency input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "1301d55d442fb3aa7ba79dca6eb9c7b4066b4ed1d46f11a900e348a1e7fd7aa6",
+      "hash_match": true,
+      "observed_sha256": "1301d55d442fb3aa7ba79dca6eb9c7b4066b4ed1d46f11a900e348a1e7fd7aa6",
+      "path": "14_FOUNDATIONAL_TESTS/CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE/CR120C_IDENTIFIABILITY_REPORT.json",
+      "role": "parity information-bound input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "hash_match": true,
+      "observed_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "role": "typed hierarchy and X1 derivation"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "d40d2766b3166f9572c695fd68f7f4718e99e4c3db7c2e698baf60d5cdb195c1",
+      "hash_match": true,
+      "observed_sha256": "d40d2766b3166f9572c695fd68f7f4718e99e4c3db7c2e698baf60d5cdb195c1",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/src/sam_language_v0_4/runtime.py",
+      "role": "frozen runtime implementation"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "hash_match": true,
+      "observed_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "frozen entity registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "hash_match": true,
+      "observed_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_OPERATOR_REGISTRY.json",
+      "role": "frozen operator registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f",
+      "hash_match": true,
+      "observed_sha256": "75b2b02261e014985c2df378a1cb17c6766e90240c69924ae8d27aad5d842a8f",
+      "path": "14_FOUNDATIONAL_TESTS/CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE/CR120_result.md",
+      "role": "preserved propagation frontier"
+    }
+  ]
+}

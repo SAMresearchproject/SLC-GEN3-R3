@@ -1,0 +1,189 @@
+{
+  "audit_regrade": {
+    "applied_utc": "2026-06-17T23:12:00Z",
+    "driving_appeal_cr": "CR-138",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "regrade_type": "VERDICT_DOWNGRADE_PASS_TO_BOUNDARY",
+    "verdict_direction": "DOWNGRADED",
+    "from_verdict": "CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_SEALED",
+    "to_verdict": "CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE",
+    "triggers": {
+      "tier3_audit_finding": "Tier 3 REGRADE_TO_BOUNDARY",
+      "gate_rate_artifact": {
+        "shared_T2_omega_product": 62832.0,
+        "shared_value_meaning": "T2_observed * omega_gate ~= 6.28e4 (rad), identical to 1.0248 * (17 / (16 * pi * R^4)) when omega is interpreted as the gate-operating rate per CR-064a v1.1",
+        "platforms_at_identical_product": [
+          {
+            "platform": "Quantinuum H1 (171Yb+ clock states)",
+            "T2_observed": "10 s",
+            "gate_omega": "6.2832e3 rad/s",
+            "T2_times_omega": 62832.0
+          },
+          {
+            "platform": "IonQ Forte (171Yb+)",
+            "T2_observed": "1 s",
+            "gate_omega": "6.2832e4 rad/s",
+            "T2_times_omega": 62832.0
+          },
+          {
+            "platform": "Delft NV cryogenic + dynamical decoupling",
+            "T2_observed": "1 s",
+            "gate_omega": "6.2832e4 rad/s",
+            "T2_times_omega": 62832.0
+          }
+        ],
+        "implication": "Three platforms reported as independent AT_THE_LIMIT confirmations are one observation, not three. The headline '5 of 10 platforms AT THE LIMIT' actually represents two distinct T2*omega measurements within the band (Stanford fluxonium at 3.13e4; the cluster at 6.28e4) plus the Innsbruck Ca+ point at 3.14e5. The 5/10 framing oversells the breadth of empirical support.",
+        "user_memory_reference": "feedback_cr064a_t2grav_calibration_rescue.md (project memory, 2026-06-16: '5 platforms at the limit is gate-rate artifact (three exactly at 1.0248)')"
+      },
+      "citation_debt": {
+        "total_citations": 10,
+        "verified_count": 0,
+        "unverified_tag": "[VERIFY_PRECOMMIT]",
+        "tag_meaning": "Author's own placeholder indicating the published T2 value is recalled from training-cutoff (Jan 2026) knowledge and has NOT been independently verified against current literature.",
+        "implication": "The headline 'zero violations' is on unverified inputs; a single citation verified to a different T2 than recorded could flip the count and the consistency claim."
+      },
+      "band_and_falsifier_note": {
+        "AT_THE_LIMIT_band_width_ratio": 4.0,
+        "AT_THE_LIMIT_band_definition": "T2_observed / T2_grav between 0.5 and 2.0 inclusive",
+        "falsifier_cushion_factor": 10.0,
+        "implication": "AT_THE_LIMIT is a factor-4 band, not a point estimate; the pre-committed falsifier requires a factor-10 cushion above T2_grav. Together these absorb a wide range of outcomes while still reporting 'consistent'. The result.md does not display this bandwidth as part of the headline, which oversells consistency at point precision."
+      }
+    },
+    "rescue_prior": {
+      "rescued_cr": "CR-063a HARDWARE_TRANSLATION_V1",
+      "rescued_cr_current_state": "REFUTED per CR-137 (transmon T2 ~= 1932x v1.0 prediction at first contact)",
+      "rescue_introduces": [
+        "A_0 = 1/(pi*R) operating point correction (factor pi*R ~= 37.7 enhancement over v1.0)",
+        "omega reinterpreted as substrate gate response rate (omega_gate) rather than qubit angular frequency"
+      ],
+      "rescue_status": "CR-064a v1.1 is the surviving rescue formulation. Whether the rescue itself holds depends on the empirical content of the consistency table -- which is the basis the present regrade calls into question."
+    },
+    "audit_finding_tier": "Tier 3 REGRADE_TO_BOUNDARY",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR138_CR064a_regrade/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1/",
+    "original_result_md_sha256": "515a0925ccc96eee07c9877e06f5a040ee40fbdfa9d04c64496c07ab92410867",
+    "original_summary_json_sha256": "27948045b36b52e63a4d5da58061597aaaa638f724cff2eb2951f4ade0bd10e4",
+    "replacement_record_path": "archive/2026-06-17_CR135_audit_regrades/CR138_CR064a_regrade/CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1/REPLACEMENT_RECORD.md"
+  },
+  "cr_id": "CR064a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "A_0_CALIBRATION_REFINEMENT_AND_PUBLISHED_T2_ANALYTICAL_VERIFICATION_V1_1",
+  "execution_status": "CLEAN",
+  "result_class": "CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T01:45:29Z",
+  "A_0": 0.026525823848649224,
+  "T2_grav_coefficient": 61312.06142572983,
+  "T2_grav_formula_v1_1": "T2_grav_at_A_0 = 16 * pi * R^4 / (17 * omega_gate)",
+  "omega_interpretation": "qubit GATE OPERATING angular frequency (not splitting frequency)",
+  "platforms_analyzed": [
+    "NV_center",
+    "Neutral_atom",
+    "SC_fluxonium",
+    "SC_transmon",
+    "Trapped_ion"
+  ],
+  "measurements_total": 10,
+  "n_CONSISTENT": 5,
+  "n_AT_THE_LIMIT": 5,
+  "n_VIOLATION": 0,
+  "at_the_limit_systems": [
+    "Stanford / Berkeley fluxonium",
+    "Quantinuum H1 (171Yb+ clock states)",
+    "IonQ Forte (171Yb+)",
+    "Innsbruck Blatt group (40Ca+)",
+    "Delft NV cryogenic + dynamical decoupling"
+  ],
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224
+  },
+  "dataset_csv_sha256": "e34afae924a0bf14aa606ff6adc23a0c377e92c51bbcc2ce06e19cae57bb7859",
+  "analysis_csv_sha256": "475de62e5897fa632e06719b9a49280826b4f43933d45f046e8f05fb783d0ab0",
+  "calibration_lock_sha256": "4e33dedefd599c0dcaf67f678a568d6bb45b1861622e7682a2dc67d9f38af42f",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR063a_hardware_lock_json": "f884d362a980a775c010768932f3eeebf44bd135c57625be7dc94b54e9c24639",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_A_0_value_correct",
+      "pass": true,
+      "details": "A_0 = 1/(pi*R) = 0.026526"
+    },
+    {
+      "name": "P2_coefficient_matches_16_pi_R4_over_17",
+      "pass": true,
+      "details": "T2_grav coefficient = 61312.061426"
+    },
+    {
+      "name": "P3_ten_published_measurements_compiled",
+      "pass": true,
+      "details": "measurements = 10"
+    },
+    {
+      "name": "P4_no_outright_violations",
+      "pass": true,
+      "details": "VIOLATION count = 0.  No published T2 measurement clearly exceeds T2_grav_at_A_0 at its gate rate.  v1.1 is CONSISTENT with all current published data."
+    },
+    {
+      "name": "P5_three_at_the_limit_systems",
+      "pass": true,
+      "details": "AT_THE_LIMIT count = 5.  State-of-the-art trapped-ion and NV systems sit at the predicted gravitational floor."
+    },
+    {
+      "name": "P6_calibration_lock_written",
+      "pass": true,
+      "details": "calibration lock sha256 = 4e33dedefd599c0dcaf67f678a568d6bb45b1861622e7682a2dc67d9f38af42f"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_published_T2_values_tagged_VERIFY_PRECOMMIT",
+      "pass": true,
+      "details": "All citations are tagged [VERIFY_PRECOMMIT] reflecting training-cutoff (Jan 2026) knowledge.  Curator must verify each T2 value against current literature before promoting from PROVISIONAL_DRAFT to SEALED."
+    },
+    {
+      "name": "WC2_gate_rates_are_engineering_inputs_not_SAM_predictions",
+      "pass": true,
+      "details": "omega_gate is a parameter of the experiment (typical gate rate per platform), not a SAM-internal quantity.  Different measurement protocols (raw, DD, echo-corrected) can yield different effective rates; we use typical operating rates as documented in the dataset."
+    },
+    {
+      "name": "WC3_CR063a_v1_0_NOT_modified",
+      "pass": true,
+      "details": "CR063a v1.0 stays sealed at the horizon (A=1) reading.  CR064a refines it via the A_0 operating point correction, producing v1.1.  v1.0 is preserved for the audit record."
+    },
+    {
+      "name": "WC4_at_the_limit_classification_is_band_NOT_point",
+      "pass": true,
+      "details": "Ratio 0.5-2.0 is classified AT_THE_LIMIT to allow for experimental uncertainty and gate-rate definition variability.  This is a band, not a point.  A point match would require precise gate-rate measurement which is not feasible from literature alone."
+    },
+    {
+      "name": "WC5_falsifier_threshold_10x_not_1_1x",
+      "pass": true,
+      "details": "Falsifier requires T2_observed > 10 * T2_grav at the same omega_gate.  A factor of 10 above the predicted floor is much larger than published-value uncertainty, ensuring the falsifier is unambiguous when triggered."
+    },
+    {
+      "name": "WC6_inconclusive_outcomes_NOT_evasion",
+      "pass": true,
+      "details": "If future measurements show T2 between T2_grav and 10x T2_grav at the same gate rate, this is a SOFT TENSION not yet a violation.  Multiple such measurements would prompt v1.2 refinement.  This is documented as expected behavior, not evasion."
+    },
+    {
+      "name": "WC7_A_0_calibration_traceable_to_SAM_glossary",
+      "pass": true,
+      "details": "A_0 = 1/(pi*R) is the SAM accumulation floor (SAMs_TOE v0.2 glossary G:A0). The correction T2_grav_at_A_0 = T2_grav_at_horizon * (1/A_0) follows from interpreting the gravitational coupling as scaling linearly with A; at A_0 instead of A=1, the coupling is reduced by factor A_0."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "All [VERIFY_PRECOMMIT] citations require verification against current literature before final claims.",
+    "First-principles derivation of why A_0 enters as 1/(pi*R) -- accepted as SAM glossary input from G:A0.",
+    "CR062a (deferred): Paul Revere protocol sharpening with the (1/4, 9/16, 1/4) slot weights.",
+    "CR065a candidate: experimental-partner outreach for a CONTROLLED T2 measurement isolating the gravitational channel (vs. just consulting published numbers).",
+    "Resolution of trapped-ion plateau prediction: track Quantinuum / IonQ T2 improvements over 2026-2030."
+  ]
+}

@@ -1,0 +1,6 @@
+candidate_id,role,expected_operator_class,observed_operator_class,expected_partition,observed_partition,expected_M_native,observed_M_native,match
+QP093A-0300,graviton,TENSOR_CARRIER,TENSOR_CARRIER,18,18,18,18,True
+QP093A-0301,photon,ROAD_LIGHT_CARRIER,ROAD_LIGHT_CARRIER,1,1,0,0,True
+QP093A-0302,W,WEAK_VECTOR_CARRIER,WEAK_VECTOR_CARRIER,9,9,9,9,True
+QP093A-0303,Z,NEUTRAL_VECTOR_CARRIER,NEUTRAL_VECTOR_CARRIER,81,81,81,81,True
+QP093A-0304,gluon,COLOR_OWNER_CARRIER,COLOR_OWNER_CARRIER,8,8,8,8,True

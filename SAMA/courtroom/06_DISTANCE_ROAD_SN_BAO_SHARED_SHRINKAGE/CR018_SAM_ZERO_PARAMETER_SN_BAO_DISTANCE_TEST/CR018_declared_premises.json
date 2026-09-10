@@ -1,0 +1,80 @@
+{
+  "cr_id": "CR018",
+  "branch": "06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE",
+  "title": "SAM_ZERO_PARAMETER_SN_BAO_DISTANCE_TEST",
+  "precommit_sha256": "04f562aa61417995b46091d74b516acf20a425d72dcff672895875a6be6c7e85",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_no_catalog_fit": {
+    "A_0": "1/(12 pi)",
+    "R_substrate": 12,
+    "Omega_m": "A_inf = R * A_0 = 1/pi",
+    "chi": "(2^D/D) * A_0 = 2/(9 pi)",
+    "Omega_b": "2 * A_0 * (1 - chi) = 0.049299"
+  },
+  "measurement_inputs_external_not_catalog_fit": {
+    "H_0_SN_SH0ES": 73.04,
+    "H_0_BAO_PLANCK_STYLE": 68.76,
+    "r_d_method": "EH fitting formula given (Omega_m, Omega_b, H_0)",
+    "r_d_Planck2018_reference_Mpc": 147.09
+  },
+  "predictions": {
+    "P1": {
+      "name": "SN weighted-mean residual",
+      "load_bearing": true,
+      "conditions": ["|weighted_mean_residual| <= 0.025 mag"],
+      "details": "Pantheon+SH0ES z>0.01 non-calibrator sample at H_0=73.04 with no offset fit, no host_logmass correction"
+    },
+    "P2": {
+      "name": "DESI DR1 BAO chi^2",
+      "load_bearing": true,
+      "conditions": ["chi^2/n <= 2.5 over 12 DESI distance ratios"],
+      "details": "Substrate Omegas at H_0=68.76, EH-computed r_d, diagonal errors"
+    },
+    "P3": {
+      "name": "Substrate-predicted r_d vs Planck 2018",
+      "load_bearing": true,
+      "conditions": ["|r_d_SAM - 147.09| / 147.09 <= 0.01"]
+    },
+    "P4": {
+      "name": "Probe-split direction across H_0 sweep [60, 80]",
+      "conditions": [
+        "SN-best H_0 in [70, 75]",
+        "BAO-best H_0 in [66, 71]",
+        "SN-best > BAO-best"
+      ]
+    },
+    "P5": {
+      "name": "SN null-distribution percentile",
+      "conditions": [
+        "1000 random Omega_m in [0.05, 0.95]; Omega_b fixed; H_0 = 73.04",
+        "one-sided p-value < 0.01",
+        "extreme = |wmr| <= canonical"
+      ]
+    },
+    "P6": {
+      "name": "BAO null-distribution percentile",
+      "conditions": [
+        "1000 random (Omega_m, Omega_b) in [0.05,0.95]x[0.005,0.15]; H_0=68.76",
+        "one-sided p-value < 0.01",
+        "extreme = chi^2 <= canonical"
+      ]
+    }
+  },
+  "implementation_discipline": {
+    "no_offset_fit_on_SN": true,
+    "no_host_logmass_correction": true,
+    "no_per_galaxy_or_per_SN_fitting": true,
+    "no_per_BAO_parameter_fitting": true,
+    "no_Omega_adjustment_to_match_references": true,
+    "trial_seeds": "P5 uses seeds 0..999; P6 uses seeds 10000..10999 (different family from P5)",
+    "p_value_formula": "(n_extreme + 1) / (n_trials + 1) one-sided exact permutation"
+  },
+  "verdict_ladder": {
+    "PASS": "P1-P6 all hold under canonical substrate values",
+    "BOUNDARY": "P1, P2, P3 all hold (direct prediction-vs-data) but at least one of P4, P5, P6 fails",
+    "FAIL": "P1 fails OR P2 fails OR P3 fails"
+  },
+  "rule_9_falsifier": "The claim that SAM's substrate-only spine reproduces Pantheon+SH0ES, DESI DR1 BAO, and Planck 2018 r_d with zero catalog fit, shows the standard SN-vs-BAO H_0 probe-split, and is significantly more extreme than random parameter draws on both probes."
+}

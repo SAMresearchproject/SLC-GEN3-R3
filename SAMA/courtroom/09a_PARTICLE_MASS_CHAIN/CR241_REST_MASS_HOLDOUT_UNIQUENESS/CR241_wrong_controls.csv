@@ -1,0 +1,6 @@
+wc_id,complete,passed_integrity,details
+WC1_random_holdout_set,True,True,seed=20260623; random_pool_size=20; rms_epsilon=0.0006864000480945836
+WC2_random_isotope_anchor,True,True,seed=20260624; anchor=Hg-202; drift=-0.00014532869306930693
+WC3_expression_grammar_expansion,True,True,baseline=30; expanded_depth3=113
+WC4_expression_grammar_contraction,True,True,"families_returned=['C5', 'C6', 'C7', 'C8']; contraction_hits=4"
+WC5_shuffled_primitive_labels,True,True,"{""changed_labels"": 6, ""label_map"": {""L"": ""V"", ""M"": ""L"", ""R"": ""M"", ""S"": ""Theta"", ""Theta"": ""R"", ""V"": ""S""}, ""seed"": 20260626}"

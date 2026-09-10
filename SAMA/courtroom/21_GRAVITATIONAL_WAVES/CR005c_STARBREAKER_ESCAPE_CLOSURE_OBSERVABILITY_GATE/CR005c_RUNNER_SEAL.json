@@ -1,0 +1,11 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "sealed_utc": "2026-07-21T01:40:00Z",
+  "runner": "cr005c_observability_runner.py",
+  "runner_bytes": 31804,
+  "runner_sha256": "786862b8129d1219fb1ebec44c5d5ff0424a07feb4bc1d42daa80b99b923fe53",
+  "contract_sha256": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+  "precommit_sha256": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+  "source_manifest_sha256": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e",
+  "same_run_repair_allowed": false
+}

@@ -1,0 +1,4 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Missing prior CR summary,DIAGNOSTIC,True,True,all CR059a-CR063a summaries exist
+WC2,Prior CR non-PASS verdict,BOUNDARY_OR_FAIL,True,True,all prior CRs are CLEAN/PASS-tier
+WC3,Old 09 terminal scope promoted as active source,FAIL,True,True,old 09 appears only as historical misroute evidence in branch manifest

@@ -1,0 +1,4 @@
+role,p1_id,p8_id,p9_id,Delta_native,numeric_native_pass,Delta_qA_exact,Delta_qA_expected,numeric_qA_pass,type_mismatches,typed_eligibility
+plus,QP093A-0049,QP093A-0064,QP093A-0067,0,true,20,20,true,bin|stability_status,TYPED_INELIGIBLE_STABILITY_MISMATCH
+minus,QP093A-0050,QP093A-0065,QP093A-0068,0,true,24,24,true,bin|stability_status,TYPED_INELIGIBLE_STABILITY_MISMATCH
+neutral,QP093A-0051,QP093A-0066,QP093A-0069,0,true,0,0,true,bin|stability_status,TYPED_INELIGIBLE_STABILITY_MISMATCH

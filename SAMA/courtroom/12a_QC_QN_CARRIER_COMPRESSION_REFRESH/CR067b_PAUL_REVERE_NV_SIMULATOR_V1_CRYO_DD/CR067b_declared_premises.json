@@ -1,0 +1,79 @@
+{
+  "cr_id": "CR067b",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_PROTOCOL_NV_CENTER_CLASSICAL_SIMULATOR_V1_CRYO_DD",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-18T00:00:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "epistemic_stance_path": "EPISTEMIC_STANCE.md",
+  "architectural_relationship_to_CR067a": "Same code architecture, same loaded state, same correction protocol, same refusal stack. Operating-point parameters change from room-temperature (T1=T2=1 ms) to cryo+DD (T1=T2=1 s). CR067b does NOT supersede CR067a.",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0_symbolic": "1/(12*pi)",
+    "A_0_numeric": 0.026525823848649224,
+    "A_share": "1/12",
+    "A_side": "1/24"
+  },
+  "upstream_hash_locked_premises": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "c85de54350cb7fa90759e9f2b49afbf0371ccc4b05da318195392bbf4eb53dd9",
+    "CR067a_result_md_sha256": "da44a9cb33bb756d408efad91e86ce7344191f5fa329ffdbb2ff8359b8e9b1cf",
+    "CR068a_result_md_sha256": "aed3e4cca2fa5cd4a6e78d003aa617c71eead4ba18d8f2a3324ad9be8f8e9ba9",
+    "CR121_gravity_mechanism_intake_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "structural_inputs": {
+    "loaded_probabilities": ["4/17", "9/17", "4/17"],
+    "loaded_amplitudes": ["sqrt(4/17)", "sqrt(9/17)", "sqrt(4/17)"]
+  },
+  "slot_assignment": {
+    "slot_a_carrier": {"physical_state": "m_s = 0", "role": "route identity, protected"},
+    "slot_b_envelope": {"physical_state": "m_s = +1", "role": "letter content"},
+    "slot_c_sensor": {"physical_state": "m_s = -1", "role": "boundary stress readout"}
+  },
+  "nv_physical_constants_cryo_dd": {
+    "spin_quantum_number": 1,
+    "zero_field_splitting_Hz": 2.87e9,
+    "T1_cryo_dd_s": 1.0,
+    "T2_cryo_dd_s": 1.0,
+    "open_window_duration_s": 1.0e-4,
+    "drift_angle_rad": 0.5,
+    "omega_drive_test_rad_per_s": 18032741831.60541,
+    "operating_point_source": "Bar-Gill et al. and Maurer et al. — Hanson-group-typical NV cryo+DD with isotopically purified 12C diamond and CPMG/KDD dynamical decoupling",
+    "verify_precommit_tags": "All NV physical constants sourced from published NV literature ranges; tagged for experimental partner verification before hand-off."
+  },
+  "T2_grav_prediction_v1_1": {
+    "formula": "T2_grav = 16 * pi * R^4 / (17 * omega_drive)",
+    "value_at_omega_test_seconds_approx": 3.4e-6,
+    "note": "Same formula as CR067a; gravitational floor is operating-point-independent and far below the cryo+DD intrinsic T2 of ~1 s."
+  },
+  "predictions": [
+    "P1_loaded_state_amplitudes_correct",
+    "P2_carrier_population_preserved_through_correction",
+    "P3_sensor_population_preserved_through_correction",
+    "P4_envelope_drift_correction_reduces_drift_by_at_least_50_percent",
+    "P5_no_clone_attempt_returns_invalid_state",
+    "P6_premature_commit_returns_refused_flag",
+    "P7_T2_grav_floor_consistency",
+    "P8_3_level_qutrit_dynamics_unitary_in_no_decoherence_limit",
+    "P9_decoherence_recovered_when_T1_T2_finite",
+    "P10_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_wrong_loaded_state_amplitudes_produce_different_populations",
+    "WC2_swapped_slot_assignment_violates_protocol_structure",
+    "WC3_zero_decoherence_gives_perfect_coherence",
+    "WC4_clone_attempt_reduces_purity",
+    "WC5_premature_read_before_selected_write_returns_no_logical_outcome",
+    "WC6_runner_does_not_modify_upstream_locks",
+    "WC7_no_free_parameters_introduced"
+  ],
+  "free_parameters": 0,
+  "execution_status": "PRECOMMIT_SEALED_RUNNER_NOT_YET_EXECUTED"
+}

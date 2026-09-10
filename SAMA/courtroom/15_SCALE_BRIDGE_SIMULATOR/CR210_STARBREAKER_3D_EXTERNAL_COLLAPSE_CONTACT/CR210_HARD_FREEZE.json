@@ -1,0 +1,34 @@
+{
+    "approval":  "approved",
+    "execution_status":  "CLEAN",
+    "exact_precommit_replay":  "28/28",
+    "fitted_parameters":  0,
+    "freeze_id":  "CR210_HARD_FREEZE_STARBREAKER_3D_EXTERNAL_COLLAPSE_CONTACT",
+    "frozen_file_count":  39,
+    "frozen_manifest_sha256":  "59fa277b6b1b71b3d9c56e20c6fc05c1e59d116c35d3b77a884760a05e24627c",
+    "frozen_payload_file_count":  22,
+    "generated_at_utc":  "2026-07-15T01:45:56.839984+00:00",
+    "payload_fingerprint_sha256":  "ae60c1b744b2d2ea5ec7fe89aacc491065b83207288fa872f28232ea83d0f77d",
+    "preserved_boundaries":  [
+                                 "p is not physical bounce compactness xi_2.5",
+                                 "A is not assigned compactness units",
+                                 "Starbreaker remnant fraction is not black-hole probability or mass",
+                                 "Starbreaker ejecta fraction is not explosion energy or observed ejecta mass",
+                                 "the endpoint simulator does not test faster time to black-hole formation",
+                                 "no hydrodynamic or relativistic field equation is solved",
+                                 "the A packing law is not physically promoted"
+                             ],
+    "result_class":  "CR210_PASS_SCOPED_STARBREAKER_3D_EXTERNAL_COLLAPSE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION__OPEN_TIME_RESOLVED_COLLAPSE",
+    "runwise_monotonic_ladders":  "42/42",
+    "same_total_inward_wins":  "42/42",
+    "scientific_verdict":  "PASS",
+    "source_result_classes":  {
+                                  "external_contact":  "PASS_EXTERNAL_QUALITATIVE_DIRECTIONAL_CONTACT__NO_PHYSICAL_PROMOTION",
+                                  "three_dimensional":  "PASS_INTERNAL_3D_GEOMETRY_GATE__EXTERNAL_PHYSICS_VALIDATION_OPEN"
+                              },
+    "status":  "FROZEN",
+    "three_dimensional_replay":  "1218/1218",
+    "aligned_radial_permutation_rank":  "2/2 maximum of 24",
+    "starbreaker_regression_tests":  "58/58",
+    "wrong_controls":  "8/8"
+}

@@ -1,0 +1,5 @@
+pattern_class,pattern_regex,engine_hit_count,doc_mention_count,exemplar_engine_file,exemplar_engine_line,exemplar_engine_text,exemplar_doc_file,exemplar_doc_line,classification
+ame2020_construction,\bame2020\b|\bAME2020\b|\bAME-?20(20|14)\b,0,0,,,,,,CLEAN
+nist_isotope_chart,"\bNIST\b.{0,40}(nuclide|isotope|mass)",0,0,,,,,,CLEAN
+iupac_construction,"\bIUPAC\b.{0,40}(import|read|load)",0,0,,,,,,CLEAN
+calibration_loop,\bscipy\.optimize\b|\bcurve_fit\b|\bleast_squares\b,0,0,,,,,,CLEAN

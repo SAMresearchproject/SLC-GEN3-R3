@@ -1,0 +1,8 @@
+control,passed,observation
+WC01_DIRECT_LEAVE_ONE_OUT_PREFIX,True,samples=16; max_abs_error=1.096085028295946e-14; normalized_error=3.862e-16; max_relative_error=3.603e-12
+WC02_LINEAR_TENSOR_SUM_RECONSTRUCTION,False,max_relative_error=1.272e-06
+WC03_GLOBAL_TRANSLATION_INVARIANCE,True,max_centered_position_error=8.882e-16
+WC04_STATIC_SOURCE_ZERO,False,max_abs_source=3.729e-09
+WC05_ISOTROPIC_SIX_AXIS_CANCELLATION,False,max_abs_source=1.605e-08
+WC06_FINE_COARSE_AGGREGATE_POWER,True,median_relative_error=0.019380061644681368
+WC07_TRACE_FREE_INDIVIDUAL_TENSORS,True,max_relative_trace_error=4.855e-16

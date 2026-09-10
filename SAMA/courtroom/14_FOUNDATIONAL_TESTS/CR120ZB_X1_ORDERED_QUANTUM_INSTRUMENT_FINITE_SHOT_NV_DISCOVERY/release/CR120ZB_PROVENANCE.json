@@ -1,0 +1,22 @@
+{
+  "campaign_id": "CR120ZB_X1_ORDERED_QUANTUM_INSTRUMENT_FINITE_SHOT_NV_DISCOVERY",
+  "completed_utc": "2026-07-18T21:01:59.606031+00:00",
+  "numpy_version": "2.4.4",
+  "random_exclusions": 0,
+  "registry_mutated": false,
+  "rng_seeds": {
+    "calibration": 1202601,
+    "swap": 1202603,
+    "validation": 1202602
+  },
+  "same_run_repair": false,
+  "seal_checks": {
+    "contract": true,
+    "interface": true,
+    "manifest": true,
+    "precommit": true,
+    "runner": true
+  },
+  "started_utc": "2026-07-18T21:01:57.704341+00:00",
+  "task_preflight": "artifacts/preflight_filled/PREFLIGHT_20260718_155342_no_script.md"
+}

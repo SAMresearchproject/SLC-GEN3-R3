@@ -1,0 +1,9 @@
+control,attempted_overclaim,evidence,result
+pdf_alone_as_theorem,Treat HH001_fano_plates_126.pdf alone as the theorem.,"CR210 theorem grade requires CR113/CR114/CR115 plus HH001/CR119 replay, not the PDF by itself.",REJECTED
+hide_falsified_action_spin,Omit the failed ACTION residual diagnostic.,ACTION residual match count is 1/102.,REJECTED
+hide_xor_failure,Present per-element XOR channel closure as surviving.,binary_v2 closed=7; binary_v22 closed=7.,REJECTED
+known_labels_as_construction_inputs,Use known elements as construction inputs instead of downstream reveal labels.,CR119 known_label_used_as_construction_input is no for all rows.,REJECTED
+frontier_rows_as_known_elements,Treat Z119-Z126 as known labels.,CR119 frontier_unknown_z119_z126=8.,REJECTED
+fano_mapping_as_empirical_validation,Treat Fano address XOR closure as empirical validation of the channel physics.,Fano closure is algebraic; physical mapping remains open.,REJECTED
+126_GeV_without_derivation,Use H_native=126 as 126 GeV without a conversion audit.,HH001 status trail flags GeV conversion as possible hidden parameter.,REJECTED
+haunted_house_as_courtroom_grade,Cite Haunted House as Courtroom-grade evidence.,House Rules: Haunted House proposes; Courtroom seals.,REJECTED

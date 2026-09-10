@@ -1,0 +1,25 @@
+{
+  "hits": 6,
+  "sample": [
+    {
+      "file": "src/qp010_private_protected_route_boundary_law.py",
+      "match": "leakage"
+    },
+    {
+      "file": "artifacts/qp010/qp010_protected_route_boundary_summary.json",
+      "match": "LEAKAGE"
+    },
+    {
+      "file": "docs/reports/QP010_PRIVATE_PROTECTED_ROUTE_BOUNDARY_LAW.md",
+      "match": "leakage"
+    },
+    {
+      "file": "src/qp020_private_qp_to_particle_bridge_readiness_package.py",
+      "match": "leakage"
+    },
+    {
+      "file": "docs/reports/QP020_PRIVATE_QP_TO_PARTICLE_BRIDGE_READINESS_PACKAGE.md",
+      "match": "leakage"
+    }
+  ]
+}

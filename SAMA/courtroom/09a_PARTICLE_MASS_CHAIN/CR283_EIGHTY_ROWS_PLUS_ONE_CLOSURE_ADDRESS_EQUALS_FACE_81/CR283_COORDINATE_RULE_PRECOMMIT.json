@@ -1,0 +1,48 @@
+{
+  "record_id": "CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81",
+  "frozen_before_runner": true,
+  "allowed_row_fields": [
+    "matter_or_antimatter",
+    "charged_or_neutral",
+    "partition_signature",
+    "route_class",
+    "closure_depth",
+    "q_sign",
+    "identity_rule",
+    "source_rule",
+    "exact_contact_status",
+    "native_charge_axis",
+    "spin_or_hand_class",
+    "color_or_owner_closure"
+  ],
+  "punctured_face_rule": {
+    "search": "Test unordered pairs of allowed_row_fields. A candidate is valid only if each field has exactly 9 source-native values, the Cartesian product has 81 addresses, the 80 rows occupy 80 distinct address pairs, and exactly one address is empty.",
+    "disallowed": [
+      "candidate_id_order",
+      "CSV_order",
+      "manual_coordinates",
+      "posthoc_swaps",
+      "sorting_until_center_hole_appears"
+    ]
+  },
+  "ten_octet_rule": {
+    "search": "Test each single allowed_row_field as a grouping key. A candidate is valid only if it produces exactly 10 groups of exactly 8 rows. No compound key is accepted for ten-octet PASS because arbitrary field products can overfit 80 rows.",
+    "disallowed": [
+      "candidate_id_order",
+      "manual_octets",
+      "posthoc_grouping",
+      "partition_by_visual_preference"
+    ]
+  },
+  "pairing_symmetry_metrics": {
+    "seed": 12681,
+    "permutations": 200,
+    "metrics": [
+      "pair_completion_rate",
+      "pair_field_consistency",
+      "neutral_fixed_point_count",
+      "address_collisions"
+    ],
+    "randomization_control": "Shuffle descriptor bundles across fixed row ids and fixed conjugate links; recompute pair_field_consistency."
+  }
+}

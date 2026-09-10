@@ -1,0 +1,93 @@
+{
+  "cr_id": "CR068a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "PAUL_REVERE_WARNING_ONLY_NV_CENTER_CLASSICAL_SIMULATOR_V1",
+  "scope_status": "PRECOMMIT_FROZEN_BEFORE_RUNNER_EXECUTION",
+  "utc_precommit_seal": "2026-06-17T22:30:00Z",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent_path": "STEWARDSHIP.md",
+  "epistemic_stance_path": "EPISTEMIC_STANCE.md",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0_symbolic": "1/(12*pi)",
+    "A_0_numeric": 0.026525823848649224,
+    "A_share": "1/12",
+    "A_share_numeric": 0.08333333333333333,
+    "A_side": "1/24",
+    "A_side_numeric": 0.041666666666666664
+  },
+  "sam_threshold_hierarchy": {
+    "protected": "A_leak < 1/24",
+    "alarm_zone": "1/24 <= A_leak < 1/12 (basin forming, warning fires here)",
+    "uncontrolled_write": "A_leak >= 1/12 (route is gone, too late)"
+  },
+  "A_leak_definition": "A_leak = 1 - Tr(rho^2) = 1 - purity",
+  "alarm_threshold": "A_side = 1/24",
+  "upstream_hash_locked_premises": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "c85de54350cb7fa90759e9f2b49afbf0371ccc4b05da318195392bbf4eb53dd9",
+    "CR067a_result_md_sha256": "da44a9cb33bb756d408efad91e86ce7344191f5fa329ffdbb2ff8359b8e9b1cf"
+  },
+  "structural_inputs": {
+    "loaded_probabilities": [
+      "4/17",
+      "9/17",
+      "4/17"
+    ],
+    "loaded_amplitudes": [
+      "sqrt(4/17)",
+      "sqrt(9/17)",
+      "sqrt(4/17)"
+    ]
+  },
+  "slot_assignment": {
+    "slot_a_carrier": {
+      "physical_state": "m_s = 0",
+      "role": "route identity, protected"
+    },
+    "slot_b_envelope": {
+      "physical_state": "m_s = +1",
+      "role": "letter content"
+    },
+    "slot_c_sensor": {
+      "physical_state": "m_s = -1",
+      "role": "boundary stress readout, alarm source"
+    }
+  },
+  "nv_physical_constants": {
+    "spin_quantum_number": 1,
+    "zero_field_splitting_Hz": 2.87e9,
+    "T1_room_temperature_s": 1.0e-3,
+    "T2_room_temperature_s": 1.0e-3,
+    "T2_fast_decoherence_s": 1.0e-4,
+    "open_window_duration_s": 1.0e-4,
+    "n_samples_per_window": 200,
+    "verify_precommit_tags": "All NV physical constants sourced from published NV literature; no fitted SAM parameter."
+  },
+  "predictions": [
+    "P1_alarm_fires_within_window_at_room_temperature",
+    "P2_alarm_event_carries_timestamp_and_stress_magnitude",
+    "P3_alarm_time_scales_with_T2_inverse",
+    "P4_carrier_population_unchanged_by_alarm_emission",
+    "P5_alarm_fires_before_A_share_basin_commit_boundary",
+    "P6_no_alarm_in_no_decoherence_control",
+    "P7_alarm_is_monotonic_in_A_leak",
+    "P8_protocol_completes_end_to_end"
+  ],
+  "wrong_controls": [
+    "WC1_zero_decoherence_gives_zero_alarms",
+    "WC2_alarm_fires_after_threshold_cross_not_before",
+    "WC3_alarm_timestamp_matches_independent_purity_measurement",
+    "WC4_alarm_magnitude_monotonic_in_actual_decoherence",
+    "WC5_runner_does_not_modify_upstream_locks",
+    "WC6_no_free_parameters_introduced"
+  ],
+  "free_parameters": 0,
+  "execution_status": "PRECOMMIT_SEALED_RUNNER_NOT_YET_EXECUTED",
+  "next_action": "runner_execution_then_summary_generation_then_HASHES_writing"
+}

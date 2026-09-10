@@ -1,0 +1,57 @@
+{
+  "active_entities": [
+    {
+      "entity_id": "A_OPERATOR",
+      "scalar_identity": null,
+      "source": "CR256",
+      "type": "NonRowOperator"
+    },
+    {
+      "entity_id": "X1_AXIS_SELF",
+      "scalar_value": 1,
+      "source": "CR267",
+      "type": "ClosureAxisSelfCoupling"
+    },
+    {
+      "entity_id": "C1_ROAD_LIGHT_CARRIER",
+      "scalar_value": 1,
+      "source_occurrence": "QP093A-0301",
+      "type": "Carrier"
+    },
+    {
+      "entity_id": "P1_SUPPORT",
+      "lift_excess": "1/144",
+      "scalar_value": 1,
+      "type": "LiftBearingSupport"
+    },
+    {
+      "entity_id": "B_CONTACT_OPERATOR",
+      "scalar_identity": null,
+      "source": "CR269",
+      "type": "ContactOperator"
+    }
+  ],
+  "candidate_weld": {
+    "expression": "S8 --A_OPERATOR through X1_AXIS_SELF--> W9",
+    "reason": "No independent A-to-axis bridge beyond shared scalar-one structure; B/contact remains a live competing operator.",
+    "status": "OPEN_BOUNDARY"
+  },
+  "historical_occurrences": [
+    {
+      "active_particle_row": false,
+      "candidate_id": "QP093A-0305",
+      "current_interpretation": "retired historical row-shaped trace of A concept",
+      "entity_id": "A1_HISTORICAL_ROW_PROXY",
+      "retired_by": "CR216",
+      "scalar_address": 1
+    }
+  ],
+  "not_claimed": [
+    "A = 1",
+    "A = photon",
+    "A = p=1 support",
+    "QP093A-0305 is active",
+    "CR267 already proved the A-operator",
+    "non-row A adds a ledger row"
+  ]
+}

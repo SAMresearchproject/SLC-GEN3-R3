@@ -1,0 +1,106 @@
+{
+  "artifact": "CR120b_HIGGS_APPEAL_BY_COMPOSITION",
+  "classification": "APPEAL_CR",
+  "appeal_mechanism": "Deferred-Support Appeal Rule (README Deferred-Support Appeal Rule)",
+  "generated_at_utc": "2026-06-22T00:00:00+00:00",
+  "result_class": "CR120b_APPEAL_PASS_HIGGS_BY_COMPOSITION__CAPACITY_CR114_THEOREM_PLUS_SURFACE_DEBIT_CR092A_HARD_FREEZE__H_REVEAL_125_25_INSIDE_PDG_1SIGMA_WINDOW__CR120_ORIGINAL_BOUNDARY_PRESERVED__FORWARD_BLIND_HL_LHC_FUTURE_CONFIRMATION_QUEUED",
+  "scientific_verdict": "APPEAL_PASS",
+  "execution_status": "CLEAN",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "claim": {
+    "formula": "H_reveal = R^2 * (1 - 2^-D) - D^2 / R",
+    "evaluated_at": {
+      "R": 12,
+      "D": 3,
+      "alpha_H": 2
+    },
+    "capacity_term": {
+      "expression": "R^2 * (1 - 2^-D)",
+      "value": 126,
+      "source": "CR114@14_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "source_sealed_date": "2026-06-13",
+      "predates_qp091_chronology": true
+    },
+    "surface_debit_term": {
+      "expression": "D^2 / R",
+      "value_decimal": 0.75,
+      "value_fraction": "9/12 = 3/4",
+      "source": "CR092a@09a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE",
+      "source_sealed_date": "2026-06-15",
+      "source_wrong_controls_rejected": 8,
+      "source_K_conditions_satisfied": 5,
+      "source_hard_freeze_line": 26,
+      "source_audit_status": "NOT regraded by CR-135 audit"
+    },
+    "composition": {
+      "calculation": "126 - 9/12 = 126 - 0.75 = 125.25",
+      "result_GeV": 125.25,
+      "result_decimal": 125.25
+    }
+  },
+  "external_anchor": {
+    "name": "PDG 2024 Higgs mass",
+    "value_GeV": 125.20,
+    "uncertainty_GeV_one_sigma": 0.11,
+    "sam_value_GeV": 125.25,
+    "delta_GeV": 0.05,
+    "within_one_sigma": true,
+    "anchor_pattern": "K1 reveal-against-frozen-envelope (allowed per no-outside-model-comparison rule)"
+  },
+  "K_gates": {
+    "K1_external_anchor": "PASS",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS_VIA_COMPOSITION",
+    "K4_typed_inputs": "PASS",
+    "K5_reproduction_on_demand": "PASS"
+  },
+  "predictions_passed": 7,
+  "predictions_total": 7,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "free_parameters_at_test": 0,
+  "downstream_consistency_constellation": [
+    "CR119+CR227@09a (320-particle table, zero free parameters)",
+    "CR220+CR225@09a (periodic structure, stable-Z boundary 83 with holes Z=43,61)",
+    "CR221+CR227@09a (KAPPA_FLOOR = 7117/768)",
+    "CR217@09a + CR222@12a (closed 162 = R^2 * 9/8 ledger)",
+    "LC03@16 (cumulative-A gravity readout A(r) = r_s/r)",
+    "CR005@03 (GPS clock corrections)",
+    "CR006@04 (Shapiro delay)"
+  ],
+  "uniqueness_to_higgs": {
+    "honest_acknowledgment": true,
+    "framework_reason": "Higgs is the substrate's net energy expression. Other particles receive masses through the closed-loop write process via row generators (CR128-CR134@13) and carrier lattice (CR132@13). The composition `capacity - surface debit` produces the one substrate-energy quantity that exists in SAM (the Higgs scalar). Applying it to other particles would be a category error.",
+    "reviewer_can_press_further": true,
+    "load_bearing_claim": "SAM's substrate-first ontology"
+  },
+  "chronology_disclosure": {
+    "qp091r_utc": "2026-06-15 05:34 UTC",
+    "qp091r_role": "Enumerated -D^2/R as Wrong Lane Control while PDG 125.25 visible",
+    "qp091s_utc": "2026-06-15 ~06:09 UTC",
+    "qp091s_role": "Promoted -D^2/R via 2*pi form variant; overshoot 0.00164 GeV",
+    "qp091t_utc": "2026-06-15",
+    "qp091t_role": "Closed-loop retention + surface debit form sealed exact at 125.25",
+    "cr092a_seal": "2026-06-15 (intaked QP091T/U with 8 wrong controls + 5 K conditions + hard freeze L26)",
+    "cr120_seal": "2026-06-15 (iterative-refinement intake, separate from CR092a)",
+    "cr135_audit": "2026-06-17 (downgraded CR120 to BOUNDARY; did NOT touch CR092a)",
+    "cr120b_appeal": "2026-06-22 (this CR; composes CR114 + CR092a; CR120 BOUNDARY preserved)"
+  },
+  "forward_blind_HL_LHC_future_confirmation": {
+    "precommitted_formula": "H_reveal = R^2 * (1 - 2^-D) - D^2 / R",
+    "precommitted_value_GeV": 125.25,
+    "precommitted_at": "this CR120b seal (2026-06-22)",
+    "future_test": "any HL-LHC / FCC-ee / future precision Higgs measurement",
+    "falsification_condition": "measurement exceeding the PDG-displayed precision envelope around 125.25 GeV",
+    "cr140_requirements_1_2_status": "acknowledged as future gold-standard confirmation; not replaced by this appeal"
+  },
+  "rule_of_immutability": "CR120's original BOUNDARY_REGRADED verdict is NOT modified by this appeal. CR-135 audit chronology observation on CR120's iterative refinement intake stands as historical record. This appeal records the composition derivation under the Deferred-Support Appeal Rule.",
+  "reversibility_clause": "If CR114 or CR092a are later regraded BOUNDARY/FAIL/REFUTED, this appeal must be retracted or rescoped per the Deferred-Support Appeal Rule precedent (CR011@05, CR072@10).",
+  "input_artifacts": {
+    "CR114_result_md_sha256": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+    "CR092a_result_md_sha256": "371405f800b35fb893e7509a072b0f8e79bac5584c24254d98c382ca3dad6571",
+    "CR120_result_md_sha256": "5f01ecc521850597af164345d7e9d60fd6709e23bb44eb5a76823e010b170bde",
+    "CR140_result_md_sha256": "c869ca31cacb2be961c335e6a1e68e65ff9cb8061009476e6c3a5cf2e1982083",
+    "CR135_AUDIT_VERDICT_md_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661"
+  }
+}

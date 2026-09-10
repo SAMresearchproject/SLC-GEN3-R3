@@ -1,0 +1,5 @@
+label,value,kind,expected,actual,match
+M,126,partition_scratch,RETAINED_SCRATCH,RETAINED_SCRATCH,True
+R^2,144,bow_domain,DOMAIN_TOTAL,DOMAIN_TOTAL,True
+S,8,copy_count,DOMAIN_MULTIPLICITY,DOMAIN_MULTIPLICITY,True
+h^4,16,unrestricted_grade_control,OUT_OF_SOURCE_ATOM_SET,OUT_OF_SOURCE_ATOM_SET,True

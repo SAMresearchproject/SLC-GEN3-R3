@@ -1,0 +1,1498 @@
+{
+  "entities": {
+    "A1_HISTORICAL_ROW_PROXY": {
+      "authority": {
+        "note": "QP093A-0305 row proxy remains historical and inactive",
+        "source": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_source_chain",
+        "status": "SUPERSEDED"
+      },
+      "contextual_roles": [
+        "retired_row_proxy"
+      ],
+      "entity_id": "A1_HISTORICAL_ROW_PROXY",
+      "ledger_role": "retired_row",
+      "metadata": {
+        "active_particle_row": false,
+        "superseded_by": "A_OPERATOR"
+      },
+      "scalar_value": 1,
+      "semantic_scope": "CORE",
+      "semantic_type": "HistoricalRowProxy",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_result.md",
+          "sha256": "4960244185e251d8a696fbff61afdd6ed4da9a956f24baccdb28e3d80d387208",
+          "source_key": "result"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_provenance.json",
+          "sha256": "bb9525a34ed67f07b417cefee31381243a5fd0cf80038cc10132cb6171be8eb6",
+          "source_key": "provenance"
+        }
+      ]
+    },
+    "A_OPERATOR": {
+      "authority": {
+        "note": "A is active in its sealed scope; A -> B/contact remains OPEN",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE_IN_SOURCE_SCOPE"
+      },
+      "contextual_roles": [
+        "non_row_a_operator"
+      ],
+      "entity_id": "A_OPERATOR",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "operator": true,
+        "relation_to_B": "OPEN"
+      },
+      "scalar_value": null,
+      "semantic_scope": "CORE",
+      "semantic_type": "AOperator",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "B_CONTACT_OPERATOR": {
+      "authority": {
+        "note": "B/contact to X1 axis-fee witness bridge PASS",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "bow_contact_operator",
+        "non_row_contact_operator"
+      ],
+      "entity_id": "B_CONTACT_OPERATOR",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "acts_through": "X1_AXIS_SELF_CHANNEL",
+        "operator": true
+      },
+      "scalar_value": null,
+      "semantic_scope": "CORE",
+      "semantic_type": "ContactOperator",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "C1_ROAD_LIGHT_CARRIER": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "road_light_carrier",
+        "scalar_one_carrier"
+      ],
+      "entity_id": "C1_ROAD_LIGHT_CARRIER",
+      "ledger_role": "carrier",
+      "metadata": {
+        "historical_alias": "SCALAR_ONE_CARRIER",
+        "lift": "NONE"
+      },
+      "scalar_value": 1,
+      "semantic_scope": "CORE",
+      "semantic_type": "Carrier",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "CARRIER8": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "carrier_scalar_eight"
+      ],
+      "entity_id": "CARRIER8",
+      "ledger_role": "carrier",
+      "metadata": {},
+      "scalar_value": 8,
+      "semantic_scope": "CORE",
+      "semantic_type": "Carrier",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "CARRIER9": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "carrier_scalar_nine"
+      ],
+      "entity_id": "CARRIER9",
+      "ledger_role": "carrier",
+      "metadata": {},
+      "scalar_value": 9,
+      "semantic_scope": "CORE",
+      "semantic_type": "Carrier",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "D3_DIMENSION": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "spatial_dimension"
+      ],
+      "entity_id": "D3_DIMENSION",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 3,
+      "semantic_scope": "CORE",
+      "semantic_type": "Dimension",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "F81_COMPLETED_FACE": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "completed_face_capacity"
+      ],
+      "entity_id": "F81_COMPLETED_FACE",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 81,
+      "semantic_scope": "CORE",
+      "semantic_type": "CompletedFace",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "FACE81_ROLE_CLOSURE_CAPACITY": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "closure_capacity_81"
+      ],
+      "entity_id": "FACE81_ROLE_CLOSURE_CAPACITY",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 81,
+      "semantic_scope": "CORE",
+      "semantic_type": "CompletedFace",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "FACE81_ROLE_COMPLETED_FACE": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "completed_face_81"
+      ],
+      "entity_id": "FACE81_ROLE_COMPLETED_FACE",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 81,
+      "semantic_scope": "CORE",
+      "semantic_type": "CompletedFace",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "FACE81_ROLE_CONDITIONAL_PARTICLE_EDGE": {
+      "authority": {
+        "note": "distinct 81 role occurrence inherited with P80 edge",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "STRUCTURAL_ONLY"
+      },
+      "contextual_roles": [
+        "conditional_particle_edge_81"
+      ],
+      "entity_id": "FACE81_ROLE_CONDITIONAL_PARTICLE_EDGE",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 81,
+      "semantic_scope": "CORE",
+      "semantic_type": "CompletedFace",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "H2_ARITY": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "closure_mirror_arity"
+      ],
+      "entity_id": "H2_ARITY",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 2,
+      "semantic_scope": "CORE",
+      "semantic_type": "Arity",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "L162_FULL_LEDGER": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "closed_ledger"
+      ],
+      "entity_id": "L162_FULL_LEDGER",
+      "ledger_role": "closed_ledger",
+      "metadata": {},
+      "scalar_value": 162,
+      "semantic_scope": "CORE",
+      "semantic_type": "FullLedger",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "M126_MATTER_CAPACITY": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "retained_matter_capacity"
+      ],
+      "entity_id": "M126_MATTER_CAPACITY",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 126,
+      "semantic_scope": "CORE",
+      "semantic_type": "MatterCapacity",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "N144_NATIVE_CLOSURE": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "native_closure"
+      ],
+      "entity_id": "N144_NATIVE_CLOSURE",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 144,
+      "semantic_scope": "CORE",
+      "semantic_type": "NativeClosure",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "P1_LIFT_BEARING_SUPPORT": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "lift_bearing_support",
+        "scalar_one_support"
+      ],
+      "entity_id": "P1_LIFT_BEARING_SUPPORT",
+      "ledger_role": "support",
+      "metadata": {
+        "historical_alias": "SCALAR_ONE_SUPPORT",
+        "lift_excess": "1/144",
+        "lifted_value": "145/144"
+      },
+      "scalar_value": 1,
+      "semantic_scope": "CORE",
+      "semantic_type": "LiftBearingSupport",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "P80_PARTICLE_FACE_CONTENT": {
+      "authority": {
+        "note": "CR283 edge inherited as structural only",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "STRUCTURAL_ONLY"
+      },
+      "contextual_roles": [
+        "particle_face_content"
+      ],
+      "entity_id": "P80_PARTICLE_FACE_CONTENT",
+      "ledger_role": "matter_capacity_not_particle_row",
+      "metadata": {},
+      "scalar_value": 80,
+      "semantic_scope": "CORE",
+      "semantic_type": "ParticleFaceContent",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_A_FIELD_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_A_FIELD_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "A_FIELD_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_COLOR_OWNER_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_COLOR_OWNER_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "COLOR_OWNER_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_NEUTRAL_VECTOR_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_NEUTRAL_VECTOR_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "NEUTRAL_VECTOR_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_ROAD_LIGHT_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_ROAD_LIGHT_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "ROAD_LIGHT_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_TENSOR_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_TENSOR_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "TENSOR_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CARRIER_WEAK_VECTOR_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_carrier_terminal_name"
+      ],
+      "entity_id": "QP_CARRIER_WEAK_VECTOR_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "WEAK_VECTOR_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPCarrierTerminalName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_DIRECT_QA_AS_MASS": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_DIRECT_QA_AS_MASS",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "DIRECT_QA_AS_MASS"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_FAKE_PARENT_NO_CLOSED_LOOP": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_FAKE_PARENT_NO_CLOSED_LOOP",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "FAKE_PARENT_NO_CLOSED_LOOP"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_NEAREST_KNOWN_PARTICLE_MATCH": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_NEAREST_KNOWN_PARTICLE_MATCH",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "NEAREST_KNOWN_PARTICLE_MATCH"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_OPEN_COLOR_NO_OWNER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_OPEN_COLOR_NO_OWNER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "OPEN_COLOR_NO_OWNER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_PROMOTE_TENSOR_CARRIER": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_PROMOTE_TENSOR_CARRIER",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "PROMOTE_TENSOR_CARRIER"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_RANDOM_ROUTE_CLOSURE": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_RANDOM_ROUTE_CLOSURE",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "RANDOM_ROUTE_CLOSURE"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_SKIP_LEDGER_COMPRESSION": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_SKIP_LEDGER_COMPRESSION",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "SKIP_LEDGER_COMPRESSION"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_CONTROL_SURFACE_STACK_DISABLED": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_control_name"
+      ],
+      "entity_id": "QP_CONTROL_SURFACE_STACK_DISABLED",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "SURFACE_STACK_DISABLED"
+      },
+      "scalar_value": null,
+      "semantic_scope": "REJECTED_CONTROL",
+      "semantic_type": "QPControlName",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_D0": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_closure_depth"
+      ],
+      "entity_id": "QP_D0",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": 0
+      },
+      "scalar_value": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPDepth",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_D1": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_closure_depth"
+      ],
+      "entity_id": "QP_D1",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": 1
+      },
+      "scalar_value": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPDepth",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_D2": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_closure_depth"
+      ],
+      "entity_id": "QP_D2",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": 2
+      },
+      "scalar_value": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPDepth",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P1": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P1",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 1
+      },
+      "scalar_value": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P12": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P12",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 12
+      },
+      "scalar_value": {
+        "decimal": 12.0,
+        "exact": "12"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P2": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P2",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 2
+      },
+      "scalar_value": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P3": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P3",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 3
+      },
+      "scalar_value": {
+        "decimal": 3.0,
+        "exact": "3"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P4": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P4",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 4
+      },
+      "scalar_value": {
+        "decimal": 4.0,
+        "exact": "4"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P6": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P6",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 6
+      },
+      "scalar_value": {
+        "decimal": 6.0,
+        "exact": "6"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P8": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P8",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 8
+      },
+      "scalar_value": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_P9": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_partition_label"
+      ],
+      "entity_id": "QP_P9",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "domain": "QP_PARTITION_ALPHABET",
+        "qp_value": 9
+      },
+      "scalar_value": {
+        "decimal": 9.0,
+        "exact": "9"
+      },
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPPartitionLabel",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_ROUTE_MINUS": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_route_mode"
+      ],
+      "entity_id": "QP_ROUTE_MINUS",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "minus"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPRouteMode",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_ROUTE_NEUTRAL": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_route_mode"
+      ],
+      "entity_id": "QP_ROUTE_NEUTRAL",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "neutral"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPRouteMode",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "QP_ROUTE_PLUS": {
+      "authority": {
+        "note": "Finite theorem-grade structural grammar; physical formation remains open",
+        "source": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "qp_route_mode"
+      ],
+      "entity_id": "QP_ROUTE_PLUS",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "qp_value": "plus"
+      },
+      "scalar_value": null,
+      "semantic_scope": "STRUCTURAL_GRAMMAR",
+      "semantic_type": "QPRouteMode",
+      "sources": [
+        {
+          "path": "SAM_LANGUAGE_QP_PARTICLE_GRAMMAR_V1_FROZEN/registry/QP_GRAMMAR_CONTRACT.json",
+          "sha256": "a3376a5b2f4f093eff3e40eea792423c97fd3f3d8418051539b505455b267c2a",
+          "source_key": "qp_grammar_contract"
+        }
+      ]
+    },
+    "R12_CLOSURE_RADIUS": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "closure_radius"
+      ],
+      "entity_id": "R12_CLOSURE_RADIUS",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 12,
+      "semantic_scope": "CORE",
+      "semantic_type": "ClosureRadius",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "S8_BINARY_SURFACE": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "binary_sign_state_surface",
+        "cross_polytope_facet_surface",
+        "release_split_surface"
+      ],
+      "entity_id": "S8_BINARY_SURFACE",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 8,
+      "semantic_scope": "CORE",
+      "semantic_type": "BinarySurface",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "SUPPORT12": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "support_scalar_twelve"
+      ],
+      "entity_id": "SUPPORT12",
+      "ledger_role": "support",
+      "metadata": {},
+      "scalar_value": 12,
+      "semantic_scope": "CORE",
+      "semantic_type": "Support",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "SUPPORT8": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "support_scalar_eight"
+      ],
+      "entity_id": "SUPPORT8",
+      "ledger_role": "support",
+      "metadata": {},
+      "scalar_value": 8,
+      "semantic_scope": "CORE",
+      "semantic_type": "Support",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "SUPPORT9": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "support_scalar_nine"
+      ],
+      "entity_id": "SUPPORT9",
+      "ledger_role": "support",
+      "metadata": {},
+      "scalar_value": 9,
+      "semantic_scope": "CORE",
+      "semantic_type": "Support",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "THETA18_NATIVE_BUDGET": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "native_closure_budget"
+      ],
+      "entity_id": "THETA18_NATIVE_BUDGET",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 18,
+      "semantic_scope": "CORE",
+      "semantic_type": "NativeClosureBudget",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "V27_VOLUME_CONTAINER": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "volume_container"
+      ],
+      "entity_id": "V27_VOLUME_CONTAINER",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 27,
+      "semantic_scope": "CORE",
+      "semantic_type": "VolumeContainer",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "W9_CLOSURE_WITNESS": {
+      "authority": {
+        "note": "",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "resolved_closure_witness"
+      ],
+      "entity_id": "W9_CLOSURE_WITNESS",
+      "ledger_role": "non_ledger",
+      "metadata": {},
+      "scalar_value": 9,
+      "semantic_scope": "CORE",
+      "semantic_type": "ClosureWitness",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    },
+    "X1_AXIS_SELF_CHANNEL": {
+      "authority": {
+        "note": "CR267 axis-self / axis-fee channel retained through CR119",
+        "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+        "status": "ACTIVE"
+      },
+      "contextual_roles": [
+        "axis_self_coupling",
+        "axis_fee"
+      ],
+      "entity_id": "X1_AXIS_SELF_CHANNEL",
+      "ledger_role": "non_ledger",
+      "metadata": {
+        "lift": "NOT_APPLICABLE",
+        "operator": false
+      },
+      "scalar_value": 1,
+      "semantic_scope": "CORE",
+      "semantic_type": "AxisChannel",
+      "sources": [
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ]
+    }
+  }
+}

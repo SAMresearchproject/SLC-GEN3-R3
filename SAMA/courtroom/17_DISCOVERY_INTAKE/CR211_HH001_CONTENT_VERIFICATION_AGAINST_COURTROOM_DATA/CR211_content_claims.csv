@@ -1,0 +1,23 @@
+item,hh_source,courtroom_source,status,observed,expected,note
+HH001 source files resolve,HH001 source tree,CR211 input manifest,MATCH,24,24,all declared sources must exist
+HH001 PDF readback,HH001_fano_plates_126.pdf,pypdf text/page readback,MATCH,11 pages,11 pages,PDF is present and readable
+R/D face-state partition,HH001 theorem note,CR113/CR114/CR115,MATCH,R=12;D=3;cells=18+126,R=12;D=3;18+126,Courtroom theorem inputs reproduce HH001 address count
+Fano line closure,HH001 F_2^3 channel map,CR211 recompute using D=3 face states,MATCH,7/7,7/7,seven nonzero addresses XOR to 000 on the listed lines
+HH001 126x7 table rows,HH001_SIS_126x7_table.csv,CR119 periodic rows,MATCH,126,126,row count and Z coverage check
+HH001 8-column table rows,HH001_SIS_8col_final.csv,CR119 periodic rows,MATCH,126,126,row count and Z coverage check
+PARTICLE column,HH001_SIS_126x7/8col,CR119 proton+electron+neutron counts,MATCH,126/126,126/126,row-by-row Courtroom-backed column
+ELEMENT column,HH001_SIS_126x7/8col,CR119 Z,MATCH,126/126,126/126,row-by-row Courtroom-backed column
+symbol/name labels,HH001_SIS_126x7/8col,CR119 downstream known/frontier labels,MATCH,126/126,126/126,frontier rows use Z119-Z126 / SAM frontier
+GRAVITY column,HH001_SIS_126x7/8col,CR119 qA_total_primary,MATCH,126/126,126/126,rounded to 1e-6
+GRAVITON column,HH001_SIS_8col_final.csv,CR119 tensor_carrier_support_primary,MATCH,126/126,126/126,rounded to 1e-6
+GRAVITON = GRAVITY/8,HH001_SIS_8col_final.csv,CR119 qA/8 split,MATCH,126/126,126/126,carrier split agrees row by row
+MATTER column,HH001_SIS_126x7/8col,no Courtroom-native 126-row atomic-weight source found,REFERENCE_NOT_COURTROOM_DATA,118,118 populated + 8 frontier dashes,embedded standard atomic-weight table in HH001 builder
+CLOCK column,HH001_SIS_126x7/8col,no complete Courtroom-native 126-row stability source found,REFERENCE_NOT_COURTROOM_DATA,118,118 populated + 8 frontier dashes,embedded stability rule in HH001 builder
+LIGHT column,HH001_SIS_126x7/8col,no Courtroom-native emission-line source found,REFERENCE_NOT_COURTROOM_DATA,91,source-dependent subset,embedded wavelength table in HH001 builder
+ACTION column,HH001_SIS_126x7/8col,no Courtroom-native 126-row nuclear-spin source found,REFERENCE_NOT_COURTROOM_DATA,102,102 populated + 24 dashes,embedded nuclear-spin table in HH001 builder
+ACTION residual diagnostic,HH001_SIS_action_residual.csv,CR211 recompute count from HH diagnostic table,FALSIFIED_DIAGNOSTIC_PRESERVED,1/102,1/102,do not promote as closed
+binary XOR diagnostics,HH001_SIS_binary_v2/v22.csv,CR211 diagnostic count,FALSIFIED_DIAGNOSTIC_PRESERVED,7/102; 7/102,7/102; 7/102,do not promote as closed
+six-channel signatures,HH001_6channel_signatures.csv,CR211 diagnostic count,DIAGNOSTIC_ONLY,XOR 101/126; SUM 120/126,101/126; 120/126,not a full uniqueness proof
+known labels construction role,HH001/CR119 table bridge,CR119 known_label_used_as_construction_input,MATCH,"{""no"": 126}",{'no': 126},known labels remain downstream only
+Z119-Z126 frontier rows,HH001 frontier rows,CR119 known_label_status,MATCH,8,8,frontier boundary preserved
+Higgs closed-form reference,HH001 126 surface context,LC02,MATCH,H_native=126;H_reveal=125.250000000000000000000000000000,H_native=126;H_reveal=125.25,"Higgs mass language belongs to LC02, while HH001 table verifies the 126 retained surface"

@@ -1,0 +1,49 @@
+{
+  "record_id": "CR210b_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "base_runner_path": "C:\\VS\\The_Courtroom\\15_SCALE_BRIDGE_SIMULATOR\\CR210a_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER\\CR210a_runner.py",
+  "base_runner_sha256": "094d39be033db8dfe7bd1b78c845abf8839dbba1f36b31987af3d3bfb7616d1a",
+  "transformed_in_memory_sha256": "08f8c318bc1f720c1b8ac6ed7e9d3d8e7c356c9e66c562649464e0b37e1addbe",
+  "substitutions": [
+    {
+      "kind": "successor_identity",
+      "occurrences": 42,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "successor_source_manifest_hash",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "successor_premises_hash",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "successor_precommit_hash",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "successor_source_count_gate",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "successor_source_count_display",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    },
+    {
+      "kind": "set_safe_check_display_serializer",
+      "occurrences": 1,
+      "scientific_algorithm_change": false
+    }
+  ],
+  "scientific_candidate_changed": false,
+  "predictions_changed": false,
+  "controls_changed": false,
+  "firewall_changed": false,
+  "verdict_ceiling_changed_except_successor_prefix": false,
+  "transformed_source_persisted": false
+}

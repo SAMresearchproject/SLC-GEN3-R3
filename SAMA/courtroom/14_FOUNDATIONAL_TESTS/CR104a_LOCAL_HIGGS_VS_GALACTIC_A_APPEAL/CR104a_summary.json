@@ -1,0 +1,24 @@
+{
+  "cr_id": "CR104a",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "APPEAL_LAYER_4_STRUCTURAL_LOCK_LOCAL_HIGGS_BINDING_VS_GALACTIC_A_ACCUMULATION",
+  "execution_status": "CLEAN",
+  "result_class": "LAYER_4_LOCAL_HIGGS_VS_GALACTIC_A_STRUCTURAL_INSIGHT_LOCKED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "appeal_target_cr": "CR104",
+  "appeal_target_verdict_unmodified": "PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+  "layer_4a_locked_verbatim_sha256": "3ec97aae8af77e31ec75ac4b2b4d444642189cc9c85bde8ed96dbf7bf530d75d",
+  "layer_4b_locked_verbatim_sha256": "a920f2748fc8fe98ffe2785bcb47c684df0268ae9dc0d45515220971a3b51c83",
+  "forward_blind_predictions_count": 4,
+  "upstream_verification_count": 7,
+  "prediction_commit_sha256": "0127b25c52b093921ddc78c03914b0f72f3680b22272917e4279f3dde34009dd",
+  "prediction_commit_utc": "2026-06-13T23:34:30Z",
+  "appeal_lock_sha256": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "Upstream G732c/G736c/G737c citation_verification_status PENDING",
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "Direct DM detection null results consistent so far; positive result would falsify SAM halo reading",
+    "LIGO/Virgo NS-BH merger waveform analysis at local A ~ 11/12 not yet performed"
+  ]
+}

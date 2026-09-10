@@ -1,0 +1,23 @@
+{
+  "constants_locked": true,
+  "Z_break_equals_96": true,
+  "first_post_boundary_Z_equals_97": true,
+  "SAM_prediction_rows_equal_126": true,
+  "audit_Z84_passed": true,
+  "audit_Z96_passed": true,
+  "audit_Z97_passed": true,
+  "audit_Z108_passed": true,
+  "audit_Z118_passed": true,
+  "audit_Z119_passed": true,
+  "audit_Z120_passed": true,
+  "audit_Z121_passed": true,
+  "external_table_loaded": true,
+  "external_anchor_rows_created": true,
+  "primary_pre_window_count_at_least_10": true,
+  "primary_post_window_count_at_least_10": true,
+  "random_boundary_controls_completed": true,
+  "changepoint_scan_completed": true,
+  "wrong_controls_completed": true,
+  "no_boundary_relocation": true,
+  "no_post_reveal_tuning": true
+}

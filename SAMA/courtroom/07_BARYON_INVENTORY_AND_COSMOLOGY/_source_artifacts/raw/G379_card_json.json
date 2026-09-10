@@ -1,0 +1,126 @@
+﻿{
+  "cards": [
+    {
+      "A0": 0.026525823848649224,
+      "As": 2.100549e-09,
+      "D": 3,
+      "H0": 67.36,
+      "Omega_b": 0.049299011266100756,
+      "Omega_m_eff": 0.3137609155690572,
+      "R": 12,
+      "card_sha256": "d1060a09eaaaa4cb5799aeee9ce31bf8c8b9918ae9da22e54a6f23dd74793612",
+      "chi": 0.07073553026306459,
+      "density_closure_residual": 0.0,
+      "engine": "CAMB",
+      "h": 0.6736,
+      "lane": "primary_planck_side",
+      "lane_status": "PRIMARY_SAM_BACKGROUND",
+      "lmax": 2500,
+      "mnu": 0.06,
+      "nnu": 3.046,
+      "ns": 0.9649,
+      "num_massive_neutrinos": 1,
+      "omega_b_h2": 0.022368783502886305,
+      "omega_cdm_h2_for_camb": 0.11935194895461661,
+      "omega_m_total_h2": 0.1423649239971207,
+      "omega_nu_h2": 0.0006441915396177796,
+      "omk": 0.0,
+      "tau": 0.0544
+    },
+    {
+      "A0": 0.026525823848649224,
+      "As": 2.100549e-09,
+      "D": 3,
+      "H0": 67.904210097,
+      "Omega_b": 0.049299011266100756,
+      "Omega_m_eff": 0.3137609155690572,
+      "R": 12,
+      "card_sha256": "b974ec295ca0a5a814e10df28cdc7250c114e5ceb62f41642711ba5ffabe48c8",
+      "chi": 0.07073553026306459,
+      "density_closure_residual": 0.0,
+      "engine": "CAMB",
+      "h": 0.6790421009700001,
+      "lane": "boundary_theta_exact_analytic",
+      "lane_status": "BOUNDARY_DIAGNOSTIC",
+      "lmax": 2500,
+      "mnu": 0.06,
+      "nnu": 3.046,
+      "ns": 0.9649,
+      "num_massive_neutrinos": 1,
+      "omega_b_h2": 0.02273168411866837,
+      "omega_cdm_h2_for_camb": 0.12129870986234363,
+      "omega_m_total_h2": 0.14467458552062978,
+      "omega_nu_h2": 0.0006441915396177796,
+      "omk": 0.0,
+      "tau": 0.0544
+    },
+    {
+      "A0": 0.026525823848649224,
+      "As": 2.100549e-09,
+      "D": 3,
+      "H0": 73.04,
+      "Omega_b": 0.049299011266100756,
+      "Omega_m_eff": 0.3137609155690572,
+      "R": 12,
+      "card_sha256": "2644c9c9b30b7c062b6a9bb1818c2d8d2f1cc50965d412cb608361fb546fcc4c",
+      "chi": 0.07073553026306459,
+      "density_closure_residual": 0.0,
+      "engine": "CAMB",
+      "h": 0.7304,
+      "lane": "wrong_control_local_ladder",
+      "lane_status": "WRONG_CONTROL",
+      "lmax": 2500,
+      "mnu": 0.06,
+      "nnu": 3.046,
+      "ns": 0.9649,
+      "num_massive_neutrinos": 1,
+      "omega_b_h2": 0.026300241614126304,
+      "omega_cdm_h2_for_camb": 0.14044204532944535,
+      "omega_m_total_h2": 0.16738647848318944,
+      "omega_nu_h2": 0.0006441915396177796,
+      "omk": 0.0,
+      "tau": 0.0544
+    }
+  ],
+  "created_utc": "2026-06-01T07:41:22.109353+00:00",
+  "fixed_sam_background": {
+    "A0": 0.026525823848649224,
+    "D": 3,
+    "Omega_b": 0.049299011266100756,
+    "Omega_m_eff": 0.3137609155690572,
+    "R": 12,
+    "chi": 0.07073553026306459
+  },
+  "imported_perturbations": {
+    "As": {
+      "status": "IMPORTED_PLANCK_REFERENCE",
+      "value": 2.100549e-09
+    },
+    "YHe": {
+      "status": "CAMB_BBN_DEFAULT",
+      "value": null
+    },
+    "mnu": {
+      "status": "STANDARD_IMPORTED",
+      "value": 0.06
+    },
+    "nnu": {
+      "status": "STANDARD_IMPORTED",
+      "value": 3.046
+    },
+    "ns": {
+      "status": "IMPORTED_PLANCK_REFERENCE",
+      "value": 0.9649
+    },
+    "num_massive_neutrinos": {
+      "status": "STANDARD_IMPORTED",
+      "value": 1
+    },
+    "tau": {
+      "status": "IMPORTED_PLANCK_REFERENCE",
+      "value": 0.0544
+    }
+  },
+  "test_id": "G379",
+  "test_name": "SAM_CMB_PARAMETER_CARD_FREEZE"
+}

@@ -1,0 +1,12 @@
+{
+  "cr_id": "CR071",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PRE_REGISTERED_PREDICTION",
+  "triage_bin": "B",
+  "reason": "Z=97..118 frontier band sealed: 22 qp068 island ZNA rows + 38 broader-band sealed rows; permanent verdict (never overwritten); appeals via M3 channel",
+  "captured_at_utc": "2026-06-13T07:57:57Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "frontier_map_sealed": true,
+  "permanent_record": true
+}

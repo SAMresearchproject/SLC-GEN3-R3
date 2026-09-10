@@ -1,0 +1,25 @@
+{
+  "row_count": 3,
+  "within_bound_count": 3,
+  "fail_count": 0,
+  "rows": [
+    {
+      "symbol": "nu_e",
+      "predicted_MeV": 1.9197050369e-08,
+      "upper_bound_MeV": 2e-06,
+      "verdict": "BOUNDARY_ROW_LEVEL_WITHIN_PDG_UPPER_BOUND"
+    },
+    {
+      "symbol": "nu_mu",
+      "predicted_MeV": 3.9905779545e-06,
+      "upper_bound_MeV": 0.19,
+      "verdict": "BOUNDARY_ROW_LEVEL_WITHIN_PDG_UPPER_BOUND"
+    },
+    {
+      "symbol": "nu_tau",
+      "predicted_MeV": 6.634499517e-05,
+      "upper_bound_MeV": 18.2,
+      "verdict": "BOUNDARY_ROW_LEVEL_WITHIN_PDG_UPPER_BOUND"
+    }
+  ]
+}

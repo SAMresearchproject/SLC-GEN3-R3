@@ -1,0 +1,30 @@
+{
+  "artifact": "LATEST_PARTICLE_MATTER_PERIODIC_TABLES_CSV_EXPORT",
+  "generated_at_utc": "2026-06-15T15:52:26.964873+00:00",
+  "execution_status": "CLEAN",
+  "particle_source_result": "DISCOVERY_QP093A_STABLE_SAM_PARTICLE_COMBINATION_ENUMERATOR__FINITE_CATALOG_EMITTED__KNOWN_LABELS_DOWNSTREAM_ONLY__CARRIER_NOT_PROMOTED__STABILITY_SELECTOR_OPEN",
+  "matter_boundary_source_result": "PASS_QP093B_NULL_CONJUGATE_CLOSURE_BOUNDARY__CLOSED_ROUTE_WITH_M_NATIVE_EQUALS_S_DEBIT_18__ZERO_REVEAL_ZERO_QA__MATTER_PROMOTION_REJECTED",
+  "periodic_source_result": "DISCOVERY_QP094A_ELEMENT_ISOTOPE_CLOSURE_GENERATOR__FINITE_TWO_LEVEL_CATALOG_EMITTED__126_NATIVE_Z_FAMILIES__KNOWN_LABELS_DOWNSTREAM_ONLY__STABILITY_SELECTOR_OPEN",
+  "particle_table_rows": 321,
+  "matter_table_rows": 126,
+  "periodic_table_rows": 126,
+  "matter_table_breakdown": {
+    "stable_single_write_matter": 63,
+    "bound_composite_matter": 63,
+    "antimatter_excluded": true,
+    "null_conjugate_override_applied": "QP093A-0088"
+  },
+  "periodic_table_scope": "SAM_NATIVE_126_ELEMENT_FAMILY",
+  "known_z_downstream": 118,
+  "frontier_z_unknown": 8,
+  "csv_role": "display_and_interchange",
+  "precision_policy": "source decimal strings preserved",
+  "outputs": {
+    "particle_table": "artifacts\\latest_particle_matter_periodic_tables\\latest_particle_table.csv",
+    "matter_table": "artifacts\\latest_particle_matter_periodic_tables\\latest_matter_table.csv",
+    "periodic_table": "artifacts\\latest_particle_matter_periodic_tables\\latest_periodic_table.csv",
+    "counts": "artifacts\\latest_particle_matter_periodic_tables\\latest_table_counts.csv",
+    "source_manifest": "artifacts\\latest_particle_matter_periodic_tables\\latest_table_source_manifest.csv"
+  },
+  "hash_sidecars_emitted": 6
+}

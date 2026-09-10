@@ -1,0 +1,8 @@
+observable,available,authority,use
+stage_order,True,FROZEN_THREE_STAGE_RECORD,distinguish returned 101 from ending-zero histories
+affine_local_release_coordinate,True,DIAGNOSTIC_INTERPOLATION,local contact exit only; not physical tau
+affine_local_return_coordinate,True,DIAGNOSTIC_INTERPOLATION,same-pair return only; not independent event closure
+physical_or_solver_clock,False,ABSENT,required for tau
+independent_home_seal_state,False,ABSENT,required event closure
+independent_release_surface,False,ABSENT,0.076 remains a local contact radius
+escape_before_independent_closure,False,NOT_IDENTIFIABLE,future bridge gate

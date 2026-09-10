@@ -1,0 +1,197 @@
+{
+  "cr_id": "CR279",
+  "record": "HIGGS_DIRECT_WELD_PROMOTION",
+  "generated_utc": "2026-07-11T08:21:53+00:00",
+  "precommit_sha256": "3e03008ebebf1a1597646b92124b1fef4febda560cc978a874dcefe6ece23ec7",
+  "source_hash_validation": [
+    {
+      "id": "G439_output",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G439_HEAVY_ELECTROWEAK_TOP_SLOT_SELECTOR/G439_output.json",
+      "expected_sha256": "3e499706868b10d4cc4a2b7ecb7c50a494871fec94ae9efb5aed70a6e6cd72cc",
+      "actual_sha256": "3e499706868b10d4cc4a2b7ecb7c50a494871fec94ae9efb5aed70a6e6cd72cc",
+      "pass": true
+    },
+    {
+      "id": "G439_runner_source",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G439_HEAVY_ELECTROWEAK_TOP_SLOT_SELECTOR/G439_HEAVY_ELECTROWEAK_TOP_SLOT_SELECTOR.py",
+      "expected_sha256": "279d86de713447607e7f390857bdc3e373480b75b250ccd9287e4771c0e960b5",
+      "actual_sha256": "279d86de713447607e7f390857bdc3e373480b75b250ccd9287e4771c0e960b5",
+      "pass": true
+    },
+    {
+      "id": "G444_output",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G444_WRITE_SECTOR_Q_SLOT_DERIVATION/G444_output.json",
+      "expected_sha256": "96ca5b74cdbb249e8e6128531e202e485932a70621250df3df9c69b584a7fb90",
+      "actual_sha256": "96ca5b74cdbb249e8e6128531e202e485932a70621250df3df9c69b584a7fb90",
+      "pass": true
+    },
+    {
+      "id": "G444_runner_source",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G444_WRITE_SECTOR_Q_SLOT_DERIVATION/G444_WRITE_SECTOR_Q_SLOT_DERIVATION.py",
+      "expected_sha256": "aa702ff6a2bd4e236ccec30d12050a450f9ba69fbbedef8d32f81d9e442b7863",
+      "actual_sha256": "aa702ff6a2bd4e236ccec30d12050a450f9ba69fbbedef8d32f81d9e442b7863",
+      "pass": true
+    },
+    {
+      "id": "G744c_output",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G744c_Q_A_SOURCE_STRENGTH_BRIDGE/G744c_output.json",
+      "expected_sha256": "5d3ad959d780012190493e661658dc8280c981237c4b9c8adbb128900fde2c1d",
+      "actual_sha256": "5d3ad959d780012190493e661658dc8280c981237c4b9c8adbb128900fde2c1d",
+      "pass": true
+    },
+    {
+      "id": "G744c_runner_source",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G744c_Q_A_SOURCE_STRENGTH_BRIDGE/G744c_Q_A_SOURCE_STRENGTH_BRIDGE.py",
+      "expected_sha256": "055829fc7ed42296bed4adff456890fbce7f9b9a3db0b34f385a07d8ec5fcaed",
+      "actual_sha256": "055829fc7ed42296bed4adff456890fbce7f9b9a3db0b34f385a07d8ec5fcaed",
+      "pass": true
+    },
+    {
+      "id": "G745c_output",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE/G745c_output.json",
+      "expected_sha256": "6957514aa88104d22fb870004b51361a1fe201fb4617beb224c01209c352ca21",
+      "actual_sha256": "6957514aa88104d22fb870004b51361a1fe201fb4617beb224c01209c352ca21",
+      "pass": true
+    },
+    {
+      "id": "G745c_runner_source",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE/G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE.py",
+      "expected_sha256": "e1b8559dfb06aa19f8dfa614f7d0ab205d61a4f314e8ed02106985caa12208da",
+      "actual_sha256": "e1b8559dfb06aa19f8dfa614f7d0ab205d61a4f314e8ed02106985caa12208da",
+      "pass": true
+    },
+    {
+      "id": "G748c_precommit",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_PRECOMMIT.md",
+      "expected_sha256": "d31e6dc0c3e5cf889947d3753af5d390e1f6b0e54f6b000753a6e214f5a4f195",
+      "actual_sha256": "d31e6dc0c3e5cf889947d3753af5d390e1f6b0e54f6b000753a6e214f5a4f195",
+      "pass": true
+    },
+    {
+      "id": "G748c_runner",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_runner.py",
+      "expected_sha256": "3520898c9abd2b5679b805378f5b07b4be86daa7878da2f49c413afa9afce3cf",
+      "actual_sha256": "3520898c9abd2b5679b805378f5b07b4be86daa7878da2f49c413afa9afce3cf",
+      "pass": true
+    },
+    {
+      "id": "G748c_summary",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_summary.json",
+      "expected_sha256": "244d7f04ba1ec74f5ea4041d7fe1a059764f0aec6e90f63b613842965fe63270",
+      "actual_sha256": "244d7f04ba1ec74f5ea4041d7fe1a059764f0aec6e90f63b613842965fe63270",
+      "pass": true
+    },
+    {
+      "id": "G748c_result",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_result.md",
+      "expected_sha256": "22ed3cf38618dca38e6ada1437fba3ba24913d90cc480bb66827388a0057a64a",
+      "actual_sha256": "22ed3cf38618dca38e6ada1437fba3ba24913d90cc480bb66827388a0057a64a",
+      "pass": true
+    },
+    {
+      "id": "G748c_provenance",
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_provenance.json",
+      "expected_sha256": "0d5ec5bb3bd5b22ad1370c3b0ad3eaa9978fae5b829f44e830c30cae8bde066d",
+      "actual_sha256": "0d5ec5bb3bd5b22ad1370c3b0ad3eaa9978fae5b829f44e830c30cae8bde066d",
+      "pass": true
+    },
+    {
+      "id": "CR120_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE/CR120_summary.json",
+      "expected_sha256": "887f9ca58dde323f1c0a53cd1c05e3f3a6be6cf1315f3b32c9419799cb726179",
+      "actual_sha256": "887f9ca58dde323f1c0a53cd1c05e3f3a6be6cf1315f3b32c9419799cb726179",
+      "pass": true
+    },
+    {
+      "id": "CR120_result",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE/CR120_result.md",
+      "expected_sha256": "5f01ecc521850597af164345d7e9d60fd6709e23bb44eb5a76823e010b170bde",
+      "actual_sha256": "5f01ecc521850597af164345d7e9d60fd6709e23bb44eb5a76823e010b170bde",
+      "pass": true
+    }
+  ],
+  "g748c_source_contracts": [
+    {
+      "details": {
+        "citation": "tests/Substrate/G439_HEAVY_ELECTROWEAK_TOP_SLOT_SELECTOR/G439_HEAVY_ELECTROWEAK_TOP_SLOT_SELECTOR.py:94-100",
+        "expr": "k=su3-u1, n=n0-(su3+u1), q=su2",
+        "q": 3,
+        "role": "Higgs scalar slot"
+      },
+      "name": "G439_Higgs_role_q_contract",
+      "pass": true
+    },
+    {
+      "details": {
+        "citation": "tests/Substrate/G444_WRITE_SECTOR_Q_SLOT_DERIVATION/G444_WRITE_SECTOR_Q_SLOT_DERIVATION.py:92-100,106-118,181-190,338-352",
+        "higgs_derived_q": 3,
+        "higgs_q_expr": "+weak_triplet",
+        "weak_triplet": 3
+      },
+      "name": "G444_weak_triplet_q_derivation_contract",
+      "pass": true
+    },
+    {
+      "details": {
+        "citation": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR120_QP091_HIGGS_EW_PRECISION_ITERATIVE_REFINEMENT_INTAKE/CR120_result.md:25-41,65-73,81-89",
+        "cr_id": "CR120",
+        "result_class": "CR120_QP091_CHAIN_INTAKE_BOUNDARY__HIGGS_125_25_PDG_MATCH__STRUCTURAL_NATIVE_126_PREDATES_VALUE__CORRECTION_FORM_IDENTIFIED_EX_POST__FORWARD_BLIND_PRECOMMIT_REQUIRED"
+      },
+      "name": "CR120_Higgs_bounce_bridge_boundary_contract",
+      "pass": true
+    },
+    {
+      "details": {
+        "citation": "tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G744c_Q_A_SOURCE_STRENGTH_BRIDGE/G744c_Q_A_SOURCE_STRENGTH_BRIDGE.py:1-14,29-33,72-89,123-130,379-389",
+        "constants": {
+          "A0": 0.026525823848649224,
+          "A_half": 0.013262911924324612,
+          "D": 3,
+          "alpha_H": 2,
+          "slot_denominator_2_to_D": 8
+        },
+        "verdict": "G744c_Q_A_SOURCE_STRENGTH_BRIDGE_PASS"
+      },
+      "name": "G744c_Form_A_source_strength_contract",
+      "pass": true
+    },
+    {
+      "details": {
+        "citation": "tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE/G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE.py:39-51,82-87,138-145,194-205",
+        "constants": {
+          "A0": 0.026525823848649224,
+          "D": 3,
+          "R": 12,
+          "alpha_H": 2,
+          "alpha_em": 0.0072973525693,
+          "nine_over_eight": 1.125,
+          "nine_over_sixteen": 0.5625
+        },
+        "m_H_native_MeV": 125077.36096514532,
+        "verdict": "G745c_HIGGS_NINE_SIXTEENTHS_SCALAR_ROUTE_PASS"
+      },
+      "name": "G745c_Higgs_scalar_route_contract",
+      "pass": true
+    },
+    {
+      "details": {
+        "citation": "tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/CAMPAIGN_BRIEF.md:274-295"
+      },
+      "name": "G748c_brief_scope_contract",
+      "pass": true
+    }
+  ],
+  "forbidden_inputs": {
+    "D2_over_R_used_as_origin": false,
+    "measured_Higgs_mass_used": false,
+    "new_Higgs_specific_operator": false,
+    "residual_used_to_choose_candidate": false
+  },
+  "legal_composition": {
+    "bounce_route": "CR120/G744c r_bounce=(A0/2)*(q/2^D)",
+    "mass_route": "G745c m_H = m_Planck * A0^(D+1) * alpha_em^(D+alpha_H)",
+    "q_route": "G439 Higgs q=su2 plus G444 weak_triplet=3",
+    "source_strength_route": "G744c Form A q_A=m*(1+r_bounce)"
+  },
+  "no_existing_artifact_modified": true
+}

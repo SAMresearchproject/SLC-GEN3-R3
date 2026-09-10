@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Phase5 isotope table hash mismatch,FAIL,True,True,hash mismatch detection wired
+WC2,Engine-surface IAEA roster read in qp053,FAIL,True,True,iaea pattern match wired
+WC3,Broken vault-chain next_frontier,FAIL,True,True,empty next_frontier detection wired
+WC4,qp050 cross-branch hash divergence,FAIL,True,True,cross-branch divergence detection wired
+WC5,CR065 manifest seal corruption,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,QP060/QP061 sealed prediction hash mismatch,FAIL,True,True,sealed prediction hash mismatch detection wired

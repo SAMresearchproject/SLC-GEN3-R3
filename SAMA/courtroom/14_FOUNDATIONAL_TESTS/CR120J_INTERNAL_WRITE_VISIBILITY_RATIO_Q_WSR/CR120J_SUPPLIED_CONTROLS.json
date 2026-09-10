@@ -1,0 +1,403 @@
+{
+  "H_INVERSE": {
+    "A_visible_state_budget": 0,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {},
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e1": 1
+        },
+        "snapshot": {
+          "e1": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e1": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e1": -1
+        },
+        "snapshot": {},
+        "update_index": 2,
+        "write_input": {
+          "e1": -1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_INVERSE",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e1": 1
+      },
+      {
+        "e1": -1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": null,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "CANCELED_NONEMPTY",
+    "terminal_input": {
+      "e1": -1
+    }
+  },
+  "H_ORDER_A": {
+    "A_visible_state_budget": 2,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {
+      "e1": 1,
+      "e2": 1
+    },
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e1": 1
+        },
+        "snapshot": {
+          "e1": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e1": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e1": 1,
+          "e2": 1
+        },
+        "update_index": 2,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_ORDER_A",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e1": 1
+      },
+      {
+        "e2": 1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": 1,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "DEFINED",
+    "terminal_input": {
+      "e2": 1
+    }
+  },
+  "H_ORDER_B": {
+    "A_visible_state_budget": 2,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {
+      "e1": 1,
+      "e2": 1
+    },
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e2": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e1": 1
+        },
+        "snapshot": {
+          "e1": 1,
+          "e2": 1
+        },
+        "update_index": 2,
+        "write_input": {
+          "e1": 1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_ORDER_B",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e2": 1
+      },
+      {
+        "e1": 1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": 1,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "DEFINED",
+    "terminal_input": {
+      "e1": 1
+    }
+  },
+  "H_OVERWRITE": {
+    "A_visible_state_budget": 2,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {
+      "e1": 1,
+      "e2": 1
+    },
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e1": 1
+        },
+        "snapshot": {
+          "e1": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e1": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e1": 1,
+          "e2": 1
+        },
+        "update_index": 2,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_OVERWRITE",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e1": 1
+      },
+      {
+        "e2": 1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": 1,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "DEFINED",
+    "terminal_input": {
+      "e2": 1
+    }
+  },
+  "H_TERMINAL_A": {
+    "A_visible_state_budget": 2,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {
+      "e1": 1,
+      "e2": 1
+    },
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e1": 1
+        },
+        "snapshot": {
+          "e1": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e1": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e1": 1,
+          "e2": 1
+        },
+        "update_index": 2,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_TERMINAL_A",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e1": 1
+      },
+      {
+        "e2": 1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": 1,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "DEFINED",
+    "terminal_input": {
+      "e2": 1
+    }
+  },
+  "H_TERMINAL_B": {
+    "A_visible_state_budget": 4,
+    "B_accumulated_residue_budget": 0,
+    "C_retained_path_budget": 2,
+    "T_total_input_path_budget": 2,
+    "final_snapshot": {
+      "e2": 2
+    },
+    "frames": [
+      {
+        "snapshot": {},
+        "update_index": 0
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e2": 1
+        },
+        "update_index": 1,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      },
+      {
+        "retained_update": {
+          "e2": 1
+        },
+        "snapshot": {
+          "e2": 2
+        },
+        "update_index": 2,
+        "write_input": {
+          "e2": 1
+        },
+        "write_residue": {}
+      }
+    ],
+    "history_id": "H_TERMINAL_B",
+    "history_length": 2,
+    "ordered_inputs": [
+      {
+        "e2": 1
+      },
+      {
+        "e2": 1
+      }
+    ],
+    "pathwise_T_equals_C_plus_raw_B": true,
+    "probe_family_size": 81,
+    "q_WSR": 1,
+    "residue_closure_exact": true,
+    "residue_sequence": [
+      {},
+      {}
+    ],
+    "s_K": 1,
+    "s_Y": 1,
+    "state_closure_exact": true,
+    "status": "DEFINED",
+    "terminal_input": {
+      "e2": 1
+    }
+  },
+  "record_id": "CR120J_INTERNAL_WRITE_VISIBILITY_RATIO_Q_WSR"
+}

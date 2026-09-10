@@ -1,0 +1,51 @@
+{
+  "campaign_id": "CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY",
+  "classification": "CONSTRUCTIVE_RELAXED_DISCOVERY",
+  "objective": "Test whether the current SAM record supports a coherent dual-depth chain in which A meets the N144 surface scale at route depth one, B partitions N144 into M126 plus released Theta18, the released packet normalizes the 7-8-9 ladder, and B acts through X1 to close S8 to W9.",
+  "notation": {
+    "W8": "discovery alias only for the canonical S8_BINARY_SURFACE; no new W8 entity is registered",
+    "d_row": "stored QP closure_depth metadata",
+    "d_route": "depth argument consumed by the non-row A operator",
+    "Theta": "existing THETA18_PRIMARY_CARRIER, not a fitted amplitude"
+  },
+  "candidate_chain": [
+    "A_SCALE(d_route=1) = R^(d+1) = N144",
+    "B_CONTACT_OPERATOR: N144 -> (M126, THETA18_OUT)",
+    "M126/THETA18 = 7; N144/THETA18 = S8 = 8; L162/THETA18 = W9 = 9",
+    "X1 = THETA18_OUT/THETA18 = 1 as normalized axis-fee occurrence, without entity identity",
+    "RESOLVE(S8, B, X1) -> W9"
+  ],
+  "comparisons": {
+    "carrier_substitution": "Every current real QP carrier receives the same native-payload and partition-scalar tests.",
+    "depth_grid": [0,1,2,3],
+    "observed_A_depths": [0,1],
+    "starbreaker_policy": "Directional relay and axial-return results are supportive contacts. Carrier exclusivity is not a pass requirement.",
+    "theta_policy": "Theta may share a broader level with other carriers. It is promoted only for the exact typed role it uniquely satisfies in this run."
+  },
+  "hard_gates": [
+    "all frozen source hashes match",
+    "current carrier roster is reconstructed without candidate whitelist selection",
+    "CR256 d=0/d=1 rows remain 32/32 exact and wrong exponents remain rejected",
+    "B partition and 7-8-9 normalization close exactly",
+    "all current carriers are compared identically",
+    "d_route=1 is the unique nonnegative integer depth in the frozen grid where R^(d+1)=N144",
+    "typed entities remain distinct and the canonical ledger remains 162"
+  ],
+  "relaxed_gates": [
+    "Starbreaker need not prove that only a carrier reverses axially",
+    "The direct A_OPERATOR to X1 executable edge need not be installed",
+    "The physical statement B dynamically creates X1 need not be proven",
+    "A_FIELD_CARRIER need not be restored as an additive ledger row",
+    "No theorem-grade or external physical claim is required for a discovery PASS"
+  ],
+  "wrong_controls": [
+    "substitute each non-Theta carrier into the B release packet",
+    "use d_route in {0,2,3} for the A/N scale contact",
+    "replace the 1/8 release with 1/4 or 1/16",
+    "restore A_FIELD_CARRIER as an additive row and accept 163",
+    "merge B, X1, Theta, A_FIELD_CARRIER, or A_OPERATOR by equal scalar or role",
+    "call fixed runtime output a physical intervention"
+  ],
+  "no_same_run_repair": true,
+  "registry_mutation": false
+}

@@ -1,0 +1,107 @@
+{
+  "instrument": {
+    "K0": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "K1": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "completeness_distance_from_identity": 0.0,
+    "completeness_sum": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "outcome_count": 2,
+    "scalar_only_maps": [
+      {
+        "classification": "NOT_TRACE_PRESERVING",
+        "input_trace": 1.0,
+        "outcome_partition_count": 0,
+        "output_trace": 0.0,
+        "trace_preserving": false,
+        "weight": 0.0
+      },
+      {
+        "classification": "NOT_TRACE_PRESERVING",
+        "input_trace": 1.0,
+        "outcome_partition_count": 0,
+        "output_trace": 0.5,
+        "trace_preserving": false,
+        "weight": 0.5
+      },
+      {
+        "classification": "IDENTITY_CHANNEL_NO_RECORD",
+        "input_trace": 1.0,
+        "outcome_partition_count": 0,
+        "output_trace": 1.0,
+        "trace_preserving": true,
+        "weight": 1.0
+      },
+      {
+        "classification": "NOT_TRACE_PRESERVING",
+        "input_trace": 1.0,
+        "outcome_partition_count": 0,
+        "output_trace": 2.0,
+        "trace_preserving": false,
+        "weight": 2.0
+      }
+    ],
+    "total_probability_for_normalized_input": 1.0
+  },
+  "model_discrimination": {
+    "free_propagation_writes_record": "REJECTED_IN_CONSTRUCTED_MODEL",
+    "interaction_channel_plus_records": "SUPPORTED_IN_CONSTRUCTED_MODEL",
+    "lcqc008_publish_irreversibility": "NOT_DERIVED_BY_THIS_MODEL_AND_NOT_MICROSCOPICALLY_SOURCED",
+    "sam_hierarchy_physical_identity": "OPEN_NO_SOURCED_MAP",
+    "scalar_higgs_weight_is_complete_operator": "REJECTED_MATHEMATICALLY",
+    "scalar_higgs_weight_may_parameterize_complete_channel": "OPEN_REQUIRES_SEPARATE_OPERATOR"
+  },
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "source_surface_checks": {
+    "cr104": {
+      "K_A_H_self_correction_present": true,
+      "classification": "HISTORICAL_SCALAR_SELF_CORRECTION_SURFACE_NOT_QUANTUM_INSTRUMENT",
+      "interaction_hamiltonian_absent": true,
+      "kraus_operator_absent": true
+    },
+    "lcqc008_v2": {
+      "classification": "LIVE_ARCHITECTURAL_PUBLICATION_CLAIM_WITHOUT_MICROSCOPIC_CHANNEL_DERIVATION",
+      "engineering_choice_disclosed": true,
+      "interaction_hamiltonian_absent": true,
+      "irreversibility_claim_present": true,
+      "kraus_operator_absent": true,
+      "publish_claim_present": true
+    },
+    "qp011": {
+      "classification": "PRIVATE_MODEL_INPUT_NOT_CR120_PHYSICAL_IDENTITY",
+      "decoherence_without_measurement_present": true,
+      "measurement_distinguished_from_leakage": true
+    },
+    "runtime_frontier": {
+      "ADJACENT": true,
+      "ADJACENT_LEDGER_STATE": true,
+      "LEDGER_SITE": true,
+      "PROPAGATE_CLOSURE": true
+    }
+  }
+}

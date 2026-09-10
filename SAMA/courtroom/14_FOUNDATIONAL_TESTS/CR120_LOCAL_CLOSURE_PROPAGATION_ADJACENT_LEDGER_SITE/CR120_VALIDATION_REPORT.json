@@ -1,0 +1,864 @@
+{
+  "commands": {
+    "a_operator_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace A_OPERATOR",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority\": {\n    \"note\": \"A is active in its sealed scope; A -> B/contact remains OPEN\",\n    \"source\": \"CR119_LANGUAGE_HANDOFF_CONTRACT\",\n    \"status\": \"ACTIVE_IN_SOURCE_SCOPE\"\n  },\n  \"canonical_entity_id\": \"A_OPERATOR\",\n  \"contextual_roles\": [\n    \"non_row_a_operator\"\n  ],\n  \"derivation_trace\": [\n    \"A_OPERATOR active in its sealed source scope\",\n    \"A_OPERATOR -> B_CONTACT_OPERATOR remains OPEN\"\n  ],\n  \"entity_id\": \"A_OPERATOR\",\n  \"ledger_role\": \"non_ledger\",\n  \"metadata\": {\n    \"operator\": true,\n    \"relation_to_B\": \"OPEN\"\n  },\n  \"requested_name\": \"A_OPERATOR\",\n  \"scalar_value\": null,\n  \"semantic_type\": \"AOperator\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "authority": {
+          "note": "A is active in its sealed scope; A -> B/contact remains OPEN",
+          "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+          "status": "ACTIVE_IN_SOURCE_SCOPE"
+        },
+        "canonical_entity_id": "A_OPERATOR",
+        "contextual_roles": [
+          "non_row_a_operator"
+        ],
+        "derivation_trace": [
+          "A_OPERATOR active in its sealed source scope",
+          "A_OPERATOR -> B_CONTACT_OPERATOR remains OPEN"
+        ],
+        "entity_id": "A_OPERATOR",
+        "ledger_role": "non_ledger",
+        "metadata": {
+          "operator": true,
+          "relation_to_B": "OPEN"
+        },
+        "requested_name": "A_OPERATOR",
+        "scalar_value": null,
+        "semantic_type": "AOperator",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    },
+    "b_operator_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace B_CONTACT_OPERATOR",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority\": {\n    \"note\": \"B/contact to X1 axis-fee witness bridge PASS\",\n    \"source\": \"CR119_LANGUAGE_HANDOFF_CONTRACT\",\n    \"status\": \"ACTIVE\"\n  },\n  \"canonical_entity_id\": \"B_CONTACT_OPERATOR\",\n  \"contextual_roles\": [\n    \"bow_contact_operator\",\n    \"non_row_contact_operator\"\n  ],\n  \"derivation_trace\": [\n    \"B_CONTACT_OPERATOR acts through X1_AXIS_SELF_CHANNEL\",\n    \"B_CONTACT_OPERATOR != X1_AXIS_SELF_CHANNEL\"\n  ],\n  \"entity_id\": \"B_CONTACT_OPERATOR\",\n  \"ledger_role\": \"non_ledger\",\n  \"metadata\": {\n    \"acts_through\": \"X1_AXIS_SELF_CHANNEL\",\n    \"operator\": true\n  },\n  \"requested_name\": \"B_CONTACT_OPERATOR\",\n  \"scalar_value\": null,\n  \"semantic_type\": \"ContactOperator\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "authority": {
+          "note": "B/contact to X1 axis-fee witness bridge PASS",
+          "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+          "status": "ACTIVE"
+        },
+        "canonical_entity_id": "B_CONTACT_OPERATOR",
+        "contextual_roles": [
+          "bow_contact_operator",
+          "non_row_contact_operator"
+        ],
+        "derivation_trace": [
+          "B_CONTACT_OPERATOR acts through X1_AXIS_SELF_CHANNEL",
+          "B_CONTACT_OPERATOR != X1_AXIS_SELF_CHANNEL"
+        ],
+        "entity_id": "B_CONTACT_OPERATOR",
+        "ledger_role": "non_ledger",
+        "metadata": {
+          "acts_through": "X1_AXIS_SELF_CHANNEL",
+          "operator": true
+        },
+        "requested_name": "B_CONTACT_OPERATOR",
+        "scalar_value": null,
+        "semantic_type": "ContactOperator",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    },
+    "ledger_sources": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli sources L162_FULL_LEDGER",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"canonical_entity_id\": \"L162_FULL_LEDGER\",\n  \"requested_name\": \"L162_FULL_LEDGER\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "canonical_entity_id": "L162_FULL_LEDGER",
+        "requested_name": "L162_FULL_LEDGER",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    },
+    "ledger_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace L162_FULL_LEDGER",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority\": {\n    \"note\": \"\",\n    \"source\": \"CR119_LANGUAGE_HANDOFF_CONTRACT\",\n    \"status\": \"ACTIVE\"\n  },\n  \"canonical_entity_id\": \"L162_FULL_LEDGER\",\n  \"contextual_roles\": [\n    \"closed_ledger\"\n  ],\n  \"derivation_trace\": [\n    \"S8 --B through X1--> W9\",\n    \"W9 * D3 -> V27\",\n    \"V27 * D3 -> F81\",\n    \"F81 * H2 -> L162\"\n  ],\n  \"entity_id\": \"L162_FULL_LEDGER\",\n  \"ledger_role\": \"closed_ledger\",\n  \"metadata\": {},\n  \"requested_name\": \"L162_FULL_LEDGER\",\n  \"scalar_value\": 162,\n  \"semantic_type\": \"FullLedger\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "authority": {
+          "note": "",
+          "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+          "status": "ACTIVE"
+        },
+        "canonical_entity_id": "L162_FULL_LEDGER",
+        "contextual_roles": [
+          "closed_ledger"
+        ],
+        "derivation_trace": [
+          "S8 --B through X1--> W9",
+          "W9 * D3 -> V27",
+          "V27 * D3 -> F81",
+          "F81 * H2 -> L162"
+        ],
+        "entity_id": "L162_FULL_LEDGER",
+        "ledger_role": "closed_ledger",
+        "metadata": {},
+        "requested_name": "L162_FULL_LEDGER",
+        "scalar_value": 162,
+        "semantic_type": "FullLedger",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    },
+    "missing_adjacent_entity_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace ADJACENT_LEDGER_STATE",
+      "raw_traceback_present": false,
+      "returncode": 2,
+      "stderr": "{\n  \"error\": \"UnknownEntityError\",\n  \"message\": \"No registered entity named ADJACENT_LEDGER_STATE\",\n  \"status\": \"FAIL\"\n}\n",
+      "stderr_json": {
+        "error": "UnknownEntityError",
+        "message": "No registered entity named ADJACENT_LEDGER_STATE",
+        "status": "FAIL"
+      },
+      "stdout": "",
+      "stdout_json": null
+    },
+    "missing_operator_explain": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli explain PROPAGATE_CLOSURE",
+      "raw_traceback_present": false,
+      "returncode": 2,
+      "stderr": "{\n  \"error\": \"UnknownOperatorError\",\n  \"message\": \"No registered operator named PROPAGATE_CLOSURE\",\n  \"status\": \"FAIL\"\n}\n",
+      "stderr_json": {
+        "error": "UnknownOperatorError",
+        "message": "No registered operator named PROPAGATE_CLOSURE",
+        "status": "FAIL"
+      },
+      "stdout": "",
+      "stdout_json": null
+    },
+    "p80_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace P80_PARTICLE_FACE_CONTENT",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority\": {\n    \"note\": \"CR283 edge inherited as structural only\",\n    \"source\": \"CR119_LANGUAGE_HANDOFF_CONTRACT\",\n    \"status\": \"STRUCTURAL_ONLY\"\n  },\n  \"canonical_entity_id\": \"P80_PARTICLE_FACE_CONTENT\",\n  \"contextual_roles\": [\n    \"particle_face_content\"\n  ],\n  \"derivation_trace\": [\n    \"F81 - X1 -> P80 [STRUCTURAL_ONLY]\"\n  ],\n  \"entity_id\": \"P80_PARTICLE_FACE_CONTENT\",\n  \"ledger_role\": \"matter_capacity_not_particle_row\",\n  \"metadata\": {},\n  \"requested_name\": \"P80_PARTICLE_FACE_CONTENT\",\n  \"scalar_value\": 80,\n  \"semantic_type\": \"ParticleFaceContent\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "authority": {
+          "note": "CR283 edge inherited as structural only",
+          "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+          "status": "STRUCTURAL_ONLY"
+        },
+        "canonical_entity_id": "P80_PARTICLE_FACE_CONTENT",
+        "contextual_roles": [
+          "particle_face_content"
+        ],
+        "derivation_trace": [
+          "F81 - X1 -> P80 [STRUCTURAL_ONLY]"
+        ],
+        "entity_id": "P80_PARTICLE_FACE_CONTENT",
+        "ledger_role": "matter_capacity_not_particle_row",
+        "metadata": {},
+        "requested_name": "P80_PARTICLE_FACE_CONTENT",
+        "scalar_value": 80,
+        "semantic_type": "ParticleFaceContent",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    },
+    "seed_check": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli check SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_seed.sam",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"return_entity\": \"L162_FULL_LEDGER\",\n  \"status\": \"PASS\"\n}\n",
+      "stdout_json": {
+        "return_entity": "L162_FULL_LEDGER",
+        "status": "PASS"
+      }
+    },
+    "seed_run": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli run SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_seed.sam",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority_status\": \"ACTIVE\",\n  \"entity_id\": \"L162_FULL_LEDGER\",\n  \"scalar_value\": 162,\n  \"semantic_type\": \"FullLedger\",\n  \"source_trace\": [\n    {\n      \"path\": \"SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json\",\n      \"sha256\": \"2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e\",\n      \"source_key\": \"parent_v04_release\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ],\n  \"trace\": [\n    {\n      \"entity_id\": \"S8_BINARY_SURFACE\",\n      \"name\": \"surface\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"X1_AXIS_SELF_CHANNEL\",\n      \"name\": \"axis\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"S8_BINARY_SURFACE\",\n        \"B_CONTACT_OPERATOR\",\n        \"X1_AXIS_SELF_CHANNEL\"\n      ],\n      \"operator\": \"RESOLVE\",\n      \"result_entity\": \"W9_CLOSURE_WITNESS\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"W9_CLOSURE_WITNESS\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_VOLUME\",\n      \"result_entity\": \"V27_VOLUME_CONTAINER\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"V27_VOLUME_CONTAINER\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_FACE\",\n      \"result_entity\": \"F81_COMPLETED_FACE\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"F81_COMPLETED_FACE\",\n        \"H2_ARITY\"\n      ],\n      \"operator\": \"MIRROR_CLOSE\",\n      \"result_entity\": \"L162_FULL_LEDGER\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"L162_FULL_LEDGER\",\n      \"scalar_value\": 162,\n      \"semantic_type\": \"FullLedger\",\n      \"stage\": \"execution\",\n      \"status\": \"PASS\"\n    }\n  ],\n  \"warnings\": []\n}\n",
+      "stdout_json": {
+        "authority_status": "ACTIVE",
+        "entity_id": "L162_FULL_LEDGER",
+        "scalar_value": 162,
+        "semantic_type": "FullLedger",
+        "source_trace": [
+          {
+            "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+            "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+            "source_key": "parent_v04_release"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ],
+        "trace": [
+          {
+            "entity_id": "S8_BINARY_SURFACE",
+            "name": "surface",
+            "stage": "name_resolution",
+            "status": "PASS"
+          },
+          {
+            "entity_id": "X1_AXIS_SELF_CHANNEL",
+            "name": "axis",
+            "stage": "name_resolution",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "S8_BINARY_SURFACE",
+              "B_CONTACT_OPERATOR",
+              "X1_AXIS_SELF_CHANNEL"
+            ],
+            "operator": "RESOLVE",
+            "result_entity": "W9_CLOSURE_WITNESS",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "W9_CLOSURE_WITNESS",
+              "D3_DIMENSION"
+            ],
+            "operator": "PROMOTE_VOLUME",
+            "result_entity": "V27_VOLUME_CONTAINER",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "V27_VOLUME_CONTAINER",
+              "D3_DIMENSION"
+            ],
+            "operator": "PROMOTE_FACE",
+            "result_entity": "F81_COMPLETED_FACE",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "F81_COMPLETED_FACE",
+              "H2_ARITY"
+            ],
+            "operator": "MIRROR_CLOSE",
+            "result_entity": "L162_FULL_LEDGER",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "entity_id": "L162_FULL_LEDGER",
+            "scalar_value": 162,
+            "semantic_type": "FullLedger",
+            "stage": "execution",
+            "status": "PASS"
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "seed_trace_program": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace --file SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_seed.sam",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"source_trace\": [\n    {\n      \"path\": \"SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json\",\n      \"sha256\": \"2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e\",\n      \"source_key\": \"parent_v04_release\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ],\n  \"trace\": [\n    {\n      \"entity_id\": \"S8_BINARY_SURFACE\",\n      \"name\": \"surface\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"X1_AXIS_SELF_CHANNEL\",\n      \"name\": \"axis\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"S8_BINARY_SURFACE\",\n        \"B_CONTACT_OPERATOR\",\n        \"X1_AXIS_SELF_CHANNEL\"\n      ],\n      \"operator\": \"RESOLVE\",\n      \"result_entity\": \"W9_CLOSURE_WITNESS\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"W9_CLOSURE_WITNESS\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_VOLUME\",\n      \"result_entity\": \"V27_VOLUME_CONTAINER\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"V27_VOLUME_CONTAINER\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_FACE\",\n      \"result_entity\": \"F81_COMPLETED_FACE\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"F81_COMPLETED_FACE\",\n        \"H2_ARITY\"\n      ],\n      \"operator\": \"MIRROR_CLOSE\",\n      \"result_entity\": \"L162_FULL_LEDGER\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"L162_FULL_LEDGER\",\n      \"scalar_value\": 162,\n      \"semantic_type\": \"FullLedger\",\n      \"stage\": \"execution\",\n      \"status\": \"PASS\"\n    }\n  ],\n  \"warnings\": []\n}\n",
+      "stdout_json": {
+        "source_trace": [
+          {
+            "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+            "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+            "source_key": "parent_v04_release"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ],
+        "trace": [
+          {
+            "entity_id": "S8_BINARY_SURFACE",
+            "name": "surface",
+            "stage": "name_resolution",
+            "status": "PASS"
+          },
+          {
+            "entity_id": "X1_AXIS_SELF_CHANNEL",
+            "name": "axis",
+            "stage": "name_resolution",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "S8_BINARY_SURFACE",
+              "B_CONTACT_OPERATOR",
+              "X1_AXIS_SELF_CHANNEL"
+            ],
+            "operator": "RESOLVE",
+            "result_entity": "W9_CLOSURE_WITNESS",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "W9_CLOSURE_WITNESS",
+              "D3_DIMENSION"
+            ],
+            "operator": "PROMOTE_VOLUME",
+            "result_entity": "V27_VOLUME_CONTAINER",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "V27_VOLUME_CONTAINER",
+              "D3_DIMENSION"
+            ],
+            "operator": "PROMOTE_FACE",
+            "result_entity": "F81_COMPLETED_FACE",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "args": [
+              "F81_COMPLETED_FACE",
+              "H2_ARITY"
+            ],
+            "operator": "MIRROR_CLOSE",
+            "result_entity": "L162_FULL_LEDGER",
+            "stage": "typed_execution_plan",
+            "status": "PASS"
+          },
+          {
+            "entity_id": "L162_FULL_LEDGER",
+            "scalar_value": 162,
+            "semantic_type": "FullLedger",
+            "stage": "execution",
+            "status": "PASS"
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "target_check": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli check SAM_LANGUAGE_V0_4_1_DRIVES/DRIVE_001_CLOSURE_PROPAGATION/closure_propagation_target.sam",
+      "raw_traceback_present": false,
+      "returncode": 2,
+      "stderr": "{\n  \"error\": \"UnknownOperatorError\",\n  \"message\": \"No registered operator named PROPAGATE_CLOSURE\",\n  \"status\": \"FAIL\"\n}\n",
+      "stderr_json": {
+        "error": "UnknownOperatorError",
+        "message": "No registered operator named PROPAGATE_CLOSURE",
+        "status": "FAIL"
+      },
+      "stdout": "",
+      "stdout_json": null
+    },
+    "theta_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace THETA18_PRIMARY_CARRIER",
+      "raw_traceback_present": false,
+      "returncode": 2,
+      "stderr": "{\n  \"error\": \"UnknownEntityError\",\n  \"message\": \"No registered entity named THETA18_PRIMARY_CARRIER\",\n  \"status\": \"FAIL\"\n}\n",
+      "stderr_json": {
+        "error": "UnknownEntityError",
+        "message": "No registered entity named THETA18_PRIMARY_CARRIER",
+        "status": "FAIL"
+      },
+      "stdout": "",
+      "stdout_json": null
+    },
+    "witness_trace": {
+      "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli trace W9_CLOSURE_WITNESS",
+      "raw_traceback_present": false,
+      "returncode": 0,
+      "stderr": "",
+      "stderr_json": null,
+      "stdout": "{\n  \"authority\": {\n    \"note\": \"\",\n    \"source\": \"CR119_LANGUAGE_HANDOFF_CONTRACT\",\n    \"status\": \"ACTIVE\"\n  },\n  \"canonical_entity_id\": \"W9_CLOSURE_WITNESS\",\n  \"contextual_roles\": [\n    \"resolved_closure_witness\"\n  ],\n  \"derivation_trace\": [\n    \"S8 --B through X1--> W9\"\n  ],\n  \"entity_id\": \"W9_CLOSURE_WITNESS\",\n  \"ledger_role\": \"non_ledger\",\n  \"metadata\": {},\n  \"requested_name\": \"W9_CLOSURE_WITNESS\",\n  \"scalar_value\": 9,\n  \"semantic_type\": \"ClosureWitness\",\n  \"sources\": [\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ]\n}\n",
+      "stdout_json": {
+        "authority": {
+          "note": "",
+          "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+          "status": "ACTIVE"
+        },
+        "canonical_entity_id": "W9_CLOSURE_WITNESS",
+        "contextual_roles": [
+          "resolved_closure_witness"
+        ],
+        "derivation_trace": [
+          "S8 --B through X1--> W9"
+        ],
+        "entity_id": "W9_CLOSURE_WITNESS",
+        "ledger_role": "non_ledger",
+        "metadata": {},
+        "requested_name": "W9_CLOSURE_WITNESS",
+        "scalar_value": 9,
+        "semantic_type": "ClosureWitness",
+        "sources": [
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+            "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+            "source_key": "typed_hierarchy"
+          },
+          {
+            "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+            "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+            "source_key": "handoff_contract"
+          }
+        ]
+      }
+    }
+  },
+  "drive_001_inherited_result_status": "PASS_BOUNDARY_MISSING_PROPAGATE_CLOSURE_OPERATOR",
+  "exact_arithmetic": {
+    "F": 81,
+    "L": 162,
+    "S": 8,
+    "V": 27,
+    "W": 9,
+    "X": 1,
+    "checks": {
+      "F = V * D": true,
+      "L = F * h": true,
+      "N = S * Theta": true,
+      "Theta = h * W": true,
+      "V = W * D": true,
+      "W = S + X": true
+    }
+  },
+  "gates": [
+    {
+      "finding": "No authoritative LEDGER_SITE, ADJACENT_LEDGER_STATE, or ADJACENT relation is registered in v0.4.1.",
+      "gate": "G1_ADJACENCY_SOURCED",
+      "status": "BOUNDARY"
+    },
+    {
+      "finding": "The proposed site_i != site_j condition is well-typed as a requirement, but site instances are not sourced.",
+      "gate": "G2_SITE_DISTINCTION",
+      "status": "OPEN"
+    },
+    {
+      "finding": "W9, Theta18, and B/contact remain candidate transport readings; none has a sealed propagation contract.",
+      "gate": "G3_TRANSPORT_OBJECT_IDENTIFIED",
+      "status": "OPEN"
+    },
+    {
+      "finding": "No conservation/accounting rule authorizes closure transfer, duplication, or target-local rewrite.",
+      "gate": "G4_CONSERVATION_ACCOUNTING",
+      "status": "OPEN"
+    },
+    {
+      "finding": "B/contact through X1 to W9 remains PASS; A-to-B remains OPEN.",
+      "gate": "G5_B_X1_W9_BOUNDARY_PRESERVED",
+      "status": "PASS"
+    },
+    {
+      "finding": "The target unresolved/available state is required, but ADJACENT_LEDGER_STATE is not registered.",
+      "gate": "G6_TARGET_UNRESOLVED",
+      "status": "OPEN"
+    },
+    {
+      "finding": "Once W9 exists, the sealed W9 -> V27 -> F81 -> L162 hierarchy replays exactly.",
+      "gate": "G7_REUSE_HIERARCHY",
+      "status": "PASS"
+    },
+    {
+      "finding": "One-step locality cannot be validated until the adjacency relation is sourced.",
+      "gate": "G8_ONE_STEP_LOCALITY",
+      "status": "BOUNDARY"
+    }
+  ],
+  "pdf_probe": {
+    "exists": true,
+    "extractor": "pypdf",
+    "keyword_hits": {
+      "ADJACENT_LEDGER_STATE": true,
+      "B_CONTACT_OPERATOR": true,
+      "LEDGER_SITE": true,
+      "PROPAGATE_CLOSURE": true,
+      "THETA18_PRIMARY_CARRIER": true,
+      "X1_AXIS_SELF_CHANNEL": true
+    },
+    "page_count": 7,
+    "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\readme.pdf",
+    "sha256": "00e0305c6249f22a64ada0b29433451b281af8c0520819e65d0cacca14809afd",
+    "text_sha256": "9141958689eb1250c49cb220e184de272d57ccda4c8933ed4cee508e65da9891"
+  },
+  "primary_verdict": "BOUNDARY_CLOSURE_HIERARCHY_PASS_ADJACENCY_OR_LOCALITY_UNSOURCED",
+  "record_id": "CR120_LOCAL_CLOSURE_PROPAGATION_ADJACENT_LEDGER_SITE",
+  "scientific_result_status": "BOUNDARY",
+  "sealed_utc": "2026-07-12T10:25:30Z",
+  "secondary_boundary": "BOUNDARY_THETA_CONTACT_PROPAGATION_CANDIDATE_CONSERVATION_RULE_OPEN",
+  "statuses": {
+    "a_to_b_open_preserved": true,
+    "adjacent_state_contract_absent": true,
+    "b_acts_through_x1_preserved": true,
+    "branch_qualified_provenance": true,
+    "exact_arithmetic_pass": true,
+    "explain_identifies_missing_operator": true,
+    "no_raw_tracebacks": true,
+    "p80_structural_only_preserved": true,
+    "readme_pdf_available": true,
+    "readme_pdf_names_target_contract": true,
+    "sealed_prefix_executes": true,
+    "target_rejects_missing_operator": true,
+    "v0_4_1_regressions_pass": true
+  },
+  "v0_4_1_summary": {
+    "candidate_code_hash": "92d216ecba10ebae64e15c0d36514cc08dd3a133138bc95445c395911128021c",
+    "candidate_regressions": "45/45 PASS",
+    "external_diagnostic": {
+      "high_issue_count": 0,
+      "passed": 15,
+      "probe_count": 15,
+      "verdict": "PASS_SAM_LANGUAGE_V0_4_1_PATCH_VALIDATION"
+    },
+    "frozen_parent_hash": "0ee6649ed0c8f863fd5de5ef54e6ce305e1b1c44a0e24a5a4f57c1ef544742d0",
+    "frozen_parent_release_record": {
+      "v0_3_inherited": "28/28 PASS",
+      "v0_4_regressions": "34/34 PASS"
+    },
+    "generated_utc": "2026-07-12T10:03:01.291063+00:00",
+    "local_parent_core_replay": "32/32 PASS",
+    "remaining_issues": [],
+    "test_drive": {
+      "001": {
+        "detail": {
+          "authority_status": "ACTIVE",
+          "entity_id": "L162_FULL_LEDGER",
+          "scalar_value": 162,
+          "semantic_type": "FullLedger",
+          "source_trace": [
+            {
+              "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+              "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+              "source_key": "parent_v04_release"
+            },
+            {
+              "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+              "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+              "source_key": "typed_hierarchy"
+            },
+            {
+              "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+              "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+              "source_key": "handoff_contract"
+            }
+          ],
+          "trace": [
+            {
+              "args": [
+                "S8_BINARY_SURFACE",
+                "B_CONTACT_OPERATOR",
+                "X1_AXIS_SELF_CHANNEL"
+              ],
+              "operator": "RESOLVE",
+              "result_entity": "W9_CLOSURE_WITNESS",
+              "stage": "typed_execution_plan",
+              "status": "PASS"
+            },
+            {
+              "args": [
+                "W9_CLOSURE_WITNESS",
+                "D3_DIMENSION"
+              ],
+              "operator": "PROMOTE_VOLUME",
+              "result_entity": "V27_VOLUME_CONTAINER",
+              "stage": "typed_execution_plan",
+              "status": "PASS"
+            },
+            {
+              "args": [
+                "V27_VOLUME_CONTAINER",
+                "D3_DIMENSION"
+              ],
+              "operator": "PROMOTE_FACE",
+              "result_entity": "F81_COMPLETED_FACE",
+              "stage": "typed_execution_plan",
+              "status": "PASS"
+            },
+            {
+              "args": [
+                "F81_COMPLETED_FACE",
+                "H2_ARITY"
+              ],
+              "operator": "MIRROR_CLOSE",
+              "result_entity": "L162_FULL_LEDGER",
+              "stage": "typed_execution_plan",
+              "status": "PASS"
+            },
+            {
+              "entity_id": "L162_FULL_LEDGER",
+              "scalar_value": 162,
+              "semantic_type": "FullLedger",
+              "stage": "execution",
+              "status": "PASS"
+            }
+          ],
+          "warnings": []
+        },
+        "status": "PASS"
+      },
+      "002": {
+        "detail": {
+          "error": "TypeCheckError",
+          "message": "PROMOTE_VOLUME expects ('ClosureWitness', 'Dimension'), found ('BinarySurface', 'Dimension'); PROMOTE_VOLUME(S8, D3) is not legal because S8 remains BinarySurface"
+        },
+        "status": "PASS"
+      },
+      "003": {
+        "normal": {
+          "error": "AuthorityError",
+          "message": "RESERVE_CLOSURE_ADDRESS is STRUCTURAL_ONLY and requires --research"
+        },
+        "research": {
+          "authority_status": "STRUCTURAL_ONLY",
+          "entity_id": "P80_PARTICLE_FACE_CONTENT",
+          "scalar_value": 80,
+          "semantic_type": "ParticleFaceContent",
+          "source_trace": [
+            {
+              "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+              "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+              "source_key": "parent_v04_release"
+            },
+            {
+              "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+              "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+              "source_key": "typed_hierarchy"
+            },
+            {
+              "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+              "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+              "source_key": "handoff_contract"
+            }
+          ],
+          "trace": [
+            {
+              "args": [
+                "F81_COMPLETED_FACE",
+                "X1_AXIS_SELF_CHANNEL"
+              ],
+              "operator": "RESERVE_CLOSURE_ADDRESS",
+              "result_entity": "P80_PARTICLE_FACE_CONTENT",
+              "stage": "typed_execution_plan",
+              "status": "PASS"
+            },
+            {
+              "entity_id": "P80_PARTICLE_FACE_CONTENT",
+              "scalar_value": 80,
+              "semantic_type": "ParticleFaceContent",
+              "stage": "execution",
+              "status": "PASS"
+            }
+          ],
+          "warnings": [
+            "P80_PARTICLE_FACE_CONTENT is STRUCTURAL_ONLY; no particle row is activated"
+          ]
+        },
+        "status": "PASS"
+      },
+      "004": {
+        "commands": [
+          "sam trace W9_CLOSURE_WITNESS",
+          "sam explain RESOLVE",
+          "sam sources F81_COMPLETED_FACE",
+          "sam trace L162_FULL_LEDGER"
+        ],
+        "status": "PASS"
+      },
+      "005": {
+        "entities": [
+          {
+            "authority": {
+              "note": "CR267 axis-self / axis-fee channel retained through CR119",
+              "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+              "status": "ACTIVE"
+            },
+            "canonical_entity_id": "X1_AXIS_SELF_CHANNEL",
+            "contextual_roles": [
+              "axis_self_coupling",
+              "axis_fee"
+            ],
+            "derivation_trace": [
+              "D3^(D3-1) - S8 -> X1"
+            ],
+            "entity_id": "X1_AXIS_SELF_CHANNEL",
+            "ledger_role": "non_ledger",
+            "metadata": {
+              "lift": "NOT_APPLICABLE",
+              "operator": false
+            },
+            "requested_name": "X1_AXIS_SELF_CHANNEL",
+            "scalar_value": 1,
+            "semantic_type": "AxisChannel",
+            "sources": [
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+                "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+                "source_key": "typed_hierarchy"
+              },
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+                "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+                "source_key": "handoff_contract"
+              }
+            ]
+          },
+          {
+            "authority": {
+              "note": "",
+              "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+              "status": "ACTIVE"
+            },
+            "canonical_entity_id": "C1_ROAD_LIGHT_CARRIER",
+            "contextual_roles": [
+              "road_light_carrier",
+              "scalar_one_carrier"
+            ],
+            "derivation_trace": [
+              "scalar address 1; carrier occurrence; no local support lift"
+            ],
+            "entity_id": "C1_ROAD_LIGHT_CARRIER",
+            "ledger_role": "carrier",
+            "metadata": {
+              "historical_alias": "SCALAR_ONE_CARRIER",
+              "lift": "NONE"
+            },
+            "requested_name": "C1_ROAD_LIGHT_CARRIER",
+            "scalar_value": 1,
+            "semantic_type": "Carrier",
+            "sources": [
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+                "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+                "source_key": "typed_hierarchy"
+              },
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+                "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+                "source_key": "handoff_contract"
+              }
+            ]
+          },
+          {
+            "authority": {
+              "note": "",
+              "source": "CR119_LANGUAGE_HANDOFF_CONTRACT",
+              "status": "ACTIVE"
+            },
+            "canonical_entity_id": "P1_LIFT_BEARING_SUPPORT",
+            "contextual_roles": [
+              "lift_bearing_support",
+              "scalar_one_support"
+            ],
+            "derivation_trace": [
+              "scalar address 1; support occurrence",
+              "lift excess = 1/144",
+              "lifted value = 145/144"
+            ],
+            "entity_id": "P1_LIFT_BEARING_SUPPORT",
+            "ledger_role": "support",
+            "metadata": {
+              "historical_alias": "SCALAR_ONE_SUPPORT",
+              "lift_excess": "1/144",
+              "lifted_value": "145/144"
+            },
+            "requested_name": "P1_LIFT_BEARING_SUPPORT",
+            "scalar_value": 1,
+            "semantic_type": "LiftBearingSupport",
+            "sources": [
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+                "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+                "source_key": "typed_hierarchy"
+              },
+              {
+                "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+                "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+                "source_key": "handoff_contract"
+              }
+            ]
+          }
+        ],
+        "status": "PASS"
+      }
+    }
+  }
+}

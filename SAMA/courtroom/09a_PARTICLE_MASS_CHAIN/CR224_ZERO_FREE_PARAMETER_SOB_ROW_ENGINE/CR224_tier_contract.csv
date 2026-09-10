@@ -1,0 +1,9 @@
+tier,name,input,output,free_parameters
+T0,constants,"R,D,alpha_H,component qA fractions","split, capacity, kappa_floor, neutron_G_unit",0
+T1,capacity,"R,D",native_capacity=126,0
+T2,Z enumeration,native_capacity,Z=1..126,0
+T3,isotope/P address,"Z,R,radix_cycle","N,A,P,quark address",0
+T4,kernel,"Z,N,kappa_floor,neutron_G_unit,split","G(P),GR(P),retained",0
+T5,shell/action lanes,"shell path from constants,Z","shell period, capacity, occupancy, native lane",0
+T6,SOB native card row,T0-T5,card-facing native fields,0
+T7,downstream reveal placeholders,none,blank known name/symbol/mass/clock fields,0

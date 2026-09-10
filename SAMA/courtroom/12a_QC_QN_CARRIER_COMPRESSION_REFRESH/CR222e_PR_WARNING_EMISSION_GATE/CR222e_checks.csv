@@ -1,0 +1,16 @@
+check,passed,observed,expected
+upstream_seals_match,True,4,4
+state_machine_includes_emitted_warning,True,"['DRAFT_PACKET', 'SEALED_PACKET', 'CORRUPT_PACKET', 'CORRUPT_PACKET', 'VALID_WARNING_PACKET', 'EMITTED_WARNING_PACKET']",EMITTED_WARNING_PACKET
+cr222b_packet_checksum_162,True,162,162
+cr222d_unique_support_roster_12,True,12,12
+cr222d_0303_mirror_not_support_mode,True,QP093A-0303,QP093A-0303
+support_roster_plus_mirror_162,True,162,162
+a_side_threshold_is_one_over_24,True,1/24,1/24
+sealed_packet_without_protocol_gate_does_not_emit,True,SEALED_PACKET,SEALED_PACKET
+threshold_exact_creates_valid_warning,True,VALID_WARNING_PACKET,VALID_WARNING_PACKET
+valid_warning_emits_warning_write,True,EMITTED_WARNING_PACKET,EMITTED_WARNING_PACKET
+emission_requires_qA_positive,True,1/24,>0
+emission_tensor_split_qA_over_8,True,1/192,qA/8
+emission_retained_split_7qA_over_8,True,7/192,7qA/8
+support_row_without_gate_has_no_emission,True,G_matter=0 => M_obs=qA=T=W=0,NO_EMISSION
+wrong_controls_fail_as_expected,True,6,6

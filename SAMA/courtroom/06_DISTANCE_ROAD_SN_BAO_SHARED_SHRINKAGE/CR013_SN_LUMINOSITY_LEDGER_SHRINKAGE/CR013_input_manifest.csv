@@ -1,0 +1,5 @@
+input,role,used_as_computed_input
+C:\VS\Stam_model-A-v1.0\tests\native_prediction_artifacts\g688c_z_a_effective_light_speed_rows.csv,source_data_rows,True
+CR013_declared_premises.json,declared_formula_controls,True
+CR013_PRECOMMIT.md,sealed_pre_run_prediction,False
+CR013_runner.py,calculation_script,True

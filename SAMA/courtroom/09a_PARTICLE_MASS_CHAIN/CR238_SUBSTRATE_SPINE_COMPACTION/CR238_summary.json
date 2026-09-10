@@ -1,0 +1,80 @@
+{
+  "block_a": {
+    "pass": true,
+    "passed": 31,
+    "total": 31
+  },
+  "block_b": {
+    "g_cr221": "1/64",
+    "g_typed": "1/64",
+    "kappa_cr221": "7117/768",
+    "kappa_typed": "7117/768",
+    "pass": true,
+    "passed": 3,
+    "total": 3
+  },
+  "block_c": {
+    "blocked_rows_pass_over_total": "13/13",
+    "hidden_support_pass_over_total": "8/8",
+    "matter_rows_pass_over_total": "126/126",
+    "pass": true
+  },
+  "block_d": {
+    "pass": true,
+    "passed": 9,
+    "total": 9
+  },
+  "block_e": {
+    "F_at_D_3": 81,
+    "agreeing_D_list": [
+      3
+    ],
+    "pass": true
+  },
+  "block_f": {
+    "allowed_section": 10,
+    "comparand": 16,
+    "injection": 0,
+    "input_boundary": 2,
+    "pass": true,
+    "total_occurrences": 28
+  },
+  "cr219_csv_sha": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+  "derived_readouts": {
+    "A_0": "1/(12*pi)",
+    "A_share": "1/12",
+    "A_side": "1/24",
+    "D": "3",
+    "L": "162",
+    "M": "126",
+    "R": "12",
+    "R_sq": "144",
+    "Theta": "18",
+    "V": "27",
+    "g": "1/64",
+    "kappa": "7117/768"
+  },
+  "expected_cr219_csv_sha": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+  "expected_precommit_sha": "5e916199fb185db80a2b2346d3e0a9c59f9418c5e8d96b7453ffc716e8c46293",
+  "input_atoms": {
+    "F": 81,
+    "S": 8,
+    "alpha_H": 2
+  },
+  "overall_pass": true,
+  "precommit_sha": "5e916199fb185db80a2b2346d3e0a9c59f9418c5e8d96b7453ffc716e8c46293",
+  "wrong_controls": {
+    "all_broke_as_predicted": true,
+    "individual": {
+      "WC1": true,
+      "WC2": true,
+      "WC3": true,
+      "WC4": true,
+      "WC5": true,
+      "WC6": true,
+      "WC7": true,
+      "WC8": true,
+      "WC9": true
+    }
+  }
+}

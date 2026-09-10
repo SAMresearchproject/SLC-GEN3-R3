@@ -1,0 +1,10 @@
+gate,status,detail
+G1_CUSTODY,True,18/18 source hashes; 4/4 seal hashes
+G2_SIX_EXACT_DERIVATIONS,True,6/6 exact
+G3_STRUCTURAL_OUTPUT_CLASS,True,"[('m_3', 6), ('D^2', 9), ('Theta', 18), ('hV', 54)]"
+G4_UNIQUE_STRUCTURAL_SUBSTITUTION,True,winner=['Theta']
+G5_LEAVE_ONE_FAMILY_OUT,True,6/6 folds survive
+G6_DEPTH_DISRUPTION,True,contact depths=[1]
+G7_CURRENT_QP_TYPING,True,"{""native_payload"": [""QP093A-0300""], ""partition_scalar"": [""QP093A-0300""]}"
+G8_STARBREAKER_LEDGER,True,96 scenarios; 162 and 18/126/18 gates
+G9_WRONG_CONTROLS,True,12/12 rejected

@@ -1,0 +1,7 @@
+protocol_layer,component,native_expression,pr_role,allowed_use,forbidden_use
+Tier1_matter_engine,Native63 + Bound63,63 + 63 = 126,context,PR may reference the matter engine as an upstream contract,PR must not claim to generate the matter rows
+Tier2_support_integrity,CarrierLedger81 + Mirror81,81 + 81 = 162,packet_integrity,PR may use closure as a checksum,PR must not count 0303 as one of the 12 unpacked modes
+PR_route,road_light_carrier,0301 ledger slot = 1; native mass = 0,signal_path,route/signal lane,not message content and not matter
+PR_support_inventory,source packets,"{1,2,3,4,6,8,9,12}",unresolved_support_inventory,packet support roster,do not omit p=1 / QP093A-0306
+PR_witness,tensor carrier,T=18=alpha_H*D^2=R^2/8,timing_gravity_witness_floor,alarm clock / witness pressure,"not payload, not matter, not massive-graviton claim"
+PR_checksum,0303 mirror,0303=81=D^4,ledger_checksum,valid packet iff unpacked 81 plus mirror 81 closes at 162,not an unpacked support mode and not a particle payload

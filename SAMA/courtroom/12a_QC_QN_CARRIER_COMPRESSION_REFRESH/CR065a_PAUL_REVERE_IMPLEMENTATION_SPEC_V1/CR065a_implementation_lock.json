@@ -1,0 +1,161 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "constants": {
+    "A_0": 0.026525823848649224,
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2
+  },
+  "cr_id": "CR065a",
+  "document_chapter_status": "CR065a is structured as Section 'Paul Revere Letter Implementation Specification' for the 30-50 page technical document.  CR065a_paul_revere_protocol.md is the draft protocol writeup; CR065a_hardware_spec.json is the hardware sheet.",
+  "expert_review_status": {
+    "review_scope": [
+      "NV physical parameters (ZFS, Zeeman split, transition frequencies)",
+      "Microwave pulse sequence for Stage 3 envelope loading",
+      "Effective gate rate for T2_grav comparison",
+      "Citation accuracy for partner candidate groups",
+      "Subtraction of NV-specific decoherence channels (13C bath, surface, charge state)"
+    ],
+    "reviewer_input_protocol": "Sean is in contact with a qubit-engineering domain expert.  All [EXPERT_REVIEW_REQUIRED] tags require confirmation, refinement, or refutation before promoting from PROVISIONAL_DRAFT to SEALED.",
+    "tag": "[EXPERT_REVIEW_REQUIRED]"
+  },
+  "falsification_conditions": [
+    "(F1) The (4/17, 9/17, 4/17) distribution NOT recovered within statistics across N >= 10000 runs.",
+    "(F2) Pre-commit boundary-stress reading shows no statistically significant signal (NV PL implementation may not realize the SAM sensor concept).",
+    "(F3) Effective T2 during Stage 4 CLEARLY exceeds T2_grav_at_A_0 by more than 10x after non-gravitational channel subtraction."
+  ],
+  "hardware_spec": {
+    "M_native_target": 756,
+    "S_debit_predicted_MeV_inventory_units": 0.464844,
+    "S_over_M_ratio_predicted": "17 / (16 * R^3) = 17/27648 ~= 6.149e-4",
+    "control_channels": {
+      "envelope_loading": "Composite pulse sequence preparing (1/4, 9/16, 1/4) population distribution",
+      "microwave_drive": "~2.87 GHz +/- field offset, addresses |0> <-> |+1> and |+1> <-> |-1> transitions",
+      "optical_initialization": "532 nm laser, ~us pulse, polarizes NV to ms = 0",
+      "optical_readout": "637 nm excitation; PL counting at 637 nm distinguishes ms=0 (bright) vs ms=+/-1 (dim)"
+    },
+    "experimental_partner_candidates": [
+      "Hanson group, Delft University of Technology [VERIFY_PRECOMMIT]",
+      "Lukin group, Harvard University [VERIFY_PRECOMMIT]",
+      "Wrachtrup group, Stuttgart [VERIFY_PRECOMMIT]",
+      "Awschalom group, U Chicago [VERIFY_PRECOMMIT]"
+    ],
+    "ideal_qubit_realized": "(1, 2, 4) foundational ideal qubit",
+    "operating_modes": {
+      "cryogenic_plus_dynamical_decoupling": {
+        "T2_typical": "~1 s with KDD or CPMG sequences",
+        "accessibility": "Specialized groups (Delft Hanson primarily)",
+        "ratio_T2_grav": "AT THE LIMIT (~1.02x SAM floor per CR064a)",
+        "use_case": "Maximum-coherence verification of the SAM floor itself"
+      },
+      "room_temperature": {
+        "T2_typical": "~1 ms with Hahn echo, no DD",
+        "accessibility": "Wide academic access (Awschalom, Lukin, Stuttgart, Delft, Tsinghua, etc.)",
+        "ratio_T2_grav": "CONSISTENT, ~10x below SAM floor at MHz drive",
+        "use_case": "Initial demonstration; protocol verification"
+      }
+    },
+    "physical_substrate": {
+      "Zeeman_split_at_field": "Small axial field B_z lifts ms=+/-1 degeneracy; ~28 MHz/mT",
+      "defect_center": "Negatively charged nitrogen-vacancy center (NV-)",
+      "ground_state": "Triplet 3A2 with 3 spin sublevels: ms = 0, +1, -1",
+      "host": "Single-crystal diamond, optionally isotopically purified (12C-enriched)",
+      "zero_field_splitting_D": "~2.87 GHz (between ms=0 and ms=+/-1)"
+    },
+    "platform": "NV_center_in_diamond",
+    "review_status": "[EXPERT_REVIEW_REQUIRED] -- All NV-specific parameters tagged for confirmation by a qubit-engineering domain expert.",
+    "slot_assignment": {
+      "slot_a_carrier": {
+        "partition_value": 1,
+        "physical_state": "ms = 0 (ground sublevel)",
+        "role": "route identity, protected pre-commit",
+        "weight": "1/4"
+      },
+      "slot_b_envelope": {
+        "partition_value": 2,
+        "physical_state": "ms = +1 (Zeeman-split middle sublevel)",
+        "role": "letter content, 9/8 surcharge = the message",
+        "weight": "9/16 = (9/8) * (1/2)"
+      },
+      "slot_c_sensor": {
+        "partition_value": 4,
+        "physical_state": "ms = -1 (Zeeman-split outer sublevel)",
+        "role": "boundary stress readout via PL coupling",
+        "weight": "1/4"
+      }
+    }
+  },
+  "immutability": "Pairing recommendation, hardware spec, and protocol writeup are frozen at CR065a seal time.  Expert review may identify refinements requiring an appeal CR within 12a; the original v1.0 is preserved for the audit record.",
+  "implementation_recommendation": {
+    "second_place": "(2,4,8) x NV_center (score 13/15)",
+    "third_place": "(1,2,4) x photonic (score 12/15)",
+    "winner_max_possible": 15,
+    "winner_pairing": "(1,2,4) x NV_center",
+    "winner_rationale": "3 native sublevels (ms = 0/+1/-1); PL = direct photon-counting sensor; cryo+DD T2 ~ 1s AT SAM floor; room-temp accessible to many academic groups; mass-scale mapping open but slot-ratio testable",
+    "winner_total_score": 14
+  },
+  "lock_committed_utc": "2026-06-16T02:02:15Z",
+  "lock_version": "v1.0",
+  "physical_quantum_state_normalization": {
+    "Note": "The 17/16 sum's structural significance vs the unit-normalized physical state is the open conceptual question; addressed in CR066a candidate.",
+    "Physical_quantum_probabilities": "(4/17, 9/17, 4/17) -- weights normalized so sum = 1",
+    "Quantum_amplitudes": "(sqrt(4/17), sqrt(9/17), sqrt(4/17))",
+    "SAM_slot_weights_summing_to_17_16": "(1/4, 9/16, 1/4) reflect SURFACE DEBIT fractions per CR129b"
+  },
+  "protocol_stages": [
+    {
+      "name": "Initial state preparation",
+      "stage": 1,
+      "summary": "Optical pumping 532 nm; polarize to ms=0 (CARRIER); pre-commit state"
+    },
+    {
+      "name": "Carrier preparation",
+      "stage": 2,
+      "summary": "Microwave pi/2 on |0>\u2194|+1>; carrier superposition"
+    },
+    {
+      "name": "Envelope loading",
+      "stage": 3,
+      "summary": "Tailored second pulse to (4/17, 9/17, 4/17) distribution; 9/8 surcharge = letter content"
+    },
+    {
+      "name": "Boundary stress reading",
+      "stage": 4,
+      "summary": "Optical 637 nm + PL count; sensor slot probability = stress signal"
+    },
+    {
+      "name": "Commit (measurement)",
+      "stage": 5,
+      "summary": "Projective measurement; row resolves; S_debit registers as 0.0615% of M_native"
+    },
+    {
+      "name": "Verification over N runs",
+      "stage": 6,
+      "summary": "(4/17, 9/17, 4/17) distribution + T2 saturation at T2_grav_at_A_0"
+    }
+  ],
+  "scoring_summary": {
+    "(1,2,4) x NV_center": 14,
+    "(1,2,4) x SC_transmon": 10,
+    "(1,2,4) x photonic": 12,
+    "(1,2,4) x trapped_ion": 11,
+    "(2,4,8) x NV_center": 13,
+    "(2,4,8) x SC_transmon": 10,
+    "(2,4,8) x photonic": 12,
+    "(2,4,8) x trapped_ion": 12
+  },
+  "selection_criteria": {
+    "T2_headroom": "Margin between current T2 and T2_grav_at_A_0; 3 = comfortably below, 1 = at the limit",
+    "mass_scale_match": "Does platform's natural energy scale plausibly correspond to candidate's M_native scale? (1 = mapping open, 3 = natural fit)",
+    "practical_accessibility": "Can a partner group realistically access and operate this hardware? (0=exotic, 3=multiple academic and industry groups)",
+    "sensor_cleanliness": "Is readout a direct boundary-stress reader (vs indirect inference)? (0=indirect only, 3=direct photon/event counting)",
+    "slot_count_match": "Does platform provide 3 distinguishable physical levels for carrier/envelope/sensor? (0=no, 3=native 3-level structure)"
+  },
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR063a_hardware_lock_json": "f884d362a980a775c010768932f3eeebf44bd135c57625be7dc94b54e9c24639",
+    "CR064a_calibration_lock_json": "96b549a8de5a387408d18df416ab66b1d487cebc32cbff9c46465016871eee79",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

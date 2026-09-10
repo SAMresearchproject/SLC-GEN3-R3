@@ -1,0 +1,24 @@
+item,value,detail
+G1_citation_verified,True,"DOI=10.1103/vcqd-rkmn; journal=Phys. Rev. D 113, 65029"
+G2_R1_genuine_multientropy_reduction,True,G^(3)_n(A:B:C) = (2-n)/(2n) * [I_{1/2}(A:B) - 2 * E(A:B)] for Lifshitz / stabilizer-class states (Eq. 23 of paper)
+G2_R2_n2_vanishing,True,"G^(3)_2(A:B:C) = 0 for Lifshitz / stabilizer states (Markov gap M_{2,2} = 0)"
+G2_R3_GHZ_extraction_count,True,(I_{1/2} - 2*E) counts the number of GHZ states extractable from a stabilizer state (Discussion section of paper)
+G2_R4_dihedral_reflected_equivalence,True,"D_{2n}(A:B) = S^R_{2,n}(A:C) (Eq. 40 of paper; isomorphism Eq. 38)"
+G2_R5_CCNR_realignment,True,log Z_{2n} = E^CCNR_n(A:C); unnormalized dihedral = Rényi CCNR negativity of realignment (Eq. 41 of paper)
+G3_CR229_inclusion_exclusion,True,sealed_in=CR229@09a; structure=Two 81-element carrier-tensor sides ∩ Θ=18 overlap
+G3_CR248_source_channels,True,"sealed_in=CR248@09a; structure=(u, d, e) source-quark counts"
+G3_CR253_promoter_classes,True,sealed_in=CR253@09a; structure=80-row matter / antimatter / neutral split
+G3_CR256_A_conjugate,True,sealed_in=CR256@09a; structure=A-operator antimatter conjugation
+G3_CR259_chessboard,True,sealed_in=CR259@09a; structure=T13 × T13 = 169 lattice
+G3_CR262_carrier_container,True,"sealed_in=CR262@09a; structure=carrier {m₃, D², Θ, ĥV} vs container {R, V, F}"
+G4_I1_substrate_states_stabilizer_class,True,SAM substrate states are stabilizer-class in the technical sense of Bravyi-Fattal-Gottesman (Ref. [81] of paper); the partition algebra ĥ^i·d̂^j acts as a closed group of discrete operations on integer occupation states. Consequence: paper Result 1 (Eq. 23) applies to SAM tripartitions.
+G4_I2_C12_GHZ_symmetric_anchor,True,"C-12 has (u, d, e) = (Θ, Θ, m₃) = (18, 18, 6); u = d holds exactly. Under stabilizer-class state model with u-d symmetry, paper Result 2 gives G^(3)_2(C-12) = 0. Consistent with m(C-12) = 12 by definition; extends CR262 chain-step identification."
+G4_I3_A_operator_implements_dihedral_reflected,True,"CR256's A-conjugate (sign flip on 1 ± p/R^(d+1)) is a reflected-construction operation on the partition algebra. By paper Result 4 (Eq. 40), this is equivalent to a dihedral-group permutation. Therefore A-operator's matter↔antimatter map IS the SAM analog of dihedral invariant D_{2n}."
+G4_I4_CR229_inclusion_exclusion_is_tripartite,True,"R² = M + Θ = ℒ − Θ is structurally inclusion-exclusion on a tripartite system with two 81-element sides and an 18-element overlap. Under I1, paper Result 1 applies to this tripartition; the genuine multientropy at n=2 of this tripartition vanishes by Result 2."
+G4_I5_containers_destructive_interference,True,"CR262 carrier/container distinction maps to: containers (R, V, F) force destructive interference in reflected-construction permutations (paper Result 4); the resulting reflected entropy is incompatible with bound-state stability. Carriers (m₃, D², Θ, ĥV) admit stable GHZ-extractable structure."
+G5_O1_element_state_specification,True,"Which density matrix represents an element (Z, N)? (u, d, e) don't uniquely fix the state. → CR264"
+G5_O2_fee_scale_constant,True,"MeV-per-bit translation constant (analog of κ = 7117/768) for genuine multientropy → binding fee. Must derive, not fit. → CR265"
+G5_O3_sign_convention,True,"Substrate-natural rule for signed binding-fee contribution; B_u_obs is signed, genuine multientropy is non-negative. → CR264 or CR265"
+G5_O4_GHZ_count_substrate_quantity,True,"Which SAM quantity counts as a 'GHZ extraction'? Candidates: Θ-exchanges per nucleon pair (CR251), carrier-tensor lift fee count (CR249a/CR251), pair-write count (CR248 Phase B). → CR264"
+G5_O5_CCNR_realignment_SAM_identification,True,Result 5 (CCNR) registered; possible link to CR256 hard-zero falsifier QP093A-0088 as separability boundary. → future CR
+G6_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

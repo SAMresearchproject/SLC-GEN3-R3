@@ -1,0 +1,38 @@
+check_id,description,expected,observed,status
+LC03_CHECK_001,LC01 result class,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,PASS
+LC03_CHECK_002,LC03 lane registered,True,True,PASS
+LC03_CHECK_003,LC02 completed before LC03,LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK,LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK,PASS
+LC03_CHECK_004,carrier fraction from locked stack,1/8,1/8,PASS
+LC03_CHECK_005,retained fraction from locked stack,7/8,7/8,PASS
+LC03_CHECK_006,split loss equals tensor identity,18,18,PASS
+LC03_CHECK_007,surface debit remains distinct from carrier fraction,True,True,PASS
+LC03_CHECK_008,CR103a structural insight locked,BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED,BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED,PASS
+LC03_CHECK_009,QP088 source ontology selected,HIGGS_WEIGHTED_RESOLVED_SW_PRODUCES_A_MACRO_MASS_ACCUMULATES,HIGGS_WEIGHTED_RESOLVED_SW_PRODUCES_A_MACRO_MASS_ACCUMULATES,PASS
+LC03_CHECK_010,QP089 dynamics selected,HIGGS_SOURCE_QA_TO_MASS_LEDGER_TO_MACRO_A,HIGGS_SOURCE_QA_TO_MASS_LEDGER_TO_MACRO_A,PASS
+LC03_CHECK_011,QP089 dynamic chain complete,0,0,PASS
+LC03_CHECK_012,QP089 no free parameters,0,0,PASS
+LC03_CHECK_013,QP089 wrong controls rejected,10,10,PASS
+LC03_CHECK_014,QP092B qA rows coupled,7,7,PASS
+LC03_CHECK_015,QP092B A update rows passed,6,6,PASS
+LC03_CHECK_016,QP092B direct qA overread rows,6,6,PASS
+LC03_CHECK_017,QP092B ledger recovery near zero,True,True,PASS
+LC03_CHECK_018,QP092B adds no matter rows,0,0,PASS
+LC03_CHECK_019,QP092C kernel replay rows passed,6,6,PASS
+LC03_CHECK_020,QP092C geometry rows passed,18,18,PASS
+LC03_CHECK_021,QP092C direct qA rejected rows,24,24,PASS
+LC03_CHECK_022,QP092C adds no matter rows,0,0,PASS
+LC03_CHECK_023,QP092C hard-freeze result,True,True,PASS
+LC03_CHECK_024,QP092C hard-freeze engine-room rule,Never update A directly from qA as mass; always route qA through unresolved tensor-carrier support and ledger compression.,Never update A directly from qA as mass; always route qA through unresolved tensor-carrier support and ledger compression.,PASS
+LC03_CHECK_025,CR121 qp092 chain all passed,True,True,PASS
+LC03_CHECK_026,CR121 boundary is not full QG theorem,True,True,PASS
+LC03_CHECK_027,CR122 mechanism preserved after regrade,True,True,PASS
+LC03_CHECK_028,CR122 statistical regrade caveat present,True,True,PASS
+LC03_CHECK_029,CR201 all pass conditions true,True,True,PASS
+LC03_CHECK_030,CR201 source rows emitted,7,7,PASS
+LC03_CHECK_031,CR202 all pass conditions true,True,True,PASS
+LC03_CHECK_032,CR202 max recompute error zero,0.0,0.0,PASS
+LC03_CHECK_033,CR116 carrier not matter,carrier_only_not_matter,carrier_only_not_matter,PASS
+LC03_CHECK_034,CR147 A=1 boundary preserved,NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT,NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT,PASS
+LC03_CHECK_035,CR147 static A integral rejected,REJECTED_AS_SECONDS_SCALE_EXPLANATION,REJECTED_AS_SECONDS_SCALE_EXPLANATION,PASS
+LC03_CHECK_036,all source files exist,True,True,PASS
+LC03_CHECK_037,all LC03 wrong controls rejected for replay,True,True,PASS

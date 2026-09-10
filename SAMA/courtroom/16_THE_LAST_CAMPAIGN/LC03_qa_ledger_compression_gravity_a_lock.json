@@ -1,0 +1,706 @@
+{
+  "branch": "16_THE_LAST_CAMPAIGN",
+  "checks": [
+    {
+      "check_id": "LC03_CHECK_001",
+      "description": "LC01 result class",
+      "expected": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "observed": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_002",
+      "description": "LC03 lane registered",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_003",
+      "description": "LC02 completed before LC03",
+      "expected": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+      "observed": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_004",
+      "description": "carrier fraction from locked stack",
+      "expected": "1/8",
+      "observed": "1/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_005",
+      "description": "retained fraction from locked stack",
+      "expected": "7/8",
+      "observed": "7/8",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_006",
+      "description": "split loss equals tensor identity",
+      "expected": "18",
+      "observed": "18",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_007",
+      "description": "surface debit remains distinct from carrier fraction",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_008",
+      "description": "CR103a structural insight locked",
+      "expected": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+      "observed": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_009",
+      "description": "QP088 source ontology selected",
+      "expected": "HIGGS_WEIGHTED_RESOLVED_SW_PRODUCES_A_MACRO_MASS_ACCUMULATES",
+      "observed": "HIGGS_WEIGHTED_RESOLVED_SW_PRODUCES_A_MACRO_MASS_ACCUMULATES",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_010",
+      "description": "QP089 dynamics selected",
+      "expected": "HIGGS_SOURCE_QA_TO_MASS_LEDGER_TO_MACRO_A",
+      "observed": "HIGGS_SOURCE_QA_TO_MASS_LEDGER_TO_MACRO_A",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_011",
+      "description": "QP089 dynamic chain complete",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_012",
+      "description": "QP089 no free parameters",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_013",
+      "description": "QP089 wrong controls rejected",
+      "expected": 10,
+      "observed": 10,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_014",
+      "description": "QP092B qA rows coupled",
+      "expected": 7,
+      "observed": 7,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_015",
+      "description": "QP092B A update rows passed",
+      "expected": 6,
+      "observed": 6,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_016",
+      "description": "QP092B direct qA overread rows",
+      "expected": 6,
+      "observed": 6,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_017",
+      "description": "QP092B ledger recovery near zero",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_018",
+      "description": "QP092B adds no matter rows",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_019",
+      "description": "QP092C kernel replay rows passed",
+      "expected": 6,
+      "observed": 6,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_020",
+      "description": "QP092C geometry rows passed",
+      "expected": 18,
+      "observed": 18,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_021",
+      "description": "QP092C direct qA rejected rows",
+      "expected": 24,
+      "observed": 24,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_022",
+      "description": "QP092C adds no matter rows",
+      "expected": 0,
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_023",
+      "description": "QP092C hard-freeze result",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_024",
+      "description": "QP092C hard-freeze engine-room rule",
+      "expected": "Never update A directly from qA as mass; always route qA through unresolved tensor-carrier support and ledger compression.",
+      "observed": "Never update A directly from qA as mass; always route qA through unresolved tensor-carrier support and ledger compression.",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_025",
+      "description": "CR121 qp092 chain all passed",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_026",
+      "description": "CR121 boundary is not full QG theorem",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_027",
+      "description": "CR122 mechanism preserved after regrade",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_028",
+      "description": "CR122 statistical regrade caveat present",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_029",
+      "description": "CR201 all pass conditions true",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_030",
+      "description": "CR201 source rows emitted",
+      "expected": 7,
+      "observed": 7,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_031",
+      "description": "CR202 all pass conditions true",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_032",
+      "description": "CR202 max recompute error zero",
+      "expected": 0.0,
+      "observed": 0.0,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_033",
+      "description": "CR116 carrier not matter",
+      "expected": "carrier_only_not_matter",
+      "observed": "carrier_only_not_matter",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_034",
+      "description": "CR147 A=1 boundary preserved",
+      "expected": "NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT",
+      "observed": "NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_035",
+      "description": "CR147 static A integral rejected",
+      "expected": "REJECTED_AS_SECONDS_SCALE_EXPLANATION",
+      "observed": "REJECTED_AS_SECONDS_SCALE_EXPLANATION",
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_036",
+      "description": "all source files exist",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "LC03_CHECK_037",
+      "description": "all LC03 wrong controls rejected for replay",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    }
+  ],
+  "claim_boundaries": [
+    {
+      "details": "qA source support routes through the 1/8 tensor carrier and ledger compression into A-field readout.",
+      "item": "LC03_pass_claim",
+      "status": "MECHANISM_REPLAY_PASS"
+    },
+    {
+      "details": "QP092B/C reject direct qA-as-mass for mechanism replay rows; CR122 downgrades cosmology-statistical language to DISFAVORED at max 1.475 sigma.",
+      "item": "direct_qA_as_mass",
+      "status": "REJECTED_AS_LC03_MECHANISM_ROUTE"
+    },
+    {
+      "details": "CR116 and QP092B/C preserve 18 as unresolved tensor support; no matter row is added.",
+      "item": "carrier_status",
+      "status": "CARRIER_ONLY_NOT_MATTER"
+    },
+    {
+      "details": "CR121 boundary preserved; LC03 is the qA-to-A mechanism replay, not full quantum gravity closure.",
+      "item": "strong_field_scope",
+      "status": "NOT_FULL_QG_THEOREM"
+    },
+    {
+      "details": "CR147 rejects static A integral as the seconds-scale GW170817 explanation and keeps A=1 as no-escape zero-depth boundary.",
+      "item": "dynamic_A_release_scope",
+      "status": "CR147_BOUNDARY_PRESERVED"
+    }
+  ],
+  "claim_grade": "MECHANISM_REPLAY_PASS_WITH_CR122_STATISTICAL_LANGUAGE_CAVEAT_PRESERVED",
+  "engine_room_rule": "Never update A directly from qA as mass; always route qA through unresolved tensor-carrier support and ledger compression.",
+  "executed_at_utc": "2026-06-19T08:05:38Z",
+  "execution_status": "CLEAN",
+  "lc_id": "LC03",
+  "locked_values": {
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2,
+    "carrier_fraction": "1/8",
+    "retained_fraction": "7/8",
+    "split_loss": "18",
+    "surface_debit_not_carrier": "3/4",
+    "tensor_identity": "18"
+  },
+  "mechanism_chain": "closed matter write -> qA source support -> 1/8 unresolved tensor carrier -> ledger compression -> A(r)=r_s/r -> force/clock/road readout",
+  "mechanism_replay": [
+    {
+      "replay_status": "PASS",
+      "rule": "stable resolved write carries source strength after resolution",
+      "source": "CR103a/QP088/QP089",
+      "stage": "closed_matter_write",
+      "step": "LC03_STEP_01"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "qA_i = m_i*(1 + r_bounce_i)",
+      "source": "QP089/CR201",
+      "stage": "qA_source_strength",
+      "step": "LC03_STEP_02"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "qA support preserves 7/8 retained write support plus 1/8 carrier support",
+      "source": "CR114/QP092B",
+      "stage": "source_support_split",
+      "step": "LC03_STEP_03"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "1/8 carrier is split-loss tensor support = 18 = alpha_H*D^2",
+      "source": "CR114/CR116",
+      "stage": "carrier_identity",
+      "step": "LC03_STEP_04"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "qA never updates A directly as mass; it routes through unresolved carrier support and post-bounce mass ledger compression",
+      "source": "QP092B/QP092C/QP092C_hard_freeze",
+      "stage": "ledger_compression",
+      "step": "LC03_STEP_05"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "A(r)=r_s/r=2GM/(c^2*r) from ledger-compressed mass inventory",
+      "source": "QP092C",
+      "stage": "A_kernel_update",
+      "step": "LC03_STEP_06"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "force, clock, and road readouts remain typed lanes of the same A kernel",
+      "source": "QP092C/CR202",
+      "stage": "typed_readout",
+      "step": "LC03_STEP_07"
+    },
+    {
+      "replay_status": "PASS",
+      "rule": "gravity is the local/macroscopic force-channel readout of the updated A field",
+      "source": "CR121",
+      "stage": "gravity_as_A_readout",
+      "step": "LC03_STEP_08"
+    }
+  ],
+  "numeric_replay": [
+    {
+      "decimal": "12",
+      "exact": 12,
+      "formula": "LC01 locked primitive",
+      "quantity": "R",
+      "source": "LC01/CR113"
+    },
+    {
+      "decimal": "3",
+      "exact": 3,
+      "formula": "LC01 locked primitive",
+      "quantity": "D",
+      "source": "LC01/CR115"
+    },
+    {
+      "decimal": "2",
+      "exact": 2,
+      "formula": "LC01 locked primitive",
+      "quantity": "alpha_H",
+      "source": "LC01/CR114/CR116"
+    },
+    {
+      "decimal": "0.125000000000000000000000000000",
+      "exact": "1/8",
+      "formula": "2^-D",
+      "quantity": "carrier_fraction",
+      "source": "LC01/CR114/QP092B/QP092C"
+    },
+    {
+      "decimal": "0.875000000000000000000000000000",
+      "exact": "7/8",
+      "formula": "1 - 2^-D",
+      "quantity": "retained_write_fraction",
+      "source": "LC01/CR114/QP092B/QP092C"
+    },
+    {
+      "decimal": "18.000000000000000000000000000000",
+      "exact": "18",
+      "formula": "R^2 * 2^-D",
+      "quantity": "split_loss_tensor_channel",
+      "source": "LC01/CR114/CR116"
+    },
+    {
+      "decimal": "18.000000000000000000000000000000",
+      "exact": "18",
+      "formula": "alpha_H * D^2",
+      "quantity": "tensor_identity",
+      "source": "LC01/CR116"
+    },
+    {
+      "decimal": "0.750000000000000000000000000000",
+      "exact": "3/4",
+      "formula": "D^2/R",
+      "quantity": "surface_debit_not_carrier",
+      "source": "LC01/CR114"
+    },
+    {
+      "decimal": 0.006631455962162303,
+      "exact": 0.006631455962162303,
+      "formula": "source artifact observed bound",
+      "quantity": "direct_qA_overread_min_fraction",
+      "source": "QP092B/QP089/CR122"
+    },
+    {
+      "decimal": 0.009947183943243454,
+      "exact": 0.009947183943243454,
+      "formula": "source artifact observed bound",
+      "quantity": "direct_qA_overread_max_fraction",
+      "source": "QP092B/QP089/CR122"
+    },
+    {
+      "decimal": 2.220446049250313e-16,
+      "exact": 2.220446049250313e-16,
+      "formula": "source artifact observed bound",
+      "quantity": "ledger_recovery_max_relative_error",
+      "source": "QP092B/QP089"
+    }
+  ],
+  "result_class": "LC03_PASS_QA_LEDGER_COMPRESSION_GRAVITY_AS_A_REPLAY",
+  "scope": "Replay qA source support through 1/8 tensor carrier and ledger compression into A-field gravity readout.",
+  "source_chain": [
+    {
+      "exists": true,
+      "expected_status": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "observed_status": "LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER",
+      "path": "16_THE_LAST_CAMPAIGN\\LC01_primitive_stack_lock.json",
+      "purpose": "Locked primitive stack and LC03 lane registration.",
+      "sha256": "7b0877f75e84be7cd809fc083ed737fc1552484a9c525b2f9e307e6eac4bfb30",
+      "source_id": "LC01_LOCK"
+    },
+    {
+      "exists": true,
+      "expected_status": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+      "observed_status": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+      "path": "16_THE_LAST_CAMPAIGN\\LC02_summary.json",
+      "purpose": "Prior Higgs closed-form lane complete.",
+      "sha256": "c8a17924eca1119e1e7a4b555bbf91ab4a17186607615d8f8390e32615b5c996",
+      "source_id": "LC02_SUMMARY"
+    },
+    {
+      "exists": true,
+      "expected_status": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+      "observed_status": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+      "path": "14_FOUNDATIONAL_TESTS\\CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL\\CR103a_summary.json",
+      "purpose": "A-dependent bounce/source discipline.",
+      "sha256": "f4b95da7350c5ca36a1c29f89af8cfe808ce0c9915a2fab68317b6bcae978a9d",
+      "source_id": "CR103a"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "observed_status": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR114_BINARY_FACE_STATE_SPLIT_THEOREM\\CR114_summary.json",
+      "purpose": "1/8 carrier and 7/8 retained split.",
+      "sha256": "e3b1f4aad262c08d1ab6286fc6a14386cc89c32da9e00666f439e52eed47acfb",
+      "source_id": "CR114"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "observed_status": "CR116_PASS_18_GRAVITON_CHANNEL_CARRIER_THEOREM",
+      "path": "14_FOUNDATIONAL_TESTS\\CR116_18_GRAVITON_CARRIER_THEOREM\\CR116_summary.json",
+      "purpose": "18 carrier-only tensor support.",
+      "sha256": "e63c5821b7bb75dac6d975494d73b255aea691c773f4780b4523a0e09ab885ca",
+      "source_id": "CR116"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_SEALED_NOT_GRAVITON_NOT_FULL_QG_THEOREM",
+      "observed_status": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_SEALED_NOT_GRAVITON_NOT_FULL_QG_THEOREM",
+      "path": "11_QUANTUM_MECHANICS_AND_GRAVITY\\CR121_SAM_GRAVITY_MECHANISM_INTAKE\\CR121_summary.json",
+      "purpose": "Gravity mechanism intake; qA to A through carrier/ledger compression.",
+      "sha256": "e8218726efd2a11ad42e702a83a43f37f97e50e2d6308ce9658ad142c21a48d7",
+      "source_id": "CR121"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE_BOUNDARY__REJECTED_DOWNGRADED_TO_DISFAVORED_AT_1_475_SIGMA__MECHANISM_PRESERVED",
+      "observed_status": "CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE_BOUNDARY__REJECTED_DOWNGRADED_TO_DISFAVORED_AT_1_475_SIGMA__MECHANISM_PRESERVED",
+      "path": "00_governance\\CR122_CARRIER_COMPRESSION_GATE_RETROACTIVE_BRIDGE\\CR122_summary.json",
+      "purpose": "Carrier compression admission gate with regrade caveat.",
+      "sha256": "71e5cae00152f03f8fd77e40245fb928ebe7dd7382c460eb31ab44698fe29d32",
+      "source_id": "CR122"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR147_PASS_GW170817_DYNAMIC_A_RELEASE_ENGINE_DIFFERENTIAL_WITH_STATIC_A_INTEGRAL_BOUNDARY",
+      "observed_status": "CR147_PASS_GW170817_DYNAMIC_A_RELEASE_ENGINE_DIFFERENTIAL_WITH_STATIC_A_INTEGRAL_BOUNDARY",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY\\CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL\\CR147_summary.json",
+      "purpose": "Dynamic A release boundary and A=1 discipline.",
+      "sha256": "5e8c0eb2048af41830116f1f1e1f4c8e4c1aee880271223fb6eec5c4145f92b0",
+      "source_id": "CR147"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR201_PASS_SOURCE_TO_FIELD_SIMULATOR_BRIDGE",
+      "observed_status": "CR201_PASS_SOURCE_TO_FIELD_SIMULATOR_BRIDGE",
+      "path": "15_SCALE_BRIDGE_SIMULATOR\\CR201_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\CR201_summary.json",
+      "purpose": "Source-to-field simulator qA bridge.",
+      "sha256": "5846bb1dcca2cc54cf9e2f6f4c4f069f28d0a217eeb0168d6fb473848d5ca540",
+      "source_id": "CR201"
+    },
+    {
+      "exists": true,
+      "expected_status": "CR202_PASS_TYPED_READOUT_REPRODUCTION",
+      "observed_status": "CR202_PASS_TYPED_READOUT_REPRODUCTION",
+      "path": "15_SCALE_BRIDGE_SIMULATOR\\CR202_TYPED_READOUT_REPRODUCTION\\CR202_summary.json",
+      "purpose": "Typed readout reproduction from qA sources.",
+      "sha256": "2bba4f271a15e9eac342c8f09d3902efc5d641297ad71a74d7d18aae194ac4b7",
+      "source_id": "CR202"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP088_WZH_Q_SLOT_OWNERS_DERIVED_HIGGS_A_SOURCE_SELECTED",
+      "observed_status": "PASS_QP088_WZH_Q_SLOT_OWNERS_DERIVED_HIGGS_A_SOURCE_SELECTED",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp088\\qp088_summary.json",
+      "purpose": "W/Z/H q-slot ownership and Higgs-A source selector.",
+      "sha256": "adc66ed1c8e64a96e4bf25c505ae207a0dd0db0f3144eefdc6c50b3aef768e48",
+      "source_id": "QP088"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP089_HIGGS_A_SOURCE_TO_MACRO_ACCUMULATION_DYNAMICS",
+      "observed_status": "PASS_QP089_HIGGS_A_SOURCE_TO_MACRO_ACCUMULATION_DYNAMICS",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp089\\qp089_summary.json",
+      "purpose": "Higgs-A source to macro accumulation dynamics.",
+      "sha256": "8ab67e691b5572346b22c1ad894e2b3010ee15c03a77aec90496d095405aec4b",
+      "source_id": "QP089"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE",
+      "observed_status": "PASS_QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE__QA_LOADS_UNRESOLVED_1_8_CARRIER_SUPPORT__DIRECT_QA_AS_MASS_REJECTED__LEDGER_COMPRESSED_A_UPDATE_PASSES__NOT_PARTICLE_ROW",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp092b_tensor_carrier_qa_coupling\\qp092b_summary.json",
+      "purpose": "qA carrier coupling and ledger-compressed A update.",
+      "sha256": "74940558dbe739d48fd619bf699792391faaa4c43af7fd3bc8dbbe73d33beb13",
+      "source_id": "QP092B"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP092C_TENSOR_CARRIER_PROPAGATION_A_KERNEL_RECOVERY",
+      "observed_status": "PASS_QP092C_TENSOR_CARRIER_PROPAGATION_A_KERNEL_RECOVERY__POINT_MULTI_EXTENDED_LEDGER_A_KERNEL_RECOVERED__DIRECT_QA_AS_MASS_REJECTED__NO_MATTER_PROMOTION__WRONG_CARRIER_CONTROLS_REJECTED",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp092c_tensor_carrier_a_kernel\\qp092c_summary.json",
+      "purpose": "A kernel recovery from ledger-compressed carrier support.",
+      "sha256": "4063950dde82ca109dd0608e7d0d702066beb7f7da79489638a1a10aa9344e27",
+      "source_id": "QP092C"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_QP092C_HARD_FREEZE_AND_ENGINE_ROOM_RULE_UPDATE",
+      "observed_status": "PASS_QP092C_HARD_FREEZE_AND_ENGINE_ROOM_RULE_UPDATE__MECHANISM_CHAIN_FROZEN__QA_TO_A_RULE_WRITTEN__HASH_SIDECARS_EMITTED__BOUNDARIES_PRESERVED",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp092c_hard_freeze\\qp092c_hard_freeze_summary.json",
+      "purpose": "Hard-frozen engine-room qA-to-A rule.",
+      "sha256": "694884e3e709d0db05536cba8e661fba1f81a53243d5a19c4b8e63abda055820",
+      "source_id": "QP092C_FREEZE"
+    }
+  ],
+  "test_class": "QA_LEDGER_COMPRESSION_GRAVITY_AS_A_REPLAY",
+  "wrong_controls": [
+    {
+      "control_id": "WC08_DIRECT_QA_AS_MASS",
+      "hypothesis": "qA may be used directly as exterior mass / A update.",
+      "observed": "QP092B direct overread rows=6/6; QP092C direct overread rows=24/24; CR122 says direct route is statistically DISFAVORED at max 1.475 sigma.",
+      "rejected_for_replay": true,
+      "rejection_basis": "Mechanism replay requires carrier support plus ledger compression, not qA-as-mass.",
+      "status": "REJECTED_FOR_LC03_REPLAY__CR122_STATISTICAL_LANGUAGE_PRESERVED"
+    },
+    {
+      "control_id": "WC10_SURFACE_DEBIT_CONFUSION",
+      "hypothesis": "Replace the 1/8 carrier route with the D^2/R surface debit.",
+      "observed": "carrier_fraction=1/8; surface_debit=3/4",
+      "rejected_for_replay": true,
+      "rejection_basis": "Surface debit belongs to the Higgs observed surface; qA-to-A uses carrier support.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC11_STATIC_A_FOR_DYNAMIC_RELEASE",
+      "hypothesis": "Use static A integral as the GW170817 release delay mechanism.",
+      "observed": "REJECTED_AS_SECONDS_SCALE_EXPLANATION",
+      "rejected_for_replay": true,
+      "rejection_basis": "CR147 preserves dynamic A-release/source-origin distinction.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC12_A1_AS_NORMAL_LAUNCH_POINT",
+      "hypothesis": "Treat A=1 as an ordinary photon/GW launch point.",
+      "observed": "NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT",
+      "rejected_for_replay": true,
+      "rejection_basis": "A=1 is no-escape zero-depth boundary, not a normal propagation surface.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_NO_LEDGER_COMPRESSION",
+      "hypothesis": "Let qA source support update A without compression.",
+      "observed": "QP092C WC5_NO_LEDGER_COMPRESSION rejected; QP092C hard freeze rule forbids direct update.",
+      "rejected_for_replay": true,
+      "rejection_basis": "The frozen engine-room rule requires ledger compression before A update.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_NO_1_8_CARRIER",
+      "hypothesis": "Drop the unresolved 1/8 carrier and keep the A update.",
+      "observed": "QP092C WC2_NO_1_8_CARRIER_SPLIT rejected.",
+      "rejected_for_replay": true,
+      "rejection_basis": "Carrier support is required by CR114/CR116/QP092B/C.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_WRONG_1_4_SPLIT",
+      "hypothesis": "Use 1/4 carrier split.",
+      "observed": "R^2*(1/4)=36; retained=108.",
+      "rejected_for_replay": true,
+      "rejection_basis": "Fails CR114/QP092A split-loss identity 18/126.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_WRONG_1_16_SPLIT",
+      "hypothesis": "Use 1/16 total carrier split.",
+      "observed": "R^2*(1/16)=9; retained=135.",
+      "rejected_for_replay": true,
+      "rejection_basis": "Fails CR114/QP092A split-loss identity 18/126.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_PROMOTE_CARRIER_TO_MATTER",
+      "hypothesis": "Promote the 18 carrier to a matter/rest-mass row.",
+      "observed": "CR116 particle_catalog_status=carrier_only_not_matter; QP092B matter_rows_added=0; QP092C matter_rows_added=0",
+      "rejected_for_replay": true,
+      "rejection_basis": "18 is tensor-carrier support, not matter.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_VECTOR_OR_SCALAR_CARRIER",
+      "hypothesis": "Replace the rank-2/tensor carrier with vector or scalar support.",
+      "observed": "QP092C WC8_VECTOR_OR_SCALAR_CARRIER rejected.",
+      "rejected_for_replay": true,
+      "rejection_basis": "CR116/QP092C require two tensor polarizations / rank-2 support.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_MASS_ONLY_SOURCE",
+      "hypothesis": "Erase Higgs/qA source layer and use mass-only primitive source.",
+      "observed": "QP088 selected=HIGGS_WEIGHTED_RESOLVED_SW_PRODUCES_A_MACRO_MASS_ACCUMULATES; QP089 selected=HIGGS_SOURCE_QA_TO_MASS_LEDGER_TO_MACRO_A",
+      "rejected_for_replay": true,
+      "rejection_basis": "QP088/QP089 reject mass-only primitive source.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_HIGGS_SOURCE_ONLY_ERASES_MACRO_ACCUMULATION",
+      "hypothesis": "Keep Higgs source only and erase macro accumulation.",
+      "observed": "QP088/QP089 wrong controls reject this route.",
+      "rejected_for_replay": true,
+      "rejection_basis": "LC03 requires both source-side qA and macro A accumulation.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_RANDOM_QA_ASSIGNMENT",
+      "hypothesis": "Assign qA randomly by species.",
+      "observed": "QP089 wrong controls rejected=10/10; CR201 wrong controls=6/6.",
+      "rejected_for_replay": true,
+      "rejection_basis": "qA follows the inherited r_bounce/q-slot source grammar.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_LANE_MIXING",
+      "hypothesis": "Mix mass ledger, qA-direct, force, and clock readouts.",
+      "observed": "CR202 max_recompute_error=0.0; wrong controls=5/5.",
+      "rejected_for_replay": true,
+      "rejection_basis": "Typed readout lanes remain separated.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    },
+    {
+      "control_id": "WC_FULL_QG_OVERCLAIM",
+      "hypothesis": "Treat LC03 as full quantum-gravity theorem closure.",
+      "observed": "CR121_SAM_GRAVITY_MECHANISM_INTAKE_SEALED_NOT_GRAVITON_NOT_FULL_QG_THEOREM",
+      "rejected_for_replay": true,
+      "rejection_basis": "CR121 boundary says gravity mechanism intake, not full QG theorem.",
+      "status": "REJECTED_FOR_LC03_REPLAY"
+    }
+  ]
+}

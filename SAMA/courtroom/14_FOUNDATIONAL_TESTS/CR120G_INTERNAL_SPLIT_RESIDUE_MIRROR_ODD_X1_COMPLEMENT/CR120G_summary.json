@@ -1,0 +1,28 @@
+{
+  "P80_status": "STRUCTURAL_ONLY_UNPOPULATED",
+  "arbitrary_coordinate_removal": "REJECTED_BY_WRONG_CONTROL",
+  "bounded_Q_control": "PASS_NO_GENERAL_BASIS_INVARIANCE_CLAIM",
+  "constructed_model_checks": "PASS",
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "disposition": "RESEARCH_BOUNDARY_CONSTRUCTED_SPLIT_RESIDUE_AND_STATEFUL_LIFT_DISCRIMINATED_CONDITIONAL_MIRROR_ODD_X1_COMPLEMENT_RANK80_MODEL_EXECUTES_INSTALLED_SAM_MAPPING_OPEN",
+  "installed_SAM_mapping": "OPEN",
+  "mirror_odd_X1_complement_rank": 80,
+  "mirror_trials": {
+    "BALANCED": "NULL",
+    "DEGENERATE": "NULL",
+    "MIXED": "NON_NULL",
+    "TRANSVERSE": "NON_NULL",
+    "X1_ONLY": "NULL"
+  },
+  "operator_mutation_changes_residue": true,
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "split_closes_with_residue": true,
+  "stateful_history_discriminated": true
+}

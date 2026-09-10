@@ -1,0 +1,71 @@
+# CR037A HASHES
+
+Sealed 2026-06-27. Substrate-derivation selector for the CMB perturbation
+triplet (A_s, n_s, tau):
+
+  n_s_SAM = 1 - chi/2     = 1 - 1/(9*pi)         = 0.9646322349 (expected)
+  A_s_SAM = eta_SAM * sqrt(R) = 7*sqrt(R)/(4*(12*pi)^6) = 2.1117473568e-9 (expected)
+  tau_SAM = 2 * A_0       = 1/(6*pi)             = 0.0530516477 (expected)
+
+Compared to frozen Planck 2018 posterior centroids:
+  A_s_ref = 2.100e-9 +/- 0.030e-9
+  n_s_ref = 0.9649   +/- 0.0042
+  tau_ref = 0.0544   +/- 0.0073
+
+Per-parameter bands:
+  PASS:     |sigma_dev| <= 1.0
+  BOUNDARY: 1.0 < |sigma_dev| <= 2.0
+  FAIL:     |sigma_dev| >  2.0
+
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# CR036 provenance (provenance only; the CR037A runner does NOT open this file)
+PROVENANCE  345a1a8dc180eb6b28141114a82315e3b8d92889537c1219eec4312d59ca33f2  CR036/CR036_PRECOMMIT.md
+CANONICAL_VALUE  eta_SAM = 6.09608952448e-10  (verified in-runner from substrate atoms)
+
+# Precommit (sealed first; runner must honor)
+1b7da85b860825d7e9b0a8e7d231aef92ec980b020341800da81a09f48ba5d78  CR037A_PRECOMMIT.md
+
+# Runner (HASHED BEFORE EXECUTION; frozen-at-launch evidence)
+cd7217a7a752f603c89c52160705b6adbbaf58424d1ac290f19ef0b70017a1e3  CR037A_runner.py
+
+# CR037A artifacts (HASHED IMMEDIATELY AFTER RUNNER EXECUTION)
+# Runner verdict: PASS. All three parameters STRONG_CONTACT (<= 0.5 sigma).
+#   A_s_SAM = 2.1117473568e-09  sigma_dev = +0.392 sigma  STRONG_CONTACT
+#   n_s_SAM = 0.9646322349        sigma_dev = -0.064 sigma  STRONG_CONTACT
+#   tau_SAM = 0.0530516477        sigma_dev = -0.185 sigma  STRONG_CONTACT
+# E1 wrong-controls for A_s: eta*sqrt(R) is BY FAR the closest (0.39 sigma);
+#   next closest is eta*pi at -6.16 sigma. The canonical A_s_SAM earns its place.
+# E2 self-lifted tau (2*A_0*(1+A_0)) sigma_dev = +0.008 reported only.
+14d8dce9f99c77a919a22bf2e787296b8f37bb6c69a52b582d18a464a8866661  CR037A_summary.json
+6f203badf3f1c2c15d8be948e9c94a71fe4055f9fe73ad0b61a82d58db003ddb  CR037A_result.md
+bc065545eb9641892eda96587bba928b7b24c6f9898cfd5a67a8c629e311826b  CR037A_evidence_rows.csv
+
+# Frozen external numeric constants (in-code literals; no file read)
+A_S_REF   = 2.100e-9     SIGMA_AS  = 0.030e-9     (Planck 2018 base posterior centroid +/- 1-sigma)
+N_S_REF   = 0.9649       SIGMA_NS  = 0.0042       (Planck 2018 base posterior centroid +/- 1-sigma)
+TAU_REF   = 0.0544       SIGMA_TAU = 0.0073       (Planck 2018 base posterior centroid +/- 1-sigma)
+
+# Engine
+ENGINE:Python standard library + math (no scipy, no CAMB, no Boltzmann)
+
+# Forbidden inputs
+FORBIDDEN  CR036 family files (PRECOMMIT, runner, summary, result, evidence, substrate_atoms)
+FORBIDDEN  CR036B family files
+FORBIDDEN  CR035A2 family files
+FORBIDDEN  CR035A family files
+FORBIDDEN  CR001 / CR001b / CR001c / CR002 / CR003 family files
+FORBIDDEN  CR018b / CR019 family files
+FORBIDDEN  CR025 / CR031b / CR032 / CR033 family files
+FORBIDDEN  CR205 files
+FORBIDDEN  any Planck CMB spectrum / likelihood / chain / posterior table file
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv

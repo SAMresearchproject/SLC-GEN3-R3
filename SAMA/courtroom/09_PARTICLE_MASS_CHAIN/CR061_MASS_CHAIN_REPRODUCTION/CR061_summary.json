@@ -1,0 +1,39 @@
+{
+  "cr_id": "CR061",
+  "branch": "09_PARTICLE_MASS_CHAIN",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL",
+  "triage_bin": "A",
+  "reason": "mass chain reproduces byte-equivalent across QP arm + SUK/QGA arm; QP071 SUK gate bridge verified; G616c public cross-check verified",
+  "captured_at_utc": "2026-06-13T07:32:08Z",
+  "seal_sha256": "ab7cdebb8a2c56f98a1e242967b30fbb05d1fb4ec40719061e779608e87e50c8",
+  "phases": {
+    "phase_1_seal_and_hash": {
+      "seal_exists": true,
+      "sha_matches": true,
+      "verified": 572
+    },
+    "phase_2_qp_bridge": {
+      "ok_steps": 24,
+      "of": 24
+    },
+    "phase_3_suk_qga": {
+      "hash_matches": 13,
+      "of": 13
+    },
+    "phase_4_qp071_bridge": {
+      "status": "bridge_verified"
+    },
+    "phase_5_phase4_freeze": {
+      "hash_matches": 4,
+      "of": 4
+    },
+    "phase_6_g616c_cross_check": {
+      "status": "cross_check_verified"
+    },
+    "phase_7_wrong_reproductions": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

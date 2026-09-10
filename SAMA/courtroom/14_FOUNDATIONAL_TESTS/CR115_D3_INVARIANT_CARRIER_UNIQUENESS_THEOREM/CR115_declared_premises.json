@@ -1,0 +1,24 @@
+{
+  "artifact": "CR115_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM",
+  "declared_at_utc": "2026-06-19T06:30:35Z",
+  "purpose": "Close the G348 carrier-necessity gap under accepted SAM matter-identity commitments.",
+  "theorem_claim_inside_sam": "Given substrate-internal displacement-response identity and no external identity carrier, all admissible persistent matter-identity handles reduce to a self-contained stable source/topological sector. For the 1D loop/twist/intersection carrier, obstruction_dim=3-D, so D=3 is the unique stable dimension.",
+  "calibration": {
+    "computed_core": "G347 topology obstruction, recomputed by CR115",
+    "structural_commitment_layer": "G349-G354 carrier reductions and identity principle",
+    "not_claimed": [
+      "external peer-review closure",
+      "empirical proof of D=3",
+      "string-theory critical dimension",
+      "D3 from poset axioms alone",
+      "D3 from R, A0, 2pi, Higgs, or downstream particle numerology"
+    ]
+  },
+  "accepted_commitments_used": [
+    "matter identity is invariant substrate displacement-response",
+    "persistent identity cannot be an external/background label",
+    "raw histories, labels, open phases, and standalone spectra are not persistent identity by themselves",
+    "self-contained nontrivial transport/holonomy identity requires a stable source sector",
+    "loop/twist/intersection carrier has obstruction_dim = 3 - D"
+  ]
+}

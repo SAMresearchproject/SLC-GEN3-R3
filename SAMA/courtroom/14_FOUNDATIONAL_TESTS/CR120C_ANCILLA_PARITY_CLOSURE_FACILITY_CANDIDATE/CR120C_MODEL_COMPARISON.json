@@ -1,0 +1,30 @@
+[
+  {
+    "candidate": "ANCILLA_MEDIATED_WEIGHT_8_PARITY",
+    "decisive_test": "complete 512-row transfer table plus backaction and repeated-readout experiment",
+    "finite_model_status": "MECHANICALLY_COHERENT",
+    "mechanism": "entangle S8 channels with X1, measure X1, condition or feed back on the syndrome",
+    "sam_identity_status": "UNSOURCED"
+  },
+  {
+    "candidate": "SIGNED_EIGHT_FACE_GAUSS_RESIDUAL",
+    "decisive_test": "calibrated source-flux scaling, orientation reversal, exterior-source, and geometry controls",
+    "finite_model_status": "NOT_EXECUTED",
+    "mechanism": "compare signed boundary flux with an independently measured enclosed source",
+    "sam_identity_status": "UNSOURCED"
+  },
+  {
+    "candidate": "CONSTRAINT_PENALTY_HAMILTONIAN",
+    "decisive_test": "constraint-specific suppression versus generic freezing and detuned controls",
+    "finite_model_status": "NOT_EXECUTED",
+    "mechanism": "raise the energy of nonclosure sectors",
+    "sam_identity_status": "UNSOURCED"
+  },
+  {
+    "candidate": "STRUCTURAL_NULL_NO_PHYSICAL_MEASUREMENT",
+    "decisive_test": "source or observe a reproducible B-to-W9 physical transfer rule",
+    "finite_model_status": "LIVE_CONTROL",
+    "mechanism": "RESOLVE is only a typed structural mapping",
+    "sam_identity_status": "COMPATIBLE_WITH_CURRENT_SOURCE_SILENCE"
+  }
+]

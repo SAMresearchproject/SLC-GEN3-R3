@@ -1,0 +1,7 @@
+open_id,name,search_terms
+OPEN_1,"MATTER column (atomic weight, 126 rows)","atomic_weight,atomic mass,relative atomic mass,IUPAC,standard atomic weight"
+OPEN_2,"CLOCK column (stable/radioactive flag, 126 rows)","stable,radioactive,half-life,halflife,isotope stability,decay channel"
+OPEN_3,"LIGHT column (atomic spectrum wavelength, 126 rows)","wavelength,spectral line,nanometer,emission line,absorption line,Balmer,Lyman"
+OPEN_4,"ACTION column (nuclear spin, 126 rows)","nuclear spin,nuclear_spin,spin parity,J^P,ground-state spin"
+OPEN_5,seven-channel Fano position physical mapping,"seven channel,7-channel,fano position,fano assignment,seven-position mapping,PARTICLE MATTER ELEMENT GRAVITY CLOCK LIGHT ACTION"
+OPEN_6,126 GeV conversion (H_native = 126 -> Higgs mass),"126 GeV,H_native,125.25,Higgs mass,Higgs reveal,H_reveal,R^2 * (1 - 2^-D)"

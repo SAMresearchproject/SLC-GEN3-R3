@@ -1,0 +1,16 @@
+quantity,value,base12,provenance
+R,12,10_12,R12 duodecimal radix
+D,3,3_12,G355 displacement-response theorem
+alpha_H,2,2_12,worldsheet wave-operator factorization
+closed_loop_total_R2,144,100_12,R^2
+split_loss_fraction,1/8,0.16_12,2^-D
+retained_fraction,7/8,0.A6_12,1 - 2^-D
+split_loss_amount,18,16_12,R^2 * 2^-D = alpha_H * D^2 = 18
+H_native_GeV,126,A6_12,R^2 * (1 - 2^-D)
+surface_debit_D2_over_R,3/4,0.9_12,D^2 / R
+H_reveal_GeV,501/4,A5.3_12,H_native - D^2/R
+shell_share_2H_over_R,21,19_12,2 * H_native / R = 21
+shell_share_H_over_alphaH_D,21,19_12,H_native / (alpha_H * D) = 21
+HZZ4l_4e,1/4,0.3_12,QP091T category projection
+HZZ4l_2e2mu,1/2,0.6_12,QP091T category projection
+HZZ4l_4mu,1/4,0.3_12,QP091T category projection

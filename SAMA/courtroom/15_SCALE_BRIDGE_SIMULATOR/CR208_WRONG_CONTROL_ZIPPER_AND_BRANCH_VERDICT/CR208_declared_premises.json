@@ -1,0 +1,10 @@
+{
+  "test_id": "CR208",
+  "source_gate": "G757c_FULL_SCALE_BRIDGE_WRONG_CONTROLS_ZIPPER",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that the scale bridge survived a full wrong-control zipper with 43/43 controls passed, no failed controls, and individual gate verdicts preserved."
+}

@@ -1,0 +1,171 @@
+﻿{
+  "test": "G312_omega_m_d_chi2_correction",
+  "date": "2026-05-26",
+  "run_timesamp_utc": "2026-05-25T08:56:03.246755+00:00",
+  "constants": {
+    "D": 3,
+    "alpha_H": 2,
+    "A0": 0.026525823848649224,
+    "chi": 0.0707355302630646
+  },
+  "omega_b_current": {
+    "value": 0.049299011266100756,
+    "sigma": -0.0016478898320672806
+  },
+  "raw": {
+    "omega_m": 0.3183098861837907,
+    "ratio": 5.456719475886702,
+    "ratio_sigma": 1.4306420415898153
+  },
+  "target": {
+    "omega_m_needed": 0.313753697400845,
+    "k_target": 3.027192735266496
+  },
+  "integer_k_scan": [
+    {
+      "k": 0,
+      "omega_m": 0.31455724975259297,
+      "omega_m_sigma": 0.8893124381482431,
+      "ratio": 5.380599563238918,
+      "ratio_sigma": 0.2523152204166841
+    },
+    {
+      "k": 1,
+      "omega_m": 0.31429180502474774,
+      "omega_m_sigma": 0.8229512561869351,
+      "ratio": 5.375215180854199,
+      "ratio_sigma": 0.16896564789781668
+    },
+    {
+      "k": 2,
+      "omega_m": 0.31402636029690245,
+      "omega_m_sigma": 0.7565900742256132,
+      "ratio": 5.369830798469479,
+      "ratio_sigma": 0.08561607537893555
+    },
+    {
+      "k": 3,
+      "omega_m": 0.3137609155690572,
+      "omega_m_sigma": 0.6902288922643052,
+      "ratio": 5.364446416084761,
+      "ratio_sigma": 0.0022665028600819138
+    },
+    {
+      "k": 4,
+      "omega_m": 0.31349547084121193,
+      "omega_m_sigma": 0.6238677103029833,
+      "ratio": 5.359062033700042,
+      "ratio_sigma": -0.08108306965879922
+    },
+    {
+      "k": 5,
+      "omega_m": 0.3132300261133667,
+      "omega_m_sigma": 0.5575065283416752,
+      "ratio": 5.353677651315323,
+      "ratio_sigma": -0.1644326421776666
+    }
+  ],
+  "candidate": {
+    "k": 3,
+    "omega_m": 0.3137609155690572,
+    "omega_m_sigma": 0.6902288922643052,
+    "ratio": 5.364446416084761,
+    "ratio_sigma": 0.0022665028600819138
+  },
+  "exact_fit": {
+    "k": 3.027192735266496,
+    "omega_m": 0.313753697400845,
+    "ratio": 5.364299999999999
+  },
+  "k_sigma_width": 11.997662012887176,
+  "predictions": [
+    {
+      "id": "P1",
+      "name": "target-implied chi^2 coefficient lands near D=3",
+      "pass": true,
+      "k_target": 3.027192735266496,
+      "D": 3
+    },
+    {
+      "id": "P2",
+      "name": "D*chi^2 candidate closes ratio residual",
+      "pass": true,
+      "candidate_ratio_sigma": 0.0022665028600819138
+    },
+    {
+      "id": "P3",
+      "name": "Omega_b remains unchanged and clean",
+      "pass": true,
+      "omega_b": 0.049299011266100756,
+      "omega_b_sigma": -0.0016478898320672806
+    },
+    {
+      "id": "P4",
+      "name": "corrected Omega_m remains inside Planck uncertainty",
+      "pass": true,
+      "omega_m_candidate": 0.3137609155690572,
+      "omega_m_sigma": 0.6902288922643052
+    },
+    {
+      "id": "P5",
+      "name": "candidate improves over no-chi2 and old k=1 drift",
+      "pass": true,
+      "no_chi2_sigma": 0.2523152204166841,
+      "old_k1_sigma": 0.16896564789781668,
+      "candidate_sigma": 0.0022665028600819138
+    },
+    {
+      "id": "P6",
+      "name": "observational k-width blocks theorem-grade uniqueness",
+      "pass": true,
+      "k_sigma_width": 11.997662012887176
+    }
+  ],
+  "wrong_controls": [
+    {
+      "id": "WC1",
+      "name": "raw Omega_m=1/pi rejected as final closure",
+      "pass": true,
+      "raw_ratio_sigma": 1.4306420415898153
+    },
+    {
+      "id": "WC2",
+      "name": "old G220B k=1 drift not promoted over D candidate",
+      "pass": true,
+      "old_k1_ratio_sigma": 0.16896564789781668,
+      "candidate_ratio_sigma": 0.0022665028600819138
+    },
+    {
+      "id": "WC3",
+      "name": "exact target-fit noninteger k rejected as derivation",
+      "pass": true,
+      "k_target": 3.027192735266496
+    },
+    {
+      "id": "WC4",
+      "name": "moving correction into chi damages Omega_b",
+      "pass": true,
+      "chi_needed_if_raw_omega_m": 0.05724117342048607,
+      "omega_b_sigma_if_chi_fit": 1.1915152186914302
+    },
+    {
+      "id": "WC5",
+      "name": "current data cannot prove k uniqueness",
+      "pass": true,
+      "k_sigma_width": 11.997662012887176
+    },
+    {
+      "id": "WC6",
+      "name": "numerical closure is candidate-grade only",
+      "pass": true,
+      "theorem_grade": false
+    }
+  ],
+  "overall": {
+    "verdict": "G312_D_CHI2_OMEGA_M_CORRECTION_CANDIDATE_IDENTIFIED",
+    "all_predictions_pass": true,
+    "all_wrong_controls_pass": true,
+    "grade": "candidate-grade, not theorem-grade",
+    "next_target": "derive or refute the D*chi^2 Omega_m correction structurally"
+  }
+}

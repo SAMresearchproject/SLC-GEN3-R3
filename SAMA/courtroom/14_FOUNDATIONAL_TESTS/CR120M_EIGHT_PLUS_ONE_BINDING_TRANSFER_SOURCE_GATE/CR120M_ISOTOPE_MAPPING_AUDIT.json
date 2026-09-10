@@ -1,0 +1,65 @@
+{
+  "component_selectors": [
+    {
+      "component_role": "proton_write",
+      "g": null,
+      "is_p8_or_p9": false,
+      "p": null,
+      "route_combination": "color_triad[1+1+1]",
+      "source_candidate_id": "QP093A-0115"
+    },
+    {
+      "component_role": "neutron_write",
+      "g": 0,
+      "is_p8_or_p9": false,
+      "p": 1,
+      "route_combination": "neutral_single_write[p=1,g=0]",
+      "source_candidate_id": "QP093A-0003"
+    },
+    {
+      "component_role": "electron_write",
+      "g": 0,
+      "is_p8_or_p9": false,
+      "p": 1,
+      "route_combination": "minus_single_write[p=1,g=0]",
+      "source_candidate_id": "QP093A-0002"
+    }
+  ],
+  "decisive_readout": "QP094A installs proton/neutron/electron counts only; it does not install matched p1/p8/p9 nuclear occupancies.",
+  "mapping_gate_passed": false,
+  "mapping_gate_requirements": [
+    "isotope Z/N/A identity",
+    "matched distinct QP093A p=1, p=8, p=9 candidate ids",
+    "predeclared multiplicities and signs",
+    "observation-blind eligibility"
+  ],
+  "mapping_status": "OPEN_NOT_INSTALLED",
+  "p8_route_mentions": 0,
+  "p9_route_mentions": 0,
+  "qp094a_result_class": "DISCOVERY_QP094A_ELEMENT_ISOTOPE_CLOSURE_GENERATOR__FINITE_TWO_LEVEL_CATALOG_EMITTED__126_NATIVE_Z_FAMILIES__KNOWN_LABELS_DOWNSTREAM_ONLY__STABILITY_SELECTOR_OPEN",
+  "qualifying_p1_p8_p9_isotope_records": [],
+  "qualifying_record_count": 0,
+  "record_counts": {
+    "catalog_header": 1,
+    "component_selector": 3,
+    "element_family_closure": 126,
+    "isotope_closure": 214
+  },
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "referenced_qp093a_candidate_ids": [
+    "QP093A-0002",
+    "QP093A-0003",
+    "QP093A-0115"
+  ],
+  "referenced_route_coordinates": {
+    "QP093A-0002": {
+      "g": 0,
+      "p": 1
+    },
+    "QP093A-0003": {
+      "g": 0,
+      "p": 1
+    },
+    "QP093A-0115": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "conditional_rank_theorem": {
+    "assumptions": [
+      "F81_IS_AN_81_DIMENSIONAL_VECTOR_SPACE",
+      "P80_IS_AN_80_DIMENSIONAL_VECTOR_SPACE",
+      "RESERVE_CLOSURE_ADDRESS_IS_LINEAR",
+      "RESERVE_CLOSURE_ADDRESS_IS_SURJECTIVE"
+    ],
+    "conclusion": "NULLITY_EQUALS_ONE",
+    "status": "CONDITIONAL_ONLY"
+  },
+  "models": [
+    "ONE_TO_ONE_PHYSICAL_CONSTITUENTS",
+    "RANK_ONE_QUOTIENT",
+    "COLLECTIVE_OR_EQUIVALENCE_CLASS_DECODER",
+    "MANY_TO_MANY_INCIDENCE_MAP",
+    "STRUCTURAL_ADDRESS_CAPACITY_WELD"
+  ],
+  "record_id": "CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION",
+  "scientific_pass_claimed": false
+}

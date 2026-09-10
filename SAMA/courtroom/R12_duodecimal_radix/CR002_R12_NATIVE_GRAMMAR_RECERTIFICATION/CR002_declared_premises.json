@@ -1,0 +1,30 @@
+{
+  "test_id": "CR002_R12_NATIVE_GRAMMAR_RECERTIFICATION",
+  "branch_id": "R12_duodecimal_radix",
+  "older_test_outputs_allowed": false,
+  "external_data_required": false,
+  "expected_verdict_ceiling": "BOUNDARY",
+  "premises": {
+    "outer_binary_split": 2,
+    "alpha_h": 2,
+    "D": 3,
+    "half_side_per_share": 2,
+    "primitive_phase_cycle_units": 2
+  },
+  "candidate_radices": [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 16, 20, 24],
+  "radix_wall_parts": [5, 7, 10, 11],
+  "allowed_prime_axes": [2, 3],
+  "selectors": [
+    "route_kernel_equality",
+    "partition_top_equality",
+    "half_write_admissible",
+    "third_partition_admissible",
+    "fourth_partition_admissible",
+    "six_contact_route_admissible",
+    "twelfth_closure_admissible",
+    "side_share_conservation",
+    "no_new_prime_axis",
+    "radix_wall_rejection"
+  ],
+  "rule_9": "This test could have falsified: the claim that R=12 is selected by native SAM write/exposure grammar rather than inherited preference or later downstream fit."
+}

@@ -1,0 +1,66 @@
+{
+  "campaign_id": "CR120ZA_X1_QUANTUM_SANDBOX_SERIALIZATION_CORRECTION",
+  "direct_controls_separable": true,
+  "hard_gates_passed": 9,
+  "hard_gates_total": 9,
+  "installed_operator": null,
+  "no_signaling_max_trace_distance": 1.1102230246251565e-16,
+  "noise_visibility": {
+    "analytic_CHSH_boundary": 0.7071067811865475,
+    "analytic_boundary": 0.3333333333333333,
+    "first_CHSH_violation": 0.71,
+    "first_nonseparable": 0.335,
+    "grid_step": 0.005
+  },
+  "ordered_candidate": {
+    "CHSH_exceeds_2": true,
+    "CHSH_frozen": 2.8284271247461894,
+    "concurrence": 0.9999999999999994,
+    "fidelity_Phi_plus": 0.9999999999999997,
+    "negativity": 0.4999999999999999,
+    "physical": true,
+    "route": "CNOT (H_A |00>)",
+    "state": "B_THEN_X1"
+  },
+  "physical_weld_status": "OPEN",
+  "precommit_seal_pass": true,
+  "primary_verdict": "PASS_X1_RESPONSE_INTERFACE_QUANTUM_CAPABLE_SANDBOX__ORDERED_B_THEN_X1_GENERATES_AND_HERALDS_NONSEPARABILITY__PHYSICAL_WELD_OPEN",
+  "registry_mutated": false,
+  "reverse_order_separable": true,
+  "same_run_repair": false,
+  "scientific_status": "CONSTRUCTIVE_SANDBOX_PASS",
+  "source_hashes_matched": 10,
+  "source_hashes_total": 10,
+  "supported_meaning": "The typed B-contact then X1-response grammar admits a minimal standard quantum realization in which the distinct response creates or heralds nonseparability and the ordering is essential.",
+  "swapping": {
+    "FALSE_UNRESOLVED_HERALD_CONTROL": {
+      "CHSH_exceeds_2": false,
+      "CHSH_frozen": 0.0,
+      "concurrence": 0.0,
+      "fidelity_Phi_plus": 0.24999999999999992,
+      "negativity": 0.0,
+      "physical": true,
+      "probability": 0.9999999999999996
+    },
+    "PRODUCT_MEASUREMENT_CONTROL": {
+      "CHSH_exceeds_2": false,
+      "CHSH_frozen": 1.414213562373095,
+      "concurrence": 0.0,
+      "fidelity_Phi_plus": 0.4999999999999999,
+      "negativity": 0.0,
+      "physical": true,
+      "probability": 0.2499999999999999
+    },
+    "X1_BELL_RESPONSE": {
+      "CHSH_exceeds_2": true,
+      "CHSH_frozen": 2.8284271247461894,
+      "concurrence": 0.9999999999999994,
+      "fidelity_Phi_plus": 0.9999999999999997,
+      "negativity": 0.4999999999999999,
+      "physical": true,
+      "probability": 0.2499999999999999
+    }
+  },
+  "wrong_controls_rejected": 12,
+  "wrong_controls_total": 12
+}

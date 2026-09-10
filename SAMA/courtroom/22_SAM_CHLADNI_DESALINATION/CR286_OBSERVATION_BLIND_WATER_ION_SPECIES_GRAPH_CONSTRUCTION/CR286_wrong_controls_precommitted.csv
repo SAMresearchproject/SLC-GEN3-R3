@@ -1,0 +1,23 @@
+control_id,control_class,control,required_disposition,falsifies_if
+WC01,target_leakage,measured coordination number selects envelope,REJECT,a species envelope changes to match observation
+WC02,target_leakage,hydrated radius selects graph,REJECT,a measured radius changes construction
+WC03,target_leakage,dehydration or de-coordination energy selects graph,REJECT,a measured or simulated energy changes construction
+WC04,target_leakage,membrane rejection or flux selects graph,REJECT,a membrane result changes construction
+WC05,rescue_rule,species-specific hydration-support count,REJECT,one species receives a custom envelope
+WC06,rescue_rule,post-reveal primary/control swap,REJECT,a control becomes primary after results are known
+WC07,selector_invention,element symbol directly selects QP triad,REJECT,an unsourced element-to-triad map is used
+WC08,selector_invention,atomic number modulo R selects QP triad,REJECT,an invented radix selector is used
+WC09,selector_invention,isotope choice selects graph,REJECT,an unsealed isotope choice changes construction
+WC10,physical_input,bond length or angle enters graph,REJECT,a physical geometry target enters construction
+WC11,physical_input,partial atomic charges enter graph,REJECT,a force-field or fitted charge enters construction
+WC12,physical_input,wall chemistry or pore functionalization enters graph,REJECT,the species graph is tuned to a membrane
+WC13,physical_unit_leakage,M_native becomes radius distance or energy,REJECT,a QP number is promoted to a physical unit
+WC14,acoustic_dependency,frequency mode power or escape index enters graph,REJECT,the passive species system depends on shelved acoustics
+WC15,starbreaker_dependency,A ledger density remnant or collapse enters graph,REJECT,the species system depends on untyped process context
+WC16,tie_suppression,candidate ID breaks equal compatibility vectors,REJECT,file order becomes a physical prediction
+WC17,tie_suppression,Na and K topology tie is hidden,REJECT,a source-unavailable distinction is implied
+WC18,tie_suppression,Mg and Ca topology tie is hidden,REJECT,a source-unavailable distinction is implied
+WC19,geometry_overclaim,tetrahedral controls are globally excluded,REJECT,CR120U's open tetrahedral boundary is overwritten
+WC20,geometry_overclaim,OCT6 primary is called measured hydration ontology,REJECT,a common hypothesis is promoted to physical fact
+WC21,speciation_error,B(OH)3 and B(OH)4- are merged,REJECT,pH-dependent boron identities are collapsed
+WC22,promotion_error,graph family is called membrane selectivity or desalination,REJECT,construction is promoted to a physical result

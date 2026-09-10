@@ -1,0 +1,60 @@
+{
+  "cr_id": "CR217",
+  "test_id": "CR217_DEDUP_STRUCTURAL_IDENTITY_AUDIT",
+  "depends_on": ["CR060a", "CR066a", "CR119", "CR214", "CR215", "CR216", "LC11"],
+  "input_sealed_hashes": {
+    "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545",
+    "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98",
+    "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_particle_complement_194_active.csv": "01e780c0fbb315d0aaf93cc6b060ffc4c9cfd0da29ab7155b4da8ca40d444179",
+    "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_retirement_ledger.csv": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610",
+    "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md": "4ac273e8ca5539876886550590cdf7d81b776108fdef1ed9eba1adf8105d6ee8",
+    "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066a_BORN_EXTENSION_AND_LETTER_INCREMENT_V1/CR066a_runner.py": "3672beb257ea228c7f991bb33922db3e060e445a55a3238a113f7804149e24c7",
+    "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv": "a0c3eb030a7b55edf0b4fc5a28788a6560e323a4ab17611667979b917dba8069"
+  },
+  "sealed_constants": {
+    "R": 12,
+    "R_squared": 144,
+    "D": 3,
+    "two_to_minus_D": "1/8",
+    "nine_eighths": "9/8",
+    "nine_eighths_appearances": [
+      "CR060a: middle-slot 9/8 surcharge on 1/2 weight",
+      "CR066a: 9/8 SURCHARGE turning 1/2 into 9/16",
+      "LC11: bounce lift D^2/2^D = 9/8 at D=3"
+    ]
+  },
+  "expected_carrier_block": {
+    "QP093A-0300": {"role": "graviton", "partition": 18, "M_native": 18},
+    "QP093A-0301": {"role": "photon",   "partition": 1,  "M_native": 0},
+    "QP093A-0302": {"role": "W",        "partition": 9,  "M_native": 9},
+    "QP093A-0303": {"role": "Z",        "partition": 81, "M_native": 81},
+    "QP093A-0304": {"role": "gluon",    "partition": 8,  "M_native": 8}
+  },
+  "expected_hidden_source_partitions": [1, 2, 3, 4, 6, 8, 9, 12],
+  "expected_identities": {
+    "carrier_partition_sum_incl_graviton": 117,
+    "carrier_partition_sum_excl_graviton": 99,
+    "hidden_partition_sum": 45,
+    "total_partition": 162,
+    "carrier_mass_sum_incl_graviton": 116,
+    "hidden_mass_numerator_over_144": 6835,
+    "total_mass_numerator_over_144": 23539,
+    "sum_p_squared_hidden": 355,
+    "sum_p_squared_hidden_sub_R": 211,
+    "graviton_over_R_squared": "1/8",
+    "total_partition_over_R_squared": "9/8",
+    "two_to_minus_D_at_D3": "1/8",
+    "D_squared_over_2_to_D_at_D3": "9/8",
+    "one_plus_two_to_minus_D_at_D3": "9/8"
+  },
+  "photon_falsifier": {
+    "rule": "if any of the three conditions below fails, CR217 fails the closed identity",
+    "conditions": {
+      "photon_partition_equals_1": true,
+      "photon_M_native_equals_0": true,
+      "carrier_partition_minus_carrier_mass_equals_1": true
+    },
+    "rationale": "The closed-form identity 163.4652778 = 162 + 211/144 depends on the photon contributing exactly +1 to carrier_partition while contributing 0 to carrier_mass. If CR119 ever re-grades the photon row away from (p=1, M=0), this identity breaks and CR217 must fail."
+  },
+  "non_promotion_rule": "162 = R^2 * (9/8) is recorded as a backed identity. The structural narrative 'closed loop + carrier release' is recorded as scientific_reading only. The convergence of 9/8 across CR060a, CR066a, LC11, and CR217 is recorded as three independent sealed appearances of the same ratio, not as a unified derivation."
+}

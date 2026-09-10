@@ -1,0 +1,25 @@
+let surface = S8_BINARY_SURFACE
+let axis = X1_AXIS_SELF_CHANNEL
+
+let witness = RESOLVE(
+    surface,
+    B_CONTACT_OPERATOR,
+    axis
+)
+
+let volume = PROMOTE_VOLUME(
+    witness,
+    D3_DIMENSION
+)
+
+let face = PROMOTE_FACE(
+    volume,
+    D3_DIMENSION
+)
+
+let particle_face = RESERVE_CLOSURE_ADDRESS(
+    face,
+    axis
+)
+
+return particle_face

@@ -1,0 +1,97 @@
+check,status,value,detail
+LC01 primitive stack passes,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC03 gravity-as-A/qA replay already available,PASS,,LC03_PASS_QA_LEDGER_COMPRESSION_GRAVITY_AS_A_REPLAY
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+A_side derived as 1/(2R),PASS,0.041666666666666664,A_side
+A_share derived as 1/R,PASS,0.08333333333333333,A_share
+A_write_midpoint retained as 0.5,PASS,0.5,A_WRITE_MIDPOINT
+CR073 summary passes,PASS,,PASS_SCOPED_STRUCTURAL_ACTION_PHASE_ANCHOR
+CR074 summary passes,PASS,,PASS_SCOPED_STRUCTURAL_BORN_ROUTE
+CR075 summary passes,PASS,,PASS_SCOPED_STRUCTURAL_LEDGER_WRITE_CHAIN
+CR076 remains explicit boundary,PASS,,BOUNDARY
+CR121 intake is clean but not a graviton particle claim,PASS,,CR121_SAM_GRAVITY_MECHANISM_INTAKE_SEALED_NOT_GRAVITON_NOT_FULL_QG_THEOREM
+CR073 action identity present,PASS,2,CR073 action check
+CR073 phase identity present,PASS,2,CR073 phase check
+CR073 free-particle action tests present,PASS,"[""C:/VS/Stam_model-A-v1.0/tests/Substrate/G284_universal_phase_promotion"", ""C:/VS/Stam_model-A-v1.0/tests/Substrate/G285_spatial_phase_substrate_count"", ""C:/VS/Stam_model-A-v1.0/tests/Substrate/G286_free_particle_action_count""]",CR073 free particle tests
+CR074 Born identity present,PASS,2,CR074 born hits
+CR074 route weight identity present,PASS,9,CR074 route hits
+CR075 protected route present,PASS,6,CR075 protected-route hits
+CR075 ledger commit present,PASS,10,CR075 ledger hits
+CR075 stable mode selector present,PASS,8,CR075 stable hits
+CR075 syndrome boundary present,PASS,6,CR075 syndrome hits
+CR076 phase functional present,PASS,4,CR076 phase functional hits
+CR076 A exposure present,PASS,5,CR076 A exposure hits
+CR076 integral form still absent,PASS,0,CR076 integral form hits
+qp010 summary is built/selected,PASS,,QP010_PRIVATE_PROTECTED_ROUTE_BOUNDARY_LAW_BUILT
+qp010 introduced zero free parameters,PASS,0,free parameter count
+qp011 summary is built/selected,PASS,,QP011_PRIVATE_DECOHERENCE_LEDGER_LEAKAGE_MODEL_BUILT
+qp011 introduced zero free parameters,PASS,0,free parameter count
+qp012 summary is built/selected,PASS,,QP012_PRIVATE_SYNDROME_WRITE_WITHOUT_LOGICAL_ROUTE_COLLAPSE_BUILT
+qp012 introduced zero free parameters,PASS,0,free parameter count
+qp013 summary is built/selected,PASS,,QP013_PRIVATE_A_CONTACT_SUPPRESSION_TABLE_BUILT
+qp013 introduced zero free parameters,PASS,0,free parameter count
+qp014 summary is built/selected,PASS,,QP014_PRIVATE_BORN_RULE_ROUTE_WEIGHT_BRIDGE_BUILT
+qp014 introduced zero free parameters,PASS,0,free parameter count
+qp015 summary is built/selected,PASS,,QP015_PRIVATE_INTERFERENCE_TO_LEDGER_COMMIT_BRIDGE_BUILT
+qp015 introduced zero free parameters,PASS,0,free parameter count
+qp016 summary is built/selected,PASS,,QP016_PRIVATE_LEDGER_COMMIT_TO_STABLE_MODE_SELECTOR_BUILT
+qp016 introduced zero free parameters,PASS,0,free parameter count
+qn005 summary is built/selected,PASS,,QN005_NETWORK_BORN_SURFACE_SELECTED
+qn005 introduced zero free parameters,PASS,0,free parameter count
+QP010 thresholds match locked R,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}",QP010 thresholds
+QP014 summary row count matches route-weight CSV,PASS,49,QP014 route rows
+QP014 probability surface rows match,PASS,7,QP014 surface rows
+QP014 normalization failures are zero,PASS,0,QP014 normalization failures
+QP014 open surfaces normalize,PASS,1.1102230246251565e-16,max open normalization error
+QP014 closed surfaces are zero,PASS,0.0,max closed probability error
+QP014 top route stays QUBIT-NL-001,PASS,QUBIT-NL-001,top route
+QP014 recompute rows all pass,PASS,7,LC09 recompute rows
+QP015 bridge rows match summary,PASS,1176,QP015 bridge rows
+QP015 summary rows match,PASS,42,QP015 summary rows
+QP015 normalization failures are zero,PASS,0,QP015 normalization failures
+QP015 pair probability recomputes,PASS,28,pair rows recomputed
+QP015 primary pair probability sums to one,PASS,1.0,primary pair sum
+QP015 has both open commit and closed support surfaces,PASS,"{""closed"": 22, ""open"": 20}",commit open/closed counts
+QP016 route pair count matches,PASS,28,QP016 route pairs
+QP016 stable mode count is one,PASS,1,stable modes
+QP016 boundary candidate count is one,PASS,1,boundary modes
+QP016 transient tails count is 26,PASS,26,transient tails
+QP016 top stable pair matches,PASS,QUBIT-NL-001<->QUBIT-NL-001,top stable pair
+QN005 checks all pass,PASS,6,QN005 checks
+QN005 wrong controls all pass/reject,PASS,5,QN005 wrong controls
+QN005 network rows match summary,PASS,49,QN005 network rows
+QN005 multi-node rows match summary,PASS,84,QN005 multi-node rows
+QN005 forbids final ledger fields,PASS,False,forbidden fields
+QN005 top open route is QUBIT-NL-001,PASS,QUBIT-NL-001,top open route
+QN005 network routes are selected object routes,PASS,"[""QUBIT-CL-001"", ""QUBIT-NL-001"", ""QUBIT-UNK-001""]",network routes
+Branch layer: CR073 action/phase anchor,PASS,PASS_SCOPED_STRUCTURAL_ACTION_PHASE_ANCHOR,Presence and bridge support only; no phase fit loop is allowed.
+Branch layer: CR074 Born route,PASS,PASS_SCOPED_STRUCTURAL_BORN_ROUTE,"Normalization is row-surface accounting, not a post-hoc probability patch."
+Branch layer: CR075 protected route and ledger write,PASS,PASS_SCOPED_STRUCTURAL_LEDGER_WRITE_CHAIN,Syndrome/control may write support without writing protected route identity.
+Branch layer: CR076 phase integral A exposure,PASS,BOUNDARY,LC09 does not upgrade CR076 to full integral closure.
+Replay layer: LC01 locked primitive stack,PASS,"{""A_share"": 0.08333333333333333, ""A_side"": 0.041666666666666664, ""D"": 3, ""R"": 12}",Quantum route thresholds derive from R; no threshold swap.
+Replay layer: QP010 protected route boundary,PASS,"{""A_SHARE"": 0.08333333333333333, ""A_SIDE"": 0.041666666666666664, ""A_WRITE_MIDPOINT"": 0.5}","A_leak is a protected-window/write-candidacy signal, not phase amount."
+Replay layer: QP014 Born route-weight surface,PASS,"{""normalization_failures"": 0, ""rows"": 49, ""surface_rows"": 7}",The denominator is the native open route-weight sum; closed windows carry zero probability.
+Replay layer: QP015 pair-write / interference-to-ledger commit,PASS,"{""bridge_rows"": 1176, ""primary_pair_sum"": 1.0, ""summary_rows"": 42}",Interference/support surfaces can exist before commit; commit opens only when the bounce/write kernel opens.
+Replay layer: QP016 stable mode selector,PASS,"{""boundary"": 1, ""route_pairs"": 28, ""stable"": 1, ""top"": ""QUBIT-NL-001<->QUBIT-NL-001"", ""transient"": 26}",Not every committed intersection is promoted to stable mode.
+Replay layer: QN005 network Born surface,PASS,"{""multi_node_rows"": 84, ""network_rows"": 49, ""top_open_route"": ""QUBIT-NL-001""}",Network surface is an open-window route surface; final ledger outcome fields are forbidden.
+Replay layer: QN019/QN020 live artifact availability,PASS,"{""QN019_files"": 0, ""QN020_files_excluding_ladder"": 0}",LC09 does not use stale or missing QN019/QN020 memory as proof; it records the absence and relies on live QP/QN artifacts.
+Metric: A_side,PASS,0.041666666666666664,replay metric
+Metric: A_share,PASS,0.08333333333333333,replay metric
+Metric: QP014 route weight rows,PASS,49,replay metric
+Metric: QP014 max open normalization error,PASS,1.1102230246251565e-16,replay metric
+Metric: QP014 max closed probability error,PASS,0.0,replay metric
+Metric: QP015 bridge rows,PASS,1176,replay metric
+Metric: QP015 primary pair probability sum,PASS,1.0,replay metric
+Metric: QP016 stable selected modes,PASS,1,replay metric
+Metric: QN005 network route rows,PASS,49,replay metric
+Metric: QN005 forbidden final-ledger fields used,PASS,False,replay metric
+WC27_NORMALIZATION_PATCH rejected,PASS,,QP014 reports normalization_failures=0; LC09 recomputed open sums with max error 1.1102230246251565e-16 and closed-window zero sums with max error 0.0.
+WC_FINAL_OUTCOME_LEAK rejected,PASS,,QN005 forbidden_fields_used=False; checks and wrong controls all pass.
+WC_THRESHOLD_SWAP rejected,PASS,,LC09 recomputes A_side=1/(2R)=0.041666666666666664 and A_share=1/R=0.08333333333333333; QP010/QP014/QP016 summaries match.
+WC_PAIR_FACTOR_DELETE rejected,PASS,,LC09 recomputed 28 primary QP015 pair rows from QP014 probabilities; pair_probability_sum=1.0.
+WC_ALL_COMMITS_STABLE rejected,PASS,,"QP016 selects 1 stable self-closure mode, 1 boundary candidate, and 26 transient tails."
+WC_A_LEAK_AS_PHASE_AMOUNT rejected,PASS,,CR073 keeps action/phase identity separate; QP010-QP014 use A_leak as protected route/write-candidacy window grammar.
+WC_QN019_MEMORY_AS_PROOF rejected,PASS,,Cross-tree search found QN019_files=0 and QN020_files_excluding_ladder=0; LC09 records the absence instead of using them.
+WC_CR076_OVERPROMOTION rejected,PASS,,CR076 remains BOUNDARY; integral_form_hits=0.
+WC_ROUTE_IDENTITY_COLLAPSE rejected,PASS,,"CR075 protected route, syndrome boundary, and ledger commit checks are present; QN005 forbids final ledger fields."

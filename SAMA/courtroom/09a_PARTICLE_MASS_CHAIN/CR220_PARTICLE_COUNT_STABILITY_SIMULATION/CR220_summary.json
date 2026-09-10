@@ -1,0 +1,126 @@
+{
+  "artifact": "CR220_PARTICLE_COUNT_STABILITY_SIMULATION",
+  "best_threshold": {
+    "accuracy": "0.983051",
+    "boundary_note": "single-feature threshold search; target labels used for scoring only",
+    "false_negative_stable": 0,
+    "false_positive_radioactive": 2,
+    "feature": "Z",
+    "operator": "<=",
+    "precision": "0.975904",
+    "predicted_stable_count_all_126": 83,
+    "predicted_stable_count_known_118": 83,
+    "recall": "1.000000",
+    "reference_target": "HH001_CLOCK_stable_vs_radioactive_Z001_Z118",
+    "threshold": "83",
+    "true_negative_radioactive": 35,
+    "true_positive_stable": 81
+  },
+  "boundary": "The run produces 126 native element-family rows and reproduces CR119 GR/G values from P-centered particle counts. HH001 CLOCK is only a comparator. The exact 81-row stable physical clock match requires removing Z=43 and Z=61 as reference holes, so the SAM-native isotope stability selector remains open.",
+  "checks_passed": 19,
+  "checks_total": 19,
+  "component_selector": {
+    "electron_write": "QP093A-0002",
+    "neutron_write": "QP093A-0003",
+    "proton_write": "QP093A-0115"
+  },
+  "constants": {
+    "D": "3",
+    "R": "12",
+    "alpha_H": "2",
+    "native_element_capacity": 126,
+    "native_element_capacity_law": "R^2*(1-2^-D)",
+    "roworder_skeleton": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "shell_capacities": [
+      2,
+      8,
+      18,
+      32,
+      32,
+      18,
+      8,
+      8
+    ]
+  },
+  "counts": {
+    "element_rows": 126,
+    "isotope_rows": 214,
+    "native_primary_isotope_status": {
+      "BOUND_ISOTOPE_LADDER_CLOSURE": 52,
+      "HALF_WRITE_BOUND_ISOTOPE_CLOSURE": 14,
+      "KNOWN_SURFACE_FRONTIER_BOUNDARY_DOWNSTREAM": 22,
+      "STABLE_ANCHOR_ISOTOPE_CLOSURE": 30,
+      "UNKNOWN_FRONTIER_ISOTOPE_CLOSURE_CANDIDATE": 8
+    },
+    "natural_synthetic_boundary_status": {
+      "KNOWN_LONG_LIVED_HOLE_DOWNSTREAM": 2,
+      "KNOWN_NATURAL_SURFACE_DOWNSTREAM": 80,
+      "KNOWN_RADIOACTIVE_HEAVY_SURFACE_DOWNSTREAM": 14,
+      "KNOWN_SYNTHETIC_FRONTIER_DOWNSTREAM": 22,
+      "SAM_FRONTIER_UNKNOWN_Z119_Z126": 8
+    },
+    "reference_clock": {
+      "frontier": 8,
+      "radioactive": 37,
+      "stable": 81
+    },
+    "shell_status": {
+      "CLOSED_SHELL": 8,
+      "OPEN_SHELL": 118
+    }
+  },
+  "cr_id": "CR220",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T02:07:39+00:00",
+  "outputs": {
+    "checks": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_checks.csv",
+    "component_selector": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_component_selector.csv",
+    "count_threshold_candidates": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_particle_count_threshold_candidates_83.csv",
+    "element_rows": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_simulated_element_primary_rows_126.csv",
+    "isotope_rows": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_simulated_isotope_ladder_rows_214.csv",
+    "result": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_result.md",
+    "selector_scores": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_selector_scores.csv",
+    "summary": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_summary.json",
+    "threshold_search": "09a_PARTICLE_MASS_CHAIN/CR220_PARTICLE_COUNT_STABILITY_SIMULATION/CR220_threshold_search.csv"
+  },
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260620_210739_CR220_runner.md",
+  "result_class": "CR220_PASS_PARTICLE_COUNT_STABILITY_SIMULATION__126_NATIVE_ELEMENT_FAMILIES__P_TO_G_AND_GR_REPRODUCES_CR119__Z_LE_83_PRODUCES_83_WITH_43_61_HOLES__REFERENCE_PATCH_PRODUCES_81__SAM_CLOCK_SELECTOR_REMAINS_OPEN",
+  "selector_counts": {
+    "S0_ALL_NATIVE_ELEMENT_FAMILY": 126,
+    "S10_DOWNSTREAM_NATURAL_SURFACE": 80,
+    "S1_KNOWN_Z_118_BOUNDARY": 118,
+    "S2_Z_LE_83_COUNT_THRESHOLD": 83,
+    "S3_Z_LE_83_WITH_REFERENCE_HOLES_REMOVED": 81,
+    "S4_QP094A_STABLE_ANCHOR": 30,
+    "S5_QP094A_ANCHOR_OR_HALF": 44,
+    "S6_CLOSED_SHELL": 8,
+    "S7_ROWORDER_SKELETON_SLOT": 85,
+    "S8_ROWORDER_SKELETON_OR_CLOSED_SHELL": 87,
+    "S9_ROWORDER_SKELETON_AND_Z_LE_83": 55
+  },
+  "z_threshold_score": {
+    "accuracy": "0.983051",
+    "boundary_note": "single-feature threshold search; target labels used for scoring only",
+    "false_negative_stable": 0,
+    "false_positive_radioactive": 2,
+    "feature": "Z",
+    "operator": "<=",
+    "precision": "0.975904",
+    "predicted_stable_count_all_126": 83,
+    "predicted_stable_count_known_118": 83,
+    "recall": "1.000000",
+    "reference_target": "HH001_CLOCK_stable_vs_radioactive_Z001_Z118",
+    "threshold": "83",
+    "true_negative_radioactive": 35,
+    "true_positive_stable": 81
+  }
+}

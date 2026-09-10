@@ -1,0 +1,6 @@
+layer,source,contract,source_value,status,boundary
+CR050 carrier support,CR050/QP010/QP043,protected route carrier support available with zero free parameters,CR050_PASS_QP_CARRIER_SUPPORT,PASS,"support artifact, not hardware demonstration"
+CR051 carrier/envelope/sensor split,CR051/QC001-QC004,"QUBIT-NL carrier, QUBIT-CL envelope, QUBIT-UNK sensor",QUBIT-NL-001,PASS,protocol construction only
+CR054 Born surface and letter-safe correction,CR054/QN005-QN006,network Born surface and correction use open-route fields only,0.9654196547077734,PASS,not final ledger readout
+CR058 branch verdict,CR058,"branch status is boundary-pass lab handoff, not hardware validation",CR058_BOUNDARY_PASS_QUANTUM_COMPUTING_AND_NETWORKING_BRANCH,PASS,no hardware demonstration or live external validation
+CR059 source-aware extension,CR059,qA/source-aware protocol extension preserves branch boundaries,CR059_PASS_MASS_BOUNCE_A_SOURCE_QC_QN_BRIDGE,PASS,protocol extension only

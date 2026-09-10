@@ -1,0 +1,48 @@
+{
+  "test_id": "CR029_NATIVE_RADIAL_LAW_DEBT_LEDGER",
+  "short_id": "CR029",
+  "generated_precommit_utc": "2026-06-13T00:55:03.327962+00:00",
+  "test_type": "Fresh Courtroom branch test",
+  "is_confirmation_audit_or_double_check": false,
+  "question": "After the branch-local support chain, is the remaining open item correctly isolated as native radial organization / mass function / concentration?",
+  "sources": {
+    "cr022_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR022_NATIVE_A_MANY_NONZERO_ACCUMULATION\\CR022_summary.json",
+      "role": "many-nonzero A root summary"
+    },
+    "cr023_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR023_BB_PBH_TRAPPED_A_INVENTORY\\CR023_summary.json",
+      "role": "BB-PBH inventory summary"
+    },
+    "cr024_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR024_REAL_SPARC_RESIDUAL_AND_POST_BB_REJECTION\\CR024_summary.json",
+      "role": "SPARC residual summary"
+    },
+    "cr025_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT\\CR025_summary.json",
+      "role": "clustered profile summary"
+    },
+    "cr026_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR026_SEED_FIRST_CLUSTERING_SELECTOR\\CR026_summary.json",
+      "role": "seed-first summary"
+    },
+    "cr027_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR027_HYDROGEN_CATCHUP_FIRST_STAR_SCAFFOLD\\CR027_summary.json",
+      "role": "hydrogen catchup summary"
+    },
+    "cr028_summary": {
+      "path": "C:\\VS\\The_Courtroom\\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\\CR028_QP042_BARYON_SCAFFOLD_SUPPORT\\CR028_summary.json",
+      "role": "QP042 support summary"
+    }
+  },
+  "free_parameters_introduced": 0,
+  "expected_success_verdict": "CR029_BOUNDARY_NATIVE_RADIAL_LAW_DEBT_ISOLATED",
+  "expected_success_scientific_verdict": "BOUNDARY",
+  "expected_success_claim_tier": "OPEN_NATIVE_RADIAL_LAW_MASS_FUNCTION_CONCENTRATION",
+  "expected_success_triage_bin": "B",
+  "failure_verdict": "CR029_FAIL_NATIVE_RADIAL_LAW_DEBT_LEDGER",
+  "failure_claim_tier": "FAILED_DEBT_LEDGER",
+  "scope_note": "CR029 is a debt-isolation ledger. It is successful only if it does not convert support artifacts into a full native halo theorem.",
+  "rule_9_falsification": "This test could have falsified: the claim that the 08 branch debt is now localized to the native halo radial organization / mass function / concentration selector.",
+  "declared_open_debt": "native radial organization law / mass function / concentration relation"
+}

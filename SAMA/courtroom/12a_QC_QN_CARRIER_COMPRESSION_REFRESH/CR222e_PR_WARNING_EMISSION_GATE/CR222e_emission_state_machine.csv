@@ -1,0 +1,7 @@
+from_state,event,to_state,guard,write_allowed,meaning
+NONE,assemble_packet,DRAFT_PACKET,packet fields present; hash not final,no,packet exists but is not trusted
+DRAFT_PACKET,seal_packet,SEALED_PACKET,CR222a/CR222b/CR222d seals match and packet checksum closes,no,packet is structurally intact but has not triggered
+DRAFT_PACKET,role_hash_checksum_or_gate_failure,CORRUPT_PACKET,"any required role, hash, checksum, or promotion-gate rule fails",no,packet cannot warn
+SEALED_PACKET,role_hash_checksum_or_gate_failure,CORRUPT_PACKET,any sealed requirement fails after seal,no,sealed packet is no longer valid
+SEALED_PACKET,protocol_warning_trigger,VALID_WARNING_PACKET,G_protocol=1 and A_leak>=A_side and route/tensor/checksum intact,not_yet,packet is allowed to become a warning event
+VALID_WARNING_PACKET,emit_warning_write,EMITTED_WARNING_PACKET,qA>0 and T=qA/8 and W=7qA/8,yes,warning write is emitted after trigger and split

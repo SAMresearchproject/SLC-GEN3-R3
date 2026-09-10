@@ -1,0 +1,105 @@
+{
+  "audit_correction": {
+    "applied_utc": "2026-06-17T22:31:46Z",
+    "driving_appeal_cr": "CR-141",
+    "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+    "verdict_unchanged": true,
+    "field_corrected": "bridge_lock_sha256",
+    "old_value": "906a527afd2ba5ad5f8cd1187c0aea03d03c9e03b2891c64b6b836ce23478c29",
+    "new_value": "0a40209bc4c564a6437e8c1d01df2b294e35c7459340c244e28c3448bf73549c",
+    "root_cause": "Runner self-reference artifact: lock SHA-256 was computed before being embedded in the lock JSON; recorded hash was therefore of the lock-without-its-own-hash while the on-disk file is the lock-with-the-hash-embedded.",
+    "archive_path": "archive/2026-06-17_CR135_audit_regrades/CR141_self_hash_repair/CR130_2BODY_3BODY_STRUCTURAL_BRIDGE/",
+    "original_result_md_sha256": "3be27eb9191028b68e734d9749e38b9c96c8f0ea08ff186bcc55bfad2310c9a3",
+    "original_summary_json_sha256": "22928c5fdde7cc9cbd9cc8f59a2f7dab392dcc03e1b5507e964904763931ad0f"
+  },
+  "cr_id": "CR130",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "STRUCTURAL_BRIDGE_2BODY_3BODY_PLUS_4BODY_CONJECTURE",
+  "execution_status": "CLEAN",
+  "result_class": "CR130_2BODY_3BODY_STRUCTURAL_BRIDGE_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:59:47Z",
+  "rewriting_identity": "M_3 = R*D*(a^2+b^2+c^2) = R*[s1^2 + Delta^2]",
+  "structural_principle": "Linear antisymmetric content cannot appear in fully-symmetric M_native at n >= 3; only quadratic (sum-of-squared-differences) survives.",
+  "two_body_special_case": "M_2 = R*ab + D*|a-b| (mixed degree; the rewriting does not apply at n=2)",
+  "four_body_conjecture": "M_4 = R*[s1^2 + Delta^2] = 4*R*(a^2+b^2+c^2+d^2) = 48*(a^2+b^2+c^2+d^2)",
+  "in_sample_3body_rows_verified": 76,
+  "direct_formula_matches": 76,
+  "rewrite_formula_matches": 76,
+  "newton_identity_holds_count": 76,
+  "verification_csv_sha256": "aec59615b7e6401a357e02b3d70e1566ebd6c6b607eb146b20d34aaadab18039",
+  "bridge_lock_sha256": "0a40209bc4c564a6437e8c1d01df2b294e35c7459340c244e28c3448bf73549c",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+    "CR129_law_lock_json": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710"
+  },
+  "predictions": [
+    {
+      "name": "P1_newton_identity_holds_for_all_3body_rows",
+      "pass": true,
+      "details": "Newton identity 3*(a^2+b^2+c^2) = s1^2 + Delta^2 verified on 76/76 rows"
+    },
+    {
+      "name": "P2_direct_CR129_formula_matches_observation",
+      "pass": true,
+      "details": "direct formula matches = 76/76"
+    },
+    {
+      "name": "P3_rewrite_formula_matches_observation",
+      "pass": true,
+      "details": "rewrite formula matches = 76/76"
+    },
+    {
+      "name": "P4_two_body_is_structurally_distinct",
+      "pass": true,
+      "details": "For (1,2): R*[s1^2+Delta^2] = 12*(9+1) = 120, but observed M_2(1,2) = 27.  The rewriting does not apply at n=2; CR130 explicitly notes this."
+    },
+    {
+      "name": "P5_4body_conjecture_committed",
+      "pass": true,
+      "details": "CR130_PRED_1 forward-blind 4-body conjecture written to bridge lock"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_upstream_CRs_unmodified",
+      "pass": true,
+      "details": "CR119, CR128, CR128b, CR129 read-only"
+    },
+    {
+      "name": "WC2_no_4body_rows_in_sample",
+      "pass": true,
+      "details": "CR119 currently has no 4-body partitions; CR130_PRED_1 is forward-blind only -- no in-sample data to overfit the conjecture"
+    },
+    {
+      "name": "WC3_structural_argument_separated_from_data",
+      "pass": true,
+      "details": "The symmetry argument (why linear antisymmetric vanishes at n >= 3) is representation-theoretic and independent of CR119 data.  In-sample verification confirms the algebraic IDENTITY, not the structural argument."
+    },
+    {
+      "name": "WC4_prefactor_n_dependence_explicitly_unresolved",
+      "pass": true,
+      "details": "Whether the prefactor in M_n = (prefactor) * Sum a_i^2 scales as R*n (giving R*D=36 for n=3 and 4*R=48 for n=4), or follows another pattern, is acknowledged as an open question.  CR130 does not claim resolution."
+    },
+    {
+      "name": "WC5_two_body_special_case_explicitly_noted",
+      "pass": true,
+      "details": "CR130 does NOT claim the n >= 3 form extends to n=2.  The 2-body formula remains as CR128 locked it.  The structural break at the 2->3 boundary is documented."
+    },
+    {
+      "name": "WC6_4body_conjecture_clearly_provisional",
+      "pass": true,
+      "details": "CR130_PRED_1 is explicitly marked FORWARD_BLIND_NO_IN_SAMPLE_DATA.  The conjecture rests on extrapolation, not derivation.  Future 4-body data either confirms (locks v1.0) or falsifies (triggers v1.1)."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR130_PRED_1 (4-body conjecture) resolves only when CR119 catalog gains 4-body rows -- timeline unknown",
+    "Prefactor n-dependence in M_n = (prefactor)*Sum a_i^2 is open: R*n? R*D for all n? Other?",
+    "Why R*ab+D*|a-b| at n=2 maps to R*D*Sum a_i^2 at n=3 (not R*Sum a_i^2 or R*D*s1^2) is a structural derivation question",
+    "The dozenal-algebra justification for the (R*D)/n prefactor pattern is open"
+  ]
+}

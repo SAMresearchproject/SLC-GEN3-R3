@@ -1,0 +1,7 @@
+key,value,note
+chain_cases,"CR201,CR202,CR203,CR204,CR204a,CR205,CR207,CR208",frozen summaries loaded
+original_CR204_verdict,BOUNDARY,not relabeled
+original_CR207_verdict,BOUNDARY,not relabeled
+external_endpoint,CR204a_PASS_EXTERNAL_RESOLVED_PARENT_RECONSTRUCTION,external-facing Higgs/ZZ* endpoint
+source_artifact_hash_count,27,hashes carried through chain summaries
+chain_fingerprint_sha256,f72e4a1fe7e300b920e62f32aeb7c25ba94a6acac77ceca69db959e0970336d8,result classes plus source hashes

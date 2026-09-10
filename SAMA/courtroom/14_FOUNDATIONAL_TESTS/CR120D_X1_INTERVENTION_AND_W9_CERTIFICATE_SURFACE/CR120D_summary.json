@@ -1,0 +1,21 @@
+{
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "disposition": "RUNTIME_BOUNDARY_X1_STATIC_DERIVED_CONTENT_NO_INDEPENDENT_INTERVENTION_SURFACE_W9_TYPED_ROUTE_CERTIFICATE_ONLY",
+  "record_id": "CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE",
+  "result_class": "RUNTIME_CONTRACT_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "sealed_utc": "2026-07-13T18:30:27Z",
+  "task": "Determine whether X1 has independently perturbable content and what exact information W9 certifies from attached working note",
+  "w9_dynamic_closure_measurement": "NOT_DEFINED",
+  "w9_entity_certificate": "STATIC_REGISTERED_CLOSURE_WITNESS_IDENTITY",
+  "w9_execution_certificate": "TYPED_ACTIVE_RESOLVE_ROUTE_COMPLETION_WITH_TRACE_AND_PROVENANCE",
+  "w9_installed_input_dependent_capacity_bits": 0.0,
+  "x1_independent_runtime_perturbability": "NOT_REPRESENTED",
+  "x1_physical_independence": "UNRESOLVED",
+  "x1_static_content": "PRESENT"
+}

@@ -1,0 +1,305 @@
+{
+  "verdict": "BOUNDARY",
+  "verdict_signature": "CR249_BOUNDARY_A_KERNEL_GEOMETRY_FITS_BW_RANGE__SOME_WC_GATES_NOT_MET",
+  "train_sha256": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+  "test_sha256": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+  "precommit_sha256": "d4a93d3f87908b3630e4e9d68618109e1394c97830dfd5b22bc400651e29399b",
+  "substrate_atoms": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "Theta": 18,
+    "M": 126,
+    "L": 162,
+    "V": 27,
+    "kappa": "7117/768",
+    "g": "1/64"
+  },
+  "geometric_dictionary": {
+    "rho_A": "A^(1/3)",
+    "V_A": "rho_A^3 = A",
+    "S_A": "rho_A^2 = A^(2/3)",
+    "R_A_inv": "rho_A^(-1) = A^(-1/3)",
+    "dQ": "Q_mass - Q_sub = (N-Z)*7093/192 (CR245 identity)"
+  },
+  "phase_a_fit": {
+    "design_matrix_basis": "[A, -A^(2/3), -Z(Z-1)/A^(1/3), -(dQ)^2/Q_mass, +delta_pair]",
+    "coef_names": [
+      "c_V",
+      "c_S",
+      "c_C",
+      "c_A",
+      "c_P"
+    ],
+    "coefficients_u": {
+      "c_V": 0.008634988633245941,
+      "c_S": 0.019626423914081783,
+      "c_C": 0.0007419551766757306,
+      "c_A": 0.0007750371939655975,
+      "c_P": 0.0037517262866473317
+    },
+    "coefficients_MeV": {
+      "c_V": 8.04344098633233,
+      "c_S": 18.281898127562034,
+      "c_C": 0.6911268713334322,
+      "c_A": 0.7219425753350996,
+      "c_P": 3.494710909906076
+    },
+    "train_rms_u": 0.0029264501054877073,
+    "train_rms_MeV": 2.725971014288186,
+    "train_R2": 0.9945784567542855,
+    "train_n": 35,
+    "test_rms_u": 0.0037808045703346146,
+    "test_rms_MeV": 3.5217971596692754,
+    "test_R2": 0.9850208026171603,
+    "test_n": 20
+  },
+  "phase_a_anchors": [
+    {
+      "label": "C-12",
+      "Z": 6,
+      "N": 6,
+      "A": 12,
+      "Q_mass": 444.8125,
+      "Q_sub": 444.8125,
+      "dQ": 0.0,
+      "asym_feature": 0.0,
+      "delta_pair": 1.0,
+      "B_u_observed_u": 0.0,
+      "B_u_predicted_u": -0.005222336479060726,
+      "B_u_observed_MeV": 0.0,
+      "B_u_predicted_MeV": -4.864575631097894,
+      "residual_u": -0.005222336479060726,
+      "residual_MeV": -4.864575631097894
+    },
+    {
+      "label": "C-13",
+      "Z": 6,
+      "N": 7,
+      "A": 13,
+      "Q_mass": 481.88020833333337,
+      "Q_sub": 444.9375,
+      "dQ": 36.94270833333337,
+      "asym_feature": 2.8321638353274805,
+      "delta_pair": 0.0,
+      "B_u_observed_u": -0.003354835210000573,
+      "B_u_predicted_u": -0.007916650052999954,
+      "B_u_observed_MeV": -3.125009212706496,
+      "B_u_predicted_MeV": -7.374312835292438,
+      "residual_u": -0.004561814842999381,
+      "residual_MeV": -4.249303622585942
+    },
+    {
+      "label": "Au-197",
+      "Z": 79,
+      "N": 118,
+      "A": 197,
+      "Q_mass": 7302.338541666667,
+      "Q_sub": 5861.572916666667,
+      "dQ": 1440.765625,
+      "asym_feature": 284.2658655630973,
+      "delta_pair": 0.0,
+      "B_u_observed_u": 0.03343120499999941,
+      "B_u_predicted_u": 0.03055377039016713,
+      "B_u_observed_MeV": 31.140970294293464,
+      "B_u_predicted_MeV": 28.460656925135503,
+      "residual_u": -0.00287743460983228,
+      "residual_MeV": -2.6803133691579624
+    }
+  ],
+  "phase_b_typed_search": {
+    "c_V": {
+      "fitted_u": 0.008634988633245941,
+      "fitted_MeV": 8.04344098633233,
+      "best_candidate": {
+        "name": "+1/(R*kappa)",
+        "value": 0.008992553042012083,
+        "fraction": "64/7117",
+        "rel_dev": 0.041408787429026574,
+        "within_5pct": true,
+        "within_1pct": false
+      }
+    },
+    "c_S": {
+      "fitted_u": 0.019626423914081783,
+      "fitted_MeV": 18.281898127562034,
+      "best_candidate": {
+        "name": "+1/(D*Theta)",
+        "value": 0.018518518518518517,
+        "fraction": "1/54",
+        "rel_dev": 0.05644968234729473,
+        "within_5pct": false,
+        "within_1pct": false
+      }
+    },
+    "c_C": {
+      "fitted_u": 0.0007419551766757306,
+      "fitted_MeV": 0.6911268713334322,
+      "best_candidate": {
+        "name": "+1/(S*L)",
+        "value": 0.0007716049382716049,
+        "fraction": "1/1296",
+        "rel_dev": 0.0399616614695212,
+        "within_5pct": true,
+        "within_1pct": false
+      }
+    },
+    "c_A": {
+      "fitted_u": 0.0007750371939655975,
+      "fitted_MeV": 0.7219425753350996,
+      "best_candidate": {
+        "name": "+1/(S*L)",
+        "value": 0.0007716049382716049,
+        "fraction": "1/1296",
+        "rel_dev": 0.004428504490772812,
+        "within_5pct": true,
+        "within_1pct": true
+      }
+    },
+    "c_P": {
+      "fitted_u": 0.0037517262866473317,
+      "fitted_MeV": 3.494710909906076,
+      "best_candidate": {
+        "name": "+1/(V*kappa)",
+        "value": 0.003996690240894259,
+        "fraction": "256/64053",
+        "rel_dev": 0.06529366364459266,
+        "within_5pct": false,
+        "within_1pct": false
+      }
+    }
+  },
+  "phase_b_summary": {
+    "matched_within_5pct": 3,
+    "matched_within_1pct": 1
+  },
+  "phase_b_zero_free": {
+    "substitutions": {
+      "c_V": {
+        "substituted": true,
+        "typed_name": "+1/(R*kappa)",
+        "typed_value": 0.008992553042012083,
+        "rel_dev": 0.041408787429026574
+      },
+      "c_S": {
+        "substituted": false,
+        "fitted_value": 0.019626423914081783,
+        "best_attempt": "+1/(D*Theta)",
+        "rel_dev": 0.05644968234729473
+      },
+      "c_C": {
+        "substituted": true,
+        "typed_name": "+1/(S*L)",
+        "typed_value": 0.0007716049382716049,
+        "rel_dev": 0.0399616614695212
+      },
+      "c_A": {
+        "substituted": true,
+        "typed_name": "+1/(S*L)",
+        "typed_value": 0.0007716049382716049,
+        "rel_dev": 0.004428504490772812
+      },
+      "c_P": {
+        "substituted": false,
+        "fitted_value": 0.0037517262866473317,
+        "best_attempt": "+1/(V*kappa)",
+        "rel_dev": 0.06529366364459266
+      }
+    },
+    "train_rms_u": 0.0233114127656465,
+    "train_rms_MeV": 21.714443510278016,
+    "train_R2": 0.655984613815885,
+    "test_rms_u": 0.03425791258442662,
+    "test_rms_MeV": 31.911043533613295,
+    "test_R2": -0.22982092658807152
+  },
+  "wrong_controls": [
+    {
+      "label": "WC-1_drop_volume",
+      "description": "Drop volume shape; refit remaining 4-term",
+      "rms_MeV": 20.420880919530255,
+      "R2": 0.6957508281375658,
+      "ratio_to_canonical": 7.491231862882671,
+      "pass": true
+    },
+    {
+      "label": "WC-2_drop_surface",
+      "description": "Drop surface shape; refit remaining 4-term",
+      "rms_MeV": 16.82532496698246,
+      "R2": 0.7934584741203947,
+      "ratio_to_canonical": 6.172231795126383,
+      "pass": true
+    },
+    {
+      "label": "WC-3_drop_coulomb",
+      "description": "Drop coulomb shape; refit remaining 4-term",
+      "rms_MeV": 14.337073948133657,
+      "R2": 0.8500309951383124,
+      "ratio_to_canonical": 5.259437416240245,
+      "pass": true
+    },
+    {
+      "label": "WC-4_drop_asymmetry",
+      "description": "Drop asymmetry shape; refit remaining 4-term",
+      "rms_MeV": 12.381701789416464,
+      "R2": 0.8881486735007009,
+      "ratio_to_canonical": 4.542125255374226,
+      "pass": true
+    },
+    {
+      "label": "WC-5_drop_pairing",
+      "description": "Drop pairing shape; refit remaining 4-term",
+      "rms_MeV": 3.167324802359751,
+      "R2": 0.9926807654881662,
+      "ratio_to_canonical": 1.1619069996556117,
+      "pass": false
+    },
+    {
+      "label": "WC-6_surface_A_half",
+      "description": "Replace surface A^(2/3) with A^(1/2)",
+      "rms_MeV": 3.0951662468014285,
+      "R2": 0.9930104628016778,
+      "ratio_to_canonical": 1.135436228257052,
+      "pass": false
+    },
+    {
+      "label": "WC-7_road_A_two_thirds",
+      "description": "Replace road 1/A^(1/3) with 1/A^(2/3)",
+      "rms_MeV": 5.625689425652745,
+      "R2": 0.9769095729881386,
+      "ratio_to_canonical": 2.0637378006463294,
+      "pass": true
+    },
+    {
+      "label": "WC-8_pairing_delta_over_sqrtA",
+      "description": "Replace pairing delta_pair with delta_pair/sqrt(A)",
+      "rms_MeV": 2.7770723118075233,
+      "R2": 0.9943732860644242,
+      "ratio_to_canonical": 1.018746089834224,
+      "pass": true,
+      "note": "report-only; no degradation gate"
+    },
+    {
+      "label": "WC-9_shuffle_B_u",
+      "description": "Shuffle B_u labels seed 20260623; refit",
+      "rms_MeV": 35.50122463704907,
+      "R2": NaN,
+      "ratio_to_canonical": 13.023331668227316,
+      "pass": true
+    }
+  ],
+  "strong_pass_conditions": {
+    "S1_train_rms_le_5MeV": true,
+    "S2_test_rms_le_5MeV": true,
+    "S3_train_R2_ge_0p95": true,
+    "S4_test_R2_ge_0p95": true,
+    "S5_shape_removals_all_degrade_1p5x": false,
+    "S6_geom_scalings_degrade_1p2x": false,
+    "S7_shuffle_degrades_2x": true
+  },
+  "fail_conditions": {
+    "F1_train_rms_gt_10MeV": false,
+    "F2_shape_removal_fails": false,
+    "F3_shuffle_no_degrade": false
+  }
+}

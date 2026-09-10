@@ -1,0 +1,7 @@
+formula_or_rule,expression,locked_inputs,replayed_value,source_or_target_use
+A_side threshold,A_side = 1/(2R),LC01 R=12,1/24,write-candidacy / alarm threshold
+A_share threshold,A_share = 1/R,LC01 R=12,1/12,write-access / synchronization threshold
+letter increment,1/alpha_H^4,LC01 alpha_H=2; CR066a,1/16,minimum Paul Revere letter information quantum
+loaded probabilities,"(1/4,9/16,1/4)/(17/16)",CR066a/CR066b,"(4/17,9/17,4/17)",state-preparation signature; Born unity preserved
+capacity ladder,c_N=1/alpha_H^(D+N); C_N=2^-D*(1-2^-N),"LC01 alpha_H=2, D=3; CR067a",single=1/16; asymptote=1/8,geometric subdivision of gravity-coupled subspace
+T2 coefficient boundary check,16*pi*R^4/17,LC01 R=12; CR064a boundary,61312.06142572983,"hardware boundary check only, not QI threshold proof"

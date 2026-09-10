@@ -1,0 +1,11 @@
+formula_or_rule,expression,locked_inputs,replayed_value,source_or_target_use
+A horizon kernel,A(r)=r_s/r,r_s normalized as branch-05/CR003 A-kernel,A(1 r_s)=1; A(3r_s/2)=2/3; A(3r_s)=1/3,CR007-CR010 landmark lane
+A=1 completion,12/12 = 1,R=12,1,horizon closure / no literal photon launch
+maximum loading,(R-1)/R,R=12,11/12,CR103a / BB005 11/12 maximum loading boundary
+surface debit,D^2/R,D=3; R=12,3/4,strong A boundary inherited from locked primitive stack
+split loss / carrier side,R^2 * 2^-D,R=12; D=3,18,18 carrier / tensor split support
+bounce lift,D^2/2^D,D=3,9/8,locked primitive stack
+resolved half-bounce,D^2/2^(D+1),D=3,9/16,locked primitive stack
+Hawking temperature bridge,T_SAM/T_Hawking,QGA025 eta=hbar scoped bridge,max ratio error 4.440892098500626e-16,scoped thermal bridge; eta anchor preserved
+Kerr uniform-temperature route,T_committed/T_Kerr,QGA026 committed Kerr route,max ratio error 1.3322676295501878e-15,uniform T route; full spectrum open
+GW170817 release boundary,exact A=1 no escape; release at A_release,CR147 dynamic A-release engine,A_release=0.05611455406252441; residual_sigma=0.770844945419169,A=1 not literal light launch; post-release shared road

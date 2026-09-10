@@ -1,0 +1,7 @@
+id,control,rejected,evidence
+WC1,Treat 126 matter/periodic capacity as 126 particle rows,True,"{""matter"": 126, ""particle"": 321, ""periodic"": 126, ""vault_identity_assignments"": 573}"
+WC2,Derive D=3 from particle masses or downstream Higgs/R/A0 matches,True,CR115 WC14
+WC3,Treat a source-code comment as a generation-count theorem,True,three explicit rows; no computation found
+WC4,Treat upstream D-dependence as completed D-perturbation replay,True,CR213 classifies this as NEXT_CR_REQUIRED
+WC5,Treat LC04 generator consistency as first-principles derivation,True,LC04 boundary
+WC6,Emit disallowed source directory labels into new files,True,checked emitted CR213 files before final verdict

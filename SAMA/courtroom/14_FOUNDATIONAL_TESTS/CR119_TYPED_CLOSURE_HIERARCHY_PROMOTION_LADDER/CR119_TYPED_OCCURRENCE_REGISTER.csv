@@ -1,0 +1,16 @@
+occurrence_id,scalar_value,type,source,role,dedupe_allowed
+X1_AXIS_SELF_CHANNEL,1,AxisChannel,CR267,axis self-coupling / axis fee,false
+C1_ROAD_LIGHT_CARRIER,1,Carrier,CR282/CR216,scalar-one carrier,false
+P1_LIFT_BEARING_SUPPORT,1,Support,CR282,scalar-one support,false
+A1_HISTORICAL_ROW_PROXY,1,RetiredHistoricalRowProxy,CR216/CR282,retired row-shaped trace,false
+S8_BINARY_SURFACE,8,BinarySurface,CR117/CR267,h^D surface,false
+S8_HIDDEN_PARTITION,8,BigradePartition,CR218,partition occurrence,false
+S8_CR283_FACTOR,8,FaceContentFactor,CR283,80 = 8*10,false
+W9_CLOSURE_WITNESS,9,ClosureWitness,CR267,resolved closure witness,false
+C9_CARRIER_ATOM,9,CarrierAtom,CR262,D2 carrier atom,false
+P9_BIGRADE_PARTITION,9,BigradePartition,CR218,partition occurrence,false
+R12_CLOSURE_RADIUS,12,ClosureRadius,CR114/CR262,radix/container,false
+P12_BIGRADE_PARTITION,12,BigradePartition,CR218,partition occurrence,false
+F81_COMPLETED_FACE,81,CompletedFace,CR233/CR283,face/container,false
+SIDE81_LEDGER_SIDE,81,LedgerSide,CR229/CR233,one side / mirror side,false
+C81_CONTAINER_ATOM,81,ContainerAtom,CR262,face container atom,false

@@ -1,0 +1,26 @@
+check_id,description,expected,observed,status
+LC02_CHECK_001,LC01 result class,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,PASS
+LC02_CHECK_002,LC02 lane registered in LC01,True,True,PASS
+LC02_CHECK_003,R locked,12,12,PASS
+LC02_CHECK_004,D locked,3,3,PASS
+LC02_CHECK_005,alpha_H locked,2,2,PASS
+LC02_CHECK_006,R^2,144,144,PASS
+LC02_CHECK_007,2^D face states,8,8,PASS
+LC02_CHECK_008,carrier fraction,1/8,1/8,PASS
+LC02_CHECK_009,retained fraction,7/8,7/8,PASS
+LC02_CHECK_010,split loss,18,18,PASS
+LC02_CHECK_011,tensor identity alpha_H*D^2,18,18,PASS
+LC02_CHECK_012,H_native exact,126,126,PASS
+LC02_CHECK_013,surface debit exact,3/4,3/4,PASS
+LC02_CHECK_014,H_reveal exact,501/4,501/4,PASS
+LC02_CHECK_015,CR114 observed surface matches,501/4,501/4,PASS
+LC02_CHECK_016,CR092a H_reveal matches,501/4,501/4,PASS
+LC02_CHECK_017,QP091T H_reveal matches,125.250000000000000000000000000000,125.250000000000000000000000000000,PASS
+LC02_CHECK_018,QP091U wrong controls rejected,7,7,PASS
+LC02_CHECK_019,CR120 caveat preserved,True,True,PASS
+LC02_CHECK_020,2*pi q-split route remains non-exact,True,True,PASS
+LC02_CHECK_021,HZZ4l categories sum to one,1,1,PASS
+LC02_CHECK_022,HZZ4l categories have 1:2:1 shape,1/4; 1/2; 1/4,1/4; 1/2; 1/4,PASS
+LC02_CHECK_023,all source files exist,True,True,PASS
+LC02_CHECK_024,all LC02 wrong controls rejected,True,True,PASS
+LC02_CHECK_025,no downstream formula mutation,True,True,PASS

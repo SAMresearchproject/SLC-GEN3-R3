@@ -1,0 +1,62 @@
+{
+  "cr_id": "CR072",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_10_BRANCH_K1_VERIFIED_WITH_FRONTIER_SEAL",
+  "triage_bin": "A",
+  "reason": "CR067-CR070 all PASS-tier; CR065 PASS; CR071 BOUNDARY_PRE_REGISTERED_PREDICTION sealed permanent; CR066 deferred-support appeal recorded",
+  "captured_at_utc": "2026-06-13T08:02:24Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "prior_cr_chain": [
+    {
+      "cr_id": "CR065",
+      "verdict": "PASS"
+    },
+    {
+      "cr_id": "CR066",
+      "verdict": "BOUNDARY"
+    },
+    {
+      "cr_id": "CR067",
+      "verdict": "PASS_SCOPED_STRUCTURAL"
+    },
+    {
+      "cr_id": "CR068",
+      "verdict": "PASS_SCOPED_STRUCTURAL"
+    },
+    {
+      "cr_id": "CR069",
+      "verdict": "PASS_SCOPED_K1_ROSTER_LEVEL"
+    },
+    {
+      "cr_id": "CR070",
+      "verdict": "PASS_ALL_THREE_SUB_LANES"
+    },
+    {
+      "cr_id": "CR071",
+      "verdict": "BOUNDARY_PRE_REGISTERED_PREDICTION"
+    }
+  ],
+  "deferred_support_appeals": [
+    {
+      "upstream_cr": "CR066",
+      "original_verdict": "BOUNDARY",
+      "appeal_verdict": "APPEAL_PASS_DEFERRED_SUPPORT",
+      "supporting_crs": "CR067;CR068;CR069;CR070",
+      "rationale": "downstream CR067-CR070 all PASS-tier; CR066 receives deferred-support upgrade per anti-circularity rule",
+      "original_file_modified": false,
+      "appeal_recorded_in": "CR072_appeal_pass_ledger.csv"
+    }
+  ],
+  "cr071_frontier_seal": {
+    "frontier_seal_file": "C:/VS/The_Courtroom/10_ISOTOPE_AND_PERIODIC_TABLE_VAULT/CR071_SUPERHEAVY_MISS_BAND_TARGET_MAP/CR071_pre_registered_frontier_map.json",
+    "exists": true,
+    "sha256": "636b4df597f80118c8da5e615aedeb95eb4f53cd1edf7e7ab2dac2b81a3bb626",
+    "permanent_record": true,
+    "modification_policy": "FORBIDDEN_NEVER_OVERWRITTEN",
+    "appeal_channel": [
+      "APPEAL_FRONTIER_HIT",
+      "APPEAL_FRONTIER_MISS"
+    ]
+  }
+}

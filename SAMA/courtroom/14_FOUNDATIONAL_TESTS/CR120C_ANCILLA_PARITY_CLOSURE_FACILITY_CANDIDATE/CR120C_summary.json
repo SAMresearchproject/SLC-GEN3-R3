@@ -1,0 +1,21 @@
+{
+  "authority": "PROPOSAL_ONLY",
+  "candidate_interaction": "eight entangling data-to-X1 couplings followed by X1 measurement",
+  "candidate_measurement_effect": "project or condition S8 into a declared parity sector",
+  "candidate_resolution_effect": "feedback can enforce target parity but cannot localize or undo an unknown fault",
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "disposition": "RESEARCH_CANDIDATE_ANCILLA_PARITY_MEASUREMENT_PLUS_FEEDBACK_MECHANICALLY_COHERENT_SAM_PHYSICAL_IDENTITY_UNSOURCED",
+  "evidence_status": "NOT_EVIDENCE",
+  "primary_candidate": "ANCILLA_MEDIATED_WEIGHT_8_PARITY",
+  "record_id": "CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE",
+  "result_class": "RESEARCH_CANDIDATE",
+  "sam_physical_identity": "UNSOURCED",
+  "sealed_utc": "2026-07-13T18:08:17Z",
+  "task": "Investigate what physical interaction or measurement facilitates 8 + 1 closure from attached working note",
+  "validation_state": "UNVALIDATED_PHYSICAL_IDENTITY"
+}

@@ -1,0 +1,31 @@
+{
+  "cr_id": "CR068",
+  "branch": "10_ISOTOPE_AND_PERIODIC_TABLE_VAULT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS_SCOPED_STRUCTURAL",
+  "triage_bin": "A",
+  "reason": "QP055/QP058/QP059 hash-locked; QP060 pre-comparison state verified; 200 sealed prediction rows present",
+  "captured_at_utc": "2026-06-13T07:47:33Z",
+  "seal_sha256": "9ff6d79e8e5c63c614e70a6cce2affa0510cc77e7fbf8781fc0a55fe940688b5",
+  "phases": {
+    "phase_1": {
+      "verified": 155
+    },
+    "phase_2_qp_artifacts": {
+      "checked": 4,
+      "reproduction_verified": 4
+    },
+    "phase_3_qp060_protocol": {
+      "status": "pre_comparison_state_verified"
+    },
+    "phase_4_row_count": {
+      "found": 200,
+      "expected": 200,
+      "matches": true
+    },
+    "phase_5_wrong_controls": {
+      "passed": 6,
+      "of": 6
+    }
+  }
+}

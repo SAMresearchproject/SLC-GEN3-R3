@@ -1,0 +1,6 @@
+label,description,non_trivial_rows,breaks,n_2Z_invariant_rows_excluded,invariant_isotopes,pass,breaks_Q_mass_identity,breaks_Q_sub_identity,breaks_source_identity,breaks_dQ_identity
+WC-1_basis_swap,Swap n_balanced and n_excess_neutron; structurally identity when N=2Z (excluded),68,68,1,['H-3'],True,,,,
+WC-2_basis_kappa_perturbed,basis kappa = 7117/769 (target kappa stays 7117/768),69,,,,True,69,,,
+WC-3_basis_g_perturbed,basis g = 1/63 (target g stays 1/64); skips N=Z (zero excess),56,,,,True,,56,,
+WC-4_occupancy_perturbed,n_balanced = Z + 1 (source identity should break),69,,,,True,,,69,
+WC-5_basis_dq_const_perturbed,basis dQ_excess = 7093/193 (target stays 7093/192); skips N=Z,56,,,,True,,,,56

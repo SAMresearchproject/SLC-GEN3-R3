@@ -1,0 +1,14 @@
+{
+  "chain_history_hash": "956be65ba4f384d691d2ff224f965cdeeef53951a2b4127d1432b6b51e8f913a",
+  "chain_state_hash": "044c496d0a2f80d47a69f054791203136eec5a2f84893386c4524fe8de795bb7",
+  "checks": {
+    "component_partition_only": true,
+    "different_history_hash": true,
+    "route_history_retained": true,
+    "same_exact_coefficients": true,
+    "same_terminal_state_hash": true
+  },
+  "star_history_hash": "d3c75bc5aa8f19f52ea45214a5cad7291f7421a1eba16c999a7e0f448f9aabc1",
+  "star_state_hash": "044c496d0a2f80d47a69f054791203136eec5a2f84893386c4524fe8de795bb7",
+  "status": "PASS"
+}

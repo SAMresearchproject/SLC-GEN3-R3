@@ -1,0 +1,103 @@
+{
+  "lock_id": "CR229_inclusion_exclusion_identity_lock",
+  "lock_date_utc": "2026-06-22T00:00:00+00:00",
+  "lock_summary": "Set-theoretic inclusion-exclusion identity on the closed carrier-tensor ledger. Unifies three previously-independent sealed structural identities as one underlying fact.",
+  "decomposition": {
+    "A": "carrier side of the closed carrier-tensor ledger",
+    "B": "mirror side of the closed carrier-tensor ledger",
+    "card_A": 81,
+    "card_B": 81,
+    "card_A_intersect_B": 18,
+    "card_A_intersect_B_meaning": "tensor carrier / graviton / alpha_H * D^2"
+  },
+  "derived_identities": [
+    {
+      "name": "union_equals_capacity",
+      "formula": "|A union B| = |A| + |B| - |A intersect B|",
+      "calculation": "81 + 81 - 18 = 144",
+      "value": 144,
+      "equivalent_to": "R^2 = capacity",
+      "upstream_sealed_at": "CR114@14"
+    },
+    {
+      "name": "symmetric_difference_equals_h_native",
+      "formula": "|A delta B| = |A| + |B| - 2|A intersect B|",
+      "calculation": "81 + 81 - 36 = 126",
+      "value": 126,
+      "equivalent_to": "R^2 * (1 - 2^-D) = H_native",
+      "upstream_sealed_at": "CR114@14 + CR092a@09a"
+    },
+    {
+      "name": "sum_equals_closed_ledger",
+      "formula": "|A| + |B|",
+      "calculation": "81 + 81 = 162",
+      "value": 162,
+      "equivalent_to": "R^2 * 9/8 = closed carrier-tensor ledger",
+      "upstream_sealed_at": "CR217@09a + CR222@12a"
+    },
+    {
+      "name": "composition_identity",
+      "formula": "closed_ledger = capacity + graviton = matter_energy + 2 * graviton",
+      "calculation": "162 = 144 + 18 = 126 + 36",
+      "load_bearing": true,
+      "structural_meaning": "mass + graviton = total writable space (the closed-loop accounting that SAM names as 'Higgs gives gravity, not mass; mass was always in the closed loop')"
+    }
+  ],
+  "structural_identifications": {
+    "substrate": {
+      "identified_with": "closed carrier-tensor ledger",
+      "value": 162,
+      "equals": "R^2 * 9/8",
+      "previously": "postulated as the primitive object",
+      "now": "derived structural identification"
+    },
+    "graviton": {
+      "identified_with": "shared overlap |A intersect B|",
+      "value": 18,
+      "equals": "alpha_H * D^2",
+      "structural_role": "coupling at the boundary between the two carrier-tensor sides"
+    },
+    "matter_energy": {
+      "identified_with": "symmetric difference |A delta B|",
+      "value": 126,
+      "equals": "R^2 * (1 - 2^-D) = H_native",
+      "structural_role": "unique structural substance on either side of the substrate, not shared"
+    },
+    "capacity": {
+      "identified_with": "union |A union B|",
+      "value": 144,
+      "equals": "R^2",
+      "structural_role": "writable address space with each element counted exactly once"
+    },
+    "per_side_unique_content": {
+      "value": 63,
+      "calculation": "|A| - |A intersect B| = 81 - 18 = 63",
+      "consistency_check": "2 * 63 = 126 = matter_energy (symmetric difference)"
+    }
+  },
+  "upstream_sealed_sources": {
+    "CR114_result_md_sha256": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+    "CR114_role": "capacity R^2 = 144; split-loss identity",
+    "CR116_result_md_sha256": "4385529ee82f863e5c2ac40ad2ce0114b71c84e3720d09d96d1fdde79bf07464",
+    "CR116_role": "18 graviton-channel carrier theorem",
+    "CR217_result_md_sha256": "635791273a54838531d9b59177268a645b4ca151720da383784ac9ac047ffc2e",
+    "CR217_role": "162 = R^2 * 9/8 closed-ledger identity",
+    "CR218_result_md_sha256": "c2552aa075ba989e0c6c30c658aa109ab005aed0df9cbf419de71779fbe8bf6e",
+    "CR218_role": "bigrade lattice derivation",
+    "CR092a_result_md_sha256": "371405f800b35fb893e7509a072b0f8e79bac5584c24254d98c382ca3dad6571",
+    "CR092a_role": "H_native = 126 and surface debit sealed PASS",
+    "CR132_result_md_sha256": "09fb22d1c13c44025f540f5134658ecca81cf62c67c6ce1c15cea751adfed2d6",
+    "CR132_role": "TENSOR_CARRIER = alpha_H * D^2 = 18 identified at (1, 2) lattice address",
+    "CR222_result_md_sha256": "b316d0fb2e8d5eb83a8be4cad5a53926385004f3130434eebaf2d13b4beda83e",
+    "CR222_role": "carrier ledger 12 + 1 closed checksum 81 + 81 = 162",
+    "CR120b_result_md_sha256": "e60ac0371443b6d839a1018ccdf371b86d7a78627ea8fd1c919733fedb1b9574",
+    "CR120b_role": "Higgs by composition appeal (downstream consumer)"
+  },
+  "downstream_implications": [
+    "Higgs derivation (CR092a, CR120b) gets a cleaner upstream: H_native = symmetric difference of substrate ledger",
+    "Higgs-as-gravity reframe becomes a structural statement: graviton = shared overlap; matter-energy = symmetric difference; Higgs = unique-substance energy",
+    "Manuscript Section 0 can restate substrate framing as a derived identification rather than a postulate",
+    "Substrate-first ontology gets a structurally-load-bearing expression rather than a postulate-tier claim"
+  ],
+  "rule_of_immutability": "Sealed at 2026-06-22. Inputs hash-locked. If any upstream sealed source is regraded, this CR must be re-examined."
+}

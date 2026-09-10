@@ -1,0 +1,124 @@
+{
+  "accounting_invariants": {
+    "QP093A_0066_Theta_local_fee": 0,
+    "QP093A_0299_repeated_constituent_count": 0,
+    "candidate_id": "B1_TYPED_ZERO_FEE_CLEANUP",
+    "expected_numeric_effect_relative_to_CR274": 0,
+    "neutral_W9_witness_local_count": 0
+  },
+  "baseline": {
+    "beta_K": {
+      "alpha": 0.7498509965412838,
+      "asym": 36.818129859257176,
+      "coul": 0.8330418169113959,
+      "doubmag": -1.558588968261812,
+      "lightodd": 17.705846519554715,
+      "pair": -78.16971798716308,
+      "quadN_A": 1.4069774382546392,
+      "quadZ_A": 4.251267938620264,
+      "quad_cross_A2": -2.852679669191055,
+      "reonset": 13.611888941654877,
+      "shell_prox": -2.539364333160457,
+      "surf": 27.55377102233821,
+      "vol": 10.814717731372474
+    },
+    "model": "CR274 frozen combined model",
+    "operators": {
+      "op_3d_odd": {
+        "adopted": true,
+        "family": [
+          "Cu-63",
+          "Mn-55",
+          "Co-59"
+        ],
+        "family_size": 3,
+        "gamma": 6.965431443111167,
+        "mean_improve_MeV": 5.646861267389866
+      },
+      "op_82pre": {
+        "adopted": true,
+        "family": [
+          "Nd-142"
+        ],
+        "family_size": 1,
+        "gamma": -0.7273238920525138,
+        "mean_improve_MeV": 11.63718227284022
+      },
+      "op_dm_sat": {
+        "adopted": true,
+        "family": [
+          "Pb-208"
+        ],
+        "family_size": 1,
+        "gamma": 7.18003785865981,
+        "mean_improve_MeV": 7.18003785865981
+      },
+      "op_ms_fill": {
+        "adopted": true,
+        "family": [
+          "Ag-107",
+          "Sn-120"
+        ],
+        "family_size": 2,
+        "gamma": -0.45314378000587197,
+        "mean_improve_MeV": 4.449270023416119
+      }
+    },
+    "source_sha256": "192096bd5e7354c243f015ea73d34fa26361852b14d7e8020e238ae6dfef2a06",
+    "train_metrics": {
+      "MAE_MeV": 1.96366693791238,
+      "RMS_MeV": 2.5279494454987805,
+      "max_abs_MeV": 6.288323792868162,
+      "mean_residual_MeV": 0.14998062368238024,
+      "n": 35,
+      "within_5": 33,
+      "within_8": 35
+    }
+  },
+  "candidate": {
+    "added_feature": "abs(N-Z)/A^(1/3)",
+    "candidate_id": "B3_SURFACE_EXCESS_REPLACES_82",
+    "formula": "B_candidate = B_CR274 - gamma_82pre*op_82pre + gamma_surface*abs(N-Z)/A^(1/3)",
+    "free_parameter_delta": 0,
+    "gamma_surface": 0.09121089246081573,
+    "removed_operator": "op_82pre",
+    "removed_operator_gamma": -0.7273238920525138,
+    "selection_basis": "lowest eligible non-baseline RMS on the original 35-row training lane with zero free-parameter delta",
+    "train_metrics": {
+      "MAE_MeV": 1.984202635538043,
+      "RMS_MeV": 2.5058773692704017,
+      "max_abs_MeV": 6.288323792868162,
+      "mean_residual_MeV": -0.06395607935176921,
+      "n": 35,
+      "within_5": 33,
+      "within_8": 35
+    }
+  },
+  "contract_id": "CR120T_BINDING_FROZEN_SURFACE_EXCESS_V1",
+  "forbidden_fitted_coefficients": [
+    126,
+    144,
+    162,
+    12600,
+    16200
+  ],
+  "frozen_at_utc": "2026-07-14T17:49:34.605158+00:00",
+  "frozen_input_sha256": {
+    "BINDING_BASELINE.json": "192096bd5e7354c243f015ea73d34fa26361852b14d7e8020e238ae6dfef2a06",
+    "BINDING_DISCOVERY_RESULTS.csv": "76cb63f3175866a8aca1dd2999a4e9aa538e83f6db0916bf059959b0f02be5e8",
+    "BINDING_FEATURE_DEFINITIONS.json": "89463644403a43ff733548a522456f1c0aeba9054db2323f2f1b2e9b4315bb68",
+    "DISCOVERY_REPORT.json": "e600a27831fe2b82ad5ece146cc353a16eb586cf11809eb4cc363e6b3cd99811",
+    "F81_CANDIDATE_RULES.json": "c6b16102993898762c2ba12a9e33340a2e30c744f6a5e85f513c6a613f2867dd",
+    "F81_CANDIDATE_RULE_SCORECARD.csv": "5645382edcfd0eae7a82eabe93be0144ec4d07da2376fd94a35dae6ae592bf0e",
+    "SOURCE_MANIFEST.json": "b1eee6ab1603c7a3ed5995afb5e1b3061b17f1c8aafce11d7db0f675a7769451"
+  },
+  "status_at_freeze": "TRAIN_SELECTED_CANDIDATE_REQUIRING_FROZEN_VALIDATION",
+  "validation_firewall": {
+    "candidate_formula_and_gamma_are_immutable": true,
+    "extended_lane": "CR277 observed rows not in the original CR261 55-row roster",
+    "held_out_lane": "CR261 rows marked test (20)",
+    "no_observed_binding_residual_used_for_selection_or_repair": true,
+    "no_per_isotope_or_target_specific_parameters": true,
+    "no_same_run_repair": true
+  }
+}

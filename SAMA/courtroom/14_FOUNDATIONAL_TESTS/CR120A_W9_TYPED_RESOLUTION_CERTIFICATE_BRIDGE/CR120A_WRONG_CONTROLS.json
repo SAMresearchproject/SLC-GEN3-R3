@@ -1,0 +1,32 @@
+[
+  {
+    "expected": "TYPE_REJECT",
+    "id": "WC1_DIRECT_PROMOTION",
+    "observed": "TYPE_REJECT",
+    "program": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_direct_promote.sam"
+  },
+  {
+    "expected": "ARITY_REJECT",
+    "id": "WC2_MISSING_X1",
+    "observed": "ARITY_REJECT",
+    "program": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_missing_x1.sam"
+  },
+  {
+    "expected": "TYPE_REJECT",
+    "id": "WC3_CONTACT_AS_AXIS",
+    "observed": "TYPE_REJECT",
+    "program": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_contact_as_axis.sam"
+  },
+  {
+    "expected": "TYPE_REJECT",
+    "id": "WC4_AXIS_AS_CONTACT",
+    "observed": "TYPE_REJECT",
+    "program": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_axis_as_contact.sam"
+  },
+  {
+    "expected": "AUTHORITY_REJECT",
+    "id": "WC5_SAME_SCALAR_MERGE",
+    "observed": "AUTHORITY_REJECT",
+    "program": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/programs/invalid_same_scalar_merge.sam"
+  }
+]

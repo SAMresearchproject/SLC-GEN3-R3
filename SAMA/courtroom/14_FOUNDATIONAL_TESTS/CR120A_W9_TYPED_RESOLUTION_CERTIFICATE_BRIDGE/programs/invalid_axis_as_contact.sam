@@ -1,0 +1,7 @@
+let witness = RESOLVE(
+    S8_BINARY_SURFACE,
+    X1_AXIS_SELF_CHANNEL,
+    X1_AXIS_SELF_CHANNEL
+)
+
+return witness

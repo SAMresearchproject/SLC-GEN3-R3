@@ -1,0 +1,194 @@
+{
+  "cr_id": "CR070a",
+  "campaign": "PAUL_REVERE_FIELD_COMPARISON",
+  "test_class": "EXPANDED_NV_DIAMOND_T2_CONTACT_TABLE_AGAINST_T2_GRAV_V1_1",
+  "execution_status": "CLEAN",
+  "result_class": "CR070a_EXPANDED_NV_DIAMOND_T2_TABLE_SEALED__PREDICTIONS_10_OF_12__WRONG_CONTROLS_7_OF_8__ROWS_22__CONSISTENT_17__BOUNDARY_1__VIOLATIONS_4",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "T2_grav_formula": "T2_grav(omega) = 16 * pi * R^4 / (17 * omega)",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "input_row_count": 22,
+  "analyzed_row_count": 22,
+  "classification_counts": {
+    "CONSISTENT_WITH_FLOOR": 17,
+    "BOUNDARY_AT_FLOOR": 1,
+    "VIOLATION_OF_FLOOR": 4,
+    "INVALID_NONPOSITIVE_T2_OBSERVED": 0
+  },
+  "verify_status_counts": {
+    "PROVISIONAL_AUTHOR_BEST_EFFORT": 22,
+    "VERIFIED": 0,
+    "OTHER": 0
+  },
+  "honest_aggregate_verdict": "Provisional NV-diamond table populated with 22 rows from published-platform T2 literature. 4 violations of T2_grav v1.1 floor detected (expected: room-temperature Hahn-echo NV T2 in natural-abundance diamond sits at or below the 3.4 us NV-resonant floor). 1 rows in the boundary region (within factor 2). 17 rows consistent with the floor (above with margin). Median margin (T2_observed / T2_grav) across populated rows indicates the majority of measurements are environmental-noise-limited; the gravitational floor is not yet engineering-reachable in the longest-coherence rows. Aggregate verdict: CR064a v1.1 is PARTIALLY CONSISTENT WITH the expanded NV-diamond surface; violation rows surface the empirical pressure at room-temperature Hahn-echo natural-abundance T2 ~ 1-5 us. All citations are tagged PROVISIONAL_AUTHOR_BEST_EFFORT pending partner-lab verification of the specific published values.",
+  "predictions": {
+    "P1_table_well_formed": {
+      "pass": true,
+      "details": {
+        "required_fields": [
+          "row_id",
+          "platform",
+          "citation_tag",
+          "drive_frequency_label",
+          "omega_drive_rad_per_s",
+          "T2_observed_s",
+          "conditions",
+          "sample_type",
+          "decoupling_protocol",
+          "temperature_K",
+          "verify_status",
+          "inherited_from_CR069a_row",
+          "notes"
+        ],
+        "violations": []
+      }
+    },
+    "P2_no_current_measurement_violates_T2_grav": {
+      "pass": false,
+      "details": {
+        "violation_count": 4,
+        "violating_rows": [
+          "4",
+          "9",
+          "17",
+          "22"
+        ]
+      }
+    },
+    "P3_margin_distribution_consistent_with_environmental_dominance": {
+      "pass": false,
+      "details": {
+        "median_margin_ratio": 20.58828182655537,
+        "interpretation": "Median margin >> 1 means current measurements are environmental-noise-limited, sitting far above the gravitational floor. Consistent with floor existing but not yet engineering-limited by it."
+      }
+    },
+    "P4_cryo_DD_NV_closest_to_floor_in_relative_terms": {
+      "pass": true,
+      "details": {
+        "max_cryo_T2_s": 1.058,
+        "interpretation": "Cryogenic NV with DD has the highest absolute T2 across the populated rows; still many orders of magnitude above the gravitational floor."
+      }
+    },
+    "P5_no_free_parameters_in_contact_analysis": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P6_explicit_verification_path_documented": {
+      "pass": true,
+      "details": "All rows carry verify_status; partner-lab confirmation lifts PROVISIONAL to VERIFIED"
+    },
+    "P7_contact_table_emitted_with_consistency_classification": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P8_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "structural"
+    },
+    "P9_row_count_meets_campaign_threshold": {
+      "pass": true,
+      "details": {
+        "row_count": 22,
+        "campaign_threshold": 15,
+        "campaign_target_range": [
+          20,
+          30
+        ],
+        "within_target_range": true
+      }
+    },
+    "P10_no_regression_against_CR069a_inherited_rows": {
+      "pass": true,
+      "details": {
+        "regression_count": 0,
+        "regressions": [],
+        "interpretation": "The 4 NV-diamond rows inherited from CR069a must produce identical classifications in CR070a. Any change signals an upstream lock break or runner discrepancy."
+      }
+    },
+    "P11_sample_diversity": {
+      "pass": true,
+      "details": {
+        "categories_observed": [
+          "cryogenic",
+          "ensemble_NV",
+          "ion_implanted",
+          "isotopically_purified_12C",
+          "nanodiamond",
+          "natural_13C_abundance",
+          "protocol:CPMG",
+          "protocol:CPMG_multi_pulse",
+          "protocol:Hahn_echo",
+          "protocol:KDD",
+          "protocol:XY8",
+          "protocol:charge_stabilized_DD",
+          "protocol:free_induction_T2_star",
+          "protocol:multi_pulse_DD",
+          "protocol:nuclear_memory",
+          "room_temperature",
+          "shallow_NV",
+          "ultra_pure_CVD"
+        ],
+        "category_count": 18,
+        "threshold": 3
+      }
+    },
+    "P12_all_rows_are_NV_diamond": {
+      "pass": true,
+      "details": {
+        "non_NV_row_count": 0,
+        "non_NV_rows": []
+      }
+    }
+  },
+  "wrong_controls": {
+    "WC1_inverted_formula_falsely_flags_violations": {
+      "pass": false,
+      "details": {
+        "real_formula_min_margin": 0.1470591559039669,
+        "wrong_formula_min_margin": 2.8899934681900044e-11,
+        "interpretation": "The real T2_grav formula has discriminating power; some rows fall within an order of magnitude of the floor or below. The inverted formula gives nanosecond floors that every measurement trivially exceeds, demonstrating the wrong formula has no discriminating power."
+      }
+    },
+    "WC2_zero_omega_breaks_the_formula_gracefully": {
+      "pass": true,
+      "details": "ValueError raised on omega = 0; no silent NaN"
+    },
+    "WC3_negative_T2_observed_rejected_as_unphysical": {
+      "pass": true,
+      "details": "ValueError raised on T2_observed <= 0"
+    },
+    "WC4_no_citation_tag_marks_row_as_provisional": {
+      "pass": true,
+      "details": "All rows carry citation tags"
+    },
+    "WC5_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on CR064a and CR069a locks"
+    },
+    "WC6_no_free_parameters": {
+      "pass": true,
+      "details": "All inputs traced to declared premises"
+    },
+    "WC7_non_NV_row_rejected": {
+      "pass": true,
+      "details": "Non-NV row correctly rejected at input validation"
+    },
+    "WC8_cr069a_inherited_row_hash_mismatch_detected": {
+      "pass": true,
+      "details": "All 4 inherited rows match CR069a frozen canonical values"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 10,
+    "predictions_total": 12,
+    "wrong_controls_passed": 7,
+    "wrong_controls_total": 8
+  }
+}

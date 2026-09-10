@@ -1,0 +1,44 @@
+[
+  {
+    "evidence": [
+      "STRUCTURAL_ONLY RESERVE_CLOSURE_ADDRESS executes in research mode",
+      "CR283 reproduces 80 structural particle-bearing rows plus one non-row closure address",
+      "P80 remains matter_capacity_not_particle_row"
+    ],
+    "model": "STRUCTURAL_ADDRESS_CAPACITY_WELD",
+    "status": "SUPPORTED_CURRENT_CONTRACT"
+  },
+  {
+    "evidence": [
+      "F81 has no 81-component inventory",
+      "CR280 rows are StructurallyStableMatterRow, not ExperimentallyIdentifiedParticle",
+      "CR283 found zero natural row-to-face maps"
+    ],
+    "model": "ONE_TO_ONE_PHYSICAL_CONSTITUENTS",
+    "status": "REJECTED_UNSUPPORTED"
+  },
+  {
+    "evidence": [
+      "rank-nullity would imply one null direction only under four unsourced assumptions",
+      "no matrix, rank, null vector, linearity, or surjectivity contract exists"
+    ],
+    "model": "RANK_ONE_QUOTIENT",
+    "status": "CONDITIONAL_OPEN_NO_TRANSFORMATION"
+  },
+  {
+    "evidence": [
+      "multiple structural rows exist",
+      "no substrate-state preimages, equivalence relation, or held-out decoder is sourced"
+    ],
+    "model": "COLLECTIVE_OR_EQUIVALENCE_CLASS_DECODER",
+    "status": "OPEN_NO_DECODER_OR_INVARIANT_MAP"
+  },
+  {
+    "evidence": [
+      "row register has no building-block or incidence fields",
+      "no admissible building-block intervention surface is sourced"
+    ],
+    "model": "MANY_TO_MANY_INCIDENCE_MAP",
+    "status": "OPEN_NO_BUILDING_BLOCK_INVENTORY_OR_MATRIX"
+  }
+]

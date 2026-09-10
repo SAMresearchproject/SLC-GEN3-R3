@@ -1,0 +1,9 @@
+{
+  "hits": 9,
+  "exemplar": {
+    "file": "src/qp010_private_protected_route_boundary_law.py",
+    "match": "route weight",
+    "pattern": "route[_ ]weight"
+  },
+  "status": "route_weight_present"
+}

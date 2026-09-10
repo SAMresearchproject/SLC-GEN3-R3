@@ -1,0 +1,107 @@
+{
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "task": "Build a per-carrier Starbreaker gravitational-wave candidate ledger",
+  "classification": "CONSTRUCTIVE_NEW_WORK",
+  "scientific_question": "Which individual Starbreaker carrier occurrences reinforce, cancel, or negligibly affect the aggregate internal quadrupole-power proxy, and do any frozen carrier identities remain positive across discovery, validation, final, localized, and dispersed scenario partitions?",
+  "hypothesis": "The already-frozen bind/escape histories contain a reproducible carrier identity whose exact leave-one-out contribution to the internal Starbreaker quadrupole-power proxy is positive across held doors and both geometries.",
+  "null_hypothesis": "Occurrence-level contributions can be computed, but no carrier identity remains directionally positive across the frozen held partitions.",
+  "scope": {
+    "external_waveform_used": false,
+    "qnm_filter_used": false,
+    "physical_strain_claimed": false,
+    "physical_luminosity_claimed": false,
+    "carrier_is_wave_messenger_claimed": false,
+    "registry_mutation_allowed": false,
+    "same_run_repair_allowed": false
+  },
+  "frozen_population": {
+    "scenario_count": 96,
+    "carrier_occurrence_count": 53568,
+    "carrier_slots_per_ledger": 18,
+    "ledger_counts": [14, 21, 33, 56],
+    "carrier_counts": [252, 378, 594, 1008],
+    "door_seeds": {
+      "discovery": [910001, 910002],
+      "validation": [910003],
+      "final": [910004]
+    },
+    "geometries": ["localized_ledger_cells", "dispersed_slots"]
+  },
+  "source_definition": {
+    "flow": "The sealed CR005d post-collapse continuous flow from collapse state xc to final state x1.",
+    "fine_intervals": 324,
+    "coarse_intervals": 162,
+    "origin": "The time-dependent equal-occurrence centroid of all roster atoms in the scenario.",
+    "origin_boundary": "This is a zero-fit translation-invariant reference, not a physical mass center because no mass weights are supplied.",
+    "carrier_quadrupole": "For centered carrier position r_i, Q_i = r_i r_i^T - (|r_i|^2/3) I, stored as xx,yy,zz,xy,xz,yz.",
+    "source_tensor": "J_i = d^3 Q_i / ds^3 on the frozen dimensionless post-collapse coordinate s.",
+    "integration_window": "Fine-grid samples 3 through N-3 inclusive of Python slice 3:-3, matching the sealed CR005d derivative boundary exclusion.",
+    "individual_power": "P_i = integral ||J_i||_F^2 ds.",
+    "aggregate_power": "P_all = integral ||sum_i J_i||_F^2 ds.",
+    "inner_product": "I_i = integral <sum_j J_j, J_i>_F ds.",
+    "leave_one_out": "DeltaP_i = P_all - P_all-minus-i = 2 I_i - P_i.",
+    "interpretation": "Positive DeltaP_i is an aggregate-source reinforcer; negative DeltaP_i is an aggregate-source canceller. This is source attribution, not a claim that the carrier is gravitational-wave material or a propagating messenger."
+  },
+  "history_definition": {
+    "authority": "The sealed CR005d per-carrier timing ledger.",
+    "escape_only": "finite tau_escape and no tau_closure",
+    "return_only": "finite tau_closure and no tau_escape",
+    "dual": "finite tau_escape and finite tau_closure",
+    "neither": "neither finite tau exists",
+    "dual_launch": "dual and tau_escape < tau_closure"
+  },
+  "reinforcement_tolerance": "max(1e-15, 1e-12 * P_all / N_carriers) per scenario",
+  "candidate_rules": {
+    "primary_identity": "ledger_slot",
+    "stable_population_requirements": {
+      "escape_only_fraction_gt": 0.5,
+      "reinforcement_fraction_gt": 0.5
+    },
+    "door_stability": "Median DeltaP_i/P_all is positive independently in discovery, validation, and final.",
+    "geometry_stability": "Median DeltaP_i/P_all is positive independently in localized_ledger_cells and dispersed_slots.",
+    "strong_candidate": "Population requirements, all three door medians, and both geometry medians pass.",
+    "directional_candidate": "Population requirements and all three door medians pass, but one or more geometry medians do not.",
+    "slot_ranking": "Descending worst-door median DeltaP_i/P_all, then overall median, then ascending ledger_slot.",
+    "occurrence_shortlist": "Top 200 positive-reinforcement occurrences by DeltaP_i/P_all, descending with deterministic scenario_id and atom_index ties.",
+    "fitted_weights": 0
+  },
+  "required_controls": [
+    "sealed source custody before and after execution",
+    "exact 96-scenario and 53568-carrier inventory",
+    "exact sealed timing-ledger class totals",
+    "trace-free individual carrier tensors",
+    "linear tensor-sum reconstruction",
+    "direct leave-one-out agreement with 2I-P on a deterministic prefix",
+    "global translation invariance after centroid subtraction",
+    "static source zero",
+    "isotropic six-axis radial source cancellation",
+    "fine/coarse aggregate-power convergence",
+    "finite positive aggregate source in all scenarios",
+    "no external waveform, QNM filter, fitted parameter, physical strain, or registry mutation",
+    "atomic release inventory"
+  ],
+  "verdict_ladder": {
+    "strong": "PASS_STABLE_PER_CARRIER_GW_SOURCE_CANDIDATES_IDENTIFIED",
+    "directional": "PASS_DIRECTIONAL_PER_CARRIER_GW_SOURCE_CANDIDATES_IDENTIFIED",
+    "boundary": "BOUNDARY_PER_CARRIER_GW_LEDGER_CONSTRUCTED__NO_STABLE_IDENTITY_CANDIDATE",
+    "fail": "FAIL_PER_CARRIER_GW_LEDGER_CONSTRUCTION"
+  },
+  "required_outputs": [
+    "CR005h_CARRIER_ATTRIBUTION.csv",
+    "CR005h_OCCURRENCE_SHORTLIST.csv",
+    "CR005h_SLOT_CANDIDATES.csv",
+    "CR005h_FEATURE_CANDIDATES.csv",
+    "CR005h_SCENARIO_POWER.csv",
+    "CR005h_CLASS_SUMMARY.csv",
+    "CR005h_CONTROLS.csv",
+    "CR005h_GATES.csv",
+    "CR005h_SOURCE_VALIDATION.csv",
+    "CR005h_SUMMARY.json",
+    "CR005h_RESULT.md",
+    "CR005h_PROVENANCE.json",
+    "EXECUTION_RECEIPT.json",
+    "CR005h_RELEASE_MANIFEST.csv",
+    "CR005h_RELEASE_MANIFEST_SHA256.txt"
+  ]
+}

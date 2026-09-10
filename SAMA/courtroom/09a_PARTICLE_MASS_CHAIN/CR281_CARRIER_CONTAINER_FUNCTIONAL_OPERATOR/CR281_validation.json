@@ -1,0 +1,15 @@
+{
+  "artifact": "CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR",
+  "firewall_fields_false": true,
+  "forbidden_source_paths": [],
+  "forbidden_source_paths_opened": false,
+  "heldout_match_count": 4,
+  "queue_maintenance_performed_by_research_agent": false,
+  "role_mismatches": [],
+  "source_hash_failures": [],
+  "source_hashes_ok": true,
+  "target_roles_all_match": true,
+  "verdict": "PASS",
+  "wrong_controls_broke_count": 6,
+  "wrong_controls_not_broken": []
+}

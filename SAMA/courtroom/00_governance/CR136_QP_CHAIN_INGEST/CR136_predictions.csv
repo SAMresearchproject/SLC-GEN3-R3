@@ -1,0 +1,7 @@
+name,pass,details
+P1_external_root_accessible,True,C:\VS\quantum_phase\artifacts exists = True
+P2_targets_discovered_from_consuming_CRs,True,"discovered 42 unique (folder, summary_file) targets across CR-120, CR-121, CR-122 ledgers"
+P3_all_externals_present,True,present: 42/42
+P4_external_sha_matches_recorded,True,sha-matches-recorded: 42/42
+P5_all_targets_ingested_or_already_ingested,True,in-clean-state: 42/42 (statuses: ALREADY_INGESTED)
+P6_internal_sha_matches_external_sha,True,every ingested artifact's internal copy hashes to the same value as its external source

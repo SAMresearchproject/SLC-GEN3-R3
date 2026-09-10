@@ -1,0 +1,12 @@
+﻿{
+  "test_id": "G380",
+  "test_name": "FIXED_BACKGROUND_CMB_SPECTRUM_SMOKE",
+  "started_utc": "2026-06-01T07:41:22.938157+00:00",
+  "finished_utc": "2026-06-01T07:41:26.187236+00:00",
+  "verdict": "G380_PASS_FIXED_BACKGROUND_CMB_SPECTRUM_SMOKE",
+  "summary_csv": "native_prediction_artifacts\\g380_cmb_spectrum_smoke_summary.csv",
+  "primary_spectrum_csv": "native_prediction_artifacts\\g380_sam_cmb_spectra_primary.csv",
+  "boundary_spectrum_csv": "native_prediction_artifacts\\g380_sam_cmb_spectra_boundary.csv",
+  "wrong_control_spectrum_csv": "native_prediction_artifacts\\g380_sam_cmb_spectra_wrong_control.csv",
+  "next_gate": "G381_PLANCK_LITE_FIXED_SAM_DENSITIES"
+}

@@ -1,0 +1,20 @@
+{
+  "bridge": "RESOLVE",
+  "contact_operator": "B_CONTACT_OPERATOR",
+  "cr120_frontier": {
+    "ADJACENT": "MISSING_PRESERVED",
+    "ADJACENT_LEDGER_STATE": "MISSING_PRESERVED",
+    "LEDGER_SITE": "MISSING_PRESERVED",
+    "PROPAGATE_CLOSURE": "MISSING_PRESERVED"
+  },
+  "emitted_certificate": "W9_CLOSURE_WITNESS",
+  "layer_transition": "Layer1StructuralCapacity -> Layer2Resolution",
+  "next_question": "Does X1 carry independently perturbable information, and what exact certificate content does W9 encode?",
+  "primary_verdict": "PASS_TYPED_UNRESOLVED_TO_RESOLVED_GATE_BRIDGE_BOUNDARY_X1_INFORMATIONAL_INDEPENDENCE_OPEN",
+  "record_id": "CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE",
+  "required_axis_channel": "X1_AXIS_SELF_CHANNEL",
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-13T17:54:26Z",
+  "secondary_boundary": "BOUNDARY_W9_CERTIFICATE_CONTENT_AND_X1_INDEPENDENCE_NOT_ESTABLISHED",
+  "task": "Continue 8 + 1 closure witness bridge research from attached working note"
+}

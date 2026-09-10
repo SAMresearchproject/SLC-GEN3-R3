@@ -1,0 +1,357 @@
+{
+  "boundaries": [
+    "The time coordinate is the dimensionless frozen Starbreaker post-collapse coordinate, not physical seconds.",
+    "All carrier occurrences have unit weight; the origin is an equal-occurrence all-atom centroid, not a physical mass center.",
+    "The ledger is an internal quadrupole-source attribution and does not emit physical strain, luminosity, or detector forecasts.",
+    "No external waveform and no QNM filter participates in the candidate construction.",
+    "Leave-one-out contributions overlap through coherent cross terms and are not additive shares of total power."
+  ],
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "controls": [
+    {
+      "control": "WC01_DIRECT_LEAVE_ONE_OUT_PREFIX",
+      "observation": "samples=16; max_abs_error=1.096085028295946e-14; normalized_error=3.862e-16; max_relative_error=3.603e-12",
+      "passed": true
+    },
+    {
+      "control": "WC02_LINEAR_TENSOR_SUM_RECONSTRUCTION",
+      "observation": "max_relative_error=1.272e-06",
+      "passed": false
+    },
+    {
+      "control": "WC03_GLOBAL_TRANSLATION_INVARIANCE",
+      "observation": "max_centered_position_error=8.882e-16",
+      "passed": true
+    },
+    {
+      "control": "WC04_STATIC_SOURCE_ZERO",
+      "observation": "max_abs_source=3.729e-09",
+      "passed": false
+    },
+    {
+      "control": "WC05_ISOTROPIC_SIX_AXIS_CANCELLATION",
+      "observation": "max_abs_source=1.605e-08",
+      "passed": false
+    },
+    {
+      "control": "WC06_FINE_COARSE_AGGREGATE_POWER",
+      "observation": "median_relative_error=0.019380061644681368",
+      "passed": true
+    },
+    {
+      "control": "WC07_TRACE_FREE_INDIVIDUAL_TENSORS",
+      "observation": "max_relative_trace_error=4.855e-16",
+      "passed": true
+    }
+  ],
+  "gates": [
+    {
+      "gate": "G01_PRECOMMIT_RUNNER_AND_SOURCE_CUSTODY",
+      "passed": true
+    },
+    {
+      "gate": "G02_CONTRACT_SCHEMA_AND_PARENT_AUTHORITY",
+      "passed": false
+    },
+    {
+      "gate": "G03_EXACT_SCENARIO_ATOM_CARRIER_LEDGER_INVENTORY",
+      "passed": true
+    },
+    {
+      "gate": "G04_EXACT_SEALED_BIND_ESCAPE_CLASS_POPULATION",
+      "passed": true
+    },
+    {
+      "gate": "G05_TRACE_FREE_AND_LINEAR_SOURCE_CONSTRUCTION",
+      "passed": false
+    },
+    {
+      "gate": "G06_EXACT_LEAVE_ONE_OUT_ATTRIBUTION",
+      "passed": true
+    },
+    {
+      "gate": "G07_TRANSLATION_INVARIANT_UNIT_CENTROID_FRAME",
+      "passed": true
+    },
+    {
+      "gate": "G08_STATIC_AND_ISOTROPIC_ZERO_CONTROLS",
+      "passed": false
+    },
+    {
+      "gate": "G09_FINE_COARSE_SOURCE_CONVERGENCE",
+      "passed": true
+    },
+    {
+      "gate": "G10_FINITE_NONZERO_AGGREGATE_SOURCE",
+      "passed": true
+    },
+    {
+      "gate": "G11_SLOT_DOOR_GEOMETRY_AGGREGATION",
+      "passed": true
+    },
+    {
+      "gate": "G12_PHYSICAL_CLAIM_FIREWALL",
+      "passed": true
+    },
+    {
+      "gate": "G13_ATOMIC_RELEASE_INVENTORY",
+      "passed": true
+    }
+  ],
+  "interpretation": {
+    "negative_delta": "The carrier occurrence cancels part of the aggregate internal quadrupole-power proxy.",
+    "not_claimed": "The carrier is not thereby identified as material carried by a gravitational wave.",
+    "positive_delta": "The carrier occurrence reinforces the aggregate internal quadrupole-power proxy."
+  },
+  "physical_claim_firewall": {
+    "external_waveform_loaded": false,
+    "fitted_parameter_count": 0,
+    "physical_luminosity_emitted": false,
+    "physical_seconds_emitted": false,
+    "physical_strain_emitted": false,
+    "qnm_filter_applied": false,
+    "sam_registry_mutated": false,
+    "wave_messenger_material_claimed": false
+  },
+  "population": {
+    "atom_count": 482112,
+    "carrier_occurrence_count": 53568,
+    "class_summary": [
+      {
+        "cancellation_fraction": 0.48133944250449107,
+        "canceller_count": 23847,
+        "history_class": "escape_only",
+        "median_delta_power_fraction": 9.214280887210684e-05,
+        "neutral_count": 0,
+        "occurrence_count": 49543,
+        "occurrence_fraction": 0.9248618578255675,
+        "q10_delta_power_fraction": -0.023185427922444737,
+        "q90_delta_power_fraction": 0.02801014053308004,
+        "reinforcement_fraction": 0.518660557495509,
+        "reinforcer_count": 25696,
+        "sum_delta_power": 6696.335273149241,
+        "sum_individual_power": 3708.19409749396
+      },
+      {
+        "cancellation_fraction": 0.4420471650777722,
+        "canceller_count": 881,
+        "history_class": "dual",
+        "median_delta_power_fraction": 0.000845964535943647,
+        "neutral_count": 0,
+        "occurrence_count": 1993,
+        "occurrence_fraction": 0.03720504778972521,
+        "q10_delta_power_fraction": -0.027392099715604697,
+        "q90_delta_power_fraction": 0.052497124838735046,
+        "reinforcement_fraction": 0.5579528349222278,
+        "reinforcer_count": 1112,
+        "sum_delta_power": 1323.1937508977214,
+        "sum_individual_power": 162.23054424655408
+      },
+      {
+        "cancellation_fraction": 0.3333333333333333,
+        "canceller_count": 20,
+        "history_class": "return_only",
+        "median_delta_power_fraction": 0.0034284885475030632,
+        "neutral_count": 0,
+        "occurrence_count": 60,
+        "occurrence_fraction": 0.0011200716845878136,
+        "q10_delta_power_fraction": -0.025123509043052373,
+        "q90_delta_power_fraction": 0.046131428255477315,
+        "reinforcement_fraction": 0.6666666666666666,
+        "reinforcer_count": 40,
+        "sum_delta_power": 9.989673933169998,
+        "sum_individual_power": 1.381338340105525
+      },
+      {
+        "cancellation_fraction": 0.4776876267748479,
+        "canceller_count": 942,
+        "history_class": "neither",
+        "median_delta_power_fraction": 0.0004937875173523573,
+        "neutral_count": 0,
+        "occurrence_count": 1972,
+        "occurrence_fraction": 0.03681302270011948,
+        "q10_delta_power_fraction": -0.06195641497577776,
+        "q90_delta_power_fraction": 0.0661309741897645,
+        "reinforcement_fraction": 0.5223123732251521,
+        "reinforcer_count": 1030,
+        "sum_delta_power": 83.16069363931226,
+        "sum_individual_power": 342.4184088389712
+      }
+    ],
+    "history_class_counts": {
+      "dual": 1993,
+      "escape_only": 49543,
+      "neither": 1972,
+      "return_only": 60
+    },
+    "scenario_count": 96,
+    "timed_carrier_count": 51596
+  },
+  "primary_verdict": "FAIL_PER_CARRIER_GW_LEDGER_CONSTRUCTION",
+  "scientific_result": {
+    "directional_slot_count": 1,
+    "directional_slots": [
+      17
+    ],
+    "occurrence_shortlist_count": 200,
+    "strong_slot_count": 7,
+    "strong_slots": [
+      16,
+      13,
+      14,
+      15,
+      4,
+      2,
+      3
+    ],
+    "supporting_feature_candidate_count": 17,
+    "top_slots": [
+      {
+        "canceller_count": 1293,
+        "candidate_rank": 1,
+        "candidate_status": "strong_candidate",
+        "discovery_median_delta_power_fraction": 0.0009321768932125058,
+        "dispersed_median_delta_power_fraction": 0.0005621447552494917,
+        "door_stable": true,
+        "escape_only_count": 2729,
+        "escape_only_fraction": 0.917002688172043,
+        "feature_type": "ledger_slot",
+        "feature_value": "16",
+        "final_median_delta_power_fraction": 0.0003149332275978353,
+        "geometry_stable": true,
+        "ledger_slot": 16,
+        "localized_median_delta_power_fraction": 0.0008381504283182335,
+        "median_delta_power_fraction": 0.0007172336852010719,
+        "neutral_count": 0,
+        "occurrence_count": 2976,
+        "population_pass": true,
+        "q10_delta_power_fraction": -0.01908337969091685,
+        "q90_delta_power_fraction": 0.030208329940063068,
+        "reinforcement_fraction": 0.5655241935483871,
+        "reinforcer_count": 1683,
+        "validation_median_delta_power_fraction": 0.0007212975156387228,
+        "worst_door_median_delta_power_fraction": 0.0003149332275978353
+      },
+      {
+        "canceller_count": 1362,
+        "candidate_rank": 2,
+        "candidate_status": "strong_candidate",
+        "discovery_median_delta_power_fraction": 0.00023594748777873675,
+        "dispersed_median_delta_power_fraction": 0.00029476229121335,
+        "door_stable": true,
+        "escape_only_count": 2661,
+        "escape_only_fraction": 0.8941532258064516,
+        "feature_type": "ledger_slot",
+        "feature_value": "13",
+        "final_median_delta_power_fraction": 0.0004181109009158382,
+        "geometry_stable": true,
+        "ledger_slot": 13,
+        "localized_median_delta_power_fraction": 0.0004744273886467045,
+        "median_delta_power_fraction": 0.00041596767989380304,
+        "neutral_count": 0,
+        "occurrence_count": 2976,
+        "population_pass": true,
+        "q10_delta_power_fraction": -0.018209566239113444,
+        "q90_delta_power_fraction": 0.035238256569005234,
+        "reinforcement_fraction": 0.5423387096774194,
+        "reinforcer_count": 1614,
+        "validation_median_delta_power_fraction": 0.0008389558392513521,
+        "worst_door_median_delta_power_fraction": 0.00023594748777873675
+      },
+      {
+        "canceller_count": 1424,
+        "candidate_rank": 3,
+        "candidate_status": "directional_candidate",
+        "discovery_median_delta_power_fraction": 0.0002907792764333401,
+        "dispersed_median_delta_power_fraction": -0.0003246680661361806,
+        "door_stable": true,
+        "escape_only_count": 2754,
+        "escape_only_fraction": 0.9254032258064516,
+        "feature_type": "ledger_slot",
+        "feature_value": "17",
+        "final_median_delta_power_fraction": 0.0001218790847829944,
+        "geometry_stable": false,
+        "ledger_slot": 17,
+        "localized_median_delta_power_fraction": 0.0007015825123304472,
+        "median_delta_power_fraction": 0.00032781551273268787,
+        "neutral_count": 0,
+        "occurrence_count": 2976,
+        "population_pass": true,
+        "q10_delta_power_fraction": -0.03583630366194057,
+        "q90_delta_power_fraction": 0.04302620935479805,
+        "reinforcement_fraction": 0.521505376344086,
+        "reinforcer_count": 1552,
+        "validation_median_delta_power_fraction": 0.0007475209187473692,
+        "worst_door_median_delta_power_fraction": 0.0001218790847829944
+      },
+      {
+        "canceller_count": 1375,
+        "candidate_rank": 4,
+        "candidate_status": "strong_candidate",
+        "discovery_median_delta_power_fraction": 0.0004278389310385709,
+        "dispersed_median_delta_power_fraction": 0.0005719191946345773,
+        "door_stable": true,
+        "escape_only_count": 2783,
+        "escape_only_fraction": 0.9351478494623656,
+        "feature_type": "ledger_slot",
+        "feature_value": "14",
+        "final_median_delta_power_fraction": 7.568201341776862e-05,
+        "geometry_stable": true,
+        "ledger_slot": 14,
+        "localized_median_delta_power_fraction": 0.0004101498981040169,
+        "median_delta_power_fraction": 0.00047280777646728153,
+        "neutral_count": 0,
+        "occurrence_count": 2976,
+        "population_pass": true,
+        "q10_delta_power_fraction": -0.028506528126931364,
+        "q90_delta_power_fraction": 0.04737450990953866,
+        "reinforcement_fraction": 0.5379704301075269,
+        "reinforcer_count": 1601,
+        "validation_median_delta_power_fraction": 0.001561447816724249,
+        "worst_door_median_delta_power_fraction": 7.568201341776862e-05
+      },
+      {
+        "canceller_count": 1368,
+        "candidate_rank": 5,
+        "candidate_status": "strong_candidate",
+        "discovery_median_delta_power_fraction": 0.00010778808875081108,
+        "dispersed_median_delta_power_fraction": 1.0913390737423434e-05,
+        "door_stable": true,
+        "escape_only_count": 2760,
+        "escape_only_fraction": 0.9274193548387096,
+        "feature_type": "ledger_slot",
+        "feature_value": "15",
+        "final_median_delta_power_fraction": 5.64222138096502e-05,
+        "geometry_stable": true,
+        "ledger_slot": 15,
+        "localized_median_delta_power_fraction": 0.00017825206538821622,
+        "median_delta_power_fraction": 0.0001105841303374544,
+        "neutral_count": 0,
+        "occurrence_count": 2976,
+        "population_pass": true,
+        "q10_delta_power_fraction": -0.013097586729178691,
+        "q90_delta_power_fraction": 0.020957913532295033,
+        "reinforcement_fraction": 0.5403225806451613,
+        "reinforcer_count": 1608,
+        "validation_median_delta_power_fraction": 0.00023812879976509654,
+        "worst_door_median_delta_power_fraction": 5.64222138096502e-05
+      }
+    ]
+  },
+  "source": {
+    "coarse_intervals": 162,
+    "fine_intervals": 324,
+    "leave_one_out_normalized_error": 3.8619684040579683e-16,
+    "leave_one_out_samples": 16,
+    "max_linear_reconstruction_relative_error": 1.2722933494754688e-06,
+    "max_trace_relative_error": 4.854880568097404e-16,
+    "median_fine_coarse_relative_error": 0.019380061644681368,
+    "origin": "The time-dependent equal-occurrence centroid of all roster atoms in the scenario.",
+    "total_power_median": 28.38151205857181,
+    "total_power_q10": 3.4683201013744904,
+    "total_power_q90": 149.34998002359856
+  },
+  "status": "FAIL",
+  "task": "Build a per-carrier Starbreaker gravitational-wave candidate ledger"
+}

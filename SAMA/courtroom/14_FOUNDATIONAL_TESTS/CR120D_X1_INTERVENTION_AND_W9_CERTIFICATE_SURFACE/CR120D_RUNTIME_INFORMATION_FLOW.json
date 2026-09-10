@@ -1,0 +1,22 @@
+{
+  "capacity_scope": "Installed RESOLVE result selection only; not a bound on a future physical W9 schema.",
+  "implementation_reads_argument_contextual_roles": false,
+  "implementation_reads_argument_metadata": false,
+  "implementation_reads_argument_scalar_values": false,
+  "implementation_selects_fixed_signature_result": true,
+  "implementation_validates_found_types": true,
+  "installed_input_dependent_capacity_bits": 0.0,
+  "installed_output_alphabet": [
+    "W9_CLOSURE_WITNESS"
+  ],
+  "installed_output_alphabet_cardinality": 1,
+  "operator": "RESOLVE",
+  "registered_input_types": [
+    "BinarySurface",
+    "ContactOperator",
+    "AxisChannel"
+  ],
+  "registered_result_entity": "W9_CLOSURE_WITNESS",
+  "registered_result_type": "ClosureWitness",
+  "scalar_nine_is_not_capacity_bits": true
+}

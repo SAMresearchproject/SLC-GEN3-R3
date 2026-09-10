@@ -1,0 +1,11 @@
+{
+  "commit_id": "CR102_GATE_2_ASTROPHYSICAL_PREDICTION_COMMIT",
+  "predictions_file": "CR102_predictions.csv",
+  "prediction_commit_sha256": "ab3503e24de08544f1f1c21b5466b997bba7bf930331f9f1a766a0c242331502",
+  "prediction_commit_utc": "2026-06-13T22:16:17Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "subject_gate": "GATE_2",
+  "sam_committed_candidate": "c_SW = c (identity)",
+  "identical_commitment_as_CR101": true,
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867"
+}

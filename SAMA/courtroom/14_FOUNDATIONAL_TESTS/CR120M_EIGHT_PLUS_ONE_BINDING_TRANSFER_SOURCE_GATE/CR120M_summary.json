@@ -1,0 +1,20 @@
+{
+  "au197_baseline_residual_MeV": "3.718275",
+  "au197_replayed": false,
+  "binding_panel_observed_rows": 118,
+  "binding_panel_rows": 126,
+  "coupling_fit_allowed": false,
+  "disposition": "BOUNDARY_BINDING_PANEL_PRESENT_P189_ISOTOPE_MAPPING_NOT_INSTALLED",
+  "execution_status": "CLEAN",
+  "feature_constructible": false,
+  "heldout_test_allowed": false,
+  "mathematical_verdict": "BOUNDARY",
+  "proposal_validated": false,
+  "qp094a_isotope_rows": 214,
+  "qualifying_p189_mapping_records": 0,
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "result_class": "STRUCTURAL_RESEARCH_BOUNDARY",
+  "run_utc": "2026-07-14T08:47:11.847623Z",
+  "scientific_pass_claimed": false,
+  "sources_immutable": true
+}

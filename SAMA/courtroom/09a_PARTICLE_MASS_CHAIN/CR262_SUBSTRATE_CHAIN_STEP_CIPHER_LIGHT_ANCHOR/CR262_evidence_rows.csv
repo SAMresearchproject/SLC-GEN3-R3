@@ -1,0 +1,20 @@
+item,value,detail
+G1_He-4_source_counts,True,u=6 d=6 3Z=6 atom=m3=h*d (chain k=1)
+G1_Li-6_source_counts,True,u=9 d=9 3Z=9 atom=D2=d^2 (closure witness)
+G1_Be-8_source_counts,True,u=12 d=12 3Z=12 atom=R=h^2*d (radix)
+G1_C-12_source_counts,True,u=18 d=18 3Z=18 atom=Theta=h*d^2 (chain k=2)
+G1_F-18_source_counts,True,u=27 d=27 3Z=27 atom=V=d^d (volume)
+G1_Ar-36_source_counts,True,u=54 d=54 3Z=54 atom=h*V=h*d^3 (chain k=3)
+G1_Co-54_source_counts,True,u=81 d=81 3Z=81 atom=F=d^(d+1) (face)
+G1_Xe-108_source_counts,True,u=162 d=162 3Z=162 atom=L=h*F (closed ledger; chain k=4)
+G2_He-4_stable_carrier,True,NUBASE2020_stable=True; CR248_subset_present=True; atom=m3=h*d (chain k=1)
+G2_Li-6_stable_carrier,True,NUBASE2020_stable=True; CR248_subset_present=True; atom=D2=d^2 (closure witness)
+G2_C-12_stable_carrier,True,NUBASE2020_stable=True; CR248_subset_present=True; atom=Theta=h*d^2 (chain k=2)
+G2_Ar-36_stable_carrier,True,NUBASE2020_stable=True; CR248_subset_present=False; atom=h*V=h*d^3 (chain k=3)
+G3_Be-8_unstable_container,True,t1_2_s=8.19e-17; decay=2 alpha; atom=R=h^2*d (radix)
+G3_F-18_unstable_container,True,t1_2_s=6586.2; decay=beta+ to O-18; atom=V=d^d (volume)
+G3_Co-54_unstable_container,True,t1_2_s=0.19327; decay=beta+ to Fe-54; atom=F=d^(d+1) (face)
+G4_Xe108_not_stable,True,AME2020_present=False
+G5_WC1_chain_at_3_2_falsified,True,"chain_wc=[3, 6, 12, 24, 48]; predicts_Be8_stable=True; reality=unstable"
+G6_WC2_inverted_classification_fails_all,True,fails=7/7
+G7_precommit_and_forbidden_file_guard,True,opened=2; forbidden=0

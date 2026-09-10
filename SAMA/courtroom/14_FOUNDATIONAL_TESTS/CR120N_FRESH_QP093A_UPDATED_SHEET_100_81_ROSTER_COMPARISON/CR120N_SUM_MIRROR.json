@@ -1,0 +1,45 @@
+{
+  "L_mid": {
+    "identity": "100 * 144 = 100 * 8 * Theta",
+    "source": "derived midpoint only",
+    "value": "14400"
+  },
+  "L_minus": {
+    "identity": "100 * 126 = 100 * 7 * Theta",
+    "source": "fresh 81-row workbook sum",
+    "value": "12600"
+  },
+  "L_plus": {
+    "identity": "100 * 162 = 100 * 9 * Theta",
+    "source": "fresh workbook-derived 100-row sum",
+    "value": "16200"
+  },
+  "Theta": "18",
+  "all_passed": true,
+  "checks": {
+    "CR269_M_equals_7Theta": true,
+    "CR269_R2_equals_8Theta": true,
+    "L_mid_equals_100_times_8Theta": true,
+    "L_minus_equals_100_times_7Theta": true,
+    "L_plus_equals_100_times_9Theta": true,
+    "W9_value_equals_9Theta": true,
+    "midpoint_identity": true,
+    "set_transition_identity": true,
+    "sum_gap_identity": true
+  },
+  "packet_multiplicity": {
+    "type": "MirrorBudgetMultiplicity",
+    "value": 100
+  },
+  "record_id": "CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON",
+  "roster81_cardinality": {
+    "not_used_as": "sum normalization or multiplier",
+    "type": "WorkbookRowCount",
+    "value": 81
+  },
+  "signal": "SUMS_NOT_MEANS",
+  "sum_gap": {
+    "identity": "2 * 100 * Theta",
+    "value": "3600"
+  }
+}

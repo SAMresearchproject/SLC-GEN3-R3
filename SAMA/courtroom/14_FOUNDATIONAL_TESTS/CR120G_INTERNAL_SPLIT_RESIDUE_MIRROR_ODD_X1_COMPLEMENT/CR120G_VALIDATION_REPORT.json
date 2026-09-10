@@ -1,0 +1,63 @@
+{
+  "all_precommitted_gates_passed": true,
+  "all_wrong_controls_detected": true,
+  "checks": {
+    "G10_transverse_and_mixed_norm_squared_are_five": true,
+    "G10_trial_null_and_nonnull_classes_match": true,
+    "G11_Q_commutes_with_Pi80": true,
+    "G11_Q_preserves_X1": true,
+    "G11_Q_preserves_norm_and_null_status": true,
+    "G12_Pi_bad_fails_X1_and_alters_signature": true,
+    "G13_candidate_roles_remain_semantically_distinct": true,
+    "G13_same_scalar_entities_remain_distinct": true,
+    "G14_P80_remains_structural_only": true,
+    "G14_no_particle_rows_populated_or_named": true,
+    "G15_CR120_frontier_remains_missing": true,
+    "G16_proposal_remains_unvalidated_not_evidence": true,
+    "G17_no_external_physics_used": true,
+    "G1_all_frozen_source_hashes_match": true,
+    "G2_P80_conditional_edge_remains_structural_only": true,
+    "G2_installed_hierarchy_edges_preserved": true,
+    "G2_registered_entities_match_frozen_prefix": true,
+    "G2_registered_operators_match_frozen_prefix": true,
+    "G3_exact_hierarchy_counts_reproduce": true,
+    "G4_no_candidate_construction_is_installed": true,
+    "G5_omitted_kappa_scalar_residual_is_one": true,
+    "G5_omitted_kappa_wrong_control_is_e2": true,
+    "G5_split_scalar_invariant_closes_with_kappa": true,
+    "G5_split_vector_closes_with_kappa": true,
+    "G6_B0_residue_is_nonzero_e2": true,
+    "G6_B1_real_mutation_changes_residue_to_e1": true,
+    "G6_operator_and_residue_roles_remain_distinct": true,
+    "G7_stateful_H1_readout_is_one": true,
+    "G7_stateful_H2_readout_is_zero": true,
+    "G7_stateful_fixture_retains_history_distinction": true,
+    "G7_static_control_is_history_independent": true,
+    "G8_all_mirror_decomposition_and_reconstruction_identities_hold": true,
+    "G9_Pi80_annihilates_X1": true,
+    "G9_Pi80_has_exact_rank80": true,
+    "G9_Pi80_is_idempotent": true
+  },
+  "record_id": "CR120G_INTERNAL_SPLIT_RESIDUE_MIRROR_ODD_X1_COMPLEMENT",
+  "result_class": "MATHEMATICAL_RESEARCH_BOUNDARY",
+  "scientific_pass_claimed": false,
+  "wrong_controls": {
+    "WC1_omitted_residue_detected_vector": true,
+    "WC2_omitted_residue_detected_scalar": true,
+    "WC3_real_operator_mutation_detected": true,
+    "WC4_static_control_does_not_fake_history": true,
+    "WC5_Pi_bad_fails_X1_annihilation": true,
+    "WC6_Pi_bad_alters_transverse_signature": true,
+    "WC7_arbitrary_coordinate_removal_rejected": true,
+    "observables": {
+      "Pi_bad_X1": {
+        "e0": 1
+      },
+      "Pi_bad_transverse": {
+        "e2": 2
+      },
+      "Pi_bad_transverse_norm_squared": 4,
+      "correct_transverse_norm_squared": 5
+    }
+  }
+}

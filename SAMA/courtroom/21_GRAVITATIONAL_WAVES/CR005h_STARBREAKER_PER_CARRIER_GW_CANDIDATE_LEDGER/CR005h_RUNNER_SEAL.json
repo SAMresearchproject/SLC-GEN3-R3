@@ -1,0 +1,10 @@
+{
+  "campaign_id": "CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER",
+  "sealed_at_utc": "2026-07-21T04:49:17.9756813Z",
+  "runner": "CR005h_runner.py",
+  "runner_bytes": 50430,
+  "runner_sha256": "ccd71d9bfe9c9677d36e35e060cf150cc725814dff3e7b98623fc6bacef52fab",
+  "syntax_check": "PASS",
+  "results_opened_before_runner_seal": false,
+  "same_run_repair_allowed": false
+}

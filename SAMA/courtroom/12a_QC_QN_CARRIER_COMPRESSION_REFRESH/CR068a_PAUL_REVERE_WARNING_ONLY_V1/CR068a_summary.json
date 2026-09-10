@@ -1,0 +1,181 @@
+{
+  "cr_id": "CR068a",
+  "test_class": "PAUL_REVERE_WARNING_ONLY_NV_CENTER_CLASSICAL_SIMULATOR_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR068a_PAUL_REVERE_WARNING_ONLY_V1_SEALED__PREDICTIONS_8_OF_8__WRONG_CONTROLS_6_OF_6",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "epistemic_stance": "EPISTEMIC_STANCE.md",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "A_share": 0.08333333333333333,
+    "A_side": 0.041666666666666664
+  },
+  "alarm_threshold": 0.041666666666666664,
+  "alarm_threshold_symbolic": "A_side = 1/24",
+  "letter_room_temp": {
+    "fired": true,
+    "t_fire_s": 2.914572864321608e-05,
+    "A_leak_at_fire": 0.041919263144548635,
+    "threshold_used": 0.041666666666666664,
+    "purity_at_fire": 0.9580807368554514,
+    "sensor_population_at_fire": 0.22853525726459872,
+    "carrier_population_at_fire": 0.2572604138900544,
+    "envelope_population_at_fire": 0.5142043288453468,
+    "sample_index_at_fire": 58,
+    "reason": "A_leak = 0.041919 reached threshold A_side = 0.041667 at sample 58, t = 29.146 us. Route is in basin-forming regime; recoverable until A_leak reaches A_share = 1/12. Carrier route identity not exposed."
+  },
+  "letter_fast_decoh": {
+    "fired": true,
+    "t_fire_s": 3.015075376884422e-06,
+    "A_leak_at_fire": 0.04329336703769804,
+    "threshold_used": 0.041666666666666664,
+    "purity_at_fire": 0.956706632962302,
+    "sensor_population_at_fire": 0.22830571005666087,
+    "carrier_population_at_fire": 0.25800644231585196,
+    "envelope_population_at_fire": 0.5136878476274871,
+    "sample_index_at_fire": 6,
+    "reason": "A_leak = 0.043293 reached threshold A_side = 0.041667 at sample 6, t = 3.015 us. Route is in basin-forming regime; recoverable until A_leak reaches A_share = 1/12. Carrier route identity not exposed."
+  },
+  "letter_no_decoh": {
+    "fired": false,
+    "t_fire_s": null,
+    "A_leak_at_fire": null,
+    "threshold_used": 0.041666666666666664,
+    "purity_at_fire": null,
+    "sensor_population_at_fire": null,
+    "carrier_population_at_fire": null,
+    "envelope_population_at_fire": null,
+    "sample_index_at_fire": null,
+    "reason": "no alarm fired during window"
+  },
+  "nv_constants_used": {
+    "D_zfs_Hz": 2870000000.0,
+    "T1_room_temp_s": 0.001,
+    "T2_room_temp_s": 0.001,
+    "T2_fast_decoherence_s": 0.0001,
+    "open_window_duration_s": 0.0001,
+    "n_samples_per_window": 200
+  },
+  "predictions": {
+    "P1_alarm_fires_within_window_at_room_temperature": {
+      "pass": true,
+      "details": {
+        "fired": true,
+        "t_fire_s": 2.914572864321608e-05,
+        "window_duration_s": 0.0001,
+        "T1_s": 0.001,
+        "T2_s": 0.001
+      }
+    },
+    "P2_alarm_event_carries_timestamp_and_stress_magnitude": {
+      "pass": true,
+      "details": {
+        "fired": true,
+        "t_fire_s": 2.914572864321608e-05,
+        "A_leak_at_fire": 0.041919263144548635,
+        "threshold_used": 0.041666666666666664,
+        "purity_at_fire": 0.9580807368554514,
+        "sensor_population_at_fire": 0.22853525726459872,
+        "carrier_population_at_fire": 0.2572604138900544,
+        "envelope_population_at_fire": 0.5142043288453468,
+        "sample_index_at_fire": 58,
+        "reason": "A_leak = 0.041919 reached threshold A_side = 0.041667 at sample 58, t = 29.146 us. Route is in basin-forming regime; recoverable until A_leak reaches A_share = 1/12. Carrier route identity not exposed."
+      }
+    },
+    "P3_alarm_time_scales_with_T2_inverse": {
+      "pass": true,
+      "details": {
+        "t_fire_room_temp_s": 2.914572864321608e-05,
+        "t_fire_fast_decoh_s": 3.015075376884422e-06,
+        "ratio_observed": 9.666666666666666,
+        "ratio_expected": 10.0
+      }
+    },
+    "P4_carrier_population_unchanged_by_alarm_emission": {
+      "pass": true,
+      "details": {
+        "carrier_at_fire": 0.2572604138900544,
+        "carrier_prev_sample": 0.2568870842100942,
+        "jump": 0.0003733296799601771,
+        "threshold": 0.01
+      }
+    },
+    "P5_alarm_fires_before_A_share_basin_commit_boundary": {
+      "pass": true,
+      "details": {
+        "A_leak_at_fire": 0.041919263144548635,
+        "A_share_boundary": 0.08333333333333333,
+        "fired_before_basin_commit": true
+      }
+    },
+    "P6_no_alarm_in_no_decoherence_control": {
+      "pass": true,
+      "details": {
+        "no_decoh_alarm_fired": false
+      }
+    },
+    "P7_alarm_is_monotonic_in_A_leak": {
+      "pass": true,
+      "details": {
+        "violations_count": 0,
+        "violations": []
+      }
+    },
+    "P8_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "All stages executed without runtime error"
+    }
+  },
+  "wrong_controls": {
+    "WC1_zero_decoherence_gives_zero_alarms": {
+      "pass": true,
+      "details": {
+        "no_decoh_alarm_fired": false
+      }
+    },
+    "WC2_alarm_fires_after_threshold_cross_not_before": {
+      "pass": true,
+      "details": {
+        "violations_count": 0,
+        "violations": []
+      }
+    },
+    "WC3_alarm_timestamp_matches_independent_purity_measurement": {
+      "pass": true,
+      "details": {
+        "alarm_sample_index": 58,
+        "independent_first_cross_index": 58,
+        "match": true
+      }
+    },
+    "WC4_alarm_magnitude_monotonic_in_actual_decoherence": {
+      "pass": true,
+      "details": {
+        "A_leak_at_fire_room_temp": 0.041919263144548635,
+        "A_leak_at_fire_fast_decoh": 0.04329336703769804,
+        "threshold": 0.041666666666666664,
+        "tolerance": 0.01
+      }
+    },
+    "WC5_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on upstream CR locks (structural invariant)"
+    },
+    "WC6_no_free_parameters_introduced": {
+      "pass": true,
+      "details": "All inputs traced to CR068a_declared_premises.json; no fitted parameters"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 8,
+    "predictions_total": 8,
+    "wrong_controls_passed": 6,
+    "wrong_controls_total": 6
+  }
+}

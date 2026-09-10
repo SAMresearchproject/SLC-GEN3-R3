@@ -1,0 +1,50 @@
+{
+  "artifact": "QP091G_HZZ4L_FULL_CANDIDATE_AMPLITUDE",
+  "generated_at_utc": "2026-06-14T22:41:24.377415+00:00",
+  "result_class": "PASS_QP091G_HZZ4L_CANDIDATE_AMPLITUDE_MAP_EMITTED__BOUNDARY_NUMERIC_NORMALIZATION_WIDTHS_BRANCHING_OPEN",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "test_type": "FORWARD_NATIVE_HZZ4L_CANDIDATE_AMPLITUDE_ASSEMBLY",
+  "campaign": "closure_campaign08",
+  "candidate_rows": 3,
+  "zstar_window_trace_rows": 3,
+  "terminal_channel_weight_rows": 3,
+  "factorization_rows": 6,
+  "missing_normalization_rows": 7,
+  "terminal_channel_accessibility_order": [
+    "4e",
+    "2e2mu",
+    "4mu"
+  ],
+  "terminal_channel_accessibility": {
+    "4e": {
+      "window_measure_MeV": "34055.456208",
+      "relative_phase_space_access_index": "1.000000",
+      "rank": 1
+    },
+    "2e2mu": {
+      "window_measure_MeV": "33845.106104",
+      "relative_phase_space_access_index": "0.993823",
+      "rank": 2
+    },
+    "4mu": {
+      "window_measure_MeV": "33634.756000",
+      "relative_phase_space_access_index": "0.987647",
+      "rank": 3
+    }
+  },
+  "numeric_amplitudes_derived": false,
+  "amplitude_squared_derived": false,
+  "partial_widths_derived": false,
+  "branching_ratios_derived": false,
+  "observed_hzz4l_data_used": false,
+  "forbidden_external_inputs_used": false,
+  "free_parameters_introduced": 0,
+  "full_electroweak_theorem_claimed": false,
+  "checks_passed": 15,
+  "checks_total": 15,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091G assembles the strongest native lane into a full symbolic candidate-amplitude map: H -> Z_on_shell + Zstar_off_shell -> 4l. The terminal ordering 4e > 2e2mu > 4mu survives as relative phase-space accessibility, but it is explicitly not a branching ratio because amplitude squared, width normalization, and total width remain unopened.",
+  "next_frontier": "QP091H_PARTIAL_WIDTH_AND_BRANCHING_RATIO_LEDGER"
+}

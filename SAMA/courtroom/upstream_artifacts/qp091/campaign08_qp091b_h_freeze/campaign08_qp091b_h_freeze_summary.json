@@ -1,0 +1,47 @@
+{
+  "artifact": "CAMPAIGN08_QP091B_H_NATIVE_ELECTROWEAK_CHAIN_FREEZE",
+  "freeze_id": "CAMPAIGN08_QP091B_H_NATIVE_ELECTROWEAK_CHAIN_FREEZE",
+  "generated_at_utc": "2026-06-14T22:52:50.899181+00:00",
+  "result_class": "FROZEN_CAMPAIGN08_QP091B_H_NATIVE_ELECTROWEAK_CHAIN_PRE_REVEAL",
+  "freeze_status": "FROZEN_PRE_REVEAL",
+  "chain_start": "QP091B_ELECTROWEAK_COUPLING_NORMALIZATION_SEARCH",
+  "chain_end": "QP091H_PARTIAL_WIDTH_BRANCHING_LEDGER",
+  "upstream_anchors": [
+    "QP091",
+    "QP091A",
+    "CR209"
+  ],
+  "source_manifest_rows": 128,
+  "ledger_rows": 9,
+  "terminal_channel_relative_ledger": {
+    "4e": {
+      "relative_width_rank_index": "1.000000",
+      "declared_set_internal_share": "0.335405",
+      "rank": "1"
+    },
+    "2e2mu": {
+      "relative_width_rank_index": "0.993823",
+      "declared_set_internal_share": "0.333333",
+      "rank": "2"
+    },
+    "4mu": {
+      "relative_width_rank_index": "0.987647",
+      "declared_set_internal_share": "0.331262",
+      "rank": "3"
+    }
+  },
+  "declared_set_internal_share_sum": "1.000000",
+  "relative_branching_rank_closed": true,
+  "absolute_width_open": true,
+  "physical_branching_ratios_derived": false,
+  "observed_external_reveal_opened": false,
+  "forbidden_external_inputs_used": false,
+  "free_parameters_introduced": 0,
+  "full_electroweak_theorem_claimed": false,
+  "cr209_boundary": "Full electroweak theorem, couplings, amplitudes, and branching ratios remain open.",
+  "next_frontier": "QP091I_EXTERNAL_REVEAL_MAP_AFTER_QP091B_H_FREEZE",
+  "sidecar_count": 8,
+  "verification_checks_passed": 6,
+  "verification_checks_total": 6,
+  "hash_manifest_rows": 16
+}

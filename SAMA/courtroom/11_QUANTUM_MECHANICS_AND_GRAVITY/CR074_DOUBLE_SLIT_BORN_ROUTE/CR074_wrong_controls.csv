@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,Fit loop on observed probability,FAIL,True,True,fit-scan wired
+WC2,qp014 free_params=1,FAIL,True,True,free-params detection wired
+WC3,Absent Born identity pattern,DIAGNOSTIC,True,True,absence detection wired
+WC4,Absent route-weight pattern,BOUNDARY,True,True,absence detection wired
+WC5,Manifest seal corruption,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,Born pattern in do-not-use comment,PRESENCE_RECORDED_FIT_SCAN_SEPARATE,True,True,phase 2 identity is presence-only; fit-scan is phase 5

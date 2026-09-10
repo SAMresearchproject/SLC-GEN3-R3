@@ -1,0 +1,21 @@
+{
+  "hits": 4,
+  "sample": [
+    {
+      "file": "src/qp001_private_phase_functional_bridge.py",
+      "match": "phase_functional"
+    },
+    {
+      "file": "artifacts/qp001/qp001_phase_functional_summary.json",
+      "match": "PHASE_FUNCTIONAL"
+    },
+    {
+      "file": "docs/reports/QP001_PRIVATE_PHASE_FUNCTIONAL_BRIDGE.md",
+      "match": "Phase Functional"
+    },
+    {
+      "file": "05_quantum_phase/README.md",
+      "match": "PHASE_FUNCTIONAL"
+    }
+  ]
+}

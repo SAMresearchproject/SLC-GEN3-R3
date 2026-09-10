@@ -1,0 +1,518 @@
+{
+  "cr_id": "CR129",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class == 'OCTET_COMPOSITE' and a 3-element partition (a, b, c) drawn from the algebra, M_native = R*D*(a^2+b^2+c^2) = 36*(a^2+b^2+c^2) exactly.",
+    "falsifier": "ONE single future 3-body OCTET_COMPOSITE row whose M_native deviates from the formula by any non-zero integer.  ONE violation falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR129_PRED_1",
+    "non_falsifying": "Rows of other operator_class.  2-element OCTET rows (covered by CR128 BCP formula).  Rows whose partition contains an element outside the algebra (algebra extension warrants an appeal CR, not a violation)."
+  },
+  "in_sample_verification": {
+    "2_body_BCP_formula_matches": 28,
+    "2_body_BCP_violations": 0,
+    "2_body_rows_tested": 28,
+    "3_body_formula_matches": 76,
+    "3_body_rows_tested": 76,
+    "3_body_violations": 0,
+    "algebra_violations": 0,
+    "partition_parse_failures": 0,
+    "total_OCTET_rows": 104
+  },
+  "law_committed_utc": "2026-06-15T22:50:14Z",
+  "law_definition": {
+    "applies_to": "operator_class == 'OCTET_COMPOSITE' with 3-element partition (a, b, c)",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "R_times_D": 36,
+      "alpha_H": 2
+    },
+    "constraints": [
+      "partition_signature has exactly 3 elements (a, b, c)",
+      "a, b, c in partition_algebra (multiplicity allowed)",
+      "no ordering constraint -- multiset {a, b, c}"
+    ],
+    "covers_2_element_OCTET_rows_via_CR128_BCP_formula": "2-element partition signatures appearing in OCTET_COMPOSITE classification (e.g. (1,9), (1,12), (2,9), (8,12), (12,12)) are 2-body states bucketed in OCTET for structural reasons (typically max(a,b) >= 9); their M_native follows the CR128 BCP formula M = R*a*b + D*|a-b|.",
+    "expanded_form": "M_native = 36 * (a^2 + b^2 + c^2)",
+    "formula": "M_native(a, b, c) = R * D * (a^2 + b^2 + c^2)",
+    "name": "OCTET_COMPOSITE_3BODY_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "S_debit formula for 3-body rows (CR129b)",
+      "GROUND_BARYON_3BODY 3-body M_native generator (CR129c)",
+      "Recursive extension to higher-body partitions (separate CR)"
+    ],
+    "partition_algebra": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "symmetry": "fully symmetric in (a, b, c) -- no antisymmetric term, unlike 2-body case"
+  },
+  "law_immutability": "Law v1.0 formula, partition algebra, and constants are frozen at CR129 seal time.  Future falsification or revision must be in an appeal CR.",
+  "law_version": "v1.0",
+  "pair_coverage": {
+    "distinct_2_body_pairs_observed": 15,
+    "observed_pairs_list": [
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        12,
+        12
+      ]
+    ]
+  },
+  "structural_progression": {
+    "2_body_BCP": "M = R*a*b + D*|a-b|  (symmetric product + antisymmetric correction)",
+    "3_body_OCTET": "M = R*D*(a^2+b^2+c^2)  (purely symmetric sum of squares)",
+    "note": "The 2-body formula needs an antisymmetric |a-b| term; the 3-body formula does not.  Whether 4-body would have an antisymmetric piece is open."
+  },
+  "triple_coverage": {
+    "distinct_3_body_triples_observed": 76,
+    "observed_triples_list": [
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        1,
+        6
+      ],
+      [
+        1,
+        1,
+        8
+      ],
+      [
+        1,
+        1,
+        9
+      ],
+      [
+        1,
+        1,
+        12
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        8
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        9
+      ],
+      [
+        1,
+        3,
+        12
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        8
+      ],
+      [
+        1,
+        4,
+        9
+      ],
+      [
+        1,
+        4,
+        12
+      ],
+      [
+        1,
+        6,
+        6
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        1,
+        6,
+        12
+      ],
+      [
+        1,
+        8,
+        8
+      ],
+      [
+        1,
+        9,
+        9
+      ],
+      [
+        1,
+        9,
+        12
+      ],
+      [
+        1,
+        12,
+        12
+      ],
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        2,
+        2,
+        4
+      ],
+      [
+        2,
+        2,
+        6
+      ],
+      [
+        2,
+        2,
+        9
+      ],
+      [
+        2,
+        2,
+        12
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        8
+      ],
+      [
+        2,
+        3,
+        9
+      ],
+      [
+        2,
+        3,
+        12
+      ],
+      [
+        2,
+        4,
+        4
+      ],
+      [
+        2,
+        4,
+        8
+      ],
+      [
+        2,
+        6,
+        6
+      ],
+      [
+        2,
+        6,
+        8
+      ],
+      [
+        2,
+        6,
+        9
+      ],
+      [
+        2,
+        6,
+        12
+      ],
+      [
+        2,
+        8,
+        9
+      ],
+      [
+        2,
+        8,
+        12
+      ],
+      [
+        2,
+        9,
+        9
+      ],
+      [
+        2,
+        9,
+        12
+      ],
+      [
+        2,
+        12,
+        12
+      ],
+      [
+        3,
+        3,
+        4
+      ],
+      [
+        3,
+        3,
+        8
+      ],
+      [
+        3,
+        4,
+        4
+      ],
+      [
+        3,
+        4,
+        6
+      ],
+      [
+        3,
+        4,
+        9
+      ],
+      [
+        3,
+        4,
+        12
+      ],
+      [
+        3,
+        6,
+        8
+      ],
+      [
+        3,
+        8,
+        8
+      ],
+      [
+        3,
+        8,
+        9
+      ],
+      [
+        3,
+        8,
+        12
+      ],
+      [
+        4,
+        4,
+        6
+      ],
+      [
+        4,
+        4,
+        8
+      ],
+      [
+        4,
+        4,
+        9
+      ],
+      [
+        4,
+        4,
+        12
+      ],
+      [
+        4,
+        6,
+        6
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        8,
+        8
+      ],
+      [
+        4,
+        9,
+        9
+      ],
+      [
+        4,
+        9,
+        12
+      ],
+      [
+        4,
+        12,
+        12
+      ],
+      [
+        6,
+        6,
+        8
+      ],
+      [
+        6,
+        8,
+        8
+      ],
+      [
+        6,
+        8,
+        9
+      ],
+      [
+        6,
+        8,
+        12
+      ],
+      [
+        8,
+        8,
+        9
+      ],
+      [
+        8,
+        8,
+        12
+      ],
+      [
+        8,
+        9,
+        9
+      ],
+      [
+        8,
+        9,
+        12
+      ],
+      [
+        8,
+        12,
+        12
+      ]
+    ]
+  },
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128b_law_lock_json": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467"
+  }
+}

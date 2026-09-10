@@ -1,0 +1,107 @@
+{
+  "candidate_ready": true,
+  "checks": {
+    "canonical_overlay_boundary_preserved": true,
+    "direct_set_reconciliation_reproduced": true,
+    "fresh_100_roster_reproduced": true,
+    "fresh_81_roster_reproduced": true,
+    "payload_outputs_present": true,
+    "precommit_and_source_manifest_sealed": true,
+    "same_id_values_exact": true,
+    "source_hashes_and_sizes_match": true,
+    "sources_immutable": true,
+    "sum_mirror_passed": true,
+    "sum_signal_preserved": true,
+    "workbooks_read_by_zip_xml_only": true,
+    "wrong_controls_rejected": true
+  },
+  "checks_passed": 13,
+  "checks_total": 13,
+  "disposition": "PASS_STRUCTURAL_FRESH_QP093A_UPDATED_SHEET_SUMS_12600_14400_16200_EXACT_7_8_9_THETA_MIRROR_SELECTION_AUTHORITY_OPEN",
+  "payload_presence": {
+    "CR120N_ROSTER100_RAW.csv": true,
+    "CR120N_ROSTER81_RAW.csv": true,
+    "CR120N_ROSTER_COMPARISON.csv": true,
+    "CR120N_SELECTION_AUTHORITY.json": true,
+    "CR120N_SET_RECONCILIATION.json": true,
+    "CR120N_SUM_MIRROR.json": true,
+    "CR120N_WORKBOOK_EXTRACTION.json": true,
+    "CR120N_WRONG_CONTROLS.json": true
+  },
+  "record_id": "CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON",
+  "run_utc": "2026-07-14T09:01:56.845215Z",
+  "source_snapshot_after": {
+    "cr269_result": {
+      "bytes": 6065,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md",
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea"
+    },
+    "cr269_summary": {
+      "bytes": 2993,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json",
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88"
+    },
+    "qp093a_catalog": {
+      "bytes": 213474,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    "qp093a_generator": {
+      "bytes": 43208,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    "task_preflight": {
+      "bytes": 17440,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_035245_no_script.md",
+      "sha256": "6221693f43998718d6ba0553da06c9d9348af6f58515d0058b9050be820bad07"
+    },
+    "updated_particle_rows2_workbook": {
+      "bytes": 93700,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    "updated_particle_rows_workbook": {
+      "bytes": 77128,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    }
+  },
+  "source_snapshot_before": {
+    "cr269_result": {
+      "bytes": 6065,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md",
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea"
+    },
+    "cr269_summary": {
+      "bytes": 2993,
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json",
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88"
+    },
+    "qp093a_catalog": {
+      "bytes": 213474,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    "qp093a_generator": {
+      "bytes": 43208,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    "task_preflight": {
+      "bytes": 17440,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_035245_no_script.md",
+      "sha256": "6221693f43998718d6ba0553da06c9d9348af6f58515d0058b9050be820bad07"
+    },
+    "updated_particle_rows2_workbook": {
+      "bytes": 93700,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    "updated_particle_rows_workbook": {
+      "bytes": 77128,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    }
+  }
+}

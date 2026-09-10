@@ -1,0 +1,70 @@
+{
+  "record_id": "CR120V_B_X1_TYPED_HALF_RELAY_ARCHIVAL_DISCRIMINATION",
+  "sources": [
+    {
+      "path": "C:/Users/drwho/.codex/attachments/609a9dd1-16ca-4792-b992-7c960b64b94c/pasted-text.txt",
+      "sha256": "b2390ca34afd7e127abe8217a791ceda1b5d9b4e2f2c336f7131b73f0382b631",
+      "role": "proposal_only"
+    },
+    {
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4",
+      "role": "active_master_formula"
+    },
+    {
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd",
+      "role": "active_action_engine"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "role": "typed_hierarchy"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+      "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+      "role": "typed_handoff"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE/CR120D_result.md",
+      "sha256": "f7924768fd3f210d0e23be8443d816eb8d02a1759d335960c524a61f2be3d441",
+      "role": "runtime_boundary"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE/CR120D_RUNTIME_INFORMATION_FLOW.json",
+      "sha256": "2bc2334b6a25c9cabe41f1916512af131049a038ec4385453322aeaf7ae7ec4e",
+      "role": "runtime_information_flow"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120D_X1_INTERVENTION_AND_W9_CERTIFICATE_SURFACE/CR120D_X1_CONTENT_REPORT.json",
+      "sha256": "77470be1ce6b5bacf1b800443c344da068fd1cd97a83fde909202e1dff0106f3",
+      "role": "x1_content"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts/reports/QP035_PRIVATE_HALF_WRITE_INFORMATION_FIXED_POINT_SELECTOR.md",
+      "sha256": "c18275fb51f4535705a3cb4688391dd62b9792e9b70493d26289674008c75cb0",
+      "role": "half_write_boundary"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts/reports/QP036_PRIVATE_LOCAL_INFORMATION_RETURN_CORRECTION_SELECTOR.md",
+      "sha256": "79db3a00661727ff9b0ca1c45f6b820c4bee9946e1271046a3926d9d2c7f5a26",
+      "role": "local_return_selection"
+    },
+    {
+      "path": "12_QUANTUM_COMPUTING_AND_NETWORKING/_source_artifacts/reports/QP037_PRIVATE_PARTICLE_IDENTITY_CLOSURE_FREEZE.md",
+      "sha256": "c181313de6d138c22f745f7b7ef64b20f71cb0f2fa6611786431473542ff383a",
+      "role": "post_return_identity_freeze"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL/CR103a_result.md",
+      "sha256": "fa1367a0005a9aeb3a12059404095e64b80a1698713d803b6058e8390f2d11ac",
+      "role": "half_write_structural_record"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR104c_NINE_SIXTEENTHS_AND_NINE_EIGHTHS_UNIFICATION_APPEAL/CR104c_result.md",
+      "sha256": "5a8f31233f9b9e72151d5552d3d8b991f64ae26091622587dbb8f7fc01fa0e60",
+      "role": "half_write_geometry_closure"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+candidate_id,selector_source,core_denominator,median_seed_first_rms_kms,fraction_of_baryon_to_g394_rms_gap_closed,role_in_LC08,promoted_to_primitive
+base12_outer_radius_over_12,native base-12 core fraction: r_core = R_outer / 12,12.0,10.382222996690356,0.8191375474184742,NATIVE_R12_CANDIDATE,False
+eightfold_compact_outer_radius_over_8,compact seed-first comparison: r_core = R_outer / 8,8.0,9.131744618217146,0.8524966342094977,COMPARISON_NOT_PRIMITIVE_LAW,False
+half_string_outer_radius_over_6,half-string/base-12 comparison: r_core = R_outer / 6,6.0,8.75365780845026,0.8625828787369356,COMPARISON_NOT_PRIMITIVE_LAW,False
+Dplus1_outer_radius_over_4,D+1 comparison: r_core = R_outer / 4,4.0,9.596529536226969,0.8400975390424312,COMPARISON_NOT_PRIMITIVE_LAW,False
+D_outer_radius_over_3,D comparison: r_core = R_outer / 3,3.0,10.557587140685053,0.8144593476188942,COMPARISON_NOT_PRIMITIVE_LAW,False
+loose_outer_radius_over_2,loose core wrong-control-adjacent comparison,2.0,13.29930167010107,0.7413184644836978,COMPARISON_NOT_PRIMITIVE_LAW,False

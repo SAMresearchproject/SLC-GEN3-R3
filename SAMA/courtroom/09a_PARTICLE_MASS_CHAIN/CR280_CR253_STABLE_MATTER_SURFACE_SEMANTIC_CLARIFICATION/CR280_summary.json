@@ -1,0 +1,123 @@
+{
+  "cr_id": "CR280",
+  "record": "CR253_STABLE_MATTER_SURFACE_SEMANTIC_CLARIFICATION",
+  "generated_utc": "2026-07-11T08:24:16+00:00",
+  "execution_status": "CLEAN",
+  "primary_verdict": "PASS_CR253_SEMANTIC_CLARIFICATION",
+  "source_hashes_pass": true,
+  "precommit_sha256": "5dac524da10f8117b0fe0b9b89cd139bfa80a9811d820933c8f489d70f6991df",
+  "semantic_surface_type": "TensorCompatibleStableMatterSurface",
+  "row_subtype": "StructurallyStableMatterRow",
+  "forbidden_unqualified_type": "StablePhysicalParticle",
+  "structural_row_not_experimentally_identified_particle": true,
+  "cr253_original_verdict_preserved": "BOUNDARY",
+  "n_promoted": 80,
+  "n_matter": 48,
+  "n_antimatter": 32,
+  "n_conjugate_partners_source": 32,
+  "conjugate_partner_links_in_csv": 64,
+  "conventional_name_count": 1,
+  "placeholder_count": 80,
+  "placeholder_unique": 80,
+  "row_laws": {
+    "matter_charged": "CR254 32/32 PASS",
+    "matter_neutral": "CR255 16/16 PASS",
+    "anti_charged": "CR256 32/32 PASS"
+  },
+  "census_checks": [
+    {
+      "name": "csv_total_promoted_rows_80",
+      "pass": true,
+      "value": 80
+    },
+    {
+      "name": "csv_matter_rows_48",
+      "pass": true,
+      "value": 48
+    },
+    {
+      "name": "csv_antimatter_rows_32",
+      "pass": true,
+      "value": 32
+    },
+    {
+      "name": "summary_n_promoted_80",
+      "pass": true,
+      "value": 80
+    },
+    {
+      "name": "summary_n_matter_48",
+      "pass": true,
+      "value": 48
+    },
+    {
+      "name": "summary_n_anti_32",
+      "pass": true,
+      "value": 32
+    },
+    {
+      "name": "source_conjugate_parity_32",
+      "pass": true,
+      "value": 32
+    },
+    {
+      "name": "cr253_boundary_preserved",
+      "pass": true
+    },
+    {
+      "name": "cr254_charged_law_32_32",
+      "pass": true
+    },
+    {
+      "name": "cr255_neutral_law_16_16",
+      "pass": true
+    },
+    {
+      "name": "cr256_anti_law_32_32",
+      "pass": true
+    },
+    {
+      "name": "placeholder_count_80",
+      "pass": true
+    },
+    {
+      "name": "placeholder_unique_80",
+      "pass": true
+    },
+    {
+      "name": "conventional_names_controlled",
+      "pass": true
+    }
+  ],
+  "guards": [
+    {
+      "name": "reject_name_every_row_as_known_particle",
+      "pass": true
+    },
+    {
+      "name": "reject_tensor_compatibility_as_experimental_existence",
+      "pass": true
+    },
+    {
+      "name": "reject_placeholder_as_pdg_identity",
+      "pass": true
+    },
+    {
+      "name": "reject_pdg_membership_as_promotion_selector",
+      "pass": true
+    },
+    {
+      "name": "reject_census_change",
+      "pass": true
+    },
+    {
+      "name": "reject_be8_nuclear_cipher_as_cr253_selector",
+      "pass": true
+    }
+  ],
+  "remaining_named_opens": [
+    "independent existence of non-exact-contact rows",
+    "unsupported PDG flavor/name assignment for sector hints",
+    "CR253 BOUNDARY grade from W3/W4 control subsumption remains unchanged"
+  ]
+}

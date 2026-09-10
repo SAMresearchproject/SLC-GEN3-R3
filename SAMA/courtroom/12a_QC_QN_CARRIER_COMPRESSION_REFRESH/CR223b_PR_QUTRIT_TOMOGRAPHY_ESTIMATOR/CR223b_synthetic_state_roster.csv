@@ -1,0 +1,8 @@
+state_id,label,construction,populations_p0_pplus_pminus,A_true,true_class_above_A_side
+S1,loaded_coherent_4_9_4_pure,"rho = |psi><psi|, |psi> = (2|0> + 3|+1> + 2|-1>)/sqrt(17)","0.235294,0.529412,0.235294",0.0000000000,False
+S2,diagonal_same_populations_4_9_4,"rho = diag(4/17, 9/17, 4/17)","0.235294,0.529412,0.235294",0.6089965398,True
+S3,depolarized_just_below_A_side_A_eq_0.031667,"(1-lam)|psi><psi| + lam diag(p), lam = 0.026346","0.235294,0.529412,0.235294",0.0316666667,False
+S4,depolarized_exactly_A_side_A_eq_1_over_24,"(1-lam)|psi><psi| + lam diag(p), lam = 0.034815","0.235294,0.529412,0.235294",0.0416666667,True
+S5,depolarized_just_above_A_side_A_eq_0.051667,"(1-lam)|psi><psi| + lam diag(p), lam = 0.043360","0.235294,0.529412,0.235294",0.0516666667,True
+S6,maximally_mixed_uniform_qutrit,rho = I/3,"0.333333,0.333333,0.333333",0.6666666667,True
+S7,rank_deficient_boundary_state_m0,rho = |0><0|,"1.000000,0.000000,0.000000",0.0000000000,False

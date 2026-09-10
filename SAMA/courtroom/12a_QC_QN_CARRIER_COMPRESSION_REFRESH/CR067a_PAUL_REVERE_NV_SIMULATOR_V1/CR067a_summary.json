@@ -1,0 +1,168 @@
+{
+  "cr_id": "CR067a",
+  "test_class": "PAUL_REVERE_PROTOCOL_NV_CENTER_CLASSICAL_SIMULATOR_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR067a_PAUL_REVERE_NV_SIMULATOR_V1_SEALED__PREDICTIONS_9_OF_10__WRONG_CONTROLS_7_OF_7",
+  "copyright": "Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.",
+  "license": "PRIVATE_RESEARCH_RECORD_NO_LICENSE_GRANTED",
+  "stewardship_intent": "STEWARDSHIP.md",
+  "foundation_primitives": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "A_0": 0.026525823848649224,
+    "A_share": 0.08333333333333333,
+    "A_side": 0.041666666666666664
+  },
+  "loaded_probabilities": {
+    "carrier_ms0": 0.23529411764705882,
+    "envelope_msplus1": 0.5294117647058824,
+    "sensor_msminus1": 0.23529411764705882,
+    "sum": 1.0,
+    "structural_decomposition": "17/16 = 1 + 1/16 = 1 + 1/alpha_H^4"
+  },
+  "nv_constants_used": {
+    "D_zfs_Hz": 2870000000.0,
+    "T1_room_temp_s": 0.001,
+    "T2_room_temp_s": 0.001,
+    "omega_drive_test_rad_per_s": 18032741831.60541
+  },
+  "T2_grav_prediction_v1_1_seconds": 3.4000409920065587e-06,
+  "predictions": {
+    "P1_loaded_state_amplitudes_correct": {
+      "pass": true,
+      "details": {
+        "loaded_carrier_ms0": 0.23529411764705882,
+        "loaded_envelope_msplus1": 0.5294117647058824,
+        "loaded_sensor_msminus1": 0.23529411764705882,
+        "target_carrier": 0.23529411764705882,
+        "target_envelope": 0.5294117647058824,
+        "target_sensor": 0.23529411764705882,
+        "abs_tol": 1e-06
+      }
+    },
+    "P2_carrier_population_preserved_through_correction": {
+      "pass": true,
+      "details": {
+        "carrier_loaded": 0.23529411764705882,
+        "carrier_post_correction": 0.30806543813780585,
+        "ratio": 1.309278112085675,
+        "threshold": 0.95
+      }
+    },
+    "P3_sensor_population_preserved_through_correction": {
+      "pass": false,
+      "details": {
+        "sensor_loaded": 0.23529411764705882,
+        "sensor_post_correction": 0.2129029421114444,
+        "ratio": 0.9048375039736387,
+        "threshold": 0.95
+      }
+    },
+    "P4_envelope_drift_correction_reduces_drift_by_at_least_50_percent": {
+      "pass": true,
+      "details": {
+        "drift_pre_correction": 0.10902196861852453,
+        "drift_post_correction": 0.0503801449551326,
+        "reduction_fraction": 0.537889972144823,
+        "threshold": 0.5
+      }
+    },
+    "P5_no_clone_attempt_returns_invalid_state": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "purity_after_clone_attempt": 0.3697032696557742,
+        "reason": "No-cloning theorem enforced: a single-shot copy attempt collapses to a diagonal mixture, reducing purity below 1. Cannot produce a second identical copy of the carrier superposition."
+      }
+    },
+    "P6_premature_commit_returns_refused_flag": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "reason": "RefusedCommit: read attempted before selected-write hash boundary. Protocol returns no logical route identity. Carrier remains unresolved until commit fires."
+      }
+    },
+    "P7_T2_grav_floor_consistency": {
+      "pass": true,
+      "details": {
+        "T2_grav_v1_1_at_omega_test_s": 3.4000409920065587e-06,
+        "omega_drive_test_rad_per_s": 18032741831.60541,
+        "formula": "T2_grav = 16 * pi * R^4 / (17 * omega_drive)",
+        "note": "Structural consistency only; empirical contact requires Stage 2"
+      }
+    },
+    "P8_3_level_qutrit_dynamics_unitary_in_no_decoherence_limit": {
+      "pass": true,
+      "details": "verified by WC3 (no-decoherence run); inherited here"
+    },
+    "P9_decoherence_recovered_when_T1_T2_finite": {
+      "pass": true,
+      "details": {
+        "purity_at_load": 0.9999999999999999,
+        "purity_at_window_end": 0.8718438622506655,
+        "purity_decreased": true
+      }
+    },
+    "P10_protocol_completes_end_to_end": {
+      "pass": true,
+      "details": "All protocol stages executed without runtime error"
+    }
+  },
+  "wrong_controls": {
+    "WC1_wrong_loaded_state_amplitudes_produce_different_populations": {
+      "pass": true,
+      "details": {
+        "wrong_uniform_P_carrier": 0.3333333333333334,
+        "sam_native_P_carrier": 0.23529411764705882,
+        "delta": 0.0980392156862746
+      }
+    },
+    "WC2_swapped_slot_assignment_violates_protocol_structure": {
+      "pass": true,
+      "details": {
+        "carrier_ms0_population": 0.23529411764705882,
+        "envelope_msplus1_population": 0.5294117647058824,
+        "structural_constraint": "carrier (4/17) < envelope (9/17)"
+      }
+    },
+    "WC3_zero_decoherence_gives_perfect_coherence": {
+      "pass": true,
+      "details": {
+        "purity_no_decoherence": 0.9999999999999999,
+        "expected": 1.0,
+        "tolerance": 1e-10
+      }
+    },
+    "WC4_clone_attempt_reduces_purity": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "purity_after": 0.3697032696557742,
+        "reason": "No-cloning theorem enforced: a single-shot copy attempt collapses to a diagonal mixture, reducing purity below 1. Cannot produce a second identical copy of the carrier superposition."
+      }
+    },
+    "WC5_premature_read_before_selected_write_returns_no_logical_outcome": {
+      "pass": true,
+      "details": {
+        "refused": true,
+        "reason": "RefusedCommit: read attempted before selected-write hash boundary. Protocol returns no logical route identity. Carrier remains unresolved until commit fires."
+      }
+    },
+    "WC6_runner_does_not_modify_upstream_locks": {
+      "pass": true,
+      "details": "Runner is read-only on upstream CR locks (structural invariant)"
+    },
+    "WC7_no_free_parameters_introduced": {
+      "pass": true,
+      "details": "All inputs traced to CR067a_declared_premises.json; no fitted parameters"
+    }
+  },
+  "free_parameters": 0,
+  "summary_counts": {
+    "predictions_passed": 9,
+    "predictions_total": 10,
+    "wrong_controls_passed": 7,
+    "wrong_controls_total": 7
+  }
+}

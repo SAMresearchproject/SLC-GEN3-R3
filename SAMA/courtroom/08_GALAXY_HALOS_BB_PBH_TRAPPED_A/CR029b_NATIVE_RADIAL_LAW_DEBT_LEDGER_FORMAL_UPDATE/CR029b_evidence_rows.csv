@@ -1,0 +1,7 @@
+item,value,detail
+G1_radial_organization_law_closed,True,CR031b PASS; P4 p=0.000999; P5 p=0.000999; canonical Upsilon=0.5
+G2_mass_function_placement_closed_at_median,True,CR032 PASS; median linear ratio = 0.998311; X_inf = 3.18; n_in_median = 173
+G3_X_inf_substrate_identity_closed_retrospectively,True,CR033 PASS; abs_med_log10 = 3.112754e-04; empirical_X_inf_input = False; forbidden_files = False
+G4_open_items_itemized_in_result_md,True,O1 per-galaxy scatter; O2 CR034 prospective; O3 concentration-selector; O4 cross-catalog universality
+G5_precommit_hash_verified,True,04fd7e43cfade5d257af35f04ff8211c050ef72f15987b300619ee7a05986b44
+G6_forbidden_file_guard_not_tripped,True,opened=3; forbidden=0

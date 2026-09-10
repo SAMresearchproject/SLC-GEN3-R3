@@ -1,0 +1,16 @@
+{
+  "test_id": "G384",
+  "test_name": "TOE_G22B_CMB_SPECTRUM_VERDICT",
+  "started_utc": "2026-06-01T13:37:20.469224+00:00",
+  "finished_utc": "2026-06-01T13:37:20.472837+00:00",
+  "verdict": "TOE_G22B_PASS_CONDITIONAL_IMPORTED_PERTURBATION_SPECTRUM__MATTER_RESPONSE_SELECTOR_OPEN",
+  "check_passes": 6,
+  "check_total": 6,
+  "matter_response_selector_open": true,
+  "gross_wrong_controls_defeated": true,
+  "next_gate": "TOE_G23_BBN_LIGHT_ELEMENT_GATE",
+  "artifacts": {
+    "verdict_board": "native_prediction_artifacts\\g384_toe_g22b_verdict_board.csv",
+    "checks": "native_prediction_artifacts\\g384_toe_g22b_verdict_checks.csv"
+  }
+}

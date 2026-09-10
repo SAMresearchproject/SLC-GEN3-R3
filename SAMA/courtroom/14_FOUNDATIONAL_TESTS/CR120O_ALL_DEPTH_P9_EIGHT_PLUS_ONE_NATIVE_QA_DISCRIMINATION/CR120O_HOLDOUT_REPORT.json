@@ -1,0 +1,23 @@
+{
+  "all_pass": true,
+  "holdouts": {
+    "LEAVE_G0_OUT_TEST_G1": {
+      "generation_tested": 1,
+      "native_passed": 5,
+      "parameters_fitted": 0,
+      "pass": true,
+      "triples": 5,
+      "typed_qA_law_passed": 5
+    },
+    "LEAVE_G1_OUT_TEST_G0": {
+      "generation_tested": 0,
+      "native_passed": 5,
+      "parameters_fitted": 0,
+      "pass": true,
+      "triples": 5,
+      "typed_qA_law_passed": 5
+    }
+  },
+  "law_source": "FROZEN_QP093A_GENERATOR_NOT_FITTED_ROWS",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION"
+}

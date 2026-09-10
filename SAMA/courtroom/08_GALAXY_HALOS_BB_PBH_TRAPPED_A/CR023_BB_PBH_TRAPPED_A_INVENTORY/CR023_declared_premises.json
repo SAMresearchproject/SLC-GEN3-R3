@@ -1,0 +1,27 @@
+{
+  "test_id": "CR023_BB_PBH_TRAPPED_A_INVENTORY",
+  "short_id": "CR023",
+  "generated_precommit_utc": "2026-06-13T00:55:03.327962+00:00",
+  "test_type": "Fresh Courtroom branch test",
+  "is_confirmation_audit_or_double_check": false,
+  "question": "Does the current source chain preserve BB-origin PBH/trapped-A as the dark halo inventory lane while rejecting post-BB-only PBH as the full halo source?",
+  "sources": {
+    "qga038g_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\QGA038G_HYDROGEN_ARRIVAL_TO_BB_NORMAL_MATTER_INVENTORY\\QGA038G_summary.json",
+      "role": "hydrogen arrival and BB-PBH inventory bridge"
+    },
+    "g394_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\G394_PBH_RADIAL_ORGANIZATION_PROFILE_TEST\\G394_summary.json",
+      "role": "clustered BB-PBH halo profile summary"
+    }
+  },
+  "free_parameters_introduced": 0,
+  "expected_success_verdict": "CR023_BOUNDARY_BB_PBH_TRAPPED_A_INVENTORY_CHAIN",
+  "expected_success_scientific_verdict": "BOUNDARY",
+  "expected_success_claim_tier": "INVENTORY_CHAIN_SUPPORT_FOR_HALO_BRANCH",
+  "expected_success_triage_bin": "B",
+  "failure_verdict": "CR023_FAIL_BB_PBH_TRAPPED_A_INVENTORY_CHAIN",
+  "failure_claim_tier": "FAILED_INVENTORY_CHAIN",
+  "scope_note": "CR023 is an inventory-chain support test. It preserves the distinction between BB-origin trapped-A inventory and the smaller post-BB/window PBH subchannel.",
+  "rule_9_falsification": "This test could have falsified: the claim that BB-origin PBH/trapped-A, not the bounded post-BB PBH window alone, is the current SAM halo inventory lane."
+}

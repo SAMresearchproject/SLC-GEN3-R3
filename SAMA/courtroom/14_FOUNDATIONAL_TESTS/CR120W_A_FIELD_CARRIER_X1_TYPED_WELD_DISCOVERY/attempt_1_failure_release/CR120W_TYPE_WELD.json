@@ -1,0 +1,14 @@
+{
+  "a_operator_to_x1_edge": "OPEN",
+  "candidate_relation": "REALIZES_AXIS_CHANNEL(QP093A-0305_A_FIELD_CARRIER, X1_AXIS_SELF_CHANNEL)",
+  "identity_equation": null,
+  "ledger_contribution": 0,
+  "partition_one_role": "historical address/row proxy; not additive construction input",
+  "runtime_edge_installed": false,
+  "source_occurrence": "QP093A-0305",
+  "source_operator_class": "A_FIELD_CARRIER",
+  "starbreaker_atom_mapping": null,
+  "status": "NOT_UNIQUE_OR_BLOCKED",
+  "target_entity": "X1_AXIS_SELF_CHANNEL",
+  "target_type": "AxisChannel"
+}

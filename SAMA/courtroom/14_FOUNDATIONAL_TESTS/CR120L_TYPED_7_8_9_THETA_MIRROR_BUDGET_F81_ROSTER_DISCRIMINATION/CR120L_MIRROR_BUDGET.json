@@ -1,0 +1,44 @@
+{
+  "L_mid_observed": false,
+  "all_checks_passed": true,
+  "checks": {
+    "F81_fixed_point_from_cr269": true,
+    "half_gap_identity": true,
+    "lower_budget": true,
+    "lower_step": true,
+    "mid_budget": true,
+    "midpoint_identity": true,
+    "packet_count_from_cr120k": true,
+    "retained_7_theta": true,
+    "retained_from_cr269": true,
+    "surface_8_theta": true,
+    "surface_from_cr269": true,
+    "theta_from_cr269": true,
+    "upper_budget": true,
+    "upper_from_cr120k": true,
+    "upper_step": true,
+    "w9_9_theta": true,
+    "w9_from_cr120k": true
+  },
+  "same_scalar_entities_merged": false,
+  "typed_equations": {
+    "lower_budget": "100 * 126 = 12600",
+    "lower_unit": "M = 7 * Theta = 126",
+    "mid_budget": "100 * 144 = 14400",
+    "surface_unit": "R^2 = 8 * Theta = 144",
+    "upper_budget": "100 * 162 = 16200",
+    "upper_unit": "W9 weight = 9 * Theta = 162"
+  },
+  "values": {
+    "F_roster_cardinality": 81,
+    "L_mid_derived": "14400",
+    "L_minus": "12600",
+    "L_plus": "16200",
+    "M_retained": "126",
+    "R_squared": "144",
+    "Theta": "18",
+    "W9_weight": "162",
+    "half_gap": "1800",
+    "packet_multiplicity": "100"
+  }
+}

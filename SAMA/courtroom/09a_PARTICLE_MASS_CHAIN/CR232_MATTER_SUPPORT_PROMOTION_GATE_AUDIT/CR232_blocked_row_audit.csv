@@ -1,0 +1,14 @@
+candidate_id,bin,operator_class,M_native,M_obs_observed,M_obs_zero,qA_observed,qA_zero,T_observed,T_zero,W_observed,W_zero,all_four_zero
+QP093A-0301,carrier_only_rows,ROAD_LIGHT_CARRIER,0,0,True,0,True,0,True,0,True,True
+QP093A-0306,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,1.006944444,0,True,0,True,0,True,0,True,True
+QP093A-0307,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,2.027777778,0,True,0,True,0,True,0,True,True
+QP093A-0308,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,3.0625,0,True,0,True,0,True,0,True,True
+QP093A-0309,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,4.111111111,0,True,0,True,0,True,0,True,True
+QP093A-0310,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,6.25,0,True,0,True,0,True,0,True,True
+QP093A-0304,carrier_only_rows,COLOR_OWNER_CARRIER,8,0,True,0,True,0,True,0,True,True
+QP093A-0311,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,8.444444444,0,True,0,True,0,True,0,True,True
+QP093A-0302,carrier_only_rows,WEAK_VECTOR_CARRIER,9,0,True,0,True,0,True,0,True,True
+QP093A-0312,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,9.5625,0,True,0,True,0,True,0,True,True
+QP093A-0313,hidden_source_support_rows,SOURCE_SUPPORT_PACKET,13,0,True,0,True,0,True,0,True,True
+QP093A-0300,carrier_only_rows,TENSOR_CARRIER,18,0,True,0,True,0,True,0,True,True
+QP093A-0303,carrier_only_rows,NEUTRAL_VECTOR_CARRIER,81,0,True,0,True,0,True,0,True,True

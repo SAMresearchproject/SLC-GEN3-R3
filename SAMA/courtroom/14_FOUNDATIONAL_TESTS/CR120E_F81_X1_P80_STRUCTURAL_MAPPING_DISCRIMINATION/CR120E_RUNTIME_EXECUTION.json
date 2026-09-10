@@ -1,0 +1,123 @@
+{
+  "normal_check": {
+    "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam",
+    "raw_traceback_present": false,
+    "returncode": 2,
+    "stderr": "{\n  \"error\": \"AuthorityError\",\n  \"message\": \"RESERVE_CLOSURE_ADDRESS is STRUCTURAL_ONLY and requires --research\",\n  \"status\": \"FAIL\"\n}\n",
+    "stderr_json": {
+      "error": "AuthorityError",
+      "message": "RESERVE_CLOSURE_ADDRESS is STRUCTURAL_ONLY and requires --research",
+      "status": "FAIL"
+    },
+    "stdout": "",
+    "stdout_json": null
+  },
+  "research_check": {
+    "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli check 14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam --research",
+    "raw_traceback_present": false,
+    "returncode": 0,
+    "stderr": "",
+    "stderr_json": null,
+    "stdout": "{\n  \"return_entity\": \"P80_PARTICLE_FACE_CONTENT\",\n  \"status\": \"PASS\"\n}\n",
+    "stdout_json": {
+      "return_entity": "P80_PARTICLE_FACE_CONTENT",
+      "status": "PASS"
+    }
+  },
+  "research_run": {
+    "command": "C:\\Users\\drwho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m sam_language_v0_4.cli run 14_FOUNDATIONAL_TESTS/CR120E_F81_X1_P80_STRUCTURAL_MAPPING_DISCRIMINATION/programs/f81_x1_p80_structural.sam --research",
+    "raw_traceback_present": false,
+    "returncode": 0,
+    "stderr": "",
+    "stderr_json": null,
+    "stdout": "{\n  \"authority_status\": \"STRUCTURAL_ONLY\",\n  \"entity_id\": \"P80_PARTICLE_FACE_CONTENT\",\n  \"scalar_value\": 80,\n  \"semantic_type\": \"ParticleFaceContent\",\n  \"source_trace\": [\n    {\n      \"path\": \"SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json\",\n      \"sha256\": \"2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e\",\n      \"source_key\": \"parent_v04_release\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json\",\n      \"sha256\": \"ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228\",\n      \"source_key\": \"typed_hierarchy\"\n    },\n    {\n      \"path\": \"14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json\",\n      \"sha256\": \"72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c\",\n      \"source_key\": \"handoff_contract\"\n    }\n  ],\n  \"trace\": [\n    {\n      \"entity_id\": \"S8_BINARY_SURFACE\",\n      \"name\": \"surface\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"X1_AXIS_SELF_CHANNEL\",\n      \"name\": \"axis\",\n      \"stage\": \"name_resolution\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"S8_BINARY_SURFACE\",\n        \"B_CONTACT_OPERATOR\",\n        \"X1_AXIS_SELF_CHANNEL\"\n      ],\n      \"operator\": \"RESOLVE\",\n      \"result_entity\": \"W9_CLOSURE_WITNESS\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"W9_CLOSURE_WITNESS\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_VOLUME\",\n      \"result_entity\": \"V27_VOLUME_CONTAINER\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"V27_VOLUME_CONTAINER\",\n        \"D3_DIMENSION\"\n      ],\n      \"operator\": \"PROMOTE_FACE\",\n      \"result_entity\": \"F81_COMPLETED_FACE\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"args\": [\n        \"F81_COMPLETED_FACE\",\n        \"X1_AXIS_SELF_CHANNEL\"\n      ],\n      \"operator\": \"RESERVE_CLOSURE_ADDRESS\",\n      \"result_entity\": \"P80_PARTICLE_FACE_CONTENT\",\n      \"stage\": \"typed_execution_plan\",\n      \"status\": \"PASS\"\n    },\n    {\n      \"entity_id\": \"P80_PARTICLE_FACE_CONTENT\",\n      \"scalar_value\": 80,\n      \"semantic_type\": \"ParticleFaceContent\",\n      \"stage\": \"execution\",\n      \"status\": \"PASS\"\n    }\n  ],\n  \"warnings\": [\n    \"P80_PARTICLE_FACE_CONTENT is STRUCTURAL_ONLY; no particle row is activated\"\n  ]\n}\n",
+    "stdout_json": {
+      "authority_status": "STRUCTURAL_ONLY",
+      "entity_id": "P80_PARTICLE_FACE_CONTENT",
+      "scalar_value": 80,
+      "semantic_type": "ParticleFaceContent",
+      "source_trace": [
+        {
+          "path": "SAM_LANGUAGE_V0_4/SAM_LANGUAGE_V0_4_RELEASE_RECORD.json",
+          "sha256": "2d4175819bafeb34986a8e3072b241cc18e6198f0edb7c3dfe3daf506746916e",
+          "source_key": "parent_v04_release"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+          "sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+          "source_key": "typed_hierarchy"
+        },
+        {
+          "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_LANGUAGE_HANDOFF_CONTRACT.json",
+          "sha256": "72fc859df41b277226a5693620ceb711de5b6fd107a8408f5a90ef8eab9dc63c",
+          "source_key": "handoff_contract"
+        }
+      ],
+      "trace": [
+        {
+          "entity_id": "S8_BINARY_SURFACE",
+          "name": "surface",
+          "stage": "name_resolution",
+          "status": "PASS"
+        },
+        {
+          "entity_id": "X1_AXIS_SELF_CHANNEL",
+          "name": "axis",
+          "stage": "name_resolution",
+          "status": "PASS"
+        },
+        {
+          "args": [
+            "S8_BINARY_SURFACE",
+            "B_CONTACT_OPERATOR",
+            "X1_AXIS_SELF_CHANNEL"
+          ],
+          "operator": "RESOLVE",
+          "result_entity": "W9_CLOSURE_WITNESS",
+          "stage": "typed_execution_plan",
+          "status": "PASS"
+        },
+        {
+          "args": [
+            "W9_CLOSURE_WITNESS",
+            "D3_DIMENSION"
+          ],
+          "operator": "PROMOTE_VOLUME",
+          "result_entity": "V27_VOLUME_CONTAINER",
+          "stage": "typed_execution_plan",
+          "status": "PASS"
+        },
+        {
+          "args": [
+            "V27_VOLUME_CONTAINER",
+            "D3_DIMENSION"
+          ],
+          "operator": "PROMOTE_FACE",
+          "result_entity": "F81_COMPLETED_FACE",
+          "stage": "typed_execution_plan",
+          "status": "PASS"
+        },
+        {
+          "args": [
+            "F81_COMPLETED_FACE",
+            "X1_AXIS_SELF_CHANNEL"
+          ],
+          "operator": "RESERVE_CLOSURE_ADDRESS",
+          "result_entity": "P80_PARTICLE_FACE_CONTENT",
+          "stage": "typed_execution_plan",
+          "status": "PASS"
+        },
+        {
+          "entity_id": "P80_PARTICLE_FACE_CONTENT",
+          "scalar_value": 80,
+          "semantic_type": "ParticleFaceContent",
+          "stage": "execution",
+          "status": "PASS"
+        }
+      ],
+      "warnings": [
+        "P80_PARTICLE_FACE_CONTENT is STRUCTURAL_ONLY; no particle row is activated"
+      ]
+    }
+  }
+}

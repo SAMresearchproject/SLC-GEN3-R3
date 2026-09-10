@@ -1,0 +1,48 @@
+# QP031 - Private Boundary Floor Open Slot Propagation Selector
+
+## Result
+
+```text
+QP031_BOUNDARY_FLOOR_PROPAGATES_STABLE_LANE_TO_ROUTE_FLOOR_LIMIT
+```
+
+QP031 applies the QP030-selected boundary-inventory floor to open particle-slot
+and lane-prefix surfaces.
+
+## Rule Used
+
+```text
+APPLY_BOUNDARY_FLOOR_BEFORE_ROUTE_CRUMBS
+```
+
+## Lane Propagation
+
+| lane | open sum | after floor | gap after floor | after allowed crumbs | final gap | class |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| DERIVED_STABLE_ANCHOR_LANE | 0.0403343150955597 | 0.04166060628799216 | 6.0603786745036525e-06 | 0.04166664049775131 | 2.6168915354118916e-08 | LANE_REACHES_ROUTE_FLOOR_LIMIT_BELOW_A_SIDE |
+| DERIVED_CHARGED_CARRIER_LANE | 0.018744738930185 | 0.02007103012261746 | 0.021595636544049203 |  | 0.021595636544049203 | LANE_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| DERIVED_BOUNDARY_REORGANIZATION_LANE | 0.0 | 0.0013262911924324613 | 0.040340375474234205 |  | 0.040340375474234205 | LANE_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+
+## Top Slot Contacts
+
+| rank | slot | lane | after floor | gap after floor | class |
+| ---: | --- | --- | ---: | ---: | --- |
+| 1 | c<->t | DERIVED_STABLE_ANCHOR_LANE | 0.030484160801032462 | 0.011182505865634202 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| 2 | c<->d | DERIVED_CHARGED_CARRIER_LANE | 0.01576722736513246 | 0.025899439301534204 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| 3 | c<->u | DERIVED_STABLE_ANCHOR_LANE | 0.008017422790722461 | 0.0336492438759442 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| 4 | b<->d | DERIVED_STABLE_ANCHOR_LANE | 0.005761940917042461 | 0.0359047257496242 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| 5 | s<->t | DERIVED_CHARGED_CARRIER_LANE | 0.003472818620212461 | 0.038193848046454204 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+| 6 | b<->u | DERIVED_CHARGED_CARRIER_LANE | 0.0033759639548324614 | 0.038290702711834206 | SINGLE_SLOT_BOUNDARY_FLOOR_REMAINS_SUB_A_SIDE |
+
+## Interpretation
+
+The selected floor propagates strongly at the stable lane level, but it does not
+promote any single open particle slot by itself. With the already-allowed route
+crumbs applied after the floor, the stable lane reaches the ultra-residual
+boundary from QP028, still just below `A_SIDE`.
+
+## Next Frontier
+
+```text
+QP032_PRIVATE_ULTRA_RESIDUAL_ROLE_OR_STOP_SELECTOR
+```

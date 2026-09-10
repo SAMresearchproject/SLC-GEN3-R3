@@ -1,0 +1,134 @@
+{
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "source_policy": "EXACT_HASHED_READ_ONLY_INPUTS",
+  "sources": [
+    {
+      "source_id": "discovery_proposals",
+      "path": "C:\\Users\\drwho\\.codex\\attachments\\250606a1-0b47-4c54-a0e4-2596c5920a4e\\pasted-text.txt",
+      "role": "non-executable 8+1 catalog and binding-transfer proposals",
+      "authority": "PROPOSAL_ONLY_NOT_EVIDENCE",
+      "bytes": 64182,
+      "sha256": "cb6d604997a79519f5a238a1e09e70ee8be8ea0d3a4e78a1aeff187f449167d6"
+    },
+    {
+      "source_id": "au197_result",
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_V4_2_DRIVES\\DRIVE_002_AU197_BINDING_BU_PACKET\\DRIVE_002_AU197_BINDING_BU_RESULT.json",
+      "role": "sealed AU197 binding baseline and residual",
+      "authority": "ACTIVE_CALIBRATED_PACKET_RESULT",
+      "bytes": 2888,
+      "sha256": "649305dbe5bf8748ff02603431bdc32fddf04ae6af87481308662cb5a1cb05ed"
+    },
+    {
+      "source_id": "au197_source_manifest",
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_V4_2_DRIVES\\DRIVE_002_AU197_BINDING_BU_PACKET\\DRIVE_002_SOURCE_MANIFEST.json",
+      "role": "sealed AU197 source provenance",
+      "authority": "ACTIVE_CALIBRATED_PACKET_PROVENANCE",
+      "bytes": 1288,
+      "sha256": "568217613ac1fb638745a33e05d174009038d2fdf0041f968f5ff46a029dd384"
+    },
+    {
+      "source_id": "au197_packet_csv",
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_V4_2_DRIVES\\DRIVE_002_AU197_BINDING_BU_PACKET\\DRIVE_002_AU197_BU_PACKET.csv",
+      "role": "typed AU197 packet values and units",
+      "authority": "ACTIVE_CALIBRATED_PACKET",
+      "bytes": 273,
+      "sha256": "75137d3ae74c02d332b744bb037fd825b2ebd51f3d56a4b04e939198ed588258"
+    },
+    {
+      "source_id": "au197_hashes",
+      "path": "C:\\VS\\The_Courtroom\\SAM_NATIVE_V4_2_DRIVES\\DRIVE_002_AU197_BINDING_BU_PACKET\\HASHES.txt",
+      "role": "sealed AU197 artifact hash ledger",
+      "authority": "ACTIVE_CALIBRATED_PACKET_HASH_LEDGER",
+      "bytes": 926,
+      "sha256": "9a94918f02f0a787d67f7e133ce6a34e860a237ebd72905e39adb4dad858751d"
+    },
+    {
+      "source_id": "cr277_summary",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS\\CR277_summary.json",
+      "role": "118-observed-row binding-panel status and metrics",
+      "authority": "SEALED_FORECAST_LOCK_CR",
+      "bytes": 4574,
+      "sha256": "9008ac47d08f4e81c46b4348585d7759bfc2c4674b57df5c12cadfd34ef6fcfc"
+    },
+    {
+      "source_id": "cr277_result",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS\\CR277_result.md",
+      "role": "binding-panel scope and extrapolation boundary",
+      "authority": "SEALED_FORECAST_LOCK_CR",
+      "bytes": 15114,
+      "sha256": "294a9496bf8407d132b9bdf2ed70f3ded666eec7a45f4eaee4666945dc7c9620"
+    },
+    {
+      "source_id": "cr277_element_table",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR277_ONE_HUNDRED_TWENTY_SIX_ELEMENT_TABLE_AND_SOB_FRONTIER_LOCKS\\CR277_element_table.csv",
+      "role": "126 representative-isotope rows with 118 observed binding residuals",
+      "authority": "SEALED_FORECAST_LOCK_TABLE",
+      "bytes": 21173,
+      "sha256": "65fd9d8267cc3eaa4fc268df0cb941790be37777048a1a9bdf435b01c1802ac1"
+    },
+    {
+      "source_id": "qp094a_summary",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp094a_element_isotope_closure_generator\\qp094a_summary.json",
+      "role": "QP094A element/isotope catalog status and component-selector declaration",
+      "authority": "DISCOVERY_CATALOG_SUMMARY",
+      "bytes": 3002,
+      "sha256": "7810b6be1cf70382e2a7c9ad9b3eeb6d464c8143157f2dcf31603cfc5d5bd6b5"
+    },
+    {
+      "source_id": "qp094a_premises",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp094a_element_isotope_closure_generator\\qp094a_declared_premises.json",
+      "role": "QP094A frozen construction spine and known-label boundary",
+      "authority": "DISCOVERY_DECLARED_PREMISES",
+      "bytes": 780,
+      "sha256": "ad8a478cf4b96544f11744fa6eca89e01df382de59bdd2fec7500d645f1a25ed"
+    },
+    {
+      "source_id": "qp094a_catalog",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp094a_element_isotope_closure_generator\\qp094a_authoritative_element_isotope_catalog.jsonl",
+      "role": "214-isotope closure catalog and exact component-selector records",
+      "authority": "DISCOVERY_AUTHORITATIVE_DECIMAL_CATALOG",
+      "bytes": 466358,
+      "sha256": "27540708cf4f54c4e52ab9c9a92b71c38a3087f8a2a17f65fe752f7e28a16540"
+    },
+    {
+      "source_id": "qp094a_source_manifest",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp094a_element_isotope_closure_generator\\qp094a_source_manifest.csv",
+      "role": "QP094A source provenance",
+      "authority": "DISCOVERY_SOURCE_MANIFEST",
+      "bytes": 2660,
+      "sha256": "683bdbe35b03aa7bba8e60df8cd680f00d8792abe18d4e56c2fa04e5d248bc0a"
+    },
+    {
+      "source_id": "qp093a_catalog",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "role": "canonical QP093A identities and p/g route coordinates",
+      "authority": "CANONICAL_QP093A_ROW_SOURCE",
+      "bytes": 213474,
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    {
+      "source_id": "cr120k_summary",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_summary.json",
+      "role": "sealed structural 8+1 and 16200 result boundary",
+      "authority": "SEALED_STRUCTURAL_RESEARCH_RESULT",
+      "bytes": 913,
+      "sha256": "a32ce9cf0484e1c6258372011645d1cd1bfa966b6be870cff0b299e4a12a8c67"
+    },
+    {
+      "source_id": "cr120k_result",
+      "path": "C:\\VS\\The_Courtroom\\14_FOUNDATIONAL_TESTS\\CR120K_P9_G0_W9_8_PLUS_1_INDEPENDENT_INVENTORY_DISCRIMINATION\\CR120K_result.md",
+      "role": "readable structural 8+1 result and physical-mapping boundary",
+      "authority": "SEALED_STRUCTURAL_RESEARCH_RESULT",
+      "bytes": 5328,
+      "sha256": "5682642376c44ecaf895fcf616f65a195138b543dd0e94ca1e8c4f2e98b1e80b"
+    },
+    {
+      "source_id": "task_preflight",
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_033942_no_script.md",
+      "role": "task-specific constructive-new-work gate",
+      "authority": "COURTROOM_PREFLIGHT",
+      "bytes": 17183,
+      "sha256": "a386d15e962e81e4b3a834f048bcda71bad0fe88a4e76106782d177e709aff08"
+    }
+  ]
+}

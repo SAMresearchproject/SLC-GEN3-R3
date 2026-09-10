@@ -1,0 +1,7 @@
+step,op,face_index,alpha_h_label,status,cumulative_writes
+0,INIT,9,0,resolved,0
+1,G_sub,12,0,resolved,64
+2,B,12,1,resolved,128
+3,G_sub,9,1,resolved,192
+4,B,9,0,resolved,256
+5,MEASURE,9,0,resolved,320

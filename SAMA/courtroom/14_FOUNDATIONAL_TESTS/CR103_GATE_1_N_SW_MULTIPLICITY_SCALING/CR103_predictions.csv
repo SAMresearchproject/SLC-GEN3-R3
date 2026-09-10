@@ -1,0 +1,2 @@
+row_id,gate,candidate_index_in_CR100,candidate_name,reading,predicted_scaling_law,alpha_SAM,free_parameters_in_exponent,free_parameters_in_normalization,upstream_question_lock_sha256
+SAM_COMMITMENT,GATE_1,4,paired source/recoil count,simplest (linear in collision available energy),N_ch(s) = K * s^(alpha_SAM/2),1.0,0,1,fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867

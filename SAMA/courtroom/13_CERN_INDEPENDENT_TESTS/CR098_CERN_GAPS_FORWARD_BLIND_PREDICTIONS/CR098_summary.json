@@ -1,0 +1,35 @@
+{
+  "cr_id": "CR098",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "FORWARD_BLIND_PREDICTION_REGISTRY_AGAINST_UNRESOLVED_CERN_GAPS",
+  "execution_status": "CLEAN",
+  "result_class": "FORWARD_BLIND_PREDICTION_REGISTRY_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "total_predictions_registered": 24,
+  "predictions_per_source_family": {
+    "SAM_X": 12,
+    "SUK055_COMPOSITE": 12
+  },
+  "predictions_per_status_class": {
+    "FORWARD_BLIND_SEARCH_ACTIVE": 22,
+    "FORWARD_BLIND_NO_SEARCH_DEFINED": 1,
+    "FORBIDDEN_PARTITION_NEGATIVE_PREDICTION": 1
+  },
+  "prediction_commit_sha256": "cf0cec19b5ce8a91cf5888eded94dc8ac8fa213296215fee674fc52bd3734a91",
+  "prediction_commit_utc": "2026-06-13T21:41:50Z",
+  "registry_sha256": "6884850496ee233ed799c886dc114c70e9930b9a6c9b9c7d5df867064751fb1e",
+  "registry_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR098_CERN_GAPS_FORWARD_BLIND_PREDICTIONS\\CR098_forward_blind_prediction_registry.csv",
+  "registry_sha256_sibling_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR098_CERN_GAPS_FORWARD_BLIND_PREDICTIONS\\CR098_forward_blind_prediction_registry.csv.sha256.txt",
+  "upstream_source_hashes": {
+    "unknown_native_mass_predictions.csv": "e2e871aba1bcce55a47fbd1be257fe9af61b278844c93e7f44a7714acb55e19a",
+    "unknown_native_candidates.csv": "81096b31e3bd6fa5b90dddf9c0c0e10d91c2697ed27e8d82259da319ca0fae2a",
+    "SUK055_composite_candidate_mass_surface.csv": "56a570645c95309c43498e3662bd38bbb0a151c316ff765c86d9b22b040c7510"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling not yet written by curator",
+    "Seal sha256 sibling not yet written by curator",
+    "Upstream source files have not been independently re-hashed by curator",
+    "suggested_CERN_search_program assignments are best-fit; curator verification pending"
+  ]
+}

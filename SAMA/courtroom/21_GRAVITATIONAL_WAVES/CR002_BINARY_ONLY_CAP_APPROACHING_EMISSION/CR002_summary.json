@@ -1,0 +1,22 @@
+{
+  "artifact": "CR002_BINARY_ONLY_CAP_APPROACHING_EMISSION",
+  "mode": "EXPLORATORY",
+  "framing_refinement_2026_06_28": "Sean refined: single-Home formations may produce 'tiny' GW well below the binary cap (not zero). CR002 tests the observed binary-only pattern + SN upper-limit consistency.",
+  "verdict": "PASS",
+  "verdict_note": "verdict PASS with 1 within-binary sub-class ambiguity (e.g., GW190814 NSBH vs BBH mass-gap object) -- does NOT affect the binary-only finding",
+  "precommit_hash": "a42873eb1d3f68064c2d2540f93d6cc9f68f24c830daa36922240cab42733e18",
+  "substrate_cap": 0.125,
+  "n_events_tested": 16,
+  "G1_binary_count": 16,
+  "G1_non_binary_count": 0,
+  "G1_ambiguous_subclass": 1,
+  "G2_confirmed_non_binary_catalog": 0,
+  "G3_sn_upper_limit_O1_O2_f_rad": 6.666666666666667e-06,
+  "G3_sn_upper_limit_O3_f_rad": 6.666666666666667e-07,
+  "G3_substrate_cap_headroom_factor": 187500.0,
+  "gates": {
+    "G1_all_binary": true,
+    "G2_no_non_binary_confirmed": true,
+    "G3_sn_consistent": true
+  }
+}

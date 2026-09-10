@@ -1,0 +1,7 @@
+control,exchange_count,identity_support_dimension,phase_cycle,floor,same_full_packet
+identity_only_exchange,1,3,6.283185307179586,0.05305164769729845,False
+nonminimal_exchange_allowed,6,3,6.283185307179586,0.008841941282883075,False
+extra_dimension_untie_allowed,2,7,6.283185307179586,0.011368210220849667,False
+half_phase_as_full_cycle,2,3,3.141592653589793,0.05305164769729845,False
+double_phase_as_primitive_cycle,2,3,12.566370614359172,0.013262911924324612,False
+scrambled_dimension,2,4,6.283185307179586,0.019894367886486918,False

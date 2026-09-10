@@ -1,0 +1,33 @@
+{
+  "cr_id": "CR099",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "FORWARD_BLIND_FALSIFIER_HUNT_FOR_NEGATIVE_PREDICTION_SAM_X_012",
+  "execution_status": "CLEAN",
+  "result_class": "FALSIFIER_SIGNATURE_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "subject_candidate": "SAM-X-012",
+  "subject_partition": "(7, 5)",
+  "candidate_charge_set_size": 6,
+  "mass_band_MeV": {
+    "low": 1.0,
+    "high": 10000.0,
+    "rationale": "SAM-X-006 ((8,4) layered at a=4 PROPAGATION) = 1.025 MeV; SAM-X-007 ((9,3) paired transition at a=4) = 1.537 MeV; SAM-X-008 ((6,4,2) mixed layered at a=4) = 228 MeV. A (7,5) at the same a=4 PROPAGATION default would land in this 1 MeV - few GeV bracket. Extended upper bound to 10 GeV for conservative search coverage."
+  },
+  "primary_probe": "MoEDAL (Monopole and Exotics Detector at the LHC)",
+  "secondary_probe_count": 4,
+  "prediction_commit_sha256": "cd046d9004337217b79e2f3d08ef00993df3ca095018f38e5b0f1995c121bd9e",
+  "prediction_commit_utc": "2026-06-13T21:48:25Z",
+  "falsifier_signature_sha256": "b79c01d09167f561c706f8f9da686e23147489669b27e0bc43533edff6e47c90",
+  "falsifier_signature_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR099_SAM_X_012_FALSIFIER_HUNT\\CR099_falsifier_signature.json",
+  "falsifier_signature_sibling_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR099_SAM_X_012_FALSIFIER_HUNT\\CR099_falsifier_signature.json.sha256.txt",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "appeal_channel_open": true,
+  "appeal_pattern": "CR099a_<DATE>_<CERN_EXPERIMENT>_<RESULT_CLASS>",
+  "current_falsification_status": "NOT_YET_TESTED_BY_CERN_AT_THESE_COORDINATES",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling not yet written by curator",
+    "Branch seal sha256 sibling not yet written by curator",
+    "MoEDAL Run-3 + MoEDAL-MAPP publications not yet available",
+    "When any CERN program publishes at the (Q, M) coordinates, CR099a appeal row records the result"
+  ]
+}

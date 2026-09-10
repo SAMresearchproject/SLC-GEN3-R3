@@ -1,0 +1,4 @@
+peak,window_low,window_high,ell_theory,H_theory_smoothed,prom_theory,detected_theory,ell_planck,H_planck_smoothed,prom_planck,detected_planck,delta_ell,delta_height_rel
+1,150,300,220.0000,5727.1105,4224.5678,True,219.0000,5826.3751,4391.0163,True,+1.0000,-1.7037%
+2,400,650,535.0000,2598.5393,865.7516,True,520.0000,2580.9831,859.2546,True,+15.0000,+0.6802%
+3,700,900,812.0000,2553.9450,736.5807,True,814.0000,2535.5425,745.9563,True,-2.0000,+0.7258%

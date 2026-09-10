@@ -1,0 +1,16 @@
+check,passed,observed,expected
+bound_rows_exactly_63,True,63,63
+operator_family_counts_14_7_42,True,"{'THREE_OWNER_COLOR_CLOSURE': 14, 'EQUAL_NEUTRAL_PAIR': 7, 'ORIENTED_CHARGED_PAIR': 42}","{'THREE_OWNER_COLOR_CLOSURE': 14, 'EQUAL_NEUTRAL_PAIR': 7, 'ORIENTED_CHARGED_PAIR': 42}"
+operator_class_counts_14_36_13,True,"{'GROUND_BARYON_3BODY': 14, 'BOUND_COLOR_PAIR': 36, 'OCTET_COMPOSITE': 13}","{'GROUND_BARYON_3BODY': 14, 'BOUND_COLOR_PAIR': 36, 'OCTET_COMPOSITE': 13}"
+pair_rows_exactly_49,True,49,49
+ordered_pair_space_exactly_omega_squared,True,49,49 exact ordered pairs
+unequal_pairs_have_both_orientations,True,all 21 unordered pairs doubled,all 21 unordered pairs doubled
+equal_pairs_once_and_neutral,True,7,7 neutral self-pairs
+triad_rows_exactly_14_from_native_predicate,True,14,14 charged stable triads
+signatures_unique_63,True,63,63
+known_labels_absent_from_construction_fields,True,[],[]
+deterministic_byte_identical_regeneration,True,1a774001e30a322aaff3811c7ab376672744a2f7bfcba1b534a515dabb391713,1a774001e30a322aaff3811c7ab376672744a2f7bfcba1b534a515dabb391713
+wrong_control_owner12_pair_set_produces_64_pairs,True,64,64
+wrong_control_orientation_collapse_reduces_charged_pairs_to_21,True,21,21
+wrong_control_native63_mirror_fails_bound_operator_signature,True,row_count=63; operator_family_present=False; two_or_three_owner_signatures=0,native mirror has count 63 but no bound operator-family signatures
+downstream_cr219_validation_63_signatures_mass_operator,True,63,63

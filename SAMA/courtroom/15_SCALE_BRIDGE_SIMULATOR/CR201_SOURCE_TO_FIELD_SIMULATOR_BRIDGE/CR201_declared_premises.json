@@ -1,0 +1,10 @@
+{
+  "test_id": "CR201",
+  "source_gate": "G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that q_A = m * (1 + r_bounce) can bridge particle source rows into field inventory rows with zero new parameters and with the declared wrong controls rejected."
+}

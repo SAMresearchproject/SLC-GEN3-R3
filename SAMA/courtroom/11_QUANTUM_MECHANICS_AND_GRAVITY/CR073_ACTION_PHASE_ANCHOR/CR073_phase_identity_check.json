@@ -1,0 +1,16 @@
+{
+  "patterns_checked": [
+    "(Delta[_ ]?phi|\u0394\u03c6|\u03b4\u03c6|phase)\\s*=\\s*S_?A\\s*/\\s*(hbar|\u0127|\u210f)",
+    "\u0394_?phi\\s*=\\s*S_?A\\s*/\\s*hbar",
+    "phase.{0,30}S_?A\\s*/\\s*hbar"
+  ],
+  "total_hits": 2,
+  "files_with_hits_count": 1,
+  "exemplar": {
+    "file": "05_quantum_phase/README.md",
+    "role": "story_pointer_readme",
+    "match_text": "Delta_phi = S_A / hbar",
+    "pattern_used": "(Delta[_ ]?phi|\u0394\u03c6|\u03b4\u03c6|phase)\\s*=\\s*S_?A\\s*/\\s*(hbar|\u0127|\u210f)"
+  },
+  "status": "phase_identity_present"
+}

@@ -1,0 +1,12 @@
+{
+  "test_id": "CR051_QC_CARRIER_ENVELOPE_GATE_READOUT",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QC001_summary.json",
+    "../_source_artifacts/summaries/QC002_summary.json",
+    "../_source_artifacts/summaries/QC003_summary.json",
+    "../_source_artifacts/summaries/QC004_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qc001-qc004 select the carrier/envelope/sensor split, native gate catalog, and paul revere readout protocol."
+}

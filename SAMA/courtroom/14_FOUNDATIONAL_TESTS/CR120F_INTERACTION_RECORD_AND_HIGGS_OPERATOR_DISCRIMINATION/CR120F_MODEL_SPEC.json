@@ -1,0 +1,15 @@
+{
+  "fit_parameters": 0,
+  "identity_dwell_steps": 16,
+  "initial_state": "|+00>",
+  "model_class": "CONSTRUCTED_THREE_QUBIT_INFORMATION_RECORD_DISCRIMINATION",
+  "qubit_order": [
+    "S",
+    "E1",
+    "E2"
+  ],
+  "record_id": "CR120F_INTERACTION_RECORD_AND_HIGGS_OPERATOR_DISCRIMINATION",
+  "record_observable": "computational-basis Shannon mutual information",
+  "record_threshold_bits": 0.999999999999,
+  "scientific_pass_claimed": false
+}

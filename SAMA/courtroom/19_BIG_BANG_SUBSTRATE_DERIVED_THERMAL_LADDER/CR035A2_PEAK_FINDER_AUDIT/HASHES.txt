@@ -1,0 +1,72 @@
+# CR035A2 HASHES
+
+Sealed 2026-06-27. Peak-finder + verdict-mapping audit appeal of CR035A.
+Same SAM density spine + same fixed Planck perturbations + same CAMB
+engine + same Planck PR3 data files + same chi^2 / dof / tolerances /
+Run B bounds as CR035A. Only the peak finder (per-peak ell windows +
+minimum prominence + smoothed-curve height rule) and the verdict-mapping
+tree (full BOUNDARY (iii) branch + Run B polarization sanity guard at
+TE/EE chi^2/dof <= 5.0) change.
+
+Branch: 19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Appeal-of (preserved, NOT overwritten; CR035A's strict FAIL stands sealed)
+APPEAL_OF  CR035A_SAM_DENSITY_SPINE_CMB_SHAPE
+APPEAL_OF_PRECOMMIT  0f20f2fde2afb66ed1bbeff8e43e6f183d4159a0d5310d5bdb714daac99a9ced
+APPEAL_OF_SUMMARY    e9ddae54b4e6000e53bf440356ea4411d99678d14e872889e4e1e3f56d40d11b
+
+# Precommit (sealed first; runner must honor)
+6310c00f6f74de36475c0edbf7331f0f41960098983ee90adff5449063ae0697  CR035A2_PRECOMMIT.md
+
+# Runner (HASHED BEFORE EXECUTION; frozen-at-launch evidence)
+bf98f9f0f733d3acd4f961f7ed5172ff7ea7ce8422d248ece18a047f9eb8c11a  CR035A2_runner.py
+
+# CR035A2 artifacts (HASHED IMMEDIATELY AFTER RUNNER EXECUTION)
+# Runner verdict: PASS.
+#   TT chi^2/dof = 1.3464 (P2 PASS, <= 2.0)
+#   TE chi^2/dof = 1.1941 (no polarization debt)
+#   EE chi^2/dof = 1.1246 (no polarization debt)
+#   Corrected peaks: P1 ell=219/219 (delta=0); P2 ell=533/520 (delta=13);
+#                    P3 ell=806/814 (delta=8, corrected from CR035A's noise feature at 661).
+#   P1a PASS, P1b FAIL (2nd peak delta=13), P1c PASS (heights from smoothed curve).
+#   P1 PASS (2 of 3).  P2 PASS.  No pol debt.  -> PASS.
+#   Run B (diagnostic, not gated): A_s +1.32 sigma, n_s +0.78 sigma, tau -0.47 sigma;
+#         TT/dof=1.19, TE/dof=1.19, EE/dof=1.10 at optimum.
+f70dec5641d19c28d5a38ac2912f79007be8a9116a0ddbf5374ccef73dde92c3  CR035A2_summary.json
+a9a80acbf448764d7781508ae93a8bd80f82b2294eaa55dcd4318d43441f6016  CR035A2_result.md
+b31d2662395ec1f6ec3753a286427e803816daa034ffe3711c6c915eb04be82a  CR035A2_TT_residuals.csv
+8f2d11ad4689780a1021ce020d20c8b5b5fcce503ebc95491dc8823a68354148  CR035A2_TE_residuals.csv
+f5e497ad50105762c6ca03e49cb7ba1fe38f898182fd27b52962f6c0e6867e75  CR035A2_EE_residuals.csv
+960da06d1a0f0acc65ab8132e9376e6699f83410e40c3b88f41c9c545c6b5321  CR035A2_peaks.csv
+fdef65776178273c419270eee72d62c1e3586f646b0875a4a489fccb10b3baf0  CR035A2_runB_diagnostic.json
+0e1972e6c31af1f7e7f750f0efbcb8a1caaed4429280c69bf88527e5921a92cf  CR035A2_runA_theory_spectra.csv
+
+# External sources (allowed; same as CR035A; same files; same SHA-256 expected)
+ccf3113604020536f6f13ccf51680a7316ad0f32da558eee7f625e613bdd5522  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TT-full_R3.01.txt
+8b2c97d8865ebfdfb2b23c3e6883a39820734b804ba6e353533657b3a2f71425  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-TE-full_R3.01.txt
+c865c56fe215e17e45eeed1069ddcd7d13365735f439fd63cc9c9325db97d67f  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\planck_pr3\COM_PowerSpect_CMB-EE-full_R3.01.txt
+
+# Engine
+ENGINE:CAMB 1.6.6  (python module camb)
+ENGINE:scipy.optimize.minimize  (L-BFGS-B for Run B diagnostic only)
+ENGINE:scipy.signal.find_peaks + scipy.ndimage.gaussian_filter1d
+
+# Forbidden inputs (expanded vs CR035A to include the CR035A family)
+FORBIDDEN  CR001 / CR001b / CR001c / CR002 / CR003 family files
+FORBIDDEN  CR018b / CR019 family files
+FORBIDDEN  CR025 / CR031b / CR032 / CR033 family files
+FORBIDDEN  CR205 files
+FORBIDDEN  CR035A_summary.json, CR035A_result.md, CR035A_*_residuals.csv,
+           CR035A_peaks.csv, CR035A_runB_diagnostic.json,
+           CR035A_runA_theory_spectra.csv
+FORBIDDEN  CR035A_runner.py (v2), CR035A_runner_v1_aborted_json_bug.py
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv

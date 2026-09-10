@@ -1,0 +1,114 @@
+check,status,value,detail
+LC01 primitive stack passes,PASS,,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER
+LC06 baryon/matter inventory already replayed,PASS,,LC06_PASS_BARYON_AND_MATTER_INVENTORY_REPLAY_FROM_LOCKED_PRIMITIVE_STACK
+CR115 D3 gate passes,PASS,,CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE
+CR115 stable D list is [3],PASS,[3],D source
+R locked at 12,PASS,12,LC01 primitive
+D locked at 3,PASS,3,LC01 primitive
+A0 locked as 1/(12*pi),PASS,1/(12*pi),LC01 primitive
+A_inf saturates at 1/pi,PASS,0.3183098861837907,A0*R
+CR012 summary passes,PASS,,PASS
+CR012 pass conditions all true,PASS,"{""A0_identity"": true, ""free_parameters_introduced_zero"": true, ""no_older_test_verdicts_used"": true, ""phi_and_phi_R_roles_separated"": true, ""projection_operator_identity"": true, ""r_drag_identity"": true, ""w_identity"": true, ""wrong_controls_do_not_match_packet"": true}",pass_conditions
+CR012 introduced zero free parameters,PASS,0,declared premises
+CR012 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR013 summary passes,PASS,,PASS
+CR013 pass conditions all true,PASS,"{""A_los_row_identity"": true, ""bao_inputs_not_loaded"": true, ""c_eff_row_identity"": true, ""free_parameters_introduced_zero"": true, ""high_z_shrink_larger_than_low_z"": true, ""low_z_shrink_near_zero"": true, ""native_distance_row_identity"": true, ""native_mu_row_identity"": true, ""no_older_test_verdicts_used"": true, ""sn_source_rows_present"": true, ""wrong_controls_do_not_match_packet"": true}",pass_conditions
+CR013 introduced zero free parameters,PASS,0,declared premises
+CR013 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR014 summary passes,PASS,,PASS
+CR014 pass conditions all true,PASS,"{""all_primary_rows_under_3sigma"": true, ""bao_source_rows_present"": true, ""bao_windowed_prediction_identity"": true, ""f_ap_derived_from_dm_dh_rows"": true, ""free_parameters_introduced_zero"": true, ""no_older_test_verdicts_used"": true, ""sn_inputs_not_loaded"": true, ""window_values_follow_declared_symbols"": true, ""wrong_controls_do_not_match_packet"": true}",pass_conditions
+CR014 introduced zero free parameters,PASS,0,declared premises
+CR014 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR015 summary passes,PASS,,PASS
+CR015 pass conditions all true,PASS,"{""all_bao_sites_have_sn_overlap_rows"": true, ""free_parameters_introduced_zero"": true, ""independent_ledger_functions_defined_before_overlap"": true, ""no_older_test_verdicts_used"": true, ""overlap_max_abs_pct_within_declared_window"": true, ""overlap_not_formula_source"": true, ""same_z_identity_holds"": true, ""wrong_controls_do_not_match_packet"": true}",pass_conditions
+CR015 introduced zero free parameters,PASS,0,declared premises
+CR015 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR016 summary passes,PASS,,PASS
+CR016 pass conditions all true,PASS,"{""free_parameters_introduced_zero"": true, ""no_older_test_verdicts_used"": true, ""planck_target_not_formula_source"": true, ""ratio_identity"": true, ""theta_reference_residual_within_half_percent"": true, ""wrong_controls_do_not_match_packet"": true}",pass_conditions
+CR016 introduced zero free parameters,PASS,0,declared premises
+CR016 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR017 summary passes,PASS,,PASS
+CR017 pass conditions all true,PASS,"{""all_dependencies_are_local_cr_tests"": true, ""all_dependencies_pass"": true, ""all_dependency_summaries_exist"": true, ""cmb_modal_polarization_left_open"": true, ""free_parameters_introduced_zero"": true, ""no_older_test_verdicts_used"": true, ""wrong_controls_rejected"": true}",pass_conditions
+CR017 introduced zero free parameters,PASS,0,declared premises
+CR017 did not use older test verdicts as computed inputs,PASS,False,declared premises
+CR012 A0 identity replays,PASS,0.026525823848649224,1/(pi*R)
+CR012 w identity replays,PASS,0.0466031311731253,(D/R)*(Omega_b/Omega_BB_PBH_trapped)
+CR012 r_drag identity replays,PASS,150.92186401518705,r_star*(1+w)
+CR012 wrong controls reject,PASS,10,candidate rows
+SN source has 1701 rows,PASS,1701,Pantheon rows
+SN summary row count matches source,PASS,1701,CR013 source rows
+SN A_los row identity,PASS,0.0,max_A_error
+SN c_eff row identity,PASS,0.0,max_c_error
+SN native distance row identity,PASS,0.0,max_distance_error
+SN native mu row identity,PASS,7.105427357601002e-15,max_mu_error
+SN low-z shrink near zero,PASS,0.0062347071581974845,low_z_mean_A
+SN high-z shrink larger than low-z,PASS,0.2927243984113852,high_z_mean_A
+SN BAO inputs not loaded,PASS,,CR013 pass condition
+SN wrong controls reject,PASS,5,LC07 recomputed candidates
+SN D2 wrong control rejects,PASS,,D mutation control
+BAO source has 19 primary rows,PASS,19,BAO rows
+BAO summary row count matches source,PASS,19,CR014 source rows
+BAO window values follow declared symbols,PASS,,declared symbols
+BAO prediction identity replays,PASS,0.0,max_prediction_error
+BAO all rows under 3 sigma,PASS,0,rows_over_3sigma
+BAO F_AP derived from DM/DH rows,PASS,6,F_AP rows
+BAO SN inputs not loaded,PASS,,CR014 pass condition
+BAO wrong controls reject,PASS,5,LC07 recomputed candidates
+SN/BAO same-z identity holds,PASS,0.0,max_identity_error
+SN/BAO all overlap sites have SN rows,PASS,"[{""A_difference_sn_minus_bao"": -0.0024000025506268896, ""bao_A_at_site"": 0.19719072118991277, ""overlap_half_width_z"": 0.05, ""shrinkage_pct_difference_sn_minus_bao"": -0.24000025506268896, ""sn_rows"": 153, ""sn_weighted_mean_A"": 0.19479071863928588, ""sn_weighted_mean_z"": 0.37233927328959215, ""z_bao"": 0.38}, {""A_difference_sn_minus_bao"": -0.0008573477548509401, ""bao_A_at_site"": 0.22585725290966316, ""overlap_half_width_z"": 0.05, ""shrinkage_pct_difference_sn_minus_bao"": -0.085734775485094, ""sn_rows"": 76, ""sn_weighted_mean_A"": 0.22499990515481222, ""sn_weighted_mean_z"": 0.506398474189664, ""z_bao"": 0.51}, {""A_difference_sn_minus_bao"": -0.001283037480735133, ""bao_A_at_site"": 0.24203659277656728, ""overlap_half_width_z"": 0.05, ""shrinkage_pct_difference_sn_minus_bao"": -0.1283037480735133, ""sn_rows"": 66, ""sn_weighted_mean_A"": 0.24075355529583214, ""sn_weighted_mean_z"": 0.6019885499749884, ""z_bao"": 0.61}]",overlap sites
+SN/BAO overlap within declared window,PASS,0.24000025506268896,max_overlap_pct_abs
+SN/BAO overlap not formula source,PASS,,CR015 pass condition
+SN/BAO wrong controls reject,PASS,5,LC07 recomputed candidates
+SN/BAO BAO_D2 wrong control rejects,PASS,,D mutation control
+CMB theta100 ratio replays,PASS,1.038976065435997,theta100
+CMB Planck target not formula source,PASS,,CR016 frozen prediction
+CMB residual within half percent,PASS,-0.2030501266944362,residual_pct
+CMB wrong controls reject,PASS,5,LC07 recomputed candidates
+CR017 local dependencies pass,PASS,5,CR017 dependency rows
+CR017 rejects external G substitution,PASS,,CR017 candidate rows
+CR017 keeps CMB modal/polarization open,PASS,,CR017 pass condition
+CR118 headline export clean,PASS,CLEAN,CR118 execution status
+CR118 records zero SAM fit parameters,PASS,0,CR118 key number
+CR118 records LCDM baseline comparison honestly,PASS,6,CR118 key number
+CR118 rejects full-cosmology overclaim,PASS,,CR118 wrong control
+CR118 rejects global-overlap wording,PASS,,CR118 wrong control
+CR118 rejects BAO sample overstatement,PASS,,CR118 wrong control
+Replay layer: LC01 locked primitive stack,PASS,LC01_PASS_LOCKED_PRIMITIVE_STACK_AND_REPLAY_REGISTER,No branch-local primitive override allowed.
+Replay layer: D=3 carrier uniqueness,PASS,CR115_PASS_D3_INVARIANT_CARRIER_UNIQUENESS_THEOREM_GATE,No distance-road D refit.
+Replay layer: CR012 typed ruler-road bridge,PASS,"{""A0"": 0.026525823848649224, ""A_inf"": 0.3183098861837907, ""r_drag_mpc"": 150.92186401518705, ""w"": 0.0466031311731253}","SN, BAO, and CMB targets not used to choose the bridge."
+Replay layer: CR013 SN luminosity ledger,PASS,"{""max_mu_error"": 7.105427357601002e-15, ""rows"": 1701}",BAO data not loaded into the SN ledger.
+Replay layer: CR014 BAO ruler/projection ledger,PASS,"{""candidate"": ""primary"", ""max_abs_pull"": 1.4298269726773956, ""max_prediction_error"": 0.0, ""rms_pull"": 0.8269872776835621, ""rows"": 19, ""rows_over_3sigma"": 0}",SN rows not loaded into the BAO ledger.
+Replay layer: CR015 SN/BAO independent ledger lock,PASS,"{""max_identity_error"": 0.0, ""max_overlap_pct_abs"": 0.24000025506268896}","Overlap is a comparison witness, not the formula source."
+Replay layer: CR016 CMB acoustic ratio member,PASS,"{""residual_pct"": -0.2030501266944362, ""theta100"": 1.038976065435997}","Planck theta is a downstream reference, not a formula source."
+Replay layer: CR017 branch closure,PASS,PASS,No full cosmology or modal/polarization overclaim.
+Replay layer: CR118 headline export,PASS,"{""A0_formula"": ""1 / (12 * pi)"", ""A0_structural"": 0.026525823848649224, ""A_inf_formula"": ""1 / pi"", ""A_inf_structural"": 0.3183098861837907, ""bao_compilation_rows"": 19, ""bao_max_abs_pull"": 1.4298269726773956, ""bao_rms_pull"": 0.8269872776835621, ""bao_rows_over_3sigma"": 0, ""lcdm_baseline_fit_parameter_count"": 6, ""planck_r_drag_mpc_reference"": 147.05, ""r_drag_delta_vs_planck_percent"": 2.6330255118579005, ""r_drag_mpc_derived"": 150.92186401518705, ""sam_distance_road_fit_parameter_count"": 0, ""sn_bao_cross_overlap_pct_abs"": 0.24000025506268896, ""sn_bao_max_identity_error"": 0.0, ""sn_high_z_mean_A"": 0.2927243984113852, ""sn_low_z_mean_A"": 0.0062347071581974845, ""sn_max_mu_identity_error"": 7.105427357601002e-15, ""sn_pantheon_rows"": 1701, ""w_projection_operator"": 0.0466031311731253}","Headline is descriptive export, not load-bearing formula mutation."
+Metric: A0,PASS,0.026525823848649224,replay metric
+Metric: A0_locked_decimal,PASS,0.026525823848649224,replay metric
+Metric: A_inf,PASS,0.3183098861837907,replay metric
+Metric: w_projection_operator,PASS,0.0466031311731253,replay metric
+Metric: r_drag_mpc,PASS,150.92186401518705,replay metric
+Metric: SN_rows,PASS,1701,replay metric
+Metric: SN_max_A_error,PASS,0.0,replay metric
+Metric: SN_max_c_error_km_s,PASS,0.0,replay metric
+Metric: SN_max_distance_error_mpc,PASS,0.0,replay metric
+Metric: SN_max_mu_error,PASS,7.105427357601002e-15,replay metric
+Metric: SN_low_z_mean_A,PASS,0.0062347071581974845,replay metric
+Metric: SN_high_z_mean_A,PASS,0.2927243984113852,replay metric
+Metric: BAO_rows,PASS,19,replay metric
+Metric: BAO_rms_pull,PASS,0.8269872776835621,replay metric
+Metric: BAO_max_abs_pull,PASS,1.4298269726773956,replay metric
+Metric: BAO_rows_over_3sigma,PASS,0,replay metric
+Metric: SN_BAO_identity_error,PASS,0.0,replay metric
+Metric: SN_BAO_overlap_pct_abs,PASS,0.24000025506268896,replay metric
+Metric: CMB_theta100,PASS,1.038976065435997,replay metric
+Metric: CMB_theta100_residual_pct,PASS,-0.2030501266944362,replay metric
+WC24_DISTANCE_ROAD_D_REFIT rejected,PASS,,LC01 D=3; CR115 stable_ds=[3]; CR013 D2_power control rejects; CR015 BAO_D2 control rejects; LC07 runs no optimizer
+WC25_DISTANCE_BIN_CHERRY_PICK rejected,PASS,,LC07 replays all 1701 SN rows and all 19 primary BAO rows; BAO rows over 3 sigma=0; all overlap sites contain SN rows
+WC03_TARGET_VALUE_SUBSTITUTION rejected,PASS,,CR012 bridge fixed before targets; CR016 Planck target_data_used_to_choose_formula=false; CR118 records SAM fit parameter count 0
+WC_SN_BAO_SHARED_DATA_LEAK rejected,PASS,,CR013 bao_inputs_not_loaded=true; CR014 sn_inputs_not_loaded=true; CR015 compares only after both ledgers are defined
+WC_OVERLAP_AS_GLOBAL_CLAIM rejected,PASS,,CR015 overlap rows are local z-site witness rows; CR118 WC5 explicitly rejects global-overlap wording
+WC_FULL_COSMOLOGY_OVERCLAIM rejected,PASS,,CR017 leaves CMB modal/polarization OPEN_NOT_CLAIMED; CR118 WC1 preserves this boundary
+WC_BAO_SAMPLE_OVERSTATE rejected,PASS,,LC07 row count is 19; CR118 WC4 states BAO is a 19-row compilation
+WC06_FORMULA_PATCH_OR_HIDDEN_TERM rejected,PASS,,"LC07 formula manifest contains every term used; branch candidate controls reject no_shrink, half_A, D2_power, no_window, half_window, sign-flip, and phi-power paths"
+WC_OLDER_G_VERDICT_SUBSTITUTION rejected,PASS,,CR017 dependency table contains CR012-CR016 local CR summaries only; external_G_verdict_replaces_local_CR is rejected
+WC13_REPLAY_WITHOUT_HASH_LOCK rejected,PASS,,LC07 emits sources_hashes.csv and HASHES.txt over runner plus result artifacts

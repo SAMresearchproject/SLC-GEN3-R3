@@ -1,0 +1,10 @@
+control_id,expected,observed,behaved_as_expected
+CR210C_RAW_PLUS3_NO_MODULO,q_changes=18;out_boundary=6;out_ledger=3,q_changes=18;out_boundary=6;out_ledger=3,True
+HALF_RESIDUE_DOMAIN,pairs=9;used=18,pairs=9;used=18,True
+ADJACENT_R_PLUS1,dimension_changes=36;round_trip_failures=36;side_flips=36,dimension_changes=36;round_trip_failures=36;side_flips=36,True
+RESIDUE_IDENTITY,side_flip_failures=36,side_flip_failures=36,True
+Q_SHIFT_PLUS1,q_changes=36;round_trip_failures=36,q_changes=36;round_trip_failures=36,True
+NO_PAIRING,union=162;symmetric_difference=162,union=162;symmetric_difference=162,True
+MANY_TO_ONE,image_count=18;not_bijective,image_count=18;not_bijective=True,True
+SAME_KIND_ANTIPODAL_COMPARATOR,independent_count_success_and_orientation_open,"{""intersection_classes"":18,""occurrence_sum"":162,""pair_classes"":18,""pairing"":""same_kind"",""side_a_classes"":81,""side_b_classes"":81,""symmetric_difference_classes"":126,""union_classes"":144}",True
+GLOBAL_SIDE_REVERSAL,H27_invariant,H27_invariant=True,True

@@ -1,0 +1,14 @@
+check_id,passed,detail
+C01_source_exists,True,sha256=afcc70f8fa71c613982f8d733f646f771d2053a51ee9b6dd5ea2977777dab030
+C02_import_contains_d3_question,True,D=3 and TEST B markers
+C03_cr115_sources_d3,True,CR115 stable_ds
+C04_cr115_rejects_reverse_derivation,True,CR115 WC14
+C05_cr119_counts,True,"{""matter"": 126, ""particle"": 321, ""periodic"": 126, ""vault_identity_assignments"": 573}"
+C06_lc02_d3_replay,True,"{""H_native"": ""126"", ""caveat"": true}"
+C07_lc04_stack_d3,True,"{""A0"": ""1/(12*pi)"", ""A0_decimal"": 0.026525823848649224, ""D"": 3, ""R"": 12, ""R_squared"": 144, ""alpha_H"": 2, ""bounce_lift"": ""9/8"", ""bounce_lift_decimal"": 1.125, ""carrier_side"": ""1/8"", ""carrier_side_decimal"": 0.125, ""resolved_half_bounce"": ""9/16"", ""resolved_half_bounce_decimal"": 0.5625, ""retained_side"": ""7/8"", ""retained_side_decimal"": 0.875, ""split_fraction"": ""1/8"", ""split_fraction_decimal"": 0.125, ""surface_debit"": ""3/4"", ""surface_debit_decimal"": 0.75}"
+C08_qp093a_d_input,True,QP093A constants
+C09_role_operator_d_terms,True,"{""D_power_2"": 3, ""D_power_4"": 1, ""D_power_B"": 2, ""D_power_D"": 2, ""D_times_B"": 11, ""D_times_B_power_2"": 3}"
+C10_lepton_rows_suggestive_not_derived,True,rows=3
+C11_generation_count_open,True,E13 OPEN
+C12_wrong_controls_rejected,True,all wrong controls rejected
+C13_no_disallowed_source_words_in_emitted_files,True,

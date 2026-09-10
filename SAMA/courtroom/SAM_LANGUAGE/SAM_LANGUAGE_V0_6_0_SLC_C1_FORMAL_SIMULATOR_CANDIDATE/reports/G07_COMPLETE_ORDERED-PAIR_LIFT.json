@@ -1,0 +1,1332 @@
+{
+  "classicalized_forward_cases": 540672,
+  "classicalized_reverse_cases": 540672,
+  "classicalized_total_schedule_cases": 1081344,
+  "enumeration_sha256": "a73aa6a473c053981c696a5cf0dd803cd6cec428937560f5f0d33c65b5ab3344",
+  "forward_formula_cases": 540672,
+  "ordered_placements": 132,
+  "placements": [
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 0,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 1,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 2,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 3,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 4,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 5,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 6,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 7,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 8,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 9,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 10,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 11
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 0
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 1
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 2
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 3
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 4
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 5
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 6
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 7
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 8
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 9
+    },
+    {
+      "basis_cases": 4096,
+      "classical_forward_matches": 4096,
+      "classical_reverse_matches": 4096,
+      "control": 11,
+      "forward_formula_matches": 4096,
+      "reverse_formula_matches": 4096,
+      "status": "PASS",
+      "target": 10
+    }
+  ],
+  "reverse_formula_cases": 540672,
+  "status": "PASS"
+}

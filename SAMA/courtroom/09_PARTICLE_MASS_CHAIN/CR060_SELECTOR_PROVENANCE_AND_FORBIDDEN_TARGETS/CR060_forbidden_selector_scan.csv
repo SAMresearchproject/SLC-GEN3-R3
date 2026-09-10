@@ -1,0 +1,5 @@
+pattern_class,pattern_regex,engine_hit_count,doc_mention_count,exemplar_engine_file,exemplar_engine_line,exemplar_engine_text,exemplar_doc_file,exemplar_doc_line,classification
+calibration_loop,\bscipy\.optimize\b|\bcurve_fit\b|\bleast_squares\b,0,0,,,,,,CLEAN
+fit_to_observed,\bfit_to_observed\b|\bfit_observed\b|\boptimize_against_observed\b,0,0,,,,,,CLEAN
+yukawa_table_import,\bimport\s+yukawa[a-z_]+\b|\bload_yukawa\b|\byukawa_couplings\b,0,0,,,,,,CLEAN
+pdg_construction_input,\bload_pdg\b|\bread_pdg\b|\bimport_pdg\b,0,0,,,,,,CLEAN

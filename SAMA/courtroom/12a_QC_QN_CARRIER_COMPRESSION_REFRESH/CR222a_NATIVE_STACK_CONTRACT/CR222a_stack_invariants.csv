@@ -1,0 +1,13 @@
+invariant,observed,expected,passed,interpretation
+native_rows,63,63,True,CR220 native single-write surface
+bound_rows,63,63,True,CR221 bound composite surface
+matter_total,126,126,True,Native63 + Bound63
+carrier_ledger_rows,12,12,True,four carrier modes plus eight source support modes
+carrier_ledger_value,81,81,True,12 unpacked support modes
+mirror_rows,1,1,True,0303 mirror/checksum row
+mirror_value,81,81,True,0303 equals D^4
+support_total,162,162,True,CarrierLedger81 + Mirror81
+dimension_separation,matter=row_count; support=ledger_value,separate,True,do not flatten 126 and 162 into one scalar
+tensor_ratio_carrier,1/2,1/2,True,tensor is half of active carrier subtotal
+tensor_ratio_unpacked,2/9,2/9,True,tensor is 2/9 of unpacked 81
+tensor_ratio_full,1/9,1/9,True,tensor is 1/9 of full 162 closure

@@ -1,0 +1,33 @@
+﻿check_id,requirement,actual,passed
+C01,Courtroom preflight metadata is present,file=True token=True,true
+C02,All precommitted campaign-contract files match SHA-256,9/9,true
+C03,Exactly 18 local sources are frozen,18,true
+C04,Every frozen local source exists and matches bytes plus SHA-256,18/18,true
+C05,CR284 is constructive new work,CONSTRUCTIVE_NEW_WORK,true
+C06,No observed targets are allowed before reveal,False,true
+C07,No physical promotion is allowed,False,true
+C08,No free parameters are allowed at intake,0,true
+C09,SAM carrier is not typed as dissolved ion,False,true
+C10,A is not typed directly as pressure or energy,False,true
+C11,Starbreaker remains process context only,PROCESS_CONTEXT_ONLY_PENDING_TYPED_PHYSICAL_READOUT,true
+C12,Nine species are frozen,9,true
+C13,Species IDs are unique,9,true
+C14,No species carries a prediction or observed target,unpredicted_and_false,true
+C15,Boron speciation is explicit,"['B(OH)3', 'B(OH)4-']",true
+C16,Six ordered campaign stages are frozen,"['CR284', 'CR285', 'CR286', 'CR287', 'CR288', 'CR289']",true
+C17,No campaign stage permits a physical claim,all_false,true
+C18,Two versioned external sources are registered,"['arXiv:2501.19344v2', 'arXiv:2107.07137v1']",true
+C19,External numerical species results remain reveal-gated,"['NUMERICAL_SPECIES_RESULTS_EMBARGOED_UNTIL_CR288', 'NOT_A_SHAPE_SELECTION_TARGET']",true
+C20,Fourteen wrong controls are frozen,14,true
+C21,All required control classes are present,"['category_error', 'leakage', 'physical_artifact', 'promotion_error', 'randomization', 'rescue_rule', 'role_conflation', 'simple_baseline']",true
+C22,Every control has a required disposition and falsifier,complete,true
+C23,Observation-blind rule is explicit,present,true
+C24,Both independent engineering lanes are explicit,SHAPE_SELECTIVITY + ASSISTED_GATE,true
+C25,Primary physical metric is energy-normalized,grams NaCl removed per total watt-hour,true
+C26,Humanitarian royalty-free intent is recorded,present,true
+C27,No legal instrument is invented,explicit boundary,true
+C28,Historical Chladni source preserves no-particle-promotion boundary,present,true
+C29,QP093A octahedral realization remains physically open,present,true
+C30,Starbreaker source preserves no-physical-promotion boundary,present,true
+C31,Particle-row geometry remains open,present,true
+C32,Basement calibrated sweep is not physical evidence,present,true

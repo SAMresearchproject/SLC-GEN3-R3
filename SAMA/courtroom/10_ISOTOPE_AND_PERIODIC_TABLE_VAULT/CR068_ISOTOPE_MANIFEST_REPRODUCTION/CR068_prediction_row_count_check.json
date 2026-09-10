@@ -1,0 +1,17 @@
+{
+  "candidates_checked": [
+    {
+      "path": "C:/VS/quantum_phase/phase4_tables/phase5_sealed_prediction_manifest.csv",
+      "exists": true,
+      "row_count": 200
+    },
+    {
+      "path": "C:/VS/quantum_phase/artifacts/qp060/qp060_sealed_prediction_manifest.csv",
+      "exists": false
+    }
+  ],
+  "found_row_count": 200,
+  "expected_row_count": 200,
+  "row_count_matches": true,
+  "status": "row_count_matches_200"
+}

@@ -1,0 +1,245 @@
+{
+  "cr_id": "CR141",
+  "branch": "00_governance",
+  "test_class": "ROW_GENERATOR_SELF_HASH_REPAIR_V1_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR141_ROW_GENERATOR_SELF_HASH_REPAIR_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "last_run_utc": "2026-06-17T23:35:03Z",
+  "correction_type": "DEFECT_CORRECTION_RECORDED_PROVENANCE",
+  "verdict_change": false,
+  "free_parameters": 0,
+  "driving_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+  "targets_total": 10,
+  "targets_in_repaired_state": 10,
+  "repaired_this_run": 0,
+  "already_repaired_this_run": 10,
+  "anomalies": 0,
+  "wrong_controls_passed": 8,
+  "wrong_controls_total": 8,
+  "predictions_passed": 6,
+  "predictions_total": 6,
+  "manifest": [
+    {
+      "cr_id": "CR128",
+      "dir_name": "CR128_BOUND_COLOR_PAIR_MASS_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+      "recorded_sha256_now": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+      "result_md_sha256": "f4d00f74597f6c85e9e287b65ac4cb0eef667fd80c5e421b748ffb38d71ee77d",
+      "summary_json_sha256": "b0aafbfcb8c9e6ce8fd479a20be92a61845b5dc018edd301d36a7ddfb68a7c71",
+      "archived_original_result_sha256": "0a4ebfe6c3a17f10f03909d1b5dfc4c9532b34132c9e306dfd9fa1b724970e10",
+      "archived_original_summary_sha256": "6c7b50f2bd04e80014a7bc0c875ca0267dd2e6dbd7244a721fcd31a23bd06649",
+      "result_class": "CR128_BOUND_COLOR_PAIR_MASS_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR128b",
+      "dir_name": "CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+      "recorded_sha256_now": "fb9287cd6c79b161f138f5ce4fde5b109483be1787757d6e4bdf4f613ad16467",
+      "result_md_sha256": "e6028e172a82db19457df93475a8b70797188c747f299e616f4a9e7172a33549",
+      "summary_json_sha256": "9bd613c3b4d6db390d35afa2250f9f34aadc9e42f7c7382dd204369ce9f8b192",
+      "archived_original_result_sha256": "8dd3042c74952cb4b17ea700fe4db2e122d6913241f0b19ed817027be657fe08",
+      "archived_original_summary_sha256": "8cfa8eba2cee3c984c3a2629e52955cf8577411b38f50e0610eb2c02324155d1",
+      "result_class": "CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR129",
+      "dir_name": "CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+      "recorded_sha256_now": "041a487c30a8ee3d96dbf347e26e110c2808741b325769a910217d8bcfbeb710",
+      "result_md_sha256": "442a4f7531d6818c294d9f9a0b813723574791e858400ed278f8fc5f97d5b88a",
+      "summary_json_sha256": "4773df2d0b7198741f59b3b478c903fcc833b8e32f6aaddf5bf0ca9aa9714a13",
+      "archived_original_result_sha256": "836e8fbcfa1209d3dda1bc3947f684d65a613001282472392e397a84e3f2cbf4",
+      "archived_original_summary_sha256": "30e12eb8bfc6d404541a9748c2c6357244352dc8823c0e7827a3db3a0cdb4aae",
+      "result_class": "CR129_OCTET_COMPOSITE_3BODY_MASS_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR129b",
+      "dir_name": "CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "magnitude_lock_sha256",
+      "lock_actual_sha256": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd",
+      "recorded_sha256_now": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd",
+      "result_md_sha256": "be3e314b46c5532b8be755ebbb0b699b8c55fbb872bb9cad96e4b06f2c765efc",
+      "summary_json_sha256": "57396c8ac8d63b9e67af6de28f2a839e2940feec532a2a9f896399296dcccf80",
+      "archived_original_result_sha256": "2eb5e87a920b60f989f2dd39f4efb0ea356eeadbc70803eac47db0904200fb22",
+      "archived_original_summary_sha256": "98c90e831e9586e2ea092190c1af95e045cc601558c0841499fd494f5114d58a",
+      "result_class": "CR129b_3BODY_S_DEBIT_MAGNITUDE_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR129c",
+      "dir_name": "CR129c_3BODY_UNIVERSAL_GENERATOR_GROUND_BARYON",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "universal_lock_sha256",
+      "lock_actual_sha256": "bfd5ab8c325656ffd3c34c88ab90bb0d1c486046241cf6a07c07506441bd8090",
+      "recorded_sha256_now": "bfd5ab8c325656ffd3c34c88ab90bb0d1c486046241cf6a07c07506441bd8090",
+      "result_md_sha256": "924e7eedf5ea097bdda2891589d4c209df74d53d5d479802e67515eb74ad0d5b",
+      "summary_json_sha256": "5de2f436e9920a610d4a0ef464535a5c099c8779330893305def3a96470b6fac",
+      "archived_original_result_sha256": "b37cb070b8880de7c8fb511e8106279dd4a1f365039262cd61592152bce80929",
+      "archived_original_summary_sha256": "5f63dcf7e3493225ed5df44141c9b0707fed0844e8c76ffe8dd994a22cbc78f7",
+      "result_class": "CR129c_3BODY_UNIVERSAL_GENERATOR_SEALED"
+    },
+    {
+      "cr_id": "CR130",
+      "dir_name": "CR130_2BODY_3BODY_STRUCTURAL_BRIDGE",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "bridge_lock_sha256",
+      "lock_actual_sha256": "0a40209bc4c564a6437e8c1d01df2b294e35c7459340c244e28c3448bf73549c",
+      "recorded_sha256_now": "0a40209bc4c564a6437e8c1d01df2b294e35c7459340c244e28c3448bf73549c",
+      "result_md_sha256": "ac38679e3c150449aa15def37a438ec6f600cd303a1969bf5faba4c29ada077a",
+      "summary_json_sha256": "21ab0933a683a54628e1bf598a9449519e129d6d2daa6bc47e8eb4fdbb2832e0",
+      "archived_original_result_sha256": "3be27eb9191028b68e734d9749e38b9c96c8f0ea08ff186bcc55bfad2310c9a3",
+      "archived_original_summary_sha256": "22928c5fdde7cc9cbd9cc8f59a2f7dab392dcc03e1b5507e964904763931ad0f",
+      "result_class": "CR130_2BODY_3BODY_STRUCTURAL_BRIDGE_SEALED"
+    },
+    {
+      "cr_id": "CR131",
+      "dir_name": "CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "2aef1403da7f764a7e0666d12ea9ba974b09719154ce8f1f5da5d3fd456caceb",
+      "recorded_sha256_now": "2aef1403da7f764a7e0666d12ea9ba974b09719154ce8f1f5da5d3fd456caceb",
+      "result_md_sha256": "388a4029f0621d89234598cc6d1ee604e078700238e0271a6f8e816110e1d123",
+      "summary_json_sha256": "022db0daad533007756162351727cd583d9e4feeaa6e5d0c8abc3d7927978a1a",
+      "archived_original_result_sha256": "5c3c148c7cfe0d64260ee16b4762d5d67256234d2af243a27e9856f220a0e213",
+      "archived_original_summary_sha256": "e90bb5848949ef1713e9df0abb6b6f4d9ea83c1a19399fde95bef9de3988fce7",
+      "result_class": "CR131_V4_1_SINGLE_WRITE_FERMION_LADDER_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR132",
+      "dir_name": "CR132_1BODY_CARRIER_LATTICE_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32",
+      "recorded_sha256_now": "fbc25a887e01e8b6d5d84bb7a0fba8b4e26e1eca1b471caf3043dc9ba9559a32",
+      "result_md_sha256": "5c2903acb54275aef413863226cf4fcef6f5514c15805ac03cf2ba3aade8ac36",
+      "summary_json_sha256": "9014dc8cd29bbce6b2256a7d059d9abf107a0a62a52ac33e6ae6087e90ec58b4",
+      "archived_original_result_sha256": "6897acca61d2407e8b1dc5ee36922be15e949ab1f37d8d6839d8c47d928ba078",
+      "archived_original_summary_sha256": "4495b9d557717bc67a309c5bccaeb6b159514c589041095b7bc9caed0c721145",
+      "result_class": "CR132_1BODY_CARRIER_LATTICE_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR133",
+      "dir_name": "CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "1e7e08d8764ebdfeb4c4756495c78fb94236f63eea277f9d970db2ad3ddcf1e4",
+      "recorded_sha256_now": "1e7e08d8764ebdfeb4c4756495c78fb94236f63eea277f9d970db2ad3ddcf1e4",
+      "result_md_sha256": "cb3710c42af5d429794902f1406eb770fdf8e40f50ebef1a5fe0455fb5f8bdb9",
+      "summary_json_sha256": "41bedcd8f590a525ede786644014fafec23228f997b346959b194453230a56ca",
+      "archived_original_result_sha256": "8b02eb267930bd04ab7500ec54395dc26e50d060e8e20c43594152066c1861bf",
+      "archived_original_summary_sha256": "82fa822aadf0b40042beec57c3626daf5ce4310040ac7ffd0399c4a336e341d7",
+      "result_class": "CR133_OUTER_BINARY_NEUTRAL_FERMION_LADDER_LAW_V1_SEALED"
+    },
+    {
+      "cr_id": "CR134",
+      "dir_name": "CR134_SOURCE_SUPPORT_PACKET_LAW_V1",
+      "status": "ALREADY_REPAIRED",
+      "field_name": "law_lock_sha256",
+      "lock_actual_sha256": "6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997",
+      "recorded_sha256_now": "6ab4944278530a359382303a4bacef4a1bcc8a939b7307925615a525aadcd997",
+      "result_md_sha256": "46c77cd912b932125228c8923e4705c4d36d0c1e2df14294f44d086d37856aff",
+      "summary_json_sha256": "cd43d402f6306e955a955281fa4d04e7165c2d31938d09fbfc9255fd185877e4",
+      "archived_original_result_sha256": "4b3b6bc2b478e153c506b350792cd1acd3054a783b540cc873c08903523131fd",
+      "archived_original_summary_sha256": "43381e4db213a40515479429929d64bc9a40ca70c598899349d63bc8c6ebb482",
+      "result_class": "CR134_SOURCE_SUPPORT_PACKET_LAW_V1_SEALED"
+    }
+  ],
+  "predictions": [
+    {
+      "name": "P1_ten_targets_identified",
+      "pass": true,
+      "details": "len(targets) = 10 (expected 10)"
+    },
+    {
+      "name": "P2_all_lock_jsons_exist",
+      "pass": true,
+      "details": "Each target directory contains exactly one *lock*.json file."
+    },
+    {
+      "name": "P3_all_result_md_exist",
+      "pass": true,
+      "details": "All 10 *_result.md files exist at expected paths."
+    },
+    {
+      "name": "P4_all_summary_json_parse",
+      "pass": true,
+      "details": "All 10 *_summary.json files exist and parse as JSON dicts."
+    },
+    {
+      "name": "P5_all_targets_repaired_or_already_repaired",
+      "pass": true,
+      "details": "Every target has status REPAIRED or ALREADY_REPAIRED (no anomalies, no errors)."
+    },
+    {
+      "name": "P6_all_recorded_hashes_match_actual_lock_hashes",
+      "pass": true,
+      "details": "Post-repair recorded *_lock_sha256 fields match SHA-256 of their lock JSON for all 10 CRs."
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_verdict_line_preserved",
+      "pass": true,
+      "details": "All 10 target result_class fields preserved bit-identical from archived originals.",
+      "load_bearing_deletion": "If any result_class value were altered, this WC would FAIL."
+    },
+    {
+      "name": "WC2_summary_json_parseable",
+      "pass": true,
+      "details": "All 10 summary.json files parse as valid JSON post-repair.",
+      "load_bearing_deletion": "If any summary.json were corrupted (e.g. missing brace), this WC would FAIL."
+    },
+    {
+      "name": "WC3_archived_originals_hash_match",
+      "pass": true,
+      "details": "All 10 archived originals hash to the values recorded in their original_sha256.txt.",
+      "load_bearing_deletion": "If any archived original were edited or corrupted, this WC would FAIL."
+    },
+    {
+      "name": "WC4_post_repair_self_hash_matches_actual",
+      "pass": true,
+      "details": "All 10 recorded *_lock_sha256 fields match the actual SHA-256 of their lock JSON.",
+      "load_bearing_deletion": "If any lock JSON were modified or any recorded hash reverted, this WC would FAIL."
+    },
+    {
+      "name": "WC5_audit_verdict_reference_resolves",
+      "pass": true,
+      "details": "AUDIT_VERDICT path exists=True; hash matches expected=2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+      "load_bearing_deletion": "If the audit verdict file were moved/edited, the recorded reference would be unverifiable; this WC would FAIL."
+    },
+    {
+      "name": "WC6_replacement_records_cross_refs_resolve",
+      "pass": true,
+      "details": "All 10 REPLACEMENT_RECORD.md files exist and their cross-referenced audit / event artifacts exist.",
+      "load_bearing_deletion": "If any REPLACEMENT_RECORD or cross-referenced audit file were missing, this WC would FAIL."
+    },
+    {
+      "name": "WC7_audit_correction_block_well_formed",
+      "pass": true,
+      "details": "All 10 audit_correction blocks present with all 12 required fields and verdict_unchanged=True.",
+      "load_bearing_deletion": "If the audit_correction block were removed or any required field stripped, this WC would FAIL."
+    },
+    {
+      "name": "WC8_audit_correction_records_actual_correction",
+      "pass": true,
+      "details": "All 10 audit_correction blocks record a true correction (old_value != new_value, both valid 64-char SHA-256) and new_value matches the actual on-disk lock SHA-256.",
+      "load_bearing_deletion": "If the runner clobbered old_value during deep_replace (the bug found mid-seal on 2026-06-17), this WC would FAIL. Closes the semantic gap WC7 missed."
+    }
+  ],
+  "falsifier": "Re-executing CR141_runner.py on the post-seal state MUST produce zero new REPAIRED entries and zero archive writes; any deviation falsifies v1.0.",
+  "cryptographic_chain": {
+    "CR135_audit_verdict_sha256": "2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661",
+    "CR141_source_manifest_csv": "cb047c0de2faeca021ea4d4b34daf47cf01ea75ecc58159e4b487c536b6bb44d",
+    "CR141_repair_manifest_csv": "6d61e65e839ef833567b28b1540447c80455a75b075bd40ded20c3d491f3973a",
+    "CR141_predictions_csv": "44827544459952ce74f4a43b105e942e7b7e6b7729bdf622d6ef1d8251e3425d",
+    "CR141_wrong_controls_csv": "1a3b1ca5393b59a0c38cbc5ebe1d18f50b3a946d22ef9be9033f8bbc503d0c1f",
+    "CR141_repair_lock_json": "f92ac88090a6927cdcdd7fb5d875708ad3c70ba071d37560b3b0b6ef71b6bc0a"
+  }
+}

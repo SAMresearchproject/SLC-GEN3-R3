@@ -1,0 +1,77 @@
+{
+  "anchor_id": "CR109_PBH_ABUNDANCE_PUBLIC_REFERENCE_ANCHOR",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR108 (Planck Omega_b) -> CR107 (SPARC) -> CR104a (Layer 4)",
+  "sealed_at_utc": "2026-06-14T02:55:49Z",
+  "intake_class": "PUBLIC_REFERENCE_DATA_NO_MATCH_REVEALED",
+  "upstream_sha256": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR107_sparc_anchor.json": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "pbh_public_reference": {
+    "source_compilation": {
+      "title": "Primordial Black Holes as Dark Matter (constraint compilation)",
+      "authors": "Carr, Kuhnel, Sandstad",
+      "journal": "PRD 94 083504 (2016)",
+      "arxiv": "1607.06077"
+    },
+    "constraint_envelope": [
+      {
+        "mass_window_M_sun": "1e-11 to 1e-9",
+        "f_PBH_upper_limit": 0.01,
+        "method": "femtolensing of GRBs / asteroid-mass PBH bound",
+        "source": "Barnacka+ 2012 PRD 86 043001 (envelope)"
+      },
+      {
+        "mass_window_M_sun": "1e-8 to 1e-6",
+        "f_PBH_upper_limit": 0.1,
+        "method": "Subaru HSC microlensing of M31",
+        "source": "Niikura+ 2019 Nature Astron 3 524"
+      },
+      {
+        "mass_window_M_sun": "1e-6 to 1e-3",
+        "f_PBH_upper_limit": 0.1,
+        "method": "Kepler stellar microlensing",
+        "source": "Griest+ 2014 ApJ 786 158"
+      },
+      {
+        "mass_window_M_sun": "1e-3 to 1.0",
+        "f_PBH_upper_limit": 0.1,
+        "method": "EROS-2 + OGLE LMC/SMC microlensing",
+        "source": "Tisserand+ 2007 A&A 469 387; Wyrzykowski+ 2011 MNRAS 416 2949"
+      },
+      {
+        "mass_window_M_sun": "1.0 to 1e2",
+        "f_PBH_upper_limit": 0.1,
+        "method": "EROS-2 + OGLE long-event tails",
+        "source": "Tisserand+ 2007 A&A 469 387 (envelope)"
+      },
+      {
+        "mass_window_M_sun": "1e2 to 1e3",
+        "f_PBH_upper_limit": 0.01,
+        "method": "Segue 1 dynamical heating / wide binary stability",
+        "source": "Brandt 2016 ApJ 824 L31"
+      }
+    ],
+    "summary_statement": "Across 1e-11 to 1e3 solar masses, f_PBH = Omega_PBH/Omega_DM is constrained to <= O(1e-1) over most of the range, with sub-percent windows. PBHs cannot constitute the bulk of dark matter in these mass windows."
+  },
+  "sam_pbh_reading_relevant": {
+    "id": "CR104a_PRED_3_compatible_with_CR109_envelope",
+    "description": "If dark matter is cumulative A-field (not particles), the PBH fraction must satisfy f_PBH << 1 across all observed mass windows. The CR109 envelope is consistent with this structural prediction WITHOUT introducing a particle DM candidate.",
+    "free_parameters": 0,
+    "test_state_now": "AWAITING_CR110_THREE_MODE_CLOSURE_APPEAL"
+  },
+  "what_this_anchor_provides": [
+    "the public PBH f_PBH constraint envelope across 1e-11 to 1e3 solar masses",
+    "a sealed reference for CR110 three-mode closure appeal",
+    "an explicit registry of CR104a_PRED_3 (no DM particle) and its compatibility scope"
+  ],
+  "what_this_anchor_does_NOT_do": [
+    "compare any SAM substrate prediction quantitatively to PBH envelope (deferred to CR110)",
+    "fit any parameter against the envelope",
+    "modify any prior CR verdict"
+  ],
+  "free_parameters_total": 0
+}

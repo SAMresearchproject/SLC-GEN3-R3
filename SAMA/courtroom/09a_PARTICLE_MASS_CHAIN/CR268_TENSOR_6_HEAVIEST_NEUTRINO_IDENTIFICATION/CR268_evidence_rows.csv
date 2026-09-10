@@ -1,0 +1,9 @@
+item,value,detail
+G1_three_paths_to_tensor6,True,h*d=6; sqrt(h*Theta)=6; CR001 alpha_H*D=6
+G2_smallest_CR262_carrier,True,"min{6, 9, 18, 54} = 6 = h*d"
+G3_CR005ab_multiplicative_chain,True,1 -> 2 -> 36 via x_h then x_Theta
+G4_CR001_ratio_reduction,True,1 : sqrt(2) : 6 = 1 : sqrt(h_hat) : (h_hat*d_hat)
+G5_splitting_ratio_35,True,Delta m^2_31 / Delta m^2_21 = (h*Theta-1)/(h-1) = 35
+G6_cross_sector_enumeration,True,6 sealed CRs reference tensor 6
+G7_two_mirror_reading,True,tensor 6 = smallest packet activating both mirror and 3D dofs
+G8_precommit_and_forbidden_file_guard,True,opened=0; forbidden=0

@@ -1,0 +1,9 @@
+lane,formula,value_s,readout,status
+CR116_GW_channel,18 = R^2/2^D = alpha_H*D^2; QP092F massless phase_speed=c,0.0,"two trace-zero transverse tensor polarizations, massless, phase_speed=c",MASSLESS_M18_CARRIER_PACKET
+fresh_release_engine_delay,(5/8)*(r_release/Rs)^4*(Rs/c),1.7014577527290415,residual_sigma=0.770844945419169,ACTIVE_SAM_SOURCE_RELEASE_DIFFERENTIAL
+observed_GW170817_GRB170817A_delay,primary external observed delay,1.74,sigma_s=0.05,OBSERVED_REFERENCE
+residual_after_fresh_external_mass,observed - fresh_release_engine_delay,0.03854224727095845,abs_percent_error=2.2150716822389915,WITHIN_1SIGMA
+formal_static_A_integral_boundary_to_release,"(Rs/c)*ln(r_release/Rs), formal first-order control only",7.774813823798601e-05,observed/plain=22379.957120952313,REJECTED_AS_SECONDS_SCALE_EXPLANATION
+formal_light_crossing_boundary_to_release,(r_release-Rs)/c,0.00045403255131580843,,LOCAL_GEOMETRY_CONTEXT
+post_release_shared_road_differential,same A-road after release,0.0,,ZERO_UNDER_SHARED_A_ROAD
+one_sided_40Mpc_A_road_wrong_control,light couples to full local A-road; GW does not,95248894.90464783,one_sided_to_observed=54740744.19807346,REJECTED_WRONG_CONTROL

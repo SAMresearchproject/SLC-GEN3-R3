@@ -1,0 +1,51 @@
+{
+  "artifact": "CMBP002_CLASS_CAMB_ADAPTER",
+  "result_class": "CMBP002_CLASS_CAMB_ADAPTER_BUILT",
+  "test_type": "FORWARD_ADAPTER_BUILD",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "free_parameters_introduced": 0,
+  "external_data_intake": false,
+  "solver_defaults_declared": true,
+  "precision_score_claim": false,
+  "sam_locked_inputs": {
+    "Omega_b": 0.049299011266101,
+    "Omega_m_eff": 0.313760915569057,
+    "H0": 67.36,
+    "omega_b": 0.022368783502886,
+    "omega_m": 0.142364923997121
+  },
+  "adapter_derived": {
+    "H0": 67.36,
+    "h": 0.6736,
+    "Omega_b": 0.049299011266101,
+    "Omega_m_eff": 0.313760915569057,
+    "Omega_lambda_flat": 0.686239084430943,
+    "omega_b": 0.022368783502886,
+    "omega_m": 0.142364923997121,
+    "omega_cdm": 0.119996140494235
+  },
+  "solver_defaults": {
+    "T_cmb": 2.7255,
+    "N_eff": 3.046,
+    "A_s": 2.100549e-09,
+    "n_s": 0.9649,
+    "tau_reio": 0.0544,
+    "l_max": 2500
+  },
+  "checks": {
+    "fixed_values_present": true,
+    "omega_cdm_positive": true,
+    "h_matches_H0": true,
+    "flat_lambda_positive": true,
+    "free_parameters_introduced": 0,
+    "external_data_intake": false
+  },
+  "outputs": {
+    "class_ini": "artifacts\\cmbp002\\class_sam_fixed.ini",
+    "camb_ini": "artifacts\\cmbp002\\camb_sam_fixed.ini",
+    "parameter_policy_csv": "artifacts\\cmbp002\\cmbp002_parameter_policy.csv",
+    "manifest_json": "artifacts\\cmbp002\\cmbp002_adapter_manifest.json"
+  },
+  "next_frontier": "CMBP003_TT_SPECTRUM_COMPARISON"
+}

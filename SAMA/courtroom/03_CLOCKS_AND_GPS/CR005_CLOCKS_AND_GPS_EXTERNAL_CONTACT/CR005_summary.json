@@ -1,0 +1,45 @@
+{
+  "test_id": "CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT",
+  "verdict": "CR005_PASS_SCOPED_CLOCKS_GPS_EXTERNAL_CONTACT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SCOPED_CLOCKS_GPS",
+  "sam_row": {
+    "candidate": "sam_A_clock_plus_declared_SR",
+    "A_scale": 1.0,
+    "gravity_sign": 1.0,
+    "include_sr": true,
+    "sr_sign": 1.0,
+    "A_ground": 1.3906970136005769e-09,
+    "A_orbit": 3.3396295475283666e-10,
+    "gps_orbit_speed_m_s": 3873.957505512686,
+    "gravity_exact_us_day": 45.650919844320015,
+    "gravity_weak_us_day": 45.65091134222237,
+    "sr_exact_us_day": -7.213602515321327,
+    "sr_weak_us_day": -7.213599822661272,
+    "net_exact_us_day": 38.43731732899869,
+    "net_weak_us_day": 38.4373115195611,
+    "factory_frequency_hz": 10229999.995448915,
+    "full_packet": true
+  },
+  "wrong_control_full_packet_count": 0,
+  "exact_weak_delta_us_day": {
+    "gravity": 8.502097642804074e-06,
+    "sr": 2.692660054925966e-06,
+    "net": 5.809437588766286e-06
+  },
+  "pass_conditions": {
+    "no_older_test_outputs_used": true,
+    "external_data_required": true,
+    "free_parameters_introduced_zero": true,
+    "trace_ascii_clean": true,
+    "sam_gravity_gain_in_external_range": true,
+    "sam_sr_loss_in_external_range": true,
+    "sam_net_correction_in_external_range": true,
+    "sam_factory_frequency_in_external_range": true,
+    "exact_and_weak_limits_agree": true,
+    "wrong_controls_do_not_match_full_packet": true
+  },
+  "rule_9_falsification": "This test could have falsified the claim that the SAM weak-field A-clock readout from A(r)=r_s/r recovers the GPS gravitational clock gain, and that the declared SR orbital motion correction yields the observed net GPS daily correction and factory frequency offset without fitted parameters."
+}

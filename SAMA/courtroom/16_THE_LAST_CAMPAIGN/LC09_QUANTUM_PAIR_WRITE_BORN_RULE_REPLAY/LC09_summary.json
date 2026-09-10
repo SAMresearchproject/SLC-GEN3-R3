@@ -1,0 +1,97 @@
+{
+  "artifacts": {
+    "branch11_layers": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_branch11_layers.csv",
+    "checks": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_claim_boundaries.csv",
+    "formula_manifest": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_formula_manifest.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/HASHES.txt",
+    "qp014_probability_recompute": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp014_probability_recompute.csv",
+    "qp015_pair_probability_recompute": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_qp015_pair_probability_recompute.csv",
+    "quantum_replay_metrics": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_quantum_replay_metrics.csv",
+    "replay_layers": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_replay_layers.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC09_quantum_pair_write_born_rule_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_summary.json",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC09_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY/LC09_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 96,
+    "total": 96
+  },
+  "claim_boundaries": [
+    "LC09 replays route-weight, pair-write, ledger-commit, and stable-selector structure; it does not claim a complete interpretation of quantum measurement.",
+    "Probability normalization must come from native open route weights before ledger resolution, not from a post-result patch.",
+    "A_leak,total is a protected-window/write-candidacy signal and is not the phase/action amount.",
+    "CR076 remains BOUNDARY because explicit integral form is not yet present, even though phase functional and A exposure are present.",
+    "Live disk search finds only the QN ladder references for QN019/QN020, not executed QN019/QN020 folders; LC09 does not use stale memory as proof.",
+    "QN005 network Born surface uses open-route fields only; final ledger outcome and protected logical identity fields stay forbidden."
+  ],
+  "generated_utc": "2026-06-19T10:01:49+00:00",
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": "0.026525823848649222628147293895",
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": "1.125000000000000000000000000000",
+    "carrier_side": "1/8",
+    "carrier_side_decimal": "0.125000000000000000000000000000",
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": "0.562500000000000000000000000000",
+    "retained_side": "7/8",
+    "retained_side_decimal": "0.875000000000000000000000000000",
+    "split_fraction": "1/8",
+    "split_fraction_decimal": "0.125000000000000000000000000000",
+    "surface_debit": "3/4",
+    "surface_debit_decimal": "0.750000000000000000000000000000"
+  },
+  "pass_condition": {
+    "constant_mutation": "forbidden",
+    "final_outcome_leak": "forbidden",
+    "formula_mutation": "forbidden",
+    "normalization_patch": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden",
+    "threshold_swap": "forbidden"
+  },
+  "quantum_replay": {
+    "A_share": 0.08333333333333333,
+    "A_side": 0.041666666666666664,
+    "A_write_midpoint": 0.5,
+    "D": 3,
+    "R": 12,
+    "qn005_forbidden_fields_used": false,
+    "qn005_multi_node_rows": 84,
+    "qn005_network_route_rows": 49,
+    "qn005_network_routes": [
+      "QUBIT-CL-001",
+      "QUBIT-NL-001",
+      "QUBIT-UNK-001"
+    ],
+    "qn019_live_artifact_count": 0,
+    "qn020_live_artifact_count_excluding_ladder": 0,
+    "qp014_max_closed_probability_error": 0.0,
+    "qp014_max_open_normalization_error": 1.1102230246251565e-16,
+    "qp014_probability_surface_rows": 7,
+    "qp014_route_weight_rows": 49,
+    "qp015_bridge_rows": 1176,
+    "qp015_primary_pair_probability_sum": 1.0,
+    "qp015_sample_summary_rows": 42,
+    "qp016_boundary_reorganization_candidates": 1,
+    "qp016_route_pairs": 28,
+    "qp016_stable_selected_modes": 1,
+    "qp016_transient_commit_tails": 26
+  },
+  "result": "LC09_PASS_QUANTUM_PAIR_WRITE_BORN_RULE_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC09",
+  "task_name": "quantum pair-write Born-rule lane replay",
+  "wrong_controls": {
+    "rejected": 9,
+    "tested": 9
+  }
+}

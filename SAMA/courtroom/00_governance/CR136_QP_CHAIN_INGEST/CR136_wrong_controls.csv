@@ -1,0 +1,8 @@
+name,pass,details,load_bearing_deletion
+WC1_external_root_exists,True,C:\VS\quantum_phase\artifacts present = True,"If the external qp_chain root is missing, ingest cannot proceed; this WC would FAIL."
+WC2_manifest_covers_all_consuming_CR_references,True,required: 42; covered: 42; missing: none,"If any consuming-CR reference were not in the manifest, this WC would FAIL."
+WC3_no_duplicate_internal_paths,True,no duplicate destination paths,"If two distinct artifacts mapped to the same internal path, the second copy would clobber the first; this WC would FAIL."
+WC4_internal_copies_match_consumer_recorded_sha,True,internal-sha matches consumer-recorded-sha on 42 of 42 cleanly ingested artifacts,"If any internal copy's SHA disagreed with what CR-120/121/122 recorded, the chain of custody breaks; this WC would FAIL."
+WC5_no_anomalies,True,anomalous statuses: 0,"If any target had a SHA mismatch, was missing, or had internal drift, this WC would FAIL."
+WC6_audit_verdict_reference_resolves,True,AUDIT_VERDICT exists=True; hash matches,"If the audit verdict moved/edited, the recorded reference would be unverifiable."
+WC7_CR122_qp092h_reference_resolves_internally,True,qp092h internal copy = upstream_artifacts\qp092\qp092h_baryon_cmb_carrier_gate\qp092h_summary.json; SHA matches CR-122 recorded value = True,"If CR-122's qp092h reference does NOT resolve to an internal artifact with the expected SHA, the carrier-compression gate cannot be audited from inside the repo."

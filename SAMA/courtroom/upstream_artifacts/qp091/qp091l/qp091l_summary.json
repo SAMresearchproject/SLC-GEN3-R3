@@ -1,0 +1,71 @@
+{
+  "artifact": "QP091L_PRECISION_AUDIT_DIRECT_GENERATOR_REBUILD",
+  "generated_at_utc": "2026-06-15T00:37:33.800672+00:00",
+  "result_class": "PASS_QP091L_DIRECT_GENERATOR_PRECISION_AUDIT__ROUNDED_CHAIN_FOUND__20DP_REBUILD_EMITTED__COST_LAYER_SEPARATED",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "direct_mass_authority": "C:\\VS\\Stam_model-A-v1.0\\sam\\mass.py",
+  "rounded_chain_detected": true,
+  "full_bounce_budget": "9/8",
+  "visible_write_half": "9/16",
+  "hidden_substrate_half": "9/16",
+  "direct_masses_MeV_20dp_display": {
+    "electron": "0.51094780945442774822",
+    "muon": "105.68646851050813495476",
+    "Z": "91161.47268610524770338088",
+    "Higgs": "125218.67032386403298005462"
+  },
+  "direct_raw_pre_projection_shares": {
+    "4e": "0.335405055074613433959155751760",
+    "2e2mu": "0.333333333333333333333333333333",
+    "4mu": "0.331261611592053232707510914907"
+  },
+  "direct_projected_category_shares": {
+    "4e": "0.251553791305960075469366813820",
+    "2e2mu": "0.500000000000000000000000000000",
+    "4mu": "0.248446208694039924530633186180"
+  },
+  "rounded_qp091k_projected_category_shares": {
+    "4e": "0.251553770457637446087647224591",
+    "2e2mu": "0.500000000000000000000000000000",
+    "4mu": "0.248446229542362553912352775409"
+  },
+  "direct_minus_rounded_projected_share": {
+    "4e": "0.000000020848322629381719589229",
+    "2e2mu": "0.000000000000000000000000000000",
+    "4mu": "-0.000000020848322629381719589229"
+  },
+  "particle_bounce_costs_abs": {
+    "electron": "0.006631455962162306000000000000",
+    "muon": "0.003315727981081153000000000000"
+  },
+  "cost_adjusted_category_shares_abs_cost": {
+    "4e": "0.249885258420134875571482600933",
+    "2e2mu": "0.500004803387118577747045754799",
+    "4mu": "0.250109938192746546681471644268"
+  },
+  "wrong_signed_cost_category_shares": {
+    "4e": "0.246581342769721958652148224435",
+    "2e2mu": "0.499981325884499712213794183820",
+    "4mu": "0.253437331345778329134057591744"
+  },
+  "projection_only_4e_minus_4mu": "0.003107582611920150938733627639",
+  "cost_adjusted_4e_minus_4mu": "-0.000224679772611671109989043335",
+  "common_bounce_cancel_error": "0.000000000000000000000000000000",
+  "model_p_values_df2": {
+    "ROUNDED_QP091K_PROJECTION": "0.631052131391082500000000000000",
+    "DIRECT_GENERATOR_PROJECTION_ONLY": "0.631052235911646600000000000000",
+    "DIRECT_GENERATOR_WITH_ABS_COST_LAYER": "0.621652498955911100000000000000",
+    "WRONG_SIGNED_COST_SUBTRACT_NEGATIVE": "0.596204946624201000000000000000",
+    "IDEAL_1_2_1": "0.622286906414805900000000000000"
+  },
+  "checks_passed": 12,
+  "checks_total": 12,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "external_values_used_as_generation_inputs": false,
+  "physical_branching_ratios_derived": false,
+  "arbitrary_precision_claimed": false,
+  "scientific_reading": "The QP091H/K projection chain was precision-limited by rounded intermediate artifacts. Rebuilding from direct sam.mass values moves the projection-only category shares by about 2e-8, so rounding is real but not the source of the 4e versus 4mu asymmetry. The threshold window layer favors 4e; the separate abs(r_bounce) particle-cost layer nearly cancels that and slightly favors 4mu. The signed-negative subtraction path is rejected.",
+  "next_frontier": "QP091M_DECIDE_WHETHER_COST_LAYER_IS_PRE_PROJECTION_OPERATOR_OR_WRONG_CONTROL"
+}

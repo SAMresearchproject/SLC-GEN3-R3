@@ -1,0 +1,4 @@
+perturbation_id,description,affected_manifest_entries,detected,downstream_impact_expected,status
+PERT1_DROP_QP019,Drop qp019 mass surface bridge,5,True,Phase4 mass values would be unrecoverable,perturbation_would_break_chain
+PERT2_SWAP_QP071_SUK_GATE,Swap qp071 parent_suk_gate_draft,5,True,SUK gate bridge breaks; QP073 Phase4 freeze would not finalize,perturbation_would_break_chain
+PERT3_BYPASS_QP073,Bypass qp073 Phase4 final freeze post-SUK-HCO,8,True,Phase4 row partition not finalized; QP075 campaign closure invalid,perturbation_would_break_chain

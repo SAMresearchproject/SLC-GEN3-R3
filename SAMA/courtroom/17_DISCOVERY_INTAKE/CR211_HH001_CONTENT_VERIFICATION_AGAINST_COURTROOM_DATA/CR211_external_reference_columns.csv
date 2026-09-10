@@ -1,0 +1,5 @@
+hh001_column,hh001_builder_source,courtroom_native_source_found,rows_populated,frontier_dash_rows,status
+MATTER,embedded ATOMIC_MASS table in HH001_build_sis_table.py,no,118,8,REFERENCE_NOT_COURTROOM_DATA
+CLOCK,embedded clock_value rule in HH001_build_sis_table.py,partial context only: CR070 notes Tc/Pm holes; no 126-row clock source,118,8,REFERENCE_NOT_COURTROOM_DATA
+LIGHT,embedded LIGHT_NM table in HH001_build_sis_table.py,no,91,35,REFERENCE_NOT_COURTROOM_DATA
+ACTION,embedded NUCLEAR_SPIN table in HH001_build_sis_table.py,no 126-row nuclear-spin source,102,24,REFERENCE_NOT_COURTROOM_DATA

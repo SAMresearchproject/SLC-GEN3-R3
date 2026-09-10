@@ -1,0 +1,86 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION",
+  "task": "Build and execute CR005c Starbreaker escape-before-closure timing operationalization",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "record_class": "CONSTRUCTIVE_TIMING_OPERATIONALIZATION",
+  "objective": "Determine whether the frozen Starbreaker three-stage carrier trajectories support an operational tau_escape < tau_closure ordering, using returned carrier-matter history 101 contacts and carrier-matter ending-zero histories without importing a physical timing law from the gravitational-wave branch.",
+  "source_use": "Prior Starbreaker and gravitational-wave records are inputs and hypothesis context only; no predecessor verdict is retested.",
+  "primary_unit": {
+    "unit": "unique (scenario_id, carrier_atom_index) occurrence",
+    "anti_pseudoreplication": "A carrier participating in multiple relations is counted once in primary timing statistics.",
+    "primary_population": "carriers with at least one post-collapse ending-zero carrier-matter exit and at least one carrier-matter 101 return in the same scenario"
+  },
+  "stored_stage_parameter": {
+    "seed": 0.0,
+    "collapse": 1.0,
+    "final": 2.0,
+    "interpolation": "piecewise-linear relative position between stored stages",
+    "unit": "dimensionless stored-stage affine parameter",
+    "physical_time_claim": false
+  },
+  "operational_dictionary": {
+    "relation_surface": "carrier-matter separation d equals the frozen Starbreaker contact radius r_contact = 0.076",
+    "release_surface": "outward crossing of the relation surface; this is a local contact-release surface, not a horizon",
+    "escape_time": "earliest outward crossing time among one carrier occurrence's ending-zero carrier-matter relations",
+    "postcollapse_escape_time": "earliest outward crossing on collapse-to-final among history 010 or 110 carrier-matter relations",
+    "closure_time": "earliest inward crossing on collapse-to-final among history 101 carrier-matter relations",
+    "scenario_closure_fronts": "10th, 50th, and 90th percentiles of unique-carrier closure times within one scenario",
+    "history_100": "seed contact exits before collapse and remains open",
+    "history_010": "contact forms by collapse, exits before final, and remains open",
+    "history_110": "seed/collapse contact exits before final and remains open",
+    "history_101": "seed contact opens by collapse and returns before final"
+  },
+  "crossing_solver": {
+    "equation": "norm(r_start + s*(r_end-r_start))^2 = r_contact^2",
+    "root_domain": "s in [0,1] on the one segment whose endpoint bits change",
+    "escape_direction": "inside-or-on to outside",
+    "closure_direction": "outside to inside-or-on",
+    "numerical_tolerance": 1e-12
+  },
+  "timing_ladder": {
+    "strong": "In both geometries and in discovery, validation, and final seed doors, more than 50 percent of dual post-collapse carrier occurrences satisfy tau_escape_post < tau_closure, and every cell has positive median closure-minus-escape margin.",
+    "directional": "Overall more than 50 percent satisfy the inequality, both geometry-level median margins are positive, and at least four of six frozen geometry-by-door cells have fraction above 0.50.",
+    "boundary": "The relation-time surface is constructed and source-reconciled, but the directional ordering is not stable enough for promotion.",
+    "fail": "A frozen source, roster, carrier-matter relation count, crossing root, or invariant control fails."
+  },
+  "seed_doors": {
+    "discovery": [910001, 910002],
+    "validation": [910003],
+    "final": [910004]
+  },
+  "controls": [
+    "all frozen source hashes match before and after execution",
+    "exact 96-scenario and 482112-atom roster",
+    "exact 18 carrier, 126 matter, 18 ledger-shadow typing per 162-slot ledger",
+    "carrier-matter history counts reconstructed exactly against the frozen relation-history aggregate",
+    "every transition crossing has one valid root and the expected normal-velocity sign",
+    "endpoint exchange preserves crossing time",
+    "global translation and rigid rotation preserve crossing time",
+    "a synthetic affine crossing has its analytic time",
+    "half-radius and double-radius controls do not reproduce the frozen history census",
+    "wrong history-bit order does not reproduce the frozen asymmetric history census",
+    "no physical seconds, strain, distance, horizon, signal speed, fitted parameter, or SAM registry mutation is emitted"
+  ],
+  "claim_ceiling": {
+    "may_establish": [
+      "an operational local relation surface native to frozen Starbreaker",
+      "dimensionless stored-stage escape and closure crossing times",
+      "whether ending-zero carrier contact release precedes 101 carrier contact return",
+      "the smallest source-side timing interface needed by a later gravitational-wave bridge"
+    ],
+    "may_not_establish": [
+      "a physical escape time or closure time in seconds",
+      "a global release surface, event horizon, or causal signal speed",
+      "gravitational-wave emission, strain, luminosity, or detector observables",
+      "a universal law tau_Theta_escape < tau_closure",
+      "an installed SAM operator"
+    ]
+  },
+  "verdict_ladder": {
+    "strong": "PASS_OPERATIONAL_ESCAPE_BEFORE_CLOSURE_STABLE_ACROSS_FROZEN_DOORS__PHYSICAL_TIME_OPEN",
+    "directional": "PASS_DIRECTIONAL_OPERATIONAL_ESCAPE_BEFORE_CLOSURE__TIME_RESOLVED_DYNAMICS_REQUIRED",
+    "boundary": "BOUNDARY_OPERATIONAL_TIMING_SURFACE_CONSTRUCTED__ESCAPE_BEFORE_CLOSURE_NOT_STABLE__PHYSICAL_TIME_OPEN",
+    "fail": "FAIL_STARBREAKER_ESCAPE_CLOSURE_TIMING_CONSTRUCTION"
+  },
+  "same_run_repair_allowed": false
+}

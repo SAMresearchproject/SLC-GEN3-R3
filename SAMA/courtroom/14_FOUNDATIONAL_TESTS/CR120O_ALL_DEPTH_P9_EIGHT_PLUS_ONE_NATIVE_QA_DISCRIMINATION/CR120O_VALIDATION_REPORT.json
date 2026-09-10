@@ -1,0 +1,154 @@
+{
+  "candidate_ready": true,
+  "checks": [
+    {
+      "check": "G0_SOURCE_PRECOMMIT_LOCK",
+      "detail": "source/precommit/triple/challenge hashes matched",
+      "pass": true
+    },
+    {
+      "check": "G1_ROSTER_RECONSTRUCTION",
+      "detail": "10 primary triples and frozen challenges reconstructed",
+      "pass": true
+    },
+    {
+      "check": "G2_TYPE_PRESERVING_MATCH",
+      "detail": "all primary matches type-preserving; challenges retained",
+      "pass": true
+    },
+    {
+      "check": "G3_EXACT_NATIVE_REDUCIBILITY",
+      "detail": "10/10 exact zero native residuals",
+      "pass": true
+    },
+    {
+      "check": "G4_GENERATOR_QA_RECONSTRUCTION",
+      "detail": "30/30 stored qA rows reconstructed",
+      "pass": true
+    },
+    {
+      "check": "G5_TYPED_QA_CROSS_TERM_LAW",
+      "detail": "10/10 generator-complete qA residuals exact",
+      "pass": true
+    },
+    {
+      "check": "G6_CROSS_DEPTH_HOLDOUT",
+      "detail": "5/5 g0 and 5/5 g1 holdouts pass",
+      "pass": true
+    },
+    {
+      "check": "G7_UNSTABLE_COMPOSITE_CHALLENGES",
+      "detail": "g2 numeric/type boundary and all composites retained",
+      "pass": true
+    },
+    {
+      "check": "G8_SUM_ONLY_NEATNESS_NULL",
+      "detail": "21/21 complete-family exclusions, sums only",
+      "pass": true
+    },
+    {
+      "check": "G9_WRONG_CONTROLS",
+      "detail": "all shuffled and policy controls detected",
+      "pass": true
+    },
+    {
+      "check": "G10_MODEL_AUTHORITY_BOUNDARY",
+      "detail": "primitive control preserved and promotion blocked",
+      "pass": true
+    },
+    {
+      "check": "G11_SOURCE_IMMUTABILITY_OUTPUT_VALIDATION",
+      "detail": "all frozen sources byte-identical",
+      "pass": true
+    }
+  ],
+  "checks_passed": 12,
+  "checks_total": 12,
+  "disposition": "PASS_STRUCTURAL_TYPED_P9_8_PLUS_1_NATIVE_QA_LAW__PROPOSAL_PROMOTION_BLOCKED_NO_INDEPENDENT_DISCRIMINATOR",
+  "execution_status": "CLEAN",
+  "record_id": "CR120O_ALL_DEPTH_P9_EIGHT_PLUS_ONE_NATIVE_QA_DISCRIMINATION",
+  "source_snapshot_after": {
+    "discovery_proposal": {
+      "bytes": 64182,
+      "path": "C:\\Users\\drwho\\.codex\\attachments\\59881436-4536-4f37-b89c-2261e12d1209\\pasted-text.txt",
+      "sha256": "cb6d604997a79519f5a238a1e09e70ee8be8ea0d3a4e78a1aeff187f449167d6"
+    },
+    "qp093a_catalog": {
+      "bytes": 213474,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    "qp093a_declared_premises": {
+      "bytes": 893,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_declared_premises.json",
+      "sha256": "d8c2025feb1439182a255517c40d2d20ef7e06899ae36a9b9f23945e02472cdc"
+    },
+    "qp093a_generator": {
+      "bytes": 43208,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    "qp093a_result": {
+      "bytes": 1323,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5"
+    },
+    "task_preflight": {
+      "bytes": 16976,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_040346_no_script.md",
+      "sha256": "c11cda98d2b1f8e526f1aeedbb79f09cd430baefa21f900403852180a2c52cc0"
+    },
+    "updated_particle_rows2_workbook": {
+      "bytes": 93700,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    "updated_particle_rows_workbook": {
+      "bytes": 77128,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    }
+  },
+  "source_snapshot_before": {
+    "discovery_proposal": {
+      "bytes": 64182,
+      "path": "C:\\Users\\drwho\\.codex\\attachments\\59881436-4536-4f37-b89c-2261e12d1209\\pasted-text.txt",
+      "sha256": "cb6d604997a79519f5a238a1e09e70ee8be8ea0d3a4e78a1aeff187f449167d6"
+    },
+    "qp093a_catalog": {
+      "bytes": 213474,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    "qp093a_declared_premises": {
+      "bytes": 893,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_declared_premises.json",
+      "sha256": "d8c2025feb1439182a255517c40d2d20ef7e06899ae36a9b9f23945e02472cdc"
+    },
+    "qp093a_generator": {
+      "bytes": 43208,
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    "qp093a_result": {
+      "bytes": 1323,
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5"
+    },
+    "task_preflight": {
+      "bytes": 16976,
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_040346_no_script.md",
+      "sha256": "c11cda98d2b1f8e526f1aeedbb79f09cd430baefa21f900403852180a2c52cc0"
+    },
+    "updated_particle_rows2_workbook": {
+      "bytes": 93700,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    "updated_particle_rows_workbook": {
+      "bytes": 77128,
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+control,rejected,reason
+WC_EQUATE_P_WITH_XI_2_5,True,p remains an internal ledger-packing index without compactness units
+WC_EQUATE_REMNANT_FRACTION_WITH_BH_PROBABILITY,True,Starbreaker fate counts are not black-hole probabilities or masses
+WC_CLAIM_FASTER_FORMATION_FROM_ENDPOINTS,True,the endpoint simulator has no time-to-collapse observable
+WC_IMPORT_EXTERNAL_FIT_OR_THRESHOLD,True,zero external values or fit parameters enter Starbreaker
+WC_ACCEPT_NONDETERMINISTIC_REPLAY,True,all 28 sealed source and output files must reproduce exact SHA-256 digests
+WC_TREAT_HTML_AS_AUTHORITY,True,the plate is presentation-only; JSON CSV logs and hashes are authoritative
+WC_OVERWRITE_BASEMENT_PROVENANCE,True,Courtroom stores a companion snapshot and does not replace the Basement source
+WC_PROMOTE_A_PACKING_LAW_PHYSICALLY,True,the kinematic A proxy and physical calibration remain open

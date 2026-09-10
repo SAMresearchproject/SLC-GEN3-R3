@@ -1,0 +1,26 @@
+{
+  "antimatter_rows": 32,
+  "charged_rows": 64,
+  "input_catalog_rows": 299,
+  "invalid_eighty_row_target": false,
+  "matter_rows": 48,
+  "neutral_rows": 16,
+  "partition_signature_counts": {
+    "1": 10,
+    "12": 10,
+    "2": 10,
+    "3": 10,
+    "4": 10,
+    "6": 10,
+    "8": 10,
+    "9": 10
+  },
+  "promoted_rows": 80,
+  "register_rows": 80,
+  "row_meaning": "80 StructurallyStableMatterRow occurrences on a TensorCompatibleStableMatterSurface, not 80 experimentally identified Standard Model particles.",
+  "source_rule_counts": {
+    "CR254_COMPACT_MATTER_CHARGED_LAW": 32,
+    "CR255_COMPACT_MATTER_NEUTRAL_LAW": 16,
+    "CR256_A_OPERATOR_ANTIMATTER_CONJUGATE": 32
+  }
+}

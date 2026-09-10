@@ -1,0 +1,62 @@
+{
+  "cr_id": "CR001@20",
+  "branch": "20_NEUTRINO_SELECTOR",
+  "title": "NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS",
+  "precommit_sha256": "8e6cb1975cd7d2084ffbbf2c215472d2ef8042fae18b68e76b74b94dc4281c77",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "volume_I_sha256": "ab1e1e5030dc09a171c2699c5c1f3274d1790f4a79315915b3e076ffe2454e5b",
+  "substrate_inputs_zero_catalog_fit": {
+    "alpha_H": 2,
+    "D": 3
+  },
+  "substrate_derivation_rule": {
+    "mass_ratios": "{r_1, r_2, r_3} = {1, sqrt(alpha_H), alpha_H * D} = {1, sqrt(2), 6}",
+    "splittings_ratio_closed_form": "(r_3^2 - r_1^2) / (r_2^2 - r_1^2) = ((alpha_H*D)^2 - 1) / (alpha_H - 1)",
+    "splittings_ratio_value": 35,
+    "eV_anchor": "base_eV = sqrt(Delta_m2_31 / 35)"
+  },
+  "external_measurement_anchors": {
+    "Delta_m2_31_eV2": 2.515e-3,
+    "Delta_m2_21_eV2": 7.42e-5,
+    "Sigma_m_nu_Planck_bound_eV": 0.12,
+    "KATRIN_m_beta_bound_eV": 0.45
+  },
+  "load_bearing_predictions": {
+    "P1": {
+      "name": "Splittings ratio SAM vs observed",
+      "threshold": "10% relative",
+      "passed": true,
+      "result": "SAM 35 vs observed 33.895, deviation +3.26%"
+    },
+    "P2": {
+      "name": "Sigma m_nu within Planck cosmological bound",
+      "threshold": "Sigma m_nu < 0.12 eV",
+      "passed": true,
+      "result": "Sigma m_nu = 0.0713 eV, 40.56% below bound"
+    },
+    "P3": {
+      "name": "Three positive mass eigenstates",
+      "passed": true
+    }
+  },
+  "derived_masses_eV": {
+    "m_1": 0.0084768593,
+    "m_2": 0.0119880893,
+    "m_3": 0.0508611555,
+    "Sigma_m_nu": 0.0713261041,
+    "m_beta": 0.0121968
+  },
+  "ordering": "normal (by substrate construction)",
+  "reported_evidence": {
+    "E1": "Delta m^2_21 SAM = 7.186e-5 eV^2 vs observed 7.42e-5 (-3.16%)",
+    "E2": "m_1 = 8.477 meV, m_2 = 11.988 meV, m_3 = 50.861 meV",
+    "E3": "ordering = normal",
+    "E4": "lightest m_1 = 8.477 meV",
+    "E5": "m_beta = 12.20 meV (KATRIN bound 450 meV; factor 36.9 below)",
+    "E6": "Sigma m_nu = 71.3 meV inside tighter Planck+DESI bound ~72 meV"
+  },
+  "verdict": "PASS",
+  "verdict_reason": "Substrate-derived splittings ratio 35 matches observed 33.895 within 3.26%; Sigma m_nu = 0.0713 eV is 40.56% below the Planck cosmological bound; all three mass eigenstates positive. Zero catalog-fit parameters."
+}

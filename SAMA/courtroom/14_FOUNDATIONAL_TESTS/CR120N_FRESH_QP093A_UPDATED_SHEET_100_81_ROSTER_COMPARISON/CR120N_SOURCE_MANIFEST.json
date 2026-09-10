@@ -1,0 +1,62 @@
+{
+  "record_id": "CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON",
+  "source_policy": "EXACT_HASHED_READ_ONLY_INPUTS",
+  "sources": [
+    {
+      "source_id": "updated_particle_rows_workbook",
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+      "role": "fresh QP093A-derived classification workbook containing the canonical 105-row lane and visible p=9,g=0 rows 35-39",
+      "authority": "USER_RESEARCH_WORKBOOK_PRIMARY_EVIDENCE",
+      "bytes": 77128,
+      "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3"
+    },
+    {
+      "source_id": "updated_particle_rows2_workbook",
+      "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+      "role": "fresh 81-row M_native=12600 workbook roster",
+      "authority": "USER_RESEARCH_WORKBOOK_PRIMARY_EVIDENCE",
+      "bytes": 93700,
+      "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8"
+    },
+    {
+      "source_id": "qp093a_generator",
+      "path": "C:\\VS\\quantum_phase\\src\\qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "role": "frozen QP093A p/g construction and canonical source formulas",
+      "authority": "FROZEN_UPSTREAM_GENERATOR_PROVENANCE_ONLY",
+      "bytes": 43208,
+      "sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3"
+    },
+    {
+      "source_id": "qp093a_catalog",
+      "path": "C:\\VS\\quantum_phase\\artifacts\\qp093a_stable_particle_combination_enumerator\\qp093a_candidate_catalog.csv",
+      "role": "canonical QP093A identity, bin, route, and exact decimal reconciliation source",
+      "authority": "CANONICAL_QP093A_ROW_SOURCE",
+      "bytes": 213474,
+      "sha256": "3da53e012b09cc3df83abbddd5fdad36bf89e94c85739642237ec75a4e143cf6"
+    },
+    {
+      "source_id": "cr269_summary",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_summary.json",
+      "role": "sealed Theta=18, M=126, R^2=144 typed bow partition",
+      "authority": "SEALED_STRUCTURAL_FOUNDATION_CR",
+      "bytes": 2993,
+      "sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88"
+    },
+    {
+      "source_id": "cr269_result",
+      "path": "C:\\VS\\The_Courtroom\\09a_PARTICLE_MASS_CHAIN\\CR269_BOW_PRIMITIVE_CONTACT_OPERATOR\\CR269_result.md",
+      "role": "readable 7Theta/8Theta partition and authority boundary",
+      "authority": "SEALED_STRUCTURAL_FOUNDATION_CR",
+      "bytes": 6065,
+      "sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea"
+    },
+    {
+      "source_id": "task_preflight",
+      "path": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260714_035245_no_script.md",
+      "role": "task-specific constructive-new-work gate",
+      "authority": "COURTROOM_PREFLIGHT",
+      "bytes": 17440,
+      "sha256": "6221693f43998718d6ba0553da06c9d9348af6f58515d0058b9050be820bad07"
+    }
+  ]
+}

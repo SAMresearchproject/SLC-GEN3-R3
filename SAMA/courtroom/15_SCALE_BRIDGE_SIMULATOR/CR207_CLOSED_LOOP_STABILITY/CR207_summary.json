@@ -1,0 +1,71 @@
+{
+  "result_class": "CR207_BOUNDARY_CLOSED_LOOP_STABILITY",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "C",
+  "claim_tier": "SIMULATOR_CLOSED_LOOP_STABILITY",
+  "question": "Can the simulator replay the scale bridge without unexpected type violations?",
+  "pass_conditions": {
+    "engineering_gate_pass": true,
+    "scientific_boundary_expected": true,
+    "not_audit_or_retest": true,
+    "no_courtroom_sources_opened": true,
+    "no_free_parameters": true,
+    "unexpected_type_violations_zero": true,
+    "expected_controls_fire": true,
+    "all_run_traces_hashed": true,
+    "type_report_records_zero_unexpected": true
+  },
+  "evidence_rows": [
+    {
+      "key": "result_class",
+      "value": "PASS_ENGINEERING_G756c_SIMULATOR_CLOSED_LOOP_STABILITY_BOUNDARY_SCIENCE",
+      "note": "source G-test result"
+    },
+    {
+      "key": "unexpected_type_violations",
+      "value": 0,
+      "note": "closed-loop replay"
+    },
+    {
+      "key": "expected_control_breaks",
+      "value": 3,
+      "note": "controls fired by design"
+    },
+    {
+      "key": "trace_hash_count",
+      "value": 5,
+      "note": "all run traces hashed"
+    },
+    {
+      "key": "run_steps",
+      "value": "5,4,4,4,3",
+      "note": "A through E loop sizes"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that the scale bridge can be replayed as a closed loop with all run traces hashed and no unexpected type violations.",
+  "notes": [
+    "Boundary is preserved: closed-loop stability is internal simulator discipline, not standalone external validation."
+  ],
+  "test_id": "CR207",
+  "generated_at_utc": "2026-06-14T04:05:07.539138+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G756c_SIMULATOR_CLOSED_LOOP_STABILITY_TEST\\G756c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "a9627dd6b2937fe1755c84f74ea2dba0b3765454cd9cf0a79f11b6e5ffce64e6",
+      "bytes": 2104,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "type_report",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G756c_SIMULATOR_CLOSED_LOOP_STABILITY_TEST\\G756c_type_violation_report.json",
+      "role": "type_violation_report",
+      "sha256": "c03d546cefb9e019df70410dc304eeeb3a43d02c810f7e39afde7632e1731ae3",
+      "bytes": 1250,
+      "used_as_computed_input": true
+    }
+  ]
+}

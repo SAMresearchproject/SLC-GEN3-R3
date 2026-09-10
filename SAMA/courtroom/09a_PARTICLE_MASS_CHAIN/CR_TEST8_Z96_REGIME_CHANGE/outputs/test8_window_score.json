@@ -1,0 +1,28 @@
+{
+  "pre_window": [
+    85,
+    96
+  ],
+  "post_window": [
+    97,
+    108
+  ],
+  "pre_count": 12,
+  "post_count": 12,
+  "pre_median_abs_N_residual_anchor": 2.0,
+  "post_median_abs_N_residual_anchor": 11.5,
+  "pre_mean_abs_N_residual_anchor": 2.9166666666666665,
+  "post_mean_abs_N_residual_anchor": 13.416666666666666,
+  "pre_near2_rate": 0.5833333333333334,
+  "post_near2_rate": 0.0,
+  "pre_near5_rate": 0.8333333333333334,
+  "post_near5_rate": 0.0,
+  "pre_sam_primary_known_rate": 1.0,
+  "post_sam_primary_known_rate": 0.0,
+  "pre_median_nearest_known_delta": 0.0,
+  "post_median_nearest_known_delta": 8.5,
+  "J_96": 9.5,
+  "C_96": 0.5833333333333334,
+  "K_96": 1.0,
+  "p_random_boundary": 0.6080483331535225
+}

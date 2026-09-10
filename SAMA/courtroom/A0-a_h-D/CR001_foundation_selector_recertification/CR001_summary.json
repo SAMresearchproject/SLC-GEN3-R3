@@ -1,0 +1,33 @@
+{
+  "test_id": "CR001",
+  "verdict": "CR001_BOUNDARY_STRUCTURAL_PACKET_RECERTIFIED",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "uses_older_g_tests": false,
+  "hygiene_hits": [],
+  "selected_packet": {
+    "exchange_count": 2,
+    "identity_support_dimension": 3,
+    "compact_phase_cycle": 6.283185307179586,
+    "floor": 0.026525823848649224,
+    "floor_inverse": 37.69911184307752
+  },
+  "pass_conditions": {
+    "no_older_g_test_inputs_read": true,
+    "unique_exchange_selector": true,
+    "unique_identity_dimension_selector": true,
+    "unique_compact_phase_cycle_selector": true,
+    "floor_finite_positive": true,
+    "wrong_controls_do_not_match_full_packet": true
+  },
+  "wrong_controls_same_full_packet": false,
+  "rule_9": "This test could have falsified: the claim that SAM's foundation packet is selected by minimal exchange, stable identity support, and primitive compact phase composition rather than by inherited older result labels.",
+  "outputs": [
+    "A0-a_h-D\\CR001_foundation_selector_recertification\\CR001_result.md",
+    "A0-a_h-D\\CR001_foundation_selector_recertification\\CR001_summary.json",
+    "A0-a_h-D\\CR001_foundation_selector_recertification\\CR001_candidate_rows.csv",
+    "A0-a_h-D\\CR001_foundation_selector_recertification\\CR001_wrong_controls.csv",
+    "A0-a_h-D\\CR001_foundation_selector_recertification\\CR001_input_manifest.csv"
+  ]
+}

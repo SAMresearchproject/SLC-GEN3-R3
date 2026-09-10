@@ -1,0 +1,23 @@
+{
+  "entity_identity": false,
+  "mapping_class": "ABSTRACT_ACCOUNTING_SHAPE_ONLY",
+  "mechanism_mapping": "OPEN_NOT_INSTALLED",
+  "operator_identity": false,
+  "record_id": "CR120H_TYPED_RESIDUAL_LEDGER_AU197_ANALOGY_DISCRIMINATION",
+  "schema": {
+    "equations": [
+      "base + operator_adjustment = program_final",
+      "reference - program_final = post_program_residual"
+    ],
+    "slots": [
+      "base",
+      "operator_adjustment",
+      "program_final",
+      "reference",
+      "post_program_residual"
+    ],
+    "type_parameterization": "each domain supplies its own additive quantity type"
+  },
+  "scientific_pass_claimed": false,
+  "unit_equivalence": false
+}

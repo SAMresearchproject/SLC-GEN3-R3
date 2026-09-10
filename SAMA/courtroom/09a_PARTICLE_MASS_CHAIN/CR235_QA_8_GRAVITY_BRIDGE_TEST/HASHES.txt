@@ -1,0 +1,32 @@
+CR235 qA/8 Gravity Bridge Test - SHA-256 Manifest
+Sealed: 2026-06-22 by Sean Brady
+Verdict: FAIL as precommitted
+  matter identity 76/126 at 1e-9 tolerance
+  matter ratio invariance 6908/15750 pairs (largest residue 0.000579975)
+  SOB identity 126/126 exact
+  SOB ratio invariance 15750/15750 exact
+  directional Spearman rho 1.000000 (PASS_DIRECTIONAL)
+  WC1, WC2, WC3 broke as predicted; WC4 shuffled_rho = -0.107520 did not fall below 0.10
+
+== Artifacts ==
+0e91dd6759200d3cf2b8b361632631805a71cf5b311a6c465cc8a8457265538e  CR235_PRECOMMIT.md
+c9843e829d22636cd7a3d3690397c4c3a85a22200ab5777a1f2b5b5427064b11  CR235_result.md
+5e608763c766e0da3502140fdcde9f8cd8ff103839e062e1d813327faba92ebb  CR235_runner.py
+6d0722194b0d4e05678a6dfcda3f2cfc9a1aa4b7156f894ab5cdbb037ab4e4ca  CR235_summary.json
+911ad62f9f41c367132f8dcd9a9b15308397021e9cad78f1ca394f506a458edb  CR235_matter_identity_audit.csv
+9fbb2e7362d9c91369ae11b78bfbda001489a7b5b0a31780422e02419f63b47b  CR235_sob_identity_audit.csv
+
+== Hash-locked sources ==
+45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f  C:\VS\CR219_promoted_particle_rows_126.csv
+0cd620be2f7ed1cd9ca03d4fb7222061ba990d258a04a7c99bbc7ff020b94616  CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv
+fbfb17d82fbe7375690ae4b7c5ec0e473d0024284caf2dbd89d5404ded1b7b3a  CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv
+
+== Hash-locked upstream CRs ==
+3c1fd16c860a09a3b92fe61de008eb3b5f943e797a63327c47110af51b9829b7  CR230_result.md
+ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da  CR229_result.md
+b316d0fb2e8d5eb83a8be4cad5a53926385004f3130434eebaf2d13b4beda83e  CR222_result.md
+f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543  CR114_result.md
+
+== Reproducibility ==
+Runner: python CR235_runner.py
+Seeds:  WC3=20260622, WC4=20260623

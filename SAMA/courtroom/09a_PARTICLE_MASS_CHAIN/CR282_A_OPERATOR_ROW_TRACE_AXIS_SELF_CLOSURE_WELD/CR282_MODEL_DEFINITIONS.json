@@ -1,0 +1,57 @@
+{
+  "record_id": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "sealed_utc": "2026-07-12T07:04:57Z",
+  "model_weights": {
+    "ledger_closure": 3,
+    "operator_functionality": 3,
+    "source_chronology": 2,
+    "typed_consistency": 3,
+    "zero_free_parameters": 2,
+    "unexplained_source_statements": -1,
+    "illegal_scalar_collapse": -3,
+    "preserves_CR216_and_CR256": 4,
+    "independent_A_axis_bridge": 4
+  },
+  "models": [
+    {
+      "model_id": "M1_TYPED_WELD",
+      "description": "QP093A-0305 is historical row proxy; A is non-row operator; X1 is CR267 axis-self channel; candidate S8 -> W9 weld remains tested.",
+      "precommit_expectation": "row_trace_passes; axis_weld_boundary_without_independent_bridge"
+    },
+    {
+      "model_id": "M2_PURE_DUPLICATE",
+      "description": "QP093A-0305 was only a duplicate photon row; no operator trace survives retirement.",
+      "precommit_expectation": "undervalues QP102/QP103/CR256 A lineage"
+    },
+    {
+      "model_id": "M3_PHOTON_IDENTITY",
+      "description": "A operator and ROAD_LIGHT_CARRIER are one active physical row object.",
+      "precommit_expectation": "fails non-row A and active row retirement"
+    },
+    {
+      "model_id": "M4_A_EQUALS_ONE",
+      "description": "A_OPERATOR = X1 = scalar 1.",
+      "precommit_expectation": "illegal scalar collapse"
+    },
+    {
+      "model_id": "M5_SIXTH_CARRIER_ROW",
+      "description": "Keep QP093A-0301 and QP093A-0305 as active rows.",
+      "precommit_expectation": "row-restoration wrong control gives 163"
+    },
+    {
+      "model_id": "M6_SUPPORT_MODEL",
+      "description": "QP093A-0305 is p=1 lifted support.",
+      "precommit_expectation": "contradicts zero footprint and P1 lift"
+    },
+    {
+      "model_id": "M7_AXIS_ONLY",
+      "description": "X1 closes S8 with no separate A operator.",
+      "precommit_expectation": "viable competitor for closure witness but does not explain CR256 A functionality"
+    },
+    {
+      "model_id": "M8_B_CONTACT_ALTERNATIVE",
+      "description": "B/contact operator, not A, performs S8-to-W9 resolution.",
+      "precommit_expectation": "strong competing operator source from CR269; must remain open"
+    }
+  ]
+}

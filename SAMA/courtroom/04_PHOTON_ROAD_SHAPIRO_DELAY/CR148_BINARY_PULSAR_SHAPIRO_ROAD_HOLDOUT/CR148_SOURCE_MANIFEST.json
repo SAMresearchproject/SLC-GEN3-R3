@@ -1,0 +1,69 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "manifest_utc": "2026-07-11T17:28:47Z",
+  "internal_sources": [
+    {
+      "id": "BRANCH_04_README",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/README.md",
+      "sha256": "D76ED2F662B7D28D6AC124D51D8D06C6A377A46AEA2BE320B8674919DB488B78",
+      "role": "active Branch 04 formula/scope"
+    },
+    {
+      "id": "CR006_RESULT",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR006_PHOTON_ROAD_SHAPIRO_EXTERNAL_CONTACT/CR006_result.md",
+      "sha256": "C5E5E6AD7DE696690DF1E727EE46821AC2F99E4E94954AFCC42B2341BC447E90",
+      "role": "prior photon-road Shapiro contact; not binary pulsar"
+    },
+    {
+      "id": "CR147_RESULT",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR147_GW170817_A_RELEASE_EM_ORIGIN_DIFFERENTIAL/CR147_result.md",
+      "sha256": "A4F3868773F2A1F0BDF36A4B65FD423FF2A1A9339A24C37BE34DB8DA7A0DD1C9",
+      "role": "prior Branch 04 GW170817 road/release result; not binary pulsar"
+    },
+    {
+      "id": "SAM_NATIVE_MASTER_FORMULA_V4_2",
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "sha256": "1E0BE6539763DE0347C75AF8EDA2259B385A99B3585A13E3CCECAD2F49744AE4",
+      "role": "formula source"
+    },
+    {
+      "id": "SAM_NATIVE_ACTION_ENGINE_V4_2",
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "sha256": "976C649D071DB8E2320406899DCA3AAE8A10DAD2BCEF277B2954C9C931D600CD",
+      "role": "action/source typing source"
+    },
+    {
+      "id": "SAM_TESTING_RULES",
+      "path": "SAM_TESTING_RULES.md",
+      "sha256": "6913E15B270EC16ABA4C8985F6F9C2455D99D1DEBAF57CBF20575ED543E422A5",
+      "role": "testing discipline source"
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "KRAMER_2006_ARXIV_EPRINT",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-eprint.tar.gz",
+      "url": "https://arxiv.org/e-print/astro-ph/0609417",
+      "sha256": "3DFE4A855397EBED6F120B39EAB2117D0BF4509FA3D19CC56CACD76EEB677090",
+      "role": "primary external source package"
+    },
+    {
+      "id": "KRAMER_2006_ARXIV_PDF",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417.pdf",
+      "url": "https://arxiv.org/pdf/astro-ph/0609417",
+      "sha256": "47CAF499FE46675815EDCA0ACA1E758AC8A2EF5623DE000EF9C8ADD0C23E54C3",
+      "role": "primary external PDF copy"
+    },
+    {
+      "id": "KRAMER_2006_TEX",
+      "path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-src/ksm+06.tex",
+      "sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7",
+      "role": "source text used for non-target anchors and later target reveal"
+    }
+  ],
+  "forbidden_source_paths_opened": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_incidental_exposure_detected": false
+}
+

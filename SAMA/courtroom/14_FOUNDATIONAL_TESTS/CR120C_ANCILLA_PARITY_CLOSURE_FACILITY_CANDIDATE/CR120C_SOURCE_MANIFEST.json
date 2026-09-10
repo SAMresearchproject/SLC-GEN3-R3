@@ -1,0 +1,111 @@
+{
+  "external_feasibility_references": [
+    "https://www.nature.com/articles/s41534-019-0185-4",
+    "https://www.nature.com/articles/s41534-023-00688-7",
+    "https://www.nature.com/articles/s41586-024-08005-8",
+    "https://www.nature.com/articles/nature13436"
+  ],
+  "external_reference_authority": "FEASIBILITY_CONTEXT_ONLY_NOT_SAM_EVIDENCE",
+  "model_spec_sha256": "6b9d95ee76bbc0dc49f50f62eb644d0531156ed094e1e69a47ef5767521e3593",
+  "precommit_sha256": "503fefc73a422284ebd61382248d573ef8a2790ee9f9c85e182a5bd305a225b2",
+  "record_id": "CR120C_ANCILLA_PARITY_CLOSURE_FACILITY_CANDIDATE",
+  "sealed_utc": "2026-07-13T18:08:17Z",
+  "sources": [
+    {
+      "exists": true,
+      "expected_sha256": "d5283ccc6565bf75f0952d43df845496b02c3f8fadc288feba3d5b246e8b4358",
+      "hash_match": true,
+      "observed_sha256": "d5283ccc6565bf75f0952d43df845496b02c3f8fadc288feba3d5b246e8b4358",
+      "path": "C:/Users/drwho/.codex/attachments/52fb4fe5-c3c6-47af-8df9-2429cec59cac/pasted-text.txt",
+      "role": "user Discovery Den proposal"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "b131ba0b23189e2b1bbf365ca40db57bca10a8edbd05d4d85f170581c71108e6",
+      "hash_match": true,
+      "observed_sha256": "b131ba0b23189e2b1bbf365ca40db57bca10a8edbd05d4d85f170581c71108e6",
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_result.md",
+      "role": "typed bridge result used as input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "491b37f76cdcc3dc793c059d458aaa9fa46f250f3ce08b069720476b0849b137",
+      "hash_match": true,
+      "observed_sha256": "491b37f76cdcc3dc793c059d458aaa9fa46f250f3ce08b069720476b0849b137",
+      "path": "14_FOUNDATIONAL_TESTS/CR120A_W9_TYPED_RESOLUTION_CERTIFICATE_BRIDGE/CR120A_VALIDATION_REPORT.json",
+      "role": "typed bridge validation used as input"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "hash_match": true,
+      "observed_sha256": "ad197382fb2594d32afa56ec936371bf093aa373656088792705343239359228",
+      "path": "14_FOUNDATIONAL_TESTS/CR119_TYPED_CLOSURE_HIERARCHY_PROMOTION_LADDER/CR119_typed_hierarchy.json",
+      "role": "typed hierarchy"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "hash_match": true,
+      "observed_sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+      "role": "W9 and X1 source"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "hash_match": true,
+      "observed_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md",
+      "role": "B/contact result"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "hash_match": true,
+      "observed_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_summary.json",
+      "role": "B/contact machine-readable summary"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "beb5effdf9c3d0a0050e686f9a716f6f547c54dcc6e54efa878f685b0fdf1beb",
+      "hash_match": true,
+      "observed_sha256": "beb5effdf9c3d0a0050e686f9a716f6f547c54dcc6e54efa878f685b0fdf1beb",
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT/CR282_APPEAL_result.md",
+      "role": "B through X1 to W9 appeal result"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "hash_match": true,
+      "observed_sha256": "09ddbf4dd2647249404b3b9bbc8a01625ad181e848cc592fc98119c5b05de1b9",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_ENTITY_REGISTRY.json",
+      "role": "active entity registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "hash_match": true,
+      "observed_sha256": "5e7866eb0c8789c4d8fe321dd6ac131a8aff57429b58684bcd2507c03152a212",
+      "path": "SAM_LANGUAGE_V0_4_1_CANDIDATE/V0_4_1_OPERATOR_REGISTRY.json",
+      "role": "active operator registry"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4",
+      "hash_match": true,
+      "observed_sha256": "1e0be6539763de0347c75af8eda2259b385a99b3585a13e3ccecad2f49744ae4",
+      "path": "SAM_NATIVE_MASTER_FORMULA_V4_2.md",
+      "role": "current master formula context"
+    },
+    {
+      "exists": true,
+      "expected_sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd",
+      "hash_match": true,
+      "observed_sha256": "976c649d071db8e2320406899dca3aae8a10dad2bcef277b2954c9c931d600cd",
+      "path": "SAM_NATIVE_ACTION_ENGINE_V4_2.md",
+      "role": "current action engine context"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+let s0: SLCState12 = SLC_ZERO_REGISTER()
+let s1: SLCState12 = SLC_PREPARE_REQUEST(s0, L0)
+let s2: SLCState12 = SLC_X1_RESPONSE(s1, L0, L1)
+let s3: SLCState12 = SLC_X1_RESPONSE(s2, L0, L2)
+let s4: SLCState12 = SLC_X1_RESPONSE(s3, L0, L3)
+let s5: SLCState12 = SLC_X1_RESPONSE(s4, L0, L4)
+let s6: SLCState12 = SLC_X1_RESPONSE(s5, L0, L5)
+let s7: SLCState12 = SLC_X1_RESPONSE(s6, L0, L6)
+let s8: SLCState12 = SLC_X1_RESPONSE(s7, L0, L7)
+let s9: SLCState12 = SLC_X1_RESPONSE(s8, L0, L8)
+let s10: SLCState12 = SLC_X1_RESPONSE(s9, L0, L9)
+let s11: SLCState12 = SLC_X1_RESPONSE(s10, L0, L10)
+let ghz12: SLCState12 = SLC_X1_RESPONSE(s11, L0, L11)
+return ghz12
+

@@ -1,0 +1,202 @@
+{
+  "verdict": "STRONG_PASS",
+  "verdict_signature": "CR247_STRONG_PASS_SOB_INVERSE_SECOND_LAYER__FOUR_OF_FIVE_FATALITY_CONSTRAINT_GROUPS_EXACT__Z_BALANCED_PLUS_NminusZ_EXCESS_DECOMP_REPRODUCES_SOB_TARGET__ZERO_FREE_PARAMETERS__ALL_WC_BREAK_AS_PREDICTED",
+  "train_sha256": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+  "test_sha256": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+  "precommit_sha256": "4e8a25d205713918470231cfcccb30ad8b1932c49089f09fc10e7d31a6117e2b",
+  "substrate_atoms": {
+    "kappa": "7117/768",
+    "g": "1/64",
+    "S": 8,
+    "8*kappa": "7117/96",
+    "4*kappa": "7117/192",
+    "S*g": "1/8",
+    "dQ_excess (4*kappa - S*g)": "7093/192"
+  },
+  "basis_vectors": {
+    "balanced": {
+      "u": 3,
+      "d": 3,
+      "e": 1,
+      "Q_mass": "7117/96",
+      "Q_sub": "7117/96",
+      "dQ": "0"
+    },
+    "excess_neutron": {
+      "u": 1,
+      "d": 2,
+      "e": 0,
+      "Q_mass": "7117/192",
+      "Q_sub": "1/8",
+      "dQ": "7093/192"
+    }
+  },
+  "occupancy_formulas": {
+    "n_balanced(Z, N)": "Z (for N >= Z)",
+    "n_excess_neutron(Z, N)": "N - Z (for N >= Z)",
+    "n_excess_proton(Z, N)": "Z - N (for N < Z; reserved, not exercised here)"
+  },
+  "test_set_size": {
+    "train": 51,
+    "test": 20,
+    "total": 71,
+    "evaluated_N_ge_Z": 69,
+    "excluded_N_lt_Z": 2
+  },
+  "per_identity_match_counts": {
+    "u": 69,
+    "d": 69,
+    "e": 69,
+    "Q_mass": 69,
+    "Q_sub": 69,
+    "dQ": 69
+  },
+  "all_six_match_count": 69,
+  "anchor_results": [
+    {
+      "label": "C-12",
+      "Z": 6,
+      "N": 6,
+      "A": 12,
+      "n_balanced": 6,
+      "n_excess_neutron": 0,
+      "target_u": "18",
+      "decomp_u": "18",
+      "match_u": true,
+      "target_d": "18",
+      "decomp_d": "18",
+      "match_d": true,
+      "target_e": "6",
+      "decomp_e": "6",
+      "match_e": true,
+      "target_Q_mass": "7117/16",
+      "decomp_Q_mass": "7117/16",
+      "target_Q_mass_float": 444.8125,
+      "match_Q_mass": true,
+      "target_Q_sub": "7117/16",
+      "decomp_Q_sub": "7117/16",
+      "target_Q_sub_float": 444.8125,
+      "match_Q_sub": true,
+      "target_dQ": "0",
+      "decomp_dQ": "0",
+      "target_dQ_float": 0.0,
+      "match_dQ": true,
+      "all_six_match": true
+    },
+    {
+      "label": "C-13",
+      "Z": 6,
+      "N": 7,
+      "A": 13,
+      "n_balanced": 6,
+      "n_excess_neutron": 1,
+      "target_u": "19",
+      "decomp_u": "19",
+      "match_u": true,
+      "target_d": "20",
+      "decomp_d": "20",
+      "match_d": true,
+      "target_e": "6",
+      "decomp_e": "6",
+      "match_e": true,
+      "target_Q_mass": "92521/192",
+      "decomp_Q_mass": "92521/192",
+      "target_Q_mass_float": 481.8802083333333,
+      "match_Q_mass": true,
+      "target_Q_sub": "7119/16",
+      "decomp_Q_sub": "7119/16",
+      "target_Q_sub_float": 444.9375,
+      "match_Q_sub": true,
+      "target_dQ": "7093/192",
+      "decomp_dQ": "7093/192",
+      "target_dQ_float": 36.942708333333336,
+      "match_dQ": true,
+      "all_six_match": true
+    },
+    {
+      "label": "Au-197",
+      "Z": 79,
+      "N": 118,
+      "A": 197,
+      "n_balanced": 79,
+      "n_excess_neutron": 39,
+      "target_u": "276",
+      "decomp_u": "276",
+      "match_u": true,
+      "target_d": "315",
+      "decomp_d": "315",
+      "match_d": true,
+      "target_e": "79",
+      "decomp_e": "79",
+      "match_e": true,
+      "target_Q_mass": "1402049/192",
+      "decomp_Q_mass": "1402049/192",
+      "target_Q_mass_float": 7302.338541666667,
+      "match_Q_mass": true,
+      "target_Q_sub": "562711/96",
+      "decomp_Q_sub": "562711/96",
+      "target_Q_sub_float": 5861.572916666667,
+      "match_Q_sub": true,
+      "target_dQ": "92209/64",
+      "decomp_dQ": "92209/64",
+      "target_dQ_float": 1440.765625,
+      "match_dQ": true,
+      "all_six_match": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "label": "WC-1_basis_swap",
+      "description": "Swap n_balanced and n_excess_neutron; structurally identity when N=2Z (excluded)",
+      "non_trivial_rows": 68,
+      "breaks": 68,
+      "n_2Z_invariant_rows_excluded": 1,
+      "invariant_isotopes": [
+        "H-3"
+      ],
+      "pass": true
+    },
+    {
+      "label": "WC-2_basis_kappa_perturbed",
+      "description": "basis kappa = 7117/769 (target kappa stays 7117/768)",
+      "non_trivial_rows": 69,
+      "breaks_Q_mass_identity": 69,
+      "pass": true
+    },
+    {
+      "label": "WC-3_basis_g_perturbed",
+      "description": "basis g = 1/63 (target g stays 1/64); skips N=Z (zero excess)",
+      "non_trivial_rows": 56,
+      "breaks_Q_sub_identity": 56,
+      "pass": true
+    },
+    {
+      "label": "WC-4_occupancy_perturbed",
+      "description": "n_balanced = Z + 1 (source identity should break)",
+      "non_trivial_rows": 69,
+      "breaks_source_identity": 69,
+      "pass": true
+    },
+    {
+      "label": "WC-5_basis_dq_const_perturbed",
+      "description": "basis dQ_excess = 7093/193 (target stays 7093/192); skips N=Z",
+      "non_trivial_rows": 56,
+      "breaks_dQ_identity": 56,
+      "pass": true
+    }
+  ],
+  "strong_pass_conditions": {
+    "S1_source_identity_all_match": true,
+    "S2_Q_mass_identity_all_match": true,
+    "S3_Q_sub_identity_all_match": true,
+    "S4_dQ_identity_all_match": true,
+    "S5_anchors_all_six_match": true,
+    "S6_all_wcs_break": true,
+    "S7_zero_free_parameters": true
+  },
+  "fail_conditions": {
+    "F1_identity_fails_any_row": false,
+    "failed_wc_labels": []
+  },
+  "fifth_constraint_status": "Reserved for CR248. The fatality.pdf B_u closure constraint Sigma_n_j s_debit_j ~ B_u requires the third-layer micro-channel decomposition (integer linear program over CR243/CR244 substrate ledger rows). CR247 verifies the algebraic four-constraint-group second-layer closure only."
+}

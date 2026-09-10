@@ -1,0 +1,5 @@
+quantity,value,sigma,source,plus,minus
+observed_GW_to_GRB_delay_s,1.74,0.05,LIGO/Virgo/Fermi/INTEGRAL ApJL 848 L13; arXiv:1710.05834,,
+total_mass_msun_low_spin,2.74,,LIGO/Virgo PRL 119 161101; arXiv:1710.05832,0.04,0.01
+luminosity_distance_mpc,40.0,,LIGO/Virgo PRL 119 161101; arXiv:1710.05832,8,14
+fermi_grb_trigger_utc,2017-08-17 12:41:06 UTC,,Fermi-GBM ApJL; arXiv:1710.05446,,

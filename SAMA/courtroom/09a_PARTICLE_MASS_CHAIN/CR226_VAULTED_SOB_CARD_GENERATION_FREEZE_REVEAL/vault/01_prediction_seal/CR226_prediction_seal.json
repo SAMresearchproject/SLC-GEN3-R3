@@ -1,0 +1,25 @@
+{
+  "construction_constants": {
+    "D": "3",
+    "R": "12",
+    "alpha_H": "2",
+    "capacity": "126",
+    "clock_boundary": 83,
+    "clock_holes": [
+      43,
+      61
+    ],
+    "frontier_start": 119,
+    "kappa_floor": "7117/768",
+    "neutron_G_unit": "1/64",
+    "split": "8"
+  },
+  "file_count": 255,
+  "generated_without_reveal_inputs": true,
+  "linear_manifest_sha256": "141c1fe06436b568f18e95c8884c939add6762fe62e48fa0de9f7ddd681fde1e",
+  "manifest": "09a_PARTICLE_MASS_CHAIN/CR226_VAULTED_SOB_CARD_GENERATION_FREEZE_REVEAL/vault/01_prediction_seal/CR226_prediction_hash_manifest.csv",
+  "merkle_root_sha256": "e436cf01bacc542bad5403d605c0eea9c964c2c645d97574f378a360fa061897",
+  "phase": "01_prediction_seal",
+  "root_name": "CR226_PREDICTION_SEAL",
+  "total_bytes": 22086309
+}

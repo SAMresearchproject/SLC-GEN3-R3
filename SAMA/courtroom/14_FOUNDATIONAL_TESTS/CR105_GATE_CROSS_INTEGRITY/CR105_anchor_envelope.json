@@ -1,0 +1,20 @@
+{
+  "envelope_id": "CR105_GATE_CROSS_JOINT_ANCHOR_ENVELOPE",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "target_cr": "CR105_GATE_CROSS_INTEGRITY",
+  "envelope_status": "PROVISIONAL_DRAFT_PRE_CITATION_VERIFICATION",
+  "envelope_sealed_at_utc": "2026-06-13T00:00:00Z",
+  "observable_name": "joint deviation from (SR + EP) in tested data; SAM commits 0 for A < 11/12",
+  "sam_committed_value": 0.0,
+  "joint_anchors": [
+    {"row_id": "J1", "experiment": "Al+ optical clock NIST 2010", "tests_GATE_2": true, "tests_GATE_3": true, "publication_reference": "Chou_et_al_2010_Science_329_1630", "publication_date_utc": "2010-09-24", "tested_A_value": 1e-15, "measurement_central_value": 0.0, "stat_uncertainty": 5.8e-19, "sys_uncertainty": 0.0, "units": "dimensionless", "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION", "honest_negative_class": null},
+    {"row_id": "J2", "experiment": "LIGO+Virgo+Fermi GW170817", "tests_GATE_2": true, "tests_GATE_3": true, "publication_reference": "Abbott_et_al_2017_ApJL_848_L13", "publication_date_utc": "2017-10-16", "tested_A_value": 1e-3, "measurement_central_value": 0.0, "stat_uncertainty": 1e-15, "sys_uncertainty": 0.0, "units": "dimensionless", "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION", "honest_negative_class": null},
+    {"row_id": "J3", "experiment": "PSR B1913+16 Hulse-Taylor", "tests_GATE_2": true, "tests_GATE_3": true, "publication_reference": "Weisberg_Huang_2016_ApJ_829_55", "publication_date_utc": "2016-09-20", "tested_A_value": 0.4, "measurement_central_value": 0.0, "stat_uncertainty": 3e-3, "sys_uncertainty": 0.0, "units": "dimensionless", "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION", "honest_negative_class": null},
+    {"row_id": "J4", "experiment": "PSR J0740+6620 NICER", "tests_GATE_2": true, "tests_GATE_3": true, "publication_reference": "Miller_et_al_2021_ApJL_918_L28", "publication_date_utc": "2021-09-13", "tested_A_value": 0.42, "measurement_central_value": 0.0, "stat_uncertainty": 0.03, "sys_uncertainty": 0.0, "units": "dimensionless", "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION", "honest_negative_class": null}
+  ],
+  "honest_negative_anchors": [
+    {"row_id": "HN1", "experiment": "Withdrawn joint EP+SR claim", "publication_reference": "WITHDRAWN_JOINT_CLAIM", "publication_date_utc": "2000-01-01", "tested_A_value": 1e-9, "measurement_central_value": 1e-6, "stat_uncertainty": 1e-7, "sys_uncertainty": 0.0, "honest_negative_class": "CLASS_A", "expected_rejection_gate": "GATE_A_ADMISSIBILITY"},
+    {"row_id": "HN2", "experiment": "Unpublished joint claim", "publication_reference": "NO_PUBLICATION_REFERENCE", "publication_date_utc": "2026-06-13", "tested_A_value": 1e-9, "measurement_central_value": 1e-7, "stat_uncertainty": 1e-8, "sys_uncertainty": 0.0, "honest_negative_class": "CLASS_X_UNPUBLISHED", "expected_rejection_gate": "GATE_A_ADMISSIBILITY"},
+    {"row_id": "HN3", "experiment": "LIGO+Virgo+Fermi (synthetic CLASS_G perturbation)", "publication_reference": "SYNTHETIC_PERTURBATION_OF_Abbott_et_al_2017", "publication_date_utc": "2026-06-13", "tested_A_value": 1e-3, "measurement_central_value": 1e-12, "stat_uncertainty": 1e-15, "sys_uncertainty": 0.0, "honest_negative_class": "CLASS_G", "expected_rejection_gate": "GATE_R_RESIDUAL"}
+  ]
+}

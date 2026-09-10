@@ -1,0 +1,110 @@
+{
+  "precommit_sha256": "b9c0dca8c6a21d233979a75a86e40fd8ce5c16fb176fd9225590c545c89797aa",
+  "precommit_sidecar": "b9c0dca8c6a21d233979a75a86e40fd8ce5c16fb176fd9225590c545c89797aa",
+  "record_id": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+  "sealed_utc": "2026-07-12T07:24:55Z",
+  "source_hashes": [
+    {
+      "expected_sha256": "626cdd32b046d636c8783526b926ddf32897136b898f686f2e915a4f9ae69d6d",
+      "id": "CR282_result",
+      "observed_sha256": "626cdd32b046d636c8783526b926ddf32897136b898f686f2e915a4f9ae69d6d",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD/CR282_result.md",
+      "role": "parent verdict under appeal"
+    },
+    {
+      "expected_sha256": "f9542a69450bcc50bbecf312824b726264c79be4adec68a9abd25dc666f23575",
+      "id": "CR282_summary",
+      "observed_sha256": "f9542a69450bcc50bbecf312824b726264c79be4adec68a9abd25dc666f23575",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD/CR282_summary.json",
+      "role": "parent machine-readable boundary status"
+    },
+    {
+      "expected_sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "id": "CR267_result",
+      "observed_sha256": "098c88a2275a359e6a9305836bb79baac306b1562dea117c1ecd2509f5b034e3",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_result.md",
+      "role": "closure witness and axis-fee provenance"
+    },
+    {
+      "expected_sha256": "e16730393faf89aa1e4d90f25095c9b7bd3b06cd4d33ec434de3e5dc64eb802e",
+      "id": "CR267_summary",
+      "observed_sha256": "e16730393faf89aa1e4d90f25095c9b7bd3b06cd4d33ec434de3e5dc64eb802e",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR267_TENSOR_9_CLOSURE_WITNESS/CR267_summary.json",
+      "role": "machine-readable 8+1 and axis-self structure"
+    },
+    {
+      "expected_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "id": "CR269_result",
+      "observed_sha256": "c4cd0142a8d43b810c438586242a68f429de675f0d168169a11b085653d142ea",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_result.md",
+      "role": "bow/contact operator provenance"
+    },
+    {
+      "expected_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "id": "CR269_summary",
+      "observed_sha256": "1ed95b854c1f5370df69438484b1e2f80f7a2c19d288dc714a5e1c5b7316ac88",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR269_BOW_PRIMITIVE_CONTACT_OPERATOR/CR269_summary.json",
+      "role": "machine-readable contact operator and 1/8 release match"
+    },
+    {
+      "expected_sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "id": "CR256_result",
+      "observed_sha256": "c84a6878686b226e856c44b19cb750fe0300b545706005bbc5f2bbfe1e3abcc5",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_result.md",
+      "role": "non-row A-operator provenance"
+    },
+    {
+      "expected_sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "id": "CR256_summary",
+      "observed_sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "ok": true,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json",
+      "role": "machine-readable A-operator test summary"
+    }
+  ],
+  "verdict_rules": {
+    "appeal_claim": "CR282 correctly preserved the direct A-through-X1 weld as open, but CR267 and CR269 provide sealed provenance for a narrower B/contact-to-axis-fee closure bridge that changes the impact of the original boundary verdict.",
+    "appeal_rules": [
+      {
+        "gate": "A1_parent_preserved",
+        "pass_if": "CR282 remains BOUNDARY and historical row trace PASS / axis-self weld OPEN are unchanged."
+      },
+      {
+        "gate": "A2_non_row_A_preserved",
+        "pass_if": "CR256 and CR282 preserve A as a non-row operator and ledger 162 is unchanged."
+      },
+      {
+        "gate": "A3_cr267_closure_witness",
+        "pass_if": "CR267 seals 9 = 8 + 1 and +1 = axis self-coupling / axis fee."
+      },
+      {
+        "gate": "A4_cr269_contact_operator",
+        "pass_if": "CR269 seals B : R^2 -> (M, Theta_out), R^2 = S*Theta = 8*18, and release fraction 1/8."
+      },
+      {
+        "gate": "A5_contact_axis_fee_bridge",
+        "pass_if": "CR269 explicitly matches its 1/8 release fraction to CR267's axis-fee fraction."
+      },
+      {
+        "gate": "A6_scope_refinement",
+        "pass_if": "The appeal separates B/contact-to-axis-fee PASS from A-to-B or A-through-X1 OPEN."
+      },
+      {
+        "gate": "A7_no_parent_rewrite",
+        "pass_if": "No parent CR artifact is modified."
+      }
+    ],
+    "current_status_if_all_pass": "APPEAL_GRANTED_SCOPE_REFINED_CONTACT_AXIS_FEE_BRIDGE_PASS_A_TO_CONTACT_WELD_OPEN",
+    "failure_status": "APPEAL_DENIED_OR_BOUNDARY",
+    "parent_record": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+    "record_id": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+    "scientific_result_status_if_all_pass": "APPEAL_GRANTED_IN_PART"
+  }
+}

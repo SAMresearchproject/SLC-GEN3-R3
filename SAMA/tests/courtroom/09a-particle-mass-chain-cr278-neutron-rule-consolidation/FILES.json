@@ -1,0 +1,87 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "ecaccb9912e1cdbed1d707ed9c3cabdc9ab255ae",
+      "bytes": 10861,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_per_row_verification.csv",
+      "mode": "100644",
+      "git_blob": "c679c59201e7c33a2b7106c43bf32ee20d0d5b75",
+      "bytes": 3972,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_per_row_verification.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_per_row_verification.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_per_row_verification.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_per_row_verification.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_result.md",
+      "mode": "100644",
+      "git_blob": "30499a7dd1ad1f1c15d462871dc011f8d49e5d65",
+      "bytes": 6400,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_result.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_result.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_result.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_runner.py",
+      "mode": "100644",
+      "git_blob": "7079b955e7e5dbd5a17f077dbd3c7f90a72b0b02",
+      "bytes": 26956,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_runner.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_runner.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_runner.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_summary.json",
+      "mode": "100644",
+      "git_blob": "1483487ebf5296167895714ffeeb4638072a1c7e",
+      "bytes": 1189,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_summary.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_summary.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_summary.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_wrong_controls.csv",
+      "mode": "100644",
+      "git_blob": "ac11fdf97a4bb57ee33b2f42a97e357eef612d6e",
+      "bytes": 6014,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_wrong_controls.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_wrong_controls.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_wrong_controls.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/CR278_wrong_controls.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "48c68920f6d18c1157de2d13debc2d0c0e8a98ad",
+      "bytes": 939,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR278_NEUTRON_RULE_CONSOLIDATION/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR278@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

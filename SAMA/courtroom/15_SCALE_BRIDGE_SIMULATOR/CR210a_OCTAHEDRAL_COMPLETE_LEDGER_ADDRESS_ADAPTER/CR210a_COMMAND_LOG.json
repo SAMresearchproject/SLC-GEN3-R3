@@ -1,0 +1,15 @@
+{
+  "record_id": "CR210a_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER",
+  "task": "Execute the frozen Octahedral Complete-Ledger Address Adapter structural campaign from PSLI_DF_20260715T025638Z with outcomes and binding closed and stop after one frozen structural comparison",
+  "command": "python tools\\run_sam_test.py --task \"Execute the frozen Octahedral Complete-Ledger Address Adapter structural campaign from PSLI_DF_20260715T025638Z with outcomes and binding closed and stop after one frozen structural comparison\" --script 15_SCALE_BRIDGE_SIMULATOR\\CR210a_OCTAHEDRAL_COMPLETE_LEDGER_ADDRESS_ADAPTER\\CR210a_runner.py",
+  "execution_count": 1,
+  "exit_code": 1,
+  "direct_runner_execution": false,
+  "runner_sha256": "094d39be033db8dfe7bd1b78c845abf8839dbba1f36b31987af3d3bfb7616d1a",
+  "failure_type": "TypeError",
+  "failure_message": "Object of type set is not JSON serializable",
+  "failure_check": "C05_PARTITION_NONUNIQUENESS",
+  "wrapper_preflight_md_sha256": "15a750a0443ae5ccfe045b661b02a675454dfd7b2c07f83de4741631c71093db",
+  "wrapper_preflight_json_sha256": "c6a43db4dd2b4872324ef30776b540255ea62689b181d7d5bba1efb8fe80d8e8",
+  "frozen_utc": "2026-07-15T03:43:20.3448647Z"
+}

@@ -1,0 +1,117 @@
+{
+  "cr_id": "CR280",
+  "record": "CR253_STABLE_MATTER_SURFACE_SEMANTIC_CLARIFICATION",
+  "generated_utc": "2026-07-11T08:24:16+00:00",
+  "precommit_sha256": "5dac524da10f8117b0fe0b9b89cd139bfa80a9811d820933c8f489d70f6991df",
+  "source_hash_validation": [
+    {
+      "id": "QP093A_source",
+      "path": "C:/VS/quantum_phase/src/qp093a_all_stable_sam_particle_combination_enumerator.py",
+      "expected_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "actual_sha256": "c6010a34c94fac0012e45e84df232fbb86d6ebec3f19d48632e8e793795f45b3",
+      "pass": true
+    },
+    {
+      "id": "QP093A_result",
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/QP093A_STABLE_PARTICLE_ENUMERATOR_result.md",
+      "expected_sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5",
+      "actual_sha256": "504d2fb5152072248faf7f96e2bbbfa5d033d289e30bc21829af293b29215af5",
+      "pass": true
+    },
+    {
+      "id": "QP093A_summary",
+      "path": "C:/VS/quantum_phase/artifacts/qp093a_stable_particle_combination_enumerator/qp093a_summary.json",
+      "expected_sha256": "0fab75381e2c27a8c98456016fd3f15781dbd338d11398788235d01f92333891",
+      "actual_sha256": "0fab75381e2c27a8c98456016fd3f15781dbd338d11398788235d01f92333891",
+      "pass": true
+    },
+    {
+      "id": "QP104_corrected_catalog",
+      "path": "C:/VS/quantum_phase/artifacts/qp104_corrected_299_catalog_propagation_audit/qp093a_v3_corrected_299.csv",
+      "expected_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "actual_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "pass": true
+    },
+    {
+      "id": "CR119_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR119_PARTICLE_MATTER_PERIODIC_VAULT_REVEAL/CR119_summary.json",
+      "expected_sha256": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+      "actual_sha256": "1eb2ba0c12d2079fc395cfa28e41693e9525af3cd394f8c9caa0f4393e0bcb53",
+      "pass": true
+    },
+    {
+      "id": "CR253_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_summary.json",
+      "expected_sha256": "06a023d5bd231ffdc2e441044936191c48fd861a9f56007e3408401934ad9aa0",
+      "actual_sha256": "06a023d5bd231ffdc2e441044936191c48fd861a9f56007e3408401934ad9aa0",
+      "pass": true
+    },
+    {
+      "id": "CR253_result",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_result.md",
+      "expected_sha256": "fd944b04ae0701d1c1bbf25eb7860f808a3eb83f7e94d050c8b6858b5c0861e5",
+      "actual_sha256": "fd944b04ae0701d1c1bbf25eb7860f808a3eb83f7e94d050c8b6858b5c0861e5",
+      "pass": true
+    },
+    {
+      "id": "CR253_promoted_rows",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_promoted_80_rows.csv",
+      "expected_sha256": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+      "actual_sha256": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+      "pass": true
+    },
+    {
+      "id": "CR253_input_catalog",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR253_PARTICLE_PROMOTER_80_ROW/CR253_input_catalog_299.csv",
+      "expected_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "actual_sha256": "33abc9e19f008c7c8082fbc628dc0f46786820ba7682905419a2929c8ada5b7c",
+      "pass": true
+    },
+    {
+      "id": "CR254_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR254_COMPACT_MATTER_CHARGED_LAW/CR254_summary.json",
+      "expected_sha256": "ac5cb2bc8d884fab0d10e55c81db6fa9401b01779bd710d1d43d7e26367d3074",
+      "actual_sha256": "ac5cb2bc8d884fab0d10e55c81db6fa9401b01779bd710d1d43d7e26367d3074",
+      "pass": true
+    },
+    {
+      "id": "CR255_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR255_COMPACT_MATTER_NEUTRAL_LAW/CR255_summary.json",
+      "expected_sha256": "f9d2c88b2d78e76f56bbea71340ac1a5e94a3cefb75aba84c6cde017d9e25da9",
+      "actual_sha256": "f9d2c88b2d78e76f56bbea71340ac1a5e94a3cefb75aba84c6cde017d9e25da9",
+      "pass": true
+    },
+    {
+      "id": "CR256_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR256_A_OPERATOR_ANTIMATTER_CONJUGATE/CR256_summary.json",
+      "expected_sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "actual_sha256": "721a64f48b4977d736a4e362f4091857fd8628c4808444ce78d3159b8a7f630b",
+      "pass": true
+    },
+    {
+      "id": "CR257_summary",
+      "path": "C:/VS/The_Courtroom/09a_PARTICLE_MASS_CHAIN/CR257_A_MEETS_THETA_AT_D_1/CR257_summary.json",
+      "expected_sha256": "db5b8ff0010a6984d82893e4c392320829f1408a20e02bde1376ecabe1768788",
+      "actual_sha256": "db5b8ff0010a6984d82893e4c392320829f1408a20e02bde1376ecabe1768788",
+      "pass": true
+    },
+    {
+      "id": "SAM_VOLUME_II_MATTER_CONCEPTUAL_DRAFT",
+      "path": "C:/VS/The_Courtroom/docs/SAM_VOLUME_II_MATTER_CONCEPTUAL_DRAFT_2026_07_01.md",
+      "expected_sha256": "7b6b266c85735c56cfe27d4f49ad7121e0b77eb13c2f010acfcd2aca7927d471",
+      "actual_sha256": "7b6b266c85735c56cfe27d4f49ad7121e0b77eb13c2f010acfcd2aca7927d471",
+      "pass": true
+    }
+  ],
+  "source_contracts": {
+    "QP093A_result_class": "DISCOVERY_QP093A_STABLE_SAM_PARTICLE_COMBINATION_ENUMERATOR__FINITE_CATALOG_EMITTED__KNOWN_LABELS_DOWNSTREAM_ONLY__CARRIER_NOT_PROMOTED__STABILITY_SELECTOR_OPEN",
+    "CR119_result_class": "PASS_CR119_COURTROOM_TABLE_VAULT_REVEAL__321_PARTICLE__126_MATTER__126_PERIODIC__DOWNSTREAM_IDENTITIES_ASSIGNED__KNOWN_LABELS_REVEAL_ONLY",
+    "CR253_verdict_preserved": "BOUNDARY",
+    "CR253_boundary_reason": "W3 and W4 controls insensitive due to upstream bin+h_T filter subsumption",
+    "CR254_verdict": "PASS",
+    "CR255_verdict": "PASS",
+    "CR256_verdict": "PASS",
+    "CR257_context_verdict": "BOUNDARY"
+  },
+  "no_existing_artifact_modified": true
+}

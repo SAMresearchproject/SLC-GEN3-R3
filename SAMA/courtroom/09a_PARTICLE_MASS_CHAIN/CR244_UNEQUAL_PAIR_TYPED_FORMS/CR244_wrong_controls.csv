@@ -1,0 +1,19 @@
+label,description,lane,canonical_x_round_match,perturbed_x_round_match,total,degraded
+WC-R1,"R = 10, D = 3",ORDINARY,30,2,30,True
+WC-R1,"R = 10, D = 3",OCTET,12,0,12,True
+WC-R2,"R = 11, D = 3",ORDINARY,30,6,30,True
+WC-R2,"R = 11, D = 3",OCTET,12,0,12,True
+WC-R3,"R = 13, D = 3",ORDINARY,30,6,30,True
+WC-R3,"R = 13, D = 3",OCTET,12,0,12,True
+WC-D1,"R = 12, D = 2",ORDINARY,30,10,30,True
+WC-D1,"R = 12, D = 2",OCTET,12,0,12,True
+WC-D2,"R = 12, D = 4",ORDINARY,30,8,30,True
+WC-D2,"R = 12, D = 4",OCTET,12,2,12,True
+WC-T1,Trigger swap (ORDINARY <-> OCTET),ORDINARY,30,4,30,True
+WC-T1,Trigger swap (ORDINARY <-> OCTET),OCTET,12,0,12,True
+WC-A1,Alternate denominator R^3 = 1728,ORDINARY,30,0,30,True
+WC-A1,Alternate denominator R^3 = 1728,OCTET,12,0,12,True
+WC-A2,Alternate denominator R^2 * M = 18144,ORDINARY,30,12,30,True
+WC-A2,Alternate denominator R^2 * M = 18144,OCTET,12,2,12,True
+WC-A3,ORDINARY numerator (|a-b| + D^2) instead of (|a-b| + D),ORDINARY,30,2,30,True
+WC-A3,ORDINARY numerator (|a-b| + D^2) instead of (|a-b| + D),OCTET,12,12,12,False

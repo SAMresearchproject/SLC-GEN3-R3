@@ -1,0 +1,15 @@
+check,passed,observed,expected
+xlsx_written,True,67722,>0
+xlsx_is_valid_zip,True,True,True
+xlsx_has_7_sheets,True,7,7
+sheet_names_present,True,"['Constants', 'Hidden_Set', 'Shells', 'SOB_126', 'Card_Payloads_126', 'Formula_Map', 'Checks']",all sheet names in workbook.xml
+formula_count_gt_5000,True,5529,>5000
+sob_formula_rows_126,True,126,126
+card_payload_formula_rows_126,True,126,126
+clock_prediction_counts_81_37_8,True,"{'stable': 81, 'radioactive': 37, 'frontier': 8}","{'stable': 81, 'radioactive': 37, 'frontier': 8}"
+hidden_sum_45,True,45,45
+clock_holes_43_61,True,"[43, 61]","[43, 61]"
+z79_values,True,"{'N': 118, 'A': 197, 'clock': 'stable'}","N=118,A=197,stable"
+z79_kernel_values_match_cr226,True,"{'workbook': '732.696614583333', 'cr226': '732.696614583333'}",G match
+cr225_candidate_rule_matches,True,"stable iff Z <= 83 and Z not in {43,61}","stable iff Z <= 83 and Z not in {43,61}"
+no_reveal_strings_in_sob_sheet,True,checked,no reveal labels

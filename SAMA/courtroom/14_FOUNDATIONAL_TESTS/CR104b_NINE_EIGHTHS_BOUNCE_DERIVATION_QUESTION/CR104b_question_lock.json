@@ -1,0 +1,84 @@
+{
+  "lock_id": "CR104b_NINE_EIGHTHS_BOUNCE_DERIVATION_QUESTION_LOCK",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "cr_id": "CR104b",
+  "sealed_at_utc": "2026-06-13T23:36:57Z",
+  "user_question_verbatim": "And the 9/8 might be the native resolved-bounce correction, not a fit, if we can connect it to R=12 / D=3 / 1/2 write geometry. This is the big question now: Can SAM derive the 9/8 bounce factor from resolved half-write geometry?",
+  "user_question_sha256": "9ea6aff474196e2a31292135b091fdf03e34a45cabaf02c7fb2a848b5a8356a2",
+  "user_authorization_bold_verbatim": "Fortune favors the bold- keep it in the courtroom. Any failure can provide extremely valuable breadcrumbs downstream- success would be a provincial hole in one.",
+  "user_authorization_bold_sha256": "6dba5f090b7b750f320a12155f9d59e36c66129fbf56e1467f5b2c624722058e",
+  "upstream_verification": {
+    "DS014_DOWN_BOTTOM_LAYERED_GAP_SANDBOX": "uses 9/8 layered_fraction with value 1.125 to improve d and b quark mass predictions to ~3% relative error; DS014_reciprocal_control.py tests fit-vs-structural dichotomy",
+    "G432_BOUNCE_COST_EIGHTH_SLOT_CORRECTION": "the '8' in 9/8 connects to 2^D = 8 slot_denominator",
+    "G435_BOUNCE_COST_MASS_PROPORTIONALITY_PASS": "r_bounce = (A0/2) * (q / 2^D); 8/8 predictions PASS, 7/7 wrong controls PASS",
+    "G470_SW_SPLIT_BOUNCE_ACTION_THEOREM_PASS": "combines G425 + Gate-7/Gate-8 + G435 into one action theorem"
+  },
+  "upstream_source_hashes_at_runner_time": {
+    "DS014_summary.json": "7866d389f2219cf41b3194b3c5c16c6c2782eb2ea293b14fbce48413ab0fb58a",
+    "DS014_reciprocal_control.py": "cce93e5f3d22ec110745c3dbdbba321508e125375abfc63dcd95e59a39d9f173",
+    "G435_output.json (bounce mass proportionality PASS)": "c419e7e601ef954e24fc6b0d8cb8d17c3ee01777020449a3c343518570f70e19",
+    "G432_output.json (bounce eighth-slot correction)": "dda044916bff46c758692490064afdad6fa52c81fa801663b87e48e09526127a",
+    "G470_output.json (SW split bounce action theorem PASS)": "709bbf5ebf3b9097143a4517aa7a744148e34c6a5ec105fcb57f50b9af6c5d41",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "candidate_derivation_forms": [
+    {
+      "form_id": "FORM_1",
+      "name": "binary_cells_plus_center_over_binary_cells",
+      "formula": "(2^D + 1) / 2^D",
+      "value_at_D_3": "9/8",
+      "value_at_D_2": "5/4",
+      "value_at_D_4": "17/16",
+      "structural_reading": "2^D spatial octants plus one central write event, normalized by spatial octants"
+    },
+    {
+      "form_id": "FORM_2",
+      "name": "dimension_squared_over_binary_cell",
+      "formula": "D^2 / 2^D",
+      "value_at_D_3": "9/8",
+      "value_at_D_2": "4/4 = 1 (no correction)",
+      "value_at_D_4": "16/16 = 1 (no correction)",
+      "structural_reading": "Only D=3 gives a non-trivial ratio greater than 1; D=2 and D=4 collapse to identity. Would single out 3D world as structurally privileged."
+    },
+    {
+      "form_id": "FORM_3",
+      "name": "radix_minus_dim_over_binary_cell",
+      "formula": "(R - D) / 2^D",
+      "value_at_D_3": "(12-3)/8 = 9/8",
+      "value_at_D_2": "n/a (R is native to D=3)",
+      "value_at_D_4": "n/a",
+      "structural_reading": "Uses R=12 explicitly; connects to substrate algebra denominator"
+    },
+    {
+      "form_id": "FORM_4",
+      "name": "cube_topology_corners_plus_interior_over_corners",
+      "formula": "(2^D corners + 1 interior) / 2^D corners",
+      "value_at_D_3": "9/8 (cube: 8 corners + 1 volume)",
+      "value_at_D_2": "5/4 (square: 4 corners + 1 face)",
+      "value_at_D_4": "17/16 (tesseract: 16 corners + 1 volume)",
+      "structural_reading": "Topological reading; bounce normalizes by spatial corners; write event lives at interior"
+    }
+  ],
+  "derivation_path_required_for_theorem_closure": [
+    "QGA021 half-write route (1/2 SW | 1/2 W | 1/2 OUT | 1/2 IN | 1/2 W | 1/2 SW) maps onto edges of the D=3 binary cell, not just abstract sequence",
+    "WRITE event lives at interior volume of the cube (resolved 3D ledger event)",
+    "Bounce energy normalizes by corners (octants = 2^D = 8)",
+    "Resulting (8 + 1)/8 = 9/8 emerges as the UNIQUE non-trivial bounce correction at D=3",
+    "DS014 reciprocal control confirms 9/8 improves d/b only, not u/s/c/t (already in upstream as control test)"
+  ],
+  "possible_outcomes_forward_blind": {
+    "QUESTION_CLOSED_BY_UPSTREAM_THEOREM": "SAM upstream produces theorem-grade PASS deriving 9/8 from D=3 half-write geometry; appeal row CR104b-1 records closure; hole in one",
+    "QUESTION_DISFAVORED_BY_RECIPROCAL_CONTROL_FAILURE": "DS014 reciprocal control finds 9/8 improves u/s/c/t too; reduces to fit; G435 bounce cost loses theorem-grade status for d/b corrections; substantial breadcrumb downstream",
+    "QUESTION_REMAINS_OPEN": "no upstream derivation, no reciprocal control failure; question stays sealed for next attempt"
+  },
+  "what_CR104b_does_not_do": [
+    "does not claim to derive 9/8",
+    "does not modify CR100 question lock, CR103a appeal lock, CR104 verdict, CR104a Layer 4 lock",
+    "does not commit SAM to any specific candidate derivation form",
+    "does not promote DS014 layered_fraction beyond its current status",
+    "does not modify any 09a CR result"
+  ],
+  "prediction_commit_sha256": "6e78e015068b766e25b020e66d2be3ef5dc298490c6335eceaddf0ed9da06f5c",
+  "prediction_commit_utc": "2026-06-13T23:36:57Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+}

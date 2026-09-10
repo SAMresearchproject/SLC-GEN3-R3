@@ -1,0 +1,138 @@
+{
+  "cr_id": "CR126",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "PRECISION_FRONTIER_STRUCTURAL_RESIDUAL_4_LOOSE_ROWS",
+  "execution_status": "CLEAN",
+  "result_class": "CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T21:49:00Z",
+  "loose_rows_examined": 4,
+  "headlines": {
+    "rejected_fake_closure_rows_filtered_out": 2,
+    "physically_allowed_rows_analyzed": 2,
+    "data_scatter_consistent": 2,
+    "marginal_tension": 0,
+    "structural_residual_required": 0,
+    "coincidence_on_rejected_row": 2
+  },
+  "verdict_per_row": [
+    {
+      "candidate_id": "QP093A-0186",
+      "nearest_anchor": "W boson decay width (ATLAS)",
+      "rel_residual_pct": 0.264063,
+      "sigmas_from_central": 0.124,
+      "closest_structural_scale": "2_neg_D_times_D_over_R2",
+      "verdict": "DATA_SCATTER_CONSISTENT"
+    },
+    {
+      "candidate_id": "QP093A-0231",
+      "nearest_anchor": "W boson decay width (ATLAS)",
+      "rel_residual_pct": 0.681199,
+      "sigmas_from_central": 0.319,
+      "closest_structural_scale": "",
+      "verdict": "COINCIDENCE_ON_REJECTED_ROW"
+    },
+    {
+      "candidate_id": "QP093A-0234",
+      "nearest_anchor": "X(3872) mass (LHCb)",
+      "rel_residual_pct": 0.422301,
+      "sigmas_from_central": 1362.5,
+      "closest_structural_scale": "",
+      "verdict": "COINCIDENCE_ON_REJECTED_ROW"
+    },
+    {
+      "candidate_id": "QP093A-0299",
+      "nearest_anchor": "Higgs boson mass (CMS)",
+      "rel_residual_pct": 0.103685,
+      "sigmas_from_central": 0.929,
+      "closest_structural_scale": "alphaH_over_R3",
+      "verdict": "DATA_SCATTER_CONSISTENT"
+    }
+  ],
+  "higgs_structural_scale_finding": {
+    "row": "QP093A-0299",
+    "rel_residual_pct": 0.103685,
+    "alphaH_over_R3_pct": 0.115741,
+    "obs_over_scale_ratio": 0.8958,
+    "interpretation": "Observed Higgs residual (~0.10%) matches the natural SAM scale alpha_H / R^3 (0.1157%) to within ~10 percent of the scale itself, but the agreement is within 1 sigma of published centrals -- compatible with structural account, not separately required.  HL-LHC tightening to sigma <= 50 MeV resolves the question."
+  },
+  "structural_scales_pct": {
+    "1_over_R": 8.333333,
+    "1_over_R2": 0.694444,
+    "1_over_R3": 0.05787,
+    "alphaH_over_R3": 0.115741,
+    "D_over_R3": 0.173611,
+    "2_neg_D_over_R2": 0.086806,
+    "2_neg_D_times_D_over_R2": 0.260417
+  },
+  "hllhc_prediction_commit_sha256": "4dd336d35fd439155e2199fa524a1ea83cda503d24ea615599e902fbb937be4d",
+  "decomposition_csv_sha256": "88f99f73229ff6f22f94b855edbeae6186b799bc03056398337974c77d7a435e",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR090_candidate_anchor_inventory_csv": "df2a13db83e261291ab508bfa632e02ab64bce7f53bd63c7482914946cc05926",
+    "CR124_crosswalk_csv": "0c8f8b1027ba5f7712ee884d114421e848c35cca5e4741fe387a8a60ad2f9eca",
+    "CR124_summary_json": "82951214172a95c1ca4c2e3bc7683801cb3ea94495a7decdaa5e286d2c7978bc"
+  },
+  "predictions": [
+    {
+      "name": "P1_four_rows_walked",
+      "pass": true,
+      "details": "decomposition row count = 4 (expected 4)"
+    },
+    {
+      "name": "P2_every_row_has_verdict",
+      "pass": true
+    },
+    {
+      "name": "P3_rejected_rows_flagged_as_coincidence",
+      "pass": true,
+      "details": "2 rejected rows -> all classified COINCIDENCE_ON_REJECTED_ROW; 2 allowed rows -> classified by sigmas-from-central"
+    },
+    {
+      "name": "P4_structural_scales_logged",
+      "pass": true,
+      "details": "7 natural scales considered"
+    },
+    {
+      "name": "P5_hllhc_prediction_zero_free_parameters",
+      "pass": true
+    },
+    {
+      "name": "P6_hllhc_prediction_falsifier_explicit",
+      "pass": true
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 particle table read-only; sha recorded"
+    },
+    {
+      "name": "WC2_CR090_inventory_unmodified",
+      "pass": true,
+      "details": "CR090 anchor inventory read-only; sha recorded"
+    },
+    {
+      "name": "WC3_CR124_crosswalk_unmodified",
+      "pass": true,
+      "details": "CR124 crosswalk read-only; sha recorded"
+    },
+    {
+      "name": "WC4_residual_decomp_does_not_force_a_match",
+      "pass": true,
+      "details": "closest-structural-scale tagging is informational only; verdict is driven by sigmas-from-central, not by scale-match quality.  A row with a clean scale match but 5 sigma from central would still be classified STRUCTURAL_RESIDUAL_REQUIRED, not DATA_SCATTER_CONSISTENT."
+    },
+    {
+      "name": "WC5_no_post_hoc_anchor_swap",
+      "pass": true,
+      "details": "anchor identities frozen from CR124 nearest-neighbor result; this CR does not pick a different anchor to improve the residual"
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "HL-LHC Higgs mass refinement is the resolving experiment (~2030-2040)",
+    "If a non-CLOSED_SCALAR_LOOP row predicts the X(3872) mass via a different partition, that would be tracked in a separate analysis CR -- not this one",
+    "The 2 REJECTED_FAKE_CLOSURE coincidences are NOT bugs; they document SAM's own physicality filter working as intended"
+  ]
+}

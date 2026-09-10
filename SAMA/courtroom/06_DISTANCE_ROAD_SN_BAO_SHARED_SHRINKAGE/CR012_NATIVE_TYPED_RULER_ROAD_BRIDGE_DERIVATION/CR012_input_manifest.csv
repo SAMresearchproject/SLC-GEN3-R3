@@ -1,0 +1,4 @@
+input,role,used_as_computed_input
+CR012_declared_premises.json,declared_constants_predictions_controls,True
+CR012_PRECOMMIT.md,sealed_pre_run_prediction,False
+CR012_runner.py,calculation_script,True

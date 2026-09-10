@@ -1,0 +1,21 @@
+{
+  "execution_status": "CLEAN",
+  "fake_parent_rejection": "1/1",
+  "freeze_id": "CR209_HARD_FREEZE_ELECTROWEAK_TOPOLOGY_EXTENSION",
+  "frozen_file_count": 15,
+  "frozen_manifest_sha256": "b76a8b17f70bcd908ab95be4db36a4654f4d38854a703a7c6aede3e9762c73a6",
+  "g758_hard_freeze_manifest_sha256": "cf1276e1f9683183e6802fe40568d8159025621c6f5e6ccd910fc1d4909870fe",
+  "generated_at_utc": "2026-06-14T05:07:16.257373+00:00",
+  "payload_fingerprint_sha256": "562edc7f992dd3a778799aed1f259ac79ccc475ca99e4d578266ddb8db94d7d3",
+  "preserved_boundaries": [
+    "CR204 remains BOUNDARY",
+    "CR207 remains BOUNDARY",
+    "Full electroweak theorem, couplings, amplitudes, and branching ratios remain open"
+  ],
+  "result_class": "CR209_PASS_ELECTROWEAK_TOPOLOGY_EXTENSION__BOUNDARY_FULL_EW_THEOREM_OPEN",
+  "scientific_verdict": "PASS",
+  "source_gate_result_class": "PASS_G758c_ELECTROWEAK_TOPOLOGY_EXTENSION",
+  "status": "FROZEN",
+  "target_lane_result": "5/5",
+  "wrong_controls": "7/7"
+}

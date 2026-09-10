@@ -1,0 +1,37 @@
+category,name,expected,reduced,source,uses_pi,match
+rational,alpha_H,2,2,Vol I §4.2/4.3,False,True
+rational,D,3,3,Vol I §4.1,False,True
+rational,S,8,8,Vol I §4.1,False,True
+rational,D_squared,9,9,Vol I §4.1,False,True
+rational,V,27,27,Vol I §4.4,False,True
+rational,F,81,81,Vol I §4.1,False,True
+rational,R,12,12,Vol I §4.2,False,True
+rational,R_squared,144,144,Vol I §4.2,False,True
+rational,Theta,18,18,Vol I §4.5,False,True
+rational,L,162,162,Vol I §4.3,False,True
+rational,M,126,126,Vol I §4.6,False,True
+rational,S_plus_1,9,9,Vol I §4.1,False,True
+rational,bigrade_sum,45,45,Violin.md §6,False,True
+rational,L_1,145/144,145/144,Vol II §13.3,False,True
+rational,L_2,73/36,73/36,Vol II §13.3,False,True
+rational,L_3,49/16,49/16,Vol II §13.3,False,True
+rational,L_4,37/9,37/9,Vol II §13.3,False,True
+rational,L_6,25/4,25/4,Vol II §13.3,False,True
+rational,L_8,76/9,76/9,Vol II §13.3,False,True
+rational,L_9,153/16,153/16,Vol II §13.3,False,True
+rational,L_12,13,13,Vol II §13.3,False,True
+rational,T13_partition_sum,162,162,CR238/QP102,False,True
+rational,non_Z_T13_sum,81,81,QP102/QP111,False,True
+rational,c_plus,5/4,5/4,CR254,False,True
+rational,c_minus,3/2,3/2,CR254,False,True
+rational,tensor_share_1_over_8,1/8,1/8,CR255 / Vol II §9.1,False,True
+rational,retained_share_7_over_8,7/8,7/8,CR255 / Vol II §9.1,False,True
+rational,A_neg_coef_5_over_6,5/6,5/6,CR256,False,True
+rational,A_pos_coef_6_over_5,6/5,6/5,CR256,False,True
+rational,R_squared_plus_Theta,162,162,Vol I §4.3,False,True
+rational,R_squared_minus_Theta,126,126,Vol I §4.6,False,True
+rational,L_minus_M_eq_2Theta,36,36,QP111,False,True
+rational,M_over_R_squared,7/8,7/8,Vol II §9.1,False,True
+accumulation,A_0,0.026525823848649224,0.026525823848649224,Vol I §4.7,True,True
+accumulation,A_share,1/12,1/12,Vol I §4.7,True,True
+accumulation,A_side,1/24,1/24,Vol I §4.7,True,True

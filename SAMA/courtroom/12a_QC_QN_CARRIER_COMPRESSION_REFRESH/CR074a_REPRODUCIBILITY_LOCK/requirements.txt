@@ -1,0 +1,8 @@
+# CR074a Reproducibility Lock - Pack-level requirements
+# Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.
+#
+# These are the ACTUAL pinned versions used to run the campaign.
+# See CR074a discipline-drift finding for the per-CR pin mismatch.
+
+numpy==2.4.4
+matplotlib==3.10.9

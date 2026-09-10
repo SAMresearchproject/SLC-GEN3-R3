@@ -1,0 +1,249 @@
+{
+  "lock_id": "CR114_BINARY_FACE_STATE_SPLIT_THEOREM_LOCK",
+  "cr_id": "CR114",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "sealed_at_utc": "2026-06-19T05:50:40Z",
+  "result_class": "CR114_PASS_BINARY_FACE_STATE_SPLIT_THEOREM",
+  "theorem_statement": "For a closed scalar loop with D independent binary closure axes, the loop has 2^D face-states. Exactly one face-state is unresolved tensor-carrier support, so the carrier fraction is 1/2^D and the retained scalar fraction is 1-2^-D. With D=3 and R=12 this gives R^2/2^D=18=alpha_H*D^2 and R^2*(1-2^-D)=126. The carrier is then packetized by alpha_H=2 into plus/cross 1/16+1/16 support; it is not matter and not the D^2/R observed-surface debit.",
+  "derived_values": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "face_state_count": 8,
+    "carrier_state_count": 1,
+    "retained_state_count": 7,
+    "carrier_fraction": "1/8",
+    "retained_fraction": "7/8",
+    "closed_loop_total_R2": 144,
+    "split_loss": "18",
+    "tensor_identity_alpha_H_D2": 18,
+    "retained_parent": "126",
+    "surface_debit": "3/4",
+    "observed_surface": "501/4",
+    "per_polarization_fraction": "1/16",
+    "strong_boundary_closure": "1"
+  },
+  "source_chain_sha256": {
+    "CR114_RUNNER": "6f3ecd7f02fce652629820817f8299b7de5067e81a89c3585d08b077a5d77796",
+    "CR113_SUMMARY": "2c2a1a33c9b29d17b002a25d4cd8432691875098a60cd2fa3f1ff5864ea7664e",
+    "CR113_LOCK": "6892987bdd978f03fa42cb7d0ef14e24cdd08e11e154ef8ced5cd5ede3fd15b4",
+    "PRIORITY_RECORD": "640c41f5d31878891e22a13d1ef5d3a8ed7cb47e9a8ed07934d110471dbfebb4",
+    "QP091T_SUMMARY": "8c9fe94dcd80d7e2b10fd8f9dbcd8c152a1fd4009a959018cb94da84153bb3c7",
+    "QP091T_RESULT": "f4c4d5aadaddc80e5e20899b62289ed686d0eee668b1ac15f93d69fff06697a5",
+    "QP091T_PREMISES": "476d96c06b64ab352c5142b075558528d5904037420a42650a6c552e9604aad4",
+    "QP091T_RETENTION_ROWS": "4c3cb310496910d94be3bd25a3ebe3ec667dc8b6698f80ee8171d9096a394c56",
+    "QP091T_CONTROLS": "103b1ccab0cac2c3c5294a9c71cc5460bca4a623e6db6202b0af8b8ae4d13acc",
+    "QP091U_SUMMARY": "b87d85be2149f4bd51daa70bcfe39f7e14fe033fb6c21d50e441a037f8b27ee1",
+    "QP091U_WRONG_CONTROLS": "64154cf5af11e14f6111a40d2ed2527d0c14c36972850765a4402bde80c35f40",
+    "QP091U_FROZEN_MANIFEST": "71e528cc81383276d7f459a2b1d77af4126772b882fc124801dff41b63bea0b8",
+    "QP092A_SUMMARY": "649e61e0ca47d715e526738bf867f8e57aab1bad6d46974b201fd57c2b4ceaca",
+    "QP092A_PREMISES": "e6aaa5c8d11181fec7327eae4c2c660d35ff35ec0b6786095ebd555e6efe6b46",
+    "QP092A_IDENTITY": "55ffed24918dc7eff7a1d4054a4ea0a08fb7fe450037e3e37c9e3a58e362d96f",
+    "QP092A_CONTROLS": "320df1dba79f92f54a0436ffeec2d5df119822d5d367fb03a10250e466e1a708",
+    "QP092A_WRONG_CONTROLS": "d34139a7edcfc243178b729a7c41ca4607632439ef5cd7583f26e06e391a57a0",
+    "QP092A_CLASSIFICATION": "36662611762cbe0dd3e31d8b9d29dde67f4ebe0188e6742221593746a78543f7",
+    "QP092F_SUMMARY": "b122cec6fd334a73a59b280bbf137b3a76a7b588e30e609b81dfeb92f5369536",
+    "QP092F_PREMISES": "8c323e767b94e6c2d03841bf2b9d2d00902ae1a1f7d47663b8b68e7cdc7b7586",
+    "QP092F_TENSOR_BASIS": "1abeed6db780f1770bafbb5c722923d2a5480885c58a2ee708cf3e08058d5492",
+    "QP092F_CONTROLS": "3677b34aa9cdd30aaa2c7b69aa10b354242e99eec390ed2f225e7f66a7b5fc92",
+    "QP092F_WRONG_CONTROLS": "f648c56fa750ec239fbea6e31ff1b939d4ccef85eb837706d025e1d687466a27",
+    "QP092G_SUMMARY": "b5ee2482db3c4fda01e26359feb3a65089c136a3e038947730f11d9e51b79841",
+    "QP092G_PREMISES": "444e8161cbe38852fda51a2b056c06e79f278f7f73c20716ebf553f5bcdec5ec",
+    "QP092G_STRONG_BOUNDARY": "86d87194d7db86c80994b7cde8ee601e3a57b2979c4796e6fa0adea4723c6629",
+    "QP092G_BRIDGE_PACKET": "bad793840ec4b68518fc134b2b9191e6b6e5010dd5fbaee3fc8ec08659d11516",
+    "QP092G_CONTROLS": "8efa3c666fd5be03436591b672be863209f60c56caaf61c6934e9e376e06770b",
+    "QP092G_WRONG_CONTROLS": "b422bf52db9904aaf0811f947437fa09525f3d7de2f284b0506455d2fe3826e7",
+    "QP092G_FROZEN_SPINE": "5146f9f91c5a40fb6f33bfe8f81ee9a1f8210178ff5d94f1b22354d82360c8a2"
+  },
+  "checks": [
+    {
+      "check_id": "P1_sources_present",
+      "description": "All load-bearing provenance artifacts are present.",
+      "observed": "{\"missing_load_bearing\": []}",
+      "passed": true,
+      "source": "CR114_source_chain"
+    },
+    {
+      "check_id": "P2_R12_source_locked",
+      "description": "CR113 supplies R=12 from completed-WRITE address count, not 2pi/A0.",
+      "observed": "{\"R\": 12, \"cr113_result\": \"CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\"}",
+      "passed": true,
+      "source": "CR113"
+    },
+    {
+      "check_id": "P3_binary_face_state_count",
+      "description": "D independent binary closure axes give 2^D = 8 face-states.",
+      "observed": "{\"D\": 3, \"face_state_count\": 8}",
+      "passed": true,
+      "source": "CR114 theorem arithmetic"
+    },
+    {
+      "check_id": "P4_one_unresolved_state_forces_one_eighth",
+      "description": "Exactly one unresolved carrier face-state gives carrier fraction 1/2^D = 1/8.",
+      "observed": "{\"carrier_fraction\": \"1/8\", \"carrier_states\": 1}",
+      "passed": true,
+      "source": "CR114 theorem arithmetic"
+    },
+    {
+      "check_id": "P5_retained_states_force_seven_eighths",
+      "description": "The retained scalar parent has 2^D-1 = 7 states and retained fraction 7/8.",
+      "observed": "{\"retained_fraction\": \"7/8\", \"retained_states\": 7}",
+      "passed": true,
+      "source": "CR114 theorem arithmetic"
+    },
+    {
+      "check_id": "P6_closed_loop_higgs_parent_matches_QP091T",
+      "description": "R^2*(1-2^-D) gives H_native=126 and matches frozen QP091T.",
+      "observed": "{\"derived_retained_parent\": \"126.000000000000000000000000000000\", \"qp091t_H_native\": \"126.000000000000000000000000000000\", \"qp091t_derivation\": \"H_native = R^2*(1-2^-D); H_reveal = H_native - D^2/R\"}",
+      "passed": true,
+      "source": "QP091T"
+    },
+    {
+      "check_id": "P7_split_loss_equals_tensor_identity",
+      "description": "R^2/2^D gives 18 and equals alpha_H*D^2, matching QP092A.",
+      "observed": "{\"qp092a_identity\": \"18.000000000000000000000000000000\", \"qp092a_split_loss\": \"18.000000000000000000000000000000\", \"split_loss\": \"18.000000000000000000000000000000\", \"tensor_identity\": 18}",
+      "passed": true,
+      "source": "QP092A"
+    },
+    {
+      "check_id": "P8_surface_debit_is_separate",
+      "description": "The 1/8 carrier is not the D^2/R observed-surface debit.",
+      "observed": "{\"carrier_fraction\": \"1/8\", \"observed_surface\": \"125.250000000000000000000000000000\", \"qp091t_H_reveal\": \"125.250000000000000000000000000000\", \"surface_debit\": \"3/4\"}",
+      "passed": true,
+      "source": "QP091T/QP092A"
+    },
+    {
+      "check_id": "P9_target_free_and_frozen",
+      "description": "The Higgs target is not used as an input and QP091T hashes are frozen by QP091U.",
+      "observed": "{\"free_parameters\": 0, \"frozen_rows\": 11, \"qp091u_hashes_match\": true, \"target_used\": false}",
+      "passed": true,
+      "source": "QP091T/QP091U"
+    },
+    {
+      "check_id": "P10_plus_cross_packet_closes_carrier",
+      "description": "The one-eighth carrier splits into plus/cross tensor support, 1/16 + 1/16.",
+      "observed": "{\"basis_rows\": [{\"basis_matrix\": \"[[1,0,0],[0,-1,0],[0,0,0]]\", \"basis_status\": \"PASS_TRACE_ZERO_TRANSVERSE_TENSOR_BASIS\", \"polarization_id\": \"plus\", \"propagation_axis\": \"z\", \"tensor_rank\": \"2\", \"trace\": \"0\", \"transverse_axes\": \"x,y\"}, {\"basis_matrix\": \"[[0,1,0],[1,0,0],[0,0,0]]\", \"basis_status\": \"PASS_TRACE_ZERO_TRANSVERSE_TENSOR_BASIS\", \"polarization_id\": \"cross\", \"propagation_axis\": \"z\", \"tensor_rank\": \"2\", \"trace\": \"0\", \"transverse_axes\": \"x,y\"}], \"per_polarization_fraction\": \"1/16\", \"qp092f_support_rule\": \"A = 7/8 retained write support + 1/16 plus support + 1/16 cross support\"}",
+      "passed": true,
+      "source": "QP092F"
+    },
+    {
+      "check_id": "P11_A1_boundary_packet_closes",
+      "description": "7/8 retained plus 1/16 plus plus 1/16 cross closes A=1.",
+      "observed": "{\"derived_A1\": \"1\", \"qp092g_closure\": \"7/8 + 1/16 + 1/16 = 1\", \"qp092g_strong_row\": {\"A_boundary\": \"1\", \"alpha_H_D2\": \"18\", \"carrier_A_total\": \"0.125\", \"clock_limit_d_tau_over_dt\": \"0\", \"closed_A\": \"1.0000\", \"closed_loop_R2\": \"144\", \"cross_polarization_A\": \"0.0625\", \"matter_row_promoted\": \"False\", \"packet_id\": \"strong|A_boundary_equals_1|aggregate\", \"plus_polarization_A\": \"0.0625\", \"retained_scalar_parent_R2_7_over_8\": \"126\", \"retained_write_A\": \"0.875\", \"split_loss_R2_1_over_8\": \"18\", \"strong_boundary_status\": \"PASS_A_EQUALS_1_BOUNDARY_PACKET\", \"support_closure_relative_error\": \"0.0000\"}}",
+      "passed": true,
+      "source": "QP092G"
+    },
+    {
+      "check_id": "P12_carrier_is_not_matter",
+      "description": "The 18 split-loss carrier is unresolved tensor support, not a matter row or rest mass.",
+      "observed": "{\"qp092a_classification\": {\"massless_carrier_behavior\": {\"condition\": \"massless_carrier_behavior\", \"expected\": \"no stable matter row and no rest-mass promotion\", \"observed\": \"carrier_status=UNRESOLVED_SUPPORT_CHANNEL; rest_mass_interpretation=FORBIDDEN\", \"passed\": \"True\", \"readout\": \"candidate is a graviton-channel/tensor-carrier, not a normal particle\"}, \"qA_source_coupling\": {\"condition\": \"qA_source_coupling\", \"expected\": \"couples as source-field support, not mass closure\", \"observed\": \"coupling_class=qA_SOURCE_SUPPORT; matter_closure=REJECTED\", \"passed\": \"True\", \"readout\": \"channel is allowed to support field/source behavior without becoming matter\"}, \"rank2_tensor_channel\": {\"condition\": \"rank2_tensor_channel\", \"expected\": \"D^2 rank surface with alpha_H two-sided/tensor support\", \"observed\": \"D^2=9.000000000000000000000000000000; alpha_H*D^2=18.000000000000000000000000000000\", \"passed\": \"True\", \"readout\": \"split loss has rank-2 tensor-channel structure\"}, \"surface_debit_separation\": {\"condition\": \"surface_debit_separation\", \"expected\": \"split loss 18 remains distinct from reveal debit D^2/R=0.75\", \"observed\": \"split_loss=18.000000000000000000000000000000; surface_debit=0.750000000000000000000000000000\", \"passed\": \"True\", \"readout\": \"do not confuse tensor-carrier split loss with observed surface debit\"}}, \"qp092f_matter_rows_added\": 0, \"qp092g_matter_rows_added\": 0}",
+      "passed": true,
+      "source": "QP092A/QP092F/QP092G"
+    },
+    {
+      "check_id": "P13_no_2pi_exact_parent_route",
+      "description": "Old 2pi/q_split route remains near-lock context, not the exact parent derivation.",
+      "observed": "{\"qp091t_row_text_contains_qsplit_context\": false, \"qp091t_supersedes\": \"QP091S 2pi q_split is retained as near-lock context only\"}",
+      "passed": true,
+      "source": "QP091T"
+    },
+    {
+      "check_id": "P14_bridge_spine_reuses_same_route",
+      "description": "QP092G reuses the same frozen 1/8 tensor-carrier route through split-loss, weak-field, strong-boundary, and quantum layers.",
+      "observed": "{\"bridge_layers\": 5, \"qp092g_frozen_route\": \"qA source support -> 1/8 unresolved tensor carrier -> ledger compression -> A readout\", \"spine_rows\": 6}",
+      "passed": true,
+      "source": "QP092G"
+    },
+    {
+      "check_id": "P15_priority_record_tracks_nonmatter_status",
+      "description": "Priority record already flags alpha_H*D^2=18 as split-loss/tensor-carrier support, not matter.",
+      "observed": "priority-record support line",
+      "passed": true,
+      "source": "PRIORITY_RECORD"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "control_id": "WC1_one_quarter_loss",
+      "hypothesis": "Use 2^(D-1)=4 face-states, giving 1/4 carrier loss.",
+      "observed": "{\"loss\": \"36.000000000000000000000000000000\", \"qp092a\": {\"hypothesis\": \"loss = R^2*(1/4)\", \"loss_amount\": \"36.000000000000000000000000000000\", \"loss_amount_base12\": \"30_12\", \"matches_retained_126\": \"False\", \"matches_split_loss_18\": \"False\", \"readout\": \"fails split-loss tensor-channel identity\", \"rejected\": \"True\", \"retained_amount\": \"108.000000000000000000000000000000\", \"retained_amount_base12\": \"90_12\", \"wrong_control_id\": \"WRONG_FACE_STATE_1_OVER_4\"}, \"retained_parent\": \"108.000000000000000000000000000000\"}",
+      "rejected": true,
+      "reason": "1/4 produces loss 36 and parent 108; QP092A and QP091U reject it."
+    },
+    {
+      "control_id": "WC2_one_sixteenth_total_loss",
+      "hypothesis": "Use 2^(D+1)=16 face-states, giving 1/16 total carrier loss.",
+      "observed": "{\"loss\": \"9.000000000000000000000000000000\", \"qp092a\": {\"hypothesis\": \"loss = R^2*(1/16)\", \"loss_amount\": \"9.000000000000000000000000000000\", \"loss_amount_base12\": \"9_12\", \"matches_retained_126\": \"False\", \"matches_split_loss_18\": \"False\", \"readout\": \"fails split-loss tensor-channel identity\", \"rejected\": \"True\", \"retained_amount\": \"135.000000000000000000000000000000\", \"retained_amount_base12\": \"B3_12\", \"wrong_control_id\": \"WRONG_FACE_STATE_1_OVER_16\"}, \"retained_parent\": \"135.000000000000000000000000000000\"}",
+      "rejected": true,
+      "reason": "1/16 is a per-polarization share, not the total carrier fraction."
+    },
+    {
+      "control_id": "WC3_no_carrier",
+      "hypothesis": "Drop the unresolved carrier state and keep the whole closed loop.",
+      "observed": "{\"loss\": 0, \"qp092g\": {\"expected\": \"must fail support closure by 1/8\", \"hypothesis\": \"drop 1/8 carrier support and still close the bridge packet\", \"observed\": \"A_boundary_closure_error=0.125\", \"readout\": \"carrier support is required at weak, strong, and quantum layers\", \"rejected\": \"True\", \"wrong_control_id\": \"WC2_NO_CARRIER_SPLIT\"}, \"retained_parent\": 144}",
+      "rejected": true,
+      "reason": "No-carrier control fails the split-loss identity and A-boundary support closure by 1/8."
+    },
+    {
+      "control_id": "WC4_surface_debit_as_carrier",
+      "hypothesis": "Replace the 1/8 carrier fraction with the D^2/R observed-surface debit.",
+      "observed": "{\"qp092g\": {\"expected\": \"must fail; surface debit is separate from carrier fraction\", \"hypothesis\": \"replace carrier fraction 1/8 with surface debit D^2/R\", \"observed\": \"A_boundary_closure_error=0.625\", \"readout\": \"D^2/R is not the tensor-carrier split fraction\", \"rejected\": \"True\", \"wrong_control_id\": \"WC3_SURFACE_DEBIT_AS_CARRIER\"}, \"wrong_fraction\": \"3/4\", \"wrong_loss\": \"108.000000000000000000000000000000\"}",
+      "rejected": true,
+      "reason": "Surface debit is the observed projection debit, not the tensor-carrier split fraction."
+    },
+    {
+      "control_id": "WC5_raw_D2_loss",
+      "hypothesis": "Use raw D^2=9 as the split loss.",
+      "observed": "{\"qp092a\": {\"hypothesis\": \"loss = D^2\", \"loss_amount\": \"9.000000000000000000000000000000\", \"loss_amount_base12\": \"9_12\", \"matches_retained_126\": \"False\", \"matches_split_loss_18\": \"False\", \"readout\": \"fails split-loss tensor-channel identity\", \"rejected\": \"True\", \"retained_amount\": \"135.000000000000000000000000000000\", \"retained_amount_base12\": \"B3_12\", \"wrong_control_id\": \"WRONG_AMOUNT_RAW_D2\"}, \"wrong_loss\": 9, \"wrong_retained\": 135}",
+      "rejected": true,
+      "reason": "Raw D^2 gives the same amount as total 1/16, not the required carrier packet."
+    },
+    {
+      "control_id": "WC6_raw_R_loss",
+      "hypothesis": "Use raw R=12 as the split loss.",
+      "observed": "{\"qp092a\": {\"hypothesis\": \"loss = R\", \"loss_amount\": \"12.000000000000000000000000000000\", \"loss_amount_base12\": \"10_12\", \"matches_retained_126\": \"False\", \"matches_split_loss_18\": \"False\", \"readout\": \"fails split-loss tensor-channel identity\", \"rejected\": \"True\", \"retained_amount\": \"132.000000000000000000000000000000\", \"retained_amount_base12\": \"B0_12\", \"wrong_control_id\": \"WRONG_AMOUNT_RAW_R\"}, \"wrong_loss\": 12, \"wrong_retained\": 132}",
+      "rejected": true,
+      "reason": "Raw R gives 12 and retained 132, failing the 18/126 identity."
+    },
+    {
+      "control_id": "WC7_scalar_single_mode",
+      "hypothesis": "Replace plus/cross tensor support with a single scalar mode.",
+      "observed": "{\"qp092f\": {\"expected\": \"must fail alpha_H=2 tensor mode count\", \"hypothesis\": \"single scalar carrier replaces plus/cross tensor modes\", \"observed\": \"single_polarization_fail_rows=18/18\", \"readout\": \"carrier mode needs two tensor polarizations\", \"rejected\": \"True\", \"wrong_control_id\": \"WC1_SCALAR_SINGLE_POLARIZATION\"}, \"qp092g\": {\"expected\": \"must fail alpha_H=2 tensor mode count\", \"hypothesis\": \"one scalar mode replaces plus/cross tensor packet\", \"observed\": \"QP092F tensor_basis_rows_passed=2/2\", \"readout\": \"bridge packet inherits two trace-zero tensor polarizations\", \"rejected\": \"True\", \"wrong_control_id\": \"WC8_SCALAR_SINGLE_MODE\"}}",
+      "rejected": true,
+      "reason": "Carrier mode requires two trace-zero tensor polarizations."
+    },
+    {
+      "control_id": "WC8_vector_three_component_mode",
+      "hypothesis": "Replace rank-2 tensor support with a vector three-component carrier.",
+      "observed": "{\"qp092f\": {\"expected\": \"must fail rank-2 tensor classification\", \"hypothesis\": \"vector carrier replaces rank-2 tensor channel\", \"observed\": \"vector_component_mismatch_rows=18/18; tensor=PASS_ALPHA_H_D2_RANK2_SURFACE\", \"readout\": \"vector replacement loses alpha_H*D^2 rank-2 surface\", \"rejected\": \"True\", \"wrong_control_id\": \"WC2_VECTOR_THREE_COMPONENT_CARRIER\"}, \"qp092g\": {\"expected\": \"must fail rank-2 tensor classification\", \"hypothesis\": \"vector three-component carrier replaces rank-2 tensor support\", \"observed\": \"QP092F wrong_controls_rejected=9/9\", \"readout\": \"vector replacement loses the alpha_H*D^2 tensor surface\", \"rejected\": \"True\", \"wrong_control_id\": \"WC9_VECTOR_THREE_COMPONENT_MODE\"}}",
+      "rejected": true,
+      "reason": "Vector replacement loses the alpha_H*D^2 rank-2/tensor surface."
+    },
+    {
+      "control_id": "WC9_promote_18_to_matter",
+      "hypothesis": "Read split_loss=18 as a stable particle row, graviton rest mass, or normal matter inventory.",
+      "observed": "{\"qp092a\": {\"condition\": \"massless_carrier_behavior\", \"expected\": \"no stable matter row and no rest-mass promotion\", \"observed\": \"carrier_status=UNRESOLVED_SUPPORT_CHANNEL; rest_mass_interpretation=FORBIDDEN\", \"passed\": \"True\", \"readout\": \"candidate is a graviton-channel/tensor-carrier, not a normal particle\"}, \"qp092f_matter_rows\": 0, \"qp092g_matter_rows\": 0}",
+      "rejected": true,
+      "reason": "The carrier remains unresolved support and adds zero matter rows."
+    },
+    {
+      "control_id": "WC10_restore_2pi_qsplit_exact_route",
+      "hypothesis": "Use the old 2pi q_split near-lock as the exact Higgs parent derivation.",
+      "observed": "{\"qp091t_control\": {\"control_id\": \"C6_QP091S_QSPLIT_DEMOTED_TO_CONTEXT\", \"expected\": \"near 126 but not exact\", \"observed\": \"H_qsplit=126.001639700297361188599351135096; gap_to_126=0.001639700297361188599351135096\", \"passed\": \"True\", \"question\": \"Is the old 2pi split packet only a near-lock context after exact retention?\", \"readout\": \"PASS_QSPLIT_CONTEXT_ONLY\"}, \"qp091t_supersedes\": \"QP091S 2pi q_split is retained as near-lock context only\"}",
+      "rejected": true,
+      "reason": "QP091T demotes 2pi/q_split to near-lock context, not exact parent source."
+    }
+  ],
+  "scope": [
+    "Closes the missing 1/8 theorem layer used by QP091T/QP092A-G at structural theorem-gate grade.",
+    "Uses R=12 from CR113; does not re-derive R in this test.",
+    "Uses the inherited D=3 and alpha_H=2 primitives already present in the QP chain; does not re-derive them from scratch.",
+    "Separates split-loss carrier 18 from observed surface debit D^2/R=0.75.",
+    "Classifies 18 as unresolved tensor-carrier/source support, not matter, not graviton rest mass, and not a stable particle row.",
+    "Keeps old 2pi/q_split route as historical near-lock context only."
+  ],
+  "open_debts": [
+    "Manuscript/audit prose should cite CR114 before QP092A when explaining why the carrier fraction is 1/8.",
+    "External empirical claims remain downstream; CR114 is a framework theorem/closure gate, not a collider-data fit."
+  ]
+}

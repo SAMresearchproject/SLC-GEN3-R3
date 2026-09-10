@@ -1,0 +1,153 @@
+{
+  "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY",
+  "files": [
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "96bfcca6db2ad87607643231de8476153c4fdacc",
+      "bytes": 6772,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.sha256.txt",
+      "mode": "100644",
+      "git_blob": "9965436367b05196b70f48e2cbdb635db0ea18d9",
+      "bytes": 86,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.sha256.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.sha256.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_PRECOMMIT.sha256.txt"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_SOURCE_MANIFEST.csv",
+      "mode": "100644",
+      "git_blob": "3166baacc7b764b51c00c93411b1925435db9201",
+      "bytes": 4009,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_SOURCE_MANIFEST.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_SOURCE_MANIFEST.csv",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_SOURCE_MANIFEST.csv",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_SOURCE_MANIFEST.csv"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_coefficients.csv",
+      "mode": "100644",
+      "git_blob": "e26f44c75267a00d5b2a22f8836d147999308385",
+      "bytes": 7637,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_coefficients.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_coefficients.csv",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_coefficients.csv",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_coefficients.csv"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_metrics.csv",
+      "mode": "100644",
+      "git_blob": "f522b08d2ca115fc730fc84d1dfc454ab51f1a66",
+      "bytes": 6801,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_metrics.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_metrics.csv",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_metrics.csv",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_metrics.csv"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_predictions.csv",
+      "mode": "100644",
+      "git_blob": "49370263edbb907886f19b4f766504b3e068db8b",
+      "bytes": 179445,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_predictions.csv",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_predictions.csv",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_predictions.csv"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_rank_controls.json",
+      "mode": "100644",
+      "git_blob": "aecaf14ff82d0086742891da049e0f30df3eecbf",
+      "bytes": 3356,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_rank_controls.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_rank_controls.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_rank_controls.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_rank_controls.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_result.md",
+      "mode": "100644",
+      "git_blob": "91ee9ac9221d46f52bf321486999dbf2e58dac89",
+      "bytes": 3131,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_result.md",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_result.md",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_result.md"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_runner.py",
+      "mode": "100644",
+      "git_blob": "19ca96cc3fe79570ba4041053e65e6112e7564bc",
+      "bytes": 30655,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_runner.py",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_runner.py",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_runner.py"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_scale_scenarios.csv",
+      "mode": "100644",
+      "git_blob": "783579c834e2de12a31e5cf1b56146afcabfaf36",
+      "bytes": 426,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_scale_scenarios.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_scale_scenarios.csv",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_scale_scenarios.csv",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_scale_scenarios.csv"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_summary.json",
+      "mode": "100644",
+      "git_blob": "ecec54136ec4e2cc760b77ab3ba5edd327b81868",
+      "bytes": 2985,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_summary.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_summary.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_summary.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_wrong_controls.json",
+      "mode": "100644",
+      "git_blob": "71430dce66e7929df3a762cd74c8481c9754b045",
+      "bytes": 603,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_wrong_controls.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_wrong_controls.json",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_wrong_controls.json",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/CR120Q_wrong_controls.json"
+    },
+    {
+      "path": "14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "920dc9a78738c51bedeef8fe657fb50b6ccef9f2",
+      "bytes": 1067,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/HASHES.txt",
+      "sama_path": "courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/14_FOUNDATIONAL_TESTS/CR120Q_P9_G0_UPDATED_SHEET_BINDING_MAGNITUDE_HOLDOUT_SENSITIVITY/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR120Q@14"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

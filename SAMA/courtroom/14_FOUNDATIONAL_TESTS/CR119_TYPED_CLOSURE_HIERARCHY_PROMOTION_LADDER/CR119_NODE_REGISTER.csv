@@ -1,0 +1,18 @@
+node_id,scalar_value,type,layer,source_authority,origin,status
+H2_ARITY,2,Arity,Layer0Primitive,CR266/CR117,primitive,ACTIVE
+D3_DIMENSION,3,Dimension,Layer0Primitive,CR266/CR114,derived from mirror surface plus reciprocity axis,ACTIVE
+R12_CLOSURE_RADIUS,12,ClosureRadius,Layer1StructuralCapacity,CR114/CR218/CR262,h^2*D,ACTIVE
+S8_BINARY_SURFACE,8,BinarySurface,Layer1StructuralCapacity,CR117/CR267,h^D,ACTIVE
+X1_AXIS_SELF_CHANNEL,1,AxisChannel,Layer1StructuralCapacity,CR267/CR282_APPEAL,D^(D-1)-S and axis self-coupling,ACTIVE
+B_CONTACT_OPERATOR,,ContactOperator,Layer2Resolution,CR269/CR282_APPEAL,"operator, not scalar node",ACTIVE
+W9_CLOSURE_WITNESS,9,ClosureWitness,Layer2Resolution,CR267,S+X = D^2,ACTIVE
+THETA18_PRIMARY_CARRIER,18,PrimaryCarrier,Layer3CarrierContainer,CR114/CR262/CR269,h*W = R^2/S,ACTIVE
+V27_VOLUME_CONTAINER,27,VolumeContainer,Layer3CarrierContainer,CR262/CR233,D*W = D^3,ACTIVE
+F81_COMPLETED_FACE,81,CompletedFace,Layer3CarrierContainer,CR233/CR283,D*V = W^2 = D^4,ACTIVE
+P80_PARTICLE_FACE_CONTENT,80,ParticleFaceContent,Layer4Payload,CR283,F-X; inherited structural-only edge,STRUCTURAL_ONLY
+M126_RETAINED_MATTER_CAPACITY,126,MatterCapacity,Layer4Payload,CR114/CR229/CR269,N-Theta = (S-1)*Theta,ACTIVE
+N144_NATIVE_CLOSURE_BUDGET,144,NativeClosureBudget,Layer4Payload,CR114/CR229/CR269,R^2 = S*Theta,ACTIVE
+L162_FULL_LEDGER,162,FullLedger,Layer5TerminalClosure,CR229/CR233/CR267,h*F = W*Theta = N*(W/S),ACTIVE
+A_OPERATOR,,NonRowOperator,OperatorRegistry,CR256/CR282,non-row operator; A-to-contact OPEN,ACTIVE
+C1_ROAD_LIGHT_CARRIER,1,Carrier,SameValueOccurrence,CR282/CR216,scalar-one carrier distinct from X1,ACTIVE
+P1_LIFT_BEARING_SUPPORT,1,Support,SameValueOccurrence,CR282,scalar-one support distinct from X1,ACTIVE

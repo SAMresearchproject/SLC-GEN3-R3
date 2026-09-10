@@ -1,0 +1,30 @@
+{
+  "artifact": "CR114_BINARY_FACE_STATE_SPLIT_THEOREM",
+  "declared_at_utc": "2026-06-19T05:50:40Z",
+  "theorem": "D independent binary closure axes imply 2^D closed-loop face-states; exactly one face-state is unresolved carrier support; the other 2^D-1 states are retained scalar support.",
+  "inputs": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "R_source": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_completed_write_address_count_lock.json",
+    "D_source": "inherited D=3 primitive already used by QP091T/QP092A/QP092G"
+  },
+  "derived": {
+    "face_state_count": 8,
+    "carrier_state_count": 1,
+    "retained_state_count": 7,
+    "carrier_fraction": "1/8",
+    "retained_fraction": "7/8",
+    "split_loss": "18",
+    "retained_parent": "126",
+    "per_polarization_fraction": "1/16"
+  },
+  "forbidden_promotions": [
+    "choose 1/8 because Higgs target needs it",
+    "replace 2^D with 2^(D-1) or 2^(D+1)",
+    "replace carrier fraction with D/R or D^2/R",
+    "read split_loss=18 as a matter row or graviton rest mass",
+    "replace plus/cross tensor support with scalar or vector carrier",
+    "restore 2*pi q_split as the exact parent derivation"
+  ]
+}

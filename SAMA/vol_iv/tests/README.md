@@ -1,0 +1,31 @@
+# Volume IV — results and test records
+
+[Back to Volume IV](../README.md)
+
+The records distinguish constructions, results, corrections and source custody. They retain the validation and scope reported in the public research record.
+
+- [Selected completed-Weil route and authority boundary](sama-rh-r0001.md)
+- [Accumulation radial compiler](sama-rh-r0002.md)
+- [Reciprocal-history source construction](sama-rh-r0003.md)
+- [Completed xi and D0 form](sama-rh-r0004.md)
+- [Phase-E completion-only sign falsification](sama-rh-r0005.md)
+- [RG0 launch-sealed receipt-Gram falsification](sama-rh-r0006.md)
+- [FX1 raw centered-balance falsification](sama-rh-r0007.md)
+- [PB1 direct factorization](sama-rh-r0008.md)
+- [PB2 full W9P and AFC defect identity](sama-rh-r0009.md)
+- [Completed-xi Stieltjes source crosswalk](sama-rh-r0010.md)
+- [Conditional unique Pick/Weyl source limit](sama-rh-r0011.md)
+- [Exact Write event reel and Theta Grams](sama-rh-r0012.md)
+- [Gamma lower frame](sama-rh-r0013.md)
+- [Adaptive carrier and Robin support closures](sama-rh-r0014.md)
+- [Collective exterior-product bridge](sama-rh-r0015.md)
+- [Radau frames and RH-Q2 adapter](sama-rh-r0016.md)
+- [Natural-tail completed Green/Dirichlet chain](sama-rh-r0017.md)
+- [Corrected RII entrant barrier](sama-rh-r0018.md)
+- [Completed source-transversality join](sama-rh-r0019.md)
+- [Remaining completed source-rate sign](sama-rh-r0020.md)
+- [Falsification and correction causal ledger](sama-rh-r0021.md)
+- [Public source-transversality paper timestamp](sama-rh-r0022.md)
+- [Public bundle inclusion and exclusion boundary](sama-rh-r0023.md)
+- [Current RH result and external state](sama-rh-r0024.md)
+- [Direct scalar-history Euler-product falsification](sama-rh-r0025.md)

@@ -1,0 +1,139 @@
+{
+  "cr_id": "CR281",
+  "record": "COSMIC_BUDGET_TYPED_READOUT_PROMOTION",
+  "generated_utc": "2026-07-11T08:28:34+00:00",
+  "precommit_sha256": "4db856290eba976ce47f6a9dc9a47c9f1ea81a4197a92ca0d736c9c69d31c93f",
+  "source_hash_validation": [
+    {
+      "id": "SAM_VOLUME_I_SUBSTRATE",
+      "path": "C:/VS/The_Courtroom/docs/SAM_VOLUME_I_SUBSTRATE.md",
+      "expected_sha256": "88d8ef28863be32326264456ed3af24830cfbc633a25a157556c4b872b0122d3",
+      "actual_sha256": "88d8ef28863be32326264456ed3af24830cfbc633a25a157556c4b872b0122d3",
+      "pass": true
+    },
+    {
+      "id": "SAM_VOLUME_I_GLOSSARY",
+      "path": "C:/VS/The_Courtroom/docs/SAM_VOLUME_I_GLOSSARY.md",
+      "expected_sha256": "68714376542f773fe917b86d926128ac65a7ccd3f7ff9512f89f5ecfe1c2831f",
+      "actual_sha256": "68714376542f773fe917b86d926128ac65a7ccd3f7ff9512f89f5ecfe1c2831f",
+      "pass": true
+    },
+    {
+      "id": "VOLUME_I_APPENDIX_AND_GLOSSARY",
+      "path": "C:/VS/The_Courtroom/docs/VOLUME_I_APPENDIX_AND_GLOSSARY.md",
+      "expected_sha256": "a1ce9da214e5ce0d60ede81d818a12c8d94be1a81a33dc5fd4b5b7da6ef69884",
+      "actual_sha256": "a1ce9da214e5ce0d60ede81d818a12c8d94be1a81a33dc5fd4b5b7da6ef69884",
+      "pass": true
+    },
+    {
+      "id": "CR003_19_summary",
+      "path": "C:/VS/The_Courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY/CR003_summary.json",
+      "expected_sha256": "860ff846ac0dc786176cbb1becb821bb10bfdf971682b6b638b5e095ad8ba9b5",
+      "actual_sha256": "860ff846ac0dc786176cbb1becb821bb10bfdf971682b6b638b5e095ad8ba9b5",
+      "pass": true
+    },
+    {
+      "id": "CR003_19_result",
+      "path": "C:/VS/The_Courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR003_A_HORIZON_TO_A0_ANGULAR_DIMENSIONAL_PROJECTION_IDENTITY/CR003_result.md",
+      "expected_sha256": "eb81ee8d9f8d395ad982133fe622fa0204109d10b2af688e41d44b748e07ad35",
+      "actual_sha256": "eb81ee8d9f8d395ad982133fe622fa0204109d10b2af688e41d44b748e07ad35",
+      "pass": true
+    },
+    {
+      "id": "CR018_07_summary",
+      "path": "C:/VS/The_Courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION/CR018_summary.json",
+      "expected_sha256": "a1d598841ecb06f8ea59f744c8f29e85ccdee32a6454fb5ee590c98ff545cc19",
+      "actual_sha256": "a1d598841ecb06f8ea59f744c8f29e85ccdee32a6454fb5ee590c98ff545cc19",
+      "pass": true
+    },
+    {
+      "id": "CR018_07_result",
+      "path": "C:/VS/The_Courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR018_A0_CHI_BARYON_INVENTORY_DERIVATION/CR018_result.md",
+      "expected_sha256": "9f84c09f44488ee86f1d55dcb54e9f25a05f97f3bcfcc458cd60948eae517b56",
+      "actual_sha256": "9f84c09f44488ee86f1d55dcb54e9f25a05f97f3bcfcc458cd60948eae517b56",
+      "pass": true
+    },
+    {
+      "id": "CR019_07_summary",
+      "path": "C:/VS/The_Courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT/CR019_summary.json",
+      "expected_sha256": "c2dad0a4a45c9739962ccc106bec43343ee02bd82c58b1ed1818d105bef77ad3",
+      "actual_sha256": "c2dad0a4a45c9739962ccc106bec43343ee02bd82c58b1ed1818d105bef77ad3",
+      "pass": true
+    },
+    {
+      "id": "CR019_07_result",
+      "path": "C:/VS/The_Courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT/CR019_result.md",
+      "expected_sha256": "c000c57841687a0f39d8303a164658def99da72acd6af1b5bf675599fc96b2f4",
+      "actual_sha256": "c000c57841687a0f39d8303a164658def99da72acd6af1b5bf675599fc96b2f4",
+      "pass": true
+    },
+    {
+      "id": "CR114_summary",
+      "path": "C:/VS/The_Courtroom/00_governance/CR114_COSMIC_BARYON_BRIDGE_REVEAL/CR114_summary.json",
+      "expected_sha256": "f503032f082938ddadc75f69783104af80d08cf078fa64e42d29dc177886f978",
+      "actual_sha256": "f503032f082938ddadc75f69783104af80d08cf078fa64e42d29dc177886f978",
+      "pass": true
+    },
+    {
+      "id": "CR114_cosmic_bridge",
+      "path": "C:/VS/The_Courtroom/00_governance/CR114_COSMIC_BARYON_BRIDGE_REVEAL/CR114_cosmic_baryon_bridge.json",
+      "expected_sha256": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+      "actual_sha256": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+      "pass": true
+    },
+    {
+      "id": "CR117_summary",
+      "path": "C:/VS/The_Courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json",
+      "expected_sha256": "b625af5a9ad7f56fbcf975aad5caddd23efcfc7f2e93ca39f7b37fb8a2e3faae",
+      "actual_sha256": "b625af5a9ad7f56fbcf975aad5caddd23efcfc7f2e93ca39f7b37fb8a2e3faae",
+      "pass": true
+    },
+    {
+      "id": "CR117_result",
+      "path": "C:/VS/The_Courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md",
+      "expected_sha256": "19e18898de5f0f1305a8417b8fcea8afa6c50f93b12a1e4a5288ba3570cfccf8",
+      "actual_sha256": "19e18898de5f0f1305a8417b8fcea8afa6c50f93b12a1e4a5288ba3570cfccf8",
+      "pass": true
+    },
+    {
+      "id": "CR036_19_summary",
+      "path": "C:/VS/The_Courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR036_ETA_SAM_AND_H0_SELECTOR/CR036_summary.json",
+      "expected_sha256": "97f3b07bba6e842a8474b62d5ab3b99fdcc8a3261536086d402c51b73ddae3af",
+      "actual_sha256": "97f3b07bba6e842a8474b62d5ab3b99fdcc8a3261536086d402c51b73ddae3af",
+      "pass": true
+    },
+    {
+      "id": "CR036_19_result",
+      "path": "C:/VS/The_Courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR036_ETA_SAM_AND_H0_SELECTOR/CR036_result.md",
+      "expected_sha256": "fe1c9ee9c6a4ccf3c6f3d7d6e68ca34f93620c2650811f6b519ce636e1c247a6",
+      "actual_sha256": "fe1c9ee9c6a4ccf3c6f3d7d6e68ca34f93620c2650811f6b519ce636e1c247a6",
+      "pass": true
+    },
+    {
+      "id": "CR036_19_evidence_rows",
+      "path": "C:/VS/The_Courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR036_ETA_SAM_AND_H0_SELECTOR/CR036_evidence_rows.csv",
+      "expected_sha256": "03dd23411e8ccd07aadb612a2810931bf5130490de5b6669c9e58cf0f8c4aed6",
+      "actual_sha256": "03dd23411e8ccd07aadb612a2810931bf5130490de5b6669c9e58cf0f8c4aed6",
+      "pass": true
+    }
+  ],
+  "K_source": {
+    "source": "CR036@19",
+    "T_CMB_K": 2.7255,
+    "T_CMB_source": "FIRAS, as declared in CR036",
+    "dimensional_constants_source": "CR036 in-runner literals from SI exact/CODATA 2018",
+    "K_formula": "K=n_b_per_omega_b/n_gamma(T_CMB)",
+    "K_value": 2.73415860442632e-08,
+    "Planck_used_to_choose_or_normalize": false
+  },
+  "source_contracts": {
+    "CR003_verdict": "PASS",
+    "CR018_verdict": "CR018_PASS_A0_CHI_BARYON_INVENTORY_DERIVATION",
+    "CR019_verdict": "CR019_PASS_EFFECTIVE_MATTER_INVENTORY_REFINEMENT",
+    "CR114_result_class": "CR114_COSMIC_BARYON_BRIDGE_REVEAL_RETROACTIVELY_SATISFIED_BY_CR018",
+    "CR114_bridge_free_parameters_total": 0,
+    "CR117_result_class": "CR117_SAM_CMB_SCOPE_BOUNDARY_DOCUMENTED_AND_FORWARD_BLIND_LOCKED",
+    "CR036_verdict": "CR036_PASS_SUBSTRATE_DERIVED_ETA_AND_H0_BOTH_WITHIN_1PCT_OF_PLANCK_CMB_SIDE"
+  },
+  "no_existing_artifact_modified": true
+}

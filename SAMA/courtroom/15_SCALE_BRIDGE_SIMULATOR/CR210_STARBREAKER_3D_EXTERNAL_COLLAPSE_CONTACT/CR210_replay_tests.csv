@@ -1,0 +1,10 @@
+suite,kind,expected_simulations,tests_expected,tests_observed,returncode,pass
+full_3d_geometry_replay,full_result_replay,1218,0,0,0,True
+external_collapse_contact_replay,read_only_external_contact_replay,0,0,0,0,True
+starbreaker_lab,regression_suite,0,8,8,0,True
+mechanism_audit,regression_suite,0,8,8,0,True
+cr120u_sidecar,regression_suite,0,9,9,0,True
+carrier_density_field,regression_suite,0,12,12,0,True
+density_coupling_2d,regression_suite,0,7,7,0,True
+density_geometry_3d,regression_suite,0,6,6,0,True
+external_collapse_contact,regression_suite,0,8,8,0,True

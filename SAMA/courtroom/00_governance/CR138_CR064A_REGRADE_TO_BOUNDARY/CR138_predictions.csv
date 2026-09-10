@@ -1,0 +1,7 @@
+name,pass,details
+P1_CR064a_target_exists,True,target dir = C:\VS\The_Courtroom\12a_QC_QN_CARRIER_COMPRESSION_REFRESH\CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1
+P2_archived_original_was_v1_1_SEALED,True,archived result_class = 'CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_SEALED'
+P3_regrade_applied_or_already_applied,True,status = ALREADY_REGRADED
+P4_post_regrade_result_class_is_BOUNDARY_string,True,current result_class = 'CR064a_A0_CALIBRATION_AND_PUBLISHED_T2_VERIFICATION_V1_BOUNDARY_PENDING_CITATION_VERIFICATION_AND_GATE_RATE_ARTIFACT_DISCLOSURE'
+P5_refuted_prior_CR063a_resolves_and_is_REFUTED,True,CR-063a is in REFUTED state per CR-137 (precondition for CR-138's narrative)
+P6_restoration_requirements_documented_with_concrete_items,True,REPLACEMENT_RECORD names [VERIFY_PRECOMMIT] and 1.0248 explicitly in restoration items.

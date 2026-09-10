@@ -1,0 +1,26 @@
+{
+  "test_id": "CR056_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL",
+  "verdict": "CR056_PASS_QN_EXTERNAL_BENCHMARK_AND_EXPERIMENTAL_PROTOCOL",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PASS",
+  "triage_bin": "B",
+  "claim_tier": "QN_EXTERNAL_BENCHMARK_PROTOCOL_TRANSLATION",
+  "source_keys": [
+    "QN010",
+    "QN011"
+  ],
+  "pass_conditions": {
+    "QN010_external_data_allowed": true,
+    "QN011_external_data_allowed": true,
+    "QN011_no_new_external_intake": true,
+    "free_parameters_zero": true,
+    "checks_pass": true,
+    "wrong_controls_pass": true,
+    "forbidden_fields_false": true,
+    "selected_candidate_consistent": true
+  },
+  "strongest_candidate": "Qunnect_Cisco_metro_photonic_entanglement_swap",
+  "match_count": 4,
+  "partial_count": 4,
+  "blocker_count": 0
+}

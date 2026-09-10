@@ -1,0 +1,32 @@
+{
+  "candidate_ids_used_by_selector": false,
+  "conjugate_mismatches": [],
+  "conjugate_pairs_tested": 42,
+  "contract_id": "CR120T_F81_FROZEN_SOURCE_TYPED_RULE_V1",
+  "current_membership_opened_or_used": false,
+  "domain_rows": 126,
+  "gates": {
+    "V_F81_0_HASH": true,
+    "V_F81_1_FIREWALL": true,
+    "V_F81_2_SHUFFLE": true,
+    "V_F81_3_VALUE_BLIND": true,
+    "V_F81_4_CONJUGATE": true,
+    "V_F81_5_EXACT": false,
+    "V_F81_6_TYPED_CONTROLS": true
+  },
+  "second_workbook_parsed": false,
+  "selected_M_native_sum_post_rule": "14077.125",
+  "selected_count_post_rule": 84,
+  "selector_predicate_features": [
+    "bin",
+    "g",
+    "p",
+    "q_sign",
+    "same_role"
+  ],
+  "source_sheet": "Particle Stability Blocks",
+  "source_typed_8_plus_1_to_9": true,
+  "status": "PARTIAL_SOURCE_TYPED_RULE",
+  "target_count_or_sum_used_by_selector": false,
+  "value_columns_used_by_selector": false
+}

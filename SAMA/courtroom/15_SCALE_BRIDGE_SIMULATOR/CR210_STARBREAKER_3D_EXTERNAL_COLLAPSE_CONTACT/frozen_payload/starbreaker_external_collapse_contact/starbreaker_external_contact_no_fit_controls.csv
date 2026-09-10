@@ -1,0 +1,7 @@
+control,pass,detail
+NF_NO_EXTERNAL_VALUE_IN_SIMULATOR,True,"No xi value, fit coefficient, threshold, or progenitor datum is passed into Starbreaker."
+NF_NO_RERUN_AFTER_SOURCE_SELECTION,True,The evaluator reads the already-executed 3D CSV rows and does not invoke Starbreaker dynamics.
+NF_NO_P_TO_XI_IDENTIFICATION,True,p indexes the internal ledger-packing family; it is not xi_2.5 and receives no physical compactness units.
+NF_NO_REMNANT_TO_BH_IDENTIFICATION,True,"Starbreaker remnant fraction is an internal fate fraction, not a black-hole probability or mass."
+NF_NO_THRESHOLD_SHOPPING,True,"The gate uses strict ordering and predeclared 90% stability thresholds, not an optimized physical cutoff."
+NF_ONE_EXTERNAL_SIGNATURE_ONLY,True,Only the frozen O'Connor-Ott compactness direction is scored.

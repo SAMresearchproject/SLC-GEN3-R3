@@ -1,0 +1,203 @@
+{
+  "cr_id": "CR103",
+  "title": "GATE_1_N_SW_MULTIPLICITY_SCALING",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "MULTIPLICITY_SCALING_EXPONENT_TEST_FOR_GATE_1_SIMPLEST_READING",
+  "blindness_protocol_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+  "blindness_protocol_sha256": "PENDING_HASH_AT_RUNNER_TIME",
+  "upstream_question_lock_cite": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/CR100_SW_PRIMITIVE_OPEN_QUESTION_ROADMAP/CR100_question_lock.json",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "upstream_gate_2_partial_closure_cite": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR102_GATE_2_C_SW_VS_C_ASTROPHYSICAL_CLOSURE/CR102_summary.json",
+  "subject_gate": {
+    "gate_id": "GATE_1",
+    "name": "N_SW[u_H] functional",
+    "verbatim_from_CR100_upstream": "choose exact N_SW[u_H] functional",
+    "candidates_enumerated_at_CR100_seal": [
+      "local echo intensity",
+      "signed contact count",
+      "closed-loop intersection count",
+      "paired source/recoil count"
+    ]
+  },
+  "sam_commitment": {
+    "selected_candidate": "paired source/recoil count",
+    "candidate_index_in_CR100_enumeration": 4,
+    "selected_reading": "simplest (one source-recoil pair = one produced particle; total pairs linear in collision available energy)",
+    "predicted_scaling_law": "N_ch(s) = K * s^(alpha_SAM / 2)",
+    "alpha_SAM": 1.0,
+    "rationale_for_selection": "Most direct mapping from CR100 candidate #4 to an observable LHC quantity; tests whether the simplest reading happens to match LHC data without requiring upstream functional-form derivation.",
+    "free_parameters_in_exponent_prediction": 0,
+    "free_parameters_in_normalization": 1,
+    "note": "Pillar 1 structural blindness applies to the exponent (alpha_SAM = 1.0 is structural, not fit); the single normalization parameter K is set by anchoring to the lowest sqrt(s) live anchor."
+  },
+  "live_lhc_anchors": [
+    {
+      "row_id": "A1",
+      "experiment": "ATLAS",
+      "observable": "<dN_ch/d_eta>|_eta=0 NSD pp",
+      "sqrt_s_TeV": 0.9,
+      "measurement_central_value": 3.81,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.15,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1012.5104 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-12-22",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED",
+      "anchor_role": "NORMALIZATION_ANCHOR (sets K)"
+    },
+    {
+      "row_id": "A2",
+      "experiment": "ATLAS",
+      "observable": "<dN_ch/d_eta>|_eta=0 INEL>0 pp",
+      "sqrt_s_TeV": 7.0,
+      "measurement_central_value": 5.83,
+      "stat_uncertainty": 0.005,
+      "sys_uncertainty": 0.23,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1012.5104 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-12-22",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    },
+    {
+      "row_id": "A3",
+      "experiment": "ATLAS",
+      "observable": "<dN_ch/d_eta>|_eta=0 INEL>0 pp",
+      "sqrt_s_TeV": 13.0,
+      "measurement_central_value": 6.42,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.16,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1602.01633 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2016-02-04",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    },
+    {
+      "row_id": "A4",
+      "experiment": "CMS",
+      "observable": "<dN_ch/d_eta>|_eta=0 NSD pp",
+      "sqrt_s_TeV": 7.0,
+      "measurement_central_value": 5.78,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.23,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1011.5531 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-11-24",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    },
+    {
+      "row_id": "A5",
+      "experiment": "CMS",
+      "observable": "<dN_ch/d_eta>|_eta=0 INEL pp",
+      "sqrt_s_TeV": 13.0,
+      "measurement_central_value": 5.49,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.17,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1507.05915 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2015-07-21",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    },
+    {
+      "row_id": "A6",
+      "experiment": "ALICE",
+      "observable": "<dN_ch/d_eta>|_eta=0 INEL pp",
+      "sqrt_s_TeV": 7.0,
+      "measurement_central_value": 6.0,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.20,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1004.3034 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-04-19",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    },
+    {
+      "row_id": "A7",
+      "experiment": "ALICE",
+      "observable": "<dN_ch/d_eta>|_eta=0 INEL pp",
+      "sqrt_s_TeV": 13.0,
+      "measurement_central_value": 6.46,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.39,
+      "units": "dimensionless particles/eta",
+      "publication_reference": "arXiv:1509.07541 [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2015-09-24",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION",
+      "cross_source_status": "MULTI_OBSERVATORY_LISTED"
+    }
+  ],
+  "honest_negative_anchors": [
+    {
+      "row_id": "HN1",
+      "experiment": "ATLAS (withdrawn early multiplicity measurement)",
+      "publication_reference": "CERN-PH-EP-2010-WITHDRAWN [VERIFY_PRECOMMIT]",
+      "publication_date_utc": "2010-06-01",
+      "sqrt_s_TeV": 0.9,
+      "measurement_central_value": 4.5,
+      "stat_uncertainty": 0.1,
+      "sys_uncertainty": 0.0,
+      "honest_negative_class": "CLASS_A",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "withdrawn / superseded multiplicity measurement"
+    },
+    {
+      "row_id": "HN2",
+      "experiment": "Unpublished multiplicity claim (no journal reference)",
+      "publication_reference": "NO_PUBLICATION_REFERENCE",
+      "publication_date_utc": "2026-06-13",
+      "sqrt_s_TeV": 7.0,
+      "measurement_central_value": 7.0,
+      "stat_uncertainty": 0.5,
+      "sys_uncertainty": 0.0,
+      "honest_negative_class": "CLASS_X_UNPUBLISHED",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "rationale": "no peer-reviewed publication reference"
+    },
+    {
+      "row_id": "HN3",
+      "experiment": "ATLAS (synthetic CLASS_G perturbation of 13 TeV value)",
+      "publication_reference": "SYNTHETIC_PERTURBATION_OF_arXiv:1602.01633",
+      "publication_date_utc": "2026-06-13",
+      "sqrt_s_TeV": 13.0,
+      "measurement_central_value": 12.84,
+      "stat_uncertainty": 0.01,
+      "sys_uncertainty": 0.16,
+      "honest_negative_class": "CLASS_G",
+      "expected_rejection_gate": "GATE_R_RESIDUAL",
+      "rationale": "central value doubled from real ATLAS 6.42 to 12.84 (perturbed by ~80x sigma_combined); residual against SAM linear-scaling prediction should still flag well outside band"
+    }
+  ],
+  "test_procedure_locked": {
+    "step_1": "compute SAM-predicted N_ch at every anchor's sqrt(s) using N_pred(s) = K * sqrt(s/s_0) * N_ch(s_0) where s_0 = 0.9 TeV (ATLAS A1)",
+    "step_2": "for cross-source pairs across (A2, A3, A4, A5, A6, A7), compute observed scaling exponent alpha_obs = 2 * ln(N_ch(s_high)/N_ch(s_low)) / ln(s_high/s_low)",
+    "step_3": "per-anchor row label: AGREEMENT_WITHIN_BAND_X_SIGMA based on |N_pred - N_meas| / combined_sigma",
+    "step_4": "alpha-comparison label: compare alpha_SAM = 1.0 to median(alpha_obs across cross-source pairs)",
+    "step_5": "verdict per outcome enumeration in PRECOMMIT"
+  },
+  "what_CR103_does_and_does_not_claim": {
+    "claims": [
+      "SAM's GATE_1 candidate #4 (paired source/recoil count) under its simplest reading predicts multiplicity scaling exponent alpha_SAM = 1.0 (linear in collision energy).",
+      "This simplest reading is testable against LHC pp multiplicity scaling.",
+      "If LHC data shows alpha_obs at least 3 sigma from 1.0, this specific reading is disfavored."
+    ],
+    "does_not_claim": [
+      "definitive closure of GATE_1 (would require upstream SAM derivation of full functional)",
+      "exclusion of candidates 1-3 (they remain in CR100's enumeration)",
+      "exclusion of candidate 4 in full generality (a non-trivial N_SW -> multiplicity mapping could give alpha != 1.0)",
+      "modification of CR100 question lock or any prior CR verdict"
+    ]
+  },
+  "open_debts_declared_at_CR103": [
+    "Anchor citation_verification_status PENDING; curator promotion required",
+    "BLINDNESS_PROTOCOL.md sha256 sibling pending",
+    "14 branch seal sha256 sibling pending",
+    "Single-normalization parameter K is a fit; the exponent alpha_SAM is structural",
+    "Upstream SAM derivation of N_SW -> multiplicity mapping is the next required step on the GATE_1 closure roadmap"
+  ]
+}

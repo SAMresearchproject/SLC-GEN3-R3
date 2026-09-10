@@ -1,0 +1,9 @@
+model_id,ledger_closure,operator_functionality,source_chronology,typed_consistency,zero_free_parameters,preserves_CR216_and_CR256,independent_A_axis_bridge,penalty,score,finding
+M1_TYPED_WELD,3,3,2,3,2,4,0,0,17,best row-trace model; axis weld remains open
+M2_PURE_DUPLICATE,3,0,0,1,2,1,0,-2,5,preserves duplicate retirement but loses QP103/CR256 A lineage
+M3_PHOTON_IDENTITY,0,0,0,0,1,0,0,-3,-2,fails non-row A and CR216 active-row retirement
+M4_A_EQUALS_ONE,1,0,0,0,2,0,0,-6,-3,"illegal scalar collapse among A, X1, C1, P1"
+M5_SIXTH_CARRIER_ROW,0,0,0,0,1,0,0,-4,-3,restored active row gives 163 and violates CR216
+M6_SUPPORT_MODEL,1,0,0,0,1,0,0,-4,-2,confuses zero-footprint row with P1 lift 1/144
+M7_AXIS_ONLY,3,0,1,3,2,1,0,0,10,viable closure witness model but does not explain A functionality
+M8_B_CONTACT_ALTERNATIVE,3,2,1,3,2,2,0,0,13,strong contact-operator competitor; keeps A-axis weld boundary open

@@ -1,0 +1,43 @@
+{
+  "artifact": "QP091J_DIRECT_CATEGORY_YIELD_REVEAL",
+  "generated_at_utc": "2026-06-14T23:11:41.770927+00:00",
+  "result_class": "PASS_QP091J_DIRECT_CATEGORY_REVEAL_EMITTED__NATIVE_NEAR_THIRDS_REJECTED_AS_PHYSICAL_CATEGORY_SHAPE__QP091H_SYMBOLIC_BOUNDARY_PRESERVED",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "test_type": "POST_FREEZE_DIRECT_CATEGORY_SHAPE_REVEAL",
+  "campaign": "closure_campaign08",
+  "external_source_primary": "CMS_2026_HIG_25_015_RUN3_4L",
+  "external_source_guard": "ATLAS_2025_CONF_002_INTERFERENCE_GUARD",
+  "external_category_values": 3,
+  "external_category_sum_fb": "3.230000",
+  "external_category_shares": {
+    "4e": "0.229102",
+    "2e2mu": "0.538700",
+    "4mu": "0.232198"
+  },
+  "native_category_shares": {
+    "4e": "0.335405",
+    "2e2mu": "0.333333",
+    "4mu": "0.331262"
+  },
+  "native_shape_chi2": "21.995808",
+  "native_shape_p_value_df2": "0.00001674",
+  "simple_count_shape_chi2": "0.948708",
+  "simple_count_shape_p_value_df2": "0.62228691",
+  "interference_proxy_shape_chi2": "2.457475",
+  "interference_proxy_shape_p_value_df2": "0.29266176",
+  "native_near_thirds_rejected_as_physical_category_shape": true,
+  "qp091h_historical_result_preserved": true,
+  "native_chain_tuned": false,
+  "external_values_used_as_generation_inputs": false,
+  "physical_branching_ratios_derived": false,
+  "numeric_widths_derived": false,
+  "full_electroweak_theorem_claimed": false,
+  "free_parameters_introduced": 0,
+  "checks_passed": 10,
+  "checks_total": 10,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091J is a negative reveal for the direct physical interpretation of the QP091H near-thirds terminal ledger. CMS Run-3 category cross sections prefer a mixed-channel-enhanced shape, while ATLAS/Prophecy4f shows same-flavor interference is a correction layer rather than a replacement for terminal multiplicity. QP091H remains a symbolic internal accessibility ledger.",
+  "next_frontier": "QP091K_TERMINAL_DEGENERACY_AND_IDENTICAL_LEPTON_INTERFERENCE_OPERATOR_OR_PR_LETTER"
+}

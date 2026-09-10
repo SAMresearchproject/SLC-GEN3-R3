@@ -1,0 +1,131 @@
+{
+  "cr_id": "CR117",
+  "scope": "COURTROOM_LEVEL_GOVERNANCE",
+  "lives_in": "00_governance",
+  "test_class": "SAM_CMB_METHODOLOGICAL_SCOPE_BOUNDARY_DOCUMENTATION",
+  "execution_status": "CLEAN",
+  "result_class": "CR117_SAM_CMB_SCOPE_BOUNDARY_DOCUMENTED_AND_FORWARD_BLIND_LOCKED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "lock_sha256": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c",
+  "structural_law_ledger_count": 11,
+  "cmb_dependent_ledger_count": 5,
+  "forward_blind_expectations_count": 3,
+  "user_insight_present": true,
+  "structural_law_hashes": {
+    "CR018_07_summary.json": "2810658911d7f7008c280febd53d1f27d93823f9c9e6362c58f06e66cf6c11a5",
+    "CR023_07_summary.json": "ab88db5df8c0c90715c4e2c891fe256a81357a6e140131459ef39ce1b6378872",
+    "CR022_08_summary.json": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_08_summary.json": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_08_summary.json": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_08_summary.json": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR029_08_summary.json": "903735c8668cc091bf3eadf87cbb9a70683bd485f7cde9b4fd84f41bd84b6cb6",
+    "CR030_08_summary.json": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc",
+    "CR114_cosmic_baryon_bridge.json": "e2f394b40768bc45d916427e7031066cb23e24298e0e4337c3c5bcd4715549c6",
+    "CR115_galaxy_pbh_bridge.json": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c",
+    "CR116_correction_lock.json": "d3f3204be9cbc5bbb9520664bdb937452981e494f38c6154266fffa95a04fd65"
+  },
+  "cmb_dependent_hashes": {
+    "CR108_planck_anchor.json": "736ac1405394b787d86db26f785458266f069472953abee97c39aa69d5a6ade5",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR111_cosmic_baryon_appeal_lock.json": "82d6913c614be2bd0def5329511ef2094ea134489d70a1cdb855e22dfe84a409"
+  },
+  "gtest_hashes": {
+    "g732c_summary.json": "d76909e81b06f19e3ee4e4d78fbd2ddf0415c6b5ee1481af504dfd226b689428",
+    "g735c_summary.json": "ac542a764b09e96b2df675894e2a69e8ff44d31e56a9610b64b83b4406be6385",
+    "g736c_summary.json": "d3b6165f88aaee6fe8dc17651344cf449aeb8db59bcbf28ef78ba6e6fe0d632a",
+    "g738c_summary.json": "00d799f899b93c07a9bca616db82db1064636e462ddad797a2a14e1797537217",
+    "g739c_summary.json": "25b249ef22b4221bb2c5d5d091dc5622ed3eb072adc62fba0ca705a298bb7462",
+    "g742c_summary.json": "71ef9a60952e23b424ec3fc6057b4f8299e58030eb1c318e94346c24780f2d65",
+    "g743d_summary.json": "da7802cdce83c9c62649201ad18781fd4ef7149eea72ff88f507a043a2f6931c"
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "predictions": [
+    {
+      "name": "P1_structural_law_ledger_complete",
+      "pass": true,
+      "details": {
+        "entries": 11
+      }
+    },
+    {
+      "name": "P2_cmb_dependent_ledger_complete",
+      "pass": true,
+      "details": {
+        "entries": 5
+      }
+    },
+    {
+      "name": "P3_user_insight_verbatim_preserved",
+      "pass": true
+    },
+    {
+      "name": "P4_three_forward_blind_expectations_registered_with_falsifiers",
+      "pass": true
+    },
+    {
+      "name": "P5_structural_artifacts_present_and_hashed",
+      "pass": true
+    },
+    {
+      "name": "P6_cmb_dependent_artifacts_present_and_hashed",
+      "pass": true
+    },
+    {
+      "name": "P7_gtest_chain_provenance_hashed_where_present",
+      "pass": true,
+      "details": {
+        "g732c_present": true,
+        "g743d_present": true
+      }
+    },
+    {
+      "name": "P8_blindness_protocol_present",
+      "pass": true
+    },
+    {
+      "name": "P9_zero_free_parameters_in_lock",
+      "pass": true
+    },
+    {
+      "name": "P10_lock_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "lock_sha256": "0ccbc3d720674b45a8f4b569a926a3ae213ea5a00786380fd598a2a8568c7c4c"
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_prior_CR_modified",
+      "pass": true
+    },
+    {
+      "name": "WC2_no_free_parameter_introduced",
+      "pass": true
+    },
+    {
+      "name": "WC3_does_not_claim_structural_derivation_of_per_galaxy_configuration",
+      "pass": true,
+      "details": "CR117 explicitly says per-galaxy assignment requires CMB ICs, not SAM-derived"
+    },
+    {
+      "name": "WC4_does_not_claim_CMB_intake_will_trivially_close_per_galaxy",
+      "pass": true,
+      "details": "CR117_PRED_1 says 'improve substantially' not 'close', and registers explicit falsification criteria"
+    },
+    {
+      "name": "WC5_does_not_modify_immutability_of_G743d_BOUNDARY_or_CR115_PARTIAL",
+      "pass": true,
+      "details": "G743d BOUNDARY and CR115 PARTIAL stand; CR117 explains them"
+    },
+    {
+      "name": "WC6_explicit_falsification_criterion_per_PRED",
+      "pass": true
+    }
+  ],
+  "open_debts": [
+    "Future Courtroom CR will intake Planck CMB angular power spectrum (TT/TE/EE + lensing) as initial-condition anchor",
+    "Future per-galaxy SPARC reveal CR will appeal CR117_PRED_1 against the CMB-IC anchor + SAM laws closure",
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED"
+  ]
+}

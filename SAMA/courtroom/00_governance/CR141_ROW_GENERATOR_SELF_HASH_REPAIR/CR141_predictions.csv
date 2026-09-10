@@ -1,0 +1,7 @@
+name,pass,details
+P1_ten_targets_identified,True,len(targets) = 10 (expected 10)
+P2_all_lock_jsons_exist,True,Each target directory contains exactly one *lock*.json file.
+P3_all_result_md_exist,True,All 10 *_result.md files exist at expected paths.
+P4_all_summary_json_parse,True,All 10 *_summary.json files exist and parse as JSON dicts.
+P5_all_targets_repaired_or_already_repaired,True,"Every target has status REPAIRED or ALREADY_REPAIRED (no anomalies, no errors)."
+P6_all_recorded_hashes_match_actual_lock_hashes,True,Post-repair recorded *_lock_sha256 fields match SHA-256 of their lock JSON for all 10 CRs.

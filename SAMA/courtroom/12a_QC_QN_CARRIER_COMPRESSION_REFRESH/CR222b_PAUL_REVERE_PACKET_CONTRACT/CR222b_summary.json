@@ -1,0 +1,42 @@
+{
+  "checks_passed": 8,
+  "checks_total": 8,
+  "constants": {
+    "D": 3,
+    "R": 12,
+    "alpha_H": 2
+  },
+  "cr_id": "CR222b",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T08:42:19.898654+00:00",
+  "matter_total": 126,
+  "native_stack": "Native63 + Bound63",
+  "next_gate": "CR222c_PR_PACKET_EMISSION_AUDIT_STATES",
+  "outputs": {
+    "checks_csv": "CR222b_checks.csv",
+    "header_csv": "CR222b_packet_header.csv",
+    "packet_csv": "Paul_Revere_PacketContract.csv",
+    "result_md": "CR222b_result.md",
+    "roles_csv": "CR222b_packet_roles.csv",
+    "summary_json": "CR222b_summary.json",
+    "validity_csv": "CR222b_packet_validity.csv",
+    "wrong_controls_csv": "CR222b_wrong_controls.csv"
+  },
+  "packet_formula": "header + route + support inventory + tensor witness + mirror checksum",
+  "result_class": "CR222b_PASS_PR_PACKET_CONTRACT__ROUTE_SUPPORT_TENSOR_WITNESS_0303_CHECKSUM",
+  "sha256": {
+    "Paul_Revere_PacketContract.csv": "79d5c3bb6384910d54f61df519d6f4cc005f5fd6b30952a1d78440be02e1a009"
+  },
+  "support_stack": "CarrierLedger81 + Mirror81",
+  "support_total": 162,
+  "test_id": "CR222b_PAUL_REVERE_PACKET_CONTRACT",
+  "upstream_contract": "CR222a",
+  "upstream_contract_sha256": "0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b",
+  "validity": {
+    "carrier_support": "18+1+9+8=36",
+    "mirror_checksum": "0303=81",
+    "packet_total": "81+81=162",
+    "source_packet_support": "1+2+3+4+6+8+9+12=45",
+    "unpacked_support": "36+45=81"
+  }
+}

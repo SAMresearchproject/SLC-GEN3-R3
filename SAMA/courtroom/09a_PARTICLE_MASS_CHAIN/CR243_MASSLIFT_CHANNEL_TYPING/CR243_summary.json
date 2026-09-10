@@ -1,0 +1,480 @@
+{
+  "verdict": "STRONG_PASS",
+  "verdict_signature": "CR243_STRONG_PASS_MASSLIFT_IS_TYPED_CHANNEL_TABLE__FIVE_CLEAN_CLASSES_EXACT__SUBSTRATE_PERTURBATIONS_DEGRADE__OCTET_TYPING_LOCKED_AS_D2_PLUS_S_OVER_D_S2",
+  "input_sha256": "7f5d9cc4c20f4bb62c3e40a4825c793ccc020fed72abb44ec17fe30406d8e4e5",
+  "precommit_sha256": "4ea9789806a8bd17e0c314cb6508ee9ab80c0212b49e68b0cdf94fd052d97dc2",
+  "substrate_atoms": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "alpha_H": 2,
+    "M": 126,
+    "L": 162,
+    "kappa": "7117/768",
+    "g": "1/64"
+  },
+  "row_inventory": {
+    "color_triad": 14,
+    "unequal_pair": 42,
+    "single_write": 63,
+    "support": 11,
+    "equal_bound_pair": 6,
+    "carrier": 1,
+    "OCTET_pair": 1
+  },
+  "class_match_summary": {
+    "color_triad": {
+      "total": 14,
+      "evaluated": 14,
+      "match": 14,
+      "match_rate": 1.0
+    },
+    "unequal_pair": {
+      "total": 42,
+      "evaluated": 0,
+      "match": 0,
+      "match_rate": null
+    },
+    "single_write": {
+      "total": 63,
+      "evaluated": 63,
+      "match": 63,
+      "match_rate": 1.0
+    },
+    "support": {
+      "total": 11,
+      "evaluated": 11,
+      "match": 11,
+      "match_rate": 1.0
+    },
+    "equal_bound_pair": {
+      "total": 6,
+      "evaluated": 6,
+      "match": 6,
+      "match_rate": 1.0
+    },
+    "carrier": {
+      "total": 1,
+      "evaluated": 1,
+      "match": 1,
+      "match_rate": 1.0
+    },
+    "OCTET_pair": {
+      "total": 1,
+      "evaluated": 1,
+      "match": 1,
+      "match_rate": 1.0
+    }
+  },
+  "wrong_controls_constant_perturbation": [
+    {
+      "label": "WC-R1",
+      "perturbation": "R=10, D=3, S=8",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 0,
+          "evaluated": 14,
+          "degraded": true
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 0,
+          "evaluated": 6,
+          "degraded": true
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-R2",
+      "perturbation": "R=11, D=3, S=8",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 0,
+          "evaluated": 14,
+          "degraded": true
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 0,
+          "evaluated": 6,
+          "degraded": true
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-R3",
+      "perturbation": "R=13, D=3, S=8",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 0,
+          "evaluated": 14,
+          "degraded": true
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 0,
+          "evaluated": 6,
+          "degraded": true
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-D1",
+      "perturbation": "R=12, D=2, S=8",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 0,
+          "evaluated": 14,
+          "degraded": true
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 0,
+          "evaluated": 6,
+          "degraded": true
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 0,
+          "evaluated": 1,
+          "degraded": true
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-D2",
+      "perturbation": "R=12, D=4, S=8",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 0,
+          "evaluated": 14,
+          "degraded": true
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 0,
+          "evaluated": 6,
+          "degraded": true
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 0,
+          "evaluated": 1,
+          "degraded": true
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-S1",
+      "perturbation": "R=12, D=3, S=7",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 14,
+          "evaluated": 14,
+          "degraded": false
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 6,
+          "evaluated": 6,
+          "degraded": false
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 0,
+          "evaluated": 1,
+          "degraded": true
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    },
+    {
+      "label": "WC-S2",
+      "perturbation": "R=12, D=3, S=9",
+      "degrades": true,
+      "per_class": {
+        "color_triad": {
+          "canonical_match": 14,
+          "perturbed_match": 14,
+          "evaluated": 14,
+          "degraded": false
+        },
+        "equal_bound_pair": {
+          "canonical_match": 6,
+          "perturbed_match": 6,
+          "evaluated": 6,
+          "degraded": false
+        },
+        "OCTET_pair": {
+          "canonical_match": 1,
+          "perturbed_match": 0,
+          "evaluated": 1,
+          "degraded": true
+        },
+        "single_write": {
+          "canonical_match": 63,
+          "perturbed_match": 63,
+          "evaluated": 63,
+          "degraded": false
+        },
+        "support": {
+          "canonical_match": 11,
+          "perturbed_match": 11,
+          "evaluated": 11,
+          "degraded": false
+        },
+        "carrier": {
+          "canonical_match": 1,
+          "perturbed_match": 1,
+          "evaluated": 1,
+          "degraded": false
+        }
+      }
+    }
+  ],
+  "wrong_controls_octet_specific": [
+    {
+      "label": "WC-O1",
+      "perturbation": "D=2, S=8, octet form (D^2+S)/(D*S^2)",
+      "y_perturbed_value": 0.09375,
+      "y_perturbed_fraction": "3/32",
+      "breaks_canonical": true
+    },
+    {
+      "label": "WC-O2",
+      "perturbation": "D=4, S=8, octet form (D^2+S)/(D*S^2)",
+      "y_perturbed_value": 0.09375,
+      "y_perturbed_fraction": "3/32",
+      "breaks_canonical": true
+    },
+    {
+      "label": "WC-O3",
+      "perturbation": "D=3, S=7, octet form (D^2+S)/(D*S^2)",
+      "y_perturbed_value": 0.10884353741496598,
+      "y_perturbed_fraction": "16/147",
+      "breaks_canonical": true
+    },
+    {
+      "label": "WC-O4",
+      "perturbation": "D=3, S=9, octet form (D^2+S)/(D*S^2)",
+      "y_perturbed_value": 0.07407407407407407,
+      "y_perturbed_fraction": "2/27",
+      "breaks_canonical": true
+    },
+    {
+      "label": "WC-O5",
+      "perturbation": "numerator substitution |q|+S in place of D^2+S",
+      "typing_audit_flag": "weaker / row-dependent",
+      "arithmetic_pass": false
+    }
+  ],
+  "class_shuffle_informational": {
+    "label": "WC-CS",
+    "perturbation": "class label shuffle, seed=20260623",
+    "informational_only": true,
+    "average_canonical_match_rate": 1.0,
+    "average_shuffled_match_rate": 0.13949013949013947,
+    "per_class": {
+      "color_triad": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.2857142857142857,
+        "canonical_match": 14,
+        "shuffled_match": 4,
+        "shuffled_evaluated": 14
+      },
+      "equal_bound_pair": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.0,
+        "canonical_match": 6,
+        "shuffled_match": 0,
+        "shuffled_evaluated": 6
+      },
+      "OCTET_pair": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.0,
+        "canonical_match": 1,
+        "shuffled_match": 0,
+        "shuffled_evaluated": 1
+      },
+      "single_write": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.4603174603174603,
+        "canonical_match": 63,
+        "shuffled_match": 29,
+        "shuffled_evaluated": 63
+      },
+      "support": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.09090909090909091,
+        "canonical_match": 11,
+        "shuffled_match": 1,
+        "shuffled_evaluated": 11
+      },
+      "carrier": {
+        "canonical_match_rate": 1.0,
+        "shuffled_match_rate": 0.0,
+        "canonical_match": 1,
+        "shuffled_match": 0,
+        "shuffled_evaluated": 1
+      }
+    }
+  },
+  "unequal_pair_residuals_summary": {
+    "total_unequal_rows": 42,
+    "matched_any_unit": 0,
+    "match_rate": 0.0,
+    "matches_by_unit": {}
+  },
+  "strong_pass_conditions": {
+    "S1_color_triad_all_match": true,
+    "S2_equal_bound_pair_all_match": true,
+    "S3_OCTET_match": true,
+    "S4_single_write_all_match": true,
+    "S5_support_and_carrier_all_match": true,
+    "S6_R_perturbations_degrade": true,
+    "S7_D_perturbations_degrade": true,
+    "S8_S_perturbations_degrade": true,
+    "S9_octet_specific_wcs_break_canonical": true
+  },
+  "fail_conditions": {
+    "F1_any_clean_class_fails": false,
+    "F2_any_constant_WC_fails_to_degrade": false
+  }
+}

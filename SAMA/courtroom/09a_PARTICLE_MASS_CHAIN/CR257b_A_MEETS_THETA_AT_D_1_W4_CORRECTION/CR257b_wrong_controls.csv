@@ -1,0 +1,6 @@
+control,variant,matches,of_N,sensitive
+D-neg,compact_neg at d=0,0,8,True
+D-pos,compact_pos at d=0,0,8,True
+W3,sign-swap of compact forms at d=1,0,16,True
+W4-neg-only,power=1,0,8,True
+W4-neg-only,power=3,0,8,True

@@ -1,0 +1,16 @@
+audit_file,verdict,status
+AUDIT_VERDICT.md,PASS,ok
+AUDIT_VERDICT_POST_RETEST_REVIEW.md,PASS,ok
+ASSESSMENT_POST_RETEST_REVIEW.md,BOUNDARY,ok
+results/001_qp017_role_operator_promotion.md,BOUNDARY,ok
+results/002_qp018_particle_slot_selection.md,BOUNDARY,ok
+results/003_qp019_mass_surface_bridge.md,BOUNDARY,ok
+results/004_qp021_charged_lane_bridge.md,BOUNDARY,ok
+results/005_qp010_provenance_separation.md,BOUNDARY,ok
+results/006_qp017b_topological_role_selector_review.md,PASS,ok
+retest_runs/RT_QP017_ROLE_NEIGHBORHOOD_NULL_CONTROL/REPORT.md,BOUNDARY,ok
+retest_runs/RT_QP017B_TOPOLOGICAL_ROLE_SELECTOR/REPORT.md,PASS,ok
+retest_runs/RT_QP017B_TOPOLOGICAL_ROLE_SELECTOR/PREFLIGHT.md,BOUNDARY,ok
+retest_runs/RT_QP018_SLOT_SELECTOR_INDEPENDENCE/REPORT.md,PASS,ok
+retest_runs/RT_QP019_MASS_SURFACE_REPLAY/REPORT.md,PASS,ok
+retest_runs/RT_QP021_TRANSIENT_CARRIER_CONTROL/REPORT.md,PASS,ok

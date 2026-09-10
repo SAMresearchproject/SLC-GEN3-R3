@@ -1,0 +1,91 @@
+{
+  "cr_id": "CR067a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "extends_anchor": "CR066a (Higgs ZZ4l reveal) -> CR065a (intake) -> CR064a (immutable verdict)",
+  "test_class": "COURTROOM_INTAKE_OF_QP087_QP088_WZH_PRECISION_LANE",
+  "execution_status": "CLEAN",
+  "result_class": "CR067a_WZH_BOUNCE_SUBSLOT_INTAKE_PASS",
+  "anchor_lock_sha256": "2e18cfe53ecb0f3033c179641814e8d30371a4ae32604defe38e880b5ae3258e",
+  "upstream_hashes": {
+    "qp087_summary.json": "5300f929afca127366251dbe154e8ea75365b0d50f2e2bf5482980e5a08c092a",
+    "qp087_wzh_bounce_subslot_coordinates.csv": "21a6d693b778a0c050de6c09ee8f32cf72333b1b806cef179d10258ad6c93a9e",
+    "qp088_summary.json": "adc66ed1c8e64a96e4bf25c505ae207a0dd0db0f3144eefdc6c50b3aef768e48",
+    "qp088_wzh_q_slot_owner_derivation.csv": "932a8b1ac9ec4ee3560ab2e0f5cab36c3520da39b6ddec6ce5cac33e945a8d89",
+    "CR065a_intake_lock.json": "11e898ca84273071096436bd52c3667dd9ec3df2a3c6b599f5a94453827582a7"
+  },
+  "predictions": [
+    {
+      "name": "P1_qp087_passed",
+      "pass": true,
+      "details": {
+        "result_class": "PASS_QP087_WZH_RESIDUALS_ON_NATIVE_BOUNCE_SUBSLOT_SCALE_PRECISION_BOUNDARY"
+      }
+    },
+    {
+      "name": "P2_qp088_passed",
+      "pass": true,
+      "details": {
+        "result_class": "PASS_QP088_WZH_Q_SLOT_OWNERS_DERIVED_HIGGS_A_SOURCE_SELECTED"
+      }
+    },
+    {
+      "name": "P3_zero_free_parameters",
+      "pass": true
+    },
+    {
+      "name": "P4_all_residual_rows_inside_native_subslot_band",
+      "pass": true,
+      "details": {
+        "inside": 7,
+        "total": 7
+      }
+    },
+    {
+      "name": "P5_z_lep_residual_sits_at_minus_2_over_12_grid_point",
+      "pass": true,
+      "details": {
+        "z_row": {
+          "row_id": "EW004",
+          "lane": "Z_QP075_rank4_tensor",
+          "observable_name": "Z boson mass",
+          "experiment": "LEP combined (legacy CERN)",
+          "prediction_MeV": "91161.5",
+          "observed_MeV": "91187.6",
+          "residual_MeV": "-26.10000000000582",
+          "r_eff": "-0.00028622312682868856",
+          "q_eff_in_G435_units": "-0.17264572272624146",
+          "abs_q_eff": "0.17264572272624146",
+          "native_limit_abs_q": "1.0",
+          "inside_native_subslot_band": "True",
+          "nearest_R12_R16_R24_grid": "-2/12",
+          "nearest_grid_value": "-0.16666666666666666",
+          "nearest_grid_error": "0.0059790560595748",
+          "correction_applied": "False"
+        },
+        "interpretation": "the LEP Z 26 MeV residual maps to bounce sub-slot q_eff = -2/12 = -1/6 in the native R12 grid"
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_external_reference_outside_already_opened_cr091_cr092",
+      "pass": true,
+      "details": {
+        "qp087_external_reference_scope": "already-opened CR091/CR092 CERN W/Z/H rows"
+      }
+    },
+    {
+      "name": "WC2_anchor_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "anchor_sha256": "2e18cfe53ecb0f3033c179641814e8d30371a4ae32604defe38e880b5ae3258e"
+      }
+    }
+  ],
+  "next_courtroom_step": "CR091a opens the LEP Z 12-sigma residual closure using this anchor",
+  "open_debts": [
+    "Citation verification pending",
+    "CR091a will consume this anchor to close the Z residual",
+    "CR068a separately verifies 9/8 d/b reciprocal control"
+  ]
+}

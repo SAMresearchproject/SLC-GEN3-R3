@@ -1,0 +1,15 @@
+check,passed,observed,expected
+inputs_exist,True,True,True
+cr220_rows_126,True,126,126
+proton_qA_fraction_145_over_2,True,145/2,145/2
+electron_qA_fraction_145_over_96,True,145/96,145/96
+neutron_qA_fraction_1_over_8,True,1/8,1/8
+charged_pair_qA_7105_over_96,True,7105/96,7105/96
+kappa_floor_7117_over_768,True,7117/768,7117/768
+neutron_G_unit_1_over_64,True,1/64,1/64
+all_G_formula_matches,True,126,126
+all_GR_formula_matches,True,126,126
+all_kappa_eff_matches_G_over_Z,True,126,126
+fixed_floor_rows_12,True,12,12
+effective_quotient_rows_114,True,114,114
+kappa_eff_not_single_global_constant,True,98,>1

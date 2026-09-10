@@ -1,0 +1,87 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "cr_id": "CR063a",
+  "forward_blind_test": {
+    "claim": "T2_observed <= T2_grav = 16 * R^3 / (17 * omega) on any physical qubit, after all non-gravitational decoherence channels are subtracted.",
+    "falsifier": "ONE rigorously-isolated T2 measurement on any platform exceeding T2_grav (after channel subtraction) falsifies v1.0 -- specifically the universality of the 17/(16*R^3) S/M ratio for the gravitational channel.",
+    "free_parameters_at_test": 0,
+    "id": "CR063a_PRED_1",
+    "non_falsifying": "T2_observed less than T2_grav is CONSISTENT (other channels dominate).  Failure to isolate the gravitational channel leaves v1.0 untested but unfalsified."
+  },
+  "immutability": "T2_grav formula, translation matrix, and platform recommendations are frozen at CR063a seal time.  Future falsification (one platform exceeding T2_grav under rigorous subtraction) or refinement must be in an appeal CR within 12a.",
+  "in_sample_verification": {
+    "T2_grav_predictions_computed": 8,
+    "platform_recommendations": 2,
+    "translation_matrix_rows": 12
+  },
+  "lock_committed_utc": "2026-06-16T01:22:35Z",
+  "lock_definition": {
+    "S_over_M_ratio_locked": "17 / (16 * R^3) = 17 / 27648 ~= 6.149e-4 = 0.06149 %",
+    "T2_grav_dimensional": "[T2_grav] = seconds when omega has units rad/s",
+    "T2_grav_formula": "T2_grav = 16 * R^3 / (17 * omega)",
+    "T2_grav_predictions": {
+      "Ion hyperfine (10 MHz)": "25.9 us",
+      "Ion hyperfine (12.6 GHz Cs)": "20.5 ns",
+      "Microwave hyperfine (10 GHz)": "25.9 ns",
+      "NV center ZFS (2.87 GHz)": "90.2 ns",
+      "Optical near-IR (200 THz)": "1.29 ps",
+      "SC transmon (10 GHz)": "25.9 ns",
+      "SC transmon (5 GHz)": "51.8 ns",
+      "Visible (500 THz)": "0.518 ps"
+    },
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "fundamental_claim": "For ANY physical qubit at angular frequency omega, the gravitational decoherence T2 floor is T2_grav = 16 * R^3 / (17 * omega) = 27648 / (17 * omega) ~= 1626.35 / omega seconds.  Observed T2 cannot exceed T2_grav (additive decoherence) if the SAM 1/8 + qA = gravity mechanism (CR121) holds and the q=0 S/M = 17/(16*R^3) ratio (CR129b) is universal.",
+    "name": "PAUL_REVERE_QUBIT_HARDWARE_TRANSLATION",
+    "out_of_scope": [
+      "Specific cryogenic / vacuum / room-temperature engineering choices.",
+      "Mass-to-frequency calibration (open structural question; the dimensionless ratio is what's testable).",
+      "Encoding / gate compilation for multi-qubit operations (CR064a candidate).",
+      "First-principles derivation of why R^3 / 17 sets the gravitational floor."
+    ],
+    "platform_recommendations": {
+      "1+2+4_foundational": {
+        "M_native": 756,
+        "S_debit": "0.464844 MeV",
+        "candidate": "(1, 2, 4)",
+        "primary_platform": "NV center in diamond",
+        "primary_rationale": "Ground triplet has 3 spin sublevels (ms = -1, 0, +1) naturally matching the 3-slot architecture.  Optical PL readout IS the boundary sensor (photons emitted at row commit).  Room-temperature operation possible.  Microwave + optical control matches carrier / envelope / sensor separation cleanly.",
+        "secondary_platform": "SC transmon (3-level qutrit)",
+        "secondary_rationale": "Maps slot a = |0>/|1>, slot b = resonator coupling, slot c = |2> level leakage as sensor.  Established technology, well-characterized noise channels."
+      },
+      "2+4+8_extended_generation": {
+        "M_native": 3024,
+        "S_debit": "1.859375 MeV",
+        "candidate": "(2, 4, 8)",
+        "primary_platform": "Trapped ion (e.g. Yb+, Ca+)",
+        "primary_rationale": "Multi-level hyperfine structure supports a 3-slot ladder at integer ratios.  Hyperfine clock states give T2 in seconds, allowing the gravitational floor to be observed without electronic-noise interference.  State-dependent fluorescence is a clean boundary sensor.",
+        "secondary_platform": "Neutral atom array (Rydberg)",
+        "secondary_rationale": "Rydberg states give larger energy scales and natural 3-level structure.  Optical readout is fast and clean.  Could host the heavier candidate's mass scale more naturally than NV."
+      }
+    },
+    "scope_clarifications": [
+      "M_native = 756 / 3024 MeV are partition-algebra INVENTORY INTEGERS, NOT energy splittings.  Direct mass-to-frequency conversion is not the calibration.",
+      "The dimensionless RATIO S/M = 17/(16*R^3) is what carries the falsifiable physical content.",
+      "Per CR121 (1/8 + qA = gravity), this ratio IS the gravitational decoherence floor per unit mass-energy on any qubit.",
+      "Platform recommendations are STRUCTURAL FIT only -- no hardware demonstration is claimed."
+    ],
+    "universal_translation_matrix": "Across SC transmon, NV center, trapped ion, and photonic platforms, the three SAM slots (carrier, envelope, sensor) map to (info / control / readout) physically separable components.  See CR063a_translation_matrix.csv for the full mapping."
+  },
+  "lock_version": "v1.0",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "verification_test_protocol": {
+    "description": "Decoherence channel hunt protocol: realize the SAM-native qubit architecture on a chosen platform; extract T2 after subtracting known decoherence sources; check whether residual saturates at T2_grav = 1626.35 / omega.",
+    "id": "CR063a_VERIFICATION_TEST",
+    "outcome_A_confirming": "Residual T2 saturates at T2_grav within error bars.  SAM gravitational channel identified.",
+    "outcome_B_falsifying": "Observed T2 exceeds T2_grav after all known channels subtracted.  Kills the gravitational floor claim and CR063a v1.0.",
+    "outcome_C_inconclusive": "Other decoherence sources dominate; no clean residual signal.  Status quo, no new information."
+  }
+}

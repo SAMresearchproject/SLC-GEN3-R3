@@ -1,0 +1,46 @@
+{
+  "record_id": "CR120R_QP093A_P9G0_WITNESS_PACKET_EXCLUSION_AND_100_ROW_L162_NATIVE_LEDGER",
+  "all_detected": true,
+  "controls": [
+    {
+      "control_id": "REMOVE_P8_G0",
+      "detected": true
+    },
+    {
+      "control_id": "REMOVE_P12_G0",
+      "detected": true
+    },
+    {
+      "control_id": "REMOVE_P9_G1",
+      "detected": true
+    },
+    {
+      "control_id": "ALL_SCALAR_9_OBJECTS_ARE_P9_G0",
+      "detected": true
+    },
+    {
+      "control_id": "WEAK_VECTOR_SUPPORT_AS_P9_COORDINATE",
+      "detected": true
+    },
+    {
+      "control_id": "HIDDEN_SUPPORT_AS_NATIVE_MATTER",
+      "detected": true
+    },
+    {
+      "control_id": "W9_WITNESS_AS_PAYLOAD",
+      "detected": true
+    },
+    {
+      "control_id": "EXTEND_IDENTITY_BEYOND_G0",
+      "detected": true
+    },
+    {
+      "control_id": "TOTAL_TARGET_SELECTOR",
+      "detected": true
+    },
+    {
+      "control_id": "DELETE_OR_MUTATE_SOURCE_ROWS",
+      "detected": true
+    }
+  ]
+}

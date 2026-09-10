@@ -1,0 +1,617 @@
+# CR114 Stale-Language Scan
+
+Scope: manuscript/doc surfaces plus QP091/QP092/CR114 provenance files. This is a review ledger, not an automatic edit.
+
+## Counts
+
+- CHECK: 515
+- CHECK_CITATION: 343
+- NEEDS_REVIEW: 306
+- OK_BARYON_SCOPE: 10
+- OK_CONTEXT: 433
+- OK_SOURCE_ARTIFACT: 278
+
+## Review Items
+
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\artifacts\qp091s\qp091s_controls.csv:8
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `C7_TERMINOLOGY_CORRECTION,Is the active QP091S source named as closed-loop splitting?,active operator is closed-loop split source; prior result class was PASS_QP091R_DELTA_LANE_CLEAN_126_LOCK__QA_SUBTRACTS_FROM_DELTA_BEFORE_INVERSION__TWO_PI_RESIDUE_NEAR_LOCK__EXACT_Q_SOURCE_OPEN,no active source ca`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\artifacts\qp091s\qp091s_declared_premises.json:4
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"question": "Does the HZZ4l correction read as splitting a closed scalar loop rather than a route bounce?",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\artifacts\qp091s\qp091s_summary.json:41
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"scientific_reading": "QP091S corrects the active source language: the 2pi packet is not a route bounce, it is the opening of the closed scalar parent loop into the ZZ* daughter route. Category projection remains exact 1:2:1 by ordered-route degeneracy. The closed-loop split source collapses to q_sp`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091t\qp091t_closed_loop_r2_retention.csv:3
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `SPLIT_LOSS_FRACTION,2^-D,0.125000000000000000000000000000,0.16_12,one-eighth closed-loop split loss`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp091t\qp091t_closed_loop_r2_retention.csv:4
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `RETAINED_FRACTION,1 - 2^-D,0.875000000000000000000000000000,0.A6_12,seven-eighths closed-loop retention`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091t\qp091t_controls.csv:3
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `C2_LOSS_IDENTITY,Does the one-eighth loss equal alpha_H*D^2?,R^2*2^-D=18.000000000000000000000000000000; alpha_H*D^2=18.000000000000000000000000000000,18 = 16_12,True,PASS_SPLIT_LOSS_IDENTITY`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091t\QP091T_result.md:16
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 1/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp091t\QP091T_result.md:19
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 7/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp091t\QP091T_result.md:22
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 144*7/8`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091t\qp091t_summary.json:13
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp091t\qp091t_summary.json:15
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091t\qp091t_summary.json:40
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"scientific_reading": "QP091T derives the HZZ4l scalar parent from a closed-loop R^2 retention operator without A0, Delta, pi, or a Higgs target input. The closed loop is R^2=144, the split loss is 2^-D=1/8, the retained parent is 7/8 of the loop, giving H_native=126=A6_12 exactly. The loss amount i`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp091t\qp091t_summary.json:40
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"scientific_reading": "QP091T derives the HZZ4l scalar parent from a closed-loop R^2 retention operator without A0, Delta, pi, or a Higgs target input. The closed loop is R^2=144, the split loss is 2^-D=1/8, the retained parent is 7/8 of the loop, giving H_native=126=A6_12 exactly. The loss amount i`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp091x\qp091x_declared_premises.json:15
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"1/2^D=1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092a_split_loss_tensor_carrier\qp092a_controls.csv:4
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `C3_RETAINED_SCALAR_PARENT,R^2*(1-2^-D) = 126,retained=126.000000000000000000000000000000,True,matter/scalar parent remains the retained 7/8 loop`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092a_split_loss_tensor_carrier\qp092a_split_loss_summary.json:11
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp092a_split_loss_tensor_carrier\qp092a_split_loss_summary.json:12
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092f_tensor_carrier_wave_mode\qp092f_declared_premises.json:7
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"support_rule": "A = 7/8 retained write support + 1/16 plus support + 1/16 cross support",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_controls.csv:4
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `C3_STRONG_BOUNDARY,A=1 boundary closes 7/8 plus 1/8 and clock limit goes to zero,True,1/1`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_controls.csv:4
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `C3_STRONG_BOUNDARY,A=1 boundary closes 7/8 plus 1/8 and clock limit goes to zero,True,1/1`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_declared_premises.json:6
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"strong_layer_claim": "A=1 closes as 7/8 retained write support + 1/16 plus + 1/16 cross",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_declared_premises.json:20
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8"`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_summary.json:11
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_summary.json:31
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"strong_boundary_closure": "7/8 + 1/16 + 1/16 = 1",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\QP092G_TENSOR_CARRIER_BRIDGE_PACKET_result.md:32
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: ``7/8 retained write support + 1/16 plus + 1/16 cross = 1``
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\artifacts\qp092g_tensor_carrier_bridge_packet\qp092g_wrong_controls.csv:7
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `WC6_STRONG_BOUNDARY_A_NOT_ONE,strong boundary can be bridged with A=7/8,clock_limit_d_tau_over_dt=0.3535533905932737622004221810524245196424179688442370182941699344976831196155267597125968835819103932,must fail A=1 clock-limit boundary,True,"strong boundary contact is the A=1 limit, not retained-wri`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP036_PRIVATE_LOCAL_INFORMATION_RETURN_CORRECTION_SELECTOR.md:43
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 4 | c<->t | residual_after_floor_times_R_times_D_plus_alpha_H | 4.7594393487622455e-07 | 18.187377215896426 | LOCAL_RETURN_HELD_OPEN |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP049_PRIVATE_ISOTOPE_SEED_IDENTITY_SELECTOR.md:50
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 3 | 25..36 | 12 | 12..18 | 6 |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP049_PRIVATE_ISOTOPE_SEED_IDENTITY_SELECTOR.md:51
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 4 | 37..48 | 12 | 18..24 | 6 |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP068_PRIVATE_HIGH_Z_SEALED_MISS_STRUCTURE_READOUT.md:55
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 61 | Pm | MID_TIER_1 -> HEAVY_TIER_1_pre_Pm | -18 |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP072_PRIVATE_HEAVY_COMPOSITE_FILL_PASS.md:70
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| bbc | BARYON_QQQ | multi_heavy_bc_baryon_two_bottom_lambda | k=18, shift=-4, q=5 | 10029.125301 |`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\docs\reports\QP091A_COURTROOM_SCALE_BRIDGE_POST_BOUNCE_ALIGNMENT.md:18
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `source pressure -> contact -> resolved write/bounce split`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091AA_SURFACE_DEBIT_FINE_STRUCTURE_FACTOR_ISOLATION.md:30
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- identity F=1 within 5 percent: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091AA_SURFACE_DEBIT_FINE_STRUCTURE_FACTOR_ISOLATION.md:47
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `It improves the scaffold from 18/23 to 23/23 within 5 percent, but exact coefficient closure remains open:`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091N_HALF_LEDGER_H_INFERENCE_CONTROLS.md:17
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `A0 = 1/(12*pi)`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091O_SCALAR_HZZ4L_NATIVE_2A0_R3_CORRECTION_DISCOVERY.md:17
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `This correction is generated without using the CR062 `125.25 GeV` reveal row.`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091O_SCALAR_HZZ4L_NATIVE_2A0_R3_CORRECTION_DISCOVERY.md:30
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `CR062 reveal H              = 125.250000000000000000000000000000 GeV`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091P_EARTH_SURFACE_A_HIGGS_DIAGNOSTIC.md:10
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `A_e = 1/(12*pi) + 2GM_Earth/(c^2*R_Earth)`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091P_EARTH_SURFACE_A_HIGGS_DIAGNOSTIC.md:41
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `CR062 reveal H           = 125.250000000000000000000000000000 GeV`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091P_EARTH_SURFACE_A_HIGGS_DIAGNOSTIC.md:56
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `and keeps the remaining 125.25 reveal gap in the MeV range.`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091Q_A0_SCALAR_PARENT_CATEGORY_SPLIT_RESET.md:36
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `CR062 reveal H             = 125.250000000000000000000000000000 GeV`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091R_CLEAN_126_BOUNCE_SUBTRACTION_LOCK.md:45
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `2*pi               = 6.283185307179586477`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091R_CLEAN_126_BOUNCE_SUBTRACTION_LOCK.md:51
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_candidate = 2*pi*(9/8)A0/R^5`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091R_CLEAN_126_BOUNCE_SUBTRACTION_LOCK.md:61
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `126 - D^2/R = 125.250000000000000000000000000000 GeV`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091R_CLEAN_126_BOUNCE_SUBTRACTION_LOCK.md:64
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `That lands on the `125.25` reveal row, but it is not the qA-bounce lane. The`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:39
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split = 2*pi*(9/8)*A0/R^5`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:39
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split = 2*pi*(9/8)*A0/R^5`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:43
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split = 9/(4R^6)`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:48
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split                = 7.535204475308641975308641975308641975E-7`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:55
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `H = A0/(2*(Delta_native - q_split))`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:74
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `= 125.250000000000000000000000000000 GeV`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:82
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split - q_required     = 1.369798288158169982033164184069751738E-9`
+- **NEEDS_REVIEW** `q_split_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:85
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `q_split/single packet    = 6.283185307179586477`
+- **NEEDS_REVIEW** `two_pi_route` C:\VS\quantum_phase\docs\reports\QP091S_CLOSED_LOOP_SPLIT_SOURCE_QA_LOCK.md:86
+  - Action: Demote 2pi/q_split to historical near-lock context; exact parent now cites CR114 -> QP091T.
+  - Context: `2*pi                     = 6.283185307179586477`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:16
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 1/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:19
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 7/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:22
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 144*7/8`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:32
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `= 18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:35
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `alpha_H*D^2 = 2*3^2`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:36
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `= 18`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091T_CLOSED_LOOP_R2_RETENTION_SURFACE_DEBIT_DERIVATION.md:52
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `= 125.25`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091U_FREEZE_AND_WRONG_CONTROL_BREAK_QP091T.md:12
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `H_reveal      = 125.250000000000000000000000000000 (A5.3_12)`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091U_FREEZE_AND_WRONG_CONTROL_BREAK_QP091T.md:23
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `H_reveal = 125.250000000000000000000000000000`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\quantum_phase\docs\reports\QP091U_FREEZE_AND_WRONG_CONTROL_BREAK_QP091T.md:47
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `no surface debit keeps H_native=126, but fails H_reveal=125.25.`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091X_SURFACE_DEBIT_NUMERIC_COEFFICIENT_ISOLATION.md:24
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- native menu * |q| * R^n within 5% nonzero hits: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091Y_SURFACE_DEBIT_R_POWER_EXPONENT_SELECTOR.md:21
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- coefficient within 5 percent at generated n: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091Y_SURFACE_DEBIT_R_POWER_EXPONENT_SELECTOR.md:30
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- shuffled |q|: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091Z_SURFACE_DEBIT_NATIVE_MENU_VALUE_SELECTOR.md:25
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- coefficient within 5 percent at generated menu: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP091Z_SURFACE_DEBIT_NATIVE_MENU_VALUE_SELECTOR.md:33
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- shuffled |q|: 18/23`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092A_PARTICLE_ROW_NATIVE_ROUTE_SURFACE_DEBIT_GRAMMAR_SCAN.md:30
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `negative credit rows      = 18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092A_SPLIT_LOSS_TENSOR_CARRIER_GRAVITON_CHANNEL_TEST.md:9
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: ``G_loss = R^2 / 2^D = alpha_H * D^2``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092A_SPLIT_LOSS_TENSOR_CARRIER_GRAVITON_CHANNEL_TEST.md:15
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- split-loss tensor channel: `R^2 * 2^-D = 18 = 16_12``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092A_SPLIT_LOSS_TENSOR_CARRIER_GRAVITON_CHANNEL_TEST.md:16
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- tensor identity: `alpha_H * D^2 = 18``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092A_SPLIT_LOSS_TENSOR_CARRIER_GRAVITON_CHANNEL_TEST.md:36
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `QP092A promotes the missing 1/8 closed-loop face-state only to a graviton-channel/tensor-carrier candidate. The split loss equals alpha_H*D^2=18 exactly and stays separate from matter retention and surface debit. It is not a particle mass and not a stable matter row; it is classified as unresolved s`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092B_PARTICLE_S_DEBIT_CLUSTER_GRAMMAR_DISCOVERY.md:22
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `negative credit rows         = 18`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\docs\reports\QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE.md:13
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: ``closed matter write -> qA -> unresolved tensor carrier -> post-bounce mass ledger -> A-field update -> force/clock/road readout``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE.md:17
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- split-loss channel: `R^2/2^D = alpha_H D^2 = 18``
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\docs\reports\QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE.md:19
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `- retained write fraction: `7/8``
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\docs\reports\QP092B_TENSOR_CARRIER_QA_COUPLING_A_FIELD_UPDATE.md:34
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `The tensor carrier receives qA source support, but it is not promoted to matter and it is not used as a direct mass inventory. A_environment updates through the compressed post-bounce mass ledger.`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092C_TENSOR_CARRIER_PROPAGATION_A_KERNEL_RECOVERY.md:14
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- geometry rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092C_TENSOR_CARRIER_PROPAGATION_A_KERNEL_RECOVERY.md:18
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- propagation rows passed: 18/18`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\docs\reports\QP092C_TENSOR_CARRIER_PROPAGATION_A_KERNEL_RECOVERY.md:27
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: ``qA carrier support -> post-bounce mass ledger -> A(r)=2GM/(c^2*r)``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092D_TENSOR_CARRIER_CONSERVATION_SOURCE_LEDGER_CLOSURE.md:15
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- propagation rows conserved: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092E_WEAK_FIELD_EXTERNAL_READOUT_FROM_TENSOR_CARRIER_A_KERNEL.md:17
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- weak-field g rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092E_WEAK_FIELD_EXTERNAL_READOUT_FROM_TENSOR_CARRIER_A_KERNEL.md:18
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- clock rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092E_WEAK_FIELD_EXTERNAL_READOUT_FROM_TENSOR_CARRIER_A_KERNEL.md:19
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- A path-delay rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092E_WEAK_FIELD_EXTERNAL_READOUT_FROM_TENSOR_CARRIER_A_KERNEL.md:20
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- direct qA-as-mass rejected for g: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092E_WEAK_FIELD_EXTERNAL_READOUT_FROM_TENSOR_CARRIER_A_KERNEL.md:21
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- direct qA-as-mass rejected for path delay: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092F_TENSOR_CARRIER_WAVE_PROPAGATION_MODE.md:15
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- support closure rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092F_TENSOR_CARRIER_WAVE_PROPAGATION_MODE.md:18
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- direct qA-as-mass rejected rows: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092G_TENSOR_CARRIER_WEAK_STRONG_QUANTUM_BRIDGE_PACKET.md:14
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- weak bridge rows passed: 18/18`
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP092G_TENSOR_CARRIER_WEAK_STRONG_QUANTUM_BRIDGE_PACKET.md:15
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- path-delay source rows passed: 18/18`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\docs\reports\QP092G_TENSOR_CARRIER_WEAK_STRONG_QUANTUM_BRIDGE_PACKET.md:32
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: ``7/8 retained write support + 1/16 plus + 1/16 cross = 1``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP093B_NULL_CONJUGATE_CLOSURE_BOUNDARY.md:16
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- `M_native`: `18.0``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP093B_NULL_CONJUGATE_CLOSURE_BOUNDARY.md:17
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `- `S_debit`: `18.0``
+- **CHECK_CITATION** `split_loss_18` C:\VS\quantum_phase\docs\reports\QP093B_NULL_CONJUGATE_CLOSURE_BOUNDARY.md:39
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `QP091T fixed `H_native = 126` and `split_loss = 18`. The same `18` value appears here as the null conjugate native/debit equality, but this row is not the Higgs and not matter. It is a boundary row that prevents closed algebra from being promoted before reveal.`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:223
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `Higgs/source-pressure/post-bounce ledger story without modifying`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:248
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `source pressure -> contact -> resolved write/bounce split`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:268
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"Higgs/source-pressure/post-bounce ledger story while keeping "`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:275
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"resolved write/bounce split",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:351
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"alignment_read": "post-bounce intersection appears as an asymmetric resolved branch split",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:721
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `source pressure -> contact -> resolved write/bounce split`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091a_private_courtroom_scale_bridge_post_bounce_alignment.py:777
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `source pressure -> contact -> resolved write/bounce split`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091g_hzz4l_full_candidate_amplitude.py:450
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"post_bounce_read": "contact-pressure window after resolved write/bounce split",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091o_scalar_hzz4l_native_2a0_r3_correction_discovery.py:466
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"resolved-SW / half-bounce / projection structure without using Higgs mass as input?"`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp091s_closed_loop_split_source_qa_lock.py:449
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"question": "Does the HZZ4l correction read as splitting a closed scalar loop rather than a route bounce?",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:213
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"readout": "one-eighth closed-loop split loss",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:220
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"readout": "seven-eighths closed-loop retention",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:337
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"question": "Does the one-eighth loss equal alpha_H*D^2?",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:446
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:448
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:472
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"is R^2=144, the split loss is 2^-D=1/8, the retained parent is 7/8 of "`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:472
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"is R^2=144, the split loss is 2^-D=1/8, the retained parent is 7/8 of "`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:496
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 1/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:499
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 7/8`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp091t_closed_loop_r2_retention_surface_debit_derivation.py:502
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `= 144*7/8`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp091x_surface_debit_numeric_coefficient_isolation.py:639
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"1/2^D=1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092a_split_loss_tensor_carrier_graviton_channel_test.py:373
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"readout": "matter/scalar parent remains the retained 7/8 loop",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092a_split_loss_tensor_carrier_graviton_channel_test.py:428
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092a_split_loss_tensor_carrier_graviton_channel_test.py:429
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:202
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:244
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"A_update_rule": "qA source support loads carrier; A_environment updates from post-bounce mass ledger after compression",`
+- **NEEDS_REVIEW** `surface_debit` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:325
+  - Action: Make clear D^2/R is surface debit, not the 1/8 carrier.
+  - Context: `"hypothesis": "The tensor carrier is the observed surface debit D^2/R.",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:356
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: ``closed matter write -> qA -> unresolved tensor carrier -> post-bounce mass ledger -> A-field update -> force/clock/road readout``
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:362
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `- retained write fraction: `7/8``
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:377
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `The tensor carrier receives qA source support, but it is not promoted to matter and it is not used as a direct mass inventory. A_environment updates through the compressed post-bounce mass ledger.`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:556
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp092b_tensor_carrier_qa_coupling_a_field_update.py:575
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `"scientific_reading": "QP092B connects closed matter writes to the unresolved QP092A tensor carrier through the existing qA source ledger. qA source support splits into 7/8 retained write support and 1/8 carrier support with no new parameter, but direct qA-as-mass is rejected because it overreads A.`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092c_tensor_carrier_propagation_a_kernel_recovery.py:293
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\quantum_phase\src\qp092c_tensor_carrier_propagation_a_kernel_recovery.py:433
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: ``qA carrier support -> post-bounce mass ledger -> A(r)=2GM/(c^2*r)``
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092c_tensor_carrier_propagation_a_kernel_recovery.py:569
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092d_tensor_carrier_conservation_source_ledger_closure.py:307
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"expected": "must break conservation by 1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092d_tensor_carrier_conservation_source_ledger_closure.py:511
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092f_tensor_carrier_wave_propagation_mode.py:404
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"expected": "must fail 1/8 support closure",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092f_tensor_carrier_wave_propagation_mode.py:412
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"expected": "must fail 1/8 support closure",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092f_tensor_carrier_wave_propagation_mode.py:578
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"support_rule": "A = 7/8 retained write support + 1/16 plus support + 1/16 cross support",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:432
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"expected": "must fail support closure by 1/8",`
+- **NEEDS_REVIEW** `surface_debit` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:438
+  - Action: Make clear D^2/R is surface debit, not the 1/8 carrier.
+  - Context: `"hypothesis": "replace carrier fraction 1/8 with surface debit D^2/R",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:448
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"expected": "must fail 1/8 closure",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:462
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"hypothesis": "strong boundary can be bridged with A=7/8",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:534
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"condition": "A=1 boundary closes 7/8 plus 1/8 and clock limit goes to zero",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:534
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"condition": "A=1 boundary closes 7/8 plus 1/8 and clock limit goes to zero",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:657
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: ``7/8 retained write support + 1/16 plus + 1/16 cross = 1``
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:694
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"strong_layer_claim": "A=1 closes as 7/8 retained write support + 1/16 plus + 1/16 cross",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:708
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:859
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092g_tensor_carrier_weak_strong_quantum_bridge_packet.py:879
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"strong_boundary_closure": "7/8 + 1/16 + 1/16 = 1",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092h_baryon_inventory_cmb_carrier_compression_rule_gate.py:232
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"rule_statement": "A=1 boundary closes as 7/8 retained plus 1/16 plus plus 1/16 cross",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\quantum_phase\src\qp092h_baryon_inventory_cmb_carrier_compression_rule_gate.py:735
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_write_fraction": "7/8",`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\SAMs_TOE\manuscript\SAM_PREPRINT.md:170
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `G470 = SW split-bounce action theorem`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR060a_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS\CR060a_evidence_rows.csv:19
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `closure_row,18,neutron (udd),weak_plus_SW_beta_bridge,,0,PASS`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR060a_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS\CR060a_evidence_rows.csv:54
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `role_operator,18,Lambda_c (udc),octet_occupation_single_heavy_baryon_charm,,0,PASS`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR061a_MASS_CHAIN_REPRODUCTION\CR061a_evidence_rows.csv:19
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `18,neutron (udd),baryon,weak_plus_SW_beta_bridge,940.23,939.565,PDG n,0.0708,0.070777,0.000023,0,PASS`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR061a_MASS_CHAIN_REPRODUCTION\CR061a_evidence_rows.csv:27
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `26,Lambda (uds),baryon (single-heavy strange),octet_occupation_single_heavy_baryon_strange,1116.18,1115.68,PDG Lambda,0.0448,0.044816,0.000016,0,PASS`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR062a_ROW_BY_ROW_PARTICLE_LEDGER\CR062a_evidence_rows.csv:19
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `18,neutron (udd),baryon,pdg,PDG n,940.23,939.565,0.0708,0.070777,0.000023,0.500,0,PASS_ROW_LEVEL`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR062a_ROW_BY_ROW_PARTICLE_LEDGER\CR062a_evidence_rows.csv:27
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `26,Lambda (uds),baryon (single-heavy strange),pdg,PDG Lambda,1116.18,1115.68,0.0448,0.044816,0.000016,0.500,0,PASS_ROW_LEVEL`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR067a_WZH_BOUNCE_SUBSLOT_INTAKE\CR067a_result.md:47
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| H001 | Higgs boson mass (ATLAS) | +309.12 | +1.490328 | 18/12 = +1.5000 | 0.009672 |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR067a_WZH_BOUNCE_SUBSLOT_INTAKE\CR067a_wzh_anchor.json:127
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"nearest_R12_R16_R24_grid": "18/12",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:139
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"predicted_mass_MeV": 1116.18,`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:152
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"order": "18",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:281
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"k": 18,`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:323
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"order": "18",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:355
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"order": "18",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_quark_lineage_control.json:389
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"order": "18",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_result.md:54
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 18 | octet_occupation_single_heavy_baryon_charm | Lambda_c (udc) | 8 | -3 | -8 | 2277.370 | PDG Lambda_c | -0.3974 | 0 |`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL\CR068a_result.md:61
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `| 26 | multi_heavy_bc_baryon_two_bottom_lambda | Omega_bbc (2b + 1c, Lambda-like) | 18 | -4 | +5 | 10029.100 | lattice Omega_bbc | -1.7715 | 0 |`
+- **NEEDS_REVIEW** `bounce_language` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR069a_09A_PHASE_2_BRANCH_VERDICT_ZIPPER\CR069a_runner.py:5
+  - Action: Avoid bounce wording for Higgs split; use binary face-state/tensor-carrier language.
+  - Context: `branch into Phase 2: Higgs ZZ4l intake/reveal, WZH bounce sub-slot`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_candidate_rows.csv:6
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `split_loss_fraction,1/8,0.16_12,2^-D`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_candidate_rows.csv:7
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `retained_fraction,7/8,0.A6_12,1 - 2^-D`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_candidate_rows.csv:8
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `split_loss_amount,18,16_12,R^2 * 2^-D = alpha_H * D^2 = 18`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:5
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `"question": "Does the closed-loop R^2 retention chain (H_native = R^2*(1-2^-D) = 126; H_reveal = H_native - D^2/R = 125.25) survive Courtroom intake against the QP091T derivation and the QP091U freeze-and-wrong-control certificate, with zero free parameters and no Higgs target used as input?",`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:26
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `"role": "125.25 GeV HZZ4l reveal reference (already cited in QP091T source manifest)",`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:66
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8 = 2^-D",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:67
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8 = 1 - 2^-D",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:68
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"split_loss_amount": 18,`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:69
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"split_loss_identity": "R^2 * 2^-D = alpha_H * D^2 = 18",`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_declared_premises.json:72
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `"H_reveal_GeV": 125.25,`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_input_manifest.csv:13
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `cr062_h_target_row,C:/VS/The_Courtroom/09_PARTICLE_MASS_CHAIN/CR062_ROW_BY_ROW_PARTICLE_LEDGER/CR062_row_by_row_ledger.csv,125.25 GeV reveal reference (already cited in QP091T manifest; not opened here),COURTROOM_REVEAL_REFERENCE_NOT_INPUT,E09F31D0E5AFB4A6A27372FED5DD54E612BC9292D0306221C13560DF9B6C`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_intake_lock.json:15
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"split_loss_fraction": "1/8",`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_intake_lock.json:16
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `"retained_fraction": "7/8",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_intake_lock.json:17
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"split_loss_amount": "18",`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_intake_lock.json:18
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"alpha_H_D2": "18",`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:21
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `H_reveal = 125.25 GeV, with QP091S (2*pi q-split, prior`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:31
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `new external CERN target. The 125.25 GeV reveal value matches the`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:41
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `parent at H_native = 126 GeV exact and H_reveal = 125.25 GeV exact`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:55
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `P4  D^2/R = 9/12 = 0.75 reproduces H_reveal = 126 - 0.75 = 125.25`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:57
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `P5  Loss identity holds: R^2 * 2^-D = alpha_H * D^2 = 18 exactly`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:67
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `wrong-debit controls preserve H_native=126 but fail H_reveal=125.25`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:83
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `WC5 the recomputed H_reveal must equal 125.250000... exactly; any drift`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:86
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `(smaller residual from 126.001639 or matching observed 125.25`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_PRECOMMIT.md:98
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `K1  External anchor       125.25 GeV reveal anchored to CR062 row in`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_result.md:17
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `split loss        = 2^-D = 1/8 = 0.16_12`
+- **NEEDS_REVIEW** `seven_eighths` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_result.md:18
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `retained fraction = 7/8        = 0.A6_12`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_result.md:20
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `split loss amount = R^2 * 2^-D = 18 = 16_12`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_result.md:21
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `alpha_H * D^2     = 18 (loss identity)`
+- **CHECK_CITATION** `higgs_surface_12525` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_runner.py:12
+  - Action: Cite QP091T/QP091U for 125.25 surface.
+  - Context: `P4  H_reveal = 126 - 9/12 = 125.25 EXACTLY`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_runner.py:13
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `P5  Loss identity: R^2 * 2^-D = alpha_H * D^2 = 18 EXACTLY`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_runner.py:165
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `"pass": split_loss_amount == Fraction(18) and alpha_H_D2 == Fraction(18)`
+- **CHECK_CITATION** `split_loss_18` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_runner.py:166
+  - Action: When using 18 as carrier, cite CR114 then QP092A.
+  - Context: `and qp091t_loss == Fraction(18),`
+- **NEEDS_REVIEW** `one_eighth` C:\VS\The_Courtroom\09a_PARTICLE_MASS_CHAIN\CR092a_HZZ4L_SCALAR_PARENT_CLOSED_LOOP_R2_RETENTION_INTAKE\CR092a_runner.py:341
+  - Action: Add CR114 provenance for 1/8 or 7/8 language.
+  - Context: `{"quantity": "split_loss_fraction", "value": "1/8", "base12": "0.16_12",`
+
+Truncated review list in markdown at 200 of 649 rows; CSV contains all rows.

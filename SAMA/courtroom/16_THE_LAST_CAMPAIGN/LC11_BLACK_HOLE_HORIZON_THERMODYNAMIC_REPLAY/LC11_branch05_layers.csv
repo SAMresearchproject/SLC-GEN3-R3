@@ -1,0 +1,6 @@
+layer,source,contract,source_value,status,boundary
+CR007 landmark root,CR007,"A(r)=r_s/r places horizon, photon sphere, and ISCO at A=1,2/3,1/3",CR007_BOUNDARY_STRONG_FIELD_LANDMARK_SELECTOR,PASS,original BOUNDARY grade preserved until CR011 appeal row
+CR008 A=1 closure,CR008,"lapse -> 0, redshift and outside traversal diverge as A -> 1",CR008_BOUNDARY_CLOCK_TRAVERSAL_CLOSURE,PASS,outside-ledger clock/traversal closure only
+CR009 photon sphere / shadow,CR009,A=2/3 carries b_crit/r_s=3*sqrt(3)/2 and shadow diameter/r_s=3*sqrt(3),CR009_PASS_SCOPED_PHOTON_SPHERE_SHADOW_CONTACT,PASS,no full EHT or Kerr modeling
+CR010 ISCO,CR010,A=1/3 carries Schwarzschild ISCO invariants,CR010_PASS_SCOPED_ISCO_ORBITAL_CONTACT,PASS,scoped orbital contact only
+CR011 appeal zipper,CR011,append appeal PASS readouts without overwriting CR007/CR008 original boundary grades,CR011_PASS_DEFERRED_SUPPORT_ZIPPER,PASS,"deferred-support ledger step, not new physics test"

@@ -1,0 +1,10 @@
+gate,status,detail
+G1_SOURCE_AND_SEAL_CUSTODY,True,7/7 sources; 4/4 seal
+G2_TYPE_PRESERVATION,True,B ContactOperator distinct from X1 AxisChannel; Starbreaker typed specificity retained
+G3_DENSITY_MATRIX_VALIDITY,True,"direct, swapping, and 201 noise states physical"
+G4_ORDERED_NONSEPARABILITY,True,N=0.5; C=1; CHSH=2.82842712475
+G5_DIRECT_CONTROLS,True,"B-only, X1-only, reverse, classical return separable and CHSH<=2"
+G6_NO_SIGNALING_MARGINAL,True,max trace distance=1.11e-16
+G7_ENTANGLEMENT_SWAPPING,True,Bell response N=0.5; controls N=0
+G8_NOISE_THRESHOLDS,True,first N>0 v=0.335; first CHSH>2 v=0.71
+G9_WRONG_CONTROLS,True,12/12 rejected

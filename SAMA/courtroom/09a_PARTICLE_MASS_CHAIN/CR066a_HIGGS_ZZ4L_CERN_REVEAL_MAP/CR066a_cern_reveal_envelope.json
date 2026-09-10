@@ -1,0 +1,150 @@
+{
+  "envelope_id": "CR066a_HIGGS_ZZ4L_CERN_REVEAL_ENVELOPE",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "target_cr": "CR066a_HIGGS_ZZ4L_CERN_REVEAL_MAP",
+  "envelope_status": "PROVISIONAL_DRAFT_PRE_CITATION_VERIFICATION",
+  "envelope_sealed_at_utc": "2026-06-14T00:00:00Z",
+
+  "reveal_targets_opened": [
+    "REVEAL_02_m4l_peak",
+    "REVEAL_03_m12_m34_split",
+    "REVEAL_04_four_lepton_angular_structural_consistency"
+  ],
+  "reveal_targets_held": [
+    "REVEAL_01_H006_H007_signal_strength"
+  ],
+
+  "live_anchors": [
+    {
+      "row_id": "M4L_ATLAS_RUN2",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "experiment": "ATLAS",
+      "channel": "H -> ZZ* -> 4l",
+      "publication_reference": "arXiv:2207.00338 (ATLAS Run-2 differential measurements H -> ZZ* -> 4l)",
+      "publication_date_utc": "2022-07-01",
+      "observable": "m_H reconstructed in 4l channel",
+      "central_value_GeV": 124.94,
+      "stat_uncertainty_GeV": 0.17,
+      "sys_uncertainty_GeV": 0.03,
+      "luminosity_inv_fb": 139,
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "row_id": "M4L_CMS_RUN2",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "experiment": "CMS",
+      "channel": "H -> ZZ* -> 4l",
+      "publication_reference": "arXiv:2104.12152 (CMS Run-2 H -> ZZ -> 4l)",
+      "publication_date_utc": "2021-04-25",
+      "observable": "m_H reconstructed in 4l channel",
+      "central_value_GeV": 125.46,
+      "stat_uncertainty_GeV": 0.20,
+      "sys_uncertainty_GeV": 0.20,
+      "luminosity_inv_fb": 137,
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "row_id": "M4L_COMBINED",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "experiment": "ATLAS+CMS combined (gamma-gamma + 4l)",
+      "channel": "H -> gamma gamma and H -> ZZ* -> 4l combination",
+      "publication_reference": "PDG 2024 review value 125.20 +/- 0.11 GeV (combination)",
+      "publication_date_utc": "2024-08-01",
+      "observable": "m_H combined",
+      "central_value_GeV": 125.20,
+      "stat_uncertainty_GeV": 0.11,
+      "sys_uncertainty_GeV": 0.0,
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "row_id": "M12_PEAK_ATLAS",
+      "reveal_target": "REVEAL_03_m12_m34_split",
+      "experiment": "ATLAS",
+      "channel": "H -> 4l, m_12 = invariant mass of pair closest to Z",
+      "publication_reference": "arXiv:2207.00338 ATLAS m12 distribution",
+      "publication_date_utc": "2022-07-01",
+      "observable": "m_12 peak position",
+      "central_value_GeV": 91.0,
+      "stat_uncertainty_GeV": 2.5,
+      "sys_uncertainty_GeV": 0.0,
+      "note": "m_12 peak reported near Z mass; 2.5 GeV is the natural Z width-like resolution",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "row_id": "M34_CEILING_ATLAS",
+      "reveal_target": "REVEAL_03_m12_m34_split",
+      "experiment": "ATLAS",
+      "channel": "H -> 4l, m_34 = invariant mass of off-shell pair",
+      "publication_reference": "arXiv:2207.00338 ATLAS m34 distribution",
+      "publication_date_utc": "2022-07-01",
+      "observable": "m_34 spectrum endpoint",
+      "central_value_GeV": 34.0,
+      "stat_uncertainty_GeV": 3.0,
+      "sys_uncertainty_GeV": 0.0,
+      "note": "m_34 distribution endpoint near 34 GeV; 3 GeV is resolution + analysis cut sensitivity",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    },
+    {
+      "row_id": "ANG_ATLAS_STRUCTURAL",
+      "reveal_target": "REVEAL_04_four_lepton_angular_structural_consistency",
+      "experiment": "ATLAS",
+      "channel": "H -> ZZ* -> 4l angular / spin-parity",
+      "publication_reference": "arXiv:1802.04146 (ATLAS Run-2 H -> ZZ -> 4l spin parity angular)",
+      "publication_date_utc": "2018-02-12",
+      "observable": "angular distribution flat-vs-structured test",
+      "central_value_dimensionless": 1.0,
+      "stat_uncertainty_dimensionless": 0.05,
+      "sys_uncertainty_dimensionless": 0.0,
+      "note": "Observed angular distributions are non-flat and consistent with spin-0 Higgs structured prediction; quantitative match to SAM angular shape is downstream QP093 work",
+      "citation_verification_status": "PENDING_PRECOMMIT_VERIFICATION"
+    }
+  ],
+
+  "honest_negatives": [
+    {
+      "row_id": "HN1_CDF_4l",
+      "experiment": "CDF",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "publication_reference": "Tevatron not the LHC H -> ZZ* -> 4l target",
+      "publication_date_utc": "2010-01-01",
+      "central_value_GeV": 125.0,
+      "stat_uncertainty_GeV": 10.0,
+      "sys_uncertainty_GeV": 0.0,
+      "honest_negative_class": "CLASS_B_TEVATRON",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY",
+      "note": "CDF is Tevatron, not the LHC reveal target this CR opens. Must reject at admissibility."
+    },
+    {
+      "row_id": "HN2_UNPUBLISHED",
+      "experiment": "Unpublished 4l claim",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "publication_reference": "NO_PUBLICATION_REFERENCE",
+      "publication_date_utc": "2026-06-14",
+      "central_value_GeV": 125.2,
+      "stat_uncertainty_GeV": 0.5,
+      "sys_uncertainty_GeV": 0.0,
+      "honest_negative_class": "CLASS_X_UNPUBLISHED",
+      "expected_rejection_gate": "GATE_A_ADMISSIBILITY"
+    },
+    {
+      "row_id": "HN3_SYNTHETIC_PERTURBATION",
+      "experiment": "ATLAS (synthetic CLASS_G perturbation)",
+      "reveal_target": "REVEAL_02_m4l_peak",
+      "publication_reference": "SYNTHETIC_PERTURBATION_OF_arXiv:2207.00338",
+      "publication_date_utc": "2026-06-14",
+      "central_value_GeV": 124.0,
+      "stat_uncertainty_GeV": 0.17,
+      "sys_uncertainty_GeV": 0.03,
+      "honest_negative_class": "CLASS_G_SYNTHETIC",
+      "expected_rejection_gate": "GATE_R_RESIDUAL",
+      "note": "Real ATLAS shifted by 5 sigma; should be rejected at residual gate against SAM's 125.219 GeV"
+    }
+  ],
+
+  "explicitly_held_targets": [
+    {
+      "target_id": "REVEAL_01_signal_strength",
+      "reason": "User direction 2026-06-14: signal strength is the weakest of the four candidate reveals; structural distributions carry far more information"
+    }
+  ]
+}

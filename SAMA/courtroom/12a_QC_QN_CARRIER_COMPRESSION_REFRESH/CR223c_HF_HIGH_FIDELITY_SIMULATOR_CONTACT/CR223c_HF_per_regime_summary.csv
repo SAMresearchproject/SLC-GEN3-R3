@@ -1,0 +1,4 @@
+regime_name,gamma_1_T2,gamma_phi_T2,t_fire_tomo_test,t_fire_reference,crossing_classification,sensor_threshold,sensor_balanced_accuracy,sensor_TPR,sensor_TNR
+room_temp_NV,1.0,0.5,0.021928,0.028961,MATCHED_MODEL,0.260105,0.8946,0.8268,0.9625
+cryogenic_NV,0.1,0.95,0.049261,0.035436,MATCHED_MODEL,0.241107,0.8552,0.8500,0.8603
+noisy_NV,1.0,0.5,0.015278,0.028961,MATCHED_MODEL,0.259108,0.9471,0.9309,0.9632

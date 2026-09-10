@@ -1,0 +1,7 @@
+let witness = RESOLVE(S8_BINARY_SURFACE, B_CONTACT_OPERATOR, X1_AXIS_SELF_CHANNEL)
+let pair = QP_ORDERED_PAIR(QP_P8, QP_P1)
+let volume = PROMOTE_VOLUME(witness, D3_DIMENSION)
+let candidate = QP_UNORDERED_TRIAD(QP_P1, QP_P1, QP_P1)
+let triad = QP_TRIAD_SURFACE_GATE(candidate)
+let face = PROMOTE_FACE(volume, D3_DIMENSION)
+return triad

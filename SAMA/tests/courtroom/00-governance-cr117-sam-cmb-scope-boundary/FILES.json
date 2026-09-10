@@ -1,0 +1,65 @@
+{
+  "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY",
+  "files": [
+    {
+      "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md",
+      "mode": "100644",
+      "git_blob": "1231f8441accc2b370e4ff8949d430a45430493c",
+      "bytes": 12556,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md",
+      "sama_path": "courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md",
+      "sama_relative_url": "../../../courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_result.md"
+    },
+    {
+      "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_runner.py",
+      "mode": "100644",
+      "git_blob": "1cd5cd1503746a091e222c5dca27f948f5606fec",
+      "bytes": 29560,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_runner.py",
+      "sama_path": "courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_runner.py",
+      "sama_relative_url": "../../../courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_runner.py"
+    },
+    {
+      "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json",
+      "mode": "100644",
+      "git_blob": "c4ae2dbca30e2bf86618754578fc303c5efacac7",
+      "bytes": 12286,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json",
+      "sama_path": "courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json"
+    },
+    {
+      "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "c2061a651cbcccf6ddc3a434b08439b36ac940bf",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json.sha256.txt",
+      "sama_path": "courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_scope_boundary_lock.json.sha256.txt"
+    },
+    {
+      "path": "00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json",
+      "mode": "100644",
+      "git_blob": "571f623502780875e96048ebc1d08f313a6c97c1",
+      "bytes": 5281,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json",
+      "sama_path": "courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json",
+      "sama_relative_url": "../../../courtroom/00_governance/CR117_SAM_CMB_SCOPE_BOUNDARY/CR117_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR117@00"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

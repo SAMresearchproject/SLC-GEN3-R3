@@ -1,0 +1,22 @@
+{
+  "authority": "OPEN_UNREGISTERED",
+  "execution_rule": "Unknown/open physical operators fail before execution",
+  "operators": [
+    "PHYSICAL_OCCURRENCE_FROM_COMPLETED_WRITE",
+    "ENTITY_LINEAGE",
+    "RECIPROCAL_RELATION_INSTANCE",
+    "RELAY_TO_WRITE",
+    "A_TO_SLOT_LEDGER_MULTIPLICITY",
+    "STARBREAKER_FORMATION_TRANSITION",
+    "TERMINAL_REMNANT",
+    "REMNANT_ISOTOPE_DECODER",
+    "FORMATION_CONSERVATION_ACCOUNT",
+    "STATE_BINDING_READOUT",
+    "QP_PHYSICAL_ENTITY",
+    "QP_OCCUPIED_LEDGER_SLOT",
+    "QP_PHYSICAL_MASS",
+    "QP_BINDING_ENERGY"
+  ],
+  "registered_evaluators": 0,
+  "semantic_scope": "PHYSICAL_OPEN"
+}

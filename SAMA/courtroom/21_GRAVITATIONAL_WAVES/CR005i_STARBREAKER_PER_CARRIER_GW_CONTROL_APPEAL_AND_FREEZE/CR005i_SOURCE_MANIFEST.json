@@ -1,0 +1,24 @@
+{
+  "campaign_id": "CR005i_STARBREAKER_PER_CARRIER_GW_CONTROL_APPEAL_AND_FREEZE",
+  "source_count": 18,
+  "sources": [
+    {"path": "artifacts/preflight_filled/PREFLIGHT_20260720_235234_no_script.md", "role": "authorized audit preflight", "bytes": 17320, "sha256": "ad3ee95ce9d682af5936763c71bb2bab4b69e8ba16fb2fbe171c52b301819387"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/CR005h_CONTRACT.json", "role": "appealed contract", "bytes": 5919, "sha256": "bd3ac5f0ff73b9564ca5beff8c8047113e5afad81634ebc39d24bf7c3542bfa6"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/CR005h_SOURCE_MANIFEST.json", "role": "appealed source custody", "bytes": 3411, "sha256": "72ffd4e493b39686d05ed301428e5ef84152b9142a630bfa082780a54b81931a"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/CR005h_runner.py", "role": "appealed implementation", "bytes": 50430, "sha256": "ccd71d9bfe9c9677d36e35e060cf150cc725814dff3e7b98623fc6bacef52fab"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/CR005h_RUNNER_SEAL.json", "role": "appealed runner seal", "bytes": 377, "sha256": "6ec824161e7d49a11538d790c9e4c7a42f150d913a3d7fb96be10e1f66a83590"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_RELEASE_MANIFEST.csv", "role": "appealed release inventory", "bytes": 1264, "sha256": "7cf6498211166ced701e0c97760375a9e3d6ba1d4e9e14b0975b0797e35e56cc"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_RELEASE_MANIFEST_SHA256.txt", "role": "appealed manifest seal", "bytes": 95, "sha256": "dc02e0d1dc3cc6f4b4cbc981e2e68ae8d0387185b21eec89c1d05745d7e8e78f"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_CARRIER_ATTRIBUTION.csv", "role": "candidate ledger to adopt without modification", "bytes": 25333707, "sha256": "ac530d89fd95c177d133743faf8c6458c085547cc4c8804b82e00548620a8311"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_SLOT_CANDIDATES.csv", "role": "slot candidates to adopt without modification", "bytes": 6156, "sha256": "08882b4433decd6abd97b20ad00e1b882ab5d54ab2bb73cccee33e0624f65883"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_OCCURRENCE_SHORTLIST.csv", "role": "occurrence shortlist to adopt without modification", "bytes": 94575, "sha256": "a7352f9610e6b67e0d560a2d3481908ebb698dd8e31cd81e57e382078d54d862"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_GATES.csv", "role": "original failed gates", "bytes": 600, "sha256": "5b7735e93adffdda7475cbed0191ceba1027f7e075f651f370f615d5528dcbef"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_CONTROLS.csv", "role": "original numerical observations", "bytes": 609, "sha256": "bfd60d88ecef6b815a3bde847936a5880d379943b81d922e1b3473fec1623b75"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005h_STARBREAKER_PER_CARRIER_GW_CANDIDATE_LEDGER/release/CR005h_SUMMARY.json", "role": "original machine-readable result", "bytes": 13743, "sha256": "0fb10316c6dbc2426ba04737936d943018b8ad16584ca39f29433b758dbd66df"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_runner.py", "role": "sealed flow and tensor helper", "bytes": 53752, "sha256": "520ae3c79c625e696db1949a7824c45881b5f0d271ee2d35738b62a7a8947a80"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/CR005d_CONTRACT.json", "role": "sealed parent contract", "bytes": 6921, "sha256": "96cff6164e55c2024ffcbe7158f8dd4d4783ef408b4941d72f8c6f17084c309e"},
+    {"path": "21_GRAVITATIONAL_WAVES/CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE/release/CR005d_SUMMARY.json", "role": "sealed parent verdict authority", "bytes": 9139, "sha256": "e2bc53614bc9576b8d98dbe0ce56969ded07c9db5b0bddb7b8d75bbad4efc5f6"},
+    {"path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/ATOM_TYPED_STAGE_ROSTER.csv.gz", "role": "frozen trajectory roster for control replay", "bytes": 62636683, "sha256": "c5da85da3a2e4ff0dc63fbe3e6ebe8485f6faa407fcf3033e463761439db28eb"},
+    {"path": "15_SCALE_BRIDGE_SIMULATOR/STARBREAKER_COMPLETE_TYPED_RELATION_HISTORY_V1/release/SCENARIO_SELECTION_DECOMPOSITION.csv", "role": "frozen scenario inventory", "bytes": 18469, "sha256": "b1869c7cda4223484c0023fdfb04e54e533f747c457795906030fde90c14007d"}
+  ]
+}

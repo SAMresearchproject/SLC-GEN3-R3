@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES,source G-test result
+readout_rows,6,typed readout rows
+max_recompute_error,0.0,mass/q_A/force/clock recomputation
+typed_lane_status_rows,6,rows explicitly reporting separated lanes
+wrong_controls,5/5,all lane-mixing controls passed

@@ -1,0 +1,190 @@
+{
+  "cr_id": "CR004",
+  "branch": "18_SAM_NATIVE_QC",
+  "title": "QGC Phase 2: Distance-Dependent Coupling via 1/r A-Kernel",
+  "verdict": "PASS",
+  "main_test": {
+    "distance": 12.0,
+    "predicted_cumA_A": 0.003305497564370215,
+    "observed_cumA_A": 0.003305497564370215,
+    "predicted_cumA_B": 0.002348643006263048,
+    "observed_cumA_B": 0.002348643006263048,
+    "final_state": {
+      "site_A": {
+        "face_index": 9,
+        "alpha_h_label": 1,
+        "status": "resolved",
+        "cumulative_A": 0.003305497564370215
+      },
+      "site_B": {
+        "face_index": 4,
+        "alpha_h_label": 1,
+        "status": "resolved",
+        "cumulative_A": 0.002348643006263048
+      }
+    },
+    "verification_gates": {
+      "V-1_correlation_eq_1_1": true,
+      "V-2_faces_unchanged": true,
+      "V-3_cumA_A_matches_prediction": true,
+      "V-4_cumA_B_matches_prediction": true,
+      "V-5_below_saturation": true,
+      "V-6_trace_complete": true
+    },
+    "main_test_pass": true
+  },
+  "distance_sweep": {
+    "rows": [
+      {
+        "distance": 1.0,
+        "predicted_cumA_A": 0.005219206680584551,
+        "observed_cumA_A": 0.005219206680584551,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.005219206680584551,
+        "observed_cumA_B": 0.005219206680584551,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      },
+      {
+        "distance": 2.0,
+        "predicted_cumA_A": 0.0041753653444676405,
+        "observed_cumA_A": 0.0041753653444676405,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.0036534446764091852,
+        "observed_cumA_B": 0.0036534446764091857,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      },
+      {
+        "distance": 6.0,
+        "predicted_cumA_A": 0.0034794711203897004,
+        "observed_cumA_A": 0.0034794711203897004,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.0026096033402922755,
+        "observed_cumA_B": 0.0026096033402922755,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      },
+      {
+        "distance": 12.0,
+        "predicted_cumA_A": 0.003305497564370215,
+        "observed_cumA_A": 0.003305497564370215,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.002348643006263048,
+        "observed_cumA_B": 0.002348643006263048,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      },
+      {
+        "distance": 100.0,
+        "predicted_cumA_A": 0.0031524008350730685,
+        "observed_cumA_A": 0.003152400835073069,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.0021189979123173272,
+        "observed_cumA_B": 0.0021189979123173277,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      },
+      {
+        "distance": 10000.0,
+        "predicted_cumA_A": 0.003131732776617954,
+        "observed_cumA_A": 0.0031317327766179535,
+        "cumA_A_match": true,
+        "predicted_cumA_B": 0.0020879958246346553,
+        "observed_cumA_B": 0.0020879958246346553,
+        "cumA_B_match": true,
+        "correlation_AB": [
+          1,
+          1
+        ],
+        "correlation_eq_1_1": true
+      }
+    ],
+    "all_pass": true
+  },
+  "wrong_controls": {
+    "results": [
+      {
+        "id": "WC-1",
+        "description": "abstract-distance recovery at d=1e6",
+        "predicted_cumA_A_abstract": 0.003131524008350731,
+        "observed_cumA_A": 0.003131526096033403,
+        "predicted_cumA_B_abstract": 0.0020876826722338203,
+        "observed_cumA_B": 0.0020876858037578282,
+        "wc_pass": true
+      },
+      {
+        "id": "WC-2",
+        "description": "correlation distance-invariance across d in {1, 12, 100, 10000}",
+        "correlations_per_distance": [
+          [
+            1.0,
+            1,
+            1
+          ],
+          [
+            12.0,
+            1,
+            1
+          ],
+          [
+            100.0,
+            1,
+            1
+          ],
+          [
+            10000.0,
+            1,
+            1
+          ]
+        ],
+        "wc_pass": true
+      },
+      {
+        "id": "WC-3",
+        "description": "runner uses 1/r kernel (NOT 1/d^2)",
+        "observed_cumA_A": 0.003305497564370215,
+        "correct_1_over_r_prediction_A": 0.003305497564370215,
+        "wrong_1_over_d_squared_prediction_A": 0.0031460218046856876,
+        "matches_correct": true,
+        "matches_wrong": false,
+        "wc_pass": true
+      },
+      {
+        "id": "WC-4",
+        "description": "exact rational match at d=R=12 (19/6 and 9/4 factors)",
+        "expected_cumA_A_19_over_6": 0.003305497564370215,
+        "observed_cumA_A": 0.003305497564370215,
+        "expected_cumA_B_9_over_4": 0.002348643006263048,
+        "observed_cumA_B": 0.002348643006263048,
+        "wc_pass": true
+      }
+    ],
+    "all_pass": true
+  },
+  "substrate_atoms_used": {
+    "S_squared": 64,
+    "N_max": 61312,
+    "per_write_at_self": 1.631002087682672e-05
+  }
+}

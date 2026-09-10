@@ -1,0 +1,56 @@
+{
+  "all_rejected": true,
+  "controls": [
+    {
+      "id": "WC01_1_OVER_9_AS_MEV",
+      "reason": "1/9 remains dimensionless; no MeV coupling is sourced.",
+      "rejected": true
+    },
+    {
+      "id": "WC02_FIT_ON_AU197",
+      "reason": "AU197 is frozen as a holdout-quality baseline and was not replayed or fit.",
+      "rejected": true
+    },
+    {
+      "id": "WC03_TARGET_DERIVED_MAPPING",
+      "reason": "CR277 residuals were not used to invent eligibility, signs, or multiplicities.",
+      "rejected": true
+    },
+    {
+      "id": "WC04_GENERIC_COMPONENT_SELECTOR_AS_P189_MAP",
+      "reason": "QP094A selectors are proton/neutron/electron representatives, not matched p1/p8/p9 occupancies.",
+      "rejected": true
+    },
+    {
+      "id": "WC05_SAME_SCALAR_MERGER",
+      "reason": "QP093A p9, W9, scalar 162, and L162 remain distinct.",
+      "rejected": true
+    },
+    {
+      "id": "WC06_DELETE_OR_MERGE_P9",
+      "reason": "No QP093A identity or source row was edited.",
+      "rejected": true
+    },
+    {
+      "id": "WC07_ALTER_OPERATOR_DEBIT",
+      "reason": "The sealed AU197 operator debit remains 0.000000 MeV.",
+      "rejected": true
+    },
+    {
+      "id": "WC08_SCORE_UNDEFINED_FEATURE",
+      "reason": "No feature matrix or held-out score was produced without the mapping.",
+      "rejected": true
+    },
+    {
+      "id": "WC09_CALL_BOUNDARY_VALIDATION",
+      "reason": "The proposal remains unvalidated and not evidence.",
+      "rejected": true
+    },
+    {
+      "id": "WC10_INVOKE_MISSING_CR120_RELATIONS",
+      "reason": "No PROPAGATE_CLOSURE, LEDGER_SITE, ADJACENT, or ADJACENT_LEDGER_STATE relation was used.",
+      "rejected": true
+    }
+  ],
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE"
+}

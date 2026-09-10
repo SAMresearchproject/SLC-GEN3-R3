@@ -1,0 +1,6 @@
+{
+  "test_id": "CR022_PRECISION_CMB_EXTENSION_FROM_sam_precision_cmb",
+  "test_type": "courtroom_import_from_sam_precision_cmb_folder",
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that sam_precision_cmb advances the fixed density branch through native A_s/n_s/tau routes, sealed predictions, lockbox, and scoped reveal without post-reveal mutation."
+}

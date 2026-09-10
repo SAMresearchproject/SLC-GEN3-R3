@@ -1,0 +1,212 @@
+{
+  "acceptance_gates": {
+    "G01_PARENT_CUSTODY": "The complete 92-file SAM Language v0.5 executable set must match candidate code hash 726011b38d27a9b5403a7df66d8d4d5ac7c49960bc331d65f57c66de7a7ecaf0, and the v0.5 release record must remain unchanged.",
+    "G02_SINGLE_LANGUAGE_PATH": "Core, QP, and SLC programs must use one parser, one checker, one evaluator, one type system, and one ordered registry-extension path. Source-text dispatch and a sidecar SLC evaluator are forbidden.",
+    "G03_PROFILE_ISOLATION": "Every SLC state-changing operator must execute only in the slc-c1-formal profile. Normal and research profiles must reject the same calls with SLCFormalProfileRequired.",
+    "G04_REGISTER_CARDINALITY": "Exactly 12 labeled lebit sites SLC_L0 through SLC_L11 and exactly 4096 computational-basis addresses must be available. Partition-slot and QP-coordinate labels must not be accepted as lebit sites.",
+    "G05_EXACT_STATE_INVARIANT": "Every accepted state must have a unique reduced sparse-integer representation and satisfy sum(n_i^2) = 2^h exactly. Floating-point comparisons may not decide state equality, normalization, or a gate result.",
+    "G06_FROZEN_OPERATORS": "SLC_BINARY_FLIP, SLC_PREPARE_REQUEST, and SLC_X1_RESPONSE must reproduce the frozen B, canonical real balanced request, and conditional target response exactly and without fitted coefficients.",
+    "G07_COMPLETE_PAIR_LIFT": "All 132 ordered distinct control-target placements over all 4096 basis inputs must close in both forward and reverse formula lanes: 540672 forward, 540672 reverse, and 1081344 classicalized schedule cases.",
+    "G08_SIGN_GAUGES": "All four surviving SLCX002 real request sign gauges must remain representable as diagnostics and close on all 132 placements, for 528 placement cases. The installed canonical operator remains the positive-first-row gauge.",
+    "G09_FOREST_AND_DECOMPOSITION": "The 66 rooted-forest induction parent cases and all 31572 native decomposition site assignments must reproduce one GHZ block per connected component under parent-before-child construction.",
+    "G10_EXTRA_EDGE": "All 204 frozen intracomponent extra-response cases must perform the exact peel operation and the second identical response must restore the prior state.",
+    "G11_CLASSICAL_LIMIT": "The eight frozen predecessor classical rows and every basis-state response must recover the deterministic classical truth table exactly.",
+    "G12_STATE_HISTORY_SEPARATION": "Equivalent star and chain preparations must produce the same state hash and different history hashes. State inspection may identify the connected-component partition but may not infer internal rooted-tree history from the terminal state.",
+    "G13_DETERMINISTIC_RECEIPTS": "Repeated API and CLI execution of the same program must produce byte-identical canonical state payloads, state hashes, route receipts, and history hashes.",
+    "G14_TRANSACTION_AND_TAMPER": "Rejected operations must be atomic. Mutation of a coefficient, exponent, predecessor hash, operator argument, or receipt must be detected before the state is accepted for a subsequent operation.",
+    "G15_REGRESSION_AND_PARITY": "All 154 SAM Language v0.5 tests, the new focused SLC tests, CLI/API parity checks, and clean-wheel tests must pass without modifying the v0.5 parent.",
+    "G16_BOUNDARY_PRESERVATION": "The candidate must reject publication, sampling, complex-phase, physical-connectivity, coupling-cost, and hardware claims while retaining formal exact simulation authority."
+  },
+  "campaign_id": "SAM_LANGUAGE_V0_6_0_SLC_C1_FORMAL_SIMULATOR_CANDIDATE",
+  "classification": "CONSTRUCTIVE_DIRECT_SLC_C1_FORMAL_SIMULATOR_LANGUAGE_INTEGRATION",
+  "execution_policy": {
+    "acceptance_runner_required": true,
+    "automatic_registry_install": false,
+    "candidate_count": 1,
+    "result_scripts_must_use_sam_harness": true,
+    "same_run_repair": false,
+    "source_text_dispatch": "FORBIDDEN",
+    "unsealed_operator_fitting": "FORBIDDEN"
+  },
+  "formal_profile": {
+    "authority": "FORMAL_CANDIDATE",
+    "cli_selector": "--slc-c1-formal",
+    "name": "slc-c1-formal",
+    "normal_profile_access": "REJECT",
+    "research_profile_access": "REJECT"
+  },
+  "grammar": {
+    "constants": [
+      "SLC_L0",
+      "SLC_L1",
+      "SLC_L2",
+      "SLC_L3",
+      "SLC_L4",
+      "SLC_L5",
+      "SLC_L6",
+      "SLC_L7",
+      "SLC_L8",
+      "SLC_L9",
+      "SLC_L10",
+      "SLC_L11"
+    ],
+    "functional_example": [
+      "let s0: SLCState12 = SLC_ZERO_REGISTER()",
+      "let s1: SLCState12 = SLC_PREPARE_REQUEST(s0, SLC_L0)",
+      "let s2: SLCState12 = SLC_X1_RESPONSE(s1, SLC_L0, SLC_L1)",
+      "return s2"
+    ],
+    "operator_identifier_pattern": "[A-Z][A-Z0-9_]*",
+    "operators": {
+      "SLC_BINARY_FLIP": {
+        "arguments": [
+          "SLCState12",
+          "SLCLebitSite"
+        ],
+        "result": "SLCState12",
+        "semantics": "Current SLC B: flip the selected computational-basis bit. This is distinct from PREPARE_REQUEST."
+      },
+      "SLC_INSPECT_STATE": {
+        "arguments": [
+          "SLCState12"
+        ],
+        "result": "SLCStateInspection",
+        "semantics": "Read-only exact structural inspection. It does not mutate state or append a state-transition receipt."
+      },
+      "SLC_PREPARE_REQUEST": {
+        "arguments": [
+          "SLCState12",
+          "SLCLebitSite"
+        ],
+        "result": "SLCState12",
+        "semantics": "Apply the frozen canonical real balanced involution H = (1/sqrt(2))*[[1,1],[1,-1]] to the selected site."
+      },
+      "SLC_X1_RESPONSE": {
+        "arguments": [
+          "SLCState12",
+          "SLCLebitSite",
+          "SLCLebitSite"
+        ],
+        "result": "SLCState12",
+        "semantics": "For distinct control and target sites, map |c,t> to |c,t XOR c> and leave all spectator bits unchanged."
+      },
+      "SLC_ZERO_REGISTER": {
+        "arguments": [],
+        "result": "SLCState12",
+        "semantics": "Create the exact 12-site |0...0> state and deterministic genesis custody receipt."
+      }
+    },
+    "types": {
+      "SLCLebitSite": "One of the twelve typed register positions, not a partition slot, QP p value, carrier label, or support value.",
+      "SLCState12": "Immutable exact 12-lebit joint state plus append-only route custody.",
+      "SLCStateInspection": "Immutable exact readout of amplitudes, invariants, hashes, support, and formal component diagnostics."
+    }
+  },
+  "history_semantics": {
+    "deterministic": true,
+    "failed_operation_behavior": "Return a typed error atomically; do not create an output state or append a successful transition receipt.",
+    "history_hash_includes": [
+      "history schema version",
+      "predecessor history hash",
+      "operator identifier",
+      "ordered typed arguments",
+      "input state hash",
+      "output state hash",
+      "frozen operator-source hashes"
+    ],
+    "history_hash_rule": "SHA-256 of canonical UTF-8 JSON for the complete deterministic receipt chain head.",
+    "history_is_not_state": true,
+    "state_hash_excludes": [
+      "operator route",
+      "timestamps",
+      "CLI or API origin",
+      "source file name",
+      "variable names"
+    ],
+    "star_chain_requirement": "Different valid rooted-tree histories producing the same exact terminal vector have identical state hashes and different history hashes."
+  },
+  "lineage": {
+    "sam_language_v0_5": {
+      "expected_executable_file_count": 92,
+      "expected_executable_hash": "726011b38d27a9b5403a7df66d8d4d5ac7c49960bc331d65f57c66de7a7ecaf0",
+      "path": "SAM_LANGUAGE_V0_5_0_PARTICLE_GRAMMAR_CANDIDATE",
+      "relationship": "IMMUTABLE_PARENT"
+    },
+    "slcx002": {
+      "expected_release_manifest_sha256": "99a9c187f35f16ec5ae06a54135e8a24418553f345fed0ea73cb6ff196e57c3d",
+      "path": "18_SAM_NATIVE_QC/SLCX002_PREPARE_REQUEST_X1_RESPONSE_FORMAL_STATE_DISCOVERY",
+      "relationship": "FROZEN_TWO_OPERATION_REAL_SECTOR_SOURCE"
+    },
+    "slcx003": {
+      "expected_release_manifest_sha256": "36b734bf2b17a2f6f552df61a5226876b20723ff6be0f4b76067875108b6493a",
+      "path": "18_SAM_NATIVE_QC/SLCX003_12_LEBIT_REGISTER_JOINT_STATE_TOPOLOGY_DISCOVERY",
+      "relationship": "FROZEN_COMPLETE_12_LEBIT_FORMAL_ORACLE"
+    }
+  },
+  "open_boundaries": {
+    "complex_phase_semantics": "OPEN; no complex coefficient or phase operator is installed.",
+    "coupling_magnitude_and_cost": "OPEN; legacy 64/64/128 ledger costs are not assigned to coherent formal operators.",
+    "hardware_realization": "OPEN.",
+    "measurement_and_publication": "OPEN under LCQC012; no sampling, collapse, Born-rule, or COMMIT-as-publication operator is installed.",
+    "physical_connectivity": "OPEN; formal control-target placement and inferred component structure do not install a physical edge graph.",
+    "production_registry_status": "CANDIDATE ONLY until the complete sealed acceptance campaign passes and a separate release decision is made."
+  },
+  "primary_pass_verdict": "PASS_SAM_LANGUAGE_V0_6_SLC_C1_REAL_GRAMMAR_KERNEL__EXACT_12_LEBIT_STATE_EXECUTION_AND_TAMPER_EVIDENT_ROUTE_HISTORY__PHASE_PUBLICATION_AND_PHYSICAL_REALIZATION_OPEN",
+  "question": "Can the frozen SLCX002 real two-operation grammar and the SLCX003 complete 12-lebit formal lift be implemented directly in one updated SAM Language kernel as an exact, deterministic, tamper-evident SLC C1 simulator without promoting open physical semantics?",
+  "register_semantics": {
+    "basis_address_range": [
+      0,
+      4095
+    ],
+    "basis_display_order": "SLC_L11 ... SLC_L0",
+    "canonical_reduction": "Remove zero coefficients. While h >= 2 and every nonzero n_i is divisible by 2, divide every n_i by 2 and replace h with h-2. Preserve global sign.",
+    "coefficient_domain": "signed arbitrary-precision integers",
+    "exact_amplitude": "amplitude(i) = n_i / sqrt(2)^h",
+    "normalization_invariant": "sum_i(n_i^2) = 2^h",
+    "register_size": 12,
+    "site_bit_order": "SLC_L0 is integer-address bit 0 (least significant); SLC_L11 is bit 11.",
+    "sparse_order": "ascending basis address",
+    "state_dimension": 4096,
+    "state_hash_payload": [
+      "state schema version",
+      "register size 12",
+      "reduced sqrt2 exponent h",
+      "ascending nonzero [basis_address, signed_integer_coefficient] pairs"
+    ],
+    "state_hash_rule": "SHA-256 of canonical UTF-8 JSON over the reduced amplitude payload only.",
+    "zero_state": "h=0 with coefficient +1 at basis address 0"
+  },
+  "topology_semantics": {
+    "allowed_claim": "For states constructed by the frozen rooted-forest schedule, exact terminal correlations identify the connected-component partition and reproduce one GHZ block per component.",
+    "child_before_parent_scope": "A legal X1_RESPONSE operation on a valid state; it is a negative control only when mislabeled as a completed parent-before-child forest construction.",
+    "duplicate_response_scope": "Legal and involutive; it may peel or restore a target and must not be silently deduplicated.",
+    "forbidden_claim": "Terminal state alone identifies star, chain, root choice, internal tree edges, or installed physical connectivity.",
+    "prepare_twice_scope": "Legal and involutive; no blanket duplicate-prepare ban.",
+    "response_domain": "Any exact valid SLCState12 with distinct control and target sites."
+  },
+  "wrong_controls": [
+    "control equals target accepted",
+    "R=10 substituted for the native R=12 register",
+    "eight LCQC002 partition slots substituted for twelve lebit sites",
+    "partition-slot pairs treated as privileged lebit edges",
+    "QP p values or carrier/support labels accepted as lebit positions",
+    "legacy SLC latent bits used as coherent amplitude authority",
+    "SLC_BINARY_FLIP substituted for SLC_PREPARE_REQUEST",
+    "SLC_BINARY_FLIP claimed to create a balanced request",
+    "reverse order or X1_RESPONSE alone claimed to create the forward correlated state",
+    "duplicate response silently removed from history",
+    "closing response edge claimed to be an identity",
+    "child-before-parent execution prohibited as an operator rather than tested as a forest-construction control",
+    "PREPARE_REQUEST applied twice prohibited rather than evaluated as an involution",
+    "terminal state used to infer star-versus-chain internal history",
+    "state hash made route-dependent",
+    "history hash made route-independent",
+    "floating-point tolerance used to decide exact state equality or normalization",
+    "complex phase introduced into the frozen real kernel",
+    "formal placement treated as installed physical connectivity",
+    "legacy ledger cost attached to PREPARE_REQUEST or X1_RESPONSE",
+    "sampling or COMMIT treated as a derived publication rule",
+    "formal operators accepted in normal or research profile",
+    "mutated state or receipt accepted without custody failure"
+  ]
+}

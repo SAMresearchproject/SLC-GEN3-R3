@@ -1,0 +1,93 @@
+{
+  "D": 3,
+  "R": 12,
+  "S_cross": 8,
+  "S_split": "8",
+  "S_state": 8,
+  "Theta": 18,
+  "checks": {
+    "P10_carrier_fraction": true,
+    "P11_state_split_unique_D3": true,
+    "P12_edge_radix_unique_D3": true,
+    "P13_octahedral_skeletal_rigidity": true,
+    "P14_cube_skeletal_flexibility": true,
+    "P15_repository_role_reconciliation": true,
+    "P1_binary_state_count": true,
+    "P2_arbitrary_boundary_rejected": true,
+    "P3_octahedron_counts": true,
+    "P4_cube_counts": true,
+    "P5_duality": true,
+    "P6_binary_state_face_bijection": true,
+    "P7_SAM_atom_alignment": true,
+    "P8_Euler_closure": true,
+    "P9_release_share_identity": true,
+    "firewall_source_paths_clean": true,
+    "precommit_hash_matches": true,
+    "precommit_sidecar_matches": true,
+    "source_hashes_match_manifest": true,
+    "wrong_controls_all_rejected": true
+  },
+  "cube": {
+    "E": 12,
+    "F": 6,
+    "V": 8
+  },
+  "dimension_uniqueness": {
+    "cross_edge_equal_R_D": [
+      3
+    ],
+    "cube_edge_equal_R_D": [
+      3
+    ],
+    "scan_range": [
+      1,
+      12
+    ],
+    "state_split_equal_D": [
+      3
+    ]
+  },
+  "errors": [],
+  "f_Theta": "1/8",
+  "forecast_generated": false,
+  "h": 2,
+  "language_or_meta_language_test": false,
+  "octahedron": {
+    "E": 12,
+    "F": 8,
+    "V": 6
+  },
+  "precommit_sha256": "84c1a50c983e8d48c63f7a64ed30c32fc8961140a70efd05a5aa7bf8f81cb638",
+  "primary_verdict": "PASS_S8_TYPED_SURFACE_CLOSURE_UNIFICATION",
+  "prospective_record_class": "SCIENTIFIC_TEST",
+  "queue_maintenance_performed_by_research_agent": false,
+  "record_id": "CR117_S8_TYPED_SURFACE_CLOSURE_OCTAHEDRON_DUALITY",
+  "rigidity": {
+    "cube": {
+      "edges": 12,
+      "maxwell_3V_minus_6": 18,
+      "rank_status": "PASS_FLEXIBLE",
+      "rigidity_matrix_rank": 12,
+      "scope": "unbraced pin-jointed cube skeleton",
+      "vertices": 8
+    },
+    "octahedron": {
+      "edges": 12,
+      "maxwell_3V_minus_6": 12,
+      "rank_status": "PASS",
+      "rigidity_matrix_rank": 12,
+      "scope": "equal-edge pin-jointed 3D skeletal framework",
+      "vertices": 6
+    }
+  },
+  "runner_sha256": "47371345a72e306f932ff815420d91e48f23c848d14446bd76d113dfe0ec5dc1",
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-12T03:18:19Z",
+  "secondary_scope_notes": [
+    "MATHEMATICAL_AND_COMBINATORIAL_UNIFICATION_PASS",
+    "PHYSICAL_OCTAHEDRON_ONTOLOGY_REMAINS_CANDIDATE"
+  ],
+  "source_conflict_count": 1
+}

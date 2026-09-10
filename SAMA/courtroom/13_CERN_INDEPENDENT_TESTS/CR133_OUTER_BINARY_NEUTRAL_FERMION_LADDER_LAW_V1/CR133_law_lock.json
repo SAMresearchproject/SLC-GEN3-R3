@@ -1,0 +1,58 @@
+{
+  "cr_id": "CR133",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class == 'OUTER_BINARY_NEUTRAL', M_native = partition_value * R^closure_depth / 8 exactly.",
+    "falsifier": "ONE single future OUTER_BINARY_NEUTRAL row whose M_native deviates from the formula by any non-zero rational falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR133_PRED_1",
+    "non_falsifying": "Rows of other operator_class.  OUTER_BINARY_NEUTRAL rows with q_abs >= 1 (not in current CR119; would warrant an extension CR)."
+  },
+  "immutability": "Law v1.0 formula and unified fermion ladder reading are frozen at CR133 seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "S_debit_zero": 24,
+    "closure_depths_observed": {
+      "0": 8,
+      "1": 8,
+      "2": 8
+    },
+    "formula_matches": 24,
+    "rows_tested": 24,
+    "violations": 0
+  },
+  "law_committed_utc": "2026-06-16T00:28:35Z",
+  "law_definition": {
+    "K_coefficient": {
+      "structural": "bare bounce/surface-debit factor; no +1 inhomogeneity (unlike V4_1 charged-fermion case)",
+      "value": "1/8 = 2^-D = 1/alpha_H^3"
+    },
+    "S_debit_universal_rule": "S_debit = 0 for all OUTER_BINARY_NEUTRAL rows (no surface debit; the 1/8 factor is already in M_native)",
+    "applies_to": "operator_class == 'OUTER_BINARY_NEUTRAL' (1-body neutral fermion_half_write rows)",
+    "constants": {
+      "D": 3,
+      "K": "1/alpha_H^3 = 1/8",
+      "R": 12,
+      "alpha_H": 2
+    },
+    "formula": "M_native = partition_value * R^closure_depth * (1/alpha_H^3) = partition * R^depth / 8",
+    "name": "OUTER_BINARY_NEUTRAL_FERMION_LADDER_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "OUTER_BINARY_NEUTRAL rows with q_abs >= 1 (none exist in current CR119)",
+      "OUTER_BINARY_CHARGED or similar binary classes (not present in CR119)",
+      "First-principles derivation of why K differs across charge classes"
+    ],
+    "structural_significance": "All 1-body fermion_half_write rows in CR119 obey M = ladder_input * R^depth * K, with K determined by charge class.  Charged fermions (V4_1) use (1 + 1/alpha_H^k) for k = 1 or 2; neutral fermions (OUTER_BINARY_NEUTRAL) use the bare 2^-D = 1/8.  Three coefficient families cover the entire 1-body fermion sector.",
+    "unified_fermion_ladder": {
+      "OUTER_BINARY_NEUTRAL": "K = 1/8 = 1/alpha_H^3 (bare bounce factor)",
+      "V4_1_antimatter_negative": "K = 5/4 (sign-flipped twin)",
+      "V4_1_antimatter_positive": "K = 3/2 (sign-flipped twin)",
+      "V4_1_matter_negative": "K = 3/2 = (alpha_H + 1)/alpha_H",
+      "V4_1_matter_positive": "K = 5/4 = (alpha_H^2 + 1)/alpha_H^2",
+      "shape": "M_native = (charge-or-partition) * R^closure_depth * K"
+    }
+  },
+  "law_version": "v1.0",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR131_law_lock_json": "2aef1403da7f764a7e0666d12ea9ba974b09719154ce8f1f5da5d3fd456caceb"
+  }
+}

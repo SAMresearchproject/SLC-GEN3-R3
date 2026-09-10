@@ -1,0 +1,46 @@
+{
+  "binding_formula": "sealed carrier packet + 3-body target + protocol trigger",
+  "checks_passed": 14,
+  "checks_total": 14,
+  "cr_id": "CR222g",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-21T10:22:03.969599+00:00",
+  "next_gate": "PR_TARGET_BINDING_PLATFORM_PROTOCOL_OR_TARGET_SELECTION",
+  "outputs": {
+    "binding_contract_csv": "CR222g_target_binding_contract.csv",
+    "checks_csv": "CR222g_checks.csv",
+    "result_md": "CR222g_result.md",
+    "summary_json": "CR222g_summary.json",
+    "target_roster_csv": "CR222g_3body_diamond_target_roster.csv",
+    "targeted_warning_trials_csv": "CR222g_targeted_warning_trials.csv",
+    "upstream_seals_csv": "CR222g_upstream_seals.csv",
+    "wrong_controls_csv": "CR222g_wrong_controls.csv"
+  },
+  "platforms": [
+    "NV_CENTER_T2",
+    "PHOTONIC_TAU_ENT"
+  ],
+  "protected_separations": {
+    "carrier_checksum": "162; target row excluded",
+    "carrier_tensor_witness": "QP093A-0300=18",
+    "protocol_event_qA": "1/24",
+    "target_qA": "from GROUND_BARYON_3BODY matter row after G_matter=1"
+  },
+  "result_class": "CR222g_PASS_PR_TARGET_BINDING__3BODY_DIAMOND_TARGET_PLUS_SEALED_CARRIER_PACKET",
+  "sha256": {
+    "CR222g_3body_diamond_target_roster.csv": "86a410172d053d6fb7c1d7d85e5f7d96debd2301c50c0f6fa14f37552421fea2"
+  },
+  "target_roster": {
+    "diamond_anchor_count": 4,
+    "diamond_anchors": [
+      "1+1+1",
+      "2+2+2",
+      "4+4+4",
+      "8+8+8"
+    ],
+    "target_count": 14,
+    "target_family": "GROUND_BARYON_3BODY"
+  },
+  "test_id": "CR222g_PR_TARGET_BINDING_3BODY_DIAMOND",
+  "trial_count": 28
+}

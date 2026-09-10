@@ -1,0 +1,5 @@
+context,result_class,signal,use_in_CR222i,passed
+CR223a,CR223a_PASS_PR_OBSERVABLE_IDENTITY_LOCKED,observable identity locked,keeps A_side=1/24 and t_fire observable context separate from particle row choice,True
+CR223b,CR223b_PASS_QUTRIT_PURITY_ESTIMATOR,qutrit tomography estimator,supports tomography route for the road-light carrier layer,True
+CR223d,CR223d_REALTIME_WARNING_VALIDATED_IN_SIMULATION,real-time warning simulation,supports warning transmission route after sealed protocol gate,True
+CR223f,CR223f_CP_INDEPENDENT_SIGNATURE_SUPPORTED__CROSS_DOMAIN_MATCHED__SAME_DOMAIN_AWAITING_CR223c,tensor-carrier physical discriminant context,"keeps tensor witness as discriminant/floor, not photon payload",True

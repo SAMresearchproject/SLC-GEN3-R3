@@ -1,0 +1,10 @@
+{
+  "test_id": "CR202",
+  "source_gate": "G751c_TYPED_READOUT_REPRODUCTION_FROM_QA_SOURCES",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "PASS",
+  "rule_9_falsification": "This test could have falsified the claim that typed field readouts reproduce mass-ledger A, q_A-direct A, force, and clock lanes without lane mixing or species retuning."
+}

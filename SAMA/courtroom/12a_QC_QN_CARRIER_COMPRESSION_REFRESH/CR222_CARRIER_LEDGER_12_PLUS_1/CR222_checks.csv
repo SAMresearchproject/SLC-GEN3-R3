@@ -1,0 +1,19 @@
+check,passed,observed,expected
+unpacked_rows_exactly_12,True,12,12
+carrier_modes_exactly_4,True,4,4
+source_support_modes_exactly_8,True,8,8
+carrier_subtotal_36,True,36,36
+source_support_subtotal_45,True,45,45
+unpacked_12_sum_81,True,81,81
+mirror_0303_separate_81,True,QP093A-0303=81; in_unpacked=False,QP093A-0303=81 and not in unpacked
+closure_81_plus_81_equals_162,True,162,162
+source_p1_0306_present,True,True,True
+source_partition_modes_exact,True,"[1, 2, 3, 4, 6, 8, 9, 12]","[1, 2, 3, 4, 6, 8, 9, 12]"
+tensor_ratio_role_locked,True,18/36=1/2;18/81=2/9;18/162=1/9,locked
+wrong_control_missing_0306_total_161,True,161,161
+wrong_control_duplicate_0305_total_163,True,163,163
+downstream_cr119_support_validation,True,14,14
+downstream_cr214_complement_validation,True,14,14
+support_rows_absent_from_promoted_matter126,True,promoted_rows=126; support_hits=[],126 rows; no support hits
+native_plus_bound_still_126,True,CR220=63; CR221=63,63+63
+deterministic_byte_identical_regeneration,True,5de140e2d87cc1f9b04eaec4a669c7869128fc24f815bb237e2e45123967f9e1,5de140e2d87cc1f9b04eaec4a669c7869128fc24f815bb237e2e45123967f9e1

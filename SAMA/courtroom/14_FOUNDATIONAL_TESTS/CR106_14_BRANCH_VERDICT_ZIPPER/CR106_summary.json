@@ -1,0 +1,31 @@
+{
+  "cr_id": "CR106",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "BRANCH_VERDICT_ZIPPER_AND_STRONGEST_EXPORT_CLAIM",
+  "execution_status": "CLEAN",
+  "result_class": "14_BRANCH_COMPLETE_FOUNDATIONAL_TESTS_PARTIAL_CLOSURE_BUNDLE",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "prior_CR_count": 5,
+  "prior_CR_verdicts": {
+    "CR102": "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_ASTROPHYSICAL_PRECISION",
+    "CR103": "CANDIDATE_4_SIMPLE_READING_DISFAVORED_BY_LHC",
+    "CR103a": "BOUNCE_COST_A_DEPENDENCE_STRUCTURAL_INSIGHT_LOCKED",
+    "CR104": "PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+    "CR105": "GATE_CROSS_INTEGRITY_PASS"
+  },
+  "all_prior_CRs_clean": true,
+  "composite_summary_sha256": "dc053ec3bdc651706a0e5e69f730878225105b522c2c8194b02073d297b6b02b",
+  "branch_verdict_sha256": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+  "branch_verdict_sealed_at_utc": "2026-06-13T23:13:53Z",
+  "upstream_CR100_question_lock_sha256": "29f4f30cd2e3423ca3d27d70b97269ed5a4629ea7822bdaa867253216e7b6b0b",
+  "companion_branch_13_CR101_verdict": "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_2_SIGMA_ONLY",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling pending curator sign-off",
+    "14 branch seal sha256 sibling pending curator sign-off",
+    "anchor citation_verification_status PENDING across all CRs in the branch",
+    "GATE_1 N_SW functional remains open at structural level pending upstream SAM derivation",
+    "11/12 spaghettification onset forward-blind unprobed by current data",
+    "CR103b test of corrected GATE_1 structure pending upstream derivation"
+  ]
+}

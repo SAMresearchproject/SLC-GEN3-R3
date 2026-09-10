@@ -1,0 +1,11 @@
+2026-07-12T07:02:51Z | python tools\run_sam_test.py --task "SAM_PROSPECTIVE_CR_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD_5_5_XHIGH" --preflight-only | constructive new work; script allowed; no audit approval required.
+2026-07-12T07:03Z | Read campaign prompt and preflight JSON | confirmed v0.3 firewall, required source chain, and one-CR stop.
+2026-07-12T07:03Z | Located required CR folders and QP102/QP103 artifacts | STOP 1 not triggered.
+2026-07-12T07:03Z | Extracted CR119 physical CSV line 306 and QP093A-0301/QP093A-0305 pair | row 306 matches campaign target.
+2026-07-12T07:03Z | Read CR215/CR216 | duplicate and retirement scopes confirmed; STOP 2 not triggered.
+2026-07-12T07:04Z | Read QP102/QP103, CR256, CR257b, CR266, CR267, CR269, CR229, CR258 | row trace and non-row A sourced; A-axis weld remains open; B/contact retained as competitor.
+2026-07-12T07:04Z | User clarified non-row A does not take ledger 162 to 163 | recorded as source/precommit distinction; 163 applies only to restored active row wrong-control.
+2026-07-12T07:04:57Z | Created CR282 precommit source package | runner not yet written.
+2026-07-12T07:05Z | Get-FileHash CR282_PRECOMMIT.md | sha256 4b7e26853966830103d2e8407c293ac4dac5c3c141e297eb6940b75a2cb501ef; runner still not written.
+2026-07-12T07:05:00Z | runner_hash | CR282_runner.py sha256=4a804148bf6e060e12044d1d224f79d157053e251efa7ac6c2ec2beda73f51d1
+2026-07-12T07:10:36Z | CR282_runner.py executed | primary_verdict BOUNDARY_A_OPERATOR_ROW_TRACE_PASS_AXIS_SELF_WELD_OPEN; non-row A ledger effect false.

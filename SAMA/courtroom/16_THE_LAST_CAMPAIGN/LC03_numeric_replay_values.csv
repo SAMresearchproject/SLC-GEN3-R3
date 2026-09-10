@@ -1,0 +1,12 @@
+quantity,formula,exact,decimal,source
+R,LC01 locked primitive,12,12,LC01/CR113
+D,LC01 locked primitive,3,3,LC01/CR115
+alpha_H,LC01 locked primitive,2,2,LC01/CR114/CR116
+carrier_fraction,2^-D,1/8,0.125000000000000000000000000000,LC01/CR114/QP092B/QP092C
+retained_write_fraction,1 - 2^-D,7/8,0.875000000000000000000000000000,LC01/CR114/QP092B/QP092C
+split_loss_tensor_channel,R^2 * 2^-D,18,18.000000000000000000000000000000,LC01/CR114/CR116
+tensor_identity,alpha_H * D^2,18,18.000000000000000000000000000000,LC01/CR116
+surface_debit_not_carrier,D^2/R,3/4,0.750000000000000000000000000000,LC01/CR114
+direct_qA_overread_min_fraction,source artifact observed bound,0.006631455962162303,0.006631455962162303,QP092B/QP089/CR122
+direct_qA_overread_max_fraction,source artifact observed bound,0.009947183943243454,0.009947183943243454,QP092B/QP089/CR122
+ledger_recovery_max_relative_error,source artifact observed bound,2.220446049250313e-16,2.220446049250313e-16,QP092B/QP089

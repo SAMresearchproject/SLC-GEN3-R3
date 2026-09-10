@@ -1,0 +1,59 @@
+{
+  "formula_execution": false,
+  "method": "XLSX_ZIP_XML_STORED_VALUES_AND_CACHED_FORMULAS_ONLY",
+  "record_id": "CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON",
+  "updated_particle_rows": {
+    "bytes": 77128,
+    "canonical_lane_rows": 105,
+    "canonical_lane_sum": "16250.625",
+    "derived_roster_rows": 100,
+    "derived_roster_sum": "16200",
+    "excluded_p9g0_ids": [
+      "QP093A-0019",
+      "QP093A-0020",
+      "QP093A-0021",
+      "QP093A-0085",
+      "QP093A-0086"
+    ],
+    "excluded_p9g0_rows": [
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "excluded_p9g0_sum": "50.625",
+    "macro_or_binary_parts": [],
+    "package_entries": 19,
+    "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows.xlsx",
+    "saved_table_candidate_rows": 126,
+    "sha256": "e9d78f80b72ff0e5c659bb5bd9546379bedb5337cec4fac3715b503852b541b3",
+    "source_table": "tblStableMatter A4:AD131"
+  },
+  "updated_particle_rows2": {
+    "bytes": 93700,
+    "cached_formula_checks": {
+      "AF2": {
+        "cached": "81",
+        "formula": "ROWS(A2:A82)"
+      },
+      "AF3": {
+        "cached": "12600",
+        "formula": "SUM(O2:O82)"
+      },
+      "AF4": {
+        "cached": "0",
+        "formula": "AF3-12600"
+      }
+    },
+    "macro_or_binary_parts": [],
+    "package_entries": 22,
+    "path": "C:\\Users\\drwho\\OneDrive\\Desktop\\Updated Particle Rows2.xlsx",
+    "roster_rows": 81,
+    "roster_sum": "12600",
+    "sha256": "3d84689bb11551b24a43af0f195efaf0b95191b5811c876f8ad36867e2784fe8",
+    "source_sheet": "M_native 12600 - 81 Rows",
+    "target_aware": true
+  },
+  "workbooks_mutated": false
+}

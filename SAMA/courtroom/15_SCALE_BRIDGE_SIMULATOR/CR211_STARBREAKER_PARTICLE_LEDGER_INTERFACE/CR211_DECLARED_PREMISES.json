@@ -1,0 +1,19 @@
+{
+  "campaign_id": "CR211_STARBREAKER_PARTICLE_LEDGER_INTERFACE",
+  "classification": "CONSTRUCTIVE_STRUCTURAL_INTERFACE",
+  "slot_count": 162,
+  "carrier_slots": 18,
+  "matter_slots": 126,
+  "shadow_slots": 18,
+  "w9_blocks": 9,
+  "k18_slots_per_block": 18,
+  "h27_addresses": 27,
+  "qp_templates": 321,
+  "legal_local_templates": 285,
+  "nonlocal_nodes": 15,
+  "rejected_records": 21,
+  "address_to_qp_incidence_operator": "OPEN",
+  "A_role": "controls_ledger_multiplicity_not_per_ledger_grammar",
+  "forbidden_inputs": ["PDG_identity", "PDG_mass", "binding_observations", "workbook_81_roster", "Starbreaker_outcome"],
+  "same_run_repair": false
+}

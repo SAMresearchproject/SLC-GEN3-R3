@@ -1,0 +1,10 @@
+check,passed,observed,expected
+particle_rows_321,True,321,321
+matter_rows_126,True,126,126
+periodic_rows_126,True,126,126
+latest_export_summary_counts_match,True,"{""matter"": 126, ""particle"": 321, ""periodic"": 126}",321/126/126
+periodic_known_labels_118,True,118,118
+periodic_frontier_8,True,8,8
+known_labels_downstream_only,True,all_no,all_no
+null_conjugate_boundary_preserved,True,True,True
+latest_source_hashes_match,True,7,7

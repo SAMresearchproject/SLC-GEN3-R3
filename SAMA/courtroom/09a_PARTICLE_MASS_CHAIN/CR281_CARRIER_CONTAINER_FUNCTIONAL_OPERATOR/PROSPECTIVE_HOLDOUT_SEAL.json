@@ -1,0 +1,89 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_SEAL",
+  "cr_path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR",
+  "existing_artifacts_modified": false,
+  "existing_hashes_verification": {
+    "checked_entries": 10,
+    "mismatches": [],
+    "verified": true
+  },
+  "firewall_fields": {
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_completion_timestamp_status": "NOT_EXPLICITLY_RECORDED",
+  "original_scientific_completion_utc": null,
+  "prospective_sealed_utc": "2026-07-11T17:12:22Z",
+  "required_artifact_presence": {
+    "hashes": true,
+    "precommit": true,
+    "provenance": true,
+    "result": true,
+    "runner": true,
+    "summary": true
+  },
+  "sam_language_v0_3_consulted": false,
+  "scientific_bundle_file_count": 11,
+  "scientific_bundle_files": [
+    {
+      "bytes": 11402,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_PRECOMMIT.md",
+      "sha256": "a31ed176acf9ec2272873c64c64e29c24f387ada879c7aa3e4f5d1923e5f50f3"
+    },
+    {
+      "bytes": 302,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_heldout.csv",
+      "sha256": "e25f435b7ef52f2210f9192597922e2128d496313a068b72b95c744f696a3164"
+    },
+    {
+      "bytes": 8064,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_provenance.json",
+      "sha256": "efef661a24c70e5a9af3f279df44f260ada0d953ffd75c49649fb68180cefc78"
+    },
+    {
+      "bytes": 3453,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_result.md",
+      "sha256": "4c02734cc2eecf9fa9d4d83a266c0744104852f62c8d07b45167ae60772fcb9f"
+    },
+    {
+      "bytes": 436,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_roles.csv",
+      "sha256": "8c53f2a8b5831911c0a16abaa124237aa8a65d5f5983346763988243859751d8"
+    },
+    {
+      "bytes": 24158,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_runner.py",
+      "sha256": "8b02aaedad17219391ef214ee6d4bdaf4aaa3aacc928a1905defb2910cef883b"
+    },
+    {
+      "bytes": 4532,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_source_manifest.csv",
+      "sha256": "f2a5b66f74dcb331465ebabebc9ce1070f47d6daa5591caca3658b175a3e4b3e"
+    },
+    {
+      "bytes": 5976,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_summary.json",
+      "sha256": "3cb7d3cefe77ff76f778e173f83e305db0b5e42a6e58bae2c08e4ee31bf42aea"
+    },
+    {
+      "bytes": 464,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_validation.json",
+      "sha256": "faa1db40fad7ac380a7646c4fc644c0fe3eee5ca6be00c839a350155484f1755"
+    },
+    {
+      "bytes": 621,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/CR281_wrong_controls.csv",
+      "sha256": "512509f30be4cfdeee0fbe0d09a198334fb95d63d1daa7d2b3d8a6dce83a4f3c"
+    },
+    {
+      "bytes": 859,
+      "path": "09a_PARTICLE_MASS_CHAIN/CR281_CARRIER_CONTAINER_FUNCTIONAL_OPERATOR/HASHES.txt",
+      "sha256": "a2a48847fe1099a7317a93520dc42ab460e842c8fec383018582cbb94880206f"
+    }
+  ],
+  "scientific_bundle_sha256": "3b5249e315f2007552e113894a7b13ddfc1fa71efd9eeba8b771a6b841691fb3",
+  "scientific_content_changed": false,
+  "scientific_tests_rerun": false,
+  "target_scientific_content_opened_for_favorable_selection": false
+}

@@ -1,0 +1,6 @@
+wrong_control,passed,observed
+WC-1_R_perturb_10,True,"{""label"": ""WC-1_R_perturb_10"", ""mean_abs_rel_delta_derivation"": ""0.078063393778564057201828099660916998378298687896211116025357511425622880731239872"", ""rows_in_derivation"": 25, ""passed"": true}"
+WC-2_D_perturb_2,True,"{""label"": ""WC-2_D_perturb_2"", ""mean_abs_rel_delta_derivation"": ""0.078425966877979261880190672760332203056661260995626320703720084525038085409602432"", ""rows_in_derivation"": 25, ""passed"": true}"
+WC-3_offset_q_only,True,"{""label"": ""WC-3_offset_q_only"", ""mean_abs_rel_delta_derivation"": ""0.23527790063393778564057201828099660916998378298687896211116025357511425622880731"", ""rows_in_derivation"": 25, ""passed"": true}"
+WC-4_offset_q_plus_R,True,"{""label"": ""WC-4_offset_q_plus_R"", ""mean_abs_rel_delta_derivation"": ""0.70583370190181335692171605484298982750995134896063688633348076072534276868642188"", ""rows_in_derivation"": 25, ""passed"": true}"
+WC-5_pair_mean,True,"{""label"": ""WC-5_pair_mean"", ""pair_mean_actual_ratio"": ""0.99999999999999999999999999999999999999999999999999999999999999999999999999999997"", ""pair_mean_drift_from_1"": ""3E-80"", ""rows"": 30, ""passed"": true}"

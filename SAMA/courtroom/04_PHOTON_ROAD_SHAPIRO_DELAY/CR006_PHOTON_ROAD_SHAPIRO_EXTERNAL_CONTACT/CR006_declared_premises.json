@@ -1,0 +1,35 @@
+{
+  "test_id": "CR006_PHOTON_ROAD_SHAPIRO_EXTERNAL_CONTACT",
+  "test_type": "fresh_courtroom_branch_test",
+  "older_outputs_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "A_profile": "A(r)=r_s/r=2GM/(c^2 r)",
+    "photon_road_exposure": "T_A^gamma=(1/c) integral A ds",
+    "weak_refractive_readout": "n ~= 1 + A"
+  },
+  "declared_external_inputs": {
+    "speed_of_light_m_s": 299792458.0,
+    "G_m3_kg_s2": 6.6743e-11,
+    "solar_mass_kg": 1.98847e30,
+    "solar_radius_m": 695700000.0,
+    "astronomical_unit_m": 149597870700.0,
+    "earth_radius_from_sun_m": 149597870700.0,
+    "cassini_style_radius_from_sun_m": 1261110050001.0,
+    "impact_over_solar_radius": 1.6
+  },
+  "external_anchor_ranges": {
+    "cassini_ppn_gamma_abs_minus_one_max": 2.3e-5,
+    "solar_grazing_delay_us": [130.0, 132.0]
+  },
+  "declared_shape_cases_impact_over_solar_radius": [1.2, 1.6, 3.0, 10.0],
+  "rule_9_falsification": "This test could have falsified the claim that SAM's photon-road exposure T_A^gamma=(1/c)integral A ds, using A(r)=r_s/r, recovers the first-order Shapiro logarithmic delay with Cassini-bounded PPN gamma = 1 and the correct impact-parameter dependence without fitted parameters.",
+  "scope_boundaries": [
+    "not full null-geodesic derivation",
+    "not full PPN program",
+    "not strong-field photon propagation",
+    "not cosmological lensing-time delay closure",
+    "not new light-speed law",
+    "not full GR"
+  ]
+}

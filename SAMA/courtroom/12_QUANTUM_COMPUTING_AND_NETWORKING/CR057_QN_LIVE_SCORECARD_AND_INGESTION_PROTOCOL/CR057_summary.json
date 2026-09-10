@@ -1,0 +1,29 @@
+{
+  "test_id": "CR057_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL",
+  "verdict": "CR057_PASS_QN_LIVE_SCORECARD_AND_INGESTION_PROTOCOL",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY_PASS",
+  "triage_bin": "B",
+  "claim_tier": "QN_LIVE_SCORECARD_INGESTION_PROTOCOL_DEMO_DATA_ONLY",
+  "source_keys": [
+    "QN012",
+    "QN013"
+  ],
+  "pass_conditions": {
+    "QN012_external_data_allowed": true,
+    "QN013_external_data_allowed": true,
+    "QN012_no_new_external_intake": true,
+    "QN013_no_new_external_intake": true,
+    "QN013_demo_data_only": true,
+    "free_parameters_zero": true,
+    "checks_pass": true,
+    "wrong_controls_pass": true,
+    "forbidden_fields_false": true
+  },
+  "demo_data_only": true,
+  "demo_trials": 3,
+  "pass_trials": 1,
+  "partial_trials": 1,
+  "blocker_trials": 1,
+  "next_frontier": "QN014_PRIVATE_LAB_HANDOFF_PACKET_AND_EXTERNAL_TRIAL_READINESS"
+}

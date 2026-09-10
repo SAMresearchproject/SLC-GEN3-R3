@@ -1,0 +1,16 @@
+{
+  "patterns_checked": [
+    "S_?A\\s*=\\s*E_?p\\s*\\*?\\s*T_?A",
+    "S_?A\\s*=\\s*E\\s*[*\u00b7]\\s*T",
+    "action.{0,40}S_?A.{0,40}E_?p.{0,40}T_?A"
+  ],
+  "total_hits": 2,
+  "files_with_hits_count": 1,
+  "exemplar": {
+    "file": "05_quantum_phase/README.md",
+    "role": "story_pointer_readme",
+    "match_text": "S_A = E_p T_A",
+    "pattern_used": "S_?A\\s*=\\s*E_?p\\s*\\*?\\s*T_?A"
+  },
+  "status": "action_identity_present"
+}

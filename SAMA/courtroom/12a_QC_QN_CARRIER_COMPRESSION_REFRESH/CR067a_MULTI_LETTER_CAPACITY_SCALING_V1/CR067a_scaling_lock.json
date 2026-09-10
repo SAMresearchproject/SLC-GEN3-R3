@@ -1,0 +1,84 @@
+{
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "cr_id": "CR067a",
+  "forward_blind_test": {
+    "claim_cumulative": "Cumulative information after N letters per row equals 2^-D * (1 - 2^-N), saturating at 2^-D = 1/8 as N -> infinity.",
+    "claim_kraft": "The geometric ladder is a COMPLETE prefix code on the gravity-coupled subspace; the Kraft sum equals exactly 1/8.",
+    "claim_per_letter": "Letter N (1-indexed) in a multi-letter Paul Revere transmission carries individual capacity 1 / alpha_H^(D+N) = 2^-(3+N) of unit Born baseline.",
+    "falsifier_cumulative_ceiling": "Observed total per-row capacity EXCEEDING 1/8 (after channel calibration) falsifies the gravity-channel ceiling.",
+    "falsifier_per_letter": "An observed multi-letter implementation where letter N has capacity != 2^-(D+N) (differing from the geometric ladder by more than statistical noise) falsifies the geometric subdivision.",
+    "falsifier_saturation": "Observed total per-row capacity SATURATING at a value DIFFERENT FROM 1/8 (by more than statistical noise) falsifies the asymptotic limit identification.",
+    "free_parameters_at_test": 0,
+    "id": "CR067a_PRED_1",
+    "non_falsifying": "Failure to encode many letters per row in a given implementation does not falsify v1.0 -- it just means the test was not pushed to the channel ceiling."
+  },
+  "immutability": "Geometric subdivision scaling rule, asymptotic limit identification, and Kraft inequality connection are frozen at CR067a seal time.  Expert review may identify refinements requiring an appeal CR within 12a.",
+  "in_sample_verification": {
+    "N_letters_in_table": 20,
+    "asymptotic_limit_equals_2_neg_D": true,
+    "cutoff_for_99_6_pct": 8,
+    "cutoff_for_99_99_pct": 14,
+    "kraft_sum_equals_higgs_released": true,
+    "max_N_in_table": 20,
+    "single_letter_equals_1_over_alpha_H_4": true
+  },
+  "lock_committed_utc": "2026-06-16T02:27:15Z",
+  "lock_definition": {
+    "asymptotic_limit_exact": "2^-D = 1/8 = 0.12500000",
+    "candidate_scalings_evaluated": {
+      "geometric_subdivision_2_neg_D_minus_N": "LOCKED -- each letter takes half the residual; saturates at 2^-D",
+      "linear_N_times_one_sixteenth": "REJECTED -- violates gravity channel ceiling",
+      "parallel_sharing_constant_one_sixteenth": "REJECTED -- doesn't scale (N letters dilute single capacity)"
+    },
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "kraft_inequality_connection": {
+      "code_lengths": "l_N = D + N",
+      "interpretation": "Complete prefix code on the gravity-coupled subspace (which is 1/8 of full Born unity).  Each letter adds 1 bit of resolution at one deeper closure level.",
+      "kraft_sum": "sum 2^-l_N = sum 2^-(D+N) = 2^-D = 1/8 < 1"
+    },
+    "name": "MULTI_LETTER_CAPACITY_SCALING_GEOMETRIC_SUBDIVISION",
+    "out_of_scope": [
+      "Whether the geometric scaling extends to q >= 1 rows (currently q = 0 only).",
+      "Multi-row entangled encoding -- multiple Paul Revere letters sharing entanglement across rows would have different capacity laws (separate CR).",
+      "Connection to Holevo capacity for quantum-channel transmission (separate CR).",
+      "Engineering constraints on encoding letters at deep closure levels (depth D+8 = 11; depth D+16 = 19; these may exceed practical NV gate fidelity)."
+    ],
+    "per_row_vs_per_network_scaling": {
+      "combined": "Multi-row * multi-letter encoding maximally saturates the SAM Paul Revere channel.",
+      "per_network": "linear in row count: total = N_rows * cap_per_row",
+      "per_row": "geometric: cap_per_row = 2^-D * (1 - 2^-N)  -> 2^-D as N -> inf"
+    },
+    "practical_cutoffs": {
+      "99_6_pct_channel": {
+        "N_letters": 8,
+        "fraction_of_channel": "99.609375%",
+        "residual_exact": "1/2048"
+      },
+      "99_99_pct_channel": {
+        "N_letters": 14,
+        "fraction_of_channel": "99.993896%",
+        "residual_exact": "1/131072"
+      }
+    },
+    "scaling_rule": {
+      "asymptotic_limit": "C_inf = 2^-D = 1/8 = the Higgs-released gravitational fraction (CR121/CR122)",
+      "cumulative": "C_N = 2^-D * (1 - 2^-N)",
+      "per_letter": "c_N = 1 / alpha_H^(D+N)"
+    },
+    "single_letter_capacity_exact": "2^-(D+1) = 1/16 = 0.06250000 = 6.25 %",
+    "structural_significance": "The N-letter capacity per row asymptotically saturates the Higgs-released gravitational fraction 2^-D = 1/8.  Each letter takes HALF of what remains in the gravity channel.  This is identical to the closure-depth ladder in SAM: letter N requires closure depth D+N = ladder rung at the (D+N)-th binary resolution level."
+  },
+  "lock_version": "v1.0",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR066a_born_extension_lock_json": "5eb918d789d70d689e39f9d5c2f72ea4d149336d1e3a8b49d95548f5de592fc1",
+    "CR066b_hierarchy_lock_json": "f864bf6cf8c29b255618023481be1e493590b524c55735bc420666a3c4679b2d",
+    "CR121_gravity_mechanism_lock_json": "01e4f14be822a88143dcb9d3e51b64c17688f721b963501db14008b333211469",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  }
+}

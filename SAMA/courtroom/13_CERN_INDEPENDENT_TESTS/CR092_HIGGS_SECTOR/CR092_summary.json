@@ -1,0 +1,25 @@
+{
+  "cr_id": "CR092",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OBSERVATIONAL_COMPARISON_OF_LOCKED_09A_PREDICTION_AGAINST_CERN_HIGGS_MASS_ANCHORS",
+  "execution_status": "CLEAN",
+  "result_class": "OBSERVATIONAL_COMPARISON_REPORT_BUILT",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "anchor_rows_total": 3,
+  "row_label_counts": {
+    "AGREEMENT_WITHIN_DECLARED_BAND": 3
+  },
+  "observation_bands_MeV": {
+    "Higgs boson mass": 300.0
+  },
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "prediction_commit_sha256": "4b178b2db1329fcde6e30bf0f39998a1966db7e6b67b35a661662e87d441fc0e",
+  "prediction_commit_utc": "2026-06-13T21:27:04Z",
+  "anchor_envelope_sha256": "009141eea1af4f481d6b52efd10031650e2c771f5be3e2d4a30e09e3e4e474bf",
+  "anchor_envelope_open_utc": "2026-06-13T21:27:04Z",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "seal sha256 sibling pending",
+    "citation_verification PENDING"
+  ]
+}

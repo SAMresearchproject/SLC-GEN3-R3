@@ -1,0 +1,9 @@
+quantity,value,formula
+carrier_modes,36,18+1+9+8
+source_support_modes,45,1+2+3+4+6+8+9+12
+unpacked_12_modes,81,36+45=D^4
+mirror_0303,81,D^4
+support_closure,162,D^4+D^4=2D^4
+tensor_over_carrier_subtotal,1/2,18/36=1/2
+tensor_over_unpacked_81,2/9,18/81=2/9
+tensor_over_full_162,1/9,18/162=1/9

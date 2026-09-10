@@ -1,0 +1,5 @@
+item,status,details
+LC02_selector_inputs,LOCKED_PRIMITIVES_ONLY,"R, D, alpha_H, split fractions, carrier, bounce, and surface debit are read from LC01/CR113/CR114/CR115/CR116."
+external_Higgs_target,COMPARISON_ANCHOR_ONLY,CR062/PDG 125.25 appears in CR092a/QP091T history but is not an LC02 formula input.
+CR120_historical_caveat,PRESERVED,CR120 remains boundary/downgraded for the older qp091 target-visible form-selection history.
+LC02_claim_grade,DOWNSTREAM_REPLAY_PASS,LC02 establishes that the Higgs closed form replays from the locked stack; it does not relabel the old CR120 chronology as forward-blind.

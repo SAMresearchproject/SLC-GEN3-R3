@@ -20,7 +20,50 @@
     "source_profiles": "Registered native J4 source profiles or explicit contract motion_profile; role names, source scale and observer availability are declared.",
     "static_sources": "Li6 native unit phases, six-axis angular directions and native radial shells receive exact declared geometry. Winding requires ordered history."
   },
-  "build": "GEN2-REUSE-INFO1-20260907",
+  "automatic_write_arithmetic": {
+    "accounts": [
+      "completed Write phase/action",
+      "signed activation",
+      "local density squared",
+      "c_eff/clock endpoint relations",
+      "CMB reference conversions"
+    ],
+    "activation_call": null,
+    "automatic": true,
+    "composition": "Returned arithmetic checkpoints accept GEN2_SIGNED_LOG_RESUME and ordinary binary nodes.",
+    "engine": "GEN2_SIGNED_LOG",
+    "inverse": "GEN2_READOUT_INVERSE strategy write_foundation: local native phase/gate all ties, completed phase account, selected clock endpoint relation.",
+    "pi": "Exact rational endpoint evaluations retain source pi enclosure and symbolic formula; endpoints are not pi.",
+    "rational_representation": "Exact rational values and unfactored logarithmic arguments; HD remains the default inherited representation.",
+    "source_integrals": "Variable continuous path integral and unassigned activation waiting remain source relations."
+  },
+  "automatic_write_foundation": {
+    "activation_call": null,
+    "data": [
+      "completed quarter-Write clock",
+      "signed J4/X1 activation and local density atlas",
+      "continuous density and clock integrand",
+      "c_eff and exact enclosed seconds/radius coefficients",
+      "CMB dimensional reference scales"
+    ],
+    "feature_flag": null,
+    "loaded_at": "ORDINARY_RUNTIME_INITIALIZATION",
+    "notes": [
+      "AN0003",
+      "AN0004",
+      "AN0005"
+    ],
+    "ordinary_paths": [
+      "T18_WORD/direction_fiber",
+      "GEN2_RUN prescribed and golden histories",
+      "GEN2_MOTION_RESUME",
+      "registered source GEN2_CONSTRUCTION_COMPILE",
+      "ordinary CE/ATOM3D motion attachments"
+    ],
+    "references": "The local density uses E*=6; inherited sphere motion keeps E_initial.",
+    "source": "gen2/WRITE_FOUNDATION.json"
+  },
+  "build": "GEN3-UNIFIED-EXECUTION1-20260910",
   "exact_scalars": "Integers and reduced rational strings p/q. Source contracts reject floating-point operands.",
   "history_summaries": {
     "D": "sum(max(0,-delta_l))",
@@ -40,11 +83,13 @@
     "cumulative_revisions": [
       "SLC-GEN2-R1",
       "SLC-GEN2-R2",
-      "SLC-GEN2-R3"
+      "SLC-GEN2-R3",
+      "SLC-GEN2-R4"
     ],
     "global_slc_count": 1,
     "installation_scope": "Sole current SLC, CE and active domain bindings",
-    "retained_GEN2_operations": 25
+    "retained_GEN2_operations": 25,
+    "retained_R4_operations": 39
   },
   "inverse": "All root/program/current-state/barrier associations in a linked DAG; summary projections do not replace it. max_steps bounds work and returns a source-bound checkpoint.",
   "inverse_observation_selection": {
@@ -115,12 +160,46 @@
     "GEN2_SOURCE_BATCH": "Native source contracts supported by the J4/T18 batch fabric; measured H14F/Ryzen/780M/T500 execution and custody.",
     "GEN2_TAU_ASSIGNMENT": "reconstructed whitelist, declared recipe and arm; provenance separate. Observation -> role assignment -> exact response.",
     "GEN2_TAU_FEATURE_CATALOG": "No inputs; per-feature operands, relation, operation, units, quantization, aggregation and provenance boundary.",
-    "GEN2_TAU_REPLAY": "assignment plus explicit readout parameters/normalization. Preserved learned predictions."
+    "GEN2_TAU_REPLAY": "assignment plus explicit readout parameters/normalization. Preserved learned predictions.",
+    "GEN3_CHECKPOINT": "Commit one authenticated root for state, knowledge and log readouts",
+    "GEN3_EXECUTE": "Execute from supplied or current state, acquire missing support and reuse known relations in one machine",
+    "GEN3_HISTORY_EXPORT": "Recover every retained source point and event",
+    "GEN3_IMPORT_RELATIONS": "Semantically admit the original sealed acquired relations",
+    "GEN3_LOG_APPEND": "Append only new ordered source points and connecting events",
+    "GEN3_LOG_COMPOSE": "Compose adjacent positive source accounts algebraically, retaining every occurrence and all maximum ties",
+    "GEN3_LOG_IMPORT": "Semantically admit source history from an external account",
+    "GEN3_LOG_OPEN": "Create a typed exact source-bound log account",
+    "GEN3_MEMORY_APPLY": "Apply an actual report with source evidence to its learned branch",
+    "GEN3_MEMORY_NODE": "Read an installed acquired observation/question node",
+    "GEN3_MEMORY_START": "Start a new encounter from an acquired node",
+    "GEN3_READOUT": "Read U,D,V,L/net,M and all maximum occurrences",
+    "GEN3_REPLICATE": "Replicate only missing immutable chunks and acknowledge complete T500 checkpoint closure",
+    "GEN3_RUN": "Compatibility alias for native execution in the unified machine",
+    "GEN3_STATUS": "Current state, knowledge, accounts and separate execution counters"
+  },
+  "payloads": {
+    "GEN3_CHECKPOINT": "{}",
+    "GEN3_EXECUTE": "GEN2_RUN payload; initial/contract may continue the current state",
+    "GEN3_IMPORT_RELATIONS": "package",
+    "GEN3_LOG_APPEND": "account, points, edges",
+    "GEN3_LOG_COMPOSE": "account, left, right",
+    "GEN3_LOG_OPEN": "account, quantity, source_binding, points, edges",
+    "GEN3_MEMORY_APPLY": "encounter, observation, evidence",
+    "GEN3_MEMORY_START": "memory, encounter; optional node",
+    "GEN3_READOUT": "account",
+    "GEN3_REPLICATE": "{}; uses installed T500 service"
   },
   "provenance": "Source hashes/identifiers and machine timing are custody; tau identifiers never enter predictive vectors.",
   "quantity_and_reference_contract": "Quantity kind, units, normalization/reference, frame, scope and sign convention are explicit. Source/component identity is retained as provenance and binds a normalized account unless a common account is explicitly declared. Dimensional logarithms require compatible positive references.",
   "retained_component_operations": "T18_WORD, signed/reciprocal receiver, history, connector, exact formulas, N100, signed moments, R3 graph/ranking, original domain operations remain available through the same selected runtime.",
   "schema": "SLC_GEN2_NATIVE_INTERFACE_V1",
+  "unified_machine": {
+    "acquired_memories": "192 relations and 85 observation nodes, plus retained sequential/bundle/tau packages",
+    "automatic": true,
+    "legacy_GEN2_calls": "Execute in the same warm R3 runtime",
+    "log_readouts": "Exact unfactored positive rational arguments; source gaps and full state retained",
+    "persistence": "Authenticated local snapshot and immutable source chunks"
+  },
   "units": "Source and readout units are declared in contracts. No physical MeV assignment is inferred.",
-  "version": "SLC-GEN2-R4"
+  "version": "SLC-GEN3-R3"
 }

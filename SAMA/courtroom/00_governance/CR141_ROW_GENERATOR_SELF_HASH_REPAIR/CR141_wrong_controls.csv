@@ -1,0 +1,9 @@
+name,pass,details,load_bearing_deletion
+WC1_verdict_line_preserved,True,All 10 target result_class fields preserved bit-identical from archived originals.,"If any result_class value were altered, this WC would FAIL."
+WC2_summary_json_parseable,True,All 10 summary.json files parse as valid JSON post-repair.,"If any summary.json were corrupted (e.g. missing brace), this WC would FAIL."
+WC3_archived_originals_hash_match,True,All 10 archived originals hash to the values recorded in their original_sha256.txt.,"If any archived original were edited or corrupted, this WC would FAIL."
+WC4_post_repair_self_hash_matches_actual,True,All 10 recorded *_lock_sha256 fields match the actual SHA-256 of their lock JSON.,"If any lock JSON were modified or any recorded hash reverted, this WC would FAIL."
+WC5_audit_verdict_reference_resolves,True,AUDIT_VERDICT path exists=True; hash matches expected=2fe572d5efbb566043bf5a8abfa8404438ba9ebc2097fce51388fcca23b40661,"If the audit verdict file were moved/edited, the recorded reference would be unverifiable; this WC would FAIL."
+WC6_replacement_records_cross_refs_resolve,True,All 10 REPLACEMENT_RECORD.md files exist and their cross-referenced audit / event artifacts exist.,"If any REPLACEMENT_RECORD or cross-referenced audit file were missing, this WC would FAIL."
+WC7_audit_correction_block_well_formed,True,All 10 audit_correction blocks present with all 12 required fields and verdict_unchanged=True.,"If the audit_correction block were removed or any required field stripped, this WC would FAIL."
+WC8_audit_correction_records_actual_correction,True,"All 10 audit_correction blocks record a true correction (old_value != new_value, both valid 64-char SHA-256) and new_value matches the actual on-disk lock SHA-256.","If the runner clobbered old_value during deep_replace (the bug found mid-seal on 2026-06-17), this WC would FAIL. Closes the semantic gap WC7 missed."

@@ -1,0 +1,30 @@
+{
+  "artifact": "CR223_FORMULA_SPREADSHEET_EXPORT",
+  "boundary": "Workbook formulas calculate the constants-only native element surface. Known names, symbols, cards, measured masses, and CLOCK labels are not construction inputs.",
+  "checks_passed": 11,
+  "checks_total": 11,
+  "cr_id": "CR223",
+  "execution_status": "CLEAN",
+  "formula_count": 7621,
+  "generated_at_utc": "2026-06-21T02:56:05+00:00",
+  "gold_like_Z79": {
+    "G": "732.6966145833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+    "GR": "5861.572916666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667",
+    "P_address": "79p+118n+79e"
+  },
+  "preflight_file": "C:\\VS\\The_Courtroom\\artifacts\\preflight_filled\\PREFLIGHT_20260620_215605_CR223_runner.md",
+  "result_class": "CR223_PASS_FORMULA_SPREADSHEET_EXPORT__XLSX_WITH_CONSTANTS_SHELLS_ELEMENTS_ISOTOPE_CANDIDATES_CHECKS__FORMULA_CELLS_GT_4000__NO_CARDS_NO_LABELS",
+  "rows": {
+    "active_isotope_candidates_expected": 214,
+    "elements_formula_rows": 126,
+    "isotope_candidate_formula_rows": 252
+  },
+  "sheets": [
+    "Constants",
+    "Shells",
+    "Elements_126",
+    "Isotope_Candidates",
+    "Checks"
+  ],
+  "workbook": "09a_PARTICLE_MASS_CHAIN/CR223_FORMULA_SPREADSHEET_EXPORT/CR223_constants_only_element_formulas.xlsx"
+}

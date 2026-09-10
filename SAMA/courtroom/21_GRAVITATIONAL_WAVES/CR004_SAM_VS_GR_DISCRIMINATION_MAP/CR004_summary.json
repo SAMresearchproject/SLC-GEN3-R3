@@ -1,0 +1,27 @@
+{
+  "artifact": "CR004_SAM_VS_GR_DISCRIMINATION_MAP",
+  "mode": "EXPLORATORY",
+  "verdict": "PASS",
+  "precommit_hash": "e519e7c5b8be99540c5c6984079e91f4e56b524d9b9c87e43baabd3f5f61933a",
+  "rows_tabulated": 21,
+  "by_status": {
+    "ALREADY TESTED PASS": 16,
+    "ALREADY DISCRIMINATING": 3,
+    "FUTURE-TESTABLE": 1,
+    "MARGINAL": 1
+  },
+  "top_future_testable": [
+    {
+      "rank": 1,
+      "quantity": "Splitting ratio \u0394m\u00b2\u2083\u2081/\u0394m\u00b2\u2082\u2081",
+      "sam_form": "((\u0125\u00b7d\u0302)\u00b2\u22121)/(\u0125\u22121) = 35",
+      "sam_value": 35.0,
+      "standard_value": 33.895,
+      "gap_pct": 3.2600678566160104,
+      "future_detector": "DUNE + Hyper-K",
+      "future_sigma_pct": 0.5,
+      "score_future": 6.520135713232021,
+      "timeline": "~2030"
+    }
+  ]
+}

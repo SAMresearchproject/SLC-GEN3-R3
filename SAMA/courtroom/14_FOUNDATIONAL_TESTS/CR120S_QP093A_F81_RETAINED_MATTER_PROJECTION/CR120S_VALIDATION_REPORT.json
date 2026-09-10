@@ -1,0 +1,46 @@
+{
+  "record_id": "CR120S_QP093A_F81_RETAINED_MATTER_PROJECTION",
+  "expected_boundary_reached": true,
+  "source_lock_checks": {
+    "precommit_sha": true,
+    "manifest_sha": true,
+    "source:PDF_BRIEF:exists": true,
+    "source:PDF_BRIEF:bytes": true,
+    "source:PDF_BRIEF:sha256": true,
+    "source:UPDATED_WORKBOOK_81:exists": true,
+    "source:UPDATED_WORKBOOK_81:bytes": true,
+    "source:UPDATED_WORKBOOK_81:sha256": true,
+    "source:TASK_PREFLIGHT:exists": true,
+    "source:TASK_PREFLIGHT:bytes": true,
+    "source:TASK_PREFLIGHT:sha256": true,
+    "source:CR120R_HARD_CLOSURE:exists": true,
+    "source:CR120R_HARD_CLOSURE:bytes": true,
+    "source:CR120R_HARD_CLOSURE:sha256": true,
+    "source:F81_TYPED_HIERARCHY:exists": true,
+    "source:F81_TYPED_HIERARCHY:bytes": true,
+    "source:F81_TYPED_HIERARCHY:sha256": true,
+    "source:PRIOR_SELECTION_AUTHORITY:exists": true,
+    "source:PRIOR_SELECTION_AUTHORITY:bytes": true,
+    "source:PRIOR_SELECTION_AUTHORITY:sha256": true,
+    "source:PRIOR_SET_RECONCILIATION:exists": true,
+    "source:PRIOR_SET_RECONCILIATION:bytes": true,
+    "source:PRIOR_SET_RECONCILIATION:sha256": true,
+    "source:PRIOR_NUMERIC_RESULT:exists": true,
+    "source:PRIOR_NUMERIC_RESULT:bytes": true,
+    "source:PRIOR_NUMERIC_RESULT:sha256": true,
+    "source:PRIOR_OPERATOR_BOUNDARY:exists": true,
+    "source:PRIOR_OPERATOR_BOUNDARY:bytes": true,
+    "source:PRIOR_OPERATOR_BOUNDARY:sha256": true
+  },
+  "reveal_guard": {
+    "workbook_parsed": false,
+    "M_native_column_opened": false,
+    "selected_roster_emitted": false
+  },
+  "outputs_exist": {
+    "CR120S_allowed_fields_contract.json": true,
+    "CR120S_operator_search.json": true,
+    "CR120S_summary.json": true,
+    "CR120S_result.md": true
+  }
+}

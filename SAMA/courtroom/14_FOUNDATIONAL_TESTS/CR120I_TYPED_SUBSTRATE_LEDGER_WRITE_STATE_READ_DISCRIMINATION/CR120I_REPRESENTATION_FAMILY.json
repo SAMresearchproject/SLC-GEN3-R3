@@ -1,0 +1,64 @@
+{
+  "admissible_family": [
+    {
+      "all_finite_family_gates_pass": true,
+      "commutes_with_Pi80": true,
+      "covariant_probe_readout": true,
+      "fixes_X1": true,
+      "preserves_null_class": true,
+      "preserves_squared_norm": true,
+      "transformation": "Q_ID"
+    },
+    {
+      "all_finite_family_gates_pass": true,
+      "commutes_with_Pi80": true,
+      "covariant_probe_readout": true,
+      "fixes_X1": true,
+      "preserves_null_class": true,
+      "preserves_squared_norm": true,
+      "transformation": "Q_12"
+    },
+    {
+      "all_finite_family_gates_pass": true,
+      "commutes_with_Pi80": true,
+      "covariant_probe_readout": true,
+      "fixes_X1": true,
+      "preserves_null_class": true,
+      "preserves_squared_norm": true,
+      "transformation": "Q_123"
+    },
+    {
+      "all_finite_family_gates_pass": true,
+      "commutes_with_Pi80": true,
+      "covariant_probe_readout": true,
+      "fixes_X1": true,
+      "preserves_null_class": true,
+      "preserves_squared_norm": true,
+      "transformation": "Q_SIGN_13"
+    },
+    {
+      "all_finite_family_gates_pass": true,
+      "commutes_with_Pi80": true,
+      "covariant_probe_readout": true,
+      "fixes_X1": true,
+      "preserves_null_class": true,
+      "preserves_squared_norm": true,
+      "transformation": "Q_FAR"
+    }
+  ],
+  "record_id": "CR120I_TYPED_SUBSTRATE_LEDGER_WRITE_STATE_READ_DISCRIMINATION",
+  "scope": "FINITE_SIGNED_PERMUTATION_FAMILY_NOT_GENERAL_BASIS_INVARIANCE",
+  "wrong_transformation": {
+    "Q_X1": {
+      "e1": 1
+    },
+    "changes_X1_only_null_class": true,
+    "commutes_with_Pi80": false,
+    "fixes_X1": false,
+    "original_X1_only_retained_state": {},
+    "transformation": "Q_MIX_X1",
+    "transformed_X1_only_retained_state": {
+      "e1": 1
+    }
+  }
+}

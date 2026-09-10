@@ -1,0 +1,32 @@
+{
+  "test_id": "CR005_CLOCKS_AND_GPS_EXTERNAL_CONTACT",
+  "test_type": "fresh_courtroom_branch_test",
+  "older_outputs_used_as_computed_inputs": false,
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "A_profile": "A(r)=r_s/r=2GM/(c^2 r)",
+    "clock_readout": "dtau/dt=sqrt(1-A)",
+    "weak_clock_limit": "Delta f/f ~= DeltaA/2"
+  },
+  "declared_external_inputs": {
+    "speed_of_light_m_s": 299792458.0,
+    "earth_mu_m3_s2": 398600441800000.0,
+    "earth_equatorial_radius_m": 6378137.0,
+    "gps_orbit_radius_m": 26560000.0,
+    "gps_nominal_clock_frequency_hz": 10230000.0,
+    "seconds_per_day": 86400.0
+  },
+  "external_anchor_ranges": {
+    "gravity_gain_us_per_day": [45.4, 45.9],
+    "sr_loss_us_per_day": [-7.4, -7.0],
+    "net_gain_us_per_day": [38.0, 39.0],
+    "factory_frequency_hz": [10229999.9952, 10229999.9957]
+  },
+  "rule_9_falsification": "This test could have falsified the claim that the SAM weak-field A-clock readout from A(r)=r_s/r recovers the GPS gravitational clock gain, and that the declared SR orbital motion correction yields the observed net GPS daily correction and factory frequency offset without fitted parameters.",
+  "scope_boundaries": [
+    "not full GPS engineering",
+    "not Shapiro delay",
+    "not full GR",
+    "not an independent derivation of SR"
+  ]
+}

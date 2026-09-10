@@ -1,0 +1,60 @@
+{
+  "combined_zero_parameter_claim": "With CR128 + CR128b, the full row state (M_native, S_debit, M_observed = M_native + S_debit) for any asymmetric BOUND_COLOR_PAIR row is FULLY determined by the integer pair (a, b) from the partition algebra and the constants R, D.  ZERO free parameters.",
+  "cr_id": "CR128b",
+  "forward_blind_test": {
+    "claim": "For any FUTURE row with operator_class == 'BOUND_COLOR_PAIR' and partition (a, b) with a != b drawn from the partition algebra, S_debit = sign(a - b) * M_native * (|a - b| + D) / R^4 exactly (as a rational number).",
+    "falsifier": "ONE single future asymmetric BOUND_COLOR_PAIR row whose S_debit deviates from the formula by any non-zero rational.  ONE violation falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR128b_PRED_1",
+    "non_falsifying": "Rows of other operator_class.  Symmetric (a, a) rows (out of domain).  Partition-algebra extension warrants an appeal CR, not a violation."
+  },
+  "in_sample_verification": {
+    "asymmetric_rows_tested": 30,
+    "formula_matches": 30,
+    "formula_violations": 0,
+    "magnitude_matches": 30,
+    "sign_matches": 30,
+    "symmetric_skipped": 6
+  },
+  "law_committed_utc": "2026-06-15T22:39:56Z",
+  "law_definition": {
+    "applies_to": "operator_class == 'BOUND_COLOR_PAIR' with partition (first, second), first != second",
+    "combined_formula": "S_debit(first, second) = (R*first*second + D*|first - second|) * (first - second) * (|first - second| + D) / (|first - second| * R^4)",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "constraints": [
+      "partition_signature has exactly 2 elements (a, b)",
+      "a, b in partition_algebra",
+      "a != b (symmetric pairs reserved for CR128c)"
+    ],
+    "depends_on": "CR128 law v1.0 (M_native generator)",
+    "magnitude_formula": "|S_debit(a, b)| = M_native(a, b) * (|a - b| + D) / R^4",
+    "name": "BOUND_COLOR_PAIR_S_DEBIT_GENERATOR_ASYMMETRIC",
+    "out_of_scope": [
+      "Symmetric (a, a) pairs (CR128c)",
+      "OCTET_COMPOSITE 3-body S_debit (CR129+)",
+      "Other operator_class generators"
+    ],
+    "partition_algebra": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      12
+    ],
+    "sign_rule": "sign(S_debit) = sign(first - second) in the partition signature string"
+  },
+  "law_immutability": "S_debit formula, sign rule, partition algebra, and constants are frozen at CR128b seal time.  Future falsification or revision must be in an appeal CR.",
+  "law_version": "v1.0",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128_verification_csv": "0b51ff37925777edc9af0d48e3c279e28dfd5e69feddd6c12d379d2b40415517"
+  }
+}

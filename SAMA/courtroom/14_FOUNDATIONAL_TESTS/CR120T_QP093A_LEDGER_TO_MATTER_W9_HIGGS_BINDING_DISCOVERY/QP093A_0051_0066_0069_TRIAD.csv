@@ -1,0 +1,4 @@
+﻿candidate_id,route_combination,partition_signature,closure_depth,q_sign,M_native,M_observed_candidate,qA_source_support,tensor_carrier_support,retained_write_support,stability_status,promotion_status,present_in_100,present_in_81
+QP093A-0051,"neutral_single_write[p=1,g=2]",1,2,neutral,18,18,18,2.25,15.75,STABLE_NEUTRAL_CANDIDATE,MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE,True,True
+QP093A-0066,"neutral_single_write[p=8,g=2]",8,2,neutral,144,144,144,18,126,UNSTABLE_HEAVY_WRITE_CANDIDATE,MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE,False,False
+QP093A-0069,"neutral_single_write[p=9,g=2]",9,2,neutral,162,162,162,20.25,141.75,UNSTABLE_HEAVY_WRITE_CANDIDATE,MATTER_ROW_ALLOWED_AFTER_SURFACE_GATE,False,False

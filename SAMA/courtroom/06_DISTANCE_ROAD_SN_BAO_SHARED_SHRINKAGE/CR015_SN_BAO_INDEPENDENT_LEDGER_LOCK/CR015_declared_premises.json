@@ -1,0 +1,44 @@
+{
+  "test_id": "CR015_SN_BAO_INDEPENDENT_LEDGER_LOCK",
+  "test_type": "fresh_courtroom_branch_test",
+  "sealed_pre_run_packet": [
+    "CR015_declared_premises.json",
+    "CR015_PRECOMMIT.md",
+    "CR015_runner.py"
+  ],
+  "older_test_verdicts_used_as_computed_inputs": false,
+  "source_artifact_used_as_sn_data_rows": "C:\\VS\\Stam_model-A-v1.0\\tests\\native_prediction_artifacts\\g688c_z_a_effective_light_speed_rows.csv",
+  "free_parameters_introduced": 0,
+  "sam_inputs": {
+    "R": 12.0,
+    "D": 3.0,
+    "A0_formula": "1/(pi*R)",
+    "bao_sites": [0.38, 0.51, 0.61],
+    "overlap_half_width_z": 0.05
+  },
+  "frozen_predictions": {
+    "SN_ledger": "A_SN(z)=A0*R*(1-(1+z)^(-D))",
+    "BAO_ledger": "A_BAO(z)=A0*R*(1-(1+z)^(-D))",
+    "same_z_identity_error": "0",
+    "overlap_max_abs_pct_window": 0.25
+  },
+  "wrong_controls": [
+    "SN_half_A",
+    "BAO_D2",
+    "SN_constant_median_A",
+    "BAO_no_shrink",
+    "opposite_sign_BAO"
+  ],
+  "pass_condition_keys": [
+    "no_older_test_verdicts_used",
+    "free_parameters_introduced_zero",
+    "independent_ledger_functions_defined_before_overlap",
+    "same_z_identity_holds",
+    "overlap_not_formula_source",
+    "all_bao_sites_have_sn_overlap_rows",
+    "overlap_max_abs_pct_within_declared_window",
+    "wrong_controls_do_not_match_packet"
+  ],
+  "rule_9_falsification": "This test could have falsified the independent-ledger claim if separately computed SN luminosity/flux and BAO ruler/projection ledgers did not reduce to the same A_los(z), or if the BAO-site SN overlap failed without using the overlap as a formula source."
+}
+

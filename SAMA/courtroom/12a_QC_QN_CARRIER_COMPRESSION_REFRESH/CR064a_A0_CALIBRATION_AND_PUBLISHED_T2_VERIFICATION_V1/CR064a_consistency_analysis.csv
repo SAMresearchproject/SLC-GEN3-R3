@@ -1,0 +1,11 @@
+platform_class,system,T2_observed_seconds,gate_rate_Hz,omega_gate_rad_per_s,T2_grav_at_A0_seconds,ratio_T2_obs_over_T2_grav,status
+SC_transmon,IBM Heron / Eagle (typical),0.0001,5000000.0,3.1416e+07,1.951624e-03,0.0512,CONSISTENT
+SC_transmon,Google Sycamore (Willow generation),2.5e-05,10000000.0,6.2832e+07,9.758118e-04,0.0256,CONSISTENT
+SC_fluxonium,Stanford / Berkeley fluxonium,0.001,5000000.0,3.1416e+07,1.951624e-03,0.5124,AT_THE_LIMIT
+Trapped_ion,Quantinuum H1 (171Yb+ clock states),10.0,1000.0,6.2832e+03,9.758118e+00,1.0248,AT_THE_LIMIT
+Trapped_ion,IonQ Forte (171Yb+),1.0,10000.0,6.2832e+04,9.758118e-01,1.0248,AT_THE_LIMIT
+Trapped_ion,Innsbruck Blatt group (40Ca+),0.05,100000.0,6.2832e+05,9.758118e-02,0.5124,AT_THE_LIMIT
+NV_center,Delft NV cryogenic + dynamical decoupling,1.0,10000.0,6.2832e+04,9.758118e-01,1.0248,AT_THE_LIMIT
+NV_center,NV center room temperature (typical),0.001,1000000.0,6.2832e+06,9.758118e-03,0.1025,CONSISTENT
+Neutral_atom,QuEra Aquila (Rydberg),0.005,500000.0,3.1416e+06,1.951624e-02,0.2562,CONSISTENT
+Neutral_atom,Princeton Endres group neutral atom array,0.01,200000.0,1.2566e+06,4.879059e-02,0.2050,CONSISTENT

@@ -1,0 +1,30 @@
+CR001@20_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS
+Branch: 20_NEUTRINO_SELECTOR
+Sealed by: Sean Brady, 2026-06-26
+Verdict: PASS  (P1 +3.26%, P2 40.56% below Planck bound, P3 three positive eigenstates)
+
+Headline:
+  m_1 : m_2 : m_3 = 1 : sqrt(alpha_H) : (alpha_H * D) = 1 : sqrt(2) : 6
+  Delta m^2_31 / Delta m^2_21 = 35 (SAM closed form) vs 33.895 (observed)
+  Sigma m_nu = 71.33 meV (40.56% below 120 meV Planck bound)
+  m_1 = 8.477 meV, m_2 = 11.988 meV, m_3 = 50.861 meV
+  Ordering = normal (by substrate construction)
+  m_beta = 12.2 meV (factor 36.9 below KATRIN 450 meV bound)
+
+Local artifacts (SHA-256):
+  8e6cb1975cd7d2084ffbbf2c215472d2ef8042fae18b68e76b74b94dc4281c77  CR001_PRECOMMIT.md
+  d9aabb87b2999ac7371a5ab8466134508593b6050f6703cef72ef4a3321ef8d2  CR001_runner.py
+  ece1d0977724c17f2cf27d5454d4a7d2b30b74f2dc276171a567c1947f1637f7  CR001_result.md
+  bebbc08f8e41abcfa1b3bf959f856266cb72d5b5a02801505b2abaa669d19463  CR001_summary.json
+  237304689f63ded0c3e124ad2bef72aaf93b72f05eeef00f2c367133cc789bd2  CR001_evidence_rows.csv
+  b580dca33f59ece9d1f22a8499a4ac9374f471fc895469a4a5ef82714819a49e  CR001_declared_premises.json
+  53b1b3c6b1a6d4bd6173269b5e33c8f11aa6ade80bfb76ad02e36c5e308601bc  CR001_input_manifest.csv
+
+Upstream provenance (SHA-256):
+  d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+  35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  SLC_NAMING_CANON_v1.md
+  db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  SLC_PATENT_CLAIM_STRUCTURE_v1.md
+  ab1e1e5030dc09a171c2699c5c1f3274d1790f4a79315915b3e076ffe2454e5b  docs/SAM_VOLUME_I_SUBSTRATE.md
+
+Cross-check (internal substrate-identity consistency):
+  64b17ea78ddcf1ecfeffbcd722abc4f7446aaaeea1140e105acc3cad2c053bb1  CR001c@19 PRECOMMIT.md (CMB compressed geometry via derived Peebles; same Omega_m = 1/pi)

@@ -1,0 +1,123 @@
+{
+  "generated_utc": "2026-07-15T01:15:21.916248+00:00",
+  "precommit": {
+    "actual_sha256": "49da21f7b28dd284c90703b02bac6594b285dbea02491ecef1e7c8b72b2328fe",
+    "expected_sha256": "49da21f7b28dd284c90703b02bac6594b285dbea02491ecef1e7c8b72b2328fe",
+    "hash_match": true,
+    "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/_scratch/QP093A_0299_FIXED_SINGLETON_A_MASS_RESPONSE/SCRATCH_PRECOMMIT_V2.md"
+  },
+  "prohibited_selection_inputs": [
+    "observed Higgs mass or residual",
+    "binding results",
+    "F81 membership or totals",
+    "Starbreaker outcomes",
+    "QP093A-0299 target-aware 125250 correction"
+  ],
+  "scientific_status": "EXPLORATORY_SCRATCH",
+  "sources": [
+    {
+      "actual_sha256": "f53727c90937b9de8fdf42712cac27e5d6aa07f96627f0c5318dcefa54ddd4a6",
+      "exists": true,
+      "expected_sha256": "f53727c90937b9de8fdf42712cac27e5d6aa07f96627f0c5318dcefa54ddd4a6",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/03_CLOCKS_AND_GPS/README.md",
+      "role": "clock/lapse source context"
+    },
+    {
+      "actual_sha256": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+      "exists": true,
+      "expected_sha256": "25916a4689bc0edce353626827f087b51710dbdfc4a7bb5d675dcfa54f73fd03",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/05_STRONG_FIELD_AND_HORIZON_CLOSURE/CR007_STRONG_FIELD_LANDMARK_SELECTOR/CR007_result.md",
+      "role": "strong-field A landmarks"
+    },
+    {
+      "actual_sha256": "7ce9b72b2dd35d74eb0e7786ad874bdfcb1f6f941e2ec4fa2d794cccb1a911c7",
+      "exists": true,
+      "expected_sha256": "7ce9b72b2dd35d74eb0e7786ad874bdfcb1f6f941e2ec4fa2d794cccb1a911c7",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/QP093A_0299_DOSSIER.md",
+      "role": "QP093A-0299 closed-loop source dossier"
+    },
+    {
+      "actual_sha256": "93ba1258388d232b579e46f35813d19410d4f3af0f8989f5b280960327066632",
+      "exists": true,
+      "expected_sha256": "93ba1258388d232b579e46f35813d19410d4f3af0f8989f5b280960327066632",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR120T_QP093A_LEDGER_TO_MATTER_W9_HIGGS_BINDING_DISCOVERY/CR120T_result.md",
+      "role": "singleton/global-reveal typing"
+    },
+    {
+      "actual_sha256": "a556826a603ac3637d6c1b62e573ec3a54ec07695f196fee13e8eef63324fb08",
+      "exists": true,
+      "expected_sha256": "a556826a603ac3637d6c1b62e573ec3a54ec07695f196fee13e8eef63324fb08",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/EPISTEMIC_STANCE.md",
+      "role": "mass versus Higgs-split boundary"
+    },
+    {
+      "actual_sha256": "fa1367a0005a9aeb3a12059404095e64b80a1698713d803b6058e8390f2d11ac",
+      "exists": true,
+      "expected_sha256": "fa1367a0005a9aeb3a12059404095e64b80a1698713d803b6058e8390f2d11ac",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR103a_BOUNCE_COST_AND_A_DEPENDENCE_APPEAL/CR103a_result.md",
+      "role": "A-dependent Higgs weight and invariant-budget statement"
+    },
+    {
+      "actual_sha256": "48c5de6acf3c65f1ec3d1650f701fef8b0c429c9d62866c8d3015d7fefe7806e",
+      "exists": true,
+      "expected_sha256": "48c5de6acf3c65f1ec3d1650f701fef8b0c429c9d62866c8d3015d7fefe7806e",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR104_GATE_3_K_A_H_SELF_CORRECTION/CR104_result.md",
+      "role": "K(A_H) self-correction result"
+    },
+    {
+      "actual_sha256": "1487675d79c8fde276ef9505ba63946ccd68835ade87d33115b1e761dc873c9f",
+      "exists": true,
+      "expected_sha256": "1487675d79c8fde276ef9505ba63946ccd68835ade87d33115b1e761dc873c9f",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR104_GATE_3_K_A_H_SELF_CORRECTION/CR104_summary.json",
+      "role": "finite-A K function open boundary"
+    },
+    {
+      "actual_sha256": "d0ac2a9f817f4bb05421203b26b3041adec1862257ab18cc9110e4920062ab78",
+      "exists": true,
+      "expected_sha256": "d0ac2a9f817f4bb05421203b26b3041adec1862257ab18cc9110e4920062ab78",
+      "hash_match": true,
+      "path": "C:/VS/The_Courtroom/14_FOUNDATIONAL_TESTS/CR104a_LOCAL_HIGGS_VS_GALACTIC_A_APPEAL/CR104a_result.md",
+      "role": "local-A rather than cumulative-galactic-A typing"
+    },
+    {
+      "actual_sha256": "6dd948af8f9a2c64d833350ac61c39c77b5a9e958437165b4ec86dc341311df6",
+      "exists": true,
+      "expected_sha256": "6dd948af8f9a2c64d833350ac61c39c77b5a9e958437165b4ec86dc341311df6",
+      "hash_match": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Matter/M020k_higgs_at_local_A/results/M020k_summary.md",
+      "role": "executed local-A Higgs A^4 result"
+    },
+    {
+      "actual_sha256": "1b9bcc6a6332296453a49ca13a80db98bde9d02ed9caf49cb69740fa5db5ddcb",
+      "exists": true,
+      "expected_sha256": "1b9bcc6a6332296453a49ca13a80db98bde9d02ed9caf49cb69740fa5db5ddcb",
+      "hash_match": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Matter/M020k_higgs_at_local_A/results/M020k_summary.json",
+      "role": "machine-readable M020k result"
+    },
+    {
+      "actual_sha256": "f9a3a2423e52bd040ecfd23bd5691ba122dc3da7ef6a71a9b67472a739a67ef6",
+      "exists": true,
+      "expected_sha256": "f9a3a2423e52bd040ecfd23bd5691ba122dc3da7ef6a71a9b67472a739a67ef6",
+      "hash_match": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Matter/M020k_higgs_at_local_A/scripts/M020k_higgs_at_local_A.py",
+      "role": "M020k formula implementation"
+    },
+    {
+      "actual_sha256": "22ed3cf38618dca38e6ada1437fba3ba24913d90cc480bb66827388a0057a64a",
+      "exists": true,
+      "expected_sha256": "22ed3cf38618dca38e6ada1437fba3ba24913d90cc480bb66827388a0057a64a",
+      "hash_match": true,
+      "path": "C:/VS/Stam_model-A-v1.0/tests/Substrate/G744_SOURCE_STRENGTH_GRAVITY_BRIDGE_CAMPAIGN/G748c_HIGGS_DIRECT_WELD/G748c_result.md",
+      "role": "baseline Higgs direct-weld mass and fixed bounce factor"
+    }
+  ]
+}

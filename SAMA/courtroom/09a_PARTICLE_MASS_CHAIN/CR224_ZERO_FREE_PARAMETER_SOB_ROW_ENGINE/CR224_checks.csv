@@ -1,0 +1,13 @@
+check,passed,observed,expected
+cr222_verification_input_exists,True,True,True
+declared_constants_count,True,13,13
+tier_contract_all_zero_free_parameters,True,"[0, 0, 0, 0, 0, 0, 0, 0]",all 0
+sob_rows_126,True,126,126
+sob_ordinals_unique_126,True,126,126
+native_png_fields_complete_126,True,126,126
+full_public_png_fields_not_claimed,True,{'no': 126},{'no': 126}
+downstream_reveal_columns_blank_126,True,True,True
+verification_against_cr222_126,True,126,126
+z79_native_card_values,True,"{'sob_id': 'SOB79', 'P': '79p+118n+79e', 'quark': '276u+315d+79e'}",SOB79/P/quark
+z79_native_G_GR,True,"{'G': '732.6966145833333333333333333333333333333333333333333333333333333333333333333333333333333333333333333', 'GR': '5861.572916666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667'}",CR222 Z79 G/GR
+png_reconciliation_has_downstream_boundaries,True,True,True

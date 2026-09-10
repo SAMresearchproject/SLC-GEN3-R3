@@ -1,0 +1,65 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "98cb44de7205f858b1dac5ca649516d3f1e7d508",
+      "bytes": 7754,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_result.md",
+      "mode": "100644",
+      "git_blob": "31fef55eab2f735ee65c6028afd68430818a1692",
+      "bytes": 8744,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_result.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_result.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_result.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_runner.py",
+      "mode": "100644",
+      "git_blob": "0c0960e2c4478ef08080d1190f8900dc9f71a865",
+      "bytes": 5880,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_runner.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_runner.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_runner.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_summary.json",
+      "mode": "100644",
+      "git_blob": "3f9ba418de685ee8d4d37ca18872b54f06c7c123",
+      "bytes": 4481,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_summary.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_summary.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/CR230_summary.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "d705c229b8357ac091a503b18d41fe72ad1d1ff8",
+      "bytes": 666,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR230_RAW_GENERATOR_TEST/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR230@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

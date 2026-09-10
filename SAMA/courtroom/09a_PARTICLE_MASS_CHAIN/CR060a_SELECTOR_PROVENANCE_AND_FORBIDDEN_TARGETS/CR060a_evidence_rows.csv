@@ -1,0 +1,63 @@
+scope,row,carrier,role_operator_or_ladder,missing_fields,free_parameters_used,status
+closure_row,1,up quark (u),V4.1_TP_freeze,,0,PASS
+closure_row,2,down quark (d),V4.1_TM_freeze,,0,PASS
+closure_row,3,strange quark (s),V4.1_TM_freeze,,0,PASS
+closure_row,4,charm quark (c),V4.1_TP_freeze,,0,PASS
+closure_row,5,bottom quark (b),V4.1_TM_freeze,,0,PASS
+closure_row,6,top quark (t),V4.1_TP_freeze,,0,PASS
+closure_row,7,electron (e),exterior_surface_delay,,0,PASS
+closure_row,8,muon (mu),direction_carrier,,0,PASS
+closure_row,9,tau (tau),outside_escape_complement,,0,PASS
+closure_row,10,electron neutrino (nu_e),V4.1_addendum_outer_binary_active,,0,PASS
+closure_row,11,muon neutrino (nu_mu),V4.1_addendum_outer_binary_active,,0,PASS
+closure_row,12,tau neutrino (nu_tau),V4.1_addendum_outer_binary_active,,0,PASS
+closure_row,13,W boson (W+/-),charged_weak_vector,,0,PASS
+closure_row,14,Z boson (Z),neutral_weak_vector,,0,PASS
+closure_row,15,Higgs (H),higgs_color_complement_scalar,,0,PASS
+closure_row,16,top quark (t),top_heavy_fermion,,0,PASS
+closure_row,17,proton (uud),color_minus_SW_terminal_baryon,,0,PASS
+closure_row,18,neutron (udd),weak_plus_SW_beta_bridge,,0,PASS
+closure_row,19,charged pion (pi+/-),charged_pion_color_power,,0,PASS
+closure_row,20,neutral pion (pi0),neutral_pion_D_b_carrier,,0,PASS
+closure_row,21,charged kaon (K+/-),charged_kaon_D_b_square,,0,PASS
+closure_row,22,neutral kaon (K0),neutral_kaon_color_complement,,0,PASS
+closure_row,23,deuteron (pn),u3u2_composite_SW_depth,,0,PASS
+closure_row,24,alpha particle (ppnn),u3u2_composite_D_depth,,0,PASS
+closure_row,25,"Delta (Delta++/0/-) (uuu, ...)",isoresonance_rank2_tensor_baryon,,0,PASS
+closure_row,26,Lambda (uds),octet_occupation_single_heavy_baryon_strange,,0,PASS
+closure_row,27,Lambda_c (udc),octet_occupation_single_heavy_baryon_charm,,0,PASS
+closure_row,28,Lambda_b (udb),bookend_layer_bottom_baryon,,0,PASS
+closure_row,29,D meson (cq),u3u2_composite_tier_d_meson,,0,PASS
+closure_row,30,B meson (bq),top_tower_rank2_bookend_b_meson,,0,PASS
+closure_row,31,eta (548) (~d_anti_d),light_same_flavor_pseudoscalar_eta_d,,0,PASS
+closure_row,32,eta prime (958) (~s_anti_s),light_strange_pseudoscalar_eta_prime,,0,PASS
+closure_row,33,"Xi_bc^+ / Omega_bcc (1b + nc, Sigma-like)",combined_bookend_octet_doubly_heavy_bc_baryon_sigma,,0,PASS
+closure_row,34,"Xi_bc^0 / Omega_bcs (1b + nc, Lambda-like)",combined_bookend_octet_doubly_heavy_bc_baryon_lambda,,0,PASS
+closure_row,35,"Omega_bbc (2b + 1c, Lambda-like)",multi_heavy_bc_baryon_two_bottom_lambda,,0,PASS
+role_operator,1,electron (e),exterior_surface_delay,,0,PASS
+role_operator,2,muon (mu),direction_carrier,,0,PASS
+role_operator,3,tau (tau),outside_escape_complement,,0,PASS
+role_operator,4,proton (uud),color_minus_SW_terminal_baryon,,0,PASS
+role_operator,5,neutron (udd),weak_plus_SW_beta_bridge,,0,PASS
+role_operator,6,W boson (W+/-),charged_weak_vector,,0,PASS
+role_operator,7,Z boson (Z),neutral_weak_vector,,0,PASS
+role_operator,8,Higgs (H),higgs_color_complement_scalar,,0,PASS
+role_operator,9,top quark (t),top_heavy_fermion,,0,PASS
+role_operator,10,deuteron (pn),u3u2_composite_SW_depth,,0,PASS
+role_operator,11,alpha particle (ppnn),u3u2_composite_D_depth,,0,PASS
+role_operator,12,charged pion (pi+/-),charged_pion_color_power,,0,PASS
+role_operator,13,neutral pion (pi0),neutral_pion_D_b_carrier,,0,PASS
+role_operator,14,charged kaon (K+/-),charged_kaon_D_b_square,,0,PASS
+role_operator,15,neutral kaon (K0),neutral_kaon_color_complement,,0,PASS
+role_operator,16,"Delta (Delta++/0/-) (uuu, ...)",isoresonance_rank2_tensor_baryon,,0,PASS
+role_operator,17,Lambda (uds),octet_occupation_single_heavy_baryon_strange,,0,PASS
+role_operator,18,Lambda_c (udc),octet_occupation_single_heavy_baryon_charm,,0,PASS
+role_operator,19,Lambda_b (udb),bookend_layer_bottom_baryon,,0,PASS
+role_operator,20,D meson (cq),u3u2_composite_tier_d_meson,,0,PASS
+role_operator,21,B meson (bq),top_tower_rank2_bookend_b_meson,,0,PASS
+role_operator,22,eta (548) (~d_anti_d),light_same_flavor_pseudoscalar_eta_d,,0,PASS
+role_operator,23,eta prime (958) (~s_anti_s),light_strange_pseudoscalar_eta_prime,,0,PASS
+role_operator,24,"Xi_bc^+ / Omega_bcc (1b + nc, Sigma-like)",combined_bookend_octet_doubly_heavy_bc_baryon_sigma,,0,PASS
+role_operator,25,"Xi_bc^0 / Omega_bcs (1b + nc, Lambda-like)",combined_bookend_octet_doubly_heavy_bc_baryon_lambda,,0,PASS
+role_operator,26,"Omega_bbc (2b + 1c, Lambda-like)",multi_heavy_bc_baryon_two_bottom_lambda,,0,PASS
+decision_table,observed_mass_use,QP075,REVEAL_ONLY_RESIDUAL_COLUMN,,0,PASS

@@ -1,0 +1,70 @@
+{
+  "artifact": "QP091U_FREEZE_AND_WRONG_CONTROL_BREAK_QP091T",
+  "generated_at_utc": "2026-06-15T06:16:44.881503+00:00",
+  "result_class": "PASS_QP091U_QP091T_HARD_FREEZE__WRONG_CONTROLS_D2_D4_R10_R24_NO_DEBIT_D_OVER_R_D2_OVER_R2_REJECTED",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "frozen_result": "PASS_QP091T_CLOSED_LOOP_R2_RETENTION__H_NATIVE_126_EXACT__SURFACE_DEBIT_125_25_EXACT__HZZ4L_CATEGORY_1_2_1__QSPLIT_DEMOTED_TO_CONTEXT",
+  "freeze_hashes_match": true,
+  "frozen_files_total": 11,
+  "sidecars_written": 11,
+  "baseline_H_native": "126.000000000000000000000000000000",
+  "baseline_H_reveal": "125.250000000000000000000000000000",
+  "wrong_controls_rejected": 7,
+  "wrong_controls_total": 7,
+  "requested_wrong_controls": {
+    "WRONG_D_2": {
+      "H_native": "108.000000000000000000000000000000",
+      "surface_debit": "0.333333333333333333333333333333",
+      "H_reveal": "107.666666666666666666666666666667",
+      "rejected": "True",
+      "readout": "parent and reveal fail"
+    },
+    "WRONG_D_4": {
+      "H_native": "135.000000000000000000000000000000",
+      "surface_debit": "1.333333333333333333333333333333",
+      "H_reveal": "133.666666666666666666666666666667",
+      "rejected": "True",
+      "readout": "parent and reveal fail"
+    },
+    "WRONG_R_10": {
+      "H_native": "87.500000000000000000000000000000",
+      "surface_debit": "0.900000000000000000000000000000",
+      "H_reveal": "86.600000000000000000000000000000",
+      "rejected": "True",
+      "readout": "parent and reveal fail"
+    },
+    "WRONG_R_24": {
+      "H_native": "504.000000000000000000000000000000",
+      "surface_debit": "0.375000000000000000000000000000",
+      "H_reveal": "503.625000000000000000000000000000",
+      "rejected": "True",
+      "readout": "parent and reveal fail"
+    },
+    "NO_SURFACE_DEBIT": {
+      "H_native": "126.000000000000000000000000000000",
+      "surface_debit": "0.000000000000000000000000000000",
+      "H_reveal": "126.000000000000000000000000000000",
+      "rejected": "True",
+      "readout": "parent survives but reveal surface fails"
+    },
+    "WRONG_DEBIT_D_OVER_R": {
+      "H_native": "126.000000000000000000000000000000",
+      "surface_debit": "0.250000000000000000000000000000",
+      "H_reveal": "125.750000000000000000000000000000",
+      "rejected": "True",
+      "readout": "parent survives but reveal surface fails"
+    },
+    "WRONG_DEBIT_D2_OVER_R2": {
+      "H_native": "126.000000000000000000000000000000",
+      "surface_debit": "0.062500000000000000000000000000",
+      "H_reveal": "125.937500000000000000000000000000",
+      "rejected": "True",
+      "readout": "parent survives but reveal surface fails"
+    }
+  },
+  "controls_passed": 8,
+  "controls_total": 8,
+  "scientific_reading": "QP091U freezes the QP091T exact derivation by recomputing every QP091T hash and writing sidecars. The baseline R=12,D=3,D^2/R row reproduces H_native=126 and H_reveal=125.25. Every requested wrong control fails: D=2, D=4, R=10, and R=24 fail the native parent; no surface debit, D/R, and D^2/R^2 fail the reveal surface. No surface debit is especially useful because it preserves H_native=126 while failing H_reveal=125.25, separating parent retention from surface debit.",
+  "next_frontier": "use QP091U frozen/broken surface as the starting gate for electroweak coupling and HZZ4l amplitude normalization"
+}

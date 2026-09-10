@@ -1,0 +1,10 @@
+{
+  "test_id": "CR204",
+  "source_gate": "G753c_RESOLVED_SW_PARENT_RECONSTRUCTION_TEST",
+  "is_audit_or_retest": false,
+  "confirmation_or_double_check": false,
+  "courtroom_export": true,
+  "free_parameters_allowed": 0,
+  "expected_scientific_verdict": "BOUNDARY",
+  "rule_9_falsification": "This test could have falsified the claim that visible resolved-SW parent closure is reconstructed from daughter-write lanes while hidden/source bounce budget remains separate from visible invariant mass."
+}

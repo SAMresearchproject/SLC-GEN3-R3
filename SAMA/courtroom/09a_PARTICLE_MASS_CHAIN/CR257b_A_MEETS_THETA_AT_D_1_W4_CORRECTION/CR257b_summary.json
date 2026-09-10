@@ -1,0 +1,31 @@
+{
+  "artifact": "CR257b_A_MEETS_THETA_AT_D_1_W4_CORRECTION",
+  "supersedes": "CR257_A_MEETS_THETA_AT_D_1 (W4 runner bug; BOUNDARY)",
+  "verdict": "PASS",
+  "precommit_hash": "3a3b301d45d4573845f6744f315ff4ef6278e9ece0ccf314724f109ee41c9fe7",
+  "input_hash": "59647b850b7a1a99f6e992cf8644dfce99a394d2774b736f2cf92ab4a6e84f8b",
+  "n_anti_d1": 16,
+  "n_anti_d0": 16,
+  "n_anti_d1_neg": 8,
+  "E_gate_matches": "16/16",
+  "E_gate_max_residual": 5.000001124244591e-08,
+  "A_gate_fraction_equal": "16/16",
+  "D_gate_d0_compact_matches": {
+    "neg": "0/8",
+    "pos": "0/8"
+  },
+  "wrong_controls": {
+    "W3_sign_swap": "0/16",
+    "W4_neg_side_power_variants": {
+      "power=1": "0/8",
+      "power=3": "0/8"
+    }
+  },
+  "verdict_conditions": {
+    "E_empirical_16_16": true,
+    "A_algebraic_fraction_equality": true,
+    "D_depth_uniqueness": true,
+    "W3_sign_swap_le_4": true,
+    "W4_neg_power_variants_zero": true
+  }
+}

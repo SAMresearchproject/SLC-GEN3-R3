@@ -1,0 +1,16 @@
+{
+  "MeV_coupling_fit_allowed": false,
+  "au197_baseline_locked": true,
+  "binding_panel_present": true,
+  "disposition": "BOUNDARY_BINDING_PANEL_PRESENT_P189_ISOTOPE_MAPPING_NOT_INSTALLED",
+  "feature_C_i_constructible": false,
+  "feature_is_known_nonconstant": false,
+  "heldout_binding_test_allowed": false,
+  "next_required_install": "Observation-blind isotope-to-QP093A matched p1/p8/p9 mapping with multiplicities, signs, unmatched cases, and provenance.",
+  "observation_blind_p189_isotope_mapping_present": false,
+  "proposal_authority_reproduced": true,
+  "proposal_validated": false,
+  "record_id": "CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE",
+  "structural_8_plus_1_context_present": true,
+  "structural_context_physical_mapping": "OPEN_NOT_INSTALLED"
+}

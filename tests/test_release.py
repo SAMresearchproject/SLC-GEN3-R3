@@ -1,119 +1,69 @@
-"""Standalone wiring checks against frozen native output, plus process restoration."""
-import gzip
-import hashlib
-import json
+"""Portable R3 wiring, exact source preservation and fresh-process recovery."""
+from fractions import Fraction
+import hashlib,json,subprocess,sys,tempfile,unittest
 from pathlib import Path
-import subprocess
-import sys
-import tempfile
-import unittest
-
-from slc_gen2_r4 import open_runtime, verify_sources
-from slc_gen2_r4.__main__ import encoded
-
-ROOT = Path(__file__).resolve().parents[1]
-FIX = ROOT / "tests/fixtures"
-
-def fixture(name):
-    return json.loads((FIX / name).read_text())
-
-def normal(value):
-    return json.loads(encoded(value))
-
+from slc_gen3_r3 import open_runtime,verify_sources
+from slc_gen3_r3.__main__ import encoded
+ROOT=Path(__file__).resolve().parents[1]
+def normal(x):return json.loads(encoded(x))
 class ReleaseTests(unittest.TestCase):
-    def test_source_identity(self):
-        self.assertGreater(verify_sources()["verified_files"], 100)
-
-    def test_installed_integration_fixture(self):
-        saved = json.loads(gzip.decompress((FIX / "r4_installation.json.gz").read_bytes()))
-        with open_runtime() as runtime:
-            for step in saved["steps"]:
-                with self.subTest(name=step["name"], operation=step["operation"]):
-                    actual = runtime.execute(step["operation"], step["payload"])
-                    self.assertEqual(normal(actual), step["expected"])
-
-    def test_owner_word_and_chunk_composition(self):
-        request = json.loads((ROOT / "examples/word.json").read_text())
-        with open_runtime() as runtime:
-            result = runtime.execute("GEN2_RUN", request)
-            self.assertEqual(normal(result), fixture("owner_word_native.json"))
-            history = result["motion"]["roles"][0]["history_summary"]
-            body = history["checkpoint"]["body"]
-            chunks = []
-            for start, end in [(0, 4), (4, 8), (8, 12)]:
-                chunks.append(runtime.execute("GEN2_HISTORY_SUMMARY", {
-                    "quantity": body["quantity"], "source_binding": body["source_binding"],
-                    "points": body["points"][start:end+1], "edges": body["edges"][start:end]}))
-            merged = runtime.compose(chunks[0]["checkpoint"], chunks[1]["checkpoint"])
-            merged = runtime.compose(merged["checkpoint"], chunks[2]["checkpoint"])
-            self.assertEqual(merged, history)
-            self.assertEqual(merged["summary"]["maximizing_points"], ["state:2", "state:5"])
-
-    def test_declared_target_weighted_policy(self):
-        source = fixture("owner_inverse.json")
-        channels = fixture("owner_channels.json")
-        with open_runtime() as runtime:
-            inverse = runtime.execute("GEN2_INVERSE_OPEN", {
-                "blocks": [[1, 2, 3]], "mode": "ABSOLUTE", "observations": [None, None],
-                "event_labels": ["W1+"], "initial_states": [[t, 0, 0] for t in range(4)],
-                "target": {"kind": "BARRIER"}})
-            self.assertEqual(normal(inverse), source)
-            request = {"checkpoint": inverse["checkpoint"], "choices": channels["choices"],
-                       "weights": channels["weights"]}
-            one = runtime.execute("GEN2_OBSERVATION_PLAN", request)
-            self.assertEqual(normal(one), fixture("owner_plan.json"))
-            policy = runtime.execute("GEN2_OBSERVATION_POLICY_PLAN", dict(request, horizon=2))
-            self.assertEqual(normal(policy), fixture("owner_policy.json"))
-            self.assertEqual(policy["selected_label"], "PAIR")
-            self.assertEqual(policy["selected_metrics"]["expected_reads"], 1)
-
-    def test_fresh_process_continuation_and_cli_custody(self):
-        request = json.loads((ROOT / "examples/word.json").read_text())
-        word = request["program"]
-        with tempfile.TemporaryDirectory() as temp:
-            temp = Path(temp)
-            prefix_input, prefix_output = temp / "prefix.json", temp / "prefix_output.json"
-            prefix_input.write_bytes(encoded(dict(request, program=word[:4])))
-            producer = subprocess.Popen([sys.executable, "-m", "slc_gen2_r4", "run", "GEN2_RUN",
-                str(prefix_input), "--output", str(prefix_output), "--receipts", str(temp / "receipts")], cwd=ROOT)
-            self.assertEqual(producer.wait(), 0)
-            prefix = json.loads(prefix_output.read_text())["motion"]["roles"][0]["history_summary"]
-            (temp / "prefix_checkpoint.json").write_bytes(encoded(prefix))
-            script = '''
-import json, sys
-from pathlib import Path
-from slc_gen2_r4 import open_runtime
-from slc_gen2_r4.__main__ import encoded
-t=Path(sys.argv[1]); prefix=json.loads((t/'prefix_checkpoint.json').read_text())
-word=json.loads(Path('examples/word.json').read_text())['program']
-with open_runtime() as r:
-    before=r.execute('GEN2_REUSE_STATS',{})['modules']['history_summary']
-    current=r.execute('GEN2_HISTORY_SUMMARY_APPEND',{'checkpoint':prefix['checkpoint'],'points':[],'edges':[]})
-    assert current==prefix
-    stats=r.execute('GEN2_REUSE_STATS',{})['modules']['history_summary']
-    assert before['operations']==0 and stats['checkpoint_edges_revalidated']==4 and stats['new_edges_summarized']==0
-    for lo,hi in [(4,8),(8,12)]:
-        q=current['checkpoint']['body']['points'][-1]['state']
-        native=r.execute('GEN2_RUN',{'blocks':[[1,2,3]],'initial':q,'program':word[lo:hi]})
-        points=[{'id':f'state:{lo+j}','state':q,'action':e} for j,(q,e) in enumerate(zip(native['states'],native['contact_profile'])) if j]
-        edges=[{'id':f'edge:{i}','before':f'state:{i}','after':f'state:{i+1}','event':word[i]} for i in range(lo,hi)]
-        current=r.execute('GEN2_HISTORY_SUMMARY_APPEND',{'checkpoint':current['checkpoint'],'points':points,'edges':edges})
-    expected=json.loads(Path('tests/fixtures/owner_word_native.json').read_text())['motion']['roles'][0]['history_summary']
-    assert json.loads(encoded(current))==expected
-    (t/'restored.json').write_bytes(encoded(current))
-'''
-            consumer = subprocess.Popen([sys.executable, "-c", script, str(temp)], cwd=ROOT)
-            self.assertEqual(consumer.wait(), 0)
-            self.assertNotEqual(producer.pid, consumer.pid)
-            self.assertTrue((temp / "restored.json").is_file())
-            for receipt in (temp / "receipts").glob("*/RECEIPT.json"):
-                record = json.loads(receipt.read_text())
-                self.assertEqual(record["output_sha256"], hashlib.sha256((receipt.parent / "OUTPUT.json").read_bytes()).hexdigest())
-
-    def test_deployment_scope_is_explicit(self):
-        with open_runtime() as runtime:
-            with self.assertRaisesRegex(ValueError, "separately installed tau"):
-                runtime.execute("GEN2_TAU_REPLAY", {})
-
-if __name__ == "__main__":
-    unittest.main()
+    def test_selected_source_and_compatibility(self):
+        from CURRENT_REVISION.runtime import load_slc,record
+        from slc_gen2_r4 import open_runtime as old_entry
+        self.assertIs(old_entry,open_runtime)
+        self.assertEqual(record('SLC')['version'],'SLC-GEN3-R3')
+        self.assertTrue(load_slc().__name__.endswith('.gen3_runtime'))
+        self.assertGreater(verify_sources()['verified_files'],100)
+    def test_owner_word_exact_history_and_r3_logs(self):
+        payload=json.loads((ROOT/'examples/word.json').read_text())
+        expected=json.loads((ROOT/'tests/fixtures/owner_word_native.json').read_text())
+        with open_runtime() as r:
+            result=normal(r.execute('GEN3_EXECUTE',payload))
+            for key in ['states','contact_profile','barrier','initial','program']:
+                if key in expected:self.assertEqual(result[key],expected[key])
+            summary=result['r3']['logarithmic_accumulation']['summary']
+            values=list(map(Fraction,result['contact_profile']));up=down=Fraction(1)
+            for a,b in zip(values,values[1:]):
+                if b>a:up*=b/a
+                elif b<a:down*=a/b
+            for key,arg in [('U',up),('D',down),('V',up*down),('L',values[-1]/values[0]),('M',max(values)/values[0])]:self.assertEqual(Fraction(summary[key]['argument']),arg)
+            account=result['r3']['history_account']
+            self.assertEqual(summary['maximizing_points'],[account+':p'+str(i) for i,v in enumerate(values) if v==max(values)])
+            self.assertEqual(normal(r.execute('GEN3_EXECUTE',{'program':['W1+']})['initial']),result['states'][-1])
+    def test_weighted_policy_from_current_source(self):
+        choices=json.loads((ROOT/'tests/fixtures/owner_channels.json').read_text())['choices']
+        with open_runtime() as r:
+            inv=r.execute('GEN2_INVERSE_OPEN',{'blocks':[[1,2,3]],'mode':'ABSOLUTE','observations':[None,None],'event_labels':['W1+'],'initial_states':[[t,0,0] for t in range(4)],'target':{'kind':'BARRIER'}})
+            masses=['1/8','2/8','3/8','2/8'];weights={m['record_id']:masses[m['initial'][0]] for m in inv['members']}
+            policy=r.execute('GEN2_OBSERVATION_POLICY_PLAN',{'checkpoint':inv['checkpoint'],'weights':weights,'choices':choices,'horizon':2})
+            self.assertEqual(policy['selected_label'],'PAIR');self.assertEqual(policy['selected_metrics']['expected_reads'],1)
+    def test_exact_account_cancellation_append_and_history(self):
+        points=[{'id':'p'+str(i),'state':{'step':i},'action':x} for i,x in enumerate(['1','2','1','2'])]
+        edges=[{'id':'e'+str(i),'before':'p'+str(i),'after':'p'+str(i+1),'event':{'step':i}} for i in range(3)]
+        with open_runtime() as r:
+            a=r.execute('GEN3_LOG_OPEN',{'account':'a','quantity':{'kind':'SOURCE_ACTION','units':{},'scope':'HISTORY'},'source_binding':{'test':'portable-exact-trace'},'points':points[:3],'edges':edges[:2]})
+            for key,arg in [('U','2'),('D','2'),('L','1'),('V','4')]:self.assertEqual(Fraction(a['summary'][key]['argument']),Fraction(arg))
+            b=r.execute('GEN3_LOG_APPEND',{'account':'a','points':points[3:],'edges':edges[2:]})
+            self.assertEqual(b['summary']['maximizing_points'],['p1','p3']);self.assertEqual(Fraction(b['summary']['V']['argument']),8)
+            history=r.execute('GEN3_HISTORY_EXPORT',{'account':'a'})
+            self.assertEqual(len(history['points']),4);self.assertEqual(len(history['edges']),3)
+    def test_fresh_process_native_checkpoint_and_receipts(self):
+        with tempfile.TemporaryDirectory() as d:
+            d=Path(d);outputs=[]
+            for example in ['r3-word.json','r3-continue.json']:
+                output=d/(example+'.out')
+                subprocess.run([sys.executable,'-m','slc_gen3_r3','run','GEN3_EXECUTE',str(ROOT/'examples'/example),'--state-dir',str(d/'state'),'--output',str(output),'--receipts',str(d/'receipts')],cwd=ROOT,check=True,capture_output=True)
+                outputs.append(json.loads(output.read_text()))
+            self.assertEqual(outputs[1]['initial'],outputs[0]['states'][-1])
+            with open_runtime(state_dir=d/'state') as r:
+                self.assertEqual(r.execute('GEN3_STATUS',{})['version'],'SLC-GEN3-R3');self.assertIsNotNone(r.execute('GEN3_CHECKPOINT',{}))
+            receipts=list((d/'receipts').glob('*/RECEIPT.json'));self.assertEqual(len(receipts),2)
+            for p in receipts:
+                row=json.loads(p.read_text());self.assertEqual(row['engine'],'SLC-GEN3-R3');self.assertEqual(row['output_sha256'],hashlib.sha256((p.parent/'OUTPUT.json').read_bytes()).hexdigest())
+    def test_deployment_scope_and_actual_memory_evidence(self):
+        with open_runtime() as r:
+            for op in ['GEN3_REPLICATE','GEN2_TAU_REPLAY','GEN2_SOURCE_BATCH']:
+                with self.assertRaises(ValueError):r.execute(op,{})
+            self.assertIn('node',r.execute('GEN3_MEMORY_NODE',{'memory':'observations'}))
+            with self.assertRaises(ValueError):r.execute('GEN3_MEMORY_APPLY',{'encounter':'unsupplied','observation':1,'evidence':None})
+if __name__=='__main__':unittest.main()

@@ -1,0 +1,57 @@
+{
+  "cr_id": "CR131",
+  "forward_blind_test": {
+    "claim": "For any FUTURE V4_1_SINGLE_WRITE row (CR119 extension or QP093 chain refinement) with q_abs >= 1, q_sign in {positive, negative}, closure_depth integer, and stability_status in {STABLE_MATTER_CANDIDATE, ANTIMATTER_STABLE_CONJUGATE}, M_native = q_abs * R^closure_depth * K(q_sign, stability_status) exactly.",
+    "falsifier": "ONE single future V4_1 row whose M_native differs from the formula by any non-zero rational falsifies v1.0.",
+    "free_parameters_at_test": 0,
+    "id": "CR131_PRED_1",
+    "non_falsifying": "Rows of other operator_class.  V4_1 rows with stability_status outside {STABLE_MATTER_CANDIDATE, ANTIMATTER_STABLE_CONJUGATE} -- though no such rows exist in current CR119 V4_1 subset, future additions could occur and would warrant an extension."
+  },
+  "immutability": "Law v1.0 formula, K coefficients, matter/antimatter rule, and partition algebra are frozen at CR131 seal time.  Future falsification or refinement must be in an appeal CR.",
+  "in_sample_verification": {
+    "antimatter_matches": 42,
+    "closure_depths_observed": {
+      "0": 32,
+      "1": 32,
+      "2": 26
+    },
+    "formula_matches": 90,
+    "matter_matches": 48,
+    "rows_tested": 90,
+    "violations": 0
+  },
+  "law_committed_utc": "2026-06-16T00:14:20Z",
+  "law_definition": {
+    "K_coefficients": {
+      "antimatter_negative": "5/4  (sign-flipped twin of matter negative)",
+      "antimatter_positive": "3/2  (sign-flipped twin of matter positive)",
+      "matter_negative": "3/2 = (alpha_H + 1) / alpha_H",
+      "matter_positive": "5/4 = (alpha_H^2 + 1) / alpha_H^2"
+    },
+    "antimatter_rule": "K_antimatter(q_sign) = K_matter(swap(q_sign)).  Matter and antimatter are sign-flipped twins under K.",
+    "applies_to": "operator_class == 'V4_1_SINGLE_WRITE' (1-body fermion_half_write rows)",
+    "constants": {
+      "D": 3,
+      "R": 12,
+      "alpha_H": 2
+    },
+    "formula": "M_native = q_abs * R^closure_depth * K(q_sign, stability_status)",
+    "name": "V4_1_SINGLE_WRITE_FERMION_LADDER_M_NATIVE_GENERATOR",
+    "out_of_scope": [
+      "S_debit / M_observed formula for V4_1 rows (CR131b)",
+      "OUTER_BINARY_NEUTRAL (also 1-body fermion_half_write, 24 rows, but different operator class)",
+      "True 1-body bosons (carriers): TENSOR_CARRIER, ROAD_LIGHT_CARRIER, WEAK_VECTOR_CARRIER, NEUTRAL_VECTOR_CARRIER, COLOR_OWNER_CARRIER, A_FIELD_CARRIER (each n=1)",
+      "SOURCE_SUPPORT_PACKET, 'fake_spin' null-control rows"
+    ],
+    "scope_clarifications": [
+      "spin_or_hand_class confirmed = 'fermion_half_write' for ALL 90 V4_1 rows (not scalar)",
+      "K-swap under matter/antimatter conjugation embeds CPT-like sign-flip structure",
+      "Three closure depths observed (0, 1, 2); higher depths would extend the ladder"
+    ],
+    "structural_significance": "V4_1_SINGLE_WRITE is the 1-body fermion family (lepton-class single writes), NOT a 1-body scalar.  All 90 rows have spin_or_hand_class = fermion_half_write.  The closure_depth ladder produces a three-generation fermion hierarchy (depth=0 -> gen 1, depth=1 -> gen 2 at R x mass, depth=2 -> gen 3 at R^2 x mass) architecturally consistent with Standard Model lepton generations."
+  },
+  "law_version": "v1.0",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42"
+  }
+}

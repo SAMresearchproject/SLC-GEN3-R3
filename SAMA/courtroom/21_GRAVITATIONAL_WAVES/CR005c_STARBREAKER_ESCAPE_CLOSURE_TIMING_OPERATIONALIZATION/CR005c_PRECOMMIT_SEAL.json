@@ -1,0 +1,12 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_TIMING_OPERATIONALIZATION",
+  "task": "Build and execute CR005c Starbreaker escape-before-closure timing operationalization",
+  "sealed_utc": "2026-07-21T00:59:08.1231034Z",
+  "contract_sha256": "43a305c078bdc43c676cef6d61c10b46d27d575890e221833b671c97457d888a",
+  "precommit_sha256": "e6f32e78edc2b8ab7005ec4abd9a9044fa94348e792cdca21ace6da6ef0a8925",
+  "source_manifest_sha256": "346c81b6203fa84807976b3a01f94c2127f2f8e1b95414c1f37d26c269451114",
+  "preflight_sha256": "73efba81d8c0fdae1fc4cdb2550387d4c82851dd6a075314271f1f7ce4f94869",
+  "runner_present_at_seal": false,
+  "results_opened": false,
+  "same_run_repair_allowed": false
+}

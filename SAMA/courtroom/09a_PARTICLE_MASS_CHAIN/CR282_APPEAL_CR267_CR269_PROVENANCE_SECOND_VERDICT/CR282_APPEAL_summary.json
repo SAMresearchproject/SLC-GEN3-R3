@@ -1,0 +1,35 @@
+{
+  "appeal_effect": {
+    "A_operator_to_B_contact": "OPEN",
+    "B_contact_through_axis_fee_to_W9": "PASS",
+    "direct_A_through_X1": "UNCHANGED_OPEN",
+    "historical_row_trace": "UNCHANGED_PASS",
+    "ledger_count": 162,
+    "restored_row_wrong_control": 163
+  },
+  "checks": {
+    "A1_parent_preserved": true,
+    "A2_non_row_A_preserved": true,
+    "A3_cr267_closure_witness": true,
+    "A4_cr269_contact_operator": true,
+    "A5_contact_axis_fee_bridge": true,
+    "A6_scope_refinement": true,
+    "A7_no_parent_rewrite": true,
+    "precommit_hash_matches_sidecar": true,
+    "source_hashes_ok": true
+  },
+  "current_status": "APPEAL_GRANTED_SCOPE_REFINED_CONTACT_AXIS_FEE_BRIDGE_PASS_A_TO_CONTACT_WELD_OPEN",
+  "firewall": {
+    "forecast_generated": false,
+    "queue_maintenance_performed": false,
+    "sam_language_inspected": false
+  },
+  "parent_record_preserved": true,
+  "parent_record_status": "BOUNDARY_A_OPERATOR_ROW_TRACE_PASS_AXIS_SELF_WELD_OPEN",
+  "precommit_sha256": "b9c0dca8c6a21d233979a75a86e40fd8ce5c16fb176fd9225590c545c89797aa",
+  "record_id": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT",
+  "scientific_result_status": "APPEAL_GRANTED_IN_PART",
+  "sealed_utc": "2026-07-12T07:24:55Z",
+  "source_errors": [],
+  "task": "CR282_APPEAL_CR267_CR269_PROVENANCE_SECOND_VERDICT"
+}

@@ -1,0 +1,14 @@
+constant,fraction,decimal,role
+R,12,12,radix/native route constant
+D,3,3,dimension/closure depth constant
+alpha_H,2,2,hidden-source bigrade generator
+split,8,8,2^D carrier split
+native_capacity,126,126,R^2*(1-2^-D)
+proton_qA,145/2,72.5,component write support
+electron_qA,145/96,1.510416666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,component write support
+neutron_qA,1/8,0.125,component write support
+charged_pair_qA,7105/96,74.01041666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667,proton_qA+electron_qA
+kappa_floor,7117/768,9.266927083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333,(proton_qA+electron_qA+neutron_qA)/split
+neutron_G_unit,1/64,0.015625,neutron_qA/split
+shell_n_path,1;2;3;4;4;3;2;2,1;2;3;4;4;3;2;2,"[1, alpha_H, D, R/D, R/D, D, alpha_H, alpha_H]"
+shell_capacities,2;8;18;32;32;18;8;8,2;8;18;32;32;18;8;8,2*n^2 over shell_n_path

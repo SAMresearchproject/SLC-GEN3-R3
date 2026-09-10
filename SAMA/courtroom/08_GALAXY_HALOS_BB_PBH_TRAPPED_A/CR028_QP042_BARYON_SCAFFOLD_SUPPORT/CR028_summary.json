@@ -1,0 +1,49 @@
+{
+  "test_id": "CR028_QP042_BARYON_SCAFFOLD_SUPPORT",
+  "short_id": "CR028",
+  "question": "Does private QP042 support the baryon side by filling native proton/neutron qqq scaffolds without observed baryon masses or free parameters?",
+  "verdict": "CR028_BOUNDARY_QP042_BARYON_SCAFFOLD_SUPPORT",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "BOUNDARY",
+  "triage_bin": "B",
+  "claim_tier": "PRIVATE_SUPPORT_ARTIFACT_BARYON_SCAFFOLD",
+  "structural_success": true,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "private_baryon_scaffold_artifact_present": true,
+    "proton_neutron_scaffold_filled": true,
+    "no_external_particle_data_used": true,
+    "zero_free_parameters": true,
+    "remaining_baryon_boundaries_preserved": true,
+    "halo_radial_law_not_claimed": true
+  },
+  "evidence_rows": [
+    {
+      "item": "external_data_used",
+      "value": false,
+      "pass": true
+    },
+    {
+      "item": "observed_baryon_masses_used",
+      "value": false,
+      "pass": true
+    },
+    {
+      "item": "free_parameters_introduced",
+      "value": 0,
+      "pass": true
+    },
+    {
+      "item": "filled_baryon_scaffold_ids",
+      "value": "ddu;duu",
+      "pass": true
+    },
+    {
+      "item": "open_boundary_rows",
+      "value": 54,
+      "pass": true
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that QP042 fills proton/neutron baryon scaffolds natively and without observed baryon mass inputs.",
+  "scope_note": "CR028 is private support, not external halo evidence. It strengthens the hydrogen/baryon side but does not solve the halo radial law."
+}

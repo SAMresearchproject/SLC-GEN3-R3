@@ -1,0 +1,95 @@
+{
+  "precommit_sha256": "ab68c100fa7dd117dbd704d0d3b0cdeb7ec275ebbb931a8c145a4d5d8739d9b0",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "artifact": "CR263_GENUINE_MULTIENTROPY_FRAMEWORK_FOUNDATION",
+  "classification": "FRAMEWORK_FOUNDATION_CR",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "free_parameters_introduced": 0,
+  "prior_CR_result_inputs": false,
+  "numerical_predictions_made": false,
+  "framework_commitment": true,
+  "citation": {
+    "authors": [
+      "Cl\u00e9ment Berthi\u00e8re",
+      "Paul Gaudin"
+    ],
+    "title": "Genuine multientropy, dihedral invariants, and Lifshitz theory",
+    "journal": "Phys. Rev. D",
+    "volume": 113,
+    "article": 65029,
+    "year": 2026,
+    "DOI": "10.1103/vcqd-rkmn",
+    "affiliation": "Laboratoire de Physique Th\u00e9orique, CNRS, Universit\u00e9 de Toulouse",
+    "license": "CC-BY 4.0",
+    "funder": "SCOAP3",
+    "received": "2025-11-24",
+    "accepted": "2026-01-14",
+    "published": "2026-03-30"
+  },
+  "paper_results": {
+    "R1_genuine_multientropy_reduction": "G^(3)_n(A:B:C) = (2-n)/(2n) * [I_{1/2}(A:B) - 2 * E(A:B)] for Lifshitz / stabilizer-class states (Eq. 23 of paper)",
+    "R2_n2_vanishing": "G^(3)_2(A:B:C) = 0 for Lifshitz / stabilizer states (Markov gap M_{2,2} = 0)",
+    "R3_GHZ_extraction_count": "(I_{1/2} - 2*E) counts the number of GHZ states extractable from a stabilizer state (Discussion section of paper)",
+    "R4_dihedral_reflected_equivalence": "D_{2n}(A:B) = S^R_{2,n}(A:C) (Eq. 40 of paper; isomorphism Eq. 38)",
+    "R5_CCNR_realignment": "log Z_{2n} = E^CCNR_n(A:C); unnormalized dihedral = R\u00e9nyi CCNR negativity of realignment (Eq. 41 of paper)"
+  },
+  "sam_tripartitions": {
+    "CR229_inclusion_exclusion": {
+      "sealed_in": "CR229@09a",
+      "structure": "Two 81-element carrier-tensor sides \u2229 \u0398=18 overlap",
+      "identity": "R\u00b2 = M + \u0398 = \u2112 \u2212 \u0398; 144 = 126 + 18 = 162 \u2212 18"
+    },
+    "CR248_source_channels": {
+      "sealed_in": "CR248@09a",
+      "structure": "(u, d, e) source-quark counts",
+      "identity": "u = 2Z+N, d = Z+2N, e = Z"
+    },
+    "CR253_promoter_classes": {
+      "sealed_in": "CR253@09a",
+      "structure": "80-row matter / antimatter / neutral split",
+      "identity": "80 = 32 charged matter + 16 neutral matter + 32 antimatter"
+    },
+    "CR256_A_conjugate": {
+      "sealed_in": "CR256@09a",
+      "structure": "A-operator antimatter conjugation",
+      "identity": "A_conj(neg) = (5/6)(1+p/R^(d+1)); A_conj(pos) = (6/5)(1\u2212p/R^(d+1))"
+    },
+    "CR259_chessboard": {
+      "sealed_in": "CR259@09a",
+      "structure": "T13 \u00d7 T13 = 169 lattice",
+      "identity": "bound_composite = (R+1)\u00b2 = 13\u00b2"
+    },
+    "CR262_carrier_container": {
+      "sealed_in": "CR262@09a",
+      "structure": "carrier {m\u2083, D\u00b2, \u0398, \u0125V} vs container {R, V, F}",
+      "identity": "binary Z=N nucleus stability cipher (8/8 verified)"
+    }
+  },
+  "identifications": {
+    "I1_substrate_states_stabilizer_class": "SAM substrate states are stabilizer-class in the technical sense of Bravyi-Fattal-Gottesman (Ref. [81] of paper); the partition algebra \u0125^i\u00b7d\u0302^j acts as a closed group of discrete operations on integer occupation states. Consequence: paper Result 1 (Eq. 23) applies to SAM tripartitions.",
+    "I2_C12_GHZ_symmetric_anchor": "C-12 has (u, d, e) = (\u0398, \u0398, m\u2083) = (18, 18, 6); u = d holds exactly. Under stabilizer-class state model with u-d symmetry, paper Result 2 gives G^(3)_2(C-12) = 0. Consistent with m(C-12) = 12 by definition; extends CR262 chain-step identification.",
+    "I3_A_operator_implements_dihedral_reflected": "CR256's A-conjugate (sign flip on 1 \u00b1 p/R^(d+1)) is a reflected-construction operation on the partition algebra. By paper Result 4 (Eq. 40), this is equivalent to a dihedral-group permutation. Therefore A-operator's matter\u2194antimatter map IS the SAM analog of dihedral invariant D_{2n}.",
+    "I4_CR229_inclusion_exclusion_is_tripartite": "R\u00b2 = M + \u0398 = \u2112 \u2212 \u0398 is structurally inclusion-exclusion on a tripartite system with two 81-element sides and an 18-element overlap. Under I1, paper Result 1 applies to this tripartition; the genuine multientropy at n=2 of this tripartition vanishes by Result 2.",
+    "I5_containers_destructive_interference": "CR262 carrier/container distinction maps to: containers (R, V, F) force destructive interference in reflected-construction permutations (paper Result 4); the resulting reflected entropy is incompatible with bound-state stability. Carriers (m\u2083, D\u00b2, \u0398, \u0125V) admit stable GHZ-extractable structure."
+  },
+  "open_items_downstream_CRs": {
+    "O1_element_state_specification": "Which density matrix represents an element (Z, N)? (u, d, e) don't uniquely fix the state. \u2192 CR264",
+    "O2_fee_scale_constant": "MeV-per-bit translation constant (analog of \u03ba = 7117/768) for genuine multientropy \u2192 binding fee. Must derive, not fit. \u2192 CR265",
+    "O3_sign_convention": "Substrate-natural rule for signed binding-fee contribution; B_u_obs is signed, genuine multientropy is non-negative. \u2192 CR264 or CR265",
+    "O4_GHZ_count_substrate_quantity": "Which SAM quantity counts as a 'GHZ extraction'? Candidates: \u0398-exchanges per nucleon pair (CR251), carrier-tensor lift fee count (CR249a/CR251), pair-write count (CR248 Phase B). \u2192 CR264",
+    "O5_CCNR_realignment_SAM_identification": "Result 5 (CCNR) registered; possible link to CR256 hard-zero falsifier QP093A-0088 as separability boundary. \u2192 future CR"
+  },
+  "gates": {
+    "G1_citation_verified": true,
+    "G2_paper_results_transcribed": true,
+    "G3_sam_tripartitions_registered": true,
+    "G4_identifications_stated": true,
+    "G5_open_items_registered": true,
+    "G6_precommit_and_forbidden_file_guard": true
+  },
+  "verdict_reason": "All six gates PASS. Framework commitment registered: SAM binding-fee structure will be expressed in the mathematical category of multipartite entanglement for stabilizer-class states. Citation locked, paper results transcribed, SAM tripartitions registered, structural identifications stated, open items assigned to downstream CRs.",
+  "forbidden_files_opened": false,
+  "opened_paths_count": 1
+}

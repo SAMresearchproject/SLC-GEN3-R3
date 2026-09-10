@@ -1,13 +1,50 @@
 {
   "status": "PASS",
-  "exit_code": 0,
-  "seconds": 12.221328856001492,
-  "test_methods": 6,
-  "frozen_integration_cases": 35,
-  "isolated_copy": true,
-  "python_isolated_mode": true,
-  "research_workspace_open_guard": true,
-  "numpy_version": "1.26.4",
-  "engine_bytes_unchanged": true,
-  "local_suite_log_sha256": "bbf4558c2d9e02a0e551719404ac0bfdc0781194baf93b359465797db725f2b3"
+  "engine": "SLC-GEN3-R3",
+  "tests": 6,
+  "runtime_test_log": "R3_NUMPY_ONLY_TEST_RUN.txt",
+  "python": "3.12",
+  "required_backend": "NumPy 1.26.4; exact Fraction (python-flint absent)",
+  "checks": [
+    "current runtime and compatibility route",
+    "original owner-word states, action trace and barrier",
+    "exact U/D/V/L/M and all maximum ties",
+    "current-source weighted policy PAIR",
+    "log cancellation, append and full history",
+    "fresh-process durable native continuation and receipt hashes",
+    "acquired node access and explicit observation evidence",
+    "explicit separate deployment errors"
+  ],
+  "sama_structure": {
+    "status": "PASS",
+    "chapters": 81,
+    "branch_test_assignments": 269,
+    "local_links_checked": 64274,
+    "errors": []
+  },
+  "sama_original_files": 7973,
+  "sama_changed_original_files": [
+    "README.md"
+  ],
+  "sama_preserved_original_files": 7972,
+  "preserved_legal_blobs": {
+    "LICENSE.md": "b1ac6c5c2b9829f108b317be98ac49fdd230a887",
+    "NOTICE.md": "a2a8e1a151a68c55d429e9ab720ef8f1efcce7d5",
+    "STEWARDSHIP.md": "4584f83b35d477c4952d1019ad31779e2cec00e9",
+    "LICENSE_DECISION.md": "7201db5a347a2d379546ff42cdcab3ce0087477d",
+    "PUBLIC_DISCLOSURE_POLICY.md": "4d2fa6e2e5506c46c4d5946cb2524bc6e51d0879",
+    "AUTHORS.md": "5f5ae36d8ae2efe90d0fbd1061c37793e6768fff",
+    "COAUTHORSHIP.md": "4c5d5c2265c26a10522c648cf01b9e79743ec14a",
+    "CITATION.cff": "e69d1447c21e6ea3b28abf799f27c29b57a6b6d9",
+    "LICENSES/AGPL-3.0-or-later.txt": "2beb9e16309456b1f4244480f4fe6890324a5064",
+    "LICENSES/CC-BY-SA-4.0.txt": "e35dfb9fca0ba624504ca45e2c1930ae942ff7da",
+    "LICENSES/README.md": "d779a69ca8ce6efe295caccecd3eaabedc54b211"
+  },
+  "new_document_local_links_checked": 35,
+  "preserved_attempts": [
+    "R4 fixture migration failures: old source-bound checkpoints and changed output schemas",
+    "R3 test setup corrections: quantity descriptor and exact JSON integer encoding",
+    "SAMA cache-filter correction: four original archived bytecode files restored"
+  ],
+  "research_calculations_or_classifications_changed": false
 }

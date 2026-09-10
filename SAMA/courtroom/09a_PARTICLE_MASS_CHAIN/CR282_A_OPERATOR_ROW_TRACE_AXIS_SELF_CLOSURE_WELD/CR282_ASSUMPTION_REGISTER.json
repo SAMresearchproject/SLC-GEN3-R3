@@ -1,0 +1,39 @@
+{
+  "record_id": "CR282_A_OPERATOR_ROW_TRACE_AXIS_SELF_CLOSURE_WELD",
+  "sealed_utc": "2026-07-12T07:04:57Z",
+  "assumptions": [
+    {
+      "id": "A1_source_rows_are_authoritative",
+      "statement": "Use the repository CR119 particle table as authority for row 306 and QP093A-0305.",
+      "status": "HASH_VERIFIED_SOURCE"
+    },
+    {
+      "id": "A2_non_row_A_not_charged_to_ledger",
+      "statement": "A_OPERATOR is non-row; only restoring QP093A-0305 as an active row makes the T13 ledger 163.",
+      "status": "SOURCE_AND_USER_CLARIFIED"
+    },
+    {
+      "id": "A3_CR216_retirement_preserved",
+      "statement": "QP093A-0305 remains retired from the active particle/carrier inventory.",
+      "status": "BOUNDARY"
+    },
+    {
+      "id": "A4_axis_weld_requires_independent_bridge",
+      "statement": "Shared scalar value 1 is insufficient to promote A_OPERATOR through X1_AXIS_SELF.",
+      "status": "PRECOMMITTED_GATE"
+    },
+    {
+      "id": "A5_B_contact_competitor_kept",
+      "statement": "CR269 B/contact operator remains a valid competing model and is not excluded by fiat.",
+      "status": "PRECOMMITTED_SCOPE"
+    }
+  ],
+  "non_assumptions": [
+    "A = 1",
+    "A = photon",
+    "A = p=1 support",
+    "QP093A-0305 is active",
+    "CR267 already proved the A-axis weld",
+    "non-row A makes the ledger 163"
+  ]
+}

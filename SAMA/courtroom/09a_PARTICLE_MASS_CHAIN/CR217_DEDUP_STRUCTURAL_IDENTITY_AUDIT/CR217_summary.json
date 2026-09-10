@@ -1,0 +1,87 @@
+{
+  "all_inputs_verified": true,
+  "checks_passed": 25,
+  "checks_total": 25,
+  "cr_id": "CR217",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-20T07:29:54+00:00",
+  "input_hash_verification": {
+    "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv": {
+      "expected_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545",
+      "match": true,
+      "observed_sha256": "e41016b5b6b2a4ce68bdb0cbeb1cb8502d40dac34867de690177f6f92f443545"
+    },
+    "09a_PARTICLE_MASS_CHAIN/CR215_CR214_CARRIER_NUMERIC_DUPLICATE_AUDIT/CR215_numeric_duplicate_groups.csv": {
+      "expected_sha256": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98",
+      "match": true,
+      "observed_sha256": "8d8f0461d2e54df89a57cc1d16a886efa792fa8b900c38b0c083c717bc8d8f98"
+    },
+    "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_particle_complement_194_active.csv": {
+      "expected_sha256": "01e780c0fbb315d0aaf93cc6b060ffc4c9cfd0da29ab7155b4da8ca40d444179",
+      "match": true,
+      "observed_sha256": "01e780c0fbb315d0aaf93cc6b060ffc4c9cfd0da29ab7155b4da8ca40d444179"
+    },
+    "09a_PARTICLE_MASS_CHAIN/CR216_CARRIER_DUPLICATE_RETIREMENT/CR216_retirement_ledger.csv": {
+      "expected_sha256": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610",
+      "match": true,
+      "observed_sha256": "c85b1b766435c33504ad6004f44f9aef35cf95614a78216f164b3d9ab0647610"
+    },
+    "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR060a_PAUL_REVERE_LETTER_ALPHABET_LOCK_V1/CR060a_result.md": {
+      "expected_sha256": "4ac273e8ca5539876886550590cdf7d81b776108fdef1ed9eba1adf8105d6ee8",
+      "match": true,
+      "observed_sha256": "4ac273e8ca5539876886550590cdf7d81b776108fdef1ed9eba1adf8105d6ee8"
+    },
+    "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR066a_BORN_EXTENSION_AND_LETTER_INCREMENT_V1/CR066a_runner.py": {
+      "expected_sha256": "3672beb257ea228c7f991bb33922db3e060e445a55a3238a113f7804149e24c7",
+      "match": true,
+      "observed_sha256": "3672beb257ea228c7f991bb33922db3e060e445a55a3238a113f7804149e24c7"
+    },
+    "16_THE_LAST_CAMPAIGN/LC11_BLACK_HOLE_HORIZON_THERMODYNAMIC_REPLAY/LC11_formula_manifest.csv": {
+      "expected_sha256": "a0c3eb030a7b55edf0b4fc5a28788a6560e323a4ab17611667979b917dba8069",
+      "match": true,
+      "observed_sha256": "a0c3eb030a7b55edf0b4fc5a28788a6560e323a4ab17611667979b917dba8069"
+    }
+  },
+  "mass_sums": {
+    "carrier_incl_graviton": "116",
+    "hidden_source_decimal": "47.465277777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777778",
+    "hidden_source_fraction": "6835/144",
+    "total_decimal": "163.46527777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777778",
+    "total_fraction": "23539/144"
+  },
+  "non_promotion_rule": "162 = R^2 * (9/8) is recorded as a backed identity on sealed inputs. The structural narrative is recorded as scientific_reading only. The convergence of 9/8 across CR060a, CR066a, LC11, and CR217 is recorded as three independent sealed appearances of the same ratio, not as a unified derivation in this CR.",
+  "partition_sums": {
+    "carrier_excl_graviton": "99",
+    "carrier_incl_graviton": "117",
+    "hidden_source": "45",
+    "total": "162"
+  },
+  "photon_falsifier": {
+    "carrier_partition_minus_carrier_mass_eq_1": true,
+    "photon_M_native_eq_0": true,
+    "photon_partition_eq_1": true
+  },
+  "result_class": "CR217_PASS_DEDUP_STRUCTURAL_IDENTITY_AUDIT__162_EQ_R2_NINE_EIGHTHS__163.4652778_EQ_162_PLUS_211_OVER_144__PHOTON_FALSIFIER_HOLDS__BACKED_ARITHMETIC_NOT_DERIVED_MECHANISM",
+  "sealed_constants": {
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "nine_eighths_appearances_in_sealed_courtroom": [
+      "CR060a Paul Revere alphabet: middle-slot 9/8 surcharge on 1/2 weight (turning into 9/16)",
+      "CR066a Born extension: 9/8 SURCHARGE on the middle slot",
+      "LC11 black hole horizon: bounce lift D^2/2^D = 9/8 at D=3"
+    ],
+    "two_to_minus_D": "1/8"
+  },
+  "structural_identities": {
+    "D_squared_over_2_to_D_eq_9_over_8_at_D3": true,
+    "carrier_excl_graviton_plus_hidden_eq_R_squared": true,
+    "graviton_over_R_squared_eq_2_to_minus_D": true,
+    "mass_excess_over_partition_eq_211_over_144": true,
+    "one_plus_2_to_minus_D_eq_9_over_8_at_D3": true,
+    "sum_p_squared_hidden_eq_355": true,
+    "sum_p_squared_hidden_sub_R_eq_211": true,
+    "total_partition_over_R_squared_eq_9_over_8": true
+  },
+  "test_id": "CR217_DEDUP_STRUCTURAL_IDENTITY_AUDIT"
+}

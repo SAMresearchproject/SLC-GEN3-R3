@@ -1,0 +1,119 @@
+{
+  "artifacts": {
+    "baryon_cosmology_replay": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_baryon_cosmology_replay.csv",
+    "checks": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_checks.csv",
+    "claim_boundaries": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_claim_boundaries.csv",
+    "hashes": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/HASHES.txt",
+    "layers": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_replay_layers.csv",
+    "matter_inventory_invariants": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_matter_inventory_invariants.csv",
+    "result": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_result.md",
+    "runner": "16_THE_LAST_CAMPAIGN/LC06_baryon_matter_inventory_replay_runner.py",
+    "sources_hashes": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_sources_hashes.csv",
+    "summary": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_summary.json",
+    "wrong_controls": "16_THE_LAST_CAMPAIGN/LC06_BARYON_MATTER_INVENTORY_REPLAY/LC06_wrong_controls.csv"
+  },
+  "baryon_replay": {
+    "A0": "0.026525823848649222628147293895",
+    "CR018_Omega_b": "0.049299011266100756",
+    "G313_derived_coeff": "3.0",
+    "Omega_BB_PBH_trapped": "0.26446190430295646",
+    "Omega_b": "0.04929901126610075001763238544901754615806281489273864388786666666666666666666666666666666666666666666",
+    "Omega_m_eff": "0.3137609155690572",
+    "Omega_substrate_vacuum": "0.6862390844309427",
+    "chi": "0.07073553026306459367505945038666666666666666666666666666666666666666666666666666666666666666666666668",
+    "mu_H": "2.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+  },
+  "branch_07_boundary": {
+    "CR023_result": "BOUNDARY_PASS",
+    "scope_boundaries": [
+      "not full CMB closure",
+      "not full recombination closure",
+      "not full perturbation theorem",
+      "not full TT/TE/EE theorem closure",
+      "not full Planck likelihood",
+      "not full distance-triad closure"
+    ]
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 58,
+    "total": 58
+  },
+  "epistemic_boundary": [
+    "LC06 passes the baryon and matter inventory replay from the LC01 stack.",
+    "LC06 keeps tensor carrier M=18 carrier-only and rejects carrier-as-matter closure.",
+    "LC06 preserves CR023 as BOUNDARY_PASS, not full cosmology closure.",
+    "LC06 treats governance CR114 as retroactive provenance for CR111, not a fresh forward-blind claim."
+  ],
+  "generated_utc": "2026-06-19T08:57:27+00:00",
+  "locked_primitive_stack": {
+    "A0": "1/(12*pi)",
+    "A0_decimal": "0.026525823848649222628147293895",
+    "D": 3,
+    "R": 12,
+    "R_squared": 144,
+    "alpha_H": 2,
+    "bounce_lift": "9/8",
+    "bounce_lift_decimal": "1.125000000000000000000000000000",
+    "carrier_side": "1/8",
+    "carrier_side_decimal": "0.125000000000000000000000000000",
+    "resolved_half_bounce": "9/16",
+    "resolved_half_bounce_decimal": "0.562500000000000000000000000000",
+    "retained_side": "7/8",
+    "retained_side_decimal": "0.875000000000000000000000000000",
+    "split_fraction": "1/8",
+    "split_fraction_decimal": "0.125000000000000000000000000000",
+    "surface_debit": "3/4",
+    "surface_debit_decimal": "0.750000000000000000000000000000"
+  },
+  "matter_inventory": {
+    "bin_counts": {
+      "bound_composite_rows": 63,
+      "stable_matter_rows": 63
+    },
+    "known_label_used_as_construction_input": {
+      "no": 126
+    },
+    "matter_gate_counts": {
+      "PASS_BOUND_COMPOSITE_MATTER": 63,
+      "PASS_STABLE_SINGLE_WRITE_MATTER": 63
+    },
+    "max_observed_identity_error": "0.00",
+    "max_q_split_error": "1E-96",
+    "null_conjugate_candidate": "QP093A-0088",
+    "null_conjugate_promoted_to_matter": false,
+    "operator_class_counts": {
+      "BOUND_COLOR_PAIR": 36,
+      "GROUND_BARYON_3BODY": 14,
+      "OCTET_COMPOSITE": 13,
+      "OUTER_BINARY_NEUTRAL": 21,
+      "V4_1_SINGLE_WRITE": 42
+    },
+    "rows": 126,
+    "stability_status_counts": {
+      "BOUND_COLOR_CLOSED_STABLE_CANDIDATE": 14,
+      "BOUND_PAIR_CHARGED_CANDIDATE": 42,
+      "BOUND_PAIR_NEUTRAL_CANDIDATE": 7,
+      "STABLE_MATTER_CANDIDATE": 42,
+      "STABLE_NEUTRAL_CANDIDATE": 21
+    },
+    "vault_reveal_counts": {
+      "NATIVE_MATTER_IDENTITY_ASSIGNED_NO_KNOWN_LABEL": 126
+    }
+  },
+  "pass_condition": {
+    "carrier_matter_mixing": "forbidden",
+    "constant_mutation": "forbidden",
+    "formula_mutation": "forbidden",
+    "retroactive_relabeling": "forbidden",
+    "row_deletion": "forbidden",
+    "target_value_substitution": "forbidden"
+  },
+  "result": "LC06_PASS_BARYON_AND_MATTER_INVENTORY_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+  "task_id": "LC06",
+  "task_name": "baryon and matter inventory replay",
+  "wrong_controls": {
+    "rejected": 10,
+    "tested": 10
+  }
+}

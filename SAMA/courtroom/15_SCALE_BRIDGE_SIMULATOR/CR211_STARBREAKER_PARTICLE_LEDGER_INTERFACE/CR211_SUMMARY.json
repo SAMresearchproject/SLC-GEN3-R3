@@ -1,0 +1,38 @@
+{
+  "address_rows": 162,
+  "binding_observations_opened": false,
+  "campaign_id": "CR211_STARBREAKER_PARTICLE_LEDGER_INTERFACE",
+  "gates": {
+    "G01_address_trace": true,
+    "G02_no_type_to_occurrence_promotion": true,
+    "G03_template_classes_distinct": true,
+    "G04_scalar_global_once": true,
+    "G05_infrastructure_not_payload": true,
+    "G06_same_scalar_entities_separate": true,
+    "G07_A_does_not_mutate_grammar": true,
+    "G08_structural_counts": true,
+    "G09_forbidden_fields_absent": true,
+    "G10_wrong_controls_rejected": true
+  },
+  "ledger_rows": 1,
+  "new_pdg_identity_opened": false,
+  "physical_incidence": "OPEN",
+  "physical_values_opened": false,
+  "qp_template_rows": 321,
+  "same_run_repair": false,
+  "slot_kind_counts": {
+    "carrier": 18,
+    "ledger_shadow": 18,
+    "matter": 126
+  },
+  "template_class_counts": {
+    "CARRIER": 6,
+    "PAIR": 64,
+    "REJECTED": 21,
+    "SCALAR": 1,
+    "SUPPORT": 8,
+    "TRIAD": 107,
+    "UNARY": 114
+  },
+  "verdict": "PASS_CR211_TYPED_STARBREAKER_QP_LEDGER_INTERFACE__PHYSICAL_CONTENT_MASS_BINDING_AND_DYNAMICAL_INCIDENCE_OPEN"
+}

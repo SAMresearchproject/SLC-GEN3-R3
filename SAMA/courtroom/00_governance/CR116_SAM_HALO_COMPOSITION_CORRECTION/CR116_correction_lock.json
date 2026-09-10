@@ -1,0 +1,83 @@
+{
+  "correction_id": "CR116_SAM_HALO_COMPOSITION_CORRECTION_LOCK",
+  "scope": "COURTROOM_LEVEL_CROSS_BRANCH_GOVERNANCE_HONEST_CORRECTION",
+  "sealed_at_utc": "2026-06-14T03:34:57Z",
+  "correction_class": "USER_CAUGHT_MISREAD_OF_SAM_HALO_PHYSICS_IN_THIS_SESSION",
+  "provenance_of_catch": "USER flagged during governance review immediately after CR115 was committed",
+  "what_was_misread": {
+    "incorrect_reading_1": {
+      "where": "CR110_PRED_2 (14 branch, this session)",
+      "verbatim": "PBH abundance envelope from CR109 is consistent with f_PBH = 0 reading; cumulative-A DM does not require any PBH window to host appreciable Omega_DM",
+      "what_is_wrong": "claims f_PBH ~ 0; conflates 'uniform PBH ruled out' with 'no PBH'"
+    },
+    "incorrect_reading_2": {
+      "where": "CR098a registry entry for CR110_PRED_2 (13 branch, this session)",
+      "what_is_wrong": "carries forward the incorrect CR110_PRED_2 reading"
+    },
+    "incorrect_reading_3": {
+      "where": "CR115 partial bridge (governance, this session)",
+      "what_is_wrong": "concluded 'particle PBH insufficient as halo source' when branch 08 actually shows clustered BB-origin PBH IS the halo lane"
+    }
+  },
+  "corrected_reading": {
+    "sam_halo_composition": "cumulative nonzero A field + CLUSTERED BB-origin PBHs",
+    "f_PBH_BB_origin_clustered_inventory": 0.26446190430295646,
+    "f_PBH_smooth_uniform_distribution": "near zero (ruled out by CR026 uniform-control)",
+    "halo_inventory_lane": "BB-origin PBH/trapped-A (CR023 verdict)",
+    "first_scaffold": "BB-origin PBH/trapped-A clustered mass scaffold",
+    "primary_clustering_candidate": "base12_outer_radius_over_12",
+    "primary_clustering_gap_closed": 0.8191375474184742,
+    "uniform_alternative_gap_closed": 3.8495994978147876e-05,
+    "post_bb_only_alternative_gap_closed": 0.02448481593940179,
+    "selected_route": "bb_pbh_trapped_A_first_scaffold_plus_hydrogen_catchup",
+    "PBH_to_hydrogen_mass_ratio": 5.364446416084761,
+    "median_halo_clustered_overdensity": 79090.03192365015,
+    "median_chi2_improvement_clustered": 150.7662388291606
+  },
+  "evidence_against_the_misread": {
+    "CR023_omega_pbh_at_dark_matter_scale": 0.26446190430295646,
+    "CR026_uniform_control_gap_closed_fraction": 3.8495994978147876e-05,
+    "CR026_post_bb_only_control_gap_closed_fraction": 0.02448481593940179,
+    "CR026_clustered_primary_candidate_gap_closed_fraction": 0.8191375474184742,
+    "CR027_BB_origin_PBH_clustered_mass_scaffold_is_first": true,
+    "CR027_PBH_to_hydrogen_ratio": 5.364446416084761
+  },
+  "why_microlensing_envelopes_remain_compatible": {
+    "principle": "CR109 envelope is dominantly a bound on SMOOTH/UNIFORM PBH spatial distributions; line-of-sight microlensing event statistics depend strongly on the spatial geometry assumed",
+    "implication": "clustered BB-origin PBHs - which CR026 shows is the SAM lane - evade smooth-distribution bounds; the smooth-distribution f_PBH envelope is NOT a refutation of clustered PBH at f ~ Omega_DM",
+    "honest_open_debt": "a clustered-PBH-aware microlensing analysis is the natural future test; if such an analysis tightens bounds below the CR023 clustered inventory, that would be a structural problem"
+  },
+  "corrected_forward_blind_reading_for_future_registry": {
+    "id": "CR116_CORRECTED_PRED_2",
+    "statement": "Galactic halo = cumulative nonzero A field + CLUSTERED BB-origin PBHs at f_PBH ~ Omega_PBH/Omega_DM (CR023 omega_pbh ~ 0.265). Compatible with CR109 microlensing envelope BECAUSE the envelope constrains smooth distributions; clustered PBHs evade these bounds.",
+    "falsification_criterion_set": [
+      "a verified non-clustered (smooth/uniform) PBH detection at f_PBH ~ Omega_DM would falsify",
+      "a clustered-PBH-aware microlensing envelope tightening below SAM clustered inventory would falsify",
+      "any halo derivation that requires zero PBH inventory and also closes SPARC residual + scaffold + hydrogen catchup would falsify the BB-origin-PBH-first reading"
+    ],
+    "free_parameters": 0,
+    "status_at_this_CR": "REGISTERED_AS_HONEST_CORRECTION_AWAITING_FUTURE_REGISTRY_ENTRY"
+  },
+  "explicit_status_update_to_prior_appeal_rows": {
+    "CR098a_CR110_PRED_2_registry_row": "INCORRECT_AS_WRITTEN_SUPERSEDED_BY_CR116_CORRECTION",
+    "CR115_CR110_PRED_2_appeal_row": "BRIDGE_VERDICT_INCORRECT_PARTICLE_PBH_INSUFFICIENT_SUPERSEDED_BY_CR116",
+    "CR115_CR110_PRED_1_appeal_row": "BRIDGE_PARTIAL_STATEMENT_REMAINS_CORRECT_FOR_CLUSTERED_PROFILE_BUT_REINTERPRETATION_OF_PBH_COMPONENT_APPLIES",
+    "all_prior_artifacts_remain_immutable": true
+  },
+  "upstream_sha256": {
+    "CR022_summary.json": "d342cf25d4fa3dfd3496c1fab27ccb855eda100abc07931efb5960741f7292ec",
+    "CR023_summary.json": "a59d73dc2c0c40443c12976551f036dd9045474edf91d7b8f0b112e73cd4064d",
+    "CR024_summary.json": "9688c421c88f0adbf26478a54bbc35d6d81f40b3f875ef326f7ef101a30b3fad",
+    "CR025_summary.json": "5387ad567c098862152dcfadb96881125eac45ef79378cac532c97d9fbe7920e",
+    "CR026_summary.json": "0d9d072cdc1ce8dec7940085d51b87331c80edb2629cfc5609edf6ac055ae3c2",
+    "CR027_summary.json": "dceb3afae107c12057acdedfb611b82ab37864f6a561617651e508c73fb4bc0f",
+    "CR030_summary.json": "ecb113a122f78965315e1c630efc16e93083b2194a161f3ee01111cd653385fc",
+    "CR109_pbh_anchor.json": "8594e7025ffe9b92bd3592bf80195385347059b66973a51e3b6e128c760ace86",
+    "CR110_three_mode_appeal_lock.json": "6f85af05104c0ee7ec4ff6ecd1dd706d065f8942492eb0a8efdaeee6d84cce8b",
+    "CR098a_phase_2_forward_blind_registry.csv": "e867f2ba8e4e4aed27ed517dbe812d0cb0f9e72b3b6baaca73e876a5a1287986",
+    "CR115_galaxy_pbh_bridge.json": "e193d8ec8179e6bc2c4fa88a4623bc28fe7e9e4e2c0162f096eac77c4f521b9c",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "modifies_no_prior_artifact": true,
+  "free_parameters_total": 0
+}

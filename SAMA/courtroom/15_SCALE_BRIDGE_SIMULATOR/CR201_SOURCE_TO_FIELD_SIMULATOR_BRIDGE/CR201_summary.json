@@ -1,0 +1,87 @@
+{
+  "result_class": "CR201_PASS_SOURCE_TO_FIELD_SIMULATOR_BRIDGE",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "SIMULATOR_SOURCE_TO_FIELD_BRIDGE",
+  "question": "Can the source ledger feed field inventory without changing q_A grammar or adding a parameter?",
+  "pass_conditions": {
+    "source_gate_pass": true,
+    "not_audit_or_retest": true,
+    "no_free_parameters": true,
+    "particle_rows_imported": true,
+    "qa_source_rows_emitted": true,
+    "qa_source_formula_exact": true,
+    "source_bridge_within_tolerance": true,
+    "composite_binding_within_tolerance": true,
+    "wrong_controls_passed": true
+  },
+  "evidence_rows": [
+    {
+      "key": "result_class",
+      "value": "PASS_G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE",
+      "note": "source G-test result"
+    },
+    {
+      "key": "particle_rows_imported",
+      "value": 26,
+      "note": "QP075 particle rows imported by G750c"
+    },
+    {
+      "key": "source_rows_emitted",
+      "value": 7,
+      "note": "active q_A source rows"
+    },
+    {
+      "key": "ratio_spread_fractional",
+      "value": 0.003286777770728273,
+      "note": "must be within declared tolerance"
+    },
+    {
+      "key": "wrong_controls",
+      "value": "6/6",
+      "note": "all source-strength controls labeled"
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified the claim that q_A = m * (1 + r_bounce) can bridge particle source rows into field inventory rows with zero new parameters and with the declared wrong controls rejected.",
+  "notes": [
+    "Courtroom export reads frozen G750c artifacts and does not overwrite the G750c verdict."
+  ],
+  "test_id": "CR201",
+  "generated_at_utc": "2026-06-14T04:04:01.547846+00:00",
+  "all_pass_conditions_true": true,
+  "source_artifacts": [
+    {
+      "source_id": "summary",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\G750c_summary.json",
+      "role": "source_gate_summary",
+      "sha256": "2644aeec4adc93d2b772313edbb6a6157d5438d896829ff98849d659933f8d20",
+      "bytes": 1337,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "qa_ledger",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\G750c_qA_source_ledger.csv",
+      "role": "qA_source_rows",
+      "sha256": "d8651babe939ad2e220df2adf9a94d03b1bab2e5c86403873717365633a3200e",
+      "bytes": 1257,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "particle_ledger",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\G750c_particle_route_ledger.csv",
+      "role": "particle_route_rows",
+      "sha256": "709a284e27a19cdfdabc51fbc64d2963fb89067631d265e25d22d5cef0edd29c",
+      "bytes": 7924,
+      "used_as_computed_input": true
+    },
+    {
+      "source_id": "wrong_controls",
+      "path": "C:\\VS\\sam_sim\\artifacts\\G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE\\G750c_wrong_controls.csv",
+      "role": "wrong_controls",
+      "sha256": "6f1a75b415f032ab65614666bbf3a1a12a1ee06c4add7ed550cd45d5c20710d6",
+      "bytes": 1068,
+      "used_as_computed_input": true
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "eb75b5235433d43efaf9b41e2bbb3c48917d4c5c",
+      "bytes": 1387,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_PRECOMMIT.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_PRECOMMIT.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json",
+      "mode": "100644",
+      "git_blob": "d5c9e13af50c91156859ae51cd82f3f25ffe8293",
+      "bytes": 1928,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json.sha256.txt",
+      "mode": "100644",
+      "git_blob": "3b7a786f124b53bc314058181ba52f45466c5178",
+      "bytes": 65,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_cern_anchor_envelope.json.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_evidence_rows.csv",
+      "mode": "100644",
+      "git_blob": "83df6b0efa4bb7bbfbd665cf46d8d5233bd4f394",
+      "bytes": 1752,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_evidence_rows.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_evidence_rows.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_evidence_rows.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_evidence_rows.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_prediction_commit.json",
+      "mode": "100644",
+      "git_blob": "2febc7c60f098b97aa6f9541f7a9463043842fb0",
+      "bytes": 373,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_prediction_commit.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_prediction_commit.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_prediction_commit.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_prediction_commit.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_predictions.csv",
+      "mode": "100644",
+      "git_blob": "afd8f1287ba68e9c19bdafcc37a8015e1322d7d9",
+      "bytes": 176,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_predictions.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_predictions.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_predictions.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_result.md",
+      "mode": "100644",
+      "git_blob": "a6692d8ec016aadb2fae53724f378a2a146c0d4b",
+      "bytes": 1499,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_runner.py",
+      "mode": "100644",
+      "git_blob": "48c33d2bb301158aa1360c865d7abae1fdb56a20",
+      "bytes": 8620,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_summary.json",
+      "mode": "100644",
+      "git_blob": "5162611502868cea13664166ed5bbf63d982bb24",
+      "bytes": 1011,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR092_HIGGS_SECTOR/CR092_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR092@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

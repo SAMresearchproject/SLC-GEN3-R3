@@ -1,0 +1,5 @@
+id,description,expected_final,observed_final,wc_pass,cum_writes_A,cum_writes_B
+WC-1,skip B on control (no flip; control α_H stays 0),"(9, 0, 'resolved', 4, 0, 'resolved')","(9, 0, 'resolved', 4, 0, 'resolved')",True,128,128
+WC-2,B(A) AFTER 𝒞 (𝒞 reads control α_H=0 before flip),"(9, 1, 'resolved', 4, 0, 'resolved')","(9, 1, 'resolved', 4, 0, 'resolved')",True,192,128
+WC-3,"swap control/target (𝒞 with control=B, target=A)","(9, 1, 'resolved', 4, 0, 'resolved')","(9, 1, 'resolved', 4, 0, 'resolved')",True,192,128
+WC-4,apply 𝒞 twice (𝒞² = identity on joint state),"(9, 1, 'resolved', 4, 0, 'resolved')","(9, 1, 'resolved', 4, 0, 'resolved')",True,256,192

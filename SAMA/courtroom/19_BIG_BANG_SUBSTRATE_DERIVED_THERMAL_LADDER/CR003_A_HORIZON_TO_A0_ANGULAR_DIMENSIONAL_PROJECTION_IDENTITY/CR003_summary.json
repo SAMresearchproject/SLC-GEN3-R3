@@ -1,0 +1,161 @@
+{
+  "precommit_sha256": "27603dd611afe5ed48fc24709126a58e6553b390a961fe06c4aec59a6ae3b658",
+  "substrate": {
+    "A_horizon": 1,
+    "alpha_H": 2,
+    "D": 3,
+    "R": 12,
+    "angular_4pi": 12.566370614359172
+  },
+  "closed_form_results": {
+    "A_0_via_projection": 0.026525823848649224,
+    "A_0_sealed_value": 0.026525823848649224,
+    "Omega_m_via_coupling": 0.3183098861837907,
+    "Omega_m_invariant_form": "alpha_H/(2*pi)"
+  },
+  "P1": {
+    "name": "A_0 angular-dimensional projection identity",
+    "path_A_direct": 0.026525823848649224,
+    "path_B_sealed": 0.026525823848649224,
+    "path_C_symbolic": 0.026525823848649224,
+    "max_relative_deviation": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  "P2": {
+    "name": "R*A_0 coupled-constant density identity",
+    "path_A_explicit": 0.3183098861837907,
+    "path_B_reduced": 0.3183098861837907,
+    "path_C_direct": 0.3183098861837907,
+    "max_relative_deviation": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  "P3": {
+    "name": "Horizon unit-closure identity A(r=r_s) = 1",
+    "tests": [
+      {
+        "label": "r_s = 1 (unit)",
+        "r_s": 1.0,
+        "A": 1.0,
+        "abs_dev": 0.0
+      },
+      {
+        "label": "r_s ~ 2950 m (Sun)",
+        "r_s": 2950.0,
+        "A": 1.0,
+        "abs_dev": 0.0
+      },
+      {
+        "label": "r_s = 1e30 m",
+        "r_s": 1e+30,
+        "A": 1.0,
+        "abs_dev": 0.0
+      }
+    ],
+    "max_abs_deviation": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  "E1_D_sensitivity": [
+    {
+      "D": 2,
+      "A_0": 0.039788735772973836,
+      "R": 8,
+      "R_A0": 0.3183098861837907,
+      "matches_Omega_m": true
+    },
+    {
+      "D": 3,
+      "A_0": 0.026525823848649224,
+      "R": 12,
+      "R_A0": 0.3183098861837907,
+      "matches_Omega_m": true
+    },
+    {
+      "D": 4,
+      "A_0": 0.019894367886486918,
+      "R": 16,
+      "R_A0": 0.3183098861837907,
+      "matches_Omega_m": true
+    },
+    {
+      "D": 5,
+      "A_0": 0.015915494309189534,
+      "R": 20,
+      "R_A0": 0.3183098861837907,
+      "matches_Omega_m": true
+    }
+  ],
+  "E2_A_ramp_outside_closure": [
+    {
+      "r_over_rs": 1.0,
+      "A": 1.0
+    },
+    {
+      "r_over_rs": 2.0,
+      "A": 0.5
+    },
+    {
+      "r_over_rs": 5.0,
+      "A": 0.2
+    },
+    {
+      "r_over_rs": 10.0,
+      "A": 0.1
+    },
+    {
+      "r_over_rs": 100.0,
+      "A": 0.01
+    },
+    {
+      "r_over_rs": 1000.0,
+      "A": 0.001
+    }
+  ],
+  "E3_bridge_chain": [
+    {
+      "label": "full local closure",
+      "expr": "A_horizon = 1",
+      "value": 1.0
+    },
+    {
+      "label": "angular/dim projection",
+      "expr": "A_0 = 1/(4*pi*D)",
+      "value": 0.026525823848649224
+    },
+    {
+      "label": "cosmic background seed",
+      "expr": "A_0 = 1/(12*pi)",
+      "value": 0.026525823848649224
+    },
+    {
+      "label": "radix coupling",
+      "expr": "R = 2*alpha_H*D = 12",
+      "value": 12.0
+    },
+    {
+      "label": "matter density identity",
+      "expr": "Omega_m = R*A_0 = 1/pi",
+      "value": 0.3183098861837907
+    },
+    {
+      "label": "substrate carrier ratio",
+      "expr": "chi = (S/D)*A_0 = 2/(9*pi)",
+      "value": 0.0707355302630646
+    },
+    {
+      "label": "baryon density identity",
+      "expr": "Omega_b = 2*A_0*(1-chi)",
+      "value": 0.049299011266100756
+    },
+    {
+      "label": "Lambda density identity",
+      "expr": "Omega_Lambda = (pi-1)/pi",
+      "value": 0.6816901138162094
+    }
+  ],
+  "E4_reframing": "The r_s surface where A=1 is the full local closure of the substrate accumulation; the 'black hole' label is observational labeling and not part of the substrate identity.",
+  "verdict": "PASS",
+  "verdict_reason": "P1, P2, P3 all hold to machine precision; A_horizon = 1 projects through 4*pi*D at D=3 into the sealed A_0 = 1/(12*pi), and R*A_0 = 1/pi is invariant under D when R = 2*alpha_H*D."
+}

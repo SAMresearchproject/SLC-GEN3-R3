@@ -1,0 +1,39 @@
+{
+  "artifact": "QP091F_TERMINAL_PHASE_SPACE_INTEGRATOR",
+  "generated_at_utc": "2026-06-14T22:35:08.346476+00:00",
+  "result_class": "PASS_QP091F_PHASE_SPACE_DOMAIN_SURFACE_EMITTED__BOUNDARY_NORMALIZATION_WIDTHS_BRANCHING_OPEN",
+  "passed": true,
+  "execution_status": "CLEAN",
+  "test_type": "FORWARD_NATIVE_TERMINAL_PHASE_SPACE_DOMAIN_INTEGRATOR",
+  "campaign": "closure_campaign08",
+  "target_domains_emitted": 6,
+  "target_domains_total": 6,
+  "threshold_window_rows": 8,
+  "offshell_window_integral_rows": 4,
+  "hzz4l_terminal_windows_MeV": {
+    "4e": "34055.456208",
+    "2e2mu": "33845.106104",
+    "4mu": "33634.756000"
+  },
+  "hzz4l_window_fraction_of_ceiling": {
+    "4e": "0.999940",
+    "2e2mu": "0.993764",
+    "4mu": "0.987587"
+  },
+  "numeric_amplitudes_derived": false,
+  "amplitude_squared_derived": false,
+  "partial_widths_derived": false,
+  "branching_ratios_derived": false,
+  "observed_decay_data_used": false,
+  "forbidden_external_inputs_used": false,
+  "free_parameters_introduced": 0,
+  "hww_offshell_window_frozen": false,
+  "hgg_restored": false,
+  "full_electroweak_theorem_claimed": false,
+  "checks_passed": 14,
+  "checks_total": 14,
+  "wrong_controls_rejected": 8,
+  "wrong_controls_total": 8,
+  "scientific_reading": "QP091F emits the native terminal phase-space surface. The HZZ4l branch now has three explicit off-shell window measures under the QP091 Zstar ceiling: 4e is widest, 2e2mu is slightly narrower, and 4mu is narrower again. This is a phase-space accessibility ordering, not a branching-ratio result.",
+  "next_frontier": "QP091G_HZZ4L_FULL_CANDIDATE_AMPLITUDE"
+}

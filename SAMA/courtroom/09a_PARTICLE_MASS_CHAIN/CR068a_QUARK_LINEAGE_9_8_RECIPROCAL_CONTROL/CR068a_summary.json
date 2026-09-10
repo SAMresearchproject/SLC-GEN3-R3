@@ -1,0 +1,116 @@
+{
+  "cr_id": "CR068a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "extends_anchor": "CR091a (Z residual closure appeal) -> CR067a (WZH intake)",
+  "test_class": "STRUCTURAL_CONTROL_9_OVER_8_RECIPROCAL_ACROSS_QUARK_LINEAGE",
+  "execution_status": "CLEAN",
+  "result_class": "CR068a_QUARK_LINEAGE_9_8_RECIPROCAL_CONTROL_PASS",
+  "control_lock_sha256": "33e655f491d85e19685451da1370c84bb8ef59354af93ae860b038297dfa5c06",
+  "upstream_hashes": {
+    "qp075_role_operator_closure_table.csv": "3190df06e7ff3bfd8a166b8554b2a2578542715566377df2df285b83e2c67d78",
+    "qp075_summary.json": "3711b1457165b6a748767b809e83b64429acc8a57702e2628b613f780a5dae9d",
+    "CR067a_wzh_anchor.json": "2e18cfe53ecb0f3033c179641814e8d30371a4ae32604defe38e880b5ae3258e",
+    "CR091a_appeal_lock.json": "cbb7e8411b17fc788f9266f615d4a7401ecb04b7b4c893b4f2b74605b0248ff0"
+  },
+  "D": 3,
+  "full_cell_9_over_8": 1.125,
+  "reciprocal_8_over_9": 0.8888888888888888,
+  "quark_bearing_row_count": 15,
+  "flavor_coverage_counts": {
+    "u": 6,
+    "d": 5,
+    "s": 3,
+    "c": 5,
+    "b": 5,
+    "t": 4
+  },
+  "predictions": [
+    {
+      "name": "P1_all_quark_bearing_rows_zero_free_parameters",
+      "pass": true,
+      "details": {
+        "quark_bearing_row_count": 15,
+        "rows_with_nonzero_free_parameters": []
+      }
+    },
+    {
+      "name": "P2_full_cell_9_over_8_is_structural_D_squared_over_2_to_D_at_D_3",
+      "pass": true,
+      "details": {
+        "D": 3,
+        "D_squared_over_2_to_D": 1.125,
+        "exact_9_over_8": 1.125,
+        "delta": 0.0,
+        "interpretation": "9/8 emerges from D=3 dimension; not a fit parameter"
+      }
+    },
+    {
+      "name": "P3_reciprocal_8_over_9_is_structural_2_to_D_over_D_squared_at_D_3",
+      "pass": true,
+      "details": {
+        "D": 3,
+        "2_to_D_over_D_squared": 0.8888888888888888,
+        "exact_8_over_9": 0.8888888888888888,
+        "delta": 0.0
+      }
+    },
+    {
+      "name": "P4_full_cell_times_reciprocal_equals_unity",
+      "pass": true,
+      "details": {
+        "product": 1.0,
+        "interpretation": "(9/8) * (8/9) = 1 confirms reciprocal pairing across D=3 lineage"
+      }
+    },
+    {
+      "name": "P5_all_six_quark_flavors_appear_in_quark_bearing_rows",
+      "pass": true,
+      "details": {
+        "u": 6,
+        "d": 5,
+        "s": 3,
+        "c": 5,
+        "b": 5,
+        "t": 4
+      }
+    },
+    {
+      "name": "P6_qp075_campaign_zero_free_parameters_global",
+      "pass": true,
+      "details": {
+        "qp075_free_parameters_introduced": 0,
+        "qp075_closure_table_rows": 35,
+        "qp075_role_operator_table_rows": 26
+      }
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_row_uses_fitted_9_over_8_multiplier",
+      "pass": true,
+      "details": "verified by P1; equivalent reading"
+    },
+    {
+      "name": "WC2_D_is_not_scanned_or_fit",
+      "pass": true,
+      "details": "D=3 fixed throughout the framework (substrate dimensionality); not scanned in QP075"
+    },
+    {
+      "name": "WC3_control_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "control_sha256": "33e655f491d85e19685451da1370c84bb8ef59354af93ae860b038297dfa5c06"
+      }
+    },
+    {
+      "name": "WC4_reciprocal_8_over_9_not_used_as_fitted_correction",
+      "pass": true,
+      "details": "no row in QP075 carries an 8/9 multiplier; reciprocal emerges only as structural identity"
+    }
+  ],
+  "next_courtroom_step": "Phase 2: CR107 (SPARC) -> CR108 (Planck Omega_b) -> CR109 (PBH) -> CR110/CR111 closure appeals",
+  "open_debts": [
+    "Citation verification pending for quark-bearing rows in QP075",
+    "Phase 2 (Earth/Galaxy/PBH/baryon) opens in 14_FOUNDATIONAL_TESTS branch"
+  ]
+}

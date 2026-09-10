@@ -1,0 +1,92 @@
+{
+  "campaign_id": "CR005d_STARBREAKER_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_BRIDGE",
+  "task": "Build prospective time-resolved Starbreaker source dynamics and carrier-to-wave bridge",
+  "branch": "21_GRAVITATIONAL_WAVES",
+  "record_class": "CONSTRUCTIVE_CONTINUOUS_DYNAMICS_AND_SOURCE_BRIDGE",
+  "objective": "Lift the frozen three-state Starbreaker trajectory surface into a zero-fit continuous spherical flow, retest the source-native escape-before-closure inequality, and construct the first dimensionless trace-free carrier quadrupole source coupled to the sealed 3/8 real and 4/45 damping QNM kernel.",
+  "source_use": "CR005, CR005b, CR005c, and the frozen Starbreaker roster are constructive inputs. No predecessor verdict is audited or overwritten.",
+  "continuous_flow": {
+    "clock": "dimensionless Starbreaker structural phase t in [0,2]",
+    "collapse_phase": "For t in [0,1], r(t)=r0*exp(t*ln(rc/r0)) with fixed spherical angles; the zero-radius limit is handled continuously.",
+    "bounce_event": "t=1 is an explicit velocity-changing bounce impulse, not a resolved microphysical shock thickness.",
+    "release_phase": "For s=t-1 in [0,1], r(s)=rc+s*(r1-rc), theta(s)=thetac+s*(theta1-thetac), and phi(s)=phic+s*wrap(phi1-phic) on the shortest azimuthal branch.",
+    "endpoint_rule": "The flow must reproduce seed, collapse, and final source coordinates to absolute error <= 1e-12.",
+    "fit_parameters": 0,
+    "physical_seconds": false
+  },
+  "timing_surface": {
+    "relation_radius": 0.076,
+    "escape_histories": ["010", "110"],
+    "closure_history": "101",
+    "primary_unit": "unique (scenario_id, carrier_atom_index)",
+    "tau_escape": "earliest outward continuous-flow crossing among post-collapse 010/110 carrier-matter relations",
+    "tau_closure": "earliest inward continuous-flow crossing among 101 carrier-matter relations",
+    "root_rule": "Earliest direction-compatible bracket on a frozen 32-bin scan followed by 40 bisection steps.",
+    "root_control": "A deterministic prefix of up to 256 transitions per scenario is repeated with 64 scan bins; max absolute root difference must be <= 1e-9."
+  },
+  "timing_evidence_ladder": {
+    "strong": "All six geometry-by-door cells have more than 50 percent of dual carriers with tau_escape < tau_closure and positive median closure-minus-escape margin.",
+    "directional": "Overall fraction exceeds 50 percent, both geometry medians are positive, and at least four of six geometry-by-door cells exceed 50 percent.",
+    "boundary": "The continuous source flow is constructed but the ordering is not stable enough for promotion."
+  },
+  "carrier_source_tensor": {
+    "carrier_weight": "one unit per typed carrier occurrence; no matter-mass or energy calibration",
+    "tensor": "Q_ab(t)=sum_i[x_i,a*x_i,b-delta_ab*r_i^2/3]",
+    "source": "S_ab=d^2 Q_ab/dt^2",
+    "power_proxy": "P_Q=integral ||d^3 Q/dt^3||_F^2 dt",
+    "coherence_gain": "P_Q divided by the sum of the individual-carrier P_Q values; the denominator is the exact Rademacher-sign incoherent expectation.",
+    "populations": {
+      "all_carriers": "all typed carriers in one scenario",
+      "escape_only": "at least one 010/110 release and no 101 return",
+      "return_only": "at least one 101 return and no 010/110 release",
+      "dual": "both post-collapse ending-zero release and 101 return"
+    },
+    "grid": "primary 2L=324 equal post-bounce intervals; convergence control L=162 intervals",
+    "qnm_kernel": "g(u)=exp(-(4/45)u)*sin((3/8)u)/(3/8)",
+    "qnm_output": "dimensionless unit-clock response candidate from discrete causal convolution of S_ab with g",
+    "physical_strain": false
+  },
+  "wave_source_ladder": {
+    "strong": "The source construction and convergence gates pass; escape_only median coherence_gain exceeds 1 in both geometries and at least four of six geometry-by-door cells; escape_only median per-carrier power exceeds return_only in at least four cells with both populations.",
+    "constructed": "The trace-free source and QNM response are finite, nonzero, converged, and population-separated, but the strong directional separation gates do not all pass.",
+    "fail": "A source identity, trace-free, convergence, finite-value, zero-input, or sealed-QNM-coefficient gate fails."
+  },
+  "controls": [
+    "all frozen source hashes match before and after execution",
+    "exact 96-scenario, 482112-atom, and 18/126/18 per-ledger typing roster",
+    "exact carrier-matter history reconstruction",
+    "all three stored states are reproduced by the continuous flow",
+    "continuous roots have the requested direction and pass the 64-bin prefix convergence control",
+    "rigid rotation and global translation preserve timing on a deterministic prefix",
+    "radial-only release is not numerically identical to the spherical-flow release when source azimuth changes",
+    "Q is trace free to numerical tolerance",
+    "coarse/fine all-carrier power and response medians agree within 5 percent",
+    "zero source yields zero QNM response and an analytic impulse yields the sealed kernel",
+    "omega_R=3/8 and omega_I=4/45 are read exactly from sealed CR005/CR005b artifacts",
+    "no seconds, strain, luminosity, distance, detector observable, signal speed, fitted parameter, or SAM registry mutation"
+  ],
+  "claim_ceiling": {
+    "may_establish": [
+      "a prospective zero-fit continuous kinematic Starbreaker flow in structural phase time",
+      "whether escape-before-closure survives curved continuous trajectories",
+      "a dimensionless trace-free carrier quadrupole source surface",
+      "a conditional unit-clock response using the sealed 3/8 and 4/45 QNM kernel",
+      "whether ending-zero-only and returned-only carrier populations separate on source power and coherence"
+    ],
+    "may_not_establish": [
+      "physical time in seconds or a derived time-to-matter-creation law",
+      "a relativistic stress-energy tensor, Einstein-equation solution, event horizon, or causal speed",
+      "physical gravitational-wave strain, luminosity, spectrum, or detector forecast",
+      "that carriers are gravitons or that X1 has been physically identified",
+      "a universal law independent of the frozen Starbreaker source model"
+    ]
+  },
+  "verdict_ladder": {
+    "full": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_DIRECTIONAL_BRIDGE__PHYSICAL_SCALE_OPEN",
+    "dynamics_and_source": "PASS_CONTINUOUS_STARBREAKER_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__SOURCE_SEPARATION_OPEN",
+    "directional_dynamics": "PASS_DIRECTIONAL_CONTINUOUS_FLOW_ESCAPE_BEFORE_CLOSURE__CARRIER_QNM_SOURCE_CONSTRUCTED__PHYSICAL_SCALE_OPEN",
+    "boundary": "BOUNDARY_CONTINUOUS_FLOW_AND_CARRIER_QNM_SOURCE_CONSTRUCTED__ESCAPE_CLOSURE_ORDER_NOT_STABLE",
+    "fail": "FAIL_CONTINUOUS_STARBREAKER_DYNAMICS_OR_CARRIER_QNM_SOURCE_CONSTRUCTION"
+  },
+  "same_run_repair_allowed": false
+}

@@ -1,0 +1,37 @@
+{
+  "cr_id": "CR104",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "GATE_3_PARTIAL_CLOSURE_VIA_EQUIVALENCE_PRINCIPLE_CONSISTENCY_PLUS_11_OVER_12_FORWARD_BLIND",
+  "execution_status": "CLEAN",
+  "result_class": "PARTIAL_CLOSURE_K_A_H_CONSISTENT_AT_TESTED_A_RANGE_11_OVER_12_FORWARD_BLIND",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "subject_gate": "GATE_3",
+  "sam_committed_form": "K(A_H) self-correction; EP_violation = 0 for A < 11/12",
+  "live_anchor_count": 8,
+  "honest_negative_count": 3,
+  "honest_negative_correctly_gated_count": 3,
+  "row_label_counts": {
+    "AGREEMENT_WITHIN_ANCHOR_1_SIGMA": 8,
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": 2,
+    "REJECTED_AT_GATE_R_RESIDUAL": 1
+  },
+  "A_max_tested": 0.5,
+  "spaghettification_threshold_A": 0.9166666666666666,
+  "gap_to_threshold_A": 0.41666666666666663,
+  "tightest_live_anchor_experiment": "Al+ optical clock NIST 2010",
+  "tightest_live_anchor_precision": 5.8e-19,
+  "prediction_commit_sha256": "86855e29851b3843ff24790465a3ba7a8b4f702d2432d122998d8f4d51e16ed3",
+  "prediction_commit_utc": "2026-06-13T22:57:08Z",
+  "anchor_envelope_sha256": "91d425b692d9477af5b1c98dbb5893d178758376adc5a40a5d38757eb8fb6d9d",
+  "anchor_envelope_open_utc": "2026-06-13T22:57:08Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "upstream_CR103a_appeal_lock_sha256": "f247211b34de740039b934bb5938baba1d84c0a4f92718aeecaa189eb21eefa8",
+  "open_debts": [
+    "Anchor citation_verification_status PENDING; curator promotion required",
+    "BLINDNESS_PROTOCOL sha256 sibling pending",
+    "14 branch seal sha256 sibling pending",
+    "Functional form of K(A_H) at finite A remains upstream-SAM open work",
+    "11/12 forward-blind prediction unprobed by current data; new appeal rows registered when LIGO/Virgo, TDE, or EHT data reach the regime"
+  ]
+}

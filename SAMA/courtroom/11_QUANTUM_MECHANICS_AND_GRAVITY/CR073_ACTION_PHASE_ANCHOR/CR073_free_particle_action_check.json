@@ -1,0 +1,17 @@
+{
+  "patterns_checked": [
+    "G286_*",
+    "G285_*",
+    "G284_*",
+    "*free_particle_action*",
+    "*free_particle_phase*",
+    "*plane_wave_phase*"
+  ],
+  "matching_directories": [
+    "C:/VS/Stam_model-A-v1.0/tests/Substrate/G284_universal_phase_promotion",
+    "C:/VS/Stam_model-A-v1.0/tests/Substrate/G285_spatial_phase_substrate_count",
+    "C:/VS/Stam_model-A-v1.0/tests/Substrate/G286_free_particle_action_count"
+  ],
+  "count": 3,
+  "status": "free_particle_action_test_present"
+}

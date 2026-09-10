@@ -1,0 +1,64 @@
+{
+  "cr_id": "CR032",
+  "branch": "08_GALAXY_HALOS_BB_PBH_TRAPPED_A",
+  "title": "SAM_NATIVE_PER_GALAXY_HALO_MASS_DERIVATION",
+  "precommit_sha256": "a0af5e891c5e8f2448e26ead9c9aa80686529f3eb8328db2e7c2b615d898533e",
+  "stewardship_sha256": "d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88",
+  "naming_canon_sha256": "35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8",
+  "patent_claim_register_sha256": "db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1",
+  "substrate_inputs_zero_catalog_fit": {
+    "X_inf": 3.18,
+    "X_inf_source": "CR025 outer dark-fraction median; confirmed CR031b at p < 0.001",
+    "G_kpc_kms2_per_Msun": 4.30091e-6
+  },
+  "measurement_inputs_external_not_catalog_fit": {
+    "Upsilon_disk": 0.5,
+    "Upsilon_bul": 0.7,
+    "Vbar2_formula": "V_gas * |V_gas| + Upsilon_disk * V_disk^2 + Upsilon_bul * V_bul^2"
+  },
+  "load_bearing_prediction": {
+    "P1": {
+      "name": "Population median agreement between sealed M_halo prediction and measured M_halo",
+      "formula_sealed": "M_halo_sealed = R_outer * X_inf * V_bar^2(R_outer) / G",
+      "formula_measured": "M_halo_measured = R_outer * V_dark^2(R_outer) / G  (V_dark^2 = max(V_obs^2 - V_bar^2, 0))",
+      "condition": "|median(log10(M_halo_sealed / M_halo_measured))| <= 0.05",
+      "linear_bound": "[0.891, 1.122]"
+    }
+  },
+  "reported_evidence_not_gates": {
+    "E1": "Mean offset and standard deviation of log10(ratio)",
+    "E2": "Per-galaxy c_SAM = 1/rho_{1/2} distribution",
+    "E3": "Per-galaxy rho_{1/2}, rho_{90} distributions",
+    "E4": "Configuration class counts per the galaxy_mass_derivation.pdf taxonomy",
+    "E5": "f_halo,inf = X_inf/(1+X_inf) identity check against CR025 sealed value 0.7607",
+    "E6": "Per-class galaxy headlines (representative galaxies per configuration class)"
+  },
+  "reported_null_distributions_not_gates": {
+    "WC1": {
+      "description": "1000 random X_inf in [0.1, 10.0]; seeds 0..999",
+      "metric": "|median(log10(M_halo_sealed / M_halo_measured))|",
+      "extreme_direction": "smaller is better (closer to zero)",
+      "report": "null distribution stats, canonical percentile, one-sided p-value"
+    },
+    "WC2": {
+      "description": "1000 V_bar(R_outer) permutations across galaxies; seeds 1000..1999",
+      "metric": "|median(log10(M_halo_sealed_with_shuffled_Vbar / M_halo_measured))|",
+      "extreme_direction": "smaller is better",
+      "report": "null distribution stats, canonical percentile, one-sided p-value"
+    }
+  },
+  "verdict_ladder_first": {
+    "PASS": "P1 holds under canonical substrate inputs",
+    "FAIL": "P1 fails",
+    "BOUNDARY": "Reserved for marginal P1 (within 20% of threshold) with explicit scope caveat; not used for auxiliary evidence misses"
+  },
+  "implementation_discipline": {
+    "no_per_galaxy_fitting": true,
+    "no_Upsilon_adjustment": true,
+    "no_per_galaxy_X_inf_adjustment": true,
+    "all_SPARC_galaxies_with_3_or_more_points_and_Router_gt_0": true,
+    "trial_seeds": "WC1: 0..999, WC2: 1000..1999",
+    "p_value_formula": "(n_extreme + 1) / (n_trials + 1) one-sided exact permutation"
+  },
+  "rule_9_falsifier": "The claim that SAM-native halo mass formula with sealed X_inf = 3.18 reproduces measured halo mass at outer SPARC radii at population median to within +/- 12% of unity, with zero per-galaxy fitting."
+}

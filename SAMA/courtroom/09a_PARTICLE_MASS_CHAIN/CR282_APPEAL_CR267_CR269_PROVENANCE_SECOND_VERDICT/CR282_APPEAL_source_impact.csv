@@ -1,0 +1,5 @@
+source,sealed_input,appeal_impact,current_typed_status
+CR282,BOUNDARY_A_OPERATOR_ROW_TRACE_PASS_AXIS_SELF_WELD_OPEN,Preserved as correct for the narrow direct A-through-X1 claim.,historical row trace PASS; direct A-to-X1 OPEN
+CR267,9 = 8 + 1 with +1 = axis self-coupling / axis fee,Provides the typed closure witness and names the categorical +1.,X1 axis-fee witness PASS
+CR269,"B : R^2 -> (M, Theta_out), release fraction 1/8 matches CR267 axis fee",Promotes B/contact from mere competitor to positive provenance for the write/contact bridge.,B/contact-to-X1 bridge PASS
+CR256,A-field is a non-row substrate operator over the ledger,Keeps A admissible as non-row without row inflation; does not identify A with B.,A non-row operator PASS; A-to-B relation OPEN

@@ -1,0 +1,9 @@
+model_id,model_name,exact_arithmetic,source_support,row_level_explanatory_power,ledger_compatibility,typed_consistency,wrong_control_rejection,free_parameters_and_unexplained_rows,total_score,status
+M1,reserved_closure_address_model,20,20,6,15,15,10,5,91,STRUCTURAL_PASS_ROW_GEOMETRY_OPEN
+M2,missing_81st_particle_model,5,0,0,0,0,0,0,5,REJECTED_UNSUPPORTED_81ST_PARTICLE
+M3,retired_A_field_row_model,5,0,0,0,0,0,0,5,REJECTED_CR216_CR256_CR282_163_FAILURE
+M4,pure_coincidence_model,20,0,0,5,0,2,5,32,OUTSCORED_BY_TYPED_LEDGER_WELD
+M5,ten_octet_model,20,0,0,5,8,5,3,41,NOT_SOURCE_SUPPORTED
+M6,punctured_9x9_face_model,20,10,0,15,15,8,2,70,ROW_GEOMETRY_OPEN
+M7,carrier_face_only_model,10,15,0,15,8,6,4,58,PARTIAL_BUT_DOES_NOT_EXPLAIN_P80
+M8,numeric_collapse_model,5,0,0,0,0,0,0,5,REJECTED_TYPED_CONTRADICTIONS

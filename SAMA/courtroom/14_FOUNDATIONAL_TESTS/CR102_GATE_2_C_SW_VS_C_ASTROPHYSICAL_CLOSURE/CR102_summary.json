@@ -1,0 +1,36 @@
+{
+  "cr_id": "CR102",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "ASTROPHYSICAL_PRECISION_PARTIAL_CLOSURE_OF_GATE_2",
+  "execution_status": "CLEAN",
+  "result_class": "PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_ASTROPHYSICAL_PRECISION",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "subject_gate": "GATE_2",
+  "sam_committed_candidate": "c_SW = c (identity)",
+  "identical_commitment_as_CR101": true,
+  "live_anchor_count": 5,
+  "honest_negative_count": 3,
+  "row_label_counts": {
+    "AGREEMENT_WITHIN_ANCHOR_1_SIGMA": 5,
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": 2,
+    "REJECTED_AT_GATE_R_RESIDUAL": 1
+  },
+  "tightest_live_anchor_experiment": "IceCube",
+  "tightest_live_anchor_precision": 1e-18,
+  "cr101_cern_precision_floor": 1e-06,
+  "precision_improvement_factor": 999999999999.9999,
+  "honest_negative_gate_mismatches": 0,
+  "prediction_commit_sha256": "ab3503e24de08544f1f1c21b5466b997bba7bf930331f9f1a766a0c242331502",
+  "prediction_commit_utc": "2026-06-13T22:16:17Z",
+  "anchor_envelope_sha256": "594f7e88d5d00c8974eca72ce29264084a4f5cb8a4f4aceb1f391ac456358029",
+  "anchor_envelope_open_utc": "2026-06-13T22:16:17Z",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "upstream_cern_class_partial_result_class": "CR101_PARTIAL_CLOSURE_C_SW_EQUALS_C_CONSISTENT_AT_2_SIGMA_ONLY",
+  "open_debts": [
+    "Anchor citation_verification_status PENDING for all live and honest-negative anchors; curator promotion required before sealed-scope status",
+    "BLINDNESS_PROTOCOL.md sha256 sibling not yet written by curator",
+    "14 branch seal sha256 sibling not yet written by curator",
+    "Per-anchor effective-precision conversion (from published LIV-model constraint to (v-c)/c precision) uses standard linear-LIV approximations; curator may refine per-row"
+  ]
+}

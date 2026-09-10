@@ -1,0 +1,11 @@
+platform_class,system,qubit_type,T2_seconds,gate_rate_Hz,reasoning,citation
+SC_transmon,IBM Heron / Eagle (typical),fixed-frequency transmon,0.0001,5000000.0,single-qubit gates ~20-50 ns -> effective operating rate ~5-50 MHz; using 5 MHz as typical,IBM Quantum Network publications 2023-2024 [VERIFY_PRECOMMIT]
+SC_transmon,Google Sycamore (Willow generation),transmon,2.5e-05,10000000.0,two-qubit gates ~100 ns -> ~10 MHz effective,Arute et al. Nature 574:505 (2019) + Sycamore platform docs [VERIFY_PRECOMMIT]
+SC_fluxonium,Stanford / Berkeley fluxonium,fluxonium qubit,0.001,5000000.0,fluxonium gates ~200 ns -> ~5 MHz effective,Nguyen et al. PRX 9:041041 (2019); Somoroff et al. PRL 130 (2023) [VERIFY_PRECOMMIT]
+Trapped_ion,Quantinuum H1 (171Yb+ clock states),hyperfine clock states,10.0,1000.0,single-qubit gates ~10-100 us; clock-state operation ~1 kHz effective,Quantinuum H1 system specs 2024 [VERIFY_PRECOMMIT]
+Trapped_ion,IonQ Forte (171Yb+),hyperfine qubit,1.0,10000.0,single-qubit gates ~10 us; two-qubit ~100 us; ~10 kHz effective,IonQ Forte system specs 2024 [VERIFY_PRECOMMIT]
+Trapped_ion,Innsbruck Blatt group (40Ca+),optical qubit,0.05,100000.0,"optical qubit, faster gates ~10 us, ~100 kHz effective",Haeffner / Blatt group; Roos publications [VERIFY_PRECOMMIT]
+NV_center,Delft NV cryogenic + dynamical decoupling,electron spin in NV center,1.0,10000.0,DD pulse spacing ~100 us -> effective rate ~10 kHz,Hanson group Delft NV publications [VERIFY_PRECOMMIT]
+NV_center,NV center room temperature (typical),electron spin,0.001,1000000.0,"microwave drive ~MHz, no DD",Awschalom / Lukin standard NV literature [VERIFY_PRECOMMIT]
+Neutral_atom,QuEra Aquila (Rydberg),Rydberg array,0.005,500000.0,"Rydberg gates ~us scale, ~500 kHz effective",QuEra Aquila specs; Lukin group Nature 622 (2023) [VERIFY_PRECOMMIT]
+Neutral_atom,Princeton Endres group neutral atom array,neutral atom array,0.01,200000.0,"gate cycle ~5 us, ~200 kHz",Endres group publications [VERIFY_PRECOMMIT]

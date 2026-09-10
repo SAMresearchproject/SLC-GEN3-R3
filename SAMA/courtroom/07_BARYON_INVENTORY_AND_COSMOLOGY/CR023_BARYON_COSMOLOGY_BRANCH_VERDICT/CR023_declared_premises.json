@@ -1,0 +1,13 @@
+{
+  "test_id": "CR023_BARYON_COSMOLOGY_BRANCH_VERDICT",
+  "test_type": "branch_verdict_aggregation",
+  "free_parameters_introduced": 0,
+  "components": [
+    "CR018",
+    "CR019",
+    "CR020",
+    "CR021",
+    "CR022"
+  ],
+  "rule_9_falsification": "This branch verdict could have falsified: the claim that SAM has a derived baryon inventory and scoped cosmology/CMB contact chain with full-CMB boundaries preserved."
+}

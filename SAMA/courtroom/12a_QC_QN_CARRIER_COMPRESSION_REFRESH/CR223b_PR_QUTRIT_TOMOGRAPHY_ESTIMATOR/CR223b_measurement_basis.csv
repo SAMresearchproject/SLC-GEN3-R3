@@ -1,0 +1,10 @@
+observable_index,name,type,eigenvalues,trace,normalization_against_other_lambdas
+1,lambda_1,symmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+2,lambda_2,antisymmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+3,lambda_3,diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+4,lambda_4,symmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+5,lambda_5,antisymmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+6,lambda_6,symmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+7,lambda_7,antisymmetric_off_diagonal,"-1.0000000000,0.0000000000,1.0000000000",0,Tr(lambda_a lambda_b) = 2 delta_ab
+8,lambda_8,diagonal,"-1.1547005384,0.5773502692,0.5773502692",0,Tr(lambda_a lambda_b) = 2 delta_ab
+0,identity,normalization,"1,1,1",3,rho = (1/3) I + (1/2) sum_a b_a lambda_a

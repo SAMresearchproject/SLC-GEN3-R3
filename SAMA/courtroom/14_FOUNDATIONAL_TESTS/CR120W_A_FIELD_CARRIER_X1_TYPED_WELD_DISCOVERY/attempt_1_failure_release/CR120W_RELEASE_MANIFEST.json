@@ -1,0 +1,46 @@
+{
+  "campaign_id": "CR120W_A_FIELD_CARRIER_X1_TYPED_WELD_DISCOVERY",
+  "deterministic_manifest": true,
+  "files": [
+    {
+      "bytes": 6585,
+      "path": "CR120W_SOURCE_VALIDATION.csv",
+      "sha256": "ef70a5710cfff50c604bf4c1548db1521a7057f7605a7715f545568e22a88e41"
+    },
+    {
+      "bytes": 6298,
+      "path": "CR120W_SCALAR_ONE_CANDIDATE_LEDGER.csv",
+      "sha256": "e967429af7ea08191085beb0d3260adec37f45a65bbb54a21615fcb5334f5628"
+    },
+    {
+      "bytes": 479,
+      "path": "CR120W_NONLOCAL_MODEL_COMPARISON.csv",
+      "sha256": "975a9dbd4d120c61889064b8137940ed44d83547fde5bbee4bad26de5795cc50"
+    },
+    {
+      "bytes": 1095,
+      "path": "CR120W_WRONG_CONTROLS.csv",
+      "sha256": "5a2636e8c7edc3f7cdfd6a7a390b01175dc09662d346c1adef2224aae5377933"
+    },
+    {
+      "bytes": 551,
+      "path": "CR120W_TYPE_WELD.json",
+      "sha256": "8dd1605844959ac8ef3cbf6e060d2fcab32fb7d29926712ce52c944c05328740"
+    },
+    {
+      "bytes": 968,
+      "path": "CR120W_summary.json",
+      "sha256": "78fc2d9c6789980f3b6d2069ec15fa24bec13bd28da114d4351fe9d77e973d75"
+    },
+    {
+      "bytes": 2891,
+      "path": "CR120W_result.md",
+      "sha256": "51d1c5d681669cbcdfe930377b1f18588f736eacf293d5f10509f54c66a67438"
+    },
+    {
+      "bytes": 726,
+      "path": "CR120W_PROVENANCE.json",
+      "sha256": "291d206d361b07327b814e1c25b576418f642de2bbd883884f073c36d6c642fa"
+    }
+  ]
+}

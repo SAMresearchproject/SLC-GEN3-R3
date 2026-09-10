@@ -1,0 +1,2 @@
+let conjugate = QP_UNARY_CONJUGATE(QP_P1, QP_D0, QP_ROUTE_NEUTRAL)
+return conjugate

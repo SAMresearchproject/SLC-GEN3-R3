@@ -1,0 +1,28 @@
+{
+  "cr_id": "CR100",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "OPEN_QUESTION_PROVENANCE_LOCK_AND_ROADMAP",
+  "execution_status": "CLEAN",
+  "result_class": "SW_OPEN_QUESTION_PROVENANCE_LOCKED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "verbatim_question": "What is an SW dynamically, and what native propagation law turns SW contact, echoes, pairs, and physical interaction into resolved 3D ledger events?",
+  "verbatim_question_sha256": "29f4f30cd2e3423ca3d27d70b97269ed5a4629ea7822bdaa867253216e7b6b0b",
+  "upstream_source_path": "C:\\VS\\Stam_model-A-v1.0\\discovery_briefs\\QG_ASSEMBLY\\SW_CONTACT_ECHO_DYNAMICS_QGA013.md",
+  "upstream_source_sha256": "8e9f9143e8390fdead5b9d690ffd42b3a5dd92a51c152c17419fcc47ee05d918",
+  "primitive_commitments_count": 10,
+  "downstream_partial_answer_chain_count": 11,
+  "open_gates_count": 3,
+  "downstream_dependencies_count": 5,
+  "prediction_commit_sha256": "6ebf43e729e718032f5ab14bb44fba21bfc8c7e63e4845170135e534d10dfd5c",
+  "prediction_commit_utc": "2026-06-13T21:55:11Z",
+  "question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867",
+  "question_lock_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR100_SW_PRIMITIVE_OPEN_QUESTION_ROADMAP\\CR100_question_lock.json",
+  "question_lock_sibling_path": "C:\\VS\\The_Courtroom\\13_CERN_INDEPENDENT_TESTS\\CR100_SW_PRIMITIVE_OPEN_QUESTION_ROADMAP\\CR100_question_lock.json.sha256.txt",
+  "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e",
+  "open_debts": [
+    "BLINDNESS_PROTOCOL sha256 sibling not yet written by curator",
+    "Branch seal sha256 sibling not yet written by curator",
+    "Upstream source independent re-hash by curator pending",
+    "Closure progress on GATE_1/GATE_2/GATE_3 will be tracked via CR100a appeal rows as upstream QGA work advances"
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE",
+  "files": [
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "3c6d316dd5eb9106f00fda650d7a18e457893206",
+      "bytes": 3414,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/HASHES.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/HASHES.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "83509211997adf505694485917affdddd3f7e40d",
+      "bytes": 9911,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/PRECOMMIT.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/PRECOMMIT.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/_build_reveal_reference.py",
+      "mode": "100644",
+      "git_blob": "953a8806397f69669bdc1af966cc0cb453a8989a",
+      "bytes": 2026,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/_build_reveal_reference.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/_build_reveal_reference.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/_build_reveal_reference.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/_build_reveal_reference.py"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D2_control.csv",
+      "mode": "100644",
+      "git_blob": "9aa2fd40033d1b740aac1f7d662f185bdf0b48c1",
+      "bytes": 214,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D2_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D2_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D2_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D2_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D4_control.csv",
+      "mode": "100644",
+      "git_blob": "374d72f7aa9ae975dc8f6b9645681b22b378fbaa",
+      "bytes": 214,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D4_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D4_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D4_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/D4_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R10_control.csv",
+      "mode": "100644",
+      "git_blob": "78f74790b85f45866dd2815a3dd56def41a9ecd7",
+      "bytes": 213,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R10_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R10_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R10_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R10_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R11_control.csv",
+      "mode": "100644",
+      "git_blob": "30b67d4cfa63583d5470597d2a262da34d106ab5",
+      "bytes": 214,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R11_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R11_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R11_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R11_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R13_control.csv",
+      "mode": "100644",
+      "git_blob": "71a1f135b3d0df6cd793a0cd99f1e1c5f8d23ce7",
+      "bytes": 214,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R13_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R13_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R13_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/R13_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/random_clock_holes_control.csv",
+      "mode": "100644",
+      "git_blob": "aca86b1d1c7632971c1576c5a8a309dcacc2fc35",
+      "bytes": 144,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/random_clock_holes_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/random_clock_holes_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/random_clock_holes_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/random_clock_holes_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/shuffled_Z_control.csv",
+      "mode": "100644",
+      "git_blob": "d812c741648a43afcc42376522bc7594c1909d26",
+      "bytes": 156,
+      "category": "Wrong controls and comparison rows",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/shuffled_Z_control.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/shuffled_Z_control.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/shuffled_Z_control.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/controls/shuffled_Z_control.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "d6dcc9b338d4a2751937db4ce8e35707a1d86ad7",
+      "bytes": 68,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/PRECOMMIT_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/PRECOMMIT_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/no_name_predictions_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "e28ebc43de27e0c7007ac19fa65866d85254c6ce",
+      "bytes": 263,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/no_name_predictions_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/no_name_predictions_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/no_name_predictions_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/no_name_predictions_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/reveal_outputs_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "897ebf16ca69a05f445c17a384adaa4dfc59cd51",
+      "bytes": 254,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/reveal_outputs_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/reveal_outputs_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/reveal_outputs_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/reveal_outputs_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/run_test5_CURRENT_HASH.txt",
+      "mode": "100644",
+      "git_blob": "a2775fc2f6bdaa1f694a096b1db1803a2e1bc7bd",
+      "bytes": 68,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/run_test5_CURRENT_HASH.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/run_test5_CURRENT_HASH.txt",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/run_test5_CURRENT_HASH.txt",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/hashes/run_test5_CURRENT_HASH.txt"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_checks.json",
+      "mode": "100644",
+      "git_blob": "d992e2cc87bdc3536b987c641a1efeb46bd3b39a",
+      "bytes": 593,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_checks.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_checks.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_checks.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_checks.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_verdict.md",
+      "mode": "100644",
+      "git_blob": "343a0719ae68f51f9670ab79b180e816bd086ebb",
+      "bytes": 1043,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_verdict.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_verdict.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_verdict.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_internal_verdict.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv",
+      "mode": "100644",
+      "git_blob": "704a3721ab48a0c72dcb5f6b8df4bb6520009f23",
+      "bytes": 36448,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_no_name_predictions.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_score_summary.json",
+      "mode": "100644",
+      "git_blob": "54af0e96906e51b725dc88469bd24a11fc68af7f",
+      "bytes": 489,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_score_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_score_summary.json",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_score_summary.json",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_score_summary.json"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_scored.csv",
+      "mode": "100644",
+      "git_blob": "86101ec9458661d531ffb12d90036f3ebfe2a506",
+      "bytes": 13634,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_scored.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_scored.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_scored.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_scored.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_verdict.md",
+      "mode": "100644",
+      "git_blob": "1fc5536cfb6b96dec726a422280cb7b39ae35bba",
+      "bytes": 496,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_verdict.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_verdict.md",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_verdict.md",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/outputs/test5_reveal_verdict.md"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv",
+      "mode": "100644",
+      "git_blob": "323aaee44c5646e61b5fa8c4686bf708a85f02a5",
+      "bytes": 4886,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/reveal_reference.csv"
+    },
+    {
+      "path": "09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/run_test5_blind_sob_engine.py",
+      "mode": "100644",
+      "git_blob": "0d8b94af162286abf8d545121550be405fc9b9d3",
+      "bytes": 29530,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/run_test5_blind_sob_engine.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/run_test5_blind_sob_engine.py",
+      "sama_path": "courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/run_test5_blind_sob_engine.py",
+      "sama_relative_url": "../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR_TEST5_BLIND_SOB_ELEMENT_ENGINE/run_test5_blind_sob_engine.py"
+    }
+  ],
+  "test_keys": [
+    "CR:CR234@09a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

@@ -1,0 +1,42 @@
+{
+  "cr_id": "CR066a",
+  "branch": "09a_PARTICLE_MASS_CHAIN",
+  "extends_anchor": "CR065a (upstream intake) + CR064a (branch verdict)",
+  "test_class": "COURTROOM_CERN_REVEAL_OF_QP091_FROZEN_H_TO_ZZSTAR_4L_PREDICTIONS",
+  "execution_status": "CLEAN",
+  "result_class": "CR066a_HIGGS_ZZ4L_REVEAL_PASS_ALL_TARGETS_WITHIN_2_SIGMA",
+  "reveal_targets_opened": [
+    "REVEAL_02_m4l_peak",
+    "REVEAL_03_m12_m34_split",
+    "REVEAL_04_four_lepton_angular_structural_consistency"
+  ],
+  "reveal_targets_held": [
+    "REVEAL_01_H006_H007_signal_strength"
+  ],
+  "live_anchor_count": 6,
+  "honest_negative_count": 3,
+  "honest_negative_correctly_gated": 3,
+  "row_label_counts": {
+    "AGREEMENT_WITHIN_2_SIGMA": 1,
+    "AGREEMENT_WITHIN_1_SIGMA": 5,
+    "REJECTED_AT_GATE_A_ADMISSIBILITY": 2,
+    "REJECTED_AT_GATE_R_RESIDUAL": 1
+  },
+  "sam_predictions": {
+    "REVEAL_02_m4l_peak_GeV": 125.219,
+    "REVEAL_03_m12_peak_GeV": 91.1615,
+    "REVEAL_03_m34_ceiling_GeV": 34.0575,
+    "REVEAL_03_two_on_shell_Z_forbidden": true,
+    "REVEAL_04_angular_structural": 1.0
+  },
+  "upstream_CR065a_intake_lock_sha256": "11e898ca84273071096436bd52c3667dd9ec3df2a3c6b599f5a94453827582a7",
+  "prediction_commit_sha256": "c501db4f72c5f4d59102af216b64e5c16e700f01daea5bc4f45a863ce73790f9",
+  "prediction_commit_utc": "2026-06-14T02:17:17Z",
+  "envelope_sha256": "14235144c7249f145c71ac3ffbda90e7f8cc723f13d841fb0e21701fc608b8ac",
+  "envelope_open_utc": "2026-06-14T02:17:17Z",
+  "open_debts": [
+    "Anchor citation_verification_status PENDING for all rows; curator promotion required for sealed-scope status",
+    "Four-lepton angular comparison is structural-consistency at QP091; quantitative angular shape comparison is a downstream QP093+ task",
+    "REVEAL_01 (signal strength) intentionally held; downstream CR may open it"
+  ]
+}

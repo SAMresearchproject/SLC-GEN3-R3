@@ -1,0 +1,70 @@
+{
+  "campaign_id": "CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST",
+  "classification": "PROSPECTIVE_MODEL_WIDE_CANDIDATE_STRESS_TEST",
+  "candidate_frozen_before_scan": {
+    "label": "Theta",
+    "value": 18,
+    "type": "PrimaryCarrier"
+  },
+  "question": "Does Theta18 remain the strongest current primary-carrier candidate when the current SAM model is tested by independent exact derivations, structural-output substitutions, depth disruption, family deletion, QP typing, and Starbreaker ledger preservation?",
+  "structural_output_candidates": [
+    {"label": "m_3", "value": 6},
+    {"label": "D^2", "value": 9},
+    {"label": "Theta", "value": 18},
+    {"label": "hV", "value": 54}
+  ],
+  "frozen_constants": {"h": 2, "D": 3, "R": 12, "S": 8, "X": 1, "W": 9, "M": 126, "N": 144, "L": 162},
+  "exact_derivations": [
+    "Theta = alpha_H * D^2",
+    "Theta = R^2 / S",
+    "Theta = N - M",
+    "Theta = L - N",
+    "Theta = (L - M) / 2",
+    "Theta = |A intersect B| for two F81 sides"
+  ],
+  "evidence_families": [
+    "FOUNDATIONAL_SPLIT_AND_DIMENSION",
+    "TENSOR_CARRIER_THEOREM",
+    "TYPED_LEDGER_INCLUSION_EXCLUSION",
+    "B_CONTACT_AND_W9_CLOSURE",
+    "QP_PARTICLE_TYPING",
+    "STARBREAKER_COMPLETE_LEDGER_HISTORY"
+  ],
+  "hard_gates": [
+    "all source hashes and the precommit seal match",
+    "all six frozen derivations return exactly 18",
+    "CR281 supplies exactly the structural OUTPUT family 6,9,18,54",
+    "18 alone reproduces the simultaneous M,N,L = 7,8,9 carrier ladder",
+    "all leave-one-evidence-family-out folds retain at least four supporting families and at least three independent exact routes",
+    "only d=1 gives the A route scale R^(d+1)=N=8*Theta",
+    "current QP typing retains QP093A-0300 as the only carrier-row 7,8,9 ladder match in both frozen value modes",
+    "Starbreaker preserves 162 unique slots and 18,126,18 typing in all frozen scenarios",
+    "all wrong controls are rejected"
+  ],
+  "wrong_controls": [
+    "substitute m_3=6 for Theta",
+    "substitute D^2=9 for Theta",
+    "substitute hV=54 for Theta",
+    "use release fraction 1/4",
+    "use release fraction 1/16",
+    "use A route depths 0,2,3 as the N=8*Theta contact",
+    "merge Theta with X1",
+    "treat Theta18 as matter or as a fitted physical-mass coefficient",
+    "promote corpus mention count to physical proof"
+  ],
+  "corpus_scan": {
+    "purpose": "descriptive breadth and role audit after candidate freeze",
+    "include": "current result.md and summary.json artifacts",
+    "exclude": [".git", "artifacts", "archive", "upstream_artifacts", "attempt_1_failure_release", "CR120X_DUAL_DEPTH_THETA_B_X1_W8_W9_RELAXED_DISCOVERY", "CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST"],
+    "mention_counts_are_gate": false
+  },
+  "forbidden_claims": [
+    "Theta is literally X1",
+    "Theta18 is matter",
+    "Theta18 is a physical-mass coefficient",
+    "corpus prevalence proves ontology",
+    "Starbreaker ledger typing alone proves physical identity"
+  ],
+  "same_run_repair": false,
+  "registry_mutation": false
+}

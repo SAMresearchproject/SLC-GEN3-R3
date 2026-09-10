@@ -1,0 +1,14 @@
+{
+  "campaign_id": "CR005c_STARBREAKER_ESCAPE_CLOSURE_OBSERVABILITY_GATE",
+  "completed_utc": "2026-07-21T01:06:59.166569+00:00",
+  "contract_sha256": "71fe6f1752ddf6822625470c588964c0e200e8c8dd1428abe331c724716766c2",
+  "method": "hash-verified schema and engine observability audit plus exact piecewise-affine 101 crossing reconstruction",
+  "precommit_seal_sha256": "d923823498a156f15c685fc6f4cb15c178de14172d6adb3dbaae7c77578749a9",
+  "precommit_sha256": "792723e3508da8be3eb28f20291759063c04898270201a386f756eea47efe544",
+  "predecessor_rerun": false,
+  "runner_seal_sha256": "94503a6a8fbf0fe290f68723872ac9ee3292c942ea4d577ea2b9ca441987c972",
+  "runner_sha256": "786862b8129d1219fb1ebec44c5d5ff0424a07feb4bc1d42daa80b99b923fe53",
+  "same_run_repair": false,
+  "source_manifest_sha256": "9fa6cfadea55457e6112f8f1b6d460ff1bdd0c572ad911cae6e9e37ebeded43e",
+  "started_utc": "2026-07-21T01:06:56.700218+00:00"
+}

@@ -1,0 +1,13 @@
+slot,weight,role,platform,component
+a,1/4,CARRIER (info),SC transmon,|0>/|1> computational basis
+a,1/4,CARRIER (info),NV center,ms = -1 / +1 ground triplet sublevels
+a,1/4,CARRIER (info),trapped ion,hyperfine clock states |F=0> / |F=1>
+a,1/4,CARRIER (info),photonic,polarization or path encoding
+b,9/16,ENVELOPE (control),SC transmon,dispersively coupled microwave resonator
+b,9/16,ENVELOPE (control),NV center,microwave drive at ~2.87 GHz
+b,9/16,ENVELOPE (control),trapped ion,Raman / global laser beam
+b,9/16,ENVELOPE (control),photonic,"optical mode envelope, cavity-mediated"
+c,1/4,SENSOR (readout),SC transmon,dispersive shift + IQ demod
+c,1/4,SENSOR (readout),NV center,photoluminescence intensity (PL counting)
+c,1/4,SENSOR (readout),trapped ion,state-dependent fluorescence detection
+c,1/4,SENSOR (readout),photonic,single-photon detector

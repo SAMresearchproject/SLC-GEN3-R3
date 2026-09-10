@@ -1,0 +1,8 @@
+# CR071a Photonic PR Letter Framework Mapping
+# Copyright (c) 2026 Sean Brady. ALL RIGHTS RESERVED.
+#
+# CR071a is a validator CR (mapping table + falsifier list, no plots,
+# no numerical heavy lifting). Stdlib only. Pinned Python for
+# reproducibility per CR074a discipline.
+
+# (no external pip deps required; stdlib only)

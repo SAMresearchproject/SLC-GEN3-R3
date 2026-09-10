@@ -1,0 +1,10 @@
+{
+  "test_id": "CR050_QP_CARRIER_SUPPORT",
+  "test_type": "courtroom_import_from_uploaded_quantum_phase_artifacts",
+  "source_summaries": [
+    "../_source_artifacts/summaries/QP010_summary.json",
+    "../_source_artifacts/summaries/QP043_summary.json"
+  ],
+  "free_parameters_introduced": 0,
+  "rule_9_falsification": "This test could have falsified: the claim that qp010/qp043 provide quantum-phase carrier support for the qc/qn stack."
+}

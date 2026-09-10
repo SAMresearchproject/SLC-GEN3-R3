@@ -1,0 +1,18 @@
+{
+  "cr_id": "CR113",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "test_class": "A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+  "execution_status": "CLEAN",
+  "result_class": "CR113_PASS_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM",
+  "all_predictions_passed": true,
+  "all_wrong_controls_rejected": true,
+  "M_w": 4,
+  "D_route": 3,
+  "R": 12,
+  "lock_sha256": "6892987bdd978f03fa42cb7d0ef14e24cdd08e11e154ef8ced5cd5ede3fd15b4",
+  "source_chain_csv": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_source_chain.csv",
+  "checks_csv": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_checks.csv",
+  "wrong_controls_csv": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_wrong_controls.csv",
+  "lock_json": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_completed_write_address_count_lock.json",
+  "result_md": "14_FOUNDATIONAL_TESTS\\CR113_A4_COMPLETED_WRITE_ADDRESS_COUNT_THEOREM\\CR113_result.md"
+}

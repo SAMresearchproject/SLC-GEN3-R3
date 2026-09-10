@@ -1,0 +1,63 @@
+{
+  "anchor_id": "CR107_SPARC_PUBLIC_REFERENCE_ANCHOR",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR104a Layer 4 (Earth's own A field) -> CR106 (14 branch verdict zipper)",
+  "sealed_at_utc": "2026-06-14T02:55:49Z",
+  "intake_class": "PUBLIC_REFERENCE_DATA_NO_MATCH_REVEALED",
+  "upstream_sha256": {
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "CR106_14_branch_verdict.json": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "sparc_public_reference": {
+    "source_paper": {
+      "title": "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves",
+      "authors": "Lelli, McGaugh, Schombert",
+      "journal": "AJ 152 157 (2016)",
+      "arxiv": "1606.09251",
+      "database_url": "http://astroweb.cwru.edu/SPARC/"
+    },
+    "total_galaxies": 175,
+    "galaxies_with_quality_curves": 153,
+    "morphology_range": "S0 to Irr",
+    "stellar_mass_range_solar_masses_log10": [
+      7.0,
+      11.5
+    ],
+    "rotation_velocity_range_km_per_s": [
+      20.0,
+      350.0
+    ],
+    "rotation_curves_measured_via": "HI 21-cm + Halpha",
+    "photometry": "Spitzer 3.6 micron (stellar mass tracer)",
+    "test_framework_used_by_independent_groups": "cored vs cuspy halo profile, MOND vs LCDM"
+  },
+  "sam_prior_predictions_relevant": [
+    {
+      "id": "G732c_PASS_UPSTREAM",
+      "description": "rho(r) = rho_0 / [1 + (r/r_c)^2] with r_c = R_outer / 12 (native R12 cored halo law)",
+      "where_locked": "C:/VS/Stam_model-A-v1.0/tests/Substrate (G732c PASS) - referenced in CR104a appeal lock",
+      "free_parameters": 0,
+      "test_state_now": "AWAITING_CR110_THREE_MODE_CLOSURE_APPEAL"
+    },
+    {
+      "id": "CR104a_PRED_1",
+      "description": "Dark matter halos are cumulative A-field structures, not particle distributions; galaxy rotation curves follow G732c cored R=12 law without invoking new particles",
+      "where_locked": "CR104a_appeal_lock.json (this branch)",
+      "free_parameters": 0,
+      "test_state_now": "AWAITING_CR110_THREE_MODE_CLOSURE_APPEAL"
+    }
+  ],
+  "what_this_anchor_provides": [
+    "the public SPARC database structure (175 galaxies, Spitzer 3.6um + HI/Halpha)",
+    "the test framework cored vs cuspy independent of SAM",
+    "a sealed reference against which CR110 can appeal the three-mode closure",
+    "a registry of the two upstream SAM predictions (G732c, CR104a_PRED_1) awaiting reveal"
+  ],
+  "what_this_anchor_does_NOT_do": [
+    "compare SAM predictions to SPARC data (deferred to CR110)",
+    "introduce any free parameter in either SAM or SPARC reference",
+    "modify any prior CR verdict"
+  ],
+  "free_parameters_total": 0
+}

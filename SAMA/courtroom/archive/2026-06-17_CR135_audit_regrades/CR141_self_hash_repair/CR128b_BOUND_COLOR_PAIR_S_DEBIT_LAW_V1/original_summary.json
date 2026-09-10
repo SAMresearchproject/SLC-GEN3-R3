@@ -1,0 +1,100 @@
+{
+  "cr_id": "CR128b",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "test_class": "BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_ASYMMETRIC_VERIFICATION_AND_LOCK",
+  "execution_status": "CLEAN",
+  "result_class": "CR128b_BOUND_COLOR_PAIR_S_DEBIT_LAW_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-15T22:39:56Z",
+  "magnitude_formula": "|S_debit(a, b)| = M_native(a, b) * (|a - b| + D) / R^4",
+  "sign_rule": "sign(S_debit) = sign(first - second) in partition signature ordering",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "asymmetric_rows_tested": 30,
+  "symmetric_rows_skipped": 6,
+  "formula_matches": 30,
+  "magnitude_matches": 30,
+  "sign_matches": 30,
+  "violations": 0,
+  "combined_with_CR128_zero_parameter_claim": true,
+  "verification_csv_sha256": "adc84235f09782d4ed135813f6b8dd60975d54236442fbfa56bbb2181d9efe8f",
+  "law_lock_sha256": "9336468a668131f1ed4a1a9d1af61ebf9b019349709a750ee7359f94bdd26964",
+  "upstream_sha256": {
+    "CR119_courtroom_particle_table_csv": "5b937d284d6c0b93a5f875acc5fbf63780fd924c90202743865d845fb1d1fc42",
+    "CR128_law_lock_json": "0f62d6b4e942a9b41d2b620265f3b05d737a35d65acb4553190f64183ff19871",
+    "CR128_verification_csv": "0b51ff37925777edc9af0d48e3c279e28dfd5e69feddd6c12d379d2b40415517"
+  },
+  "predictions": [
+    {
+      "name": "P1_30_asymmetric_rows_tested",
+      "pass": true,
+      "details": "asymmetric rows tested = 30 (expected 30)"
+    },
+    {
+      "name": "P2_all_formula_matches",
+      "pass": true,
+      "details": "matches = 30/30, violations = 0"
+    },
+    {
+      "name": "P3_all_magnitude_matches",
+      "pass": true,
+      "details": "magnitude matches = 30/30"
+    },
+    {
+      "name": "P4_all_sign_matches",
+      "pass": true,
+      "details": "sign matches = 30/30"
+    },
+    {
+      "name": "P5_six_symmetric_rows_correctly_skipped",
+      "pass": true,
+      "details": "symmetric rows skipped = 6 (expected 6; out of CR128b scope)"
+    },
+    {
+      "name": "P6_forward_blind_law_lock_written",
+      "pass": true,
+      "details": "law lock sha256 = 9336468a668131f1ed4a1a9d1af61ebf9b019349709a750ee7359f94bdd26964"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_CR119_table_unmodified",
+      "pass": true,
+      "details": "CR119 read-only"
+    },
+    {
+      "name": "WC2_CR128_law_lock_unmodified",
+      "pass": true,
+      "details": "CR128 M_native law lock referenced but unchanged; CR128b extends not overrides"
+    },
+    {
+      "name": "WC3_exact_rational_arithmetic_used",
+      "pass": true,
+      "details": "Verification uses Python Fraction for exact rationals and Decimal at 200-digit precision for parsing CR119's high-precision S_debit strings.  No float round-off contamination."
+    },
+    {
+      "name": "WC4_sign_rule_derived_separately_from_magnitude",
+      "pass": true,
+      "details": "Magnitude formula was pattern-spotted from 8 doublet pairs; sign rule (sign(first - second)) was observed independently.  Both verified together against all 30 rows."
+    },
+    {
+      "name": "WC5_symmetric_pairs_explicitly_out_of_scope",
+      "pass": true,
+      "details": "Symmetric (a, a) rows have a different surface debit structure (M_obs(a,a) ~ (43/4) * a^2 empirically) and are reserved for CR128c."
+    },
+    {
+      "name": "WC6_law_derived_inductively_forward_blind_committed",
+      "pass": true,
+      "details": "Like CR128, the law was derived inductively from in-sample data.  Forward-blind falsifier CR128b_PRED_1 commits the formula for testing on future rows where overfit cannot operate."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED",
+    "CR128c: derive M_observed formula for symmetric (a, a) BCP rows (empirical 10.75 a^2 = (43/4) a^2)",
+    "CR129: derive OCTET_COMPOSITE 3-body M_native + S_debit generators -- the BCP antisymmetric (first - second) factor suggests the 3-body case may have an analogous antisymmetric tensor structure",
+    "Forward-blind test CR128b_PRED_1 resolves when CR119 gains new asymmetric BCP rows"
+  ]
+}

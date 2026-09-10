@@ -1,0 +1,29 @@
+{
+  "record_id": "CR287_BLIND_GATE_COMPATIBILITY_DEGENERACY_TEST",
+  "comparison_operator": "CR285_LEXICOGRAPHIC_K",
+  "primary_variant": "OCT6_PRIMARY",
+  "primary_species_graphs": 9,
+  "directed_gates": 960,
+  "all_graph_gate_combinations": 34560,
+  "primary_admissible_mappings": 8640,
+  "control_mappings_rejected": 25920,
+  "expected_primary_vector": [0, 0, 0, 0],
+  "expected_species_rank_groups": 1,
+  "expected_gate_rank_groups": 1,
+  "control_variants": [
+    "TET4_EVEN_CONTROL",
+    "TET4_ODD_CONTROL",
+    "CORE_ONLY_CONTROL"
+  ],
+  "observed_targets_allowed": false,
+  "physical_units_allowed": false,
+  "species_specific_rescue_allowed": false,
+  "element_to_triad_selector_available": false,
+  "source_matter_row_allowed_is_selector": false,
+  "acoustic_dependency": false,
+  "starbreaker_dependency": false,
+  "physical_promotion": false,
+  "expected_scientific_verdict": "BOUNDARY",
+  "expected_result_class": "CR287_BOUNDARY_BLIND_COMPATIBILITY_COLLAPSES_TO_ONE_ZERO_EDIT_CLASS__8640_PRIMARY_MAPPINGS__NO_SPECIES_OR_GATE_RANKING",
+  "next_gate": "CR288_EXTERNAL_REVEAL_AND_BASELINE_SCORE"
+}

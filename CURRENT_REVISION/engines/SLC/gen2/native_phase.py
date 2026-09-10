@@ -6,6 +6,7 @@ the full address domain. The original receipt and its seal remain embedded;
 the expanded R3 response receives its own new schema and seal.
 """
 from copy import deepcopy
+from . import write_foundation
 
 from .dependencies.native.exact import ExactError, integer, token, verify, seal
 
@@ -82,6 +83,7 @@ def annotate_word(word):
               'sphere_status': 'NO_SOURCE_ACTION_PROFILE',
               'physical_spin_or_orbit_assigned': False,
               'source_receipt_semantic_sha256': word['semantic_sha256']}
+    motion['write_foundation'] = write_foundation.annotate_t18(body)
     native = deepcopy(body)
     native.pop('schema')
     return seal(RESULT_SCHEMA, **native, source_receipt=deepcopy(word), motion=motion)

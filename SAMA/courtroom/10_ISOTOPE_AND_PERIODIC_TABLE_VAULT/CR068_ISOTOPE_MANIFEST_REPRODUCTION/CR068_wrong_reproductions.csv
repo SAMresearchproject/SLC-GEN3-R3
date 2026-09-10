@@ -1,0 +1,7 @@
+wc_id,description,expected_verdict,detected,observed_match,notes
+WC1,qp055 freeze hash mismatch,FAIL,True,True,hash mismatch detection wired
+WC2,qp058 pressure freeze hash mismatch,FAIL,True,True,hash mismatch detection wired
+WC3,Prediction row count = 199 (off by one),FAIL,True,True,row count detection wired
+WC4,qp060 external_data_used=true (pre-comparison violation),FAIL,True,True,external_data_used violation detection wired
+WC5,CR065 manifest seal corruption,DIAGNOSTIC,True,True,seal mismatch detection wired
+WC6,Dropped binding-depth lane (qp051 missing),FAIL,True,True,chain-break detection wired

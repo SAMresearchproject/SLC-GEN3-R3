@@ -1,0 +1,10 @@
+TASK: CR120M_EIGHT_PLUS_ONE_BINDING_TRANSFER_SOURCE_GATE
+TASK_NAME: Run attached proposal for investigation Ideas, not evidence
+CLASSIFICATION: CONSTRUCTIVE_NEW_WORK
+AUDIT_APPROVAL_REQUIRED: no
+AU197_REPLAY_PERFORMED: no
+COUPLING_FIT_PERFORMED: no
+EXECUTION: python tools/run_sam_test.py --task "Run attached proposal for investigation Ideas, not evidence" --script tools/run_cr120m_eight_plus_one_binding_transfer_source_gate.py
+RUN_UTC: 2026-07-14T08:47:11.847623Z
+PYTHON: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe
+ARGV: ['tools\\run_cr120m_eight_plus_one_binding_transfer_source_gate.py']

@@ -1,0 +1,61 @@
+{
+  "arithmetic": {
+    "F": 81,
+    "L": 162,
+    "P": 80,
+    "P_equals_8_times_10": true,
+    "P_equals_F_minus_1": true,
+    "S": 8,
+    "W": 9
+  },
+  "checks": {
+    "G10_punctured_face_test": false,
+    "G11_ten_octet_test": false,
+    "G12_pairing_and_symmetry_test": true,
+    "G13_model_scorecard": true,
+    "G14_no_Higgs_dependence": true,
+    "G15_no_physical_overpromotion": true,
+    "G1_source_integrity": true,
+    "G2_exact_80_row_reproduction": true,
+    "G3_decomposition_audit": true,
+    "G4_exclusion_audit": true,
+    "G5_A_field_wrong_row_replay": true,
+    "G6_closure_address_source_support": true,
+    "G7_exact_face_arithmetic": true,
+    "G8_non_row_preservation": true,
+    "G9_natural_row_coordinate_search": true,
+    "precommit_hash_matches_sidecar": true
+  },
+  "counts": {
+    "antimatter_rows": 32,
+    "charged_rows": 64,
+    "closure_address_particle_row": false,
+    "completed_face_capacity": 81,
+    "full_ledger": 162,
+    "matter_rows": 48,
+    "neutral_rows": 16,
+    "particle_bearing_rows": 80
+  },
+  "forecast_generated": false,
+  "geometry_status": {
+    "natural_coordinate_candidates": 0,
+    "punctured_9x9_face": "OPEN",
+    "ten_octets": "OPEN",
+    "valid_face_maps": 0,
+    "valid_ten_octet_fields": []
+  },
+  "language_or_meta_language_test": false,
+  "precommit_sha256": "8c79dc4493cc2e91427f626c36c80e34a21ee628cd2fc48e807d02f794b8588a",
+  "primary_verdict": "PASS_CARDINALITY_AND_TYPED_LEDGER_WELD_ROW_GEOMETRY_OPEN",
+  "prospective_record_class": "SCIENTIFIC_TEST",
+  "queue_maintenance_performed_by_research_agent": false,
+  "record_id": "CR283_EIGHTY_ROWS_PLUS_ONE_CLOSURE_ADDRESS_EQUALS_FACE_81",
+  "row_meaning": "80 StructurallyStableMatterRow occurrences on a TensorCompatibleStableMatterSurface, not 80 experimentally identified Standard Model particles.",
+  "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+  "sam_language_v0_3_consulted_during_development": false,
+  "scientific_result_status": "PASS",
+  "sealed_utc": "2026-07-12T08:43:03Z",
+  "source_errors": [],
+  "task": "SAM_PROSPECTIVE_CR_80_PARTICLE_ROWS_81_FACE_CLOSURE_ADDRESS_5_5_XHIGH",
+  "wrong_controls_all_rejected": true
+}

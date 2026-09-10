@@ -20,3 +20,9 @@ J4/Li-6 source data are identified project components in
 provenance/SOURCE_MANIFEST.json. The historical names preserve provenance; they
 are not new third-party licences. Earlier grants covering particular copies
 remain effective according to their terms. See legal/RIGHTS_AND_COPYRIGHT.md.
+
+The supporting `SAMA/` collection retains its independent licences and originating
+Courtroom notices. See [SAMA licences](SAMA/LICENSE.md) and
+[SAMA licence directory](SAMA/LICENSES/README.md). Optional python-flint is not
+vendored; its independently applicable licence and dependency notices accompany
+its installed distribution. It is not needed by the required NumPy-only setup.

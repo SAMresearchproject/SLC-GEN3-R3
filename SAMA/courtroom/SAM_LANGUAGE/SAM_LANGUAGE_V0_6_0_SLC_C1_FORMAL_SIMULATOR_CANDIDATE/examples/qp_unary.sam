@@ -1,0 +1,2 @@
+let unary: QPUnaryTemplate = QP_UNARY_DIRECT(QP_P8, QP_D2, QP_ROUTE_NEUTRAL)
+return unary

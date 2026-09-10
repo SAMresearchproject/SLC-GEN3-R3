@@ -1,0 +1,10 @@
+TASK: CR120N_FRESH_QP093A_UPDATED_SHEET_100_81_ROSTER_COMPARISON
+TASK_NAME: Run fresh QP093A updated-sheet comparison for 100-row 16200 and 81-row 12600 rosters
+CLASSIFICATION: CONSTRUCTIVE_NEW_WORK
+SIGNAL: SUMS_NOT_MEANS
+WORKBOOK_FORMULA_EXECUTION: no
+PRIOR_CR_ROSTER_SUBSTITUTION: no
+EXECUTION: python tools/run_sam_test.py --task "Run fresh QP093A updated-sheet comparison for 100-row 16200 and 81-row 12600 rosters" --script tools/run_cr120n_fresh_qp093a_updated_sheet_100_81_roster_comparison.py
+RUN_UTC: 2026-07-14T09:01:56.845215Z
+PYTHON: C:\Users\drwho\AppData\Local\Programs\Python\Python312\python.exe
+ARGV: ['tools\\run_cr120n_fresh_qp093a_updated_sheet_100_81_roster_comparison.py']

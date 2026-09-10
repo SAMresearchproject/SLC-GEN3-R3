@@ -1,0 +1,233 @@
+{
+  "verdict": "BOUNDARY",
+  "verdict_signature": "CR245_BOUNDARY_ASYMMETRY_IDENTITY_EXACT__BW_FIT_REASONABLE__COEFFICIENT_TYPING_PARTIAL__SUBSTRATE_ATOMS_LOAD_BEARING_WHERE_CHECKED",
+  "train_sha256": "54c2c28d869b71cd19f4989866b9db49881ace1d38c36b67b846dbfda9da5efc",
+  "test_sha256": "8a5253f61067e1a22158257c6f77c39f722036f2f06bd701e041126e404016f8",
+  "precommit_sha256": "a4274eb1af0ae4310629072dc530e4518d705218371f9aa8a716123fbf1b97d4",
+  "substrate_atoms": {
+    "R": 12,
+    "D": 3,
+    "S": 8,
+    "Theta": 18,
+    "M": 126,
+    "L": 162,
+    "V": 27,
+    "kappa": "7117/768",
+    "g": "1/64",
+    "kappa-2g": "7093/768",
+    "asym_identity_constant": "50310649/1366464",
+    "asym_identity_constant_float": 36.818129859257176
+  },
+  "stage_1_asymmetry_identity": {
+    "train_total": 51,
+    "train_match": 51,
+    "test_total": 20,
+    "test_match": 20,
+    "all_exact": true
+  },
+  "stage_2_bw_fit_A_ge_16": {
+    "coef_in_u": {
+      "a_volume": 0.00877531068237976,
+      "b_surface": 0.019981424058469564,
+      "c_coulomb": 0.0007572389910511695,
+      "d_asym_NmZ2_over_A": 0.028317872670601797,
+      "d_asym_dQ2_over_Qmass": 0.0007691284912854377,
+      "e_pair": 0.021476831209512163
+    },
+    "coef_in_MeV": {
+      "a_volume": 8.174150147539972,
+      "b_surface": 18.6125786684175,
+      "c_coulomb": 0.7053636542866356,
+      "d_asym_NmZ2_over_A": 26.37793138574607,
+      "d_asym_dQ2_over_Qmass": 0.7164386536355776,
+      "e_pair": 20.005541610330376
+    },
+    "design_matrix_basis": "[A, -A^(2/3), -Z(Z-1)/A^(1/3), -(N-Z)^2/A, delta/sqrt(A)]",
+    "rms_u": 0.0029813096020605634,
+    "rms_MeV": 2.777072311807532,
+    "R2": 0.9943732860644242,
+    "n_rows": 35
+  },
+  "stage_2_train_fitted": {
+    "rms_u": 0.0029813096020605634,
+    "rms_MeV": 2.777072311807532,
+    "R2": 0.9943732860644242
+  },
+  "stage_2_test_fitted": {
+    "rms_u": 0.0034228794821880622,
+    "rms_MeV": 3.1883920509526034,
+    "R2": 0.9877226877547983
+  },
+  "stage_3_typed_search": {
+    "a_volume": {
+      "fitted_u": 0.00877531068237976,
+      "fitted_MeV": 8.174150147539972,
+      "best_candidate": {
+        "name": "+1/(R*kappa)",
+        "value": 0.008992553042012083,
+        "fraction": "64/7117",
+        "rel_dev": 0.024756087561495863,
+        "within_5pct": true,
+        "within_1pct": false
+      }
+    },
+    "b_surface": {
+      "fitted_u": 0.019981424058469564,
+      "fitted_MeV": 18.6125786684175,
+      "best_candidate": {
+        "name": "+1/(D*Theta)",
+        "value": 0.018518518518518517,
+        "fraction": "1/54",
+        "rel_dev": 0.07321327727544832,
+        "within_5pct": false,
+        "within_1pct": false
+      }
+    },
+    "c_coulomb": {
+      "fitted_u": 0.0007572389910511695,
+      "fitted_MeV": 0.7053636542866356,
+      "best_candidate": {
+        "name": "+1/(S*L)",
+        "value": 0.0007716049382716049,
+        "fraction": "1/1296",
+        "rel_dev": 0.01897148375903505,
+        "within_5pct": true,
+        "within_1pct": false
+      }
+    },
+    "d_asym_NmZ2_over_A": {
+      "fitted_u": 0.028317872670601797,
+      "fitted_MeV": 26.37793138574607,
+      "best_candidate": {
+        "name": "+1/(R*D)",
+        "value": 0.027777777777777776,
+        "fraction": "1/36",
+        "rel_dev": 0.019072580031222492,
+        "within_5pct": true,
+        "within_1pct": false
+      }
+    },
+    "e_pair": {
+      "fitted_u": 0.021476831209512163,
+      "fitted_MeV": 20.005541610330376,
+      "best_candidate": {
+        "name": "+D/M",
+        "value": 0.023809523809523808,
+        "fraction": "1/42",
+        "rel_dev": 0.10861437505633921,
+        "within_5pct": false,
+        "within_1pct": false
+      }
+    }
+  },
+  "stage_3_summary": {
+    "matched_within_5pct": 3,
+    "matched_within_1pct": 0,
+    "total_coefs": 5
+  },
+  "stage_4_zero_free": {
+    "substitutions": {
+      "a_volume": {
+        "substituted": true,
+        "typed_name": "+1/(R*kappa)",
+        "typed_value": 0.008992553042012083,
+        "fitted_value": 0.00877531068237976,
+        "rel_dev": 0.024756087561495863
+      },
+      "b_surface": {
+        "substituted": false,
+        "typed_name": null,
+        "typed_value": null,
+        "fitted_value": 0.019981424058469564,
+        "rel_dev": 0.07321327727544832,
+        "best_attempt_name": "+1/(D*Theta)",
+        "best_attempt_rel_dev": 0.07321327727544832
+      },
+      "c_coulomb": {
+        "substituted": true,
+        "typed_name": "+1/(S*L)",
+        "typed_value": 0.0007716049382716049,
+        "fitted_value": 0.0007572389910511695,
+        "rel_dev": 0.01897148375903505
+      },
+      "d_asym_NmZ2_over_A": {
+        "substituted": true,
+        "typed_name": "+1/(R*D)",
+        "typed_value": 0.027777777777777776,
+        "fitted_value": 0.028317872670601797,
+        "rel_dev": 0.019072580031222492
+      },
+      "e_pair": {
+        "substituted": false,
+        "typed_name": null,
+        "typed_value": null,
+        "fitted_value": 0.021476831209512163,
+        "rel_dev": 0.10861437505633921,
+        "best_attempt_name": "+D/M",
+        "best_attempt_rel_dev": 0.10861437505633921
+      }
+    },
+    "train_rms_u": 0.0181296356035813,
+    "train_rms_MeV": 16.88764864375964,
+    "train_R2": 0.7919255149551844,
+    "test_rms_u": 0.02612106603981384,
+    "test_rms_MeV": 24.331618965009937,
+    "test_R2": 0.28500685279018856
+  },
+  "wrong_controls_asym_R": [
+    {
+      "label": "WC-R10_asym_identity_factor",
+      "R_perturbation": 10,
+      "total": 71,
+      "break_count": 58,
+      "nontrivial_total": 58,
+      "nontrivial_break_count": 58,
+      "breaks_all_nontrivial_rows": true
+    },
+    {
+      "label": "WC-R11_asym_identity_factor",
+      "R_perturbation": 11,
+      "total": 71,
+      "break_count": 58,
+      "nontrivial_total": 58,
+      "nontrivial_break_count": 58,
+      "breaks_all_nontrivial_rows": true
+    },
+    {
+      "label": "WC-R13_asym_identity_factor",
+      "R_perturbation": 13,
+      "total": 71,
+      "break_count": 58,
+      "nontrivial_total": 58,
+      "nontrivial_break_count": 58,
+      "breaks_all_nontrivial_rows": true
+    }
+  ],
+  "wrong_control_drop_asym": {
+    "label": "WC-T1_drop_asym",
+    "description": "Drop SAM asymmetry term; refit 4-term BW",
+    "rms_u_dropped": 0.013384101127104657,
+    "rms_MeV_dropped": 12.467211266090864
+  },
+  "wrong_control_shuffle": {
+    "label": "WC-A1_shuffle_B_u",
+    "description": "Shuffle B_u labels (seed 20260623), refit",
+    "rms_u_shuffled": 0.03831608922015187,
+    "rms_MeV_shuffled": 35.69121113637
+  },
+  "strong_pass_conditions": {
+    "S1_asymmetry_identity_exact": true,
+    "S2_bw_fit_rms_under_5MeV": true,
+    "S3_at_least_3_coefs_typed_5pct": true,
+    "S4_zero_free_train_within_1p5x": false,
+    "S5_zero_free_test_within_1p5x": false,
+    "S6_R_perturbations_break_identity": true,
+    "S7_asym_removal_degrades": true,
+    "S8_row_shuffle_degrades": true
+  },
+  "fail_conditions": {
+    "F1_identity_fails": false,
+    "F2_fit_blows_up": false,
+    "F3_asym_removal_no_op": false
+  }
+}

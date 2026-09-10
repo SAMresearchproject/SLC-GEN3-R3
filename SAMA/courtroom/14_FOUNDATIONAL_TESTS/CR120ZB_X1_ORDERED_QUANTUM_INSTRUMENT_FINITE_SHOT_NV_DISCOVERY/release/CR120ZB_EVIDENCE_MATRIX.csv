@@ -1,0 +1,10 @@
+gate,status,detail
+G1_CUSTODY,True,13/13 sources; 5/5 seal
+G2_PROFILE_IMPORT,False,three CR223c NV profiles imported
+G3_PHYSICAL_RECONSTRUCTIONS,True,2160 PSD unit-trace reconstructions
+G4_CALIBRATION,True,3/3 profiles
+G5_FORWARD_ORDER_VALIDATION,True,3/3 profiles
+G6_SWAP_VALIDATION,True,3/3 profiles
+G7_MARGINAL_INVARIANCE,True,max trace distance=1.67e-16
+G8_MATCHED_RESOURCE_SCHEDULE,True,1728 scheduled condition blocks
+G9_WRONG_CONTROLS,True,12/12 rejected

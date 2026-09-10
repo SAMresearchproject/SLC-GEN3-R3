@@ -1,0 +1,76 @@
+{
+  "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL",
+  "files": [
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_hllhc_prediction_commit.json",
+      "mode": "100644",
+      "git_blob": "5800891a4ef63c87f4955b1784f881067911d4c0",
+      "bytes": 2620,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_hllhc_prediction_commit.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_hllhc_prediction_commit.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_hllhc_prediction_commit.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_hllhc_prediction_commit.json"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv",
+      "mode": "100644",
+      "git_blob": "df1cf0c4d2ddd336ad44f1776ccf3ef9d8948f58",
+      "bytes": 1170,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "e64f50120e13b3b9b80bf869f64f531da1208023",
+      "bytes": 99,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv.sha256.txt",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_residual_decomposition.csv.sha256.txt"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_result.md",
+      "mode": "100644",
+      "git_blob": "2aa301a0ba085764c7a2317e440b35e154750ed2",
+      "bytes": 6672,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_result.md",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_result.md",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_result.md"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_runner.py",
+      "mode": "100644",
+      "git_blob": "6fb4cbc38a01fdce5f7b5be80b90a80d4bd1414e",
+      "bytes": 28961,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_runner.py",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_runner.py",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_runner.py"
+    },
+    {
+      "path": "13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_summary.json",
+      "mode": "100644",
+      "git_blob": "cb03d795ebabf0437ba5345ce70d2f2657f68fdf",
+      "bytes": 5349,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_summary.json",
+      "sama_path": "courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_summary.json",
+      "sama_relative_url": "../../../courtroom/13_CERN_INDEPENDENT_TESTS/CR126_PRECISION_FRONTIER_STRUCTURAL_RESIDUAL/CR126_summary.json"
+    }
+  ],
+  "test_keys": [
+    "CR:CR126@13"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

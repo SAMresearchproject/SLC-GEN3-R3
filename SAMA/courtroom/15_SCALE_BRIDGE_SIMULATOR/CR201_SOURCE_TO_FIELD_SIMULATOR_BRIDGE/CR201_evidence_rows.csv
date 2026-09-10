@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_G750c_SOURCE_TO_FIELD_SIMULATOR_BRIDGE,source G-test result
+particle_rows_imported,26,QP075 particle rows imported by G750c
+source_rows_emitted,7,active q_A source rows
+ratio_spread_fractional,0.003286777770728273,must be within declared tolerance
+wrong_controls,6/6,all source-strength controls labeled

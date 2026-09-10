@@ -1,0 +1,9 @@
+check,passed,observed,expected
+upstream_cr222a_passed,True,13/13,all passed
+upstream_contract_hash_matches,True,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b,0b18cd65bcf366364c66f1ea0aabe50f2e085794448713342bce6c69670aed0b
+packet_has_header_route_support_tensor_checksum_closure,True,"['carrier_side_support', 'ledger_checksum', 'signal_path', 'source_packet_support', 'timing_gravity_witness_floor', 'unpacked_support_total', 'upstream_contract_reference', 'valid_packet_closure']",required roles present
+packet_header_valid,True,6,6
+packet_validity_checks_pass,True,12,12
+wrong_controls_fail_as_expected,True,6,6
+cr222b_does_not_modify_engine_sources,True,read-only inputs present,read-only inputs present
+deterministic_byte_identical_regeneration,True,79d5c3bb6384910d54f61df519d6f4cc005f5fd6b30952a1d78440be02e1a009,79d5c3bb6384910d54f61df519d6f4cc005f5fd6b30952a1d78440be02e1a009

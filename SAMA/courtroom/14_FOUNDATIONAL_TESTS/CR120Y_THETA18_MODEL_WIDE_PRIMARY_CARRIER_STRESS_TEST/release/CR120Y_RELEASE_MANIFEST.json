@@ -1,0 +1,76 @@
+{
+  "campaign_id": "CR120Y_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST",
+  "files": [
+    {
+      "bytes": 45793,
+      "path": "CR120Y_CORPUS_MANIFEST.csv",
+      "sha256": "889a65040c38f1fb4e36f08d853ccf6f6971f90410ecb29e888811e2332a0759"
+    },
+    {
+      "bytes": 649,
+      "path": "CR120Y_CORPUS_SUMMARY.json",
+      "sha256": "c77e06fa18a8cc89c50fd62647991fb356f012b74b2505df922ff0da13da6f08"
+    },
+    {
+      "bytes": 219,
+      "path": "CR120Y_DEPTH_STRESS.csv",
+      "sha256": "348963bc461ddc54f4ca86f4ff1fe7a0d449a814d61f991fb57a298760582f54"
+    },
+    {
+      "bytes": 592,
+      "path": "CR120Y_EVIDENCE_FAMILIES.csv",
+      "sha256": "f4a76c1d03ec3526f24f9e27c48ce1a8afd1d289427fd53bb8b5b02328740e3c"
+    },
+    {
+      "bytes": 567,
+      "path": "CR120Y_EVIDENCE_MATRIX.csv",
+      "sha256": "593bbe6ae0d1209a4b0d830f65f60eee3bb91200f5b573f1a8c71eb780e324bc"
+    },
+    {
+      "bytes": 367,
+      "path": "CR120Y_EXACT_DERIVATIONS.csv",
+      "sha256": "a684137d8b1063d49a73440dd8511f4668407c8f6bfc4598fa33215959a0a7e6"
+    },
+    {
+      "bytes": 1181,
+      "path": "CR120Y_LEAVE_ONE_FAMILY_OUT.csv",
+      "sha256": "7158e8a1a5e8e2b4730d90285e0cf095144e65570a135e870898a00f66201784"
+    },
+    {
+      "bytes": 878,
+      "path": "CR120Y_PROVENANCE.json",
+      "sha256": "8a860910f71062e0a2c7833fb7c0be3bce6f13b3cb64d0da27f161464d43e11e"
+    },
+    {
+      "bytes": 875,
+      "path": "CR120Y_QP_CARRIER_ROWS.csv",
+      "sha256": "f9f5d804d4ea83570946ecc9a521e4fabac565f0f56f77874f98467d6fd4f02d"
+    },
+    {
+      "bytes": 2405,
+      "path": "CR120Y_result.md",
+      "sha256": "1b998cfb63b3b6053d7574ad2819aebaaa51036c59ad495cf5018ffffcd96ef0"
+    },
+    {
+      "bytes": 4997,
+      "path": "CR120Y_SOURCE_VALIDATION.csv",
+      "sha256": "dca1df709db74bf8eaffcfd6c2f19d134706e359f03eb8f81028c6d83259d0d8"
+    },
+    {
+      "bytes": 347,
+      "path": "CR120Y_STRUCTURAL_SUBSTITUTIONS.csv",
+      "sha256": "66ac467e2fdc763f9521251088015e791aa493f298b371568a2c0b81ebd1b222"
+    },
+    {
+      "bytes": 2724,
+      "path": "CR120Y_SUMMARY.json",
+      "sha256": "be3b1da90f4558836af3a51a7b7d486663551ca3f7858dbe1d7ab28232665886"
+    },
+    {
+      "bytes": 1016,
+      "path": "CR120Y_WRONG_CONTROLS.csv",
+      "sha256": "1c93becf16abc6f0dfb5264436ed7f0f5a6a80393b257c662569f337023e7688"
+    }
+  ],
+  "primary_verdict": "PASS_THETA18_MODEL_WIDE_PRIMARY_CARRIER_STRESS_TEST__MULTIPATH_AND_LEAVE_ONE_FAMILY_OUT_ROBUST__PHYSICAL_IDENTITY_BOUNDARIES_PRESERVED"
+}

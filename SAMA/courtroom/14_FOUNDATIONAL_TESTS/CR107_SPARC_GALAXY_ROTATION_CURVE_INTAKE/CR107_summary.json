@@ -1,0 +1,78 @@
+{
+  "cr_id": "CR107",
+  "branch": "14_FOUNDATIONAL_TESTS",
+  "extends_anchor": "CR106 (14 branch verdict zipper) -> CR104a (Layer 4 appeal)",
+  "test_class": "PUBLIC_SPARC_REFERENCE_INTAKE_NO_MATCH_REVEAL",
+  "execution_status": "CLEAN",
+  "result_class": "CR107_SPARC_REFERENCE_INTAKE_PASS",
+  "anchor_lock_sha256": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c",
+  "upstream_hashes": {
+    "CR104a_appeal_lock.json": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850",
+    "CR106_14_branch_verdict.json": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6",
+    "BLINDNESS_PROTOCOL.md": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+  },
+  "predictions": [
+    {
+      "name": "P1_sparc_public_reference_sealed",
+      "pass": true,
+      "details": {
+        "galaxies": 175,
+        "paper": "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves"
+      }
+    },
+    {
+      "name": "P2_upstream_cr104a_lock_present",
+      "pass": true,
+      "details": {
+        "cr104a_appeal_lock_sha256": "090c9e450a38741499cbda2adaf0ea6a8aeb2296bf7ec78265c13bfcdd26e850"
+      }
+    },
+    {
+      "name": "P3_cr106_branch_verdict_present",
+      "pass": true,
+      "details": {
+        "cr106_verdict_sha256": "09eb6ae0055ebe5e53db9c2dc3df205c0613c4af5671341b7d5b4e7e07aa0ea6"
+      }
+    },
+    {
+      "name": "P4_blindness_protocol_present",
+      "pass": true,
+      "details": {
+        "blindness_protocol_sha256": "6b0b0c189ddd6dff008f0e2a457341fc134b14d4c36c04da1daae15eface3a4e"
+      }
+    },
+    {
+      "name": "P5_zero_free_parameters_at_intake",
+      "pass": true
+    },
+    {
+      "name": "P6_no_match_revealed_yet",
+      "pass": true,
+      "details": "match deferred to CR110 three-mode closure appeal"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_no_sam_prediction_value_substituted_for_reference",
+      "pass": true,
+      "details": "SPARC reference is independent public data; no SAM prediction is dressed up as reference"
+    },
+    {
+      "name": "WC2_no_prior_CR_verdict_modified",
+      "pass": true,
+      "details": "CR101-CR106 verdicts unchanged"
+    },
+    {
+      "name": "WC3_anchor_file_sealed_with_sha256_sibling",
+      "pass": true,
+      "details": {
+        "anchor_sha256": "937ee99e4605dff30ee0fac1ef12ad2e3bfd2091e4ca296c83a1afa77259388c"
+      }
+    }
+  ],
+  "next_courtroom_step": "CR108 Planck Omega_b intake, then CR109 PBH intake, then CR110 three-mode closure appeal",
+  "open_debts": [
+    "Match reveal of G732c cored R=12 law to SPARC reference deferred to CR110",
+    "CR110 will register the forward-blind reveal of CR104a_PRED_1"
+  ]
+}

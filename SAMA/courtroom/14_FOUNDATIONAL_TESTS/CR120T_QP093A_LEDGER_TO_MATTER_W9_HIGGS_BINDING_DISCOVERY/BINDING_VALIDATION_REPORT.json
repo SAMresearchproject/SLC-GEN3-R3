@@ -1,0 +1,285 @@
+{
+  "CR261": {
+    "all55_baseline": {
+      "MAE_MeV": 2.0840705789579084,
+      "RMS_MeV": 2.716039627696933,
+      "max_abs_MeV": 7.2539503902268265,
+      "mean_pred_minus_obs_MeV": -0.08071365518981127,
+      "n": 55,
+      "within_15": 55,
+      "within_30": 55,
+      "within_5": 50,
+      "within_8": 55
+    },
+    "all55_candidate": {
+      "MAE_MeV": 2.312957904320304,
+      "RMS_MeV": 3.166128953056739,
+      "max_abs_MeV": 12.021809423672394,
+      "mean_pred_minus_obs_MeV": 0.42226300637912656,
+      "n": 55,
+      "within_15": 55,
+      "within_30": 55,
+      "within_5": 50,
+      "within_8": 54
+    },
+    "test_baseline": {
+      "MAE_MeV": 2.2947769507875826,
+      "RMS_MeV": 3.0171130679193108,
+      "max_abs_MeV": 7.2539503902268265,
+      "mean_pred_minus_obs_MeV": 0.04050353967218445,
+      "n": 20,
+      "within_15": 20,
+      "within_30": 20,
+      "within_5": 17,
+      "within_8": 20
+    },
+    "test_candidate": {
+      "MAE_MeV": 2.88827962468926,
+      "RMS_MeV": 4.071613571192475,
+      "max_abs_MeV": 12.021809423672394,
+      "mean_pred_minus_obs_MeV": 1.0493001286770018,
+      "n": 20,
+      "within_15": 20,
+      "within_30": 20,
+      "within_5": 17,
+      "within_8": 19
+    },
+    "train_candidate": {
+      "MAE_MeV": 1.984202635538043,
+      "RMS_MeV": 2.5058773692704017,
+      "max_abs_MeV": 6.288323792868162,
+      "mean_pred_minus_obs_MeV": 0.06395607935176921,
+      "n": 35,
+      "within_15": 35,
+      "within_30": 35,
+      "within_5": 33,
+      "within_8": 35
+    }
+  },
+  "CR277": {
+    "anchors": {
+      "Au-197": {
+        "baseline_residual_pred_minus_obs_MeV": -3.7182749808261164,
+        "candidate_abs_residual_MeV": 3.1069259377189518,
+        "candidate_residual_pred_minus_obs_MeV": -3.1069259377189518
+      },
+      "Fe-56": {
+        "baseline_residual_pred_minus_obs_MeV": 1.230162835500522,
+        "candidate_abs_residual_MeV": 1.3255252753857079,
+        "candidate_residual_pred_minus_obs_MeV": 1.3255252753857079
+      },
+      "O-16": {
+        "baseline_residual_pred_minus_obs_MeV": 0.8917140657912359,
+        "candidate_abs_residual_MeV": 0.8917140657912359,
+        "candidate_residual_pred_minus_obs_MeV": 0.8917140657912359
+      },
+      "Pb-208": {
+        "baseline_residual_pred_minus_obs_MeV": -0.00022999999999839815,
+        "candidate_abs_residual_MeV": 0.6771176108667767,
+        "candidate_residual_pred_minus_obs_MeV": 0.6771176108667767
+      }
+    },
+    "by_band": {
+      "heavy_Z_83_118": {
+        "baseline": {
+          "MAE_MeV": 4.777321837392597,
+          "RMS_MeV": 5.752172150914848,
+          "max_abs_MeV": 15.898949841474717,
+          "mean_pred_minus_obs_MeV": 2.6768367455103697,
+          "n": 36,
+          "within_15": 35,
+          "within_30": 36,
+          "within_5": 24,
+          "within_8": 31
+        },
+        "candidate": {
+          "MAE_MeV": 5.149113917157861,
+          "RMS_MeV": 6.17762590157301,
+          "max_abs_MeV": 16.69454522643494,
+          "mean_pred_minus_obs_MeV": 3.464256152044827,
+          "n": 36,
+          "within_15": 35,
+          "within_30": 36,
+          "within_5": 22,
+          "within_8": 32
+        }
+      },
+      "light_Z_1_7": {
+        "baseline": {
+          "MAE_MeV": 13.28842277896373,
+          "RMS_MeV": 19.90736888015954,
+          "max_abs_MeV": 39.210978565310356,
+          "mean_pred_minus_obs_MeV": -7.865272981097393,
+          "n": 7,
+          "within_15": 4,
+          "within_30": 6,
+          "within_5": 4,
+          "within_8": 4
+        },
+        "candidate": {
+          "MAE_MeV": 13.270081099665834,
+          "RMS_MeV": 19.886754531133583,
+          "max_abs_MeV": 39.210978565310356,
+          "mean_pred_minus_obs_MeV": -7.8333080961016135,
+          "n": 7,
+          "within_15": 4,
+          "within_30": 6,
+          "within_5": 4,
+          "within_8": 4
+        }
+      },
+      "mid_Z_8_82": {
+        "baseline": {
+          "MAE_MeV": 3.2889802284477256,
+          "RMS_MeV": 4.144598843153304,
+          "max_abs_MeV": 10.554626967131654,
+          "mean_pred_minus_obs_MeV": -0.8491211092183956,
+          "n": 75,
+          "within_15": 75,
+          "within_30": 75,
+          "within_5": 54,
+          "within_8": 72
+        },
+        "candidate": {
+          "MAE_MeV": 3.3943412815412226,
+          "RMS_MeV": 4.259139960151772,
+          "max_abs_MeV": 12.021809423672394,
+          "mean_pred_minus_obs_MeV": -0.25606222880998863,
+          "n": 75,
+          "within_15": 75,
+          "within_30": 75,
+          "within_5": 57,
+          "within_8": 71
+        }
+      }
+    },
+    "extended_only_baseline": {
+      "MAE_MeV": 5.446968435527963,
+      "RMS_MeV": 7.9741442248170715,
+      "max_abs_MeV": 39.210978565310356,
+      "mean_pred_minus_obs_MeV": -0.23562641893496006,
+      "n": 78,
+      "within_15": 74,
+      "within_30": 77,
+      "within_5": 45,
+      "within_8": 67
+    },
+    "extended_only_candidate": {
+      "MAE_MeV": 5.584773954448111,
+      "RMS_MeV": 8.06744550429221,
+      "max_abs_MeV": 39.210978565310356,
+      "mean_pred_minus_obs_MeV": 0.4213804482776708,
+      "n": 78,
+      "within_15": 74,
+      "within_30": 77,
+      "within_5": 46,
+      "within_8": 68
+    },
+    "frontier": [
+      {
+        "Z": 119,
+        "baseline_pred_MeV": -379.2174987954691,
+        "candidate_pred_MeV": -379.2174987954691,
+        "delta_MeV": 0.0,
+        "isotope": "Hl-238"
+      },
+      {
+        "Z": 120,
+        "baseline_pred_MeV": -334.8766608820973,
+        "candidate_pred_MeV": -334.8766608820973,
+        "delta_MeV": 0.0,
+        "isotope": "Bx-240"
+      },
+      {
+        "Z": 121,
+        "baseline_pred_MeV": -400.64196409738344,
+        "candidate_pred_MeV": -400.64196409738344,
+        "delta_MeV": 0.0,
+        "isotope": "Uq-242"
+      },
+      {
+        "Z": 122,
+        "baseline_pred_MeV": -355.47049923283555,
+        "candidate_pred_MeV": -355.47049923283555,
+        "delta_MeV": 0.0,
+        "isotope": "Lm-244"
+      },
+      {
+        "Z": 123,
+        "baseline_pred_MeV": -421.63617085238724,
+        "candidate_pred_MeV": -421.63617085238724,
+        "delta_MeV": 0.0,
+        "isotope": "Cp-246"
+      },
+      {
+        "Z": 124,
+        "baseline_pred_MeV": -375.39781506705833,
+        "candidate_pred_MeV": -375.39781506705833,
+        "delta_MeV": 0.0,
+        "isotope": "Ly-248"
+      },
+      {
+        "Z": 125,
+        "baseline_pred_MeV": -441.66209587356457,
+        "candidate_pred_MeV": -441.66209587356457,
+        "delta_MeV": 0.0,
+        "isotope": "Di-250"
+      },
+      {
+        "Z": 126,
+        "baseline_pred_MeV": -388.33286460617956,
+        "candidate_pred_MeV": -388.33286460617956,
+        "delta_MeV": 0.0,
+        "isotope": "Jd-252"
+      }
+    ],
+    "whole_observed_baseline": {
+      "MAE_MeV": 4.336237819766602,
+      "RMS_MeV": 6.67248350218043,
+      "max_abs_MeV": 39.210978565310356,
+      "mean_pred_minus_obs_MeV": -0.1896175527176959,
+      "n": 118,
+      "within_15": 114,
+      "within_30": 117,
+      "within_5": 82,
+      "within_8": 107
+    },
+    "whole_observed_candidate": {
+      "MAE_MeV": 4.515544617211319,
+      "RMS_MeV": 6.828884164847849,
+      "max_abs_MeV": 39.210978565310356,
+      "mean_pred_minus_obs_MeV": 0.42945252237418075,
+      "n": 118,
+      "within_15": 114,
+      "within_30": 117,
+      "within_5": 83,
+      "within_8": 107
+    }
+  },
+  "baseline_reproduction": {
+    "CR274_abs_delta": 0.0,
+    "CR274_combined_55_RMS_published": 2.716039627696933,
+    "CR274_combined_55_RMS_recomputed": 2.716039627696933,
+    "CR277_extended_RMS_published": 7.974144218432505,
+    "CR277_extended_RMS_recomputed": 7.9741442248170715,
+    "CR277_max_abs_prediction_delta_from_stored_table_MeV": 4.981717154350918e-07,
+    "CR277_whole_RMS_abs_delta": 5.881643616589827e-09,
+    "CR277_whole_RMS_published": 6.672483508062074,
+    "CR277_whole_RMS_recomputed": 6.67248350218043
+  },
+  "candidate_id": "B3_SURFACE_EXCESS_REPLACES_82",
+  "contract_id": "CR120T_BINDING_FROZEN_SURFACE_EXCESS_V1",
+  "gates": {
+    "V_BIND_0_BASELINE": true,
+    "V_BIND_1_FIREWALL": true,
+    "V_BIND_2_TEST": false,
+    "V_BIND_3_EXTENSION": true,
+    "V_BIND_4_WHOLE": false,
+    "V_BIND_5_ANCHORS": true,
+    "V_BIND_6_COMPLEXITY": true,
+    "V_BIND_7_TYPED_ACCOUNTING": true
+  },
+  "same_run_repair_performed": false,
+  "status": "NO_FROZEN_BINDING_IMPROVEMENT",
+  "validation_observations_used_for_refit": 0
+}

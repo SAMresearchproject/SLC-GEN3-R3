@@ -1,0 +1,90 @@
+{
+  "artifact": "CR231_PARTITION_SHUFFLE_NULL_TEST",
+  "classification": "STRUCTURAL_NULL_TEST",
+  "arc_position": "Test 2 of 7 in the Seven-Test Ownership Arc (CR230-CR236)",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "source_file": "C:\\VS\\CR219_promoted_particle_rows_126.csv",
+  "source_sha256": "45a8e7d20117b5aad62933d3858faf892cd3a3620c2ea8671f05904b10f1142f",
+  "precommit_sha256": "b94a48033a4e803917ea554fa1ffbba72578d11dc32d4bad9be0ef9e3775c8ed",
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "targets": {
+    "support_sum_12_roster": 81,
+    "mirror_QP093A_0303": 81,
+    "closed_ledger": 162,
+    "write_rate_times_R": 324,
+    "write_rate_target": 27
+  },
+  "n_rows": 139,
+  "n_support_positions": 12,
+  "mirror_position_index": 138,
+  "canonical_table": {
+    "support_sum": 81,
+    "mirror_value": 81,
+    "ledger": 162,
+    "write_rate_x_R": 324,
+    "hit_t1": true,
+    "hit_t2": true,
+    "hit_t3": true,
+    "hit_t4": true,
+    "hit_all_four": true
+  },
+  "canonical_passes_all_four": true,
+  "null_A_uniform_permutation": {
+    "n_trials": 10000,
+    "hits_all_four": 2,
+    "hits_t1_support_81": 251,
+    "hits_t2_mirror_81": 70,
+    "hits_t3_ledger_162": 24,
+    "hits_t4_write_rate_27": 251,
+    "p_value_all_four_with_smoothing": 0.00029997000299970003,
+    "p_value_t1": 0.025197480251974803,
+    "p_value_t2": 0.007099290070992901,
+    "p_value_t3": 0.0024997500249975004,
+    "p_value_t4": 0.025197480251974803,
+    "support_sum_mean": 95.3803,
+    "support_sum_min": 38,
+    "support_sum_max": 206,
+    "mirror_value_mean": 7.9554
+  },
+  "null_B_marginal_preserving": {
+    "n_trials": 10000,
+    "hits_all_four": 1,
+    "hits_t1_support_81": 195,
+    "hits_t2_mirror_81": 68,
+    "p_value_all_four_with_smoothing": 0.00019998000199980003
+  },
+  "WC1_synthetic_uniform_modes": {
+    "n_trials": 10000,
+    "hits": 0,
+    "rate": 0.0
+  },
+  "WC2_shifted_targets": {
+    "n_trials": 10000,
+    "shifted_target_support": 91,
+    "shifted_target_mirror": 91,
+    "hits": 0,
+    "rate": 0.0
+  },
+  "primary_p_value": 0.00029997000299970003,
+  "pass_threshold": 0.001,
+  "boundary_threshold": 0.05,
+  "scientific_verdict": "PASS",
+  "execution_status": "CLEAN",
+  "seeds": {
+    "uniform": 20260622,
+    "marginal": 20260623,
+    "wc1": 20260624,
+    "wc2": 20260625
+  },
+  "K_gates": {
+    "K1_external_anchor": "N/A (structural null test)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (targets locked in precommit before shuffles run)",
+    "K4_typed_inputs": "PASS (canonical CR219 source SHA-locked)",
+    "K5_reproduction_on_demand": "PASS (seeded runner reproduces every trial)"
+  }
+}

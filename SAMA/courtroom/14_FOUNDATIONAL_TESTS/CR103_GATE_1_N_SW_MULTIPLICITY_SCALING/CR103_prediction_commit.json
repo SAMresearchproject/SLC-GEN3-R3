@@ -1,0 +1,11 @@
+{
+  "commit_id": "CR103_GATE_1_PREDICTION_COMMIT",
+  "predictions_file": "CR103_predictions.csv",
+  "prediction_commit_sha256": "509ac7b6cfbc80daff75160985ac97bc8c4b81f6e5cfa2513dee17875cb39926",
+  "prediction_commit_utc": "2026-06-13T22:28:23Z",
+  "anchor_envelope_unopened_at_commit_time": true,
+  "subject_gate": "GATE_1",
+  "sam_committed_candidate": "candidate #4 simplest reading",
+  "alpha_SAM": 1.0,
+  "upstream_question_lock_sha256": "fb310a23497308e9b0b92c23974cb08a230c7a8779c36aabd94feb628e145867"
+}

@@ -1,0 +1,78 @@
+# Courtroom test package: CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS
+
+[The Courtroom](https://github.com/iwtbotiwtwot/The_Courtroom) · [Browse this complete package](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS)
+
+This index includes every tracked file below `20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS` at Courtroom commit `b5e914f71377e86ef4c67e199973d9300795cda1`.
+
+**8 files · 42,866 bytes.**
+
+The complete files below are copied into SAMA, byte for byte. The file manifest retains the original Courtroom links and Git identities.
+
+[Download the complete file manifest](FILES.json).
+
+## Precommitments and premises
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR001_PRECOMMIT.md](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_PRECOMMIT.md) | 9,760 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_PRECOMMIT.md) |
+| [CR001_declared_premises.json](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_declared_premises.json) | 2,537 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_declared_premises.json) |
+
+## Code
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR001_runner.py](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_runner.py) | 11,738 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_runner.py) |
+
+## Results and reports
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR001_result.md](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_result.md) | 12,912 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_result.md) |
+| [CR001_summary.json](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_summary.json) | 2,075 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_summary.json) |
+
+## Inputs, controls and provenance
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR001_input_manifest.csv](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_input_manifest.csv) | 1,384 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_input_manifest.csv) |
+| [HASHES.txt](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/HASHES.txt) | 1,863 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/HASHES.txt) |
+
+## Data and supporting files
+
+| File | Bytes | Download |
+|---|---:|---|
+| [CR001_evidence_rows.csv](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_evidence_rows.csv) | 597 | [Raw](../../../courtroom/20_NEUTRINO_SELECTOR/CR001_NEUTRINO_MASS_SPECTRUM_AND_SPLITTINGS/CR001_evidence_rows.csv) |
+
+## Related Courtroom tests
+
+
+<details>
+<summary>Other tests mentioned in this package</summary>
+
+These are source-text mentions. They do not assert that one test supports another.
+
+- [02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT](../../../courtroom/02_A_KERNEL_WEAK_FIELD/CR004_WEAK_FIELD_A_KERNEL_EXTERNAL_CONTACT)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018b_SAM_ZERO_PARAMETER_SN_BAO_DISTANCE_VERDICT_LADDER_APPEAL](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR018b_SAM_ZERO_PARAMETER_SN_BAO_DISTANCE_VERDICT_LADDER_APPEAL)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_SAM_ZERO_PARAMETER_CMB_COMPRESSED_GEOMETRY_TEST](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_SAM_ZERO_PARAMETER_CMB_COMPRESSED_GEOMETRY_TEST)
+- [06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_candidate_workspace](../../../courtroom/06_DISTANCE_ROAD_SN_BAO_SHARED_SHRINKAGE/CR019_candidate_workspace)
+- [07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT](../../../courtroom/07_BARYON_INVENTORY_AND_COSMOLOGY/CR019_EFFECTIVE_MATTER_INVENTORY_REFINEMENT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR031b_X_RADIAL_LAW_NULL_PERCENTILE_APPEAL](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR031b_X_RADIAL_LAW_NULL_PERCENTILE_APPEAL)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR032_SAM_NATIVE_PER_GALAXY_HALO_MASS_DERIVATION](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR032_SAM_NATIVE_PER_GALAXY_HALO_MASS_DERIVATION)
+- [08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR032_candidate_workspace](../../../courtroom/08_GALAXY_HALOS_BB_PBH_TRAPPED_A/CR032_candidate_workspace)
+- [09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION](../../../courtroom/09a_PARTICLE_MASS_CHAIN/CR238_SUBSTRATE_SPINE_COMPACTION)
+- [18_SAM_NATIVE_QC/CR004_QGC_PHASE2_DISTANCE_COUPLING](../../../courtroom/18_SAM_NATIVE_QC/CR004_QGC_PHASE2_DISTANCE_COUPLING)
+- [19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR001c_PEEBLES_PLUS_CORRECTED_OPTICAL_DEPTH_APPEAL](../../../courtroom/19_BIG_BANG_SUBSTRATE_DERIVED_THERMAL_LADDER/CR001c_PEEBLES_PLUS_CORRECTED_OPTICAL_DEPTH_APPEAL)
+- [20_NEUTRINO_SELECTOR/CR002_NEUTRINO_ORDERING_FROM_SUBSTRATE_STRUCTURE](../../../courtroom/20_NEUTRINO_SELECTOR/CR002_NEUTRINO_ORDERING_FROM_SUBSTRATE_STRUCTURE)
+- [20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER](../../../courtroom/20_NEUTRINO_SELECTOR/CR003_PMNS_MIXING_BOUNDARY_CHAPTER)
+- [21_GRAVITATIONAL_WAVES/CR004_SAM_VS_GR_DISCRIMINATION_MAP](../../../courtroom/21_GRAVITATIONAL_WAVES/CR004_SAM_VS_GR_DISCRIMINATION_MAP)
+
+</details>
+
+## Shared code and related campaign files
+
+[Browse the surrounding Courtroom branch](../../../courtroom/20_NEUTRINO_SELECTOR) · [Courtroom shared tools](https://github.com/iwtbotiwtwot/The_Courtroom/tree/b5e914f71377e86ef4c67e199973d9300795cda1/tools) · [Courtroom test index](../../../courtroom/TEST_INDEX.csv)
+
+[Download the entire pinned Courtroom source archive](https://github.com/iwtbotiwtwot/The_Courtroom/archive/b5e914f71377e86ef4c67e199973d9300795cda1.zip).
+
+Source files retain their originating terms. See [Courtroom licence](../../../courtroom/LICENSE.md).

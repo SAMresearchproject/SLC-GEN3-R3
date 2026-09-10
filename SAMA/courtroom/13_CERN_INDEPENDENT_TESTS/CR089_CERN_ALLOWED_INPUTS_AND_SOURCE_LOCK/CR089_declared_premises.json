@@ -1,0 +1,126 @@
+{
+  "cr_id": "CR089",
+  "title": "CERN_ALLOWED_INPUTS_AND_SOURCE_LOCK",
+  "branch": "13_CERN_INDEPENDENT_TESTS",
+  "created_at_utc": "2026-06-13T00:00:00Z",
+  "test_class": "FORWARD_COURTROOM_EXTENSION_INTO_CERN_INDEPENDENT_ANCHOR_SPACE",
+  "branch_seal": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/SEALED_CERN_INDEPENDENT_TESTS_SCOPE_APPROACH_2026_06_13.md",
+  "branch_seal_sha256_sibling": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/SEALED_CERN_INDEPENDENT_TESTS_SCOPE_APPROACH_2026_06_13.sha256.txt",
+  "branch_seal_sha256_status": "NOT_YET_WRITTEN_PENDING_CURATOR_SIGN_OFF",
+  "source_manifest": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/SOURCE_MANIFEST.csv",
+  "upstream_prediction_side": {
+    "terminal_source_dir": "C:/VS/quantum_phase/artifacts/qp075",
+    "closure_table_rows": 35,
+    "role_operator_table_rows": 26,
+    "free_parameters_introduced": 0,
+    "pdg_anchored_rows": 32,
+    "lattice_anchored_rows": 3,
+    "load_bearing_courtroom_chain": [
+      "09a/CR059a PASS_QP075_ALLOWED_INPUTS_AND_LATEST_SOURCE_LOCK",
+      "09a/CR060a PASS_QP075_SELECTOR_PROVENANCE_AND_FORBIDDEN_TARGETS",
+      "09a/CR061a PASS_QP075_MASS_CHAIN_REPRODUCTION",
+      "09a/CR062a PASS_QP075_ROW_BY_ROW_PARTICLE_LEDGER_35_ROWS",
+      "09a/CR063a PASS_WRONG_CONTROLS_AND_OLDER_FREEZE_MISROUTE_QUARANTINE",
+      "09a/CR064a PASS_QP075_PARTICLE_MASS_CHAIN_BRANCH_RERUN"
+    ],
+    "upstream_substrate_chain_cite_only": [
+      "G616c_PARAMETER_FREE_MASS_CHAIN_CONSOLIDATION",
+      "QGA044_MASS_CHAIN_TO_STANDING_MODE_FAMILY_SELECTOR",
+      "QGA055_FULL_STRICT_PARTICLE_LEDGER_FROM_NATIVE_ROW_READOUTS",
+      "QGA057_TOP_AUDIT_STRICTNESS_RESOLUTION_SELECTOR",
+      "QGA058_ELECTROWEAK_SIDE_PACKET_FACTOR_DERIVATION",
+      "QGA059_ELECTROWEAK_SIDE_PACKET_LOCK_INTEGRATION",
+      "QGA060_PARTICLE_ENGINE_COMPLETION_SURFACE",
+      "V4_1_OPERATOR_ADDENDUM_FREEZE",
+      "PARTICLE_PREDICTOR_CLAIM_CARD",
+      "SAM_PARTICLE_PREDICTION_FREEZE",
+      "SAM_PARTICLE_TABLE_FILLED_FROM_FREEZE"
+    ],
+    "prediction_side_immutability_rule": "No CERN measurement may modify the upstream prediction surface. The prediction side is frozen by the 09a verdict and may be cited only."
+  },
+  "cern_anchor_admissibility": {
+    "admissible_experiments": [
+      "ATLAS",
+      "CMS",
+      "LHCb",
+      "ALICE",
+      "ALPHA",
+      "BASE",
+      "ASACUSA",
+      "AEgIS"
+    ],
+    "admissible_citation_classes": [
+      "arXiv_id",
+      "CDS_record_number",
+      "journal_reference (PRL, EPJC, JHEP, PRD, etc.)"
+    ],
+    "required_citation_fields_per_anchor_row": [
+      "experiment",
+      "publication_reference",
+      "publication_date",
+      "measurement_central_value",
+      "stat_uncertainty",
+      "sys_uncertainty"
+    ],
+    "inadmissible_anchor_classes": [
+      "PDG_world_average (context-only, never anchor)",
+      "Tevatron (CDF, D0)",
+      "B-factories (Belle, BaBar, Belle II)",
+      "Fermilab muon g-2",
+      "KamLAND, Super-Kamiokande, IceCube (non-CERN neutrino)",
+      "any non-CERN value masquerading via PDG averaging"
+    ],
+    "non_cern_anchor_rows_target_cr": "CR096 honest_negative_rejection_rows_only"
+  },
+  "blindness_protocol": {
+    "blindness_protocol_path": "C:/VS/The_Courtroom/13_CERN_INDEPENDENT_TESTS/BLINDNESS_PROTOCOL.md",
+    "blindness_protocol_sha256": "PENDING_HASH_AT_SEAL_SIGN_OFF",
+    "four_pillars": [
+      "PILLAR_1_STRUCTURAL_BLINDNESS_ZERO_FREE_PARAMETERS",
+      "PILLAR_2_PROCEDURAL_BLINDNESS_PRE_COMMIT_PREDICTION_HASH",
+      "PILLAR_3_CROSS_SOURCE_BLINDNESS_MULTI_EXPERIMENT_REDUNDANCY",
+      "PILLAR_4_HONEST_NEGATIVE_DISCIPLINE_CR096_MUST_REJECT"
+    ],
+    "reveal_only_residual_rule": "Mirrors 09a/CR062a observed mass use = REVEAL_ONLY_RESIDUAL_COLUMN. CERN anchor enters only after prediction is committed and only to compute the residual column.",
+    "anchor_envelope_discipline": {
+      "per_cr_envelope_file_pattern": "CR0xx_cern_anchor_envelope.json",
+      "per_cr_envelope_sha256_sibling_pattern": "CR0xx_cern_anchor_envelope.json.sha256.txt",
+      "envelope_must_be_sealed_before_runner_invoked": true,
+      "runner_refuses_to_proceed_if_envelope_sha256_mismatch": true
+    },
+    "per_row_evidence_fields_required": [
+      "row_id",
+      "observable_name",
+      "experiment",
+      "publication_reference",
+      "publication_date_utc",
+      "measurement_central_value",
+      "stat_uncertainty",
+      "sys_uncertainty",
+      "units",
+      "sam_prediction_value",
+      "sam_prediction_source",
+      "prediction_commit_sha256",
+      "prediction_commit_utc",
+      "anchor_envelope_sha256",
+      "anchor_envelope_open_utc",
+      "residual_percent",
+      "tolerance_percent",
+      "cross_source_status",
+      "row_verdict"
+    ],
+    "temporal_ordering_rule": "prediction_commit_utc MUST precede anchor_envelope_open_utc; if not, the row is rejected as BLINDNESS_VIOLATION_DETECTED",
+    "cite_in_rule": "Every 13-branch CR result file MUST contain blindness_protocol_cite and blindness_protocol_sha256 lines; missing either field falls the result to DIAGNOSTIC"
+  },
+  "cern_side_blindness_attestations": [
+    "SAM, QP075, QGA060, V4.1, and the broader substrate chain have not been shared with any CERN collaboration via private communication, theory-experiment workshop input, or any other channel.",
+    "The 13 branch does not request, view, or use any non-public CERN data. Only published values from arXiv / CDS / journal references appear as anchors.",
+    "No CR091-CR095 runner has network access to CERN systems. Anchor values are typed into the anchor envelope from the cited publication by the curator and frozen by sha256 before the runner reads them."
+  ],
+  "open_debts_declared_at_CR089": [
+    "ATLAS / CMS / LHCb / ALICE publication index files are placeholders in SOURCE_MANIFEST.csv and will be populated by CR090 CERN_BLANK_INVENTORY_AND_COVERAGE_MAP.",
+    "Per-class tolerance bands for CR091..CR095 are declared in each CR's own precommit, not in CR089.",
+    "Seal sha256 sibling file is not written; until it exists, CR089+ result files cannot be claimed as sealed-scope verdicts.",
+    "Blindness protocol sha256 is PENDING_HASH_AT_SEAL_SIGN_OFF; it must be written into this declared_premises file before CR089 runner is invoked."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES",
+  "files": [
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_PRECOMMIT.md",
+      "mode": "100644",
+      "git_blob": "6af06aae9153830aa251a702cda5a91d06c8cf3f",
+      "bytes": 3741,
+      "category": "Precommitments and premises",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_PRECOMMIT.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_PRECOMMIT.md",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_PRECOMMIT.md",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_PRECOMMIT.md"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_per_mode.csv",
+      "mode": "100644",
+      "git_blob": "16efc67b4b5759ebb79bb73c7bde919b853b0091",
+      "bytes": 847,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_per_mode.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_per_mode.csv",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_per_mode.csv",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_per_mode.csv"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_result.md",
+      "mode": "100644",
+      "git_blob": "c664a39a5a2b9c1b8d119a8f7a794247425dc75b",
+      "bytes": 7660,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_result.md",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_result.md",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_result.md"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_runner.py",
+      "mode": "100644",
+      "git_blob": "12206e95730dc41e3f30e57042491631c8f4a95b",
+      "bytes": 9423,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_runner.py",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_runner.py",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_runner.py"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_summary.json",
+      "mode": "100644",
+      "git_blob": "6db7e08b92bb3436bb1011a6aea230ee9890aa8f",
+      "bytes": 2643,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_summary.json",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_summary.json",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/CR003b_summary.json"
+    },
+    {
+      "path": "21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "be5406029fcc63ca68c3eb5adf4f2719d86cff6c",
+      "bytes": 662,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/HASHES.txt",
+      "sama_path": "courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/21_GRAVITATIONAL_WAVES/CR003b_QNM_HIGHER_MODES/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR003b@21"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

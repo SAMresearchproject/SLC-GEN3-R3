@@ -1,0 +1,82 @@
+{
+  "artifacts": {
+    "complement": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_particle_complement_195.csv",
+    "gate_reasons": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_all_particle_gate_reasons.csv",
+    "pattern_leads": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_pattern_leads.csv",
+    "result": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_result.md",
+    "summary": "09a_PARTICLE_MASS_CHAIN/CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT/CR214_summary.json"
+  },
+  "checks_passed": 10,
+  "checks_total": 10,
+  "counts": {
+    "all_particle_gate_reasons": {
+      "PASS_BOUND_COMPOSITE_MATTER": 63,
+      "PASS_STABLE_SINGLE_WRITE_MATTER": 63,
+      "REJECT_BIN_antimatter_conjugate_rows": 41,
+      "REJECT_NOT_MATTER_ALLOWED": 36,
+      "REJECT_STABILITY_SELECTOR_OPEN_OR_HEAVY": 118
+    },
+    "complement_bins": {
+      "antimatter_conjugate_rows": 42,
+      "bound_composite_rows": 106,
+      "carrier_only_rows": 6,
+      "hidden_source_support_rows": 8,
+      "rejected_fake_closures": 8,
+      "unstable_resonance_rows": 25
+    },
+    "complement_gate_reasons": {
+      "REJECT_BIN_antimatter_conjugate_rows": 41,
+      "REJECT_NOT_MATTER_ALLOWED": 36,
+      "REJECT_STABILITY_SELECTOR_OPEN_OR_HEAVY": 118
+    },
+    "complement_rows": 195,
+    "frontier_z_unknown": 8,
+    "known_z_downstream": 118,
+    "matter_rows": 126,
+    "matter_table_split": {
+      "bound_composite_rows": 63,
+      "stable_matter_rows": 63
+    },
+    "particle_rows": 321,
+    "periodic_rows": 126
+  },
+  "cr_id": "CR214",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-20T03:13:47+00:00",
+  "lc04_generator_sources": [
+    "CR128",
+    "CR128b",
+    "CR129",
+    "CR129b",
+    "CR129c",
+    "CR130",
+    "CR131",
+    "CR132",
+    "CR133",
+    "CR134"
+  ],
+  "open_leads": [
+    "The 118 stability-open/heavy complement count equals the 118 downstream known-Z count, but CR214 finds only a count match.",
+    "Eight-row guard packets sit beside the Z119-Z126 frontier count, but CR214 finds only a count match."
+  ],
+  "result_class": "CR214_PASS_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT__195_COMPLEMENT_ROWS_ACCOUNTED__MATTER_GATE_SPLIT_126_PLUS_195__OPEN_COUNT_LEADS_NOT_PROMOTED",
+  "scientific_reading": "The 195 rows are the structured non-selected side of the CR119 particle-to-matter gate. They split into stability-open/heavy rows, antimatter conjugate rows, and hard guard/reject rows. The periodic 126 is a separate element-family layer, not a candidate-id subset of the particle table.",
+  "source_counts_scope": [
+    {
+      "rows": "321",
+      "scope": "QP093A full 321-row particle candidate catalog with QP093B null-conjugate override",
+      "table": "latest_particle_table.csv"
+    },
+    {
+      "rows": "126",
+      "scope": "matter-gated QP093 rows: stable=63; bound=63; antimatter excluded",
+      "table": "latest_matter_table.csv"
+    },
+    {
+      "rows": "126",
+      "scope": "QP094A native element-family table: known_Z=118; frontier_Z=8",
+      "table": "latest_periodic_table.csv"
+    }
+  ],
+  "test_id": "CR214_CR119_PARTICLE_COMPLEMENT_PATTERN_AUDIT"
+}

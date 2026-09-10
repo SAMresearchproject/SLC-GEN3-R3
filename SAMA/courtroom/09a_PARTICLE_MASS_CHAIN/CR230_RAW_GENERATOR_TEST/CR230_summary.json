@@ -1,0 +1,90 @@
+{
+  "artifact": "CR230_RAW_GENERATOR_TEST",
+  "classification": "STRUCTURAL_IDENTITY_CR_RAW_GENERATOR_VERIFICATION",
+  "arc_position": "Test 1 of 7 in the Seven-Test Ownership Arc (CR230-CR236)",
+  "generated_at_utc": "2026-06-22T00:00:00+00:00",
+  "result_class": "CR230_PASS_RAW_GENERATOR_TEST__STRUCTURAL_NUMBER_SET_126_81_81_162_27_EMERGES_FROM_R_12_D_3_ALPHA_H_2_ALONE__NO_SPREADSHEET_SELECTION__FOUR_WRONG_CONTROLS_ALL_FAIL__SUBSTRATE_LEDGER_IS_STRUCTURAL",
+  "scientific_verdict": "PASS",
+  "execution_status": "CLEAN",
+  "permission_status": "GRANTED_BY_USER_SEAN_BRADY_2026_06_22",
+  "inputs": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2
+  },
+  "derivation_chain": {
+    "step_1_capacity_R2": 144,
+    "step_2_binary_closure_2_to_D": 8,
+    "step_3_tensor_R2_over_2D": 18,
+    "step_3_tensor_equals_alpha_H_times_D_squared": true,
+    "step_4_retained_capacity": 126,
+    "step_5_per_side_unique": 63,
+    "step_6_one_side_total": 81,
+    "step_7_mirror_D_to_D_plus_1": 81,
+    "step_8_closed_ledger": 162,
+    "step_8_closed_ledger_equals_R2_times_9_over_8": true,
+    "step_9_write_rate_D3": 27,
+    "step_9_write_rate_equals_D_cubed": true
+  },
+  "structural_number_set": [126, 81, 81, 162, 27],
+  "main_test_passed": true,
+  "wrong_controls": {
+    "WC1_omit_0306_p_1": {
+      "expected_to_break": true,
+      "broke": true,
+      "closed_ledger_when_broken": 161,
+      "difference_from_target_162": -1
+    },
+    "WC2_restore_duplicate_0305": {
+      "expected_to_break": true,
+      "broke": true,
+      "closed_ledger_when_broken": 163,
+      "difference_from_target_162": 1
+    },
+    "WC3_treat_0303_as_unpacked": {
+      "expected_to_break": true,
+      "broke": true,
+      "one_side_when_broken": 162,
+      "mirror_when_broken": 0,
+      "symmetry_violation": "|A| != |B| (CR229 two-sided decomposition collapses)"
+    },
+    "WC4_use_mass_lift_values": {
+      "expected_to_break": true,
+      "broke": true,
+      "one_side_when_broken": 83.46527777777777,
+      "closed_ledger_when_broken": 164.46527777777777,
+      "difference_from_target_162": 2.4652777777777715
+    }
+  },
+  "predictions_passed": 10,
+  "predictions_total": 10,
+  "wrong_controls_rejected": 4,
+  "wrong_controls_total": 4,
+  "free_parameters_at_test": 0,
+  "runner_file": "CR230_runner.py",
+  "runner_reproducible": true,
+  "K_gates": {
+    "K1_external_anchor": "N/A (structural test; no external anchor)",
+    "K2_falsification_statement": "PASS",
+    "K3_target_hygiene": "PASS (no target; derivation from constants alone)",
+    "K4_typed_inputs": "PASS (3 foundational constants from sealed upstream CRs)",
+    "K5_reproduction_on_demand": "PASS (runner reproduces full chain)"
+  },
+  "structural_reading": {
+    "claim": "The substrate ledger is structural, not editorial. From {R=12, D=3, alpha_H=2}, the 5 structural numbers {126, 81, 81, 162, 27} that all downstream substrate work (Higgs derivation via CR092a/CR120b, gravity coupling via qA/8, particle table via CR119/CR227, periodic structure via CR220/CR225) depend on are derivable via a 9-step algebraic chain. No spreadsheet curation enters. Four wrong controls each break the closure, confirming the carrier inventory is structurally pinned.",
+    "manuscript_section": "Section 0 / 1 substrate framing: the structural ledger is computed, not curated."
+  },
+  "upstream_input_sources": {
+    "CR114_result_md_sha256": "f691b9c9e966e408f378f968cf0a523c433e376234ed71488335090783e87543",
+    "CR116_result_md_sha256": "4385529ee82f863e5c2ac40ad2ce0114b71c84e3720d09d96d1fdde79bf07464",
+    "CR132_result_md_sha256": "09fb22d1c13c44025f540f5134658ecca81cf62c67c6ce1c15cea751adfed2d6",
+    "CR134_result_md_sha256": "fe6d4576b2a5ae334ff590cb180669b2b67c1890ad485c14a072a0863d7cec05",
+    "CR216_result_md_sha256": "5fd583b8f4c600c78e9aea4446b2d93b22f2de6cba33ef7d3dfe082f25346b80",
+    "CR217_result_md_sha256": "635791273a54838531d9b59177268a645b4ca151720da383784ac9ac047ffc2e",
+    "CR218_result_md_sha256": "c2552aa075ba989e0c6c30c658aa109ab005aed0df9cbf419de71779fbe8bf6e",
+    "CR222_result_md_sha256": "b316d0fb2e8d5eb83a8be4cad5a53926385004f3130434eebaf2d13b4beda83e",
+    "CR229_result_md_sha256": "ee266dcc00bf90e71a40b8d576faaf81acd8fbdcc94fb3299ab14e97487237da"
+  },
+  "rule_of_immutability": "Sealed 2026-06-22 by Sean Brady. Inputs hash-locked. Derivation chain, wrong controls, and runner frozen.",
+  "reversibility_clause": "If any upstream sealed source is later regraded, this CR must be re-examined."
+}

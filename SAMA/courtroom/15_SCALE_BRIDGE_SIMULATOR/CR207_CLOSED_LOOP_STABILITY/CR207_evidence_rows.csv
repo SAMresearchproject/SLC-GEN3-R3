@@ -1,0 +1,6 @@
+key,value,note
+result_class,PASS_ENGINEERING_G756c_SIMULATOR_CLOSED_LOOP_STABILITY_BOUNDARY_SCIENCE,source G-test result
+unexpected_type_violations,0,closed-loop replay
+expected_control_breaks,3,controls fired by design
+trace_hash_count,5,all run traces hashed
+run_steps,"5,4,4,4,3",A through E loop sizes

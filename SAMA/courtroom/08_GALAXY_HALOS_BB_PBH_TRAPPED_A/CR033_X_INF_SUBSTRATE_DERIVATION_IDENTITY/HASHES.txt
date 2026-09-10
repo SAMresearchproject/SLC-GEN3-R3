@@ -1,0 +1,41 @@
+# CR033 HASHES
+
+Sealed 2026-06-27. Substrate-derivation identity test:
+  X_inf,SAM = (R - alpha_H) * Omega_m = 10/pi.
+
+Branch: 08_GALAXY_HALOS_BB_PBH_TRAPPED_A.
+
+# Stewardship
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  REFERENCE:STEWARDSHIP_DECLARATION.md
+
+# Naming canon
+35c2d9650909f420018e1a72f1a597e101a1670c7eb00b0bcaec63724928a2f8  REFERENCE:SLC_NAMING_CANON.md
+
+# Patent claim register
+db91680abce1e18d23f559eb8bb8141f04dd51b8a038504f9959ae0437291fa1  REFERENCE:SLC_PATENT_CLAIM_STRUCTURE.md
+
+# Precommit (sealed first; runner must honor)
+fac85ca9decf0c724591bd95bf083630c49f95624c00cff5820b67824e1cf810  CR033_PRECOMMIT.md
+
+# Runner (HASHED BEFORE EXECUTION; frozen-at-launch evidence)
+eac02f4d9254414ed0527de2251edec9cc652c68aaa9b5e18be44bceabb02318  CR033_runner.py
+
+# CR033 artifacts (HASHED IMMEDIATELY AFTER RUNNER EXECUTION)
+# Runner verdict: PASS. Median linear ratio 0.99928; margin 160x under threshold.
+f65d720ec924a0d02fdc9871d12fb3ea5ca2d8b1de4d544596bd9cf425225f19  CR033_summary.json
+42df51e7a59cd1e0257a7213285f75c2fc2a29ba56fde2d71c49a6fdd3ab8238  CR033_result.md
+594d11ad45d7e76c8ed0df85d88b841a00c8607a9ecfc90f1e5c24241b1cf4ba  CR033_evidence_rows.csv
+5fbcb9786d7ddf2c3d64515c6a19f8b6d6b621d78c97a550960ac3170e0cfea8  CR033_null_WC1_random_xinf.csv
+34b86bf9a5a0766f3f54d49852aded6de510fbcdc3787c42b6ec9f3271b5cac0  CR033_null_WC2_vbar_shuffle.csv
+
+# External sources (allowed)
+9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c  EXTERNAL:C:\VS\Stam_model-A-v1.0\data\external_data\SPARC_G392\MassModels_Lelli2016c.mrt
+
+# Forbidden inputs (declared so any future audit can confirm runner exclusion)
+FORBIDDEN  C:\VS\The_Courtroom\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\CR025_CLUSTERED_BB_PBH_PROFILE_CONTACT\CR025_summary.json
+FORBIDDEN  C:\VS\The_Courtroom\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\CR031b_X_RADIAL_LAW_NULL_PERCENTILE_APPEAL\CR031b_summary.json
+FORBIDDEN  C:\VS\The_Courtroom\08_GALAXY_HALOS_BB_PBH_TRAPPED_A\CR032_SAM_NATIVE_PER_GALAXY_HALO_MASS_DERIVATION\CR032_summary.json
+FORBIDDEN  CR205_summary.json
+FORBIDDEN  any prior CR result.md / summary.json / evidence_rows.csv
+FORBIDDEN  any prior per-galaxy class / halo-mass-placement file
+FORBIDDEN  any prior empirical X_inf or outer-dark-fraction value

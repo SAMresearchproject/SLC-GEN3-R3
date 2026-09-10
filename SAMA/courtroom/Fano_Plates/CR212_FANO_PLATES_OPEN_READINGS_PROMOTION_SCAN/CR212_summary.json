@@ -1,0 +1,53 @@
+{
+  "artifacts": {
+    "checks": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_checks.csv",
+    "corpus_inventory": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_corpus_inventory.csv",
+    "corpus_scan_per_reading": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_corpus_scan_per_reading.csv",
+    "declared_premises": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_declared_premises.json",
+    "hashes": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/HASHES.txt",
+    "input_manifest": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_input_manifest.csv",
+    "open_readings": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_open_readings.csv",
+    "precommit": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_PRECOMMIT.md",
+    "promotion_scan": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_promotion_scan.csv",
+    "result": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_result.md",
+    "runner": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_runner.py",
+    "summary": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_summary.json",
+    "wrong_controls": "Fano_Plates/CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN/CR212_wrong_controls.csv"
+  },
+  "checks": {
+    "failed": 0,
+    "passed": 17,
+    "total": 17
+  },
+  "corpora_count": 5,
+  "cr_id": "CR212",
+  "execution_status": "CLEAN",
+  "generated_at_utc": "2026-06-19T13:26:58+00:00",
+  "missing_sources": [],
+  "open_readings_count": 6,
+  "priority_record": {
+    "g_test_token_hits": 2483,
+    "qga_token_hits": 16,
+    "qp_token_hits": 3,
+    "suk_token_hits": 0
+  },
+  "qp_corpus_file_count": 144,
+  "result_class": "CR212_PASS_SCOPED_PROMOTION_ELIGIBILITY_AUDIT__OPEN_6_REPLAY_GRADE_BACKED__OPEN_4_RETIRED_FALSIFIED__OPEN_1_2_3_5_NOT_PROMOTABLE",
+  "suk_gate_files": [
+    "qp071_private_heavy_composite_derivation_rule_and_suk_gate_draft.py",
+    "qp073_private_phase4_final_freeze_post_suk_hco.py"
+  ],
+  "test_id": "CR212_FANO_PLATES_OPEN_READINGS_PROMOTION_SCAN",
+  "upstream_provenance": {
+    "cr210_result_class": "CR210_PASS_SCOPED_HH001_FANO_ADDRESS_126_TABLE_THEOREM__SAM_ALGEBRA_VERIFIED__OPEN_READINGS_PRESERVED",
+    "cr211_result_class": "CR211_PASS_HH001_CONTENT_VERIFICATION_AGAINST_COURTROOM_DATA__COURTROOM_COLUMNS_MATCH__REFERENCE_COLUMNS_FLAGGED__DIAGNOSTICS_PRESERVED",
+    "lc02_result_class": "LC02_PASS_HIGGS_CLOSED_FORM_REPLAY_FROM_LOCKED_PRIMITIVE_STACK",
+    "lc05_result_class": "(see LC05_result.md)"
+  },
+  "verdict_counts": {
+    "COURTROOM_NATIVE_BACKED": 0,
+    "NOT_PROMOTABLE_FROM_EXISTING_DATA": 4,
+    "REPLAY_GRADE_ONLY_NOT_FORWARD_BLIND": 1,
+    "RETIRED_FALSIFIED": 1
+  }
+}

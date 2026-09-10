@@ -1,0 +1,12 @@
+check,observed,expected,hash_locked,status
+qp075_file_qp075_summary.json,True,exists,True,PASS
+qp075_file_qp075_campaign_closure_summary_table.csv,True,exists,True,PASS
+qp075_file_qp075_role_operator_closure_table.csv,True,exists,True,PASS
+qp075_file_qp075_decision_table.csv,True,exists,True,PASS
+qp075_file_qp075_preflight.md,True,exists,True,PASS
+qp075_file_qp075_next_frontier.csv,True,exists,True,PASS
+qp075_file_qp075_schema.csv,True,exists,True,PASS
+closure_rows,35,35,True,PASS
+role_operator_rows,26,26,True,PASS
+free_parameters_introduced,0,0,True,PASS
+old_09_role,historical_misroute_artifact;historical_misroute_artifact,historical_misroute_artifact only,True,PASS

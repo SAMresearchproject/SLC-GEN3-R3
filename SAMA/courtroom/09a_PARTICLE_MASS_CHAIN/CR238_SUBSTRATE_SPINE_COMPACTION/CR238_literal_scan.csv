@@ -1,0 +1,29 @@
+line,literal,kind,in_input_block,in_allowed_section,is_comparand,content,category
+39,81,integer,True,False,False,F_INPUT = 81,input_boundary
+40,8,integer,True,False,False,S_INPUT = 8,input_boundary
+188,162,integer,False,False,True,"    check(""P2_L_value"", L, sp.Rational(162))",comparand
+196,27,integer,False,False,True,"    check(""P4_V_value"", V, sp.Rational(27))",comparand
+202,18,integer,False,False,True,"    check(""P5_Theta_value"", Theta, sp.Rational(18))",comparand
+212,126,integer,False,False,True,"    check(""P7_M_value"", M, sp.Rational(126))",comparand
+219,144,integer,False,False,True,"    check(""P9_R_sq_value"", R_sq, sp.Rational(144))",comparand
+221,162,integer,False,False,True,"    check(""P9_role_separation_L"", L, sp.Rational(162))",comparand
+222,144,integer,False,False,True,"    check(""P9_role_separation_R_sq"", R_sq, sp.Rational(144))",comparand
+223,126,integer,False,False,True,"    check(""P9_role_separation_M"", M, sp.Rational(126))",comparand
+224,18,integer,False,False,True,"    check(""P9_role_separation_Theta"", Theta, sp.Rational(18))",comparand
+234,8,integer,False,False,True,"    check(""P10_S_value"", S, sp.Rational(8))",comparand
+251,7117,integer,False,False,True,"CR221_KAPPA_FLOOR = sp.Rational(7117, 768)",comparand
+251,768,integer,False,False,True,"CR221_KAPPA_FLOOR = sp.Rational(7117, 768)",comparand
+252,64,integer,False,False,True,"CR221_NEUTRON_G_UNIT = sp.Rational(1, 64)",comparand
+256,8,integer,False,False,True,"CR221_NEUTRON_QA = sp.Rational(1, 8)",comparand
+626,18,integer,False,True,False,"    18,    # Theta",allowed_section
+627,27,integer,False,True,False,"    27,    # V",allowed_section
+628,64,integer,False,True,False,"    64,    # 1/g denominator",allowed_section
+629,126,integer,False,True,False,"    126,   # M",allowed_section
+630,144,integer,False,True,False,"    144,   # R^2",allowed_section
+631,162,integer,False,True,False,"    162,   # L",allowed_section
+632,324,integer,False,True,False,"    324,   # Theta^2 / R*V",allowed_section
+633,647,integer,False,True,False,"    647,   # F*S - 1",allowed_section
+634,768,integer,False,True,False,"    768,   # kappa denominator",allowed_section
+635,7117,integer,False,True,False,"    7117,  # kappa numerator",allowed_section
+903,162,integer,False,False,True,    L_sealed = sp.Rational(162)  # CR217 sealed closed two-sided event,comparand
+1027,8,integer,False,False,True,    S_val = sp.Rational(8),comparand

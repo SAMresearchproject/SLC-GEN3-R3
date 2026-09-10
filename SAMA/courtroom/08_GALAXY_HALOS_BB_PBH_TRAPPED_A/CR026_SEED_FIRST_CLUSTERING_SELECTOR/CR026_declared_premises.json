@@ -1,0 +1,23 @@
+{
+  "test_id": "CR026_SEED_FIRST_CLUSTERING_SELECTOR",
+  "short_id": "CR026",
+  "generated_precommit_utc": "2026-06-13T00:55:03.327962+00:00",
+  "test_type": "Fresh Courtroom branch test",
+  "is_confirmation_audit_or_double_check": false,
+  "question": "Does the seed-first clustering test select a native base-12 BB-PBH scaffold behavior while rejecting uniform-cosmic and post-BB-only controls?",
+  "sources": {
+    "g677_summary": {
+      "path": "C:\\VS\\Stam_model-A-v1.0\\tests\\Substrate\\G677_BB_PBH_SEED_FIRST_CLUSTERING_SIMULATION\\G677_summary.json",
+      "role": "seed-first clustering simulation summary"
+    }
+  },
+  "free_parameters_introduced": 0,
+  "expected_success_verdict": "CR026_PASS_SEED_FIRST_CLUSTERING_SELECTOR_CANDIDATE",
+  "expected_success_scientific_verdict": "PASS",
+  "expected_success_claim_tier": "PASS_SEED_FIRST_PROFILE_BEHAVIOR_CANDIDATE",
+  "expected_success_triage_bin": "A",
+  "failure_verdict": "CR026_FAIL_SEED_FIRST_CLUSTERING_SELECTOR",
+  "failure_claim_tier": "FAILED_SEED_FIRST_SELECTOR",
+  "scope_note": "CR026 is a profile-behavior candidate test. It supports PBH-first clustering but does not derive the native mass function, abundance normalization, or concentration law.",
+  "rule_9_falsification": "This test could have falsified: the claim that BB-origin PBH/trapped-A seed-first clustering explains most of the baryon-to-clustered-halo gap while wrong controls fail."
+}

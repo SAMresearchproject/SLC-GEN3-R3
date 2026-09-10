@@ -1,0 +1,11 @@
+{
+  "bridge_dir": "C:/VS/quantum_phase/artifacts/qp071/parent_suk_gate_draft",
+  "bridge_dir_exists": true,
+  "sam_mass_patch_exists": true,
+  "sam_mass_patch_sha256": "68d2c69c7c449cd3a02555ae110801913286428c09564e8471625ad436aa2a1b",
+  "sam_mass_patch_in_manifest": true,
+  "qp071_summary_exists": true,
+  "qp071_references_suk": true,
+  "qp071_references_g_test": false,
+  "status": "bridge_verified"
+}

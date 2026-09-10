@@ -1,0 +1,5 @@
+row,mass_msun,A0,x_outer,r_release_over_rs,A_release,delta_A_from_A1_to_release,rs_m,r_release_m,release_gap_from_A1_m,tau_engine_s,A1_exact_status,formal_static_A_integral_boundary_to_release_s,status
+fresh_external_mass,2.74,0.026525823848649224,0.028057277031262207,17.820688709131893,0.05611455406252441,0.9438854459374756,8092.149906863248,144207.68447784058,136115.53457097735,1.7014577527290415,NO_ESCAPE_ZERO_DEPTH_BOUNDARY_NOT_LITERAL_LIGHT_LAUNCH_POINT,7.774813823798601e-05,
+mass_uncertainty_low,2.7300000000000004,,,,,,,,,1.6952480529015634,,,
+mass_uncertainty_high,2.7800000000000002,,,,,,,,,1.7262965520389546,,,
+legacy_rounded_G699c_mass,2.7,,,,,,,,,1.6766189534191285,,,LEGACY_CONTROL_NOT_LOAD_BEARING

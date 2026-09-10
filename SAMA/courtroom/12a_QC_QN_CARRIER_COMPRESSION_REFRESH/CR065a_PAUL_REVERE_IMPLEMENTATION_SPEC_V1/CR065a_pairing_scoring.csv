@@ -1,0 +1,9 @@
+qubit_candidate,platform,slot_count_match,sensor_cleanliness,T2_headroom,accessibility,mass_scale_match,total_score,rationale
+"(1,2,4)",NV_center,3,3,3,3,2,14,3 native sublevels (ms = 0/+1/-1); PL = direct photon-counting sensor; cryo+DD T2 ~ 1s AT SAM floor; room-temp accessible to many academic groups; mass-scale mapping open but slot-ratio testable
+"(2,4,8)",NV_center,3,3,3,3,1,13,"Same NV strengths as (1,2,4); 3024 MeV further from NV operating freq; mass-scale mismatch slightly larger"
+"(1,2,4)",photonic,3,2,3,2,2,12,3 orthogonal modes possible; single-photon detector good but indirect; T2 per-photon effectively infinite; growing accessibility; optical frequencies
+"(2,4,8)",trapped_ion,3,3,1,2,3,12,"Hyperfine clock states naturally GHz; (2,4,8) heavier candidate matches clock-ion energy scales better; same AT-the-limit T2"
+"(2,4,8)",photonic,3,2,3,2,2,12,"Same photonic profile as (1,2,4)"
+"(1,2,4)",trapped_ion,3,3,1,2,2,11,Multi-level hyperfine + clock states; state-dependent fluorescence excellent sensor; T2 ~ 10s AT the SAM floor (no headroom); industry but complex; hyperfine GHz scale relevant
+"(1,2,4)",SC_transmon,2,2,2,3,1,10,Native 2-level; 3-level qutrit possible via |2> leakage; dispersive readout good; T2 ~ 100us comfortably below SAM floor at MHz gates; industry mature; mass-scale mapping unclear at GHz transmon frequencies
+"(2,4,8)",SC_transmon,2,2,2,3,1,10,Same transmon strengths; heavier candidate doesn't improve mass-scale match

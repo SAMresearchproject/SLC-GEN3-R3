@@ -1,0 +1,32 @@
+# CR012 file hashes (precommit + runner + result sealed 2026-07-03)
+
+## CR artifacts (this folder)
+
+0b79fa0279db441e3fd1c174bf5b1b0da42915756b50e21627e8a9912add337b  CR012_PRECOMMIT.md
+93acd68bbf88773d3faf12953ae538c126861e4e28859fcd5457d0d4fd74bd2d  CR012_runner.py
+dbe22e7e939fd20fe3d5b74fcea61c98fc5a4643cbf3fa602b634ff84905e753  CR012_result.md
+825f662715b71f09c67e470d1f860f65d71d7479bbec4697ace9eaaed0be4297  CR012_summary.json
+
+## Upstream sealed input (carried by hash)
+
+1824a4d748523867c6a4191f9a170a4423cc58ad500686b28005de116015be9e  CR011_PRECOMMIT.md
+
+## Frame anchor + LC assignment + stewardship (carried unchanged)
+
+7b0f225821e2aea55e02b0868997fa2acd4ee88b4711ab1b1fb161366e1c5137  SAM_ON_EARTH_v1.md
+3a88142743f3d5487a55dc99e29f51edd097660e3cb27625c79aee3f5f29d4a4  SAM_LC_WORK_ASSIGNMENT_v1.md
+d9fe07c9b87bb52bc20b08bc1c8b24cb4fb312fbd35653b5d1030b14ed0a7e88  STEWARDSHIP_DECLARATION.md
+
+# Verdict: PASS
+# Home-nesting projection factor n_SLC_bench = 0 → d_ref_bench = d_ref_base = 46.52 μm.
+# Mechanism-forced from CR010 §1.2 sealed SI-per-loop identification (λ_spaghettio =
+# ħ/(m_3 c) = 3.877 μm is a physical SI length) + CR011 base-substrate reach
+# + no sealed intermediate Home-nesting anchor. Alternative n ≥ 1 refused pending
+# sealed derivation of SLC bench Home level.
+# Home-nesting radix R = 12 four-way cross-consistency in sealed record:
+# CR266 mirror linear extent, Vol I §7 A_share inverse, CR259 chessboard side - 1,
+# LCQC002 register radix. Sean Brady's 11/12→12/12 apocalyptic-reset framing is
+# the ontological reading of the same R = 12 A-accounting ladder.
+# Three-CR foundational chain (CR010 + CR011 + CR012) complete. CR-NSC-01 S1 v2
+# unblocks with H_pred(0.15 m) = 8.23e-6 vs floor 7.4e-6 = 1.11× floor,
+# F-iii marginal landing.

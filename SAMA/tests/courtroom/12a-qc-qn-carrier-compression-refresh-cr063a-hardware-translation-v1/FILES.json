@@ -1,0 +1,109 @@
+{
+  "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1",
+  "files": [
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv",
+      "mode": "100644",
+      "git_blob": "8327dad6d32c7d88d506da2c73c079eaef35bb38",
+      "bytes": 594,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "81711d28166a264523bb5da56782290ddad15c55",
+      "bytes": 97,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv.sha256.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_T2_grav_predictions.csv.sha256.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_hardware_lock.json",
+      "mode": "100644",
+      "git_blob": "e62c943160f86acb53bf8c33d10edb6f20c8f57e",
+      "bytes": 6248,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_hardware_lock.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_hardware_lock.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_hardware_lock.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_hardware_lock.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_result.md",
+      "mode": "100644",
+      "git_blob": "5ac337a7329d76cb3c0f7cc5695cadfdf32fe9e0",
+      "bytes": 11315,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_result.md",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_result.md",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_result.md",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_result.md"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_runner.py",
+      "mode": "100644",
+      "git_blob": "ef9955173cf752e76a3103354d2315d321bf0e83",
+      "bytes": 33901,
+      "category": "Code",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_runner.py",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_runner.py",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_runner.py",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_runner.py"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_summary.json",
+      "mode": "100644",
+      "git_blob": "fc2225ae8c575d69a957244212297db62683ec26",
+      "bytes": 7672,
+      "category": "Results and reports",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_summary.json",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_summary.json",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_summary.json",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_summary.json"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv",
+      "mode": "100644",
+      "git_blob": "42db6a079923cccf793b3e22f50d5b84dd4363a0",
+      "bytes": 847,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv.sha256.txt",
+      "mode": "100644",
+      "git_blob": "f37f3c72f6ce8c29461d6bb70e69b2ce1f61cd55",
+      "bytes": 96,
+      "category": "Data and supporting files",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv.sha256.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv.sha256.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv.sha256.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/CR063a_translation_matrix.csv.sha256.txt"
+    },
+    {
+      "path": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/HASHES.txt",
+      "mode": "100644",
+      "git_blob": "0ad8182127f1f7dd6ba4367cb543cd4de5bccdc0",
+      "bytes": 1733,
+      "category": "Inputs, controls and provenance",
+      "url": "https://github.com/iwtbotiwtwot/The_Courtroom/blob/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/HASHES.txt",
+      "raw_url": "https://raw.githubusercontent.com/iwtbotiwtwot/The_Courtroom/b5e914f71377e86ef4c67e199973d9300795cda1/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/HASHES.txt",
+      "sama_path": "courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/HASHES.txt",
+      "sama_relative_url": "../../../courtroom/12a_QC_QN_CARRIER_COMPRESSION_REFRESH/CR063a_HARDWARE_TRANSLATION_V1/HASHES.txt"
+    }
+  ],
+  "test_keys": [
+    "CR:CR063a@12a"
+  ],
+  "source_commit": "b5e914f71377e86ef4c67e199973d9300795cda1",
+  "source_files_mirrored": true
+}

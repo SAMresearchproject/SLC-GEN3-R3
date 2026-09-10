@@ -1,0 +1,54 @@
+{
+  "cr": "CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT",
+  "target_reveal_utc": "2026-07-11T17:34:15Z",
+  "target_locked_before_reveal": true,
+  "target_source_path": "04_PHOTON_ROAD_SHAPIRO_DELAY/CR148_BINARY_PULSAR_SHAPIRO_ROAD_HOLDOUT/external_sources/astro-ph-0609417-src/ksm+06.tex",
+  "target_source_sha256": "6292F07905AD619581239469DB3602C2330F851C864B23955931A413AE4C69C7",
+  "input_lock_sha256": "AB8BE67887C1C576DE465534E0E584072396E2EB1B2957F70A04C7FFDB961FC1",
+  "precommit_sha256": "67F9965487DBA1039179E9670AD63CD5B89C1F252C404611AC923CA55571E778",
+  "runner_sha256": "2EF75942E3460955EC266677D74980E622DA1957B35C04B5D2587C8226EDC831",
+  "revealed_lines": [
+    {
+      "line": 907,
+      "text": "Shapiro delay parameter $s$ & $0.99974(-39,+16)$ & $-$ \\\\"
+    },
+    {
+      "line": 908,
+      "text": "Shapiro delay parameter $r$ ($\\mu$s) & 6.21(33) & $-$ \\\\"
+    },
+    {
+      "line": 950,
+      "text": "$s$ & 0.99974($-39$,+16) & 0.99987($-48$,+13) & 0.99987(50) \\\\%& 0.9998 \\\\"
+    },
+    {
+      "line": 951,
+      "text": "$r(\\mu$s) & 6.21(33) & 6.153(26) & 1.009(55)  \\\\%&   6.1520 \\\\"
+    }
+  ],
+  "primary_comparator": {
+    "name": "Kramer2006 Table 2 Shapiro shape s observed/expected ratio",
+    "readout_type": "observed_over_expected_ratio_for_Shapiro_shape_s",
+    "s_observed": 0.99974,
+    "s_sigma_minus": 0.00039,
+    "s_sigma_plus": 0.00016,
+    "s_sigma": 0.00039,
+    "s_expected_by_source": 0.99987,
+    "observed_over_expected_ratio": 0.99987,
+    "observed_over_expected_ratio_sigma": 0.00050,
+    "sigma_source": "Table 2, line 950; uncertainty notation 0.99987(50)"
+  },
+  "secondary_comparators": {
+    "shapiro_range_r_microseconds": {
+      "observed": 6.21,
+      "sigma": 0.33,
+      "expected_by_source": 6.153,
+      "expected_sigma": 0.026,
+      "observed_over_expected_ratio": 1.009,
+      "observed_over_expected_ratio_sigma": 0.055,
+      "source_line": 951
+    }
+  },
+  "target_value_opened_after_precommit_and_runner_seal": true,
+  "target_source_hash_ok_at_reveal": true
+}
+

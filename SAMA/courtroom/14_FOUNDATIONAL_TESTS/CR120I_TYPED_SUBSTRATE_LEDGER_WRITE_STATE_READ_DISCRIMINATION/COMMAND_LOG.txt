@@ -1,0 +1,11 @@
+# CR120I command log
+
+Recorded UTC: 2026-07-14T01:17:08.756459+00:00
+Execution path: tools/run_sam_test.py --task "Recover the substrate-ledger conceptual history and run the attached typed write-state-read proposal" --script tools/run_cr120i_typed_substrate_ledger_write_state_read_discrimination.py
+External subprocesses from candidate runner: none
+External empirical inputs: none
+Numerical fitting: none
+Response scalar q: not defined
+Registry mutations: none
+Precommit sha256: 805cb61a8919bc67d215ce8ae6de113cb48dc81d73408a0e5476d0c24ca87a95
+Outcome: conceptual provenance recovered; exact typed write-state-read candidate passed; physical mapping open

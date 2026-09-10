@@ -1,0 +1,25 @@
+check,passed,observed,expected
+upstream_seals_match,True,7,7
+carrier_packet_checksum_remains_162,True,162,162
+support_roster_12_plus_mirror_preserved,True,"{""closure_total"": 162, ""duplicate_mirror_row"": ""QP093A-0303"", ""duplicate_mirror_value"": 81, ""raw_blocked_nonmatter_rows"": 13, ""rule"": ""QP093A-0303 remains blocked non-matter but is not an independent support mode."", ""unique_support_roster_rows"": 12, ""unique_support_roster_sum"": 81}",12 support rows + mirror = 162
+primary_triad_is_0115,True,QP093A-0115,QP093A-0115
+primary_triad_is_three_identical_owners,True,1+1+1,1+1+1
+primary_triad_formula_pass,True,qA=72.5 T=9.0625 W=63.4375,qA=72.5 T=9.0625 W=63.4375
+primary_triad_correction_capable,True,correction_capable_three_owner_majority,correction_capable_three_owner_majority
+strong_followup_is_0225,True,8+8+8,8+8+8
+strong_followup_formula_pass,True,qA=4088 T=511 W=3577,qA=4088 T=511 W=3577
+strong_followup_retained_is_7T,True,W=3577 T=511,W=7T
+two_owner_control_is_detection_only,True,owners=2 class=detection_only_two_owner_disagreement,two-owner detection only
+two_owner_control_formula_pass,True,qA=10.75 T=1.34375 W=9.40625,qA=10.75 T=1.34375 W=9.40625
+road_light_carrier_is_0301,True,ROAD_LIGHT_CARRIER|p=1,ROAD_LIGHT_CARRIER|p=1
+road_light_carrier_zero_matter_ledger,True,qA=0 matter=no,qA=0 matter=no
+tensor_witness_is_0300,True,TENSOR_CARRIER native=18,TENSOR_CARRIER native=18
+tensor_witness_not_correction_actuator,True,clock_witness_failure_floor,clock_witness_failure_floor
+platform_context_passes,True,3,3
+correction_trials_count,True,4,4
+below_threshold_correction_operating,True,present,0115 below-threshold operating state
+primary_triad_threshold_emits_warning,True,present,0115 threshold warning
+strong_followup_threshold_emits_warning,True,present,0225 threshold warning
+two_owner_control_no_autonomous_correction,True,present,0235 detection-only control
+all_trials_pass,True,4,4
+wrong_controls_fail_as_expected,True,11,11

@@ -1,0 +1,37 @@
+{
+  "source": {
+    "source_card": "C:\\VS\\SAMs_TOE\\evidence_cards\\EV_CMB_BARYON_BRANCH.md",
+    "public_repo": "C:\\VS\\Stam_model-A-v1.0",
+    "public_source_commit": "df1fd5e6379d7972a83fff2e49b31e59073d466a",
+    "source_file": "headline results\\07_cmb_baryon_branch.md",
+    "tests": [
+      "G381_PLANCK_LITE_FIXED_SAM_DENSITIES",
+      "G383_CMB_BOLTZMANN_WRONG_CONTROLS",
+      "G384_TOE_G22B_CMB_SPECTRUM_VERDICT",
+      "G396_TOE_G23_BBN_LIGHT_ELEMENT_GATE"
+    ]
+  },
+  "fixed_inputs": {
+    "R": 12,
+    "D": 3,
+    "A0_formula": "1/(pi*R)",
+    "chi_formula": "(2^D/D)*A0",
+    "Omega_b_formula": "2*A0*(1-chi)",
+    "Omega_m_eff_formula": "12*A0 - 2*A0*(chi + D*chi^2)",
+    "Omega_b": 0.049299011266101,
+    "Omega_m_eff": 0.313760915569057,
+    "H0": 67.36,
+    "omega_b": 0.022368783502886,
+    "omega_m": 0.142364923997121
+  },
+  "current_contact": {
+    "official_planck_chi2_per_point": 1.034847880388,
+    "sam_chi2_per_point": 1.035731496964,
+    "delta_chi2_per_point": 0.000883616577
+  },
+  "phase_one_policy": {
+    "free_parameters_allowed": 0,
+    "fitted_cosmology_parameters_allowed": false,
+    "external_data_intake": false
+  }
+}

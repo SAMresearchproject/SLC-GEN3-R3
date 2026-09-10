@@ -1,0 +1,134 @@
+{
+  "artifact": "PROSPECTIVE_HOLDOUT_SEAL",
+  "cr_path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL",
+  "existing_artifacts_modified": false,
+  "existing_hashes_verification": {
+    "checked_entries": 19,
+    "mismatches": [],
+    "verified": true
+  },
+  "firewall_fields": {
+    "sam_language_v0_3_candidate_hash_known_to_research_agent": false,
+    "sam_language_v0_3_consulted_during_development": false,
+    "sam_language_v0_3_incidental_exposure_detected": false
+  },
+  "original_completion_timestamp_status": "NOT_EXPLICITLY_RECORDED",
+  "original_scientific_completion_utc": null,
+  "prospective_sealed_utc": "2026-07-11T17:12:22Z",
+  "required_artifact_presence": {
+    "hashes": true,
+    "precommit": true,
+    "provenance": true,
+    "result": true,
+    "runner": true,
+    "summary": true
+  },
+  "sam_language_v0_3_consulted": false,
+  "scientific_bundle_file_count": 20,
+  "scientific_bundle_files": [
+    {
+      "bytes": 3480,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_COMMAND_LOG.txt",
+      "sha256": "5617761192517e4eea69d398e412b675839f9cd9e3eb80887ccd7256dba5ee59"
+    },
+    {
+      "bytes": 1287,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_CONTROLS.csv",
+      "sha256": "1145fdbdf827c28775522ec2975e0163580262f9c766177a7f3ccc91bf604bbc"
+    },
+    {
+      "bytes": 2058,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_EXTERNAL_SOURCE_MANIFEST.json",
+      "sha256": "cd2eb0645112aba6886fc77d74f5d362dd1cd855d9081f900ae64f42fd2bc038"
+    },
+    {
+      "bytes": 5820,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_GEOMETRY_LOCK.json",
+      "sha256": "cd63702e222e869688a36b42c0b6aef2f99ace1732cef0a26ef608b5d1a66919"
+    },
+    {
+      "bytes": 5084,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_INTERNAL_SOURCE_AUDIT.md",
+      "sha256": "c8d0d2cd5aea611acfb498542454a4f373bff35d19a585e7a4abe5813ed16f15"
+    },
+    {
+      "bytes": 2223,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_INTERNAL_SOURCE_MANIFEST.json",
+      "sha256": "f7857b6f2c09cd08911b9c92217dc6a457ef2e35bef7e787aeacfcc8588d900e"
+    },
+    {
+      "bytes": 1592,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_OPENED_FILE_MANIFEST.json",
+      "sha256": "70e5e3a39c9fa6407b132c27f166e23aac765ebb2f8b59349c195f9f674a0692"
+    },
+    {
+      "bytes": 6284,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_PRECOMMIT.md",
+      "sha256": "73ae63a764f9b70ebaf865bc16ebe0a11f24c57c45571008811292ab50b8c953"
+    },
+    {
+      "bytes": 4274,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_PREFLIGHT.md",
+      "sha256": "e1eaa2a4b82e05290351c87d3bf135266710994e5029a92bba2a16373eb2b14f"
+    },
+    {
+      "bytes": 1336,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_PRIOR_EXPERIMENT_EXCLUSION_LIST.json",
+      "sha256": "abdf9248d46df536c6bc1f29729fe209dea40da53ba90eefac340bcd9c4dbc91"
+    },
+    {
+      "bytes": 2306,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_TARGET_IDENTITY_LOCK.json",
+      "sha256": "a6cedd37ff8130b346f83e2524e06da2f73d7330920c5e208a69f5b30b0cd795"
+    },
+    {
+      "bytes": 1556,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_VALIDATION.md",
+      "sha256": "d6909eff02f163cb7e90dcb6a89a206a4fd85394eaf8dbd4034ab05b34c0e535"
+    },
+    {
+      "bytes": 1615,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_VALUES.csv",
+      "sha256": "5cd27ea8fc6c159fc9a59909f391efb659dda938476d71953fc45e4e58c23247"
+    },
+    {
+      "bytes": 6169,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_provenance.json",
+      "sha256": "c357e2e7a3c721dd915f91adaa9433e34da701924f8bfbb169a05bdb291c9bf5"
+    },
+    {
+      "bytes": 5338,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_result.md",
+      "sha256": "9d1230a6c3e0f1afbd315580a0ebbf86669b98487904a00fa43fd39b52a3d920"
+    },
+    {
+      "bytes": 27465,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_runner.py",
+      "sha256": "47e29cb7fd36e935dd858e7fd099c35284241dcc5ee852505f9dbb4eda74f308"
+    },
+    {
+      "bytes": 4997,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/CR006_summary.json",
+      "sha256": "29f2aabf3283e0351bf7e1ba4f9558f45387e4f4ae84a2cf03d56596378f1cc3"
+    },
+    {
+      "bytes": 3144,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/HASHES.txt",
+      "sha256": "2457bd7919033ace542645b7960f6e8747e99e2512ead79fed3d53ff745fb3b3"
+    },
+    {
+      "bytes": 2011236,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/sources/Bothwell_2022_Nature_NIST_pub933368.pdf",
+      "sha256": "7d4376361233f17082814d99cc46cd3263c9febfdbf273bb9bfbe9699723e2b3"
+    },
+    {
+      "bytes": 2294740,
+      "path": "03_CLOCKS_AND_GPS/CR006_OPTICAL_CLOCK_HEIGHT_HOLDOUT_ENDPOINT_A_KERNEL/sources/Bothwell_2022_Nature_peer_review_file.pdf",
+      "sha256": "b9f05efda6e49c077561cba6455a753d78d7763ff18577462de56c726d5aad24"
+    }
+  ],
+  "scientific_bundle_sha256": "a0a709bb4406c9407b3d9ceaf154c4976da38dcd07ca419d5536b58bfd870a58",
+  "scientific_content_changed": false,
+  "scientific_tests_rerun": false,
+  "target_scientific_content_opened_for_favorable_selection": false
+}

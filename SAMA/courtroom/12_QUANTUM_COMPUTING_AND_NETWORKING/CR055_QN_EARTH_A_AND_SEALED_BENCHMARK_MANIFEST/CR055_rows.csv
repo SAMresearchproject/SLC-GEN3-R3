@@ -1,0 +1,4 @@
+source,result_class,earth_surface_A,earth_fraction_of_A_SIDE,earth_fraction_of_A_SHARE,benchmark_manifest_rows,formula_freeze_rows,sealed_hash_rows,scoring_rule_rows,forbidden_leakage_screen_rows,comparator_output_schema_rows
+QN007,QN007_EARTH_A_DEPLOYMENT_SURFACE_SELECTED,1.390657777567e-09,3.3375786661608004e-08,1.6687893330804002e-08,,,,,,
+QN008,QN008_SEALED_LAB_BENCHMARK_MANIFEST_FROZEN,,,,8,7,14,,,
+QN009,QN009_BENCHMARK_COMPARATOR_SCHEMA_FROZEN,,,,,,,8,10,9

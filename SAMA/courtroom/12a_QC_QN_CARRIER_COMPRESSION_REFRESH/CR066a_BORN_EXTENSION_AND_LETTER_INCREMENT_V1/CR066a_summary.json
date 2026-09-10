@@ -1,0 +1,118 @@
+{
+  "cr_id": "CR066a",
+  "branch": "12a_QC_QN_CARRIER_COMPRESSION_REFRESH",
+  "test_class": "BORN_RULE_EXTENSION_AND_PAUL_REVERE_LETTER_INFORMATION_INCREMENT_V1",
+  "execution_status": "CLEAN",
+  "result_class": "CR066a_BORN_EXTENSION_AND_LETTER_INCREMENT_V1_SEALED",
+  "scope_status": "PROVISIONAL_DRAFT_PRE_SEAL_SIGN_OFF",
+  "utc": "2026-06-16T02:13:30Z",
+  "structural_decomposition": "17/16 = 1 + 1/16 = 1 + 1/alpha_H^4 = (Born unity) + (letter increment)",
+  "letter_capacity_per_row": "1/alpha_H^4 = 1/16 = 6.25 %",
+  "baseline_probabilities": "(1/4, 1/2, 1/4) sum = 1",
+  "loaded_probabilities": "(4/17, 9/17, 4/17) sum = 1",
+  "letter_signature_invariants": {
+    "S1_outer_equal": "Delta(carrier) = Delta(sensor) = -1/68",
+    "S2_middle": "Delta(envelope) = +1/34 = -alpha_H * Delta(carrier)",
+    "S3_ratio": "|Delta(envelope) / Delta(carrier)| = 2 = alpha_H"
+  },
+  "exact_constraints_loaded": {
+    "P_a_equals_P_c": true,
+    "P_b_minus_P_a": "5/17",
+    "P_b_over_P_a": "9/4"
+  },
+  "constants": {
+    "R": 12,
+    "D": 3,
+    "alpha_H": 2,
+    "alpha_H_4th": 16
+  },
+  "signature_csv_sha256": "d088587aaf7e6eac36f4c385b1ef0032698fdcf296442e76bb70770452c30d93",
+  "born_extension_lock_sha256": "c85de54350cb7fa90759e9f2b49afbf0371ccc4b05da318195392bbf4eb53dd9",
+  "upstream_sha256": {
+    "CR060a_alphabet_lock_json": "d5d37797ce39d3b677e1992cb9987ef5b06c88362dc77b5ddba7c17e3fcaa7f0",
+    "CR061a_selection_lock_json": "c011534994895365d1399282f9c346486a678603c351d8afb09823f70dd09584",
+    "CR065a_implementation_lock_json": "38d7f67ce0bf962130099abe54ab17f2e1a7acc1ea6ad95e823718a7a2e9b71c",
+    "CR129b_magnitude_lock_json": "8c3d0eb78b462cc1df0bfa1bbbcbdba189633e1ff05f076f801315c5091b30bd"
+  },
+  "predictions": [
+    {
+      "name": "P1_baseline_sums_to_1",
+      "pass": true,
+      "details": "baseline weights sum = 1"
+    },
+    {
+      "name": "P2_loaded_sums_to_17_16",
+      "pass": true,
+      "details": "loaded weights sum = 17/16"
+    },
+    {
+      "name": "P3_letter_increment_eq_1_over_alpha_H_4",
+      "pass": true,
+      "details": "increment = 1/16 (expected 1/16 = 1/alpha_H^4)"
+    },
+    {
+      "name": "P4_invariant_S1_outer_slots_equal",
+      "pass": true,
+      "details": "Delta_a = -1/68, Delta_c = -1/68 (equal: True)"
+    },
+    {
+      "name": "P5_invariant_S2_middle_opposite",
+      "pass": true,
+      "details": "Delta_b = 1/34 = -alpha_H * Delta_a: True"
+    },
+    {
+      "name": "P6_invariant_S3_magnitude_ratio_2",
+      "pass": true,
+      "details": "|Delta_b / Delta_a| = 2 (= alpha_H): True"
+    },
+    {
+      "name": "P7_exact_probability_ratio_9_4",
+      "pass": true,
+      "details": "P_envelope / P_carrier = 9/4 exactly: True"
+    },
+    {
+      "name": "P8_lock_written",
+      "pass": true,
+      "details": "born extension lock sha256 = c85de54350cb7fa90759e9f2b49afbf0371ccc4b05da318195392bbf4eb53dd9"
+    }
+  ],
+  "wrong_controls": [
+    {
+      "name": "WC1_standard_Born_rule_preserved",
+      "pass": true,
+      "details": "Born unity (probability sum = 1) holds at the measurement stage.  The 1/alpha_H^4 'extension' is a state-preparation signature, NOT a violation of the Born rule.  Standard QM is intact."
+    },
+    {
+      "name": "WC2_q_0_only_explicit",
+      "pass": true,
+      "details": "The 17/16 sum is q = 0 specific.  For q >= 1 the magnitude formula is (4q + D)/(4R) (per CR129b) with different slot decomposition.  Paul Revere letter architecture is q = 0 specific."
+    },
+    {
+      "name": "WC3_letter_signature_is_exact_rational",
+      "pass": true,
+      "details": "The (4/17, 9/17, 4/17) distribution and its three invariants (S1, S2, S3) are EXACT RATIONAL numbers, not empirical fits.  Verification on any platform tests the structural prediction precisely."
+    },
+    {
+      "name": "WC4_falsifier_requires_implementation_correctness",
+      "pass": true,
+      "details": "Falsification requires correct execution of CR065a Stage 3 envelope loading.  Failure to prepare the (4/17, 9/17, 4/17) state is implementation failure, not SAM falsification."
+    },
+    {
+      "name": "WC5_no_experimental_demonstration_claimed",
+      "pass": true,
+      "details": "CR066a derives the structural prediction.  Whether the (4/17, 9/17, 4/17) signature has been observed experimentally is a separate experimental question."
+    },
+    {
+      "name": "WC6_connection_to_Shannon_Holevo_capacity_open",
+      "pass": true,
+      "details": "The 1/alpha_H^4 = 6.25 % letter capacity is the SAM-native quantum per row.  Connection to standard information-theoretic capacity formulas (Shannon, Holevo) is open for a separate derivation."
+    }
+  ],
+  "open_debts": [
+    "Curator sign-off promotes PROVISIONAL_DRAFT to SEALED.",
+    "Experimental verification on NV platform per CR065a protocol (separate experimental CR).",
+    "CR067a candidate: multi-letter transmissions and capacity scaling -- if each row carries 1/alpha_H^4, does an N-letter transmission carry N * (1/alpha_H^4) or saturate?",
+    "Connection to Shannon / Holevo capacity formulas (separate CR).",
+    "Whether 1/alpha_H^4 is uniquely determined or an empirical match -- structural derivation from R = 2 * alpha_H * D is open."
+  ]
+}

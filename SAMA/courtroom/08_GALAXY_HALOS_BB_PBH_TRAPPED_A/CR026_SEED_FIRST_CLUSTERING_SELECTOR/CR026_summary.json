@@ -1,0 +1,51 @@
+{
+  "test_id": "CR026_SEED_FIRST_CLUSTERING_SELECTOR",
+  "short_id": "CR026",
+  "question": "Does the seed-first clustering test select a native base-12 BB-PBH scaffold behavior while rejecting uniform-cosmic and post-BB-only controls?",
+  "verdict": "CR026_PASS_SEED_FIRST_CLUSTERING_SELECTOR_CANDIDATE",
+  "execution_status": "CLEAN",
+  "scientific_verdict": "PASS",
+  "triage_bin": "A",
+  "claim_tier": "PASS_SEED_FIRST_PROFILE_BEHAVIOR_CANDIDATE",
+  "structural_success": true,
+  "wrong_control_full_packet_count": 0,
+  "pass_conditions": {
+    "seed_first_primary_candidate_native_base12": true,
+    "seed_first_closes_most_baryon_to_profile_gap": true,
+    "uniform_control_rejected": true,
+    "post_bb_window_only_control_rejected": true,
+    "comparison_candidate_recorded_not_selected_by_target": true,
+    "wrong_controls_rejected_upstream": true,
+    "open_mass_normalization_and_native_law_preserved": true,
+    "free_parameters_introduced_zero": true
+  },
+  "evidence_rows": [
+    {
+      "item": "primary_candidate_id",
+      "value": "base12_outer_radius_over_12",
+      "pass": true
+    },
+    {
+      "item": "primary_gap_closed",
+      "value": 0.8191375474184742,
+      "pass": true
+    },
+    {
+      "item": "uniform_gap_closed",
+      "value": 3.8495994978147876e-05,
+      "pass": true
+    },
+    {
+      "item": "post_bb_gap_closed",
+      "value": 0.02448481593940179,
+      "pass": true
+    },
+    {
+      "item": "best_candidate_gap_closed",
+      "value": 0.8625828787369356,
+      "pass": true
+    }
+  ],
+  "rule_9_falsification": "This test could have falsified: the claim that BB-origin PBH/trapped-A seed-first clustering explains most of the baryon-to-clustered-halo gap while wrong controls fail.",
+  "scope_note": "CR026 is a profile-behavior candidate test. It supports PBH-first clustering but does not derive the native mass function, abundance normalization, or concentration law."
+}

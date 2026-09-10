@@ -1,0 +1,62 @@
+{
+  "campaign_id": "CR120Z_X1_ENTANGLEMENT_RESPONSE_INTERFACE_QUANTUM_SANDBOX_DISCOVERY",
+  "classification": "CONSTRUCTIVE_QUANTUM_SANDBOX_DISCOVERY",
+  "question": "Does the archived B-contact then X1-response ordering admit a minimal, type-preserving quantum realization that generates or heralds nonseparability while classical and order controls do not?",
+  "candidate_realization": {
+    "input": "|00>",
+    "B_CONTACT_OPERATOR_ANALOG": "H on subsystem A; local request/coherence preparation only",
+    "X1_AXIS_SELF_CHANNEL_ANALOG": "CNOT A->B; distinct joint response interface only",
+    "ordered_route": "B then X1",
+    "reverse_control": "X1 then B",
+    "typed_warning": "The analog operations are prospective sandbox maps, not installed SAM meanings. Scalar X1=1 is not used as an amplitude."
+  },
+  "primary_observables": [
+    "density-matrix validity",
+    "partial-transpose negativity",
+    "concurrence",
+    "Bell-state fidelity",
+    "frozen-setting CHSH statistic",
+    "local marginal invariance",
+    "remote-state negativity after central herald"
+  ],
+  "predeclared_controls": [
+    "B only",
+    "X1 only",
+    "X1 then B reverse order",
+    "classical correlated return",
+    "product central measurement",
+    "unresolved/false herald over all Bell outcomes",
+    "remote unitary setting sweep for local marginals"
+  ],
+  "noise_scan": {
+    "family": "rho(v)=v|Phi+><Phi+|+(1-v)I/4",
+    "grid": "v=0,0.005,...,1",
+    "expected_negativity_threshold": "v>1/3",
+    "expected_CHSH_threshold": "v>1/sqrt(2)",
+    "fitting": false
+  },
+  "hard_gates": [
+    "source and precommit custody pass",
+    "all emitted density matrices are physical within 1e-10",
+    "B-only, X1-only, reverse-order, and classical-return controls have zero negativity",
+    "B-then-X1 has negativity 1/2, concurrence 1, fidelity 1, and CHSH 2sqrt(2)",
+    "candidate CHSH exceeds 2 while all non-entangled controls remain at or below 2",
+    "remote setting operations leave the candidate local marginal invariant within 1e-12",
+    "central Bell response heralds a maximally entangled remote pair",
+    "product and false-herald swapping controls remain separable",
+    "noise thresholds reproduce the analytic separability and CHSH boundaries to grid resolution",
+    "all semantic wrong controls are rejected"
+  ],
+  "forbidden_inferences": [
+    "X1 is entanglement",
+    "X1=1 is a quantum amplitude or identity operator",
+    "B and X1 are one operator",
+    "the six half-slot weights are amplitudes",
+    "W9 is an entanglement witness",
+    "the sandbox operations are installed SAM operators",
+    "a simulated existence proof is empirical evidence of a physical mechanism",
+    "entanglement permits controllable superluminal signaling"
+  ],
+  "same_run_repair": false,
+  "registry_mutation": false
+}
