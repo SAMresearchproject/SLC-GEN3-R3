@@ -5,14 +5,14 @@ execution, acquired support, complete source histories and exact logarithmic
 accounts. The installed CE is SLC-GEN3-CEV1-R3. The public package now loads R3
 through `slc_gen3_r3`; inherited GEN2 names remain compatibility operations.
 
-This snapshot is sourced from SAM live authority H001194 and H001195, with
+This snapshot is sourced from SAM live authority H001194–H001196, with
 SAMA publication H001067. Export validation is recorded separately from the
 upstream installation's 617 core, 191 memory-admission and 75 adoption checks.
 
 | Research area | Current information |
 |---|---|
 | SLC | R3 build GEN3-UNIFIED-EXECUTION1-20260910, generation G2; one learning and executing runtime. |
-| RH | Wider research is OWNER_PAUSED. The affine-gap result and subsequent 154-call logarithmic variation bridge are retained; clock work retains its active scope. Full RH and uniform signed growth remain open. |
+| RH | Source arithmetic is ACTIVE under H001196, with the completed 18-call cofactor-sector continuation and prior 154-call variation bridge retained. Wider long-prefix execution and training pauses remain; physical clock work is active. Full RH and actual uniform signed growth remain open. |
 | ATOM3D / Li-6 | A3D41-T18-CONTACT-R2 runs on R3. The GEN3 selector and physical coefficient/MeV work remain owner-paused. The signed decoder retains 192 configurations recovered with two Write responses and one signed bit. |
 | Tau | TAU-SLC-PILOT3 remains installed; FULL_DATA5 is PAUSED_BY_OWNER with six saved checkpoints. |
 | Mersenne / MP | MP-GEN2-R4-V1 remains the native domain on R3; the 15,064-batch CSV training pass is complete and its services are inactive. |
