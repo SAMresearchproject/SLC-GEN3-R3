@@ -1,0 +1,803 @@
+{
+  "date": "2026-09-14",
+  "files": [
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.md",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.md",
+      "bytes": 4668,
+      "sha256": "141070f070669ad75c095144fb26ebd62a84d87f6c8001e7b34c2909825f1318"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.json",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.json",
+      "bytes": 1493,
+      "sha256": "fd354c1ff892eb603ff770568b917ee6cdbae4ac358888f1ae670e35a7619ab9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/NATIVE_CYCLE_RESULTS.json",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/NATIVE_CYCLE_RESULTS.json",
+      "bytes": 1075829,
+      "sha256": "ba8877d680640e53ffd890b58d77f0c8cbb028abf0c5174a43afbc81df97fd74"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RECOVERED_HISTORY.json",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RECOVERED_HISTORY.json",
+      "bytes": 10749,
+      "sha256": "70ff6241716db0006d4d53b990b04660031a32a32a78bbcae419c7b3ad3cd71c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/INTEGRATED_EXAMPLE.json",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/INTEGRATED_EXAMPLE.json",
+      "bytes": 4198,
+      "sha256": "976710b5a5129f7a4903dc1dc06a8796d74b1af9330343662cb620362ad50719"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/TEST_PREDICTIONS.npz",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/TEST_PREDICTIONS.npz",
+      "bytes": 299269,
+      "sha256": "90fdc13db2195d42ee23aa360b6cd42e86adee2c8bd2fee567bd22dfe6387d9c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify.py",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify.py",
+      "bytes": 10314,
+      "sha256": "a0bb5fe1fcd622b3da3b35a85e03af98a80064de751f628dbd48d14c07262961"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify_library.py",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify_library.py",
+      "bytes": 4985,
+      "sha256": "e92d89ed1bf7553dc851cefdbd1cd0f44b3c7bc7ae1aa23deef88f42c8211db8"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/library_extension/QUALIFICATION.json",
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/library_extension/QUALIFICATION.json",
+      "bytes": 473,
+      "sha256": "830ad61e7e434313aea0125a8ffdfbde35ef9cc8c59b6dffa270cfb583bc595e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/README.md",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/README.md",
+      "bytes": 1014,
+      "sha256": "644d430e1173a76dfa19dda581c1bed235ff36d541cb1171ddaca4406b50cce2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/RESULT.md",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/RESULT.md",
+      "bytes": 5319,
+      "sha256": "a8de6a9bb819c4b89f90fb2be4011118d06da12d352f36f72e38ae1c938994d2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/DERIVATION.md",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DERIVATION.md",
+      "bytes": 4900,
+      "sha256": "268a45e21265d7e53d0167e7b6dc75c541ed9596ec9e504f217879540f0fd07b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/CHECKS.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/CHECKS.json",
+      "bytes": 354,
+      "sha256": "ac1c3ae810fb821d3e78f7a421e560b7ee8448f4bc0f5ba6de5174a6c48e303a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/COMPACT_RESULT.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/COMPACT_RESULT.json",
+      "bytes": 2034,
+      "sha256": "e45b30e0c7c808a4feb028f687f165e1419c00084cdd9a50d37aeb41dd4a240c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/COMPACT_INVERSES.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/COMPACT_INVERSES.json",
+      "bytes": 85987,
+      "sha256": "871b456690d58afb9992f40406e6339ca14fa09af8cfa424dabd0db13acb9354"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/DECODER_CONTRACT.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_CONTRACT.json",
+      "bytes": 37166,
+      "sha256": "bf81976c4ee7297fa170f74bfda97ff9354f828a36033fd6aabb6c2e01f0e3d8"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/DECODER_PROFILE.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_PROFILE.json",
+      "bytes": 43267,
+      "sha256": "dc31d27ecc82aadcc449c01249cefda918e933e64b812ea61b58aa31fd3778cb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/DECODER_CLI_CHECK.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_CLI_CHECK.json",
+      "bytes": 565,
+      "sha256": "f5541e46fa905c9487919a7b6cff9d5cb58a307ca665a0ca6c270dc60807fa1e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/FRESH_RECOVERY.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/FRESH_RECOVERY.json",
+      "bytes": 2671,
+      "sha256": "9753fb000c2dbd38aa90554bb0653278b005e49fe8fc7f356e35ad59841af344"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/ATLAS.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/ATLAS.json",
+      "bytes": 6717591,
+      "sha256": "f750068662db24c8b72f7769eb9a608ba8678e602147502593acbfd6ec6244a6"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/PROFILES.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/PROFILES.json",
+      "bytes": 171467,
+      "sha256": "2efa04708376604caddbb025abb3f05cca15cfa5106133dba84268e74fd7ee52"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/DELTAS.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DELTAS.json",
+      "bytes": 957571,
+      "sha256": "675a9f84a1eaddc83ee08db05f276dc4d39598185c2bd439ae5ec8e4571c7b53"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/SIGNED_SITE_READOUT.json",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/SIGNED_SITE_READOUT.json",
+      "bytes": 247,
+      "sha256": "8b3a6dbe25e2bc95b6dd833a6b0d2f50f1a767dc6024b57a10878f51f0c4bec9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/decode.py",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/decode.py",
+      "bytes": 1932,
+      "sha256": "c1d8dd8b6047a0b20e5c150078c58cd290156e033d1a74994cb4fa4c0d76557d"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/run_atlas.py",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/run_atlas.py",
+      "bytes": 5343,
+      "sha256": "d4d53dc790af0d9153fe81490b9ebaf0288defbfb1d6052b11e4395a8e05b259"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/analyze_atlas.py",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/analyze_atlas.py",
+      "bytes": 8917,
+      "sha256": "7c72bfad09043ddd9a80de269b75f6c614a4030af08d5bcc2e0bf966b8222a35"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_GEN2_SIGNED_READOUT1/compact_probes.py",
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/compact_probes.py",
+      "bytes": 5578,
+      "sha256": "e59fa9cc4e258e6abe1dd2fa25adb102e77c0cfdb94ede825f9c589be86ff87a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/README.md",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/README.md",
+      "bytes": 7270,
+      "sha256": "319950dd18aa81558a0ffe8df1ebd02e0d042a834e931ee648eaf37304ebdc17"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/DERIVATION.md",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/DERIVATION.md",
+      "bytes": 3325,
+      "sha256": "ede9b0b287baad990bc89564c8697f1fc23f9bb84d794fb0873e602b6fa272b3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/TECHNICAL_MAP.md",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/TECHNICAL_MAP.md",
+      "bytes": 5205,
+      "sha256": "36e20523344db7362d55584a4148cee3daa1ff4a6125914227b91c09da3f017d"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/CONTRACT.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/CONTRACT.json",
+      "bytes": 39145,
+      "sha256": "63a1ecaa0bac86cdebbe3753fbf61a303760e95f74dd272fe32f3efc43f8f483"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/RESULT.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/RESULT.json",
+      "bytes": 61338,
+      "sha256": "9c6e2cf349c763539d300a28f81714e95fe3242a50b541e7305d7fd1f701d0ef"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/GEOMETRY.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/GEOMETRY.json",
+      "bytes": 18087,
+      "sha256": "9d390f86a02a22b67f1a0179ba2db7db4af1c3a818532d4d9683ffa686696b05"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/GRAMMAR_OUTPUTS.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/GRAMMAR_OUTPUTS.json",
+      "bytes": 14408,
+      "sha256": "52b1ebb8da18a4b8a06e73e1af09f410bd5ef743bda08578a1d744734b0c807d"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_BITSETS.npz",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_BITSETS.npz",
+      "bytes": 16609,
+      "sha256": "7b2dae953ddf70e69dd32d7457f8e2c91b2c3d6aa4169c2e387935b0becd2673"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_METADATA.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_METADATA.json",
+      "bytes": 2183,
+      "sha256": "b55d807ea8cec51258b34239b2a1e9d2657363065eed380942736719ddf7907a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/VALIDATION.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/VALIDATION.json",
+      "bytes": 18714,
+      "sha256": "0df7065724a15d6c5dc85626eded0f54058335defa98f3d8c7537389c2505a04"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/FINAL_CHECKS.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/FINAL_CHECKS.json",
+      "bytes": 885,
+      "sha256": "ed2e53fd802f019c420aff2a5283c609e7dc5c0dd25c957a57250b5e80e1fb09"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/REFERENCE_EXAMPLES.json",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/REFERENCE_EXAMPLES.json",
+      "bytes": 8291,
+      "sha256": "f02c20ebd2abaeb3764e50ab56db33f098fe9d21f53d1e9fdfa5366712b4631a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/prepare.py",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/prepare.py",
+      "bytes": 13363,
+      "sha256": "e7bd449df7c4ab482df33e35935e4ca8953b02de1196f3d3dce45df56356cf2b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/analyze.py",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/analyze.py",
+      "bytes": 13362,
+      "sha256": "8ea0f92d5109a21a310f0fd5bcf7e9748466040b738f74051c10d84ef7d932bb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/derive_selection.py",
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/derive_selection.py",
+      "bytes": 2267,
+      "sha256": "24e95a6e3a3055f478a9605d168460f73ab3ced513de5fbfefda5f4ba0493a5e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/README.md",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/README.md",
+      "bytes": 907,
+      "sha256": "b12f7c7a8c5a2f94b8888915b42754e5ebc0ce785e1e29ec4a0485a2948c6cd2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/RESULT.md",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/RESULT.md",
+      "bytes": 9337,
+      "sha256": "0372faa092197af43321c2dcd7c28cf0971d4e2a71d9ca7c53ae3132e99900cb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/DERIVATION.md",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/DERIVATION.md",
+      "bytes": 2685,
+      "sha256": "f193ef9a1a33164efae2d7b7a5237517d5887ad482fba4cb12338163b0837de4"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/PHYSICAL_EXTENSION_MAP.md",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/PHYSICAL_EXTENSION_MAP.md",
+      "bytes": 6518,
+      "sha256": "59be6a855c90d53e72ba198dd0663a0ce00353d27d39a8442b4c16521d8f0826"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/EXPERIMENT_CONTRACT.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/EXPERIMENT_CONTRACT.json",
+      "bytes": 1846,
+      "sha256": "2db7b3b252f83487881b96bd4898dc53480123fdfd1bdedabe937a4783e83ef7"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/MOTIVATING_PAIR_READBACK.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/MOTIVATING_PAIR_READBACK.json",
+      "bytes": 10026,
+      "sha256": "4c01990e1a3cc9a89d65fa839465b677db035caf219a65152cca866d5aaaf4e3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run001/FAILURE.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run001/FAILURE.json",
+      "bytes": 203,
+      "sha256": "bf9a0977da62b81364e8d78589e9359d43e809ad023120f07473cd0d063a9b6a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/SUMMARY.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/SUMMARY.json",
+      "bytes": 1624,
+      "sha256": "c79034e838c0373e47ef0e57d156e2845e48e31c4549e7e7ccd4e55720c29786"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/INJECTIVITY_CERTIFICATE.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/INJECTIVITY_CERTIFICATE.json",
+      "bytes": 38346,
+      "sha256": "212496becad987fc3a0ed58cff5dca91a4a42bce77607651e09fc3c6bed3fb88"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/independent/VERIFICATION.json",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/independent/VERIFICATION.json",
+      "bytes": 915,
+      "sha256": "74c1acfe2b85e06d4111d9724cb888e46c76a1a6fb2c18bc203f5527e755e66d"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/primary.py",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/primary.py",
+      "bytes": 12335,
+      "sha256": "94b14035b64fd674064e3462c9624865ce0f9435a46dc0706b4425d94e0f5e2c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/independent.py",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/independent.py",
+      "bytes": 13310,
+      "sha256": "f50cb0e79934e17faf95990ca6e204fb2abeb36a0cb6e5788f4f767862dd05a2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/custody.py",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/custody.py",
+      "bytes": 4194,
+      "sha256": "c2b966d09ebba453bd61221edf4471e4d93582e4d6eb0f4b00e9c0cc62d85766"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/DOMAIN_FEEDBACK_R7.md",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/DOMAIN_FEEDBACK_R7.md",
+      "bytes": 6775,
+      "sha256": "9d278fb520ec5dfa77b9b0533c485a98a72343166125edcb615ba890c50cca10"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/CONSTRUCTION_KNOWLEDGE.md",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/CONSTRUCTION_KNOWLEDGE.md",
+      "bytes": 2157,
+      "sha256": "c4d361cb317862274a0e0af438b31469eead95fcd8a26b3d96b41d42225ac5ae"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_FEEDBACK_COMPLETION.json",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_FEEDBACK_COMPLETION.json",
+      "bytes": 15341,
+      "sha256": "9f9409dcb7944887efa2ce586f7728f70a2b8c42f752a4fe23f17885ff8da4b5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_DOMAIN_FIT.json",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_DOMAIN_FIT.json",
+      "bytes": 38763,
+      "sha256": "c951aaa20adca935f5554470fc780a80e14d8757921876a8f67dc2c8f944c281"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_RH_LEARNING.json",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_RH_LEARNING.json",
+      "bytes": 26660,
+      "sha256": "d6c38e70ddae5e4ce41b7768a7791e51afd7f531bad90625edb24fa5b3a76257"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_QUALIFICATION.json",
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_QUALIFICATION.json",
+      "bytes": 31731,
+      "sha256": "a54e81751c7bbd5ede6cd33a2bc8bc32d3aaba1f4f3547a5a50e39b4adeb4305"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/atom3d.cpp",
+      "path": "research/gen3-rxt/native/src/atom3d.cpp",
+      "bytes": 35132,
+      "sha256": "c5906ed0a8e6e6586e8a8d97692d337f33b7e6c050060a0722d815353b0e5085"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/atom3d.hpp",
+      "path": "research/gen3-rxt/native/src/atom3d.hpp",
+      "bytes": 1139,
+      "sha256": "c2df935807e577f2e4b562f3b12926c47e0e6b20351a0ddbc74eaf98cb559c24"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/atom3d_backend.hpp",
+      "path": "research/gen3-rxt/native/src/atom3d_backend.hpp",
+      "bytes": 2297,
+      "sha256": "bc5050e63cf300c8028571b90c53bd52d6134d53933037ae094cc346c9354ee5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/atom3d_binding.hpp",
+      "path": "research/gen3-rxt/native/src/atom3d_binding.hpp",
+      "bytes": 148,
+      "sha256": "d12fc3466b3cf6a80135315375415f93403e21628ad5721a74a2b44a5e000cdc"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/atom3d_cuda.cu",
+      "path": "research/gen3-rxt/native/src/atom3d_cuda.cu",
+      "bytes": 16654,
+      "sha256": "d64be915a6f61accd6af27412f19047b2e4d2c87a19caee2c7eae7b84c4d3e34"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/backend.hpp",
+      "path": "research/gen3-rxt/native/src/backend.hpp",
+      "bytes": 1760,
+      "sha256": "d55de64a26c0027108bad4d7007d82a389feba2f0779cdc88697e321925e2937"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/campaign.cpp",
+      "path": "research/gen3-rxt/native/src/campaign.cpp",
+      "bytes": 8092,
+      "sha256": "1c9fd694e01fb353d5a2188549d55f9bfd9af00a53b48a6d1e84ab89232ce7e8"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/construction.cpp",
+      "path": "research/gen3-rxt/native/src/construction.cpp",
+      "bytes": 20236,
+      "sha256": "81b45d22ca9907f614c0692064c02f4499a1dade47281c5981bffa96a0664b97"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/core.cpp",
+      "path": "research/gen3-rxt/native/src/core.cpp",
+      "bytes": 10502,
+      "sha256": "9ccb7b1d1eef64a37689c767ea127d9c1e674348e791bf657bcb2e346bc47055"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/core_binding.hpp",
+      "path": "research/gen3-rxt/native/src/core_binding.hpp",
+      "bytes": 139,
+      "sha256": "ef5f4419f1876d3b3f63470de8f4d1a3d40f9db653f91cc5308a7de0dc79924e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/cuda.cu",
+      "path": "research/gen3-rxt/native/src/cuda.cu",
+      "bytes": 8473,
+      "sha256": "b4abc57204b4476c7950657720a5ffd7a64243e5e7a246257041887be93256b3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/engine.cpp",
+      "path": "research/gen3-rxt/native/src/engine.cpp",
+      "bytes": 49741,
+      "sha256": "1cf9fbd3246b1053beb4e58089e90604770bc79f775f6d00dc3537f70c6df33c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/engine.hpp",
+      "path": "research/gen3-rxt/native/src/engine.hpp",
+      "bytes": 3455,
+      "sha256": "bdf5971ec1e21aa78069a7f695ecd067e1d42a566251a3d462bbe348ba238e63"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/horizon.cpp",
+      "path": "research/gen3-rxt/native/src/horizon.cpp",
+      "bytes": 16108,
+      "sha256": "a4563fd182e0fde8d9c78ad34c210918b089489945dcac3e0eb7b9664c84f09b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/horizon_binding.hpp",
+      "path": "research/gen3-rxt/native/src/horizon_binding.hpp",
+      "bytes": 140,
+      "sha256": "c4076acda9b207a31e48908a569fe47d7a8ffba02587a270c186aec4130a2aea"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/joint.cpp",
+      "path": "research/gen3-rxt/native/src/joint.cpp",
+      "bytes": 16943,
+      "sha256": "8f94a56df9c66ac3916aa834056a6991604dc30de469a0ac1f33036fd96570cc"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/joint_binding.hpp",
+      "path": "research/gen3-rxt/native/src/joint_binding.hpp",
+      "bytes": 138,
+      "sha256": "143f049e39d660457cac56d53995b3d0e05157502e4180f7e19b1120145f9c4f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/knowledge.cpp",
+      "path": "research/gen3-rxt/native/src/knowledge.cpp",
+      "bytes": 7664,
+      "sha256": "24c8040689340bed44be2b2663fdb19080f3e2780a4a6bb5be87819cf9d2ce5c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/knowledge.hpp",
+      "path": "research/gen3-rxt/native/src/knowledge.hpp",
+      "bytes": 606,
+      "sha256": "f082ea817a6153d7727d9f534de931077db9b22dd408e4ed5fdcd2d95e5a13ae"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/main.cpp",
+      "path": "research/gen3-rxt/native/src/main.cpp",
+      "bytes": 8046,
+      "sha256": "32bb8d875fa05639ab36f53bcbfd1ec654396d8750d37401dd0d714ed4570eac"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/memory_headroom.hpp",
+      "path": "research/gen3-rxt/native/src/memory_headroom.hpp",
+      "bytes": 905,
+      "sha256": "658297d3a0529e83ae05da22f7f6e4fa1baae92b8d9e46b5a351febbe611f5bc"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/rh.cpp",
+      "path": "research/gen3-rxt/native/src/rh.cpp",
+      "bytes": 29462,
+      "sha256": "252788fccf82fd668abce1f894a1a7fe55310ed785728a9879e828e3c32116e9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/rh.hpp",
+      "path": "research/gen3-rxt/native/src/rh.hpp",
+      "bytes": 437,
+      "sha256": "eaa952aa57c34170f1b0168585433bddae85c75c9db33603a27075c6a31425c5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/rh_binding.hpp",
+      "path": "research/gen3-rxt/native/src/rh_binding.hpp",
+      "bytes": 181,
+      "sha256": "2eb38f61ca16736d67e9b0cd176c418e6b92633016e27346fd31fee013a0183a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/rh_envelope.hpp",
+      "path": "research/gen3-rxt/native/src/rh_envelope.hpp",
+      "bytes": 1368,
+      "sha256": "ad6d887a343d58588e0a6d47fe32925fea131b5bb7dfc3865a86ced2c65f2ce3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/service.cpp",
+      "path": "research/gen3-rxt/native/src/service.cpp",
+      "bytes": 5499,
+      "sha256": "6d409424f7375cb3bda1d1ddf0b6e3722c7ccb413490380d917c8f421a834443"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/service.hpp",
+      "path": "research/gen3-rxt/native/src/service.hpp",
+      "bytes": 270,
+      "sha256": "a0e39e2ac8deab84b616f5c0107c7866d5e39ad2523203aeefd41bad6099f263"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/signed_energy.hpp",
+      "path": "research/gen3-rxt/native/src/signed_energy.hpp",
+      "bytes": 1617,
+      "sha256": "948c601cf13a5691ff751bb61ddafbc3237ddfe2f0750a13775ff8f3e3435a08"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/starbreaker.cpp",
+      "path": "research/gen3-rxt/native/src/starbreaker.cpp",
+      "bytes": 28475,
+      "sha256": "5b39b79edc731ba63dc6d086297087b1a33fb4590ed7be4d3dc77f44213daf6f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/starbreaker.hpp",
+      "path": "research/gen3-rxt/native/src/starbreaker.hpp",
+      "bytes": 1357,
+      "sha256": "ca945c715e65b00072f90312e9b86ca31b296fc2ac57a6d505410d90715552d9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/starbreaker_backend.hpp",
+      "path": "research/gen3-rxt/native/src/starbreaker_backend.hpp",
+      "bytes": 1159,
+      "sha256": "3e8d53f3aa9b3c9d6690a7dbbea9bc4ceff308878b9f86c3351c0c190ae3fd5b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/starbreaker_binding.hpp",
+      "path": "research/gen3-rxt/native/src/starbreaker_binding.hpp",
+      "bytes": 137,
+      "sha256": "b5b6e9431f84491ea402dae8d11ab19f928211c8304075b7fe5df8444972c03f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/starbreaker_cuda.cu",
+      "path": "research/gen3-rxt/native/src/starbreaker_cuda.cu",
+      "bytes": 6249,
+      "sha256": "3623eedbd287cb82aac0dec3ab0694c2ffab2ad863ac04fdd93a3ceb1c6a60cc"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/training.cpp",
+      "path": "research/gen3-rxt/native/src/training.cpp",
+      "bytes": 23113,
+      "sha256": "1376095d830b2d5205d33d977e535690b466be9e0a58251fcbe11be2a2fd5794"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/training.hpp",
+      "path": "research/gen3-rxt/native/src/training.hpp",
+      "bytes": 644,
+      "sha256": "8ee834c4e054ef743710b0b10d79a4b4275f0da75c16174012a8d001370d26bb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/training_binding.hpp",
+      "path": "research/gen3-rxt/native/src/training_binding.hpp",
+      "bytes": 141,
+      "sha256": "97282ae7f0fb467578d3b33c797a2f3980be8bbc019eb082ed9bb3e8ff913aea"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/transfer.cpp",
+      "path": "research/gen3-rxt/native/src/transfer.cpp",
+      "bytes": 15525,
+      "sha256": "00ddd927931f5ebeddc44fde5e6e237e51eaf82c701f1fd59a23d6d3878bc6b5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/BUNDLE.json",
+      "path": "research/gen3-rxt/native/source/BUNDLE.json",
+      "bytes": 572,
+      "sha256": "d1841aabe6139e233ea37427e0b66947efc3191b394812757be68647eff6e29a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/AR1_ATLAS.jsonl",
+      "path": "research/gen3-rxt/native/source/horizon/AR1_ATLAS.jsonl",
+      "bytes": 13220,
+      "sha256": "1698276730d4ab07d1801dc66098c67f2fe6c3b9d208aa370593d73ab6c79dbf"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/AR1_CORE.py",
+      "path": "research/gen3-rxt/native/source/horizon/AR1_CORE.py",
+      "bytes": 9038,
+      "sha256": "9aa98074195416d402c0f42e3b5649e99ccf316a0b0c90372da327b2ec0816b6"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/AR1_LIFECYCLE.jsonl",
+      "path": "research/gen3-rxt/native/source/horizon/AR1_LIFECYCLE.jsonl",
+      "bytes": 10964,
+      "sha256": "3483522766609ecf144936fe505609648868144df0511fa173095fbec2dfe266"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/BUNDLE.json",
+      "path": "research/gen3-rxt/native/source/horizon/BUNDLE.json",
+      "bytes": 1015,
+      "sha256": "419be9f9c3eceb8e1a3e65f73dd4350aee927933b411bd9c4620932ab01deaa2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/FORM0_CORE.py",
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_CORE.py",
+      "bytes": 13010,
+      "sha256": "2d69a1902dd8495ebe65784387a59f446f3400d0e9deb6bfedb18483afedb6d0"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/FORM0_EXPECTED.jsonl",
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_EXPECTED.jsonl",
+      "bytes": 56210,
+      "sha256": "90757073b67bf811c41197810236a449e48dcec7175512eee4a780f316fb8619"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/source/horizon/FORM0_SPECS.json",
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_SPECS.json",
+      "bytes": 6625,
+      "sha256": "cf841f0e90f256a40b56befb650ee9bdd564b9efd370d5a6aba747cae8da1843"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/ACCUMULATION_DERIVATION.md",
+      "path": "research/gen3-rxt/native/source/rh/ACCUMULATION_DERIVATION.md",
+      "bytes": 5963,
+      "sha256": "02b78c0d47b0fecc6aa902e6eb0c640dedb361663851cc85896a8624378ca043"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/ACCUMULATION_RESULT.md",
+      "path": "research/gen3-rxt/native/source/rh/ACCUMULATION_RESULT.md",
+      "bytes": 7485,
+      "sha256": "dfc50e45de74fb6a5e487cc26f59b16df32074c2b1e95ff764e4c59a039ebb63"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/BUNDLE.json",
+      "path": "research/gen3-rxt/native/source/rh/BUNDLE.json",
+      "bytes": 2119,
+      "sha256": "f5c6e260ecc500254ae3c8a12f2bb7c70735e4a7b5ea855a9580e2649febd332"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/FORMULA_HISTORY.json",
+      "path": "research/gen3-rxt/native/source/rh/FORMULA_HISTORY.json",
+      "bytes": 31840,
+      "sha256": "5e944aa4a1035b81c7fef404a8e5bcdfafa4985632d0c80fac05e25c71927fea"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/FORMULA_PACKET.json",
+      "path": "research/gen3-rxt/native/source/rh/FORMULA_PACKET.json",
+      "bytes": 21618,
+      "sha256": "c10a419819b35a0bed8af21038267c9d96dc1519570226303d0a2e1808d35a5f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/GROWTH_TARGET.md",
+      "path": "research/gen3-rxt/native/source/rh/GROWTH_TARGET.md",
+      "bytes": 5036,
+      "sha256": "1188f0ba6cbc007bfba8dffc1830b2580d7ed9b49ef2d99dd0023809f57147ad"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/PREDECESSOR_GROWTH.py",
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_GROWTH.py",
+      "bytes": 29745,
+      "sha256": "519d0bb3aa5e85f542e50680bab04a22cff51a6a0782b5f4435473fb1e054979"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/PREDECESSOR_REPRESENTATIONS.py",
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_REPRESENTATIONS.py",
+      "bytes": 11906,
+      "sha256": "33e84698fd66d4c8c254cb5cebc2215ccdf663db257a6582a632f62c415532da"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/PREDECESSOR_WORKER.py",
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_WORKER.py",
+      "bytes": 4442,
+      "sha256": "5f2c04bd12716f773707cc203e66422ae7a08cbf79cad71344427aa6e2dea93d"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/source/rh/WEIGHTED_CUT_DERIVATION.md",
+      "path": "research/gen3-rxt/native/source/rh/WEIGHTED_CUT_DERIVATION.md",
+      "bytes": 5414,
+      "sha256": "cf2c371831369ec051f366043f3d61ecf442cb2f3d40ff0b86aa094c3871e4b1"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/examples/priority_job.json",
+      "path": "research/gen3-rxt/native/examples/priority_job.json",
+      "bytes": 4593,
+      "sha256": "b522fcca7ff9722647725f94832966d8dea6d53cb287345f65c5661338be4b40"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/examples/status.json",
+      "path": "research/gen3-rxt/native/examples/status.json",
+      "bytes": 37,
+      "sha256": "14ed38a2dad177e6b4cf1d8b591a74cc1345967dec797849517d36cb566cdfb3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/CMakeLists.txt",
+      "path": "research/gen3-rxt/native/CMakeLists.txt",
+      "bytes": 1545,
+      "sha256": "c647267926012cc6abf1fe40a07a94467c7d4c8655b72fbe89826efd91da07bc"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/NATIVE_UPDATE_MANIFEST.json",
+      "path": "research/gen3-rxt/native/NATIVE_UPDATE_MANIFEST.json",
+      "bytes": 3572,
+      "sha256": "0abf01f2b28342af671760410f8f6e76e5e82c2595b2ffcb936135438049e7c7"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/tools/build.sh",
+      "path": "research/gen3-rxt/native/tools/build.sh",
+      "bytes": 567,
+      "sha256": "a9fa286ddb96e0d176652931a25839672a90935e075dbb6a24ce1ca18118992a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/tools/qualify_memory.cpp",
+      "path": "research/gen3-rxt/native/tools/qualify_memory.cpp",
+      "bytes": 783,
+      "sha256": "1265f502b6f973a01633cca400c7a9b2d1d0a31c1e95ccb34679034881399796"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/NATIVE_WORD_RECEIPTS.jsonl.gz",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/NATIVE_WORD_RECEIPTS.jsonl.gz",
+      "bytes": 62508,
+      "sha256": "e868f49ab1c5b05837c1076fcee8d3ce9bc981ec1cba8e2f44302ec3a634ff1c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/RECEPTION_INVERSE.jsonl.gz",
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/RECEPTION_INVERSE.jsonl.gz",
+      "bytes": 7039622,
+      "sha256": "d8f4a37887f663e032faa63d68d8bc7661e8cc23e53ea53396d00d4b0c82bce2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/campaign.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/campaign.cpp",
+      "bytes": 7403,
+      "sha256": "f7f628f3c57908f2712203d0880694f72b301556cd49f970abed83077e069f2f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/prior.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/prior.cpp",
+      "bytes": 15596,
+      "sha256": "4508a8c94f8a5fc8455acbfa9702bea5a7f2879db328d1192303031092ee85e5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/discrepancy.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/discrepancy.cpp",
+      "bytes": 2056,
+      "sha256": "1ea3febd191bf38f7a79142bb435d2dcd64887a2b17c56c4e379ee6dfe2d3cf7"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/search.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/search.cpp",
+      "bytes": 8378,
+      "sha256": "fc3ec0c4a6b10f3014f95e4d42066503215ddc520324a6c4b1bea228bfe5c1e8"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/base.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/base.cpp",
+      "bytes": 6484,
+      "sha256": "84964feb16c5492f59c1d842d1055780b8b06e989c100602027cebfeacc08172"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/forcing_prospective_r1/forcing.cpp",
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/forcing.cpp",
+      "bytes": 10478,
+      "sha256": "35553c4c71d2443bc10a57956fb171405e91ad040b6619248066ecb4d63d2d29"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/forcing_prospective_r1/EVALUATION_S4096.json",
+      "path": "research/rh/check/original/results/forcing_prospective_r1/EVALUATION_S4096.json",
+      "bytes": 624346,
+      "sha256": "71381a16cb684a39424662cd2285d2cc5189f3a5eb7525fc1c81497ad1d54e61"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/forcing_prospective_r1/INDEPENDENT_CHECK.json",
+      "path": "research/rh/check/original/results/forcing_prospective_r1/INDEPENDENT_CHECK.json",
+      "bytes": 176,
+      "sha256": "dcf8ce3a5fdbae27549e424cfce9e187db0ccd4d85a8cfbdc45d13fdf66460f3"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/forcing_prospective_r1/CONTRACT.json",
+      "path": "research/rh/check/original/results/forcing_prospective_r1/CONTRACT.json",
+      "bytes": 1198,
+      "sha256": "7db0b650b15f1ed4deb7e5bbcfe375cb57853ffcd4df7957786e789344db064c"
+    }
+  ]
+}

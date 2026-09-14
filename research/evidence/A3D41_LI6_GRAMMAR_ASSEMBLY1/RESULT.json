@@ -1,0 +1,2459 @@
+{
+  "analysis_seconds": 8.437688873000297,
+  "checks": [
+    {
+      "name": "hardware exact agreement",
+      "pass": true
+    },
+    {
+      "name": "old contact address join",
+      "pass": true
+    },
+    {
+      "name": "nonnegative center primitives",
+      "pass": true
+    },
+    {
+      "name": "phase-current reconstruction",
+      "pass": true
+    },
+    {
+      "name": "complete edge information rank",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 0",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 1",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 2",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 3",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 0",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 1",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 2",
+      "pass": true
+    },
+    {
+      "name": "whole-column signed surface identity",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "hidden loop inactive before complete joining",
+      "pass": true
+    },
+    {
+      "name": "every case has a minimizing source address",
+      "pass": true
+    },
+    {
+      "name": "same-current histories have different circulation response",
+      "pass": true
+    }
+  ],
+  "circulation_witness": {
+    "circulation_norms": [
+      [
+        9,
+        9,
+        1,
+        1,
+        4
+      ],
+      [
+        9,
+        5,
+        5,
+        1,
+        10
+      ]
+    ],
+    "distinguishing_response": {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 17,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    "site_current": [
+      [
+        0,
+        0,
+        0,
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "source_action_difference": "-144",
+    "states": [
+      14336,
+      14373
+    ]
+  },
+  "classification_scope": "Finite isotope-specific grammar assembly, retained circulation distinction, and exact candidate source-action selection.",
+  "connected_examples": [
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "hidden_loop": false,
+      "minimum": "96",
+      "old_contact_overlap": 256,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": []
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "hidden_loop": true,
+      "minimum": "1545/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": []
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "hidden_loop": false,
+      "minimum": "108",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 44,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "hidden_loop": true,
+      "minimum": "441/4",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 44,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "hidden_loop": false,
+      "minimum": "108",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 45,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "hidden_loop": true,
+      "minimum": "441/4",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 45,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "hidden_loop": false,
+      "minimum": "60",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 46,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "hidden_loop": true,
+      "minimum": "969/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "hidden_loop": false,
+      "minimum": "60",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 47,
+      "states": 64,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "hidden_loop": true,
+      "minimum": "969/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "hidden_loop": false,
+      "minimum": "96",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": []
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "hidden_loop": true,
+      "minimum": "1545/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": []
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "hidden_loop": false,
+      "minimum": "144",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "hidden_loop": true,
+      "minimum": "2313/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "hidden_loop": false,
+      "minimum": "144",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "hidden_loop": true,
+      "minimum": "2313/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "hidden_loop": false,
+      "minimum": "240",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "hidden_loop": true,
+      "minimum": "3849/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "hidden_loop": false,
+      "minimum": "240",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "hidden_loop": true,
+      "minimum": "3849/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "hidden_loop": false,
+      "minimum": "86",
+      "old_contact_overlap": 256,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": []
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "hidden_loop": true,
+      "minimum": "1385/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": []
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "hidden_loop": false,
+      "minimum": "177/2",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 44,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "hidden_loop": true,
+      "minimum": "363/4",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 44,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "hidden_loop": false,
+      "minimum": "177/2",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 45,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "hidden_loop": true,
+      "minimum": "363/4",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 45,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "hidden_loop": false,
+      "minimum": "91/2",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 46,
+      "states": 64,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "hidden_loop": true,
+      "minimum": "737/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "hidden_loop": false,
+      "minimum": "91/2",
+      "old_contact_overlap": 64,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 47,
+      "states": 64,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "hidden_loop": true,
+      "minimum": "737/16",
+      "old_contact_overlap": 16,
+      "receiver": "CIRCULATION",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "hidden_loop": false,
+      "minimum": "86",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": []
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "hidden_loop": true,
+      "minimum": "1385/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": []
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "hidden_loop": false,
+      "minimum": "225/2",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "hidden_loop": true,
+      "minimum": "1809/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "P01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "hidden_loop": false,
+      "minimum": "225/2",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "hidden_loop": true,
+      "minimum": "1809/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "N00",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "hidden_loop": false,
+      "minimum": "331/2",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "hidden_loop": true,
+      "minimum": "2657/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "P00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "hidden_loop": false,
+      "minimum": "331/2",
+      "old_contact_overlap": 256,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 42,
+      "states": 256,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "hidden_loop": true,
+      "minimum": "2657/16",
+      "old_contact_overlap": 16,
+      "receiver": "ENDPOINT",
+      "same_state_set_all_placements_and_rho": true,
+      "set_index": 43,
+      "states": 16,
+      "triad_objects": [
+        [
+          "N00",
+          "P01",
+          "N01"
+        ]
+      ]
+    }
+  ],
+  "hardware_run": {
+    "counts": {
+      "CENTER": 5143,
+      "GRAMMAR": 41245
+    },
+    "custody": {
+      "manifest_sha256": "1abee42d0571859b753009f0905ab3a2d0d70f28f0c7e70220fe9cbfc98957ab",
+      "path": "/home/lilhelper/SAM_Research_Project/CE_CURRENT_HFM5/LI6_GRAMMAR_20260906T211219Z_0ef88565652d",
+      "readback": {
+        "bytes": 46048037,
+        "files": 14,
+        "status": "PASS"
+      }
+    },
+    "domain_revision": "A3D41-T18-CONTACT-R2",
+    "h14f": {
+      "batch_sha256": {
+        "CENTER": "135c86c30983343784c3c08b2a4214906dd560201ab4de04dd436d9b9588de1f",
+        "GRAMMAR": "6cb8a14f4e85cdd327eb176ab2284aaf6657067866fea2d64b002e300b3aaa33"
+      },
+      "seconds": 0.15265324600113672,
+      "workers": [
+        {
+          "affinity": [
+            0
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "d8dcb8b7c775bf4c2eafc42d3d55a5bcd81d3db1dc7ee0bc23a53f7294197986",
+              "start": 0,
+              "stop": 367,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "a0d0488cd8c0c1a4c60a51164e75321dc06d7ed875b7c8d6db562fe84c5d9902",
+              "start": 0,
+              "stop": 2946,
+              "values": 256302
+            }
+          ],
+          "cpu": 0,
+          "pid": 211837
+        },
+        {
+          "affinity": [
+            2
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "6f1ef380eee9088c41f21ec51ce4b53379a45f82ef6ac53225493085bb30cf3e",
+              "start": 367,
+              "stop": 734,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "1e3456088421de21d9f4ca5044986e029aafc5aef466d6e01dca9bb7b08412cc",
+              "start": 2946,
+              "stop": 5892,
+              "values": 256302
+            }
+          ],
+          "cpu": 2,
+          "pid": 211838
+        },
+        {
+          "affinity": [
+            4
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "bf987913aa27c4a9c499fad79626973637a93ab6e225a4bd420ec672c91a7bd7",
+              "start": 734,
+              "stop": 1102,
+              "values": 141312
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "628456060afcaec797e424779f877e3d2320a78afa55ec6ac8a669429c0c6876",
+              "start": 5892,
+              "stop": 8838,
+              "values": 256302
+            }
+          ],
+          "cpu": 4,
+          "pid": 211839
+        },
+        {
+          "affinity": [
+            6
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "04d9d03d5701ae0a03288a69cd4ecd43b907462ebf867c0591cd7ef77cad9134",
+              "start": 1102,
+              "stop": 1469,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "a2e978cabf7585029cf25f8f12bbea1eabf9c5e9ed7bf79243779c3b3a77c78d",
+              "start": 8838,
+              "stop": 11784,
+              "values": 256302
+            }
+          ],
+          "cpu": 6,
+          "pid": 211840
+        },
+        {
+          "affinity": [
+            8
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "be958e09ed82d51607a8f81bbc65dce7da2103b4095ee1f35e0fdb6a927419a6",
+              "start": 1469,
+              "stop": 1836,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "f302596536140c6ba4e916361743be09413297412cd5c92839b36ae2bc5bb380",
+              "start": 11784,
+              "stop": 14730,
+              "values": 256302
+            }
+          ],
+          "cpu": 8,
+          "pid": 211841
+        },
+        {
+          "affinity": [
+            10
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "0bacc8d35b3f644499ac24ba602a07a4772ae5eff0944d82a53e50330a9ad98f",
+              "start": 1836,
+              "stop": 2204,
+              "values": 141312
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "cff56fd387a8ff38e252fa82865a6805101971e876129a7f94757c980950eb9b",
+              "start": 14730,
+              "stop": 17676,
+              "values": 256302
+            }
+          ],
+          "cpu": 10,
+          "pid": 211842
+        },
+        {
+          "affinity": [
+            12
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "f4c12aaed4a710bb7ca592de2e6ff752e0e65b83735fd70dfb4f690ce96962d9",
+              "start": 2204,
+              "stop": 2571,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "f697c4f3825dbd74d70ff832f8da5cb3480295e378f187b64801278be15f1c2a",
+              "start": 17676,
+              "stop": 20622,
+              "values": 256302
+            }
+          ],
+          "cpu": 12,
+          "pid": 211843
+        },
+        {
+          "affinity": [
+            13
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "1560c6576e7c40f3dbfb1868bb7418e6001a6089a287ffa81f31855b9047bc3e",
+              "start": 2571,
+              "stop": 2938,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "ad770fb75a9b4cf7c619fc5ad2ca21889491a165c03443e7290d52f4d8964316",
+              "start": 20622,
+              "stop": 23568,
+              "values": 256302
+            }
+          ],
+          "cpu": 13,
+          "pid": 211844
+        },
+        {
+          "affinity": [
+            14
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "b9d0111bfea36286fcdcf8996f911a2d4af1c718de64c60a1efc415a318ff84b",
+              "start": 2938,
+              "stop": 3306,
+              "values": 141312
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "484b5729b6f46e6b0c60acf6b4c8e352feacfc8f26bc621dc8c16d7c8127924b",
+              "start": 23568,
+              "stop": 26514,
+              "values": 256302
+            }
+          ],
+          "cpu": 14,
+          "pid": 211845
+        },
+        {
+          "affinity": [
+            15
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "5deba14d19835e69f5e3313010ccbee4757d625a8b134aa4a0f6acaa34ad112b",
+              "start": 3306,
+              "stop": 3673,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "ac82526a3854b29bb2385efec45bdbb8bc073c06df78104859eb6426434c6191",
+              "start": 26514,
+              "stop": 29460,
+              "values": 256302
+            }
+          ],
+          "cpu": 15,
+          "pid": 211846
+        },
+        {
+          "affinity": [
+            16
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "5c47ff31df6b5f42246b2ac7802bd3e761a3d38960ee50752179dad437ce0266",
+              "start": 3673,
+              "stop": 4040,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "cc08bc39d120b00574299258215e3c4aa1f03322fa30d1f0976fd464ce48b350",
+              "start": 29460,
+              "stop": 32406,
+              "values": 256302
+            }
+          ],
+          "cpu": 16,
+          "pid": 211847
+        },
+        {
+          "affinity": [
+            17
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "0e5a4dbc174ba3ab74cf8bc9cac18d3f3dbc49c9828589e1ee1abe4108a60316",
+              "start": 4040,
+              "stop": 4408,
+              "values": 141312
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "ec66f0c774ed7b55a8430dfe379091a7c0c7990ee70d1e42af76a1198f3ea907",
+              "start": 32406,
+              "stop": 35352,
+              "values": 256302
+            }
+          ],
+          "cpu": 17,
+          "pid": 211848
+        },
+        {
+          "affinity": [
+            18
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "d3b237b51ffebfde55d98d42e38216f95f71f48503cbf355a7564cb0da9456a7",
+              "start": 4408,
+              "stop": 4775,
+              "values": 140928
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "3f6d725e1e8f58556245dccbb0082e7c74365f5ab3497fa0f30cd3f6d8a46505",
+              "start": 35352,
+              "stop": 38298,
+              "values": 256302
+            }
+          ],
+          "cpu": 18,
+          "pid": 211849
+        },
+        {
+          "affinity": [
+            19
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "FULL_SITE_MATRIX_PULLBACK",
+              "sha256": "13afe6b5872fe234646d1c8395e8a9be9851704fb19912dcfd1632a0946a27b9",
+              "start": 4775,
+              "stop": 5143,
+              "values": 141312
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "DIRECT_ENDPOINT_AND_ORIENTED_CIRCULATION",
+              "sha256": "94592126530e519fa5a20572b671576b125cf6796282d8c4d176612de863df2d",
+              "start": 38298,
+              "stop": 41245,
+              "values": 256389
+            }
+          ],
+          "cpu": 19,
+          "pid": 211850
+        }
+      ]
+    },
+    "installed_ce_entrypoint": true,
+    "mode": "FULL",
+    "new_response_values": 5563227,
+    "operation": "LI6_GRAMMAR",
+    "physical_prediction_computed": false,
+    "remote": {
+      "T500": {
+        "model": "CT1000T500SSD8",
+        "mount": {
+          "source": "/dev/nvme1n1p4",
+          "target": "/home/lilhelper/SAM_Research_Project"
+        },
+        "reused_current_sha256": "e3e8fcb8cf24c28c049352a326497f093e3c054b679913361563fc97aa7935c0"
+      },
+      "base_source_sha256": "833373514a3c8ff5abeca08952ca6409fe34b029453faa16a42599a46e6f1398",
+      "compute_store_seconds": 0.5408180570229888,
+      "gpu": {
+        "batches": {
+          "CENTER": {
+            "admitted_kernel_seconds": 0.0025622,
+            "selected_workgroup": 128,
+            "trials": [
+              {
+                "kernel_seconds": 0.00257156,
+                "seconds": 0.009479361004196107,
+                "sha256": "135c86c30983343784c3c08b2a4214906dd560201ab4de04dd436d9b9588de1f",
+                "workgroup": 64
+              },
+              {
+                "kernel_seconds": 0.00256424,
+                "seconds": 0.004683541017584503,
+                "sha256": "135c86c30983343784c3c08b2a4214906dd560201ab4de04dd436d9b9588de1f",
+                "workgroup": 128
+              }
+            ]
+          },
+          "GRAMMAR": {
+            "admitted_kernel_seconds": 0.00574516,
+            "selected_workgroup": 128,
+            "trials": [
+              {
+                "kernel_seconds": 0.00574356,
+                "seconds": 0.020420535001903772,
+                "sha256": "6cb8a14f4e85cdd327eb176ab2284aaf6657067866fea2d64b002e300b3aaa33",
+                "workgroup": 64
+              },
+              {
+                "kernel_seconds": 0.00574476,
+                "seconds": 0.013132620020769536,
+                "sha256": "6cb8a14f4e85cdd327eb176ab2284aaf6657067866fea2d64b002e300b3aaa33",
+                "workgroup": 128
+              }
+            ]
+          }
+        },
+        "device": "AMD Radeon 780M Graphics (radeonsi, phoenix, LLVM 20.1.2, DRM 3.61, 6.14.0-37-generic)",
+        "platform": "rusticl"
+      },
+      "host": "lilhelper-NucBox-K11",
+      "kernel_sha256": "22be5010f7bf4c3431ad744ce80aff90923913e79425cb66cb350fe4ab521173",
+      "ryzen_workers": [
+        {
+          "affinity": [
+            0
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "ce1745d30785bbc193a6833166b791b5f5a22fed30e7dc639b37b8f967de6c61",
+              "start": 0,
+              "stop": 321,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "a33c880c13f03fd36610142d2938ddf2f34bc110e33e4fb2b6b8c2f91d38ffd7",
+              "start": 0,
+              "stop": 2577,
+              "values": 224199
+            }
+          ],
+          "cpu": 0,
+          "pid": 21915
+        },
+        {
+          "affinity": [
+            1
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "7b742187b3868a513f69563fc1761cb186296686a85f91a4b8c929bd10159e57",
+              "start": 321,
+              "stop": 642,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "0174df83fa8a53ff20b30da6783e4db995cb573fb8cf14648b9dd2c747da3469",
+              "start": 2577,
+              "stop": 5155,
+              "values": 224286
+            }
+          ],
+          "cpu": 1,
+          "pid": 21916
+        },
+        {
+          "affinity": [
+            2
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "3ef3575415a203e438370517b78671be4da3a988f9bf7c36f3533e9dcddb9172",
+              "start": 642,
+              "stop": 964,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "40f7fa1b31e2e071f689693c354111a2602edefbbf6d43801729e538429fde8e",
+              "start": 5155,
+              "stop": 7733,
+              "values": 224286
+            }
+          ],
+          "cpu": 2,
+          "pid": 21917
+        },
+        {
+          "affinity": [
+            3
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "8844a1244449442a7364390acee91774ce971e3c6564af85c36aa35c91701eb8",
+              "start": 964,
+              "stop": 1285,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "51d5123b3674ce2ca1144dad8ab11d1c52eacae9863e35eb7dc6224b8519dc08",
+              "start": 7733,
+              "stop": 10311,
+              "values": 224286
+            }
+          ],
+          "cpu": 3,
+          "pid": 21918
+        },
+        {
+          "affinity": [
+            4
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "3c7dbb03bff488395eb37dae3574cfc6430fab82b8ee8a30fd7b73884cff8563",
+              "start": 1285,
+              "stop": 1607,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "bfddb4bbc50c585e1e17abb0742e40435f95fd5195aa81087cad6c8b3dad1cd7",
+              "start": 10311,
+              "stop": 12889,
+              "values": 224286
+            }
+          ],
+          "cpu": 4,
+          "pid": 21919
+        },
+        {
+          "affinity": [
+            5
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "49d9f481a47cb295f7c0936c8bd7290746324c6e736ad92124f968cc98afc648",
+              "start": 1607,
+              "stop": 1928,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "af4879aac710909cfc322dbe86599ce4a4599e37ee97f55d0a1049c60d5abf4d",
+              "start": 12889,
+              "stop": 15466,
+              "values": 224199
+            }
+          ],
+          "cpu": 5,
+          "pid": 21920
+        },
+        {
+          "affinity": [
+            6
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "667b26f6bb2cda241c3c7ce1ff935ed63444c3277018b749bc668ec5c70846d9",
+              "start": 1928,
+              "stop": 2250,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "ea03d2405d9ca234dbbe4aa06dad19cf86ca7554e204b8ef6851c2ca03aec275",
+              "start": 15466,
+              "stop": 18044,
+              "values": 224286
+            }
+          ],
+          "cpu": 6,
+          "pid": 21921
+        },
+        {
+          "affinity": [
+            7
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "b5a1992cc22a0c8ae9f73412053063ac7bc3004e4aebe82611b51f79b544f929",
+              "start": 2250,
+              "stop": 2571,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "4db39d23d8ebf380e8893f65336746b33d15ec5a5aba958c2c6733317c72d6dc",
+              "start": 18044,
+              "stop": 20622,
+              "values": 224286
+            }
+          ],
+          "cpu": 7,
+          "pid": 21922
+        },
+        {
+          "affinity": [
+            8
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "0f9ee9802e28f8d85b20cf43793014b380c2f9df2c37ab6d951ba065eff4b28c",
+              "start": 2571,
+              "stop": 2892,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "1492976a5b2c5b7a5718a5fe8404289025a06aa822fac36b4d0f8966ceacf3c8",
+              "start": 20622,
+              "stop": 23200,
+              "values": 224286
+            }
+          ],
+          "cpu": 8,
+          "pid": 21923
+        },
+        {
+          "affinity": [
+            9
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "5c770db248f6eaa316cc3cff496c4b03bce98ff3b7a0ec82b6bfa775a4bd6f38",
+              "start": 2892,
+              "stop": 3214,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "37592f7a7c8c55ea6c0e118de1810b36249df832b5c15dfdfd21312637440903",
+              "start": 23200,
+              "stop": 25778,
+              "values": 224286
+            }
+          ],
+          "cpu": 9,
+          "pid": 21924
+        },
+        {
+          "affinity": [
+            10
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "41bfdd3307a3aae2feb88ecca3619683d1ff87284c4c07ab456ad90cf4feefc8",
+              "start": 3214,
+              "stop": 3535,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "37c60b82d117adb4a07a987e36c0009f3bb187d5c1b9ceb99c3d20844fad7012",
+              "start": 25778,
+              "stop": 28355,
+              "values": 224199
+            }
+          ],
+          "cpu": 10,
+          "pid": 21925
+        },
+        {
+          "affinity": [
+            11
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "f99b32151b8cd904b8fa883a462ec645e0346f0a16d762a8fa41db740b84c597",
+              "start": 3535,
+              "stop": 3857,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "c16cc03ca86bba442b3bb43931e76ca0cdb13e571525770a49ea9d12d8275f85",
+              "start": 28355,
+              "stop": 30933,
+              "values": 224286
+            }
+          ],
+          "cpu": 11,
+          "pid": 21926
+        },
+        {
+          "affinity": [
+            12
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "6805435711e98b65a7f5280eaca26f1076cd155e39e98d1a21143bb7be528694",
+              "start": 3857,
+              "stop": 4178,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "f41188adc5ec9c8bbb64845dae5c752e34ee63998023288fa3776f9febb3673d",
+              "start": 30933,
+              "stop": 33511,
+              "values": 224286
+            }
+          ],
+          "cpu": 12,
+          "pid": 21927
+        },
+        {
+          "affinity": [
+            13
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "b2eaf0472eb41baf3ad819c1c4c5e1f64ee0ed969f97a88f9aea7b79169727d9",
+              "start": 4178,
+              "stop": 4500,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "a9e4206fec182e8801f259885e4bd54adb410b4c1300d9f1dd2503ec5d61f8ff",
+              "start": 33511,
+              "stop": 36089,
+              "values": 224286
+            }
+          ],
+          "cpu": 13,
+          "pid": 21928
+        },
+        {
+          "affinity": [
+            14
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "02e3b806d7e66a659add1bd2d0eafafaeff340295c8bd923a273ab3a005d6411",
+              "start": 4500,
+              "stop": 4821,
+              "values": 123264
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "1e86b213c207082811eed5648d717d72f44ffba8a7062113da182c4cf42b613f",
+              "start": 36089,
+              "stop": 38667,
+              "values": 224286
+            }
+          ],
+          "cpu": 14,
+          "pid": 21929
+        },
+        {
+          "affinity": [
+            15
+          ],
+          "batches": [
+            {
+              "batch": "CENTER",
+              "method": "ENDPOINT_SQUARE_EXPANSION",
+              "sha256": "9a18e2406c786d7d2e9b5f79cc44777c8d47ceeb8c43f77b5349e5cc72db5d2b",
+              "start": 4821,
+              "stop": 5143,
+              "values": 123648
+            },
+            {
+              "batch": "GRAMMAR",
+              "method": "PAIRWISE_CIRCULATION_AND_ENDPOINT_EXPANSION",
+              "sha256": "64b19567f8c3aa34d2d600886dda4019d438e1a51470eb7d317bf26654b59fd4",
+              "start": 38667,
+              "stop": 41245,
+              "values": 224286
+            }
+          ],
+          "cpu": 15,
+          "pid": 21930
+        }
+      ],
+      "source_sha256": "76f6fbe30e3d86231444ad26d8a89b06927fd2521ae0dfff59268a08a44ba29e"
+    },
+    "result_directory": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/A3D41_LI6_GRAMMAR_ASSEMBLY1/installed_runs/LI6_GRAMMAR_20260906T211219Z_0ef88565652d",
+    "run_id": "LI6_GRAMMAR_20260906T211219Z_0ef88565652d",
+    "source_census_rerun": false,
+    "status": "PASS",
+    "three_way_exact_agreement": true,
+    "wall_seconds": 1.6455629960000806
+  },
+  "maximum_eligible_center_features": 128,
+  "maximum_filter_width_in_center_units": 105,
+  "minimum_cases": 245760,
+  "native_phase_erased_distinct_cases": 122880,
+  "new_response_values": 5563227,
+  "physical_binding_energy_computed": false,
+  "physical_exterior_tensor_type_selected": false,
+  "schema": "A3D41_LI6_GRAMMAR_RESULT_V1",
+  "scientific_result_classification": "The test result suggests strong contact with the concept.",
+  "source_geometry": {
+    "combined_rank": 9,
+    "covers": 5,
+    "cycle_rank": 4,
+    "new_depth_cycles": 1,
+    "site_rank": 5,
+    "triangles": 4
+  },
+  "status": "COMPLETE",
+  "unfiltered_exact_checks": 200,
+  "unique_minimum_sets": 119
+}

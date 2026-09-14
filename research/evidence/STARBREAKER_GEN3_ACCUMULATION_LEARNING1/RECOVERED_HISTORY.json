@@ -1,0 +1,406 @@
+{
+  "edges": [
+    {
+      "after": "append_recovery/shell/1",
+      "before": "append_recovery/shell/0",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 1,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/1"
+    },
+    {
+      "after": "append_recovery/shell/2",
+      "before": "append_recovery/shell/1",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 2,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/2"
+    },
+    {
+      "after": "append_recovery/shell/3",
+      "before": "append_recovery/shell/2",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 3,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/3"
+    },
+    {
+      "after": "append_recovery/shell/4",
+      "before": "append_recovery/shell/3",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 4,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/4"
+    },
+    {
+      "after": "append_recovery/shell/5",
+      "before": "append_recovery/shell/4",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 5,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/5"
+    },
+    {
+      "after": "append_recovery/shell/6",
+      "before": "append_recovery/shell/5",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 6,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/6"
+    },
+    {
+      "after": "append_recovery/shell/7",
+      "before": "append_recovery/shell/6",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 7,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/7"
+    },
+    {
+      "after": "append_recovery/shell/8",
+      "before": "append_recovery/shell/7",
+      "event": {
+        "direction": "FORWARD",
+        "relation": "N100_EDGE_002",
+        "shell": 8,
+        "signed_w8_translation": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "append_recovery/edge/8"
+    }
+  ],
+  "points": [
+    {
+      "action": 1834312320,
+      "id": "append_recovery/shell/0",
+      "state": {
+        "packet_source_row": "92218200267f90d3952264cea2d557aa17d8838a224551448861a43171444597",
+        "phase": 0,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 0,
+        "signed_amplitude": [
+          -41064,
+          -12168
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 8756
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 4227734656,
+      "id": "append_recovery/shell/1",
+      "state": {
+        "packet_source_row": "2176f6d98a1ce4a36f5779bfa7c42d5e2c5a3c27cb6bcbf4fadad27cdadb5f2d",
+        "phase": 1,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 1,
+        "signed_amplitude": [
+          -10200,
+          64216
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 25110
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 1834312320,
+      "id": "append_recovery/shell/2",
+      "state": {
+        "packet_source_row": "19ca709ca28b69f6c9e528be3e11ace02ee774eaff49fde647f41bd39187eb3c",
+        "phase": 2,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 2,
+        "signed_amplitude": [
+          41064,
+          12168
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 26164
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 4227734656,
+      "id": "append_recovery/shell/3",
+      "state": {
+        "packet_source_row": "6378dce052da7a8e6d0fe7a62147b5d75c4bb31beb653c423e39d435b2b47a4d",
+        "phase": 3,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 3,
+        "signed_amplitude": [
+          10200,
+          -64216
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 9750
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 1834312320,
+      "id": "append_recovery/shell/4",
+      "state": {
+        "packet_source_row": "92218200267f90d3952264cea2d557aa17d8838a224551448861a43171444597",
+        "phase": 0,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 4,
+        "signed_amplitude": [
+          -41064,
+          -12168
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 8756
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 4227734656,
+      "id": "append_recovery/shell/5",
+      "state": {
+        "packet_source_row": "2176f6d98a1ce4a36f5779bfa7c42d5e2c5a3c27cb6bcbf4fadad27cdadb5f2d",
+        "phase": 1,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 5,
+        "signed_amplitude": [
+          -10200,
+          64216
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 25110
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 1834312320,
+      "id": "append_recovery/shell/6",
+      "state": {
+        "packet_source_row": "19ca709ca28b69f6c9e528be3e11ace02ee774eaff49fde647f41bd39187eb3c",
+        "phase": 2,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 6,
+        "signed_amplitude": [
+          41064,
+          12168
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 26164
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 4227734656,
+      "id": "append_recovery/shell/7",
+      "state": {
+        "packet_source_row": "6378dce052da7a8e6d0fe7a62147b5d75c4bb31beb653c423e39d435b2b47a4d",
+        "phase": 3,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 7,
+        "signed_amplitude": [
+          10200,
+          -64216
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 9750
+      },
+      "status": "OBSERVED"
+    },
+    {
+      "action": 1834312320,
+      "id": "append_recovery/shell/8",
+      "state": {
+        "packet_source_row": "92218200267f90d3952264cea2d557aa17d8838a224551448861a43171444597",
+        "phase": 0,
+        "response_source_row": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+        "shell": 8,
+        "signed_amplitude": [
+          -41064,
+          -12168
+        ],
+        "source_selection": {
+          "direction": "FORWARD",
+          "incoming_address": 1,
+          "relation": "N100_EDGE_002",
+          "rho": 1,
+          "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+        },
+        "theta18_address": 8756
+      },
+      "status": "OBSERVED"
+    }
+  ],
+  "quantity": {
+    "component": null,
+    "frame": "AF_0_2_Z-",
+    "kind": "SB_SIGNED_RECEIVER_NORM_SQUARED",
+    "normalization": {
+      "ratio_reference": "original positive source point",
+      "source_account": "append_recovery"
+    },
+    "reference_state": "append_recovery/shell/0",
+    "role": null,
+    "schema": "GEN2_QUANTITY_V1",
+    "scope": "HISTORY",
+    "sign_convention": "NONNEGATIVE_VALUE",
+    "source": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+    "units": {
+      "native_receiver_amplitude": 2
+    }
+  },
+  "source_binding": {
+    "direction": "FORWARD",
+    "incoming_address": 1,
+    "relation": "N100_EDGE_002",
+    "rho": 1,
+    "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+  }
+}

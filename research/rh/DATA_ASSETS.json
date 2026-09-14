@@ -13,5 +13,7 @@
       "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f",
       "source": "research/rh/paper.pdf"
     }
-  ]
+  ],
+  "verification_guide": "check/README.md",
+  "headline": "Executable retained history: prefix-only short-horizon certificates and exact signed transport"
 }

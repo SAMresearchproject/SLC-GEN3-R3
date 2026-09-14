@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "authenticated_returned_receipts": 819,
+    "expected_admission_rejections": 2,
+    "fresh_exact_account_recovery": 1,
+    "fresh_exact_policy_recovery": 1,
+    "incremental_append_after_restart": 1,
+    "native_complete_source_histories": 768,
+    "native_shell_steps": 3072,
+    "positive_total_variation_closed_cycles": 768,
+    "source_mismatch_rejected": 1,
+    "stationary_norm_cycles": 0,
+    "wrong_operation_domain_rejected": 1,
+    "wrong_training_contract_rejected": 1
+  },
+  "domain_version": "SB-GEN3-ACCUMULATION-R1",
+  "registry": {
+    "authenticated_files": 420,
+    "domains": 5,
+    "engines": 2,
+    "global_slc_count": 1,
+    "status": "PASS"
+  },
+  "seconds": 77.95513666601619,
+  "status": "PASS",
+  "test_results": {
+    "channel_minimum_sets_agree": {
+      "accuracy": "80037/81406",
+      "balanced_accuracy": "886992597/907231226",
+      "families": 81406,
+      "fn": 1196,
+      "fp": 173,
+      "precision": "74193/74366",
+      "recall": "74193/75389",
+      "specificity": "5844/6017",
+      "tn": 5844,
+      "tp": 74193
+    },
+    "shared_four_state_orbit": {
+      "accuracy": "1",
+      "balanced_accuracy": "1",
+      "families": 81406,
+      "precision": "1",
+      "recall": "1",
+      "specificity": "1",
+      "tn": 67561,
+      "tp": 13845
+    }
+  },
+  "test_scope": "Reused 94-pattern holdout, 81406 families. No training resumed; both source-selected models pinned before this evaluation.",
+  "training_pause_preserved": true
+}

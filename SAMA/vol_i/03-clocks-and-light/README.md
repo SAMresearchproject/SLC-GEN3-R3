@@ -1,5 +1,13 @@
 # Clocks and light
 
+## Current research connections — 14 September 2026
+
+The global execution authority is SLC-GEN3-R3 / SLC-GEN3-CEV1-R3. The September 2026 research includes exact retained-history computation, RH arithmetic compensation, native Mersenne work, Starbreaker signed reception and ATOM3D contact/grammar. The research index connects the retained derivations to the latest code, results and current domain assignments.
+
+[Current derivations, code and results](../../../docs/RESEARCH.md).
+
+
+
 [Volume I](../README.md)
 
 Read how SAM compares clocks and describes the passage of light, with the relevant clock and pulsar tests.

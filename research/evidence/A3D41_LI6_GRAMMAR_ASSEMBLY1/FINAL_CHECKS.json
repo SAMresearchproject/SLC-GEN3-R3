@@ -1,0 +1,27 @@
+{
+  "CE_status_and_shared_consumer_adoption": "PASS",
+  "T500_independent_readback": {
+    "bytes": 115568121,
+    "files": 115,
+    "status": "PASS"
+  },
+  "all_local_custody_artifacts_match_manifest": true,
+  "analytic_selected_histories": 16,
+  "both_retained_covers_executed": true,
+  "current_binding_verification": {
+    "authenticated_files": 238,
+    "domains": 5,
+    "engines": 2,
+    "global_slc_count": 1,
+    "status": "PASS"
+  },
+  "current_head_authenticated_paths": 25,
+  "current_head_sha256": "9f4ab299773f427005bbc487f266cd89c9267f6bbf248fafac60b8f425ba0ef5",
+  "exact_installed_readout_points": 64,
+  "git_diff_check": "PASS",
+  "installation_check_count": 13,
+  "installed_snapshot_matches_current_files": true,
+  "live_history_validation": "PASS: 10 live documents, 976 history entries, AGENTS.md 15740 bytes",
+  "source_result_checks": 216,
+  "status": "PASS"
+}

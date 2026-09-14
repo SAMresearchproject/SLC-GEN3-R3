@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "cover_separation": 43,
+  "recovered_source": [
+    {
+      "assignment": 5,
+      "cover": 3,
+      "state": 145919
+    }
+  ],
+  "calls": [
+    {
+      "operation": "GEN2_SIGNED_LOG_RESUME",
+      "directory": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/b45979d80fb74f7b91179309dd5cba02"
+    },
+    {
+      "operation": "GEN2_CUSTODY",
+      "directory": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/198de15b5d5a439e9096278ac74f167f"
+    },
+    {
+      "operation": "GEN2_REUSE_STATS",
+      "directory": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/2ee345e6296d4fdcaa3e9aa75d5571bb"
+    }
+  ],
+  "telemetry": {
+    "schema": "GEN2_REUSE_EXECUTION_TELEMETRY_V1",
+    "mathematical_identity": false,
+    "modules": {
+      "signed_log": {
+        "operations": 2,
+        "new_nodes_evaluated": 110,
+        "existing_nodes_reused": 560,
+        "checkpoint_nodes_revalidated": 560
+      },
+      "history_summary": {
+        "operations": 0,
+        "new_edges_summarized": 0,
+        "existing_edges_reused": 0,
+        "checkpoint_edges_revalidated": 0,
+        "chunk_compositions": 0
+      },
+      "motion": {
+        "full_annotations": 0,
+        "incremental_appends": 0,
+        "new_states_annotated": 0,
+        "boundary_states_revalidated": 0,
+        "prior_states_reused": 0,
+        "checkpoint_states_revalidated": 0
+      },
+      "observation": {
+        "prediction_hits": 0,
+        "prediction_misses": 0,
+        "session_hits": 0,
+        "profile_hits": 0,
+        "profile_misses": 0,
+        "profile_source_refreshes": 0
+      },
+      "observation_policy": {
+        "node_hits": 0,
+        "node_misses": 0,
+        "policy_resume_hits": 0,
+        "target_determined_bounds": 0,
+        "sealed_tree_hits": 0,
+        "sealed_tree_misses": 0
+      },
+      "boundary_information": {
+        "source_relation_builds": 0,
+        "source_relation_cache_hits": 0,
+        "semantic_checkpoint_rebuilds": 0,
+        "validated_checkpoint_cache_hits": 0,
+        "partition_builds": 0,
+        "partition_cache_hits": 0,
+        "conditioned_without_source_reexecution": 0,
+        "appended_transition_lookups": 0,
+        "prior_native_transitions_reexecuted": 0,
+        "source_relation_cache_entries": 0,
+        "validated_checkpoint_cache_entries": 0,
+        "partition_cache_entries": 0
+      },
+      "write_arithmetic": {
+        "graphs_executed": 1,
+        "nodes_executed": 108,
+        "cached_graphs_reused": 0
+      }
+    }
+  }
+}

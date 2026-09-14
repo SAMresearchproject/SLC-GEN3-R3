@@ -1,5 +1,13 @@
 # Computational grammar and language
 
+## SLC-GEN3-R3: current computation — 14 September 2026
+
+SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+
+[Current derivations, code and results](../../../docs/ARCHITECTURE.md).
+
+
+
 [Volume III](../README.md)
 
 Start with the grammar and the meaning of a SAM program.

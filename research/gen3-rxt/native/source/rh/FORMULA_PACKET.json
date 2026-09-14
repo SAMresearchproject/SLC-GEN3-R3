@@ -1,0 +1,468 @@
+{
+  "schema": "RH_SOURCE_BOUND_FORMULA_PACKET_V1",
+  "owner_objective": "Give GEN3 the relevant completed information, formulas and relevance; locate the missing implication; include the weighted cut-cell projected energy approach for the actual retained signed Mobius source.",
+  "scope": "All directly relevant formulas in the current closure chain and its present harmonic, fourth-root, cofactor and weighted cut-cell routes. Completed inputs are accepted, not reopened for validation.",
+  "notation": {
+    "D_primitive": "Oscillatory primitive-channel diagonal; completed polylogarithmic bound.",
+    "D_comp": "Lprefix^2+Bprefix^2; cofactor compensation expression.",
+    "D_adm": "Actual individual Mobius-admission diagonal in the weighted Gram matrix; bounded by2.",
+    "u2": "Square-root cutoff in the older harmonic-divisor representation.",
+    "u4": "Fourth-root cutoff in the current transport representation.",
+    "A": "u4+1; auxiliary completion index.",
+    "A2prefix": "Signed prefix of the already controlled quadratic source a2.",
+    "E_u4": "Actual low-source dyadic input energy, not the older period-energy symbol.",
+    "Lbound_s": "Completed quadratic energy budget, distinct from signed cofactor prefix Lprefix.",
+    "T_operator": "Smaller-source linear transport, distinct from Tprefix and primitive T_q."
+  },
+  "formulas": [
+    {
+      "id": "F01",
+      "title": "Original source",
+      "formula": "mu(1)=1; sum_(d|n)mu(d)=1_(n=1); a_i=mu(s+i)1_(i<t).",
+      "relevance": "Fixes the actual signed arithmetic input; no independently adjustable signs.",
+      "status": "ESTABLISHED",
+      "source": "RH_DYADIC_ODD_TRANSFER1/TARGET_AND_CONTINUATION.md",
+      "depends_on": [],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F02",
+      "title": "Original energy and normalization",
+      "formula": "Q_s,t=M^2/s+sum_(r=1)^(s-1)(P_r-rM/s)^2/[r(s-r)]; tau_U=sum_original_roster(2-1/s).",
+      "relevance": "Retains means, partial stops, full block geometry and fixed final normalization.",
+      "status": "ESTABLISHED",
+      "source": "RH_DYADIC_ODD_TRANSFER1/TARGET_AND_CONTINUATION.md",
+      "depends_on": [
+        "F01"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F03",
+      "title": "Original closure target",
+      "formula": "For every eta>0, sum_original_roster[B_primitive+X_primitive]_+ <= C_eta U_j^eta on the SAME common unbounded sequence.",
+      "relevance": "The one original signed-growth target; constants independent of scale and admissible stop.",
+      "status": "OPEN",
+      "source": "RH_DYADIC_ODD_TRANSFER1/TARGET_AND_CONTINUATION.md",
+      "depends_on": [
+        "F01",
+        "F02"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F04",
+      "title": "Primitive diagonal budget",
+      "formula": "Q=B_primitive+D_primitive+X_primitive; D_primitive=O(log^6(e+s)) uniformly in phase and stop; [B_primitive+X_primitive]_+<=Q<=D_primitive+[B_primitive+X_primitive]_+.",
+      "relevance": "Controls the primitive diagonal and transfers the original target to source energy.",
+      "status": "ESTABLISHED",
+      "source": "RH_PRIMITIVE_CHANNEL_COHERENCE1/RESULT.md",
+      "depends_on": [
+        "F02"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F05",
+      "title": "Weighted cut cells",
+      "formula": "w_r=1/[r(s-r)]; W_I=sum_I w_r; Z_I=sum_I w_r(P_r-rM/s); Qhat=M^2/s+sum_I Z_I^2/W_I.",
+      "relevance": "The owner-requested direct retained signed Mobius energy; sum signed contributions before squaring.",
+      "status": "ESTABLISHED",
+      "source": "RH_WEIGHTED_PREFIX_PROJECTION1/DERIVATION.md",
+      "depends_on": [
+        "F02"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F06",
+      "title": "Uniform projection and original transfer",
+      "formula": "Q=Qhat+R_Q; 0<=R_Q<=8 for actual mu; 1<=(tau_U+Q_U)/(tau_U+Qhat_U)<=9. The original positive-part target is equivalent to subpower Qhat_U.",
+      "relevance": "The omitted cut detail is already controlled at every scale; log transfer changes by at most log9.",
+      "status": "ESTABLISHED",
+      "source": "RH_WEIGHTED_PREFIX_PROJECTION1/DERIVATION.md",
+      "depends_on": [
+        "F04",
+        "F05"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F07",
+      "title": "Projected primitive signs",
+      "formula": "Qhat=Bhat+Dhat+Xhat; Y_primitive= Bhat+Xhat+R_Q-R_D; [Y_primitive]_+<=[Bhat+Xhat]_++8; [Bhat+Xhat]_+<=[Y_primitive]_++D_primitive.",
+      "relevance": "Keeps the complete signed contraction before the positive part, including prime intersections.",
+      "status": "ESTABLISHED",
+      "source": "RH_WEIGHTED_PREFIX_PROJECTION1/PRIMITIVE_TRANSFER.md",
+      "depends_on": [
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F08",
+      "title": "Common harmonic anchors",
+      "formula": "H(v;P)=sum_(d<=v,rad(d)|rad(P)) S(floor(v/d))/d; S(v)=sum_(n<=v)mu(n)/n.",
+      "relevance": "Expresses prime-excluded anchors using the same actual source; supplies a joint-source coordinate system.",
+      "status": "ESTABLISHED",
+      "source": "RH_JOINT_ANCHOR_RECURSION1/RESULT.md",
+      "depends_on": [
+        "F01"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F09",
+      "title": "Weighted actual source kernel",
+      "formula": "beta_I(i)=sum_(r in I,r>i)w_r-(1/s)sum_I r w_r; Z_I=sum_(i<t)mu(s+i)beta_I(i).",
+      "relevance": "Direct weighted cut-cell linear functional on the actual retained signed source.",
+      "status": "ESTABLISHED",
+      "source": "RH_PROJECTED_HARMONIC_SOURCE_BOUND1/WORKING_DERIVATION.md",
+      "depends_on": [
+        "F05"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F10",
+      "title": "Actual harmonic-divisor form",
+      "formula": "With u2=floor(sqrt(2s-1)), c=mu_(<=u2)*mu_(<=u2): Z_I=-sum_k c(k)H_I(k), H_I(k)=sum_(i<t,k|s+i)beta_I(i); Z_I/W_I=-S(u2)^2 j_I-sum_k c(k)e_I(k), |e_I(k)|<=2.",
+      "relevance": "Bounded individual discrepancy kernels and exact signed source contraction; bounded e alone leaves the source cross interaction unbounded.",
+      "status": "ESTABLISHED",
+      "source": "RH_PROJECTED_HARMONIC_SOURCE_BOUND1/WORKING_DERIVATION.md",
+      "depends_on": [
+        "F01",
+        "F08",
+        "F09"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F11",
+      "title": "Partial-stop drift",
+      "formula": "J_I=sum_I w_r[min(r,t)-rt/s]; j_I=J_I/W_I; J_I=0 only at a full block. Qhat=M^2/s+sum_I W_I[S(u2)^2 j_I+sum_k c(k)e_I(k)]^2.",
+      "relevance": "Direct harmonic route retains the mean and stop drift; its uniform joint square sum is the same open projected-energy target.",
+      "status": "ESTABLISHED",
+      "source": "RH_PROJECTED_HARMONIC_SOURCE_BOUND1/WORKING_DERIVATION.md",
+      "depends_on": [
+        "F10"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F12",
+      "title": "Fourth-root zero-harmonic completion",
+      "formula": "u4=floor((2s-1)^(1/4)); A=u4+1; f(n)=mu(n) for n<=u4; f(A)=-A*S(u4); f=0 above A; sum f(n)/n=0.",
+      "relevance": "Cancels the smooth quadratic count term without assuming decay of S; auxiliary f(A) is generally different from mu(A).",
+      "status": "ESTABLISHED",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md",
+      "depends_on": [
+        "F01"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F13",
+      "title": "Quartic support identity",
+      "formula": "a2=f*f*1, a3=f*f*f*1*1, a4=f*f*f*f*1*1*1; mu=-6a2+4a3-a4 on the original block because A^4>2s-1.",
+      "relevance": "Exact support reduction; these are Dirichlet convolutions, not pointwise powers.",
+      "status": "ESTABLISHED",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md",
+      "depends_on": [
+        "F12"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F14",
+      "title": "Completed quadratic bound",
+      "formula": "B_f=sum|f|; |sum_interval a2|<=B_f^2; Q_s,t(a2)<=Lbound_s=32(1+H_u4)^4(1+8H_(s-1))=O(log^5(e+s)).",
+      "relevance": "Already controls the additive quadratic term uniformly across unbounded scales and all stops.",
+      "status": "ESTABLISHED",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md",
+      "depends_on": [
+        "F12"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F15",
+      "title": "Actual smaller-source transport",
+      "formula": "r=f*1-epsilon; mu(n)=-a2(n)+sum_(mb=n,b>=A^2)mu(m)(r*r)(b); m<=floor((2s-1)/A^2). Define R=mu+a2.",
+      "relevance": "The remaining transport uses actual smaller inputs and keeps its signed sum intact.",
+      "status": "ESTABLISHED",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md",
+      "depends_on": [
+        "F12",
+        "F13",
+        "F14"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F16",
+      "title": "Actual-source restriction",
+      "formula": "E_(n,j)=1_(n=j) for n<=u4; E_(n,j)=-sum_(d|n,d<n)E_(d,j) otherwise; mu(1..M)=E mu(1..u4). In low divisor-defect coordinates b=e1.",
+      "relevance": "Restricts the estimate to the actual source line; amplified off-source vectors add no requirement.",
+      "status": "ESTABLISHED",
+      "source": "RH_GEN3_STOP_STRUCTURE1/DERIVATION.md",
+      "depends_on": [
+        "F01",
+        "F15"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F17",
+      "title": "Uniform source gain",
+      "formula": "For every epsilon>0, Gamma_s=max_t Qhat_s,t(R)/E_u4(mu) <= C_epsilon s^epsilon, E_u4>=1.",
+      "relevance": "The open sufficient estimate in the fourth-root route. Establishing it completes the recorded original-target transfer.",
+      "status": "OPEN",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/RECURSIVE_BOUND_TARGET.md",
+      "depends_on": [
+        "F15",
+        "F16"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F18",
+      "title": "Closure implication",
+      "formula": "Uniform gain F17 gives an energy-envelope recurrence with argument (2x)^(1/4); iteration costs (4/3)epsilon log x+O_epsilon((loglog x)^2); arbitrary epsilon yields E(x)=x^o(1), hence the original criterion.",
+      "relevance": "The completion argument is established conditional on F17; it is not an additional target.",
+      "status": "CONDITIONAL",
+      "source": "RH_QUARTIC_JOINT_REMAINDER1/RECURSIVE_BOUND_TARGET.md",
+      "depends_on": [
+        "F06",
+        "F14",
+        "F17"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F19",
+      "title": "All-stop grid coverage",
+      "formula": "||h_i||^2<=K_s=(H_(s-1)+1/s)/s; Qhat(R;t)<=2Qhat(R;v)+4|t-v|^2 K_s+4Lbound_s. Grid gaps<=floor(sqrt(s)) give uniform polylogarithmic interpolation error.",
+      "relevance": "Controls unsampled stopping gaps analytically, so exhaustive stop refinement is not required for coverage.",
+      "status": "ESTABLISHED",
+      "source": "RH_SOURCE_GRID_INEQUALITY1/DERIVATION.md",
+      "depends_on": [
+        "F14",
+        "F15"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F20",
+      "title": "Equivalent actual-prefix target",
+      "formula": "rho_s=max_v M_s(v)^2/(s E_u4); rho_s<=2Gamma_s+2Lbound_s/E_u4; Gamma_s<=2(1+8H_(s-1))rho_s+2Lbound_s/E_u4; rho_s<=2rho_grid,s+2.",
+      "relevance": "Transfers F17 to the single actual-prefix maximum; these equivalences do not independently bound that maximum.",
+      "status": "ESTABLISHED",
+      "source": "RH_SOURCE_GRID_INEQUALITY1/DERIVATION.md",
+      "depends_on": [
+        "F14",
+        "F17",
+        "F19"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F21",
+      "title": "Cofactor cancellation",
+      "formula": "n=km uniquely with k supported on primes<=A and m on primes>A; R(km)=mu(k)mu(m)+w_A(k), w_A=f*f*1. If k<A, w_A(k)=mu(k), so R(km)=mu(k)[1+mu(m)].",
+      "relevance": "Explains exact all-scale cancellation of odd squarefree rough-core families.",
+      "status": "ESTABLISHED",
+      "source": "RH_SOURCE_COFACTOR_CANCELLATION1/DERIVATION.md",
+      "depends_on": [
+        "F12",
+        "F15"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F22",
+      "title": "Explicit surviving counts",
+      "formula": "Lprefix(v)=2sum_(k<A)mu(k)N_2(I_v/k)+sum_(k<A)mu(k)N_squareful(I_v/k); Bprefix retains all k>=A terms; Tprefix=Lprefix+Bprefix; M=Tprefix-A2prefix.",
+      "relevance": "Exposes the actual surviving arithmetic families while retaining the whole complementary contribution.",
+      "status": "ESTABLISHED",
+      "source": "RH_SOURCE_COFACTOR_CANCELLATION1/DERIVATION.md",
+      "depends_on": [
+        "F21"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F23",
+      "title": "Optional compensation form",
+      "formula": "D_comp=Lprefix^2+Bprefix^2; C_comp=-2Lprefix*Bprefix; D_comp-C_comp=Tprefix^2. Uniform subpower Tprefix^2/(s E_u4) is equivalent to F17 up to completed polylogarithmic terms.",
+      "relevance": "An optional expression of the same target; no separate D_comp or C_comp bounds and no fixed cancellation percentage are required.",
+      "status": "ESTABLISHED",
+      "source": "RH_COFACTOR_COMPENSATION_BOUND1/DERIVATION.md",
+      "depends_on": [
+        "F14",
+        "F20",
+        "F22"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F24",
+      "title": "Native source structure evidence",
+      "formula": "13 original question answers; exact prefix maxima through s4096; cofactor cancellation both between and within groups. Cross signs and cancellation percentages vary by stop and scale.",
+      "relevance": "Selects concrete questions and rules out treating one observed sign or fraction as a universal arithmetic law.",
+      "status": "FINITE_EXACT",
+      "source": "RH_GEN3_UNIFORM_TARGET1/RESULT.md",
+      "depends_on": [
+        "F20",
+        "F21",
+        "F22"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F25",
+      "title": "Weighted projected Gram matrix",
+      "formula": "Khat_(i,j)=1/s+sum_I beta_I(i)beta_I(j)/W_I; Qhat=sum_(i,j<t)mu(s+i)mu(s+j)Khat_(i,j).",
+      "relevance": "Direct owner-requested weighted cut-cell approach, retaining actual signs before squaring.",
+      "status": "ESTABLISHED",
+      "source": "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "depends_on": [
+        "F05",
+        "F09"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F26",
+      "title": "Uniform admission diagonal",
+      "formula": "tr K_full=2-1/s; 0<=D_adm=sum_(i<t)mu(s+i)^2 Khat_(i,i)<=tr Khat<=2-1/s<2.",
+      "relevance": "Completes a constant all-scale bound for the actual admission diagonal. It is distinct from the earlier primitive and cofactor diagonals.",
+      "status": "ESTABLISHED",
+      "source": "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "depends_on": [
+        "F01",
+        "F02",
+        "F25"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F27",
+      "title": "Direct weighted pair-growth target",
+      "formula": "X_adm=2sum_(i<j<t)mu(s+i)mu(s+j)Khat_(i,j); [X_adm]_+<=Qhat<=[X_adm]_++2-1/s. Required: sum_roster[X_adm]_+<=C_eta U_j^eta for every eta>0.",
+      "relevance": "Exactly the original projected-energy target through weighted actual-source pair interactions; an alternate route to F17, not an added obligation.",
+      "status": "OPEN_EQUIVALENT_TO_ORIGINAL",
+      "source": "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "depends_on": [
+        "F06",
+        "F25",
+        "F26"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F28",
+      "title": "Original tau already controls the diagonal",
+      "formula": "V_U=sum_roster[X_adm]_+; V_U<=Qhat_U<=V_U+tau_U; 1<=(tau_U+Q_U)/(tau_U+V_U)<=10.",
+      "relevance": "Links the new constant diagonal result directly to the original fixed tau and logarithmic criterion, with only log10 change.",
+      "status": "ESTABLISHED",
+      "source": "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "depends_on": [
+        "F02",
+        "F06",
+        "F26",
+        "F27"
+      ],
+      "scope": "Original RH source and geometry"
+    },
+    {
+      "id": "F29",
+      "title": "Why transfers alone do not close the bound",
+      "formula": "Let H=H_(s-1), ell=Lbound_s/E_u4. Substituting F20 into itself yields Gamma<=(4+32H)Gamma+(6+32H)ell. For H>=0 this does not upper-bound Gamma.",
+      "relevance": "Pinpoints the missing implication: a quantitative source estimate independent of the same unknown gain. Native polynomial composition checks coefficients, not an unprovided proof.",
+      "status": "ESTABLISHED",
+      "source": "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "depends_on": [
+        "F20"
+      ],
+      "scope": "Original RH source and geometry"
+    }
+  ],
+  "sources": {
+    "RH_COFACTOR_COMPENSATION_BOUND1/DERIVATION.md": {
+      "sha256": "ea6b8444bbf869b96cbc612f6723fbf71343bb741f3471ca589d4898298b9844",
+      "snapshot": "sources/RH_COFACTOR_COMPENSATION_BOUND1/DERIVATION.md"
+    },
+    "RH_DYADIC_ODD_TRANSFER1/TARGET_AND_CONTINUATION.md": {
+      "sha256": "ed0e50cfbb5a26f1a007005a710a3e860c6b6ad4ace8cd9c90a39c94e240b819",
+      "snapshot": "sources/RH_DYADIC_ODD_TRANSFER1/TARGET_AND_CONTINUATION.md"
+    },
+    "RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md": {
+      "sha256": "cf2c371831369ec051f366043f3d61ecf442cb2f3d40ff0b86aa094c3871e4b1",
+      "snapshot": "sources/RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md"
+    },
+    "RH_GEN3_STOP_STRUCTURE1/DERIVATION.md": {
+      "sha256": "c1642fce2ef80ee7644137926db943eb72821c176126149db0a341b9f7dc038c",
+      "snapshot": "sources/RH_GEN3_STOP_STRUCTURE1/DERIVATION.md"
+    },
+    "RH_GEN3_UNIFORM_TARGET1/RESULT.md": {
+      "sha256": "9b94a88b5ea6fb3d85543e893562a4d315ef0ed7538adaa62d0d16224d46c01f",
+      "snapshot": "sources/RH_GEN3_UNIFORM_TARGET1/RESULT.md"
+    },
+    "RH_JOINT_ANCHOR_RECURSION1/RESULT.md": {
+      "sha256": "b6a1664bf74202aa596254eef8b4a007bd456e1ede515f5cdc2ef258052e4a6d",
+      "snapshot": "sources/RH_JOINT_ANCHOR_RECURSION1/RESULT.md"
+    },
+    "RH_PRIMITIVE_CHANNEL_COHERENCE1/RESULT.md": {
+      "sha256": "41c5c3f9ecf72daebeec4e2c143a171e69a4bcea392ceef92c09a3e22288fd65",
+      "snapshot": "sources/RH_PRIMITIVE_CHANNEL_COHERENCE1/RESULT.md"
+    },
+    "RH_PROJECTED_HARMONIC_SOURCE_BOUND1/WORKING_DERIVATION.md": {
+      "sha256": "4d37a4965605c2bf5e2e933739ca091ef584c5a5636965e988e99bb8bbdc93bd",
+      "snapshot": "sources/RH_PROJECTED_HARMONIC_SOURCE_BOUND1/WORKING_DERIVATION.md"
+    },
+    "RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md": {
+      "sha256": "d46461f9dac355b4d0c40a8a1bf112e586f47e99779c842bca9f4aedd21a8609",
+      "snapshot": "sources/RH_QUARTIC_JOINT_REMAINDER1/DERIVATION.md"
+    },
+    "RH_QUARTIC_JOINT_REMAINDER1/RECURSIVE_BOUND_TARGET.md": {
+      "sha256": "1188f0ba6cbc007bfba8dffc1830b2580d7ed9b49ef2d99dd0023809f57147ad",
+      "snapshot": "sources/RH_QUARTIC_JOINT_REMAINDER1/RECURSIVE_BOUND_TARGET.md"
+    },
+    "RH_SOURCE_COFACTOR_CANCELLATION1/DERIVATION.md": {
+      "sha256": "ac42c12af3509e12c05fbc092f3d7592396c188b01e2f910b509632ab9f74126",
+      "snapshot": "sources/RH_SOURCE_COFACTOR_CANCELLATION1/DERIVATION.md"
+    },
+    "RH_SOURCE_GRID_INEQUALITY1/DERIVATION.md": {
+      "sha256": "67e433afc447a4cbd9c8072760a35c206d7554ccd42976d14df2e969b79d0bf2",
+      "snapshot": "sources/RH_SOURCE_GRID_INEQUALITY1/DERIVATION.md"
+    },
+    "RH_WEIGHTED_PREFIX_PROJECTION1/DERIVATION.md": {
+      "sha256": "942f03aebc7934a80908f06b4b0b9d4ca71343b59822c25738f96d9870abf572",
+      "snapshot": "sources/RH_WEIGHTED_PREFIX_PROJECTION1/DERIVATION.md"
+    },
+    "RH_WEIGHTED_PREFIX_PROJECTION1/PRIMITIVE_TRANSFER.md": {
+      "sha256": "70ce9a37efd321d0957e092ec7a8c32c8570b41ab358652d504d3ac2fa4e7c50",
+      "snapshot": "sources/RH_WEIGHTED_PREFIX_PROJECTION1/PRIMITIVE_TRANSFER.md"
+    }
+  },
+  "missing": {
+    "mathematical": "One uniform quantitative control of the actual joint signed source interaction: directly F27/F03, or the sufficient source-gain route F17. The existing identities and component bounds establish transfers but do not supply that estimate.",
+    "missing_source_data": "No missing source definition or geometry within this recovered chain.",
+    "native_capability": "GEN3 executes compiled source arithmetic, exact logs and retained histories. Its installed RH routine has no free-form universally quantified inequality/proof generator. Formula retention and native dependency calculations do not assert such a capability.",
+    "not_additional_requirements": [
+      "No independent bound on every cell or pair.",
+      "No all-vector operator bound is required.",
+      "No fixed cancellation sign or percentage.",
+      "No proof-again stage after establishing the target."
+    ]
+  },
+  "evidence_snapshot": {
+    "path": "ANSWERS_SNAPSHOT.json",
+    "answers": 13,
+    "sha256": "f65b8833c53af89c0cfd9203b5828e0fcc3f7b629a7163588a60ef08040e4bcd"
+  },
+  "original_deadline_utc": "2026-09-11T01:45:55.018403+00:00"
+}

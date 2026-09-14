@@ -618,8 +618,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7867,
-      "sha256": "872301f2e687c0f34c8c938735e101ff5d7ce3af0f90278e7e70357e577bc5c2"
+      "bytes": 8814,
+      "sha256": "856231547dc3f5f646fc42123bccd6c018ffa4aba0a64ef5a2fde272d2426384"
     },
     {
       "path": "SAMA/AGENTS.md",
@@ -628,8 +628,8 @@
     },
     {
       "path": "SAMA/README.md",
-      "sha256": "e92396f8226243f5d1514d115a848b60f3fe0f00e664776de7af41acefbbe4ea",
-      "bytes": 2535
+      "bytes": 3227,
+      "sha256": "40f84df9e87d6962673732f0d298479c00083fd779792336081b0af35f895117"
     },
     {
       "path": "SAMA/archive/README.md",
@@ -27352,6 +27352,11 @@
       "bytes": 3631654
     },
     {
+      "path": "SAMA/maintenance/CURRENT_EDITION.json",
+      "bytes": 27859,
+      "sha256": "855f1ba94b2e48346e378d7fd5eee14cfaf7cd23338bd695c4f4e1c05bffc1a0"
+    },
+    {
       "path": "SAMA/maintenance/MIGRATION.json",
       "sha256": "861d15e5ca27dda72d1b6f6eaf728fbe45cf95da4192db934818f68b79f0ce90",
       "bytes": 91140
@@ -27363,8 +27368,8 @@
     },
     {
       "path": "SAMA/methodology/complete-volume.md",
-      "sha256": "85d030ccc3f8cd027a387542d9bbd4b98faa5333bf5c086146786492b29b2fb1",
-      "bytes": 24439
+      "bytes": 25185,
+      "sha256": "935d1e02894822caa1dd3b55b5ae7222b35a65f1a9e839755e7c0ffe71441dc1"
     },
     {
       "path": "SAMA/methodology/research-methods/README.md",
@@ -27373,43 +27378,43 @@
     },
     {
       "path": "SAMA/methodology/research-methods/authority-evidence-custody-and-source-precedence.md",
-      "sha256": "f49285d8b327e284d7641dff111fd0e5c55348d74929336dade30028e0bfe7d6",
-      "bytes": 9342
+      "bytes": 10091,
+      "sha256": "027959b246dbecbd64ba70af239144eaf343578106f5879ec83c2a902cd82c3b"
     },
     {
       "path": "SAMA/methodology/research-methods/collaboration-coauthorship-and-fixed-attribution.md",
-      "sha256": "3369b57dca2589d655a30d6af8dea9d67b2816fd38c3bf99cfc44223a04b7b7a",
-      "bytes": 10826
+      "bytes": 11575,
+      "sha256": "6857ab7edbf1fec4b3e0fe59e6a3fb590fe695da57fd9ae9739a46c9efa217c2"
     },
     {
       "path": "SAMA/methodology/research-methods/concept-to-technical-campaign-translation.md",
-      "sha256": "f5346a744a159c66479a66303277a8da507c7182b1b5971b08e25c6708441568",
-      "bytes": 9866
+      "bytes": 10615,
+      "sha256": "f6837d19f744642b31d9da862e377e2788f870e4a69509323f90e22a6543ee9b"
     },
     {
       "path": "SAMA/methodology/research-methods/discovery-intake-bounded-promotion-and-owner-review.md",
-      "sha256": "874d7a8ecb18779b120fd224a0d9c16dd8f216d6788cabd8a264765fa41bd4d1",
-      "bytes": 15619
+      "bytes": 16368,
+      "sha256": "5232263b946879b9bea857a795fc0970ffbec297f2c1666112db4637841c6fa2"
     },
     {
       "path": "SAMA/methodology/research-methods/exploratory-and-established-reference-testing-modes.md",
-      "sha256": "9cde5e1091c948be2e7ceb06e3105c2c7d7305e24f9fcf60465c59bc351b5c2b",
-      "bytes": 10418
+      "bytes": 11167,
+      "sha256": "e6adaa6ba985de8abd3d84886461997a7c852631e78096ef597a5ad2bcd5c93b"
     },
     {
       "path": "SAMA/methodology/research-methods/failure-preservation-corrections-and-successor-repairs.md",
-      "sha256": "6683c73c8572d6220fc7d2960900c87eb7a5f020bd5e6c71fcdf39c01d6dc877",
-      "bytes": 10265
+      "bytes": 11014,
+      "sha256": "807b98a2a3a7b0bd73b05c8f3345db50c44479ddd0d2f43a2f22e8d5a1003b78"
     },
     {
       "path": "SAMA/methodology/research-methods/result-language-and-historical-status-typing.md",
-      "sha256": "87d6e1fc8ddde855188d49663c9fbf0af6c1118d7e5911c9f9562a8c708065ae",
-      "bytes": 8694
+      "bytes": 9443,
+      "sha256": "775bd08e779f2251b20ec43bb2610f6eef5b349f6f8ee432a47c33cc75ad1e51"
     },
     {
       "path": "SAMA/methodology/research-methods/retrieval-compaction-handoff-and-publication-boundaries.md",
-      "sha256": "31479867265370b36f9605d33fae24b12cbfb1e93950fde9eca5463a9c2fd869",
-      "bytes": 10115
+      "bytes": 10864,
+      "sha256": "43250dd53a960aa6a87fd4c0563fed515d6d45c0f462a5cbd538fb50865d5278"
     },
     {
       "path": "SAMA/methodology/research-methods/tests/README.md",
@@ -27428,8 +27433,8 @@
     },
     {
       "path": "SAMA/methodology/research-methods/wrong-controls-holdouts-and-diagnostic-alternatives.md",
-      "sha256": "a3fe719c15ac09dae194b38201264aa8cf845d8ddcd9036e89dbf7d896e28cc9",
-      "bytes": 11315
+      "bytes": 12064,
+      "sha256": "180406bc0fec807479e74d2a5958f056ef39a2d5954968b52a946603ca0c5009"
     },
     {
       "path": "SAMA/tests/courtroom/00-governance-cr113-cross-branch-phase-2-certificate/FILES.json",
@@ -31128,23 +31133,23 @@
     },
     {
       "path": "SAMA/tools/check_structure.py",
-      "sha256": "40695a46dc86ba66675528f475f74e75e566df917fe034581fa1dade5c6251c6",
-      "bytes": 2274
+      "bytes": 2613,
+      "sha256": "fc1a40c2a9b675ffd79783351dd0b46c8125036493b7d216e41abff3db913def"
     },
     {
       "path": "SAMA/vol_i/01-foundations/README.md",
-      "sha256": "af4b3f7bac5ac0fbfec2c8e1f7a095303519287b42925b5fd1746d6f315b81eb",
-      "bytes": 553
+      "bytes": 1039,
+      "sha256": "d36c694579e1bb0f7c97beb97911daba995a1bb6563893434cdafe1c86c606b9"
     },
     {
       "path": "SAMA/vol_i/01-foundations/foundation-primitives-and-partition-algebra.md",
-      "sha256": "e056daa3ffc00992c05383992d29899fefadf352770ff6efd001ac4a0e0a733e",
-      "bytes": 29404
+      "bytes": 30153,
+      "sha256": "e15139d6b95a5d1fb62d8ca561ebfc2a8384fc9497301a946593b6b506fb3b64"
     },
     {
       "path": "SAMA/vol_i/01-foundations/spherical-source-accumulation-lift.md",
-      "sha256": "66cc9b27e4ef5f764c9e9a41283fdbedca8fd17dbb743676ef678aa216c18dfe",
-      "bytes": 27493
+      "bytes": 28242,
+      "sha256": "9f6bc310e327b4c4304c218435263d13ef1247edfbd972fe5e82682eebb4849b"
     },
     {
       "path": "SAMA/vol_i/01-foundations/tests/README.md",
@@ -31228,13 +31233,13 @@
     },
     {
       "path": "SAMA/vol_i/01-foundations/universal-accumulation-floor-a0.md",
-      "sha256": "d072da7620afcfc038729f4c57f6fb2daa716c435bce235c25cf135434cf96a6",
-      "bytes": 28011
+      "bytes": 28760,
+      "sha256": "a9a509551b00d4f0df20a76c7f95792c68e89add380348a7b649ee0cde5bf1a5"
     },
     {
       "path": "SAMA/vol_i/02-gravity/README.md",
-      "sha256": "321e1982cc17598b1b0399f5e4cb9e7a6d8fab0167992c2f446db9be12860f86",
-      "bytes": 368
+      "bytes": 854,
+      "sha256": "8441e10a196362fb0065fee7ea1b66d70dea275b54f96d7280b151ad6005cc49"
     },
     {
       "path": "SAMA/vol_i/02-gravity/tests/README.md",
@@ -31273,48 +31278,48 @@
     },
     {
       "path": "SAMA/vol_i/02-gravity/typed-weak-field-readouts.md",
-      "sha256": "b984be08bd71a942aef72ceae2222620a44d982b2344334536d97a712a9ecfe3",
-      "bytes": 26633
+      "bytes": 27382,
+      "sha256": "0267a55c392c93054ffae0a483902dd7d3baafdf7296f877e1eccb1d3223663c"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/README.md",
-      "sha256": "aafb084e09cf075e8b4831d70507d4b0c7dd8a2e949354bd65c09020b7786538",
-      "bytes": 845
+      "bytes": 1331,
+      "sha256": "f6377d4bf9cad840657cdac151904752d5b3852b55372af1651d3f637079dbe7"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/binary-pulsar-road-holdout.md",
-      "sha256": "9a7730a759ba3c5d9ba91aa2fc0a8cad546f1c5e8b46c7438ea4f5f64d5233f0",
-      "bytes": 16243
+      "bytes": 16992,
+      "sha256": "6090cb7cea010d641108dbf84091156f570d5ad725e32c3f3ed93130e6f9ecea"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/complete-argument.md",
-      "sha256": "0f681a2a4280f9e04f1a19a82521c6db4722788469038e675250fac19e79e6ed",
-      "bytes": 21161
+      "bytes": 21910,
+      "sha256": "507b31352bb46da5228a2edf64923228748601ca7d8fdf6e8940549fd0ec9fe4"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/endpoint-clock-comparison-and-time-dilation.md",
-      "sha256": "450170dc5b067b5cac9d6aed2eb3c849cb1fb0215bb6bb8fa77e00d51a329cdb",
-      "bytes": 20716
+      "bytes": 21465,
+      "sha256": "09003161a258ddf9cc09ee5cd1a14d7335202a484436d5e0415013913961d4d1"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/invariant-c-and-effective-traversal-readout.md",
-      "sha256": "662b1ed48a45d1c11cfa648f2ef508b291990fc9a0e7f4cb543cdbd1ae89a803",
-      "bytes": 28626
+      "bytes": 29375,
+      "sha256": "1ba2b2abea3cfe353681bcb5fc42bf716ce5d7fb0fe5e1cfff915d0cab80880b"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/local-and-cosmological-road-distinction.md",
-      "sha256": "70b2be7de282b740c9c4bc6533616d5bccf5f2fbc90d6e2b29802c85b74872ff",
-      "bytes": 25098
+      "bytes": 25847,
+      "sha256": "c07d47d3e90b38604e26f96379bbe3acd83622969413388ffb210834f1122060"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/optical-clock-height-holdout.md",
-      "sha256": "d9cdfc82861591e45c7b22fe2d4ed4e909acef1f83e2bebbc12656c033ee1f6a",
-      "bytes": 14894
+      "bytes": 15643,
+      "sha256": "215f71a2d0eb339bfadc4f4737b59ba85c5b37b85ddd3764a658f6cb9481dfc7"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/photon-road-accumulation-and-shapiro-delay.md",
-      "sha256": "ed6f6667be82717bba2b5a1702b25926710e04c71b12e821e6a9d10e424ca47b",
-      "bytes": 24657
+      "bytes": 25406,
+      "sha256": "25c2aaf41a064d904ed84982d12e133ba1ad2d823261780bbeb7a38c7e895137"
     },
     {
       "path": "SAMA/vol_i/03-clocks-and-light/tests/README.md",
@@ -31408,33 +31413,33 @@
     },
     {
       "path": "SAMA/vol_i/04-black-holes/README.md",
-      "sha256": "ba064a6c8ff9e6ac1a6eb4079b2b501f12204151005de27f22ee20da91c19260",
-      "bytes": 685
+      "bytes": 1171,
+      "sha256": "d2f54cd81777c4f4751a6e87033a2d0f1dd6d8d15a32fd06f2677d19eeb8d990"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/horizon-closure-and-thermal-readout.md",
-      "sha256": "679f100ee3d5fc0095599ec000f09b81e5dbe9af9883ca6ffd59551a90ea5e7c",
-      "bytes": 34293
+      "bytes": 35042,
+      "sha256": "8c1492675d39df038db2a8b5eae24800957a0755a197af8dd17b71901deb2b31"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/horizon-lapse-and-exterior-traversal.md",
-      "sha256": "d62e6bb6af3acc224a52804341b878fcae888feee79507a92b7409a29d90c963",
-      "bytes": 29617
+      "bytes": 30366,
+      "sha256": "1dd5e7b7e6b5c1b6aa2c8eb662bed497761efb4495c061ba3df0aa02b47c5980"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/isco-and-timelike-orbit-landmarks.md",
-      "sha256": "276b13ffaeec84eb8a2514a2bfe4dbf6486296500477a2ab6059c520b10fd8a0",
-      "bytes": 20926
+      "bytes": 21675,
+      "sha256": "9bdb1dc053cefd0f521d3a1a79e52f88f3aed23e4767595403d6de83fba7894a"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/photon-sphere-and-shadow.md",
-      "sha256": "f073fbd56d7facfa5c3345944ae3ad6a1adc096bb8d20455c9513c2954a2dd6c",
-      "bytes": 22133
+      "bytes": 22882,
+      "sha256": "387705a1495ef096a03c35c74428c0a8244cfd35f60dd040eed0d000d4f49c58"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/strong-field-a-coordinate.md",
-      "sha256": "a28060ebe498e5d1d5d19da67693eb91d06dd98833dd9148719d15de231fe198",
-      "bytes": 23262
+      "bytes": 24011,
+      "sha256": "5c167e5450d295a1f7685fe54c0722362e3d29dcbe94600219e27120bca076d3"
     },
     {
       "path": "SAMA/vol_i/04-black-holes/tests/README.md",
@@ -31553,43 +31558,43 @@
     },
     {
       "path": "SAMA/vol_i/05-cosmology/README.md",
-      "sha256": "c460da19467d94387725ea96b59c860917f22ea3c895d045aa903b4ff8917e8a",
-      "bytes": 922
+      "bytes": 1408,
+      "sha256": "9a8fb2a03df9ff558417ff334134b808ac9317465c11bf28587efeede96db1f4"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/bao-and-acoustic-ruler-road-bridge.md",
-      "sha256": "dabdf5d41a5c640010fdd99ee41ab9197bd96811110ad52408246f7ee971f946",
-      "bytes": 47646
+      "bytes": 48395,
+      "sha256": "38df24196190f82f769597c38c32c34b05cac7157e02eb2f4e57aad1ccdf6837"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/baryon-to-photon-and-hubble-cascade.md",
-      "sha256": "4741e5cf2dff8a5388d0b4d45a38e2fff9af3da57247e5cfcdce2bf76b62f94d",
-      "bytes": 26462
+      "bytes": 27211,
+      "sha256": "a381c4d6358a3cb0dd6f378e8b371334c2149d2ca2ec2d87e55a5c1cae4d58bd"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/cosmic-inventory-from-accumulation-floor.md",
-      "sha256": "a1b21956a0564ab20c0791771cbb382832db8337f3551be4154d524f8a200f82",
-      "bytes": 45047
+      "bytes": 45796,
+      "sha256": "479bf7fe38325dd40f5632ad8fbf98b24f88c46d74dc93924beb7da9fea54ebc"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/cosmological-fate-and-completed-surface-boundary.md",
-      "sha256": "31437314ab6522468adee769b0c30a83f302cd8e66836114adf6dafe0a10a669",
-      "bytes": 29331
+      "bytes": 30080,
+      "sha256": "95eaa5e6cda5106908596a93059656f1e9a3eee71f1ab6922fb977ff953561b7"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/full-cmb-shape-route.md",
-      "sha256": "9657a17f6c41a076405a4937f504e9a12fb5f24ebdcde08d686b1fa821b009c9",
-      "bytes": 63473
+      "bytes": 64222,
+      "sha256": "0e166e7de99f55397627aa6c5646dc916f4bc2d809b5518c9188e8dcc86668d0"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/recombination-and-acoustic-geometry.md",
-      "sha256": "f107acd914d5935334cf51f20b6b7feb41ec7b00f192e3672cfa7f99f69aafd4",
-      "bytes": 48761
+      "bytes": 49510,
+      "sha256": "788ad47859b874c2f218e5c10dc0977341166e9132ab8d9140da198756caa833"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/supernova-distance-road-operator.md",
-      "sha256": "aa0eadd6081126c147b70eed40ce91c7b1b5ec773718e26232c58bbb789cfcca",
-      "bytes": 32349
+      "bytes": 33098,
+      "sha256": "aed7e0d72203584d4be10fec5f26000150f563c539eff21fa4166d4b4a13a638"
     },
     {
       "path": "SAMA/vol_i/05-cosmology/tests/README.md",
@@ -31918,13 +31923,13 @@
     },
     {
       "path": "SAMA/vol_i/06-galaxies/README.md",
-      "sha256": "b35f600433c649a580f105da4de0a4536385f0a40deaf0980550c82c18d996a7",
-      "bytes": 385
+      "bytes": 871,
+      "sha256": "d8e8d91c6079b665522d2cbc9f633704e092b057c3de98796e20e97465e65594"
     },
     {
       "path": "SAMA/vol_i/06-galaxies/galaxy-halos-and-mass-distribution.md",
-      "sha256": "6e9f4c93f5844eba19d15ee240a0716fcd5f9903ee018be6c88c457716d0bb36",
-      "bytes": 65519
+      "bytes": 66268,
+      "sha256": "a0f773ffe0729377944d73aeb6131aecc9df82ab07f6531bfe90fe1cb2c1d452"
     },
     {
       "path": "SAMA/vol_i/06-galaxies/tests/README.md",
@@ -32028,13 +32033,13 @@
     },
     {
       "path": "SAMA/vol_i/README.md",
-      "sha256": "41e86231018ffe05c9485b1f33d88c883d2183c2f15516cbd036ff5bbad0782f",
-      "bytes": 1379
+      "bytes": 1862,
+      "sha256": "3a0dbb6d1d234a788aea809007e879fd9c7d8789d7b1588a5a4b8ccb0fdb7423"
     },
     {
       "path": "SAMA/vol_i/complete-volume.md",
-      "sha256": "a59c132439649d68d284b04fc179b9fd8b8c2dd3cc00baf16ee5e462eaa50413",
-      "bytes": 237952
+      "bytes": 765881,
+      "sha256": "5bd8aa7ca289c6021b8adf7aa8efd20a76299826619f7680e320344210077f07"
     },
     {
       "path": "SAMA/vol_i/tests/README.md",
@@ -35418,18 +35423,18 @@
     },
     {
       "path": "SAMA/vol_ii/01-matter-foundations/README.md",
-      "sha256": "82440ee16e60200bd7b1fe6b5e51a3f5b8b6d8029258eafca8c3202d61818d3a",
-      "bytes": 471
+      "bytes": 1104,
+      "sha256": "50dd957d314dc44a9d1dc1830a21cc12831fe9f68034d6dfb63c8e0864ea1a05"
     },
     {
       "path": "SAMA/vol_ii/01-matter-foundations/connectors-substrate-atom-and-containers.md",
-      "sha256": "8bdb943b2752a7a4694e87b610990d0a3174a776bce95283dd41ff2bf25bcd06",
-      "bytes": 26775
+      "bytes": 27671,
+      "sha256": "3e31e43d81e08fd7f61720167776daccf87cf758aafd1a9c793e9b1ca36a754f"
     },
     {
       "path": "SAMA/vol_ii/01-matter-foundations/matter-boundary-and-finite-closure.md",
-      "sha256": "d70ce320838c9a19e5ae4f1bd4601f58b4129ea2b5460c75df91c7acf87f63c8",
-      "bytes": 27742
+      "bytes": 28638,
+      "sha256": "d13815dbb0318691ddac7fd7109053037f26ee9d1f8d3df3eb2475bada58d376"
     },
     {
       "path": "SAMA/vol_ii/01-matter-foundations/tests/README.md",
@@ -35498,28 +35503,28 @@
     },
     {
       "path": "SAMA/vol_ii/02-particles/README.md",
-      "sha256": "9bc04aee8d43479962a7af71dba485d5e5375886a57ebe027fcef9835c27cadd",
-      "bytes": 618
+      "bytes": 1251,
+      "sha256": "e4fd8f1b757d684f519a93218ec2857ecf92a6a995ffabf694acc5db8cef5db0"
     },
     {
       "path": "SAMA/vol_ii/02-particles/finite-particle-grammar-and-321-row-census.md",
-      "sha256": "17c0cb1eeb97ea35ba9917ef7b57cc92cd7e26a3ffa3bd10269e608cf2ea17e5",
-      "bytes": 45724
+      "bytes": 46620,
+      "sha256": "c2992a4b113d76fb4ce13e6d3b9b09c409db114f7669e573cc6b42fb51a22d54"
     },
     {
       "path": "SAMA/vol_ii/02-particles/grammar-formation-and-binding.md",
-      "sha256": "59ef7d76d952324695e6ebf60fa6c5846481e3cdea401d9301cab1447773157c",
-      "bytes": 27106
+      "bytes": 28002,
+      "sha256": "dca600f0e6f9932713f6aac80311e2e721fe5f76c5e41b61296341d32a63e914"
     },
     {
       "path": "SAMA/vol_ii/02-particles/higgs-and-neutrino-packets.md",
-      "sha256": "ee42ca4dadb32429d4adbfd3308a496b585f437bc76e72a62a4ae7e618d7cb09",
-      "bytes": 16754
+      "bytes": 17650,
+      "sha256": "57fc22547b8926761bc82d557be51e7c03d25fc0df2899bb67bfbd09b792d72c"
     },
     {
       "path": "SAMA/vol_ii/02-particles/mass-lift-debit-and-particle-readout.md",
-      "sha256": "5e47dccb858d0ff90e819a949bfac98242525a63bb3726f481203eea1c8617e0",
-      "bytes": 24990
+      "bytes": 25886,
+      "sha256": "aea9570f18e5be6ccade651b960f76844ae764ff611721419edba299c09de0bc"
     },
     {
       "path": "SAMA/vol_ii/02-particles/tests/README.md",
@@ -35688,23 +35693,23 @@
     },
     {
       "path": "SAMA/vol_ii/02-particles/typed-matter-surfaces-and-row-grammar.md",
-      "sha256": "764c43727d7434f6455e44c2557671d4524a3be5c5e35375ca20ea0363ace42a",
-      "bytes": 33707
+      "bytes": 34603,
+      "sha256": "dd30c9dccc1c69d512c1a5eb26ad23dfa45f91d3ebf79a9341d14c18a527b06e"
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/README.md",
-      "sha256": "06e5c7acbdc9c5b1fa590d29b3bfbe26a581d3d2ae32ec92d78b85c09804feab",
-      "bytes": 452
+      "bytes": 1085,
+      "sha256": "27d2a26e71e585396aa7a9ac528857a05cf48d92c71e40bd49494e2488078b81"
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/nuclear-ledger-and-isotope-families.md",
-      "sha256": "b5dc1f8ddb17c0e01743c6f4f357ca9f5d8b7ff15c0f1168b957bb7b5c2e345d",
-      "bytes": 22657
+      "bytes": 23553,
+      "sha256": "46b79a389bf65df3da58a010f4f26b636066acdade20c63127be5cab28f3616c"
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/periodic-and-composite-matter.md",
-      "sha256": "8141505a9d554c091502e1527206151c810e64bd217d26330fb265c45a100ed0",
-      "bytes": 27048
+      "bytes": 27944,
+      "sha256": "7a484cec93221da8bc5ddeab84dbc955aacb3627a5f668a59b78f44e501f1052"
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/tests/README.md",
@@ -35788,13 +35793,13 @@
     },
     {
       "path": "SAMA/vol_ii/04-binding/README.md",
-      "sha256": "c6fdc941731816fe4d03c8db89299bc9ec42b6069cb66e36fb219573b7771886",
-      "bytes": 391
+      "bytes": 1024,
+      "sha256": "aab75665919268426ffcdba65e45be03321e9ce284fc1a4ec82d17b438d39448"
     },
     {
       "path": "SAMA/vol_ii/04-binding/binding-and-the-exact-asymmetry-bridge.md",
-      "sha256": "a85f867ec3eb3393980f0a9e3d424065866a9bc71e329710ebf8c915de5f97ef",
-      "bytes": 27253
+      "bytes": 28149,
+      "sha256": "7e0ea779bada3cc3a40e96b7eeb467e10e1dd00892750715ea5b2f6a1546525f"
     },
     {
       "path": "SAMA/vol_ii/04-binding/tests/README.md",
@@ -35863,18 +35868,18 @@
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/README.md",
-      "sha256": "f3873d663dd6b25cda3e591e67c37d9d7626e54776cf6ef33a83c1ac90d0334e",
-      "bytes": 595
+      "bytes": 1228,
+      "sha256": "5b020e7be16b4b24be9052d70d12f3bdd41b62c2dc9d5078bbecbb7a87f3e57f"
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/atom3d-matter-reception-and-reemission.md",
-      "sha256": "e093e025c4e64f303999f922f3443f366ff292402e929414a106e3377ca4caa9",
-      "bytes": 9941
+      "bytes": 10837,
+      "sha256": "e2dfe99db2b71faf6883b598464eacf842e796a7948b1c81479e0ab480057c47"
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/carrier-container-return-to-accumulation.md",
-      "sha256": "f085d2100fdd948de31b9e34d9e38cac48b78fe46ae21a4dc0971b37898aaf80",
-      "bytes": 30380
+      "bytes": 31276,
+      "sha256": "97466d52fa3f91a2d40ee562372fa0bf0f4a036d4dbe5aa828e54d722c82dc6d"
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/tests/README.md",
@@ -35948,18 +35953,18 @@
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/theta18-carrier-and-tensor-return.md",
-      "sha256": "f4f6ed2c3eb2333f8c6aa382465958dc997553b02bfb2f0a8c0607fda4d97864",
-      "bytes": 24948
+      "bytes": 25844,
+      "sha256": "d2f9e3b190f58af9eb69a8ebd5b5474530b260a8ff5c91fd13579841f3aea3cc"
     },
     {
       "path": "SAMA/vol_ii/README.md",
-      "sha256": "77d864ca9f2e0fa5726372da732bc3b5f46743988c038cdbb380f9eafee808ed",
-      "bytes": 1117
+      "bytes": 1747,
+      "sha256": "338c458dc64f760be23e36128199925a9bf88a299c952dbdabbb223aa4073437"
     },
     {
       "path": "SAMA/vol_ii/complete-volume.md",
-      "sha256": "d26e318a5d574152c7cfa002b2e2fee37f8e8645ee7f81568f7c20d99103ab25",
-      "bytes": 59562
+      "bytes": 355647,
+      "sha256": "1c4a2162409eb9817c5c1dd74456bb562773520b0e55d4a0fea1fdedf89e9e47"
     },
     {
       "path": "SAMA/vol_ii/tests/README.md",
@@ -38753,18 +38758,18 @@
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/README.md",
-      "sha256": "9c2187ce4edb0e8359705a9ba304a6c677ca92a67c2a4be6cb0948c16e866fe8",
-      "bytes": 456
+      "bytes": 1078,
+      "sha256": "b60854208dcb9cc6a97dbf2a3efe8c6cea462234d10f1cee7acbcabdab5238dd"
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/n100-computational-grammar.md",
-      "sha256": "42e13e8efbd1f9aa59c9020b6c4610c29ccef402a6a37cfe26361d07e714e8ab",
-      "bytes": 22056
+      "bytes": 22941,
+      "sha256": "c1c26110cafb8ecdd888bb8560d7b59da885e16e0783ae003ed75bc235ac30c4"
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/sam-language-and-exact-program-semantics.md",
-      "sha256": "27b8d180b3b23bf94f8a45492d4f0e23452b24364f5fd719c951db3beca07112",
-      "bytes": 69825
+      "bytes": 70710,
+      "sha256": "1e0e113c51029c7cfd3067e39e310b18a043a6f38566cb5673b2e0ec67186161"
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/tests/README.md",
@@ -38863,23 +38868,23 @@
     },
     {
       "path": "SAMA/vol_iii/02-slc/README.md",
-      "sha256": "0b3b3b6df2b29005d1cf457b1c153ded755437c7b5712c71775854d352a1a846",
-      "bytes": 573
+      "bytes": 1195,
+      "sha256": "13a7cc1cdd743f16db0c8d4a9b4ee85658ee16c3eca766999ef5d5331538bf2c"
     },
     {
       "path": "SAMA/vol_iii/02-slc/exact-state-spaces-and-slc-computation.md",
-      "sha256": "9f2215c8b2b576c214064de0b842d349d138d40649c12c39a0eded97d8a5bf91",
-      "bytes": 23870
+      "bytes": 24755,
+      "sha256": "d97ba95219496c099c7ce597a15cca98aa4bf4c1ff1ed99693e4b71bad888f21"
     },
     {
       "path": "SAMA/vol_iii/02-slc/h14f-grammar-to-work-factorization.md",
-      "sha256": "d3f3da21a76a8c2bd09e5fd5298abb536b248814512e74b6da316d819c4f5ea6",
-      "bytes": 18906
+      "bytes": 19791,
+      "sha256": "0b53b7230e7ccce97ac9a30d638f8149abad9a5ffc374e61b96c6ceea51e83cf"
     },
     {
       "path": "SAMA/vol_iii/02-slc/slcq2-rz-ordinal-selection-engine.md",
-      "sha256": "a8ebf7a41e472bc441f3b6aca29febbe383d039dc28f69035c0c0150885936c4",
-      "bytes": 24182
+      "bytes": 25067,
+      "sha256": "ec7290f8b760e093aa226e9d99d40607f9090bae415cc5b161a594198d78104a"
     },
     {
       "path": "SAMA/vol_iii/02-slc/tests/README.md",
@@ -38888,23 +38893,23 @@
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/README.md",
-      "sha256": "90a692ffe3ff05d067efd9aa71711769609a7dcba6ce55900e0bd2298c5c61b7",
-      "bytes": 623
+      "bytes": 1245,
+      "sha256": "c1b9dfdac32318aaf06ffbcff35cf7ce8eca24349ec12155cc0eb445025d08b4"
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/directional-history-and-event-reel-computation.md",
-      "sha256": "9779389a557235d3515e44e3556025166e620222fe9c31c465ffb759b6d8839b",
-      "bytes": 35902
+      "bytes": 36787,
+      "sha256": "25a3e13fe3a324005d3791489010a5131a35f43cf97587486cee9211b3594da7"
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/exact-algebra-and-complete-exact-write.md",
-      "sha256": "a255f874fc9e51722325c1984c3bb2c445f8b5d152550855f407f0c51027957a",
-      "bytes": 30672
+      "bytes": 31557,
+      "sha256": "31e9ef37438ea8efaaa05f52e0952864b55e9120313d2a6b1c42407d60bc57a7"
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/reciprocal-history-and-the-rh-route.md",
-      "sha256": "9def93abdb6794a70548de198020c142fc66316609360101fd10366964969978",
-      "bytes": 19688
+      "bytes": 20573,
+      "sha256": "115a9204adc0883c441dc50560c7915572d7be397a2e4726120439e5b1f9986f"
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/tests/README.md",
@@ -38978,18 +38983,18 @@
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/w8-x1-w9-lifecycle.md",
-      "sha256": "fd29a5b7cedee9265c637b2d1be5000ba73c446a8434616022c33d99b5100820",
-      "bytes": 51138
+      "bytes": 52023,
+      "sha256": "650b76d71fbccf0559259ffdf47209e4ecbd4a71d7a7cd16a78cf8e4f6662a2b"
     },
     {
       "path": "SAMA/vol_iii/04-starbreaker/README.md",
-      "sha256": "267c78e6249114c069bd7ec1ceb4b3dc858d84e8073ca003a5addd6c7f44f952",
-      "bytes": 369
+      "bytes": 1082,
+      "sha256": "3d24641181edc295c89fdaad71bbdfdd4a5d457dee3164afa8d7e31a46a15596"
     },
     {
       "path": "SAMA/vol_iii/04-starbreaker/starbreaker-formation-engine.md",
-      "sha256": "c084b715843492b12c1418e7b0eb3e358f110d97f7323c8c82a9ff8e5ee6e318",
-      "bytes": 40181
+      "bytes": 41157,
+      "sha256": "af3030fdaa5a3118a30064eba0953e0d61b79f6dcacd775e3c196cc8705fdaa6"
     },
     {
       "path": "SAMA/vol_iii/04-starbreaker/tests/README.md",
@@ -39043,18 +39048,18 @@
     },
     {
       "path": "SAMA/vol_iii/05-primes-and-jacobians/README.md",
-      "sha256": "65fd380b5099309648661392e3827579d518a3c37c5880e40717091fcbebcf04",
-      "bytes": 459
+      "bytes": 1114,
+      "sha256": "941bbf73e5db03b722c1bdff466c8c1cfe06c0c307f566644b9a22b719972017"
     },
     {
       "path": "SAMA/vol_iii/05-primes-and-jacobians/jacobian-program-and-clean-restart.md",
-      "sha256": "e87bd2172f3d8b30c6800ec3832a6f946891d179a52ba708ba0cc2c8f01e6592",
-      "bytes": 27197
+      "bytes": 28082,
+      "sha256": "e762e6bdcceda33f420da0867ccdfdd2e343f9d34265b374069a2feb94812311"
     },
     {
       "path": "SAMA/vol_iii/05-primes-and-jacobians/prime-ruler-and-mersenne-application.md",
-      "sha256": "a83e1f755cfae21ae5278ab00471be11164d699cdbfa2200019b0f61806409ac",
-      "bytes": 27605
+      "bytes": 28523,
+      "sha256": "ee9bee1654f253e8db91d20681515699bab4445e497e88cda7d0d11420d84227"
     },
     {
       "path": "SAMA/vol_iii/05-primes-and-jacobians/tests/README.md",
@@ -39063,18 +39068,18 @@
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/README.md",
-      "sha256": "d38b1f7d992cd2d57fc72f7092322c50b63d99d727a639d1aea9febcfb15c591",
-      "bytes": 561
+      "bytes": 1183,
+      "sha256": "f1e13985950e785ab76abe23d11a4b53c679defa26943812e9f4b1339f43446b"
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/nonzero-amplification-quantum-galactic-bridge.md",
-      "sha256": "af5ce1dfeb87a537a11207eb9869d941c1adb98952de31dad6f671506d14cbb7",
-      "bytes": 9912
+      "bytes": 10797,
+      "sha256": "35b27abc8d40c5c4282800f70a21bae3631ce4e0be1daeecbbac7e9ca5f25ff9"
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/relational-nonzero-amplification-interaction-closure.md",
-      "sha256": "a225dccc70f6fa70e6970ac3cd56e19d4ecf204de3e4dcd0c3c09dc1c7e331b8",
-      "bytes": 7933
+      "bytes": 8818,
+      "sha256": "e55d7f282cda4004a2e1ce07712d16538e3d19b89fb832fc3a9cf6fccbb3a533"
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/tests/README.md",
@@ -39083,13 +39088,13 @@
     },
     {
       "path": "SAMA/vol_iii/README.md",
-      "sha256": "e83a72ae37c765a40f4b5420b731bf73210677a7772f60e6afa1f2667016e3d3",
-      "bytes": 1290
+      "bytes": 1909,
+      "sha256": "7b93a2609b3854659965ee63d212e2fdc987b388af5c027230d52c730eb8fc5b"
     },
     {
       "path": "SAMA/vol_iii/complete-volume.md",
-      "sha256": "1ac90e995052f1d838a238bd234e50525b071338f8adc63999e245f43289f141",
-      "bytes": 123278
+      "bytes": 419768,
+      "sha256": "632a3c2e075407fa5451d9775e825086e3977a489f149e2e14f18190af76bedf"
     },
     {
       "path": "SAMA/vol_iii/tests/README.md",
@@ -40003,28 +40008,28 @@
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/README.md",
-      "sha256": "e55a15ab0d7bbc67ca805147ba0f92b68538cc5643bc9f62a43b64d5cf741409",
-      "bytes": 780
+      "bytes": 1678,
+      "sha256": "e9f3dfa303a75097777bef1043f99a82a0c13e84a839a17705c6255d69181d84"
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/rh-completed-xi-d0-and-exact-weil-form.md",
-      "sha256": "a87843871b8654ad6e6a2ce1c5884b07b71b167e2fc2d069f1494e43983a373f",
-      "bytes": 2898
+      "bytes": 4059,
+      "sha256": "1c17f7c915ede4c4362ded8438c0c11885fd165609c4fd0eaf44b27dc2910427"
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/rh-question-and-selected-completed-weil-criterion.md",
-      "sha256": "b941df1778bea3047c79a2eec89c4f80f1f63a78220a785bc05a93a1d5ce7cc4",
-      "bytes": 3568
+      "bytes": 4729,
+      "sha256": "097a909891d8c528c7c29b9f74a93ac488f712eee64c25e61650efc1b80e0fa9"
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/rh-radial-compiler-a0-closure-and-log-coordinate.md",
-      "sha256": "49b9b9f0eea5ef0cef3f01e58165ce0b7f47e23fb7672da7e9faeee38d6f435d",
-      "bytes": 2947
+      "bytes": 4108,
+      "sha256": "9a8a8c6d332499dbff220e13cd5c486eb2c0d120bb7002529658c533cb2c10bf"
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/rh-reciprocal-history-native-norms-and-exact-write.md",
-      "sha256": "8ad41a285801678b531f620399b612d1511d14e73050c4d6b9cb164265887bd3",
-      "bytes": 2992
+      "bytes": 4153,
+      "sha256": "bdc24bae4cead116fc689f4e05551510da13f9e3485c19d6cd286c0804ad020a"
     },
     {
       "path": "SAMA/vol_iv/01-question-and-foundations/tests/README.md",
@@ -40058,23 +40063,23 @@
     },
     {
       "path": "SAMA/vol_iv/02-sign-and-factorization/README.md",
-      "sha256": "9f1e11d901c7e838fb370cf429a77055a3f703fe4b870cdb860055d0e40fa65b",
-      "bytes": 683
+      "bytes": 1581,
+      "sha256": "180acb408cee07a3e05af7623f2c01efb18ebd1f46a36b0e9492ec6573d37bf7"
     },
     {
       "path": "SAMA/vol_iv/02-sign-and-factorization/rh-pb1-pb2-factorization-w9p-theta-and-afc-defect.md",
-      "sha256": "f9bdbc146af1edcba6e26417a0cf95bce27232ca7a4be303d81a613d89cd4b4c",
-      "bytes": 2542
+      "bytes": 3703,
+      "sha256": "b84350a330b7714e4f907c378d5cb733f3c710badcff50ceee2bb35238e96f4e"
     },
     {
       "path": "SAMA/vol_iv/02-sign-and-factorization/rh-rg0-fx1-receipt-gram-and-balance-eliminations.md",
-      "sha256": "82d20f689fd3c9323c3986e494dba45e692bace20962b0d344cbf5fd0665504b",
-      "bytes": 2911
+      "bytes": 4072,
+      "sha256": "8d11613e48e1965fc716a83d7ddd5036bf70aa428b6e6a194572bec015227e9c"
     },
     {
       "path": "SAMA/vol_iv/02-sign-and-factorization/rh-sign-transport-and-phase-e-completion-boundary.md",
-      "sha256": "b4925db5f84a1c4d97426bed1d6d9566808c022a57a66c5dfd5f852613c49c6f",
-      "bytes": 2838
+      "bytes": 3999,
+      "sha256": "a987e6e202bffe445bb044aa694e8e259e4dfc0f9d0435e7bf03c7bf011b78a1"
     },
     {
       "path": "SAMA/vol_iv/02-sign-and-factorization/tests/README.md",
@@ -40108,28 +40113,28 @@
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/README.md",
-      "sha256": "296839afcf60bcc4a5afcb4f5721d8d19dad6e57adc73dd5fb30166bf2c316f2",
-      "bytes": 789
+      "bytes": 1687,
+      "sha256": "b7224ea6380ff68ea6e5e123e88f996214db5ae3d3e5277083f891dcf7d99dd8"
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/rh-collective-spectral-bridge-radau-and-q2-adapter.md",
-      "sha256": "05229126f7011df0d875e02d62dd861bd4acc72cd31b6383653deb6c94765fa5",
-      "bytes": 3485
+      "bytes": 4646,
+      "sha256": "e67f535f11dc69ae81ca4a959daef612e90835b58ad2c8f49d45a7308653c9c1"
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/rh-exact-write-event-reel-theta-grams-and-afc-composition.md",
-      "sha256": "1c154b5e8774c990ab055504fc662ca95c72cd808acdf830bf538e8d886b5bb3",
-      "bytes": 2528
+      "bytes": 3689,
+      "sha256": "654afa7fcaf8f15276cdcc47670d8289b7d2ebd35452a114945e58ad19f4de8c"
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/rh-gamma-schur-robin-and-adaptive-carriers.md",
-      "sha256": "7a65cd270ce63bb1700a5f591cf777ecfa42e3f8966fb0314fa8b4a4f19f58a7",
-      "bytes": 3057
+      "bytes": 4218,
+      "sha256": "693c22c9558a870751f4a788f5ca74ef32fe8dd0b5fd47d853ff77ba9892b295"
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/rh-source-measures-pick-kernels-and-weyl-limits.md",
-      "sha256": "5ece8147cfafaa610468a5a23c8716b051231a63c754be68e87cbe05d88bd725",
-      "bytes": 2886
+      "bytes": 4047,
+      "sha256": "d261812b437602a64af6de98b3dc8cc6548d9c052e8f62e37f5f9f138479102d"
     },
     {
       "path": "SAMA/vol_iv/03-source-and-carriers/tests/README.md",
@@ -40173,18 +40178,18 @@
     },
     {
       "path": "SAMA/vol_iv/04-tail-and-transversality/README.md",
-      "sha256": "53cfc2775f0c9d240ecf2772a65bd27c51be157be5595c02eed3add6559d3a9b",
-      "bytes": 528
+      "bytes": 1426,
+      "sha256": "de998594131073c9be0d0e2ed5aa904511a85ffd3e2c204e48287ea6b2e067b7"
     },
     {
       "path": "SAMA/vol_iv/04-tail-and-transversality/rh-natural-tail-dirichlet-green-chain-and-frontier.md",
-      "sha256": "7463235d894c406c15660072d1be5ad0eac49270feec472e20333d6ee499a15a",
-      "bytes": 2881
+      "bytes": 4042,
+      "sha256": "11eb60cc205ff8e6c836accecbb4c3506af76ef98a7b87f9c3fd35011259192e"
     },
     {
       "path": "SAMA/vol_iv/04-tail-and-transversality/rh-rii-barrier-and-completed-source-transversality.md",
-      "sha256": "cfec07242975692d04d7b839da122af63bde57d86aea22fe82b3cee56ea92e30",
-      "bytes": 3429
+      "bytes": 4590,
+      "sha256": "c1cedcca18efb524c5e39a6b8d8c6ebd52ecf3a59bde4e43179061d9ef1615d4"
     },
     {
       "path": "SAMA/vol_iv/04-tail-and-transversality/tests/README.md",
@@ -40213,23 +40218,23 @@
     },
     {
       "path": "SAMA/vol_iv/05-results-and-corrections/README.md",
-      "sha256": "a01e2c4fa84b9a505f000f47b10b9b0c55f6dcfc2bb7e9fd45fb1c4d53bcd288",
-      "bytes": 667
+      "bytes": 1565,
+      "sha256": "5e830ba519dbd04337113e94ff7fb7b26c39d16417616bba265fb54124eab22d"
     },
     {
       "path": "SAMA/vol_iv/05-results-and-corrections/rh-current-result-open-boundaries-and-external-state.md",
-      "sha256": "330d907691c49ec6fa639426711d1a5b838fab3873e07dab3913b548181646f9",
-      "bytes": 3408
+      "bytes": 2360,
+      "sha256": "27d9635e3242c4d8bd877d60698d285f7968e41d93102910e9b6b88017d35247"
     },
     {
       "path": "SAMA/vol_iv/05-results-and-corrections/rh-evidence-public-custody-and-reproducibility.md",
-      "sha256": "353d1c37bf66f1b7f849e4aefaea2e31304b4ea8bd3162cafb65eb41f97263b1",
-      "bytes": 3490
+      "bytes": 4651,
+      "sha256": "3746eca65166153d2a94fa6e2074d6acdab4aa96e7ff982b8e39af4e7bb81c04"
     },
     {
       "path": "SAMA/vol_iv/05-results-and-corrections/rh-meaningful-falsifications-corrections-and-successors.md",
-      "sha256": "8aa2f79acf4dc3e715aa5381c53df7629f417c64606fbc7c23ff5c0fc00d0a0d",
-      "bytes": 3878
+      "bytes": 5039,
+      "sha256": "f5a491374a21508caba8b0115a5214d91e08117623023b014ebda3d3cfc8b7bb"
     },
     {
       "path": "SAMA/vol_iv/05-results-and-corrections/tests/README.md",
@@ -40293,13 +40298,13 @@
     },
     {
       "path": "SAMA/vol_iv/README.md",
-      "sha256": "bf9c97c93c1e1c9682025d04e06d155a36b66d6218153164e46ec0e94229cd37",
-      "bytes": 1277
+      "bytes": 2624,
+      "sha256": "67103b8b2944f623df816cbaddc182fd4bf1ffeb6bf03b412fe3d4340fde71ac"
     },
     {
       "path": "SAMA/vol_iv/complete-volume.md",
-      "sha256": "bef9d306debad9219c8cd0005863d114fd7ea0e4e7388bb9b9823c039229b90d",
-      "bytes": 9414
+      "bytes": 67008,
+      "sha256": "fcdfe8541acbec6d489f4456b2989e9091188ea5bca77408c92ff74833dbb6a3"
     },
     {
       "path": "SAMA/vol_iv/tests/README.md",
@@ -40823,13 +40828,18 @@
     },
     {
       "path": "docs/PROJECT_STATUS.md",
-      "bytes": 2174,
-      "sha256": "287a6393a2c874fe87c24b022dd2348022f36df1079a77cf499523abe40736e9"
+      "bytes": 2443,
+      "sha256": "7a65b198cedff78f5893f39c11425d26041c5c7d06be37a6e8013047b2ecd87d"
+    },
+    {
+      "path": "docs/PUBLICATION_REVIEW_20260914.md",
+      "bytes": 1887,
+      "sha256": "e325d231150f00fb7de6a85d5807a10c49066a60f8e5bd0d523fcffc54f53534"
     },
     {
       "path": "docs/RESEARCH.md",
-      "bytes": 2827,
-      "sha256": "540eef7daa29b4df82dc046cc6b6c3050a5be8d53cd384012c5fbd9f3361128c"
+      "bytes": 3239,
+      "sha256": "b99baab6c14a74e13d4c0deb39224272273ea322868e9ee8743872fa2a90e805"
     },
     {
       "path": "docs/USAGE.md",
@@ -40923,8 +40933,8 @@
     },
     {
       "path": "provenance/PUBLIC_UPDATE_VALIDATION.json",
-      "bytes": 636,
-      "sha256": "d787046322fcf012fffeab1dd08c9b1f49873fdf78940f58f63618bf75a76ffa"
+      "bytes": 631,
+      "sha256": "8976d2f095edff9e34e3059ee6a3a76124be2ceeadbe312ae5124d1d58da4a49"
     },
     {
       "path": "provenance/R3_NUMPY_ONLY_TEST_RUN.txt",
@@ -40987,9 +40997,649 @@
       "bytes": 81
     },
     {
+      "path": "research/REPRODUCIBILITY.md",
+      "bytes": 1556,
+      "sha256": "cee3b45322f270fc4f96ea60575bd0469a82d4909e7d885f617cd48b97db1f01"
+    },
+    {
+      "path": "research/SOURCE_EXPORT.json",
+      "bytes": 38754,
+      "sha256": "b080b20dae6122c6af78973e77c9739a459a590c505f18892d2d5aa72cbdefd0"
+    },
+    {
       "path": "research/SOURCE_INDEX.md",
-      "bytes": 2076,
-      "sha256": "ae8ad34095414fd64276954802f62981f81d62d8bd819c0b9273e5bf0bfc6813"
+      "bytes": 2433,
+      "sha256": "6e008a2093b20fea0835ee4a3f891d5ca45c5f3c440f995c84251465a95552d4"
+    },
+    {
+      "path": "research/atom3d/README.md",
+      "bytes": 4935,
+      "sha256": "4a1aaec515cec5c348ac46c219bce9ccc3f499342768fe7f36d29724f14f3a20"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/ATLAS.json",
+      "bytes": 6717591,
+      "sha256": "f750068662db24c8b72f7769eb9a608ba8678e602147502593acbfd6ec6244a6"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/CHECKS.json",
+      "bytes": 354,
+      "sha256": "ac1c3ae810fb821d3e78f7a421e560b7ee8448f4bc0f5ba6de5174a6c48e303a"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/COMPACT_INVERSES.json",
+      "bytes": 85987,
+      "sha256": "871b456690d58afb9992f40406e6339ca14fa09af8cfa424dabd0db13acb9354"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/COMPACT_RESULT.json",
+      "bytes": 2034,
+      "sha256": "e45b30e0c7c808a4feb028f687f165e1419c00084cdd9a50d37aeb41dd4a240c"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_CLI_CHECK.json",
+      "bytes": 565,
+      "sha256": "f5541e46fa905c9487919a7b6cff9d5cb58a307ca665a0ca6c270dc60807fa1e"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_CONTRACT.json",
+      "bytes": 37166,
+      "sha256": "bf81976c4ee7297fa170f74bfda97ff9354f828a36033fd6aabb6c2e01f0e3d8"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DECODER_PROFILE.json",
+      "bytes": 43267,
+      "sha256": "dc31d27ecc82aadcc449c01249cefda918e933e64b812ea61b58aa31fd3778cb"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DELTAS.json",
+      "bytes": 957571,
+      "sha256": "675a9f84a1eaddc83ee08db05f276dc4d39598185c2bd439ae5ec8e4571c7b53"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/DERIVATION.md",
+      "bytes": 4900,
+      "sha256": "268a45e21265d7e53d0167e7b6dc75c541ed9596ec9e504f217879540f0fd07b"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/FRESH_RECOVERY.json",
+      "bytes": 2671,
+      "sha256": "9753fb000c2dbd38aa90554bb0653278b005e49fe8fc7f356e35ad59841af344"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/PROFILES.json",
+      "bytes": 171467,
+      "sha256": "2efa04708376604caddbb025abb3f05cca15cfa5106133dba84268e74fd7ee52"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/README.md",
+      "bytes": 1014,
+      "sha256": "644d430e1173a76dfa19dda581c1bed235ff36d541cb1171ddaca4406b50cce2"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/RESULT.md",
+      "bytes": 5319,
+      "sha256": "a8de6a9bb819c4b89f90fb2be4011118d06da12d352f36f72e38ae1c938994d2"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/SIGNED_SITE_READOUT.json",
+      "bytes": 247,
+      "sha256": "8b3a6dbe25e2bc95b6dd833a6b0d2f50f1a767dc6024b57a10878f51f0c4bec9"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/analyze_atlas.py",
+      "bytes": 8917,
+      "sha256": "7c72bfad09043ddd9a80de269b75f6c614a4030af08d5bcc2e0bf966b8222a35"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/compact_probes.py",
+      "bytes": 5578,
+      "sha256": "e59fa9cc4e258e6abe1dd2fa25adb102e77c0cfdb94ede825f9c589be86ff87a"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/decode.py",
+      "bytes": 1932,
+      "sha256": "c1d8dd8b6047a0b20e5c150078c58cd290156e033d1a74994cb4fa4c0d76557d"
+    },
+    {
+      "path": "research/evidence/A3D41_GEN2_SIGNED_READOUT1/run_atlas.py",
+      "bytes": 5343,
+      "sha256": "d4d53dc790af0d9153fe81490b9ebaf0288defbfb1d6052b11e4395a8e05b259"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/CONTRACT.json",
+      "bytes": 39145,
+      "sha256": "63a1ecaa0bac86cdebbe3753fbf61a303760e95f74dd272fe32f3efc43f8f483"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/DERIVATION.md",
+      "bytes": 3325,
+      "sha256": "ede9b0b287baad990bc89564c8697f1fc23f9bb84d794fb0873e602b6fa272b3"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/FINAL_CHECKS.json",
+      "bytes": 885,
+      "sha256": "ed2e53fd802f019c420aff2a5283c609e7dc5c0dd25c957a57250b5e80e1fb09"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/GEOMETRY.json",
+      "bytes": 18087,
+      "sha256": "9d390f86a02a22b67f1a0179ba2db7db4af1c3a818532d4d9683ffa686696b05"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/GRAMMAR_OUTPUTS.json",
+      "bytes": 14408,
+      "sha256": "52b1ebb8da18a4b8a06e73e1af09f410bd5ef743bda08578a1d744734b0c807d"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_BITSETS.npz",
+      "bytes": 16609,
+      "sha256": "7b2dae953ddf70e69dd32d7457f8e2c91b2c3d6aa4169c2e387935b0becd2673"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/MINIMUM_METADATA.json",
+      "bytes": 2183,
+      "sha256": "b55d807ea8cec51258b34239b2a1e9d2657363065eed380942736719ddf7907a"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/README.md",
+      "bytes": 7270,
+      "sha256": "319950dd18aa81558a0ffe8df1ebd02e0d042a834e931ee648eaf37304ebdc17"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/REFERENCE_EXAMPLES.json",
+      "bytes": 8291,
+      "sha256": "f02c20ebd2abaeb3764e50ab56db33f098fe9d21f53d1e9fdfa5366712b4631a"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/RESULT.json",
+      "bytes": 61338,
+      "sha256": "9c6e2cf349c763539d300a28f81714e95fe3242a50b541e7305d7fd1f701d0ef"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/TECHNICAL_MAP.md",
+      "bytes": 5205,
+      "sha256": "36e20523344db7362d55584a4148cee3daa1ff4a6125914227b91c09da3f017d"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/VALIDATION.json",
+      "bytes": 18714,
+      "sha256": "0df7065724a15d6c5dc85626eded0f54058335defa98f3d8c7537389c2505a04"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/analyze.py",
+      "bytes": 13362,
+      "sha256": "8ea0f92d5109a21a310f0fd5bcf7e9748466040b738f74051c10d84ef7d932bb"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/derive_selection.py",
+      "bytes": 2267,
+      "sha256": "24e95a6e3a3055f478a9605d168460f73ab3ced513de5fbfefda5f4ba0493a5e"
+    },
+    {
+      "path": "research/evidence/A3D41_LI6_GRAMMAR_ASSEMBLY1/prepare.py",
+      "bytes": 13363,
+      "sha256": "e7bd449df7c4ab482df33e35935e4ca8953b02de1196f3d3dce45df56356cf2b"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/CONSTRUCTION_KNOWLEDGE.md",
+      "bytes": 2157,
+      "sha256": "c4d361cb317862274a0e0af438b31469eead95fcd8a26b3d96b41d42225ac5ae"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/DOMAIN_FEEDBACK_R7.md",
+      "bytes": 6775,
+      "sha256": "9d278fb520ec5dfa77b9b0533c485a98a72343166125edcb615ba890c50cca10"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_FEEDBACK_COMPLETION.json",
+      "bytes": 15341,
+      "sha256": "9f9409dcb7944887efa2ce586f7728f70a2b8c42f752a4fe23f17885ff8da4b5"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_DOMAIN_QUALIFICATION.json",
+      "bytes": 31731,
+      "sha256": "a54e81751c7bbd5ede6cd33a2bc8bc32d3aaba1f4f3547a5a50e39b4adeb4305"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_DOMAIN_FIT.json",
+      "bytes": 38763,
+      "sha256": "c951aaa20adca935f5554470fc780a80e14d8757921876a8f67dc2c8f944c281"
+    },
+    {
+      "path": "research/evidence/GEN3_RXT_RH_WEEKEND1/results/R71_FINAL_RH_LEARNING.json",
+      "bytes": 26660,
+      "sha256": "d6c38e70ddae5e4ce41b7768a7791e51afd7f531bad90625edb24fa5b3a76257"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/INTEGRATED_EXAMPLE.json",
+      "bytes": 4198,
+      "sha256": "976710b5a5129f7a4903dc1dc06a8796d74b1af9330343662cb620362ad50719"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/NATIVE_CYCLE_RESULTS.json",
+      "bytes": 1075829,
+      "sha256": "ba8877d680640e53ffd890b58d77f0c8cbb028abf0c5174a43afbc81df97fd74"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RECOVERED_HISTORY.json",
+      "bytes": 10749,
+      "sha256": "70ff6241716db0006d4d53b990b04660031a32a32a78bbcae419c7b3ad3cd71c"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.json",
+      "bytes": 1493,
+      "sha256": "fd354c1ff892eb603ff770568b917ee6cdbae4ac358888f1ae670e35a7619ab9"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/RESULT.md",
+      "bytes": 4668,
+      "sha256": "141070f070669ad75c095144fb26ebd62a84d87f6c8001e7b34c2909825f1318"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/TEST_PREDICTIONS.npz",
+      "bytes": 299269,
+      "sha256": "90fdc13db2195d42ee23aa360b6cd42e86adee2c8bd2fee567bd22dfe6387d9c"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/library_extension/QUALIFICATION.json",
+      "bytes": 473,
+      "sha256": "830ad61e7e434313aea0125a8ffdfbde35ef9cc8c59b6dffa270cfb583bc595e"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify.py",
+      "bytes": 10314,
+      "sha256": "a0bb5fe1fcd622b3da3b35a85e03af98a80064de751f628dbd48d14c07262961"
+    },
+    {
+      "path": "research/evidence/STARBREAKER_GEN3_ACCUMULATION_LEARNING1/qualify_library.py",
+      "bytes": 4985,
+      "sha256": "e92d89ed1bf7553dc851cefdbd1cd0f44b3c7bc7ae1aa23deef88f42c8211db8"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/DERIVATION.md",
+      "bytes": 2685,
+      "sha256": "f193ef9a1a33164efae2d7b7a5237517d5887ad482fba4cb12338163b0837de4"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/EXPERIMENT_CONTRACT.json",
+      "bytes": 1846,
+      "sha256": "2db7b3b252f83487881b96bd4898dc53480123fdfd1bdedabe937a4783e83ef7"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/MOTIVATING_PAIR_READBACK.json",
+      "bytes": 10026,
+      "sha256": "4c01990e1a3cc9a89d65fa839465b677db035caf219a65152cca866d5aaaf4e3"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/PHYSICAL_EXTENSION_MAP.md",
+      "bytes": 6518,
+      "sha256": "59be6a855c90d53e72ba198dd0663a0ce00353d27d39a8442b4c16521d8f0826"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/README.md",
+      "bytes": 907,
+      "sha256": "b12f7c7a8c5a2f94b8888915b42754e5ebc0ce785e1e29ec4a0485a2948c6cd2"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/RESULT.md",
+      "bytes": 9337,
+      "sha256": "0372faa092197af43321c2dcd7c28cf0971d4e2a71d9ca7c53ae3132e99900cb"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/custody.py",
+      "bytes": 4194,
+      "sha256": "c2b966d09ebba453bd61221edf4471e4d93582e4d6eb0f4b00e9c0cc62d85766"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/independent.py",
+      "bytes": 13310,
+      "sha256": "f50cb0e79934e17faf95990ca6e204fb2abeb36a0cb6e5788f4f767862dd05a2"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/executors/v1/primary.py",
+      "bytes": 12335,
+      "sha256": "94b14035b64fd674064e3462c9624865ce0f9435a46dc0706b4425d94e0f5e2c"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run001/FAILURE.json",
+      "bytes": 203,
+      "sha256": "bf9a0977da62b81364e8d78589e9359d43e809ad023120f07473cd0d063a9b6a"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/INJECTIVITY_CERTIFICATE.json",
+      "bytes": 38346,
+      "sha256": "212496becad987fc3a0ed58cff5dca91a4a42bce77607651e09fc3c6bed3fb88"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/NATIVE_WORD_RECEIPTS.jsonl.gz",
+      "bytes": 62508,
+      "sha256": "e868f49ab1c5b05837c1076fcee8d3ce9bc981ec1cba8e2f44302ec3a634ff1c"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/RECEPTION_INVERSE.jsonl.gz",
+      "bytes": 7039622,
+      "sha256": "d8f4a37887f663e032faa63d68d8bc7661e8cc23e53ea53396d00d4b0c82bce2"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/SUMMARY.json",
+      "bytes": 1624,
+      "sha256": "c79034e838c0373e47ef0e57d156e2845e48e31c4549e7e7ccd4e55720c29786"
+    },
+    {
+      "path": "research/evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/independent/VERIFICATION.json",
+      "bytes": 915,
+      "sha256": "74c1acfe2b85e06d4111d9724cb888e46c76a1a6fb2c18bc203f5527e755e66d"
+    },
+    {
+      "path": "research/gen3-rxt/README.md",
+      "bytes": 2892,
+      "sha256": "2a22cd6edbd15d6105348c34d878cc5dcf6c82e0416821afe9d668418567463e"
+    },
+    {
+      "path": "research/gen3-rxt/native/CMakeLists.txt",
+      "bytes": 1545,
+      "sha256": "c647267926012cc6abf1fe40a07a94467c7d4c8655b72fbe89826efd91da07bc"
+    },
+    {
+      "path": "research/gen3-rxt/native/NATIVE_UPDATE_MANIFEST.json",
+      "bytes": 3572,
+      "sha256": "0abf01f2b28342af671760410f8f6e76e5e82c2595b2ffcb936135438049e7c7"
+    },
+    {
+      "path": "research/gen3-rxt/native/examples/priority_job.json",
+      "bytes": 4593,
+      "sha256": "b522fcca7ff9722647725f94832966d8dea6d53cb287345f65c5661338be4b40"
+    },
+    {
+      "path": "research/gen3-rxt/native/examples/status.json",
+      "bytes": 37,
+      "sha256": "14ed38a2dad177e6b4cf1d8b591a74cc1345967dec797849517d36cb566cdfb3"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/BUNDLE.json",
+      "bytes": 572,
+      "sha256": "d1841aabe6139e233ea37427e0b66947efc3191b394812757be68647eff6e29a"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/AR1_ATLAS.jsonl",
+      "bytes": 13220,
+      "sha256": "1698276730d4ab07d1801dc66098c67f2fe6c3b9d208aa370593d73ab6c79dbf"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/AR1_CORE.py",
+      "bytes": 9038,
+      "sha256": "9aa98074195416d402c0f42e3b5649e99ccf316a0b0c90372da327b2ec0816b6"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/AR1_LIFECYCLE.jsonl",
+      "bytes": 10964,
+      "sha256": "3483522766609ecf144936fe505609648868144df0511fa173095fbec2dfe266"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/BUNDLE.json",
+      "bytes": 1015,
+      "sha256": "419be9f9c3eceb8e1a3e65f73dd4350aee927933b411bd9c4620932ab01deaa2"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_CORE.py",
+      "bytes": 13010,
+      "sha256": "2d69a1902dd8495ebe65784387a59f446f3400d0e9deb6bfedb18483afedb6d0"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_EXPECTED.jsonl",
+      "bytes": 56210,
+      "sha256": "90757073b67bf811c41197810236a449e48dcec7175512eee4a780f316fb8619"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/horizon/FORM0_SPECS.json",
+      "bytes": 6625,
+      "sha256": "cf841f0e90f256a40b56befb650ee9bdd564b9efd370d5a6aba747cae8da1843"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/ACCUMULATION_DERIVATION.md",
+      "bytes": 5963,
+      "sha256": "02b78c0d47b0fecc6aa902e6eb0c640dedb361663851cc85896a8624378ca043"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/ACCUMULATION_RESULT.md",
+      "bytes": 7485,
+      "sha256": "dfc50e45de74fb6a5e487cc26f59b16df32074c2b1e95ff764e4c59a039ebb63"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/BUNDLE.json",
+      "bytes": 2119,
+      "sha256": "f5c6e260ecc500254ae3c8a12f2bb7c70735e4a7b5ea855a9580e2649febd332"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/FORMULA_HISTORY.json",
+      "bytes": 31840,
+      "sha256": "5e944aa4a1035b81c7fef404a8e5bcdfafa4985632d0c80fac05e25c71927fea"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/FORMULA_PACKET.json",
+      "bytes": 21618,
+      "sha256": "c10a419819b35a0bed8af21038267c9d96dc1519570226303d0a2e1808d35a5f"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/GROWTH_TARGET.md",
+      "bytes": 5036,
+      "sha256": "1188f0ba6cbc007bfba8dffc1830b2580d7ed9b49ef2d99dd0023809f57147ad"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_GROWTH.py",
+      "bytes": 29745,
+      "sha256": "519d0bb3aa5e85f542e50680bab04a22cff51a6a0782b5f4435473fb1e054979"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_REPRESENTATIONS.py",
+      "bytes": 11906,
+      "sha256": "33e84698fd66d4c8c254cb5cebc2215ccdf663db257a6582a632f62c415532da"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/PREDECESSOR_WORKER.py",
+      "bytes": 4442,
+      "sha256": "5f2c04bd12716f773707cc203e66422ae7a08cbf79cad71344427aa6e2dea93d"
+    },
+    {
+      "path": "research/gen3-rxt/native/source/rh/WEIGHTED_CUT_DERIVATION.md",
+      "bytes": 5414,
+      "sha256": "cf2c371831369ec051f366043f3d61ecf442cb2f3d40ff0b86aa094c3871e4b1"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/atom3d.cpp",
+      "bytes": 35132,
+      "sha256": "c5906ed0a8e6e6586e8a8d97692d337f33b7e6c050060a0722d815353b0e5085"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/atom3d.hpp",
+      "bytes": 1139,
+      "sha256": "c2df935807e577f2e4b562f3b12926c47e0e6b20351a0ddbc74eaf98cb559c24"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/atom3d_backend.hpp",
+      "bytes": 2297,
+      "sha256": "bc5050e63cf300c8028571b90c53bd52d6134d53933037ae094cc346c9354ee5"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/atom3d_binding.hpp",
+      "bytes": 148,
+      "sha256": "d12fc3466b3cf6a80135315375415f93403e21628ad5721a74a2b44a5e000cdc"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/atom3d_cuda.cu",
+      "bytes": 16654,
+      "sha256": "d64be915a6f61accd6af27412f19047b2e4d2c87a19caee2c7eae7b84c4d3e34"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/backend.hpp",
+      "bytes": 1760,
+      "sha256": "d55de64a26c0027108bad4d7007d82a389feba2f0779cdc88697e321925e2937"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/campaign.cpp",
+      "bytes": 8092,
+      "sha256": "1c9fd694e01fb353d5a2188549d55f9bfd9af00a53b48a6d1e84ab89232ce7e8"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/construction.cpp",
+      "bytes": 20236,
+      "sha256": "81b45d22ca9907f614c0692064c02f4499a1dade47281c5981bffa96a0664b97"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/core.cpp",
+      "bytes": 10502,
+      "sha256": "9ccb7b1d1eef64a37689c767ea127d9c1e674348e791bf657bcb2e346bc47055"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/core_binding.hpp",
+      "bytes": 139,
+      "sha256": "ef5f4419f1876d3b3f63470de8f4d1a3d40f9db653f91cc5308a7de0dc79924e"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/cuda.cu",
+      "bytes": 8473,
+      "sha256": "b4abc57204b4476c7950657720a5ffd7a64243e5e7a246257041887be93256b3"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/engine.cpp",
+      "bytes": 49741,
+      "sha256": "1cf9fbd3246b1053beb4e58089e90604770bc79f775f6d00dc3537f70c6df33c"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/engine.hpp",
+      "bytes": 3455,
+      "sha256": "bdf5971ec1e21aa78069a7f695ecd067e1d42a566251a3d462bbe348ba238e63"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/horizon.cpp",
+      "bytes": 16108,
+      "sha256": "a4563fd182e0fde8d9c78ad34c210918b089489945dcac3e0eb7b9664c84f09b"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/horizon_binding.hpp",
+      "bytes": 140,
+      "sha256": "c4076acda9b207a31e48908a569fe47d7a8ffba02587a270c186aec4130a2aea"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/joint.cpp",
+      "bytes": 16943,
+      "sha256": "8f94a56df9c66ac3916aa834056a6991604dc30de469a0ac1f33036fd96570cc"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/joint_binding.hpp",
+      "bytes": 138,
+      "sha256": "143f049e39d660457cac56d53995b3d0e05157502e4180f7e19b1120145f9c4f"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/knowledge.cpp",
+      "bytes": 7664,
+      "sha256": "24c8040689340bed44be2b2663fdb19080f3e2780a4a6bb5be87819cf9d2ce5c"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/knowledge.hpp",
+      "bytes": 606,
+      "sha256": "f082ea817a6153d7727d9f534de931077db9b22dd408e4ed5fdcd2d95e5a13ae"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/main.cpp",
+      "bytes": 8046,
+      "sha256": "32bb8d875fa05639ab36f53bcbfd1ec654396d8750d37401dd0d714ed4570eac"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/memory_headroom.hpp",
+      "bytes": 905,
+      "sha256": "658297d3a0529e83ae05da22f7f6e4fa1baae92b8d9e46b5a351febbe611f5bc"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/rh.cpp",
+      "bytes": 29462,
+      "sha256": "252788fccf82fd668abce1f894a1a7fe55310ed785728a9879e828e3c32116e9"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/rh.hpp",
+      "bytes": 437,
+      "sha256": "eaa952aa57c34170f1b0168585433bddae85c75c9db33603a27075c6a31425c5"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/rh_binding.hpp",
+      "bytes": 181,
+      "sha256": "2eb38f61ca16736d67e9b0cd176c418e6b92633016e27346fd31fee013a0183a"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/rh_envelope.hpp",
+      "bytes": 1368,
+      "sha256": "ad6d887a343d58588e0a6d47fe32925fea131b5bb7dfc3865a86ced2c65f2ce3"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/service.cpp",
+      "bytes": 5499,
+      "sha256": "6d409424f7375cb3bda1d1ddf0b6e3722c7ccb413490380d917c8f421a834443"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/service.hpp",
+      "bytes": 270,
+      "sha256": "a0e39e2ac8deab84b616f5c0107c7866d5e39ad2523203aeefd41bad6099f263"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/signed_energy.hpp",
+      "bytes": 1617,
+      "sha256": "948c601cf13a5691ff751bb61ddafbc3237ddfe2f0750a13775ff8f3e3435a08"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/starbreaker.cpp",
+      "bytes": 28475,
+      "sha256": "5b39b79edc731ba63dc6d086297087b1a33fb4590ed7be4d3dc77f44213daf6f"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/starbreaker.hpp",
+      "bytes": 1357,
+      "sha256": "ca945c715e65b00072f90312e9b86ca31b296fc2ac57a6d505410d90715552d9"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/starbreaker_backend.hpp",
+      "bytes": 1159,
+      "sha256": "3e8d53f3aa9b3c9d6690a7dbbea9bc4ceff308878b9f86c3351c0c190ae3fd5b"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/starbreaker_binding.hpp",
+      "bytes": 137,
+      "sha256": "b5b6e9431f84491ea402dae8d11ab19f928211c8304075b7fe5df8444972c03f"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/starbreaker_cuda.cu",
+      "bytes": 6249,
+      "sha256": "3623eedbd287cb82aac0dec3ab0694c2ffab2ad863ac04fdd93a3ceb1c6a60cc"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/training.cpp",
+      "bytes": 23113,
+      "sha256": "1376095d830b2d5205d33d977e535690b466be9e0a58251fcbe11be2a2fd5794"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/training.hpp",
+      "bytes": 644,
+      "sha256": "8ee834c4e054ef743710b0b10d79a4b4275f0da75c16174012a8d001370d26bb"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/training_binding.hpp",
+      "bytes": 141,
+      "sha256": "97282ae7f0fb467578d3b33c797a2f3980be8bbc019eb082ed9bb3e8ff913aea"
+    },
+    {
+      "path": "research/gen3-rxt/native/src/transfer.cpp",
+      "bytes": 15525,
+      "sha256": "00ddd927931f5ebeddc44fde5e6e237e51eaf82c701f1fd59a23d6d3878bc6b5"
+    },
+    {
+      "path": "research/gen3-rxt/native/tools/build.sh",
+      "bytes": 567,
+      "sha256": "a9fa286ddb96e0d176652931a25839672a90935e075dbb6a24ce1ca18118992a"
+    },
+    {
+      "path": "research/gen3-rxt/native/tools/qualify_memory.cpp",
+      "bytes": 783,
+      "sha256": "1265f502b6f973a01633cca400c7a9b2d1d0a31c1e95ccb34679034881399796"
     },
     {
       "path": "research/mersenne/README.md",
@@ -41003,13 +41653,78 @@
     },
     {
       "path": "research/rh/DATA_ASSETS.json",
-      "bytes": 566,
-      "sha256": "aaa1b1affb62aabde8c2f004832aca17007caf4c3d9afe8740df00e8a609c875"
+      "bytes": 721,
+      "sha256": "4bff4c79fe529af43efeef79c860e12ee964c5eebb7d3f1c269424e9a3032db1"
     },
     {
       "path": "research/rh/README.md",
-      "bytes": 4236,
-      "sha256": "5d8b1f4f7b66ba68ad898080cbb504fc3f0f4d39f44d3dd866a7b56b9eb2c005"
+      "bytes": 4789,
+      "sha256": "c0c93e4b3e83edd3214b9eba6b1b9cdff200416e29e914e559bf132d6ab74a5c"
+    },
+    {
+      "path": "research/rh/check/PREFIX_CERTIFICATES.json",
+      "bytes": 129855,
+      "sha256": "f65aa422582fdf3a8fe4f717c6efbea1034d3c1eb6f791cd1536baecbf2dba62"
+    },
+    {
+      "path": "research/rh/check/README.md",
+      "bytes": 2982,
+      "sha256": "2f00aa84ce28bb30b53c2e1a102b67f10b0a98c531dc640252bb0a8d0c7cb590"
+    },
+    {
+      "path": "research/rh/check/VERIFICATION.json",
+      "bytes": 848,
+      "sha256": "4656fb730235c4d5ca9dc14a69d6e8fa1f1e76d70573f8bb0ec825c0f291390b"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/base.cpp",
+      "bytes": 6484,
+      "sha256": "84964feb16c5492f59c1d842d1055780b8b06e989c100602027cebfeacc08172"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/campaign.cpp",
+      "bytes": 7403,
+      "sha256": "f7f628f3c57908f2712203d0880694f72b301556cd49f970abed83077e069f2f"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/discrepancy.cpp",
+      "bytes": 2056,
+      "sha256": "1ea3febd191bf38f7a79142bb435d2dcd64887a2b17c56c4e379ee6dfe2d3cf7"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/forcing.cpp",
+      "bytes": 10478,
+      "sha256": "35553c4c71d2443bc10a57956fb171405e91ad040b6619248066ecb4d63d2d29"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/prior.cpp",
+      "bytes": 15596,
+      "sha256": "4508a8c94f8a5fc8455acbfa9702bea5a7f2879db328d1192303031092ee85e5"
+    },
+    {
+      "path": "research/rh/check/original/extensions/forcing_prospective_r1/search.cpp",
+      "bytes": 8378,
+      "sha256": "fc3ec0c4a6b10f3014f95e4d42066503215ddc520324a6c4b1bea228bfe5c1e8"
+    },
+    {
+      "path": "research/rh/check/original/results/forcing_prospective_r1/CONTRACT.json",
+      "bytes": 1198,
+      "sha256": "7db0b650b15f1ed4deb7e5bbcfe375cb57853ffcd4df7957786e789344db064c"
+    },
+    {
+      "path": "research/rh/check/original/results/forcing_prospective_r1/EVALUATION_S4096.json",
+      "bytes": 624346,
+      "sha256": "71381a16cb684a39424662cd2285d2cc5189f3a5eb7525fc1c81497ad1d54e61"
+    },
+    {
+      "path": "research/rh/check/original/results/forcing_prospective_r1/INDEPENDENT_CHECK.json",
+      "bytes": 176,
+      "sha256": "dcf8ce3a5fdbae27549e424cfce9e187db0ccd4d85a8cfbdc45d13fdf66460f3"
+    },
+    {
+      "path": "research/rh/check/verify_retained_history.py",
+      "bytes": 5857,
+      "sha256": "4d5d6e86fb6bd98055b8e54d75dccc38ed8dd855782d1673eb653514ba011f50"
     },
     {
       "path": "research/rh/notes/DYADIC_FORCING_ENERGY_R1.md",
@@ -41060,6 +41775,11 @@
       "path": "research/rh/paper.pdf",
       "bytes": 177908,
       "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f"
+    },
+    {
+      "path": "research/starbreaker/README.md",
+      "bytes": 4889,
+      "sha256": "a83e1ef447bca69ec65e9db48acce88cf0f958846e1421edace5432f9779ec2b"
     },
     {
       "path": "slc_gen2_r4/__init__.py",
@@ -41131,5 +41851,6 @@
     "SAMA/LICENSES/README.md": "d779a69ca8ce6efe295caccecd3eaabedc54b211"
   },
   "self_excluded": true,
-  "research_update": "2026-09-14"
+  "research_update": "2026-09-14",
+  "current_research_edition": "2026-09-14 SAMA, Starbreaker, ATOM3D and native R7.1"
 }

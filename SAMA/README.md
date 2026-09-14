@@ -44,3 +44,7 @@ Sean Brady is the originator and conceptual director. OpenAI ChatGPT and Codex
 are credited as AI research collaborators and co-authors.
 
 [Copyright and licence](LICENSE.md) · [Attribution](NOTICE.md) · [Stewardship](STEWARDSHIP.md)
+
+## Current research edition — 14 September 2026
+
+All four volume entry points and 81 chapters now distinguish the current research from their retained source-era derivations. Read [Starbreaker code and results](../research/starbreaker/README.md), [ATOM3D code and results](../research/atom3d/README.md), [the current RH paper](../research/rh/paper.md), and [Mersenne research](../research/mersenne/README.md). Volume III carries current SLC-GEN3-R3 computation; Volume IV carries the original signed-growth target, forcing-energy route and R2 paper. The complete-volume editions include these revisions. Original atomic review fields and copied Courtroom evidence retain their identities.

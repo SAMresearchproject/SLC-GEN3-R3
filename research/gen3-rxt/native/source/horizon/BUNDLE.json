@@ -1,0 +1,22 @@
+{
+  "authority": [
+    "H000845",
+    "H000850",
+    "H000797"
+  ],
+  "coupled_information": "A3D41 construction/SB history may be carried as zero-credit source references; scalar masses remain separately supplied native source quantities.",
+  "files": {
+    "AR1_ATLAS.jsonl": "1698276730d4ab07d1801dc66098c67f2fe6c3b9d208aa370593d73ab6c79dbf",
+    "AR1_CORE.py": "9aa98074195416d402c0f42e3b5649e99ccf316a0b0c90372da327b2ec0816b6",
+    "AR1_LIFECYCLE.jsonl": "3483522766609ecf144936fe505609648868144df0511fa173095fbec2dfe266",
+    "FORM0_CORE.py": "2d69a1902dd8495ebe65784387a59f446f3400d0e9deb6bfedb18483afedb6d0",
+    "FORM0_EXPECTED.jsonl": "90757073b67bf811c41197810236a449e48dcec7175512eee4a780f316fb8619",
+    "FORM0_SPECS.json": "cf841f0e90f256a40b56befb650ee9bdd564b9efd370d5a6aba747cae8da1843"
+  },
+  "operations": [
+    "FORM0_EVENT_GRAMMAR",
+    "AR1_NORMALIZED_RADIUS"
+  ],
+  "schema": "SB_RXT_NATIVE_HORIZON_SOURCE_V1",
+  "units": "Exact source-native ratios; no SI time or emission rate assigned."
+}

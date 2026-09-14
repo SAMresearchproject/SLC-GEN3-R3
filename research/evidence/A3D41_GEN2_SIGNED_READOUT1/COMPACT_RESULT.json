@@ -1,0 +1,132 @@
+{
+  "all_matching_tuples_in_searched_roster": [
+    [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        -1
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        -1
+      ]
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        -1
+      ]
+    ],
+    [
+      [
+        3,
+        1
+      ],
+      [
+        6,
+        -1
+      ]
+    ],
+    [
+      [
+        3,
+        -1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        -1
+      ],
+      [
+        6,
+        1
+      ]
+    ]
+  ],
+  "chosen_probes": [
+    [
+      2,
+      1
+    ],
+    [
+      5,
+      -1
+    ]
+  ],
+  "decoded_configurations": 192,
+  "minimum_scalar_action_probes": 2,
+  "native_calls": 326,
+  "profile": {
+    "augmented_map_injective": true,
+    "expected_hidden_information": {
+      "evaluated_bits": 0.0,
+      "evaluated_nats": 0,
+      "exact_nats": "0",
+      "prime_log_coefficients": []
+    },
+    "expected_receipt_container_bits": 0.0,
+    "fiber_strata": [
+      {
+        "exact_information_weight": "0",
+        "fiber_multiplicity": 1,
+        "receipt_container_bits": 0,
+        "visible_output_count": 192
+      }
+    ],
+    "input_count": 192,
+    "morphism_id": "8ad75beb01f0c83ff25454178858f61bef20bce79f68040f1638aa1bf1d0bbe0",
+    "name": "GEN2_TARGET:e8c236a4fec08e21fb956b912692f7dc124a0802494cc02fbe91036f467fc5dc",
+    "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+    "visible_map_injective": true,
+    "visible_output_count": 192,
+    "worst_case_hidden_information": {
+      "evaluated_bits": 0.0,
+      "evaluated_nats": 0.0,
+      "exact_nats": "0",
+      "multiplicity": 1,
+      "prime_exponents": []
+    },
+    "worst_case_receipt_container_bits": 0
+  },
+  "search": "ALL_153_SIGNED_PAIRS",
+  "status": "PASS",
+  "with_signed_site_bit": true
+}

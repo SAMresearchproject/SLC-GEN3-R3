@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "observations": [
+    247727778763,
+    99767836844,
+    1
+  ],
+  "expected": {
+    "assignment": 0,
+    "cover": 3,
+    "state": 14336
+  },
+  "result": {
+    "members": [
+      {
+        "assignment": 0,
+        "cover": 3,
+        "state": 14336
+      }
+    ],
+    "member_count": 1,
+    "rho": 1,
+    "observations": [
+      247727778763,
+      99767836844,
+      1
+    ],
+    "session": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43"
+  }
+}

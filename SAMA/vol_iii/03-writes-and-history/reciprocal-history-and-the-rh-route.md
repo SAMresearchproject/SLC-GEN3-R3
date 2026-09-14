@@ -2,6 +2,17 @@
 
 # Reciprocal History and the RH Route
 
+## SLC-GEN3-R3: current computation — 14 September 2026
+
+SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+
+[Current derivations, code and results](../../../docs/ARCHITECTURE.md).
+
+## Retained source-era derivation and results
+
+The following development retains its original experimental context and revision fields. Historical engine selections and campaign status in this source-era account are superseded by the dated current section above.
+
+
 ## Conceptual abstract
 
 Reciprocal History begins with paths, not scalar state counts. On the unchanged

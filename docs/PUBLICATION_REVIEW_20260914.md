@@ -1,0 +1,9 @@
+# Public repository review — 14 September 2026
+
+The follow-up review covers all four SAMA volume entry points, branch introductions, 81 chapter narratives and four continuous editions, together with the root and research navigation. Volume III carried source-era SLCQ2/SLCQ3 selections and older MP/Starbreaker status. Volume IV selected the earlier moment-adapter/transversality route and carried an older closure label. The maintained edition supplies the current domain selection and current result context in each chapter; the RH status chapter is replaced with the original signed-growth task and present forcing-energy route.
+
+Starbreaker and ATOM3D now have dedicated sections with native R7.1 C++/CUDA source, build configuration, immutable domain input bundles, simulation outputs, learned-policy results, derivations and implications. The source export manifest identifies every copied artifact. The chapter-edition manifest identifies revised text while preserving the original migration manifest and atomic review fields.
+
+The original 5,340 Courtroom source files, 1,246 indexed test identities, legal documents and frozen qualification records remain historical evidence. Source-era material inside chapters is explicitly dated in relation to the current edition. This review updates public research presentation; it does not change recorded experimental outcomes or claim that every private result or checkpoint is included. Exact reproduction dependencies are described in the reproduction guide.
+
+The owner-selected headline is the concrete executable retained-history check. The standalone independent checker reproduces three prefix-only certificates, all 8,193 scale8192 coarse prefix energies and excesses, witness source hashes and fine energies, and the exact signed transport identities. Its recorded verification passes. SAMA and MP remain supporting context.

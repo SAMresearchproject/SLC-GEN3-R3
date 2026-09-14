@@ -1,5 +1,13 @@
 # Volume II — Matter
 
+## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+
+A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+
+[Current derivations, code and results](../../research/atom3d/README.md).
+
+
+
 [SAM](../README.md)
 
 This volume develops the matter side of SAM: how finite structures are described, how particle and nuclear families are organized, and how binding, carriers and reception enter the research.

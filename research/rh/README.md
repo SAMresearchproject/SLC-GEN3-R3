@@ -1,5 +1,8 @@
 # Riemann Hypothesis research
 
+**Start here: [check executable retained history](check/README.md).** Rebuild the short-horizon certificates from prefix-only state without future Möbius signs, then check the signed transport identity against the [downloadable scale-8192 data](https://github.com/SAMresearchproject/SLC-GEN3-R3/releases/download/research-2026-09-14/COVERAGE_S8192.json.gz). A standalone exact checker, original native code and recorded certificate outputs are included. The broader SAM volumes and paused Mersenne campaign are supporting context, not prerequisites.
+
+
 **Updated 14 September 2026.** The controlling mathematical task remains
 uniform signed-growth control for the actual Möbius source on the original
 common sequence. Signed prefix growth, full-energy control and forcing-excess

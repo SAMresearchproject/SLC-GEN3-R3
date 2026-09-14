@@ -1,0 +1,952 @@
+{
+  "status": "PASS",
+  "binding": {
+    "basis_domain": "RH-GEN3-GROWTH-V4 + A3D41-T18-CONTACT-R2 + SB-GEN3-ACCUMULATION-R1",
+    "basis_global_slc": "SLC-GEN3-R3",
+    "binary_sha256": "cb787ca613888a20e0b7f4e55dba9d0e22adddae2339efeed5d39a0217d21fc7",
+    "bundle_sha256": "d1841aabe6139e233ea37427e0b66947efc3191b394812757be68647eff6e29a",
+    "core_manifest_sha256": "573e4b4364d93edec890bcdd8567df5391117bef4d09bb633acc8d3f6f027e68",
+    "engine_ownership": "Native C++ acquired relations, observation branches, exact learning and accumulation; CUDA construction and policy execution",
+    "execution_engine": "GEN3-RXT-R7.1",
+    "execution_mode": "POD_CUDA",
+    "horizon_bundle_sha256": "419be9f9c3eceb8e1a3e65f73dd4350aee927933b411bd9c4620932ab01deaa2",
+    "native_revision": "RH-GXT-R2 + RH-TRANSFER-R1 + A3D41-RXT-R3 + SB-GEN3-RXT-R2",
+    "schema": "SAM_SOURCE_BOUND_DOMAIN_SUCCESSOR_V1",
+    "state": "/var/tmp/gen3-rxt/qualification/R71_DOMAIN_FEEDBACK1",
+    "training_bundle_sha256": "8f7637984c07f9b38ba040131027c597f3974355913dd71ce6448b475e349d80",
+    "rh_bundle_sha256": "f5c6e260ecc500254ae3c8a12f2bb7c70735e4a7b5ea855a9580e2649febd332",
+    "native_build_manifest_sha256": "eb56f1d24524c0ba33c7fd80c2279677d44029fbb99d98c08f01802a7d7366bb",
+    "c1_derivation_sha256": {
+      "0004_UNIFORM_GEOMETRIC_VARIATION_BOUND.md": "a03300d38f8e1c6acb14c00b9599c6fbb256c7bfe99bc971409da7caa5b9a20e",
+      "0005_SOURCE_COUNT_AND_SIGNED_PAIR_SPREAD.md": "1b20ee420c8f33b23287105123a851f6b134a906f98d354f18bc058c8616d58d"
+    },
+    "learner": "NATIVE_CLASS_BALANCED_CART_WITH_ACQUIRED_POLICY_FALLBACK"
+  },
+  "session": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/r71_qualification_sessions/RH_0603e2e82b7d4c0e814170142c29c091",
+  "fixture": {
+    "checks": 3,
+    "model": {
+      "class_weights": {
+        "negative": 10,
+        "positive": 90
+      },
+      "depth": 1,
+      "development": {
+        "balanced_accuracy": "8/9",
+        "correct": 80,
+        "exception_witnesses": [
+          {
+            "row": 10,
+            "split": 1
+          },
+          {
+            "row": 11,
+            "split": 1
+          },
+          {
+            "row": 12,
+            "split": 1
+          },
+          {
+            "row": 13,
+            "split": 1
+          },
+          {
+            "row": 14,
+            "split": 1
+          },
+          {
+            "row": 15,
+            "split": 1
+          },
+          {
+            "row": 16,
+            "split": 1
+          },
+          {
+            "row": 17,
+            "split": 1
+          }
+        ],
+        "positives": 10,
+        "rows": 100
+      },
+      "fit": "NATIVE_CPP_EXACT_GMP_CLASS_BALANCED_CART",
+      "selection": "development balanced accuracy; shallower on tie",
+      "test_rows_reserved": 100,
+      "training": {
+        "balanced_accuracy": "8/9",
+        "correct": 80,
+        "exception_witnesses": [
+          {
+            "row": 10,
+            "split": 0
+          },
+          {
+            "row": 11,
+            "split": 0
+          },
+          {
+            "row": 12,
+            "split": 0
+          },
+          {
+            "row": 13,
+            "split": 0
+          },
+          {
+            "row": 14,
+            "split": 0
+          },
+          {
+            "row": 15,
+            "split": 0
+          },
+          {
+            "row": 16,
+            "split": 0
+          },
+          {
+            "row": 17,
+            "split": 0
+          }
+        ],
+        "positives": 10,
+        "rows": 100
+      },
+      "tree": {
+        "classification_threshold": "1/10",
+        "feature": 0,
+        "left": {
+          "n": 70,
+          "positive": 0,
+          "probability": 0,
+          "witness": {
+            "row": 30,
+            "split": 0
+          }
+        },
+        "n": 100,
+        "positive": 10,
+        "probability": "1/10",
+        "right": {
+          "n": 30,
+          "positive": 10,
+          "probability": "1/3",
+          "witness": {
+            "row": 0,
+            "split": 0
+          }
+        },
+        "threshold": 0,
+        "witness": {
+          "row": 0,
+          "split": 0
+        }
+      }
+    },
+    "status": "PASS"
+  },
+  "restored_R7_learning": true,
+  "fit": {
+    "checkpoint": {
+      "record": "a8539b4d010c8f24ab726028b091d52c3281f87c89f323d91d87eb7ce3a055f2",
+      "root": "f260be59dac75c9fb56ac8c236f0bb1b871fa628e64d93fcbd004de99e40b57c"
+    },
+    "models": {
+      "A3D41_COMMON_MINIMUM": {
+        "class_weights": {
+          "negative": 161,
+          "positive": 12
+        },
+        "depth": 2,
+        "development": {
+          "balanced_accuracy": "11/12",
+          "correct": 29,
+          "exception_witnesses": [
+            {
+              "family_id": 4330993,
+              "intersection": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "405",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "273",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 4355977,
+              "intersection": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "5049/4",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "4161/4",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 518334,
+              "intersection": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "933",
+                  "set": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "647",
+                  "set": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 555103,
+              "intersection": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "1929/2",
+                  "set": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "1333/2",
+                  "set": "1bc021021c1640de1833eafe16c547e0e20c6f7d5d05c58a526c7884462bc3a2",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 863868,
+              "intersection": "1425ae833b86814fde3415d6abafc09d0209c6cf8e725b17926f510869a029d9",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "969",
+                  "set": "1425ae833b86814fde3415d6abafc09d0209c6cf8e725b17926f510869a029d9",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "671",
+                  "set": "1425ae833b86814fde3415d6abafc09d0209c6cf8e725b17926f510869a029d9",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          ],
+          "positives": 30,
+          "rows": 34
+        },
+        "features": "Original 32 source-construction features, in retained policy order",
+        "fit": "NATIVE_CPP_EXACT_GMP_CLASS_BALANCED_CART",
+        "rules": [
+          {
+            "all_probability_ties_retained": true,
+            "conditions": [
+              {
+                "comparison": "<=",
+                "feature": 8,
+                "threshold": 17
+              }
+            ],
+            "n": 110,
+            "positive": 110,
+            "probability": 1,
+            "witness": {
+              "family_id": 1024143,
+              "intersection": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "2283/4",
+                  "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "1619/4",
+                  "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          },
+          {
+            "all_probability_ties_retained": true,
+            "conditions": [
+              {
+                "comparison": ">",
+                "feature": 8,
+                "threshold": 17
+              },
+              {
+                "comparison": "<=",
+                "feature": 9,
+                "threshold": 11
+              }
+            ],
+            "n": 49,
+            "positive": 37,
+            "probability": "37/49",
+            "witness": {
+              "family_id": 1209402,
+              "intersection": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "861",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "599",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          },
+          {
+            "all_probability_ties_retained": true,
+            "conditions": [
+              {
+                "comparison": ">",
+                "feature": 8,
+                "threshold": 17
+              },
+              {
+                "comparison": ">",
+                "feature": 9,
+                "threshold": 11
+              }
+            ],
+            "n": 14,
+            "positive": 14,
+            "probability": 1,
+            "witness": {
+              "family_id": 1875486,
+              "intersection": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "2601/2",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "2133/2",
+                  "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          }
+        ],
+        "selection": "development balanced accuracy; shallower on tie",
+        "test_rows_reserved": 53,
+        "training": {
+          "balanced_accuracy": "285/322",
+          "correct": 136,
+          "exception_witnesses": [
+            {
+              "family_id": 1209402,
+              "intersection": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "861",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "599",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 1307924,
+              "intersection": "bc3f7377607b522d62ef5fdaea5827001e85472ffe5d24b59d5e6fb0432f174e",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "2427/4",
+                  "set": "bc3f7377607b522d62ef5fdaea5827001e85472ffe5d24b59d5e6fb0432f174e",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "1715/4",
+                  "set": "bc3f7377607b522d62ef5fdaea5827001e85472ffe5d24b59d5e6fb0432f174e",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 1431430,
+              "intersection": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 4,
+                  "four_states": [
+                    101376,
+                    101887,
+                    160256,
+                    160767
+                  ],
+                  "minimum": "3579/4",
+                  "set": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+                  "single_quarter_turn_orbit": true
+                },
+                {
+                  "context": 11,
+                  "count": 4,
+                  "four_states": [
+                    101376,
+                    101887,
+                    160256,
+                    160767
+                  ],
+                  "minimum": "2483/4",
+                  "set": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+                  "single_quarter_turn_orbit": true
+                }
+              ]
+            },
+            {
+              "family_id": 147816,
+              "intersection": "c0edc5b476138ceaf648e9b5d28a7dead4ef238bb58e5a3e1e1b13bea504ab60",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "705/2",
+                  "set": "c0edc5b476138ceaf648e9b5d28a7dead4ef238bb58e5a3e1e1b13bea504ab60",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 16,
+                  "four_states": [],
+                  "minimum": "517/2",
+                  "set": "c0edc5b476138ceaf648e9b5d28a7dead4ef238bb58e5a3e1e1b13bea504ab60",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            },
+            {
+              "family_id": 1554936,
+              "intersection": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "609",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                },
+                {
+                  "context": 11,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "431",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                }
+              ]
+            },
+            {
+              "family_id": 1591705,
+              "intersection": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "1857/2",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                },
+                {
+                  "context": 11,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "1285/2",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                }
+              ]
+            },
+            {
+              "family_id": 1653458,
+              "intersection": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 4,
+                  "four_states": [
+                    101376,
+                    101887,
+                    160256,
+                    160767
+                  ],
+                  "minimum": "1281/2",
+                  "set": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+                  "single_quarter_turn_orbit": true
+                },
+                {
+                  "context": 11,
+                  "count": 4,
+                  "four_states": [
+                    101376,
+                    101887,
+                    160256,
+                    160767
+                  ],
+                  "minimum": "901/2",
+                  "set": "0adcfe4e9e43c14c4303ff7aa7217c47e96c64c678464de34de4eb275be291ed",
+                  "single_quarter_turn_orbit": true
+                }
+              ]
+            },
+            {
+              "family_id": 1751980,
+              "intersection": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "2697/4",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                },
+                {
+                  "context": 11,
+                  "count": 4,
+                  "four_states": [
+                    43520,
+                    44031,
+                    218112,
+                    218623
+                  ],
+                  "minimum": "1889/4",
+                  "set": "00f803a946dc62a414e65909f79a9e74e1398a674df8cbda6e8f1977fe8c3db5",
+                  "single_quarter_turn_orbit": true
+                }
+              ]
+            }
+          ],
+          "positives": 161,
+          "rows": 173
+        },
+        "tree": {
+          "classification_threshold": "161/173",
+          "feature": 8,
+          "left": {
+            "n": 110,
+            "positive": 110,
+            "probability": 1,
+            "witness": {
+              "family_id": 1024143,
+              "intersection": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "2283/4",
+                  "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 36,
+                  "four_states": [],
+                  "minimum": "1619/4",
+                  "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          },
+          "n": 173,
+          "positive": 161,
+          "probability": "161/173",
+          "right": {
+            "feature": 9,
+            "left": {
+              "n": 49,
+              "positive": 37,
+              "probability": "37/49",
+              "witness": {
+                "family_id": 1209402,
+                "intersection": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                "native_minima": [
+                  {
+                    "context": 3,
+                    "count": 64,
+                    "four_states": [],
+                    "minimum": "861",
+                    "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                    "single_quarter_turn_orbit": false
+                  },
+                  {
+                    "context": 11,
+                    "count": 64,
+                    "four_states": [],
+                    "minimum": "599",
+                    "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                    "single_quarter_turn_orbit": false
+                  }
+                ]
+              }
+            },
+            "n": 63,
+            "positive": 51,
+            "probability": "17/21",
+            "right": {
+              "n": 14,
+              "positive": 14,
+              "probability": 1,
+              "witness": {
+                "family_id": 1875486,
+                "intersection": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                "native_minima": [
+                  {
+                    "context": 3,
+                    "count": 16,
+                    "four_states": [],
+                    "minimum": "2601/2",
+                    "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                    "single_quarter_turn_orbit": false
+                  },
+                  {
+                    "context": 11,
+                    "count": 16,
+                    "four_states": [],
+                    "minimum": "2133/2",
+                    "set": "3b51547a9bb288314c45c5c046f5f30eb1314fe6211d8a14f554780a31102c55",
+                    "single_quarter_turn_orbit": false
+                  }
+                ]
+              }
+            },
+            "threshold": 11,
+            "witness": {
+              "family_id": 1209402,
+              "intersection": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+              "native_minima": [
+                {
+                  "context": 3,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "861",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                },
+                {
+                  "context": 11,
+                  "count": 64,
+                  "four_states": [],
+                  "minimum": "599",
+                  "set": "3f3eb3482f9cfa426bf0c1992370d672cc1076a1d8774e276d800d345480305d",
+                  "single_quarter_turn_orbit": false
+                }
+              ]
+            }
+          },
+          "threshold": 17,
+          "witness": {
+            "family_id": 1024143,
+            "intersection": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+            "native_minima": [
+              {
+                "context": 3,
+                "count": 36,
+                "four_states": [],
+                "minimum": "2283/4",
+                "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                "single_quarter_turn_orbit": false
+              },
+              {
+                "context": 11,
+                "count": 36,
+                "four_states": [],
+                "minimum": "1619/4",
+                "set": "d1337adc3225dafb416f2fd595b4826eb6caa9adee33f0f4ed547dc61c65cf94",
+                "single_quarter_turn_orbit": false
+              }
+            ]
+          }
+        }
+      },
+      "SB_POSITIVE_SIGNED_ENERGY_GAIN": {
+        "class_weights": {
+          "negative": 34,
+          "positive": 34
+        },
+        "depth": 1,
+        "development": {
+          "balanced_accuracy": 1,
+          "correct": 28,
+          "exception_witnesses": [],
+          "positives": 14,
+          "rows": 28
+        },
+        "features": [
+          "signed_inner_product_sign",
+          "left_support_le_right",
+          "left_norm_le_right"
+        ],
+        "fit": "NATIVE_CPP_EXACT_GMP_CLASS_BALANCED_CART",
+        "rules": [
+          {
+            "all_probability_ties_retained": true,
+            "conditions": [
+              {
+                "comparison": "<=",
+                "feature": 0,
+                "threshold": -1
+              }
+            ],
+            "n": 34,
+            "positive": 0,
+            "probability": 0,
+            "witness": {
+              "account": "R7-Q-SB.1",
+              "gain": -35480482098688,
+              "phase": 0,
+              "source": {
+                "direction": "FORWARD",
+                "incoming_address": 139392,
+                "relation": "N100_EDGE_006",
+                "rho": 102,
+                "source_binding": "369ceded398d3dbddf5eb6cf2ce05f739bda948e1dbc50a6c28134d15efe5ff8"
+              }
+            }
+          },
+          {
+            "all_probability_ties_retained": true,
+            "conditions": [
+              {
+                "comparison": ">",
+                "feature": 0,
+                "threshold": -1
+              }
+            ],
+            "n": 34,
+            "positive": 34,
+            "probability": 1,
+            "witness": {
+              "account": "R7-Q-SB.1",
+              "gain": 35480482098688,
+              "phase": 1,
+              "source": {
+                "direction": "FORWARD",
+                "incoming_address": 139392,
+                "relation": "N100_EDGE_006",
+                "rho": 102,
+                "source_binding": "369ceded398d3dbddf5eb6cf2ce05f739bda948e1dbc50a6c28134d15efe5ff8"
+              }
+            }
+          }
+        ],
+        "selection": "development balanced accuracy; shallower on tie",
+        "test_rows_reserved": 32,
+        "training": {
+          "balanced_accuracy": 1,
+          "correct": 68,
+          "exception_witnesses": [],
+          "positives": 34,
+          "rows": 68
+        },
+        "tree": {
+          "classification_threshold": "1/2",
+          "feature": 0,
+          "left": {
+            "n": 34,
+            "positive": 0,
+            "probability": 0,
+            "witness": {
+              "account": "R7-Q-SB.1",
+              "gain": -35480482098688,
+              "phase": 0,
+              "source": {
+                "direction": "FORWARD",
+                "incoming_address": 139392,
+                "relation": "N100_EDGE_006",
+                "rho": 102,
+                "source_binding": "369ceded398d3dbddf5eb6cf2ce05f739bda948e1dbc50a6c28134d15efe5ff8"
+              }
+            }
+          },
+          "n": 68,
+          "positive": 34,
+          "probability": "1/2",
+          "right": {
+            "n": 34,
+            "positive": 34,
+            "probability": 1,
+            "witness": {
+              "account": "R7-Q-SB.1",
+              "gain": 35480482098688,
+              "phase": 1,
+              "source": {
+                "direction": "FORWARD",
+                "incoming_address": 139392,
+                "relation": "N100_EDGE_006",
+                "rho": 102,
+                "source_binding": "369ceded398d3dbddf5eb6cf2ce05f739bda948e1dbc50a6c28134d15efe5ff8"
+              }
+            }
+          },
+          "threshold": -1,
+          "witness": {
+            "account": "R7-Q-SB.1",
+            "gain": -35480482098688,
+            "phase": 0,
+            "source": {
+              "direction": "FORWARD",
+              "incoming_address": 139392,
+              "relation": "N100_EDGE_006",
+              "rho": 102,
+              "source_binding": "369ceded398d3dbddf5eb6cf2ce05f739bda948e1dbc50a6c28134d15efe5ff8"
+            }
+          }
+        }
+      }
+    },
+    "status": "TRAINED_AND_INSTALLED"
+  },
+  "plan": {
+    "SB_requests": [],
+    "all_ties_retained": true,
+    "family_ids": [
+      234567,
+      0,
+      1,
+      12345,
+      3456789
+    ],
+    "model_object": "3b497baf20e0d2020c92c6c136ecab1ee327e9520b31bf15585fb935c32bb8ef",
+    "ranked_tie_groups": [
+      {
+        "family_ids": [
+          234567
+        ],
+        "probabilities": {
+          "channel_minimum_sets_agree": "1",
+          "shared_four_state_orbit": "1"
+        }
+      },
+      {
+        "family_ids": [
+          0,
+          1,
+          12345,
+          3456789
+        ],
+        "probabilities": {
+          "channel_minimum_sets_agree": "1",
+          "shared_four_state_orbit": "0"
+        }
+      }
+    ],
+    "ranking_source": "ACQUIRED_ORBIT_AND_CHANNEL_POLICY_FALLBACK"
+  },
+  "scope": "Affected class weighting, decision threshold, native recovery and planning; prior R7 arithmetic and CPU/CUDA qualification retained."
+}

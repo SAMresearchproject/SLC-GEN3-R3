@@ -1,0 +1,22 @@
+{
+  "classification": "The test result suggests strong contact with the concept.",
+  "custody": {
+    "checked_utc": "2026-09-06T20:03:06.724175+00:00",
+    "code_files": 8,
+    "code_seal_sha256": "07c1d2425761e8f8e5533c8439815cbf39f197ec914bdfbcf4933bf4fd3f9fb7",
+    "design_files": 18,
+    "design_seal_sha256": "49edb3f1be62eb9269f5f8d9002a04f50e72b5b5855afa30df84f836c608b4c4",
+    "status": "MATCH"
+  },
+  "finished_utc": "2026-09-06T20:03:31.764052+00:00",
+  "independent_algorithm": "Gaussian integer forward law; exhaustive six-word inverse",
+  "independent_exact_inverses": 98304,
+  "injectivity_certificates": "MATCH",
+  "native_word_receipts_verified": 768,
+  "per_rho_and_control_metrics": "MATCH",
+  "primary_or_predecessor_mathematics_imported": false,
+  "primary_output_files_verified": 8,
+  "receiver_histories_verified": 98304,
+  "receiver_scalar_values_verified": 12582912,
+  "status": "PASS"
+}

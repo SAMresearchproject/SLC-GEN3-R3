@@ -1,0 +1,2372 @@
+{
+  "binding": {
+    "known_information": {
+      "probe_protocol": "INDEPENDENT_SINGLE_WRITES_EACH_FROM_THE_SAME_RESTORED_INITIAL_CONFIGURATION",
+      "probes": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "rho": 1,
+      "signed_N01_readout": true,
+      "starting_history": "UNKNOWN_WITHIN_RETAINED_SIXTEEN"
+    },
+    "receipt_channel": "SUPPLIED_RECONSTRUCTIVE_CUSTODY",
+    "source_body": [
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          247727778710,
+          99767836801,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          219157014038,
+          142024237228,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          247727778763,
+          99767836801,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          219157014038,
+          142024237185,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          247727778763,
+          99767836844,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          247727778710,
+          99767836801,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          219157014038,
+          142024237228,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          247727778763,
+          99767836801,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          219157014038,
+          142024237185,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          219157014091,
+          142024237185,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          247727778710,
+          99767836844,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          219157014091,
+          142024237228,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          247727778763,
+          99767836844,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          219157014091,
+          142024237185,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          247727778710,
+          99767836844,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          219157014091,
+          142024237228,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          247727778796,
+          99767836811,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          219157014124,
+          142024237142,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          247727778753,
+          99767836811,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          219157014124,
+          142024237195,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          247727778753,
+          99767836758,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          247727778796,
+          99767836811,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          219157014124,
+          142024237142,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          247727778753,
+          99767836811,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          219157014124,
+          142024237195,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          219157014081,
+          142024237195,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          247727778796,
+          99767836758,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          219157014081,
+          142024237142,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          247727778753,
+          99767836758,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          219157014081,
+          142024237195,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          247727778796,
+          99767836758,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 0,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          219157014081,
+          142024237142,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          247727778710,
+          112238816385,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          219157014038,
+          159777266860,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          247727778763,
+          112238816385,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          219157014038,
+          159777266817,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          247727778763,
+          112238816428,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          247727778710,
+          112238816385,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          219157014038,
+          159777266860,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          247727778763,
+          112238816385,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          219157014038,
+          159777266817,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          219157014091,
+          159777266817,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          247727778710,
+          112238816428,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          219157014091,
+          159777266860,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          247727778763,
+          112238816428,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          219157014091,
+          159777266817,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          247727778710,
+          112238816428,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          219157014091,
+          159777266860,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          247727778796,
+          112238816395,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          219157014124,
+          159777266774,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          247727778753,
+          112238816395,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          219157014124,
+          159777266827,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          247727778753,
+          112238816342,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          247727778796,
+          112238816395,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          219157014124,
+          159777266774,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          247727778753,
+          112238816395,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          219157014124,
+          159777266827,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          219157014081,
+          159777266827,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          247727778796,
+          112238816342,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          219157014081,
+          159777266774,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          247727778753,
+          112238816342,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          219157014081,
+          159777266827,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          247727778796,
+          112238816342,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 1,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          219157014081,
+          159777266774,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          207249383510,
+          119253742401,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          183347044438,
+          169763346028,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          207249383563,
+          119253742401,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          183347044438,
+          169763345985,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          207249383563,
+          119253742444,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          207249383510,
+          119253742401,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          183347044438,
+          169763346028,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          207249383563,
+          119253742401,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          183347044438,
+          169763345985,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          183347044491,
+          169763345985,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          207249383510,
+          119253742444,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          183347044491,
+          169763346028,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          207249383563,
+          119253742444,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          183347044491,
+          169763345985,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          207249383510,
+          119253742444,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          183347044491,
+          169763346028,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          207249383596,
+          119253742411,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          183347044524,
+          169763345942,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          207249383553,
+          119253742411,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          183347044524,
+          169763345995,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          207249383553,
+          119253742358,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          207249383596,
+          119253742411,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          183347044524,
+          169763345942,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          207249383553,
+          119253742411,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          183347044524,
+          169763345995,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          183347044481,
+          169763345995,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          207249383596,
+          119253742358,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          183347044481,
+          169763345942,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          207249383553,
+          119253742358,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          183347044481,
+          169763345995,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          207249383596,
+          119253742358,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 2,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          183347044481,
+          169763345942,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          207249383510,
+          112238816385,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          183347044438,
+          159777266860,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          207249383563,
+          112238816385,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          183347044438,
+          159777266817,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          207249383563,
+          112238816428,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          207249383510,
+          112238816385,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          183347044438,
+          159777266860,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          207249383563,
+          112238816385,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          183347044438,
+          159777266817,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          183347044491,
+          159777266817,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          207249383510,
+          112238816428,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          183347044491,
+          159777266860,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          207249383563,
+          112238816428,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          183347044491,
+          159777266817,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          207249383510,
+          112238816428,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          183347044491,
+          159777266860,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          207249383596,
+          112238816395,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          183347044524,
+          159777266774,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          207249383553,
+          112238816395,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          183347044524,
+          159777266827,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          207249383553,
+          112238816342,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          207249383596,
+          112238816395,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          183347044524,
+          159777266774,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          207249383553,
+          112238816395,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          183347044524,
+          159777266827,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          183347044481,
+          159777266827,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          207249383596,
+          112238816342,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          183347044481,
+          159777266774,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          207249383553,
+          112238816342,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          183347044481,
+          159777266827,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          207249383596,
+          112238816342,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 3,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          183347044481,
+          159777266774,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          233155556438,
+          119253742401,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          206265424982,
+          169763346028,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          233155556491,
+          119253742401,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          206265424982,
+          169763345985,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          233155556491,
+          119253742444,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          233155556438,
+          119253742401,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          206265424982,
+          169763346028,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          233155556491,
+          119253742401,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          206265424982,
+          169763345985,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          206265425035,
+          169763345985,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          233155556438,
+          119253742444,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          206265425035,
+          169763346028,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          233155556491,
+          119253742444,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          206265425035,
+          169763345985,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          233155556438,
+          119253742444,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          206265425035,
+          169763346028,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          233155556524,
+          119253742411,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          206265425068,
+          169763345942,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          233155556481,
+          119253742411,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          206265425068,
+          169763345995,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          233155556481,
+          119253742358,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          233155556524,
+          119253742411,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          206265425068,
+          169763345942,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          233155556481,
+          119253742411,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          206265425068,
+          169763345995,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          206265425025,
+          169763345995,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          233155556524,
+          119253742358,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          206265425025,
+          169763345942,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          233155556481,
+          119253742358,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          206265425025,
+          169763345995,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          233155556524,
+          119253742358,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 4,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          206265425025,
+          169763345942,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 116224
+        },
+        "visible": [
+          233155556438,
+          99767836801,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 116479
+        },
+        "visible": [
+          206265424982,
+          142024237228,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 116480
+        },
+        "visible": [
+          233155556491,
+          99767836801,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 116735
+        },
+        "visible": [
+          206265424982,
+          142024237185,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 14336
+        },
+        "visible": [
+          233155556491,
+          99767836844,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 145408
+        },
+        "visible": [
+          233155556438,
+          99767836801,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 145663
+        },
+        "visible": [
+          206265424982,
+          142024237228,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 145664
+        },
+        "visible": [
+          233155556491,
+          99767836801,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 145919
+        },
+        "visible": [
+          206265424982,
+          142024237185,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 14591
+        },
+        "visible": [
+          206265425035,
+          142024237185,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 14592
+        },
+        "visible": [
+          233155556438,
+          99767836844,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 14847
+        },
+        "visible": [
+          206265425035,
+          142024237228,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 247296
+        },
+        "visible": [
+          233155556491,
+          99767836844,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 247551
+        },
+        "visible": [
+          206265425035,
+          142024237185,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 247552
+        },
+        "visible": [
+          233155556438,
+          99767836844,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 3,
+          "state": 247807
+        },
+        "visible": [
+          206265425035,
+          142024237228,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 116224
+        },
+        "visible": [
+          233155556524,
+          99767836811,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 116479
+        },
+        "visible": [
+          206265425068,
+          142024237142,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 116480
+        },
+        "visible": [
+          233155556481,
+          99767836811,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 116735
+        },
+        "visible": [
+          206265425068,
+          142024237195,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 14336
+        },
+        "visible": [
+          233155556481,
+          99767836758,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 145408
+        },
+        "visible": [
+          233155556524,
+          99767836811,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 145663
+        },
+        "visible": [
+          206265425068,
+          142024237142,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 145664
+        },
+        "visible": [
+          233155556481,
+          99767836811,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 145919
+        },
+        "visible": [
+          206265425068,
+          142024237195,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 14591
+        },
+        "visible": [
+          206265425025,
+          142024237195,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 14592
+        },
+        "visible": [
+          233155556524,
+          99767836758,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 14847
+        },
+        "visible": [
+          206265425025,
+          142024237142,
+          1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 247296
+        },
+        "visible": [
+          233155556481,
+          99767836758,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 247551
+        },
+        "visible": [
+          206265425025,
+          142024237195,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 247552
+        },
+        "visible": [
+          233155556524,
+          99767836758,
+          -1
+        ]
+      },
+      {
+        "source": {
+          "assignment": 5,
+          "cover": 4,
+          "state": 247807
+        },
+        "visible": [
+          206265425025,
+          142024237142,
+          -1
+        ]
+      }
+    ],
+    "source_contract": {
+      "native_construction_receipts": "ATLAS_CALLS.json",
+      "native_response_differences": "DELTAS.json",
+      "native_transition_receipts": "WORDS.json",
+      "signed_site_readout_receipts": "COMPACT_CALLS.json",
+      "source": "H000976"
+    },
+    "target": "ORIGINAL_LI6_STATE_COVER_PLACEMENT"
+  },
+  "binding_id": "e8c236a4fec08e21fb956b912692f7dc124a0802494cc02fbe91036f467fc5dc",
+  "native_profile": {
+    "augmented_map_injective": true,
+    "expected_hidden_information": {
+      "evaluated_bits": 0.0,
+      "evaluated_nats": 0,
+      "exact_nats": "0",
+      "prime_log_coefficients": []
+    },
+    "expected_receipt_container_bits": 0.0,
+    "fiber_strata": [
+      {
+        "exact_information_weight": "0",
+        "fiber_multiplicity": 1,
+        "receipt_container_bits": 0,
+        "visible_output_count": 192
+      }
+    ],
+    "input_count": 192,
+    "morphism_id": "8ad75beb01f0c83ff25454178858f61bef20bce79f68040f1638aa1bf1d0bbe0",
+    "name": "GEN2_TARGET:e8c236a4fec08e21fb956b912692f7dc124a0802494cc02fbe91036f467fc5dc",
+    "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+    "visible_map_injective": true,
+    "visible_output_count": 192,
+    "worst_case_hidden_information": {
+      "evaluated_bits": 0.0,
+      "evaluated_nats": 0.0,
+      "exact_nats": "0",
+      "multiplicity": 1,
+      "prime_exponents": []
+    },
+    "worst_case_receipt_container_bits": 0
+  },
+  "native_profile_measure": "Uniform probability over the declared finite source members",
+  "receipt_policy": "Observation-only returns every member; supplied receipt selects its admitted member",
+  "schema": "SLC_GEN2_CUSTODY_MAP_V1",
+  "source_body_bytes": 18442
+}

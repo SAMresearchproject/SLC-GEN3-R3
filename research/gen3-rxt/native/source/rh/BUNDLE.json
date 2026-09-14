@@ -1,0 +1,45 @@
+{
+  "basis_domain": "RH-GEN3-GROWTH-V4",
+  "basis_global_slc": "SLC-GEN3-R3",
+  "inputs": {
+    "ACCUMULATION_DERIVATION.md": {
+      "origin": "SAM_REVIEW/campaigns/RH_GEN3_SOURCE_HISTORY_INEQUALITY1/DERIVATION.md",
+      "sha256": "02b78c0d47b0fecc6aa902e6eb0c640dedb361663851cc85896a8624378ca043"
+    },
+    "ACCUMULATION_RESULT.md": {
+      "origin": "SAM_REVIEW/campaigns/RH_GEN3_SOURCE_HISTORY_INEQUALITY1/RESULT.md",
+      "sha256": "dfc50e45de74fb6a5e487cc26f59b16df32074c2b1e95ff764e4c59a039ebb63"
+    },
+    "FORMULA_HISTORY.json": {
+      "origin": "CURRENT_REVISION/domains/RH/source/FORMULA_HISTORY_V3.json",
+      "sha256": "5e944aa4a1035b81c7fef404a8e5bcdfafa4985632d0c80fac05e25c71927fea"
+    },
+    "FORMULA_PACKET.json": {
+      "origin": "CURRENT_REVISION/domains/RH/source/FORMULA_PACKET_V3.json",
+      "sha256": "c10a419819b35a0bed8af21038267c9d96dc1519570226303d0a2e1808d35a5f"
+    },
+    "GROWTH_TARGET.md": {
+      "origin": "SAM_REVIEW/campaigns/RH_QUARTIC_JOINT_REMAINDER1/RECURSIVE_BOUND_TARGET.md",
+      "sha256": "1188f0ba6cbc007bfba8dffc1830b2580d7ed9b49ef2d99dd0023809f57147ad"
+    },
+    "PREDECESSOR_GROWTH.py": {
+      "origin": "CURRENT_REVISION/domains/RH/growth.py",
+      "sha256": "519d0bb3aa5e85f542e50680bab04a22cff51a6a0782b5f4435473fb1e054979"
+    },
+    "PREDECESSOR_REPRESENTATIONS.py": {
+      "origin": "SAM_PROJECT/rh_exploration/representations.py",
+      "sha256": "33e84698fd66d4c8c254cb5cebc2215ccdf663db257a6582a632f62c415532da"
+    },
+    "PREDECESSOR_WORKER.py": {
+      "origin": "CURRENT_REVISION/domains/RH/native/growth_worker.py",
+      "sha256": "5f2c04bd12716f773707cc203e66422ae7a08cbf79cad71344427aa6e2dea93d"
+    },
+    "WEIGHTED_CUT_DERIVATION.md": {
+      "origin": "SAM_REVIEW/campaigns/RH_GEN3_FORMULA_PACKET1/WEIGHTED_CUT_DERIVATION.md",
+      "sha256": "cf2c371831369ec051f366043f3d61ecf442cb2f3d40ff0b86aa094c3871e4b1"
+    }
+  },
+  "objective": "RH closure through the original uniform signed-growth criterion",
+  "original_positive_part": "After the complete signed block, then sum the original roster",
+  "schema": "RH_GXT_NATIVE_SOURCE_V1"
+}

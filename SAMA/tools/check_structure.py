@@ -13,6 +13,10 @@ LINK = re.compile(r'(?<!!)\[[^\]\n]+\]\(([^)\n]+)\)')
 def main():
     manifest = json.loads((ROOT/'maintenance/MIGRATION.json').read_text())
     errors = []
+    edition = json.loads((ROOT/'maintenance/CURRENT_EDITION.json').read_text())
+    revisions = {r['path'].removeprefix('SAMA/'): r for r in edition['chapters']}
+    if set(revisions) != {r['path'] for r in manifest['chapters']}:
+        errors.append('Current edition chapter set differs from migration')
     for volume in ['vol_i','vol_ii','vol_iii','vol_iv']:
         if not (ROOT/volume/'README.md').is_file():
             errors.append('Missing volume: '+volume)
@@ -22,8 +26,8 @@ def main():
         errors.append('Duplicate chapter source or destination')
     for row in manifest['chapters']:
         p = ROOT/row['path']
-        if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != row['sha256']:
-            errors.append('Chapter changed since migration: '+row['path'])
+        if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest() != revisions.get(row['path'], row)['sha256']:
+            errors.append('Chapter differs from current edition: '+row['path'])
     for row in manifest['branch_test_assignments']:
         p = ROOT/row['path']
         if not p.is_file() or row['record_key'] not in p.read_text():

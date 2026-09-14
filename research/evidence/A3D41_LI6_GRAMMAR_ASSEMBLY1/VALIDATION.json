@@ -1,0 +1,871 @@
+{
+  "check_count": 216,
+  "checks": [
+    {
+      "name": "hardware exact agreement",
+      "pass": true
+    },
+    {
+      "name": "old contact address join",
+      "pass": true
+    },
+    {
+      "name": "nonnegative center primitives",
+      "pass": true
+    },
+    {
+      "name": "phase-current reconstruction",
+      "pass": true
+    },
+    {
+      "name": "complete edge information rank",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 0",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 1",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 2",
+      "pass": true
+    },
+    {
+      "name": "new motif quarter rotation mask 3",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 0",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 1",
+      "pass": true
+    },
+    {
+      "name": "center coordinate covariance relation 2",
+      "pass": true
+    },
+    {
+      "name": "whole-column signed surface identity",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/0/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/1/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/2/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/0/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 0/3/1/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/0/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/1/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/2/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/0/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/0/4/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/0/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/0/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/1/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/1/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/2/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/2/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/3/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/3/1",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/4/0",
+      "pass": true
+    },
+    {
+      "name": "exact lower-bound filter 1/3/1/1/4/1",
+      "pass": true
+    },
+    {
+      "name": "hidden loop inactive before complete joining",
+      "pass": true
+    },
+    {
+      "name": "every case has a minimizing source address",
+      "pass": true
+    },
+    {
+      "name": "same-current histories have different circulation response",
+      "pass": true
+    }
+  ],
+  "result_sha256": "9c6e2cf349c763539d300a28f81714e95fe3242a50b541e7305d7fd1f701d0ef",
+  "status": "PASS"
+}

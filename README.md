@@ -1,5 +1,8 @@
 # SLC-GEN3-R3
 
+**Check the GEN3 signed-arithmetic results:** [executable retained history](research/rh/check/README.md) provides the prefix-only short-horizon certificate reconstruction and exact transport check, with [downloadable scale-8192 data](https://github.com/SAMresearchproject/SLC-GEN3-R3/releases/download/research-2026-09-14/COVERAGE_S8192.json.gz). Start with this self-contained test; SAMA and the paused Mersenne research are supporting context.
+
+
 **Substrate Ledger Computer: exact execution, acquired memory, and retained history.**
 
 This is the public-facing SLC repository of the SAM Research Project. It brings
@@ -154,3 +157,9 @@ those grants with the SLC research-use licence.
 
 See [SLC stewardship](STEWARDSHIP.md), [rights guide](legal/RIGHTS_AND_COPYRIGHT.md),
 [contribution process](CONTRIBUTING.md) and [dependency notices](THIRD_PARTY_NOTICES.md).
+
+## Starbreaker and ATOM3D
+
+[Starbreaker](research/starbreaker/README.md) and [ATOM3D](research/atom3d/README.md) now include native code, simulation inputs and outputs, exact derivations, learned-model results and implications. [GEN3-RXT source and build](research/gen3-rxt/README.md) · [Reproduction scope](research/REPRODUCIBILITY.md).
+
+SAMA [Volume III](SAMA/vol_iii/README.md) and [Volume IV](SAMA/vol_iv/README.md), their chapters and complete editions are updated through 14 September 2026.

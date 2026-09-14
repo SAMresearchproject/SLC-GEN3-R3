@@ -1,14 +1,19 @@
 {
   "status": "PASS",
-  "date": "2026-09-14",
-  "runtime_tests": 6,
-  "runtime_test_seconds": "3.700",
-  "runtime_test_command": ".venv-r3/bin/python -m unittest discover -s tests -v",
-  "runtime_test_scope": "Portable release: source selection, compatibility, owner-word history, exact logs, weighted policy, fresh-process recovery and deployment boundaries",
-  "current_upstream_python_files_identical": 126,
-  "runtime_changed": false,
-  "new_math_tests_run": false,
-  "source_documents": "Completed project results and paper version2; no mathematical revalidation",
-  "credential_pattern_scan": "PASS",
-  "main_branch_only": true
+  "new_or_changed_files": 261,
+  "source_export_files": 133,
+  "source_export_bytes": 18261542,
+  "changed_document_links_checked": 6979,
+  "python_files_syntax_checked": 19,
+  "SAMA_structure": {
+    "status": "PASS",
+    "chapters": 81,
+    "branch_test_assignments": 269,
+    "local_links_checked": 65679,
+    "errors": []
+  },
+  "native_source_identity": "All 37 R7.1 translation units match original NATIVE_UPDATE_MANIFEST",
+  "cuda_rebuild": "Not run; source publication and original qualification results",
+  "portable_runtime": "Unchanged from six-test passing predecessor 75291863",
+  "errors": []
 }

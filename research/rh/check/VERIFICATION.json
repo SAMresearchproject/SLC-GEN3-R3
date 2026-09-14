@@ -1,0 +1,35 @@
+{
+  "role": "Independent exact public reconstruction",
+  "certificates": [
+    {
+      "s": 4096,
+      "t": 1071,
+      "status": "PASS",
+      "branches": 32,
+      "future_sign_input_count": 0
+    },
+    {
+      "s": 4096,
+      "t": 1077,
+      "status": "PASS",
+      "branches": 64,
+      "future_sign_input_count": 0
+    },
+    {
+      "s": 4096,
+      "t": 1130,
+      "status": "PASS",
+      "branches": 64,
+      "future_sign_input_count": 0
+    }
+  ],
+  "native_exact_bounds_matched": true,
+  "scale8192": {
+    "status": "PASS",
+    "prefixes": 8193,
+    "witnesses": 3,
+    "exact_transport_checks": 21,
+    "source_reconstruction_checks": 24597,
+    "scope": "All 8193 original prefix energies and excesses rebuilt in admission order; fine energy and source hashes rebuilt at each witness; transport identities checked exactly"
+  }
+}

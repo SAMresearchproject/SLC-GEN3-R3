@@ -2,6 +2,17 @@
 
 # RH Exact Write Event Reel, Theta Grams, and AFC Composition
 
+## RH: original signed growth and arithmetic compensation — 14 September 2026
+
+The selected domain is RH-GEN3-GROWTH-V4 on SLC-GEN3-R3. The controlling task remains the original uniform signed-growth estimate for actual Möbius interaction on the common source sequence. The current route uses the exact original-kernel spectrum, dyadic forcing energy, signed admissions and arithmetic compensation. The R2 paper gives exact transport and conditional subpower bounds. Complete scans at scales 32, 512, 4096 and 8192 cover 12,836 prefixes; the half ceiling fails at 13 prefixes, while the unit candidate passes those scans. Four-admission recovery certificates and equal-admission telescoping expose compensation. The uniform arithmetic estimate remains open; independent mathematical review of the R2 paper is pending.
+
+[Current derivations, code and results](../../../research/rh/README.md).
+
+## Retained source-era derivation and results
+
+The following development retains its original experimental context and revision fields. Historical engine selections and campaign status in this source-era account are superseded by the dated current section above.
+
+
 ## Conceptual abstract
 
 The finite Weyl extremal compresses a section, while Complete Exact Write

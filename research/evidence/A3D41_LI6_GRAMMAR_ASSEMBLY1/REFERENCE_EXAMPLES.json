@@ -1,0 +1,362 @@
+[
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957648"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322359/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957576"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "983583830295/4"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957576"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "983583830295/4"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957624"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335321975/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957624"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335321975/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957648"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322359/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957792"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335324663/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957792"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335324663/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957696"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335323127/16"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957696"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335323127/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957633"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322119/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915137/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "983583830265/4"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915137/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "983583830265/4"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915223/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335321775/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915223/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "CIRCULATION",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335321775/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "245895957633"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322119/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915425/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335323391/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915425/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335323391/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915319/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322543/16"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "hidden_loop": false,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "491791915319/2"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "hidden_loop": true,
+    "placement": 0,
+    "receiver": "ENDPOINT",
+    "rho": 1,
+    "separated_minus_connected_minimum": "3934335322543/16"
+  }
+]

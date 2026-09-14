@@ -2,86 +2,28 @@
 
 # RH Current Result, Open Boundaries, and External State
 
-## Current result
+## RH: original signed growth and arithmetic compensation — 14 September 2026
 
-The current RH-local project is `SLCQ2-RZ-RH-MOMENT-ADAPTER-V1`; global
-`SLCQ2-RZ` remains unchanged. The installed program joins paired and
-natural/low contact currents through
+The selected domain is RH-GEN3-GROWTH-V4 on SLC-GEN3-R3. The controlling task remains the original uniform signed-growth estimate for actual Möbius interaction on the common source sequence. The current route uses the exact original-kernel spectrum, dyadic forcing energy, signed admissions and arithmetic compensation. The R2 paper gives exact transport and conditional subpower bounds. Complete scans at scales 32, 512, 4096 and 8192 cover 12,836 prefixes; the half ceiling fails at 13 prefixes, while the unit candidate passes those scans. Four-admission recovery certificates and equal-admission telescoping expose compensation. The uniform arithmetic estimate remains open; independent mathematical review of the R2 paper is pending.
 
-\[
-Z'=S_D(T)=2H_T(\gamma_P-\gamma_N).
-\]
+[Current derivations, code and results](../../../research/rh/README.md).
 
-Final validation passes 41/41 primary, 15/15 independent, and 21/21 release
-checks. **The test result suggests strong contact with the concept.**
+## Current mathematical object
 
-## Exact open mathematical boundary
-
-The source-transversality structure is installed. The exact remaining internal
-sign is
-
-\[
-\gamma_P-\gamma_N>0
-\]
-
-for every nonzero generator in the actual completed first-contact cone.
-Universal bulk/collar source estimates and the separate carrier/Radau joins
-remain open dependencies of that source-rate route.
-
-The open item is specific. It is not replaced by:
-
-- an automatic norm-square or commutator sign;
-- carrier-only Theta positivity;
-- uniform debit or ungated shallow depth;
-- pointwise tail order;
-- diagonal Pick positivity;
-- a finite-zero census; or
-- an F81 or Mersenne application result.
-
-## External state
-
-The owner-designated status is
+The original energy is controlled through its full positive weighted pair interaction up to an absolute logarithmic transfer. In the dyadic formulation,
 
 ```text
-SAM_RH_CLOSURE_PENDING_EXTERNAL_VALIDATION
+Q_s(a) = M_a^2/s + sum_{r=1}^{s-1} q_a(r)^2 / [r(s-r)]
+Q_{2s}(2t) = Q_s(t) + E_s(t) + R_s(t),  R_s(t) <= 3
+E_s(t) = Q_s(b)/2 - <a,b> - Q_s(a)/2
 ```
 
-The public repository presents the proof claim and carries the timestamped
-source-transversality paper. The controlling source snapshot records no
-external validation. Owner approval of every SAMA Volume IV revision is also
-false/null. These states remain independent.
+The sufficient arithmetic task is a uniform subpower upper bound on the excess E for every positive exponent, on the actual source family. Uniform validity of a proposed certificate is part of obtaining that estimate. It does not replace the original signed-growth target.
 
-## Next proof object
+## Latest result and external state
 
-The technically selected next object is the actual completed source-rate
-difference on the joined contact cone, with the remaining carrier/Radau and
-bulk/collar estimates expressed in the same source variables. The advantage
-over reopening earlier sign shortcuts is that all natural, low, interface, and
-paired generators already share this scalar. The material uncertainty is the
-universal sign itself, not the structure of the readout.
+The R2 paper records exact transport, finite forcing scans and conditional recovery certificates. Full RH remains OPEN. Independent mathematical review is pending. The old source-transversality closure label describes the earlier publication; it is not the current status of this volume. Owner review fields for earlier atomic revisions remain unchanged.
 
-## Evidence and records
+[Read the complete R2 paper](../../../research/rh/paper.md).
 
-Atomic records: `SAMA-C000280-R001`, `SAMA-C000284-R001`,
-`SAMA-C000285-R001`, `SAMA-C000286-R001`, `SAMA-C000287-R001`,
-`SAMA-C000290-R001`.
-RH result routes: `SAMA-RH-R0020`, `SAMA-RH-R0024`.
-
-Sources: [RH current authority](https://github.com/iwtbotiwtwot/SAMA/blob/5fa6bad8d4fec6596098755139db50b2eac37c05/sources/rh/RH_CURRENT_AUTHORITY_SNAPSHOT.md),
-[source-transversality paper](https://github.com/iwtbotiwtwot/SAMA/blob/5fa6bad8d4fec6596098755139db50b2eac37c05/sources/rh/SAM_RH_SOURCE_TRANSVERSALITY_MANUSCRIPT.html),
-and [H000689 publication custody](https://github.com/iwtbotiwtwot/SAMA/blob/5fa6bad8d4fec6596098755139db50b2eac37c05/sources/rh/H000689_PUBLICATION_CUSTODY.md).
-
-## Revision boundary
-
-This is an unapproved source-bound status chapter. It changes no theorem,
-pointer, classification, public proof claim, owner approval, license,
-publication state, or external-validation result.
-
-<details>
-<summary>Source and revision details</summary>
-
-Source document: `SAMA-D000073`. [Original published chapter](https://github.com/iwtbotiwtwot/SAMA/blob/5fa6bad8d4fec6596098755139db50b2eac37c05/documents/standard/RH_CURRENT_RESULT_OPEN_BOUNDARIES_AND_EXTERNAL_STATE.md).
-
-The source review fields remain `reviewed_and_approved: false` and `approval: null`. This reorganization changes presentation and navigation.
-
-</details>
+[Previous published chapter](https://github.com/SAMresearchproject/SLC-GEN3-R3/blob/752918630e01dadbe88ebda5a024861ebb9a9234/SAMA/vol_iv/05-results-and-corrections/rh-current-result-open-boundaries-and-external-state.md).

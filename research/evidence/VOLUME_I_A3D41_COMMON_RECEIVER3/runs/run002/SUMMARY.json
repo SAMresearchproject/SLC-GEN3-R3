@@ -1,0 +1,57 @@
+{
+  "classification": "The test result suggests strong contact with the concept.",
+  "common_reception_frames": 393216,
+  "comparison_families": 16384,
+  "controls": {
+    "both_source_projections": 8192,
+    "misaligned_rejected": 98304,
+    "misaligned_total": 98304,
+    "misaligned_wrong_singleton": 0,
+    "native_word_reversal": 98304
+  },
+  "exact_order_and_barrier_inverses": 98304,
+  "finished_utc": "2026-09-06T20:02:40.852881+00:00",
+  "joined_histories": 98304,
+  "local_injectivity_cases_passed": 16384,
+  "local_injectivity_state_direction_cases": 16384,
+  "nonzero_minors": 128,
+  "observed_scalar_values": 12582912,
+  "status": "COMPLETE",
+  "views": {
+    "ENDPOINTS": {
+      "ambiguous_orders": 98304,
+      "barrier_resolved_orders": 6144,
+      "classes": 16384,
+      "mixed_barrier_classes": 15360,
+      "singleton_orders": 0
+    },
+    "JOINT": {
+      "ambiguous_orders": 0,
+      "barrier_resolved_orders": 98304,
+      "classes": 98304,
+      "mixed_barrier_classes": 0,
+      "singleton_orders": 98304
+    },
+    "OCCUPANCY": {
+      "ambiguous_orders": 49152,
+      "barrier_resolved_orders": 65536,
+      "classes": 73728,
+      "mixed_barrier_classes": 16384,
+      "singleton_orders": 49152
+    },
+    "SIGNED": {
+      "ambiguous_orders": 24576,
+      "barrier_resolved_orders": 77824,
+      "classes": 86016,
+      "mixed_barrier_classes": 10240,
+      "singleton_orders": 73728
+    },
+    "WRONG_POST_ABS": {
+      "ambiguous_orders": 24576,
+      "barrier_resolved_orders": 77824,
+      "classes": 86016,
+      "mixed_barrier_classes": 10240,
+      "singleton_orders": 73728
+    }
+  }
+}

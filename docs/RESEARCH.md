@@ -27,3 +27,10 @@ summarized as a uniform improvement across all three tasks.
 [Volume IV](../SAMA/vol_iv/README.md) the public SAMA RH collection.
 The current RH paper is linked above so readers can reach the latest work
 without reconstructing the older archive.
+
+## Published domain implementations
+
+- [Starbreaker: signed history, simulations and implications](../research/starbreaker/README.md).
+- [ATOM3D: contact, Li-6 grammar, decoder and simulations](../research/atom3d/README.md).
+- [GEN3-RXT-R7.1: native C++/CUDA/GMP source, build and packets](../research/gen3-rxt/README.md).
+- [Reproduction scope and original campaign executors](../research/REPRODUCIBILITY.md).

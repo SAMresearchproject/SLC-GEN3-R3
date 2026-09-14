@@ -2,6 +2,17 @@
 
 # BAO and Acoustic Ruler-Road Bridge
 
+## Current research connections — 14 September 2026
+
+The global execution authority is SLC-GEN3-R3 / SLC-GEN3-CEV1-R3. The September 2026 research includes exact retained-history computation, RH arithmetic compensation, native Mersenne work, Starbreaker signed reception and ATOM3D contact/grammar. The research index connects the retained derivations to the latest code, results and current domain assignments.
+
+[Current derivations, code and results](../../../docs/RESEARCH.md).
+
+## Retained source-era derivation and results
+
+The following development retains its original experimental context and revision fields. Historical engine selections and campaign status in this source-era account are superseded by the dated current section above.
+
+
 ## Conceptual abstract
 
 BAO does not consume one undifferentiated “distance.” A transverse ruler, a

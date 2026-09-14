@@ -1,0 +1,148 @@
+{
+  "accumulation": {
+    "V_is_universal_objective": false,
+    "edge_count": 8,
+    "full_history_retained": true,
+    "identities": {
+      "U_minus_D_equals_L": true,
+      "U_plus_D_equals_V": true
+    },
+    "normalization": {
+      "kind": "ORIGINAL_POSITIVE_SOURCE_RATIO",
+      "reference_point": "append_recovery/shell/0"
+    },
+    "point_count": 9,
+    "quantity": {
+      "component": null,
+      "frame": "AF_0_2_Z-",
+      "kind": "SB_SIGNED_RECEIVER_NORM_SQUARED",
+      "normalization": {
+        "ratio_reference": "original positive source point",
+        "source_account": "append_recovery"
+      },
+      "reference_state": "append_recovery/shell/0",
+      "role": null,
+      "schema": "GEN2_QUANTITY_V1",
+      "scope": "HISTORY",
+      "sign_convention": "NONNEGATIVE_VALUE",
+      "source": "304c197023c2493e4bb70de7abc7754aa5dff3023e03efadd7bfcb7319a93b88",
+      "units": {
+        "native_receiver_amplitude": 2
+      }
+    },
+    "schema": "GEN3_LOG_EXECUTION_READOUT_V1",
+    "source_binding": {
+      "direction": "FORWARD",
+      "incoming_address": 1,
+      "relation": "N100_EDGE_002",
+      "rho": 1,
+      "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+    },
+    "status": "DEFINED",
+    "summary": {
+      "D": {
+        "argument": "1190120701052128279349118534241/42174821512940974073909600625",
+        "sign": 1,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      },
+      "L": {
+        "argument": 1,
+        "sign": 0,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      },
+      "M": {
+        "argument": "33029177/14330565",
+        "sign": 1,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      },
+      "U": {
+        "argument": "1190120701052128279349118534241/42174821512940974073909600625",
+        "sign": 1,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      },
+      "V": {
+        "argument": "1416387283072809289724510904913882583717855553428584289446081/1778715569648428793373999236972927320539646564547000390625",
+        "sign": 1,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      },
+      "edge_count": 8,
+      "final_action": 1834312320,
+      "first_point": "append_recovery/shell/0",
+      "initial_action": 1834312320,
+      "last_point": "append_recovery/shell/8",
+      "maximizing_points": [
+        "append_recovery/shell/1",
+        "append_recovery/shell/3",
+        "append_recovery/shell/5",
+        "append_recovery/shell/7"
+      ],
+      "net": {
+        "argument": 1,
+        "sign": 0,
+        "type": "EXACT_LOG_POSITIVE_RATIONAL"
+      }
+    }
+  },
+  "action_arithmetic_reused": true,
+  "action_profile": "SB_J4_SIGNED_RESPONSE_NORM_SQUARED_V1",
+  "actions_per_cycle": [
+    "1834312320",
+    "4227734656",
+    "1834312320",
+    "4227734656"
+  ],
+  "checkpoint": {
+    "binding": {
+      "generation": "GEN3-UNIFIED-EXECUTION1-20260910-G2",
+      "implementation_sha256": "0a3223e2a93262d64915892f3092bb5d9a247bce52b9ed530e343129fe114942",
+      "version": "SLC-GEN3-R3"
+    },
+    "local_durable": true,
+    "replicated": false,
+    "root": "095907bf9bec18ba8056fb0fc5edd558442bc6cef0c1c7105c945fa11e183d17",
+    "schema": "GEN3_CHECKPOINT_REFERENCE_V1"
+  },
+  "construction_proposals": null,
+  "native_shell_addresses": [
+    8756,
+    25110,
+    26164,
+    9750,
+    8756
+  ],
+  "propagation": {
+    "closed": true,
+    "inverse_recovered": true,
+    "native_writes": 16,
+    "semantic_sha256": "91c00a1adf0998465b79f66546290009f6b5cf1bf8aec6d7fb70e9716298411a",
+    "source_match": true
+  },
+  "schema": "SB_GEN3_J4_ACCUMULATION_V1",
+  "scope": "Ordered signed J4 receiver-response norm accumulation. Complete signed amplitudes and packet ancestry remain in the same history; physical energy scale is unassigned.",
+  "signed_receiver_history": [
+    [
+      -10200,
+      64216
+    ],
+    [
+      41064,
+      12168
+    ],
+    [
+      10200,
+      -64216
+    ],
+    [
+      -41064,
+      -12168
+    ]
+  ],
+  "source_selection": {
+    "direction": "FORWARD",
+    "incoming_address": 1,
+    "relation": "N100_EDGE_002",
+    "rho": 1,
+    "source_binding": "2f1a4bed38b48261ed26bce4a7cfdd3f37c9f2c75e9f0c5337e566f8b03b2f32"
+  },
+  "version": "SB-GEN3-ACCUMULATION-R1"
+}

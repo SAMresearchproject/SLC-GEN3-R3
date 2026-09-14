@@ -1,0 +1,11 @@
+{
+  "all_passed": true,
+  "baseline_observed_actions": [
+    "737/16"
+  ],
+  "independent_exact_subtractions": 3456,
+  "notes": "Independent Python Fraction subtraction verifies native arithmetic. Native construction/information outputs are the research calculations.",
+  "passed": 3456,
+  "perturbation_contexts": 3456,
+  "source_configurations": 192
+}

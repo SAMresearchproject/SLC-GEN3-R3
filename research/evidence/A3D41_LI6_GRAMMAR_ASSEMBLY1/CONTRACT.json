@@ -1,0 +1,1883 @@
+{
+  "assets": {
+    "CENTER_COEFFICIENTS.i64le": {
+      "bytes": 27648,
+      "sha256": "1f851a6a7b78de7d5f899559d7ffc200a9c71045b9b2ef9a70205691120cab0c"
+    },
+    "CENTER_FEATURES.i16le": {
+      "bytes": 92574,
+      "sha256": "ffb2f1048e45436ba86185746f986a51fb96dd852dbb96cb0f15641ffe9c8ed4"
+    },
+    "CENTER_INVERSE.u32le": {
+      "bytes": 8388608,
+      "sha256": "e2b3146ae5de2cfe17f90d0ed39a3f23a747aa61bd3f346bc6cc80519d3f7c27"
+    },
+    "CENTER_REPRESENTATIVE.u32le": {
+      "bytes": 20572,
+      "sha256": "6c39ec10e0f4efe30e5631f07ebfe7268b08ad17593de0a689e7a674417c8f92"
+    },
+    "GRAMMAR_COEFFICIENTS.i64le": {
+      "bytes": 9744,
+      "sha256": "7868261a1b2da519bffcca1c23ffd8c40bcf12ec470ac77bc1333ce4b084412d"
+    },
+    "GRAMMAR_FEATURES.i16le": {
+      "bytes": 1154860,
+      "sha256": "055943ee45778dc5bccc50ec0e744274e5367eb2a807cb8bd26b8a1dc0598422"
+    },
+    "GRAMMAR_INVERSE.u32le": {
+      "bytes": 8388608,
+      "sha256": "4ca6941d579070c55b9bd82a5847aded40425a30682a85a95900ab1786d123eb"
+    },
+    "GRAMMAR_REPRESENTATIVE.u32le": {
+      "bytes": 164980,
+      "sha256": "c5435c914a18a6e116de7f153c29a39c617c752e0404a0cbb34fb9d64d3320f6"
+    },
+    "TMR1.i64le": {
+      "bytes": 9216,
+      "sha256": "48645791d224c957bb9c20c003a174fbb5f52362f2ac28ad90e080e211bdb01b"
+    }
+  },
+  "batches": [
+    {
+      "coefficients": "CENTER_COEFFICIENTS.i64le",
+      "feature_count": 5143,
+      "feature_width": 9,
+      "features": "CENTER_FEATURES.i16le",
+      "integer_abs_bound": 194133559766832,
+      "name": "CENTER",
+      "output_width": 384,
+      "representatives": "CENTER_REPRESENTATIVE.u32le"
+    },
+    {
+      "coefficients": "GRAMMAR_COEFFICIENTS.i64le",
+      "feature_count": 41245,
+      "feature_width": 14,
+      "features": "GRAMMAR_FEATURES.i16le",
+      "integer_abs_bound": 4893696,
+      "name": "GRAMMAR",
+      "output_width": 87,
+      "representatives": "GRAMMAR_REPRESENTATIVE.u32le"
+    }
+  ],
+  "candidate_operator_provenance": "CODEX_PROPOSAL_AUTHORIZED_FOR_TRIAL",
+  "center_output_multiplier": 8,
+  "domain_revision": "A3D41-T18-CONTACT-R2",
+  "geometry": {
+    "catalog_bucket_counts": {
+      "CARRIER_INFRASTRUCTURE": 6,
+      "HIDDEN_SUPPORT": 8,
+      "ONE_BODY_CONJUGATE": 42,
+      "ONE_BODY_DIRECT": 72,
+      "REJECTED_CONTROL": 8,
+      "SCALAR_PARENT": 1,
+      "THREE_BODY_COLOR": 120,
+      "TWO_BODY_PAIR": 64
+    },
+    "center_relation_indices": [
+      1,
+      4,
+      7
+    ],
+    "combined_rank": 9,
+    "covers": [
+      {
+        "id": "COVER_00",
+        "pair_edges": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "triads": []
+      },
+      {
+        "id": "COVER_01",
+        "pair_edges": [
+          1,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "triads": [
+          0
+        ]
+      },
+      {
+        "id": "COVER_02",
+        "pair_edges": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8
+        ],
+        "triads": [
+          1
+        ]
+      },
+      {
+        "id": "COVER_03",
+        "pair_edges": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "triads": [
+          2
+        ]
+      },
+      {
+        "id": "COVER_04",
+        "pair_edges": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "triads": [
+          3
+        ]
+      }
+    ],
+    "cycle_incidence": [
+      [
+        1,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        1
+      ],
+      [
+        1,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0
+      ]
+    ],
+    "cycle_rank": 4,
+    "depth_cycle_objects": [
+      "P00",
+      "N00",
+      "N02",
+      "P02"
+    ],
+    "edge_inverse_denominator": 56,
+    "edge_inverse_numerator": [
+      [
+        -12,
+        12,
+        -4,
+        4,
+        0,
+        12,
+        12,
+        0,
+        8
+      ],
+      [
+        -4,
+        4,
+        36,
+        20,
+        0,
+        4,
+        4,
+        0,
+        -16
+      ],
+      [
+        -13,
+        -1,
+        -9,
+        -5,
+        14,
+        -15,
+        -1,
+        14,
+        4
+      ],
+      [
+        -27,
+        -15,
+        -23,
+        -19,
+        -14,
+        -1,
+        -15,
+        -14,
+        4
+      ],
+      [
+        4,
+        -4,
+        20,
+        36,
+        0,
+        -4,
+        -4,
+        0,
+        16
+      ],
+      [
+        -1,
+        -13,
+        -5,
+        -9,
+        14,
+        29,
+        -13,
+        14,
+        -4
+      ],
+      [
+        -15,
+        -27,
+        -19,
+        -23,
+        -14,
+        -13,
+        29,
+        -14,
+        -4
+      ],
+      [
+        -4,
+        4,
+        -20,
+        20,
+        0,
+        4,
+        4,
+        0,
+        -16
+      ],
+      [
+        -14,
+        -14,
+        -14,
+        -14,
+        -28,
+        14,
+        -14,
+        28,
+        0
+      ]
+    ],
+    "endpoints": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "independent_cycle_rows": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "inverse_input_rows": "B first five rows, then independent C rows",
+    "mask_names": [
+      "SEPARATED",
+      "PLUS_JOIN",
+      "MINUS_JOIN",
+      "CONNECTED"
+    ],
+    "masks": [
+      [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "object_order": [
+      "P00",
+      "N00",
+      "P02",
+      "N02",
+      "P01",
+      "N01"
+    ],
+    "one_body": [
+      {
+        "object": {
+          "M_native": "5/4",
+          "g": 0,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "proton",
+          "n100_role": 0,
+          "n100_role_type": "plus",
+          "object_id": "P00",
+          "p": 1,
+          "raw_address": 1
+        },
+        "route": "plus_single_write[p=1,g=0]",
+        "source_row": "QP093A-0001"
+      },
+      {
+        "object": {
+          "M_native": "3/2",
+          "g": 0,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "neutron",
+          "n100_role": 1,
+          "n100_role_type": "minus",
+          "object_id": "N00",
+          "p": 1,
+          "raw_address": 1
+        },
+        "route": "minus_single_write[p=1,g=0]",
+        "source_row": "QP093A-0002"
+      },
+      {
+        "object": {
+          "M_native": "15",
+          "g": 1,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "proton",
+          "n100_role": 21,
+          "n100_role_type": "plus",
+          "object_id": "P02",
+          "p": 1,
+          "raw_address": 12
+        },
+        "route": "plus_single_write[p=1,g=1]",
+        "source_row": "QP093A-0025"
+      },
+      {
+        "object": {
+          "M_native": "18",
+          "g": 1,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "neutron",
+          "n100_role": 22,
+          "n100_role_type": "minus",
+          "object_id": "N02",
+          "p": 1,
+          "raw_address": 12
+        },
+        "route": "minus_single_write[p=1,g=1]",
+        "source_row": "QP093A-0026"
+      },
+      {
+        "object": {
+          "M_native": "5/4",
+          "g": 0,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "proton",
+          "n100_role": 60,
+          "n100_role_type": "anti_plus",
+          "object_id": "P01",
+          "p": 1,
+          "raw_address": 1
+        },
+        "route": "anti(plus_single_write[p=1,g=0])",
+        "source_row": "QP093A-0073"
+      },
+      {
+        "object": {
+          "M_native": "3/2",
+          "g": 0,
+          "incidence_status": "FROZEN_CANDIDATE",
+          "kind": "neutron",
+          "n100_role": 61,
+          "n100_role_type": "anti_minus",
+          "object_id": "N01",
+          "p": 1,
+          "raw_address": 1
+        },
+        "route": "anti(minus_single_write[p=1,g=0])",
+        "source_row": "QP093A-0074"
+      }
+    ],
+    "pair_motifs": [
+      {
+        "endpoint_context": [
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 0,
+            "n100_role_type": "plus",
+            "object_id": "P00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 1,
+            "n100_role_type": "minus",
+            "object_id": "N00",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_000",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 0,
+            "n100_role_type": "plus",
+            "object_id": "P00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "15",
+            "g": 1,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 21,
+            "n100_role_type": "plus",
+            "object_id": "P02",
+            "p": 1,
+            "raw_address": 12
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_002",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 0,
+            "n100_role_type": "plus",
+            "object_id": "P00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 60,
+            "n100_role_type": "anti_plus",
+            "object_id": "P01",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_003",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 0,
+            "n100_role_type": "plus",
+            "object_id": "P00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 61,
+            "n100_role_type": "anti_minus",
+            "object_id": "N01",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_004",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 1,
+            "n100_role_type": "minus",
+            "object_id": "N00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "18",
+            "g": 1,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 22,
+            "n100_role_type": "minus",
+            "object_id": "N02",
+            "p": 1,
+            "raw_address": 12
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_006",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 1,
+            "n100_role_type": "minus",
+            "object_id": "N00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 60,
+            "n100_role_type": "anti_plus",
+            "object_id": "P01",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_007",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 1,
+            "n100_role_type": "minus",
+            "object_id": "N00",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 61,
+            "n100_role_type": "anti_minus",
+            "object_id": "N01",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_008",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "15",
+            "g": 1,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 21,
+            "n100_role_type": "plus",
+            "object_id": "P02",
+            "p": 1,
+            "raw_address": 12
+          },
+          {
+            "M_native": "18",
+            "g": 1,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 22,
+            "n100_role_type": "minus",
+            "object_id": "N02",
+            "p": 1,
+            "raw_address": 12
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_084",
+        "source_row": "QP093A-0235"
+      },
+      {
+        "endpoint_context": [
+          {
+            "M_native": "5/4",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "proton",
+            "n100_role": 60,
+            "n100_role_type": "anti_plus",
+            "object_id": "P01",
+            "p": 1,
+            "raw_address": 1
+          },
+          {
+            "M_native": "3/2",
+            "g": 0,
+            "incidence_status": "FROZEN_CANDIDATE",
+            "kind": "neutron",
+            "n100_role": 61,
+            "n100_role_type": "anti_minus",
+            "object_id": "N01",
+            "p": 1,
+            "raw_address": 1
+          }
+        ],
+        "native": "12",
+        "observed": "43/4",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_TWO_OWNER_MOTIF",
+        "relation_id": "N100_EDGE_216",
+        "source_row": "QP093A-0235"
+      }
+    ],
+    "relation_ids": [
+      "N100_EDGE_000",
+      "N100_EDGE_002",
+      "N100_EDGE_003",
+      "N100_EDGE_004",
+      "N100_EDGE_006",
+      "N100_EDGE_007",
+      "N100_EDGE_008",
+      "N100_EDGE_084",
+      "N100_EDGE_216"
+    ],
+    "site_incidence": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "site_rank": 5,
+    "source_assignments": [
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_000",
+        "denominator": 16,
+        "native_account_numerators": [
+          153,
+          128,
+          144
+        ],
+        "relation_component_ids": [
+          "HIDDEN_SUPPORT_9",
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE",
+          "WEAK_VECTOR_9"
+        ]
+      },
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_001",
+        "denominator": 16,
+        "native_account_numerators": [
+          153,
+          144,
+          128
+        ],
+        "relation_component_ids": [
+          "HIDDEN_SUPPORT_9",
+          "WEAK_VECTOR_9",
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE"
+        ]
+      },
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_002",
+        "denominator": 16,
+        "native_account_numerators": [
+          128,
+          153,
+          144
+        ],
+        "relation_component_ids": [
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE",
+          "HIDDEN_SUPPORT_9",
+          "WEAK_VECTOR_9"
+        ]
+      },
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_003",
+        "denominator": 16,
+        "native_account_numerators": [
+          128,
+          144,
+          153
+        ],
+        "relation_component_ids": [
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE",
+          "WEAK_VECTOR_9",
+          "HIDDEN_SUPPORT_9"
+        ]
+      },
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_004",
+        "denominator": 16,
+        "native_account_numerators": [
+          144,
+          153,
+          128
+        ],
+        "relation_component_ids": [
+          "WEAK_VECTOR_9",
+          "HIDDEN_SUPPORT_9",
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE"
+        ]
+      },
+      {
+        "adapter_id": "BRIDGE1_CENTER_ASSIGNMENT_005",
+        "denominator": 16,
+        "native_account_numerators": [
+          144,
+          128,
+          153
+        ],
+        "relation_component_ids": [
+          "WEAK_VECTOR_9",
+          "ROAD1_COLOR8_COMPOSITE_CANDIDATE",
+          "HIDDEN_SUPPORT_9"
+        ]
+      }
+    ],
+    "triad_motifs": [
+      {
+        "cycle_incidence": [
+          1,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "edge_indices": [
+          0,
+          2,
+          5
+        ],
+        "index": 0,
+        "native": "108",
+        "objects": [
+          "P00",
+          "N00",
+          "P01"
+        ],
+        "observed": "72",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_THREE_OWNER_CIRCULATION",
+        "source_row": "QP093A-0115"
+      },
+      {
+        "cycle_incidence": [
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "edge_indices": [
+          0,
+          3,
+          6
+        ],
+        "index": 1,
+        "native": "108",
+        "objects": [
+          "P00",
+          "N00",
+          "N01"
+        ],
+        "observed": "72",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_THREE_OWNER_CIRCULATION",
+        "source_row": "QP093A-0115"
+      },
+      {
+        "cycle_incidence": [
+          0,
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "edge_indices": [
+          2,
+          3,
+          8
+        ],
+        "index": 2,
+        "native": "108",
+        "objects": [
+          "P00",
+          "P01",
+          "N01"
+        ],
+        "observed": "72",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_THREE_OWNER_CIRCULATION",
+        "source_row": "QP093A-0115"
+      },
+      {
+        "cycle_incidence": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0,
+          1
+        ],
+        "edge_indices": [
+          5,
+          6,
+          8
+        ],
+        "index": 3,
+        "native": "108",
+        "objects": [
+          "N00",
+          "P01",
+          "N01"
+        ],
+        "observed": "72",
+        "projection": "CANDIDATE_PARTITION_TUPLE_TO_THREE_OWNER_CIRCULATION",
+        "source_row": "QP093A-0115"
+      }
+    ],
+    "whole_column_relation_indices": [
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        2,
+        5,
+        8
+      ]
+    ]
+  },
+  "geometry_sha256": "9d390f86a02a22b67f1a0179ba2db7db4af1c3a818532d4d9683ffa686696b05",
+  "grammar_output_denominator": 576,
+  "operation": "LI6_GRAMMAR",
+  "output_metadata": [
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 0,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 1,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 2,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 3,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 4,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 5,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 6,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 7,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 8,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 9,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 10,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 11,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 12,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 13,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 14,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 15,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 16,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 17,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 18,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 19,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 20,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 21,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 22,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 23,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 24,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 25,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 26,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 27,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 28,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 29,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 30,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 31,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 32,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 33,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 34,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 35,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 36,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 37,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 38,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "native",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 39,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 40,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 41,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 42,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 43,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 44,
+      "mask": 0,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 45,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 46,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 47,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 48,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 49,
+      "mask": 1,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 50,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 51,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 52,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 53,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 54,
+      "mask": 2,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 55,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 56,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 57,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 58,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 59,
+      "mask": 3,
+      "receiver": "CIRCULATION",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 60,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 61,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 62,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 63,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 64,
+      "mask": 0,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 65,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 66,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 67,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 68,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 69,
+      "mask": 1,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 70,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 71,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 72,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 73,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 74,
+      "mask": 2,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_00",
+      "denominator": 576,
+      "index": 75,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_01",
+      "denominator": 576,
+      "index": 76,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_02",
+      "denominator": 576,
+      "index": 77,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_03",
+      "denominator": 576,
+      "index": 78,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "channel": "observed",
+      "cover": "COVER_04",
+      "denominator": 576,
+      "index": 79,
+      "mask": 3,
+      "receiver": "ENDPOINT",
+      "type": "MOTIF_ACTION"
+    },
+    {
+      "denominator": 576,
+      "index": 80,
+      "mask": 0,
+      "type": "HIDDEN_LIFT_LOOP"
+    },
+    {
+      "denominator": 576,
+      "index": 81,
+      "mask": 1,
+      "type": "HIDDEN_LIFT_LOOP"
+    },
+    {
+      "denominator": 576,
+      "index": 82,
+      "mask": 2,
+      "type": "HIDDEN_LIFT_LOOP"
+    },
+    {
+      "denominator": 576,
+      "index": 83,
+      "mask": 3,
+      "type": "HIDDEN_LIFT_LOOP"
+    },
+    {
+      "denominator": 576,
+      "index": 84,
+      "type": "PHI_MINUS"
+    },
+    {
+      "denominator": 576,
+      "index": 85,
+      "type": "PHI_PLUS"
+    },
+    {
+      "denominator": 576,
+      "index": 86,
+      "type": "SIGNED_PAIR_SURFACE"
+    }
+  ],
+  "physical_prediction_law_installed": false,
+  "raw_current": {
+    "bytes": 25165824,
+    "path": "SAM_REVIEW/campaigns/A3D41_LI6_OCCUPIED_CONTACT1/installed_runs/LI6_HFM5_20260906T191716Z_866834e3ede8/SITE_CURRENTS.i8",
+    "remote_path": "/home/lilhelper/SAM_Research_Project/CE_CURRENT_HFM5/LI6_HFM5_20260906T191716Z_866834e3ede8/SITE_CURRENTS.i8",
+    "sha256": "e3e8fcb8cf24c28c049352a326497f093e3c054b679913361563fc97aa7935c0",
+    "shape": [
+      262144,
+      2,
+      4,
+      2,
+      6
+    ]
+  },
+  "represented_source_rows": 2097152,
+  "schema": "A3D41_LI6_GRAMMAR_CONTRACT_V1",
+  "source_history": [
+    "H000969",
+    "H000974",
+    "H000975"
+  ],
+  "technical_map_sha256": "36e20523344db7362d55584a4148cee3daa1ff4a6125914227b91c09da3f017d"
+}

@@ -1,0 +1,5965 @@
+{
+  "KNOWN_STATE_ALL18": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        -1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        -1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "15690b46da759fe477a6a1f5607fbd5ae5f2a5001ad66c7f78dfc464dac71ac5",
+      "name": "GEN2_TARGET:6b5477f87b71cc24b3aed3640e10bb937b013dd916f39a640f159491a83ff63b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/786b008f0bf34624b4f34dd503d59947"
+  },
+  "KNOWN_STATE_BASE": {
+    "probes": [],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2) + log(3)",
+          "fiber_multiplicity": 12,
+          "receipt_container_bits": 4,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "249f35e050bef07f2f31260dc43a0802cdf5f9d2de903ea14dc1387a46ea3cbe",
+      "name": "GEN2_TARGET:5b0da6a7f114164623d91e586ccaa4dca4714e7c584aa81d14a18fbfd2a39a29",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "multiplicity": 12,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/b6ebcb94616447b9bcc27004d9e2b741"
+  },
+  "KNOWN_STATE_E0_-1": {
+    "probes": [
+      [
+        0,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "6504e4da959375d5e939d9b035c40fe716ace956ca46736a2626bc32a0f3e295",
+      "name": "GEN2_TARGET:941a4388e616d213949551c9525edf1e6bf64a00a02dffce69f0c446b083fcba",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/951bbf2f445f43bbbb307f67a8406d50"
+  },
+  "KNOWN_STATE_E0_1": {
+    "probes": [
+      [
+        0,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "dbaf49fa07b83169459809a43b273deb150394c88dd9d57bcf0fc462499c5627",
+      "name": "GEN2_TARGET:3dde481fa0b4625ad4d374211bf205aba39607c56b9bfb7527b679935d98a027",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/e54c33effeba4c319d2a3786ffd2be12"
+  },
+  "KNOWN_STATE_E1_-1": {
+    "probes": [
+      [
+        1,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "88af51f7b9eeae2dd7d057f694be022bb9bbed44d8b78e5f49e4b19e827d9049",
+      "name": "GEN2_TARGET:3e6544532631d060f22eff4026d1a251fff929662186094623200f8f7dd40898",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f92dc3d6336a4f9281192b60f6c30e99"
+  },
+  "KNOWN_STATE_E1_1": {
+    "probes": [
+      [
+        1,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "f1894e41c05154df775c839c85941425d1f006d1237b8f7c44f018a40b388cae",
+      "name": "GEN2_TARGET:ff021c6707e89e9a53e252dcdfc8e4cd43a995c30f0b78ea0e14551d150a367b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ef5510617be64503bec4b86f86f27278"
+  },
+  "KNOWN_STATE_E2_-1": {
+    "probes": [
+      [
+        2,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "185d23488fc59e448a27436a4c66ddb0509d7ced78e9cb5b71baf9f11f4d59a6",
+      "name": "GEN2_TARGET:b5a36c46f66512abe2ff514362b5f6f7276e4fb6fb0876979a7a83910d3edb08",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f2bb4a4961eb48bda8e52f5625e86552"
+  },
+  "KNOWN_STATE_E2_1": {
+    "probes": [
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "73a3e792e17be115f5f3ae098f29a8450d06778899ca472ea0a98e48330329a5",
+      "name": "GEN2_TARGET:e2b330dedf82a161f7629ec2a477a4bbe2542c00997776b4ac22b38d139f7c92",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/339bdf1bbdb64a0a986784c86549e907"
+  },
+  "KNOWN_STATE_E3_-1": {
+    "probes": [
+      [
+        3,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "c81605681cc7ce115766c60b74d82700fc866158dce8b0bb86ab90de84bccc12",
+      "name": "GEN2_TARGET:75920ec60f5fed6868bf335613f830982b3da18d255f59fa08cad3c4838c9451",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d606beca5abf4d2396b0d5bc5b12242a"
+  },
+  "KNOWN_STATE_E3_1": {
+    "probes": [
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "2ff157a3ae5b95f33714e58f6e2bd5e0fc03a24debd8155ae3903ff3b4e6f2a8",
+      "name": "GEN2_TARGET:65a7bef096911363c27b308a30971e2ca7feb539b004fdebfe6f75e42012473e",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/40ec357d6432448e941d4393e7adf8b5"
+  },
+  "KNOWN_STATE_E4_-1": {
+    "probes": [
+      [
+        4,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "243b92b41d035dac26a18c81087183dead1eb8783b5587d695b0bc2f4eeb4675",
+      "name": "GEN2_TARGET:8e72a2bb3d3b804c9b626f7520c136a5b6cfc009ba5f133c4a34fb199f74232c",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/09517ddfe8b74ffb93ee15a1bc337aa4"
+  },
+  "KNOWN_STATE_E4_1": {
+    "probes": [
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "1c6928ea9293fdf4cca96e3649cfad95fe63dc94a556149d3d1ebad7d901eb3e",
+      "name": "GEN2_TARGET:8fb1ad0a235cabe717bfb869dcc77ca3f7889c4cd5d71febc0096fe0f22d2edc",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7f6cbec7e0994b75ab21278e251bea6e"
+  },
+  "KNOWN_STATE_E5_-1": {
+    "probes": [
+      [
+        5,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "4928d7e922ec947d6a7bbe3c4b83fe2438fdd905a9b01a1fdca7461daa17dd3d",
+      "name": "GEN2_TARGET:9fdceb161f633ef344f3b3b32f898489b72697c92a9ce5fdf261e174a8852e08",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/4f817a6dc81441fa9bb003e872602701"
+  },
+  "KNOWN_STATE_E5_1": {
+    "probes": [
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "190b85fae649f09c61fc8564f86dd86af4011949fc3749243c37b32473670ea7",
+      "name": "GEN2_TARGET:057a10c9779367e316893ba39624fa1f1fe4323e593d3faac7332a87859b6cf1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/6e16f51c67e34d378840c9603babdeae"
+  },
+  "KNOWN_STATE_E6_-1": {
+    "probes": [
+      [
+        6,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "9ff5c1a35ecac41dc73d0d9bddb9603e703ccba4fb2cf73ac602240312bb37ca",
+      "name": "GEN2_TARGET:5b474daeb3cedd2733d96956cda914ccd2f86daf33a0519503297d0b668c0f27",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7a6431788ada48c1840cb18906a93f2d"
+  },
+  "KNOWN_STATE_E6_1": {
+    "probes": [
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "cf29a155b97e556f257fbada3079319c7058ad06fc2b37614512863471fe2399",
+      "name": "GEN2_TARGET:1c3e9a136eb7cb57fcc929a9d6c4b0a6799631cdfbc20e45f1a9e0c6f7fd74e8",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/db8e687e4c124acebad6333cfedd55a2"
+  },
+  "KNOWN_STATE_E7_-1": {
+    "probes": [
+      [
+        7,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "217ec45a5a5af74a73386439f6aa503021a1da9793adf894751ca9246525f371",
+      "name": "GEN2_TARGET:7e90a4ce174538883745b8c0f07f3b9b142d31c47dd94a6c3ee10d85daa9e23b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/4d7e65054a664447859819a2a10590f8"
+  },
+  "KNOWN_STATE_E7_1": {
+    "probes": [
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "d59a548145718b6df92dec70e797e513106032c44eb8ec3968388059489fe3a8",
+      "name": "GEN2_TARGET:09198c145c1c0fa773660f4554003d1add7e2a579e67c3e55718b8556487b5e4",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/44da08cb630c413a89d22f00a961b6ee"
+  },
+  "KNOWN_STATE_E8_-1": {
+    "probes": [
+      [
+        8,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2) + log(3)",
+          "fiber_multiplicity": 12,
+          "receipt_container_bits": 4,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "17b74000d338643920f3c10240ebf8de7c2070ebd10624e7523dfc858a6db5da",
+      "name": "GEN2_TARGET:a9d6d3222f9e266bb195ba067a812dcd899d910cf39e0e5c71c86653766b5e26",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "multiplicity": 12,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/de5e991781044d61bd3c2060710f850d"
+  },
+  "KNOWN_STATE_E8_1": {
+    "probes": [
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2) + log(3)",
+          "fiber_multiplicity": 12,
+          "receipt_container_bits": 4,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "6c0cced20578cd0e1cbdaf25348ab8fe4e53d29ee970af84e950c2d32663d111",
+      "name": "GEN2_TARGET:2822aef78cf7b7d710fe6ea458d5551a2291ab7d4683dd0f80727c9f4401b52b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.5849625007211565,
+        "evaluated_nats": 2.4849066497880004,
+        "exact_nats": "2*log(2) + log(3)",
+        "multiplicity": 12,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c83516f2e750406685d6b6955f428861"
+  },
+  "KNOWN_STATE_PAIR_0_1": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "f9f8c4abf0ee7017869776232aa3fdf4f36a96f38f54c91061e30dfbf10f9117",
+      "name": "GEN2_TARGET:1bc23b270729b25b0c0e896ace11ef93c9174dfc497b49bcbd0b55d5f3fcd778",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f39d04efa85a468a80d9da288d20f82e"
+  },
+  "KNOWN_STATE_PAIR_0_2": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "c77d9a4846d23bb18ac2fb9cd6b4664ddcf8a0246a4704d8bad573b1cd4ea46e",
+      "name": "GEN2_TARGET:82a6208da8376deee6c07f404f1c74bd8a1b653de5a32fd28ba99558d6ef4e3f",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/420d22934f91485b96927cbcf00b8af8"
+  },
+  "KNOWN_STATE_PAIR_0_3": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "1e59efdc50b99113098691515e115500fcc89d23fda24d835818093b65f15924",
+      "name": "GEN2_TARGET:8a2a69c6c57f68ba1ad51b9d2ba08b21b96806a7bf3b32d1d41f0a4fc75216e5",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c735bebda9fc4d82923d68582073a9ce"
+  },
+  "KNOWN_STATE_PAIR_0_4": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "6677ef8bbbaf4b530b12d4cc4c7d95c5b609dbd5ddddbbc1821fa274a8234620",
+      "name": "GEN2_TARGET:58dec16dfc437d05d76e3c90e80d1f433cc0b7633ff82cb86c808821682116c3",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f12ccdd3029843d5b384ddd626987de1"
+  },
+  "KNOWN_STATE_PAIR_0_5": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "14e0d6dfebf21a57b0624f61e969101166e33b2ebf3380adcf67e5f17f982e92",
+      "name": "GEN2_TARGET:f16450779f0bc2600118618c2bb1e0641fe7aa65e9a03634b1e5c3abc1f3e0d3",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d95960138bb9448b9a0ee8866eefe2f4"
+  },
+  "KNOWN_STATE_PAIR_0_6": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "ac26bde9dc6320649059b51e421f099231e8ee5f53ba19083cc97945df2122e9",
+      "name": "GEN2_TARGET:43a37636d860260432ebf3ad34d6a036c8db132e25890a7f845b9a3dc208181e",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9fe2f3bac9ba4c95a85d9bebb690d670"
+  },
+  "KNOWN_STATE_PAIR_0_7": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "2f628d2df69783057be5d75dd5ce45cbe5dd6d01a81e8b483d21f1f8ec297297",
+      "name": "GEN2_TARGET:3e02ced025b09c7aac0ed2757c030451e224a04bc116738edc68f20d3d9d5e87",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9787e6a7d1a7493e9ea6dcc1f24df14c"
+  },
+  "KNOWN_STATE_PAIR_0_8": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "9d96109f918a38932313882488a320a7c37df31da9a6ce661c9c18925fbd5a55",
+      "name": "GEN2_TARGET:ba4e66a37dcb4b658a06a39afc8efcd138da1301e7cf54d9b9ab6b2dbc63db72",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ba345d8c62bc4e949b692b3ac0c4f305"
+  },
+  "KNOWN_STATE_PAIR_1_2": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "d185b12be4b81288f543212a83536f935a2209814258bef51a5b83007b4c5d6c",
+      "name": "GEN2_TARGET:a75131fb0675e8e23075037ce13ddbef4424627552141766bde08622524ca553",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d92461769eb44ff0b04659a25ad9ffbb"
+  },
+  "KNOWN_STATE_PAIR_1_3": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "5b25e1e5d49a895bc180a39b6f2db310d94a32fbe96ac2cc84252cbbcbb7451d",
+      "name": "GEN2_TARGET:2c2198989420fedb9179e9ccfe1df88a836cb42d2e8f23bfb08e6ed8f695affd",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3543662a72de42b38833eb6ff68e9335"
+  },
+  "KNOWN_STATE_PAIR_1_4": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "5502a9d06f0ecbac42232b738196c385973dc16c7a5e80b2e8247d1104c42c4c",
+      "name": "GEN2_TARGET:fdbf6acc0e9538af843f391c81d1755baf90529df5115c71bb39a65d0716d846",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/74ff53b0a74d467f883349ecd2a440ce"
+  },
+  "KNOWN_STATE_PAIR_1_5": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "f4b2c4640bd4d7c352880fd27085e6dff130c8e322f1a885ce91f0e4b1e95755",
+      "name": "GEN2_TARGET:a6f4efdad1fe7e1546bd597e98a05dc4e66f28514e30c035236be6849d618b16",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/5dd03e32ed2b450eac3dd9bee2dc34bf"
+  },
+  "KNOWN_STATE_PAIR_1_6": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "23ee0936b4eee9a906abba986390a06ef8a2ea4878e77f1d12cafdfb7db0beb3",
+      "name": "GEN2_TARGET:52a75b3ff137c8bc42caf6b7262af5a49b002555652d8bd6fe5e4aefd1c78285",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/8ea6f2f77b494662b203dca72e5627b7"
+  },
+  "KNOWN_STATE_PAIR_1_7": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "e7e60395ef046bc1508fe6940985d685237a2f26e2997fe7c9ee6f971d155896",
+      "name": "GEN2_TARGET:8ca45f8baa4185e9fa955a2d526c69fd5f25f594192682ae1e5396fc0685ac78",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c4ef943fa82f4ee18299e6a33a4eb47f"
+  },
+  "KNOWN_STATE_PAIR_1_8": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "afbfb7c58ae49a7090f6b441dabf09a97046a545b684f9dfa6f08b433b976cae",
+      "name": "GEN2_TARGET:49fcc8eab8876307b3afa190613f84843cd5f77cee6e0a3f216fb33a192d0210",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ebde6276cfd34815847b52efa940d307"
+  },
+  "KNOWN_STATE_PAIR_2_3": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "edf65b2c37cfa29746785198b409c114dea911c726588797a82aa4013e190fae",
+      "name": "GEN2_TARGET:ce73041fbd81f6d9b01d69fdc5b7eb91f6b7d1da948a5ad84dc7ae3d48d40764",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/879c9325e53f48b7bb7a379061d890bb"
+  },
+  "KNOWN_STATE_PAIR_2_4": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "bc66e18de04b2cb95f0dec04b03581429081a2ace64ecd8de968201e95df4d50",
+      "name": "GEN2_TARGET:ee19d9113df76587694a9ba9530e693b019e84bbac64f49f3b8c75c0e7962bc1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9ef11738768f440da44c4a69c6f1b6b3"
+  },
+  "KNOWN_STATE_PAIR_2_5": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "f2fcd2ebeaa7e4d76c204f698bac2d00478f799d2f5ea01e103be953d1eae3ae",
+      "name": "GEN2_TARGET:26eb899384664d6b512fd789384bbe274547e425f8e9945cc87931334510374c",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/895d3fe73e9c4bf8836d23bff8c823f0"
+  },
+  "KNOWN_STATE_PAIR_2_6": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "0f9e81b8dad44d235e84b006561defc8c52bf5932c3f3c68e7813b1d1bc253d9",
+      "name": "GEN2_TARGET:b49ca2724afbf649e1cacac854634e24a1415be72edb42a2362d02d61ccf1f43",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/78584bda83b2423e8aad7c019179111e"
+  },
+  "KNOWN_STATE_PAIR_2_7": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "9de3a31476848b18ba4cb066911e30a55d3af9e0be1f83a328c4fb332288fece",
+      "name": "GEN2_TARGET:0b07d83351a2341a7b42c9d44e5f8dddd5ce9941bbdc583913299acc3525ed7b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c15cb9fb17e84f058a50ba9249f2eab9"
+  },
+  "KNOWN_STATE_PAIR_2_8": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "29905b87b5c030afe0220a09520d6bc14860897d7b6335a970896b2f81b73928",
+      "name": "GEN2_TARGET:dcd58bd4bcaed0f256a00a6a85856a50979f14e102c715ae67acf1c738f67ccd",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c36f4e6fbb254bfaa3f2d30ad6ef26e6"
+  },
+  "KNOWN_STATE_PAIR_3_4": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "b12bf5741c189327953e2a49f82a5a2526eb515081787630b4911678d502c676",
+      "name": "GEN2_TARGET:d192863c5f492024800ec57a716a0bae340aec1bc36c9bf0b2d4987735711693",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/73a298429bfa4a0db7c07f2b330a96b5"
+  },
+  "KNOWN_STATE_PAIR_3_5": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "00d5c95172a9164d77736dcfb53c5411fc801dd28f0c0df37d6b844e7ad7c0fe",
+      "name": "GEN2_TARGET:3e96ff33d44aef27a2f1563e221ec87295c35e63da32209af62a5bad1bb5d5ad",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d89ba0c7e7a7429e832ca6c7c81584da"
+  },
+  "KNOWN_STATE_PAIR_3_6": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "8be1f620216a86a0017abad8c6b297def2c8011a4e24480aa0392f392a4f06ed",
+      "name": "GEN2_TARGET:d45ab6db78dbf03a36d6f506d8dab45754c6e93ce72fc1f01b2fbd3c2b6eaf8a",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/92c2f45010c94897a04418f15c1d84bc"
+  },
+  "KNOWN_STATE_PAIR_3_7": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "ef09323d56b6f001a115db68e8d245d918b6ea20a4742d0490f0a5f4378b02cf",
+      "name": "GEN2_TARGET:69a3ba1b04d274d8f4301cc3395723d112304e9cee0ff8acc73396d9a477a2a6",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d753fe597a484565b6da101850b126c9"
+  },
+  "KNOWN_STATE_PAIR_3_8": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "e5efcb985348f32acff35aeb85c7ddc671423fc1409aa282a05c8aa990981dc2",
+      "name": "GEN2_TARGET:a8eb12da919dc0419bbfd1cbbfa4207a2a25819ec957bf0f4537c9f56f6fad8c",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/a3ebf72ad4964964a65a74a98dfb5999"
+  },
+  "KNOWN_STATE_PAIR_4_5": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "034ecdd719e8089ac8a3f0f1246c839f0230f24be0475c669b4fa56a4cdb0441",
+      "name": "GEN2_TARGET:ebce83b22034cdd383113e62b3cc26f3b102172d97fd44b72d0bb3433fbb988e",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ab51e14e5e2949d6a1da821ec7343cde"
+  },
+  "KNOWN_STATE_PAIR_4_6": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "0c539713346bb0889fe62de69c781974e6245b172d3bec32b57d486bc5ce925d",
+      "name": "GEN2_TARGET:675d219531dc7502dcb630057b5587e4903a0686f557760881c2621933d08ce0",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/2085f0348f7146b082d902906943b544"
+  },
+  "KNOWN_STATE_PAIR_4_7": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "341545f866369e3354289c12ceb7b86745ef5dca41775bca40a2db71736a4008",
+      "name": "GEN2_TARGET:cabd10e407bae8fe6a92e940c77ecf66cf94defed2c3adb5a2911a4da95000a1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/245be3f7ce40416e9811a3630fc9e944"
+  },
+  "KNOWN_STATE_PAIR_4_8": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "ec6b45ffefd428b7c1b2f80e3edf59ed444965d359615391e5df4d76aeaf4938",
+      "name": "GEN2_TARGET:4ee2c5fffa69d0ded0ed2e43395cd83f420833376a84afccc9fcdd88961ad0eb",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/82232a3a21b04bf19e285cefe9a9f3ac"
+  },
+  "KNOWN_STATE_PAIR_5_6": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "a265b3b29c389a5ea5c3bdbe140a63b59eababefdf0f61c07b2a4a041d14e77f",
+      "name": "GEN2_TARGET:78a29ccd7a0225043a7af103d3a4416e27a3dc9458e2a7c2330fa942d413011e",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/6679f524208145c29c0863ab7cf0ab6a"
+  },
+  "KNOWN_STATE_PAIR_5_7": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "054f9a5755f6c021cd63efc3f168dfb05da58e3b860aad998807e7a9f990d6ae",
+      "name": "GEN2_TARGET:5f52c8aa4263d18ae62d7a88da34b8e8feaf5a4537884378d36f9919ffcc3c47",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7282985208ce4043acef4e7770fde75d"
+  },
+  "KNOWN_STATE_PAIR_5_8": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "8815bfc6e14ddca56b792ff5c87e1cbe0f8a7a32f23664ee99de159d6a93ed75",
+      "name": "GEN2_TARGET:665ab5de2d23c4eca1531885d51541dd79c883169b29ccc3de9a2846b72e4bb9",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3e39c192199a4659af35f7b8f7f99441"
+  },
+  "KNOWN_STATE_PAIR_6_7": {
+    "probes": [
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "d32ad67aa4f59a57ad6b4737be32ee1d6522f947f487b69f0276e783a3e3575c",
+      "name": "GEN2_TARGET:3c299e79dc72aa79d7d16f5e1d7e0f51ff40785ceec2af58dd4d6cb6e2333ceb",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/4a033687db704a6ea42ca40d3ed61cf6"
+  },
+  "KNOWN_STATE_PAIR_6_8": {
+    "probes": [
+      [
+        6,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "3c852acfc7fcbe691575577b306200987535eb23e743b36e88dd046553e9443f",
+      "name": "GEN2_TARGET:0d06fb24034288672b567c43746c26a4a43755852b63c1b94e6bf45ab3dac6d6",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/6b47fa9b39d74dea86a33032f3dc3e5d"
+  },
+  "KNOWN_STATE_PAIR_7_8": {
+    "probes": [
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 6
+        }
+      ],
+      "input_count": 12,
+      "morphism_id": "5aefddebdf62d7aa26052665f61b43eab3669acf856352d2336b4b9d7219b4c5",
+      "name": "GEN2_TARGET:7ed6be30a6ef630eac25420f618309b9f5562fb9fee5d51fb0b0b96a4dcedd39",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 6,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/367137ff9a614cfaba1d34a813a9c288"
+  },
+  "UNKNOWN_STATE_ALL18": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        -1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        -1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "1",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 1.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "log(2)",
+          "fiber_multiplicity": 2,
+          "receipt_container_bits": 1,
+          "visible_output_count": 96
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "2e5f8594ea0c5dec2a4ac8ed291243aef0e03a218ccdb4f153b1e8a8d549ea4b",
+      "name": "GEN2_TARGET:9df82d1004e04614b573b26aa4328efe0f5365308e977a198d1f7e8db0946240",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 96,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 1.0,
+        "evaluated_nats": 0.6931471805599453,
+        "exact_nats": "log(2)",
+        "multiplicity": 2,
+        "prime_exponents": [
+          {
+            "exponent": 1,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 1
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7213b72132564ed8bb233d365806b4ec"
+  },
+  "UNKNOWN_STATE_ALL18_AND_SITES": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        -1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        -1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0,
+        "exact_nats": "0",
+        "prime_log_coefficients": []
+      },
+      "expected_receipt_container_bits": 0.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "0",
+          "fiber_multiplicity": 1,
+          "receipt_container_bits": 0,
+          "visible_output_count": 192
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "2ad6689223556a8d34e4ad8a2ba6deecf95d576138e3f1dd6c029dc5ad72f38b",
+      "name": "GEN2_TARGET:fdebcaf264661d76366b971b266288218da847c9e5766532136b8e1c8d6d28c3",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": true,
+      "visible_output_count": 192,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 0.0,
+        "evaluated_nats": 0.0,
+        "exact_nats": "0",
+        "multiplicity": 1,
+        "prime_exponents": []
+      },
+      "worst_case_receipt_container_bits": 0
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c9ff390bd51645478cfa79e825a97215"
+  },
+  "UNKNOWN_STATE_BASE": {
+    "probes": [],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "6",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 8.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "6*log(2) + log(3)",
+          "fiber_multiplicity": 192,
+          "receipt_container_bits": 8,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "94cfcdf974efddf30937dbfaf5212d28700c2ef33a907fe752182e7c5d2a6213",
+      "name": "GEN2_TARGET:9fc498860b9ae0378529e2b42188411b7a7f21cba70c3f73ae127e5f2ea640d2",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "multiplicity": 192,
+        "prime_exponents": [
+          {
+            "exponent": 6,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 8
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3903fe2392d24eaf86f5a113494615bd"
+  },
+  "UNKNOWN_STATE_E0_-1": {
+    "probes": [
+      [
+        0,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "c9d37456e2cef5fcb156c5a4638bc075f749d96a4fc11766dc637bd3c82d6710",
+      "name": "GEN2_TARGET:60a5f8d54b78e384e9a6712b21f4064d1242f4feef8ba0ef0885020fe7699fb1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3d471b52d1d44e478ea1fc5872241d56"
+  },
+  "UNKNOWN_STATE_E0_1": {
+    "probes": [
+      [
+        0,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "90a52c62198e8cb79ba89e7cf36d6208ce744090f7dab06ffcf2d09abafc03fc",
+      "name": "GEN2_TARGET:07b6fb49d12a56b8f726b09d77df27ce76e701f3e7fa0bf5dca8a18fb3e8b174",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9a9c565437e141468b052f27009892b5"
+  },
+  "UNKNOWN_STATE_E1_-1": {
+    "probes": [
+      [
+        1,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "6f7a27f682a62292109eb03aa39e990c15ce94837fd6ac1d60a7fbb087b5659e",
+      "name": "GEN2_TARGET:94ad38234cb66be976948280f05e6f67a94742f7d40ba4a8302f4b7716419f58",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7c2d74837d4b4a62a2bbc98ef1b019b2"
+  },
+  "UNKNOWN_STATE_E1_1": {
+    "probes": [
+      [
+        1,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "1d55281a5fb41a6302cce320e5d0ba11dcb88c48efb589d3e4cf0f31ca9642e0",
+      "name": "GEN2_TARGET:3db01df52105ec1a9bfeaf6d7edd148a7de657d49998b1ade48b1b45e75de06e",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ec3e905b1e844dd194c4460cd2a92cef"
+  },
+  "UNKNOWN_STATE_E2_-1": {
+    "probes": [
+      [
+        2,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "35c008f1daaa457b709443afd7eab3cf904ad4f0f264b7cfd963e51c34ccd7c9",
+      "name": "GEN2_TARGET:ea4e018c14020690cbc7a5c2ceaa66fd68b3dc05a3115575cd9a5c85be8cfd3b",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/77d05702ef5647568a9a6373c4174bfa"
+  },
+  "UNKNOWN_STATE_E2_1": {
+    "probes": [
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "8c6d2ec260844f2730bfd6144415547ae99ef475bea16ba318349a72d8580c72",
+      "name": "GEN2_TARGET:c188694f9e52f5348c93e8417c080563c24a1c5b41f5cf88a4562a650ed3a559",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c9d0e316b9904d4f9366070cc1749474"
+  },
+  "UNKNOWN_STATE_E3_-1": {
+    "probes": [
+      [
+        3,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "456d5a51a990cd4909e8d521360cbc3001174e338c20610559a97b1acc1717d6",
+      "name": "GEN2_TARGET:f9880cbf5750432fbc094a14a1866f46c9e5982b484e0e5866de9f0c8e2478c1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/41c0d886b7df4802a547f0659450a5e5"
+  },
+  "UNKNOWN_STATE_E3_1": {
+    "probes": [
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "0be3637c14834e34377a9c8e184799c9b5dccd9de15db0e02b885f4227b798b9",
+      "name": "GEN2_TARGET:bf3aea3d4e6998a33b0cf81ff79ab9fc8c000baf4faa7c82b76ad742c13ccc75",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/4f69b4133d874923b634a721421a239e"
+  },
+  "UNKNOWN_STATE_E4_-1": {
+    "probes": [
+      [
+        4,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "00b1dc7b2049352c50161e4d7ba8e39516ee8d583c07cb1db4b86dde5546e6d9",
+      "name": "GEN2_TARGET:cf1f1acd4362b2258cefccab9d5a31a84416c4cabefd013e46dab9fda804e8b0",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/8ffc04b494274121ac6dc49198bbe370"
+  },
+  "UNKNOWN_STATE_E4_1": {
+    "probes": [
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "896b41a2df82f15a0086a6764e99735c791e65a2fdcf8d9eb25777db7dfb206c",
+      "name": "GEN2_TARGET:9525873fd2e3136314c7c3df34f0a481ceec6475d0efb18744922458f1de221c",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/06592916d0e347169ece2bf61603b06b"
+  },
+  "UNKNOWN_STATE_E5_-1": {
+    "probes": [
+      [
+        5,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "96bbd44c03359e838326d67d15694cffe7e1b5c497f6ce0a7821084617b7d6e9",
+      "name": "GEN2_TARGET:e5546970fa643c8cf06960996ba40699f2476824532693b462bac24b00323623",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/517784f7b7a04778a47d3cbe21240858"
+  },
+  "UNKNOWN_STATE_E5_1": {
+    "probes": [
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "fe68d76a1b39926e4864a671ad14a5125d4397b3691960e4a0b8e08db331f8e5",
+      "name": "GEN2_TARGET:090829666da13c8054545f233c7780a17bb06dfcd1bce1d78fbbf7eb27389a62",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ea8820a4bd9a421ab1953443c5f5d49d"
+  },
+  "UNKNOWN_STATE_E6_-1": {
+    "probes": [
+      [
+        6,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "09127d1806d24efb808b7a377bdab3a2ac4dfa0e8ffbbb1d42a556ec1d6064d4",
+      "name": "GEN2_TARGET:b014ede6f141131bd0b36de7f77cfeaaa2dff6d2d9c51bd8b99a363ba5cf0018",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/dbda08c74c904980bcd7f7ada441977f"
+  },
+  "UNKNOWN_STATE_E6_1": {
+    "probes": [
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "393768883280cd69001dc1e90e925637f49778e992a4551a628875ebefac8724",
+      "name": "GEN2_TARGET:cc662f829d9c94e81e99b9db3cf77c8d12ac1e0e3c721e643bc9576d2896bce6",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ed587c1c06134629bb66acd28604aa67"
+  },
+  "UNKNOWN_STATE_E7_-1": {
+    "probes": [
+      [
+        7,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "010f2e735b8ca4697322b6e4a5c1066680b3d3b31af1ac5488a830c38acde701",
+      "name": "GEN2_TARGET:a323edbd15b3e9d33219f64b55adfe8e0f576dacde594dcd73740469035d3619",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9d64d32bd7cc45fa911d29f5d69829e5"
+  },
+  "UNKNOWN_STATE_E7_1": {
+    "probes": [
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "a635e0d0b10636d1e8b6d0016a81a5e7358fc7a533ea13157c8cb746654f7457",
+      "name": "GEN2_TARGET:598a8f34b8224cc41c83f95f5d4eecd5656db14eb2ba7b54d8c4f32e69cbe301",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3c30f488b45f4009889addd4134d6317"
+  },
+  "UNKNOWN_STATE_E8_-1": {
+    "probes": [
+      [
+        8,
+        -1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "6",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 8.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "6*log(2) + log(3)",
+          "fiber_multiplicity": 192,
+          "receipt_container_bits": 8,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "b1439fa3fe5877c3ac6d8fc1fe5dc85922f4b21884f16b2be3a4ff4a7dc622c8",
+      "name": "GEN2_TARGET:90abd2808e477e4ec6f3e2510a4b2e32509005bdc29e53f32018277c58394446",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "multiplicity": 192,
+        "prime_exponents": [
+          {
+            "exponent": 6,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 8
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/06cea5ce5879404791b64b596ce2803f"
+  },
+  "UNKNOWN_STATE_E8_1": {
+    "probes": [
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "6",
+            "prime": 2
+          },
+          {
+            "coefficient": "1",
+            "prime": 3
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 8.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "6*log(2) + log(3)",
+          "fiber_multiplicity": 192,
+          "receipt_container_bits": 8,
+          "visible_output_count": 1
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "d6734d0e06b9f9bf2973b10bdab1ee453ea2e93c0c2faa6a453d0a45992ce75d",
+      "name": "GEN2_TARGET:b77280fa37cf1e849ab2ef4e72e4bab889ac73050f8dae3ed2c65e4b0551a371",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 1,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 7.584962500721156,
+        "evaluated_nats": 5.2574953720277815,
+        "exact_nats": "6*log(2) + log(3)",
+        "multiplicity": 192,
+        "prime_exponents": [
+          {
+            "exponent": 6,
+            "prime": 2
+          },
+          {
+            "exponent": 1,
+            "prime": 3
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 8
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/54e065cec39748acba78ab1217caa4a1"
+  },
+  "UNKNOWN_STATE_PAIR_0_1": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "144b9cef209d991f8735492fa9594dc0fac04495d3964b3b7bb53c0be7bef920",
+      "name": "GEN2_TARGET:325daf32285e127b6b0eb8d9ce1ca52b39a358f1768b03099c88e413f482fc75",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3866aa9dbe6e4b77bf2acef3ff334a2f"
+  },
+  "UNKNOWN_STATE_PAIR_0_2": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "2f84b941edf09821526f4ef79b1c885c08ace2a8eb39dfa55eceb3c8b1621d65",
+      "name": "GEN2_TARGET:0e1fd444032d7dafd11ed5d5988fd7e96a92490ead485dbb3895768c9d1d05c0",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ec1cd4a6df5141c5bb606cd51c018dd8"
+  },
+  "UNKNOWN_STATE_PAIR_0_3": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "f0c9db9ef676d82f458d1dd2c9761fe4456ea220353a25fd40cce51672a426b1",
+      "name": "GEN2_TARGET:dca7bd20fa747fb5330d33a98d4a030a5088cdf298f52a230f873670de8330c7",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/dea32c9561214b428902093e090397f4"
+  },
+  "UNKNOWN_STATE_PAIR_0_4": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "34a1b1e792e4667e0c1d63cddbba29a93bcc413f10da2becac488df8d186d074",
+      "name": "GEN2_TARGET:f04978427d548486bc32df7070397fb92e6d5837f5a7affdc53a9384f004af2a",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/4532e2653c8349808e127410a24bf543"
+  },
+  "UNKNOWN_STATE_PAIR_0_5": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "2922bed6153335bc7e76d033debe9eb9d684ffe858d2d981c221f97d46f4a8b0",
+      "name": "GEN2_TARGET:d2601463e187f0bf11019dcb635b3567fd700868f54dc92aa48543148a66c85f",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/bc359f785d2245f98541d05e24c41c08"
+  },
+  "UNKNOWN_STATE_PAIR_0_6": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "6cc000acaea9dea3ecafcd205eceedcf5a16823845c8e9cd650e3e8904c8574e",
+      "name": "GEN2_TARGET:3b80dbd0f8e6cf377b25d678b33fe2cb6170922c27adf2260cb9df276a75fa65",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/602806fbc61345bb8ed867d6a2e3148b"
+  },
+  "UNKNOWN_STATE_PAIR_0_7": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "0b19edefdcd0d3834a14dca40a07e97d38579c8f85364268199deffd28b76a77",
+      "name": "GEN2_TARGET:59a25bfb5c26edc095290770472e22515992fa10f5f3714049b0e30a94f254e1",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/e3ff08f9017c4410b9827dc5270e1bc8"
+  },
+  "UNKNOWN_STATE_PAIR_0_8": {
+    "probes": [
+      [
+        0,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "20ebba63717d73f02030cd06c314d50e90f6eafd44b2f1c199b734c3c9fd326c",
+      "name": "GEN2_TARGET:74803c7f83110139b5606ac5e55f245cc8cc5e8e3ebdf8f35912b9609801a33f",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/5b4dfe3eef1c418bb838459c0e6b86e5"
+  },
+  "UNKNOWN_STATE_PAIR_1_2": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "a496eba2c0e9db851e027c7815900ac6d106d008adf4e73f5bfd2d36fd4130ab",
+      "name": "GEN2_TARGET:6a8e32cded625c6d9f0b923522365c042067780c34c171db1bc049b94e33d9a6",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d00ae28eb3424605abcf8ed59592a017"
+  },
+  "UNKNOWN_STATE_PAIR_1_3": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "6ffc69e3fd73d4c094eaa66a3fcd4e6de670ba7bd7b3a59c83863bc724c4dcdd",
+      "name": "GEN2_TARGET:526cbe698153ec5d5a53cd5e17fcc8732895a3691567c634445a93e344aad926",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/2d8b5a41ec34411d97e4373516a22827"
+  },
+  "UNKNOWN_STATE_PAIR_1_4": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "8021c59185d2446972c61f0d008ff32c3b7673481266a35a7eb5ff26be9a19a9",
+      "name": "GEN2_TARGET:01481361bb42b407c96d61be72e298e5cff17f354ebf102ed45bdee98fee5edd",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/75818649e2ce4454b2da7e579ab960d9"
+  },
+  "UNKNOWN_STATE_PAIR_1_5": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "23d13d0248734f91710177b8fc4e6467949206703d2960158545c60edb827ffd",
+      "name": "GEN2_TARGET:6827bc75994b360c2364ab2a7197efe600ed3e3f5061ba912acb17e765ae8120",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ffe85bccb3594d30b02a3d03bdee8083"
+  },
+  "UNKNOWN_STATE_PAIR_1_6": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "c2efeae3ffd8c1f2a60a05df83bb65d13f52eba854d0153805e7c8819a487117",
+      "name": "GEN2_TARGET:97eac85b4a250e47129be2d58b16d6715e46acfbcb60eda3d3e9989c8c99d584",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/b79e9692192746ea8533ca1a645ac823"
+  },
+  "UNKNOWN_STATE_PAIR_1_7": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "edcd047176c22919f2c383f78dd52f5875168487db729c31effea64c603a2b27",
+      "name": "GEN2_TARGET:bec3b41e2c069f21db75992a7a53cb9327f9a07bab437702c215da34d4b29e40",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/23a8c4bc63be4cf2b50ab76025f6a96b"
+  },
+  "UNKNOWN_STATE_PAIR_1_8": {
+    "probes": [
+      [
+        1,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "3ba34158cd8e96c7d043c875e7ac947c2ca14f5860837fce0e077f0e8c5fa366",
+      "name": "GEN2_TARGET:c7f513485c1eb9081e078f0000023d6dbc27d7a5f4e36f3b8171980316adcfd7",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/69f6f97189cd4ccd8d1b20f4f357316c"
+  },
+  "UNKNOWN_STATE_PAIR_2_3": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "0e9f6f4a897ab46399e6b3316aa739169436ff7366029c02c9a182f90a7e32af",
+      "name": "GEN2_TARGET:70a40ce2dbba2f78bef4399f41ea11812a28df7400a40b78535213d8460c2123",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/aa67cbd328d3467fafe341c9843bde70"
+  },
+  "UNKNOWN_STATE_PAIR_2_4": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "dd8912bd00a1a15cf7cffa8bf764c5fcdc059c4a04f40a3a1ffc8693e579215f",
+      "name": "GEN2_TARGET:c8084c785d3e64dff83c0e66610c62b36c2bc51d0707e0cf58bd803e9a02c812",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f4d3134d04ac4caaab8cfd49c701bd00"
+  },
+  "UNKNOWN_STATE_PAIR_2_5": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "122171dd054a7b484a1f2c884cf9fb3a1763f6c0fff75ab47abed29be6541c7f",
+      "name": "GEN2_TARGET:b717605d1ffc22ce879f94409f7e6ad55d198c33e50cb86444dc70a215f0a7e6",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/fb79e9a1fac046eaa63a4770c2c61ae8"
+  },
+  "UNKNOWN_STATE_PAIR_2_6": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "8b4b17f758cef974ccfc37ace8940b20823f0c17c09cecd07912f9dfba293afd",
+      "name": "GEN2_TARGET:e64514b08b13121f37c0f33ec5b5b658ad6dfdc964fb17aacef05d9685894ba2",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/46019a5982a74927858478e683617a3a"
+  },
+  "UNKNOWN_STATE_PAIR_2_7": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "bf7467da0d8d82a21537428903a2ee3a6672359f5791c7edc00a3982fb7155e5",
+      "name": "GEN2_TARGET:1a82308d39b8e4e0d00516b286b7aa89146d52bed4eaa5360e613c22d8605375",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/bcb8fda9c3ec4ee39326f5d8b9dce854"
+  },
+  "UNKNOWN_STATE_PAIR_2_8": {
+    "probes": [
+      [
+        2,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "72d4c8b204fa9d702ee41df9d739549ba8add3734d2e14bb019fdf0e3939eb70",
+      "name": "GEN2_TARGET:656f67da99e072551584d50197fcc8b7aa9a378980f58c43d6c6d6479a7a9d00",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/272e6d169b5a4a89acb0f96cf1800db1"
+  },
+  "UNKNOWN_STATE_PAIR_3_4": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "f51e69393a1437efeffe7d6ef9bedb49908b85d7e18aede67be67014d49cad2e",
+      "name": "GEN2_TARGET:993e5658b307685b41e99f2cacbeb56558ef48a84a42f8363ac96a5adf406582",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/5cc6c6d7904e4ea2aaba46b5a8e2082b"
+  },
+  "UNKNOWN_STATE_PAIR_3_5": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "cb7881ef3df6cc197cef778b19c1590a434156c04163ff7886ee71df9392e6d1",
+      "name": "GEN2_TARGET:61d3beedf57b6d4b7292b596801d6a8fb6a42b118f56e23e9a3606b2eee616d3",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/73ed9aa875d940d1a4c41032f2b3fb2c"
+  },
+  "UNKNOWN_STATE_PAIR_3_6": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "c40c7b20783861c43a9208ac343a96fe1e3481af49c89f38f3af20a059aedaaf",
+      "name": "GEN2_TARGET:ce368a85bd3b23e315376350b52ccb8d193ef9d84a1d3776f646ed35614e10ea",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/7a2dfed826aa4f44a5af74c3772772e4"
+  },
+  "UNKNOWN_STATE_PAIR_3_7": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "c2332dac4f99a450b487c121834cc644ad5b4d9c1afc43868a371188d6a85bfd",
+      "name": "GEN2_TARGET:2ac82ecc7d08f9e9dc59c09d8cdc34a981cfce3061346e12a15aadbbc1d97fc2",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/a8d098b822b547ff8c353a9cab08acca"
+  },
+  "UNKNOWN_STATE_PAIR_3_8": {
+    "probes": [
+      [
+        3,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "532020ee91765c0efb745fd067b6fb8162504f9b7f3141dcf2e0ac53e2c43774",
+      "name": "GEN2_TARGET:8a086d3ccb54a9c4538938b527159b30882e1eebafc60942e3586764c0fef295",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/0a8133f6cb024aae8766f7cf45ee0b57"
+  },
+  "UNKNOWN_STATE_PAIR_4_5": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "88b3e1b18f659885279db6734948a8b095c4035fddbd81df4d0992ca6eaddc8b",
+      "name": "GEN2_TARGET:127c909170c9bb70fd0347a673e61406faf47e6129400ed1ea962deeadce4611",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/f421b5a8d4e641c9879e2bb8b41a38c0"
+  },
+  "UNKNOWN_STATE_PAIR_4_6": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "463287d0d031b540865b208d210a2a393ed7c2b4bea13a9f032c421675dbde44",
+      "name": "GEN2_TARGET:fbf36ba37ad90a1a6611cf48233b1b88f7ec9a6b4f60ddfa40291c19e9525819",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/8577923cc72841f087c86e82c9b8a8c6"
+  },
+  "UNKNOWN_STATE_PAIR_4_7": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "fbe47c3dc36ff79d06e91c927195bfe35cc305ed571da1e06c82e5bd06673a3f",
+      "name": "GEN2_TARGET:bf03fc526fe0ba9c75098d220d4de2b695cbd7d1f2074cd462e4f0bb259c3b17",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/20cbcfea44dc440bbd0b5fd5460910f2"
+  },
+  "UNKNOWN_STATE_PAIR_4_8": {
+    "probes": [
+      [
+        4,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "9f77ca37c83b5ae0c364dd1bbd215116ad2d546372307fe5f22df05ff3d19220",
+      "name": "GEN2_TARGET:578d1e5647168af6b9f61f97072347480932bbd630589ccff980fde0d3f41f9d",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/d962f025331b4f31836990bf56b910e6"
+  },
+  "UNKNOWN_STATE_PAIR_5_6": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "c7b3e53fc4fadf538abfafbf08f71104a71eff859aa7b1b104dfc94e15423515",
+      "name": "GEN2_TARGET:b74d32d7557264d1769e2ee6e74819ac039cf42243cd4823a2d3abdf4a8b85bb",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/9a260b34e02e433ba3cfd41d223b07dd"
+  },
+  "UNKNOWN_STATE_PAIR_5_7": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "3eda3c709b6b9f7b341b94fb69c79ff4a6c5fe0b920fe9ecd18565b94c388d59",
+      "name": "GEN2_TARGET:7cb4babcefb35b9f6bbb82f4b2b3aa0f43270c1fcdf97c675d9fa1cb4f181cab",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/3b4b802ff025429e9f1c1e13503684e9"
+  },
+  "UNKNOWN_STATE_PAIR_5_8": {
+    "probes": [
+      [
+        5,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "cc16167b4c0c41b8769300412a85a37da9e7242b9235fdb0796c73944df5779a",
+      "name": "GEN2_TARGET:cbb6361a13f04b62de84e797c5b66c424c66950168d73413cb62e74026685f92",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/ac2e537766574c0fa2b7784633a53880"
+  },
+  "UNKNOWN_STATE_PAIR_6_7": {
+    "probes": [
+      [
+        6,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "2",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 2.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "2*log(2)",
+          "fiber_multiplicity": 4,
+          "receipt_container_bits": 2,
+          "visible_output_count": 48
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "dd8d35b70a51eea0cab015f45b3c6ca8e16713c7ffbcfc613659fb90623040b7",
+      "name": "GEN2_TARGET:ede050528e10a17e96b93d32b2c46dde2f9a529d6f61d50fd6377ae5d29b5392",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 48,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 2.0,
+        "evaluated_nats": 1.3862943611198906,
+        "exact_nats": "2*log(2)",
+        "multiplicity": 4,
+        "prime_exponents": [
+          {
+            "exponent": 2,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 2
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/c92a4bb775b041789e5e94ad21f8637c"
+  },
+  "UNKNOWN_STATE_PAIR_6_8": {
+    "probes": [
+      [
+        6,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "3",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 3.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "3*log(2)",
+          "fiber_multiplicity": 8,
+          "receipt_container_bits": 3,
+          "visible_output_count": 24
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "069985c3698e4d356b4f21674e214116f86369b8b27273a4c397ab7ace1e1ac7",
+      "name": "GEN2_TARGET:cf768edcb874343d16866149d911c286b69e318ba7172cc049585f2189412887",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 24,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 3.0,
+        "evaluated_nats": 2.0794415416798357,
+        "exact_nats": "3*log(2)",
+        "multiplicity": 8,
+        "prime_exponents": [
+          {
+            "exponent": 3,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 3
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/18dca2d981e040c0acaf7d9cec53de57"
+  },
+  "UNKNOWN_STATE_PAIR_7_8": {
+    "probes": [
+      [
+        7,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "profile": {
+      "augmented_map_injective": true,
+      "expected_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "prime_log_coefficients": [
+          {
+            "coefficient": "4",
+            "prime": 2
+          }
+        ]
+      },
+      "expected_receipt_container_bits": 4.0,
+      "fiber_strata": [
+        {
+          "exact_information_weight": "4*log(2)",
+          "fiber_multiplicity": 16,
+          "receipt_container_bits": 4,
+          "visible_output_count": 12
+        }
+      ],
+      "input_count": 192,
+      "morphism_id": "04f22e7d428dd610bd8aa0d06c2a26ec38f8d173bd4346d2eda9a52d07d89d89",
+      "name": "GEN2_TARGET:7159b70f38c41c906fef0efe8a100601d5a47e410e7bc7a4d2bea74014c3d0dc",
+      "schema": "SLC_CUSTODY_NATIVE_FIBER_PROFILE_V1",
+      "visible_map_injective": false,
+      "visible_output_count": 12,
+      "worst_case_hidden_information": {
+        "evaluated_bits": 4.0,
+        "evaluated_nats": 2.772588722239781,
+        "exact_nats": "4*log(2)",
+        "multiplicity": 16,
+        "prime_exponents": [
+          {
+            "exponent": 4,
+            "prime": 2
+          }
+        ]
+      },
+      "worst_case_receipt_container_bits": 4
+    },
+    "receipt": "SAM_REVIEW/campaigns/PROJECT_DOMAIN_SESSIONS1/sessions/ATOM3D_c51c939ff7ce489196cfb2aa0bcbfc43/calls/53e970bcfe054c18aeb88965e37746b6"
+  }
+}

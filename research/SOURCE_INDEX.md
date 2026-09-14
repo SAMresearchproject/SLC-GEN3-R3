@@ -21,3 +21,7 @@ this index and the release assets are the public entry points for this update.
 No private runtime keys, host credentials or full working stores are part of
 this public update. Operational MP handoff details are represented by the
 scoped public summary and its source hash rather than copied access instructions.
+
+## Public simulation source and result files
+
+[Starbreaker](starbreaker/README.md), [ATOM3D](atom3d/README.md), [native R7.1 code](gen3-rxt/README.md), and the [SHA-256 export manifest](SOURCE_EXPORT.json) now provide local public artifacts. Original campaign scripts retain their source-session dependencies; see [reproduction scope](REPRODUCIBILITY.md).

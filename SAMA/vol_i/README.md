@@ -1,5 +1,13 @@
 # Volume I — Substrate and accumulation
 
+## Current research connections — 14 September 2026
+
+The global execution authority is SLC-GEN3-R3 / SLC-GEN3-CEV1-R3. The September 2026 research includes exact retained-history computation, RH arithmetic compensation, native Mersenne work, Starbreaker signed reception and ATOM3D contact/grammar. The research index connects the retained derivations to the latest code, results and current domain assignments.
+
+[Current derivations, code and results](../../docs/RESEARCH.md).
+
+
+
 [SAM](../README.md)
 
 SAM begins from the physical idea that matter displaces the substrate and that displacement accumulates. This volume develops that starting point into the accumulation field, gravity, clocks, light, black holes, cosmology and galaxies.

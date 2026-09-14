@@ -1,0 +1,48 @@
+{
+  "id": "RH-FORCING-PROSPECTIVE-R1",
+  "target": "E=A-Q_a/2 unchanged",
+  "calibration": {
+    "s": 512,
+    "t_min": 1,
+    "t_max": 192,
+    "last_allowed_label_stop": 256
+  },
+  "horizons": [
+    8,
+    32,
+    64
+  ],
+  "signature": [
+    "last_alpha",
+    "last_beta",
+    "sign(next_Ka)",
+    "sign(next_Kb)",
+    "sign(last_delta_E)",
+    "last_index_parity"
+  ],
+  "forecast": "Per-signature calibration maxima of signed future overshoot and min/max terminal drift; unmatched states remain uncovered; no tuning on evaluation",
+  "evaluation_scales": [
+    512,
+    2048,
+    4096
+  ],
+  "evaluation_min_stop_512": 257,
+  "held_out_scale": 4096,
+  "focus_4096": [
+    227,
+    790,
+    1071,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1130,
+    4094,
+    4095
+  ],
+  "certificate_horizon": 4,
+  "certificate": "Enumerate every future +/-1 sign at squarefree parent/odd-child indices, and zero at squareful indices. Preserve all signed interactions and bound full future path/terminal drift. Future signs are not inputs.",
+  "cost_scope": "Native combined derivative+forcing producer CPU/elapsed cost; analysis costs separately retained",
+  "no_monotonicity_requirement": true
+}

@@ -1,0 +1,7 @@
+# Reproducing and inspecting the public research
+
+The portable SLC package is runnable with the root installation instructions and examples. The GEN3-RXT native source has its own [CUDA build instructions](gen3-rxt/README.md); every R7.1 translation unit is hash-matched to its original build manifest. This publication does not report a new CUDA build or new research simulation.
+
+The [evidence directory](evidence) contains original campaign source, exact simulation inputs, recorded outputs, recovery records, and meaningful failure/correction evidence. Python campaign drivers reference the original SAM_PROJECT session layout and source-bound runtime. Those original session directories and private authenticated checkpoint keys are not distributed here. The scripts document the execution and can be ported to a new session; they are not advertised as turnkey standalone commands. Native kernels and supplied domain source packets are distributed under [gen3-rxt/native](gen3-rxt/native).
+
+[Source export identities](SOURCE_EXPORT.json) give original repository paths, byte counts and SHA-256 hashes. Original reports can mention other artifacts or private execution paths as provenance. The curated domain tables link directly to the files included here. The public collection includes selected complete result datasets and source bundles, not all pod backups or every training checkpoint. The RH scale8192 dataset is separately available from the [dated release](https://github.com/SAMresearchproject/SLC-GEN3-R3/releases/tag/research-2026-09-14).

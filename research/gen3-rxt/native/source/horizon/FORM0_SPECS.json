@@ -1,0 +1,261 @@
+[
+  {
+    "events": [
+      {
+        "event_id": "S1",
+        "operation": "CONTACT_WRITE",
+        "r_s": 1,
+        "radius": 3
+      },
+      {
+        "event_id": "S2",
+        "operation": "APPROACH_A1",
+        "r_s": 3,
+        "radius": 4
+      }
+    ],
+    "family": "subcritical",
+    "origin_mass": "8",
+    "source_id": "FORM0-SUBCRITICAL",
+    "trace_id": "subcritical"
+  },
+  {
+    "events": [
+      {
+        "event_id": "C1",
+        "operation": "CONTACT_WRITE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "event_id": "C2",
+        "operation": "APPROACH_A1",
+        "r_s": 3,
+        "radius": 4
+      },
+      {
+        "event_id": "C3",
+        "operation": "SEAL_HOME",
+        "r_s": 12,
+        "radius": 12
+      }
+    ],
+    "family": "exact_closure",
+    "origin_mass": "12",
+    "source_id": "FORM0-EXACT-CLOSURE",
+    "trace_id": "exact_closure"
+  },
+  {
+    "events": [
+      {
+        "amount": 2,
+        "event_id": "A1",
+        "matter_id": "A3D18-H2-INSTANCE-001",
+        "matter_packet_ref": {
+          "atomic_root_ref": {
+            "domain": "ATOM3D_A2_ATOMIC_ACCUMULATED_WRITE_IDENTITY",
+            "schema": "CEV1_NATIVE_COMPOSITION_ROOT_V1",
+            "semantic_sha256": "0549f6950a1198ddfbe1f483c882be1bce3083519228c0aeaa0ac2a930d93107"
+          },
+          "continuation_binding_ref": {
+            "domain": "ATOM3D_A2_ATOMIC_ACCUMULATED_WRITE_IDENTITY_ACCEPTANCE",
+            "schema": "SLCQ3_RZ_CEV1_A3D18_A2_ATOMIC_WRITE_IDENTITY1_ACCEPTANCE1_CONTINUATION_BINDING_V1",
+            "semantic_sha256": "d9f56425440a0e64bf908cbd5c3c7b124f4afebbfd0d04ff123f43ff14acfb41"
+          },
+          "derived_counts": {
+            "A": 2,
+            "N": 1,
+            "Z": 1,
+            "electrons": 1,
+            "net_charge_e": 0
+          },
+          "domain": "ATOM3D_A2_ATOMIC_ACCUMULATED_WRITE_IDENTITY_ACCEPTANCE",
+          "history_refs": [
+            {
+              "domain": "ATOM3D_A2_ATOMIC_ACCUMULATED_WRITE_IDENTITY_ACCEPTANCE",
+              "schema": "SLCQ3_RZ_CEV1_A3D18_A2_ATOMIC_WRITE_IDENTITY1_ACCEPTANCE1_ACCEPTED_ATOMIC_HISTORY_V1",
+              "semantic_sha256": "1409f97ef54d74516efdd5229a58ea9d455ed10710d736e2ba214b563247c667"
+            }
+          ],
+          "schema": "SLCQ3_RZ_CEV1_A3D18_A2_ATOMIC_WRITE_IDENTITY1_ACCEPTANCE1_ATOMIC_WRITE_IDENTITY_V1",
+          "semantic_sha256": "5fab8e9ab8f795675b24882054f36678a83f44c91c5dc5f1b475ce0037efd1a5",
+          "source_bridge_ref": {
+            "domain": "ATOM3D_A2_ATOMIC_ACCUMULATED_WRITE_IDENTITY_ACCEPTANCE",
+            "schema": "SLCQ3_RZ_CEV1_A3D18_A2_ATOMIC_WRITE_IDENTITY1_ACCEPTANCE1_SOURCE_CROSS_IMPLEMENTATION_BRIDGE_V1",
+            "semantic_sha256": "b8912cc727151a14553db28fc90e58998fb9bffa29910fd9b9cbcf56ce128428"
+          },
+          "status": "EXACT_ATOMIC_ACCUMULATED_WRITE_IDENTITY_ACCEPTED"
+        },
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "amount": 3,
+        "event_id": "A2",
+        "matter_id": "GENERIC-MATTER-002",
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 3,
+        "radius": 4
+      },
+      {
+        "event_id": "A3",
+        "operation": "SEAL_HOME",
+        "r_s": 15,
+        "radius": 15
+      }
+    ],
+    "family": "a3d18_preclosure_capture",
+    "origin_mass": "10",
+    "source_id": "FORM0-A3D18-CAPTURE",
+    "trace_id": "a3d18_preclosure_capture"
+  },
+  {
+    "events": [
+      {
+        "event_id": "I1",
+        "operation": "CONTACT_WRITE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "event_id": "I2",
+        "operation": "SEAL_HOME",
+        "r_s": 7,
+        "radius": 7
+      },
+      {
+        "amount": 2,
+        "event_id": "I3",
+        "matter_id": "EXTERIOR-001",
+        "operation": "EXTERIOR_ARRIVAL",
+        "r_s": 7,
+        "radius": 7
+      },
+      {
+        "amount": 2,
+        "event_id": "I4",
+        "matter_id": "EXTERIOR-001",
+        "operation": "POST_CLOSE_IN_ATTEMPT",
+        "r_s": 7,
+        "radius": 7
+      }
+    ],
+    "family": "postclosure_inward_failure",
+    "origin_mass": "7",
+    "source_id": "FORM0-POST-IN",
+    "trace_id": "postclosure_inward_failure"
+  },
+  {
+    "events": [
+      {
+        "event_id": "O1",
+        "operation": "CONTACT_WRITE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "event_id": "O2",
+        "operation": "SEAL_HOME",
+        "r_s": 9,
+        "radius": 9
+      },
+      {
+        "amount": 5,
+        "event_id": "O3",
+        "matter_id": "EXTERIOR-A",
+        "operation": "EXTERIOR_ARRIVAL",
+        "r_s": 9,
+        "radius": 9
+      },
+      {
+        "amount": 3,
+        "event_id": "O4",
+        "matter_id": "EXTERIOR-B",
+        "operation": "EXTERIOR_ARRIVAL",
+        "r_s": 9,
+        "radius": 9
+      },
+      {
+        "amount": 2,
+        "event_id": "O5",
+        "matter_id": "EXTERIOR-A",
+        "operation": "OUT_SELECTED",
+        "r_s": 9,
+        "radius": 9
+      },
+      {
+        "amount": 2,
+        "event_id": "O6",
+        "matter_id": "EXTERIOR-A",
+        "operation": "OUT_QUANTUM_REALIZED",
+        "r_s": 9,
+        "radius": 9
+      }
+    ],
+    "family": "exterior_realized_output",
+    "origin_mass": "9",
+    "source_id": "FORM0-REALIZED-OUT",
+    "trace_id": "exterior_realized_output"
+  },
+  {
+    "events": [
+      {
+        "amount": 1,
+        "event_id": "F1",
+        "matter_id": "ORDER-A",
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "amount": 2,
+        "event_id": "F2",
+        "matter_id": "ORDER-B",
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 3,
+        "radius": 4
+      },
+      {
+        "event_id": "F3",
+        "operation": "SEAL_HOME",
+        "r_s": 9,
+        "radius": 9
+      }
+    ],
+    "family": "event_order_reversal",
+    "origin_mass": "6",
+    "source_id": "FORM0-ORDER-FORWARD",
+    "trace_id": "event_order_forward"
+  },
+  {
+    "events": [
+      {
+        "amount": 2,
+        "event_id": "R1",
+        "matter_id": "ORDER-B",
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 1,
+        "radius": 2
+      },
+      {
+        "amount": 1,
+        "event_id": "R2",
+        "matter_id": "ORDER-A",
+        "operation": "PRE_CLOSE_CAPTURE",
+        "r_s": 3,
+        "radius": 4
+      },
+      {
+        "event_id": "R3",
+        "operation": "SEAL_HOME",
+        "r_s": 9,
+        "radius": 9
+      }
+    ],
+    "family": "event_order_reversal",
+    "origin_mass": "6",
+    "source_id": "FORM0-ORDER-REVERSE",
+    "trace_id": "event_order_reverse"
+  }
+]

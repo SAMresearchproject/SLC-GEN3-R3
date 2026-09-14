@@ -1,0 +1,19 @@
+{
+  "acquired_models": 45,
+  "ce_cli_adoption": true,
+  "exact_policy_applications": 11520,
+  "fresh_full_library_recovery": true,
+  "incremental_append": true,
+  "managed_receipts": 5,
+  "native_response_source_unchanged": true,
+  "primary_models_and_features_unchanged": true,
+  "registry": {
+    "authenticated_files": 420,
+    "domains": 5,
+    "engines": 2,
+    "global_slc_count": 1,
+    "status": "PASS"
+  },
+  "same_exact_log_arguments": true,
+  "status": "PASS"
+}

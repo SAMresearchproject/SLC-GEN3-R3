@@ -1,0 +1,761 @@
+[
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 0,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 1,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 2,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 3,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 4,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 5,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 6,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 7,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 8,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 9,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 10,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 11,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 12,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 13,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 14,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 15,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 16,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 17,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 18,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 19,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 20,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 21,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 22,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 23,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 24,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 25,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 26,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 27,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 28,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 29,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 30,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 31,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 32,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 33,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 34,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 35,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 36,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 37,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 38,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "native",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 39,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 40,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 41,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 42,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 43,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 44,
+    "mask": 0,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 45,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 46,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 47,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 48,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 49,
+    "mask": 1,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 50,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 51,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 52,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 53,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 54,
+    "mask": 2,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 55,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 56,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 57,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 58,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 59,
+    "mask": 3,
+    "receiver": "CIRCULATION",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 60,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 61,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 62,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 63,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 64,
+    "mask": 0,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 65,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 66,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 67,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 68,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 69,
+    "mask": 1,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 70,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 71,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 72,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 73,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 74,
+    "mask": 2,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_00",
+    "denominator": 576,
+    "index": 75,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_01",
+    "denominator": 576,
+    "index": 76,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_02",
+    "denominator": 576,
+    "index": 77,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_03",
+    "denominator": 576,
+    "index": 78,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "channel": "observed",
+    "cover": "COVER_04",
+    "denominator": 576,
+    "index": 79,
+    "mask": 3,
+    "receiver": "ENDPOINT",
+    "type": "MOTIF_ACTION"
+  },
+  {
+    "denominator": 576,
+    "index": 80,
+    "mask": 0,
+    "type": "HIDDEN_LIFT_LOOP"
+  },
+  {
+    "denominator": 576,
+    "index": 81,
+    "mask": 1,
+    "type": "HIDDEN_LIFT_LOOP"
+  },
+  {
+    "denominator": 576,
+    "index": 82,
+    "mask": 2,
+    "type": "HIDDEN_LIFT_LOOP"
+  },
+  {
+    "denominator": 576,
+    "index": 83,
+    "mask": 3,
+    "type": "HIDDEN_LIFT_LOOP"
+  },
+  {
+    "denominator": 576,
+    "index": 84,
+    "type": "PHI_MINUS"
+  },
+  {
+    "denominator": 576,
+    "index": 85,
+    "type": "PHI_PLUS"
+  },
+  {
+    "denominator": 576,
+    "index": 86,
+    "type": "SIGNED_PAIR_SURFACE"
+  }
+]
