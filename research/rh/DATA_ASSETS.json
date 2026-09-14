@@ -1,0 +1,17 @@
+{
+  "release": "research-2026-09-14",
+  "assets": [
+    {
+      "name": "COVERAGE_S8192.json.gz",
+      "bytes": 95125149,
+      "sha256": "4313557d89fa97e51d8c283fafa0f24eac5f81d11edbc28baddbf33944839ff5",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/subpower_excess_extension_r1/COVERAGE_S8192.json.gz"
+    },
+    {
+      "name": "Signed_Forcing_and_Arithmetic_Compensation_R2.pdf",
+      "bytes": 177908,
+      "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f",
+      "source": "research/rh/paper.pdf"
+    }
+  ]
+}

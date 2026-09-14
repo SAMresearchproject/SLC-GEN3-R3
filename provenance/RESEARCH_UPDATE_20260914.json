@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-14",
+  "scope": "Current public-facing SLC, GEN3-RXT, RH and MP research; supporting application overview",
+  "branch": "main",
+  "source_authorities": [
+    {
+      "source": "CURRENT_REVISION/README.md",
+      "sha256": "3a3d41ff1762a48a1811878587725cdd96a985f7d7304ee83cf62e47a95399dc"
+    },
+    {
+      "source": "SAM_LIVE/01_SLC_CURRENT.md",
+      "sha256": "14d675bf5de76d06b5f694db92c76136fe26ced208c19014d338bd08ab2d1da8"
+    },
+    {
+      "source": "SAM_LIVE/02_RH_CURRENT.md",
+      "sha256": "a76f238809012654003e389600557f0df562c586ab363e3086066791527eccbc"
+    },
+    {
+      "source": "SAM_LIVE/04_PRIME_GRAMMAR_CURRENT.md",
+      "sha256": "de08a2d77a153e5dee1286ef7f1f33468f73d5a69b91cfb15d5df4a6a12ebf71"
+    },
+    {
+      "source": "SAM_LIVE/10_PODS_CURRENT.md",
+      "sha256": "f5b9284aea511d5c765325356d8be966f83929bb09153077d18e5fecdb7c6d18"
+    },
+    {
+      "source": "SAM_LIVE/03_STARBREAKER_GW_CURRENT.md",
+      "sha256": "598e029a9402ace44bdfd74ae8e822d1264266e8990818e5f68141c3c815f7ca"
+    },
+    {
+      "source": "SAM_LIVE/05_ATOM3D_CURRENT.md",
+      "sha256": "646c68bfe57c17df36639d26ea619855ea0a04566b76219f50f3a5d8ecc68e72"
+    },
+    {
+      "source": "SAM_LIVE/09_TAU_RECO_CURRENT.md",
+      "sha256": "54de9acb1a68e15912d6aa4a990b344b70cdb97f64217560be76ba59870fca7e"
+    }
+  ],
+  "copied_documents": [
+    {
+      "path": "research/rh/paper.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/SIGNED_FORCING_PAPER_R2.md",
+      "sha256": "357f635a6630c5806445391b792d9223aca64ddfbdba13e09a1ee1e093e6061e",
+      "bytes": 23272
+    },
+    {
+      "path": "research/rh/paper.pdf",
+      "source": "Owner manuscript export/Signed_Forcing_and_Arithmetic_Compensation_R2.pdf",
+      "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f",
+      "bytes": 177908
+    },
+    {
+      "path": "research/rh/paper.html",
+      "source": "Owner manuscript export/Signed_Forcing_and_Arithmetic_Compensation_R2.html",
+      "sha256": "81c7d6fd773c09d0377f1f0a21a8d12c25ae698ba036a4cab26f422bbe0a7dce",
+      "bytes": 27868
+    },
+    {
+      "path": "research/rh/notes/ORIGINAL_KERNEL_SPECTRAL_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/ORIGINAL_KERNEL_SPECTRAL_R1.md",
+      "sha256": "f8b74d17ea72b928c0e8fcf3360b0a40e76824cb5959e8b355d424c23aa415b2",
+      "bytes": 10135
+    },
+    {
+      "path": "research/rh/notes/SIGNED_DIVISOR_CAMPAIGN_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/SIGNED_DIVISOR_CAMPAIGN_R1.md",
+      "sha256": "df995dfbedf3d56cb5c343aa5b6f3eb646474cc338a7ae814186e23b67f0906a",
+      "bytes": 11204
+    },
+    {
+      "path": "research/rh/notes/DYADIC_FORCING_ENERGY_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/DYADIC_FORCING_ENERGY_R1.md",
+      "sha256": "3d960903cd92525e65a302b8d2e5020436421c0d5a53139d50d8d765e94f1708",
+      "bytes": 9678
+    },
+    {
+      "path": "research/rh/notes/FORCING_PROSPECTIVE_CONTROL_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/FORCING_PROSPECTIVE_CONTROL_R1.md",
+      "sha256": "399204dd3bfd5ee8745bbb401c722b53678cf07cd65ce0354fa8f3725e6390c7",
+      "bytes": 10742
+    },
+    {
+      "path": "research/rh/notes/SAM_RH_CONDITIONAL_CLOSURE_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/SAM_RH_CONDITIONAL_CLOSURE_R1.md",
+      "sha256": "7a1eab828a7cfd4353a6ba6561898b54515bcf0a0393ff28ba060bbf94db6b59",
+      "bytes": 11164
+    },
+    {
+      "path": "research/rh/notes/SUBPOWER_EXCESS_TRANSFER_THRESHOLD_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/SUBPOWER_EXCESS_TRANSFER_THRESHOLD_R1.md",
+      "sha256": "21d87e1d4130eb07495f7fb937992f2ddcabc2517453b9e88ea4c1782b022552",
+      "bytes": 7647
+    },
+    {
+      "path": "research/rh/notes/SUBPOWER_EXCESS_EXTENSION_R1.md",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/SUBPOWER_EXCESS_EXTENSION_R1.md",
+      "sha256": "f518dd5e61f0bdc1c2b9447238c422633201e0048467e9e84e6b8fe529eecc82",
+      "bytes": 8389
+    }
+  ],
+  "data_assets": [
+    {
+      "name": "COVERAGE_S8192.json.gz",
+      "bytes": 95125149,
+      "sha256": "4313557d89fa97e51d8c283fafa0f24eac5f81d11edbc28baddbf33944839ff5",
+      "source": "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/results/subpower_excess_extension_r1/COVERAGE_S8192.json.gz"
+    },
+    {
+      "name": "Signed_Forcing_and_Arithmetic_Compensation_R2.pdf",
+      "bytes": 177908,
+      "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f",
+      "source": "research/rh/paper.pdf"
+    }
+  ],
+  "runtime_changed": false,
+  "licences_changed": false
+}

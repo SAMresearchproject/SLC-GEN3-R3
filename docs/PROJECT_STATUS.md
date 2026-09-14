@@ -1,35 +1,29 @@
-# Project status — 10 September 2026
+# Project status — 14 September 2026
 
-SLC-GEN3-R3 is the current Substrate Ledger Computer. Its unified runtime retains
-execution, acquired support, complete source histories and exact logarithmic
-accounts. The installed CE is SLC-GEN3-CEV1-R3. The public package now loads R3
-through `slc_gen3_r3`; inherited GEN2 names remain compatibility operations.
+This is the current public research snapshot for SLC-GEN3-R3. The runnable
+portable engine retains its September10 source binding; the upstream global
+engine and CE remain SLC-GEN3-R3 / SLC-GEN3-CEV1-R3, generation
+GEN3-UNIFIED-EXECUTION1-20260910-G2. The mathematical Python source files checked
+against the installed source manifest have no differences in this update.
 
-This snapshot is sourced from SAM live authority H001194–H001196, with
-SAMA publication H001067. Export validation is recorded separately from the
-upstream installation's 617 core, 191 memory-admission and 75 adoption checks.
-
-| Research area | Current information |
+| Component | Current public information |
 |---|---|
-| SLC | R3 build GEN3-UNIFIED-EXECUTION1-20260910, generation G2; one learning and executing runtime. |
-| RH | Source arithmetic is ACTIVE under H001196, with the completed 18-call cofactor-sector continuation and prior 154-call variation bridge retained. Wider long-prefix execution and training pauses remain; physical clock work is active. Full RH and actual uniform signed growth remain open. |
-| ATOM3D / Li-6 | A3D41-T18-CONTACT-R2 runs on R3. The GEN3 selector and physical coefficient/MeV work remain owner-paused. The signed decoder retains 192 configurations recovered with two Write responses and one signed bit. |
-| Tau | TAU-SLC-PILOT3 remains installed; FULL_DATA5 is PAUSED_BY_OWNER with six saved checkpoints. |
-| Mersenne / MP | MP-GEN2-R4-V1 remains the native domain on R3; the 15,064-batch CSV training pass is complete and its services are inactive. |
-| Starbreaker | Signed receiver and retained encounter research continue through the established source-bound program. |
+|SLC core|Exact execution, acquired support, observation branches and complete logarithmic/history accounts; local authenticated recovery in the portable package.|
+|GEN3-RXT|R7.1 C++/CUDA/GMP deployment; RH-GXT-R2 + RH-TRANSFER-R1, A3D41-RXT-R3 and SB-GEN3-RXT-R2. Separate deployment from the portable CLI.|
+|RH|Version2 research paper, exact transport and conditional source bounds, complete scale8192 output. Uniform signed-growth estimate open; independent mathematical review pending.|
+|MP|Installed MP-GEN2-R4-V1; MP-B300 learning/farm successor paused at its September11 stopping point.|
+|Starbreaker|SB-GEN3-ACCUMULATION-R1,45 acquired policies and joint RXT signed-source work.|
+|ATOM3D|A3D41-T18-CONTACT-R2 and joint RXT research; earlier selector/physical-coefficient pauses remain scoped to those campaigns.|
+|Tau|Completed semantic/method-learning pilot; FULL_DATA5 remains paused.|
+|SAMA|Preserved supporting collection:81 chapters,23 branches,1,246 test identities and5,340 Courtroom files.|
 
-The SAMA chapters and Courtroom records retain their dated mathematical content,
-recorded outcomes and provenance. Historical engine names inside source records
-identify the engine used for those records. This status page supplies present
-routing without changing those results or their approval status.
+Read the [research index](RESEARCH.md), [RH section](../research/rh/README.md),
+[MP section](../research/mersenne/README.md) and [source index](../research/SOURCE_INDEX.md).
+The root README and these pages provide present routing. Older SAMA chapters,
+upstream specifications and qualification records retain their dated statements.
 
-The public SAMA Volume IV remains the RH volume. The workspace's separately
-named Volume IV information-bridge program is a distinct assignment.
-
-## Source publications
-
-The supporting collection comes from [SAMA at 4c2b5dc](https://github.com/iwtbotiwtwot/SAMA/tree/4c2b5dc1649da5900c90b90d0ce56c223dbb7717).
-Its 5,340 Courtroom files retain the originating identities recorded in the
-[mirror manifest](../SAMA/maintenance/COURTROOM_MIRROR.json). The collection has
-81 chapters, 23 branches and 1,246 test identities. Of those identities, 531
-have public Courtroom source correspondence; 715 retain separate archive references.
+Source anchors include H001194 (global R3 installation), H001315/H001318 (MP-B300),
+H001347 (Starbreaker), H001402/H001423 (RXT), and H001420–H001435's relevant RH
+entries. These numbers identify project provenance, not additional public engine
+releases. Current domain authority takes precedence over an older status paragraph
+in an unrelated installation record.

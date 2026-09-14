@@ -618,8 +618,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "dee63b208ad83d44cffe711bd0c2ab2df362d13627e5d1c20d6c002c2f7809bc",
-      "bytes": 5022
+      "bytes": 7867,
+      "sha256": "872301f2e687c0f34c8c938735e101ff5d7ce3af0f90278e7e70357e577bc5c2"
     },
     {
       "path": "SAMA/AGENTS.md",
@@ -40802,9 +40802,19 @@
       "bytes": 1829
     },
     {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2643,
+      "sha256": "61f4ee55b937057d6bb82a5e00aa0db1ad45d27f0f20d6b53f6c2a43832d3216"
+    },
+    {
       "path": "docs/DISTRIBUTION_SCOPE.md",
       "sha256": "90ec0b57df2c76d9180c37dd093038855c73a8065b253258cfedb8a54b33eb7a",
       "bytes": 3112
+    },
+    {
+      "path": "docs/GEN3_RXT.md",
+      "bytes": 2422,
+      "sha256": "7ca538f0cd057ebb68c7dd719dcd12d6fff0c70da2631d029059cf1a7b08f65f"
     },
     {
       "path": "docs/MATHEMATICAL_INTERFACE.md",
@@ -40813,8 +40823,13 @@
     },
     {
       "path": "docs/PROJECT_STATUS.md",
-      "sha256": "d2d39691845a725aca8d7253057c8e57ce145caa82097a465709dd40f3bf44b4",
-      "bytes": 2565
+      "bytes": 2174,
+      "sha256": "287a6393a2c874fe87c24b022dd2348022f36df1079a77cf499523abe40736e9"
+    },
+    {
+      "path": "docs/RESEARCH.md",
+      "bytes": 2827,
+      "sha256": "540eef7daa29b4df82dc046cc6b6c3050a5be8d53cd384012c5fbd9f3361128c"
     },
     {
       "path": "docs/USAGE.md",
@@ -40907,9 +40922,19 @@
       "bytes": 53861
     },
     {
+      "path": "provenance/PUBLIC_UPDATE_VALIDATION.json",
+      "bytes": 636,
+      "sha256": "d787046322fcf012fffeab1dd08c9b1f49873fdf78940f58f63618bf75a76ffa"
+    },
+    {
       "path": "provenance/R3_NUMPY_ONLY_TEST_RUN.txt",
       "sha256": "76a2efe68e1a12de44107dc0c9357c41798b45e5b83aceea1181c125e13dc77b",
       "bytes": 852
+    },
+    {
+      "path": "provenance/RESEARCH_UPDATE_20260914.json",
+      "bytes": 4662,
+      "sha256": "2df3d103fab00a66d553bd5d7900a22b1c443fd30f1407a6eabefffeef218c99"
     },
     {
       "path": "provenance/SOURCE_MANIFEST.json",
@@ -40960,6 +40985,81 @@
       "path": "requirements.txt",
       "sha256": "d5eef66399d7baa645606bdf2cb2fb0b204134fd9384f7d68a6fbfd7be5ae9bc",
       "bytes": 81
+    },
+    {
+      "path": "research/SOURCE_INDEX.md",
+      "bytes": 2076,
+      "sha256": "ae8ad34095414fd64276954802f62981f81d62d8bd819c0b9273e5bf0bfc6813"
+    },
+    {
+      "path": "research/mersenne/README.md",
+      "bytes": 4029,
+      "sha256": "608d37b5e7c3adc362a827fca4e5c63d872a3d7919fb10fe4c2a2405f31262f8"
+    },
+    {
+      "path": "research/mersenne/RESULTS.json",
+      "bytes": 594,
+      "sha256": "082303b0deb25f8df39fc6968da20d4a7e1d0d6881cdae98ef52f8741d32306c"
+    },
+    {
+      "path": "research/rh/DATA_ASSETS.json",
+      "bytes": 566,
+      "sha256": "aaa1b1affb62aabde8c2f004832aca17007caf4c3d9afe8740df00e8a609c875"
+    },
+    {
+      "path": "research/rh/README.md",
+      "bytes": 4236,
+      "sha256": "5d8b1f4f7b66ba68ad898080cbb504fc3f0f4d39f44d3dd866a7b56b9eb2c005"
+    },
+    {
+      "path": "research/rh/notes/DYADIC_FORCING_ENERGY_R1.md",
+      "bytes": 9678,
+      "sha256": "3d960903cd92525e65a302b8d2e5020436421c0d5a53139d50d8d765e94f1708"
+    },
+    {
+      "path": "research/rh/notes/FORCING_PROSPECTIVE_CONTROL_R1.md",
+      "bytes": 10742,
+      "sha256": "399204dd3bfd5ee8745bbb401c722b53678cf07cd65ce0354fa8f3725e6390c7"
+    },
+    {
+      "path": "research/rh/notes/ORIGINAL_KERNEL_SPECTRAL_R1.md",
+      "bytes": 10135,
+      "sha256": "f8b74d17ea72b928c0e8fcf3360b0a40e76824cb5959e8b355d424c23aa415b2"
+    },
+    {
+      "path": "research/rh/notes/SAM_RH_CONDITIONAL_CLOSURE_R1.md",
+      "bytes": 11164,
+      "sha256": "7a1eab828a7cfd4353a6ba6561898b54515bcf0a0393ff28ba060bbf94db6b59"
+    },
+    {
+      "path": "research/rh/notes/SIGNED_DIVISOR_CAMPAIGN_R1.md",
+      "bytes": 11204,
+      "sha256": "df995dfbedf3d56cb5c343aa5b6f3eb646474cc338a7ae814186e23b67f0906a"
+    },
+    {
+      "path": "research/rh/notes/SUBPOWER_EXCESS_EXTENSION_R1.md",
+      "bytes": 8389,
+      "sha256": "f518dd5e61f0bdc1c2b9447238c422633201e0048467e9e84e6b8fe529eecc82"
+    },
+    {
+      "path": "research/rh/notes/SUBPOWER_EXCESS_TRANSFER_THRESHOLD_R1.md",
+      "bytes": 7647,
+      "sha256": "21d87e1d4130eb07495f7fb937992f2ddcabc2517453b9e88ea4c1782b022552"
+    },
+    {
+      "path": "research/rh/paper.html",
+      "bytes": 27868,
+      "sha256": "81c7d6fd773c09d0377f1f0a21a8d12c25ae698ba036a4cab26f422bbe0a7dce"
+    },
+    {
+      "path": "research/rh/paper.md",
+      "bytes": 23272,
+      "sha256": "357f635a6630c5806445391b792d9223aca64ddfbdba13e09a1ee1e093e6061e"
+    },
+    {
+      "path": "research/rh/paper.pdf",
+      "bytes": 177908,
+      "sha256": "1643876e99ac863623221cf198adc7f21cc57d45de732405f2fdbd3847bbac8f"
     },
     {
       "path": "slc_gen2_r4/__init__.py",
@@ -41030,5 +41130,6 @@
     "SAMA/LICENSES/CC-BY-SA-4.0.txt": "e35dfb9fca0ba624504ca45e2c1930ae942ff7da",
     "SAMA/LICENSES/README.md": "d779a69ca8ce6efe295caccecd3eaabedc54b211"
   },
-  "self_excluded": true
+  "self_excluded": true,
+  "research_update": "2026-09-14"
 }

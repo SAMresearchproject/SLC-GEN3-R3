@@ -1,0 +1,18 @@
+{
+  "status": "MP_B300_PAUSED_BY_OWNER",
+  "source_date": "2026-09-11",
+  "gpu_lanes": 148914569216,
+  "gpu_batches": 151,
+  "proof_learning_cycles": 150,
+  "source_action_combinations": 28,
+  "M1279_original_powers": 277,
+  "M1279_reduced_powers": 163,
+  "quiet_comparison_ms": {
+    "reduced": "343.239230",
+    "original": "331.883348",
+    "selected_original_after_learning": "349.868179"
+  },
+  "frontier_prime_certification": "OPEN",
+  "final_native_receipt_retrieval": "PENDING_AT_HANDOFF",
+  "source_handoff_sha256": "e96b4861df1608bec964920e2fa311375aae039caaf23665ba55bfb96180fd1d"
+}
