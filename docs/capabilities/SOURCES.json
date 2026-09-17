@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-17",
+  "scope": "Installed research capability documentation; no runtime or scientific execution changes",
+  "registries": {
+    "STARBREAKER": {
+      "version": "SB-GEN3-ACCUMULATION-R1",
+      "global_slc": "SLC-GEN3-R4",
+      "ce": "SLC-GEN3-CEV1-R4",
+      "generation": "GEN3-BETHE1-20260917-G1",
+      "source_path": "CURRENT_REVISION/domains/STARBREAKER/DOMAIN.json",
+      "source_sha256": "b398bac5488d80b95bd54cbf6529b256643fc24d3a13ac7e91966bf5f6e3cf5d"
+    },
+    "ATOM3D": {
+      "version": "A3D41-T18-CONTACT-R2",
+      "global_slc": "SLC-GEN3-R4",
+      "ce": "SLC-GEN3-CEV1-R4",
+      "generation": "GEN3-BETHE1-20260917-G1",
+      "source_path": "CURRENT_REVISION/domains/ATOM3D/DOMAIN.json",
+      "source_sha256": "9027a15f1c5acc0bc6c503bc68cf48e9b41bd860e1a2b55a66db851b0b2d7ef0"
+    },
+    "RH": {
+      "version": "RH-GEN3-GROWTH-V5",
+      "global_slc": "SLC-GEN3-R4",
+      "ce": "SLC-GEN3-CEV1-R4",
+      "generation": "GEN3-BETHE1-20260917-G1",
+      "source_path": "CURRENT_REVISION/domains/RH/DOMAIN.json",
+      "source_sha256": "1de493af2803a1690710594698bf91f6b9e06f9c5cfb3df0f9cdefc2a04970b2"
+    }
+  },
+  "contract_snapshots": [
+    {
+      "source_path": "CURRENT_REVISION/engines/SLC/CAPABILITIES.md",
+      "published_path": "docs/capabilities/GEN3_NATIVE.md",
+      "sha256": "e470256dc0e5cc29b55f68be2f5bc5c96435774eeaf86b50602b4045063feb4f"
+    },
+    {
+      "source_path": "CURRENT_REVISION/engines/SLC/CERTIFIED_LOG.md",
+      "published_path": "docs/capabilities/CERTIFIED_LOG.md",
+      "sha256": "5c85481827f0ebcb321dcf05cb70aaa78812cb3731e15212cb3019d63db86b3c"
+    },
+    {
+      "source_path": "CURRENT_REVISION/engines/SLC/OPERATOR_LOG.md",
+      "published_path": "docs/capabilities/OPERATOR_LOG.md",
+      "sha256": "ba0d572784c011ac6aa80748d1db052277afff991c3187b9caccdef0b60bcb65"
+    },
+    {
+      "source_path": "CURRENT_REVISION/engines/SLC/SOURCE_OPERATORS.md",
+      "published_path": "docs/capabilities/SOURCE_OPERATORS.md",
+      "sha256": "8b5dab137c5a2c88305423634834c4ededfd1292201fcca30c081cc410a45f1d"
+    },
+    {
+      "source_path": "CURRENT_REVISION/engines/SLC/BETHE.md",
+      "published_path": "docs/capabilities/BETHE.md",
+      "sha256": "f1a68fc34cb5fff50bb3f412ebfade30d2fb18a474494896e03ff555da0cd794"
+    },
+    {
+      "source_path": "CURRENT_REVISION/domains/RH/README.md",
+      "published_path": "docs/capabilities/RH_V5.md",
+      "sha256": "648f87d5e1e4048a1af28234510971d24435afed4d1d523f46532d235cda3e83"
+    }
+  ]
+}
