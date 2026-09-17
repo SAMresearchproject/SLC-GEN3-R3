@@ -1,10 +1,10 @@
 # GW-COM folder publication
 
-Destination: [SAMresearchproject/SLC-GEN3-R3, main/gw-com](https://github.com/SAMresearchproject/SLC-GEN3-R3/tree/main/gw-com).
+Destination: [SAMresearchproject/SLC-GEN3-R3, main/gw-encoding](https://github.com/SAMresearchproject/SLC-GEN3-R3/tree/main/gw-encoding).
 
 This folder publishes the GW-COM implementation, campaign contracts, frozen code snapshots, scientific reports, signed waveform/residual histories, candidate/control/decoded records and validation summaries. Five successive campaigns are included, from the original interval demonstration through the exactly-three-tests study. Earlier six-value payloads remain historical records; the current payload includes 3.
 
-The research source repository and this public repository have distinct Git histories. The publication is a new `gw-com/` folder on the destination main branch. It preserves the original GW_COM/, SAM_REVIEW/ and selected SAM_HISTORY/ layout beneath that folder so existing relative links and frozen artifact paths remain meaningful. Selected numbered GW history records are provenance excerpts; they do not install the full research repository's live-authority system into this public repository.
+The research source repository and this public repository have distinct Git histories. The publication is a new `gw-encoding/` folder on the destination main branch. It preserves the original GW_COM/, SAM_REVIEW/ and selected SAM_HISTORY/ layout beneath that folder so existing relative links and frozen artifact paths remain meaningful. Selected numbered GW history records are provenance excerpts; they do not install the full research repository's live-authority system into this public repository.
 
 ## Execution and archive boundary
 

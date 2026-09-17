@@ -1,4 +1,4 @@
-# Gravitational-wave communication (GW-COM)
+# Gravitational-wave encoding (GW-COM)
 
 This folder contains the GW-COM research program and its five completed campaign records. The current message is **2, 3, 5, 7, 11, 13, 17**.
 
@@ -11,4 +11,4 @@ This folder contains the GW-COM research program and its five completed campaign
 
 The original research directory layout is retained inside this folder to preserve relative links and scientific artifact paths. Native-call archives remain local under the established slim-sync policy; their hashes are listed in the archive manifest. The full GEN3-R4/STARBREAKER research environment is required to rerun the source experiments.
 
-Published on `main` at the owner's request. The mistakenly created remote `gw-com` branch is superseded by this folder. All scientific source, evidence and result files are unchanged by the layout correction.
+Published on `main` in `gw-encoding/` at the owner's request. All scientific source, evidence and result files are unchanged by the layout correction.

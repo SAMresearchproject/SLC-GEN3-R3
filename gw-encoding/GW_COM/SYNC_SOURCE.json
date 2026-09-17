@@ -5,9 +5,9 @@
   "source_commit": "6690f5ae1226a38cad2166c737ba9f117b46493c",
   "destination": "https://github.com/SAMresearchproject/SLC-GEN3-R3",
   "destination_branch": "main",
-  "destination_parent": "74d998592acfc52bd2ec5d2250e9991e215fed68",
+  "destination_parent": "a50c62d1b478cf0c98685be8dbc5ffa787cc1884",
   "published_source_files": 969,
-  "published_source_bytes": 162236717,
+  "published_source_bytes": 162236732,
   "excluded_local_authority_paths": [
     "SAM_HISTORY/HISTORY_INDEX.md",
     "SAM_LIVE/03_STARBREAKER_GW_CURRENT.md"
@@ -66,10 +66,10 @@
     },
     {
       "path": "GW_COM/PUBLICATION.md",
-      "bytes": 2572,
-      "sha256": "fc94cda6fe8ef46928ae8359b5f21bd3c705bdd3bd0a2a34983fada5a58617af",
+      "bytes": 2587,
+      "sha256": "e6e93f1e8605c47754fc9c6811d3c945b866f48bff66788e4244bb128b4ce8bb",
       "original_source_sha256": "e0a750b7aea77b30ea1429d97e890596bfa533744874e51f4df921b1c18367bf",
-      "note": "Destination wording corrected after owner clarification; scientific artifacts unchanged."
+      "note": "Publication destination renamed to gw-encoding; scientific artifacts unchanged."
     },
     {
       "path": "GW_COM/README.md",
@@ -4862,7 +4862,8 @@
       "sha256": "575e1a6222a86aed68bde157527770b379397fac4456b8c832acfc349eb3de62"
     }
   ],
-  "destination_prefix": "gw-com/",
+  "destination_prefix": "gw-encoding/",
   "previous_publication_commit": "8a7191f5cb199ac3ae3cf9986ed4889962b32047",
-  "publication_correction_source_commit": "7b8db2845f94293d64aef15cead80fa891a258ef"
+  "publication_correction_source_commit": "7b8db2845f94293d64aef15cead80fa891a258ef",
+  "folder_rename_source_commit": "56d38cf8efed114d9555168f3c27ea387e7fbbeb"
 }
