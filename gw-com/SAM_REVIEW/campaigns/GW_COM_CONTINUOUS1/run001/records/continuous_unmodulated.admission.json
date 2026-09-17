@@ -1,0 +1,58 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.admission.data.json",
+      "sha256": "15d67d6fb89b1ec8ca9f9d7c56b44bfc37eeae883341ef1cdbbf809c2054efa9"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:52:05.533109+00:00",
+  "execution_refs": [],
+  "kind": "decoder_admission",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.raw.json",
+      "sha256": "f26f0d295c02d87479b52c16c9d903c2c7f0ac13a967398ab9ee2137b2cfbfe2"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.fit2.json",
+      "sha256": "d22bab4536fc32320357a1833533ee1719db604683e5421ce33f69defb8acdcb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.residual2.json",
+      "sha256": "3fcf85706205fa7ce20286f39d6aec3babace8e76f66d961cc1a710f1d9f8c3b"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.symbols2.json",
+      "sha256": "9163a58e5c2a34863f33bd64bede21fced5df4471cb64da23791f269005554ca"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.information.json",
+      "sha256": "119b7b18542b992619edeb0975c8c3420f8901d1ed92998c13cd21e0647e321d"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.controls.json",
+      "sha256": "1dbf11c094b4972ab592572cd59b8dcd3590c71973b5d4c1425f91aa4c2c0438"
+    }
+  ],
+  "record_id": "continuous_unmodulated.admission",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

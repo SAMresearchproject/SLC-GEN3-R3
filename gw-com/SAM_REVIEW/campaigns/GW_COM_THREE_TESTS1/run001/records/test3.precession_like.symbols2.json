@@ -1,0 +1,33 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.symbols2.data.json",
+      "sha256": "c457b21d7d3b44565c6ef3389f6cc1db2d87638f09ecdd905afb5b2254fb5508"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:37:52.369891+00:00",
+  "execution_refs": [],
+  "kind": "candidate_symbolization",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.residual2.json",
+      "sha256": "f81cb2dfa789a77668442e2835e5e7c2a07d78834191db69a170bcf39d896cca"
+    }
+  ],
+  "record_id": "test3.precession_like.symbols2",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

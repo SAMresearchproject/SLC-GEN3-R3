@@ -1,0 +1,91 @@
+{
+  "schema": "GW_COM_PIPELINE_CONTRACT_V2",
+  "scope": "First executable five-layer successor on the dimensionless prescribed C4 source; controls are scoped to this model family, not astrophysical completeness.",
+  "source": "H000733 antipodal unit-weight C4 quadrupole second difference",
+  "calibration": {
+    "samples": [
+      0,
+      128
+    ],
+    "known_quiet": true
+  },
+  "validation": {
+    "samples": [
+      128,
+      192
+    ],
+    "known_quiet": true
+  },
+  "source_models": [
+    "constant signed amplitude",
+    "signed amplitude plus DC",
+    "linear signed-amplitude drift plus DC"
+  ],
+  "selection": "Simplest model with maximum held-out absolute residual at most three times the declared bounded measurement-noise amplitude; exact floor 1/10^12. Preserve all fits and residuals.",
+  "markers": {
+    "absolute_signed_residual_threshold_fraction_of_fitted_carrier": "3/100",
+    "minimum_active_samples": 3,
+    "maximum_active_samples": 11,
+    "gap_join_samples": 2
+  },
+  "framing": {
+    "sync_markers": 4,
+    "data_intervals": 7,
+    "relative_tolerance": "3/25",
+    "message_values_hidden": true
+  },
+  "physical_controls": [
+    "selected carrier passes held-out quiet samples",
+    "repeated candidate remains under every adequate alternative carrier fit",
+    "unmodulated clean/noisy and drift-only controls produce no repeated frame candidate"
+  ],
+  "statistical_controls": {
+    "minimum_disjoint_repeated_packets": 2,
+    "gap_order_permutations": 99,
+    "seed": 20260917,
+    "rank_p_cutoff": "1/20",
+    "rank_p": "(1 + null maxima greater than or equal to observed maximum)/(1 + permutation count)",
+    "search_accounting": "Identical complete framing search and maximum disjoint repeat count on every shuffled gap order",
+    "null_scope": "Conditional exchangeability of detected interval order, preserving gap multiset; not universal physical noise"
+  },
+  "cases": [
+    "prime_clean",
+    "prime_noisy",
+    "alternate_clean",
+    "unmodulated_clean",
+    "unmodulated_noisy",
+    "drift_only"
+  ],
+  "decoder": "Only after matching physical and statistical control records pass; truth comparison happens after decoding",
+  "information_diagnostics": [
+    "pairwise marker lag histogram",
+    "empirical symbol probabilities and Shannon entropy",
+    "actual zlib byte lengths including overhead",
+    "alphabet and sample spans",
+    "repetition",
+    "synchronization alternatives"
+  ],
+  "not_implemented": [
+    "continuous controlled binary dynamics",
+    "chirp",
+    "precession",
+    "multiple polarizations",
+    "SI detector response",
+    "error-correcting code search",
+    "higher-prime strength layer"
+  ],
+  "numerical_roles": {
+    "GEN3": "source quadrupole, sampled readout, least-squares fit, prediction, signed residual and exact statistical ratios",
+    "Python": "protocol/source schedule construction, graph compilation, discrete candidate enumeration, permutation ordering, standard compression, derived diagnostic logs and independent verification"
+  },
+  "payload": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "correction": "Owner supplies omitted prime 3; seven-value payload and seven-interval framing. PIPELINE1 remains historical."
+}

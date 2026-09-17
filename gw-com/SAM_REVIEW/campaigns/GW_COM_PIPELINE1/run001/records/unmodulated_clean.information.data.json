@@ -1,0 +1,633 @@
+{
+  "compression": {
+    "codec": "zlib default with header",
+    "compressed_bytes": 8,
+    "encoding": "UTF-8 symbol labels, comma and pipe separators",
+    "input_bytes": 0
+  },
+  "criteria": {
+    "maximum_permutation_p": "1/20",
+    "minimum_disjoint_repetitions": 2
+  },
+  "entropy": {
+    "alphabet_probabilities": {},
+    "numeric_log_role": "derived display from native exact probabilities",
+    "shannon_bits_per_symbol": 0
+  },
+  "error_correcting_structure": {
+    "reason": "This protocol repeats packets but defines no parity/code family; no error correction is inferred.",
+    "status": "NOT_IMPLEMENTED"
+  },
+  "null_hypothesis": "exchangeable order of detected gaps conditional on their multiset; not a universal astrophysical noise model",
+  "observed_repetition": 0,
+  "pass": false,
+  "periodicity": {
+    "pairwise_marker_lag_histogram": {}
+  },
+  "permutation_p": "1",
+  "permutation_seed": 20260917,
+  "permutations": [
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 0,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 1,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 2,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 3,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 4,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 5,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 6,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 7,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 8,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 9,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 10,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 11,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 12,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 13,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 14,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 15,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 16,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 17,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 18,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 19,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 20,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 21,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 22,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 23,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 24,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 25,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 26,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 27,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 28,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 29,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 30,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 31,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 32,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 33,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 34,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 35,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 36,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 37,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 38,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 39,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 40,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 41,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 42,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 43,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 44,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 45,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 46,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 47,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 48,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 49,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 50,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 51,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 52,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 53,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 54,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 55,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 56,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 57,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 58,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 59,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 60,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 61,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 62,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 63,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 64,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 65,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 66,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 67,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 68,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 69,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 70,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 71,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 72,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 73,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 74,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 75,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 76,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 77,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 78,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 79,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 80,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 81,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 82,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 83,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 84,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 85,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 86,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 87,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 88,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 89,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 90,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 91,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 92,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 93,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 94,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 95,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 96,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 97,
+      "repetition_count": 0
+    },
+    {
+      "candidate_frames": [],
+      "gap_order": [],
+      "index": 98,
+      "repetition_count": 0
+    }
+  ],
+  "synchronization": {
+    "format": "four unit-spaced markers then six interval symbols",
+    "searched_starts": 0
+  },
+  "tests_used_for_admission": [
+    "disjoint_packet_repetition",
+    "full_search_gap_permutation_rank"
+  ]
+}

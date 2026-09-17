@@ -1,0 +1,56 @@
+{
+  "cases": {
+    "continuous_prime": {
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.admission.json",
+        "sha256": "3ca58a857ed5ecc232466a0c9ecc96c843c53352779f3a472e8c7f5db23f8ca0"
+      },
+      "admitted": true,
+      "decoded": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.decoded.json",
+        "sha256": "05d2041cdf160b8046cac00867d78c78155df371429f33f219b6ab5e6e32734e"
+      },
+      "dynamics": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.dynamics.json",
+        "sha256": "ae7a7a8144b92a0d2151910c5ac6a38e14d4758b4ae48519124dce5fc57c6233"
+      },
+      "dynamics_pass": true,
+      "energy_balance_error": 7.537350768762563e-06,
+      "exact_match": true,
+      "state_error": 1.775045388452412e-08,
+      "wave_error": 2.5942629733322065e-07
+    },
+    "continuous_unmodulated": {
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_unmodulated.admission.json",
+        "sha256": "f74d420d5fa4f0f0cd181122c2fde59da80dc2dc9387e3e57cbaec1543f3a8fb"
+      },
+      "admitted": false,
+      "decoded": null,
+      "dynamics": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_unmodulated.dynamics.json",
+        "sha256": "70195dcafb76980a90a4cae061e7d9ac3dc090d907f77f1a0337cb92e0c7677a"
+      },
+      "dynamics_pass": true,
+      "energy_balance_error": 6.214605980715706e-06,
+      "exact_match": null,
+      "state_error": 9.276562740190286e-09,
+      "wave_error": 1.4119301816606367e-07
+    }
+  },
+  "new_native_calls": 0,
+  "payload": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "predecessor_result": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/RUN_RESULT.json",
+    "sha256": "2174b755a59befbd5b996f0fc0039b0270cfc246a65707cedb2be27eec6e0303"
+  },
+  "reason": "Independent numerical refinement, unchanged native research inputs/results"
+}

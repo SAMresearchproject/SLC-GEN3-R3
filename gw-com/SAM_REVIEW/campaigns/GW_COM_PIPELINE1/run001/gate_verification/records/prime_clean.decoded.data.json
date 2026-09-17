@@ -1,0 +1,234 @@
+{
+  "all_frame_alternatives": [
+    {
+      "interval_ratio_bins": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "marker_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "ratios": [
+        "2",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17"
+      ],
+      "sample_spans": [
+        [
+          303,
+          335
+        ],
+        [
+          335,
+          415
+        ],
+        [
+          415,
+          527
+        ],
+        [
+          527,
+          703
+        ],
+        [
+          703,
+          911
+        ],
+        [
+          911,
+          1183
+        ]
+      ],
+      "symbols": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "unit_samples": 16
+    },
+    {
+      "interval_ratio_bins": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "marker_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "ratios": [
+        "2",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17"
+      ],
+      "sample_spans": [
+        [
+          1599,
+          1631
+        ],
+        [
+          1631,
+          1711
+        ],
+        [
+          1711,
+          1823
+        ],
+        [
+          1823,
+          1999
+        ],
+        [
+          1999,
+          2207
+        ],
+        [
+          2207,
+          2479
+        ]
+      ],
+      "symbols": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "unit_samples": 16
+    }
+  ],
+  "grammar": "integer timing intervals after four synchronization markers",
+  "hypotheses": [
+    {
+      "corrections": [],
+      "frame_indices": [
+        0,
+        1
+      ],
+      "interpretation": "integers encoded as timing intervals; intent not assigned",
+      "interval_integers": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "support": [
+        {
+          "raw_sample_spans": [
+            [
+              303,
+              335
+            ],
+            [
+              335,
+              415
+            ],
+            [
+              415,
+              527
+            ],
+            [
+              527,
+              703
+            ],
+            [
+              703,
+              911
+            ],
+            [
+              911,
+              1183
+            ]
+          ],
+          "symbols": [
+            "S0",
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5"
+          ],
+          "unit_samples": 16
+        },
+        {
+          "raw_sample_spans": [
+            [
+              1599,
+              1631
+            ],
+            [
+              1631,
+              1711
+            ],
+            [
+              1711,
+              1823
+            ],
+            [
+              1823,
+              1999
+            ],
+            [
+              1999,
+              2207
+            ],
+            [
+              2207,
+              2479
+            ]
+          ],
+          "symbols": [
+            "S0",
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5"
+          ],
+          "unit_samples": 16
+        }
+      ],
+      "unresolved_symbols": []
+    }
+  ],
+  "raw_waveform_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.raw.json",
+    "sha256": "ac7a32ff4b24a6f44271a2ce503ee1bb1b2a75d9d7774ca51057b755bbf50444"
+  }
+}

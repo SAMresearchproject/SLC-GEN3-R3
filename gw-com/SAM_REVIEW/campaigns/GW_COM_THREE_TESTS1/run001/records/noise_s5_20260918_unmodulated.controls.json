@@ -1,0 +1,49 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.controls.data.json",
+      "sha256": "8c786de07fedae309c6bb2dffdccd8a70a03ea096b41a8a38314a67fe6f16e75"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:30:02.795134+00:00",
+  "execution_refs": [],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.raw.json",
+      "sha256": "27d2a909fd5e9c4d4fa9818873763467f86039e1aab9f98dbe57864246031bbe"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.fit2.json",
+      "sha256": "8e128cf1e119015a58c2a07f2576fa45927782ac1161d84f37e6319ec7691163"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.residual2.json",
+      "sha256": "6c0d78710d8bbb62e6b76699d7cb9c12406aa10375040de73cf3c43034f3008f"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.symbols2.json",
+      "sha256": "55878a54a427e6f6115d91327c9c8b4b16e63e26be32f6f2c3445a9bdb7fbc89"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.information.json",
+      "sha256": "172cfaa9906b54aa66148d2d2c98e4f12c65b1ec79f4e3ac61e1668586d17d60"
+    }
+  ],
+  "record_id": "noise_s5_20260918_unmodulated.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

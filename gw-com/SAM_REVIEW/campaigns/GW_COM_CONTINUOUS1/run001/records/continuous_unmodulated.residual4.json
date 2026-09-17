@@ -1,0 +1,87 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.residual4.data.json",
+      "sha256": "c079dc932750320015313d24797ff890cb4e443f1972eb9f8647479d3fddb25f"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:52:05.123008+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5058ae1a386145949cfe9292c1a4875c/RECEIPT.json",
+      "sha256": "1c31b68e8fecd1cfecda9323469324cdfdaedd0cef6f1416ea77e5830af2eea6"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/89854604318143e6a03d7a2ddfd5d9df/RECEIPT.json",
+      "sha256": "7f79daaaa12c64a4a2c9cac89b5824ee00b8969fde0c942407d9ae8504a42531"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/613348cb30564c2c9a929a5cba545e59/RECEIPT.json",
+      "sha256": "44b7778258b8218a7b4595c0f7073675bf05d58805fcaddf60d47051f1693568"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/a16aee3fc7ae47bcb60451f14aa127d2/RECEIPT.json",
+      "sha256": "86761c320b4ddfbbb8965dfb9a3b6e36d4f48f77838cae85f032b8fd02efc7b7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/65d645adabaf4178a6b2726d685b3584/RECEIPT.json",
+      "sha256": "b5ff47ffecd89358cea95135515b2d76ffb3e1e3c6e8da7371b675d23b21a2f4"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1eccedce4be5436b95f06a8761064ff2/RECEIPT.json",
+      "sha256": "1c42f253924bbade8268ecb2bb5fe95b900cf5c94e1c55e19a39a3b83dbad5d7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/606135db5a54419190486232355fb922/RECEIPT.json",
+      "sha256": "75ffbcb791b2cb4bd82eedad6224458932b62fd3a0a0440e73fd60c554ebc353"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/aaa08f946c7b49f5bac3fb0bb6929856/RECEIPT.json",
+      "sha256": "9001d826aba2c942fc6ddd973cbe791774dcbf31244a62619cc680454f000872"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/cfb8dd82e37e4bfe8eb5ec5f56bd1f3d/RECEIPT.json",
+      "sha256": "07d851ac72bc64996932a2352eda6b834b024018cf36d93b6715b75deae595af"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/cbc93f679dd94097bd09069b3c1bf4d8/RECEIPT.json",
+      "sha256": "20211dcbd8fc50ac67c9264e419cb6c5768c7c6b9fbe117ca8771b0411897633"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/75f6c01b2f03478d83e598814acb3dc6/RECEIPT.json",
+      "sha256": "2626dd3da182154b465c2dd4e44584134ba54c9ffa1c1b28dd25e3163d2b22ef"
+    }
+  ],
+  "kind": "residual_history",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.raw.json",
+      "sha256": "f26f0d295c02d87479b52c16c9d903c2c7f0ac13a967398ab9ee2137b2cfbfe2"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.fit4.json",
+      "sha256": "3994fde6a7a429d4a09b886414f8172560ec4f00b87c0f42e4552f7d6d27126c"
+    }
+  ],
+  "record_id": "continuous_unmodulated.residual4",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

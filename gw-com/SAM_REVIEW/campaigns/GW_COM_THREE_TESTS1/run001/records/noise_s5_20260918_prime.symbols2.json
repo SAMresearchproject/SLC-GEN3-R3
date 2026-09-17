@@ -1,0 +1,33 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_prime.symbols2.data.json",
+      "sha256": "38440a8d7fc7aa9985913955b9a64e786fcdcb7d1b4ecc757c471804740f6ef0"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:28:16.894354+00:00",
+  "execution_refs": [],
+  "kind": "candidate_symbolization",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_prime.residual2.json",
+      "sha256": "9dfd1ecdcef8a20c4a5328228fbbe3566e950a93124a1f52999f1074e0714944"
+    }
+  ],
+  "record_id": "noise_s5_20260918_prime.symbols2",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.fit2.json",
+        "sha256": "a84ec4091a773e9989c7308741c76c15a751224e4704ae58c097a14f42cbe11b"
+      },
+      "name": "quiet_fit",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.symbols2.json",
+          "sha256": "acc369706abbdad1bf68a6f98427c3596980a7c50884c0fe4bab2601441f49e0"
+        },
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.symbols4.json",
+          "sha256": "834ed0ae0cd48a319088636c4d0da5cf5eeab626af4281bdca07d5f8db8c4596"
+        }
+      ],
+      "name": "fit_alternative_stability",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_unmodulated.dynamics.json",
+        "sha256": "70195dcafb76980a90a4cae061e7d9ac3dc090d907f77f1a0337cb92e0c7677a"
+      },
+      "name": "source_dynamics",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.information.json",
+        "sha256": "bff42ffe6a81580f9d19b77a6a132829004752fdd8ff81ea063731e2c959c213"
+      },
+      "name": "matched_unmodulated",
+      "status": "PASS"
+    }
+  ],
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.information.json",
+        "sha256": "bff42ffe6a81580f9d19b77a6a132829004752fdd8ff81ea063731e2c959c213"
+      },
+      "name": "repetition_permutation",
+      "status": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "all_frame_alternatives": [
+    {
+      "interval_ratio_bins": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "marker_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ratios": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "sample_spans": [
+        [
+          303,
+          367
+        ],
+        [
+          367,
+          463
+        ],
+        [
+          463,
+          591
+        ],
+        [
+          591,
+          751
+        ],
+        [
+          751,
+          943
+        ],
+        [
+          943,
+          1167
+        ],
+        [
+          1167,
+          1423
+        ]
+      ],
+      "symbols": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "unit_samples": 16
+    },
+    {
+      "interval_ratio_bins": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "marker_indices": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "ratios": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "sample_spans": [
+        [
+          1839,
+          1903
+        ],
+        [
+          1903,
+          1999
+        ],
+        [
+          1999,
+          2127
+        ],
+        [
+          2127,
+          2287
+        ],
+        [
+          2287,
+          2479
+        ],
+        [
+          2479,
+          2703
+        ],
+        [
+          2703,
+          2959
+        ]
+      ],
+      "symbols": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6"
+      ],
+      "unit_samples": 16
+    }
+  ],
+  "grammar": "integer timing intervals after four synchronization markers",
+  "hypotheses": [
+    {
+      "corrections": [],
+      "frame_indices": [
+        0,
+        1
+      ],
+      "interpretation": "integers encoded as timing intervals; intent not assigned",
+      "interval_integers": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "support": [
+        {
+          "raw_sample_spans": [
+            [
+              303,
+              367
+            ],
+            [
+              367,
+              463
+            ],
+            [
+              463,
+              591
+            ],
+            [
+              591,
+              751
+            ],
+            [
+              751,
+              943
+            ],
+            [
+              943,
+              1167
+            ],
+            [
+              1167,
+              1423
+            ]
+          ],
+          "symbols": [
+            "S0",
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "unit_samples": 16
+        },
+        {
+          "raw_sample_spans": [
+            [
+              1839,
+              1903
+            ],
+            [
+              1903,
+              1999
+            ],
+            [
+              1999,
+              2127
+            ],
+            [
+              2127,
+              2287
+            ],
+            [
+              2287,
+              2479
+            ],
+            [
+              2479,
+              2703
+            ],
+            [
+              2703,
+              2959
+            ]
+          ],
+          "symbols": [
+            "S0",
+            "S1",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6"
+          ],
+          "unit_samples": 16
+        }
+      ],
+      "unresolved_symbols": []
+    }
+  ],
+  "raw_waveform_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/alternate_clean.raw.json",
+    "sha256": "a1613f4832512f3a199d816cb9108af0ad1cc5db946de60dd4346da60823455c"
+  }
+}

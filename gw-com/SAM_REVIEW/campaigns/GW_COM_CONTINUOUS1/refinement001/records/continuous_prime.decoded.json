@@ -1,0 +1,37 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.decoded.data.json",
+      "sha256": "0e49293f3994d7092e72438426a5047c8de102e232c21944f2b2644140113793"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001",
+  "created_utc": "2026-09-17T15:52:42.066895+00:00",
+  "execution_refs": [],
+  "kind": "decoded_hypothesis",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/METHOD.json",
+    "sha256": "00bbb8b9f8884fbbd8c99cb5c8cc9b155791b0ab55836718a9a41c491e031838"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.admission.json",
+      "sha256": "3ca58a857ed5ecc232466a0c9ecc96c843c53352779f3a472e8c7f5db23f8ca0"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.symbols2.json",
+      "sha256": "d924a6b368e691566f1416babb36e5d599dff5a6101992c25a0410d799eebbaf"
+    }
+  ],
+  "record_id": "continuous_prime.decoded",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "scope": "independent refinement of retained Newtonian reference",
+    "time": "dimensionless continuous t"
+  }
+}

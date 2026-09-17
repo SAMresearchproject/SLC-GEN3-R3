@@ -1,0 +1,39 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.raw.data.json",
+      "sha256": "749e64c6d773e3f6d0d5f720e519393d67c986db1855b0f62a9ea9366c2129bb"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001",
+  "created_utc": "2026-09-17T15:16:14.410261+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/539fb55cd35c40db991c3ef487b3728d/RECEIPT.json",
+      "sha256": "4e0143ca527958e6edfb4b6ae97e11ff19f58fc4eaaf6bee9023a53c04d81ff7"
+    }
+  ],
+  "kind": "raw_waveform",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.source.json",
+      "sha256": "87e6ccf88ededd1723ad2a99f10822edada703204d9f0efdb5d76cccd283eedc"
+    }
+  ],
+  "record_id": "prime_noisy.raw",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.controls.data.json",
+      "sha256": "93952ed4c5dedf80ac243445e96c3bc08d06086346496dd3bbfb82d7773b888b"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:37:04.674399+00:00",
+  "execution_refs": [],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.raw.json",
+      "sha256": "5daa24f683fefef9013d9ef4a88dcd264556ac3ea1bfdf775555da4cae364a97"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.fit2.json",
+      "sha256": "0d8c8c3a1fed436263a653152c3b5fd2f8d46a516310bfce41c3c6f0bd37ad89"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.residual2.json",
+      "sha256": "4f9c138b64723d5426d61af4c3eaf07971ca25cde15c7e65ff254f2d0e1225b1"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.symbols2.json",
+      "sha256": "94f762fab45c5b46e94dbff4ee4089be68b4fedba2534d3cfd62b417fb65d815"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.information.json",
+      "sha256": "23df207da7f3b0a1c774c7b8eae925923bed5ad013758ca06793f843f7bc3e8d"
+    }
+  ],
+  "record_id": "test3.slow_chirp.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

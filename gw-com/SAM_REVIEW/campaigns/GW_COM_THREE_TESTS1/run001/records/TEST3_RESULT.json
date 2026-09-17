@@ -1,0 +1,44 @@
+{
+  "precession_like": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.admission.json",
+      "sha256": "79a5faa98fb1cf7e7a0b811895269e94029bcaeb71f31d33cd69dc17f4b71567"
+    },
+    "admitted": false,
+    "any_repeated_packet": false,
+    "decoded": null,
+    "exact_payload": null,
+    "false_positive_statistical": false,
+    "fit_adequate": false,
+    "fit_alternatives_agree": false,
+    "holdout_errors": [
+      1.1066640473184555,
+      1.1262211483048574
+    ],
+    "markers": 1,
+    "p": "1",
+    "repeats": 0,
+    "statistical_pass": false
+  },
+  "slow_chirp": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.admission.json",
+      "sha256": "07db3f57ab0245f933d3382cbbb3b43ae7560266371c837b393cf98d9fbfbffb"
+    },
+    "admitted": false,
+    "any_repeated_packet": false,
+    "decoded": null,
+    "exact_payload": null,
+    "false_positive_statistical": false,
+    "fit_adequate": false,
+    "fit_alternatives_agree": false,
+    "holdout_errors": [
+      0.608907823044825,
+      0.6119411505241974
+    ],
+    "markers": 0,
+    "p": "1",
+    "repeats": 0,
+    "statistical_pass": false
+  }
+}

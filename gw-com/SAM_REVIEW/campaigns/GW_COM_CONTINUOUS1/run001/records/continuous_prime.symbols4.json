@@ -1,0 +1,42 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.symbols4.data.json",
+      "sha256": "268dd57f3d67396968ea3f001dfc47f26e81f0252e94e10c1f9f8e5705c37d56"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:51:09.903528+00:00",
+  "execution_refs": [],
+  "kind": "candidate_symbolization",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.residual4.json",
+      "sha256": "ce5ca2eb0e27d6e5cc341fc1217af4ca5d43156234e8f6207a64081b32bfd59b"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/modulation.json",
+      "sha256": "11713cc6b2210328c189760db06a237b630014b9551c1915d1c3c11c4f6082aa"
+    }
+  ],
+  "record_id": "continuous_prime.symbols4",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "GW_COM_CONTINUOUS_CONTRACT_V1",
+  "payload": [2,3,5,7,11,13,17],
+  "scope": "Dimensionless Newtonian controlled two-body reference with independent integrated dynamics, two unscaled face-on quadrupole channels and gated interval decoding",
+  "physics": {"G":4,"body_masses":[1,1],"baseline_body_radius":1,"angular_speed":1,"force_per_body":"(rddot-r+1/r^2) e_r + 2 rdot e_theta; opposite force on opposite body", "tracking_feedback":"kp=4, kd=4 in Cartesian coordinates", "pair_energy":"rdot^2+r^2-2/r on the reference", "pair_power":"2*(f_r*rdot+f_theta*r)", "radiation_reaction":"not included", "SI_scale":"unassigned"},
+  "radial_marker":{"half_width":1,"amplitude":"1/16","profile":"(1-u^2)^4 inside |u|<1, zero outside; C3 joined"},
+  "sampling":{"dt":"1/8","trigonometric_input":"sin(2t), cos(2t) rounded to 14 decimal places then admitted as rational inputs"},
+  "transmitter":{"first_marker_time":32,"unit_time":4,"sync_markers":4,"data_intervals":7,"packets":2,"guard_units":23},
+  "carrier":{"models":["joint phase/amplitude, two coefficients","joint phase/amplitude plus two DC offsets, four coefficients"],"calibration_samples":[0,128],"holdout_samples":[128,192],"holdout_max_absolute_error":"1/10000000000","selection":"simplest adequate model"},
+  "markers":{"residual_norm_squared_threshold":"(3/100)^2 times fitted carrier amplitude squared","group_gap":2,"min_active_samples":3,"max_active_samples":17},
+  "information":{"data_intervals":7,"ratio_tolerance":"3/25","required_disjoint_repeats":2,"gap_permutations":99,"seed":20260917,"p_cutoff":"1/20"},
+  "physical_controls":["quiet holdout passes","same repeated symbol pattern across adequate fits","unmodulated control contains no repeated frame","native signed-power identity equals exact mechanical-energy derivative","independent RK4 convergence and energy balance"],
+  "integration":{"steps":["1/16","1/32"],"maximum_fine_state_error":"1/100000","maximum_fine_wave_error":"1/10000","maximum_fine_energy_balance_error":"1/100000","require_error_decrease":true},
+  "cases":["continuous_prime","continuous_unmodulated"],
+  "decoder":"physical and statistical controls must pass before decoding; transmitter truth used only after decoding",
+  "sources":["H000733 orbit-wave source","https://dcc.ligo.org/public/0126/P1600161/013/BBHBasicsANDPFullAuth.pdf"],
+  "roles":{"native":"reference force/energy/power, analytic quadrupole coefficients and sampled channels, exact carrier fits and signed residuals, exact statistical ranks","python":"graph/schedule construction, declared trig inputs, marker/permutation enumeration, independent Newtonian RK4 and numerical reporting"}
+}

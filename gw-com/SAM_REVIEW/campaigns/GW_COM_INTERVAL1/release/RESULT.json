@@ -1,0 +1,659 @@
+{
+  "classification": "The test result suggests the concept is possible.",
+  "scope": "Dimensionless sampled C4 antipodal orbit with prescribed equal radial markers and ideal delayed scalar readout; no SI strain, actuator dynamics or physical propagation calibration.",
+  "session": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/sessions/STARBREAKER_dfc32b1af0ab4b7eb5b18c2aee83ba9c",
+  "native": {
+    "operation": "GEN2_SIGNED_LOG",
+    "unique_stencils": 13,
+    "native_nodes": 470,
+    "checkpoint_sha256": "843924b10578ac991d98957602fcdb00be48e8366193656f3c1ca9fa8ced98e3"
+  },
+  "source": "SAM_HISTORY/entries/H000733_2026-08-28_RH_Q3RHV2_SPIN_ORBIT_WAVE_THETA_STATE_HISTORY.md",
+  "source_sha256": "b6dbe27768744e201bbda5adba46fb72f325a3e8c4b040fc3521d295f150a066",
+  "decoded": {
+    "prime": {
+      "baseline": 8.0,
+      "markers": [
+        68,
+        84,
+        100,
+        116,
+        148,
+        228,
+        340,
+        516,
+        724,
+        996,
+        1364,
+        1380,
+        1396,
+        1412,
+        1444,
+        1524,
+        1636,
+        1812,
+        2020,
+        2292
+      ],
+      "packets": [
+        {
+          "start_sample": 68,
+          "unit_samples": 16,
+          "intervals": [
+            2,
+            5,
+            7,
+            11,
+            13,
+            17
+          ],
+          "measured_ratios": [
+            2.0,
+            5.0,
+            7.0,
+            11.0,
+            13.0,
+            17.0
+          ]
+        },
+        {
+          "start_sample": 1364,
+          "unit_samples": 16,
+          "intervals": [
+            2,
+            5,
+            7,
+            11,
+            13,
+            17
+          ],
+          "measured_ratios": [
+            2.0,
+            5.0,
+            7.0,
+            11.0,
+            13.0,
+            17.0
+          ]
+        }
+      ]
+    },
+    "unmodulated": {
+      "baseline": 8.0,
+      "markers": [],
+      "packets": []
+    },
+    "alternate": {
+      "baseline": 8.0,
+      "markers": [
+        68,
+        84,
+        100,
+        116,
+        180,
+        276,
+        404,
+        564,
+        756,
+        980,
+        1348,
+        1364,
+        1380,
+        1396,
+        1460,
+        1556,
+        1684,
+        1844,
+        2036,
+        2260
+      ],
+      "packets": [
+        {
+          "start_sample": 68,
+          "unit_samples": 16,
+          "intervals": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "measured_ratios": [
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "start_sample": 1348,
+          "unit_samples": 16,
+          "intervals": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "measured_ratios": [
+            4.0,
+            6.0,
+            8.0,
+            10.0,
+            12.0,
+            14.0
+          ]
+        }
+      ]
+    }
+  },
+  "noise_trials": [
+    {
+      "seed": 0,
+      "delay_samples": 7,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 1,
+      "delay_samples": 10,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 2,
+      "delay_samples": 13,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 3,
+      "delay_samples": 16,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 4,
+      "delay_samples": 19,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 5,
+      "delay_samples": 22,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 6,
+      "delay_samples": 25,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 7,
+      "delay_samples": 28,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 8,
+      "delay_samples": 31,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 9,
+      "delay_samples": 34,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 10,
+      "delay_samples": 37,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 11,
+      "delay_samples": 40,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 12,
+      "delay_samples": 43,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 13,
+      "delay_samples": 46,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 14,
+      "delay_samples": 49,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 15,
+      "delay_samples": 52,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 16,
+      "delay_samples": 55,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 17,
+      "delay_samples": 58,
+      "gain": 4.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 18,
+      "delay_samples": 61,
+      "gain": 0.25,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    },
+    {
+      "seed": 19,
+      "delay_samples": 64,
+      "gain": 1.0,
+      "noise_sigma_before_gain": 0.04,
+      "recovered": [
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ],
+        [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      ],
+      "exact_two_packet_recovery": true
+    }
+  ],
+  "noise_trials_recovered": 20,
+  "noise_trials_total": 20,
+  "independent_exact_stencil_checks": 13
+}

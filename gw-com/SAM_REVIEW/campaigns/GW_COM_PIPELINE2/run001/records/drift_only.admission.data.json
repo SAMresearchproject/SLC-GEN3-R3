@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.controls.json",
+    "sha256": "39de097c9f74a154a67d3dd8f4b9b244f0e64a94c7e66afb2e15cff6f94f4d42"
+  },
+  "criteria": "CONTRACT.json via method_ref",
+  "dispositions": {
+    "physical_controls": "PASS",
+    "statistical_controls": "FAIL"
+  },
+  "eligible": false,
+  "lineage": {
+    "candidate_symbolization": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.symbols2.json",
+      "sha256": "7c5a1522e821f3671368cd7dbfe5fbdc2c9b7cfcc017084b9cfa81a44eccd332"
+    },
+    "information_tests": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.information.json",
+      "sha256": "b84013af6353d7f51456051150e2c33c00ed56c08f8d58fea52961c2583dce38"
+    },
+    "raw_waveform": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.raw.json",
+      "sha256": "aeb594c3cc3156ffabda6abaf6254601efa5d1c0ae29a59c81990fe196d11583"
+    },
+    "residual_history": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.residual2.json",
+      "sha256": "ad5a7dd4f2ba6ce2cfb6a2db298c37b9ffd3ace757f217dd7389c83e721f3a1f"
+    },
+    "source_fit": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.fit2.json",
+      "sha256": "a3c81be7b9d3a8c92e603b3992510c061f638ad648424cd56a4bf92a4649fd09"
+    }
+  }
+}

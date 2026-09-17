@@ -1,0 +1,47 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.information.data.json",
+      "sha256": "96d0ad9a8fdfbebb2c9e48da13c49dc0aca0f64602cf165b04960c3efcc1d9b5"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:52:05.159187+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5f48adfb4437446a8752173d314fb5dd/RECEIPT.json",
+      "sha256": "d99a0dc45f08816599e82e075a852a2dd0b6b791f0225a95de01b2c6e2515fd2"
+    }
+  ],
+  "kind": "information_tests",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.symbols2.json",
+      "sha256": "9163a58e5c2a34863f33bd64bede21fced5df4471cb64da23791f269005554ca"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.residual2.json",
+      "sha256": "3fcf85706205fa7ce20286f39d6aec3babace8e76f66d961cc1a710f1d9f8c3b"
+    }
+  ],
+  "record_id": "continuous_unmodulated.information",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

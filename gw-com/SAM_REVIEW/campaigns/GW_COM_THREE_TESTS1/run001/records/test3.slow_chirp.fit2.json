@@ -1,0 +1,78 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.fit2.data.json",
+      "sha256": "cb5595b4e92a6976fc9f48b9a906453a7bc468490c080639778a50daafb847aa"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:36:25.477475+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/6b0b786044b74de0acdb58818687c30b/RECEIPT.json",
+      "sha256": "4843b52366aac6f6af50393053280a0b71545bcccdc6eaab0652bdff1a4f2aa7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/a4503a372fa24f5fa6c5eb471f06f742/RECEIPT.json",
+      "sha256": "fe4798970d3fbbe979dc154379fa7d5ece2d0de6c1123b055fb651c4f59aa2e3"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/883afec805214df88cdd7f340d739409/RECEIPT.json",
+      "sha256": "3112690ffb904eb26e487aa35f142c9c5f45ba6b199176ed824138a204415813"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/230082ac2eb74280acc648ace9ea7fa5/RECEIPT.json",
+      "sha256": "91fa014d5321ea657c8ae9cbf2fd810bcad9b0e93804ec436a729d79b499a1ed"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/1b500fdcf1bf4c94914087559bb8bc01/RECEIPT.json",
+      "sha256": "ce30c61db0b4520e8d88e23e1a5a542623917f95e412d1793044d21c22501cf0"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/1996c7eee7a640c1aa7a761dc6db8de4/RECEIPT.json",
+      "sha256": "d5d896a6fed7995368c36834cd7565b5e6ced596f7fa11e1f2289cb289eeb793"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/0f0239c5c32e4da9a1ea345341b7b98d/RECEIPT.json",
+      "sha256": "111eb48e697cfdc6f537a90d88ea0ca8f5562916ebde626d8b65b2618980af5f"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/f188dcf91d2941809ea94153f6267386/RECEIPT.json",
+      "sha256": "62291ed0697047eda5b731e89b7a79f49370ed29af06fd52ce6a0b23d86f06cb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/fe4ce06302cf4bd28a5451f74769c665/RECEIPT.json",
+      "sha256": "68c7a545eacecebcc0fac37d9dc05f1656a7d6633bc12c30dab20a3c9111a1cd"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/76980c33be2a4be7a0c0ed1896003d4a/RECEIPT.json",
+      "sha256": "2b95a98d73f4a9efeeb1fe47ec0187b56289d91b92ca92fe1490118f4cd181e2"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/52e44bc214b343cb9cdfee6403de26aa/RECEIPT.json",
+      "sha256": "96e8439e34107fec0f266e9353e2ceb29f774e6a19a9dbff04158f185a1bcd98"
+    }
+  ],
+  "kind": "source_fit",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.raw.json",
+      "sha256": "5daa24f683fefef9013d9ef4a88dcd264556ac3ea1bfdf775555da4cae364a97"
+    }
+  ],
+  "record_id": "test3.slow_chirp.fit2",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

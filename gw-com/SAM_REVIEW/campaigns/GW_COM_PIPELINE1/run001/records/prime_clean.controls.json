@@ -1,0 +1,55 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.controls.data.json",
+      "sha256": "b874c1ff37aa2cf75721403101ee499322db394011334e6d71383bb8ff8f2e3b"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001",
+  "created_utc": "2026-09-17T15:17:25.865615+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/prime_clean.control_evidence.json",
+      "sha256": "38b2ebcc33c52ba51a8de94be86cc40e6951dfdbf3b485d78a3225e670922d33"
+    }
+  ],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.raw.json",
+      "sha256": "ac7a32ff4b24a6f44271a2ce503ee1bb1b2a75d9d7774ca51057b755bbf50444"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.fit0.json",
+      "sha256": "256d92cf59dc123f47b2d74e4438d15933e54712a40f78b1d604a07998f87cc0"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.residual0.json",
+      "sha256": "44713253cc73a9b3361a8c04fce15871ab2fe318419ecc0c7c63664eca7a4f60"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.symbols0.json",
+      "sha256": "91b0e90dddae1a97f373f7c1d58f044fe1b18d93b3270edb4a0d1fe8c7b031fe"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.information.json",
+      "sha256": "3b804c9812ec622cb6cbb58a649712a6e196420c0dc2209ee961c5ceb608dbdc"
+    }
+  ],
+  "record_id": "prime_clean.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

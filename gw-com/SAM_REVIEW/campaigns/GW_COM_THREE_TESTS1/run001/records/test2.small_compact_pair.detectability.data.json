@@ -1,0 +1,44 @@
+{
+  "GW_frequency_Hz": 104.01907332669755,
+  "baseline_radiated_energy_over_binding": 9.479631672299294e-19,
+  "circular_GW_power_W": 3356443399.401045,
+  "circular_merger_time_s": 4.9712591617000186e+17,
+  "distances": [
+    {
+      "distance_over_wavelength": 10706384168.333458,
+      "distance_pc": 1,
+      "h_carrier": 1.4297762455397584e-32,
+      "h_modulation_peak_plus": 5.638916383267885e-33,
+      "h_modulation_rms_plus": 6.675870715709596e-34,
+      "rho_carrier_hann": 2.9884472256434744e-09,
+      "rho_known_modulation": 3.7954396520811616e-10
+    },
+    {
+      "distance_over_wavelength": 10706384168333.457,
+      "distance_pc": 1000,
+      "h_carrier": 1.4297762455397586e-35,
+      "h_modulation_peak_plus": 5.638916383267886e-36,
+      "h_modulation_rms_plus": 6.675870715709597e-37,
+      "rho_carrier_hann": 2.9884472256434745e-12,
+      "rho_known_modulation": 3.7954396520811615e-13
+    },
+    {
+      "distance_over_wavelength": 1.0706384168333458e+16,
+      "distance_pc": 1000000,
+      "h_carrier": 1.4297762455397584e-38,
+      "h_modulation_peak_plus": 5.638916383267885e-39,
+      "h_modulation_rms_plus": 6.675870715709596e-40,
+      "rho_carrier_hann": 2.9884472256434746e-15,
+      "rho_known_modulation": 3.7954396520811613e-16
+    }
+  ],
+  "duration_s": 1.8850282320183815,
+  "mass_each_kg": 1e+20,
+  "omega_rad_s": 326.785556596371,
+  "positive_work_22markers_J": 3.6202556479779413e+28,
+  "positive_work_marker_J": 1.6455707490808824e+27,
+  "radius_each_m": 25,
+  "rho8_reference_distance_pc": 4.744299565101452e-11,
+  "sampled_peak_force_N": 1.8065644204152248e+26,
+  "v_over_c": 2.7250982127473252e-05
+}

@@ -1,0 +1,335 @@
+{
+  "cases": {
+    "alternate_clean": {
+      "adequate_models": [
+        "C4_amplitude",
+        "C4_amplitude_offset",
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/alternate_clean.admission.json",
+        "sha256": "2df0022dee983ce67fe6b0412b8fe9cec886e1bd99a11eb18cbdb0ebf6bba394"
+      },
+      "admitted": true,
+      "decoded_hypothesis": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/alternate_clean.decoded.json",
+        "sha256": "e7002c8bd4e15ddd84e6eb85b442c891e6e0789a9e5ad9b27f74fe61a368b4e0"
+      },
+      "permutation_p": "1/100",
+      "post_decode_evaluation": {
+        "exact_message_present": true,
+        "expected_message": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14
+        ]
+      },
+      "repeat_count": 2,
+      "selected_carrier": "C4_amplitude"
+    },
+    "drift_only": {
+      "adequate_models": [
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.admission.json",
+        "sha256": "72dc5baa0f51a26c394d9090cff9f623736235de49bd363d3d58c50abc58e4fb"
+      },
+      "admitted": false,
+      "decoded_hypothesis": null,
+      "permutation_p": "1",
+      "post_decode_evaluation": null,
+      "repeat_count": 0,
+      "selected_carrier": "C4_amplitude_offset_drift"
+    },
+    "prime_clean": {
+      "adequate_models": [
+        "C4_amplitude",
+        "C4_amplitude_offset",
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.admission.json",
+        "sha256": "517e4613981517e7982346ad0ff0c2a2c6fc7ed5f5c3ebbf56f0d6a5eaa7b5b3"
+      },
+      "admitted": true,
+      "decoded_hypothesis": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_clean.decoded.json",
+        "sha256": "084b45843dd3bfcd7d8e95ea8d703341a1bf954b6faed846cc2e621416ce02fa"
+      },
+      "permutation_p": "1/100",
+      "post_decode_evaluation": {
+        "exact_message_present": true,
+        "expected_message": [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      },
+      "repeat_count": 2,
+      "selected_carrier": "C4_amplitude"
+    },
+    "prime_noisy": {
+      "adequate_models": [
+        "C4_amplitude_offset",
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.admission.json",
+        "sha256": "c3b65820c9b71efbe5776a6396046c7c3141b0b13e4bf2af3d07c9954ed8a5ae"
+      },
+      "admitted": true,
+      "decoded_hypothesis": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.decoded.json",
+        "sha256": "31d284c7bcc0090ab8f403503015b759e487064f8e76a52eec868a640cecf776"
+      },
+      "permutation_p": "1/100",
+      "post_decode_evaluation": {
+        "exact_message_present": true,
+        "expected_message": [
+          2,
+          5,
+          7,
+          11,
+          13,
+          17
+        ]
+      },
+      "repeat_count": 2,
+      "selected_carrier": "C4_amplitude_offset"
+    },
+    "unmodulated_clean": {
+      "adequate_models": [
+        "C4_amplitude",
+        "C4_amplitude_offset",
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.admission.json",
+        "sha256": "38b222753e736cf4eaf10fb5d69ed0d74118e3ebc4053889e33d0d70721894d2"
+      },
+      "admitted": false,
+      "decoded_hypothesis": null,
+      "permutation_p": "1",
+      "post_decode_evaluation": null,
+      "repeat_count": 0,
+      "selected_carrier": "C4_amplitude"
+    },
+    "unmodulated_noisy": {
+      "adequate_models": [
+        "C4_amplitude",
+        "C4_amplitude_offset",
+        "C4_amplitude_offset_drift"
+      ],
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_noisy.admission.json",
+        "sha256": "aed3800020c4d0b5d30f96ff56295527ea90780755008ab059f48f443b42e0ee"
+      },
+      "admitted": false,
+      "decoded_hypothesis": null,
+      "permutation_p": "1",
+      "post_decode_evaluation": null,
+      "repeat_count": 0,
+      "selected_carrier": "C4_amplitude"
+    }
+  },
+  "independent_checks": "every native source stencil and every prediction/residual sample checked exactly",
+  "native_call_count": 37,
+  "native_calls": [
+    {
+      "nodes": 274,
+      "purpose": "GW-COM H000733 source: exact antipodal quadrupole projection and second difference for each distinct prescribed orbit stencil",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/93f1c2fa1fc048fc870093359cf2f60c/RECEIPT.json"
+    },
+    {
+      "nodes": 17579,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/5fc02081bae2488c9583c782ffa8f095/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/606421e740cf44079c18cb5d9fcbda2c/RECEIPT.json"
+    },
+    {
+      "nodes": 15067,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/fb48d9f806a14a8fba9a3a2e4800e9f5/RECEIPT.json"
+    },
+    {
+      "nodes": 22601,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/9066b3e11ecc46978ad890d682365de6/RECEIPT.json"
+    },
+    {
+      "nodes": 30135,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/8c59511987bc4afb8c5ca8eb47ad80e1/RECEIPT.json"
+    },
+    {
+      "nodes": 21,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/3e4edb86a6804affb0a18e1e97a23475/RECEIPT.json"
+    },
+    {
+      "nodes": 17579,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/539fb55cd35c40db991c3ef487b3728d/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/1fe61ec309764987a5cc6a4eb8db9c98/RECEIPT.json"
+    },
+    {
+      "nodes": 15067,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/8502c291b0fc46c9abe8ca0d0fbcbb8e/RECEIPT.json"
+    },
+    {
+      "nodes": 22601,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/b60aa67d7c634aef875c9909bb4a1696/RECEIPT.json"
+    },
+    {
+      "nodes": 30135,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/6291281e1b274814a76deeeb165ca5e7/RECEIPT.json"
+    },
+    {
+      "nodes": 21,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/ae78e84676214cc8ad54f349fdcb5eb6/RECEIPT.json"
+    },
+    {
+      "nodes": 17355,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/9eb8493755f1483bb4d5d65268352501/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/3cb27a2453de429c933a457304d11d4e/RECEIPT.json"
+    },
+    {
+      "nodes": 14875,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/e1a0d15ef5644d5d92c575377420e34e/RECEIPT.json"
+    },
+    {
+      "nodes": 22313,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/b597498b3a294d4284325d983b72b890/RECEIPT.json"
+    },
+    {
+      "nodes": 29751,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/69c9e93ff63d41649691b2bbe9d3dc88/RECEIPT.json"
+    },
+    {
+      "nodes": 21,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/5cf990e8d3dc41a4ba2f76ead5a7d8e5/RECEIPT.json"
+    },
+    {
+      "nodes": 17579,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/57a5a1a5299146bea59ce91bd4e0741e/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/1f6a820ba90e432f8ba3fb21f1f55969/RECEIPT.json"
+    },
+    {
+      "nodes": 15067,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/4e40ec2b80d54c6597e8a74b91c23f37/RECEIPT.json"
+    },
+    {
+      "nodes": 22601,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/8c9d9020e7ea462896d5ff3627a0ae2c/RECEIPT.json"
+    },
+    {
+      "nodes": 30135,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/be2005a4e0344582bc2e3cb8eeae1dac/RECEIPT.json"
+    },
+    {
+      "nodes": 3,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/8f9625d921914cd195a21ce23f914142/RECEIPT.json"
+    },
+    {
+      "nodes": 17579,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/0291cdf41f374fcdbca49cb44b493989/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/c98306448a914fa183090d9aa7f365c4/RECEIPT.json"
+    },
+    {
+      "nodes": 15067,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/64d93285559342e79cb81011658623e2/RECEIPT.json"
+    },
+    {
+      "nodes": 22601,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/d65fc288fcb3408683b4050d66192993/RECEIPT.json"
+    },
+    {
+      "nodes": 30135,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/e6a51566491f4ae2aebb0a1d80c7184f/RECEIPT.json"
+    },
+    {
+      "nodes": 3,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/5a69514173a84f859320740d2be412d3/RECEIPT.json"
+    },
+    {
+      "nodes": 17579,
+      "purpose": "GW-COM readout: exact signed source gain, carrier drift, DC offset and bounded sampled noise",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/54f6dddfd99d495baee6300093b4b067/RECEIPT.json"
+    },
+    {
+      "nodes": 2532,
+      "purpose": "GW-COM carrier fitting: calibration-only exact least squares for amplitude, offset and linear amplitude drift; retain all models",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/83833a8696cd4eb4b570bc5bafab1ff9/RECEIPT.json"
+    },
+    {
+      "nodes": 15067,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/4d9f46f9f6834a338454bdcee5583a7b/RECEIPT.json"
+    },
+    {
+      "nodes": 22601,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/f00b15e54dcc4218af5efdb7ff4dd299/RECEIPT.json"
+    },
+    {
+      "nodes": 30135,
+      "purpose": "GW-COM signed residual: raw minus C4_amplitude_offset_drift prediction, preserving every sample and alternative",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/2aefd9ffc9ac4cf3a66ab59a222a6e53/RECEIPT.json"
+    },
+    {
+      "nodes": 3,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/6fd2a96c1c7c4b7696d7956ad6931fa6/RECEIPT.json"
+    }
+  ],
+  "native_nodes": 526742,
+  "scope": "Dimensionless C4 five-layer execution; no physical astrophysical inference",
+  "session": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce",
+  "unmodulated_controls_clear": true
+}

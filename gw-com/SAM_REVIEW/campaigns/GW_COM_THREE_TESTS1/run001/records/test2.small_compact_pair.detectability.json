@@ -1,0 +1,42 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test2.small_compact_pair.detectability.data.json",
+      "sha256": "624b85ffbb11958367f6bae5a9a573f736d3c8c951bc145953f6dc182b34dde0"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:35:53.187041+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/98b828dbfc6e43e89e438b4e256fa26a/RECEIPT.json",
+      "sha256": "7bc4b3d86f599a311d093d652d75d3604f65cfc5ae07ca1ec03ff779ed0faa40"
+    }
+  ],
+  "kind": "detectability",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test2.scaling.json",
+      "sha256": "fc669c9bb567bc87082ae15f8cde9255b83e7c563be7e9f3a6145e5459228dab"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test2.small_compact_pair.spectral_inputs.json",
+      "sha256": "889ca39484fe91571c3da62bef91ddc8097c89ff538d12a2cb7c9ec34c2f0800"
+    }
+  ],
+  "record_id": "test2.small_compact_pair.detectability",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

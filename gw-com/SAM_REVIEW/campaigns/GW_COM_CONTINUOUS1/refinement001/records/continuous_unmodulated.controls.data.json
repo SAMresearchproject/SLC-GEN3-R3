@@ -1,0 +1,60 @@
+{
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.fit2.json",
+        "sha256": "d22bab4536fc32320357a1833533ee1719db604683e5421ce33f69defb8acdcb"
+      },
+      "name": "quiet_fit",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.symbols2.json",
+          "sha256": "9163a58e5c2a34863f33bd64bede21fced5df4471cb64da23791f269005554ca"
+        },
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.symbols4.json",
+          "sha256": "05c790a861cfb772a3571f017160ea1b1fe96a0459b67ffead3cf41cd02dfc72"
+        }
+      ],
+      "name": "fit_alternatives",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.information.json",
+        "sha256": "119b7b18542b992619edeb0975c8c3420f8901d1ed92998c13cd21e0647e321d"
+      },
+      "name": "unmodulated",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_unmodulated.dynamics.json",
+        "sha256": "70195dcafb76980a90a4cae061e7d9ac3dc090d907f77f1a0337cb92e0c7677a"
+      },
+      "name": "integrated_dynamics",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/reference_mechanics.json",
+        "sha256": "24e036dadb8d99e90d1385b53c4a1c708f1f89c7e19a640e3a423e3da22e4ada"
+      },
+      "name": "power_identity",
+      "status": "PASS"
+    }
+  ],
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.information.json",
+        "sha256": "119b7b18542b992619edeb0975c8c3420f8901d1ed92998c13cd21e0647e321d"
+      },
+      "name": "repetition_and_permutation",
+      "status": "FAIL"
+    }
+  ]
+}

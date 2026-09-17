@@ -1,0 +1,258 @@
+{
+  "schema": "GW_COM_PROGRAM_V1",
+  "branch": "gw-com",
+  "status": "THREE_FOLLOWUP_TESTS_COMPLETE",
+  "originator": "Sean Brady",
+  "evidence_chain": [
+    "raw_waveform",
+    "source_fit",
+    "residual_history",
+    "candidate_symbolization",
+    "decoded_hypothesis"
+  ],
+  "retain_alternatives": true,
+  "retain_signed_time_ordered_samples": true,
+  "aggregate_score_replaces_evidence": false,
+  "layers": [
+    {
+      "order": 1,
+      "name": "GW carrier model",
+      "directory": "01_carrier",
+      "contract": "01_carrier/README.md",
+      "coverage": [
+        "binary_orbital_source",
+        "phase_evolution",
+        "amplitude",
+        "polarization",
+        "chirp",
+        "precession"
+      ],
+      "implementation_status": "C4_CARRIER_FITS_IMPLEMENTED",
+      "runtime": "runtime/carrier.py"
+    },
+    {
+      "order": 2,
+      "name": "Intentional modulation model",
+      "directory": "02_modulation",
+      "contract": "02_modulation/README.md",
+      "coverage": [
+        "phase",
+        "frequency",
+        "amplitude",
+        "timing",
+        "polarization",
+        "pulse_trains"
+      ],
+      "implementation_status": "C4_INTERVAL_MODULATION_IMPLEMENTED",
+      "runtime": "runtime/modulation.py"
+    },
+    {
+      "order": 3,
+      "name": "Residual extractor",
+      "directory": "03_residual",
+      "contract": "03_residual/README.md",
+      "coverage": [
+        "source_subtraction",
+        "signed_samples",
+        "time_order",
+        "fit_alternatives"
+      ],
+      "implementation_status": "SIGNED_RESIDUALS_IMPLEMENTED",
+      "runtime": "runtime/residual.py"
+    },
+    {
+      "order": 4,
+      "name": "Information tests",
+      "directory": "04_information",
+      "contract": "04_information/README.md",
+      "coverage": [
+        "periodicity",
+        "entropy",
+        "compression",
+        "symbol_alphabets",
+        "repetition",
+        "synchronization",
+        "error_correcting_structure",
+        "physical_controls",
+        "statistical_controls"
+      ],
+      "implementation_status": "C4_INFORMATION_TESTS_IMPLEMENTED_CODE_SEARCH_PENDING",
+      "runtime": "runtime/information.py"
+    },
+    {
+      "order": 5,
+      "name": "Decoder",
+      "directory": "05_decoder",
+      "contract": "05_decoder/README.md",
+      "coverage": [
+        "control_admission",
+        "hypothesis_alternatives",
+        "symbol_to_sample_mapping"
+      ],
+      "implementation_status": "C4_CANDIDATE_GATE_AND_DECODER_IMPLEMENTED",
+      "runtime": "runtime/decoder.py"
+    }
+  ],
+  "decoder_admission_contract": {
+    "contract": "EVIDENCE_CONTRACT.md",
+    "required_dispositions": {
+      "physical_controls": "PASS",
+      "statistical_controls": "PASS"
+    },
+    "require_complete_matching_lineage": true,
+    "empty_control_set_passes": false,
+    "runtime_implemented": true,
+    "scope": "Declared C4 and continuous-reference contracts; independent integration refinement retained separately"
+  },
+  "demonstrations": [
+    {
+      "id": "GW_COM_INTERVAL1",
+      "kind": "CONTROLLED_DEMONSTRATION",
+      "message": [
+        2,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "raw_waveform": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/release/prime_receiver_input.json",
+        "sha256": "36d422cf76b5161708c0fef87ed8826612f2695a9918e6bf6edee2aaa593f7d8"
+      },
+      "signed_source_waveform": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/release/source_wave.csv",
+        "sha256": "3fe0d4e818498830a853f9268714c17038a9bdb60013c12f0f9c39356f1b3b76"
+      },
+      "transmitter_truth": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/release/transmitter.json",
+        "sha256": "edbcb64e326152f16bb738fd7d062e5d71089355fae298e9eeb03b146b7d577e"
+      },
+      "source_fit": null,
+      "residual_history": null,
+      "candidate_symbolization": null,
+      "candidate_information_tests": null,
+      "decoded_hypothesis": null,
+      "demo_result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/release/RESULT.json",
+        "sha256": "a2b9c6a84916429b6906893724eaaea6d0db0565c27c8682d7012ba789032588"
+      },
+      "native_calculation_receipt": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/sessions/STARBREAKER_dfc32b1af0ab4b7eb5b18c2aee83ba9c/calls/41423cdca70944f8b60d63d98f1a71c6/RECEIPT.json",
+        "sha256": "ddc88d4a9a4b20985607d4c2ece3f09ff864ffa3c77a4c7d00b2f96ab3b9c5c6"
+      },
+      "prior_artifact_manifest": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_INTERVAL1/release/MANIFEST.json",
+        "sha256": "bcea80632cef3a80391e7f34b013684f5225ee37a4c359cb9a687aa2bbe3cd40"
+      },
+      "candidate_admission": {
+        "physical_controls": "NOT_RUN",
+        "statistical_controls": "NOT_RUN",
+        "eligible": false,
+        "reason": "The preserved demonstration predates and does not implement carrier fitting, signed residual extraction or the new candidate-control contract."
+      }
+    }
+  ],
+  "pipeline_runs": [
+    {
+      "id": "GW_COM_PIPELINE1_RUN001",
+      "kind": "DIMENSIONLESS_C4_FIVE_LAYER_RUN",
+      "result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/RUN_RESULT.json",
+        "sha256": "0589df04fc3654e4db04acef02fa838ff2cfdf66bffe5052fefc88de562b57fd"
+      },
+      "validation": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/VALIDATION.json",
+        "sha256": "3670b487bfc623bcd18f6df77d37047c1f1d8f30c09672cb566b27fde9c59ea3"
+      },
+      "gate_validation": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/gate_verification/VALIDATION.json",
+        "sha256": "6f11f261c494dfe3b38fbab2aa2b6d6b247cfb4e861efdd1689f08b0787eb483"
+      },
+      "cases": 6,
+      "admitted": 3,
+      "blocked": 3,
+      "native_calls": 37,
+      "native_nodes": 526742,
+      "scope": "Prescribed sampled C4 motion, known quiet calibration/validation and known framing; no calibrated physical detector."
+    },
+    {
+      "id": "GW_COM_PIPELINE2_RUN001",
+      "kind": "CORRECTED_SEVEN_INTERVAL_C4",
+      "result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/RUN_RESULT.json",
+        "sha256": "8e88fec0fd1a463d98c904e1302d7ea148215686a2e812b792842f1c0134a5ab"
+      },
+      "validation": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/VALIDATION.json",
+        "sha256": "06affe4396bbcd2b4434137d5d4e1f1386468eef6a309e7d185d004af8964261"
+      },
+      "cases": 6,
+      "admitted": 3,
+      "blocked": 3,
+      "native_calls": 37,
+      "native_nodes": 560479
+    },
+    {
+      "id": "GW_COM_CONTINUOUS1_RUN001_REFINEMENT001",
+      "kind": "CONTINUOUS_CONTROLLED_REFERENCE_WITH_INDEPENDENT_INTEGRATION",
+      "original_result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/RUN_RESULT.json",
+        "sha256": "2174b755a59befbd5b996f0fc0039b0270cfc246a65707cedb2be27eec6e0303"
+      },
+      "result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/RESULT.json",
+        "sha256": "8f2585634c5fbc565ea0376ba834ef165eb21dd26c9557f61221d6bee7ace489"
+      },
+      "validation": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/VALIDATION.json",
+        "sha256": "5c4c65a0699afc71ab6de26b3ed03874a3d72e2ddb8db35555b88fa0ef4e52e8"
+      },
+      "report": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/REPORT.md",
+      "cases": 2,
+      "admitted": 1,
+      "blocked": 1,
+      "native_calls": 68,
+      "native_nodes": 662145,
+      "refinement_native_calls": 0,
+      "scope": "Clean dimensionless two-channel analytic reference; independent controlled Newtonian RK4 and mechanical work; SI scale and radiation reaction unassigned"
+    },
+    {
+      "id": "GW_COM_THREE_TESTS1_RUN001",
+      "kind": "EXACTLY_THREE_FIXED_EXPERIMENTS",
+      "scientific_tests": 3,
+      "result": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/RUN_RESULT.json",
+        "sha256": "604700fbe90089366edf93ffd89f0d729f934969059e8c4095c259e0ec60e9de"
+      },
+      "validation": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/VALIDATION.json",
+        "sha256": "03c7f9c455561725ed52f4955e47489a4a183a8c51595138e3228a8dca623776"
+      },
+      "report": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/REPORT.md",
+        "sha256": "7fa605b05fd4e0496efa34d040f6bc5bfde3b25246aa9711777595c6606135d3"
+      },
+      "native_calls": 466,
+      "native_nodes": 4506394,
+      "noise_injections": 6,
+      "noise_exact_recoveries": 4,
+      "matched_noise_nulls": 6,
+      "matched_noise_null_statistical_false_positives": 0,
+      "physical_scalings": 2,
+      "natural_nuisances": 2,
+      "natural_statistical_false_positives": 0,
+      "scope": "Fixed two-channel Gaussian sweep; ideal single-detector dimensional known-template SNR; two unmodulated phenomenological nuisances. No additional tests authorized by this result."
+    }
+  ],
+  "current_payload": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "continuous_runtime": "runtime/continuous.py"
+}

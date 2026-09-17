@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_prime.controls.json",
+    "sha256": "60c8881eeed8a9cf4b35d3bf578003592aeb4a9417dbfc9fb3842b800aeb5feb"
+  },
+  "criteria": "CONTRACT.json via method_ref",
+  "dispositions": {
+    "physical_controls": "PASS",
+    "statistical_controls": "PASS"
+  },
+  "eligible": true,
+  "lineage": {
+    "candidate_symbolization": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.symbols2.json",
+      "sha256": "d924a6b368e691566f1416babb36e5d599dff5a6101992c25a0410d799eebbaf"
+    },
+    "information_tests": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.information.json",
+      "sha256": "0935e88c4501217f5709e454b845b95a7a1b2d6dc3ad47296ed18c699a6c031a"
+    },
+    "raw_waveform": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.raw.json",
+      "sha256": "cc9a727a82bfd112920e94f2ebbd364f91580fb29774a9c51828fb65b5256519"
+    },
+    "residual_history": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.residual2.json",
+      "sha256": "4ba56bed871821a2bd3d644252c5d965d65e987eee2f568068301c22c23f61de"
+    },
+    "source_fit": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.fit2.json",
+      "sha256": "01b7d11449135db27d1e98a3792b466e250edbc3ba016f2353481d9c18176c4d"
+    }
+  }
+}

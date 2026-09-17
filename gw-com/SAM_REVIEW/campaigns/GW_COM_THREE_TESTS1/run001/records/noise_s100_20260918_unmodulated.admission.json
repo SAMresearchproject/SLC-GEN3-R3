@@ -1,0 +1,53 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.admission.data.json",
+      "sha256": "202a441fdc3a41e91d0da9af76b9d94d030e5e61a5e59289e6ccc6d7ed0a73db"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:20:40.745576+00:00",
+  "execution_refs": [],
+  "kind": "decoder_admission",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.raw.json",
+      "sha256": "900c18e0d7759f8f87b32806ff1e68f4e0839b47461340950a6746f45583f29c"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.fit2.json",
+      "sha256": "a84ec4091a773e9989c7308741c76c15a751224e4704ae58c097a14f42cbe11b"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.residual2.json",
+      "sha256": "9fa97a38329f70c88e7cea5a3c452376287ab24d057bc3928e748ace1435c986"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.symbols2.json",
+      "sha256": "acc369706abbdad1bf68a6f98427c3596980a7c50884c0fe4bab2601441f49e0"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.information.json",
+      "sha256": "bff42ffe6a81580f9d19b77a6a132829004752fdd8ff81ea063731e2c959c213"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.controls.json",
+      "sha256": "88ae9b3b66df33e51cba78c9f1ef384a6f2d9c23850719965de28b9c47ce369e"
+    }
+  ],
+  "record_id": "noise_s100_20260918_unmodulated.admission",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

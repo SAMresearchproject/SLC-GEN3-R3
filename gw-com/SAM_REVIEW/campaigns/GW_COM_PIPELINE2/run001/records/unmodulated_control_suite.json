@@ -1,0 +1,42 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_control_suite.data.json",
+      "sha256": "80ed915d0d8be2047ca56bb7e09c62fede279c04f5b092304637acb8379e2db2"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001",
+  "created_utc": "2026-09-17T15:44:46.153458+00:00",
+  "execution_refs": [],
+  "kind": "control_suite",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/METHOD.json",
+    "sha256": "41572eb977c506d7bac3821dd990caa0c023a2b1e65225ffb9b9b6d31b70ea92"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.information.json",
+      "sha256": "b5dc4c088f66c7a461ddcb02d9c5bb1e005a36e7c693d7b174f8c2198e360bab"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_noisy.information.json",
+      "sha256": "c1798062862e15ccb3d9c5d28f85f3d3cd75b9081a00444e076c7f6f3f92a7d7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.information.json",
+      "sha256": "b84013af6353d7f51456051150e2c33c00ed56c08f8d58fea52961c2583dce38"
+    }
+  ],
+  "record_id": "unmodulated_control_suite",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

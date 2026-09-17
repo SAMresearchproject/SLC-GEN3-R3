@@ -1,0 +1,14 @@
+{
+  "cases_rechecked": [
+    "alternate_clean",
+    "drift_only",
+    "prime_clean",
+    "prime_noisy",
+    "unmodulated_clean",
+    "unmodulated_noisy"
+  ],
+  "change": "Explicit rejection of incomplete stage records and missing individual control evidence; saved numerical outcomes unchanged.",
+  "gate_tests": 9,
+  "new_native_computation": false,
+  "status": "PASS"
+}

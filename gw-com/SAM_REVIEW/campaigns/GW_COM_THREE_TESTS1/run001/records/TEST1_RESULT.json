@@ -1,0 +1,314 @@
+{
+  "noise_s100_20260917_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.admission.json",
+      "sha256": "3b90bc09bff4303cf2ae715ae020b9cda14159a4ebe11b6183dc2eb8da5fd67c"
+    },
+    "admitted": true,
+    "carrier_rms_snr": 565.685424949238,
+    "decoded": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.decoded.json",
+      "sha256": "a38063781b7cd3cd5789c0354e119a82eb959ea4b53c29c33da9559f90ab0eba"
+    },
+    "exact_payload": true,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.028279621322662353,
+      0.02802113783993903
+    ],
+    "kind": "prime",
+    "markers": 22,
+    "modulation_rms_snr": 37.63495997002341,
+    "optimal_two_channel_modulation_snr": 3736.67963697136,
+    "p": "1/100",
+    "repeats": 2,
+    "seed": 20260917,
+    "sigma": 0.01,
+    "statistical_pass": true
+  },
+  "noise_s100_20260917_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.admission.json",
+      "sha256": "2dc8a2fcd00d285eddd658a98a2b2ccafe830ce3cf26fe7176a4bf6fab46b4a7"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 565.685424949238,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.028279621322662353,
+      0.02802113783993903
+    ],
+    "kind": "unmodulated",
+    "markers": 0,
+    "modulation_rms_snr": 37.63495997002341,
+    "optimal_two_channel_modulation_snr": 3736.67963697136,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260917,
+    "sigma": 0.01,
+    "statistical_pass": false
+  },
+  "noise_s100_20260918_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_prime.admission.json",
+      "sha256": "03e7c83ff17bf5e4415af72e60e03c0df28f76842b49740ca16d0be0521de166"
+    },
+    "admitted": true,
+    "carrier_rms_snr": 565.685424949238,
+    "decoded": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_prime.decoded.json",
+      "sha256": "1867e3d9160fb9f91facc255fd6c8086bb6344920ccecceb096c1d8deda020fa"
+    },
+    "exact_payload": true,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.025357712279341825,
+      0.02493566225094502
+    ],
+    "kind": "prime",
+    "markers": 22,
+    "modulation_rms_snr": 37.63495997002341,
+    "optimal_two_channel_modulation_snr": 3736.67963697136,
+    "p": "1/100",
+    "repeats": 2,
+    "seed": 20260918,
+    "sigma": 0.01,
+    "statistical_pass": true
+  },
+  "noise_s100_20260918_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.admission.json",
+      "sha256": "9127fb003972cf2dde0c02adf2b2a6b8e30296a6bb0e0491c596edfed22a55b2"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 565.685424949238,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.025357712279341825,
+      0.02493566225094502
+    ],
+    "kind": "unmodulated",
+    "markers": 0,
+    "modulation_rms_snr": 37.63495997002341,
+    "optimal_two_channel_modulation_snr": 3736.67963697136,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260918,
+    "sigma": 0.01,
+    "statistical_pass": false
+  },
+  "noise_s20_20260917_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260917_prime.admission.json",
+      "sha256": "59a30fbc2c0c0b00cf35cb7ee1b614209d9ad489f1342655c5b9826a2c43caf7"
+    },
+    "admitted": true,
+    "carrier_rms_snr": 113.13708498984761,
+    "decoded": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260917_prime.decoded.json",
+      "sha256": "d53173bc7cee95cc1c4220fcbb36236adb6afd45d5d02188cfbe56704437f0ed"
+    },
+    "exact_payload": true,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.14139810661331176,
+      0.14010568919969515
+    ],
+    "kind": "prime",
+    "markers": 22,
+    "modulation_rms_snr": 7.526991994004682,
+    "optimal_two_channel_modulation_snr": 747.3359273942721,
+    "p": "1/100",
+    "repeats": 2,
+    "seed": 20260917,
+    "sigma": 0.05,
+    "statistical_pass": true
+  },
+  "noise_s20_20260917_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260917_unmodulated.admission.json",
+      "sha256": "28f5bb7aefcd5c216a325c425c6852161d1183a24bab6350a0a0e09ae71eb4f1"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 113.13708498984761,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.14139810661331176,
+      0.14010568919969515
+    ],
+    "kind": "unmodulated",
+    "markers": 0,
+    "modulation_rms_snr": 7.526991994004682,
+    "optimal_two_channel_modulation_snr": 747.3359273942721,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260917,
+    "sigma": 0.05,
+    "statistical_pass": false
+  },
+  "noise_s20_20260918_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260918_prime.admission.json",
+      "sha256": "745e1120aa223155fd350a138d5d8f332d6fcd9288ac86f0f3a225fade001f39"
+    },
+    "admitted": true,
+    "carrier_rms_snr": 113.13708498984761,
+    "decoded": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260918_prime.decoded.json",
+      "sha256": "c3e441f26dc74e299ab44581d8bfdd40ad42a0c2ec23cf47377920dc6135f29c"
+    },
+    "exact_payload": true,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.12678856139670913,
+      0.12467831125472509
+    ],
+    "kind": "prime",
+    "markers": 22,
+    "modulation_rms_snr": 7.526991994004682,
+    "optimal_two_channel_modulation_snr": 747.3359273942721,
+    "p": "1/100",
+    "repeats": 2,
+    "seed": 20260918,
+    "sigma": 0.05,
+    "statistical_pass": true
+  },
+  "noise_s20_20260918_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s20_20260918_unmodulated.admission.json",
+      "sha256": "ab76f3c5cf93d25f395e58dad7dac95c922c3a93e6affad4eb49c22b7fb04720"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 113.13708498984761,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.12678856139670913,
+      0.12467831125472509
+    ],
+    "kind": "unmodulated",
+    "markers": 0,
+    "modulation_rms_snr": 7.526991994004682,
+    "optimal_two_channel_modulation_snr": 747.3359273942721,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260918,
+    "sigma": 0.05,
+    "statistical_pass": false
+  },
+  "noise_s5_20260917_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260917_prime.admission.json",
+      "sha256": "bd1557f7058fa3908abbd318060e05f7f07ceb9509bff8687442f6daa9a41638"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 28.284271247461902,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.565592426453247,
+      0.5604227567987806
+    ],
+    "kind": "prime",
+    "markers": 287,
+    "modulation_rms_snr": 1.8817479985011705,
+    "optimal_two_channel_modulation_snr": 186.83398184856802,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260917,
+    "sigma": 0.2,
+    "statistical_pass": false
+  },
+  "noise_s5_20260917_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260917_unmodulated.admission.json",
+      "sha256": "d0d478b824ec196744560e1d5a1ac2ba851fda9d35bee74f0c9e2880f61fbe2c"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 28.284271247461902,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.565592426453247,
+      0.5604227567987806
+    ],
+    "kind": "unmodulated",
+    "markers": 320,
+    "modulation_rms_snr": 1.8817479985011705,
+    "optimal_two_channel_modulation_snr": 186.83398184856802,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260917,
+    "sigma": 0.2,
+    "statistical_pass": false
+  },
+  "noise_s5_20260918_prime": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_prime.admission.json",
+      "sha256": "c33527205730c6fa37b2f681d73c6e2b5876b6ca19bae7f1988849c844c04860"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 28.284271247461902,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.5071542455868365,
+      0.49871324501890035
+    ],
+    "kind": "prime",
+    "markers": 324,
+    "modulation_rms_snr": 1.8817479985011705,
+    "optimal_two_channel_modulation_snr": 186.83398184856802,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260918,
+    "sigma": 0.2,
+    "statistical_pass": false
+  },
+  "noise_s5_20260918_unmodulated": {
+    "admission": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s5_20260918_unmodulated.admission.json",
+      "sha256": "0ffaf4d96ac4433459b65617191e56bd4a141b08402b4353f0e0976c4b5edc05"
+    },
+    "admitted": false,
+    "carrier_rms_snr": 28.284271247461902,
+    "decoded": null,
+    "exact_payload": null,
+    "fit_adequate": true,
+    "fit_alternatives_agree": true,
+    "holdout_errors": [
+      0.5071542455868365,
+      0.49871324501890035
+    ],
+    "kind": "unmodulated",
+    "markers": 358,
+    "modulation_rms_snr": 1.8817479985011705,
+    "optimal_two_channel_modulation_snr": 186.83398184856802,
+    "p": "1",
+    "repeats": 0,
+    "seed": 20260918,
+    "sigma": 0.2,
+    "statistical_pass": false
+  }
+}

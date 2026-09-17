@@ -1,0 +1,17 @@
+{
+  "refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/gate_verification/decoder.py",
+      "sha256": "919c2f5fbecf66db148cd2066a03be54d7718e4e5e8be3ca73854a44fbdc9373"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/gate_verification/evidence.py",
+      "sha256": "f1b7d41cb16cafde46a8e3b6c667189720383e4996daeb9404db49ffe245aa31"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/gate_verification/test_decoder_gate.py",
+      "sha256": "b88c7574785b027c0118a98bc6852049e1eaa3e5fe767754eaf863332c6d7379"
+    }
+  ],
+  "schema": "GW_COM_METHOD_V1"
+}

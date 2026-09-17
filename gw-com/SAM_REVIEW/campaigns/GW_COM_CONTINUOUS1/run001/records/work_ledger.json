@@ -1,0 +1,43 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/work_ledger.data.json",
+      "sha256": "c0be289a258b8702f56af2c7d216f72e643d3c54f59320872a093ec4baf6a2b3"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:52:05.188898+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1d27944defec4bfdacf30fb31552e419/RECEIPT.json",
+      "sha256": "b1376a8b2440d7373190939f9eabbc6a45f28fb324c5aa1b844a100e7f5c8b8e"
+    }
+  ],
+  "kind": "mechanical_work",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/reference_mechanics.json",
+      "sha256": "24e036dadb8d99e90d1385b53c4a1c708f1f89c7e19a640e3a423e3da22e4ada"
+    }
+  ],
+  "record_id": "work_ledger",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

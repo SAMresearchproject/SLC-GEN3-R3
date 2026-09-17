@@ -1,0 +1,38 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_clean.decoded.data.json",
+      "sha256": "fbf55251bf2a4e60f3c4131d94b6fd2e43e0c54580be1bf0fd0658d3f3735936"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001",
+  "created_utc": "2026-09-17T15:44:46.313137+00:00",
+  "execution_refs": [],
+  "kind": "decoded_hypothesis",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/METHOD.json",
+    "sha256": "41572eb977c506d7bac3821dd990caa0c023a2b1e65225ffb9b9b6d31b70ea92"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_clean.admission.json",
+      "sha256": "78891fda39c4e8a3c5c11d9bcb0a8b5d43557cc0e8368895f3e28d3b5e6e3b23"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_clean.symbols0.json",
+      "sha256": "3e19e22298fa5e126161e173a9fbe8ae891934ed04369d644e8134bb7c58d895"
+    }
+  ],
+  "record_id": "prime_clean.decoded",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

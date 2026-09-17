@@ -1,0 +1,32 @@
+{
+  "all_zero_repeated_candidates": true,
+  "cases": [
+    {
+      "case": "unmodulated_clean",
+      "information_tests": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.information.json",
+        "sha256": "b9f0faa45ff7ed714c9e8cd523e92367018cb2fa69d64d18eefb4064ff550142"
+      },
+      "repetition_count": 0,
+      "selected_model": "C4_amplitude"
+    },
+    {
+      "case": "unmodulated_noisy",
+      "information_tests": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_noisy.information.json",
+        "sha256": "c5d27d3397b80af9b81fb4500837e0bf7e3376d3125f46fc8d55a928551996e6"
+      },
+      "repetition_count": 0,
+      "selected_model": "C4_amplitude"
+    },
+    {
+      "case": "drift_only",
+      "information_tests": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.information.json",
+        "sha256": "c8844f268c7283147fe14ffe3a8b43201e52029f156190b1b3bad9cd75baaad4"
+      },
+      "repetition_count": 0,
+      "selected_model": "C4_amplitude_offset_drift"
+    }
+  ]
+}

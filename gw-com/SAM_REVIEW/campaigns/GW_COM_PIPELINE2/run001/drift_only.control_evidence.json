@@ -1,0 +1,33 @@
+{
+  "refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_control_suite.json",
+      "sha256": "e9745e5e663ecfafcaf1bc0aa9f25dc7135e89612315e3f7634de80b9b5ac288"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.fit0.json",
+      "sha256": "4c0981714b6c94d443591bfc38c61f03948ee7e5daf38bfde8f496cf030f9ca5"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.symbols0.json",
+      "sha256": "1f3baa5cc988c10019ac96d8edef1ccf3f9144b8cf94f0e527a8964b3434bdbb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.fit1.json",
+      "sha256": "56cb658850bc43b71a2ccd6345bb4fb87221a7ad482ddb07720e6d0d978b4b40"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.symbols1.json",
+      "sha256": "0fe275310b6c825af04e2c69b780a1ebf6004aee9b5c998f43f1284ab217ebb2"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.fit2.json",
+      "sha256": "a3c81be7b9d3a8c92e603b3992510c061f638ad648424cd56a4bf92a4649fd09"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/drift_only.symbols2.json",
+      "sha256": "7c5a1522e821f3671368cd7dbfe5fbdc2c9b7cfcc017084b9cfa81a44eccd332"
+    }
+  ],
+  "schema": "GW_COM_METHOD_V1"
+}

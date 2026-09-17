@@ -1,0 +1,33 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/records/continuous_unmodulated.dynamics.data.json",
+      "sha256": "395cf9bfe3e93b7c0a24db68e6a961303ac2c78f4a2ecb06906a99d4e28b14d3"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001",
+  "created_utc": "2026-09-17T15:52:42.558641+00:00",
+  "execution_refs": [],
+  "kind": "integrated_dynamics",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/refinement001/METHOD.json",
+    "sha256": "00bbb8b9f8884fbbd8c99cb5c8cc9b155791b0ab55836718a9a41c491e031838"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.dynamics.json",
+      "sha256": "740af0c95bee328adb7d269631fd2bf07388fcf38417f739ca0341873a204142"
+    }
+  ],
+  "record_id": "continuous_unmodulated.dynamics",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "scope": "independent refinement of retained Newtonian reference",
+    "time": "dimensionless continuous t"
+  }
+}

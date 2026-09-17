@@ -1,0 +1,49 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.controls.data.json",
+      "sha256": "f86d20c7bf7a7ab4b5542a6f86b91d17e09fc6f47ee3f3b6c2e0d610a8b1e2e2"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:18:29.570828+00:00",
+  "execution_refs": [],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.raw.json",
+      "sha256": "9bc1774435526265f98d0fd4f53be46fdeec1790dd4e2b5033739ee8b9f8042e"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.fit2.json",
+      "sha256": "43f48c5d073d5647b60ef0e16a96b9ede280dfb1a0ca5f1c4b6c3b64b1469864"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.residual2.json",
+      "sha256": "b69e9ea45f7b052e7db751a9ba225ed310e92155b272304de06f3fa29f594191"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.symbols2.json",
+      "sha256": "d35525f62ef88eb066e4c4e60d023e0e02b0da45e654be03e0d8c87d862cbccb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_prime.information.json",
+      "sha256": "a3447af6291b19f6dd0ac47de28c1664727bc842d541513bc99d1ebd6f11e41a"
+    }
+  ],
+  "record_id": "noise_s100_20260917_prime.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

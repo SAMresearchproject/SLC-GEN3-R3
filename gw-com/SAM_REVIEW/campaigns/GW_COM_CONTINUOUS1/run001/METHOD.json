@@ -1,0 +1,49 @@
+{
+  "refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/0___init__.py",
+      "sha256": "fa83a41cbe4e929f47e62b79a2dced1ba8233c0a97b2ba49aa63ba3265ae42e4"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/1_carrier.py",
+      "sha256": "25677bde58e4f101f41c8d1bae29390eaf4e6fa3d3b508fc4f5b96d5ecd0edac"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/2_continuous.py",
+      "sha256": "e8002ff91044a73de378ca04fc6bbf7334ab9826041f8397029b30d71fc82d45"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/3_decoder.py",
+      "sha256": "919c2f5fbecf66db148cd2066a03be54d7718e4e5e8be3ca73854a44fbdc9373"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/4_evidence.py",
+      "sha256": "5a42476a8b156923d9a64e62f462bb03b6e12d5bc66e87718604e3937c0ae2eb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/5_information.py",
+      "sha256": "100ade7c607d1b6cc6389c616c7251e2c3c18b27f7532b6b058e01274b956081"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/6_modulation.py",
+      "sha256": "4fac3d099a3ab799bd42e88cbd4ecab477bbe5bc7c127832f08adf428864030a"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/7_native.py",
+      "sha256": "ee7f0fe56e118dbe401eb8ca0692ce7876356c36d5d355a3ad9e7d376c0ff1af"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/8_residual.py",
+      "sha256": "fc509347ecbf6093704c87c47c0316487a2880ea9c237f783e3f396e636f5047"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/9_run.py",
+      "sha256": "c0d4d1f9d6270a82de8827b13fd184284a40ac0c9f324032ecff305d8f62ee7b"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/code/10_CONTRACT.json",
+      "sha256": "8598ec5fbeb72514f5802834622a5f9a51218edab649caef3df443a5d82a96f2"
+    }
+  ],
+  "schema": "GW_COM_METHOD_V1"
+}

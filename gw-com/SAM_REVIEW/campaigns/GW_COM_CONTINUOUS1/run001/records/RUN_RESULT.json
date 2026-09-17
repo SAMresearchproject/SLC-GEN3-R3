@@ -1,0 +1,395 @@
+{
+  "cases": {
+    "continuous_prime": {
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.admission.json",
+        "sha256": "8cf498182f65119171712ac8be0d6d6a492ea78c86dda931ff0106de224c84d6"
+      },
+      "admitted": false,
+      "decoded": null,
+      "dynamics": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.dynamics.json",
+        "sha256": "cc77a3759ad3d79faa0b1c0b3d0af9a9632c6a01131e9abc2390b5596fd35d9b"
+      },
+      "dynamics_pass": false,
+      "evaluation": null,
+      "permutation_p": "1/100",
+      "repeat_count": 2
+    },
+    "continuous_unmodulated": {
+      "admission": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.admission.json",
+        "sha256": "f48e79ab120667470e80c04f14f077e56539f1dcf4d59b2b28c8c19bc8862aa1"
+      },
+      "admitted": false,
+      "decoded": null,
+      "dynamics": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.dynamics.json",
+        "sha256": "740af0c95bee328adb7d269631fd2bf07388fcf38417f739ca0341873a204142"
+      },
+      "dynamics_pass": false,
+      "evaluation": null,
+      "permutation_p": "1",
+      "repeat_count": 0
+    }
+  },
+  "native_call_count": 68,
+  "native_calls": [
+    {
+      "nodes": 737,
+      "purpose": "GW-COM continuous reference: C3 radial bump, Newtonian feedforward radial/tangential force, pair mechanical energy, signed power and quadrupole derivative coefficients",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/ec6688e1423f41f9b10b28fe1d45c71e/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8dad97a786054e43a5badbb07d420bdf/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/586944d3cbba402e93d3b4b5237b87b5/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/d2f50293dfe54dbc91a7eecce42c6edf/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/f5b5d0e5d4364c91ba0fea2915d3a706/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/278638f92d5843ad9358362e5bb217f1/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/656306d37f7a4184b0f66a16c365da24/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/2ea837c0bbdd4cc28dd3752874a6cd57/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1c7fd5ee4968400a8ecb8a08e7f78a40/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/e6834524610e4080a396d60cef973112/RECEIPT.json"
+    },
+    {
+      "nodes": 3853,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9c4010ad52394cd98333cca433de0583/RECEIPT.json"
+    },
+    {
+      "nodes": 1816,
+      "purpose": "GW-COM continuous carrier: joint two-channel exact least squares for phase/amplitude and optional channel offsets on quiet calibration samples",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/621e4f1e728f4ee984fcb0eb1509e6f4/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9fec8b96e94c4d2f941bef874ba69902/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5e698627073a46e88e5b2d6381d304a0/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5a3453369df74a738c0e3bb3f6b57313/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8389bd4719394340bdfcd6956a6c50af/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/3f521db96ae04fa1b3523dd853327a73/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/b1474925a32c44da9f0403eb34c1d437/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1858f4d7d02d402c9d2521cde39fd75c/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/76ecbc9adea44498aa9d18e9ef306561/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8740452e37424a3986838ceb76389006/RECEIPT.json"
+    },
+    {
+      "nodes": 6743,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/15aa8226111b48ea833af56e80a3fb5c/RECEIPT.json"
+    },
+    {
+      "nodes": 3488,
+      "purpose": "GW-COM continuous carrier: joint two-channel exact least squares for phase/amplitude and optional channel offsets on quiet calibration samples",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/6a2e196a833e42febc82881e6765b943/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8c82cada55aa4c489c276da125f1429b/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/ab24357957aa479184c3af9be96ea6d0/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/e57da15a178848718e7683fa199462fa/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/2903467e8cbb45278e059882720faed8/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/fd9fa5d2705c433d945b1d595c89f9e1/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/db13ea38510942bb9502a70881572995/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/398ff84e4acf4d0f962e0fc12fdf240a/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/b3f653aa9c6c40d59b865dddc1c4fced/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9a1c0b678f874f699a874e382a0a7e9b/RECEIPT.json"
+    },
+    {
+      "nodes": 10597,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/2f5b7ea3012441b2b1b310b8888902f3/RECEIPT.json"
+    },
+    {
+      "nodes": 24,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/540e9d3bd99f418ab094335b9c8cf19d/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/b0f3cbbf6c93480d9b8404ea3838d347/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9ece20758cec4ba08fd4bd1ea27c553a/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/edfefa2b7b8f4073b821a6903fb421eb/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/cb22f5b0113a487680bc91aaf2a599d4/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8f38623bc2494d8ab9e3d6fafa2ab918/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/6cb8a0f8580c4b9ca2012d2bf0b22b2d/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/6021866fc8e14ff89884c91d054baa21/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/01f8e33502b44989bcb0180111742650/RECEIPT.json"
+    },
+    {
+      "nodes": 6145,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/781e5174453f4f8fbcdfa3366c853bcf/RECEIPT.json"
+    },
+    {
+      "nodes": 3853,
+      "purpose": "GW-COM continuous signed quadrupole pair: analytic second derivatives from native radius/velocity/acceleration with declared trigonometric inputs",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/27e9190fd9bc48ceaf39649f73831e8c/RECEIPT.json"
+    },
+    {
+      "nodes": 1816,
+      "purpose": "GW-COM continuous carrier: joint two-channel exact least squares for phase/amplitude and optional channel offsets on quiet calibration samples",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/87725907358449b5810fe4e539b4f331/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/4233780d16cd4c87bd4a97843cf841db/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/69dd8025040f44d4a7060a1843e3dd1d/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/3028681bcec94dbcb31e42e703d4a406/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/d765e7ec9f544897ace62560937fbc2f/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/e28ebbb819274e2cbed8e43733259c82/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/172d9500db8f4fd7acc749bcb74af430/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/351907c7e7e34c1eacc51d47942b81d4/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/800ff5aa9b9448a7b2b5bfd9db093299/RECEIPT.json"
+    },
+    {
+      "nodes": 10754,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9b2ee5edd983455d90ba57211e09e84e/RECEIPT.json"
+    },
+    {
+      "nodes": 6743,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1d46ee4eb4a449df99c64e5c2780ff29/RECEIPT.json"
+    },
+    {
+      "nodes": 3488,
+      "purpose": "GW-COM continuous carrier: joint two-channel exact least squares for phase/amplitude and optional channel offsets on quiet calibration samples",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5058ae1a386145949cfe9292c1a4875c/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/89854604318143e6a03d7a2ddfd5d9df/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/613348cb30564c2c9a929a5cba545e59/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/a16aee3fc7ae47bcb60451f14aa127d2/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/65d645adabaf4178a6b2726d685b3584/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1eccedce4be5436b95f06a8761064ff2/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/606135db5a54419190486232355fb922/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/aaa08f946c7b49f5bac3fb0bb6929856/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/cfb8dd82e37e4bfe8eb5ec5f56bd1f3d/RECEIPT.json"
+    },
+    {
+      "nodes": 16900,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/cbc93f679dd94097bd09069b3c1bf4d8/RECEIPT.json"
+    },
+    {
+      "nodes": 10597,
+      "purpose": "GW-COM continuous residual: two signed channels, complete carrier prediction and residual squared norm for marker selection",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/75f6c01b2f03478d83e598814acb3dc6/RECEIPT.json"
+    },
+    {
+      "nodes": 3,
+      "purpose": "GW-COM information tests: exact permutation rank probability and empirical alphabet probabilities; full framing search repeated for each null",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/5f48adfb4437446a8752173d314fb5dd/RECEIPT.json"
+    },
+    {
+      "nodes": 5,
+      "purpose": "GW-COM reference mechanical work: monotonic rise/fall of energy over each smooth marker; retain positive work, returned work and signed net separately",
+      "receipt": "/home/sam/PycharmProjects/SAM_Research_Project/SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1d27944defec4bfdacf30fb31552e419/RECEIPT.json"
+    }
+  ],
+  "native_nodes": 662145,
+  "payload": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "scope": "continuous controlled Newtonian reference plus independent integration, two unscaled quadrupole channels",
+  "session": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e",
+  "work_ledger": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/work_ledger.json",
+    "sha256": "a2268ce7b5e950ac485f571adefcaeb0c144e6c2b598c494e14efae5937551e7"
+  }
+}

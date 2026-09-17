@@ -1,0 +1,82 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.residual2.data.json",
+      "sha256": "f4dfa0f4df62fa2a09f35c13ceb152ac9d8c0790b4224f869699396d7dc131fb"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:37:52.331646+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/a68a148bea2745dba851041a78a845ac/RECEIPT.json",
+      "sha256": "759824a61e628d69106a8c2d8db7b5f4f903c3d4403a6d077e0bf058f6b49f7f"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/f1fce1f64db640f685f4b447462bab40/RECEIPT.json",
+      "sha256": "6aa553b3d2567a03532cc9c523c995d48cc8773f75add35f7fa8f1b81f5c461e"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/b40b58a2a7964e6380b6c3f0cf76e3b8/RECEIPT.json",
+      "sha256": "1e5f1e020dad655f18b24307750eee9dd1282c793fa53fbed606072808543177"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/2d14bdaabb7f4c1a880084a8896b3603/RECEIPT.json",
+      "sha256": "86ffbb2c7daf5a72b2e1f66e2e043bb65d34a394e605b08578dbddba73046a30"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/30a83e8b831e4bc9afddacdb04e3fd99/RECEIPT.json",
+      "sha256": "f106c7ffeafcfa5b7481169ed46a4dc121cf2bf3904691c2f0390590e79495d7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/189311538c9046b78002bf25e6d2a0e4/RECEIPT.json",
+      "sha256": "93119dd353f0e9d247905acc2770c2f9e38b1ee67edfdc2076fb0cc6754ed477"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/514e256f333f43f883a42ad09ac0ec9a/RECEIPT.json",
+      "sha256": "c20e22acdab6031cef3952fc5471d11d301462f5396773cbb93d5cda5867ec00"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/9c7216d68960404bbd78fd31be42127d/RECEIPT.json",
+      "sha256": "54646c1633b390176001f7329ba80c34e193bd22e81f32c415349ba01e6ed674"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/613fe4c21f6547d5b10ef776b6244121/RECEIPT.json",
+      "sha256": "5005832dba1457957ac66766c3d552341611aab9286093b12353597601d6a277"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/9b8792114c944d2eb3442baf1fab9078/RECEIPT.json",
+      "sha256": "9d9ca91050ab000d82966265a89506e4f63e6f8aa6e30540b741d04dce0ea7d7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/sessions/STARBREAKER_66472e62588448c3a50eac79cef298ce/calls/99450a14ad70462db88d88496e84206e/RECEIPT.json",
+      "sha256": "397193d375671a18b1536b560553e8e330155a1ba5ea4953b73db6c167de7997"
+    }
+  ],
+  "kind": "residual_history",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.raw.json",
+      "sha256": "35bb3b2b5225535fc73c8073520377863c8d3a88f96752f412bb26b097365758"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.fit2.json",
+      "sha256": "fca757983aeda3cfca4a1c57bfefe06ccd4f3f77c420b7519ee1124b92432748"
+    }
+  ],
+  "record_id": "test3.precession_like.residual2",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

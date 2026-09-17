@@ -1,0 +1,60 @@
+{
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.fit2.json",
+        "sha256": "01b7d11449135db27d1e98a3792b466e250edbc3ba016f2353481d9c18176c4d"
+      },
+      "name": "quiet_fit",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.symbols2.json",
+          "sha256": "d924a6b368e691566f1416babb36e5d599dff5a6101992c25a0410d799eebbaf"
+        },
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.symbols4.json",
+          "sha256": "cd1115a51604ed723e4c4d72f2edd73d974a008b923752d0bde68f252aa6b4d9"
+        }
+      ],
+      "name": "fit_alternatives",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_unmodulated.information.json",
+        "sha256": "119b7b18542b992619edeb0975c8c3420f8901d1ed92998c13cd21e0647e321d"
+      },
+      "name": "unmodulated",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.dynamics.json",
+        "sha256": "cc77a3759ad3d79faa0b1c0b3d0af9a9632c6a01131e9abc2390b5596fd35d9b"
+      },
+      "name": "integrated_dynamics",
+      "status": "FAIL"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/reference_mechanics.json",
+        "sha256": "24e036dadb8d99e90d1385b53c4a1c708f1f89c7e19a640e3a423e3da22e4ada"
+      },
+      "name": "power_identity",
+      "status": "PASS"
+    }
+  ],
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.information.json",
+        "sha256": "0935e88c4501217f5709e454b845b95a7a1b2d6dc3ad47296ed18c699a6c031a"
+      },
+      "name": "repetition_and_permutation",
+      "status": "PASS"
+    }
+  ]
+}

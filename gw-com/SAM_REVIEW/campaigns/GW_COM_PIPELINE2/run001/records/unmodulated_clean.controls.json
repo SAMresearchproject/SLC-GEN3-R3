@@ -1,0 +1,55 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.controls.data.json",
+      "sha256": "1ca2f7b4112c9f3687b9b676c528221a4de5504b5595655e9feeb1b31f8fee8f"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001",
+  "created_utc": "2026-09-17T15:44:46.678154+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/unmodulated_clean.control_evidence.json",
+      "sha256": "00c1087086431b1d55bb55ab95cf618125c8b1e30f6a920dc160cdf9fa1b2ef1"
+    }
+  ],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/METHOD.json",
+    "sha256": "41572eb977c506d7bac3821dd990caa0c023a2b1e65225ffb9b9b6d31b70ea92"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.raw.json",
+      "sha256": "8eef5c0cbcbdb54d8654fb27e827c7c9fad94d712d95b0803ecf8a0aeb6dcc33"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.fit0.json",
+      "sha256": "91b21f1b0ca43c8f182a1562c46bdef37cb3c5bbd6a6c36fff70800541d87e9f"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.residual0.json",
+      "sha256": "e2ed74c5877746a3592b8d15d7e74999a6091e9b17ef93a0473c20beedcdc553"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.symbols0.json",
+      "sha256": "56ce26cf7ff1b5ac9e2a5508de60cb7a77b601748d44f93772d748c30e05f518"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/unmodulated_clean.information.json",
+      "sha256": "b5dc4c088f66c7a461ddcb02d9c5bb1e005a36e7c693d7b174f8c2198e360bab"
+    }
+  ],
+  "record_id": "unmodulated_clean.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

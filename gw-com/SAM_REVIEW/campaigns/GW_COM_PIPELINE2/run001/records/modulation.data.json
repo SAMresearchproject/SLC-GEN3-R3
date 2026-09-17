@@ -1,0 +1,25 @@
+{
+  "family": "equal radial perturbations, interval modulation",
+  "known_protocol": "4 synchronization markers then 7 intervals",
+  "motion": "prescribed C4",
+  "profile_denominator": 128,
+  "profile_numerator": [
+    0,
+    1,
+    3,
+    6,
+    8,
+    6,
+    3,
+    1,
+    0
+  ],
+  "unassigned": [
+    "continuous actuation",
+    "SI strain",
+    "polarization/chirp/precession"
+  ],
+  "unique_native_stencils": 13,
+  "unit_weight_antipodal_bodies": true,
+  "wave": "second difference of Qxx-Qyy"
+}

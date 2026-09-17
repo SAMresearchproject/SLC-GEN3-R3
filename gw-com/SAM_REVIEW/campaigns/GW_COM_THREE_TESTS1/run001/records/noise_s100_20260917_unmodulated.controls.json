@@ -1,0 +1,49 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.controls.data.json",
+      "sha256": "d2c749542ea8fbcd45e9aa1992e039afe16c588690145ffb0783ec178e97fdfa"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:18:30.247993+00:00",
+  "execution_refs": [],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.raw.json",
+      "sha256": "987baf05f193eda02d010bf0e94fbd7fdf2c0bfa033ff72cf18cc491a2337a79"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.fit2.json",
+      "sha256": "3c302fe1d751a772e51d0c9195b0ed5d31a6a81aac6f4c1caa6453374eff9077"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.residual2.json",
+      "sha256": "ee81edd27f55415865190587de8af321609259e1b287e6ad6aa6a40d425ad8b7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.symbols2.json",
+      "sha256": "4156ff94e8b598708cffc2e38c2aa9f5dd072907774a24d9e3e770144bb67169"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260917_unmodulated.information.json",
+      "sha256": "23cb3d712c389fc6a3519fd8a82cb74be064f68e5d7638ecfb8be39352923b7e"
+    }
+  ],
+  "record_id": "noise_s100_20260917_unmodulated.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

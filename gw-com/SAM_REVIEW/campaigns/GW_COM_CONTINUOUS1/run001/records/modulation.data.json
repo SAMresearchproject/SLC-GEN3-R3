@@ -1,0 +1,11 @@
+{
+  "amplitude": "1/16",
+  "control_model": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/reference_mechanics.json",
+    "sha256": "24e036dadb8d99e90d1385b53c4a1c708f1f89c7e19a640e3a423e3da22e4ada"
+  },
+  "data_intervals": 7,
+  "family": "smooth equal radial controls with interval timing",
+  "half_width": 1,
+  "sync_markers": 4
+}

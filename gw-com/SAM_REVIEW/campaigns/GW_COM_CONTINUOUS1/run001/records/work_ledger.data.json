@@ -1,0 +1,10 @@
+{
+  "all_markers_positive_work": "11803/2176",
+  "all_markers_returned_work": "11803/2176",
+  "marker_count": 22,
+  "per_marker_positive_work": "1073/4352",
+  "reason": "E derivative = 2 rdot (rddot+r+1/r^2); bracket positive for this bump, so each half-pulse is monotonic in E",
+  "sampled_peak_force_squared_per_body": "9790641/21381376",
+  "scope": "mechanical reference work; excludes controller inefficiency and gravitational-radiation losses",
+  "signed_net_reference_work": "0"
+}

@@ -1,0 +1,54 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.admission.data.json",
+      "sha256": "bc867935f8374c756d9ccc7f4c805cc19998d54ef3a9ad1238b8a48141358f9e"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001",
+  "created_utc": "2026-09-17T15:17:25.969115+00:00",
+  "execution_refs": [],
+  "kind": "decoder_admission",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.raw.json",
+      "sha256": "ac1a25c9b1823d9346fada04a7fb12846298c904e07d06f3bead330c0b879b25"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.fit1.json",
+      "sha256": "8454fae3bdfabd118d60e41cafe4a1d1c3c0badeb7c49378068e2988fcca976c"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.residual1.json",
+      "sha256": "a0a63ddaa874b6a82a75808bca0945aeb09549f3b42ca2b99aadc5e00fdf09cb"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.symbols1.json",
+      "sha256": "4d82daf47653384e81865c39f4f9b247e260b4b812b194f4b7c2825a19e38e15"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.information.json",
+      "sha256": "f2f47437a1a41a0a38162cf3400df3fcc7ff1be3c0abec79437dc0621b35d8ce"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/prime_noisy.controls.json",
+      "sha256": "fce8d3c833ebaea5794c3c66ed321a6b162d476b44cb409470b5fa889a0c36c8"
+    }
+  ],
+  "record_id": "prime_noisy.admission",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

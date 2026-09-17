@@ -1,0 +1,43 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.fit0.data.json",
+      "sha256": "09e38ac2a951fbc36a2d262c6cd491fcec86364eb2d6e98e933fc952d5c3445e"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001",
+  "created_utc": "2026-09-17T15:16:49.033002+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/1f6a820ba90e432f8ba3fb21f1f55969/RECEIPT.json",
+      "sha256": "ef693fafe20095d9b884db0958b9d7d8c9e9150705ef530d34669f60f137e681"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/sessions/STARBREAKER_1516db9e14494ca0b24e1a646a2f29ce/calls/4e40ec2b80d54c6597e8a74b91c23f37/RECEIPT.json",
+      "sha256": "4d8db24af577c49a9a5391cf614261dd4b18ca223b3ec7f3e6f0076f5cd7104c"
+    }
+  ],
+  "kind": "source_fit",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.raw.json",
+      "sha256": "19e44859577011a4f7418126fe91874ef31cbb7e63485f34500d993a2279e5f8"
+    }
+  ],
+  "record_id": "unmodulated_clean.fit0",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

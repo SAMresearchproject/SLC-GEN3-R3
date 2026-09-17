@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.controls.json",
+    "sha256": "33b18a548d4b4c8c047dd9e9a7d356d9796d81f60a1717f4a2f06dcff1a72f91"
+  },
+  "criteria": "CONTRACT.json via method_ref",
+  "dispositions": {
+    "physical_controls": "PASS",
+    "statistical_controls": "PASS"
+  },
+  "eligible": true,
+  "lineage": {
+    "candidate_symbolization": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.symbols1.json",
+      "sha256": "4b600358f14c5810ff698833286c4dfa2b88450f6c3baadf85dd9b2ddc17a82d"
+    },
+    "information_tests": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.information.json",
+      "sha256": "d4bc16e188f6932c8623cbb179d23179436e0415ea36120a93e63ec8e03f4efe"
+    },
+    "raw_waveform": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.raw.json",
+      "sha256": "2995c0fb00f172060d43eb774cfcdd14d2b05b2880c85096d092987d243be7b3"
+    },
+    "residual_history": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.residual1.json",
+      "sha256": "547858fa0608fa356dff2770d350ee0c26308a0e2db4d7ce92e0a3b7e9d741ee"
+    },
+    "source_fit": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE2/run001/records/prime_noisy.fit1.json",
+      "sha256": "b2c97abeebcb3eb0c2df45ae1537770f22105c2489fce6e46188af469eee000a"
+    }
+  }
+}

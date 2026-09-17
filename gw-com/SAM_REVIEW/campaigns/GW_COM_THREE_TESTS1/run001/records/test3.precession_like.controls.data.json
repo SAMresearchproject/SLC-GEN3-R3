@@ -1,0 +1,36 @@
+{
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.fit2.json",
+        "sha256": "fca757983aeda3cfca4a1c57bfefe06ccd4f3f77c420b7519ee1124b92432748"
+      },
+      "name": "quiet_fit",
+      "status": "FAIL"
+    },
+    {
+      "evidence": [
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.symbols2.json",
+          "sha256": "0346c6d45707946dc07948d516f9141e04561532715899832a4d54cb85fe591d"
+        },
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.symbols4.json",
+          "sha256": "707b5f27e778bb53a516fa9acecdc15dc598fbcf66dbbce9060631fe5c4c70d9"
+        }
+      ],
+      "name": "fit_alternative_stability",
+      "status": "FAIL"
+    }
+  ],
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.information.json",
+        "sha256": "20028b0b7f2f202681b810fb487a14a078d680b99d203b1d84d9db2a996940e5"
+      },
+      "name": "repetition_permutation",
+      "status": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/continuous_prime.source.data.json",
+      "sha256": "b06f8440baee68fd95210f5a7c2e859b56532d70928f4946b0a4210c57da4455"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001",
+  "created_utc": "2026-09-17T15:50:24.604663+00:00",
+  "execution_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/8dad97a786054e43a5badbb07d420bdf/RECEIPT.json",
+      "sha256": "c8fa295f8264971592b0a0574f50d6b049238b26ab12aa824c6640820c1d4cd1"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/586944d3cbba402e93d3b4b5237b87b5/RECEIPT.json",
+      "sha256": "e2eafa6d95643ba3441f65fe3cda98931d61240260540867cffc2076abe4bee7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/d2f50293dfe54dbc91a7eecce42c6edf/RECEIPT.json",
+      "sha256": "8687e45adbf6b578a951bdbeae2316d019fa8012bca06578027335ce60f9a97a"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/f5b5d0e5d4364c91ba0fea2915d3a706/RECEIPT.json",
+      "sha256": "835ce0613b9ee8496ac3103a6b3f865ca8356d64b1680416e42256b3afdbc620"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/278638f92d5843ad9358362e5bb217f1/RECEIPT.json",
+      "sha256": "4914a1a647bb6667953855cd63e4f666a8420b0689a131e51a1132d6b6d715d7"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/656306d37f7a4184b0f66a16c365da24/RECEIPT.json",
+      "sha256": "5de5ef37b07561b0a662333257ee7ecf453f29d9f9e141cd4d965c00a37576e3"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/2ea837c0bbdd4cc28dd3752874a6cd57/RECEIPT.json",
+      "sha256": "6ee55bbc71c2387142e715f2a407f6b8fd3f88c068475a801046386d7b9373ea"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/1c7fd5ee4968400a8ecb8a08e7f78a40/RECEIPT.json",
+      "sha256": "bf2ecd4386366137ecd8cee0fab31ba92917df78eb11cce1ddb7df195fcff8ee"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/e6834524610e4080a396d60cef973112/RECEIPT.json",
+      "sha256": "075244a13248422d2862b598aafcdedb056fa0864e9e28321a4b7e3763b0fbba"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/sessions/STARBREAKER_9f9e28360c974e39a7785761c6e51d8e/calls/9c4010ad52394cd98333cca433de0583/RECEIPT.json",
+      "sha256": "ab6691fde1f5f1ba08c47b5cffeb2e6fea2414cc4b265a61fd2acdd175278a5b"
+    }
+  ],
+  "kind": "source_history",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/METHOD.json",
+    "sha256": "048d14714efed8960c905efac6e4422f258cfb730ba4d753046ff911b1ad9655"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/reference_mechanics.json",
+      "sha256": "24e036dadb8d99e90d1385b53c4a1c708f1f89c7e19a640e3a423e3da22e4ada"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_CONTINUOUS1/run001/records/modulation.json",
+      "sha256": "11713cc6b2210328c189760db06a237b630014b9551c1915d1c3c11c4f6082aa"
+    }
+  ],
+  "record_id": "continuous_prime.source",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "channels": [
+      "(Qxx-Qyy) second time derivative",
+      "2 Qxy second time derivative"
+    ],
+    "mechanics": "G=4, two unit masses, baseline body radius=1, omega=1",
+    "strain_prefactor": "not applied; unscaled face-on quadrupole channels",
+    "time": "dimensionless continuous t, samples dt=1/8"
+  }
+}

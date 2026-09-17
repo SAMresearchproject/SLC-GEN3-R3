@@ -1,0 +1,34 @@
+{
+  "controls": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.controls.json",
+    "sha256": "88ae9b3b66df33e51cba78c9f1ef384a6f2d9c23850719965de28b9c47ce369e"
+  },
+  "criteria": "CONTRACT.json via method_ref",
+  "dispositions": {
+    "physical_controls": "PASS",
+    "statistical_controls": "FAIL"
+  },
+  "eligible": false,
+  "lineage": {
+    "candidate_symbolization": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.symbols2.json",
+      "sha256": "acc369706abbdad1bf68a6f98427c3596980a7c50884c0fe4bab2601441f49e0"
+    },
+    "information_tests": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.information.json",
+      "sha256": "bff42ffe6a81580f9d19b77a6a132829004752fdd8ff81ea063731e2c959c213"
+    },
+    "raw_waveform": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.raw.json",
+      "sha256": "900c18e0d7759f8f87b32806ff1e68f4e0839b47461340950a6746f45583f29c"
+    },
+    "residual_history": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.residual2.json",
+      "sha256": "9fa97a38329f70c88e7cea5a3c452376287ab24d057bc3928e748ace1435c986"
+    },
+    "source_fit": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/noise_s100_20260918_unmodulated.fit2.json",
+      "sha256": "a84ec4091a773e9989c7308741c76c15a751224e4704ae58c097a14f42cbe11b"
+    }
+  }
+}

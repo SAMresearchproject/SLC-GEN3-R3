@@ -1,0 +1,40 @@
+{
+  "schema": "GW_COM_EXACTLY_THREE_TESTS_V1",
+  "test_count": 3,
+  "stop_rule": "Execute this fixed grid once. Preserve all outcomes. No additional scientific tests, adaptive grid points or receiver tuning.",
+  "test_1": {
+    "name": "continuous_source_noise_snr_sweep",
+    "sigma_per_channel": ["1/100", "1/20", "1/5"],
+    "seeds": [20260917, 20260918],
+    "cases_per_point": ["prime", "unmodulated"],
+    "noise": "Independent Gaussian per sample/channel; identical standard-normal realization for matched prime/null and across sigma; random.Random.gauss rounded to 12 significant digits before native addition",
+    "source": "Reuse authenticated continuous analytic source and passing independent dynamics from GW_COM_CONTINUOUS1",
+    "snr": "Full-record per-channel modulation RMS / sigma and sqrt(sum of both noiseless modulation channels squared)/sigma; carrier RMS reported separately",
+    "fit": "Existing exact joint two-channel fits with 2 and 4 coefficients; calibration [0,128), holdout [128,192); simplest adequate; holdout max <= 6*sigma+1e-10, declared for Gaussian noise",
+    "extractor": "Unchanged continuous 3% carrier-amplitude residual norm threshold, group gap2, active group lengths3..17; four sync markers and seven data intervals; ratio tolerance3/25",
+    "admission": "Matching lineage, quiet holdout, agreement across adequate fits, inherited passing source dynamics, matched unmodulated has no repeated frame; >=2 disjoint repeats and permutation p<=1/20 against99 full-search shuffled gaps",
+    "report": "Every seed/case; exact payload evaluated only after gated decoding; empirical counts only, no population recovery probability"
+  },
+  "test_2": {
+    "name": "physical_scaling_detectability",
+    "constants": {"G_SI":"6.67430e-11", "c_m_s":299792458, "solar_mass_kg":"1.98847e30", "parsec_m":"3.085677581491367e16"},
+    "sources": [{"name":"stellar_compact_pair", "mass_each_kg":"2.783858e30", "radius_each_m":200000}, {"name":"small_compact_pair", "mass_each_kg":"1e20", "radius_each_m":25}],
+    "distances_pc": [1,1000,1000000],
+    "dynamics": "omega^2=G*m/(4*r^3); separation=2*r; t_phys=t_dimensionless/omega; h_channels=G*m*r^2*omega^2/(c^4*R)*H_channels",
+    "detector": "One ideal optimally aligned detector Fplus=1,Fcross=0; fixed Advanced LIGO design ASD T1800044-v5; not measured current sensitivity",
+    "spectrum": "One-sided discrete rho^2=4*df*sum(|dt*FFT(h)|^2/ASD^2) over positive frequencies in supplied curve; exclude unsupported frequencies; log-log ASD interpolation; residual has zero endpoints and no taper; carrier Hann tapered with no loss correction",
+    "report": "Carrier strain amplitude, modulation peak/RMS and optimal known-residual-template SNR versus R; rho=8 reference distance is illustrative and not a decoder threshold or detection claim; v/c, wave-zone ratio, duration, force/work scales, leading circular GW luminosity and inspiral time",
+    "scope": "Newtonian leading-quadrupole scaling of held controlled source; no cosmological redshift, radiation-reaction evolution or realizable actuator design; radiation losses reported separately"
+  },
+  "test_3": {
+    "name": "expanded_natural_carrier_false_positives",
+    "cases": ["slow_chirp", "precession_like"],
+    "slow_chirp": "omega(t)=1+0.1*t/616; phase=t+0.05*t^2/616; leading adiabatic amplitude=8*omega^(2/3); hp=-amplitude*cos(2phase), hx=-amplitude*sin(2phase)",
+    "precession_like": "inclination=0.6+0.2*sin(0.03*t), polarization_angle=0.3*sin(0.017*t); hp0=-4*(1+cos(inclination)^2)*cos(2t), hx0=-8*cos(inclination)*sin(2t); rotate pair by2*polarization_angle",
+    "scope": "Unmodulated phenomenological natural-carrier nuisance waveforms; precession-like projection is not a spin-precession dynamics simulation",
+    "analysis": "Unchanged stationary 2/4-coefficient carrier fits, clean holdout tolerance1e-10; evaluate full signed residual and repeated-frame search even if fit inadequate; report any repeated integer packet and permutation admission, independently of physical fit rejection",
+    "success_criterion": "Neither nuisance generates a repeated packet satisfying existing repetition/permutation criteria. Model absorption is reported only if actually observed."
+  },
+  "roles": {"native":"noise addition, exact fits and signed residuals, nuisance projection combinations, source scaling algebra and spectral weighted sums, exact permutation ranks", "python":"declared Gaussian/trigonometric/fractional-power constants, FFT and ASD interpolation, discrete symbol/permutation enumeration, independent serialization/arithmetic verification"},
+  "sources": ["https://dcc.ligo.org/public/0126/P1600161/013/BBHBasicsANDPFullAuth.pdf", "https://dcc.ligo.org/public/0149/T1800044/005/aLIGODesign.txt", "https://dcc.ligo.org/public/0149/T1800044/005/T1800044-v5.pdf"]
+}

@@ -1,0 +1,79 @@
+{
+  "contract": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.fit0.json",
+        "sha256": "ad42daa01968edd463cd7d10cd429312f8087ef814afd6990ae14c09b7db6510"
+      },
+      "name": "quiet_holdout",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        {
+          "fit": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.fit0.json",
+            "sha256": "ad42daa01968edd463cd7d10cd429312f8087ef814afd6990ae14c09b7db6510"
+          },
+          "symbols": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.symbols0.json",
+            "sha256": "3f790dc175acfb5c82a7fdca0bc567284a01a3fe5c5fb7d076c5e7dcf67d31db"
+          }
+        },
+        {
+          "fit": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.fit1.json",
+            "sha256": "34a3e9e92cb6bd0b8fb5e8ab4a0b0c6327fc090e495f9dac75ff531ccf12a9c6"
+          },
+          "symbols": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.symbols1.json",
+            "sha256": "b5eb960391062561c5c6166fbd5abf17ebeabc0c680adc3dc667ad857f648fc7"
+          }
+        },
+        {
+          "fit": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.fit2.json",
+            "sha256": "5b5ef7f061a801be52f66e8169d491928829670318e4e6e520defe123fbbd91f"
+          },
+          "symbols": {
+            "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.symbols2.json",
+            "sha256": "5f0282f43f6ee36316d9ff5bfc9a72c32d465f8a0a73601698e669342f854b58"
+          }
+        }
+      ],
+      "name": "adequate_fit_alternatives",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_control_suite.json",
+        "sha256": "87594b11e54538aafd0d101e42b75f03d34850bff3fa5f3670e4e594ddfe4196"
+      },
+      "name": "unmodulated_and_drift_controls",
+      "status": "PASS"
+    }
+  ],
+  "scope": "declared dimensionless C4 carrier/readout family",
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.information.json",
+        "sha256": "b9f0faa45ff7ed714c9e8cd523e92367018cb2fa69d64d18eefb4064ff550142"
+      },
+      "name": "disjoint_repetition",
+      "status": "FAIL"
+    },
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/unmodulated_clean.information.json",
+        "sha256": "b9f0faa45ff7ed714c9e8cd523e92367018cb2fa69d64d18eefb4064ff550142"
+      },
+      "name": "permutation_rank",
+      "status": "FAIL"
+    }
+  ]
+}

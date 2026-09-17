@@ -1,0 +1,14 @@
+test_changed_raw_bytes_invalidate_an_admitted_candidate (test_decoder_gate.DecoderGateTests.test_changed_raw_bytes_invalidate_an_admitted_candidate) ... ok
+test_control_status_without_evidence_is_rejected (test_decoder_gate.DecoderGateTests.test_control_status_without_evidence_is_rejected) ... ok
+test_empty_controls_do_not_pass (test_decoder_gate.DecoderGateTests.test_empty_controls_do_not_pass) ... ok
+test_every_nonpass_status_blocks (test_decoder_gate.DecoderGateTests.test_every_nonpass_status_blocks) ... ok
+test_incomplete_stage_is_rejected (test_decoder_gate.DecoderGateTests.test_incomplete_stage_is_rejected) ... ok
+test_missing_lineage_is_rejected (test_decoder_gate.DecoderGateTests.test_missing_lineage_is_rejected) ... ok
+test_other_candidate_controls_are_rejected (test_decoder_gate.DecoderGateTests.test_other_candidate_controls_are_rejected) ... ok
+test_passed_lineage_decodes_with_sample_support (test_decoder_gate.DecoderGateTests.test_passed_lineage_decodes_with_sample_support) ... ok
+test_summary_status_cannot_override_failed_test_values (test_decoder_gate.DecoderGateTests.test_summary_status_cannot_override_failed_test_values) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.120s
+
+OK

@@ -1,0 +1,98 @@
+{
+  "small_compact_pair": {
+    "GW_frequency_Hz": 104.01907332669755,
+    "baseline_radiated_energy_over_binding": 9.479631672299294e-19,
+    "circular_GW_power_W": 3356443399.401045,
+    "circular_merger_time_s": 4.9712591617000186e+17,
+    "distances": [
+      {
+        "distance_over_wavelength": 10706384168.333458,
+        "distance_pc": 1,
+        "h_carrier": 1.4297762455397584e-32,
+        "h_modulation_peak_plus": 5.638916383267885e-33,
+        "h_modulation_rms_plus": 6.675870715709596e-34,
+        "rho_carrier_hann": 2.9884472256434744e-09,
+        "rho_known_modulation": 3.7954396520811616e-10
+      },
+      {
+        "distance_over_wavelength": 10706384168333.457,
+        "distance_pc": 1000,
+        "h_carrier": 1.4297762455397586e-35,
+        "h_modulation_peak_plus": 5.638916383267886e-36,
+        "h_modulation_rms_plus": 6.675870715709597e-37,
+        "rho_carrier_hann": 2.9884472256434745e-12,
+        "rho_known_modulation": 3.7954396520811615e-13
+      },
+      {
+        "distance_over_wavelength": 1.0706384168333458e+16,
+        "distance_pc": 1000000,
+        "h_carrier": 1.4297762455397584e-38,
+        "h_modulation_peak_plus": 5.638916383267885e-39,
+        "h_modulation_rms_plus": 6.675870715709596e-40,
+        "rho_carrier_hann": 2.9884472256434746e-15,
+        "rho_known_modulation": 3.7954396520811613e-16
+      }
+    ],
+    "duration_s": 1.8850282320183815,
+    "evidence": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test2.small_compact_pair.detectability.json",
+      "sha256": "f79d4c8848b22936e32651197685d364561bba38e5a45f3753a540fe0394d576"
+    },
+    "mass_each_kg": 1e+20,
+    "omega_rad_s": 326.785556596371,
+    "positive_work_22markers_J": 3.6202556479779413e+28,
+    "positive_work_marker_J": 1.6455707490808824e+27,
+    "radius_each_m": 25,
+    "rho8_reference_distance_pc": 4.744299565101452e-11,
+    "sampled_peak_force_N": 1.8065644204152248e+26,
+    "v_over_c": 2.7250982127473252e-05
+  },
+  "stellar_compact_pair": {
+    "GW_frequency_Hz": 24.255014545495406,
+    "baseline_radiated_energy_over_binding": 0.02141332916331722,
+    "circular_GW_power_W": 1.7126348900805903e+42,
+    "circular_merger_time_s": 94.3811176195985,
+    "distances": [
+      {
+        "distance_over_wavelength": 2496498915.319017,
+        "distance_pc": 1,
+        "h_carrier": 1.3850716754766271e-15,
+        "h_modulation_peak_plus": 5.462605346263089e-16,
+        "h_modulation_rms_plus": 6.467137404414317e-17,
+        "rho_carrier_hann": 151090775.25231326,
+        "rho_known_modulation": 52553928.10018125
+      },
+      {
+        "distance_over_wavelength": 2496498915319.017,
+        "distance_pc": 1000,
+        "h_carrier": 1.385071675476627e-18,
+        "h_modulation_peak_plus": 5.46260534626309e-19,
+        "h_modulation_rms_plus": 6.467137404414317e-20,
+        "rho_carrier_hann": 151090.77525231327,
+        "rho_known_modulation": 52553.928100181256
+      },
+      {
+        "distance_over_wavelength": 2496498915319017.0,
+        "distance_pc": 1000000,
+        "h_carrier": 1.3850716754766271e-21,
+        "h_modulation_peak_plus": 5.462605346263089e-22,
+        "h_modulation_rms_plus": 6.467137404414318e-23,
+        "rho_carrier_hann": 151.09077525231328,
+        "rho_known_modulation": 52.55392810018125
+      }
+    ],
+    "duration_s": 8.084055753560884,
+    "evidence": {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test2.stellar_compact_pair.detectability.json",
+      "sha256": "e977f4878cd5d2ba4b7e8a213e6f07e0da71ae86c5ecb8ffb217cc9556b0492f"
+    },
+    "mass_each_kg": 2.783858e+30,
+    "omega_rad_s": 76.19937550884194,
+    "positive_work_22markers_J": 3.507061731960418e+45,
+    "positive_work_marker_J": 1.5941189690729173e+44,
+    "radius_each_m": 200000,
+    "rho8_reference_distance_pc": 6569241.012522657,
+    "sampled_peak_force_N": 2.187598598422963e+39,
+    "v_over_c": 0.05083475149254218
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema":"GW_COM_DYNAMICS_REFINEMENT_V1",
+  "reason":"The 1/32 RK4 trajectory met tracking accuracy but its accumulated work/energy balance missed the original 1e-5 tolerance. Retain that failed physical-control outcome and refine numerical integration.",
+  "predecessor":"run001",
+  "step":"1/64",
+  "compare_with_step":"1/32",
+  "maximum_state_error":"1/100000",
+  "maximum_wave_error":"1/10000",
+  "maximum_energy_balance_error":"1/100000",
+  "require_state_and_wave_error_decrease":true,
+  "unchanged":["continuous source","control law","native waveforms","carrier fits","residuals","symbol candidates","statistical null and criteria","numerical acceptance tolerances"],
+  "custody":"New dynamics and control/admission records reference the unchanged original lineage. Original run remains intact. Decoding occurs only if refined controls pass."
+}

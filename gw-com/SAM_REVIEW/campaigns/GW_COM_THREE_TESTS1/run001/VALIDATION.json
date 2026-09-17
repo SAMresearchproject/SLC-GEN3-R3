@@ -1,0 +1,13 @@
+{
+  "distance_rows_checked": 6,
+  "evidence_records": 168,
+  "exact_prediction_and_residual_channel_samples_checked": 276024,
+  "full_search_permutation_rank_results_checked": 14,
+  "new_scientific_runs_during_verification": 0,
+  "normal_equations_checked": 84,
+  "physical_scalings_checked": 2,
+  "raw_channel_samples_checked": 138012,
+  "scientific_experiments": 3,
+  "scope": "Hashes, serialization, source addition/projection, exact algebra, statistical ranks and SI/SNR arithmetic; no new grid points",
+  "status": "PASS"
+}

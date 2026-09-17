@@ -1,0 +1,54 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.admission.data.json",
+      "sha256": "b543e446f6bd2520e503e8b946a315158fafdc9c1db2ed807ddaae06231fd2b4"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001",
+  "created_utc": "2026-09-17T15:17:26.201106+00:00",
+  "execution_refs": [],
+  "kind": "decoder_admission",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/METHOD.json",
+    "sha256": "530350d3a0d3835c4173cbe50a37789dbd50f7a9deebbcae958928e71768c8b7"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.raw.json",
+      "sha256": "f890b19ff082ea08e2f9c59c4282a3e2eee1b38cfabebb60ac64f84755142652"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.fit2.json",
+      "sha256": "4e645f963a4f72d6321fae953f4259f5deacdaef2b9eb062ab02694bcff4721f"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.residual2.json",
+      "sha256": "3075f2eaeaccdaff520e1d75bf5bec5c2d27d2c0458079f8682c3c72688787a0"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.symbols2.json",
+      "sha256": "097a634f5b1d3a1b7e92852f6f5f4e37727077894235cf564e657f779e34c3a1"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.information.json",
+      "sha256": "c8844f268c7283147fe14ffe3a8b43201e52029f156190b1b3bad9cd75baaad4"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/records/drift_only.controls.json",
+      "sha256": "99645e03c4cab6ac14aa10800877e1b592de048dc57eb50c60c013eac4771d0e"
+    }
+  ],
+  "record_id": "drift_only.admission",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "amplitude": "dimensionless signed Qxx-Qyy second difference",
+    "channel": "single C4 projected channel; not calibrated detector strain",
+    "time": "discrete ticks"
+  }
+}

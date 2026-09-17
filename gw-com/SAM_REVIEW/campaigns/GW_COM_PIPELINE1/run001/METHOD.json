@@ -1,0 +1,50 @@
+{
+  "contract": "CONTRACT.json in code snapshot",
+  "refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/0___init__.py",
+      "sha256": "fa83a41cbe4e929f47e62b79a2dced1ba8233c0a97b2ba49aa63ba3265ae42e4"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/1_carrier.py",
+      "sha256": "25677bde58e4f101f41c8d1bae29390eaf4e6fa3d3b508fc4f5b96d5ecd0edac"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/2_decoder.py",
+      "sha256": "ceb2ed2fabf5ab5618202c3d3a5e8dd0deec28a7ccf086dc785bf77426ee241d"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/3_evidence.py",
+      "sha256": "f1b7d41cb16cafde46a8e3b6c667189720383e4996daeb9404db49ffe245aa31"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/4_information.py",
+      "sha256": "2e1a48666129bc21ab801ac23173e35111fe5efc99a60b48b9bf8c4ccb17ed7e"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/5_modulation.py",
+      "sha256": "4fac3d099a3ab799bd42e88cbd4ecab477bbe5bc7c127832f08adf428864030a"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/6_native.py",
+      "sha256": "ee7f0fe56e118dbe401eb8ca0692ce7876356c36d5d355a3ad9e7d376c0ff1af"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/7_residual.py",
+      "sha256": "fc509347ecbf6093704c87c47c0316487a2880ea9c237f783e3f396e636f5047"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/8_run.py",
+      "sha256": "68ae99a54e008e8a075188cbefe2ef31803c77428ad2b72ae82758575322e985"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/9_CONTRACT.json",
+      "sha256": "b77dc2e0e3fc3e95e0e4ed3fa9d0dd9ba51db8c22eb5be3464f0ae1ea4274df4"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_PIPELINE1/run001/code/10_H000733_2026-08-28_RH_Q3RHV2_SPIN_ORBIT_WAVE_THETA_STATE_HISTORY.md",
+      "sha256": "b6dbe27768744e201bbda5adba46fb72f325a3e8c4b040fc3521d295f150a066"
+    }
+  ],
+  "schema": "GW_COM_METHOD_V1"
+}

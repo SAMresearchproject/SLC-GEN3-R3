@@ -1,0 +1,49 @@
+{
+  "artifact_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.controls.data.json",
+      "sha256": "cf9b0b277956a412e7d9f06e6d642acde2bffad3a64773b6428b30b695f019d2"
+    }
+  ],
+  "campaign_id": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001",
+  "created_utc": "2026-09-17T16:38:27.692870+00:00",
+  "execution_refs": [],
+  "kind": "control_results",
+  "method_ref": {
+    "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/METHOD.json",
+    "sha256": "e2a7302b414b20fc02c743d9afdaa0ec80488140c75a47a2094b0fdf7ebe8692"
+  },
+  "parameters": {
+    "configuration_in_payload": true
+  },
+  "parent_refs": [
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.raw.json",
+      "sha256": "35bb3b2b5225535fc73c8073520377863c8d3a88f96752f412bb26b097365758"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.fit2.json",
+      "sha256": "fca757983aeda3cfca4a1c57bfefe06ccd4f3f77c420b7519ee1124b92432748"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.residual2.json",
+      "sha256": "f81cb2dfa789a77668442e2835e5e7c2a07d78834191db69a170bcf39d896cca"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.symbols2.json",
+      "sha256": "0346c6d45707946dc07948d516f9141e04561532715899832a4d54cb85fe591d"
+    },
+    {
+      "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.precession_like.information.json",
+      "sha256": "20028b0b7f2f202681b810fb487a14a078d680b99d203b1d84d9db2a996940e5"
+    }
+  ],
+  "record_id": "test3.precession_like.controls",
+  "schema": "GW_COM_EVIDENCE_V1",
+  "schema_version": 1,
+  "status": "COMPLETE",
+  "units_and_conventions": {
+    "time": "dt=1/8 dimensionless; SI conversion explicit in Test2",
+    "waveform": "dimensionless two-channel continuous source until explicit SI scaling"
+  }
+}

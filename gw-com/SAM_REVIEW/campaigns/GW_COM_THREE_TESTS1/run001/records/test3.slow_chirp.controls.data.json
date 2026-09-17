@@ -1,0 +1,36 @@
+{
+  "physical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.fit2.json",
+        "sha256": "0d8c8c3a1fed436263a653152c3b5fd2f8d46a516310bfce41c3c6f0bd37ad89"
+      },
+      "name": "quiet_fit",
+      "status": "FAIL"
+    },
+    {
+      "evidence": [
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.symbols2.json",
+          "sha256": "94f762fab45c5b46e94dbff4ee4089be68b4fedba2534d3cfd62b417fb65d815"
+        },
+        {
+          "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.symbols4.json",
+          "sha256": "d7770cc3d0f0dbf1b08fa6c5aa551f248c8eb8685ff3a6233cd8e493e4fe3575"
+        }
+      ],
+      "name": "fit_alternative_stability",
+      "status": "FAIL"
+    }
+  ],
+  "statistical_controls": [
+    {
+      "evidence": {
+        "path": "SAM_REVIEW/campaigns/GW_COM_THREE_TESTS1/run001/records/test3.slow_chirp.information.json",
+        "sha256": "23df207da7f3b0a1c774c7b8eae925923bed5ad013758ca06793f843f7bc3e8d"
+      },
+      "name": "repetition_permutation",
+      "status": "FAIL"
+    }
+  ]
+}
