@@ -9,9 +9,9 @@ Current edition: 14 September 2026. [Volume navigation](README.md).
 
 # Matter Boundary and Finite Closure
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -603,9 +603,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Connectors, Substrate Atom and Containers
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -1234,9 +1234,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Typed Matter Surfaces and Row Grammar
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -1847,9 +1847,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Finite Particle Grammar and 321-Row Census
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -2792,9 +2792,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Mass, Lift, Debit and Particle Readout
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -3518,9 +3518,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Higgs and Neutrino Packets
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -4161,9 +4161,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Nuclear Ledger and Isotope Families
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -4964,9 +4964,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Periodic and Composite Matter
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -5779,9 +5779,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Binding and the Exact Asymmetry Bridge
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -6685,9 +6685,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Carrier/Container Return to Accumulation
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -7732,9 +7732,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Theta18 Carrier and Tensor Return
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -8313,9 +8313,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # ATOM3D Theta Matter Reception and Re-emission
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 
@@ -8595,9 +8595,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Finite Particle Grammar, Starbreaker and Binding
 
-## ATOM3D: contact, grammar and signed decoding — 14 September 2026
+## ATOM3D: source construction and learned templates — 16 September 2026
 
-A3D41-T18-CONTACT-R2 uses SLC-GEN3-R3; A3D41-RXT-R3 supplies the joint native successor. Ordinary contact retains four minima and 113,664 agreeing readouts. Li-6 grammar retains both selected covers and every tie across six placements and 128 rho settings. Two Write responses and a signed N01 bit recover all 192 tested configurations. The test result suggests strong contact with the concept. The separate distinct-selector and physical-coefficient/MeV work remain owner-paused.
+A3D41-T18-CONTACT-R2 uses installed SLC-GEN3-R4. The source roster retains 3,496 targets and 3,489 assemblies, including 1,737 connected assemblies (H001479). The learned generator retains 1,872 templates across 25 inventories and 137/138 held-out continuation decisions (H001480). New-basis recipes cover all 68 formerly blocked inventories; their new assemblies remain to be constructed. Physical binding and stability remain unassigned. The test result suggests strong contact with the concept. Earlier contact and signed-decoder results retain their scope; the distinct-selector and physical-coefficient/MeV pauses remain.
 
 [Current derivations, code and results](../../research/atom3d/README.md).
 

@@ -1,0 +1,574 @@
+{
+  "date": "2026-09-14",
+  "predecessor": "752918630e01dadbe88ebda5a024861ebb9a9234",
+  "chapters": [
+    {
+      "path": "SAMA/vol_i/01-foundations/foundation-primitives-and-partition-algebra.md",
+      "domain": "general",
+      "previous_sha256": "e056daa3ffc00992c05383992d29899fefadf352770ff6efd001ac4a0e0a733e",
+      "sha256": "e15139d6b95a5d1fb62d8ca561ebfc2a8384fc9497301a946593b6b506fb3b64",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/01-foundations/universal-accumulation-floor-a0.md",
+      "domain": "general",
+      "previous_sha256": "d072da7620afcfc038729f4c57f6fb2daa716c435bce235c25cf135434cf96a6",
+      "sha256": "a9a509551b00d4f0df20a76c7f95792c68e89add380348a7b649ee0cde5bf1a5",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/01-foundations/spherical-source-accumulation-lift.md",
+      "domain": "general",
+      "previous_sha256": "66cc9b27e4ef5f764c9e9a41283fdbedca8fd17dbb743676ef678aa216c18dfe",
+      "sha256": "9f6bc310e327b4c4304c218435263d13ef1247edfbd972fe5e82682eebb4849b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/02-gravity/typed-weak-field-readouts.md",
+      "domain": "general",
+      "previous_sha256": "b984be08bd71a942aef72ceae2222620a44d982b2344334536d97a712a9ecfe3",
+      "sha256": "0267a55c392c93054ffae0a483902dd7d3baafdf7296f877e1eccb1d3223663c",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/endpoint-clock-comparison-and-time-dilation.md",
+      "domain": "general",
+      "previous_sha256": "450170dc5b067b5cac9d6aed2eb3c849cb1fb0215bb6bb8fa77e00d51a329cdb",
+      "sha256": "09003161a258ddf9cc09ee5cd1a14d7335202a484436d5e0415013913961d4d1",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/optical-clock-height-holdout.md",
+      "domain": "general",
+      "previous_sha256": "d9cdfc82861591e45c7b22fe2d4ed4e909acef1f83e2bebbc12656c033ee1f6a",
+      "sha256": "215f71a2d0eb339bfadc4f4737b59ba85c5b37b85ddd3764a658f6cb9481dfc7",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/photon-road-accumulation-and-shapiro-delay.md",
+      "domain": "general",
+      "previous_sha256": "ed6f6667be82717bba2b5a1702b25926710e04c71b12e821e6a9d10e424ca47b",
+      "sha256": "25c2aaf41a064d904ed84982d12e133ba1ad2d823261780bbeb7a38c7e895137",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/binary-pulsar-road-holdout.md",
+      "domain": "general",
+      "previous_sha256": "9a7730a759ba3c5d9ba91aa2fc0a8cad546f1c5e8b46c7438ea4f5f64d5233f0",
+      "sha256": "6090cb7cea010d641108dbf84091156f570d5ad725e32c3f3ed93130e6f9ecea",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/invariant-c-and-effective-traversal-readout.md",
+      "domain": "general",
+      "previous_sha256": "662b1ed48a45d1c11cfa648f2ef508b291990fc9a0e7f4cb543cdbd1ae89a803",
+      "sha256": "1ba2b2abea3cfe353681bcb5fc42bf716ce5d7fb0fe5e1cfff915d0cab80880b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/local-and-cosmological-road-distinction.md",
+      "domain": "general",
+      "previous_sha256": "70b2be7de282b740c9c4bc6533616d5bccf5f2fbc90d6e2b29802c85b74872ff",
+      "sha256": "c07d47d3e90b38604e26f96379bbe3acd83622969413388ffb210834f1122060",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/04-black-holes/strong-field-a-coordinate.md",
+      "domain": "general",
+      "previous_sha256": "a28060ebe498e5d1d5d19da67693eb91d06dd98833dd9148719d15de231fe198",
+      "sha256": "5c167e5450d295a1f7685fe54c0722362e3d29dcbe94600219e27120bca076d3",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/04-black-holes/horizon-lapse-and-exterior-traversal.md",
+      "domain": "general",
+      "previous_sha256": "d62e6bb6af3acc224a52804341b878fcae888feee79507a92b7409a29d90c963",
+      "sha256": "1dd5e7b7e6b5c1b6aa2c8eb662bed497761efb4495c061ba3df0aa02b47c5980",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/04-black-holes/photon-sphere-and-shadow.md",
+      "domain": "general",
+      "previous_sha256": "f073fbd56d7facfa5c3345944ae3ad6a1adc096bb8d20455c9513c2954a2dd6c",
+      "sha256": "387705a1495ef096a03c35c74428c0a8244cfd35f60dd040eed0d000d4f49c58",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/04-black-holes/isco-and-timelike-orbit-landmarks.md",
+      "domain": "general",
+      "previous_sha256": "276b13ffaeec84eb8a2514a2bfe4dbf6486296500477a2ab6059c520b10fd8a0",
+      "sha256": "9bdb1dc053cefd0f521d3a1a79e52f88f3aed23e4767595403d6de83fba7894a",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/04-black-holes/horizon-closure-and-thermal-readout.md",
+      "domain": "general",
+      "previous_sha256": "679f100ee3d5fc0095599ec000f09b81e5dbe9af9883ca6ffd59551a90ea5e7c",
+      "sha256": "8c1492675d39df038db2a8b5eae24800957a0755a197af8dd17b71901deb2b31",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/supernova-distance-road-operator.md",
+      "domain": "general",
+      "previous_sha256": "aa0eadd6081126c147b70eed40ce91c7b1b5ec773718e26232c58bbb789cfcca",
+      "sha256": "aed7e0d72203584d4be10fec5f26000150f563c539eff21fa4166d4b4a13a638",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/bao-and-acoustic-ruler-road-bridge.md",
+      "domain": "general",
+      "previous_sha256": "dabdf5d41a5c640010fdd99ee41ab9197bd96811110ad52408246f7ee971f946",
+      "sha256": "38df24196190f82f769597c38c32c34b05cac7157e02eb2f4e57aad1ccdf6837",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/cosmic-inventory-from-accumulation-floor.md",
+      "domain": "general",
+      "previous_sha256": "a1b21956a0564ab20c0791771cbb382832db8337f3551be4154d524f8a200f82",
+      "sha256": "479bf7fe38325dd40f5632ad8fbf98b24f88c46d74dc93924beb7da9fea54ebc",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/baryon-to-photon-and-hubble-cascade.md",
+      "domain": "general",
+      "previous_sha256": "4741e5cf2dff8a5388d0b4d45a38e2fff9af3da57247e5cfcdce2bf76b62f94d",
+      "sha256": "a381c4d6358a3cb0dd6f378e8b371334c2149d2ca2ec2d87e55a5c1cae4d58bd",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/recombination-and-acoustic-geometry.md",
+      "domain": "general",
+      "previous_sha256": "f107acd914d5935334cf51f20b6b7feb41ec7b00f192e3672cfa7f99f69aafd4",
+      "sha256": "788ad47859b874c2f218e5c10dc0977341166e9132ab8d9140da198756caa833",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/full-cmb-shape-route.md",
+      "domain": "general",
+      "previous_sha256": "9657a17f6c41a076405a4937f504e9a12fb5f24ebdcde08d686b1fa821b009c9",
+      "sha256": "0e166e7de99f55397627aa6c5646dc916f4bc2d809b5518c9188e8dcc86668d0",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/05-cosmology/cosmological-fate-and-completed-surface-boundary.md",
+      "domain": "general",
+      "previous_sha256": "31437314ab6522468adee769b0c30a83f302cd8e66836114adf6dafe0a10a669",
+      "sha256": "95eaa5e6cda5106908596a93059656f1e9a3eee71f1ab6922fb977ff953561b7",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/06-galaxies/galaxy-halos-and-mass-distribution.md",
+      "domain": "general",
+      "previous_sha256": "6e9f4c93f5844eba19d15ee240a0716fcd5f9903ee018be6c88c457716d0bb36",
+      "sha256": "a0f773ffe0729377944d73aeb6131aecc9df82ab07f6531bfe90fe1cb2c1d452",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/01-matter-foundations/matter-boundary-and-finite-closure.md",
+      "domain": "atom",
+      "previous_sha256": "d70ce320838c9a19e5ae4f1bd4601f58b4129ea2b5460c75df91c7acf87f63c8",
+      "sha256": "d13815dbb0318691ddac7fd7109053037f26ee9d1f8d3df3eb2475bada58d376",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/01-matter-foundations/connectors-substrate-atom-and-containers.md",
+      "domain": "atom",
+      "previous_sha256": "8bdb943b2752a7a4694e87b610990d0a3174a776bce95283dd41ff2bf25bcd06",
+      "sha256": "3e31e43d81e08fd7f61720167776daccf87cf758aafd1a9c793e9b1ca36a754f",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/02-particles/typed-matter-surfaces-and-row-grammar.md",
+      "domain": "atom",
+      "previous_sha256": "764c43727d7434f6455e44c2557671d4524a3be5c5e35375ca20ea0363ace42a",
+      "sha256": "dd30c9dccc1c69d512c1a5eb26ad23dfa45f91d3ebf79a9341d14c18a527b06e",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/02-particles/finite-particle-grammar-and-321-row-census.md",
+      "domain": "atom",
+      "previous_sha256": "17c0cb1eeb97ea35ba9917ef7b57cc92cd7e26a3ffa3bd10269e608cf2ea17e5",
+      "sha256": "c2992a4b113d76fb4ce13e6d3b9b09c409db114f7669e573cc6b42fb51a22d54",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/02-particles/mass-lift-debit-and-particle-readout.md",
+      "domain": "atom",
+      "previous_sha256": "5e47dccb858d0ff90e819a949bfac98242525a63bb3726f481203eea1c8617e0",
+      "sha256": "aea9570f18e5be6ccade651b960f76844ae764ff611721419edba299c09de0bc",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/02-particles/higgs-and-neutrino-packets.md",
+      "domain": "atom",
+      "previous_sha256": "ee42ca4dadb32429d4adbfd3308a496b585f437bc76e72a62a4ae7e618d7cb09",
+      "sha256": "57fc22547b8926761bc82d557be51e7c03d25fc0df2899bb67bfbd09b792d72c",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/03-nuclei-and-elements/nuclear-ledger-and-isotope-families.md",
+      "domain": "atom",
+      "previous_sha256": "b5dc1f8ddb17c0e01743c6f4f357ca9f5d8b7ff15c0f1168b957bb7b5c2e345d",
+      "sha256": "46b79a389bf65df3da58a010f4f26b636066acdade20c63127be5cab28f3616c",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/03-nuclei-and-elements/periodic-and-composite-matter.md",
+      "domain": "atom",
+      "previous_sha256": "8141505a9d554c091502e1527206151c810e64bd217d26330fb265c45a100ed0",
+      "sha256": "7a484cec93221da8bc5ddeab84dbc955aacb3627a5f668a59b78f44e501f1052",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/04-binding/binding-and-the-exact-asymmetry-bridge.md",
+      "domain": "atom",
+      "previous_sha256": "a85f867ec3eb3393980f0a9e3d424065866a9bc71e329710ebf8c915de5f97ef",
+      "sha256": "7e0ea779bada3cc3a40e96b7eeb467e10e1dd00892750715ea5b2f6a1546525f",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/05-carriers-and-reception/carrier-container-return-to-accumulation.md",
+      "domain": "atom",
+      "previous_sha256": "f085d2100fdd948de31b9e34d9e38cac48b78fe46ae21a4dc0971b37898aaf80",
+      "sha256": "97466d52fa3f91a2d40ee562372fa0bf0f4a036d4dbe5aa828e54d722c82dc6d",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/05-carriers-and-reception/theta18-carrier-and-tensor-return.md",
+      "domain": "atom",
+      "previous_sha256": "f4f6ed2c3eb2333f8c6aa382465958dc997553b02bfb2f0a8c0607fda4d97864",
+      "sha256": "d2f9e3b190f58af9eb69a8ebd5b5474530b260a8ff5c91fd13579841f3aea3cc",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/01-grammar-and-language/n100-computational-grammar.md",
+      "domain": "slc",
+      "previous_sha256": "42e13e8efbd1f9aa59c9020b6c4610c29ccef402a6a37cfe26361d07e714e8ab",
+      "sha256": "c1c26110cafb8ecdd888bb8560d7b59da885e16e0783ae003ed75bc235ac30c4",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/01-grammar-and-language/sam-language-and-exact-program-semantics.md",
+      "domain": "slc",
+      "previous_sha256": "27b8d180b3b23bf94f8a45492d4f0e23452b24364f5fd719c951db3beca07112",
+      "sha256": "1e0e113c51029c7cfd3067e39e310b18a043a6f38566cb5673b2e0ec67186161",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/02-slc/exact-state-spaces-and-slc-computation.md",
+      "domain": "slc",
+      "previous_sha256": "9f2215c8b2b576c214064de0b842d349d138d40649c12c39a0eded97d8a5bf91",
+      "sha256": "d97ba95219496c099c7ce597a15cca98aa4bf4c1ff1ed99693e4b71bad888f21",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/02-slc/h14f-grammar-to-work-factorization.md",
+      "domain": "slc",
+      "previous_sha256": "d3f3da21a76a8c2bd09e5fd5298abb536b248814512e74b6da316d819c4f5ea6",
+      "sha256": "0b53b7230e7ccce97ac9a30d638f8149abad9a5ffc374e61b96c6ceea51e83cf",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/02-slc/slcq2-rz-ordinal-selection-engine.md",
+      "domain": "slc",
+      "previous_sha256": "a8ebf7a41e472bc441f3b6aca29febbe383d039dc28f69035c0c0150885936c4",
+      "sha256": "ec7290f8b760e093aa226e9d99d40607f9090bae415cc5b161a594198d78104a",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/03-writes-and-history/exact-algebra-and-complete-exact-write.md",
+      "domain": "slc",
+      "previous_sha256": "a255f874fc9e51722325c1984c3bb2c445f8b5d152550855f407f0c51027957a",
+      "sha256": "31e9ef37438ea8efaaa05f52e0952864b55e9120313d2a6b1c42407d60bc57a7",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/03-writes-and-history/w8-x1-w9-lifecycle.md",
+      "domain": "slc",
+      "previous_sha256": "fd29a5b7cedee9265c637b2d1be5000ba73c446a8434616022c33d99b5100820",
+      "sha256": "650b76d71fbccf0559259ffdf47209e4ecbd4a71d7a7cd16a78cf8e4f6662a2b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/03-writes-and-history/directional-history-and-event-reel-computation.md",
+      "domain": "slc",
+      "previous_sha256": "9779389a557235d3515e44e3556025166e620222fe9c31c465ffb759b6d8839b",
+      "sha256": "25a3e13fe3a324005d3791489010a5131a35f43cf97587486cee9211b3594da7",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/03-writes-and-history/reciprocal-history-and-the-rh-route.md",
+      "domain": "slc",
+      "previous_sha256": "9def93abdb6794a70548de198020c142fc66316609360101fd10366964969978",
+      "sha256": "115a9204adc0883c441dc50560c7915572d7be397a2e4726120439e5b1f9986f",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/04-starbreaker/starbreaker-formation-engine.md",
+      "domain": "sb",
+      "previous_sha256": "c084b715843492b12c1418e7b0eb3e358f110d97f7323c8c82a9ff8e5ee6e318",
+      "sha256": "af3030fdaa5a3118a30064eba0953e0d61b79f6dcacd775e3c196cc8705fdaa6",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/05-primes-and-jacobians/prime-ruler-and-mersenne-application.md",
+      "domain": "mp",
+      "previous_sha256": "a83e1f755cfae21ae5278ab00471be11164d699cdbfa2200019b0f61806409ac",
+      "sha256": "ee9bee1654f253e8db91d20681515699bab4445e497e88cda7d0d11420d84227",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/05-primes-and-jacobians/jacobian-program-and-clean-restart.md",
+      "domain": "slc",
+      "previous_sha256": "e87bd2172f3d8b30c6800ec3832a6f946891d179a52ba708ba0cc2c8f01e6592",
+      "sha256": "e762e6bdcceda33f420da0867ccdfdd2e343f9d34265b374069a2feb94812311",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/06-connections-between-volumes/nonzero-amplification-quantum-galactic-bridge.md",
+      "domain": "slc",
+      "previous_sha256": "af5ce1dfeb87a537a11207eb9869d941c1adb98952de31dad6f671506d14cbb7",
+      "sha256": "35b27abc8d40c5c4282800f70a21bae3631ce4e0be1daeecbbac7e9ca5f25ff9",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/06-connections-between-volumes/relational-nonzero-amplification-interaction-closure.md",
+      "domain": "slc",
+      "previous_sha256": "a225dccc70f6fa70e6970ac3cd56e19d4ecf204de3e4dcd0c3c09dc1c7e331b8",
+      "sha256": "e55d7f282cda4004a2e1ce07712d16538e3d19b89fb832fc3a9cf6fccbb3a533",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/01-question-and-foundations/rh-question-and-selected-completed-weil-criterion.md",
+      "domain": "rh",
+      "previous_sha256": "b941df1778bea3047c79a2eec89c4f80f1f63a78220a785bc05a93a1d5ce7cc4",
+      "sha256": "097a909891d8c528c7c29b9f74a93ac488f712eee64c25e61650efc1b80e0fa9",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/01-question-and-foundations/rh-radial-compiler-a0-closure-and-log-coordinate.md",
+      "domain": "rh",
+      "previous_sha256": "49b9b9f0eea5ef0cef3f01e58165ce0b7f47e23fb7672da7e9faeee38d6f435d",
+      "sha256": "9a8a8c6d332499dbff220e13cd5c486eb2c0d120bb7002529658c533cb2c10bf",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/01-question-and-foundations/rh-reciprocal-history-native-norms-and-exact-write.md",
+      "domain": "rh",
+      "previous_sha256": "8ad41a285801678b531f620399b612d1511d14e73050c4d6b9cb164265887bd3",
+      "sha256": "bdc24bae4cead116fc689f4e05551510da13f9e3485c19d6cd286c0804ad020a",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/01-question-and-foundations/rh-completed-xi-d0-and-exact-weil-form.md",
+      "domain": "rh",
+      "previous_sha256": "a87843871b8654ad6e6a2ce1c5884b07b71b167e2fc2d069f1494e43983a373f",
+      "sha256": "1c17f7c915ede4c4362ded8438c0c11885fd165609c4fd0eaf44b27dc2910427",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/02-sign-and-factorization/rh-sign-transport-and-phase-e-completion-boundary.md",
+      "domain": "rh",
+      "previous_sha256": "b4925db5f84a1c4d97426bed1d6d9566808c022a57a66c5dfd5f852613c49c6f",
+      "sha256": "a987e6e202bffe445bb044aa694e8e259e4dfc0f9d0435e7bf03c7bf011b78a1",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/02-sign-and-factorization/rh-rg0-fx1-receipt-gram-and-balance-eliminations.md",
+      "domain": "rh",
+      "previous_sha256": "82d20f689fd3c9323c3986e494dba45e692bace20962b0d344cbf5fd0665504b",
+      "sha256": "8d11613e48e1965fc716a83d7ddd5036bf70aa428b6e6a194572bec015227e9c",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/02-sign-and-factorization/rh-pb1-pb2-factorization-w9p-theta-and-afc-defect.md",
+      "domain": "rh",
+      "previous_sha256": "f9bdbc146af1edcba6e26417a0cf95bce27232ca7a4be303d81a613d89cd4b4c",
+      "sha256": "b84350a330b7714e4f907c378d5cb733f3c710badcff50ceee2bb35238e96f4e",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/03-source-and-carriers/rh-source-measures-pick-kernels-and-weyl-limits.md",
+      "domain": "rh",
+      "previous_sha256": "5ece8147cfafaa610468a5a23c8716b051231a63c754be68e87cbe05d88bd725",
+      "sha256": "d261812b437602a64af6de98b3dc8cc6548d9c052e8f62e37f5f9f138479102d",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/03-source-and-carriers/rh-exact-write-event-reel-theta-grams-and-afc-composition.md",
+      "domain": "rh",
+      "previous_sha256": "1c154b5e8774c990ab055504fc662ca95c72cd808acdf830bf538e8d886b5bb3",
+      "sha256": "654afa7fcaf8f15276cdcc47670d8289b7d2ebd35452a114945e58ad19f4de8c",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/03-source-and-carriers/rh-gamma-schur-robin-and-adaptive-carriers.md",
+      "domain": "rh",
+      "previous_sha256": "7a65cd270ce63bb1700a5f591cf777ecfa42e3f8966fb0314fa8b4a4f19f58a7",
+      "sha256": "693c22c9558a870751f4a788f5ca74ef32fe8dd0b5fd47d853ff77ba9892b295",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/03-source-and-carriers/rh-collective-spectral-bridge-radau-and-q2-adapter.md",
+      "domain": "rh",
+      "previous_sha256": "05229126f7011df0d875e02d62dd861bd4acc72cd31b6383653deb6c94765fa5",
+      "sha256": "e67f535f11dc69ae81ca4a959daef612e90835b58ad2c8f49d45a7308653c9c1",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/04-tail-and-transversality/rh-natural-tail-dirichlet-green-chain-and-frontier.md",
+      "domain": "rh",
+      "previous_sha256": "7463235d894c406c15660072d1be5ad0eac49270feec472e20333d6ee499a15a",
+      "sha256": "11eb60cc205ff8e6c836accecbb4c3506af76ef98a7b87f9c3fd35011259192e",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/04-tail-and-transversality/rh-rii-barrier-and-completed-source-transversality.md",
+      "domain": "rh",
+      "previous_sha256": "cfec07242975692d04d7b839da122af63bde57d86aea22fe82b3cee56ea92e30",
+      "sha256": "c1cedcca18efb524c5e39a6b8d8c6ebd52ecf3a59bde4e43179061d9ef1615d4",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/05-results-and-corrections/rh-meaningful-falsifications-corrections-and-successors.md",
+      "domain": "rh",
+      "previous_sha256": "8aa2f79acf4dc3e715aa5381c53df7629f417c64606fbc7c23ff5c0fc00d0a0d",
+      "sha256": "f5a491374a21508caba8b0115a5214d91e08117623023b014ebda3d3cfc8b7bb",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/05-results-and-corrections/rh-evidence-public-custody-and-reproducibility.md",
+      "domain": "rh",
+      "previous_sha256": "353d1c37bf66f1b7f849e4aefaea2e31304b4ea8bd3162cafb65eb41f97263b1",
+      "sha256": "3746eca65166153d2a94fa6e2074d6acdab4aa96e7ff982b8e39af4e7bb81c04",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/05-results-and-corrections/rh-current-result-open-boundaries-and-external-state.md",
+      "domain": "rh",
+      "previous_sha256": "330d907691c49ec6fa639426711d1a5b838fab3873e07dab3913b548181646f9",
+      "sha256": "27d9635e3242c4d8bd877d60698d285f7968e41d93102910e9b6b88017d35247",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/collaboration-coauthorship-and-fixed-attribution.md",
+      "domain": "general",
+      "previous_sha256": "3369b57dca2589d655a30d6af8dea9d67b2816fd38c3bf99cfc44223a04b7b7a",
+      "sha256": "6857ab7edbf1fec4b3e0fe59e6a3fb590fe695da57fd9ae9739a46c9efa217c2",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/authority-evidence-custody-and-source-precedence.md",
+      "domain": "general",
+      "previous_sha256": "f49285d8b327e284d7641dff111fd0e5c55348d74929336dade30028e0bfe7d6",
+      "sha256": "027959b246dbecbd64ba70af239144eaf343578106f5879ec83c2a902cd82c3b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/exploratory-and-established-reference-testing-modes.md",
+      "domain": "general",
+      "previous_sha256": "9cde5e1091c948be2e7ceb06e3105c2c7d7305e24f9fcf60465c59bc351b5c2b",
+      "sha256": "e6adaa6ba985de8abd3d84886461997a7c852631e78096ef597a5ad2bcd5c93b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/concept-to-technical-campaign-translation.md",
+      "domain": "general",
+      "previous_sha256": "f5346a744a159c66479a66303277a8da507c7182b1b5971b08e25c6708441568",
+      "sha256": "f6837d19f744642b31d9da862e377e2788f870e4a69509323f90e22a6543ee9b",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/wrong-controls-holdouts-and-diagnostic-alternatives.md",
+      "domain": "general",
+      "previous_sha256": "a3fe719c15ac09dae194b38201264aa8cf845d8ddcd9036e89dbf7d896e28cc9",
+      "sha256": "180406bc0fec807479e74d2a5958f056ef39a2d5954968b52a946603ca0c5009",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/failure-preservation-corrections-and-successor-repairs.md",
+      "domain": "general",
+      "previous_sha256": "6683c73c8572d6220fc7d2960900c87eb7a5f020bd5e6c71fcdf39c01d6dc877",
+      "sha256": "807b98a2a3a7b0bd73b05c8f3345db50c44479ddd0d2f43a2f22e8d5a1003b78",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/result-language-and-historical-status-typing.md",
+      "domain": "general",
+      "previous_sha256": "87d6e1fc8ddde855188d49663c9fbf0af6c1118d7e5911c9f9562a8c708065ae",
+      "sha256": "775bd08e779f2251b20ec43bb2610f6eef5b349f6f8ee432a47c33cc75ad1e51",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/discovery-intake-bounded-promotion-and-owner-review.md",
+      "domain": "general",
+      "previous_sha256": "874d7a8ecb18779b120fd224a0d9c16dd8f216d6788cabd8a264765fa41bd4d1",
+      "sha256": "5232263b946879b9bea857a795fc0970ffbec297f2c1666112db4637841c6fa2",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/research-methods/retrieval-compaction-handoff-and-publication-boundaries.md",
+      "domain": "general",
+      "previous_sha256": "31479867265370b36f9605d33fae24b12cbfb1e93950fde9eca5463a9c2fd869",
+      "sha256": "43250dd53a960aa6a87fd4c0563fed515d6d45c0f462a5cbd538fb50865d5278",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/05-carriers-and-reception/atom3d-matter-reception-and-reemission.md",
+      "domain": "atom",
+      "previous_sha256": "e093e025c4e64f303999f922f3443f366ff292402e929414a106e3377ca4caa9",
+      "sha256": "e2dfe99db2b71faf6883b598464eacf842e796a7948b1c81479e0ab480057c47",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/complete-volume.md",
+      "domain": "general",
+      "previous_sha256": "a59c132439649d68d284b04fc179b9fd8b8c2dd3cc00baf16ee5e462eaa50413",
+      "sha256": "5bd8aa7ca289c6021b8adf7aa8efd20a76299826619f7680e320344210077f07",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/complete-volume.md",
+      "domain": "atom",
+      "previous_sha256": "d26e318a5d574152c7cfa002b2e2fee37f8e8645ee7f81568f7c20d99103ab25",
+      "sha256": "1c4a2162409eb9817c5c1dd74456bb562773520b0e55d4a0fea1fdedf89e9e47",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iii/complete-volume.md",
+      "domain": "slc",
+      "previous_sha256": "1ac90e995052f1d838a238bd234e50525b071338f8adc63999e245f43289f141",
+      "sha256": "632a3c2e075407fa5451d9775e825086e3977a489f149e2e14f18190af76bedf",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_iv/complete-volume.md",
+      "domain": "rh",
+      "previous_sha256": "bef9d306debad9219c8cd0005863d114fd7ea0e4e7388bb9b9823c039229b90d",
+      "sha256": "fcdfe8541acbec6d489f4456b2989e9091188ea5bca77408c92ff74833dbb6a3",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/methodology/complete-volume.md",
+      "domain": "general",
+      "previous_sha256": "85d030ccc3f8cd027a387542d9bbd4b98faa5333bf5c086146786492b29b2fb1",
+      "sha256": "935d1e02894822caa1dd3b55b5ae7222b35a65f1a9e839755e7c0ffe71441dc1",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_i/03-clocks-and-light/complete-argument.md",
+      "domain": "general",
+      "previous_sha256": "0f681a2a4280f9e04f1a19a82521c6db4722788469038e675250fac19e79e6ed",
+      "sha256": "507b31352bb46da5228a2edf64923228748601ca7d8fdf6e8940549fd0ec9fe4",
+      "reviewed_and_approved": false
+    },
+    {
+      "path": "SAMA/vol_ii/02-particles/grammar-formation-and-binding.md",
+      "domain": "atom",
+      "previous_sha256": "59ef7d76d952324695e6ebf60fa6c5846481e3cdea401d9301cab1447773157c",
+      "sha256": "dca600f0e6f9932713f6aac80311e2e721fe5f76c5e41b61296341d32a63e914",
+      "reviewed_and_approved": false
+    }
+  ],
+  "meaning": "Maintained chapter revisions; original MIGRATION identities remain preserved; no atomic approval inferred."
+}

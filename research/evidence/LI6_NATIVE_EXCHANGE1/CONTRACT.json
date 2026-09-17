@@ -1,0 +1,13 @@
+{
+  "operation": "LI6_NATIVE_SPECTRAL_CREATION_EXCHANGE_R1",
+  "question": "Construct spectral creation operators from the retained three-channel source recurrence and test closure of their ordered quadratic products.",
+  "sources": {
+    "SAM_REVIEW/campaigns/LI6_NATIVE_BETHE1/INPUT.json": "ab9199eefaf169e37726a8fe3e9d03712fcd4499121414520debff31a91d02a3",
+    "SAM_REVIEW/campaigns/LI6_NATIVE_BETHE1/RECURRENCE_RESULT.json": "4fc012ae30c422edb48dd55190136b2c5df98eaa518d10cd67e0218962e7f037",
+    "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/PLAN.json": "adcf8124761ebe25f7eb076d3fed1d54fa29a4b6ed0c95f995cf7c8d8e1da438",
+    "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/exchange.cpp": "80b5a6241d8f682cb5dd64fffba02e8f3bbb77787021fc9f2ecc661e9d4ae0f4",
+    "SAM_REVIEW/campaigns/LI6_NATIVE_BETHE1/exact.hpp": "92d0cd4a87ac5d5ad5523123eabdf97074339153be3465d79fe30fab060e0c58",
+    "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/native-exchange": "e2f8a50a328dfa18bed1f26b41f89b17b8f581699db9b965ef89b2a760fee353"
+  },
+  "generation": "GEN3-CERTIFIEDLOG1-20260915-G1"
+}

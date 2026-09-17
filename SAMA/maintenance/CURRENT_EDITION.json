@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "predecessor": "752918630e01dadbe88ebda5a024861ebb9a9234",
+  "date": "2026-09-16",
+  "predecessor": "3f8a03cf7e9eb00c1ff6ef0121b13b2dedf08f41",
   "chapters": [
     {
       "path": "SAMA/vol_i/01-foundations/foundation-primitives-and-partition-algebra.md",
@@ -166,141 +166,141 @@
     {
       "path": "SAMA/vol_ii/01-matter-foundations/matter-boundary-and-finite-closure.md",
       "domain": "atom",
-      "previous_sha256": "d70ce320838c9a19e5ae4f1bd4601f58b4129ea2b5460c75df91c7acf87f63c8",
-      "sha256": "d13815dbb0318691ddac7fd7109053037f26ee9d1f8d3df3eb2475bada58d376",
+      "previous_sha256": "d13815dbb0318691ddac7fd7109053037f26ee9d1f8d3df3eb2475bada58d376",
+      "sha256": "0b1902f77a70950ae853c5e3a96d2fe09646d2949b518bfa9d461772f275aa22",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/01-matter-foundations/connectors-substrate-atom-and-containers.md",
       "domain": "atom",
-      "previous_sha256": "8bdb943b2752a7a4694e87b610990d0a3174a776bce95283dd41ff2bf25bcd06",
-      "sha256": "3e31e43d81e08fd7f61720167776daccf87cf758aafd1a9c793e9b1ca36a754f",
+      "previous_sha256": "3e31e43d81e08fd7f61720167776daccf87cf758aafd1a9c793e9b1ca36a754f",
+      "sha256": "7467f7f893621f85ce91d15d8f008ea5cd8f51ca466dca60eb393ca304c86380",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/02-particles/typed-matter-surfaces-and-row-grammar.md",
       "domain": "atom",
-      "previous_sha256": "764c43727d7434f6455e44c2557671d4524a3be5c5e35375ca20ea0363ace42a",
-      "sha256": "dd30c9dccc1c69d512c1a5eb26ad23dfa45f91d3ebf79a9341d14c18a527b06e",
+      "previous_sha256": "dd30c9dccc1c69d512c1a5eb26ad23dfa45f91d3ebf79a9341d14c18a527b06e",
+      "sha256": "3c33f82c069a14f09c9a0e64ba2b48453430ba1b41a32ef46a462d9a954e29b8",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/02-particles/finite-particle-grammar-and-321-row-census.md",
       "domain": "atom",
-      "previous_sha256": "17c0cb1eeb97ea35ba9917ef7b57cc92cd7e26a3ffa3bd10269e608cf2ea17e5",
-      "sha256": "c2992a4b113d76fb4ce13e6d3b9b09c409db114f7669e573cc6b42fb51a22d54",
+      "previous_sha256": "c2992a4b113d76fb4ce13e6d3b9b09c409db114f7669e573cc6b42fb51a22d54",
+      "sha256": "0941be044d16b864ab4c28cb0c2c77099435005c29055e799a300fcc393e7cdf",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/02-particles/mass-lift-debit-and-particle-readout.md",
       "domain": "atom",
-      "previous_sha256": "5e47dccb858d0ff90e819a949bfac98242525a63bb3726f481203eea1c8617e0",
-      "sha256": "aea9570f18e5be6ccade651b960f76844ae764ff611721419edba299c09de0bc",
+      "previous_sha256": "aea9570f18e5be6ccade651b960f76844ae764ff611721419edba299c09de0bc",
+      "sha256": "c305b96e254c7a2e30b986a0474f87727e8192fc0509aa060e5c69fc978070e0",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/02-particles/higgs-and-neutrino-packets.md",
       "domain": "atom",
-      "previous_sha256": "ee42ca4dadb32429d4adbfd3308a496b585f437bc76e72a62a4ae7e618d7cb09",
-      "sha256": "57fc22547b8926761bc82d557be51e7c03d25fc0df2899bb67bfbd09b792d72c",
+      "previous_sha256": "57fc22547b8926761bc82d557be51e7c03d25fc0df2899bb67bfbd09b792d72c",
+      "sha256": "0cc0d6a98e4b35a51c98f067ec7b1367fd255701879db7b3bb6bf8d1aa74a672",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/nuclear-ledger-and-isotope-families.md",
       "domain": "atom",
-      "previous_sha256": "b5dc1f8ddb17c0e01743c6f4f357ca9f5d8b7ff15c0f1168b957bb7b5c2e345d",
-      "sha256": "46b79a389bf65df3da58a010f4f26b636066acdade20c63127be5cab28f3616c",
+      "previous_sha256": "46b79a389bf65df3da58a010f4f26b636066acdade20c63127be5cab28f3616c",
+      "sha256": "eff0172e80d4c63e3d69c601ab072486d608f8243d7c91716b4f8581ef8048d3",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/03-nuclei-and-elements/periodic-and-composite-matter.md",
       "domain": "atom",
-      "previous_sha256": "8141505a9d554c091502e1527206151c810e64bd217d26330fb265c45a100ed0",
-      "sha256": "7a484cec93221da8bc5ddeab84dbc955aacb3627a5f668a59b78f44e501f1052",
+      "previous_sha256": "7a484cec93221da8bc5ddeab84dbc955aacb3627a5f668a59b78f44e501f1052",
+      "sha256": "d700436a73f582e2b5c6f4b4e5dbfa0a14f31231515d9180edb5a88307842633",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/04-binding/binding-and-the-exact-asymmetry-bridge.md",
       "domain": "atom",
-      "previous_sha256": "a85f867ec3eb3393980f0a9e3d424065866a9bc71e329710ebf8c915de5f97ef",
-      "sha256": "7e0ea779bada3cc3a40e96b7eeb467e10e1dd00892750715ea5b2f6a1546525f",
+      "previous_sha256": "7e0ea779bada3cc3a40e96b7eeb467e10e1dd00892750715ea5b2f6a1546525f",
+      "sha256": "098e495a9c5ba392c2a82e12a54a7ccb88d0642df3864231313272df83ba0195",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/carrier-container-return-to-accumulation.md",
       "domain": "atom",
-      "previous_sha256": "f085d2100fdd948de31b9e34d9e38cac48b78fe46ae21a4dc0971b37898aaf80",
-      "sha256": "97466d52fa3f91a2d40ee562372fa0bf0f4a036d4dbe5aa828e54d722c82dc6d",
+      "previous_sha256": "97466d52fa3f91a2d40ee562372fa0bf0f4a036d4dbe5aa828e54d722c82dc6d",
+      "sha256": "4ce7e947d8e526881e60235a1244536d399f33f3e2309f9fb6f4a2e22a0d6cc9",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/theta18-carrier-and-tensor-return.md",
       "domain": "atom",
-      "previous_sha256": "f4f6ed2c3eb2333f8c6aa382465958dc997553b02bfb2f0a8c0607fda4d97864",
-      "sha256": "d2f9e3b190f58af9eb69a8ebd5b5474530b260a8ff5c91fd13579841f3aea3cc",
+      "previous_sha256": "d2f9e3b190f58af9eb69a8ebd5b5474530b260a8ff5c91fd13579841f3aea3cc",
+      "sha256": "95e89fafedbb611b9c395ff539208b07f80dcedfbdb657ad37b27720987a0c86",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/n100-computational-grammar.md",
       "domain": "slc",
-      "previous_sha256": "42e13e8efbd1f9aa59c9020b6c4610c29ccef402a6a37cfe26361d07e714e8ab",
-      "sha256": "c1c26110cafb8ecdd888bb8560d7b59da885e16e0783ae003ed75bc235ac30c4",
+      "previous_sha256": "c1c26110cafb8ecdd888bb8560d7b59da885e16e0783ae003ed75bc235ac30c4",
+      "sha256": "e83b2b16671adef0f90c8edc048aece2a224f1d2dc4c02fa4d1941d5f346e70a",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/01-grammar-and-language/sam-language-and-exact-program-semantics.md",
       "domain": "slc",
-      "previous_sha256": "27b8d180b3b23bf94f8a45492d4f0e23452b24364f5fd719c951db3beca07112",
-      "sha256": "1e0e113c51029c7cfd3067e39e310b18a043a6f38566cb5673b2e0ec67186161",
+      "previous_sha256": "1e0e113c51029c7cfd3067e39e310b18a043a6f38566cb5673b2e0ec67186161",
+      "sha256": "7c217656dd5838d7c5b9d1098e88866239ec18f514c8c4ed45a5fd24f3da2e33",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/02-slc/exact-state-spaces-and-slc-computation.md",
       "domain": "slc",
-      "previous_sha256": "9f2215c8b2b576c214064de0b842d349d138d40649c12c39a0eded97d8a5bf91",
-      "sha256": "d97ba95219496c099c7ce597a15cca98aa4bf4c1ff1ed99693e4b71bad888f21",
+      "previous_sha256": "d97ba95219496c099c7ce597a15cca98aa4bf4c1ff1ed99693e4b71bad888f21",
+      "sha256": "a0446e4b0960c86ec710d036832877ba2fcb384981ba1d2b7e386ad06b8f6361",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/02-slc/h14f-grammar-to-work-factorization.md",
       "domain": "slc",
-      "previous_sha256": "d3f3da21a76a8c2bd09e5fd5298abb536b248814512e74b6da316d819c4f5ea6",
-      "sha256": "0b53b7230e7ccce97ac9a30d638f8149abad9a5ffc374e61b96c6ceea51e83cf",
+      "previous_sha256": "0b53b7230e7ccce97ac9a30d638f8149abad9a5ffc374e61b96c6ceea51e83cf",
+      "sha256": "bb2b069fcd4c40ddb0651aed4142dd249a0834f821842c2fbfe286d0a168fafb",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/02-slc/slcq2-rz-ordinal-selection-engine.md",
       "domain": "slc",
-      "previous_sha256": "a8ebf7a41e472bc441f3b6aca29febbe383d039dc28f69035c0c0150885936c4",
-      "sha256": "ec7290f8b760e093aa226e9d99d40607f9090bae415cc5b161a594198d78104a",
+      "previous_sha256": "ec7290f8b760e093aa226e9d99d40607f9090bae415cc5b161a594198d78104a",
+      "sha256": "eb2df28b6e231964803706fa11e0fb8e1c4550dba680054e57c4fbb12400ec26",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/exact-algebra-and-complete-exact-write.md",
       "domain": "slc",
-      "previous_sha256": "a255f874fc9e51722325c1984c3bb2c445f8b5d152550855f407f0c51027957a",
-      "sha256": "31e9ef37438ea8efaaa05f52e0952864b55e9120313d2a6b1c42407d60bc57a7",
+      "previous_sha256": "31e9ef37438ea8efaaa05f52e0952864b55e9120313d2a6b1c42407d60bc57a7",
+      "sha256": "8fbe910343717733f9dbbf905ec710503730df864fdd1f5748c227e13be6a420",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/w8-x1-w9-lifecycle.md",
       "domain": "slc",
-      "previous_sha256": "fd29a5b7cedee9265c637b2d1be5000ba73c446a8434616022c33d99b5100820",
-      "sha256": "650b76d71fbccf0559259ffdf47209e4ecbd4a71d7a7cd16a78cf8e4f6662a2b",
+      "previous_sha256": "650b76d71fbccf0559259ffdf47209e4ecbd4a71d7a7cd16a78cf8e4f6662a2b",
+      "sha256": "eb873e810698266ed04449742874710961a0750064b153ffe4f2341192afa71b",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/directional-history-and-event-reel-computation.md",
       "domain": "slc",
-      "previous_sha256": "9779389a557235d3515e44e3556025166e620222fe9c31c465ffb759b6d8839b",
-      "sha256": "25a3e13fe3a324005d3791489010a5131a35f43cf97587486cee9211b3594da7",
+      "previous_sha256": "25a3e13fe3a324005d3791489010a5131a35f43cf97587486cee9211b3594da7",
+      "sha256": "f4805bd175dcb67191c71cb27980ab8b716f26299d51b89cb4c25b3572c59ae7",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/03-writes-and-history/reciprocal-history-and-the-rh-route.md",
       "domain": "slc",
-      "previous_sha256": "9def93abdb6794a70548de198020c142fc66316609360101fd10366964969978",
-      "sha256": "115a9204adc0883c441dc50560c7915572d7be397a2e4726120439e5b1f9986f",
+      "previous_sha256": "115a9204adc0883c441dc50560c7915572d7be397a2e4726120439e5b1f9986f",
+      "sha256": "a913e6f34bc4c0921fac66cb388dc3d20f6d25329a962b5d763f89cf43d9b81a",
       "reviewed_and_approved": false
     },
     {
@@ -320,22 +320,22 @@
     {
       "path": "SAMA/vol_iii/05-primes-and-jacobians/jacobian-program-and-clean-restart.md",
       "domain": "slc",
-      "previous_sha256": "e87bd2172f3d8b30c6800ec3832a6f946891d179a52ba708ba0cc2c8f01e6592",
-      "sha256": "e762e6bdcceda33f420da0867ccdfdd2e343f9d34265b374069a2feb94812311",
+      "previous_sha256": "e762e6bdcceda33f420da0867ccdfdd2e343f9d34265b374069a2feb94812311",
+      "sha256": "1cd7c757059970a31b465f89b954eaccbc79385684ff24e4ab03b6a97dd22cd9",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/nonzero-amplification-quantum-galactic-bridge.md",
       "domain": "slc",
-      "previous_sha256": "af5ce1dfeb87a537a11207eb9869d941c1adb98952de31dad6f671506d14cbb7",
-      "sha256": "35b27abc8d40c5c4282800f70a21bae3631ce4e0be1daeecbbac7e9ca5f25ff9",
+      "previous_sha256": "35b27abc8d40c5c4282800f70a21bae3631ce4e0be1daeecbbac7e9ca5f25ff9",
+      "sha256": "40164e0f2bfaeb0d314024d5675a9823e7f01a920697a933688601193540cc02",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/06-connections-between-volumes/relational-nonzero-amplification-interaction-closure.md",
       "domain": "slc",
-      "previous_sha256": "a225dccc70f6fa70e6970ac3cd56e19d4ecf204de3e4dcd0c3c09dc1c7e331b8",
-      "sha256": "e55d7f282cda4004a2e1ce07712d16538e3d19b89fb832fc3a9cf6fccbb3a533",
+      "previous_sha256": "e55d7f282cda4004a2e1ce07712d16538e3d19b89fb832fc3a9cf6fccbb3a533",
+      "sha256": "e108000dbc45d7ee897cce726b9e2d36d196fca0d4d10a97aa11daa28f85eeb3",
       "reviewed_and_approved": false
     },
     {
@@ -516,8 +516,8 @@
     {
       "path": "SAMA/vol_ii/05-carriers-and-reception/atom3d-matter-reception-and-reemission.md",
       "domain": "atom",
-      "previous_sha256": "e093e025c4e64f303999f922f3443f366ff292402e929414a106e3377ca4caa9",
-      "sha256": "e2dfe99db2b71faf6883b598464eacf842e796a7948b1c81479e0ab480057c47",
+      "previous_sha256": "e2dfe99db2b71faf6883b598464eacf842e796a7948b1c81479e0ab480057c47",
+      "sha256": "1ad712875015d9743ea0211300d6dea23c5fa469ef6c747b2112ad730a862ca1",
       "reviewed_and_approved": false
     },
     {
@@ -530,15 +530,15 @@
     {
       "path": "SAMA/vol_ii/complete-volume.md",
       "domain": "atom",
-      "previous_sha256": "d26e318a5d574152c7cfa002b2e2fee37f8e8645ee7f81568f7c20d99103ab25",
-      "sha256": "1c4a2162409eb9817c5c1dd74456bb562773520b0e55d4a0fea1fdedf89e9e47",
+      "previous_sha256": "1c4a2162409eb9817c5c1dd74456bb562773520b0e55d4a0fea1fdedf89e9e47",
+      "sha256": "3b372d20e3b9ef093bd21d2321a7b6f184dbec1d5d6733e2e7103ca8765b75ec",
       "reviewed_and_approved": false
     },
     {
       "path": "SAMA/vol_iii/complete-volume.md",
       "domain": "slc",
-      "previous_sha256": "1ac90e995052f1d838a238bd234e50525b071338f8adc63999e245f43289f141",
-      "sha256": "632a3c2e075407fa5451d9775e825086e3977a489f149e2e14f18190af76bedf",
+      "previous_sha256": "632a3c2e075407fa5451d9775e825086e3977a489f149e2e14f18190af76bedf",
+      "sha256": "7c96370d727c0855d70161022ad4bbb81f321e9b986248ae4d8529e024aba283",
       "reviewed_and_approved": false
     },
     {
@@ -565,8 +565,8 @@
     {
       "path": "SAMA/vol_ii/02-particles/grammar-formation-and-binding.md",
       "domain": "atom",
-      "previous_sha256": "59ef7d76d952324695e6ebf60fa6c5846481e3cdea401d9301cab1447773157c",
-      "sha256": "dca600f0e6f9932713f6aac80311e2e721fe5f76c5e41b61296341d32a63e914",
+      "previous_sha256": "dca600f0e6f9932713f6aac80311e2e721fe5f76c5e41b61296341d32a63e914",
+      "sha256": "affd1ce4c31267fbab3dd7928da90f4f14c2a8026a9bec31184f0d66c1c6dde7",
       "reviewed_and_approved": false
     }
   ],

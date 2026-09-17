@@ -1,0 +1,30 @@
+{
+  "question": "Construct the native dressed-eigenstate reference, retain left/right Hamiltonian action and terminal words, and test compact quadratic exchange closure.",
+  "reference": "Unnormalized |-->+(sqrt(5)-2)|++>",
+  "reference_energy": "H64 eigenvalue15408-64sqrt(5)",
+  "reference_charge": "Existing quartet dressed charge, lower eigenvalue0",
+  "source_binding": {
+    "campaign": "LI6_DRESSED_EXCHANGE1",
+    "prior_creation_sha256": "463e76b76e6e09312cece552d372eb3bd2f82bd1ed7a9783acb1a656e73f9b3a",
+    "original_source_sha256": "ab9199eefaf169e37726a8fe3e9d03712fcd4499121414520debff31a91d02a3"
+  },
+  "field": {
+    "radicand": 5
+  },
+  "tests": [
+    "Same native seed words on dressed reference; recover closure and recurrence",
+    "LEFT and COMMUTATOR_REFERENCE operator lifts",
+    "COMMUTATOR_REFERENCE with terminal words added as three further channels",
+    "Terminal action on the complete symmetric complement"
+  ],
+  "exchange_parameters": [
+    0,
+    1
+  ],
+  "modular_primes": [
+    65519,
+    1000039
+  ],
+  "third_exchange": "Execute on the native family only if the quadratic relation closes; package functionality receives an independent exact positive fixture.",
+  "candidate_manifest_sha256": "66d0fbbb2d4d148b82352c0cce368de028b36873f39c81649e8e3c15bf90ee86"
+}

@@ -1,6 +1,6 @@
 # ATOM3D — exact contact, Li-6 grammar and signed decoding
 
-**14 September 2026: A3D41-T18-CONTACT-R2 on SLC-GEN3-R3 / SLC-GEN3-CEV1-R3; joint native successor A3D41-RXT-R3 on GEN3-RXT-R7.1.** Sean Brady is originator and conceptual director; OpenAI ChatGPT and Codex are research collaborators.
+**16 September 2026: A3D41-T18-CONTACT-R2 on SLC-GEN3-R4 / SLC-GEN3-CEV1-R4. The retained joint RXT snapshot is A3D41-RXT-R3 on GEN3-RXT-R7.1.** Sean Brady is originator and conceptual director; OpenAI ChatGPT and Codex are research collaborators.
 
 ## What the model computes
 
@@ -33,3 +33,57 @@ The separate GEN3 distinct selector reduces reports from 516 to 508 on 224 histo
 The [SAMA matter volume](../../SAMA/vol_ii/README.md) supplies the conceptual development. [Reproduction scope](../REPRODUCIBILITY.md) describes the original Python orchestrators and the native source distribution.
 
 The complete [98,304-history reception/inverse dataset](../evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/RECEPTION_INVERSE.jsonl.gz) and its [native word receipts](../evidence/VOLUME_I_A3D41_COMMON_RECEIVER3/runs/run002/NATIVE_WORD_RECEIPTS.jsonl.gz) are included as compressed JSON Lines.
+
+## Current source construction and learned templates
+
+The [expanded roster](../evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/RESULT.md)
+contains 3,496 target identities, 3,489 assemblies (1,737 connected and 1,752
+multi-component), 108 single-cell occupancy operators and 110 local families.
+All 253 NUBASE2020 reference-stable entries are represented. That reference
+label schedules construction; physical binding/stability is not assigned.
+[Offline viewer](../evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.html) ·
+[CSV](../evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.csv) ·
+[Validation](../evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/VALIDATION.json).
+
+The [learned generator](../evidence/GEN3_TEMPLATE_GENERATOR4/RESULT.md) retains
+1,872 source-history templates across 25 inventories and five connector-operator
+families. All parent inverses, 643 continuation labels and 816 placements were
+independently checked. Final held-out continuation accuracy is 137/138.
+At equal 320-proposal budgets, learned/fixed-order selection gives 210/207
+continuation-capable histories at A6, 265/257 at A7 and 320/320 at A8.
+The explicit construction rule uses frozen source-ledger edges and reciprocal
+cube actions; species/phase repetitions share structural-family splits.
+**The test result suggests strong contact with the concept.**
+
+[Template dataset](../evidence/GEN3_TEMPLATE_GENERATOR4/TEMPLATES.json.gz) ·
+[Final retained model](../evidence/GEN3_TEMPLATE_GENERATOR4/models/A8.json) ·
+[Capability map](../evidence/GEN3_TEMPLATE_GENERATOR4/CAPABILITY_MAP.json) ·
+[Native generator](source/native/template_generator.cpp) ·
+[Independent checker](source/template_generator_check.py).
+
+The [inventory bridge](../evidence/GEN3_TEMPLATE_INVENTORY_BRIDGE1/RESULT.json)
+provides exact recipes for all 68 formerly blocked inventories. Connecting and
+instantiating their new interfaces into the assembly roster remains next;
+template and recipe counts do not increment the 3,489 assembled targets.
+The finite generator run is complete, with 5,400 deferred proposals retained.
+The separate earlier isotope interaction project remains owner-stopped.
+
+## Li-6 dressed-source creation and exchange
+
+The [dressed-reference result](../evidence/LI6_DRESSED_EXCHANGE1/RESULT.md)
+uses |--> + (sqrt(5)-2)|++>, with H64 eigenvalue 15408-64sqrt(5). It recovers
+the 33-dimensional complement and 11-level/3-channel recurrence. Three-channel
+reverse/combined product ranks are 9/18; adding terminal channels gives 18/36.
+The dressed commutator terminal action has rank 33 and zero common kernel.
+
+For dressed-source creation and explicit terminal construction:
+**The test result suggests strong contact with the concept.**
+For the specified generic quadratic exchange families:
+**The test falsifies the concept.** General native factorized scattering remains
+open. The [installed R4 package](../gen3-r4/README.md) retains source coordinates,
+terminal terms and exact rank certificates across recovery.
+
+The exported Python adapters retain upstream project dependencies; they are not
+standalone portable R3 commands. Copied source reports retain their original
+workspace references. The [export manifest](../../provenance/RESEARCH_UPDATE_20260916.json)
+binds all added source and data bytes.

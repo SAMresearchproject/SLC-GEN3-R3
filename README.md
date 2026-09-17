@@ -9,8 +9,11 @@ This is the public-facing SLC repository of the SAM Research Project. It brings
 together the runnable portable SLC-GEN3-R3 implementation, current architecture,
 research papers, computational findings, and supporting SAM source material.
 
-**Research update: 14 September 2026.** The global engine is SLC-GEN3-R3 with
-SLC-GEN3-CEV1-R3. The GEN3-RXT native deployment connects exact C++/GMP research,
+**Research update: 16 September 2026.** The installed global engine is SLC-GEN3-R4
+with SLC-GEN3-CEV1-R4, generation `GEN3-SOURCEOPERATORS1-20260916-G1`.
+[New R4 sources and results](research/gen3-r4/README.md) cover certified spectral
+logarithms, exact source operators and learned isotope-template generation.
+The portable quick start below retains its verified September 10 R3 binding. The GEN3-RXT native deployment connects exact C++/GMP research,
 CUDA construction and acquired source models. Its latest RH work develops exact
 signed transport and a conditional route to RH; the uniform arithmetic estimate
 remains open. Mersenne work includes native certificate validation, GPU factor
@@ -75,11 +78,11 @@ retain cancellation and composition without replacing source history with a
 floating-point summary. Signed values, zero values and missing inputs have
 explicit handling. Inherited GEN2 names remain supported compatibility calls.
 
-The installed build is `GEN3-UNIFIED-EXECUTION1-20260910`, generation
-`GEN3-UNIFIED-EXECUTION1-20260910-G2`. The portable binding remains
-`SLC-GEN3-R3-RESEARCH-20260910-1`. This update adds current research and public
-documentation; the included mathematical Python sources match the current
-upstream sources checked for this update. [Distribution scope](docs/DISTRIBUTION_SCOPE.md)
+The portable build is `GEN3-UNIFIED-EXECUTION1-20260910`, generation
+`GEN3-UNIFIED-EXECUTION1-20260910-G2`, binding
+`SLC-GEN3-R3-RESEARCH-20260910-1`. The installed upstream R4 source set is
+newer. This update publishes its selected capability sources and research
+evidence separately; the portable package does not expose the new R4 calls. [Distribution scope](docs/DISTRIBUTION_SCOPE.md)
 identifies which domain and GPU deployments are separate.
 
 ## Riemann Hypothesis work
@@ -142,7 +145,7 @@ python SAMA/tools/check_structure.py
 
 The current research [source index](research/SOURCE_INDEX.md) and
 [hashed manifest](provenance/RESEARCH_UPDATE_20260914.json) identify the material
-added in this update.
+added in the September 14 update. The [September 16 manifest](provenance/RESEARCH_UPDATE_20260916.json) binds the R4 and isotope additions, and the [review report](docs/PUBLICATION_REVIEW_20260916.md) records the material corrections.
 
 ## Copyright, research permission and stewardship
 
@@ -162,4 +165,11 @@ See [SLC stewardship](STEWARDSHIP.md), [rights guide](legal/RIGHTS_AND_COPYRIGHT
 
 [Starbreaker](research/starbreaker/README.md) and [ATOM3D](research/atom3d/README.md) now include native code, simulation inputs and outputs, exact derivations, learned-model results and implications. [GEN3-RXT source and build](research/gen3-rxt/README.md) · [Reproduction scope](research/REPRODUCIBILITY.md).
 
-SAMA [Volume III](SAMA/vol_iii/README.md) and [Volume IV](SAMA/vol_iv/README.md), their chapters and complete editions are updated through 14 September 2026.
+SAMA [Volume III](SAMA/vol_iii/README.md) and [Volume IV](SAMA/vol_iv/README.md), their chapters and complete editions retain dated research sections. The September 16 revision updates R4 computation and isotope construction; the RH evidence remains the September 14 snapshot.
+
+The current isotope roster contains **3,496 targets and 3,489 source assemblies**,
+including 1,737 connected assemblies. The learned generator retains **1,872
+templates across 25 inventories**, with **137/138** held-out continuation
+decisions correct. Recipes cover all 68 formerly blocked inventories; connecting
+those templates into new assemblies remains the next construction step.
+[Isotope results, viewer and source](research/atom3d/README.md).

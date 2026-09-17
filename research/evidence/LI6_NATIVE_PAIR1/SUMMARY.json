@@ -1,0 +1,17 @@
+{
+  "schema": "LI6_NATIVE_PAIR_SUMMARY_V1",
+  "status": "COMPLETED_NATIVE_QUARTET_PAIR_BETHE_EXTENSION_OPEN",
+  "generation": "GEN3-CERTIFIEDLOG1-20260915-G1",
+  "native_assertions": 15594,
+  "independent_checks": 189,
+  "native_domain_calls": 2,
+  "amplitude_family_dimension": 13,
+  "full_source_states": 64,
+  "reversible_source_pairs": 302,
+  "collective_equation": "delta*z^2-4*c*z-delta=0",
+  "new_result": "Native reference preparation, nilpotent layer creation words, exact paired eigenstates, finite-quartet pair-addition defect and quartet-supported dressed number.",
+  "affine_search_connection": "H001460 varied y3,y4,y6,y10,y12. All five directions leave the quartet block fixed and its delta=(w20-w21)/2 zero.",
+  "bethe_status": "Raising-only B(lambda1)B(lambda2) on the bare native reference spans only the double excitation; for delta!=0 it is not an eigenstate. Native dressed reference exists; full spectral-parameter creation/scattering law remains open.",
+  "classification_native_pair": "The test result suggests strong contact with the concept.",
+  "charge_status": "Dressed number belongs to the established quartet charge span. H001460 remaining complement charge charts are unchanged."
+}

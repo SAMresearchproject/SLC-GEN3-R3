@@ -1,0 +1,25 @@
+{
+  "operation": "LI6_NATIVE_PAIR_EXACT_R1",
+  "question": "Do native layer raising words construct exact paired eigenstates in the full-source invariant quartet, and what native binding diagnostics and Bethe-vector constraints follow?",
+  "sources": {
+    "graph": {
+      "path": "SAM_REVIEW/campaigns/ISOTOPE_EXCHANGE_COVERAGE1/run1/EXCHANGE_GRAPHS.json",
+      "sha256": "399c40455c84fb43d925b12c9d55045e5be67a22736eb875e013c2d39b75d5e1"
+    },
+    "tensor": {
+      "path": "SAM_REVIEW/campaigns/LI6_COMPLEMENT_GAUDIN1/tensor_RESULT.json",
+      "sha256": "3d861a6420ee3133ae78dfc80659b3c93cd533edefcb64cd3cd3d607d1b12c7a"
+    },
+    "quartet": {
+      "path": "SAM_REVIEW/campaigns/LI6_STRUCTURED_AMPLITUDES1/projector_RESULT.json",
+      "sha256": "ac026cab851c3e6b0cba1904e23dd42ae5c547c17c1cc2c0bab2389e9811ab48"
+    },
+    "auxiliary_bethe": {
+      "path": "SAM_REVIEW/campaigns/LI6_FULL_GRAPH_GAUDIN1/bethe_RESULT.json",
+      "sha256": "ce08d4f1b2bdd25f26cc450f74ae799031ca0b21b98f2e3a7a155f4fa5261429"
+    }
+  },
+  "native_source_sha256": "03f077e603676732866a8981ffe5d677ed2572391b9ffa860b6c7f7721adcdeb",
+  "binary_sha256": "3886ad30db949704731255e2e86afd4a1ba968703e27c41a8a4adbe975acd36e",
+  "generation": "GEN3-CERTIFIEDLOG1-20260915-G1"
+}

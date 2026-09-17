@@ -9,9 +9,9 @@ Current edition: 14 September 2026. [Volume navigation](README.md).
 
 # N100 Computational Grammar
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -624,9 +624,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # SAM Language and Exact Program Semantics
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -1243,9 +1243,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Exact State Spaces and SLC Computation
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -1889,9 +1889,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # H14F Grammar-to-Work Factorization
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -2433,9 +2433,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # SLCQ2-RZ Ordinal Selection Engine
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -3039,9 +3039,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Exact Algebra and Complete Exact Write
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -3711,9 +3711,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # W8–X1–W9 Lifecycle
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -4390,9 +4390,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Directional History and Event-Reel Computation
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -4989,9 +4989,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Reciprocal History and the RH Route
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -7095,9 +7095,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Jacobian Program and Clean Restart
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -7843,9 +7843,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Nonzero Amplification — The Quantum-to-Galactic Bridge
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 
@@ -8098,9 +8098,9 @@ The source review fields remain `reviewed_and_approved: false` and `approval: nu
 
 # Relational Nonzero Amplification and Interaction Closure
 
-## SLC-GEN3-R3: current computation — 14 September 2026
+## SLC-GEN3-R4: current computation — 16 September 2026
 
-SLC-GEN3-R3 and SLC-GEN3-CEV1-R3 are the sole current global runtime and CE, generation GEN3-UNIFIED-EXECUTION1-20260910-G2. Exact execution, acquired support, complete ordered history and exact U/D/V/net/M logarithmic accumulation share one durable machine. Installation records 617 core and 191 memory-admission checks; adoption records 75 checks and 49 managed receipts. Native hosts agree on 8,123,904 exact values. GEN3-RXT-R7.1 adds the C++/CUDA/GMP joint research implementation.
+SLC-GEN3-R4 and SLC-GEN3-CEV1-R4 are the sole current global runtime and CE, generation GEN3-SOURCEOPERATORS1-20260916-G1 (H001469). Complete exact histories and logarithmic accounts now include certified scalar/spectral logs and eight source-operator operations. Source-operator qualification records 50 candidate and 157 installed-adoption checks. The public portable package retains its September10 R3 binding; the current R4 capability sources and research records are a separate supplement. GEN3-RXT-R7.1 retains its September14 deployment context.
 
 [Current derivations, code and results](../../docs/ARCHITECTURE.md).
 

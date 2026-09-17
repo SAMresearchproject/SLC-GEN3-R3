@@ -11,7 +11,7 @@ identifies the current authorities used for this update.
 |[Mersenne / MP](../research/mersenne/README.md)|Native certificates and factor elimination; MP-B300 source/action learning and GPU histories. MP-B300 paused; no frontier certification assigned.|
 |[GEN3-RXT](GEN3_RXT.md)|Joint native C++/CUDA/GMP research with acquired domain support and explicit source traces.|
 |Starbreaker|SB-GEN3-ACCUMULATION-R1 retains exact logs and45 learned policies. Joint RXT work retains signed vector repayment and source-bound feedback. Earlier receiver work recovers order/barrier information across98,304 histories; physical propagation and receiver interpretation remain separate tasks.|
-|ATOM3D / Li-6|A3D41-T18-CONTACT-R2 uses R3; the joint pod has A3D41-RXT-R3. The distinct-selector experiment uses633→625 reports on256 fresh histories, with all256 opposite-host replays matching. That selector campaign and physical coefficient/MeV work retain their owner pauses.|
+|ATOM3D / Li-6|A3D41-T18-CONTACT-R2 now uses installed R4; the joint pod has A3D41-RXT-R3. The distinct-selector experiment uses633→625 reports on256 fresh histories, with all256 opposite-host replays matching. That selector campaign and physical coefficient/MeV work retain their owner pauses.|
 |Tau reconstruction|The semantic/method-learning pilot acquires2,574 correspondence cells and retains39 matched fits/780 epochs plus5,000 new confirmation rows. Memories recover without refitting. The direction, identification and decay comparisons have separate measured outcomes; FULL_DATA5 remains paused.|
 |Clock and history|GEN3 retains learned source methods and exact ordered accounts. Phase resolves eight retained zero-variation histories in the seconds study; native total-action counting remains open.|
 |SAMA|The supporting four-volume collection preserves historical explanations, derivations, tests and Courtroom source data.|
@@ -34,3 +34,10 @@ without reconstructing the older archive.
 - [ATOM3D: contact, Li-6 grammar, decoder and simulations](../research/atom3d/README.md).
 - [GEN3-RXT-R7.1: native C++/CUDA/GMP source, build and packets](../research/gen3-rxt/README.md).
 - [Reproduction scope and original campaign executors](../research/REPRODUCIBILITY.md).
+
+## September 16 additions
+
+[Installed R4 source operators and certified logs](../research/gen3-r4/README.md)
+and [isotope construction and learned templates](../research/atom3d/README.md)
+supersede the engine/ATOM3D status in the September 14 snapshot above.
+RH, MP and RXT results keep their original research dates and scopes.

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "fresh_process": true,
+  "exact_exports": [
+    "installed_dressed_creation",
+    "installed_dressed_terminal_exchange",
+    "installed_dressed_terminal_action"
+  ],
+  "zero_native_work": true,
+  "worker_unopened": true,
+  "counters_before": {
+    "imported_relations_semantically_validated": 768,
+    "native_operator_calls": 19,
+    "native_source_operator_calls": 21,
+    "spectral_native_calls": 2,
+    "spectral_new_modes": 2,
+    "spectral_reused_modes": 2,
+    "trusted_snapshot_restores": 4
+  },
+  "counters_after": {
+    "imported_relations_semantically_validated": 768,
+    "native_operator_calls": 19,
+    "native_source_operator_calls": 21,
+    "spectral_native_calls": 2,
+    "spectral_new_modes": 2,
+    "spectral_reused_modes": 2,
+    "trusted_snapshot_restores": 4
+  }
+}

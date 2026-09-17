@@ -1,6 +1,6 @@
-# SLC-GEN3-R3 architecture
+# SLC architecture: portable R3 and installed R4
 
-SLC-GEN3-R3 is one learning and executing runtime. Its state includes the
+The portable SLC-GEN3-R3 release is one learning and executing runtime. Its state includes the
 mathematical execution, reusable source support, actual observations and ordered
 history. The CE binds that runtime to scoped applications.
 
@@ -47,3 +47,13 @@ was 0.282988 s. These timings describe that fixture and implementation context.
 
 [Source index](../research/SOURCE_INDEX.md) · [Usage](USAGE.md) ·
 [Mathematical interface](MATHEMATICAL_INTERFACE.md) · [GEN3-RXT](GEN3_RXT.md)
+
+## Installed R4 continuation
+
+The current global installation is SLC-GEN3-R4 / SLC-GEN3-CEV1-R4, generation
+GEN3-SOURCEOPERATORS1-20260916-G1. It retains the exact histories above and adds
+certified scalar/spectral logarithms and source-bound operator algebra.
+Eight source operations handle words, invariant subspaces, pair-root relations,
+block recurrence, creation polynomials, exchange checks, terminal action and
+retained export. The [R4 contracts and source](../research/gen3-r4/README.md)
+specify their inputs, exact arithmetic and installed-adoption evidence.

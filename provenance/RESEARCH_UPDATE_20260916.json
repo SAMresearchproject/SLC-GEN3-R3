@@ -1,0 +1,451 @@
+{
+  "date": "2026-09-16",
+  "source_commit": "e314b429f61fafa3c5bb84911b8786927917fabe",
+  "scope": "Selected installed R4 capability sources, immutable research records and isotope/template data. Portable R3 runtime unchanged. Copied source documents retain upstream-relative references.",
+  "files": [
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_CERTIFIED_LOG1/RESULT.md",
+      "path": "research/evidence/GEN3_R4_CERTIFIED_LOG1/RESULT.md",
+      "bytes": 6552,
+      "sha256": "16b5da658f9dab73952ba49fdeb1253401d4a791267b58220047d99fd2c6cfe9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_CERTIFIED_LOG1/ADOPTION.json",
+      "path": "research/evidence/GEN3_R4_CERTIFIED_LOG1/ADOPTION.json",
+      "bytes": 3157,
+      "sha256": "e659ad6c1156c75e39e028305f98951985c5a1ab0126556c9ba443134bc6f966"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_CERTIFIED_LOG1/CANDIDATE_QUALIFICATION.json",
+      "path": "research/evidence/GEN3_R4_CERTIFIED_LOG1/CANDIDATE_QUALIFICATION.json",
+      "bytes": 177156,
+      "sha256": "86d04b53d7f960eac4835c119165a9b259d8cb4d290c72bc03fe96ce41387b8e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_CERTIFIED_LOG1/RECOVERY.json",
+      "path": "research/evidence/GEN3_R4_CERTIFIED_LOG1/RECOVERY.json",
+      "bytes": 12475,
+      "sha256": "eb11430a233e41f1fdd4beb9c9a83f641f07a11fcfa57cce0a080ba02e5f1589"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_SOURCE_OPERATORS1/RESULT.md",
+      "path": "research/evidence/GEN3_R4_SOURCE_OPERATORS1/RESULT.md",
+      "bytes": 6026,
+      "sha256": "d60e2feeeadcc314dfec8deba09bbf067cb41963bb196a84634864ef3ca86c30"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_SOURCE_OPERATORS1/ADOPTION.json",
+      "path": "research/evidence/GEN3_R4_SOURCE_OPERATORS1/ADOPTION.json",
+      "bytes": 10769,
+      "sha256": "1200cd68905bfb6ec496386ba4f32c748842b7a5a76ca34d154e4e3049b5325c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_SOURCE_OPERATORS1/CANDIDATE_QUALIFICATION.json",
+      "path": "research/evidence/GEN3_R4_SOURCE_OPERATORS1/CANDIDATE_QUALIFICATION.json",
+      "bytes": 2390,
+      "sha256": "528b1562e35ddefc399042ad3e4c878137d882990713ecbb63de5d7b251968a2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_R4_SOURCE_OPERATORS1/RECOVERY.json",
+      "path": "research/evidence/GEN3_R4_SOURCE_OPERATORS1/RECOVERY.json",
+      "bytes": 811,
+      "sha256": "c46cfd41f1fb935a7d1c70c2fdc502a08e32b4cfcf2ee6a491be576e6a30c62f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_PAIR1/RESULT.md",
+      "path": "research/evidence/LI6_NATIVE_PAIR1/RESULT.md",
+      "bytes": 10425,
+      "sha256": "981cfb00bba76f8536338e343a566a31febb2940b8610ba0c514a5c26436f524"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_PAIR1/SUMMARY.json",
+      "path": "research/evidence/LI6_NATIVE_PAIR1/SUMMARY.json",
+      "bytes": 1214,
+      "sha256": "52a74b0ad6025373c7644097b591b65fe875bbb2d9791caca3354d75e72b173b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_PAIR1/VALIDATION.json",
+      "path": "research/evidence/LI6_NATIVE_PAIR1/VALIDATION.json",
+      "bytes": 10145,
+      "sha256": "45e998b85dc70b6d341b39f234f8d58ed7a67f215839ef9351eabe3d0b54190c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_PAIR1/CONTRACT.json",
+      "path": "research/evidence/LI6_NATIVE_PAIR1/CONTRACT.json",
+      "bytes": 1259,
+      "sha256": "336c0b164f0306c573deed1797dff9e9701e0180f8d577c2783988f1e9bfa8be"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_FULL_GRAPH_SPECTRAL1/RESULT.md",
+      "path": "research/evidence/LI6_FULL_GRAPH_SPECTRAL1/RESULT.md",
+      "bytes": 9130,
+      "sha256": "7d2928f4e17e241c848cc0a1131419fc9a047bc3044558ae5003fd1a15e21190"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_FULL_GRAPH_SPECTRAL1/VALIDATION.json",
+      "path": "research/evidence/LI6_FULL_GRAPH_SPECTRAL1/VALIDATION.json",
+      "bytes": 3264,
+      "sha256": "5698101f5439deaf1cebb9e090e7ff6e6a0e6fa2c28fc20d8b31f099066679eb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/RESULT.md",
+      "path": "research/evidence/LI6_NATIVE_EXCHANGE1/RESULT.md",
+      "bytes": 8205,
+      "sha256": "928952bb1bb64622b24b6f289c8983b342e41ae750b52bcee03237b6c0224a35"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/SUMMARY.json",
+      "path": "research/evidence/LI6_NATIVE_EXCHANGE1/SUMMARY.json",
+      "bytes": 1307,
+      "sha256": "c3be2dffd85351a6ee3a258810b21028312fbdfbe27eb53a4d55b8405b423976"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/VALIDATION.json",
+      "path": "research/evidence/LI6_NATIVE_EXCHANGE1/VALIDATION.json",
+      "bytes": 8874,
+      "sha256": "2ee3a026461efe8898c2682851e1a7e9bfb5960b666eca395a155bb334052b1e"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_NATIVE_EXCHANGE1/CONTRACT.json",
+      "path": "research/evidence/LI6_NATIVE_EXCHANGE1/CONTRACT.json",
+      "bytes": 1066,
+      "sha256": "d7e399598a247350b0d963be0073c90b38a3a0cf45da155bcb060336accd2596"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_DRESSED_EXCHANGE1/RESULT.md",
+      "path": "research/evidence/LI6_DRESSED_EXCHANGE1/RESULT.md",
+      "bytes": 6115,
+      "sha256": "6b93c447b50ac114147542207eef2d742f2c00dee48b87e9ae2dc442e8294903"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_DRESSED_EXCHANGE1/SUMMARY.json",
+      "path": "research/evidence/LI6_DRESSED_EXCHANGE1/SUMMARY.json",
+      "bytes": 1042,
+      "sha256": "2b8b1fefea891ff2a3e2100c1074fb1a00ccf3b851f362f95c44193ee5315d0a"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/LI6_DRESSED_EXCHANGE1/CONTRACT.json",
+      "path": "research/evidence/LI6_DRESSED_EXCHANGE1/CONTRACT.json",
+      "bytes": 1301,
+      "sha256": "465bb7fe4ac84960413fa2958a7fc3669fc109bd6e46c6d5b79e8a1f6899402c"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION1/RESULT.md",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION1/RESULT.md",
+      "bytes": 4307,
+      "sha256": "cbd84e079c463a59f5c30e84736c61db7e79bb4dce6075259ecdc0221f0a8ec2"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION1/SUMMARY.json",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION1/SUMMARY.json",
+      "bytes": 356,
+      "sha256": "16070582a5d60e0f6ddf031a720d9bfe6d928f5d685519e2df87f9a5e3733eb5"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION1/CONTRACT.json",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION1/CONTRACT.json",
+      "bytes": 4429,
+      "sha256": "a8bb0fcabb18cb29a28a5e5b11645cdda635afcc6d29f0874eab46687ef07774"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION1/FRONTIER.json",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION1/FRONTIER.json",
+      "bytes": 6501,
+      "sha256": "f81f60f155e4ce2d286c3d5d03b1dd18c03584028e1e5a71f8ad91882e1dde97"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION_INSTALL1/RESULT.md",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/RESULT.md",
+      "bytes": 1171,
+      "sha256": "c75b3b93a46673949c53567200e1d27b6d9bc8d3f202ac2d0b0e9d39ff77a1cb"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION_INSTALL1/VALIDATION.json",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/VALIDATION.json",
+      "bytes": 1066,
+      "sha256": "0b6fbb1fe0b8decda17a81b26889bf07f43a59f87d006e539bfceba7b84c2537"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/RESULT.md",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/RESULT.md",
+      "bytes": 7187,
+      "sha256": "a490bd6d21d15cfebecd8216f32694d9ea16ab731d0ae0805d58d1cc97faf679"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/SUMMARY.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/SUMMARY.json",
+      "bytes": 1779,
+      "sha256": "b7dac7e96a98b64a6c6a41e20e8f898fa85f5469d1872740af1e2306a2e6791b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/VALIDATION.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/VALIDATION.json",
+      "bytes": 980,
+      "sha256": "fe50b1bb71effdff4dc3fff7cfd22bc7e7d071b190d5f4c4ae94241e5739d086"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/RECOVERY.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/RECOVERY.json",
+      "bytes": 157,
+      "sha256": "d302c78386b20a5344c4a32c2c21b369fc759fcb69523222088c296b692ca87b"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/CONTRACT.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/CONTRACT.json",
+      "bytes": 3125,
+      "sha256": "cb53610b5724d00f064e389a1a26463dc23f168fa244bf5e2f1ff340ac02c8f1"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/CAPABILITY_MAP.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/CAPABILITY_MAP.json",
+      "bytes": 4909,
+      "sha256": "ac3c018012872f1af8b0dcc225fd89b6a8bcaf6152908364604e03f4bd4c9225"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_INVENTORY_BRIDGE1/CONTRACT.json",
+      "path": "research/evidence/GEN3_TEMPLATE_INVENTORY_BRIDGE1/CONTRACT.json",
+      "bytes": 654,
+      "sha256": "9a7e4bebc174fa1c14422ef94e7c2b7f96eda4bd7c7e944759ba8396ed731990"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.csv",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.csv",
+      "bytes": 223008,
+      "sha256": "d8cf565273f9f08ce85db092a66e9a13be5da6e4688a0f7eab5303fbc3ae0cf8"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.html",
+      "path": "research/evidence/GEN3_ISOTOPE_EXPANSION_INSTALL1/ROSTER.html",
+      "bytes": 3931277,
+      "sha256": "ea307a2ece8fe5148b529fe6c92e3d384a402cd3e216d8a2b51936ff5e0c9788"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/TEMPLATES.json.gz",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/TEMPLATES.json.gz",
+      "bytes": 392182,
+      "sha256": "dc1e84f3c938f7330634f8662882fbabd71e03d5d2de65a41f21c7c78beae9d9"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/models/A8.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/models/A8.json",
+      "bytes": 11489,
+      "sha256": "90b7a01c0ab3a9db77d01a45d74362a53977d161940609cc6b85fafbd3a87236"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_GENERATOR4/LEARNING_CONFIRMATION.json",
+      "path": "research/evidence/GEN3_TEMPLATE_GENERATOR4/LEARNING_CONFIRMATION.json",
+      "bytes": 25480,
+      "sha256": "c7cff255ae951bc78553365fa94f2c4dba35853964fc455defa04adb34778c7f"
+    },
+    {
+      "source": "SAM_REVIEW/campaigns/GEN3_TEMPLATE_INVENTORY_BRIDGE1/RESULT.json",
+      "path": "research/evidence/GEN3_TEMPLATE_INVENTORY_BRIDGE1/RESULT.json",
+      "bytes": 35383,
+      "sha256": "76a3ef033bf2312fb40afcddcf587298f0155c9ef6a0841d70d668ff230335e0"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/CAPABILITIES.md",
+      "path": "research/gen3-r4/contracts/CAPABILITIES.md",
+      "bytes": 5660,
+      "sha256": "6c772546a4a48180b27f57725bfd1f1931d895ce393b05c58b466fb993d93155"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/OPERATOR_LOG.md",
+      "path": "research/gen3-r4/contracts/OPERATOR_LOG.md",
+      "bytes": 5384,
+      "sha256": "ba0d572784c011ac6aa80748d1db052277afff991c3187b9caccdef0b60bcb65"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/CERTIFIED_LOG.md",
+      "path": "research/gen3-r4/contracts/CERTIFIED_LOG.md",
+      "bytes": 7164,
+      "sha256": "5c85481827f0ebcb321dcf05cb70aaa78812cb3731e15212cb3019d63db86b3c"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/SOURCE_OPERATORS.md",
+      "path": "research/gen3-r4/contracts/SOURCE_OPERATORS.md",
+      "bytes": 7331,
+      "sha256": "8b5dab137c5a2c88305423634834c4ededfd1292201fcca30c081cc410a45f1d"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/CONSTRUCTION.json",
+      "path": "research/gen3-r4/capabilities/CONSTRUCTION.json",
+      "bytes": 58133,
+      "sha256": "961497253d320a492c56f3fdc98bd7dd052e45680f6a43d3478c0d3bf4459b12"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/MANIFEST.json",
+      "path": "research/gen3-r4/capabilities/MANIFEST.json",
+      "bytes": 2738,
+      "sha256": "66d0fbbb2d4d148b82352c0cce368de028b36873f39c81649e8e3c15bf90ee86"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/MODELS.json",
+      "path": "research/gen3-r4/capabilities/MODELS.json",
+      "bytes": 40196,
+      "sha256": "7ec7005a54fdb2b6d164d745893bec93afcf52461c9d09e1044109b41b1e7d30"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/NATIVE_CONTRACT.md",
+      "path": "research/gen3-r4/capabilities/NATIVE_CONTRACT.md",
+      "bytes": 7346,
+      "sha256": "3e037ff3985d97998296721dc3115e1f166b545cacc01656b52d81073ce9d0ca"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/__init__.py",
+      "path": "research/gen3-r4/capabilities/__init__.py",
+      "bytes": 99,
+      "sha256": "08e6c92525dad036ef5482efb30f55dca607002606a48b2876534fe650a0888b"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/archive_fixture.py",
+      "path": "research/gen3-r4/capabilities/archive_fixture.py",
+      "bytes": 3260,
+      "sha256": "cb9dcf97df4e518273343f72b4ffb122004794c9366384dd9aac00705290cd84"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/capabilities.py",
+      "path": "research/gen3-r4/capabilities/capabilities.py",
+      "bytes": 13239,
+      "sha256": "4fbd6f7709c2c529f1707b0de12adb9cb0d8e1d4bc10e54890e113e1b36a25f8"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/engine.hpp",
+      "path": "research/gen3-r4/capabilities/native/engine.hpp",
+      "bytes": 986,
+      "sha256": "4607cb2de4a4cc0a10afa8db1b1418d742f20200279e2b4c2387e9c944defad1"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/main.cpp",
+      "path": "research/gen3-r4/capabilities/native/main.cpp",
+      "bytes": 7008,
+      "sha256": "9f5ac372f67dfa225bb4f5e7db5e0221420df43212866695b524f62158f1f036"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/operator_log.hpp",
+      "path": "research/gen3-r4/capabilities/native/operator_log.hpp",
+      "bytes": 7341,
+      "sha256": "3922ee2948151b04b20617c6b34aacc4a79cd2b90f7fb25c10bd444d75cb334c"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/signed_energy.hpp",
+      "path": "research/gen3-r4/capabilities/native/signed_energy.hpp",
+      "bytes": 1617,
+      "sha256": "948c601cf13a5691ff751bb61ddafbc3237ddfe2f0750a13775ff8f3e3435a08"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/source_algebra.hpp",
+      "path": "research/gen3-r4/capabilities/native/source_algebra.hpp",
+      "bytes": 26754,
+      "sha256": "37e36d7fe0dfd0cad87c8644bdeb32c23a90a727c67ae309ec69299ad23ea9f7"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/spectral_log.hpp",
+      "path": "research/gen3-r4/capabilities/native/spectral_log.hpp",
+      "bytes": 12478,
+      "sha256": "a9cce5028520de87868938eb4395044132eb49993e3f61af0f8f7745346f5b75"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/native/trees.hpp",
+      "path": "research/gen3-r4/capabilities/native/trees.hpp",
+      "bytes": 3824,
+      "sha256": "90ec128cfe0d8ab8118062d2ca56590d9fee05b24fa6ed7a31c1a3dfae5a8ac2"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/source_algebra.py",
+      "path": "research/gen3-r4/capabilities/source_algebra.py",
+      "bytes": 9461,
+      "sha256": "b2762ad4eb9c254b15802db072ced99f6f9e20c96896d852e7b2e8a44b3c7ef5"
+    },
+    {
+      "source": "CURRENT_REVISION/engines/SLC/gen3/capabilities/spectral.py",
+      "path": "research/gen3-r4/capabilities/spectral.py",
+      "bytes": 12672,
+      "sha256": "220a3a1731a04d5a57fd5158c42d673d015dbf96a5dcd0505d1863a219b24c69"
+    },
+    {
+      "source": "SAM_ISOTOPES/template_generator.py",
+      "path": "research/atom3d/source/template_generator.py",
+      "bytes": 30709,
+      "sha256": "1e59435db21e92d02f1518d0e7eed10fca0f26e0cc39d99760531204f8a9455f"
+    },
+    {
+      "source": "SAM_ISOTOPES/template_generator_check.py",
+      "path": "research/atom3d/source/template_generator_check.py",
+      "bytes": 8585,
+      "sha256": "855f01b4825ff5db071ff29b92de4471d2a0d57a6c5f1dee41fda0f1426f7f3a"
+    },
+    {
+      "source": "SAM_ISOTOPES/template_library.py",
+      "path": "research/atom3d/source/template_library.py",
+      "bytes": 4134,
+      "sha256": "572e75bd94dc960471eb6744849a14b71aa209c6d6228f7919a0011f21feaf62"
+    },
+    {
+      "source": "SAM_ISOTOPES/template_bridge.py",
+      "path": "research/atom3d/source/template_bridge.py",
+      "bytes": 3840,
+      "sha256": "e4191df3887ae5f2d71bd93ad5e2f9cbaa32ea8e98e3f0259c96d4da9fe79950"
+    },
+    {
+      "source": "SAM_ISOTOPES/native/template_generator.cpp",
+      "path": "research/atom3d/source/native/template_generator.cpp",
+      "bytes": 7657,
+      "sha256": "194db7c634e85a29f3341f46298f4b0a05df6c778230fa90aee3bac8cb34020e"
+    },
+    {
+      "source": "SAM_ISOTOPES/expansion.py",
+      "path": "research/atom3d/source/expansion.py",
+      "bytes": 17715,
+      "sha256": "86815570b30b20d72e14f5c8d397869b2e6742e9276b16d0d6dc16770434de30"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001453_2026-09-15_GEN3_R4_CERTIFIED_LOG_INSTALLATION.md",
+      "path": "research/gen3-r4/history/H001453_2026-09-15_GEN3_R4_CERTIFIED_LOG_INSTALLATION.md",
+      "bytes": 3410,
+      "sha256": "b0846e77a39f5458b8418083a78ccf0e328157705f6d4511a65cb8b41ea73ed6"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001462_2026-09-15_LI6_NATIVE_PAIR_CONSTRUCTION.md",
+      "path": "research/gen3-r4/history/H001462_2026-09-15_LI6_NATIVE_PAIR_CONSTRUCTION.md",
+      "bytes": 4325,
+      "sha256": "ed9bc5c8160146d3d342d84c06633fbab3cd7f6e23c6631e21c46820a9691686"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001463_2026-09-15_LI6_NATIVE_SPECTRAL_ROOTS_RECURRENCE.md",
+      "path": "research/gen3-r4/history/H001463_2026-09-15_LI6_NATIVE_SPECTRAL_ROOTS_RECURRENCE.md",
+      "bytes": 4541,
+      "sha256": "6fbbe61cd1cb7049cc8863c00004336e8c9cb307da18f9657a5a837135310839"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001464_2026-09-16_LI6_NATIVE_CREATION_EXCHANGE.md",
+      "path": "research/gen3-r4/history/H001464_2026-09-16_LI6_NATIVE_CREATION_EXCHANGE.md",
+      "bytes": 3832,
+      "sha256": "8b58d00999f260a79ee1e9e74e8ea7cc8f4e91df4c20e0be4d89f5aadb3a6e19"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001469_2026-09-16_R4_SOURCE_OPERATORS_AND_DRESSED_EXCHANGE_INSTALLATION.md",
+      "path": "research/gen3-r4/history/H001469_2026-09-16_R4_SOURCE_OPERATORS_AND_DRESSED_EXCHANGE_INSTALLATION.md",
+      "bytes": 4808,
+      "sha256": "c11741f23bd59bfafcce0b220771823eb5a47755b616fc77a90ae9799427bf97"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001478_2026-09-16_ISOTOPE_RESEARCH_OWNER_STOP.md",
+      "path": "research/gen3-r4/history/H001478_2026-09-16_ISOTOPE_RESEARCH_OWNER_STOP.md",
+      "bytes": 1162,
+      "sha256": "626bc036b065d5d978d87404c04c40d27f6321d61b6a8a67298fd8020bdd06d1"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001479_2026-09-16_STABLE_FIRST_ISOTOPE_CONSTRUCTION_EXPANSION.md",
+      "path": "research/gen3-r4/history/H001479_2026-09-16_STABLE_FIRST_ISOTOPE_CONSTRUCTION_EXPANSION.md",
+      "bytes": 3365,
+      "sha256": "e014af4d59fb677ab23f8c62e02713ac71e24a0d8f914b92ac135090a39a511b"
+    },
+    {
+      "source": "SAM_HISTORY/entries/H001480_2026-09-16_LEARNED_SOURCE_TEMPLATE_GENERATOR.md",
+      "path": "research/gen3-r4/history/H001480_2026-09-16_LEARNED_SOURCE_TEMPLATE_GENERATOR.md",
+      "bytes": 3287,
+      "sha256": "f3b2432ae99125838f2914f26a382f4fb11828200e7c1fb1b7313edba8fe3f68"
+    }
+  ]
+}

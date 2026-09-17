@@ -1,11 +1,11 @@
 # SLC-GEN3-R3 distribution scope
 
-This repository exports the current R3 computational runtime, native GEN2
+This repository preserves the September 10 R3 computational runtime, native GEN2
 components, exact logarithmic accounts, acquired relation/observation seeds,
 and local durable checkpoint storage. Its required Q3/Q2/Q1 and sealed V6/ICF1
 foundation components remain included with their source identities.
 
-The upstream release is SLC-GEN3-R3, build
+The exported portable release is SLC-GEN3-R3, build
 `GEN3-UNIFIED-EXECUTION1-20260910`, generation
 `GEN3-UNIFIED-EXECUTION1-20260910-G2`. The portable entry point has release binding
 `SLC-GEN3-R3-RESEARCH-20260910-1`. `CURRENT_REVISION/runtime.py` verifies the export
@@ -52,3 +52,14 @@ describe the public distribution.
 [SAMA](../SAMA/README.md) is the project's supporting research collection. Its
 four-volume reading structure, source identities, tests and original licences
 remain preserved. [Project status](PROJECT_STATUS.md) records current information.
+
+## Installed R4 source supplement — 16 September 2026
+
+The current upstream installation is SLC-GEN3-R4, generation
+GEN3-SOURCEOPERATORS1-20260916-G1. Its [capability supplement](../research/gen3-r4/README.md)
+contains exact source copies, contracts and retained qualification records.
+It requires the upstream unified store and CE/DomainSession adapters; the
+portable R3 CLI above does not gain those operations from this publication.
+The [isotope source adapters](../research/atom3d/source) have the same upstream
+application dependencies. The roster CSV/HTML and template dataset are available
+for direct inspection without running those adapters.

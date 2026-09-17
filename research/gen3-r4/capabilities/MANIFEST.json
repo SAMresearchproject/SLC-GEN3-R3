@@ -1,0 +1,38 @@
+{
+  "files": {
+    "CONSTRUCTION.json": "961497253d320a492c56f3fdc98bd7dd052e45680f6a43d3478c0d3bf4459b12",
+    "MODELS.json": "7ec7005a54fdb2b6d164d745893bec93afcf52461c9d09e1044109b41b1e7d30",
+    "NATIVE_CONTRACT.md": "3e037ff3985d97998296721dc3115e1f166b545cacc01656b52d81073ce9d0ca",
+    "__init__.py": "08e6c92525dad036ef5482efb30f55dca607002606a48b2876534fe650a0888b",
+    "archive_fixture.py": "cb9dcf97df4e518273343f72b4ffb122004794c9366384dd9aac00705290cd84",
+    "capabilities.py": "4fbd6f7709c2c529f1707b0de12adb9cb0d8e1d4bc10e54890e113e1b36a25f8",
+    "capability-native": "8df3a1237ef4a97608e5c4c1a284a08904ced73d5537c94e79aea1e30738cf61",
+    "native/engine.hpp": "4607cb2de4a4cc0a10afa8db1b1418d742f20200279e2b4c2387e9c944defad1",
+    "native/main.cpp": "9f5ac372f67dfa225bb4f5e7db5e0221420df43212866695b524f62158f1f036",
+    "native/operator_log.hpp": "3922ee2948151b04b20617c6b34aacc4a79cd2b90f7fb25c10bd444d75cb334c",
+    "native/signed_energy.hpp": "948c601cf13a5691ff751bb61ddafbc3237ddfe2f0750a13775ff8f3e3435a08",
+    "native/source_algebra.hpp": "37e36d7fe0dfd0cad87c8644bdeb32c23a90a727c67ae309ec69299ad23ea9f7",
+    "native/spectral_log.hpp": "a9cce5028520de87868938eb4395044132eb49993e3f61af0f8f7745346f5b75",
+    "native/trees.hpp": "90ec128cfe0d8ab8118062d2ca56590d9fee05b24fa6ed7a31c1a3dfae5a8ac2",
+    "source_algebra.py": "b2762ad4eb9c254b15802db072ced99f6f9e20c96896d852e7b2e8a44b3c7ef5",
+    "spectral.py": "220a3a1731a04d5a57fd5158c42d673d015dbf96a5dcd0505d1863a219b24c69"
+  },
+  "native_backend": "C++/GMP CPU",
+  "no_RH_state_imported": true,
+  "operator_log_source": {
+    "adaptation": "Dynamic supported dimensions, explicit polynomial matrices, generic cubic defect, commuting recurrence and source-bound checkpoint export.",
+    "pilot": "GEN3_OPERATOR_LOG_PILOT1",
+    "source_sha256": "8a03e4cd0118ac74c0ceff76e5e862509b0985097614492e4d5a548e2c8dac2e"
+  },
+  "origin": "GEN3-RXT-R7.1",
+  "source_map": {
+    "adaptation": "Exact signed_energy unchanged; native CART fit/predict/rules retained; CPU common minima generalized to complete supplied finite cost rosters. No RH source/data imported.",
+    "origin": "GEN3-RXT-R7.1",
+    "source_files": {
+      "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/signed_energy.hpp": "948c601cf13a5691ff751bb61ddafbc3237ddfe2f0750a13775ff8f3e3435a08",
+      "SAM_REVIEW/campaigns/GEN3_RXT_RH_WEEKEND1/extensions/r71_native/src/transfer.cpp": "00ddd927931f5ebeddc44fde5e6e237e51eaf82c701f1fd59a23d6d3878bc6b5"
+    }
+  },
+  "source_operator_scope": "Exact rational/real-quadratic source words, subspaces, pair roots, recurrences, creation, exchange, terminal action and authenticated export",
+  "version": "GEN3-R4-SOURCE-OPERATORS1"
+}

@@ -1,4 +1,4 @@
-# Research source index — 14 September 2026
+# Research source index — updated 16 September 2026
 
 The public update is drawn from the project's bounded live authorities and
 their directly cited completed artifacts. The manifest records exact SHA-256
@@ -25,3 +25,11 @@ scoped public summary and its source hash rather than copied access instructions
 ## Public simulation source and result files
 
 [Starbreaker](starbreaker/README.md), [ATOM3D](atom3d/README.md), [native R7.1 code](gen3-rxt/README.md), and the [SHA-256 export manifest](SOURCE_EXPORT.json) now provide local public artifacts. Original campaign scripts retain their source-session dependencies; see [reproduction scope](REPRODUCIBILITY.md).
+
+## September 16 source supplement
+
+The [R4 guide](gen3-r4/README.md) and [ATOM3D update](atom3d/README.md)
+route H001453, H001462–H001464, H001469 and H001478–H001480.
+[The new manifest](../provenance/RESEARCH_UPDATE_20260916.json) binds 74 selected
+source/data files to the synchronized SAM research commit. Original September14
+source exports and mathematical fixtures retain their identities.

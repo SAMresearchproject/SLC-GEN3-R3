@@ -1,6 +1,6 @@
 # GEN3-RXT native source and simulations
 
-Published 14 September 2026. This is the C++/CUDA/GMP **GEN3-RXT-R7.1** research engine used by the joint RH, ATOM3D and Starbreaker campaign. The workstation continues to select SLC-GEN3-R3 and SLC-GEN3-CEV1-R3.
+Published 14 September 2026. This is the C++/CUDA/GMP **GEN3-RXT-R7.1** research engine used by the joint RH, ATOM3D and Starbreaker campaign. That deployment used the R3 foundation. The current workstation installation is R4; see the [September 16 source supplement](../gen3-r4/README.md).
 
 ## Code and source inputs
 

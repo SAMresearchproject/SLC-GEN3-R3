@@ -1,0 +1,29 @@
+{
+  "schema": "LI6_NATIVE_EXCHANGE_SUMMARY_V1",
+  "status": "COMPLETED_SPECTRAL_CREATION_TWO_LIFT_EXCHANGE_TESTS_AND_TERMINAL_ACTION",
+  "generation": "GEN3-CERTIFIEDLOG1-20260915-G1",
+  "native_calls": 4,
+  "native_assertions": 481189,
+  "independent_checks": 262,
+  "source_dimension": 64,
+  "complement_dimension": 33,
+  "creation_polynomial_degree": 10,
+  "spectral_parameter": "x=64E at g=1",
+  "source_creation_classification": "The test result suggests strong contact with the concept.",
+  "tested_lifts": [
+    "reversible_cycle_T=2F2",
+    "directed_cycle_T=2E2"
+  ],
+  "reverse_product_rank": 9,
+  "combined_product_rank": 18,
+  "tested_lift_exchange_classification": "The test falsifies the concept.",
+  "exchange_scope": "Generic off-shell nine-product scalar exchange closure for the two specified operator lifts at the retained attractive assignment.",
+  "reversible_lift_terminal_rank": 25,
+  "reversible_lift_terminal_kernel_dimension": 8,
+  "reversible_lift_seed_kernel_dimension": 7,
+  "terminal_action_after_H_on_kernel_rank": 8,
+  "reversible_lift_terminal_kernel_contains_complement_eigenstate": false,
+  "general_Bethe_scattering_status": "OPEN",
+  "next_question": "Dressed-pair eigenstate reference with terminal operator action retained",
+  "R4_status": "CANDIDATE_NOT_INSTALLED"
+}
