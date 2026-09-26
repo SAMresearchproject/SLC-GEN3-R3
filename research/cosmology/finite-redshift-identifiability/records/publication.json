@@ -1,0 +1,42 @@
+{
+  "assembled_utc": "2026-09-26T23:40:31.625408+00:00",
+  "authorization": "Author requested compilation, commit, sync and public repository URL in this session",
+  "scope": "Independent reproducibility companion; original supplement not recovered",
+  "machine": "x86_64",
+  "execution_location": "Local author workstation; no pod",
+  "inputs": [
+    {
+      "original_location_relative_to_author_home": "Documents/SAM PAPER/Finite_Redshift_Identifiability_Distance_Ratios.pdf",
+      "published_path": "paper/Finite_Redshift_Identifiability_Distance_Ratios.pdf",
+      "bytes": 548435,
+      "sha256": "042938b90182c3aa695e3766d5141237bd2dd5ae81dc10a77a3909ecffeed403",
+      "byte_identity_verified": true
+    },
+    {
+      "original_location_relative_to_author_home": "Downloads/Finite_Redshift_Identifiability_Distance_Ratios.docx",
+      "published_path": "paper/Finite_Redshift_Identifiability_Distance_Ratios.docx",
+      "bytes": 603581,
+      "sha256": "61c70918199d4fc0cce1dd3fdf4c69aaea03a8a8995efe117d589bf569311a31",
+      "byte_identity_verified": true
+    }
+  ],
+  "verification_commands": [
+    "python -m unittest discover -s tests -v",
+    "python src/reproduce.py --output <empty-replay-directory>",
+    "python src/compare.py --run <replay-directory>",
+    "python src/verify.py --replay <replay-directory>"
+  ],
+  "source_and_test_sha256": {
+    "src/compare.py": "5c7046e78a1148dbfec2a6e3c7618776422b5241116798a2108a74546f67001b",
+    "src/reproduce.py": "14bdbfbdadf98e31e2de38aac23802ddc09371ec203c4c70f09fa9213a8a1488",
+    "src/model.py": "bc311bedb88e42c300bb2950dedb7a10f192807cddc78e33fb5f160a4a4096ad",
+    "src/verify.py": "ced80ff8fad33fb95d5588fa8a0a4cdf6f29e25e7d80ed16adee6d55ea53e9d4",
+    "tests/test_model.py": "57720e294fbd1c7f25e8b6075774f90f6ada6d8ab7c495d9deaab22d56848ad0"
+  },
+  "new_findings_disclosed_to_owner": [
+    "Original Supplemental Material not recovered",
+    "Deterministic Fieller and binning outputs match an alternative to the declared covariance"
+  ],
+  "negative_drift_beginning": "CLEAR",
+  "negative_drift_completion": "CLEAR"
+}

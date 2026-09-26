@@ -1,0 +1,97 @@
+{
+  "provenance": "INDEPENDENT_REIMPLEMENTATION_NOT_ORIGINAL_RUN",
+  "seed": 20260927,
+  "bit_generator": "PCG64",
+  "draw_order": "calibration then five cases in listed order; Gaussian matrix then lognormal matrix within each call",
+  "calibration_catalogs": 30000,
+  "critical_values": [
+    34.1466396999488,
+    32.95055398611014
+  ],
+  "rows": [
+    {
+      "case": "single_power",
+      "catalogs": 20000,
+      "fixed_rejections": 1040,
+      "profile_rejections": 1005,
+      "fixed_rejection_rate": 0.052,
+      "profile_rejection_rate": 0.05025,
+      "fixed_xi_mean": 0.9004210527556392,
+      "fixed_xi_sd": 0.02144495466826051,
+      "noiseless_fit": {
+        "n": 3.0000000120830816,
+        "xi": 0.9000000000548424,
+        "calibration": 1.0400000000843486,
+        "noncentrality": 3.406371906340253e-17
+      }
+    },
+    {
+      "case": "constant_gain_096",
+      "catalogs": 20000,
+      "fixed_rejections": 984,
+      "profile_rejections": 990,
+      "fixed_rejection_rate": 0.0492,
+      "profile_rejection_rate": 0.0495,
+      "fixed_xi_mean": 0.9001552063520128,
+      "fixed_xi_sd": 0.023350602795124496,
+      "noiseless_fit": {
+        "n": 3.0000000120830794,
+        "xi": 0.9000000000548415,
+        "calibration": 0.9600000000778606,
+        "noncentrality": 2.902470631358807e-17
+      }
+    },
+    {
+      "case": "second_power",
+      "catalogs": 20000,
+      "fixed_rejections": 1020,
+      "profile_rejections": 992,
+      "fixed_rejection_rate": 0.051,
+      "profile_rejection_rate": 0.0496,
+      "fixed_xi_mean": 0.9188504677205303,
+      "fixed_xi_sd": 0.02175848824502008,
+      "noiseless_fit": {
+        "n": 2.577595519813516,
+        "xi": 0.9161146086678638,
+        "calibration": 1.0395159481208291,
+        "noncentrality": 0.001277723143717869
+      }
+    },
+    {
+      "case": "calibration_drift",
+      "catalogs": 20000,
+      "fixed_rejections": 975,
+      "profile_rejections": 965,
+      "fixed_rejection_rate": 0.04875,
+      "profile_rejection_rate": 0.04825,
+      "fixed_xi_mean": 0.9089579002292215,
+      "fixed_xi_sd": 0.02166017597251318,
+      "noiseless_fit": {
+        "n": 3.3448174646488544,
+        "xi": 0.9097220828607709,
+        "calibration": 1.0406218621628587,
+        "noncentrality": 0.0027131878608880828
+      }
+    },
+    {
+      "case": "localized_departure",
+      "catalogs": 20000,
+      "fixed_rejections": 1257,
+      "profile_rejections": 1184,
+      "fixed_rejection_rate": 0.06285,
+      "profile_rejection_rate": 0.0592,
+      "fixed_xi_mean": 0.9079283014364667,
+      "fixed_xi_sd": 0.021759470731859614,
+      "noiseless_fit": {
+        "n": 2.950093191423185,
+        "xi": 0.9077485203560212,
+        "calibration": 1.0374322377782883,
+        "noncentrality": 0.5603019680850783
+      }
+    }
+  ],
+  "forced_C1_fixed_n3": {
+    "xi": 0.9503406127247551,
+    "noncentrality": 6.377168887120003
+  }
+}

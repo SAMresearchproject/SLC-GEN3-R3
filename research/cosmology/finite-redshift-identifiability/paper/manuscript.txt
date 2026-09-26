@@ -1,0 +1,1014 @@
+                      Finite-redshift identifiability of cosmological distance ratios
+
+                                                         Sean Brady1
+                                                 1
+                                                   Independent researcher
+                             (Dated: 25 September 2026 — expanded author-review manuscript)
+                Finite-redshift standard-siren data cannot, without restrictions on the allowed redshift depen-
+             dence, identify either the infinite-redshift plateau or the zero-redshift relative calibration of a cos-
+             mological distance-ratio law. We prove two finite-window non-identifiability results. An arbitrarily
+             slow component can shift the asymptotic ratio by a fixed amount while remaining uniformly small
+             on any bounded redshift interval; an arbitrarily fast component can shift the extrapolated cali-
+             bration while remaining uniformly small above any strictly positive minimum redshift. If positive
+             decay components are bounded below by a known exponent, we derive one-sided plateau bounds
+             for both decreasing (Ξ0 < 1) and increasing (Ξ0 > 1) branches. We then specialize to the Belgacem
+             et al. family Ξ(z) = Ξ0 + (1 − Ξ0 )(1 + z)−n and develop exact finite-redshift reconstruction, an
+             irregular-grid four-point consistency condition, covariance-aware tests, and calibration separation.
+             The multiplicative calibration is identified with the relative absolute distance scale: for supernova
+             reconstructions it inherits the familiar MB − 5 log10 H0 degeneracy, and for BAO reconstructions the
+             rd h scale. Synthetic tests use 2–5% marginal ratio errors and a redshift-dependent non-Gaussian
+             lensing-like tail. They show that realistic precision sharply limits discrimination among smooth al-
+             ternatives even when the fitted plateau is biased. The result is a theorem-driven statement of what
+             a finite standard-siren distance-ratio data set can and cannot establish about modified propagation
+             and dark-energy phenomenology.
+
+
+                 I.    INTRODUCTION                                plateau can be hidden below any prescribed error toler-
+                                                                   ance on a bounded observed interval. Dually, if arbitrar-
+   Cosmological distance measurements carry both shape             ily fast components are allowed below the lowest observed
+and scale. The supernova evidence for acceleration es-             redshift, a fixed change in the zero-redshift calibration
+tablished the importance of the distance–redshift rela-            can be hidden from the data. Thus neither endpoint is
+tion [1, 2]; baryon acoustic oscillations and gravitational-       model-independently determined by finite-redshift mea-
+wave standard sirens now provide independent distance              surements without restrictions on the allowed redshift
+channels with different calibrations and systematics; the          scales. These two obstructions are stated and proved
+standard-siren idea originates with Schutz and has an ob-          in Sec. II, together with conditional plateau bounds that
+servational realization in GW170817 [6, 7]. Their com-             apply once a minimum decay exponent is specified.
+parison is central to tests of cosmic acceleration, distance          Within the single-power family, much more can be es-
+duality, and modified propagation [3–5].                           tablished. Following the broader cosmological tradition
+   A     useful    example       is    the    gravitational-       of null and consistency diagnostics [13, 14], we derive ex-
+wave/electromagnetic         luminosity-distance       ratio.      act constant extraction, unique exponent recovery from
+Belgacem, Dirian, Foffa, and Maggiore showed that                  three irregularly spaced samples, a four-point consistency
+modified gravitational-wave amplitude propagation                  condition on arbitrary grids, full-covariance tests for
+can produce a luminosity distance different from its               noisy data, and calibration-aware confidence and predic-
+electromagnetic counterpart even when the wave speed               tion constructions. The classical Aitken, Prony/Hankel,
+remains c [8, 9]. Their widely used parametrization is             and variable-projection ideas used in parts of the anal-
+                                                                   ysis are credited to their original literature [15–17]; the
+                      dGW            1 − Ξ0                        contribution here is their combination with the finite-
+                       L (z)
+            Ξ(z) ≡     EM
+                             = Ξ0 +          ,             (1)     window theorem and their application to an established
+                      dL (z)        (1 + z)n
+                                                                   cosmological distance-ratio observable.
+with n > 0 and Ξ0 > 0. Belgacem, Foffa, Maggiore,                     The calibration parameter is physically important
+and Yang subsequently reconstructed the associated dis-            rather than merely algebraic. A supernova Hubble
+tance functions with Gaussian processes [10]; Matos and            diagram carries the absolute-scale combination MB −
+collaborators developed a complementary tripartite com-            5 log10 H0 (equivalently H0 10−MB /5 up to fixed units)
+parison of gravitational-wave, luminosity, and angular-            [23]; uncalibrated BAO constrains rd h [24]. A distance-
+diameter distances [4]; recent work has extended non-              ratio analysis that imports either electromagnetic recon-
+parametric ratio inference and its connection to evolving          struction therefore inherits a corresponding relative scale
+dark-energy models [11, 12].                                       uncertainty. Treating that uncertainty as part of the in-
+   The lead result of this paper is not another estimator          ference connects the present problem directly to the H0
+for Eq. (1). It is a finite-window identifiability theorem.        literature.
+If the allowed response class contains arbitrarily slow pos-          The paper proceeds from the finite-window theorem to
+itive components, a fixed change in the infinite-redshift          the propagation observable and then to exact and noisy-
+                                                                                                                            2
+
+data reconstruction. The synthetic validation uses 2–               while on the observed interval
+5% compressed-ratio errors with a stylized weak-lensing
+tail, motivated by the known impact of magnification on                       ∥Y2 − Y1 ∥∞,[smin ,smax ] ≤ |d|e−N smin .    (7)
+standard-siren distances [30]. The numerical experiment
+is deliberately conservative: it tests the method under             Thus an arbitrarily fast component can alter the extrap-
+realistic percent-level precision rather than assuming sub-         olated Y (0) by a fixed amount and become arbitrarily
+percent ratio measurements.                                         small before the first observed redshift.
+                                                                       a. Theorem 2 (finite-redshift calibration non-
+                                                                    identifiability). If arbitrarily fast components are
+    II.     FINITE-WINDOW IDENTIFIABILITY                           allowed below the lowest observed redshift, the
+                     THEOREM                                        zero-redshift calibration C = Y (0) is not uniformly
+                                                                    identifiable from measurements with z ≥ zmin > 0.
+ A.       High-redshift obstruction: the plateau is not             A low-redshift anchor or an upper bound on unre-
+             model-independently identifiable                       solved decay rates is required to turn the extrapolated
+                                                                    normalization into a physical calibration measurement.
+  Let s = ln(1 + z) and consider a normalized decreasing               Theorems 1 and 2 are mirror statements: very slow
+response on the finite interval 0 ≤ s ≤ smax . Take                 modes hide information beyond the high-redshift end of
+                                                                    the data, while very fast modes hide information below
+             Q1 (s) = 1 − a + ae−ns ,                         (2)   its low-redshift end.
+                                       −ns          −ϵs
+             Q2 (s) = 1 − a − b + ae         + be         ,   (3)
+                                                                     C.   Conditional plateau bounds for both branches
+with a, b > 0, a + b < 1, n > 0, and ϵ > 0. The two
+asymptotes differ by the fixed amount b, but
+                                                                       The high-redshift obstruction can be weakened if the
+  ∥Q2 − Q1 ∥∞,[0,smax ] = b max(1 − e−ϵs ) ≤ bϵsmax .         (4)   allowed positive modes have a known minimum exponent
+                                s
+                                                                    nmin > 0. For a decreasing branch with Q∞ < 1, write
+For any finite observation interval and any tolerance                                          Z ∞
+τ > 0, choosing ϵ < τ /(bsmax ) makes the two curves                            Q(s) = Q∞ +          e−ns dB(n),        (8)
+observationally closer than τ while leaving their plateaus                                     Znmin
+separated by b.
+                                                                                  dB ≥ 0,         dB = 1 − Q∞ .         (9)
+   a. Theorem      1     (finite-redshift plateau     non-
+identifiability). Over any model class that permits
+arbitrarily slow positive decaying components, no                   With E(s) = e−nmin s ,
+uniformly stable estimator can recover the infinite-
+redshift plateau from data restricted to a finite redshift                Q(s) − E(s)
+interval. A precise plateau therefore requires either a                               ≤ Q∞ ≤ Q(s)            (Q∞ < 1).    (10)
+                                                                           1 − E(s)
+parametric continuation, a lower bound on the allowed
+decay exponents, or additional information beyond the               For an increasing branch with Q∞ > 1, write instead
+interval.
+   This obstruction is independent of the particular                                Z ∞                Z
+single-power form in Eq. (1). It states what finite data             Q(s) = Q∞ −         e−ns dB(n),      dB = Q∞ − 1,
+                                                                                     nmin
+can establish about any plateau inferred by extrapola-                                                                    (11)
+tion.                                                               which gives the mirror inequality
+
+                                                                                        Q(s) − E(s)
+    B.      Low-redshift twin: the calibration is not                     Q(s) ≤ Q∞ ≤                        (Q∞ > 1).    (12)
+             model-independently identifiable                                            1 − E(s)
+
+  The opposite endpoint has a dual obstruction. Sup-                For multiple exact samples, the decreasing branch uses
+pose observations begin at smin > 0 and let Y1 (s) be any           the largest lower bound and smallest measured Q; the in-
+positive reference curve. Define                                    creasing branch uses the largest measured Q and smallest
+                                                                    upper bound. Simultaneous confidence bands provide the
+                   Y2 (s) = Y1 (s) + de−N s ,                 (5)   corresponding noisy-data construction. These inequali-
+                                                                    ties turn an assumed lower limit on the decay rate into
+where d is a fixed calibration shift and N > 0. The zero-           a directly reportable finite-redshift statement about the
+redshift values differ by d,                                        plateau.
+                                                                       The low-redshift theorem has an analogous conditional
+                     Y2 (0) − Y1 (0) = d,                     (6)   bound. Suppose the plateau Y∞ is fixed independently
+                                                                                                                                3
+
+
+                                    Slow mode: different plateau                       Fast mode: different Y(0)
+                        1.00                                        Q1   1.08                                         Y1
+                                                                    Q2                                                Y2
+                        0.98                                             1.06
+       Distance ratio
+
+                        0.96
+                                                                         1.04
+                        0.94
+                                                                         1.02
+                        0.92
+                                                                         1.00
+                        0.90
+                               0.0        0.5      1.0     1.5     2.0          0.00     0.05     0.10     0.15     0.20
+                                                Redshift z                                      Redshift z
+
+FIG. 1. Two finite-window non-identifiability constructions. Left: a slow positive component changes the z → ∞ plateau by
+0.05 while keeping the curves close on 0 ≤ z ≤ 2. Right: a fast component changes Y (0) by 0.04 but is already negligible above
+the illustrative first observed redshift zmin = 0.03 (vertical line).
+
+
+and all positive transient modes obey 0 ≤ n ≤ nmax . For                       III. COSMIC ACCELERATION, WAVE
+a decreasing response,                                                        PROPAGATION, AND THE ROLE OF THE
+                                                                                            RATIO
+                               Z nmax
+   Y (s) = Y∞ +                         e−ns dB(n),    dB ≥ 0,   (13)    A.     Two physical questions carried by one distance
+                                0
+                                                                                              measurement
+
+with C = Y (0). Since e−nmax s ≤ e−ns ≤ 1,
+                                                                            A standard-siren amplitude can be affected by the ex-
+                                                                         pansion history through the background luminosity dis-
+                Y (s) ≤ C ≤ Y∞ + enmax s [Y (s) − Y∞ ].          (14)    tance and by the propagation law through an additional
+                                                                         amplitude factor. These effects should be kept concep-
+                                                                         tually separate even when the final likelihood estimates
+For an increasing response the mirror inequality is
+                                                                         them together. A comparison of two distance channels
+                                                                         is useful precisely because a common background factor
+                Y∞ − enmax s [Y∞ − Y (s)] ≤ C ≤ Y (s).           (15)    can cancel while a channel-dependent response remains.
+                                                                         Lombriser and Taylor illustrated how tensor propagation
+                                                                         can distinguish models that are degenerate in background
+A restriction on unresolved fast modes therefore con-
+                                                                         and scalar observables [18]. That example motivates test-
+verts low-redshift extrapolation into an interval state-
+                                                                         ing an independent propagation sector.
+ment, just as nmin converts the high-redshift obstruction
+                                                                            In an illustrative flat matter-plus-dark-energy back-
+into Eqs. (10)–(12). Stable inference of both endpoints
+                                                                         ground, neglecting radiation over the stated low-redshift
+needs control of both tails of the allowed decay-rate spec-
+                                                                         range,
+trum.
+                                                                                 H 2 (z) = H02 Ωm u3 + (1 − Ωm )fDE (z) ,
+                                                                                                                      
+                                                                                                                              (16)
+                                                                                               Z z             
+                                                                                                     1 + w(v)
+                                                                                fDE (z) = exp 3               dv ,            (17)
+                                                                                                  0    1+v
+          D.             Consequences for survey leverage                                               Z z
+                                                                                                             dv
+                                                                               dGW
+                                                                                L (z) = Ξ(z) (1 + z)c           .             (18)
+                                                                                                         0 H(v)
+   The two endpoint obstructions explain why redshift
+coverage matters in different ways. Data near the tran-                  These equations display the different roles of the equa-
+sition constrain the exponent; high-redshift data con-                   tion of state w and the propagation ratio Ξ. They are not
+strain the measured plateau; low-redshift anchors con-                   used to generate the likelihood inputs in our numerical
+strain the absolute normalization. For the single-power                  tests. A change in w changes the background distance in
+family, |∂Y /∂n| = |β|se−ns at fixed linear coefficients, so             both channels, whereas a nontrivial Ξ changes their rel-
+exponent sensitivity peaks at s = 1/n. The later Fisher                  ative relation. Additional cosmological observables can
+calculation quantifies this geometry for the declared syn-               constrain the common background while the ratio tests
+thetic designs.                                                          propagation. The current DESI distance measurements
+                                                                                                                      4
+
+[5] make this separation relevant, without requiring that           C.      From reconstruction to a checkable
+every observed tension be attributed to modified gravity.                      finite-redshift statement
+   The parametrization in Eq. (1) is therefore valuable
+as an economical description of one sector rather than a        The two-parameter description is already well devel-
+complete theory of cosmic acceleration. Its parameters       oped [9]. Nonparametric reconstruction offers a dif-
+are not interchangeable with (w0 , wa ), H0 , or a density   ferent way to estimate a distance curve without fixing
+fraction. A theory may connect those quantities, but the     Eq. (1); Gaussian processes were developed for expansion
+connection is additional physical information. The recent    and dark-energy reconstruction by Seikel, Clarkson, and
+model-specific study of Lagos and Wolf [12] illustrates      Smith [25] and applied directly to modified gravitational-
+the need to check that a phenomenological fit respects       wave propagation [10]. The present tests operate on such
+the dynamics and stability restrictions of the proposed      a reconstructed ratio and ask whether one constant plus
+dark-energy model.                                           one power is sufficient.
+                                                                The added layer here is to identify finite-redshift com-
+                                                             binations that a constant-plus-one-power response must
+                                                             satisfy and determine how their uncertainties behave.
+      B.   Amplitude damping is distinct from                Evaluating a reconstruction on a finer grid does not cre-
+                propagation speed                            ate independent information; its covariance must accom-
+                                                             pany the samples. Fitting the family, detecting red-
+                                                             shift dependence, and extrapolating an infinite-redshift
+  A useful starting equation for a freely propagating ten-   plateau are distinct inference problems.
+sor polarization is, in units c = 1,
+
+           h′′A + 2H[1 − δ(η)]h′A + k 2 hA = 0,      (19)         IV.       THE MEASURED RATIO AND ITS
+                                                                             CONSTANT COMPONENT
+where η is conformal time and H = a′ /a. This is
+the amplitude-friction sector of a more general propa-            A.     A propagation observable, not a speed
+gation framework [19]. Here primes refer only to η;                               measurement
+redshift derivatives below are written explicitly. With
+a′ /e
+e   a = H(1 − δ), the field e
+                            ahA obeys an approximately        In the setting of Refs. [8, 9], the amplitude-propagation
+oscillatory equation at wavelengths much shorter than        modification is written
+the background variation scale. The amplitude dilution                                  Z z            
+changes while the high-frequency phase speed remains                                             δ(v)
+                                                                           Ξ(z) = exp −               dv .         (21)
+unity. This provides the origin of Eq. (21) under the                                        0 1+v
+stated propagation and source assumptions [8].
+                                                             The function δ changes the damping of the gravitational-
+   The multimessenger observation of GW170817 and
+                                                             wave amplitude. It need not change its propagation
+GRB 170817A tightly restricted a relative propagation-
+                                                             speed. In this convention,
+speed difference for that event [20]. It did not turn
+the amplitude-friction coefficient into a measured speed.                         d ln Ξ        n(1 − Ξ0 )
+The distinction and its implications for dark-energy mod-       δ(z) = −(1 + z)          =                      .   (22)
+                                                                                    dz     1 − Ξ0 + Ξ0 (1 + z)n
+els are discussed systematically by Ezquiaga and Zu-
+malacárregui [21]. The present paper consequently treats    Thus the ratio and the friction function are two descrip-
+Ξ as a luminosity-distance ratio: a change in its con-       tions of the same specified amplitude response.
+stant component is an amplitude-distance statement, not         The ratio is an amplitude-distance observable. Its
+a changing-c statement.                                      dark-energy relevance comes from the propagation sec-
+   A familiar model-dependent specialization uses an ef-     tor, while the common cosmological distance and the rel-
+fective Planck mass Meff and                                 ative calibration are handled by the joint inference of the
+                                                             two channels.
+                2
+        d ln Meff            αM               Meff (0)
+ αM =             ,    δ=−      ,       Ξ(z) =         .
+          d ln a              2               Meff (z)
+                                                     (20)              B.    Separate the relative calibration
+These relations apply when this running controls the
+friction term and source and detector normalization are        Let u = 1 + z, s = ln u, and let Y denote the measured
+treated consistently. Lagos and collaborators developed      distance ratio with an unknown constant multiplicative
+standard-siren inference for this case [22]. A recon-        calibration C > 0:
+structed ratio can then be translated into the model’s
+running; otherwise it remains an empirical propagation       Y (z) = CΞ(z) = α+βu−n ,       α = CΞ0 ,    β = C(1−Ξ0 ).
+descriptor.                                                                                                      (23)
+                                                                                                                                                                   5
+
+                     1.100                                                                              At low signal-to-noise ratio the logarithm requires the
+                     1.075
+                                                                                                        joint positive-ratio likelihood instead. Under the single-
+                                                                                                        power family, writing δ = −d ln Y /ds gives
+                     1.050
+Distance ratio (z)
+
+
+
+                     1.025                                                                                                    dδ
+                                                                                      0 = 0.90, n = 3                            = δ(δ − n).                     (27)
+                     1.000                                                            0 = 0.90, n = 1                         ds
+                                                                                      0 = 1.10, n = 3
+                     0.975                                                                              Interval averages can locate a transition; the reconstruc-
+                     0.950                                                                              tion below then asks whether one exponent and one con-
+                     0.925                                                                              stant describe it coherently.
+                     0.900
+                             0.0        0.5       1.0      1.5        2.0       2.5             3.0
+                                                        Redshift z                                           V.     EXACT RECOVERY FROM FINITE
+                                                                                                                           REDSHIFTS
+FIG. 2. Representative single-power distance ratios for de-
+creasing and increasing branches of Eq. (1).                                                                         A.   The differential projection
+
+                                                                                                          A constant plus one homogeneous power can be sepa-
+Once α and β are determined,                                                                            rated without a large-redshift limit. For Eq. (23),
+
+                                                                      α                                                                u dY
+                                     C = α + β,           Ξ0 =           .                       (24)                     Pn Y ≡ Y +        = α.                 (28)
+                                                                     α+β                                                               n du
+
+With the normalization Ξ(0) = 1, C = Y (0) is the rela-                                                 Equivalently, d2 Y /ds2 + n dY /ds = 0. Constancy of
+tive absolute distance scale between the reconstructed                                                  Eq. (28) is therefore a diagnostic of the adopted two-
+channels. For supernova distances the corresponding                                                     dimensional function space, not independent evidence for
+Hubble-diagram scale is the familiar intercept combina-                                                 the law used to generate a theoretical curve. The deriva-
+tion MB −5 log10 H0 , equivalently H0 10−MB /5 up to fixed                                              tive formula is useful for analytic models or posterior re-
+unit factors [23]. For BAO with a free drag ruler the                                                   constructions, but numerical differentiation can amplify
+analogous absolute scale is rd h [24]. Thus C is the place                                              measurement noise. Finite-redshift alternatives follow di-
+where standard-siren ratios meet the same H0 -calibration                                               rectly.
+problem that appears in supernova and BAO distance                                                         For known n, put xi = uni . Then xY = αx+β is affine.
+ladders.                                                                                                Two distinct exact samples give
+   The branch 0 < Ξ0 < 1 decreases toward a nonzero
+floor, whereas Ξ0 > 1 increases toward a plateau. Fig-                                                                         xj Yj − xi Yi
+                                                                                                                            α=               ,                   (29)
+ure 2 illustrates both cases. An additive offset is sepa-                                                                         xj − xi
+rately degenerate with α and requires an external con-                                                                         xi xj (Yi − Yj )
+straint.                                                                                                                    β=                  .                (30)
+                                                                                                                                   xj − xi
+
+                                                                                                        Together with Eq. (24), these recover the asymptote and
+                        C.         An interval-averaged friction readout                                constant calibration. Additional samples test the same
+                                                                                                        line instead of merely adding freely adjustable coeffi-
+   For positive ratios, Eq. (21) supplies a derivative-free                                             cients.
+interval average. With si = ln(1 + zi ),
+                                                                      Z sj                                 B.     Three equally spaced logarithmic redshifts
+                                   ln[Y (zj )/Y (zi )]      1
+                     δ ij = −                          =                     δ(s) ds.            (25)
+                                        sj − si          sj − si       si
+                                                                                                          If uj = uref k j for a reference factor uref > 0 and k > 1,
+A constant relative calibration cancels. This quantity                                                  then
+does not recover an asymptote, but it tests redshift evo-
+lution without either differentiating a noisy curve or as-                                                        Yj = α + Bλj ,   B = βu−n
+                                                                                                                                         ref ,      λ = k −n .   (31)
+suming a power law. In the running-mass specialization
+of Eq. (20), the corresponding interval average of αM is                                                For B ̸= 0 and 0 < λ < 1,
+−2δ ij .
+                                                                                                                Y2 − Y1                          ln λ
+   For small relative errors, its variance is approximately                                                  λ=         ,               n=−           ,          (32)
+                                                                                                                Y1 − Y0                          ln k
+                                              2               2
+                                   Σii /Yi + Σjj /Yj − 2Σij /(Yi Yj )                                            Y0 Y2 − Y12
+                          δ ij ) ≃
+                      Var(b                                           .                          (26)        α=               ,         β = (Y0 − α)unref .      (33)
+                                              (sj − si )2                                                       Y0 − 2Y1 + Y2
+                                                                                                                        6
+
+The expression for α is exactly Aitken’s ∆2 transforma-        Whenever both triplets satisfy their admission bounds,
+tion applied to a geometric transient [15]. Its use here is    each equation has a unique positive inverse by the mono-
+to reconstruct a distance-ratio asymptote and to expose        tonicity proved above. Thus an exact four-point consis-
+its conditioning. Close to a constant ratio, or after the      tency condition is
+transient has nearly vanished, the denominator is small.
+We therefore use Eq. (33) for exact reconstruction, intu-                       −1              −1
+                                                                               F01 (d1 /d0 ) = F12 (d2 /d1 ).        (40)
+ition, and model checks, not as an unqualified estimator
+for noisy triplets.                                            This is the irregular-grid generalization of the equal-
+                                                               spacing Hankel condition. It uses two F (n) equations
+                                                               that must share one n, rather than forcing the data onto
+C.     Unique exponent recovery at arbitrary spacing
+                                                               a logarithmically uniform grid.
+                                                                  For noisy data it is numerically preferable to avoid ex-
+  Equal logarithmic spacing is not essential. Let s0 <         plicit ratios when increments are small. Define
+s1 < s2 , h1 = s1 − s0 , h2 = s2 − s1 , and
+                                                                                                       
+                            Y2 − Y1                                                      d1 − F01 (n)d0
+                        r=          .              (34)                        g(n) =                     .           (41)
+                            Y1 − Y0                                                      d2 − F12 (n)d1
+For a nonconstant member of Eq. (23),                          A covariance-aware four-point statistic minimizes
+                                                               g(n)T Vg (n)−1 g(n) over the declared exponent range,
+                               1 − e−nh2
+                 r = F (n) ≡             .             (35)    with the same fit performed in simulations or posterior
+                                enh1 − 1                       draws to obtain its reference distribution. One exponent
+This equation is independent of α, β, and a constant mul-      is fitted to two overlapping triplet conditions, leaving
+tiplicative calibration. Moreover, F (n) decreases strictly    one shape constraint.
+from h2 /h1 to zero as n increases from zero to infinity.         At equal spacing h0 = h1 = h2 , the two functions
+Indeed,                                                        coincide and Eq. (40) reduces algebraically to
+           d ln F       h2           h1
+                  = nh2       −            < 0,       (36)                          H = d0 d2 − d21 = 0.             (42)
+             dn      e    − 1 1 − e−nh1
+because the first term is smaller than 1/n and the second
+                                                               For two distinct powers on that grid,
+is larger. Consequently,
+                      0 < r < h2 /h1                   (37)                       Yj = α + B1 λj1 + B2 λj2 ,         (43)
+
+is necessary and sufficient for a unique positive exponent     the departure is
+fitting the three exact samples. Once n is obtained by a
+scalar root solve, Eq. (30) gives the constant and ampli-                 H = B1 B2 (λ1 − 1)(λ2 − 1)(λ1 − λ2 )2 .    (44)
+tude.
+   This is a precise distinction between recovery and test-    The equal-grid determinant is therefore a compact special
+ing. Three admissible exact points determine a member          case; Eq. (40) is the form relevant to irregular cosmolog-
+of the family; they do not establish that the family de-       ical bins.
+scribes other redshifts. A fourth point or a larger data
+vector supplies an overdetermined test. Noise can also
+move a true-model triplet outside Eq. (37); such an event           VI.     CORRELATED NOISY DATA AND
+should enter a likelihood, not be discarded as an inadmis-                 CALIBRATION-AWARE TESTS
+sible observation.
+                                                                   A.     Linear contrasts for a specified exponent
+
+  D.    Four-point consistency on arbitrary redshift             Suppose y contains m ratio estimates with known
+                         grids                                 positive-definite sampling covariance Σ. At trial expo-
+                                                               nent n, let ti = u−ni . A contrast involving consecutive
+  Four exact samples overdetermine the single-power            samples is
+family. Let di = Yi+1 −Yi and hi = si+1 −si for i = 0, 1, 2.
+The first and second overlapping triplets require the same                 ri (n) = yi+2 − (1 + λi )yi+1 + λi yi ,   (45)
+exponent:                                                                           ti+2 − ti+1
+                                                                           λi (n) =             .                    (46)
+                d1            1 − e−nh1                                               ti+1 − ti
+                   = F01 (n) ≡ nh0      ,              (38)
+                d0             e   −1
+                                                               These expressions apply to irregular grids. They annihi-
+                d2            1 − e−nh2                        late both the constant vector and t, and therefore remove
+                   = F12 (n) ≡ nh1      .              (39)
+                d1             e   −1                          both coefficients in Eq. (23). Let An collect the m − 2
+                                                                                                                         7
+
+consecutive contrasts. Its rows have full rank for distinct      C.    Confidence sets for the normalized constant
+ti , and
+                                                                  The transformation from (α, β) to Ξ0 is nonlinear, so
+               r = An y,       Vr = An ΣATn .          (47)
+                                                               the local variance formula need not describe a poorly de-
+Overlapping triples share measurements, so even inde-          termined normalization. At a specified exponent, (b α, C)
+                                                                                                                      b
+pendent yi do not give independent ri . The global statis-     is jointly Gaussian with known covariance. Write
+tic is
+                                                               vαα = V00 ,   vCC = V00 + 2V01 + V11 ,vαC = V00 + V01 ,
+                                                                                                                  (52)
+                      Tn = r   T
+                                   Vr−1 r.             (48)
+                                                               where V = Cov(θ). b A Fieller confidence set [26] for a
+For exactly Gaussian errors, known Σ, and n specified          trial normalized constant x is
+independently of the tested data, Tn ∼ χ2m−2 under the                      b 2 ≤ kγ2 vαα − 2xvαC + x2 vCC ,
+                                                                                                          
+                                                                       α − xC)
+                                                                      (b                                          (53)
+single-power family. The unknown relative calibration is
+removed rather than set to one.                                with kγ the two-sided standard-normal critical value. At
+   This test is equivalent to a generalized least-squares      the true x = α/C, the normalized left-hand linear com-
+residual. With Xn = [1, t],                                    bination is exactly standard normal. Inverting that pivot
+                                                               gives coverage 1 − γ under the fixed-exponent Gaussian
+           θbn = (XnT Σ−1 Xn )−1 XnT Σ−1 y,            (49)    assumptions, without a small-error expansion.
+           Tn = (y − Xn θbn )T Σ−1 (y − Xn θbn ),      (50)       The result may be a bounded interval, two unbounded
+                                                               pieces, or the whole line. A bounded interval requires, in
+where θ = (α, β)T . Appendix A proves the equivalence.         particular, Cb 2 > kγ2 vCC . An unbounded set records in-
+No information is gained by counting the contrasts as          adequate normalization information; it should not be re-
+additional data; they expose the same fit as directly in-      placed by a narrow symmetric error bar. Intersecting the
+terpretable consistency conditions.                            set with x > 0 states the physical domain, but imposing
+   The coefficient covariance is (XnT Σ−1 Xn )−1 . Away        additional restrictions or profiling n calls for calibration
+from α + β = 0, the leading uncertainty of Ξ   b 0 follows     of the modified procedure. This construction extends an
+with gradient                                                  established ratio-inference method to the distance-ratio
+                                                               coefficients; it does not claim a new general confidence-
+         1                                                     interval algorithm.
+ g=            (β, −α)T ,        b 0 ) ≃ g T Cov(θ)g.
+                             Var(Ξ               b    (51)
+      (α + β)2
+Physical constraints C > 0 and Ξ0 > 0 should be im-            D.     Testing redshift dependence when the exponent
+posed when interpreting estimates. The exact chi-square                         is absent under the null
+statement above uses the unconstrained linear fit; active
+parameter boundaries require their own calibration.               A goodness-of-fit test of one power and a test against
+                                                               general-relativistic propagation answer different ques-
+                                                               tions. Under a constant measured ratio, y = C1 + ϵ,
+     B.   Unknown exponent and singular limits
+                                                               the exponent is absent. This is the nuisance-parameter
+                                                               situation discussed by Davies [27]. A direct calibration
+   When n is not fixed, minimize Tn over a stated in-          is available here because the null is a linear Gaussian
+terval of positive exponents. The linear coefficients are      model.
+solved at each trial; only one variable requires nonlinear        Let z = L−1 y, let e0 be the unit vector along L−1 1,
+optimization. This is a variable-projection problem [17].      and define
+   At Ξ0 = 1, the coefficient β vanishes and n is uniden-
+tifiable. Near this limit, assigning a universal χ2m−3 dis-                            (I − e0 eT0 )L−1 tn
+                                                                               qn =                          .        (54)
+tribution to the optimized statistic is not justified. The                            ∥(I − e0 eT0 )L−1 tn ∥
+exponent range, constraints, ratio-estimation procedure,
+and selection effects should be reproduced in a para-          The improvement from adding the transient at a specified
+metric bootstrap or posterior-predictive calculation. The      exponent is
+synthetic profile test below is explicitly calibrated at one                          ∆n = (qnT z)2 .                 (55)
+nondegenerate fiducial point; it is not advertised as a
+parameter-uniform significance rule.                           For a finite, predeclared grid G, use
+   Very small n also makes the constant and exponential
+columns nearly collinear. Very high-redshift data can                                 ∆G = max ∆n .                   (56)
+                                                                                             n∈G
+constrain α while carrying little information about β or n.
+Combining a low-redshift anchor with measurements over         Under the null, qnT z is a zero-mean unit-variance Gaus-
+the transition is therefore more useful for separation than    sian process on that grid with covariance qnT qn′ . Its dis-
+obtaining only a dense set of nearly saturated points.         tribution is independent of C. Drawing standard-normal
+                                                                                                                           8
+
+vectors and applying the same qn therefore calibrates                    F.   Binning and ratio construction
+the complete finite-grid search, including its correlations,
+without estimating an unidentified exponent.
+                                                                                           R
+                                                                If a reported bin estimates Wi (s)Y (s)ds, with nor-
+  For an observed statistic and B independent null sim-        malized known window Wi , replace ti by
+ulations, the upper-tail Monte Carlo rank                                             Z
+                                   (b)                                        ti (n) = Wi (s)e−ns ds.           (62)
+                   1 + #{b : ∆G ≥ ∆obs
+                                   G }
+             pMC =                                     (57)
+                           B+1                                 The linear fit remains valid. A Gaussian window       with
+                                                                                                              2
+is a valid finite-simulation test by exchangeability. The      mean si and variance vi gives ti = e−nsi +n vi /2 . Using
+result is for the declared grid, covariance, and uncon-        only bin centers can create apparent shape changes when
+strained two-sided transient. A continuous search, a           widths differ. This formula applies to a bin mean of the
+data-selected grid, or a one-sided physical alternative        ratio, not automatically to a ratio of separately binned
+must be replicated in the null simulation. Rejecting the       distances.
+constant-ratio null identifies redshift dependence after         Similarly, a covariance quoted for a Gaussian-process
+constant calibration; it does not establish that a single      posterior is not automatically the repeated-sampling co-
+power is an adequate physical model. The separate shape        variance assumed in the chi-square statement. A diag-
+tests remain necessary.                                        nostic applied to a reconstructed function should be cali-
+                                                               brated through the reconstruction procedure or evaluated
+                                                               with its joint posterior draws. These tests are a comple-
+E.   Noise correction for the four-point determinant           ment to the reconstruction in Ref. [10], not a replacement
+                                                               for its data model.
+  For the three observed increments in Eq. (42), write
+d = Dy and V = DΣDT . Their covariance changes the
+expectation of the determinant:                                          G.   Correlated held-out prediction
+
+                  E[H]
+                    b = H + V02 − V11 .                (58)      A useful additional test estimates the two coefficients
+                                                               on one redshift subset and predicts another. This makes
+An unbiased estimator is consequently                          the difference between fitting and testing operational.
+                                                               For specified n, partition the data into training T and
+               bc = d0 d2 − d2 − V02 + V11 .
+               H                                       (59)
+                             1                                 held-out H blocks, retaining their cross-covariance. Set
+For independent equal-variance ratio errors σ 2 , the cor-                         K = ΣHT Σ−1
+                                                                                            TT ,                        (63)
+rection is +2σ 2 . Omitting it produces a negative appar-                         VT = (XTT Σ−1       −1
+                                                                                             T T XT )    ,              (64)
+ent departure even when the exact curve has rank one.
+  Let B be the symmetric matrix with B02 = B20 =                                 BH = XH − KXT .                        (65)
+1/2, B11 = −1, and other entries zero. For Gaussian            With the training-only generalized least-squares estimate
+increments of true mean µ, the exact variance is
+                                                               θbT , the predictor is
+             bc ) = 2 tr(BV BV ) + 4µT BV Bµ.
+         Var(H                                         (60)
+                                                                                  ybH = KyT + BH θbT .                  (66)
+The quadratic statistic need not be Gaussian, particu-
+                                                               The repeated-sampling covariance of its error is
+larly near a constant ratio. Equation (60) is a variance
+identity, not permission to use Gaussian tail probabili-                                             T
+                                                                           VH = ΣHH − KΣT H + BH VT BH .                (67)
+ties. The supplied code checks the identity by simula-
+tion. More generally, write a collection of overlapping        The first two terms are the conditional noise covari-
+determinants as Hb j = y T Qj y, where each symmetric Qj       ance; the last propagates coefficient-estimation uncer-
+embeds the appropriate four-point difference operator.         tainty. The Gaussian innovation in the held-out block is
+Their bias-corrected covariance is                             independent of the training noise, which proves Eq. (67).
+                                                               Hence the squared VH -weighted prediction error has a
+           Cov(H
+               b i,c , H
+                       b j,c ) = 2 tr(Qi ΣQj Σ)                χ2|H| distribution under the stated null. Omitting either
+                               + 4mT Qi ΣQj m,         (61)    cross-covariance or parameter uncertainty changes that
+                                                               test.
+where m = Ey. The overlapping diagnostics cannot be               When n is learned from the training set, its uncertainty
+counted as independent confirmations. At a specified           must also enter, for example by repeating the training
+mean and covariance, the quadratic forms can be eval-          fit in simulated complete catalogs. A redshift split can
+uated by Gaussian simulation or by quadratic-form dis-         test finite-range extrapolation, but successful prediction
+tribution methods of the kind developed by Imhof [28].         at the largest observed redshift still does not certify an
+Unknown means or selected windows require the same             infinite-redshift plateau. It verifies an additional interval,
+fitting or selection steps in the calibration.                 not an unrestricted continuation.
+                                                                                                                                      9
+
+        VII. CALIBRATION DRIFT AND                                   Because the generated errors are not exactly Gaussian,
+      FINITE-WINDOW INTERPRETATION                                 both fixed-n and profiled 5% thresholds are calibrated
+                                                                   empirically. We use 30,000 null catalogs to obtain criti-
+  A constant C can be separated within Eq. (23); an ar-            cal values 34.1599 and 32.8542, respectively, and 20,000
+bitrary redshift-dependent calibration cannot. If Y (s) =          independent catalogs per reported case. The exponent
+C(s)Ξ(s), the transformation Ξ(s) → f (s)Ξ(s) and                  profile uses n ∈ [0.25, 8] with spacing 0.025. The fixed
+C(s) → C(s)/f (s) leaves the observations unchanged.               pseudorandom seed is 20260927.
+For the illustrative drift C(s) = C0 eϵs ,                           In addition to the fiducial and a different constant gain,
+                                                                   we test three explicit departures:
+          Y (s) = C0 Ξ0 eϵs + C0 (1 − Ξ0 )e−(n−ϵ)s ,       (68)
+                                                                          Ytwo /1.04 = 0.90 + 0.07e−3s + 0.03e−s/2 ,                (73)
+so a slowly varying scale error can mimic changed prop-                                      0.01s                   −3s
+agation over a finite interval. Theorem 2 is the sharper                  Ydrift /1.04 = e           (0.90 + 0.10e         ),       (74)
+                                                                                                           −3s
+endpoint statement: even with no drift in the observed                    Ylocal /1.04 = 0.90 + 0.10e
+region, unresolved structure below zmin can change the                                                           2              2
+                                                                                        + 0.015e−(s−0.60) /(2×0.09 ) .              (75)
+extrapolated calibration.
+   These results separate three claims that are often con-         The drift reaches about 1.10% at z = 2. The alternatives
+flated: fitting a curve on the observed interval, iden-            are chosen to contrast smooth and localized departures
+tifying its zero-redshift calibration, and identifying its         at the same observational precision.
+infinite-redshift plateau. The first can be tested directly;
+the latter two require explicit assumptions about modes
+outside the measured window.                                                      B.   What the tests establish
+
+
+      VIII.   SYNTHETIC VALIDATION AND                                Table I shows that the empirically calibrated null be-
+              SENSITIVITY EXAMPLES                                 haves as intended at realistic percent-level precision. For
+                                                                   the fiducial, the fixed-n estimate has mean Ξ  b 0 = 0.90073
+                A.    Declared experiment                          and standard deviation 0.02150; changing the constant
+                                                                   gain to 0.96 leaves the normalized plateau unchanged
+                                                                   within Monte Carlo error.
+   We use m = 24 hypothetical compressed ratio esti-
+                                                                      If the relative gain is instead forced to C = 1 on
+mates, equally spaced in s = ln(1 + z) between z =
+                                                                   the noiseless C = 1.04 fiducial mean, the fit moves to
+0.03 and z = 2. The fiducial curve has (Ξ0 , n, C) =
+(0.90, 3, 1.04). Rather than assume sub-percent ratio pre-         Ξ
+                                                                   b 0 = 0.95034 and has noncentrality 6.38. Allowing the
+cision, the marginal fractional uncertainty is                     two linear coefficients therefore separates a constant scale
+                                                                   mismatch that would otherwise be absorbed into the in-
+               fi = 0.022 + (0.0225zi )2
+                                        1/2
+                                              ,       (69)         ferred plateau.
+                                                                      The more important change from a sub-percent toy
+which rises from 2.00% to 4.92% across the grid. To                experiment is the loss of power against smooth alterna-
+stress the Gaussian likelihood with an asymmetric dis-             tives. At 2–5% precision, the second power and 1% cali-
+tance error, we add an independent centered lognormal              bration drift are rejected at essentially the null rate after
+component with shape parameter τ = 0.75 and rms frac-              profiling n. Even the localized feature is detected only
+tion                                                               at the 6% level in this particular compressed product.
+                                                                   The noiseless two-power mean has true plateau 0.90 but
+                     ℓi = 0.004 + 0.004zi ,                (70)    is closely approximated over the measured interval by a
+                                                                   single power with (Ξ0 , n) = (0.91611, 2.57760). Figure 3
+which rises from 0.41% to 1.20%. This is a stylized
+                                                                   shows why: the fitted residuals remain small compared
+lensing-like tail, not a ray-tracing forecast. The remain-
+                                                                   with the declared marginal errors. This is the numerical
+ing Gaussian core has fcore,i = (fi2 −ℓ2i )1/2 and covariance
+                                                                   counterpart of Theorem 1 rather than a failure of the test
+                               h                              i    construction.
+  Σcore
+   ij   = µi µj fcore,i fcore,j 0.80δij + 0.20e−|si −sj |/0.12 ,
+                                                           (71)
+                                                                     C.    Confidence coverage and a calibrated search
+   Σij = Σcore
+          ij   + δij (µi ℓi )2 ,                           (72)
+                                                                                  against a constant ratio
+where µi is the fiducial mean. The quasi-GLS tests use
+Σ, while simulated catalogs are generated from the cor-               The expanded tests use the same 24-point covariance
+related Gaussian core plus the centered non-Gaussian               and an independent pseudorandom seed, 20260926. A
+tail. Weak-lensing magnification is one reason standard-           100,000-catalog experiment checks the fixed-n Fieller set
+siren distance likelihoods can acquire redshift-dependent          in Eq. (53). It contains the injected Ξ0 = 0.90 in 95.017%
+asymmetric structure [30].                                         of catalogs. Applied to the noiseless fiducial mean with
+                                                                                                                                                                                                                                            10
+
+
+TABLE I. Synthetic rejection rates using 2–5% marginal ratio errors plus the lensing-like tail in Eq. (69). Each row uses 20,000
+independent test catalogs; the 5% thresholds are calibrated from 30,000 independent null catalogs under the same non-Gaussian
+error model. The last two columns fit the noiseless mean with a single power and free calibration.
+
+Input                                                                                   Fixed n = 3 rejection                                         Profile rejection                  Fitted n                           Fitted Ξ0
+Single power, C = 1.04                                                                                 5.09%                                                     5.06%                    3.00000                             0.90000
+Same shape, C = 0.96                                                                                   4.97%                                                     5.15%                    3.00000                             0.90000
+Second power                                                                                           5.20%                                                     5.20%                    2.57760                             0.91611
+Relative-calibration drift                                                                             4.97%                                                     5.03%                    3.34482                             0.90972
+Localized shape departure                                                                              6.20%                                                     5.87%                    2.95009                             0.90775
+
+
+
+                                                                                                     Second power                                   1.0
+Mean residual / marginal standard deviation
+
+
+
+
+                                              0.4
+                                                                                                     Calibration drift
+                                                                                                     Localized departure
+                                              0.3                                                                                                   0.8
+
+
+
+
+                                                                                                                           Cumulative probability
+                                              0.2                                                                                                   0.6
+                                              0.1
+                                                                                                                                                    0.4
+                                              0.0
+                                                                                                                                                    0.2                                                  Finite-grid scan, synthetic null
+                                              0.1                                                                                                                                                        Single specified exponent: 12
+                                                                                                                                                                                                         Scan 95% threshold = 4.816
+                                                                                                                                                    0.0
+                                                    0.00   0.25   0.50   0.75     1.00 1.25   1.50       1.75      2.00                                   0        2        4           6            8                 10                   12
+                                                                                Redshift z                                                                              Improvement over a constant-ratio fit
+
+
+FIG. 3. Residuals of the noiseless alternatives after fitting                                                              FIG. 4. Empirical null distribution for the declared exponent-
+a single power with free exponent and constant calibration,                                                                grid search in Eq. (56). The search threshold is calibrated
+divided by the marginal uncertainty. The likelihood uses the                                                               from the full grid rather than borrowed from a one-exponent
+full covariance. Smooth departures are readily absorbed into                                                               χ21 test.
+shifted single-power parameters at the adopted 2–5% preci-
+sion.
+                                                                                                                           even when the input measurements are independent. A
+                                                                                                                           separate common-gain covariance check leaves a maxi-
+the realistic covariance, the interval is [0.85863, 0.94365];                                                              mum contrast-covariance residual of 1.4 × 10−18 , as ex-
+the corresponding standard deviation of the inferred cal-                                                                  pected because a constant multiplicative gain lies in the
+ibration C is 0.01595. The broader interval makes ex-                                                                      fitted two-dimensional model space.
+plicit how much information was hidden by the earlier
+sub-percent toy precision.
+   For the constant-ratio null, 20,000 simulations cali-                                                                                      D.              Redshift leverage at a matched information
+brate Eq. (56) on the same 0.25 ≤ n ≤ 8 grid with step                                                                                                                        budget
+0.025. A separate 20,000-catalog sample measures re-
+jection. The scan’s 95th-percentile threshold is 4.81599,                                                                     A design calculation illustrates the distinction between
+compared with 3.84146 for one specified χ21 improve-                                                                       plateau measurements and normalization leverage. We
+ment. The calibrated search rejects 5.08% of null sam-                                                                     compare four sets of 24 hypothetical independent ratios
+ples; incorrectly using the single-exponent threshold re-                                                                  with the same absolute error 0.03 and the same fidu-
+jects 8.93%. Figure 4 shows why the difference matters.                                                                    cial (Ξ0 , n, C) = (0.9, 3, 1.04). The low-only, broad, and
+   The held-out test fits the first sixteen points and pre-                                                                high-only designs are uniform in s over their tabulated
+dicts the final eight using Eqs. (66)–(67). Over 100,000                                                                   intervals. The three-band design places eight points in
+catalogs its mean statistic is 8.00894, compared with                                                                      each of z ∈ [0.03, 0.12], [0.3, 0.6], and [1, 2], again uni-
+eight degrees of freedom, and it rejects 5.005% at a nom-                                                                  form in s within each band.
+inal 5% threshold. This checks finite-redshift prediction                                                                     Table II and Fig. 5 show that high-redshift sampling
+with both shared noise and coefficient uncertainty carried                                                                 alone can constrain the measured plateau α while leaving
+through.                                                                                                                   its normalized value α/(α + β) weakly determined. Low-
+   We also test two overlapping equal-grid Hankel con-                                                                     redshift sampling alone does not resolve the curvature
+trasts on five points with independent 3% errors. Their                                                                    well enough to determine n. Broad coverage combines
+analytical correlation is −0.20587 and 200,000 simula-                                                                     normalization, transition, and plateau information. The
+tions give −0.20501. Shared increments therefore matter                                                                    three-band example performs somewhat better than a
+                                                                                                                                                                                   11
+
+                                                                                                                          mode determinant identities; a bracketed scalar solve for
+TABLE II. Local Fisher uncertainties with all three parame-
+                                                                                                                          irregular-grid reconstruction; triangular solves and QR
+ters free, at identical point count and 3% absolute error.
+                                                                                                                          factorization for the Gaussian likelihood; and direct sim-
+Design                                                        z range                    σn                    σ Ξ0       ulations for the null distributions. The irregular-grid in-
+Low only                                                    0.03–0.35               10.8103                0.20500        verse is checked on 72 combinations of exponent, asymp-
+Broad                                                       0.03–2.00                2.0498                0.02174        tote, and calibration at z = (0.07, 0.47, 1.83), with maxi-
+                                                                                                                          mum absolute parameter error 9.7 × 10−14 . The contrast
+High only                                                   1.00–3.00               21.8409                1.20322
+                                                                                                                          and least-squares statistics agree to 1.1 × 10−12 in the
+Three bands                                                 0.03–2.00                1.9063                0.01883
+                                                                                                                          retained test.
+                                                                                                                             A separate 200,000-quadruple experiment checks the
+                                                                                                                          equal-grid Hankel noise correction at 3% independent er-
+                                                                                                                          rors. The analytical raw bias is −1.8 × 10−3 and the
+Local marginalized uncertainty n
+
+
+
+
+                                                                                                                          simulated value is −1.7894×10−3 ; the analytical and sim-
+                                                                                                                          ulated standard deviations are 0.0043105 and 0.0043074.
+                                   101
+                                                                                                                          The corrected mean is 1.06 × 10−5 . The irregular-grid
+                                                                                                                          four-point reconstruction is independently checked on
+                                                                                                                          72 parameter combinations, with a maximum shared-
+                                                                                                                          exponent discrepancy 2.8 × 10−13 .
+                                                                                                                             The author directed the research question and the
+                                                                                                                          use of constant-component recovery. OpenAI Chat-
+                                                                                                                          GPT (GPT-6 Astra Pro) assisted in literature identi-
+                                              Low only           Broad              High only        Three bands          fication, derivations, code construction, interpretation,
+                                                          24 hypothetical ratios, each with 3% error
+                                                                                                                          manuscript drafting, and figure-generating code. Vali-
+                                                                                                                          dation consisted of the explicit symbolic identities and
+FIG. 5. Marginalized local exponent uncertainty for the four                                                              numerical comparisons described above; AI output was
+matched-budget designs in Table II. Broad or three-band cov-                                                              not used as an independent correctness certificate. The
+erage carries far more curvature information than either end-                                                             numerical runs used Python 3.13.5, NumPy 2.3.5, SciPy
+point alone.                                                                                                              1.17.0, and SymPy 1.14.0. The realistic Table-I exper-
+                                                                                                                          iment and the extended validation have separate fixed
+                                                                                                                          seeds and result files. The scripts, covariances, result ta-
+uniform broad grid under these fixed assumptions; the
+                                                                                                                          bles, reference-verification notes, and reproducibility in-
+weak endpoint-only designs also produce Fisher errors
+                                                                                                                          structions are supplied as Supplemental Material.
+large enough that a local Gaussian approximation should
+be treated cautiously.
+                                                                                                                                IX.   APPLICATION TO DARK-ENERGY
+                                                                                                                                              STUDIES
+                                         E.     A finite-bin implementation check
+
+                                                                                                                           A.    A diagnostic layer for reconstructed distance
+   For a top-hat window in s with center si and halfwidth
+                                                                                                                                                  ratios
+hi , the exact design element is
+
+                                                                            sinh(nhi )                                       The observational application begins with an estimate
+                                                         ti (n) = e−nsi                .                           (76)   of Ξ(z) and its joint uncertainty. In a bright-siren analy-
+                                                                               nhi
+                                                                                                                          sis, host-redshift information and waveform-distance like-
+Using the original grid, choose hi = min[0.015 +                                                                          lihoods can be combined with a reconstructed electro-
+0.22(si /smax )2 , 0.8si ], so all windows stay at pos-                                                                   magnetic distance relation. In dark-siren analyses, red-
+itive redshift.        The exact binned fiducial mean                                                                     shift, population, and selection modeling must remain
+fitted with point-center values gives (n, Ξ0 , C) =                                                                       part of the inference [11, 29]. Their uncertainties and
+(3.01539, 0.900323, 1.040059) with noncentrality 1.94 ×                                                                   correlations cannot be replaced by independent Gaussian
+10−6 . The window-aware fixed-n fit recovers (0.90, 1.04)                                                                 errors without validation.
+to floating-point precision. The example illustrates that                                                                    One may then test a specified exponent with Eq. (48),
+a good shape fit can coexist with a small deterministic                                                                   profile a free exponent with forward calibration, or ex-
+bin-centering bias.                                                                                                       amine the four-point residual on a suitably constructed
+                                                                                                                          logarithmic grid. Agreement supports the single-power
+                                                                                                                          description over the measured interval. The fitted Ξ0
+                                         F.    Implementation and reproducibility                                         should be reported with the exponent range, calibra-
+                                                                                                                          tion treatment, tested redshift range, and sensitivity to a
+  The accompanying Python program uses symbolic                                                                           slower additional component. This turns the asymptote
+simplification for the constant-mode, Aitken, and two-                                                                    from an isolated fitted number into a parameter with an
+                                                                                                                           12
+
+explicit consistency and extrapolation record.                   This is the selection normalization of the population
+                                                                 framework in Ref. [29]. The event likelihood may in-
+                                                                 clude counterpart information when supplied, while any
+ B.    From individual distance likelihoods to a ratio           shared electromagnetic-distance likelihood must be incor-
+                       product                                   porated once, not independently reused for every event.
+                                                                 A changed distance-amplitude law can change the de-
+   The Gaussian vectors used above are an explicit com-          tection fraction; that dependence cannot be corrected
+pressed data model. A real analysis must first estab-            merely by widening pointwise ratio errors.
+lish how that compression relates to individual measure-            A practical application would specify the channels and
+ments. At sufficiently small relative errors, let G and          their calibrations, construct their joint likelihood, and re-
+E denote jointly estimated GW and EM distances, and              lease either validated compressed ratios or joint function
+Yi = Gi /Ei . The Jacobian is                                    draws. The fixed-exponent, free-exponent, and constant-
+                                                                 ratio questions would then be declared separately. Sim-
+          JY = diag(Ei−1 ), − diag(Gi /Ei2 ) .
+                                           
+                                                    (77)
+                                                                 ulated catalogs would pass through the same detection,
+For their full block covariance VGE ,                            reconstruction, binning, and fitting procedure before a
+                                                                 rejection probability is assigned. This preserves the re-
+                       ΣY ≃ JY VGE JYT .                  (78)   construction role of Refs. [10, 11, 25] and uses the present
+This retains cross-channel and cross-redshift errors. It         formulas as an interpretable diagnostic of its output.
+is not generally reproduced by dividing marginal error              The approach does not require a derivative estimate
+bars. The leading bias of one ratio is                           for every analysis. A fixed-n contrast uses only the re-
+                                                                 covered ratios and covariance; a free-n fit requires a one-
+                                  bi ) Cov(G
+                           Gi Var(E         bi , E
+                                                 bi )
+                                                                 dimensional search. An interval-friction contrast uses
+      E[Ybi ] − Gi /Ei ≃        3     −      2        .   (79)
+                               Ei          Ei                    positive endpoint ratios, whereas the equal-logarithmic
+For broad or non-Gaussian distance likelihoods, the joint        four-point diagnostic requires a suitably defined grid.
+positive-distance distribution is the appropriate starting       Each can be chosen for the actual data product rather
+point instead of this expansion. Coherent posterior draws        than forcing that product into an unnecessary reconstruc-
+can be transformed into ratios without discarding their          tion.
+dependence, but posterior dispersion still does not au-
+tomatically supply the repeated-sampling calibration of
+                                                                          D.   Separating electromagnetic opacity
+Eq. (48).
+   Redshift uncertainty creates another dependence. To
+first order, a perturbation in s shifts the mean by                 A GW/EM discrepancy is not uniquely a modification
+∂Y /∂s = −nβe−ns . If redshift errors are small and inde-        of gravitational-wave propagation if electromagnetic flux
+pendent of distance errors, their covariance can be prop-        is also altered. The tripartite construction of Ref. [4]
+agated through that derivative and added to ΣY . Other-          provides a way to separate these possibilities. Define
+wise a joint latent-redshift calculation is needed. Source                        dEM                      dGW
+                                                                                   L                        L
+peculiar velocities, uncertain hosts, and selection then af-         ηEM =                 ,   ηGW =                .    (82)
+                                                                               (1 + z)2 dA              (1 + z)2 dA
+fect both the assigned redshift and the inferred distance
+relation. The bin windows in Eq. (62) should describe            Then Ξ = ηGW /ηEM . Applying the diagnostics to in-
+the actual reported statistic, not merely a convenient grid      dependently inferred channels can help localize a dis-
+chosen afterward.                                                crepancy, provided the angular-distance/ruler calibration
+                                                                 and shared covariance are retained. In particular, a ra-
+                                                                 tio of two single-power functions is not generally another
+C.     Selection-aware event inference and diagnostic            single-power function. A nonzero residual in Ξ may in-
+                       validation
+                                                                 dicate two channel responses rather than the breakdown
+                                                                 of one specified gravity theory.
+   For events without a secure host, the redshift is part           A common re-expression of all distance and ruler quan-
+of the inference. A schematic likelihood, conditional on         tities cancels from a dimensionless ratio. A universal
+the detected event count, is                                     remapping therefore requires an independently defined
+                     N
+                     Yev Z                                       observable before this GW/EM ratio can constrain it.
+    L(ϑ) ∝ A(ϑ)−Nev         p(dj | θ, ϑ)π(θ | ϑ) dθ, (80)
+                           j=1
+                                                                     E.    What a departure would and would not
+where θ includes source properties and redshift, ϑ in-                                establish
+cludes population, distance, calibration, and propagation
+parameters, and                                                    The diagnostics support a staged interpretation. A
+                 Z
+                                                                 constant ratio with uncertain constant calibration is com-
+         A(ϑ) = p(detected | θ, ϑ)π(θ | ϑ) dθ.       (81)        patible with the general-relativistic shape, even when its
+                                                                                                                         13
+
+numerical level is not one. A detected redshift trend ex-       the zero-redshift normalization is specified. At arbitrary
+cludes that shape under the calibrated data model. A            redshift spacing, three nonconstant exact samples have a
+trend well described by one power allows reconstruction         unique positive exponent precisely when their increment
+of (Ξ0 , n) within that family. A significant shape resid-      ratio satisfies Eq. (37). Additional samples provide con-
+ual asks for an enlarged propagation description or an          sistency tests rather than more arbitrary model freedom.
+investigation of the source, calibration, and electromag-          For Gaussian ratio estimates, the full-covariance con-
+netic channels. These conclusions are related but not           trast statistic is exactly the generalized least-squares
+interchangeable.                                                residual after eliminating calibration and asymptotic am-
+   For example, the observed logarithmic derivative obeys       plitude. A bias-corrected four-point determinant pro-
+                                                                vides an exponent-independent shape test. Controlled
+                   d ln Y          d ln C(s)                    simulations confirm the fixed-exponent null calibration
+               −          = δ(s) −           .          (83)
+                     ds                ds                       and demonstrate both the removal of a constant-gain bias
+A relative-calibration drift is therefore exactly degenerate    and the finite-redshift difficulty of detecting smooth addi-
+with a contribution to the inferred friction unless the drift   tional components. The expanded construction provides
+is independently constrained. Similarly, electromagnetic        exact fixed-exponent confidence sets for the normalized
+opacity changes the denominator channel in the tripar-          plateau, a finite-grid calibration when the exponent is ab-
+tite relation. Additional distance channels provide a way       sent under the constant-ratio null, and a correlated held-
+to diagnose that ambiguity [4]; a single excellent fit to       out prediction test. The additional experiments verify
+Eq. (1) does not identify which physical sector generated       each of those distinct inferential roles.
+the fitted curve.                                                  Most importantly, reconstruction and extrapolation
+   The asymptotic interpretation is an additional step.         are separate claims. A constant is exactly recoverable
+In the running-Planck-mass specialization, a finite Ξ0          within a declared single-power law, but a sufficiently slow
+represents the corresponding large-redshift mass ratio          additional component can preserve the finite-redshift
+only if that limit exists and the same source/detector          curve while changing the infinite-redshift limit. Report-
+treatment remains applicable. In a general propagation          ing that dependence makes the diagnostic more useful
+model, Ξ0 is the constant in its distance response. The         for dark-energy studies: the observable relation, its cali-
+slow-component theorem quantifies why a well-measured           bration, its functional form, and its extrapolation can be
+finite-redshift curve can still leave its asymptotic inter-     tested separately.
+pretation uncertain.
+                                                                                DATA AVAILABILITY
+              F.    The resulting extension
+                                                                   No observational data were analyzed. The complete
+   References [9, 10] established a useful parametriza-         synthetic specification, code, numerical outputs, and fig-
+tion and reconstruction program for modified propaga-           ure scripts are included in the accompanying Supplemen-
+tion. The present work adds an explicit finite-redshift         tal Material. The cited observational and theoretical
+consistency framework around that program: exact re-            studies are used for scientific context, not imported as
+covery with irregular sampling, separation of a constant        fitted data.
+gain, covariance-aware shape tests, and a quantified ob-
+struction to interpreting a finite-redshift fit as a model-
+independent asymptotic measurement.                                            ACKNOWLEDGMENTS
+   The results also clarify what should be targeted next.
+Data near the transition constrain the exponent, a well-           The constant-component question was first encoun-
+controlled low-redshift normalization separates gain from       tered in the author’s separate unpublished distance-
+plateau, and a longer redshift baseline tests slower com-       model work; no physical identification from that work
+ponents. Additional channels can distinguish electro-           enters the analysis here. The author acknowledges the
+magnetic attenuation from gravitational-wave damping.           substantive research and manuscript assistance of Ope-
+These are observational requirements derived from the           nAI ChatGPT described in Sec. VIII F. The inherited
+structure of the adopted relation, rather than from a           constant-floor research also used OpenAI Codex; no new
+change in the underlying speed of light.                        Codex or GEN4 execution is represented by the simula-
+                                                                tions in this paper.
+
+                   X.   CONCLUSIONS
+                                                                Appendix A: Statistics of the contrast and quadratic
+   The constant-plus-power distance ratio permits a sim-                               tests
+ple differential projection and exact finite-redshift recon-
+struction. Its structure remains identifiable in the pres-       Let Σ = LLT and whiten the observations as z =
+ence of an unknown constant relative calibration when           L y. The whitened model matrix is Z = L−1 Xn . Since
+                                                                 −1
+                                                                                                                            14
+
+An Xn = 0, the rows of An L span the orthogonal com-                  Appendix B: Shared calibration modes and
+plement of the columns of Z. Therefore                                         prediction covariance
+
+                         −1                                        The contrast construction also identifies which corre-
+ (An L)T (An L)(An L)T       (An L) = I − Z(Z T Z)−1 Z T .
+           
+                                                                 lated systematic modes it removes. If a covariance con-
+                                                      (A1)
+                                                                 tribution has the form
+Sandwiching this identity between z T and z proves
+Eqs. (48)–(50). The right-hand side is a rank-m − 2 or-                                Σsys = Xn ΩXnT ,                  (B1)
+thogonal projector. Under the fixed-exponent Gaussian
+null, its quadratic form has exactly the stated chi-square       then An Σsys ATn = 0. A small stochastic common gain
+distribution. This proof also shows why rescaling individ-       around a given single-power mean is an example, with
+ual contrasts does not change the test if their covariance       Σsys = τC2 mmT . Its presence changes coefficient un-
+is transformed consistently.                                     certainties but supplies no additional shape residual. A
+   For the determinant, write d = µ + e, where Ee = 0            redshift-dependent calibration template generally has a
+and Cov(e) = V . Then                                            component outside the two-column model space and is
+                                                                 not removed by this identity. This statement is about a
+              E[dT Bd] = µT Bµ + tr(BV ).               (A2)     known covariance contribution at a specified exponent;
+                                                                 it is not permission to estimate or discard arbitrary sys-
+                                                                 tematic covariance after inspecting residuals.
+For Gaussian e, the centered linear and quadratic terms             For the held-out result, write
+are uncorrelated, and their variances are 4µT BV Bµ and
+2 tr(BV BV ), respectively. This proves Eq. (60). Bias                            yH = KyT + BH θ + ϵc ,                 (B2)
+correction alone does not make the distribution Gaussian.
+   For fixed n and independent weights wi , the determi-         where ϵc is independent of yT and has covariance ΣHH −
+nant of the coefficient information matrix is                    KΣT H . Subtracting Eq. (66) leaves
+
+                             X                                                     eH = ϵc − BH (θbT − θ).               (B3)
+           det(XnT W Xn ) = (  wi )2 Varw (ti ).        (A3)     The covariance follows by independence. This is a
+                                i                                repeated-sampling prediction theorem with unknown but
+                                                                 fixed coefficients; it is not obtained by treating fitted pa-
+It directly measures the redshift leverage of the decaying       rameters as known. If the exponent is selected on the
+mode. When all ti are nearly equal, two linear coefficients      training set, the predictor becomes nonlinear and the
+become difficult to separate even with a formally valid          fixed-n proof no longer supplies its entire reference dis-
+inverse.                                                         tribution.
+
+
+
+
+ [1] A. G. Riess et al., Observational evidence from super-       [8] E. Belgacem, Y. Dirian, S. Foffa, and M. Maggiore,
+     novae for an accelerating universe and a cosmological            Gravitational-wave luminosity distance in modified grav-
+     constant, Astron. J. 116, 1009–1038 (1998).                      ity theories, Phys. Rev. D 97, 104066 (2018).
+ [2] S. Perlmutter et al., Measurements of Ω and Λ from           [9] E. Belgacem, Y. Dirian, S. Foffa, and M. Maggiore, Mod-
+     42 high-redshift supernovae, Astrophys. J. 517, 565–586          ified gravitational-wave propagation and standard sirens,
+     (1999).                                                          Phys. Rev. D 98, 023510 (2018).
+ [3] B. A. Bassett and M. Kunz, Cosmic distance-duality as       [10] E. Belgacem, S. Foffa, M. Maggiore, and T. Yang, Gaus-
+     a probe of exotic physics and acceleration, Phys. Rev. D         sian processes reconstruction of modified gravitational
+     69, 101305(R) (2004).                                            wave propagation, Phys. Rev. D 101, 063505 (2020).
+ [4] I. Matos, M. Quartin, L. Amendola, M. Kunz, and R.          [11] S. A. Vallejo-Peña, A. E. Romano, and J. Gair, Non para-
+     Sturani, A model-independent tripartite test of cosmic           metric constraints of gravitational-electromagnetic lumi-
+     distance relations, JCAP 08 (2024) 007.                          nosity distance ratio, arXiv:2603.25305 (2026), preprint.
+ [5] M. Abdul-Karim et al. (DESI Collaboration), DESI DR2        [12] M. Lagos and W. J. Wolf, Consistency between cosmo-
+     results. II. Measurements of baryon acoustic oscillations        logical and standard siren observations in evolving dark
+     and cosmological constraints, Phys. Rev. D 112, 083515           energy, arXiv:2609.04112 (2026), preprint.
+     (2025).                                                     [13] V. Sahni, A. Shafieloo, and A. A. Starobinsky, Two new
+ [6] B. F. Schutz, Determining the Hubble constant from               diagnostics of dark energy, Phys. Rev. D 78, 103502
+     gravitational wave observations, Nature 323, 310–311             (2008).
+     (1986).                                                     [14] C. Clarkson, B. Bassett, and T. H.-C. Lu, A general test
+ [7] B. P. Abbott et al., A gravitational-wave standard siren         of the Copernican principle, Phys. Rev. Lett. 101, 011301
+     measurement of the Hubble constant, Nature 551, 85–88            (2008).
+     (2017).                                                     [15] A. C. Aitken, On Bernoulli’s numerical solution of al-
+                                                                                                                            15
+
+     gebraic equations, Proc. R. Soc. Edinburgh 46, 289–305          Hubble constant and the deceleration parameter, Phys.
+     (1927).                                                         Rev. Research 2, 013028 (2020).
+[16] D. Potts and M. Tasche, Parameter estimation for ex-       [24] L. Pogosian, G.-B. Zhao, and K. Jedamzik,
+     ponential sums by approximate Prony method, Signal              Recombination-independent determination of the
+     Processing 90, 1631–1642 (2010).                                sound horizon and the Hubble constant from BAO,
+[17] G. H. Golub and V. Pereyra, The differentiation of              Astrophys. J. Lett. 904, L17 (2020).
+     pseudo-inverses and nonlinear least squares problems       [25] M. Seikel, C. Clarkson, and M. Smith, Reconstruction
+     whose variables separate, SIAM J. Numer. Anal. 10, 413–         of dark energy and expansion dynamics using Gaussian
+     432 (1973).                                                     processes, JCAP 06 (2012) 036.
+[18] L. Lombriser and A. Taylor, Breaking a dark degeneracy     [26] E. C. Fieller, Some problems in interval estimation, J. R.
+     with gravitational waves, JCAP 03 (2016) 031.                   Stat. Soc. B 16, 175–185 (1954).
+[19] A. Nishizawa, Generalized framework for testing grav-      [27] R. B. Davies, Hypothesis testing when a nuisance param-
+     ity with gravitational-wave propagation. I. Formulation,        eter is present only under the alternative, Biometrika 64,
+     Phys. Rev. D 97, 104037 (2018).                                 247–254 (1977).
+[20] B. P. Abbott et al., Gravitational waves and gamma-rays    [28] J. P. Imhof, Computing the distribution of quadratic
+     from a binary neutron star merger: GW170817 and GRB             forms in normal variables, Biometrika 48, 419–426
+     170817A, Astrophys. J. Lett. 848, L13 (2017).                   (1961).
+[21] J. M. Ezquiaga and M. Zumalacárregui, Dark energy in      [29] I. Mandel, W. M. Farr, and J. R. Gair, Extracting distri-
+     light of multi-messenger gravitational-wave astronomy,          bution parameters from multiple uncertain observations
+     Front. Astron. Space Sci. 5, 44 (2018).                         with selection biases, Mon. Not. R. Astron. Soc. 486,
+[22] M. Lagos, M. Fishbach, P. Landry, and D. E. Holz, Stan-         1086–1093 (2019).
+     dard sirens with a running Planck mass, Phys. Rev. D       [30] C. T. Mpetha, G. Congedo, A. Taylor, and M. A. Hendry,
+     99, 083504 (2019).                                              Impact of weak lensing on bright standard siren analyses,
+[23] D. Camarena and V. Marra, Local determination of the            Phys. Rev. D 110, 023502 (2024).
+

@@ -1,0 +1,23 @@
+test_bin_average_by_independent_quadrature (test_model.ModelTests.test_bin_average_by_independent_quadrature) ... ok
+test_contrast_annihilates_model (test_model.ModelTests.test_contrast_annihilates_model) ... ok
+test_contrast_gls_with_correlated_noise (test_model.ModelTests.test_contrast_gls_with_correlated_noise) ... ok
+test_declared_marginal_variance (test_model.ModelTests.test_declared_marginal_variance) ... ok
+test_design_endpoint_parameters (test_model.ModelTests.test_design_endpoint_parameters) ... ok
+test_equal_grid_inverse_symbolic (test_model.ModelTests.test_equal_grid_inverse_symbolic) ... ok
+test_fast_mode_bound (test_model.ModelTests.test_fast_mode_bound) ... ok
+test_fisher_table_rounding (test_model.ModelTests.test_fisher_table_rounding) ... ok
+test_gain_covariance_annihilation (test_model.ModelTests.test_gain_covariance_annihilation) ... ok
+test_grid_profile_contains_fixed_fit (test_model.ModelTests.test_grid_profile_contains_fixed_fit) ... ok
+test_hankel_symbolic_factor_and_noise_bias (test_model.ModelTests.test_hankel_symbolic_factor_and_noise_bias) ... ok
+test_heldout_covariance_by_full_linear_map (test_model.ModelTests.test_heldout_covariance_by_full_linear_map) ... ok
+test_irregular_inverse_both_signs (test_model.ModelTests.test_irregular_inverse_both_signs) ... ok
+test_irregular_rejects_invalid_ratio (test_model.ModelTests.test_irregular_rejects_invalid_ratio) ... ok
+test_known_exponent_two_point_symbolic (test_model.ModelTests.test_known_exponent_two_point_symbolic) ... ok
+test_matched_covariance_coordinate_invariance (test_model.ModelTests.test_matched_covariance_coordinate_invariance) ... ok
+test_scan_q_orthonormal_to_constant (test_model.ModelTests.test_scan_q_orthonormal_to_constant) ... ok
+test_slow_mode_bound (test_model.ModelTests.test_slow_mode_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.284s
+
+OK

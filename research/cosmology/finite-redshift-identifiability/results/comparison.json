@@ -1,0 +1,132 @@
+{
+  "status": "INDEPENDENT_REIMPLEMENTATION_WITH_UNRESOLVED_HISTORICAL_COVARIANCE_DISCREPANCY",
+  "table_i": [
+    {
+      "case": "single_power",
+      "n_difference": 1.2083081646352412e-08,
+      "xi_difference": 5.484235288122363e-11,
+      "fixed_rejection_rate": {
+        "reported": 0.0509,
+        "independent": 0.052,
+        "difference": 0.0010999999999999968,
+        "conditional_two_sample_standard_error": 0.0022091309377218907,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      },
+      "profile_rejection_rate": {
+        "reported": 0.0506,
+        "independent": 0.05025,
+        "difference": -0.00034999999999999615,
+        "conditional_two_sample_standard_error": 0.002188202201580101,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      }
+    },
+    {
+      "case": "constant_gain_096",
+      "n_difference": 1.2083079425906362e-08,
+      "xi_difference": 5.484146470280393e-11,
+      "fixed_rejection_rate": {
+        "reported": 0.0497,
+        "independent": 0.0492,
+        "difference": -0.0005000000000000004,
+        "conditional_two_sample_standard_error": 0.0021680552345362423,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      },
+      "profile_rejection_rate": {
+        "reported": 0.0515,
+        "independent": 0.0495,
+        "difference": -0.001999999999999995,
+        "conditional_two_sample_standard_error": 0.002189720301773722,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      }
+    },
+    {
+      "case": "second_power",
+      "n_difference": -4.480186484023818e-06,
+      "xi_difference": 4.608667863781335e-06,
+      "fixed_rejection_rate": {
+        "reported": 0.052,
+        "independent": 0.051,
+        "difference": -0.0010000000000000009,
+        "conditional_two_sample_standard_error": 0.002210147053931027,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      },
+      "profile_rejection_rate": {
+        "reported": 0.052,
+        "independent": 0.0496,
+        "difference": -0.0023999999999999994,
+        "conditional_two_sample_standard_error": 0.0021958579189009474,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      }
+    },
+    {
+      "case": "calibration_drift",
+      "n_difference": -2.5353511454717648e-06,
+      "xi_difference": 2.082860770968864e-06,
+      "fixed_rejection_rate": {
+        "reported": 0.0497,
+        "independent": 0.04875,
+        "difference": -0.0009499999999999995,
+        "conditional_two_sample_standard_error": 0.002163369449493082,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      },
+      "profile_rejection_rate": {
+        "reported": 0.0503,
+        "independent": 0.04825,
+        "difference": -0.0020499999999999963,
+        "conditional_two_sample_standard_error": 0.0021643919180684445,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      }
+    },
+    {
+      "case": "localized_departure",
+      "n_difference": 3.191423185278097e-06,
+      "xi_difference": -1.4796439787856386e-06,
+      "fixed_rejection_rate": {
+        "reported": 0.062,
+        "independent": 0.06285,
+        "difference": 0.0008500000000000035,
+        "conditional_two_sample_standard_error": 0.002419254818120654,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      },
+      "profile_rejection_rate": {
+        "reported": 0.0587,
+        "independent": 0.0592,
+        "difference": 0.0005000000000000004,
+        "conditional_two_sample_standard_error": 0.0023553096399412114,
+        "note": "Descriptive only: excludes finite calibration-threshold uncertainty; original draw ordering is unknown."
+      }
+    }
+  ],
+  "covariance_diagnostic": {
+    "declared_equations_69_to_72": {
+      "sigma_C": 0.015839666450211187,
+      "fieller_interval": [
+        0.8589773611351789,
+        0.9432675400908327
+      ],
+      "binning_fit": {
+        "n": 3.0154088982332254,
+        "xi": 0.9003232140500678,
+        "calibration": 1.0400592427898498,
+        "noncentrality": 1.967203176923272e-06
+      }
+    },
+    "diagnostic_f_in_correlated_core_without_separate_tail": {
+      "sigma_C": 0.015951450605629042,
+      "fieller_interval": [
+        0.8586262916665156,
+        0.9436506916221623
+      ],
+      "binning_fit": {
+        "n": 3.015389536785708,
+        "xi": 0.9003232549051576,
+        "calibration": 1.0400590334861133,
+        "noncentrality": 1.9447638710427073e-06
+      }
+    }
+  },
+  "interpretation": "The alternative covariance matches the reported rounded deterministic Fieller and binning numbers. This is evidence of a specification/output discrepancy, not proof of which code the original author executed. Main outputs keep the explicitly declared covariance.",
+  "historical_hankel_comparison": "Not directly comparable: original five-point grid not specified.",
+  "monte_carlo_note": "A seed alone does not specify a random stream: generator, draw order, covariance, and implementation also matter. No original bitwise replication claim.",
+  "independent_fieller_coverage": 0.95085
+}

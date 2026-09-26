@@ -1,0 +1,78 @@
+{
+  "provenance": "INDEPENDENT_REIMPLEMENTATION_NOT_ORIGINAL_RUN",
+  "seed": 20260926,
+  "Gaussian_assumption": true,
+  "fieller": {
+    "catalogs": 100000,
+    "coverage": 0.95085,
+    "noiseless_interval": [
+      0.8589773611351789,
+      0.9432675400908327
+    ],
+    "sigma_C": 0.015839666450211187
+  },
+  "constant_null_scan": {
+    "calibration_catalogs": 20000,
+    "evaluation_catalogs": 20000,
+    "threshold": 4.719222124618903,
+    "calibrated_rejection": 0.05395,
+    "rank_p_rejection": 0.05395,
+    "single_exponent_threshold": 3.841458820694124,
+    "incorrect_single_threshold_rejection": 0.08715
+  },
+  "heldout": {
+    "catalogs": 100000,
+    "mean_statistic": 8.010794668136807,
+    "degrees_of_freedom": 8,
+    "rejection": 0.05157
+  },
+  "hankel": {
+    "catalogs": 200000,
+    "s": [
+      0.0295588022415444,
+      0.2968221738481857,
+      0.564085545454827,
+      0.8313489170614684,
+      1.0986122886681098
+    ],
+    "grid_provenance": "Independent declared grid; historical grid unspecified in PDF",
+    "true_determinants": [
+      3.469446951953614e-18,
+      0.0
+    ],
+    "raw_bias_theory": [
+      -0.0018,
+      -0.0018
+    ],
+    "raw_bias_empirical": [
+      -0.0017990621615087347,
+      -0.0018109693328280903
+    ],
+    "corrected_mean": [
+      9.378384912706444e-07,
+      -1.0969332828072292e-05
+    ],
+    "covariance_theory": [
+      [
+        2.0972694598828116e-05,
+        -2.242136124037659e-06
+      ],
+      [
+        -2.2421361240376267e-06,
+        9.39556746654624e-06
+      ]
+    ],
+    "covariance_empirical": [
+      [
+        2.0990386222627516e-05,
+        -2.1899879677635285e-06
+      ],
+      [
+        -2.1899879677635285e-06,
+        9.396741629582647e-06
+      ]
+    ],
+    "correlation_theory": -0.15972516731938527,
+    "correlation_empirical": -0.15593473660482982
+  }
+}

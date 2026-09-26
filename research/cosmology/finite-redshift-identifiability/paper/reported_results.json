@@ -1,0 +1,126 @@
+{
+  "status": "MANUSCRIPT_REPORTED_NOT_ORIGINAL_RESULT_FILES",
+  "source": "paper/Finite_Redshift_Identifiability_Distance_Ratios.pdf",
+  "table_i": {
+    "page": 10,
+    "seed": 20260927,
+    "calibration_catalogs": 30000,
+    "test_catalogs_per_case": 20000,
+    "critical_values": [
+      34.1599,
+      32.8542
+    ],
+    "rows": [
+      {
+        "case": "single_power",
+        "fixed_rejection_rate": 0.0509,
+        "profile_rejection_rate": 0.0506,
+        "n": 3,
+        "xi": 0.9
+      },
+      {
+        "case": "constant_gain_096",
+        "fixed_rejection_rate": 0.0497,
+        "profile_rejection_rate": 0.0515,
+        "n": 3,
+        "xi": 0.9
+      },
+      {
+        "case": "second_power",
+        "fixed_rejection_rate": 0.052,
+        "profile_rejection_rate": 0.052,
+        "n": 2.5776,
+        "xi": 0.91611
+      },
+      {
+        "case": "calibration_drift",
+        "fixed_rejection_rate": 0.0497,
+        "profile_rejection_rate": 0.0503,
+        "n": 3.34482,
+        "xi": 0.90972
+      },
+      {
+        "case": "localized_departure",
+        "fixed_rejection_rate": 0.062,
+        "profile_rejection_rate": 0.0587,
+        "n": 2.95009,
+        "xi": 0.90775
+      }
+    ],
+    "fixed_xi_mean": 0.90073,
+    "fixed_xi_sd": 0.0215,
+    "forced_C1_xi": 0.95034,
+    "forced_C1_noncentrality": 6.38
+  },
+  "extended": {
+    "pages": [
+      10,
+      11
+    ],
+    "seed": 20260926,
+    "fieller": {
+      "catalogs": 100000,
+      "coverage": 0.95017,
+      "interval": [
+        0.85863,
+        0.94365
+      ],
+      "sigma_C": 0.01595
+    },
+    "constant_null": {
+      "calibration_catalogs": 20000,
+      "evaluation_catalogs": 20000,
+      "threshold": 4.81599,
+      "calibrated_rejection": 0.0508,
+      "single_threshold_rejection": 0.0893
+    },
+    "heldout": {
+      "catalogs": 100000,
+      "mean": 8.00894,
+      "rejection": 0.05005
+    },
+    "hankel": {
+      "catalogs": 200000,
+      "correlation_theory": -0.20587,
+      "correlation_empirical": -0.20501,
+      "bias_theory": -0.0018,
+      "bias_empirical": -0.0017894,
+      "sd_theory": 0.0043105,
+      "sd_empirical": 0.0043074,
+      "corrected_mean": 1.06e-05,
+      "original_grid": "not specified"
+    }
+  },
+  "table_ii": {
+    "page": 11,
+    "low_only": [
+      10.8103,
+      0.205
+    ],
+    "broad": [
+      2.0498,
+      0.02174
+    ],
+    "high_only": [
+      21.8409,
+      1.20322
+    ],
+    "three_bands": [
+      1.9063,
+      0.01883
+    ],
+    "column_order": [
+      "sigma_n",
+      "sigma_xi"
+    ]
+  },
+  "binning": {
+    "page": 11,
+    "n": 3.01539,
+    "xi": 0.900323,
+    "C": 1.040059,
+    "noncentrality": 1.94e-06,
+    "window_aware_xi": 0.9,
+    "window_aware_C": 1.04
+  }
+}

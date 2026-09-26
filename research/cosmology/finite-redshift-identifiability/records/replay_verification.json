@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "replay_files": 18,
+  "replay_npz_arrays": 43,
+  "rtol": 1e-07,
+  "atol": 1e-10,
+  "note": "Fresh full replay of all archived arrays, covariance CSVs and result JSONs; timestamps and figure bytes excluded from numerical comparison."
+}
