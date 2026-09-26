@@ -28,7 +28,7 @@ are AI research collaborators and co-authors. See [NOTICE.md](NOTICE.md).
 | [GEN3-RXT](docs/GEN3_RXT.md) | Native CPU/GPU research and the relationship to the portable package |
 | [Riemann Hypothesis research](research/rh/README.md) | Latest paper, exact identities, computational results and the remaining uniform estimate |
 | [Mersenne / MP research](research/mersenne/README.md) | Certificate work, factor-search coverage, learned choices and paused campaign status |
-| [Frustrated-spin research](frustrated-spin/README.md) | GEN4 exact N1–120 atlas, learning campaigns, packet-family extension and precommitted N300 test |
+| [Frustrated-spin research](frustrated-spin/README.md) | Exact atlas, packet continuation, precommitted N300 test and fully connected graph constructions |
 | [All research areas](docs/RESEARCH.md) | RH, MP, Starbreaker, ATOM3D/Li-6, tau and clock/history work |
 | [Current project status](docs/PROJECT_STATUS.md) | Dated engine and research status, with source provenance |
 | [SAMA](SAMA/README.md) | Four supporting volumes, explanations, tests and historical source data |
