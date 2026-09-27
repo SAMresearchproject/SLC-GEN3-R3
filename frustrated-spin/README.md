@@ -21,6 +21,8 @@ campaigns, packet-family extension, the September 26, 2026 N300 courtroom
 test, and the subsequent joint-response capability and phase experiments. Sean Brady is the originator and conceptual director; OpenAI ChatGPT and
 Codex are AI research collaborators and co-authors.
 
+Software is **[MIT licensed](LICENSE)**; research data, reports and figures are **[CC BY 4.0](LICENSE-DATA)**. [License scope](LICENSING.md) covers this subtree, the identified runtime copies and public N2000 data. [Citation and DOI](CITATION.cff).
+
 ## Start here
 
 | Record | Contents |

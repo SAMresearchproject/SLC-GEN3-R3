@@ -154,6 +154,8 @@ added in the September 14 update. The [September 16 manifest](provenance/RESEARC
 [LICENSE.md](LICENSE.md). It permits noncommercial research; commercial use,
 commercial R&D, products and paid services require separate written permission.
 
+The **[frustrated-spin release](frustrated-spin/LICENSING.md)** is an explicit exception: MIT code and identified runtime copies; CC BY 4.0 data, reports and figures. Other project scopes retain their existing terms.
+
 The SAMA collection retains its [own licences](SAMA/LICENSE.md),
 [notices](SAMA/NOTICE.md) and [stewardship](SAMA/STEWARDSHIP.md), including the
 originating terms of copied Courtroom files. Its inclusion does not replace

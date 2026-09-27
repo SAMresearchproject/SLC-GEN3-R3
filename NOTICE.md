@@ -1,5 +1,7 @@
 # Copyright and attribution
 
+**Scoped spin exception (2026-09-27):** The `frustrated-spin/` subtree and the exact spin runtime copies identified in [frustrated-spin/RUNTIME_LICENSE.md](frustrated-spin/RUNTIME_LICENSE.md) have an additional MIT software / CC BY 4.0 research-materials grant. See [frustrated-spin/LICENSING.md](frustrated-spin/LICENSING.md). The research-only terms below continue to govern the remainder of this release; they add no restriction to recipients electing the scoped spin open licenses.
+
 Copyright © 2026 Sean Brady. All rights reserved, subject to LICENSE.md and
 independently applicable third-party licences.
 
