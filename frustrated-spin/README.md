@@ -1,5 +1,9 @@
 # GEN4 frustrated-spin research
 
+**Exact N2000 g(E,M,b) is complete for all six graph cases and all 16 boundary states per case.** The [N2000 reproduction package](reproduce/n2000/README.md) includes frozen inputs, both encodings' verification receipts, pinned dependencies, a portable native runner, and checksum-verified data access. The primary table contains **244,104,392 exact records**; its compressed files total **37.4 GB**.
+
+[Public N2000 data folder](https://drive.google.com/drive/folders/1F8wvIRqL3pdB34db-llz0YjnIbFbRg9Y) · [Data manifest and hosting status](reproduce/n2000/DATA_MANIFEST.json) · [Fresh reproduction checks](reproduce/n2000/VALIDATION.json)
+
 **Fully constructed graphs for every spin count from N=1 through N=1408,
 including every integer in between, with no gaps.** The catalog contains
 **six fully connected signed graph variants at each N: 8,448 graphs in total**.
@@ -21,7 +25,8 @@ Codex are AI research collaborators and co-authors.
 
 | Record | Contents |
 |---|---|
-| [Latest joint capability and results](GEN4/spin_joint_install1/RESULT.md) | Installed shared packet/joint solver; N1408 construction coverage, 54 dense magnetization cases and 24 joint datasets |
+| [Reproduce N2000 exact g(E,M,b)](reproduce/n2000/README.md) | Six completed cases, 96 boundaries, 192 independent encoding receipts, exact binary hashes, public data and native recomputation |
+| [Earlier joint capability and results](GEN4/spin_joint_install1/RESULT.md) | Installed shared packet/joint solver; N1408 construction coverage, 54 dense magnetization cases and 24 joint datasets |
 | [Phase response, step 1](GEN4/vol_ii_joint_response1/REPORT.md) | Equal zero-field spectra with different contact-conditioned alignment responses |
 | [Collective response, step 2](GEN4/vol_ii_joint_response2/REPORT.md) | Exact coupling thresholds and full-spectrum reflection around h=1 |
 | [Complete graph catalog: every N1–N1408](GEN4/frustrated_spin_dense_extension1/README.md) | No gaps: six fully constructed variants at every spin count, 8,448 graphs total; construction checks and custody locations |
@@ -42,9 +47,10 @@ Codex are AI research collaborators and co-authors.
 
 The three packet-family exact catalogs now reach **N1408**. Complete signed graph
 construction covers six variants at each N1..1408, for **8,448 graph sources**.
-Completed dense magnetization production covers **54 cases through N900**;
-full joint energy–magnetization–boundary output covers **24 datasets at
-N120, N300, N750 and N900**. These coverage categories retain separate identities.
+Earlier dense magnetization production covers **54 cases through N900**.
+Full joint energy–magnetization–boundary output now covers **30 datasets at
+N120, N300, N750, N900 and N2000**, including the six newly published N2000 cases.
+These coverage categories retain separate identities.
 
 The [shared capability](GEN4/spin_joint_install1/GUIDE.md) extends existing
 SLC/CE/GEN3/GEN4 operations and has executed SB/A3D41 adoption. Local installation
